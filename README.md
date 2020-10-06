@@ -1,2 +1,3 @@
-# maliput-documentation
-Documentation for the maliput family of repositories.
+# Maliput Documentation
+
+High level documentation (sphinx) and Changelog for maliput & family.
