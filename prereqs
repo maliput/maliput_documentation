@@ -1,0 +1,15 @@
+#!/bin/bash
+
+set -e pipefail
+
+source prereqs.lib
+
+prereqs.init 'The maliput-documentation source distribution prerequisites script'
+
+prereqs.assert_sudo
+
+prereqs.apt update
+prereqs.apt install --no-install-recommends \
+      python3-sphinx
+
+prereqs.done
