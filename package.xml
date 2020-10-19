@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>maliput-documentation</name>
+  <version>1.0.0</version>
+  <description>Maliput-repository family documentation.</description>
+  <maintainer email="andrew.best@tri.global">Andrew Best</maintainer>
+  <license file="LICENSE">BSD 3-Clause</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>python3-sphinx</build_depend>
+  <build_depend>python3-catkin-pkg</build_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>
