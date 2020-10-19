@@ -1,5 +1,5 @@
-Welcome to Maliput documentation!
-=======================================
+Welcome to maliput documentation!
+=================================
 
 This is work in progress.
 
@@ -7,10 +7,11 @@ This is work in progress.
    :maxdepth: 2
    :caption: Contents:
 
-   example_issues
-   example_contributions
-
-
+   installation_quickstart
+   developer_guidelines
+   contributing
+   gallery
+   documentation
 
 Indices and tables
 ==================

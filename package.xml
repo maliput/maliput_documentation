@@ -3,8 +3,10 @@
 <package format="3">
   <name>maliput-documentation</name>
   <version>1.0.0</version>
-  <description>High level documentation (sphinx) and Changelog for maliput family.</description>
+  <description>Maliput-repository family documentation.</description>
   <maintainer email="andrew.best@tri.global">Andrew Best</maintainer>
   <license file="LICENSE">BSD 3-Clause</license>
+
+  <build_depend>python3-sphinx</build_depend>
 
 </package>
