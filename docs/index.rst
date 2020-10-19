@@ -13,9 +13,6 @@ This is work in progress.
    gallery
    documentation
 
-Indices and tables
-==================
+Helpful tools:
 
-* :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
