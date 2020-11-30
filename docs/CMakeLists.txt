@@ -10,7 +10,7 @@ find_package(ament_cmake_doxygen REQUIRED)
 ament_doxygen_generate(doxygen_maliput_docs
   PROJECT_NAME maliput-docs STANDALONE
   BUILD_DIRECTORY ${SPHINX_BUILD}/from_doxygen
-  DEPENDENCIES malidrive maliput maliput_dragway
+  DEPENDENCIES maliput maliput_dragway maliput_malidrive
                maliput_multilane maliput_integration
                maliput_integration_tests
 )
