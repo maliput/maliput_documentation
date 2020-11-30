@@ -18,13 +18,13 @@ this repository gathers documentation from:
 
 ## Requirements
 
- * Workspace must be created as it is explained in 
+ * Workspace must be created as it is explained in
 [dsim-repos-index](https://github.com/ToyotaResearchInstitute/dsim-repos-index).
 
 ## Build
 
 ```sh
-  colcon build --packages-up-to maliput-documentation
+  colcon build --packages-up-to maliput_documentation
 ```
 
 # Visualize
@@ -34,7 +34,7 @@ To visualize the documentation it is needed to open the `index.html` file with y
 
 Standing in the root of the workspace.
 ```sh
-xdg-open build/maliput-documentation/docs/docs/sphinx/index.html
+xdg-open build/maliput_documentation/docs/docs/sphinx/index.html
 ```
 
 _Note:_ Run this command outside the docker container, `xdg-open` is not installed.

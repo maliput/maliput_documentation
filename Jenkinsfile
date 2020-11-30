@@ -15,14 +15,14 @@ for ( pipeline in pipelines ) {
         ansiColor('xterm') {
           try {
             stage('[' + branchName + ']' + 'checkout') {
-              dir('src/maliput-documentation') {
+              dir('src/maliput_documentation') {
                 checkout scm
               }
             }
             stage('[' + branchName + ']' + 'checkout_index') {
-              sh 'src/maliput-documentation/ci/jenkins/checkout_index'
+              sh 'src/maliput_documentation/ci/jenkins/checkout_index'
             }
-            withEnv(['COLCON_BUILD_EXTRA_ARGS=--packages-up-to maliput-documentation']) {
+            withEnv(['COLCON_BUILD_EXTRA_ARGS=--packages-up-to maliput_documentation']) {
               load './index/ci/jenkins/pipeline_' + branchName + '.groovy'
             }
           } finally {
