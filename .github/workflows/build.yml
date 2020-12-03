@@ -26,6 +26,11 @@ jobs:
         token: ${{ secrets.MALIPUT_TOKEN }}
     - uses: actions/checkout@v2
       with:
+        repository: ToyotaResearchInstitute/maliput_malidrive
+        path: ${{ env.ROS_WS }}/src/maliput
+        token: ${{ secrets.MALIPUT_TOKEN }}
+    - uses: actions/checkout@v2
+      with:
         repository: ToyotaResearchInstitute/maliput-dragway
         path: ${{ env.ROS_WS }}/src/maliput_dragway
         token: ${{ secrets.MALIPUT_TOKEN }}
@@ -43,11 +48,6 @@ jobs:
       with:
         repository: ToyotaResearchInstitute/maliput-integration-tests
         path: ${{ env.ROS_WS }}/src/maliput_integration_tests
-        token: ${{ secrets.MALIPUT_TOKEN }}
-    - uses: actions/checkout@v2
-      with:
-        repository: ToyotaResearchInstitute/malidrive
-        path: ${{ env.ROS_WS }}/src/malidrive
         token: ${{ secrets.MALIPUT_TOKEN }}
     - uses: actions/checkout@v2
       with:
