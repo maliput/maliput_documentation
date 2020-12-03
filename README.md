@@ -7,7 +7,7 @@ High level documentation (sphinx) and Changelog for maliput & family.
 In order to build high level documentation
 this repository gathers documentation from:
  - [maliput](https://github.com/ToyotaResearchInstitute/maliput)
- - [malidrive](https://github.com/ToyotaResearchInstitute/malidrive)
+ - [maliput_malidrive](https://github.com/ToyotaResearchInstitute/maliput_malidrive)
  - [maliput-dragway](https://github.com/ToyotaResearchInstitute/maliput-dragway)
  - [maliput-multilane](https://github.com/ToyotaResearchInstitute/maliput-multilane)
  - [maliput-integration](https://github.com/ToyotaResearchInstitute/maliput-integration)
