@@ -112,7 +112,7 @@ Libraries
     add_library(maliput::foo ALIAS foo)
 
 * Use ``_`` instead of ``-`` in compound names.
-* Include in the  the binary name the project name:
+* Include in the binary name the project name:
 
 .. code-block:: cmake
     :linenos:
