@@ -65,6 +65,9 @@ Languages
 C++ programming
 ^^^^^^^^^^^^^^^
 
+The workspace uses C++ 17 and each package should compile with ``gcc`` and
+``clang`` (see `Compiler support`_ for more details).
+
 The workspace follows `Drake style guide`_ which is a derivative of
 `Google style guide`_.
 
@@ -161,11 +164,11 @@ Executables
 .. code-block:: cmake
     :linenos:
 
-    install(
-      TARGETS
-         foo
-      DESTINATION
-        ${CMAKE_INSTALL_BINDIR}/${PROJECT_NAME}/
+    install(foo
+      EXPORT ${PROJECT_NAME}-targets
+      ARCHIVE DESTINATION lib
+      LIBRARY DESTINATION lib
+      RUNTIME DESTINATION bin
     )
 
 Resources
