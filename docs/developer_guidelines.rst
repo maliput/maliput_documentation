@@ -86,7 +86,6 @@ Python programming
 
 Code is formatted following PEP8.
 
-
 CMake programming
 ^^^^^^^^^^^^^^^^^
 
@@ -200,7 +199,35 @@ Linting
 packages hold a tools folder at the root level in which a script called
 ``reformat_code.sh`` calls the previous tool with the custom package.
 
-Similarly, python checks are run via ``tools/run_python_checks.sh``.
+For Python code, make sure to use `ament cmake flake8`_. To do so, you should
+follow the `instructions here`_ and use one of the ``.flake8`` files in your
+package root directory to tell the linter which are the tests you want to
+perform. In particular, we edit it so it has the following extras:
+
+.. code-block:: RST
+    :linenos:
+
+    # Set the maximum length that any line (with some exceptions) may be.
+    max-line-length = 100
+    # Set the maximum allowed McCabe complexity value for a block of code.
+    max-complexity = 10
+    # Toggle whether pycodestyle should enforce matching the indentation of the opening bracket’s line.
+    # incluences E131 and E133
+    hang-closing = True
+    # Specify a list of codes to ignore.
+    ignore =
+        E133,
+        E226,
+    # Specify the list of error codes you wish Flake8 to report.
+    select =
+      E,
+      W,
+      F,
+      C
+
+
+.. _ament cmake flake8: https://github.com/ament/ament_lint/tree/master/ament_cmake_flake8
+.. _instructions here: https://github.com/ament/ament_lint/blob/master/ament_cmake_flake8/doc/index.rst
 
 
 Supported OSs and environments
