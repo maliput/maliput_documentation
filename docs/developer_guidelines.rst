@@ -158,6 +158,7 @@ Libraries
   are compiled using `ubsan`(undefined behavior sanitizer) the property `ENABLE_EXPORTS`
   should be enabled on the executable target in order to instruct the linker to add
   all symbols to the dynamic symbol table.
+  For further information see next `reference link`_.
 
 .. code-block:: cmake
     :linenos:
@@ -167,8 +168,8 @@ Libraries
         ENABLE_EXPORTS ON
     )
 
-  For further information see next reference link_.
-  .. _link: https://stackoverflow.com/questions/57361776/use-ubsan-with-dynamically-loaded-shared-libraries
+.. _reference link: https://stackoverflow.com/questions/57361776/use-ubsan-with-dynamically-loaded-shared-libraries
+
 
 Executables
 """""""""""
