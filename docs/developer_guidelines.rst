@@ -154,6 +154,23 @@ Libraries
   properly set. However, the decision is to add another layer of security at the
   target level.
 
+* When using the maliput plugin architecture system, if shared library and executable
+  are compiled using `ubsan`(undefined behavior sanitizer) the property `ENABLE_EXPORTS`
+  should be enabled on the executable target in order to instruct the linker to add
+  all symbols to the dynamic symbol table.
+  For further information see next `reference link`_.
+
+.. code-block:: cmake
+    :linenos:
+
+    set_target_properties(foo
+      PROPERTIES
+        ENABLE_EXPORTS ON
+    )
+
+.. _reference link: https://stackoverflow.com/questions/57361776/use-ubsan-with-dynamically-loaded-shared-libraries
+
+
 Executables
 """""""""""
 
