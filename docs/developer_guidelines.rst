@@ -51,7 +51,7 @@ following circumstances:
   in the pull request:
     * ``do-clang-test`` executes ``clang`` build and test, ``asan``, ``ubsan``
       and ``tsan`` (when enabled) build and test.
-    * ``do-static-analizer-test`` executes ``scan-build`` in the project.
+    * ``do-static-analyzer-test`` executes ``scan-build`` in the project.
 * Scheduled job: there are two types of scheduled jobs. One that runs every
   night and executes a full build and test of the entire workspace with
   ``gcc``. Another weekly event runs also the sanitizers and static analyzer.
