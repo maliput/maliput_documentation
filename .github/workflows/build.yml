@@ -1,6 +1,11 @@
 name: Compile
 
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron:  '0 9 * * *' # 9:00am UTC, 1:00am PST.
+
 
 env:
   PACKAGE_NAME: maliput_documentation
@@ -106,3 +111,21 @@ jobs:
       run: |
         . /opt/ros/${ROS_DISTRO}/setup.bash;
         colcon build --packages-up-to ${PACKAGE_NAME} --event-handlers=console_direct+;
+    # checkouts to gh-pages
+    - uses: actions/checkout@v2
+      with:
+        path: ${{ env.ROS_WS }}/src/${{ env.PACKAGE_NAME }}
+        ref: gh-pages
+    # dumps the content
+    - name: push to gh-pages
+      shell: bash
+      working-directory: ${{ env.ROS_WS }}
+      run: |
+        rm -r ${{ env.PACKAGE_NAME }}/*
+        cp -r install/maliput_documentation/share/maliput_documentation/doc/maliput-docs/html/* src/${{ env.PACKAGE_NAME }}/
+        echo $(date) > src/${{ env.PACKAGE_NAME }}/build_stamp
+        cd src/${{ env.PACKAGE_NAME }}
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git commit -m "Nightly build: $(date)" -a
+        git push
