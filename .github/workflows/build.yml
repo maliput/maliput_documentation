@@ -111,13 +111,15 @@ jobs:
       run: |
         . /opt/ros/${ROS_DISTRO}/setup.bash;
         colcon build --packages-up-to ${PACKAGE_NAME} --event-handlers=console_direct+;
-    # checkouts to gh-pages
+    # checkout to gh-pages
     - uses: actions/checkout@v2
+      if: ${{ github.event_name == 'schedule' }}
       with:
         path: ${{ env.ROS_WS }}/src/${{ env.PACKAGE_NAME }}
         ref: gh-pages
-    # dumps the content
+    # dump the content into gh-pages
     - name: push to gh-pages
+      if: ${{ github.event_name == 'schedule' }}
       shell: bash
       working-directory: ${{ env.ROS_WS }}
       run: |
