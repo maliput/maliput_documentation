@@ -122,7 +122,7 @@ jobs:
       working-directory: ${{ env.ROS_WS }}
       run: |
         rm -rf src/${{ env.PACKAGE_NAME }}/*
-        cp -r install/maliput_documentation/share/maliput_documentation/doc/maliput-docs/html/* src/${{ env.PACKAGE_NAME }}/
+        cp -r build/maliput_documentation/docs/docs/sphinx/* src/${{ env.PACKAGE_NAME }}/
         echo $(date) > src/${{ env.PACKAGE_NAME }}/build_stamp
         cd src/${{ env.PACKAGE_NAME }}
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
