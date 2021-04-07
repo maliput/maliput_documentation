@@ -1,0 +1,230 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Gallery &#8212; Maliput Documentation</title>
+    <link rel="stylesheet" href="_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Documentation" href="documentation.html" />
+    <link rel="prev" title="Contributing" href="contributing.html" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="documentation.html" title="Documentation"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="contributing.html" title="Contributing"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Maliput Documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="gallery">
+<h1>Gallery<a class="headerlink" href="#gallery" title="Permalink to this headline">¶</a></h1>
+<p><em>Collection of demos that shows the `maliput-malidrive`’s features:</em></p>
+<div class="section" id="geometries">
+<h2>Geometries<a class="headerlink" href="#geometries" title="Permalink to this headline">¶</a></h2>
+<p>At the moment, <cite>maliput-malidrive</cite> supports <cite>Lines</cite> and <cite>Arcs</cite> as geometries to describe a road.</p>
+<ul class="simple">
+<li><strong>Line</strong></li>
+</ul>
+<video controls width="600" autoplay loop>
+    <source src="us2_single_lane.webm" type="video/webm">
+
+    Sorry, your browser doesn't support embedded videos.
+</video><p><em>SingleLane.xodr</em></p>
+<ul class="simple">
+<li><strong>Arc</strong></li>
+</ul>
+<video controls width="600" autoplay loop>
+    <source src="us3_arc_lane.webm" type="video/webm">
+
+    Sorry, your browser doesn't support embedded videos.
+</video><p><em>ArcLane.xodr</em></p>
+<p>Each road can be piecewise-defined using an unlimited number of arcs and lines:
+- <strong>Combination of arcs and lines</strong></p>
+<video controls width="600" autoplay loop>
+    <source src="us4_s_shape_road.webm" type="video/webm">
+
+    Sorry, your browser doesn't support embedded videos.
+</video><p><em>SShapeRoad.xodr</em></p>
+</div>
+<div class="section" id="variable-number-of-lanes">
+<h2>Variable number of Lanes<a class="headerlink" href="#variable-number-of-lanes" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Each road supports as many lanes as needed.</li>
+</ul>
+<video controls width="600" autoplay loop>
+    <source src="us5_l_shape_road.webm" type="video/webm">
+
+    Sorry, your browser doesn't support embedded videos.
+</video><p><em>LShapeRoadVariableLanes.xodr</em></p>
+</div>
+<div class="section" id="elevation-profile">
+<h2>Elevation profile<a class="headerlink" href="#elevation-profile" title="Permalink to this headline">¶</a></h2>
+<p>Elevation of a Road could be piecewise-defined by using a unlimited number of third-grade polynomials.</p>
+<video controls width="600" autoplay loop>
+    <source src="us8_parking_garage_ramp.webm" type="video/webm">
+
+    Sorry, your browser doesn't support embedded videos.
+</video><p><em>ParkingGarageRamp.xodr</em></p>
+</div>
+<div class="section" id="lateral-profile">
+<h2>Lateral profile<a class="headerlink" href="#lateral-profile" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Superelevation:</li>
+</ul>
+<p>Superelevation of a Road could be piecewise-defined by using a unlimited number of third-grade polynomials.</p>
+<video controls width="600" autoplay loop>
+    <source src="us9_s_shape_superelevated_road.webm" type="video/webm">
+
+    Sorry, your browser doesn't support embedded videos.
+</video><p><em>SShapeSuperelevatedRoad.xodr</em></p>
+</div>
+<div class="section" id="lanes-with-varying-width">
+<h2>Lanes with varying width<a class="headerlink" href="#lanes-with-varying-width" title="Permalink to this headline">¶</a></h2>
+<video controls width="600" autoplay loop>
+    <source src="us10_line_variable_width.webm" type="video/webm">
+
+    Sorry, your browser doesn't support embedded videos.
+</video><p><em>LineVariableWidth.xodr</em></p>
+</div>
+<div class="section" id="lanes-with-varying-offset">
+<h2>Lanes with varying offset<a class="headerlink" href="#lanes-with-varying-offset" title="Permalink to this headline">¶</a></h2>
+<video controls width="600" autoplay loop>
+    <source src="us12_line_variable_offset.webm" type="video/webm">
+
+    Sorry, your browser doesn't support embedded videos.
+</video><p><em>LineVariableOffset.xodr</em></p>
+</div>
+<div class="section" id="intersections">
+<h2>Intersections<a class="headerlink" href="#intersections" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Connections/intersections between roads are supported.</li>
+</ul>
+<video controls width="600" autoplay loop>
+    <source src="us6_t_shape_road.webm" type="video/webm">
+
+    Sorry, your browser doesn't support embedded videos.
+</video><p><em>TShapeRoad.xodr</em></p>
+</div>
+<div class="section" id="integration-demos">
+<h2>Integration demos<a class="headerlink" href="#integration-demos" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Town05</li>
+</ul>
+<video controls width="600" autoplay loop>
+    <source src="town05.webm" type="video/webm">
+
+    Sorry, your browser doesn't support embedded videos.
+</video><p><em>Town05.xodr</em></p>
+<ul class="simple">
+<li>Town07</li>
+</ul>
+<video controls width="600" autoplay loop>
+    <source src="town07.webm" type="video/webm">
+
+    Sorry, your browser doesn't support embedded videos.
+</video><p><em>Town07.xodr</em></p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h3><a href="index.html">Table Of Contents</a></h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="installation_quickstart.html">Installation &amp; quickstart guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer_guidelines.html">Developer guidelines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Gallery</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#geometries">Geometries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#variable-number-of-lanes">Variable number of Lanes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#elevation-profile">Elevation profile</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#lateral-profile">Lateral profile</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#lanes-with-varying-width">Lanes with varying width</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#lanes-with-varying-offset">Lanes with varying offset</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#intersections">Intersections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#integration-demos">Integration demos</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="documentation.html">Documentation</a></li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="contributing.html"
+                        title="previous chapter">Contributing</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="documentation.html"
+                        title="next chapter">Documentation</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="documentation.html" title="Documentation"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="contributing.html" title="Contributing"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Maliput Documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020 Toyota Research Institute.
+    </div>
+  </body>
+</html>

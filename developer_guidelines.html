@@ -1,0 +1,406 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Developer guidelines &#8212; Maliput Documentation</title>
+    <link rel="stylesheet" href="_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Contributing" href="contributing.html" />
+    <link rel="prev" title="Installation &amp; quickstart guide" href="installation_quickstart.html" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="contributing.html" title="Contributing"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="installation_quickstart.html" title="Installation &amp; quickstart guide"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Maliput Documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="developer-guidelines">
+<h1>Developer guidelines<a class="headerlink" href="#developer-guidelines" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="workspace">
+<h2>Workspace<a class="headerlink" href="#workspace" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="package-description">
+<h3>Package description<a class="headerlink" href="#package-description" title="Permalink to this headline">¶</a></h3>
+<p>The following packages are provided:</p>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>Core packages:</dt>
+<dd><ul class="first last">
+<li><a class="reference external" href="TODO">maliput</a></li>
+<li><a class="reference external" href="TODO">maliput_py</a></li>
+<li><a class="reference external" href="TODO">ament_cmake_doxygen</a></li>
+<li><a class="reference external" href="TODO">maliput_documentation</a></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Backend implementations:</dt>
+<dd><ul class="first last">
+<li><a class="reference external" href="TODO">maliput_dragway</a></li>
+<li><a class="reference external" href="TODO">maliput_malidrive</a></li>
+<li><a class="reference external" href="TODO">maliput_multilane</a></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Integration packages:</dt>
+<dd><ul class="first last">
+<li><a class="reference external" href="TODO">maliput_integration</a></li>
+<li><a class="reference external" href="TODO">maliput_integration_tests</a></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Utility packages:</dt>
+<dd><ul class="first last">
+<li><a class="reference external" href="TODO">drake_vendor</a></li>
+<li><a class="reference external" href="TODO">pybind11</a></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="continuous-integration">
+<h3>Continuous integration<a class="headerlink" href="#continuous-integration" title="Permalink to this headline">¶</a></h3>
+<p>Each repository in the workspace contains a few jobs that run under the
+following circumstances:</p>
+<ul>
+<li><p class="first">On a push event: the last commit of branch compiles and runs the package
+tests with <code class="docutils literal"><span class="pre">gcc</span></code> and <code class="docutils literal"><span class="pre">ld</span></code>.</p>
+</li>
+<li><p class="first">On a pull request event: <code class="docutils literal"><span class="pre">gcc</span></code> build and tests will be executed. <code class="docutils literal"><span class="pre">clang</span></code>
+build, sanitizers and static analyzer will be triggered using specific labels
+in the pull request:</p>
+<blockquote>
+<div><ul class="simple">
+<li><code class="docutils literal"><span class="pre">do-clang-test</span></code> executes <code class="docutils literal"><span class="pre">clang</span></code> build and test, <code class="docutils literal"><span class="pre">asan</span></code>, <code class="docutils literal"><span class="pre">ubsan</span></code>
+and <code class="docutils literal"><span class="pre">tsan</span></code> (when enabled) build and test.</li>
+<li><code class="docutils literal"><span class="pre">do-static-analyzer-test</span></code> executes <code class="docutils literal"><span class="pre">scan-build</span></code> in the project.</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Scheduled job: there are two types of scheduled jobs. One that runs every
+night and executes a full build and test of the entire workspace with
+<code class="docutils literal"><span class="pre">gcc</span></code>. Another weekly event runs also the sanitizers and static analyzer.
+Every night, a tarball with a full build is generated as a way to have
+snapshots of the workspace binaries.</p>
+</li>
+</ul>
+<p>See <a class="reference internal" href="#compiler-support">Compiler support</a> for more details.</p>
+</div>
+</div>
+<div class="section" id="coding-standards">
+<h2>Coding standards<a class="headerlink" href="#coding-standards" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="languages">
+<h3>Languages<a class="headerlink" href="#languages" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="c-programming">
+<h4>C++ programming<a class="headerlink" href="#c-programming" title="Permalink to this headline">¶</a></h4>
+<p>The workspace uses C++ 17 and each package should compile with <code class="docutils literal"><span class="pre">gcc</span></code> and
+<code class="docutils literal"><span class="pre">clang</span></code> (see <a class="reference internal" href="#compiler-support">Compiler support</a> for more details).</p>
+<p>The workspace follows <a class="reference external" href="https://drake.mit.edu/styleguide/cppguide.html">Drake style guide</a> which is a derivative of
+<a class="reference external" href="https://google.github.io/styleguide/cppguide.html">Google style guide</a>.</p>
+<p>Exceptions:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://drake.mit.edu/styleguide/cppguide.html#Line_Length">Line length</a>: is modified to 120 columns to better fit the modern and wider
+screens.</li>
+</ul>
+</div>
+<div class="section" id="python-programming">
+<h4>Python programming<a class="headerlink" href="#python-programming" title="Permalink to this headline">¶</a></h4>
+<p>Code is formatted following PEP8.</p>
+</div>
+<div class="section" id="cmake-programming">
+<h4>CMake programming<a class="headerlink" href="#cmake-programming" title="Permalink to this headline">¶</a></h4>
+<p>CMake is the underlying build system tool and language, it is treated as a first
+class citizen like C++ and Python. For that reason, the following general
+conventions must be followed on top of <a class="reference external" href="https://index.ros.org/doc/ros2/Contributing/Code-Style-Language-Versions/#cmake">ROS2 CMake conventions</a>.</p>
+<div class="section" id="libraries">
+<h5>Libraries<a class="headerlink" href="#libraries" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li>All libraries should be <code class="docutils literal"><span class="pre">SHARED</span></code> libraries. Consider using
+<code class="docutils literal"><span class="pre">set(BUILD_SHARED_LIBS</span> <span class="pre">true)</span></code> in your top level CMakeLists.txt file.</li>
+<li>Libraries should not include in their target name the project name unless they
+are the main library in the package. We don’t expect to have as target names
+<code class="docutils literal"><span class="pre">maliput_foo</span></code> for the <code class="docutils literal"><span class="pre">foo</span></code> functionality.</li>
+<li>Use namespaces the following way: <code class="docutils literal"><span class="pre">project_name\:\:library_name</span></code> as follows:</li>
+</ul>
+<div class="highlight-cmake"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nb">add_library</span><span class="p">(</span><span class="s">maliput::foo</span> <span class="s">ALIAS</span> <span class="s">foo</span><span class="p">)</span>
+</pre></div>
+</td></tr></table></div>
+<ul class="simple">
+<li>Use <code class="docutils literal"><span class="pre">_</span></code> instead of <code class="docutils literal"><span class="pre">-</span></code> in compound names.</li>
+<li>Include in the binary name the project name:</li>
+</ul>
+<div class="highlight-cmake"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nb">set_target_properties</span><span class="p">(</span><span class="s">foo</span>
+  <span class="s">PROPERTIES</span>
+    <span class="s">OUTPUT_NAME</span> <span class="s">maliput_foo</span>
+<span class="p">)</span>
+</pre></div>
+</td></tr></table></div>
+<ul class="simple">
+<li>General <code class="docutils literal"><span class="pre">install()</span></code> commands are expected as follows:</li>
+</ul>
+<div class="highlight-cmake"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nb">install</span><span class="p">(</span>
+  <span class="s">TARGETS</span> <span class="s">foo</span>
+  <span class="s">EXPORT</span> <span class="o">${</span><span class="nv">PROJECT_NAME</span><span class="o">}</span><span class="s">-targets</span>
+  <span class="s">ARCHIVE</span> <span class="s">DESTINATION</span> <span class="s">lib</span>
+  <span class="s">LIBRARY</span> <span class="s">DESTINATION</span> <span class="s">lib</span>
+  <span class="s">RUNTIME</span> <span class="s">DESTINATION</span> <span class="s">bin</span>
+<span class="p">)</span>
+</pre></div>
+</td></tr></table></div>
+<ul class="simple">
+<li>Use <code class="docutils literal"><span class="pre">ament_export_libraries(my_custom_library)</span></code>.</li>
+<li>Consider using the generation expressions for target_include_directories
+within the project:</li>
+</ul>
+<div class="highlight-cmake"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nb">target_include_directories</span><span class="p">(</span><span class="s">foo</span>
+  <span class="s">PUBLIC</span>
+    <span class="o">$&lt;</span><span class="nv">BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include</span><span class="o">&gt;</span>
+    <span class="o">$&lt;</span><span class="nv">INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}</span><span class="o">&gt;</span>
+<span class="p">)</span>
+</pre></div>
+</td></tr></table></div>
+<ul class="simple">
+<li>Header file only libraries should be created as interfaces and header files
+must be placed in the include directory at the top level of the package. Make
+sure to install those header files later on. The target name is superfluous
+because those files will be discoverable by the consuming target if paths are
+properly set. However, the decision is to add another layer of security at the
+target level.</li>
+<li>When using the maliput plugin architecture system, if shared library and executable
+are compiled using <cite>ubsan`(undefined behavior sanitizer) the property `ENABLE_EXPORTS</cite>
+should be enabled on the executable target in order to instruct the linker to add
+all symbols to the dynamic symbol table.
+For further information see next <a class="reference external" href="https://stackoverflow.com/questions/57361776/use-ubsan-with-dynamically-loaded-shared-libraries">reference link</a>.</li>
+</ul>
+<div class="highlight-cmake"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nb">set_target_properties</span><span class="p">(</span><span class="s">foo</span>
+  <span class="s">PROPERTIES</span>
+    <span class="s">ENABLE_EXPORTS</span> <span class="s">ON</span>
+<span class="p">)</span>
+</pre></div>
+</td></tr></table></div>
+</div>
+<div class="section" id="executables">
+<h5>Executables<a class="headerlink" href="#executables" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li>Use <code class="docutils literal"><span class="pre">_</span></code> instead of <code class="docutils literal"><span class="pre">-</span></code> in compound names.</li>
+<li><code class="docutils literal"><span class="pre">install()</span></code> commands are expected as follows:</li>
+</ul>
+<div class="highlight-cmake"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nb">install</span><span class="p">(</span><span class="s">foo</span>
+  <span class="s">EXPORT</span> <span class="o">${</span><span class="nv">PROJECT_NAME</span><span class="o">}</span><span class="s">-targets</span>
+  <span class="s">ARCHIVE</span> <span class="s">DESTINATION</span> <span class="s">lib</span>
+  <span class="s">LIBRARY</span> <span class="s">DESTINATION</span> <span class="s">lib</span>
+  <span class="s">RUNTIME</span> <span class="s">DESTINATION</span> <span class="s">bin</span>
+<span class="p">)</span>
+</pre></div>
+</td></tr></table></div>
+</div>
+<div class="section" id="resources">
+<h5>Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li>Define a project resources path and install resources following your structure
+within <code class="docutils literal"><span class="pre">share/project_name/resources</span></code> folder in the install space.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="testing">
+<h3>Testing<a class="headerlink" href="#testing" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>100% coverage of the public API of any entity must be unit-tested.</li>
+<li>Complex pieces of code that are not exposed should be considered to be
+re-engineered in favor of increased coverage.</li>
+<li>Integration test between modules can be done when appropriate.</li>
+<li>Consider using <code class="docutils literal"><span class="pre">maliput_integration_tests</span></code> for complex integration tests.</li>
+<li><code class="docutils literal"><span class="pre">gtest</span></code> and <code class="docutils literal"><span class="pre">gmock</span></code> via <a class="reference external" href="https://github.com/ament/ament_cmake">ament_cmake</a> packages are the default testing
+frameworks for C++.</li>
+<li><code class="docutils literal"><span class="pre">python3-pytest</span></code> via <a class="reference external" href="https://github.com/ament/ament_cmake">ament_cmake</a> packages is the default testing
+frameworks for Python.</li>
+</ul>
+</div>
+<div class="section" id="linting">
+<h3>Linting<a class="headerlink" href="#linting" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal"><span class="pre">ament_clang_format</span></code> alone cannot be used because we have a custom format. So
+packages hold a tools folder at the root level in which a script called
+<code class="docutils literal"><span class="pre">reformat_code.sh</span></code> calls the previous tool with the custom package.</p>
+<p>For Python code, make sure to use <a class="reference external" href="https://github.com/ament/ament_lint/tree/master/ament_cmake_flake8">ament cmake flake8</a>. To do so, you should
+follow the <a class="reference external" href="https://github.com/ament/ament_lint/blob/master/ament_cmake_flake8/doc/index.rst">instructions here</a> and use one of the <code class="docutils literal"><span class="pre">.flake8</span></code> files in your
+package root directory to tell the linter which are the tests you want to
+perform. In particular, we edit it so it has the following extras:</p>
+<div class="highlight-RST"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17</pre></div></td><td class="code"><div class="highlight"><pre><span></span># Set the maximum length that any line (with some exceptions) may be.
+max-line-length = 100
+# Set the maximum allowed McCabe complexity value for a block of code.
+max-complexity = 10
+# Toggle whether pycodestyle should enforce matching the indentation of the opening bracket’s line.
+# incluences E131 and E133
+hang-closing = True
+# Specify a list of codes to ignore.
+ignore =
+    E133,
+    E226,
+# Specify the list of error codes you wish Flake8 to report.
+select =
+  E,
+  W,
+  F,
+  C
+</pre></div>
+</td></tr></table></div>
+</div>
+<div class="section" id="supported-oss-and-environments">
+<h3>Supported OSs and environments<a class="headerlink" href="#supported-oss-and-environments" title="Permalink to this headline">¶</a></h3>
+<p>The workspace is only maintained on Ubuntu 18.04 and ROS2 Dashing.</p>
+</div>
+<div class="section" id="compiler-support">
+<h3>Compiler support<a class="headerlink" href="#compiler-support" title="Permalink to this headline">¶</a></h3>
+<p>The workspace is built with Ubuntu’s default <code class="docutils literal"><span class="pre">gcc</span></code> (version 7.5) and <code class="docutils literal"><span class="pre">ld</span></code>
+(version 2.30) and <code class="docutils literal"><span class="pre">clang</span></code> and <code class="docutils literal"><span class="pre">llvm</span></code> tools (version 8).</p>
+<ul class="simple">
+<li>Address sanitizer</li>
+<li>Undefined behavior sanitizer.</li>
+<li>Thread sanitizer.</li>
+<li>Static analyzer (scan-build): it runs with <code class="docutils literal"><span class="pre">clang</span></code>.</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h3><a href="index.html">Table Of Contents</a></h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="installation_quickstart.html">Installation &amp; quickstart guide</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Developer guidelines</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#workspace">Workspace</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#coding-standards">Coding standards</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gallery.html">Gallery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="documentation.html">Documentation</a></li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="installation_quickstart.html"
+                        title="previous chapter">Installation &amp; quickstart guide</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="contributing.html"
+                        title="next chapter">Contributing</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="contributing.html" title="Contributing"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="installation_quickstart.html" title="Installation &amp; quickstart guide"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Maliput Documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020 Toyota Research Institute.
+    </div>
+  </body>
+</html>

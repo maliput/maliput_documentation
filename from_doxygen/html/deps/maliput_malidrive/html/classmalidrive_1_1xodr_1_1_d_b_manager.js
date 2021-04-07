@@ -1,0 +1,26 @@
+var classmalidrive_1_1xodr_1_1_d_b_manager =
+[
+    [ "XodrGapBetweenFunctions", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_functions.html", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_functions" ],
+    [ "XodrGapBetweenGeometries", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_geometries.html", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_geometries" ],
+    [ "XodrGeometriesToSimplify", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify.html", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify" ],
+    [ "XodrGeometryLengthData", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometry_length_data.html", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometry_length_data" ],
+    [ "XodrLaneSectionLengthData", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_lane_section_length_data.html", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_lane_section_length_data" ],
+    [ "DBManager", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a83f8e7a267829347234f8ca61d1c9531", null ],
+    [ "DBManager", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a17db4ba7fd1e5191196f720be154d42f", null ],
+    [ "~DBManager", "classmalidrive_1_1xodr_1_1_d_b_manager.html#ad99a6c2eabe072deca29bd23e5038c4f", null ],
+    [ "GetGeometriesToSimplify", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a03e603447991303f202cc7a71aa31ba5", null ],
+    [ "GetJunctions", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a0665903160da9b77b4663da0fde9a213", null ],
+    [ "GetLargestElevationGap", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a65a67fe3807f1ed89602b85da1bd8390", null ],
+    [ "GetLargestGap", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a69a04b676e289d689a7b333cf91aa246", null ],
+    [ "GetLargestGeometry", "classmalidrive_1_1xodr_1_1_d_b_manager.html#aa512b1c2017310dc8c23274e9e93f657", null ],
+    [ "GetLargestLaneSection", "classmalidrive_1_1xodr_1_1_d_b_manager.html#af2bd3f88d341c7c0457a3d40995d5a89", null ],
+    [ "GetLargestSuperelevationGap", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a6a86ae288ecaad1ea8cbe287f829bdbe", null ],
+    [ "GetRoadHeaders", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a25260ec634f02cb25a88cf948f7c54f5", null ],
+    [ "GetShortestElevationGap", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a35b320f0333a69ee46b550bb5d64dfed", null ],
+    [ "GetShortestGap", "classmalidrive_1_1xodr_1_1_d_b_manager.html#aca08ac05109a82fa850d853e9284d8b6", null ],
+    [ "GetShortestGeometry", "classmalidrive_1_1xodr_1_1_d_b_manager.html#ada89516cab3a2b623196bb82004b46bd", null ],
+    [ "GetShortestLaneSection", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a820cfb83f30ab0c2ae36886edc0c4b90", null ],
+    [ "GetShortestSuperelevationGap", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a12525df28b90b46f177612afc91a727b", null ],
+    [ "GetXodrHeader", "classmalidrive_1_1xodr_1_1_d_b_manager.html#ad0a363cf4461b0ea36a51c99c99432eb", null ],
+    [ "MALIDRIVE_NO_COPY_NO_MOVE_NO_ASSIGN", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a85aaf81372c7ac4b47ab7ea8ca86b63c", null ]
+];
