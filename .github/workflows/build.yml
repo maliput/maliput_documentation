@@ -121,7 +121,7 @@ jobs:
       shell: bash
       working-directory: ${{ env.ROS_WS }}
       run: |
-        rm -r src/${{ env.PACKAGE_NAME }}/*
+        rm -rf ${{ env.ROS_WS }}/src/${{ env.PACKAGE_NAME }}/*
         cp -r install/maliput_documentation/share/maliput_documentation/doc/maliput-docs/html/* src/${{ env.PACKAGE_NAME }}/
         echo $(date) > src/${{ env.PACKAGE_NAME }}/build_stamp
         cd src/${{ env.PACKAGE_NAME }}
