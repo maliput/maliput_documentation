@@ -1,5 +1,5 @@
 Installation and Quickstart
-===========================
+***************************
 
 
 .. contents:: Table of Contents
