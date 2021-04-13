@@ -1,8 +1,6 @@
 Welcome to maliput documentation!
 =================================
 
-Introduction
-
 .. toctree::
    :maxdepth: 1
 
