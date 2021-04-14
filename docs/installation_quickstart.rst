@@ -8,13 +8,8 @@ Installation and Quickstart
 Introduction
 ============
 
-This repository contains ``.repos`` files and tools that enable the creation and
-maintenance of development workspaces. Each ``.repos`` file brings in a subset
-of all needed packages.
-
-For instance, `maliput.repos <https://github.com/ToyotaResearchInstitute/dsim-repos-index/blob/master/maliput.repos>`_ pulls all ``maliput`` packages on road network
-descriptions, plus the backend packages like ``maliput_malidrive``\ , ``maliput_dragway`` and ``maliput_multilane`` and other packages for
-integration proposes and documentation.
+This section explains how to build a workspace for ``maliput`` development. You'll find how to work
+with ``maliput`` and with ``delphyne`` repositories in a multi-repository workspace.
 
 Workspaces
 ==========
@@ -34,29 +29,34 @@ Supported platforms
 Prerequisites
 -------------
 
-
-* To get all necessary tools and repos files, clone ``dsim-repos-index`` locally.
+* To get all the necessary tools, clone ``dsim-repos-index`` locally.
 
 .. code-block:: sh
 
       git clone git@github.com:ToyotaResearchInstitute/dsim-repos-index.git
 
-*
-  To pull private repositories, the current user default SSH keys will be used
+
+* To get all the necessary ``.repos`` files, clone ``repos_index`` locally.
+
+.. code-block:: sh
+
+      git clone git@github.com:ToyotaResearchInstitute/repos_index.git
+
+* To pull private repositories, the current user default SSH keys will be used
   (and thus assumed as both necessary and sufficient for the purpose).
 
-*
-  Containerized workspaces require having `docker engine <https://docs.docker.com/engine/install/>`_ installed in host machine.
+* Containerized workspaces require having `docker engine <https://docs.docker.com/engine/install/>`_ installed in host machine.
   Also, you can use ``nvidia-docker2``. Follow their `instructions <https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker>`_ if you want to install it.
 
 Usage instructions
 ------------------
 
 In the following, it is assumed that you want to create a workspace containing
-all of DSIM's (Driving Simulation's) repositories, but with a focus on Maliput
-and Malidrive development. As such, it suggests the creation of a workspace in a
-``maliput_ws`` directory and pulling sources from the `maliput.repos <https://github.com/ToyotaResearchInstitute/dsim-repos-index/blob/master/maliput.repos>`_
-file. Nevertheless, the instructions also provide information on how to bring ``delphyne`` repositories if needed, and satisfy their dependencies.
+all of Maliput repositories, with a focus on Maliput and Malidrive development.
+As such, it suggests the creation of a workspace in a ``maliput_ws`` directory
+and pulling sources from the `maliput.repos <hhttps://github.com/ToyotaResearchInstitute/repos_index/blob/main/dashing/maliput.repos>`_
+file. Nevertheless, the instructions also provide information on how to bring
+``delphyne`` repositories if needed, and satisfy their dependencies.
 
 Create a workspace
 ^^^^^^^^^^^^^^^^^^
@@ -71,26 +71,31 @@ Create the workspace folder
     mkdir -p maliput_ws
 
 .. note::
-  Instructions assumes ``maliput_ws`` folder name as default and its location at the same level as the cloned repository
-  folder ``dsim-repos-index``.
+  Instructions assumes ``maliput_ws`` folder name as default and its location at
+  the same level as the cloned repository folder ``dsim-repos-index`` and
+  ``repos_index``.
 
 
 .. _copy-repos-file:
 
 Copy .repos file
 """"""""""""""""
-Copy ``dsim-repos-index/maliput.repos`` file into ``maliput_ws`` workspace folder. It will be used to bring all the repositories later on.
+
+Copy ``repos_index/dashing/maliput.repos`` file into ``maliput_ws`` workspace
+folder. It will be used to bring all the repositories later on.
 
 .. code-block:: sh
 
-    cp dsim-repos-index/maliput.repos maliput_ws/
+    cp repos_index/dashing/maliput.repos maliput_ws/
 
 .. note:
-  If you would like to bring the ``delphyne`` repositories too. It is `dsim.repos` the name of the file you should copy instead.
+  If you would like to bring the ``delphyne`` repositories too, you should also
+  copy `delphyne.repos <https://github.com/ToyotaResearchInstitute/repos_index/blob/main/dashing/delphyne.repos>`_.
 
   .. code-block:: sh
 
-      cp dsim-repos-index/dsim.repos maliput_ws/
+      cp repos_index/dashing/delphyne.repos maliput_ws/
+
 
 Install dependencies
 """"""""""""""""""""
@@ -104,26 +109,22 @@ Install dependencies
 Update all the repositories in your workspace
 """""""""""""""""""""""""""""""""""""""""""""
 
-Bring all the repositories listed in ``maliput.repos`` file.
-
-.. warning::
-  ``maliput.repos`` should be changed by ``dsim.repos`` depending on which file you copied at :ref:`copy-repos-file` step.
-
-
-Standing at the root of your workspace folder.
+Bring all the repositories listed in ``maliput.repos`` file. Standing at the root of your workspace folder:
 
 .. code-block:: sh
 
     mkdir -p src
     vcs import src < maliput.repos  # clone and/or checkout
+    # Optionally, run:
+    # vcs import src < delphyne.repos
     vcs pull src  # fetch and merge (usually fast-forward)
 
 This will clone repositories and/or checkout branches, tags or commits as necessary,
 followed by fetching and (likely) fast-forward merging to get branches up to date with
 their upstream counterpart. No merging takes place when a repository is at a given tag
 or commit. Also, note that you can equally bring other repositories as well by repeating
-this ``import`` and ``pull`` operation using additional ``.repos`` files.
-
+this ``import`` and ``pull`` operation using additional ``.repos`` files (see the comment
+for ``delphyne.repos``).
 
 .. _install-all-packages-dependencies:
 
@@ -386,7 +387,7 @@ Source the workspace
   your terminal) to see if everything is properly working.
 
 .. note::
-  See `\ ``colcon`` documentation <https://colcon.readthedocs.io/en/released/user/how-to.html#build-only-a-single-package-or-selected-packages>`_ for further reference on ``build`` support.
+  See `colcon build documentation <https://colcon.readthedocs.io/en/released/user/how-to.html#build-only-a-single-package-or-selected-packages>`_ for further reference on ``build`` support.
 
 .. _test-your-workspace:
 
@@ -400,7 +401,7 @@ In a built workspace, run:
    colcon test --event-handlers=console_direct+ --return-code-on-test-failure --packages-skip pybind11
 
 .. note::
-  See `colcon documentation <https://colcon.readthedocs.io/en/released/user/how-to.html#run-specific-tests>`_
+  See `colcon test documentation <https://colcon.readthedocs.io/en/released/user/how-to.html#run-specific-tests>`_
   for further reference on ``test`` support.
 
 .. _static-analyzer:
