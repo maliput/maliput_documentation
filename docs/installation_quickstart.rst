@@ -29,12 +29,12 @@ Supported platforms
 Prerequisites
 -------------
 
-
 * To get all the necessary tools, clone ``dsim-repos-index`` locally.
 
 .. code-block:: sh
 
       git clone git@github.com:ToyotaResearchInstitute/dsim-repos-index.git
+
 
 * To get all the necessary ``.repos`` files, clone ``repos_index`` locally.
 
@@ -80,6 +80,7 @@ Create the workspace folder
 
 Copy .repos file
 """"""""""""""""
+
 Copy ``repos_index/dashing/maliput.repos`` file into ``maliput_ws`` workspace
 folder. It will be used to bring all the repositories later on.
 
@@ -94,6 +95,7 @@ folder. It will be used to bring all the repositories later on.
   .. code-block:: sh
 
       cp repos_index/dashing/delphyne.repos maliput_ws/
+
 
 Install dependencies
 """"""""""""""""""""
@@ -123,7 +125,6 @@ their upstream counterpart. No merging takes place when a repository is at a giv
 or commit. Also, note that you can equally bring other repositories as well by repeating
 this ``import`` and ``pull`` operation using additional ``.repos`` files (see the comment
 for ``delphyne.repos``).
-
 
 .. _install-all-packages-dependencies:
 
