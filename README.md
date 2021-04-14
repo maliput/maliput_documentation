@@ -18,8 +18,7 @@ this repository gathers documentation from:
 
 ## Requirements
 
- * Workspace must be created as it is explained in
-[dsim-repos-index](https://github.com/ToyotaResearchInstitute/dsim-repos-index).
+ * Workspace must be created as it is explained in [Installation & Quickstart](docs/installation_quickstart.rst).
 
 ## Build
 

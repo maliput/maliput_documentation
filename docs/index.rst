@@ -1,10 +1,8 @@
 Welcome to maliput documentation!
 =================================
 
-Introduction
-
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    installation_quickstart
    developer_guidelines
