@@ -24,7 +24,7 @@ Supported platforms
 
 
 * Docker containerized workspaces (**recommended**): A docker image is provided in order to
-  shows the steps needed to set up the environment in a containerized workspace.
+  show the steps needed to set up the environment in a containerized workspace.
   When setting up docker, do *not* add yourself to the "docker" group
   since that represents a security risk
   (`it is equivalent to password-less sudo <https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user>`_).
@@ -35,7 +35,7 @@ Prerequisites
 -------------
 
 
-* To get all necessary tools and repos files, clone this repo locally.
+* To get all necessary tools and repos files, clone ``dsim-repos-index`` locally.
 
 .. code-block:: sh
 
