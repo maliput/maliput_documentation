@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Installation &amp; quickstart guide &#8212; Maliput Documentation</title>
+    <title>Installation and Quickstart &#8212; Maliput Documentation</title>
     <link rel="stylesheet" href="_static/pyramid.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -53,8 +53,562 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="installation-quickstart-guide">
-<h1>Installation &amp; quickstart guide<a class="headerlink" href="#installation-quickstart-guide" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="installation-and-quickstart">
+<h1><a class="toc-backref" href="#id31">Installation and Quickstart</a><a class="headerlink" href="#installation-and-quickstart" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="table-of-contents">
+<p class="topic-title first">Table of Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#installation-and-quickstart" id="id31">Installation and Quickstart</a><ul>
+<li><a class="reference internal" href="#introduction" id="id32">Introduction</a></li>
+<li><a class="reference internal" href="#workspaces" id="id33">Workspaces</a><ul>
+<li><a class="reference internal" href="#supported-platforms" id="id34">Supported platforms</a></li>
+<li><a class="reference internal" href="#prerequisites" id="id35">Prerequisites</a></li>
+<li><a class="reference internal" href="#usage-instructions" id="id36">Usage instructions</a><ul>
+<li><a class="reference internal" href="#create-a-workspace" id="id37">Create a workspace</a><ul>
+<li><a class="reference internal" href="#create-the-workspace-folder" id="id38">Create the workspace folder</a></li>
+<li><a class="reference internal" href="#copy-repos-file" id="id39">Copy .repos file</a></li>
+<li><a class="reference internal" href="#install-dependencies" id="id40">Install dependencies</a></li>
+<li><a class="reference internal" href="#update-all-the-repositories-in-your-workspace" id="id41">Update all the repositories in your workspace</a></li>
+<li><a class="reference internal" href="#install-all-packages-dependencies" id="id42">Install all packages’ dependencies</a></li>
+<li><a class="reference internal" href="#install-dependencies-via-rosdep" id="id43">Install dependencies via <code class="docutils literal"><span class="pre">rosdep</span></code></a></li>
+<li><a class="reference internal" href="#install-drake" id="id44">Install drake</a></li>
+<li><a class="reference internal" href="#source-ros-environment" id="id45">Source ROS environment</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#optional-create-a-containerized-workspace" id="id46">Optional: Create a containerized workspace</a><ul>
+<li><a class="reference internal" href="#build-the-docker-image" id="id47">Build the docker image</a></li>
+<li><a class="reference internal" href="#id9" id="id48"><a class="reference internal" href="#create-the-workspace-folder"><span class="std std-ref">Create the workspace folder</span></a></a></li>
+<li><a class="reference internal" href="#id10" id="id49"><a class="reference internal" href="#copy-repos-file"><span class="std std-ref">Copy .repos file</span></a></a></li>
+<li><a class="reference internal" href="#run-the-container" id="id50">Run the container</a></li>
+<li><a class="reference internal" href="#id12" id="id51">Install dependencies</a></li>
+<li><a class="reference internal" href="#id14" id="id52"><a class="reference internal" href="#update-all-the-repositories-in-your-workspace"><span class="std std-ref">Update all the repositories in your workspace</span></a></a></li>
+<li><a class="reference internal" href="#id15" id="id53"><a class="reference internal" href="#install-all-packages-dependencies"><span class="std std-ref">Install all packages’ dependencies</span></a></a></li>
+<li><a class="reference internal" href="#id16" id="id54"><a class="reference internal" href="#install-drake"><span class="std std-ref">Install drake</span></a></a></li>
+<li><a class="reference internal" href="#id17" id="id55"><a class="reference internal" href="#source-ros-environment"><span class="std std-ref">Source ROS environment</span></a></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#check-your-workspace" id="id56">Check your workspace</a></li>
+<li><a class="reference internal" href="#build-your-workspace" id="id57">Build your workspace</a><ul>
+<li><a class="reference internal" href="#build" id="id58">Build</a></li>
+<li><a class="reference internal" href="#source-the-workspace" id="id59">Source the workspace</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#test-your-workspace" id="id60">Test your workspace</a></li>
+<li><a class="reference internal" href="#build-your-workspace-using-static-analyzer" id="id61">Build your workspace using Static Analyzer</a></li>
+<li><a class="reference internal" href="#build-doxygen-documentation" id="id62">Build doxygen documentation</a></li>
+<li><a class="reference internal" href="#delete-your-workspace" id="id63">Delete your workspace</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#contributing" id="id64">Contributing</a><ul>
+<li><a class="reference internal" href="#usual-workflow" id="id65">Usual workflow</a></li>
+<li><a class="reference internal" href="#using-binary-underlays" id="id66">Using binary underlays</a><ul>
+<li><a class="reference internal" href="#download-the-binary-underlay-tarball-of-choice-from-dsim-s-s3-bucket" id="id67">Download the binary underlay tarball of choice from dsim’s S3 bucket</a></li>
+<li><a class="reference internal" href="#extract-binary-underlay-tarball" id="id68">Extract binary underlay tarball</a></li>
+<li><a class="reference internal" href="#install-prerequisites" id="id69">Install prerequisites</a></li>
+<li><a class="reference internal" href="#install-all-underlay-packages-dependencies" id="id70">Install all underlay packages’ dependencies</a></li>
+<li><a class="reference internal" href="#install-underlay-drake" id="id71">Install drake</a></li>
+<li><a class="reference internal" href="#install-ignition-binaries" id="id72">Install ignition binaries</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#how-to-use-ci" id="id73">How to use CI</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#troubleshooting" id="id74">Troubleshooting</a><ul>
+<li><a class="reference internal" href="#issue-forensics" id="id75">Issue Forensics</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="introduction">
+<h2><a class="toc-backref" href="#id32">Introduction</a><a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>This section explains how to build a workspace for <code class="docutils literal"><span class="pre">maliput</span></code> development. You’ll find how to work
+with <code class="docutils literal"><span class="pre">maliput</span></code> and with <code class="docutils literal"><span class="pre">delphyne</span></code> repositories in a multi-repository workspace.</p>
+</div>
+<div class="section" id="workspaces">
+<h2><a class="toc-backref" href="#id33">Workspaces</a><a class="headerlink" href="#workspaces" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="supported-platforms">
+<h3><a class="toc-backref" href="#id34">Supported platforms</a><a class="headerlink" href="#supported-platforms" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Docker containerized workspaces (<strong>recommended</strong>): A docker image is provided in order to
+show the steps needed to set up the environment in a containerized workspace.
+When setting up docker, do <em>not</em> add yourself to the “docker” group
+since that represents a security risk
+(<a class="reference external" href="https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user">it is equivalent to password-less sudo</a>).
+The instructions below use <code class="docutils literal"><span class="pre">sudo</span></code> for building the image and running the container as a workaround.</li>
+<li>Non-containerized workspaces: Ubuntu Bionic Beaver 18.04 LTS only.</li>
+</ul>
+</div>
+<div class="section" id="prerequisites">
+<h3><a class="toc-backref" href="#id35">Prerequisites</a><a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>To get all the necessary tools, clone <code class="docutils literal"><span class="pre">dsim-repos-index</span></code> locally.</li>
+</ul>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>git clone git@github.com:ToyotaResearchInstitute/dsim-repos-index.git
+</pre></div>
+</div>
+<ul class="simple">
+<li>To get all the necessary <code class="docutils literal"><span class="pre">.repos</span></code> files, clone <code class="docutils literal"><span class="pre">repos_index</span></code> locally.</li>
+</ul>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>git clone git@github.com:ToyotaResearchInstitute/repos_index.git
+</pre></div>
+</div>
+<ul class="simple">
+<li>To pull private repositories, the current user default SSH keys will be used
+(and thus assumed as both necessary and sufficient for the purpose).</li>
+<li>Containerized workspaces require having <a class="reference external" href="https://docs.docker.com/engine/install/">docker engine</a> installed in host machine.
+Also, you can use <code class="docutils literal"><span class="pre">nvidia-docker2</span></code>. Follow their <a class="reference external" href="https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker">instructions</a> if you want to install it.</li>
+</ul>
+</div>
+<div class="section" id="usage-instructions">
+<h3><a class="toc-backref" href="#id36">Usage instructions</a><a class="headerlink" href="#usage-instructions" title="Permalink to this headline">¶</a></h3>
+<p>In the following, it is assumed that you want to create a workspace containing
+all of Maliput repositories, with a focus on Maliput and Malidrive development.
+As such, it suggests the creation of a workspace in a <code class="docutils literal"><span class="pre">maliput_ws</span></code> directory
+and pulling sources from the <a class="reference external" href="hhttps://github.com/ToyotaResearchInstitute/repos_index/blob/main/dashing/maliput.repos">maliput.repos</a>
+file. Nevertheless, the instructions also provide information on how to bring
+<code class="docutils literal"><span class="pre">delphyne</span></code> repositories if needed, and satisfy their dependencies.</p>
+<div class="section" id="create-a-workspace">
+<h4><a class="toc-backref" href="#id37">Create a workspace</a><a class="headerlink" href="#create-a-workspace" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="create-the-workspace-folder">
+<span id="id1"></span><h5><a class="toc-backref" href="#id38">Create the workspace folder</a><a class="headerlink" href="#create-the-workspace-folder" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>mkdir -p maliput_ws
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Instructions assumes <code class="docutils literal"><span class="pre">maliput_ws</span></code> folder name as default and its location at
+the same level as the cloned repository folder <code class="docutils literal"><span class="pre">dsim-repos-index</span></code> and
+<code class="docutils literal"><span class="pre">repos_index</span></code>.</p>
+</div>
+</div>
+<div class="section" id="copy-repos-file">
+<span id="id2"></span><h5><a class="toc-backref" href="#id39">Copy .repos file</a><a class="headerlink" href="#copy-repos-file" title="Permalink to this headline">¶</a></h5>
+<p>Copy <code class="docutils literal"><span class="pre">repos_index/dashing/maliput.repos</span></code> file into <code class="docutils literal"><span class="pre">maliput_ws</span></code> workspace
+folder. It will be used to bring all the repositories later on.</p>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>cp repos_index/dashing/maliput.repos maliput_ws/
+</pre></div>
+</div>
+</div>
+<div class="section" id="install-dependencies">
+<h5><a class="toc-backref" href="#id40">Install dependencies</a><a class="headerlink" href="#install-dependencies" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>sudo ./dsim-repos-index/tools/install_dependencies.sh
+</pre></div>
+</div>
+</div>
+<div class="section" id="update-all-the-repositories-in-your-workspace">
+<span id="id3"></span><h5><a class="toc-backref" href="#id41">Update all the repositories in your workspace</a><a class="headerlink" href="#update-all-the-repositories-in-your-workspace" title="Permalink to this headline">¶</a></h5>
+<p>Bring all the repositories listed in <code class="docutils literal"><span class="pre">maliput.repos</span></code> file. Standing at the root of your workspace folder:</p>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>mkdir -p src
+vcs import src &lt; maliput.repos  <span class="c1"># clone and/or checkout</span>
+<span class="c1"># Optionally, run:</span>
+<span class="c1"># vcs import src &lt; delphyne.repos</span>
+vcs pull src  <span class="c1"># fetch and merge (usually fast-forward)</span>
+</pre></div>
+</div>
+<p>This will clone repositories and/or checkout branches, tags or commits as necessary,
+followed by fetching and (likely) fast-forward merging to get branches up to date with
+their upstream counterpart. No merging takes place when a repository is at a given tag
+or commit. Also, note that you can equally bring other repositories as well by repeating
+this <code class="docutils literal"><span class="pre">import</span></code> and <code class="docutils literal"><span class="pre">pull</span></code> operation using additional <code class="docutils literal"><span class="pre">.repos</span></code> files (see the comment
+for <code class="docutils literal"><span class="pre">delphyne.repos</span></code>).</p>
+</div>
+<div class="section" id="install-all-packages-dependencies">
+<span id="id4"></span><h5><a class="toc-backref" href="#id42">Install all packages’ dependencies</a><a class="headerlink" href="#install-all-packages-dependencies" title="Permalink to this headline">¶</a></h5>
+<p>First update the <code class="docutils literal"><span class="pre">ROS_DISTRO</span></code> environment variable with your <code class="docutils literal"><span class="pre">ros2</span></code> version, e.g.:</p>
+<div class="highlight-sh"><div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">ROS_DISTRO</span><span class="o">=</span>dashing
+</pre></div>
+</div>
+</div>
+<div class="section" id="install-dependencies-via-rosdep">
+<span id="id5"></span><h5><a class="toc-backref" href="#id43">Install dependencies via <code class="docutils literal"><span class="pre">rosdep</span></code></a><a class="headerlink" href="#install-dependencies-via-rosdep" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>rosdep update
+rosdep install -i -y --rosdistro <span class="nv">$ROS_DISTRO</span> --skip-keys <span class="s2">&quot;ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui0 ignition-gui3 ignition-rendering3 pybind11&quot;</span> --from-paths src
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Package dependencies are installed system wide. <code class="docutils literal"><span class="pre">rosdep</span></code> does not provide any support to remove the dependencies it brings. In this regard, disposable containerized workspaces help keep development environments clean (as system wide installations within a container are limited to that container).</p>
+</div>
+</div>
+<div class="section" id="install-drake">
+<span id="id6"></span><h5><a class="toc-backref" href="#id44">Install drake</a><a class="headerlink" href="#install-drake" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>sudo ./src/drake_vendor/drake_installer
+</pre></div>
+</div>
+</div>
+<div class="section" id="source-ros-environment">
+<span id="id7"></span><h5><a class="toc-backref" href="#id45">Source ROS environment</a><a class="headerlink" href="#source-ros-environment" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-sh"><div class="highlight"><pre><span></span><span class="nb">source</span> /opt/ros/<span class="nv">$ROS_DISTRO</span>/setup.bash
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="optional-create-a-containerized-workspace">
+<span id="create-a-contenerized-workspace"></span><h4><a class="toc-backref" href="#id46">Optional: Create a containerized workspace</a><a class="headerlink" href="#optional-create-a-containerized-workspace" title="Permalink to this headline">¶</a></h4>
+<p>If the workspace is meant to be run using a container the steps are pretty similar.
+We provide the necessary machinery to <code class="docutils literal"><span class="pre">build</span></code> and <code class="docutils literal"><span class="pre">run</span></code> a docker image and container:</p>
+<div class="section" id="build-the-docker-image">
+<span id="id8"></span><h5><a class="toc-backref" href="#id47">Build the docker image</a><a class="headerlink" href="#build-the-docker-image" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>./dsim-repos-index/docker/build.sh
+</pre></div>
+</div>
+<p>If you are using nvidia-docker2 add the <code class="docutils literal"><span class="pre">--nvidia</span></code> option.</p>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>./dsim-repos-index/docker/build.sh --nvidia
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p><code class="docutils literal"><span class="pre">build.sh</span> <span class="pre">--help</span></code> for more options:</p>
+<blockquote class="last">
+<div><ol class="arabic simple">
+<li><code class="docutils literal"><span class="pre">-i</span></code> <code class="docutils literal"><span class="pre">--image_name</span></code>   Name of the image to be built (default maliput_ws_ubuntu)</li>
+<li><code class="docutils literal"><span class="pre">-w</span></code> <code class="docutils literal"><span class="pre">--workspace_name</span></code>   Name of the workspace folder (default maliput_ws)</li>
+</ol>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id9">
+<h5><a class="toc-backref" href="#id48"><a class="reference internal" href="#create-the-workspace-folder"><span class="std std-ref">Create the workspace folder</span></a></a><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h5>
+</div>
+<div class="section" id="id10">
+<h5><a class="toc-backref" href="#id49"><a class="reference internal" href="#copy-repos-file"><span class="std std-ref">Copy .repos file</span></a></a><a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h5>
+</div>
+<div class="section" id="run-the-container">
+<span id="id11"></span><h5><a class="toc-backref" href="#id50">Run the container</a><a class="headerlink" href="#run-the-container" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>./dsim-repos-index/docker/run.sh
+</pre></div>
+</div>
+<p>If you are using nvidia-docker2 add the <code class="docutils literal"><span class="pre">--nvidia</span></code> option.</p>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>./dsim-repos-index/docker/run.sh --nvidia
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p><code class="docutils literal"><span class="pre">run.sh</span> <span class="pre">--help</span></code> for more options:</p>
+<blockquote class="last">
+<div><ol class="arabic simple">
+<li><code class="docutils literal"><span class="pre">-i</span></code> <code class="docutils literal"><span class="pre">--image_name</span></code> Name of the image to be run (default maliput_ws_ubuntu)</li>
+<li><code class="docutils literal"><span class="pre">-c</span></code> <code class="docutils literal"><span class="pre">--container_name</span></code> Name of the container(default maliput_ws)</li>
+<li><code class="docutils literal"><span class="pre">-w</span></code> <code class="docutils literal"><span class="pre">--workspace</span></code>  Relative or absolute path to the workspace you want to bind. (default to location of dsim-repos-index folder)</li>
+</ol>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id12">
+<span id="id13"></span><h5><a class="toc-backref" href="#id51">Install dependencies</a><a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h5>
+<p>During docker build stage a script is copied into the container at <code class="docutils literal"><span class="pre">/home/$USER/</span></code>.</p>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>sudo ./../install_dependencies.sh
+</pre></div>
+</div>
+</div>
+<div class="section" id="id14">
+<h5><a class="toc-backref" href="#id52"><a class="reference internal" href="#update-all-the-repositories-in-your-workspace"><span class="std std-ref">Update all the repositories in your workspace</span></a></a><a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h5>
+</div>
+<div class="section" id="id15">
+<h5><a class="toc-backref" href="#id53"><a class="reference internal" href="#install-all-packages-dependencies"><span class="std std-ref">Install all packages’ dependencies</span></a></a><a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h5>
+</div>
+<div class="section" id="id16">
+<h5><a class="toc-backref" href="#id54"><a class="reference internal" href="#install-drake"><span class="std std-ref">Install drake</span></a></a><a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h5>
+</div>
+<div class="section" id="id17">
+<h5><a class="toc-backref" href="#id55"><a class="reference internal" href="#source-ros-environment"><span class="std std-ref">Source ROS environment</span></a></a><a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h5>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Bear in mind that using a non-containerized workspace makes reproducing and troubleshooting issues harder for others.</p>
+</div>
+</div>
+</div>
+<div class="section" id="check-your-workspace">
+<span id="id18"></span><h4><a class="toc-backref" href="#id56">Check your workspace</a><a class="headerlink" href="#check-your-workspace" title="Permalink to this headline">¶</a></h4>
+<p>Workspace state as a whole encompasses both current local repositories’ state plus the state of
+the filesystem that hosts it. However, if a workspace is containerized and no customizations are
+applied by the user, repositories alone carry the source code and state the list of system dependencies
+necessary to build and execute. And we can easily inspect repositories.</p>
+<ol class="arabic simple">
+<li>To check repositories’ status, run:</li>
+</ol>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>vcs status src
+</pre></div>
+</div>
+<ol class="arabic simple">
+<li>To see changes in the repositories’ working tree, run:</li>
+</ol>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>vcs diff src
+</pre></div>
+</div>
+<ol class="arabic simple">
+<li>To see if (most of) our versioned packages’ dependencies have been met, run:</li>
+</ol>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>rosdep check --rosdistro <span class="nv">$ROS_DISTRO</span> --skip-keys <span class="s2">&quot;ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui0 ignition-gui3 ignition-rendering3 pybind11&quot;</span> --from-paths src
+</pre></div>
+</div>
+<p>Note though that currently not all workspace prerequisites are nor can be dealt with using <code class="docutils literal"><span class="pre">rosdep</span></code>
+alone and thus <code class="docutils literal"><span class="pre">rosdep</span> <span class="pre">check</span></code> may fall short. When it comes down to pure binary dependencies, <code class="docutils literal"><span class="pre">drake</span></code>’s
+binary tarball is a good example, but prerequisites may go beyond that, <code class="docutils literal"><span class="pre">apt</span></code> source lists being another
+good example. See <code class="docutils literal"><span class="pre">prereqs</span></code> executable files in each repository for further details on what’s currently
+being handled outside <code class="docutils literal"><span class="pre">rosdep</span></code>.</p>
+<p>In any given case, one can always resort to the specific tool used for repository versioning (e.g. <code class="docutils literal"><span class="pre">git</span></code>)
+if <code class="docutils literal"><span class="pre">vcs</span></code> isn’t enough or to the specific package managers (e.g. <code class="docutils literal"><span class="pre">apt</span></code> or <code class="docutils literal"><span class="pre">pip</span></code>) if <code class="docutils literal"><span class="pre">rosdep</span></code> isn’t enough.</p>
+</div>
+<div class="section" id="build-your-workspace">
+<span id="id19"></span><h4><a class="toc-backref" href="#id57">Build your workspace</a><a class="headerlink" href="#build-your-workspace" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="build">
+<span id="id20"></span><h5><a class="toc-backref" href="#id58">Build</a><a class="headerlink" href="#build" title="Permalink to this headline">¶</a></h5>
+<p>It can be done in full or partially. Standing at <code class="docutils literal"><span class="pre">maliput_ws</span></code> root folder:</p>
+<div class="highlight-sh"><div class="highlight"><pre><span></span><span class="nb">cd</span> ~/maliput_ws
+</pre></div>
+</div>
+<p>To build all packages:</p>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>colcon build
+</pre></div>
+</div>
+<p>To build some packages, along with their dependencies (recursively), use the
+<code class="docutils literal"><span class="pre">--packages-up-to</span></code> flag. For instance, to build <code class="docutils literal"><span class="pre">maliput</span></code> and <code class="docutils literal"><span class="pre">malidrive</span></code>:</p>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>colcon build --packages-up-to maliput malidrive
+</pre></div>
+</div>
+<p>To build some packages and only those packages (i.e. without their dependencies),
+use the <code class="docutils literal"><span class="pre">--packages-select</span></code> flag instead:</p>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>colcon build --packages-select maliput malidrive
+</pre></div>
+</div>
+<p>Note that if dependencies cannot be met, because they are not installed or not built,
+the build will fail. Thus, this flag is usually helpful only to quickly rebuild a package
+after building it along with its dependencies.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If you are building <code class="docutils literal"><span class="pre">drake</span></code> from source as well, make sure <code class="docutils literal"><span class="pre">--cmake-args</span> <span class="pre">-DWITH_PYTHON_VERSION=3</span></code> is
+passed to <code class="docutils literal"><span class="pre">colcon</span></code>. Otherwise, python packages and scripts in <code class="docutils literal"><span class="pre">delphyne</span></code> and <code class="docutils literal"><span class="pre">delphyne-gui</span></code> packages
+won’t find <code class="docutils literal"><span class="pre">pydrake</span></code>.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">To build with debug symbols, and given that we use CMake packages only, just make sure
+that <code class="docutils literal"><span class="pre">CMAKE_BUILD_TYPE=Debug</span></code>. You can force it by passing <code class="docutils literal"><span class="pre">--cmake-args</span> <span class="pre">-DCMAKE_BUILD_TYPE=Debug</span></code>
+to <code class="docutils literal"><span class="pre">colcon</span></code>.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If you want to build with <code class="docutils literal"><span class="pre">clang-8</span></code>, run the following:</p>
+</div>
+<div class="highlight-sh"><div class="highlight"><pre><span></span><span class="nv">CC</span><span class="o">=</span>clang-8 <span class="nv">CXX</span><span class="o">=</span>clang++-8 colcon build --packages-up-to maliput malidrive --cmake-args <span class="s1">&#39; -DCMAKE_LINKER=usr/bin/lld-8&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="source-the-workspace">
+<span id="id21"></span><h5><a class="toc-backref" href="#id59">Source the workspace</a><a class="headerlink" href="#source-the-workspace" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-sh"><div class="highlight"><pre><span></span><span class="nb">source</span> install/setup.bash
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If <code class="docutils literal"><span class="pre">delphyne</span></code> is available, we recommend you to run <code class="docutils literal"><span class="pre">delphyne-gazoo</span></code> and <code class="docutils literal"><span class="pre">delphyne-mali</span></code> (type them in
+your terminal) to see if everything is properly working.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">See <a class="reference external" href="https://colcon.readthedocs.io/en/released/user/how-to.html#build-only-a-single-package-or-selected-packages">colcon build documentation</a> for further reference on <code class="docutils literal"><span class="pre">build</span></code> support.</p>
+</div>
+</div>
+</div>
+<div class="section" id="test-your-workspace">
+<span id="id22"></span><h4><a class="toc-backref" href="#id60">Test your workspace</a><a class="headerlink" href="#test-your-workspace" title="Permalink to this headline">¶</a></h4>
+<p>In a built workspace, run:</p>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>colcon <span class="nb">test</span> --event-handlers<span class="o">=</span>console_direct+ --return-code-on-test-failure --packages-skip pybind11
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">See <a class="reference external" href="https://colcon.readthedocs.io/en/released/user/how-to.html#run-specific-tests">colcon test documentation</a>
+for further reference on <code class="docutils literal"><span class="pre">test</span></code> support.</p>
+</div>
+</div>
+<div class="section" id="build-your-workspace-using-static-analyzer">
+<span id="static-analyzer"></span><h4><a class="toc-backref" href="#id61">Build your workspace using Static Analyzer</a><a class="headerlink" href="#build-your-workspace-using-static-analyzer" title="Permalink to this headline">¶</a></h4>
+<p>In order to verify your code you can run the <a class="reference external" href="https://clang-analyzer.llvm.org/">Clang Static Analyzer</a>.
+A useful script called <code class="docutils literal"><span class="pre">run_scan_build</span></code> is located in the <code class="docutils literal"><span class="pre">.github</span></code> folder in every repository.</p>
+<p>The script will forward arguments to <code class="docutils literal"><span class="pre">colcon</span> <span class="pre">build</span></code> so you can use colcon’s CLI machinery to choose which packages to evaluate.</p>
+<p>To run <code class="docutils literal"><span class="pre">scan-build</span></code> on all packages in the workspace:</p>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>./src/maliput/.github/run_scan_build
+</pre></div>
+</div>
+<p>To run scan-build up to malidrive:</p>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>./src/maliput/.github/run_scan_build --packages-up-to malidrive
+</pre></div>
+</div>
+</div>
+<div class="section" id="build-doxygen-documentation">
+<span id="doxygen-documentation"></span><h4><a class="toc-backref" href="#id62">Build doxygen documentation</a><a class="headerlink" href="#build-doxygen-documentation" title="Permalink to this headline">¶</a></h4>
+<p>Build the workspace, which can be done in full or partially. In particular, we are interested in compiling <code class="docutils literal"><span class="pre">dsim-docs-bundler</span></code>. Standing at <code class="docutils literal"><span class="pre">maliput_ws</span></code> root folder:</p>
+<div class="highlight-sh"><div class="highlight"><pre><span></span><span class="nb">cd</span> ~/maliput_ws
+colcon build --packages-up-to dsim-docs-bundler
+</pre></div>
+</div>
+<p>Open the documentation with your favorite browser. If Google Chrome is available, you can run:</p>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>google-chrome install/dsim-docs-bundler/share/dsim-docs-bundler/doc/dsim-docs/html/index.html
+</pre></div>
+</div>
+</div>
+<div class="section" id="delete-your-workspace">
+<span id="id23"></span><h4><a class="toc-backref" href="#id63">Delete your workspace</a><a class="headerlink" href="#delete-your-workspace" title="Permalink to this headline">¶</a></h4>
+<p>Containerized workspace could be deleted simply deleting the docker image:</p>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>docker rmi maliput_ws_ubuntu
+</pre></div>
+</div>
+<p>Consider replacing <code class="docutils literal"><span class="pre">maliput_ws_ubuntu</span></code> by your image name when using a custom one.</p>
+</div>
+</div>
+</div>
+<div class="section" id="contributing">
+<span id="id24"></span><h2><a class="toc-backref" href="#id64">Contributing</a><a class="headerlink" href="#contributing" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="usual-workflow">
+<span id="id25"></span><h3><a class="toc-backref" href="#id65">Usual workflow</a><a class="headerlink" href="#usual-workflow" title="Permalink to this headline">¶</a></h3>
+<p>Ours is similar to ROS2’s development workflow, and thus many of their tools and practices apply equally.</p>
+<p>Workspaces are managed via <a class="reference external" href="https://github.com/dirk-thomas/vcstool">vcs</a> , a tool that helps in dealing with
+sources distributed across multiple repositories, not necessarily versioned with the same tool (support for <code class="docutils literal"><span class="pre">git</span></code>,
+<code class="docutils literal"><span class="pre">hg</span></code>, <code class="docutils literal"><span class="pre">svn</span></code> and <code class="docutils literal"><span class="pre">bazaar</span></code> is readily available). <code class="docutils literal"><span class="pre">vcs</span></code> uses <code class="docutils literal"><span class="pre">.repos</span></code> files for a listing of version pinned sources.</p>
+<p>Dependency management is taken care of by <a class="reference external" href="https://docs.ros.org/independent/api/rosdep/html/commands.html">rosdep</a>,
+a tool that can crawl <code class="docutils literal"><span class="pre">package.xml</span></code> files and resolve dependencies into a call to the appropriate package
+manager for the current platform by means of a public database known as <a class="reference external" href="https://github.com/ros/rosdistro">rosdistro</a>.</p>
+<p>To build and test packages, <a class="reference external" href="https://colcon.readthedocs.io/en/released/">colcon</a> abstracts away the details of the
+specific build system and testing tools in use and arbitrates these operations to take place in topological order.
+Operations will be run in parallel by default.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">In all three cases above, the tools delegate the actual work to the right tool for each package and
+focus instead on bridging the gap between them. Thus, for instance, <code class="docutils literal"><span class="pre">colcon</span></code> builds interdependent
+CMake packages by running <code class="docutils literal"><span class="pre">cmake</span></code> and <code class="docutils literal"><span class="pre">make</span></code> in the right order and setting up the environment for
+the artifacts to be available. Same applies for <code class="docutils literal"><span class="pre">vcs</span></code> and <code class="docutils literal"><span class="pre">rosdep</span></code>.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">These tools do not strive to act like a proxy for every configuration setting or command line option
+that underlying tools they delegate work to may have. Thus, it may be necessary to configure the underlying
+tool in addition to the configuration for these tools to attain a desired behavior. For instance, limiting
+<code class="docutils literal"><span class="pre">colcon</span></code> parallelism with the <code class="docutils literal"><span class="pre">--parallel-workers</span></code> switch has no impact on <code class="docutils literal"><span class="pre">make</span></code> parallelization settings
+if this tool is being used.</p>
+</div>
+</div>
+<div class="section" id="using-binary-underlays">
+<span id="id26"></span><h3><a class="toc-backref" href="#id66">Using binary underlays</a><a class="headerlink" href="#using-binary-underlays" title="Permalink to this headline">¶</a></h3>
+<p>In ROS 2 workspace parlance, an overlay workspace is a workspace that builds on top of another, previously
+built workspace i.e. the underlay workspace. A binary underlay is thus the install space of a pre-built
+workspace, that packages in downstream workspaces can use to meet their dependencies. As a result, the amount
+of code that needs to be compiled when building downstream workspaces gets reduced, enabling faster builds. You may
+refer to <a class="reference external" href="https://index.ros.org/doc/ros2/Tutorials/Colcon-Tutorial/#source-an-underlay">colcon documentation and tutorials</a>
+for further details.</p>
+<p>Several binary underlays are available for download and installation:</p>
+<ul>
+<li><p class="first"><code class="docutils literal"><span class="pre">dsim-desktop-YYYYMMDD-bionic-tar.gz</span></code></p>
+<p>Built nightly, targeting Ubuntu Bionic 18.04 LTS. Contains all known packages in all our repositories as of
+the specified date (DD/MM/YYYY). To be found at <code class="docutils literal"><span class="pre">s3://driving-sim/projects/maliput/packages/nightlies/</span></code>.</p>
+</li>
+<li><p class="first"><code class="docutils literal"><span class="pre">dsim-desktop-latest-bionic.tar.gz</span></code></p>
+<p>Built nightly, targeting Ubuntu Bionic 18.04 LTS. Contains the most recent versions of all packages known in
+all our repositories. To be found at <code class="docutils literal"><span class="pre">s3://driving-sim/projects/maliput/packages/nightlies/</span></code>.</p>
+</li>
+</ul>
+<p>In the following, it is assumed that you want to use a full <code class="docutils literal"><span class="pre">dsim-desktop</span></code> underlay for working on a
+downstream package of your own. As such, it suggests the installation of a <code class="docutils literal"><span class="pre">dsim-desktop</span></code> binary underlay,
+that brings all known packages in all our repositories. You should choose an underlay that is appropriate for
+your intended purpose.</p>
+<div class="section" id="download-the-binary-underlay-tarball-of-choice-from-dsim-s-s3-bucket">
+<span id="download-binary-underlay"></span><h4><a class="toc-backref" href="#id67">Download the binary underlay tarball of choice from dsim’s S3 bucket</a><a class="headerlink" href="#download-the-binary-underlay-tarball-of-choice-from-dsim-s-s3-bucket" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>aws s3 cp s3://driving-sim/projects/maliput/packages/nightlies/dsim-desktop-latest-bionic.tar.gz <span class="se">\</span>
+    /path/to/workspace/dsim-desktop-latest-bionic.tar.gz
+</pre></div>
+</div>
+<p>It is assumed that you have the right AWS credentials configured in your system.
+See <a class="reference external" href="https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html">AWS CLI user guide to configuration</a> for further reference.</p>
+</div>
+<div class="section" id="extract-binary-underlay-tarball">
+<span id="extract-underaly-tarball"></span><h4><a class="toc-backref" href="#id68">Extract binary underlay tarball</a><a class="headerlink" href="#extract-binary-underlay-tarball" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>sudo mkdir -p /opt/dsim-desktop
+sudo tar -zxvf dsim-desktop-latest-bionic.tar.gz -C /opt/dsim-desktop --strip <span class="m">1</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="install-prerequisites">
+<span id="install-underlay-prerequisites"></span><h4><a class="toc-backref" href="#id69">Install prerequisites</a><a class="headerlink" href="#install-prerequisites" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-sh"><div class="highlight"><pre><span></span><span class="nb">echo</span> <span class="s2">&quot;deb http://packages.ros.org/ros2/ubuntu </span><span class="k">$(</span>lsb_release -cs<span class="k">)</span><span class="s2"> main&quot;</span> <span class="p">|</span> <span class="se">\</span>
+    sudo tee --append /etc/apt/sources.list.d/ros2-latest.list
+
+sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+
+sudo apt update
+sudo apt install -y python3-rosdep
+sudo rosdep init
+</pre></div>
+</div>
+</div>
+<div class="section" id="install-all-underlay-packages-dependencies">
+<span id="install-underlay-dependencies"></span><h4><a class="toc-backref" href="#id70">Install all underlay packages’ dependencies</a><a class="headerlink" href="#install-all-underlay-packages-dependencies" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-sh"><div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">ROS_DISTRO</span><span class="o">=</span>dashing
+rosdep update
+rosdep install -i -y --rosdistro <span class="nv">$ROS_DISTRO</span> --skip-keys <span class="s2">&quot;ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui0 ignition-gui3 ignition-rendering3 pybind11&quot;</span> --from-paths /opt/dsim-desktop/*
+</pre></div>
+</div>
+</div>
+<div class="section" id="install-underlay-drake">
+<span id="id27"></span><h4><a class="toc-backref" href="#id71">Install drake</a><a class="headerlink" href="#install-underlay-drake" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-sh"><div class="highlight"><pre><span></span><span class="nb">cd</span> /opt/dsim-desktop
+./drake_vendor/bin/drake_installer -f drake_vendor/share/VERSION.TXT
+</pre></div>
+</div>
+</div>
+<div class="section" id="install-ignition-binaries">
+<span id="install-underlay-ignition"></span><h4><a class="toc-backref" href="#id72">Install ignition binaries</a><a class="headerlink" href="#install-ignition-binaries" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-sh"><div class="highlight"><pre><span></span><span class="nb">echo</span> <span class="s2">&quot;deb http://packages.osrfoundation.org/gazebo/ubuntu-stable </span><span class="k">$(</span>lsb_release -cs<span class="k">)</span><span class="s2"> main&quot;</span> <span class="p">|</span> <span class="se">\</span>
+     sudo tee --append /etc/apt/sources.list.d/gazebo-stable.list
+sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys D2486D2DD83DB69272AFE98867170598AF249743
+
+sudo apt update
+sudo apt -y install --no-install-recommends <span class="se">\</span>
+               libignition-common3-dev <span class="se">\</span>
+               libignition-math6-dev <span class="se">\</span>
+               libignition-msgs5-dev <span class="se">\</span>
+               libignition-tools-dev <span class="se">\</span>
+               libignition-cmake2-dev <span class="se">\</span>
+               libignition-cmake1-dev <span class="se">\</span>
+               libignition-rendering3-dev <span class="se">\</span>
+               libignition-gui3-dev <span class="se">\</span>
+               libignition-transport8-dev
+</pre></div>
+</div>
+<p>From then on, before building the workspace, you must source the underlay as follows:</p>
+<div class="highlight-sh"><div class="highlight"><pre><span></span><span class="nb">source</span> /opt/dsim-desktop/setup.bash
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Having an underlay around does not make it a requirement for all workspace builds, but only for those that rely on that underlay to get their dependencies met.</p>
+</div>
+</div>
+</div>
+<div class="section" id="how-to-use-ci">
+<span id="id28"></span><h3><a class="toc-backref" href="#id73">How to use CI</a><a class="headerlink" href="#how-to-use-ci" title="Permalink to this headline">¶</a></h3>
+<p>CI jobs build and test relevant packages for each repository on every PR. Being a multi-repository project,
+patches that are not limited to a single repository must be separately PR’d but built and tested together.
+To that end, make sure that all PR’d branches that are part of the same patch have the same name
+e.g. <code class="docutils literal"><span class="pre">my_github_user/my_patch_name</span></code>.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Fork based development is currently not supported. All PRs must come from origin and not a fork.</p>
+</div>
+</div>
+</div>
+<div class="section" id="troubleshooting">
+<span id="id29"></span><h2><a class="toc-backref" href="#id74">Troubleshooting</a><a class="headerlink" href="#troubleshooting" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="issue-forensics">
+<span id="id30"></span><h3><a class="toc-backref" href="#id75">Issue Forensics</a><a class="headerlink" href="#issue-forensics" title="Permalink to this headline">¶</a></h3>
+<p>When reproducing issues, either related to the codebase or to the infrastructure
+that supports it, recreating the environment in which these issues arose is crucial.</p>
+</div>
+</div>
 </div>
 
 
@@ -65,7 +619,7 @@
         <div class="sphinxsidebarwrapper">
 <h3><a href="index.html">Table Of Contents</a></h3>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation &amp; quickstart guide</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation and Quickstart</a></li>
 <li class="toctree-l1"><a class="reference internal" href="developer_guidelines.html">Developer guidelines</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gallery.html">Gallery</a></li>
