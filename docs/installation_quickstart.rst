@@ -29,11 +29,11 @@ Supported platforms
 Prerequisites
 -------------
 
-* To get all the necessary tools, clone ``dsim-repos-index`` locally.
+* To get all the necessary tools, clone ``maliput-infrastructure`` locally.
 
 .. code-block:: sh
 
-      git clone git@github.com:ToyotaResearchInstitute/dsim-repos-index.git
+      git clone git@github.com:ToyotaResearchInstitute/maliput_infrastructure.git
 
 
 * To get all the necessary ``.repos`` files, clone ``repos_index`` locally.
@@ -72,7 +72,7 @@ Create the workspace folder
 
 .. note::
   Instructions assumes ``maliput_ws`` folder name as default and its location at
-  the same level as the cloned repository folder ``dsim-repos-index`` and
+  the same level as the cloned repository folder ``maliput_infrastructure`` and
   ``repos_index``.
 
 
@@ -102,7 +102,7 @@ Install dependencies
 
 .. code-block:: sh
 
-    sudo ./dsim-repos-index/tools/install_dependencies.sh
+    sudo ./maliput_infrastructure/tools/install_dependencies.sh
 
 .. _update-all-the-repositories-in-your-workspace:
 
@@ -205,13 +205,13 @@ Build the docker image
 
 .. code-block:: sh
 
-    ./dsim-repos-index/docker/build.sh
+    ./maliput_infrastructure/docker/build.sh
 
 If you are using nvidia-docker2 add the ``--nvidia`` option.
 
 .. code-block:: sh
 
-    ./dsim-repos-index/docker/build.sh --nvidia
+    ./maliput_infrastructure/docker/build.sh --nvidia
 
 
 .. note::
@@ -235,13 +235,13 @@ Run the container
 
 .. code-block:: sh
 
-    ./dsim-repos-index/docker/run.sh
+    ./maliput_infrastructure/docker/run.sh
 
 If you are using nvidia-docker2 add the ``--nvidia`` option.
 
 .. code-block:: sh
 
-    ./dsim-repos-index/docker/run.sh --nvidia
+    ./maliput_infrastructure/docker/run.sh --nvidia
 
 
 .. note::
@@ -249,7 +249,7 @@ If you are using nvidia-docker2 add the ``--nvidia`` option.
 
     #. ``-i`` ``--image_name`` Name of the image to be run (default maliput_ws_ubuntu)
     #. ``-c`` ``--container_name`` Name of the container(default maliput_ws)
-    #. ``-w`` ``--workspace``  Relative or absolute path to the workspace you want to bind. (default to location of dsim-repos-index folder)
+    #. ``-w`` ``--workspace``  Relative or absolute path to the workspace you want to bind. (default to location of maliput_infrastructure folder)
 
 .. _install-dependencies:
 
