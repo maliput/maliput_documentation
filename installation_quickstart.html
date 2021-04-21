@@ -145,9 +145,9 @@ The instructions below use <code class="docutils literal"><span class="pre">sudo
 <div class="section" id="prerequisites">
 <h3><a class="toc-backref" href="#id35">Prerequisites</a><a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>To get all the necessary tools, clone <code class="docutils literal"><span class="pre">dsim-repos-index</span></code> locally.</li>
+<li>To get all the necessary tools, clone <code class="docutils literal"><span class="pre">maliput-infrastructure</span></code> locally.</li>
 </ul>
-<div class="highlight-sh"><div class="highlight"><pre><span></span>git clone git@github.com:ToyotaResearchInstitute/dsim-repos-index.git
+<div class="highlight-sh"><div class="highlight"><pre><span></span>git clone git@github.com:ToyotaResearchInstitute/maliput_infrastructure.git
 </pre></div>
 </div>
 <ul class="simple">
@@ -181,7 +181,7 @@ file. Nevertheless, the instructions also provide information on how to bring
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">Instructions assumes <code class="docutils literal"><span class="pre">maliput_ws</span></code> folder name as default and its location at
-the same level as the cloned repository folder <code class="docutils literal"><span class="pre">dsim-repos-index</span></code> and
+the same level as the cloned repository folder <code class="docutils literal"><span class="pre">maliput_infrastructure</span></code> and
 <code class="docutils literal"><span class="pre">repos_index</span></code>.</p>
 </div>
 </div>
@@ -195,7 +195,7 @@ folder. It will be used to bring all the repositories later on.</p>
 </div>
 <div class="section" id="install-dependencies">
 <h5><a class="toc-backref" href="#id40">Install dependencies</a><a class="headerlink" href="#install-dependencies" title="Permalink to this headline">¶</a></h5>
-<div class="highlight-sh"><div class="highlight"><pre><span></span>sudo ./dsim-repos-index/tools/install_dependencies.sh
+<div class="highlight-sh"><div class="highlight"><pre><span></span>sudo ./maliput_infrastructure/tools/install_dependencies.sh
 </pre></div>
 </div>
 </div>
@@ -253,11 +253,11 @@ rosdep install -i -y --rosdistro <span class="nv">$ROS_DISTRO</span> --skip-keys
 We provide the necessary machinery to <code class="docutils literal"><span class="pre">build</span></code> and <code class="docutils literal"><span class="pre">run</span></code> a docker image and container:</p>
 <div class="section" id="build-the-docker-image">
 <span id="id8"></span><h5><a class="toc-backref" href="#id47">Build the docker image</a><a class="headerlink" href="#build-the-docker-image" title="Permalink to this headline">¶</a></h5>
-<div class="highlight-sh"><div class="highlight"><pre><span></span>./dsim-repos-index/docker/build.sh
+<div class="highlight-sh"><div class="highlight"><pre><span></span>./maliput_infrastructure/docker/build.sh
 </pre></div>
 </div>
 <p>If you are using nvidia-docker2 add the <code class="docutils literal"><span class="pre">--nvidia</span></code> option.</p>
-<div class="highlight-sh"><div class="highlight"><pre><span></span>./dsim-repos-index/docker/build.sh --nvidia
+<div class="highlight-sh"><div class="highlight"><pre><span></span>./maliput_infrastructure/docker/build.sh --nvidia
 </pre></div>
 </div>
 <div class="admonition note">
@@ -279,11 +279,11 @@ We provide the necessary machinery to <code class="docutils literal"><span class
 </div>
 <div class="section" id="run-the-container">
 <span id="id11"></span><h5><a class="toc-backref" href="#id50">Run the container</a><a class="headerlink" href="#run-the-container" title="Permalink to this headline">¶</a></h5>
-<div class="highlight-sh"><div class="highlight"><pre><span></span>./dsim-repos-index/docker/run.sh
+<div class="highlight-sh"><div class="highlight"><pre><span></span>./maliput_infrastructure/docker/run.sh
 </pre></div>
 </div>
 <p>If you are using nvidia-docker2 add the <code class="docutils literal"><span class="pre">--nvidia</span></code> option.</p>
-<div class="highlight-sh"><div class="highlight"><pre><span></span>./dsim-repos-index/docker/run.sh --nvidia
+<div class="highlight-sh"><div class="highlight"><pre><span></span>./maliput_infrastructure/docker/run.sh --nvidia
 </pre></div>
 </div>
 <div class="admonition note">
@@ -293,7 +293,7 @@ We provide the necessary machinery to <code class="docutils literal"><span class
 <div><ol class="arabic simple">
 <li><code class="docutils literal"><span class="pre">-i</span></code> <code class="docutils literal"><span class="pre">--image_name</span></code> Name of the image to be run (default maliput_ws_ubuntu)</li>
 <li><code class="docutils literal"><span class="pre">-c</span></code> <code class="docutils literal"><span class="pre">--container_name</span></code> Name of the container(default maliput_ws)</li>
-<li><code class="docutils literal"><span class="pre">-w</span></code> <code class="docutils literal"><span class="pre">--workspace</span></code>  Relative or absolute path to the workspace you want to bind. (default to location of dsim-repos-index folder)</li>
+<li><code class="docutils literal"><span class="pre">-w</span></code> <code class="docutils literal"><span class="pre">--workspace</span></code>  Relative or absolute path to the workspace you want to bind. (default to location of maliput_infrastructure folder)</li>
 </ol>
 </div></blockquote>
 </div>
