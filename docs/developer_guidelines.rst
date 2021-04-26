@@ -2,6 +2,9 @@
 Developer guidelines
 ********************
 
+.. contents:: Table of Contents
+    :depth: 5
+
 Workspace
 =========
 
@@ -266,3 +269,96 @@ The workspace is built with Ubuntu's default ``gcc`` (version 7.5) and ``ld``
 * Undefined behavior sanitizer.
 * Thread sanitizer.
 * Static analyzer (scan-build): it runs with ``clang``.
+
+Releasing and versioning
+========================
+
+``maliput`` packages adhere to `semantic versioning <https://semver.org/>`_ and
+will follow as much as possible `ROS2 developer guide <https://docs.ros.org/en/foxy/Contributing/Developer-Guide.html>`_ .
+
+API Stability
+-------------
+
+API stability will not adhere the tick-tock deprecation strategy (see
+`ROS2 developer guide <https://docs.ros.org/en/foxy/Contributing/Developer-Guide.html#deprecation-strategy>`_
+). A developer should expect API deprecations between two consecutive major
+releases.
+
+Branches and tags
+-----------------
+
+The following branches and tags schemes will be used:
+
+* Use ``master`` or ``main`` as the mainline development branch. The tip of
+  that branch will be the latest development state. It is not safe.
+  downstream projects are encouraged to avoid using it unless there is a
+  business need to do so.
+* Each project will create branches with the following pattern:
+  ``release/major.minor.x``, e.g. ``release/1.2.x``. Patch releases (``x``)
+  will be appended as new commits into that branch.
+* Every new commit into a release branch should have a tag, name it as
+  ``release/major.minor.patch``.
+
+How to release?
+---------------
+
+Make sure to follow these steps to make a release of one of your packages:
+
+* Define what type of release this is based on `semantic versioning <https://semver.org/>`_.
+* Define your workspace dependencies' versions: a new release should be paired
+  with other packages releases. Define them. Use the latest version of
+  all dependencies when making a new release, minor update or hotfix to the
+  latest version.
+* maliput workspace is a relatively small project, make sure dependencies
+  downstream within the workspace work as well. Otherwise, make sure to fix
+  them and create a new release for them.
+* When creating a new release:
+
+  * Make a PR to your repository package and update the changelog. Target
+    branch is either ``master`` or ``main`` branch. Submit it.
+  * From ``master`` or ``main`` branch, create a new branch called
+    ``release/major.minor.x``.
+  * Checkout all your dependencies to their respective branches.
+  * Run **all** tests. If you encounter any problem, send PRs to fix them
+    targeting either ``master`` or ``main`` branch. Merge those commits into
+    ``release/major.minor.x``.
+  * Push the branch to upstream Github repository.
+  * Make a tag with the appropriate version number: ``release/major.minor.0``.
+  * Push the tag.
+  * Create a PR to `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_
+    and update ``maliput_stable.repos`` to indicate ``release/major.minor.0`` as
+    the package version.
+*  When updating a minor version:
+
+  * If the ``major`` and ``minor`` version numbers are the greatest, follow the
+    steps to make a new release.
+  * If the ``major`` or ``minor`` version numbers not the greatest: from the
+    tip of ``release/major.minor-1.x``, create a new branch called
+    ``release/major.minor.x``.
+  * Push the branch to upstream Github repository.
+  * Make sure to set your dependencies properly. Look at
+    ``maliput_stable.repos`` in `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_
+    and look into the history to identify the appropriate set of dependencies'
+    versions.
+  * Make PRs to introduce your changes targeting ``release/major.minor.x``.
+  * Update the changelog.
+  * Run **all** tests. If you encounter any problem, send PRs to fix them
+    targeting ``release/major.minor.x`` branch.
+  * Make a tag with the appropriate version number: ``release/major.minor.0``.
+  * Push the tag.
+  * Create a PR to `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_
+    and update ``maliput_stable.repos`` to indicate ``release/major.minor.0`` as
+    the package version.
+* When making a patch:
+
+  * Patches may come from ``master`` or ``main`` branch as cherry-picks or
+    specific PRs to release branches. Use the appropriate solution for your use
+    case. In any case, make sure to create PRs for each release branch.
+    Update the changelog.
+  * Run **all** tests. If you encounter any problem, send PRs to fix them
+    targeting ``release/major.minor.x`` branch.
+  * Make a tag with the appropriate version number: ``release/major.minor.patch``.
+  * Push the tag.
+  * Create a PR to `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_
+    and update ``maliput_stable.repos`` to indicate ``release/major.minor.patch`` as
+    the new package version.
