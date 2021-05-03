@@ -291,13 +291,11 @@ The following branches and tags schemes will be used:
 
 * Use ``master`` or ``main`` as the mainline development branch. The tip of
   that branch will be the latest development state. It is not safe.
-  downstream projects are encouraged to avoid using it unless there is a
+  Downstream projects are encouraged to avoid using it unless there is a
   business need to do so.
 * Each project will create branches with the following pattern:
   ``release/major.minor.x``, e.g. ``release/1.2.x``. Patch releases (``x``)
   will be appended as new commits into that branch.
-* Every new commit into a release branch should have a tag, name it as
-  ``release/major.minor.patch``.
 
 Releases
 ========
@@ -307,7 +305,7 @@ Named releases
 
 ``maliput`` packages will be released under named major releases. Named releases
 will be related to famous roads in the world from all times and will be
-alphabetical sorted. Packages may evolve a handful of releases in between
+alphabetically sorted. Packages may evolve a handful of releases in between
 named releases. Named releases will be updated on demand.
 
 Named release output
@@ -360,8 +358,8 @@ Create a new package major release
 * Collect downstream (within the workspace) packages' versions.
 * Prepare the release branch:
 
-  * Make a PR to your repository package and update the changelog. Target
-    branch is either ``master`` or ``main`` branch. Submit it.
+  * Make a PR to your repository package and update the changelog and ``package.xml``.
+    Target branch is either ``master`` or ``main`` branch. Submit it.
   * From ``master`` or ``main`` branch, create a new branch called
     ``release/major.minor.x``.
 * Run **all** tests. If you encounter any problem, send PRs to fix them
@@ -386,8 +384,8 @@ Create a new package minor release
   * Cherry-pick commits as needed and/or create PRs targeting
     ``release/major.minor.x``.
   * Push the branch ``release/major.minor.x`` to upstream Github repository.
-  * Make a PR to your repository package and update the changelog. Target
-    branch is ``release/major.minor.x``. Submit it.
+  * Make a PR to your repository package and update the changelog and ``package.xml``.
+    Target branch is ``release/major.minor.x``. Submit it.
   * Make PRs to introduce your changes targeting ``release/major.minor.x``.
     Submit them.
   * Run **all** tests. If you encounter any problem, send PRs to fix them
@@ -409,9 +407,9 @@ Create a new package hotfix release
 
   * Patches may come from ``master`` or ``main`` branch as cherry-picks or
     specific PRs to release branches. Use the appropriate solution for your use
-    case. In any case, make sure to create PRs for each release branch the .
-  * Make a PR to your repository package and update the changelog. Target
-    branch is ``release/major.minor.x``. Submit it.
+    case.
+  * Make a PR to your repository package and update the changelog and ``package.xml``.
+    Target branch is ``release/major.minor.x``. Submit it.
   * Run **all** tests. If you encounter any problem, send PRs to fix them
     targeting ``release/major.minor.x`` branch.
 * Make a tag with the appropriate version number: ``release/major.minor.patch``.
