@@ -151,7 +151,7 @@ Install dependencies via ``rosdep``
   Package dependencies are installed system wide. ``rosdep`` does not provide any support to remove the dependencies it brings. In this regard, disposable containerized workspaces help keep development environments clean (as system wide installations within a container are limited to that container).
 
 
-.. note:
+.. note::
   If you are following the instructions to work with the ``delphyne`` repositories too, you should know that not all the dependencies are met with ``rosdep``. The following list of steps will allow you to get your environment ready for ``delphyne`` packages:
 
   .. code-block:: sh
