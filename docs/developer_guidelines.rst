@@ -41,6 +41,9 @@ The following packages are provided:
 .. _drake_vendor: TODO
 .. _pybind11: TODO
 
+Each repository contains only one package. This is a design premise to ease the
+release process.
+
 Continuous integration
 ----------------------
 
@@ -281,8 +284,7 @@ API Stability
 
 API stability will not adhere the tick-tock deprecation strategy (see
 `ROS2 developer guide <https://docs.ros.org/en/foxy/Contributing/Developer-Guide.html#deprecation-strategy>`_
-). A developer should expect API deprecations between two consecutive major
-releases.
+). A developer should expect API changes between two consecutive major releases.
 
 Branches and tags for releases
 ------------------------------
@@ -293,9 +295,10 @@ The following branches and tags schemes will be used:
   that branch will be the latest development state. It is not safe.
   Downstream projects are encouraged to avoid using it unless there is a
   business need to do so.
-* Each project will create branches with the following pattern:
+* Each repository will create branches with the following pattern:
   ``release/major.minor.x``, e.g. ``release/1.2.x``. Patch releases (``x``)
-  will be appended as new commits into that branch.
+  will be appended as new commits into that branch. Note that each repository
+  must contain only one package.
 
 Releases
 ========
@@ -303,10 +306,10 @@ Releases
 Named releases
 --------------
 
-``maliput`` packages will be released under named major releases. Named releases
-will be related to famous roads in the world from all times and will be
-alphabetically sorted. Packages may evolve a handful of releases in between
-named releases. Named releases will be updated on demand.
+``maliput`` packages will be released under named major releases. The names will
+be chosen based on famous roads in the world from all times and will be
+alphabetically sorted. Packages may evolve a handful of minor and patch releases
+in between named releases. Named releases will be created on demand.
 
 Named release output
 --------------------
@@ -314,10 +317,10 @@ Named release output
 Every new named release will provide:
 
 - Updated ``maliput_stable.repos`` file when appropriate (new major release,
-  update to latest minor release or hotix to latest release).
-- Updated ``maliput_<name>.repos`` file when appropriate (depending on which
-  named release benefits from the new package).
-- Updated tarball in S3 bucket with the following name pattern.
+  update to latest minor release or hotfix to latest release).
+- New ``maliput_<name>.repos`` file.
+- Updated tarball in S3 bucket with the following name pattern: ``maliput_ws_<name>_YYYYMMDD_bionic.tar.gz``
+  where ``name`` is the release name and ``YYYYMMDD`` is the release date.
 
 
 How to release?
@@ -334,7 +337,7 @@ Make a new named ``maliput`` workspace release
 * Build and test the workspace with all packages pointing to their versions.
 * Create a new ``maliput_<name>.repos`` file in `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_
   under the appropriate ROS2 distro folder.
-* Update ``maliput_stable.repos`` file in `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_
+* Optionally update ``maliput_stable.repos`` file in `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_
   under the appropriate ROS2 distro folder.
 * Create a binary tarball of the workspace.
 * Upload the binary tarball to Amazon S3 bucket.
@@ -345,7 +348,7 @@ Update a named ``maliput`` workspace release
 * Collect all packages' versions to be update the release.
 * Build and test the workspace with all packages pointing to their versions.
 * Update ``maliput_<name>.repos`` file in `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_ under the appropriate ROS2 distro folder.
-* Update ``maliput_stable.repos`` file in `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_
+* Optionally update ``maliput_stable.repos`` file in `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_
   under the appropriate ROS2 distro folder when it is appropriate (no package
   regression).
 * Create a binary tarball of the workspace.
@@ -415,3 +418,18 @@ Create a new package hotfix release
 * Make a tag with the appropriate version number: ``release/major.minor.patch``.
 * Push the tag.
 * Consider updating the affected named ``maliput`` workspace release.
+
+Create a named release tarball
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Once you have configured all your packages in the right version, you need to
+build and test the worspace. To generate the tarball:
+
+.. code-block:: sh
+
+    cd /path/to/maliput_ws
+    export BUNDLE_NAME=maliput_ws_name
+    mv install ${BUNDLE_NAME};
+    CURRENT_BUNDLE_TARBALL_NAME="${BUNDLE_NAME}_$(date +%Y%m%d)_bionic.tar.gz"
+    tar -czvf ${CURRENT_BUNDLE_TARBALL_NAME} ${BUNDLE_NAME}
+
