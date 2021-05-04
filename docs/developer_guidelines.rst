@@ -291,14 +291,14 @@ Branches and tags for releases
 
 The following branches and tags schemes will be used:
 
-* Use ``master`` or ``main`` as the mainline development branch. The tip of
+* Use ``main`` as the mainline development branch. The tip of
   that branch will be the latest development state. It is not safe.
   Downstream projects are encouraged to avoid using it unless there is a
   business need to do so.
-* Each repository will create branches with the following pattern:
+* Each repository will have branches with the following pattern:
   ``release/major.minor.x``, e.g. ``release/1.2.x``. Patch releases (``x``)
   will be appended as new commits into that branch. Note that each repository
-  must contain only one package.
+  contains only one package.
 
 Releases
 ========
@@ -307,9 +307,9 @@ Named releases
 --------------
 
 ``maliput`` packages will be released under named major releases. The names will
-be chosen based on famous roads in the world from all times and will be
-alphabetically sorted. Packages may evolve a handful of minor and patch releases
-in between named releases. Named releases will be created on demand.
+be chosen based on famous roads and will be alphabetically sorted. Packages may
+evolve a handful of minor and patch releases in between named releases. Named
+releases will be created on demand.
 
 Named release output
 --------------------
@@ -339,7 +339,7 @@ Make a new named ``maliput`` workspace release
   under the appropriate ROS2 distro folder.
 * Optionally update ``maliput_stable.repos`` file in `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_
   under the appropriate ROS2 distro folder.
-* Create a binary tarball of the workspace.
+* Create a binary tarball of the workspace (see :ref:`create-a-named-release-tarball`).
 * Upload the binary tarball to Amazon S3 bucket.
 
 Update a named ``maliput`` workspace release
@@ -351,7 +351,7 @@ Update a named ``maliput`` workspace release
 * Optionally update ``maliput_stable.repos`` file in `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_
   under the appropriate ROS2 distro folder when it is appropriate (no package
   regression).
-* Create a binary tarball of the workspace.
+* Create a binary tarball of the workspace (see :ref:`create-a-named-release-tarball`).
 * Upload the binary tarball to Amazon S3 bucket.
 
 Create a new package major release
@@ -362,11 +362,11 @@ Create a new package major release
 * Prepare the release branch:
 
   * Make a PR to your repository package and update the changelog and ``package.xml``.
-    Target branch is either ``master`` or ``main`` branch. Submit it.
-  * From ``master`` or ``main`` branch, create a new branch called
+    Target branch is either ``main`` branch. Submit it.
+  * From ``main`` branch, create a new branch called
     ``release/major.minor.x``.
 * Run **all** tests. If you encounter any problem, send PRs to fix them
-  targeting either ``master`` or ``main`` branch. Merge those commits into
+  targeting either ``main`` branch. Merge those commits into
   ``release/major.minor.x``.
 * Push the branch to upstream Github repository.
 * Make a tag with the appropriate version number: ``release/major.minor.0``.
@@ -408,7 +408,7 @@ Create a new package hotfix release
 * Collect downstream (within the workspace) packages' versions.
 * Prepare the release branch:
 
-  * Patches may come from ``master`` or ``main`` branch as cherry-picks or
+  * Patches may come from ``main`` branch as cherry-picks or
     specific PRs to release branches. Use the appropriate solution for your use
     case.
   * Make a PR to your repository package and update the changelog and ``package.xml``.
@@ -419,11 +419,13 @@ Create a new package hotfix release
 * Push the tag.
 * Consider updating the affected named ``maliput`` workspace release.
 
+
+.. _create-a-named-release-tarball:
+
 Create a named release tarball
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Once you have configured all your packages in the right version, you need to
-build and test the worspace. To generate the tarball:
+To generate the tarball:
 
 .. code-block:: sh
 
