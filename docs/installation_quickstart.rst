@@ -88,7 +88,7 @@ folder. It will be used to bring all the repositories later on.
 
     cp repos_index/dashing/maliput.repos maliput_ws/
 
-.. note:
+.. note::
   If you would like to bring the ``delphyne`` repositories too, you should also
   copy `delphyne.repos <https://github.com/ToyotaResearchInstitute/repos_index/blob/main/dashing/delphyne.repos>`_.
 
