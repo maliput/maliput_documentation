@@ -278,6 +278,24 @@ During docker build stage a script is copied into the container at ``/home/$USER
 .. note::
   Bear in mind that using a non-containerized workspace makes reproducing and troubleshooting issues harder for others.
 
+.. _staging-changes-in-your-container:
+
+Staging changes in your container
+"""""""""""""""""""""""""""""""""
+
+Once you finish your setup and tried the workspace, you might want to stage it. You can achieve that
+by ``exit``-ing the container and accepting to commit the changes.
+
+.. code-block:: sh
+
+    user@a3b6a70d7b7d:~/maliput_ws$ exit
+    exit
+    access control enabled, only authorized clients can connect
+    Do you want to overwrite the image called 'maliput_ws_ubuntu' with the current changes? [y/n]: y
+    Overwriting docker image...
+    [sudo] password for user:
+    sha256:9fdf391051f702f6b3fcd9c7ab258e5e014361bf18918b86155db3acda355147
+
 .. _check-your-workspace:
 
 Check your workspace
