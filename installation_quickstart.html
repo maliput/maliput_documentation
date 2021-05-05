@@ -54,69 +54,70 @@
           <div class="body" role="main">
             
   <div class="section" id="installation-and-quickstart">
-<h1><a class="toc-backref" href="#id31">Installation and Quickstart</a><a class="headerlink" href="#installation-and-quickstart" title="Permalink to this headline">¶</a></h1>
+<h1><a class="toc-backref" href="#id32">Installation and Quickstart</a><a class="headerlink" href="#installation-and-quickstart" title="Permalink to this headline">¶</a></h1>
 <div class="contents topic" id="table-of-contents">
 <p class="topic-title first">Table of Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#installation-and-quickstart" id="id31">Installation and Quickstart</a><ul>
-<li><a class="reference internal" href="#introduction" id="id32">Introduction</a></li>
-<li><a class="reference internal" href="#workspaces" id="id33">Workspaces</a><ul>
-<li><a class="reference internal" href="#supported-platforms" id="id34">Supported platforms</a></li>
-<li><a class="reference internal" href="#prerequisites" id="id35">Prerequisites</a></li>
-<li><a class="reference internal" href="#usage-instructions" id="id36">Usage instructions</a><ul>
-<li><a class="reference internal" href="#create-a-workspace" id="id37">Create a workspace</a><ul>
-<li><a class="reference internal" href="#create-the-workspace-folder" id="id38">Create the workspace folder</a></li>
-<li><a class="reference internal" href="#copy-repos-file" id="id39">Copy .repos file</a></li>
-<li><a class="reference internal" href="#install-dependencies" id="id40">Install dependencies</a></li>
-<li><a class="reference internal" href="#update-all-the-repositories-in-your-workspace" id="id41">Update all the repositories in your workspace</a></li>
-<li><a class="reference internal" href="#install-all-packages-dependencies" id="id42">Install all packages’ dependencies</a></li>
-<li><a class="reference internal" href="#install-dependencies-via-rosdep" id="id43">Install dependencies via <code class="docutils literal"><span class="pre">rosdep</span></code></a></li>
-<li><a class="reference internal" href="#install-drake" id="id44">Install drake</a></li>
-<li><a class="reference internal" href="#source-ros-environment" id="id45">Source ROS environment</a></li>
+<li><a class="reference internal" href="#installation-and-quickstart" id="id32">Installation and Quickstart</a><ul>
+<li><a class="reference internal" href="#introduction" id="id33">Introduction</a></li>
+<li><a class="reference internal" href="#workspaces" id="id34">Workspaces</a><ul>
+<li><a class="reference internal" href="#supported-platforms" id="id35">Supported platforms</a></li>
+<li><a class="reference internal" href="#prerequisites" id="id36">Prerequisites</a></li>
+<li><a class="reference internal" href="#usage-instructions" id="id37">Usage instructions</a><ul>
+<li><a class="reference internal" href="#create-a-workspace" id="id38">Create a workspace</a><ul>
+<li><a class="reference internal" href="#create-the-workspace-folder" id="id39">Create the workspace folder</a></li>
+<li><a class="reference internal" href="#copy-repos-file" id="id40">Copy .repos file</a></li>
+<li><a class="reference internal" href="#install-dependencies" id="id41">Install dependencies</a></li>
+<li><a class="reference internal" href="#update-all-the-repositories-in-your-workspace" id="id42">Update all the repositories in your workspace</a></li>
+<li><a class="reference internal" href="#install-all-packages-dependencies" id="id43">Install all packages’ dependencies</a></li>
+<li><a class="reference internal" href="#install-dependencies-via-rosdep" id="id44">Install dependencies via <code class="docutils literal"><span class="pre">rosdep</span></code></a></li>
+<li><a class="reference internal" href="#install-drake" id="id45">Install drake</a></li>
+<li><a class="reference internal" href="#source-ros-environment" id="id46">Source ROS environment</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#optional-create-a-containerized-workspace" id="id46">Optional: Create a containerized workspace</a><ul>
-<li><a class="reference internal" href="#build-the-docker-image" id="id47">Build the docker image</a></li>
-<li><a class="reference internal" href="#id9" id="id48"><a class="reference internal" href="#create-the-workspace-folder"><span class="std std-ref">Create the workspace folder</span></a></a></li>
-<li><a class="reference internal" href="#id10" id="id49"><a class="reference internal" href="#copy-repos-file"><span class="std std-ref">Copy .repos file</span></a></a></li>
-<li><a class="reference internal" href="#run-the-container" id="id50">Run the container</a></li>
-<li><a class="reference internal" href="#id12" id="id51">Install dependencies</a></li>
-<li><a class="reference internal" href="#id14" id="id52"><a class="reference internal" href="#update-all-the-repositories-in-your-workspace"><span class="std std-ref">Update all the repositories in your workspace</span></a></a></li>
-<li><a class="reference internal" href="#id15" id="id53"><a class="reference internal" href="#install-all-packages-dependencies"><span class="std std-ref">Install all packages’ dependencies</span></a></a></li>
-<li><a class="reference internal" href="#id16" id="id54"><a class="reference internal" href="#install-drake"><span class="std std-ref">Install drake</span></a></a></li>
-<li><a class="reference internal" href="#id17" id="id55"><a class="reference internal" href="#source-ros-environment"><span class="std std-ref">Source ROS environment</span></a></a></li>
+<li><a class="reference internal" href="#optional-create-a-containerized-workspace" id="id47">Optional: Create a containerized workspace</a><ul>
+<li><a class="reference internal" href="#build-the-docker-image" id="id48">Build the docker image</a></li>
+<li><a class="reference internal" href="#id9" id="id49"><a class="reference internal" href="#create-the-workspace-folder"><span class="std std-ref">Create the workspace folder</span></a></a></li>
+<li><a class="reference internal" href="#id10" id="id50"><a class="reference internal" href="#copy-repos-file"><span class="std std-ref">Copy .repos file</span></a></a></li>
+<li><a class="reference internal" href="#run-the-container" id="id51">Run the container</a></li>
+<li><a class="reference internal" href="#id12" id="id52">Install dependencies</a></li>
+<li><a class="reference internal" href="#id14" id="id53"><a class="reference internal" href="#update-all-the-repositories-in-your-workspace"><span class="std std-ref">Update all the repositories in your workspace</span></a></a></li>
+<li><a class="reference internal" href="#id15" id="id54"><a class="reference internal" href="#install-all-packages-dependencies"><span class="std std-ref">Install all packages’ dependencies</span></a></a></li>
+<li><a class="reference internal" href="#id16" id="id55"><a class="reference internal" href="#install-drake"><span class="std std-ref">Install drake</span></a></a></li>
+<li><a class="reference internal" href="#id17" id="id56"><a class="reference internal" href="#source-ros-environment"><span class="std std-ref">Source ROS environment</span></a></a></li>
+<li><a class="reference internal" href="#staging-changes-in-your-container" id="id57">Staging changes in your container</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#check-your-workspace" id="id56">Check your workspace</a></li>
-<li><a class="reference internal" href="#build-your-workspace" id="id57">Build your workspace</a><ul>
-<li><a class="reference internal" href="#build" id="id58">Build</a></li>
-<li><a class="reference internal" href="#source-the-workspace" id="id59">Source the workspace</a></li>
+<li><a class="reference internal" href="#check-your-workspace" id="id58">Check your workspace</a></li>
+<li><a class="reference internal" href="#build-your-workspace" id="id59">Build your workspace</a><ul>
+<li><a class="reference internal" href="#build" id="id60">Build</a></li>
+<li><a class="reference internal" href="#source-the-workspace" id="id61">Source the workspace</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#test-your-workspace" id="id60">Test your workspace</a></li>
-<li><a class="reference internal" href="#build-your-workspace-using-static-analyzer" id="id61">Build your workspace using Static Analyzer</a></li>
-<li><a class="reference internal" href="#build-doxygen-documentation" id="id62">Build doxygen documentation</a></li>
-<li><a class="reference internal" href="#delete-your-workspace" id="id63">Delete your workspace</a></li>
+<li><a class="reference internal" href="#test-your-workspace" id="id62">Test your workspace</a></li>
+<li><a class="reference internal" href="#build-your-workspace-using-static-analyzer" id="id63">Build your workspace using Static Analyzer</a></li>
+<li><a class="reference internal" href="#build-doxygen-documentation" id="id64">Build doxygen documentation</a></li>
+<li><a class="reference internal" href="#delete-your-workspace" id="id65">Delete your workspace</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a class="reference internal" href="#contributing" id="id64">Contributing</a><ul>
-<li><a class="reference internal" href="#usual-workflow" id="id65">Usual workflow</a></li>
-<li><a class="reference internal" href="#using-binary-underlays" id="id66">Using binary underlays</a><ul>
-<li><a class="reference internal" href="#download-the-binary-underlay-tarball-of-choice-from-dsim-s-s3-bucket" id="id67">Download the binary underlay tarball of choice from dsim’s S3 bucket</a></li>
-<li><a class="reference internal" href="#extract-binary-underlay-tarball" id="id68">Extract binary underlay tarball</a></li>
-<li><a class="reference internal" href="#install-prerequisites" id="id69">Install prerequisites</a></li>
-<li><a class="reference internal" href="#install-all-underlay-packages-dependencies" id="id70">Install all underlay packages’ dependencies</a></li>
-<li><a class="reference internal" href="#install-underlay-drake" id="id71">Install drake</a></li>
-<li><a class="reference internal" href="#install-ignition-binaries" id="id72">Install ignition binaries</a></li>
+<li><a class="reference internal" href="#contributing" id="id66">Contributing</a><ul>
+<li><a class="reference internal" href="#usual-workflow" id="id67">Usual workflow</a></li>
+<li><a class="reference internal" href="#using-binary-underlays" id="id68">Using binary underlays</a><ul>
+<li><a class="reference internal" href="#download-the-binary-underlay-tarball-of-choice-from-dsim-s-s3-bucket" id="id69">Download the binary underlay tarball of choice from dsim’s S3 bucket</a></li>
+<li><a class="reference internal" href="#extract-binary-underlay-tarball" id="id70">Extract binary underlay tarball</a></li>
+<li><a class="reference internal" href="#install-prerequisites" id="id71">Install prerequisites</a></li>
+<li><a class="reference internal" href="#install-all-underlay-packages-dependencies" id="id72">Install all underlay packages’ dependencies</a></li>
+<li><a class="reference internal" href="#install-underlay-drake" id="id73">Install drake</a></li>
+<li><a class="reference internal" href="#install-ignition-binaries" id="id74">Install ignition binaries</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#how-to-use-ci" id="id73">How to use CI</a></li>
+<li><a class="reference internal" href="#how-to-use-ci" id="id75">How to use CI</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#troubleshooting" id="id74">Troubleshooting</a><ul>
-<li><a class="reference internal" href="#issue-forensics" id="id75">Issue Forensics</a></li>
+<li><a class="reference internal" href="#troubleshooting" id="id76">Troubleshooting</a><ul>
+<li><a class="reference internal" href="#issue-forensics" id="id77">Issue Forensics</a></li>
 </ul>
 </li>
 </ul>
@@ -124,14 +125,14 @@
 </ul>
 </div>
 <div class="section" id="introduction">
-<h2><a class="toc-backref" href="#id32">Introduction</a><a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id33">Introduction</a><a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
 <p>This section explains how to build a workspace for <code class="docutils literal"><span class="pre">maliput</span></code> development. You’ll find how to work
 with <code class="docutils literal"><span class="pre">maliput</span></code> and with <code class="docutils literal"><span class="pre">delphyne</span></code> repositories in a multi-repository workspace.</p>
 </div>
 <div class="section" id="workspaces">
-<h2><a class="toc-backref" href="#id33">Workspaces</a><a class="headerlink" href="#workspaces" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id34">Workspaces</a><a class="headerlink" href="#workspaces" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="supported-platforms">
-<h3><a class="toc-backref" href="#id34">Supported platforms</a><a class="headerlink" href="#supported-platforms" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id35">Supported platforms</a><a class="headerlink" href="#supported-platforms" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li>Docker containerized workspaces (<strong>recommended</strong>): A docker image is provided in order to
 show the steps needed to set up the environment in a containerized workspace.
@@ -143,7 +144,7 @@ The instructions below use <code class="docutils literal"><span class="pre">sudo
 </ul>
 </div>
 <div class="section" id="prerequisites">
-<h3><a class="toc-backref" href="#id35">Prerequisites</a><a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id36">Prerequisites</a><a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li>To get all the necessary tools, clone <code class="docutils literal"><span class="pre">maliput-infrastructure</span></code> locally.</li>
 </ul>
@@ -164,7 +165,7 @@ Also, you can use <code class="docutils literal"><span class="pre">nvidia-docker
 </ul>
 </div>
 <div class="section" id="usage-instructions">
-<h3><a class="toc-backref" href="#id36">Usage instructions</a><a class="headerlink" href="#usage-instructions" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id37">Usage instructions</a><a class="headerlink" href="#usage-instructions" title="Permalink to this headline">¶</a></h3>
 <p>In the following, it is assumed that you want to create a workspace containing
 all of Maliput repositories, with a focus on Maliput and Malidrive development.
 As such, it suggests the creation of a workspace in a <code class="docutils literal"><span class="pre">maliput_ws</span></code> directory
@@ -172,9 +173,9 @@ and pulling sources from the <a class="reference external" href="hhttps://github
 file. Nevertheless, the instructions also provide information on how to bring
 <code class="docutils literal"><span class="pre">delphyne</span></code> repositories if needed, and satisfy their dependencies.</p>
 <div class="section" id="create-a-workspace">
-<h4><a class="toc-backref" href="#id37">Create a workspace</a><a class="headerlink" href="#create-a-workspace" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id38">Create a workspace</a><a class="headerlink" href="#create-a-workspace" title="Permalink to this headline">¶</a></h4>
 <div class="section" id="create-the-workspace-folder">
-<span id="id1"></span><h5><a class="toc-backref" href="#id38">Create the workspace folder</a><a class="headerlink" href="#create-the-workspace-folder" title="Permalink to this headline">¶</a></h5>
+<span id="id1"></span><h5><a class="toc-backref" href="#id39">Create the workspace folder</a><a class="headerlink" href="#create-the-workspace-folder" title="Permalink to this headline">¶</a></h5>
 <div class="highlight-sh"><div class="highlight"><pre><span></span>mkdir -p maliput_ws
 </pre></div>
 </div>
@@ -186,21 +187,29 @@ the same level as the cloned repository folder <code class="docutils literal"><s
 </div>
 </div>
 <div class="section" id="copy-repos-file">
-<span id="id2"></span><h5><a class="toc-backref" href="#id39">Copy .repos file</a><a class="headerlink" href="#copy-repos-file" title="Permalink to this headline">¶</a></h5>
+<span id="id2"></span><h5><a class="toc-backref" href="#id40">Copy .repos file</a><a class="headerlink" href="#copy-repos-file" title="Permalink to this headline">¶</a></h5>
 <p>Copy <code class="docutils literal"><span class="pre">repos_index/dashing/maliput.repos</span></code> file into <code class="docutils literal"><span class="pre">maliput_ws</span></code> workspace
 folder. It will be used to bring all the repositories later on.</p>
 <div class="highlight-sh"><div class="highlight"><pre><span></span>cp repos_index/dashing/maliput.repos maliput_ws/
 </pre></div>
 </div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>If you would like to bring the <code class="docutils literal"><span class="pre">delphyne</span></code> repositories too, you should also
+copy <a class="reference external" href="https://github.com/ToyotaResearchInstitute/repos_index/blob/main/dashing/delphyne.repos">delphyne.repos</a>.</p>
+<div class="last highlight-sh"><div class="highlight"><pre><span></span>cp repos_index/dashing/delphyne.repos maliput_ws/
+</pre></div>
+</div>
+</div>
 </div>
 <div class="section" id="install-dependencies">
-<h5><a class="toc-backref" href="#id40">Install dependencies</a><a class="headerlink" href="#install-dependencies" title="Permalink to this headline">¶</a></h5>
+<h5><a class="toc-backref" href="#id41">Install dependencies</a><a class="headerlink" href="#install-dependencies" title="Permalink to this headline">¶</a></h5>
 <div class="highlight-sh"><div class="highlight"><pre><span></span>sudo ./maliput_infrastructure/tools/install_dependencies.sh
 </pre></div>
 </div>
 </div>
 <div class="section" id="update-all-the-repositories-in-your-workspace">
-<span id="id3"></span><h5><a class="toc-backref" href="#id41">Update all the repositories in your workspace</a><a class="headerlink" href="#update-all-the-repositories-in-your-workspace" title="Permalink to this headline">¶</a></h5>
+<span id="id3"></span><h5><a class="toc-backref" href="#id42">Update all the repositories in your workspace</a><a class="headerlink" href="#update-all-the-repositories-in-your-workspace" title="Permalink to this headline">¶</a></h5>
 <p>Bring all the repositories listed in <code class="docutils literal"><span class="pre">maliput.repos</span></code> file. Standing at the root of your workspace folder:</p>
 <div class="highlight-sh"><div class="highlight"><pre><span></span>mkdir -p src
 vcs import src &lt; maliput.repos  <span class="c1"># clone and/or checkout</span>
@@ -217,14 +226,14 @@ this <code class="docutils literal"><span class="pre">import</span></code> and <
 for <code class="docutils literal"><span class="pre">delphyne.repos</span></code>).</p>
 </div>
 <div class="section" id="install-all-packages-dependencies">
-<span id="id4"></span><h5><a class="toc-backref" href="#id42">Install all packages’ dependencies</a><a class="headerlink" href="#install-all-packages-dependencies" title="Permalink to this headline">¶</a></h5>
+<span id="id4"></span><h5><a class="toc-backref" href="#id43">Install all packages’ dependencies</a><a class="headerlink" href="#install-all-packages-dependencies" title="Permalink to this headline">¶</a></h5>
 <p>First update the <code class="docutils literal"><span class="pre">ROS_DISTRO</span></code> environment variable with your <code class="docutils literal"><span class="pre">ros2</span></code> version, e.g.:</p>
 <div class="highlight-sh"><div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">ROS_DISTRO</span><span class="o">=</span>dashing
 </pre></div>
 </div>
 </div>
 <div class="section" id="install-dependencies-via-rosdep">
-<span id="id5"></span><h5><a class="toc-backref" href="#id43">Install dependencies via <code class="docutils literal"><span class="pre">rosdep</span></code></a><a class="headerlink" href="#install-dependencies-via-rosdep" title="Permalink to this headline">¶</a></h5>
+<span id="id5"></span><h5><a class="toc-backref" href="#id44">Install dependencies via <code class="docutils literal"><span class="pre">rosdep</span></code></a><a class="headerlink" href="#install-dependencies-via-rosdep" title="Permalink to this headline">¶</a></h5>
 <div class="highlight-sh"><div class="highlight"><pre><span></span>rosdep update
 rosdep install -i -y --rosdistro <span class="nv">$ROS_DISTRO</span> --skip-keys <span class="s2">&quot;ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui0 ignition-gui3 ignition-rendering3 pybind11&quot;</span> --from-paths src
 </pre></div>
@@ -233,26 +242,47 @@ rosdep install -i -y --rosdistro <span class="nv">$ROS_DISTRO</span> --skip-keys
 <p class="first admonition-title">Warning</p>
 <p class="last">Package dependencies are installed system wide. <code class="docutils literal"><span class="pre">rosdep</span></code> does not provide any support to remove the dependencies it brings. In this regard, disposable containerized workspaces help keep development environments clean (as system wide installations within a container are limited to that container).</p>
 </div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>If you are following the instructions to work with the <code class="docutils literal"><span class="pre">delphyne</span></code> repositories too, you should know that not all the dependencies are met with <code class="docutils literal"><span class="pre">rosdep</span></code>. The following list of steps will allow you to get your environment ready for <code class="docutils literal"><span class="pre">delphyne</span></code> packages:</p>
+<div class="last highlight-sh"><div class="highlight"><pre><span></span><span class="nb">echo</span> <span class="s2">&quot;deb http://packages.osrfoundation.org/gazebo/ubuntu-stable </span><span class="k">$(</span>lsb_release -cs<span class="k">)</span><span class="s2"> main&quot;</span> <span class="p">|</span> <span class="se">\</span>
+     sudo tee --append /etc/apt/sources.list.d/gazebo-stable.list
+sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys D2486D2DD83DB69272AFE98867170598AF249743
+
+sudo apt update
+sudo apt -y install --no-install-recommends <span class="se">\</span>
+               libignition-common3-dev <span class="se">\</span>
+               libignition-math6-dev <span class="se">\</span>
+               libignition-msgs5-dev <span class="se">\</span>
+               libignition-tools-dev <span class="se">\</span>
+               libignition-cmake1-dev <span class="se">\</span>
+               libignition-cmake2-dev <span class="se">\</span>
+               libignition-rendering3-dev <span class="se">\</span>
+               libignition-gui3-dev <span class="se">\</span>
+               libignition-transport8-dev
+</pre></div>
+</div>
+</div>
 </div>
 <div class="section" id="install-drake">
-<span id="id6"></span><h5><a class="toc-backref" href="#id44">Install drake</a><a class="headerlink" href="#install-drake" title="Permalink to this headline">¶</a></h5>
+<span id="id6"></span><h5><a class="toc-backref" href="#id45">Install drake</a><a class="headerlink" href="#install-drake" title="Permalink to this headline">¶</a></h5>
 <div class="highlight-sh"><div class="highlight"><pre><span></span>sudo ./src/drake_vendor/drake_installer
 </pre></div>
 </div>
 </div>
 <div class="section" id="source-ros-environment">
-<span id="id7"></span><h5><a class="toc-backref" href="#id45">Source ROS environment</a><a class="headerlink" href="#source-ros-environment" title="Permalink to this headline">¶</a></h5>
+<span id="id7"></span><h5><a class="toc-backref" href="#id46">Source ROS environment</a><a class="headerlink" href="#source-ros-environment" title="Permalink to this headline">¶</a></h5>
 <div class="highlight-sh"><div class="highlight"><pre><span></span><span class="nb">source</span> /opt/ros/<span class="nv">$ROS_DISTRO</span>/setup.bash
 </pre></div>
 </div>
 </div>
 </div>
 <div class="section" id="optional-create-a-containerized-workspace">
-<span id="create-a-contenerized-workspace"></span><h4><a class="toc-backref" href="#id46">Optional: Create a containerized workspace</a><a class="headerlink" href="#optional-create-a-containerized-workspace" title="Permalink to this headline">¶</a></h4>
+<span id="create-a-contenerized-workspace"></span><h4><a class="toc-backref" href="#id47">Optional: Create a containerized workspace</a><a class="headerlink" href="#optional-create-a-containerized-workspace" title="Permalink to this headline">¶</a></h4>
 <p>If the workspace is meant to be run using a container the steps are pretty similar.
 We provide the necessary machinery to <code class="docutils literal"><span class="pre">build</span></code> and <code class="docutils literal"><span class="pre">run</span></code> a docker image and container:</p>
 <div class="section" id="build-the-docker-image">
-<span id="id8"></span><h5><a class="toc-backref" href="#id47">Build the docker image</a><a class="headerlink" href="#build-the-docker-image" title="Permalink to this headline">¶</a></h5>
+<span id="id8"></span><h5><a class="toc-backref" href="#id48">Build the docker image</a><a class="headerlink" href="#build-the-docker-image" title="Permalink to this headline">¶</a></h5>
 <div class="highlight-sh"><div class="highlight"><pre><span></span>./maliput_infrastructure/docker/build.sh
 </pre></div>
 </div>
@@ -272,13 +302,13 @@ We provide the necessary machinery to <code class="docutils literal"><span class
 </div>
 </div>
 <div class="section" id="id9">
-<h5><a class="toc-backref" href="#id48"><a class="reference internal" href="#create-the-workspace-folder"><span class="std std-ref">Create the workspace folder</span></a></a><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h5>
+<h5><a class="toc-backref" href="#id49"><a class="reference internal" href="#create-the-workspace-folder"><span class="std std-ref">Create the workspace folder</span></a></a><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h5>
 </div>
 <div class="section" id="id10">
-<h5><a class="toc-backref" href="#id49"><a class="reference internal" href="#copy-repos-file"><span class="std std-ref">Copy .repos file</span></a></a><a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h5>
+<h5><a class="toc-backref" href="#id50"><a class="reference internal" href="#copy-repos-file"><span class="std std-ref">Copy .repos file</span></a></a><a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h5>
 </div>
 <div class="section" id="run-the-container">
-<span id="id11"></span><h5><a class="toc-backref" href="#id50">Run the container</a><a class="headerlink" href="#run-the-container" title="Permalink to this headline">¶</a></h5>
+<span id="id11"></span><h5><a class="toc-backref" href="#id51">Run the container</a><a class="headerlink" href="#run-the-container" title="Permalink to this headline">¶</a></h5>
 <div class="highlight-sh"><div class="highlight"><pre><span></span>./maliput_infrastructure/docker/run.sh
 </pre></div>
 </div>
@@ -299,31 +329,45 @@ We provide the necessary machinery to <code class="docutils literal"><span class
 </div>
 </div>
 <div class="section" id="id12">
-<span id="id13"></span><h5><a class="toc-backref" href="#id51">Install dependencies</a><a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h5>
+<span id="id13"></span><h5><a class="toc-backref" href="#id52">Install dependencies</a><a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h5>
 <p>During docker build stage a script is copied into the container at <code class="docutils literal"><span class="pre">/home/$USER/</span></code>.</p>
 <div class="highlight-sh"><div class="highlight"><pre><span></span>sudo ./../install_dependencies.sh
 </pre></div>
 </div>
 </div>
 <div class="section" id="id14">
-<h5><a class="toc-backref" href="#id52"><a class="reference internal" href="#update-all-the-repositories-in-your-workspace"><span class="std std-ref">Update all the repositories in your workspace</span></a></a><a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h5>
+<h5><a class="toc-backref" href="#id53"><a class="reference internal" href="#update-all-the-repositories-in-your-workspace"><span class="std std-ref">Update all the repositories in your workspace</span></a></a><a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h5>
 </div>
 <div class="section" id="id15">
-<h5><a class="toc-backref" href="#id53"><a class="reference internal" href="#install-all-packages-dependencies"><span class="std std-ref">Install all packages’ dependencies</span></a></a><a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h5>
+<h5><a class="toc-backref" href="#id54"><a class="reference internal" href="#install-all-packages-dependencies"><span class="std std-ref">Install all packages’ dependencies</span></a></a><a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h5>
 </div>
 <div class="section" id="id16">
-<h5><a class="toc-backref" href="#id54"><a class="reference internal" href="#install-drake"><span class="std std-ref">Install drake</span></a></a><a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h5>
+<h5><a class="toc-backref" href="#id55"><a class="reference internal" href="#install-drake"><span class="std std-ref">Install drake</span></a></a><a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h5>
 </div>
 <div class="section" id="id17">
-<h5><a class="toc-backref" href="#id55"><a class="reference internal" href="#source-ros-environment"><span class="std std-ref">Source ROS environment</span></a></a><a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h5>
+<h5><a class="toc-backref" href="#id56"><a class="reference internal" href="#source-ros-environment"><span class="std std-ref">Source ROS environment</span></a></a><a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h5>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">Bear in mind that using a non-containerized workspace makes reproducing and troubleshooting issues harder for others.</p>
 </div>
 </div>
+<div class="section" id="staging-changes-in-your-container">
+<span id="id18"></span><h5><a class="toc-backref" href="#id57">Staging changes in your container</a><a class="headerlink" href="#staging-changes-in-your-container" title="Permalink to this headline">¶</a></h5>
+<p>Once you finish your setup and tried the workspace, you might want to stage it. You can achieve that
+by <code class="docutils literal"><span class="pre">exit</span></code>-ing the container and accepting to commit the changes.</p>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>user@a3b6a70d7b7d:~/maliput_ws$ <span class="nb">exit</span>
+<span class="nb">exit</span>
+access control enabled, only authorized clients can connect
+Do you want to overwrite the image called <span class="s1">&#39;maliput_ws_ubuntu&#39;</span> with the current changes? <span class="o">[</span>y/n<span class="o">]</span>: y
+Overwriting docker image...
+<span class="o">[</span>sudo<span class="o">]</span> password <span class="k">for</span> user:
+sha256:9fdf391051f702f6b3fcd9c7ab258e5e014361bf18918b86155db3acda355147
+</pre></div>
+</div>
+</div>
 </div>
 <div class="section" id="check-your-workspace">
-<span id="id18"></span><h4><a class="toc-backref" href="#id56">Check your workspace</a><a class="headerlink" href="#check-your-workspace" title="Permalink to this headline">¶</a></h4>
+<span id="id19"></span><h4><a class="toc-backref" href="#id58">Check your workspace</a><a class="headerlink" href="#check-your-workspace" title="Permalink to this headline">¶</a></h4>
 <p>Workspace state as a whole encompasses both current local repositories’ state plus the state of
 the filesystem that hosts it. However, if a workspace is containerized and no customizations are
 applied by the user, repositories alone carry the source code and state the list of system dependencies
@@ -355,9 +399,9 @@ being handled outside <code class="docutils literal"><span class="pre">rosdep</s
 if <code class="docutils literal"><span class="pre">vcs</span></code> isn’t enough or to the specific package managers (e.g. <code class="docutils literal"><span class="pre">apt</span></code> or <code class="docutils literal"><span class="pre">pip</span></code>) if <code class="docutils literal"><span class="pre">rosdep</span></code> isn’t enough.</p>
 </div>
 <div class="section" id="build-your-workspace">
-<span id="id19"></span><h4><a class="toc-backref" href="#id57">Build your workspace</a><a class="headerlink" href="#build-your-workspace" title="Permalink to this headline">¶</a></h4>
+<span id="id20"></span><h4><a class="toc-backref" href="#id59">Build your workspace</a><a class="headerlink" href="#build-your-workspace" title="Permalink to this headline">¶</a></h4>
 <div class="section" id="build">
-<span id="id20"></span><h5><a class="toc-backref" href="#id58">Build</a><a class="headerlink" href="#build" title="Permalink to this headline">¶</a></h5>
+<span id="id21"></span><h5><a class="toc-backref" href="#id60">Build</a><a class="headerlink" href="#build" title="Permalink to this headline">¶</a></h5>
 <p>It can be done in full or partially. Standing at <code class="docutils literal"><span class="pre">maliput_ws</span></code> root folder:</p>
 <div class="highlight-sh"><div class="highlight"><pre><span></span><span class="nb">cd</span> ~/maliput_ws
 </pre></div>
@@ -400,7 +444,7 @@ to <code class="docutils literal"><span class="pre">colcon</span></code>.</p>
 </div>
 </div>
 <div class="section" id="source-the-workspace">
-<span id="id21"></span><h5><a class="toc-backref" href="#id59">Source the workspace</a><a class="headerlink" href="#source-the-workspace" title="Permalink to this headline">¶</a></h5>
+<span id="id22"></span><h5><a class="toc-backref" href="#id61">Source the workspace</a><a class="headerlink" href="#source-the-workspace" title="Permalink to this headline">¶</a></h5>
 <div class="highlight-sh"><div class="highlight"><pre><span></span><span class="nb">source</span> install/setup.bash
 </pre></div>
 </div>
@@ -416,7 +460,7 @@ your terminal) to see if everything is properly working.</p>
 </div>
 </div>
 <div class="section" id="test-your-workspace">
-<span id="id22"></span><h4><a class="toc-backref" href="#id60">Test your workspace</a><a class="headerlink" href="#test-your-workspace" title="Permalink to this headline">¶</a></h4>
+<span id="id23"></span><h4><a class="toc-backref" href="#id62">Test your workspace</a><a class="headerlink" href="#test-your-workspace" title="Permalink to this headline">¶</a></h4>
 <p>In a built workspace, run:</p>
 <div class="highlight-sh"><div class="highlight"><pre><span></span>colcon <span class="nb">test</span> --event-handlers<span class="o">=</span>console_direct+ --return-code-on-test-failure --packages-skip pybind11
 </pre></div>
@@ -428,7 +472,7 @@ for further reference on <code class="docutils literal"><span class="pre">test</
 </div>
 </div>
 <div class="section" id="build-your-workspace-using-static-analyzer">
-<span id="static-analyzer"></span><h4><a class="toc-backref" href="#id61">Build your workspace using Static Analyzer</a><a class="headerlink" href="#build-your-workspace-using-static-analyzer" title="Permalink to this headline">¶</a></h4>
+<span id="static-analyzer"></span><h4><a class="toc-backref" href="#id63">Build your workspace using Static Analyzer</a><a class="headerlink" href="#build-your-workspace-using-static-analyzer" title="Permalink to this headline">¶</a></h4>
 <p>In order to verify your code you can run the <a class="reference external" href="https://clang-analyzer.llvm.org/">Clang Static Analyzer</a>.
 A useful script called <code class="docutils literal"><span class="pre">run_scan_build</span></code> is located in the <code class="docutils literal"><span class="pre">.github</span></code> folder in every repository.</p>
 <p>The script will forward arguments to <code class="docutils literal"><span class="pre">colcon</span> <span class="pre">build</span></code> so you can use colcon’s CLI machinery to choose which packages to evaluate.</p>
@@ -442,7 +486,7 @@ A useful script called <code class="docutils literal"><span class="pre">run_scan
 </div>
 </div>
 <div class="section" id="build-doxygen-documentation">
-<span id="doxygen-documentation"></span><h4><a class="toc-backref" href="#id62">Build doxygen documentation</a><a class="headerlink" href="#build-doxygen-documentation" title="Permalink to this headline">¶</a></h4>
+<span id="doxygen-documentation"></span><h4><a class="toc-backref" href="#id64">Build doxygen documentation</a><a class="headerlink" href="#build-doxygen-documentation" title="Permalink to this headline">¶</a></h4>
 <p>Build the workspace, which can be done in full or partially. In particular, we are interested in compiling <code class="docutils literal"><span class="pre">dsim-docs-bundler</span></code>. Standing at <code class="docutils literal"><span class="pre">maliput_ws</span></code> root folder:</p>
 <div class="highlight-sh"><div class="highlight"><pre><span></span><span class="nb">cd</span> ~/maliput_ws
 colcon build --packages-up-to dsim-docs-bundler
@@ -454,7 +498,7 @@ colcon build --packages-up-to dsim-docs-bundler
 </div>
 </div>
 <div class="section" id="delete-your-workspace">
-<span id="id23"></span><h4><a class="toc-backref" href="#id63">Delete your workspace</a><a class="headerlink" href="#delete-your-workspace" title="Permalink to this headline">¶</a></h4>
+<span id="id24"></span><h4><a class="toc-backref" href="#id65">Delete your workspace</a><a class="headerlink" href="#delete-your-workspace" title="Permalink to this headline">¶</a></h4>
 <p>Containerized workspace could be deleted simply deleting the docker image:</p>
 <div class="highlight-sh"><div class="highlight"><pre><span></span>docker rmi maliput_ws_ubuntu
 </pre></div>
@@ -464,9 +508,9 @@ colcon build --packages-up-to dsim-docs-bundler
 </div>
 </div>
 <div class="section" id="contributing">
-<span id="id24"></span><h2><a class="toc-backref" href="#id64">Contributing</a><a class="headerlink" href="#contributing" title="Permalink to this headline">¶</a></h2>
+<span id="id25"></span><h2><a class="toc-backref" href="#id66">Contributing</a><a class="headerlink" href="#contributing" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="usual-workflow">
-<span id="id25"></span><h3><a class="toc-backref" href="#id65">Usual workflow</a><a class="headerlink" href="#usual-workflow" title="Permalink to this headline">¶</a></h3>
+<span id="id26"></span><h3><a class="toc-backref" href="#id67">Usual workflow</a><a class="headerlink" href="#usual-workflow" title="Permalink to this headline">¶</a></h3>
 <p>Ours is similar to ROS2’s development workflow, and thus many of their tools and practices apply equally.</p>
 <p>Workspaces are managed via <a class="reference external" href="https://github.com/dirk-thomas/vcstool">vcs</a> , a tool that helps in dealing with
 sources distributed across multiple repositories, not necessarily versioned with the same tool (support for <code class="docutils literal"><span class="pre">git</span></code>,
@@ -494,7 +538,7 @@ if this tool is being used.</p>
 </div>
 </div>
 <div class="section" id="using-binary-underlays">
-<span id="id26"></span><h3><a class="toc-backref" href="#id66">Using binary underlays</a><a class="headerlink" href="#using-binary-underlays" title="Permalink to this headline">¶</a></h3>
+<span id="id27"></span><h3><a class="toc-backref" href="#id68">Using binary underlays</a><a class="headerlink" href="#using-binary-underlays" title="Permalink to this headline">¶</a></h3>
 <p>In ROS 2 workspace parlance, an overlay workspace is a workspace that builds on top of another, previously
 built workspace i.e. the underlay workspace. A binary underlay is thus the install space of a pre-built
 workspace, that packages in downstream workspaces can use to meet their dependencies. As a result, the amount
@@ -517,7 +561,7 @@ downstream package of your own. As such, it suggests the installation of a <code
 that brings all known packages in all our repositories. You should choose an underlay that is appropriate for
 your intended purpose.</p>
 <div class="section" id="download-the-binary-underlay-tarball-of-choice-from-dsim-s-s3-bucket">
-<span id="download-binary-underlay"></span><h4><a class="toc-backref" href="#id67">Download the binary underlay tarball of choice from dsim’s S3 bucket</a><a class="headerlink" href="#download-the-binary-underlay-tarball-of-choice-from-dsim-s-s3-bucket" title="Permalink to this headline">¶</a></h4>
+<span id="download-binary-underlay"></span><h4><a class="toc-backref" href="#id69">Download the binary underlay tarball of choice from dsim’s S3 bucket</a><a class="headerlink" href="#download-the-binary-underlay-tarball-of-choice-from-dsim-s-s3-bucket" title="Permalink to this headline">¶</a></h4>
 <div class="highlight-sh"><div class="highlight"><pre><span></span>aws s3 cp s3://driving-sim/projects/maliput/packages/nightlies/dsim-desktop-latest-bionic.tar.gz <span class="se">\</span>
     /path/to/workspace/dsim-desktop-latest-bionic.tar.gz
 </pre></div>
@@ -526,14 +570,14 @@ your intended purpose.</p>
 See <a class="reference external" href="https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html">AWS CLI user guide to configuration</a> for further reference.</p>
 </div>
 <div class="section" id="extract-binary-underlay-tarball">
-<span id="extract-underaly-tarball"></span><h4><a class="toc-backref" href="#id68">Extract binary underlay tarball</a><a class="headerlink" href="#extract-binary-underlay-tarball" title="Permalink to this headline">¶</a></h4>
+<span id="extract-underaly-tarball"></span><h4><a class="toc-backref" href="#id70">Extract binary underlay tarball</a><a class="headerlink" href="#extract-binary-underlay-tarball" title="Permalink to this headline">¶</a></h4>
 <div class="highlight-sh"><div class="highlight"><pre><span></span>sudo mkdir -p /opt/dsim-desktop
 sudo tar -zxvf dsim-desktop-latest-bionic.tar.gz -C /opt/dsim-desktop --strip <span class="m">1</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="install-prerequisites">
-<span id="install-underlay-prerequisites"></span><h4><a class="toc-backref" href="#id69">Install prerequisites</a><a class="headerlink" href="#install-prerequisites" title="Permalink to this headline">¶</a></h4>
+<span id="install-underlay-prerequisites"></span><h4><a class="toc-backref" href="#id71">Install prerequisites</a><a class="headerlink" href="#install-prerequisites" title="Permalink to this headline">¶</a></h4>
 <div class="highlight-sh"><div class="highlight"><pre><span></span><span class="nb">echo</span> <span class="s2">&quot;deb http://packages.ros.org/ros2/ubuntu </span><span class="k">$(</span>lsb_release -cs<span class="k">)</span><span class="s2"> main&quot;</span> <span class="p">|</span> <span class="se">\</span>
     sudo tee --append /etc/apt/sources.list.d/ros2-latest.list
 
@@ -546,7 +590,7 @@ sudo rosdep init
 </div>
 </div>
 <div class="section" id="install-all-underlay-packages-dependencies">
-<span id="install-underlay-dependencies"></span><h4><a class="toc-backref" href="#id70">Install all underlay packages’ dependencies</a><a class="headerlink" href="#install-all-underlay-packages-dependencies" title="Permalink to this headline">¶</a></h4>
+<span id="install-underlay-dependencies"></span><h4><a class="toc-backref" href="#id72">Install all underlay packages’ dependencies</a><a class="headerlink" href="#install-all-underlay-packages-dependencies" title="Permalink to this headline">¶</a></h4>
 <div class="highlight-sh"><div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">ROS_DISTRO</span><span class="o">=</span>dashing
 rosdep update
 rosdep install -i -y --rosdistro <span class="nv">$ROS_DISTRO</span> --skip-keys <span class="s2">&quot;ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui0 ignition-gui3 ignition-rendering3 pybind11&quot;</span> --from-paths /opt/dsim-desktop/*
@@ -554,14 +598,14 @@ rosdep install -i -y --rosdistro <span class="nv">$ROS_DISTRO</span> --skip-keys
 </div>
 </div>
 <div class="section" id="install-underlay-drake">
-<span id="id27"></span><h4><a class="toc-backref" href="#id71">Install drake</a><a class="headerlink" href="#install-underlay-drake" title="Permalink to this headline">¶</a></h4>
+<span id="id28"></span><h4><a class="toc-backref" href="#id73">Install drake</a><a class="headerlink" href="#install-underlay-drake" title="Permalink to this headline">¶</a></h4>
 <div class="highlight-sh"><div class="highlight"><pre><span></span><span class="nb">cd</span> /opt/dsim-desktop
 ./drake_vendor/bin/drake_installer -f drake_vendor/share/VERSION.TXT
 </pre></div>
 </div>
 </div>
 <div class="section" id="install-ignition-binaries">
-<span id="install-underlay-ignition"></span><h4><a class="toc-backref" href="#id72">Install ignition binaries</a><a class="headerlink" href="#install-ignition-binaries" title="Permalink to this headline">¶</a></h4>
+<span id="install-underlay-ignition"></span><h4><a class="toc-backref" href="#id74">Install ignition binaries</a><a class="headerlink" href="#install-ignition-binaries" title="Permalink to this headline">¶</a></h4>
 <div class="highlight-sh"><div class="highlight"><pre><span></span><span class="nb">echo</span> <span class="s2">&quot;deb http://packages.osrfoundation.org/gazebo/ubuntu-stable </span><span class="k">$(</span>lsb_release -cs<span class="k">)</span><span class="s2"> main&quot;</span> <span class="p">|</span> <span class="se">\</span>
      sudo tee --append /etc/apt/sources.list.d/gazebo-stable.list
 sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys D2486D2DD83DB69272AFE98867170598AF249743
@@ -590,7 +634,7 @@ sudo apt -y install --no-install-recommends <span class="se">\</span>
 </div>
 </div>
 <div class="section" id="how-to-use-ci">
-<span id="id28"></span><h3><a class="toc-backref" href="#id73">How to use CI</a><a class="headerlink" href="#how-to-use-ci" title="Permalink to this headline">¶</a></h3>
+<span id="id29"></span><h3><a class="toc-backref" href="#id75">How to use CI</a><a class="headerlink" href="#how-to-use-ci" title="Permalink to this headline">¶</a></h3>
 <p>CI jobs build and test relevant packages for each repository on every PR. Being a multi-repository project,
 patches that are not limited to a single repository must be separately PR’d but built and tested together.
 To that end, make sure that all PR’d branches that are part of the same patch have the same name
@@ -602,9 +646,9 @@ e.g. <code class="docutils literal"><span class="pre">my_github_user/my_patch_na
 </div>
 </div>
 <div class="section" id="troubleshooting">
-<span id="id29"></span><h2><a class="toc-backref" href="#id74">Troubleshooting</a><a class="headerlink" href="#troubleshooting" title="Permalink to this headline">¶</a></h2>
+<span id="id30"></span><h2><a class="toc-backref" href="#id76">Troubleshooting</a><a class="headerlink" href="#troubleshooting" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="issue-forensics">
-<span id="id30"></span><h3><a class="toc-backref" href="#id75">Issue Forensics</a><a class="headerlink" href="#issue-forensics" title="Permalink to this headline">¶</a></h3>
+<span id="id31"></span><h3><a class="toc-backref" href="#id77">Issue Forensics</a><a class="headerlink" href="#issue-forensics" title="Permalink to this headline">¶</a></h3>
 <p>When reproducing issues, either related to the codebase or to the infrastructure
 that supports it, recreating the environment in which these issues arose is crucial.</p>
 </div>
