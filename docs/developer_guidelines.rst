@@ -282,7 +282,7 @@ will follow as much as possible `ROS2 developer guide <https://docs.ros.org/en/f
 API Stability
 -------------
 
-API stability will not adhere the tick-tock deprecation strategy (see
+API stability will not adhere to the tick-tock deprecation strategy (see
 `ROS2 developer guide <https://docs.ros.org/en/foxy/Contributing/Developer-Guide.html#deprecation-strategy>`_
 ). A developer should expect API changes between two consecutive major releases.
 
@@ -297,8 +297,7 @@ The following branches and tags schemes will be used:
   business need to do so.
 * Each repository will have branches with the following pattern:
   ``release/major.minor.x``, e.g. ``release/1.2.x``. Patch releases (``x``)
-  will be appended as new commits into that branch. Note that each repository
-  contains only one package.
+  will be appended as new commits into that branch.
 
 Releases
 ========
@@ -326,13 +325,15 @@ Every new named release will provide:
 How to release?
 ---------------
 
-There are different steps to follow based on the type of release you are willing
-to do. Please make sure to define it before proceeding with the instructions
+There are different steps to follow based on the type of release you want to
+create. Please make sure to define it before proceeding with the instructions
 below. Also, be mindful about the stable versions of your dependencies.
 
 Make a new named ``maliput`` workspace release
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+* Choose a name for the release. Choose a name that is next in the alphabet
+  relative to the previous named release.
 * Collect all packages' versions to be part of the release.
 * Build and test the workspace with all packages pointing to their versions.
 * Create a new ``maliput_<name>.repos`` file in `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_
@@ -361,14 +362,14 @@ Create a new package major release
 * Collect downstream (within the workspace) packages' versions.
 * Prepare the release branch:
 
-  * Make a PR to your repository package and update the changelog and ``package.xml``.
-    Target branch is either ``main`` branch. Submit it.
+  * Make a PR to the package's repository and update the ``CHANGELOG.rst`` and
+    ``package.xml`` files. Target branch is ``main``. Submit it.
   * From ``main`` branch, create a new branch called
     ``release/major.minor.x``.
 * Run **all** tests. If you encounter any problem, send PRs to fix them
-  targeting either ``main`` branch. Merge those commits into
+  targeting ``main`` branch. Merge those commits into
   ``release/major.minor.x``.
-* Push the branch to upstream Github repository.
+* Push the branch.
 * Make a tag with the appropriate version number: ``release/major.minor.0``.
 * Push the tag.
 * Create a PR to `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_
@@ -386,7 +387,7 @@ Create a new package minor release
     ``release/major.minor.x``.
   * Cherry-pick commits as needed and/or create PRs targeting
     ``release/major.minor.x``.
-  * Push the branch ``release/major.minor.x`` to upstream Github repository.
+  * Push the branch ``release/major.minor.x``.
   * Make a PR to your repository package and update the changelog and ``package.xml``.
     Target branch is ``release/major.minor.x``. Submit it.
   * Make PRs to introduce your changes targeting ``release/major.minor.x``.
