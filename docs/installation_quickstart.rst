@@ -29,11 +29,11 @@ Supported platforms
 Prerequisites
 -------------
 
-* To get all the necessary tools, clone ``dsim-repos-index`` locally.
+* To get all the necessary tools, clone ``maliput-infrastructure`` locally.
 
 .. code-block:: sh
 
-      git clone git@github.com:ToyotaResearchInstitute/dsim-repos-index.git
+      git clone git@github.com:ToyotaResearchInstitute/maliput_infrastructure.git
 
 
 * To get all the necessary ``.repos`` files, clone ``repos_index`` locally.
@@ -72,7 +72,7 @@ Create the workspace folder
 
 .. note::
   Instructions assumes ``maliput_ws`` folder name as default and its location at
-  the same level as the cloned repository folder ``dsim-repos-index`` and
+  the same level as the cloned repository folder ``maliput_infrastructure`` and
   ``repos_index``.
 
 
@@ -88,7 +88,7 @@ folder. It will be used to bring all the repositories later on.
 
     cp repos_index/dashing/maliput.repos maliput_ws/
 
-.. note:
+.. note::
   If you would like to bring the ``delphyne`` repositories too, you should also
   copy `delphyne.repos <https://github.com/ToyotaResearchInstitute/repos_index/blob/main/dashing/delphyne.repos>`_.
 
@@ -102,7 +102,7 @@ Install dependencies
 
 .. code-block:: sh
 
-    sudo ./dsim-repos-index/tools/install_dependencies.sh
+    sudo ./maliput_infrastructure/tools/install_dependencies.sh
 
 .. _update-all-the-repositories-in-your-workspace:
 
@@ -151,7 +151,7 @@ Install dependencies via ``rosdep``
   Package dependencies are installed system wide. ``rosdep`` does not provide any support to remove the dependencies it brings. In this regard, disposable containerized workspaces help keep development environments clean (as system wide installations within a container are limited to that container).
 
 
-.. note:
+.. note::
   If you are following the instructions to work with the ``delphyne`` repositories too, you should know that not all the dependencies are met with ``rosdep``. The following list of steps will allow you to get your environment ready for ``delphyne`` packages:
 
   .. code-block:: sh
@@ -205,13 +205,13 @@ Build the docker image
 
 .. code-block:: sh
 
-    ./dsim-repos-index/docker/build.sh
+    ./maliput_infrastructure/docker/build.sh
 
 If you are using nvidia-docker2 add the ``--nvidia`` option.
 
 .. code-block:: sh
 
-    ./dsim-repos-index/docker/build.sh --nvidia
+    ./maliput_infrastructure/docker/build.sh --nvidia
 
 
 .. note::
@@ -235,13 +235,13 @@ Run the container
 
 .. code-block:: sh
 
-    ./dsim-repos-index/docker/run.sh
+    ./maliput_infrastructure/docker/run.sh
 
 If you are using nvidia-docker2 add the ``--nvidia`` option.
 
 .. code-block:: sh
 
-    ./dsim-repos-index/docker/run.sh --nvidia
+    ./maliput_infrastructure/docker/run.sh --nvidia
 
 
 .. note::
@@ -249,7 +249,7 @@ If you are using nvidia-docker2 add the ``--nvidia`` option.
 
     #. ``-i`` ``--image_name`` Name of the image to be run (default maliput_ws_ubuntu)
     #. ``-c`` ``--container_name`` Name of the container(default maliput_ws)
-    #. ``-w`` ``--workspace``  Relative or absolute path to the workspace you want to bind. (default to location of dsim-repos-index folder)
+    #. ``-w`` ``--workspace``  Relative or absolute path to the workspace you want to bind. (default to location of maliput_infrastructure folder)
 
 .. _install-dependencies:
 
@@ -277,6 +277,24 @@ During docker build stage a script is copied into the container at ``/home/$USER
 
 .. note::
   Bear in mind that using a non-containerized workspace makes reproducing and troubleshooting issues harder for others.
+
+.. _staging-changes-in-your-container:
+
+Staging changes in your container
+"""""""""""""""""""""""""""""""""
+
+Once you finish your setup and tried the workspace, you might want to stage it. You can achieve that
+by ``exit``-ing the container and accepting to commit the changes.
+
+.. code-block:: sh
+
+    user@a3b6a70d7b7d:~/maliput_ws$ exit
+    exit
+    access control enabled, only authorized clients can connect
+    Do you want to overwrite the image called 'maliput_ws_ubuntu' with the current changes? [y/n]: y
+    Overwriting docker image...
+    [sudo] password for user:
+    sha256:9fdf391051f702f6b3fcd9c7ab258e5e014361bf18918b86155db3acda355147
 
 .. _check-your-workspace:
 
