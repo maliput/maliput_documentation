@@ -277,14 +277,15 @@ Versioning
 ==========
 
 ``maliput`` packages adhere to `semantic versioning <https://semver.org/>`_ and
-will follow as much as possible `ROS2 developer guide <https://docs.ros.org/en/foxy/Contributing/Developer-Guide.html>`_ .
+will follow as much as possible the `ROS2 developer guide <https://docs.ros.org/en/foxy/Contributing/Developer-Guide.html>`_ .
 
 API Stability
 -------------
 
-API stability will not adhere to the tick-tock deprecation strategy (see
+A developer should expect API changes between two consecutive major releases.
+API stability will **not** adhere to the tick-tock deprecation strategy (see
 `ROS2 developer guide <https://docs.ros.org/en/foxy/Contributing/Developer-Guide.html#deprecation-strategy>`_
-). A developer should expect API changes between two consecutive major releases.
+).
 
 Branches and tags for releases
 ------------------------------
@@ -296,62 +297,50 @@ The following branches and tags schemes will be used:
   Downstream projects are encouraged to avoid using it unless there is a
   business need to do so.
 * Each repository will have branches with the following pattern:
-  ``release/major.minor.x``, e.g. ``release/1.2.x``. Patch releases (``x``)
-  will be appended as new commits into that branch.
+  ``release/major.minor.x``, e.g. ``release/1.2.x``. Each patch release ``(x)``
+  will contain one or more additional bug fix commits relative to the previous
+  patch release ``(x - 1)``.
 
 Releases
 ========
 
-Named releases
---------------
-
-``maliput`` packages will be released under named major releases. The names will
-be chosen based on famous roads and will be alphabetically sorted. Packages may
-evolve a handful of minor and patch releases in between named releases. Named
-releases will be created on demand.
-
-Named release output
+Named major releases
 --------------------
 
-Every new named release will provide:
+Major releases of Maliput packages will be named. The names will
+be chosen based on famous roads and will be alphabetically sorted. Major
+releases will be created on demand.
+
+Major release output
+--------------------
+
+Every new major release will provide:
 
 - Updated ``maliput_stable.repos`` file when appropriate (new major release,
-  update to latest minor release or hotfix to latest release).
+  update to latest minor release or patch release).
 - New ``maliput_<name>.repos`` file.
 - Updated tarball in S3 bucket with the following name pattern: ``maliput_ws_<name>_YYYYMMDD_bionic.tar.gz``
-  where ``name`` is the release name and ``YYYYMMDD`` is the release date.
+  where ``name`` is the release name and ``YYYYMMDD`` is the release date (see
+  :ref:`create-a-named-release-tarball` ).
 
 
 How to release?
 ---------------
 
 There are different steps to follow based on the type of release you want to
-create. Please make sure to define it before proceeding with the instructions
-below. Also, be mindful about the stable versions of your dependencies.
+create.
 
-Make a new named ``maliput`` workspace release
+Make a new major ``maliput`` workspace release
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Choose a name for the release. Choose a name that is next in the alphabet
-  relative to the previous named release.
+* Choose a name that is next in the alphabet relative to the previous major
+  release.
 * Collect all packages' versions to be part of the release.
 * Build and test the workspace with all packages pointing to their versions.
 * Create a new ``maliput_<name>.repos`` file in `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_
   under the appropriate ROS2 distro folder.
 * Optionally update ``maliput_stable.repos`` file in `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_
   under the appropriate ROS2 distro folder.
-* Create a binary tarball of the workspace (see :ref:`create-a-named-release-tarball`).
-* Upload the binary tarball to Amazon S3 bucket.
-
-Update a named ``maliput`` workspace release
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-* Collect all packages' versions to be update the release.
-* Build and test the workspace with all packages pointing to their versions.
-* Update ``maliput_<name>.repos`` file in `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_ under the appropriate ROS2 distro folder.
-* Optionally update ``maliput_stable.repos`` file in `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_
-  under the appropriate ROS2 distro folder when it is appropriate (no package
-  regression).
 * Create a binary tarball of the workspace (see :ref:`create-a-named-release-tarball`).
 * Upload the binary tarball to Amazon S3 bucket.
 
@@ -383,7 +372,7 @@ Create a new package minor release
 * Collect downstream (within the workspace) packages' versions.
 * Prepare the release branch:
 
-  * From the tip of ``release/major.minor-1.x``, create a new branch called
+  * From the tip of ``release/major.[minor - 1].x``, create a new branch called
     ``release/major.minor.x``.
   * Cherry-pick commits as needed and/or create PRs targeting
     ``release/major.minor.x``.
@@ -402,8 +391,8 @@ Create a new package minor release
   ``release/major.minor.x`` as the latest package version.
 * Consider updating the affected named  ``maliput`` workspace releases.
 
-Create a new package hotfix release
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Create a new package patch release
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Collect all package dependencies' versions.
 * Collect downstream (within the workspace) packages' versions.
