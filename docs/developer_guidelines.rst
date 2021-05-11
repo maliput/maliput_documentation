@@ -354,7 +354,10 @@ Create a new package major release
   * Make a PR to the package's repository and update the ``CHANGELOG.rst`` and
     ``package.xml`` files. Target branch is ``main``. Submit it.
   * From ``main`` branch, create a new branch called
-    ``release/major.minor.x``.
+    ``release/major.minor.x``. ``x`` is not a placeholder, it is the literal
+    **x** because this branch will contain all the potential future patch
+    releases in the series of ``major.minor.0``, ``major.minor.1`` and so on. A
+    tag will be used to name the specific commit in the branch.
 * Run **all** tests. If you encounter any problem, send PRs to fix them
   targeting ``main`` branch. Merge those commits into
   ``release/major.minor.x``.
