@@ -226,7 +226,8 @@ var NAVTREEINDEX4 =
 "maliput__plugin__type_8h.html#a2afd58b120b90956eefe0e19727605d7a8adc28f8c40a859b0b10d73151f70794":[4,0,64,0,0],
 "maliput__throw_8h.html":[4,0,65],
 "maliput__throw_8h.html#a56a32f4447ccff45c6563d1302cc27ac":[4,0,65,1],
-"maliput__throw_8h.html#a997f9f257b92b1ff8d991dc50da1e040":[4,0,65,2],
+"maliput__throw_8h.html#a875fe3f91e3799f84dfd8f924014f323":[4,0,65,2],
+"maliput__throw_8h.html#a997f9f257b92b1ff8d991dc50da1e040":[4,0,65,3],
 "maliput__throw_8h.html#a9af2ab72834eff200a35d0543a16b383":[4,0,65,0],
 "maliput__types__compare_8cc.html":[4,0,66],
 "maliput__types__compare_8cc.html#a07a29591c901e0f22f51706a1cc2ee84":[4,0,66,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "maliput_design.html#basic_types":[0,1,1,0],
 "maliput_design.html#branchpoints":[0,1,1,5],
 "maliput_design.html#common_region_entities":[0,2,0,0],
-"maliput_design.html#geometry_model":[0,1,0],
-"maliput_design.html#inertial_frame_versus_lane_frame":[0,1,0,2]
+"maliput_design.html#geometry_model":[0,1,0]
 };

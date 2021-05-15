@@ -214,6 +214,7 @@
     <path>/__w/maliput-documentation/maliput-documentation/maliput_ws/src/maliput/maliput/src/api/rules/</path>
     <filename>discrete__value__rule_8cc</filename>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
+    <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
     <namespace>maliput::api::rules</namespace>
@@ -1503,6 +1504,13 @@
       <anchorfile>maliput__throw_8h.html</anchorfile>
       <anchor>a9af2ab72834eff200a35d0543a16b383</anchor>
       <arglist>(msg)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_VALIDATE</name>
+      <anchorfile>maliput__throw_8h.html</anchorfile>
+      <anchor>a875fe3f91e3799f84dfd8f924014f323</anchor>
+      <arglist>(pred, message)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -3335,6 +3343,7 @@
     <path>/__w/maliput-documentation/maliput-documentation/maliput_ws/src/maliput/maliput/src/api/rules/</path>
     <filename>range__value__rule_8cc</filename>
     <includes id="range__value__rule_8h" name="range_value_rule.h" local="yes" imported="no">maliput/api/rules/range_value_rule.h</includes>
+    <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
     <namespace>maliput::api::rules</namespace>
@@ -3794,6 +3803,7 @@
     <path>/__w/maliput-documentation/maliput-documentation/maliput_ws/src/maliput/maliput/src/api/rules/</path>
     <filename>rule_8cc</filename>
     <includes id="rule_8h" name="rule.h" local="yes" imported="no">maliput/api/rules/rule.h</includes>
+    <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
     <namespace>maliput::api::rules</namespace>
@@ -3806,7 +3816,6 @@
     <includes id="type__specific__identifier_8h" name="type_specific_identifier.h" local="yes" imported="no">maliput/api/type_specific_identifier.h</includes>
     <includes id="unique__id_8h" name="unique_id.h" local="yes" imported="no">maliput/api/unique_id.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
-    <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <class kind="class">maliput::api::rules::Rule</class>
     <class kind="struct">maliput::api::rules::Rule::State</class>
     <namespace>maliput</namespace>

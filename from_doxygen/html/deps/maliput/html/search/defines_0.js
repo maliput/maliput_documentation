@@ -10,5 +10,6 @@ var searchData=
   ['maliput_5fno_5fcopy_5fno_5fmove_5fno_5fassign',['MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN',['../maliput__copyable_8h.html#ac8fc299c8acfe1580b85175659df1ffc',1,'maliput_copyable.h']]],
   ['maliput_5fregions_5fis_5fequal',['MALIPUT_REGIONS_IS_EQUAL',['../regions__test__utilities_8h.html#afdb3861f11f9281c4cb0c5487c422696',1,'regions_test_utilities.h']]],
   ['maliput_5fthrow_5fmessage',['MALIPUT_THROW_MESSAGE',['../maliput__throw_8h.html#a9af2ab72834eff200a35d0543a16b383',1,'maliput_throw.h']]],
-  ['maliput_5fthrow_5funless',['MALIPUT_THROW_UNLESS',['../maliput__throw_8h.html#a56a32f4447ccff45c6563d1302cc27ac',1,'maliput_throw.h']]]
+  ['maliput_5fthrow_5funless',['MALIPUT_THROW_UNLESS',['../maliput__throw_8h.html#a56a32f4447ccff45c6563d1302cc27ac',1,'maliput_throw.h']]],
+  ['maliput_5fvalidate',['MALIPUT_VALIDATE',['../maliput__throw_8h.html#a875fe3f91e3799f84dfd8f924014f323',1,'maliput_throw.h']]]
 ];

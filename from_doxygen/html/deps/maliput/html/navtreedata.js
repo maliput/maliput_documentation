@@ -76,10 +76,10 @@ var NAVTREEINDEX =
 "classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_state_provider.html#a4dd111289aa9e32c0b87731f55259839",
 "classmaliput_1_1math_1_1_matrix.html#a59aa4194176579e234872ba587a1881c",
 "filter__positions_8h.html#a6526fab630ce68db4883df8c4f8afe9e",
-"maliput_design.html#intersecting_segments_grouped_into_junctions",
-"namespacemembers_func_a.html",
-"structmaliput_1_1api_1_1_lane_end_1_1_strict_order.html",
-"traffic__lights__compare_8h.html#a20280b181803546e349d18c30578ca6c"
+"maliput_design.html#inertial_frame_versus_lane_frame",
+"namespacemembers_func.html",
+"structmaliput_1_1api_1_1_lane_end.html#afd38b6ff3ad84a158d0d33fdf35ce097",
+"traffic__lights__compare_8h.html#a1af34431b57d0e4537e3a7cd0240d219"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"structmaliput_1_1api_1_1_lane_end.html#afd38b6ff3ad84a158d0d33fdf35ce097":[3,0,0,0,11,3],
 "structmaliput_1_1api_1_1_lane_end_1_1_strict_order.html":[3,0,0,0,11,0],
 "structmaliput_1_1api_1_1_lane_end_1_1_strict_order.html#ad5af0d5a4ccb68c02dcdda0641c58647":[3,0,0,0,11,0,0],
 "structmaliput_1_1api_1_1_lane_position_result.html":[3,0,0,0,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "traffic__lights__compare_8cc.html#adf21d47fb6bb1b0bb51d01e3ed6a4836":[4,0,172,6],
 "traffic__lights__compare_8cc.html#af8135f720dab102ce2dcfb3fd96db38b":[4,0,172,3],
 "traffic__lights__compare_8h.html":[4,0,173],
-"traffic__lights__compare_8h.html#a089610aca46476265341a0a509f10363":[4,0,173,0],
-"traffic__lights__compare_8h.html#a1af34431b57d0e4537e3a7cd0240d219":[4,0,173,4]
+"traffic__lights__compare_8h.html#a089610aca46476265341a0a509f10363":[4,0,173,0]
 };

@@ -131,6 +131,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a9af2ab72834eff200a35d0543a16b383"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__throw_8h.html#a9af2ab72834eff200a35d0543a16b383">MALIPUT_THROW_MESSAGE</a>(msg)</td></tr>
 <tr class="memdesc:a9af2ab72834eff200a35d0543a16b383"><td class="mdescLeft">&#160;</td><td class="mdescRight">Throws an exception with a message showing at least the condition text, function name, file, and line.  <a href="#a9af2ab72834eff200a35d0543a16b383">More...</a><br /></td></tr>
 <tr class="separator:a9af2ab72834eff200a35d0543a16b383"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a875fe3f91e3799f84dfd8f924014f323"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__throw_8h.html#a875fe3f91e3799f84dfd8f924014f323">MALIPUT_VALIDATE</a>(pred,  message)</td></tr>
+<tr class="memdesc:a875fe3f91e3799f84dfd8f924014f323"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to validate that a <code>pred-icate</code> passed into a function or method is true; if not, an exception with <code>message</code> is thrown.  <a href="#a875fe3f91e3799f84dfd8f924014f323">More...</a><br /></td></tr>
+<tr class="separator:a875fe3f91e3799f84dfd8f924014f323"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -177,6 +180,37 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                                                              \</div><div class="line">    if (!(condition)) {                                                             <a class="code" href="namespacemaliput_1_1common_1_1internal.html#a1adb6d4bdebbb807916d6b9231d14a8e">\</a></div><div class="line"><a class="code" href="namespacemaliput_1_1common_1_1internal.html#a1adb6d4bdebbb807916d6b9231d14a8e">      ::maliput::common::internal::Throw</a>(#condition, __func__, __FILE__, __LINE__); \</div><div class="line">    }                                                                               \</div><div class="line">  } <span class="keywordflow">while</span> (0)</div><div class="ttc" id="namespacemaliput_1_1common_1_1internal_html_a1adb6d4bdebbb807916d6b9231d14a8e"><div class="ttname"><a href="namespacemaliput_1_1common_1_1internal.html#a1adb6d4bdebbb807916d6b9231d14a8e">maliput::common::internal::Throw</a></div><div class="ttdeci">void Throw(const char *condition, const char *func, const char *file, int line)</div><div class="ttdef"><b>Definition:</b> maliput_abort_and_throw.cc:83</div></div>
 </div><!-- fragment -->
 <p>Evaluates <code>condition</code> and iff the value is false will throw an exception with a message showing at least the condition text, function name, file, and line. </p>
+
+</div>
+</div>
+<a id="a875fe3f91e3799f84dfd8f924014f323"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a875fe3f91e3799f84dfd8f924014f323">&#9670;&nbsp;</a></span>MALIPUT_VALIDATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MALIPUT_VALIDATE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pred, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">message&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                                                                                \</div><div class="line">    if (!(pred)) {                                                                                    <a class="code" href="namespacemaliput_1_1common_1_1internal.html#a1adb6d4bdebbb807916d6b9231d14a8e">\</a></div><div class="line"><a class="code" href="namespacemaliput_1_1common_1_1internal.html#a1adb6d4bdebbb807916d6b9231d14a8e">      ::maliput::common::internal::Throw</a>(std::string(message).c_str(), __func__, __FILE__, __LINE__); \</div><div class="line">    }                                                                                                 \</div><div class="line">  } <span class="keywordflow">while</span> (0)</div><div class="ttc" id="namespacemaliput_1_1common_1_1internal_html_a1adb6d4bdebbb807916d6b9231d14a8e"><div class="ttname"><a href="namespacemaliput_1_1common_1_1internal.html#a1adb6d4bdebbb807916d6b9231d14a8e">maliput::common::internal::Throw</a></div><div class="ttdeci">void Throw(const char *condition, const char *func, const char *file, int line)</div><div class="ttdef"><b>Definition:</b> maliput_abort_and_throw.cc:83</div></div>
+</div><!-- fragment -->
+<p>Used to validate that a <code>pred-icate</code> passed into a function or method is true; if not, an exception with <code>message</code> is thrown. </p>
 
 </div>
 </div>
