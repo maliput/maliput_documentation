@@ -41,8 +41,9 @@ The following packages are provided:
 .. _drake_vendor: TODO
 .. _pybind11: TODO
 
-Each repository contains only one package. This is a design premise to ease the
-release process.
+Each repository may contain one or more packages. When a repository contains
+two or more packages, it is expected that all packages' versions within the same
+repository get updated together. Git will tag them all simultaneously.
 
 Continuous integration
 ----------------------
@@ -277,15 +278,8 @@ Versioning
 ==========
 
 ``maliput`` packages adhere to `semantic versioning <https://semver.org/>`_ and
-will follow as much as possible the `ROS2 developer guide <https://docs.ros.org/en/foxy/Contributing/Developer-Guide.html>`_ .
+will follow as much as possible the `ROS2 Versioning guidelines <https://docs.ros.org/en/foxy/Contributing/Developer-Guide.html#versioning>`_ .
 
-API Stability
--------------
-
-A developer should expect API changes between two consecutive major releases.
-API stability will **not** adhere to the tick-tock deprecation strategy (see
-`ROS2 developer guide <https://docs.ros.org/en/foxy/Contributing/Developer-Guide.html#deprecation-strategy>`_
-).
 
 Branches and tags for releases
 ------------------------------
@@ -316,7 +310,7 @@ Major release output
 
 Every new major release will provide:
 
-- Updated ``maliput_stable.repos`` file when appropriate (new major release,
+- Updated ``maliput_rolling.repos`` file when appropriate (new major release,
   update to latest minor release or patch release).
 - New ``maliput_<name>.repos`` file.
 - Updated tarball in S3 bucket with the following name pattern: ``maliput_ws_<name>_YYYYMMDD_bionic.tar.gz``
@@ -335,11 +329,13 @@ Make a new major ``maliput`` workspace release
 
 * Choose a name that is next in the alphabet relative to the previous major
   release.
-* Collect all packages' versions to be part of the release.
-* Build and test the workspace with all packages pointing to their versions.
-* Create a new ``maliput_<name>.repos`` file in `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_
+* Prepare the workspace by pinning all dependencies and downstream packages to
+  their target branches or tags.
+* Build and test the workspace with all packages pointing to their pinned
+  versions.
+* Update ``maliput_rolling.repos`` file in `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_
   under the appropriate ROS2 distro folder.
-* Optionally update ``maliput_stable.repos`` file in `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_
+* Create a new ``maliput_<name>.repos`` file in `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_
   under the appropriate ROS2 distro folder.
 * Create a binary tarball of the workspace (see :ref:`create-a-named-release-tarball`).
 * Upload the binary tarball to Amazon S3 bucket.
@@ -347,65 +343,64 @@ Make a new major ``maliput`` workspace release
 Create a new package major release
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Collect all package dependencies' versions.
-* Collect downstream (within the workspace) packages' versions.
+* Prepare the workspace by pinning all dependencies and downstream packages to
+  their target branches or tags.
 * Prepare the release branch:
 
-  * Make a PR to the package's repository and update the ``CHANGELOG.rst`` and
-    ``package.xml`` files. Target branch is ``main``. Submit it.
+  * Update the ``CHANGELOG.rst`` and ``package.xml`` files via a PR targeting
+    ``main``.
   * From ``main`` branch, create a new branch called
     ``release/major.minor.x``. ``x`` is not a placeholder, it is the literal
     **x** because this branch will contain all the potential future patch
     releases in the series of ``major.minor.0``, ``major.minor.1`` and so on. A
     tag will be used to name the specific commit in the branch.
-* Run **all** tests. If you encounter any problem, send PRs to fix them
-  targeting ``main`` branch. Merge those commits into
-  ``release/major.minor.x``.
+  * Run **all** tests. If you encounter any problem, send PRs to fix them
+    targeting ``main`` branch. Merge those commits into
+    ``release/major.minor.x``.
 * Push the branch.
 * Make a tag with the appropriate version number: ``release/major.minor.0``.
 * Push the tag.
 * Create a PR to `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_
-  and update ``maliput_stable.repos`` to indicate the branch name
+  and update ``maliput_rolling.repos`` to indicate the branch name
   ``release/major.minor.x`` as the latest package version.
 
 Create a new package minor release
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Collect all package dependencies' versions.
-* Collect downstream (within the workspace) packages' versions.
+* Prepare the workspace by pinning all dependencies and downstream packages to
+  their target branches or tags.
 * Prepare the release branch:
 
   * From the tip of ``release/major.[minor - 1].x``, create a new branch called
     ``release/major.minor.x``.
-  * Cherry-pick commits as needed and/or create PRs targeting
-    ``release/major.minor.x``.
   * Push the branch ``release/major.minor.x``.
-  * Make a PR to your repository package and update the changelog and ``package.xml``.
-    Target branch is ``release/major.minor.x``. Submit it.
-  * Make PRs to introduce your changes targeting ``release/major.minor.x``.
-    Submit them.
+  * Cherry-pick commits as needed from ``main`` and include them into
+    ``release/major.minor.x`` via PRs. Alternatively, create feature branches
+    whose PRs target ``release/major.minor.x``.
+  * Update the ``CHANGELOG.rst`` and ``package.xml`` via a PR targeting
+    ``release/major.minor.x``.
   * Run **all** tests. If you encounter any problem, send PRs to fix them
     targeting ``release/major.minor.x`` branch.
-  * Make a tag with the appropriate version number: ``release/major.minor.0``.
-  * Push the tag.
+* Make a tag with the appropriate version number: ``release/major.minor.0``.
+* Push the tag.
 * When the ``major`` and ``minor`` version numbers are the greatest: create a PR
   to `repos_index <https://github.com/ToyotaResearchInstitute/repos_index>`_
-  and update ``maliput_stable.repos`` to indicate the branch name
+  and update ``maliput_rolling.repos`` to indicate the branch name
   ``release/major.minor.x`` as the latest package version.
 * Consider updating the affected named  ``maliput`` workspace releases.
 
 Create a new package patch release
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Collect all package dependencies' versions.
-* Collect downstream (within the workspace) packages' versions.
+* Prepare the workspace by pinning all dependencies and downstream packages to
+  their target branches or tags.
 * Prepare the release branch:
 
-  * Patches may come from ``main`` branch as cherry-picks or
-    specific PRs to release branches. Use the appropriate solution for your use
-    case.
-  * Make a PR to your repository package and update the changelog and ``package.xml``.
-    Target branch is ``release/major.minor.x``. Submit it.
+  * Cherry-pick commits as needed from ``main`` and include them into
+    ``release/major.minor.x`` via PRs. Alternatively, create feature branches
+    whose PRs target ``release/major.minor.x``.
+  * Update the ``CHANGELOG.rst`` and ``package.xml`` via a PR targeting
+    ``release/major.minor.x``.
   * Run **all** tests. If you encounter any problem, send PRs to fix them
     targeting ``release/major.minor.x`` branch.
 * Make a tag with the appropriate version number: ``release/major.minor.patch``.
