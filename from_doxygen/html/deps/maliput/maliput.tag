@@ -8345,9 +8345,9 @@
     </member>
     <member kind="variable">
       <type>double</type>
-      <name>shinines</name>
+      <name>shininess</name>
       <anchorfile>structmaliput_1_1utility_1_1_material.html</anchorfile>
-      <anchor>afce0379c16fa61fd83a24bdb4076d5a7</anchor>
+      <anchor>a6fc41bf11a1cdec39aabf44a7defb391</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">

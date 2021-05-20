@@ -24,6 +24,7 @@ var searchData=
   ['fromrpy',['FromRpy',['../../../maliput/html/classmaliput_1_1api_1_1_rotation.html#acfbb13e21de7c5bd423ceac06bd6e062',1,'maliput::api::Rotation::FromRpy(const math::Vector3 &amp;rpy)'],['../../../maliput/html/classmaliput_1_1api_1_1_rotation.html#a65f0cc4b663f10fc17de277da46dfcd1',1,'maliput::api::Rotation::FromRpy(double roll, double pitch, double yaw)']]],
   ['fromsrh',['FromSrh',['../../../maliput/html/classmaliput_1_1api_1_1_lane_position.html#a7bb1dd21604bf5a4b0217700d640eec1',1,'maliput::api::LanePosition']]],
   ['fromstrtosimplificationpolicy',['FromStrToSimplificationPolicy',['../structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a5af6ea73b3e5a52c6b942a134c0e93b1',1,'malidrive::builder::RoadGeometryConfiguration']]],
+  ['fromstrtostandardstrictnesspolicy',['FromStrToStandardStrictnessPolicy',['../structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a329165b5e4b8a6e101fd7ddd35b6267e',1,'malidrive::builder::RoadGeometryConfiguration']]],
   ['fromstrtotoleranceselectionpolicy',['FromStrToToleranceSelectionPolicy',['../structmalidrive_1_1builder_1_1_road_geometry_configuration.html#add93230cc49a65816218575325402ddd',1,'malidrive::builder::RoadGeometryConfiguration']]],
   ['fromstrtotype',['FromStrToType',['../structmalidrive_1_1builder_1_1_build_policy.html#adbba415c14b00a65bb5ecb69b7f3ff1c',1,'malidrive::builder::BuildPolicy']]],
   ['fromtwovectors',['FromTwoVectors',['../../../maliput/html/classmaliput_1_1math_1_1_quaternion.html#a1729d3ac3f5db01107a792db1d466e9b',1,'maliput::math::Quaternion']]],

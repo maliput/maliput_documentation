@@ -5873,6 +5873,15 @@
     <filename>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</filename>
     <member kind="enumeration">
       <type></type>
+      <name>StandardStrictnessPolicy</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a873182dc9e5c92c9c5e7eca30bf38eae</anchor>
+      <arglist></arglist>
+      <enumvalue file="structmalidrive_1_1builder_1_1_road_geometry_configuration.html" anchor="a873182dc9e5c92c9c5e7eca30bf38eaea334aa60ef6932a4f4816a2244d0616c0">kPermissive</enumvalue>
+      <enumvalue file="structmalidrive_1_1builder_1_1_road_geometry_configuration.html" anchor="a873182dc9e5c92c9c5e7eca30bf38eaea35215d4c3b69349b967c421fd68b0b36">kStrict</enumvalue>
+    </member>
+    <member kind="enumeration">
+      <type></type>
       <name>SimplificationPolicy</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
       <anchor>aba132f98ea1230f94d40497b60aa9df4</anchor>
@@ -5901,6 +5910,13 @@
       <name>FromStrToToleranceSelectionPolicy</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
       <anchor>add93230cc49a65816218575325402ddd</anchor>
+      <arglist>(const std::string &amp;policy)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static StandardStrictnessPolicy</type>
+      <name>FromStrToStandardStrictnessPolicy</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a329165b5e4b8a6e101fd7ddd35b6267e</anchor>
       <arglist>(const std::string &amp;policy)</arglist>
     </member>
     <member kind="variable">
@@ -5971,6 +5987,13 @@
       <name>tolerance_selection_policy</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
       <anchor>aa4a7f3aced306310c74060455dfe280f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>StandardStrictnessPolicy</type>
+      <name>standard_strictness_policy</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a96d8bcd54119d900cf2e64a3ada179e8</anchor>
       <arglist></arglist>
     </member>
   </compound>
