@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('structmalidrive_1_1builder_1_1_road_ge
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Structure to wrap <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend. ">RoadGeometry</a> parameters. </p>
+<div class="textblock"><p><a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend. ">RoadGeometry</a> construction parameters. </p>
 </div>
 <p><code>#include &lt;include/maliput_malidrive/builder/road_geometry_configuration.h&gt;</code></p>
 <table class="memberdecls">
@@ -103,30 +103,30 @@ $(document).ready(function(){initNavTree('structmalidrive_1_1builder_1_1_road_ge
 Public Types</h2></td></tr>
 <tr class="memitem:a873182dc9e5c92c9c5e7eca30bf38eae"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a873182dc9e5c92c9c5e7eca30bf38eae">StandardStrictnessPolicy</a> { <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a873182dc9e5c92c9c5e7eca30bf38eaea334aa60ef6932a4f4816a2244d0616c0">kPermissive</a>, 
 <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a873182dc9e5c92c9c5e7eca30bf38eaea35215d4c3b69349b967c421fd68b0b36">kStrict</a>
- }<tr class="memdesc:a873182dc9e5c92c9c5e7eca30bf38eae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the flexibility to follow the OpenDrive standard when building the road geometry.  <a href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a873182dc9e5c92c9c5e7eca30bf38eae">More...</a><br /></td></tr>
+ }<tr class="memdesc:a873182dc9e5c92c9c5e7eca30bf38eae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Level of flexibility in terms of adhering to the OpenDrive standard when constructing a <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend. ">RoadGeometry</a>.  <a href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a873182dc9e5c92c9c5e7eca30bf38eae">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:a873182dc9e5c92c9c5e7eca30bf38eae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba132f98ea1230f94d40497b60aa9df4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aba132f98ea1230f94d40497b60aa9df4">SimplificationPolicy</a> { <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aba132f98ea1230f94d40497b60aa9df4a35c3ace1970663a16e5c65baa5941b13">kNone</a>, 
 <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aba132f98ea1230f94d40497b60aa9df4a772d1e24c5dc52d72e0f5f8567daf7d9">kSimplifyWithinToleranceAndKeepGeometryModel</a>
- }<tr class="memdesc:aba132f98ea1230f94d40497b60aa9df4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether a simplification to the geometry should be applied or not.  <a href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aba132f98ea1230f94d40497b60aa9df4">More...</a><br /></td></tr>
+ }<tr class="memdesc:aba132f98ea1230f94d40497b60aa9df4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Degree to which the <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend. ">RoadGeometry</a> should be simplified.  <a href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aba132f98ea1230f94d40497b60aa9df4">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:aba132f98ea1230f94d40497b60aa9df4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cd4abfdf390ce8a62882d75d96cc830"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4cd4abfdf390ce8a62882d75d96cc830">ToleranceSelectionPolicy</a> { <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4cd4abfdf390ce8a62882d75d96cc830a0607c802a36b5a6bfc9d95ef06d8117e">kManualSelection</a>, 
 <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4cd4abfdf390ce8a62882d75d96cc830a9f96d3d0e722e1e1d3cbce90423dcce1">kAutomaticSelection</a>
- }<tr class="memdesc:a4cd4abfdf390ce8a62882d75d96cc830"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the tolerance and scale length should be automatically computed or not.  <a href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4cd4abfdf390ce8a62882d75d96cc830">More...</a><br /></td></tr>
+ }<tr class="memdesc:a4cd4abfdf390ce8a62882d75d96cc830"><td class="mdescLeft">&#160;</td><td class="mdescRight">How the tolerance and scale length should be computed.  <a href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4cd4abfdf390ce8a62882d75d96cc830">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:a4cd4abfdf390ce8a62882d75d96cc830"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a5af6ea73b3e5a52c6b942a134c0e93b1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aba132f98ea1230f94d40497b60aa9df4">SimplificationPolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a5af6ea73b3e5a52c6b942a134c0e93b1">FromStrToSimplificationPolicy</a> (const std::string &amp;policy)</td></tr>
-<tr class="memdesc:a5af6ea73b3e5a52c6b942a134c0e93b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a string to a SimplificationPolicy.  <a href="#a5af6ea73b3e5a52c6b942a134c0e93b1">More...</a><br /></td></tr>
+<tr class="memdesc:a5af6ea73b3e5a52c6b942a134c0e93b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a string to a SimplificationPolicy.  <a href="#a5af6ea73b3e5a52c6b942a134c0e93b1">More...</a><br /></td></tr>
 <tr class="separator:a5af6ea73b3e5a52c6b942a134c0e93b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add93230cc49a65816218575325402ddd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4cd4abfdf390ce8a62882d75d96cc830">ToleranceSelectionPolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#add93230cc49a65816218575325402ddd">FromStrToToleranceSelectionPolicy</a> (const std::string &amp;policy)</td></tr>
-<tr class="memdesc:add93230cc49a65816218575325402ddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a string to a ToleranceSelectionPolicy.  <a href="#add93230cc49a65816218575325402ddd">More...</a><br /></td></tr>
+<tr class="memdesc:add93230cc49a65816218575325402ddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a string to a ToleranceSelectionPolicy.  <a href="#add93230cc49a65816218575325402ddd">More...</a><br /></td></tr>
 <tr class="separator:add93230cc49a65816218575325402ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a329165b5e4b8a6e101fd7ddd35b6267e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a873182dc9e5c92c9c5e7eca30bf38eae">StandardStrictnessPolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a329165b5e4b8a6e101fd7ddd35b6267e">FromStrToStandardStrictnessPolicy</a> (const std::string &amp;policy)</td></tr>
-<tr class="memdesc:a329165b5e4b8a6e101fd7ddd35b6267e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a string to a StandardStrictnessPolicy.  <a href="#a329165b5e4b8a6e101fd7ddd35b6267e">More...</a><br /></td></tr>
+<tr class="memdesc:a329165b5e4b8a6e101fd7ddd35b6267e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a string to a StandardStrictnessPolicy.  <a href="#a329165b5e4b8a6e101fd7ddd35b6267e">More...</a><br /></td></tr>
 <tr class="separator:a329165b5e4b8a6e101fd7ddd35b6267e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -175,7 +175,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Determines whether a simplification to the geometry should be applied or not. </p>
+<p>Degree to which the <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend. ">RoadGeometry</a> should be simplified. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aba132f98ea1230f94d40497b60aa9df4a35c3ace1970663a16e5c65baa5941b13"></a>kNone&#160;</td><td class="fielddoc"><p>No simplification must be done. </p>
 </td></tr>
@@ -205,11 +205,12 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Determines the flexibility to follow the OpenDrive standard when building the road geometry. </p>
+<p>Level of flexibility in terms of adhering to the OpenDrive standard when constructing a <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend. ">RoadGeometry</a>. </p>
+<p>This is useful when working with .xodr files that violate the OpenDrive standard. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a873182dc9e5c92c9c5e7eca30bf38eaea334aa60ef6932a4f4816a2244d0616c0"></a>kPermissive&#160;</td><td class="fielddoc"><p>Allows to the road geometry to not completely meet the standard. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a873182dc9e5c92c9c5e7eca30bf38eaea334aa60ef6932a4f4816a2244d0616c0"></a>kPermissive&#160;</td><td class="fielddoc"><p>Allow the .xodr file to violate the standard. Continue on best-effort-basis. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a873182dc9e5c92c9c5e7eca30bf38eaea35215d4c3b69349b967c421fd68b0b36"></a>kStrict&#160;</td><td class="fielddoc"><p>No flexibility at all. </p>
+<tr><td class="fieldname"><a id="a873182dc9e5c92c9c5e7eca30bf38eaea35215d4c3b69349b967c421fd68b0b36"></a>kStrict&#160;</td><td class="fielddoc"><p>Do not allow violation of the standard. </p>
 </td></tr>
 </table>
 
@@ -235,7 +236,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Determines whether the tolerance and scale length should be automatically computed or not. </p>
+<p>How the tolerance and scale length should be computed. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4cd4abfdf390ce8a62882d75d96cc830a0607c802a36b5a6bfc9d95ef06d8117e"></a>kManualSelection&#160;</td><td class="fielddoc"><p>Manual adjustment. </p>
 </td></tr>
@@ -270,14 +271,14 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Convert a string to a SimplificationPolicy. </p>
+<p>Converts a string to a SimplificationPolicy. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">policy</td><td>String to be translated to a SimplificationPolicy. </td></tr>
+    <tr><td class="paramname">policy</td><td>String to be translated to a SimplificationPolicy. Valid strings match the enumerator's name except without the leading 'k' and is all lower case. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A SimplificationPolicy value </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A SimplificationPolicy value. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname"><a class="elRef" doxygen="/__w/maliput-documentation/maliput-documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag:../../maliput/html/" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>policy</code> isn't a valid SimplificationPolicy. </td></tr>
@@ -311,14 +312,14 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Convert a string to a StandardStrictnessPolicy. </p>
+<p>Converts a string to a StandardStrictnessPolicy. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">policy</td><td>String to be translated to a StandardStrictnessPolicy. </td></tr>
+    <tr><td class="paramname">policy</td><td>String to be translated to a StandardStrictnessPolicy. Valid strings match the enumerator's name except without the leading 'k' and is all lower case. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A StandardStrictnessPolicy value </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A StandardStrictnessPolicy value. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname"><a class="elRef" doxygen="/__w/maliput-documentation/maliput-documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag:../../maliput/html/" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>policy</code> isn't a valid StandardStrictnessPolicy. </td></tr>
@@ -352,14 +353,14 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Convert a string to a ToleranceSelectionPolicy. </p>
+<p>Converts a string to a ToleranceSelectionPolicy. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">policy</td><td>String to be translated to a ToleranceSelectionPolicy. </td></tr>
+    <tr><td class="paramname">policy</td><td>String to be translated to a ToleranceSelectionPolicy. Valid strings match the enumerator's name except without the leading 'k' and is all lower case. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A ToleranceSelectionPolicy value </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A ToleranceSelectionPolicy value. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname"><a class="elRef" doxygen="/__w/maliput-documentation/maliput-documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag:../../maliput/html/" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>policy</code> isn't a valid ToleranceSelectionPolicy. </td></tr>

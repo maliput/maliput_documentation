@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('structmalidrive_1_1builder_1_1_build_p
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Holds the policy for concurrency optimization during lane creation. </p>
+<div class="textblock"><p>Policy for use of concurrency while building a <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend. ">RoadGeometry</a>. </p>
 </div>
 <p><code>#include &lt;include/maliput_malidrive/builder/road_geometry_configuration.h&gt;</code></p>
 <table class="memberdecls">
@@ -109,7 +109,7 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:adbba415c14b00a65bb5ecb69b7f3ff1c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structmalidrive_1_1builder_1_1_build_policy.html#a1d1cfd8ffb84e947f82999c682b666a7">BuildPolicy::Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_build_policy.html#adbba415c14b00a65bb5ecb69b7f3ff1c">FromStrToType</a> (const std::string &amp;<a class="el" href="structmalidrive_1_1builder_1_1_build_policy.html#ab6f4e6d3fde00ce906e46494f60dfe7a">type</a>)</td></tr>
-<tr class="memdesc:adbba415c14b00a65bb5ecb69b7f3ff1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert string to a Type.  <a href="#adbba415c14b00a65bb5ecb69b7f3ff1c">More...</a><br /></td></tr>
+<tr class="memdesc:adbba415c14b00a65bb5ecb69b7f3ff1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts string to a Type.  <a href="#adbba415c14b00a65bb5ecb69b7f3ff1c">More...</a><br /></td></tr>
 <tr class="separator:adbba415c14b00a65bb5ecb69b7f3ff1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -163,10 +163,10 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Convert string to a Type. </p>
+<p>Converts string to a Type. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">type</td><td>String to be translated to a Type. </td></tr>
+    <tr><td class="paramname">type</td><td>String to be translated to a Type. Valid strings match the enumerator's name except without the leading 'k' and is all lower case. </td></tr>
   </table>
   </dd>
 </dl>
