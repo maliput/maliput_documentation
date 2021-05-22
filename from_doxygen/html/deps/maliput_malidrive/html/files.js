@@ -115,6 +115,9 @@ var files =
     ] ],
     [ "parser.cc", "parser_8cc.html", "parser_8cc" ],
     [ "parser.h", "parser_8h.html", "parser_8h" ],
+    [ "parser_configuration.h", "parser__configuration_8h.html", [
+      [ "ParserConfiguration", "structmalidrive_1_1xodr_1_1_parser_configuration.html", "structmalidrive_1_1xodr_1_1_parser_configuration" ]
+    ] ],
     [ "piecewise_function.cc", "piecewise__function_8cc.html", "piecewise__function_8cc" ],
     [ "piecewise_function.h", "piecewise__function_8h.html", [
       [ "PiecewiseFunction", "classmalidrive_1_1road__curve_1_1_piecewise_function.html", "classmalidrive_1_1road__curve_1_1_piecewise_function" ]

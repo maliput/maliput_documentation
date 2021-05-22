@@ -16,6 +16,7 @@ var namespacemalidrive_1_1xodr =
     [ "LateralProfile", "structmalidrive_1_1xodr_1_1_lateral_profile.html", "structmalidrive_1_1xodr_1_1_lateral_profile" ],
     [ "NodeParser", "classmalidrive_1_1xodr_1_1_node_parser.html", "classmalidrive_1_1xodr_1_1_node_parser" ],
     [ "ParserBase", "classmalidrive_1_1xodr_1_1_parser_base.html", "classmalidrive_1_1xodr_1_1_parser_base" ],
+    [ "ParserConfiguration", "structmalidrive_1_1xodr_1_1_parser_configuration.html", "structmalidrive_1_1xodr_1_1_parser_configuration" ],
     [ "PlanView", "structmalidrive_1_1xodr_1_1_plan_view.html", "structmalidrive_1_1xodr_1_1_plan_view" ],
     [ "ReferenceGeometry", "structmalidrive_1_1xodr_1_1_reference_geometry.html", "structmalidrive_1_1xodr_1_1_reference_geometry" ],
     [ "RoadHeader", "structmalidrive_1_1xodr_1_1_road_header.html", "structmalidrive_1_1xodr_1_1_road_header" ],

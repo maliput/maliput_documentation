@@ -401,15 +401,15 @@
       <type>std::unique_ptr&lt; DBManager &gt;</type>
       <name>LoadDataBaseFromFile</name>
       <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
-      <anchor>aadb78509a01793d890f0cd50dbcd1b13</anchor>
-      <arglist>(const std::string &amp;filepath, const std::optional&lt; double &gt; &amp;tolerance)</arglist>
+      <anchor>aaeb7c6fe521e2a8df6b1ab10f28f5c0a</anchor>
+      <arglist>(const std::string &amp;filepath, const ParserConfiguration &amp;parser_configuration)</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; DBManager &gt;</type>
       <name>LoadDataBaseFromStr</name>
       <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
-      <anchor>a017c33081d837a1fa386c3f3b6f449cc</anchor>
-      <arglist>(const std::string &amp;xodr_str, const std::optional&lt; double &gt; &amp;tolerance)</arglist>
+      <anchor>ad19f65f8b9f6dad8943e319d358e1a76</anchor>
+      <arglist>(const std::string &amp;xodr_str, const ParserConfiguration &amp;parser_configuration)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -419,6 +419,7 @@
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="header_8h" name="header.h" local="yes" imported="no">maliput_malidrive/xodr/header.h</includes>
     <includes id="junction_8h" name="junction.h" local="yes" imported="no">maliput_malidrive/xodr/junction.h</includes>
+    <includes id="parser__configuration_8h" name="parser_configuration.h" local="yes" imported="no">maliput_malidrive/xodr/parser_configuration.h</includes>
     <includes id="road__header_8h" name="road_header.h" local="yes" imported="no">maliput_malidrive/xodr/road_header.h</includes>
     <class kind="class">malidrive::xodr::DBManager</class>
     <class kind="struct">malidrive::xodr::DBManager::XodrGeometryLengthData</class>
@@ -432,15 +433,15 @@
       <type>std::unique_ptr&lt; DBManager &gt;</type>
       <name>LoadDataBaseFromFile</name>
       <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
-      <anchor>aadb78509a01793d890f0cd50dbcd1b13</anchor>
-      <arglist>(const std::string &amp;filepath, const std::optional&lt; double &gt; &amp;tolerance)</arglist>
+      <anchor>aaeb7c6fe521e2a8df6b1ab10f28f5c0a</anchor>
+      <arglist>(const std::string &amp;filepath, const ParserConfiguration &amp;parser_configuration)</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; DBManager &gt;</type>
       <name>LoadDataBaseFromStr</name>
       <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
-      <anchor>a017c33081d837a1fa386c3f3b6f449cc</anchor>
-      <arglist>(const std::string &amp;xodr_str, const std::optional&lt; double &gt; &amp;tolerance)</arglist>
+      <anchor>ad19f65f8b9f6dad8943e319d358e1a76</anchor>
+      <arglist>(const std::string &amp;xodr_str, const ParserConfiguration &amp;parser_configuration)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -1237,6 +1238,7 @@
     <path>/__w/maliput-documentation/maliput-documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
     <filename>parser_8h</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <includes id="parser__configuration_8h" name="parser_configuration.h" local="yes" imported="no">maliput_malidrive/xodr/parser_configuration.h</includes>
     <class kind="class">malidrive::xodr::ParserBase</class>
     <class kind="class">malidrive::xodr::AttributeParser</class>
     <class kind="class">malidrive::xodr::NodeParser</class>
@@ -1249,6 +1251,14 @@
       <anchor>a59322d533f4b0f08bca667b87942df3d</anchor>
       <arglist>(tinyxml2::XMLElement *element)</arglist>
     </member>
+  </compound>
+  <compound kind="file">
+    <name>parser_configuration.h</name>
+    <path>/__w/maliput-documentation/maliput-documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
+    <filename>parser__configuration_8h</filename>
+    <class kind="struct">malidrive::xodr::ParserConfiguration</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
   </compound>
   <compound kind="file">
     <name>piecewise_function.cc</name>
@@ -2295,8 +2305,8 @@
       <type></type>
       <name>AttributeParser</name>
       <anchorfile>classmalidrive_1_1xodr_1_1_attribute_parser.html</anchorfile>
-      <anchor>ac97d2b609f8d4779bcff1adda283bbfb</anchor>
-      <arglist>(tinyxml2::XMLElement *element, const std::optional&lt; double &gt; tolerance)</arglist>
+      <anchor>aba507533a751f3f7884bdabd6454ebc6</anchor>
+      <arglist>(tinyxml2::XMLElement *element, const ParserConfiguration &amp;parser_configuration)</arglist>
     </member>
     <member kind="function">
       <type>std::optional&lt; T &gt;</type>
@@ -2698,8 +2708,8 @@
       <type></type>
       <name>DBManager</name>
       <anchorfile>classmalidrive_1_1xodr_1_1_d_b_manager.html</anchorfile>
-      <anchor>a83f8e7a267829347234f8ca61d1c9531</anchor>
-      <arglist>(tinyxml2::XMLDocument *xodr_doc, const std::optional&lt; double &gt; &amp;tolerance)</arglist>
+      <anchor>a0f0af8b4598bec9579b4e01f4e2ab955</anchor>
+      <arglist>(tinyxml2::XMLDocument *xodr_doc, const ParserConfiguration &amp;parser_configuration)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -4609,6 +4619,38 @@
     </member>
   </compound>
   <compound kind="struct">
+    <name>malidrive::xodr::LaneLink::LinkAttributes</name>
+    <filename>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</filename>
+    <member kind="typedef">
+      <type>maliput::api::TypeSpecificIdentifier&lt; struct LinkAttributes &gt;</type>
+      <name>Id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
+      <anchor>a3bb8422d7a63555382fc951aba09a378</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
+      <anchor>a45f90c3c161b89572f9b3b9c359b0e61</anchor>
+      <arglist>(const LinkAttributes &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>Id</type>
+      <name>id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
+      <anchor>a150a709e86e7134d17cd063de6810b6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kId</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
+      <anchor>a9f36bf43428315b6dfd91de20f6854c2</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
     <name>malidrive::xodr::RoadLink::LinkAttributes</name>
     <filename>structmalidrive_1_1xodr_1_1_road_link_1_1_link_attributes.html</filename>
     <member kind="typedef">
@@ -4665,38 +4707,6 @@
       <name>kContactPoint</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_road_link_1_1_link_attributes.html</anchorfile>
       <anchor>a1bed5005c8e0e948be03e115eca00137</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>malidrive::xodr::LaneLink::LinkAttributes</name>
-    <filename>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</filename>
-    <member kind="typedef">
-      <type>maliput::api::TypeSpecificIdentifier&lt; struct LinkAttributes &gt;</type>
-      <name>Id</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
-      <anchor>a3bb8422d7a63555382fc951aba09a378</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
-      <anchor>a45f90c3c161b89572f9b3b9c359b0e61</anchor>
-      <arglist>(const LinkAttributes &amp;other) const</arglist>
-    </member>
-    <member kind="variable">
-      <type>Id</type>
-      <name>id</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
-      <anchor>a150a709e86e7134d17cd063de6810b6c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kId</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
-      <anchor>a9f36bf43428315b6dfd91de20f6854c2</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -4775,8 +4785,8 @@
       <type></type>
       <name>NodeParser</name>
       <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>a9b34a12b48b05bbb1e742f4ce9d7de06</anchor>
-      <arglist>(tinyxml2::XMLElement *element, const std::optional&lt; double &gt; tolerance)</arglist>
+      <anchor>ac6981a7261f6b9d2f9227f097d654d7e</anchor>
+      <arglist>(tinyxml2::XMLElement *element, const ParserConfiguration &amp;parser_configuration)</arglist>
     </member>
     <member kind="function">
       <type>T</type>
@@ -5014,8 +5024,8 @@
       <type></type>
       <name>ParserBase</name>
       <anchorfile>classmalidrive_1_1xodr_1_1_parser_base.html</anchorfile>
-      <anchor>a3beec1075e7e8283c6669de1f4e40fc9</anchor>
-      <arglist>(tinyxml2::XMLElement *element, const std::optional&lt; double &gt; tolerance)</arglist>
+      <anchor>ad1e094e6798fe465f2fe50493476c251</anchor>
+      <arglist>(tinyxml2::XMLElement *element, const ParserConfiguration &amp;parser_configuration)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
@@ -5039,10 +5049,28 @@
       <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
-      <type>std::optional&lt; double &gt;</type>
-      <name>tolerance_</name>
+      <type>ParserConfiguration</type>
+      <name>parser_configuration_</name>
       <anchorfile>classmalidrive_1_1xodr_1_1_parser_base.html</anchorfile>
-      <anchor>a9b93c6d4f311357610cf223558719c6c</anchor>
+      <anchor>a8b2d790c47222a7979877141194f3ecf</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::ParserConfiguration</name>
+    <filename>structmalidrive_1_1xodr_1_1_parser_configuration.html</filename>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>tolerance</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_parser_configuration.html</anchorfile>
+      <anchor>a4ab89114094e0b5790d9b74ef684d4ae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>bool</type>
+      <name>permissive_mode</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_parser_configuration.html</anchorfile>
+      <anchor>a60942d24261d79edf2443985015a377c</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -6645,66 +6673,6 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>malidrive::xodr::RoadType::Speed</name>
-    <filename>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</filename>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a5f45d342c063e4fbbbaa8fd2308cad8a</anchor>
-      <arglist>(const Speed &amp;other) const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator!=</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a7732bb1227795b68ace924cf693cddd1</anchor>
-      <arglist>(const Speed &amp;other) const</arglist>
-    </member>
-    <member kind="variable">
-      <type>std::optional&lt; double &gt;</type>
-      <name>max</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>ab3a77d4ba4dbb0a69e77b738206e0ebe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>Unit</type>
-      <name>unit</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>aaa0d61fcdf7a0b9f0f2b48c9946cbd10</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kSpeedTag</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a06113c1eac1bbfe32139f18dd62a8d98</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kMax</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>ad5a44ed171cd965aa34aa3dda5711d83</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kUnit</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr std::array&lt; const char *, 2 &gt;</type>
-      <name>kUnlimitedSpeedStrings</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a2be0454dbef3ba795b56eb3fa40d36ed</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
     <name>malidrive::xodr::Lane::Speed</name>
     <filename>structmalidrive_1_1xodr_1_1_lane_1_1_speed.html</filename>
     <member kind="function">
@@ -6768,6 +6736,66 @@
       <name>kUnit</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_lane_1_1_speed.html</anchorfile>
       <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::RoadType::Speed</name>
+    <filename>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a5f45d342c063e4fbbbaa8fd2308cad8a</anchor>
+      <arglist>(const Speed &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a7732bb1227795b68ace924cf693cddd1</anchor>
+      <arglist>(const Speed &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>max</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>ab3a77d4ba4dbb0a69e77b738206e0ebe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Unit</type>
+      <name>unit</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>aaa0d61fcdf7a0b9f0f2b48c9946cbd10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kSpeedTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a06113c1eac1bbfe32139f18dd62a8d98</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kMax</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>ad5a44ed171cd965aa34aa3dda5711d83</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kUnit</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr std::array&lt; const char *, 2 &gt;</type>
+      <name>kUnlimitedSpeedStrings</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a2be0454dbef3ba795b56eb3fa40d36ed</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -7644,6 +7672,7 @@
     <class kind="struct">malidrive::xodr::LateralProfile</class>
     <class kind="class">malidrive::xodr::NodeParser</class>
     <class kind="class">malidrive::xodr::ParserBase</class>
+    <class kind="struct">malidrive::xodr::ParserConfiguration</class>
     <class kind="struct">malidrive::xodr::PlanView</class>
     <class kind="struct">malidrive::xodr::ReferenceGeometry</class>
     <class kind="struct">malidrive::xodr::RoadHeader</class>
@@ -7663,15 +7692,15 @@
       <type>std::unique_ptr&lt; DBManager &gt;</type>
       <name>LoadDataBaseFromFile</name>
       <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
-      <anchor>aadb78509a01793d890f0cd50dbcd1b13</anchor>
-      <arglist>(const std::string &amp;filepath, const std::optional&lt; double &gt; &amp;tolerance)</arglist>
+      <anchor>aaeb7c6fe521e2a8df6b1ab10f28f5c0a</anchor>
+      <arglist>(const std::string &amp;filepath, const ParserConfiguration &amp;parser_configuration)</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; DBManager &gt;</type>
       <name>LoadDataBaseFromStr</name>
       <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
-      <anchor>a017c33081d837a1fa386c3f3b6f449cc</anchor>
-      <arglist>(const std::string &amp;xodr_str, const std::optional&lt; double &gt; &amp;tolerance)</arglist>
+      <anchor>ad19f65f8b9f6dad8943e319d358e1a76</anchor>
+      <arglist>(const std::string &amp;xodr_str, const ParserConfiguration &amp;parser_configuration)</arglist>
     </member>
     <member kind="function">
       <type>std::ostream &amp;</type>

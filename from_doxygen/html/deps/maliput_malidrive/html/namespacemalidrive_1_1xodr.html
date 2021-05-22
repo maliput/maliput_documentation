@@ -144,6 +144,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1xodr_1_1_parser_base.html">ParserBase</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for parsing a tinyxml2::XMLElement node.  <a href="classmalidrive_1_1xodr_1_1_parser_base.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1xodr_1_1_parser_configuration.html">ParserConfiguration</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds the configuration for the parser.  <a href="structmalidrive_1_1xodr_1_1_parser_configuration.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1xodr_1_1_plan_view.html">PlanView</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds the plan view geometry description of a XODR road.  <a href="structmalidrive_1_1xodr_1_1_plan_view.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,12 +174,12 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aadb78509a01793d890f0cd50dbcd1b13"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html">DBManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1xodr.html#aadb78509a01793d890f0cd50dbcd1b13">LoadDataBaseFromFile</a> (const std::string &amp;filepath, const std::optional&lt; double &gt; &amp;<a class="el" href="piecewise__function_8cc.html#a97eab6d709b80585fe9e8a54b1e3da27">tolerance</a>)</td></tr>
-<tr class="memdesc:aadb78509a01793d890f0cd50dbcd1b13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a XODR description from a file.  <a href="#aadb78509a01793d890f0cd50dbcd1b13">More...</a><br /></td></tr>
-<tr class="separator:aadb78509a01793d890f0cd50dbcd1b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a017c33081d837a1fa386c3f3b6f449cc"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html">DBManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1xodr.html#a017c33081d837a1fa386c3f3b6f449cc">LoadDataBaseFromStr</a> (const std::string &amp;xodr_str, const std::optional&lt; double &gt; &amp;<a class="el" href="piecewise__function_8cc.html#a97eab6d709b80585fe9e8a54b1e3da27">tolerance</a>)</td></tr>
-<tr class="memdesc:a017c33081d837a1fa386c3f3b6f449cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a XODR description from a string.  <a href="#a017c33081d837a1fa386c3f3b6f449cc">More...</a><br /></td></tr>
-<tr class="separator:a017c33081d837a1fa386c3f3b6f449cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaeb7c6fe521e2a8df6b1ab10f28f5c0a"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html">DBManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1xodr.html#aaeb7c6fe521e2a8df6b1ab10f28f5c0a">LoadDataBaseFromFile</a> (const std::string &amp;filepath, const <a class="el" href="structmalidrive_1_1xodr_1_1_parser_configuration.html">ParserConfiguration</a> &amp;parser_configuration)</td></tr>
+<tr class="memdesc:aaeb7c6fe521e2a8df6b1ab10f28f5c0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a XODR description from a file.  <a href="#aaeb7c6fe521e2a8df6b1ab10f28f5c0a">More...</a><br /></td></tr>
+<tr class="separator:aaeb7c6fe521e2a8df6b1ab10f28f5c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad19f65f8b9f6dad8943e319d358e1a76"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html">DBManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1xodr.html#ad19f65f8b9f6dad8943e319d358e1a76">LoadDataBaseFromStr</a> (const std::string &amp;xodr_str, const <a class="el" href="structmalidrive_1_1xodr_1_1_parser_configuration.html">ParserConfiguration</a> &amp;parser_configuration)</td></tr>
+<tr class="memdesc:ad19f65f8b9f6dad8943e319d358e1a76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a XODR description from a string.  <a href="#ad19f65f8b9f6dad8943e319d358e1a76">More...</a><br /></td></tr>
+<tr class="separator:ad19f65f8b9f6dad8943e319d358e1a76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3395b70e4a69bbf987402d4b7e8a3d8f"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1xodr.html#a3395b70e4a69bbf987402d4b7e8a3d8f">operator&lt;&lt;</a> (std::ostream &amp;out, const <a class="el" href="structmalidrive_1_1xodr_1_1_header.html">Header</a> &amp;header)</td></tr>
 <tr class="memdesc:a3395b70e4a69bbf987402d4b7e8a3d8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Streams a string representation of <code>header</code> into <code>out</code>.  <a href="#a3395b70e4a69bbf987402d4b7e8a3d8f">More...</a><br /></td></tr>
 <tr class="separator:a3395b70e4a69bbf987402d4b7e8a3d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -513,8 +516,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aadb78509a01793d890f0cd50dbcd1b13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadb78509a01793d890f0cd50dbcd1b13">&#9670;&nbsp;</a></span>LoadDataBaseFromFile()</h2>
+<a id="aaeb7c6fe521e2a8df6b1ab10f28f5c0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaeb7c6fe521e2a8df6b1ab10f28f5c0a">&#9670;&nbsp;</a></span>LoadDataBaseFromFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -528,8 +531,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::optional&lt; double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>tolerance</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1xodr_1_1_parser_configuration.html">ParserConfiguration</a> &amp;&#160;</td>
+          <td class="paramname"><em>parser_configuration</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -543,7 +546,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">filepath</td><td>Filepath to the XODR file. </td></tr>
-    <tr><td class="paramname">tolerance</td><td>Tolerance used to verify values in xodr description. </td></tr>
+    <tr><td class="paramname">parser_configuration</td><td>Holds the configuration for the parser. </td></tr>
   </table>
   </dd>
 </dl>
@@ -557,8 +560,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a017c33081d837a1fa386c3f3b6f449cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a017c33081d837a1fa386c3f3b6f449cc">&#9670;&nbsp;</a></span>LoadDataBaseFromStr()</h2>
+<a id="ad19f65f8b9f6dad8943e319d358e1a76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad19f65f8b9f6dad8943e319d358e1a76">&#9670;&nbsp;</a></span>LoadDataBaseFromStr()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -572,8 +575,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::optional&lt; double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>tolerance</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1xodr_1_1_parser_configuration.html">ParserConfiguration</a> &amp;&#160;</td>
+          <td class="paramname"><em>parser_configuration</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -587,7 +590,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xodr_str</td><td>String containing the XODR description. </td></tr>
-    <tr><td class="paramname">tolerance</td><td>Tolerance used to verify values in xodr description. </td></tr>
+    <tr><td class="paramname">parser_configuration</td><td>Holds the configuration for the parser. </td></tr>
   </table>
   </dd>
 </dl>

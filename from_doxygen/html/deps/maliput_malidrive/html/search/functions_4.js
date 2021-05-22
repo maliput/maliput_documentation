@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['dbmanager',['DBManager',['../classmalidrive_1_1xodr_1_1_d_b_manager.html#a83f8e7a267829347234f8ca61d1c9531',1,'malidrive::xodr::DBManager::DBManager(tinyxml2::XMLDocument *xodr_doc, const std::optional&lt; double &gt; &amp;tolerance)'],['../classmalidrive_1_1xodr_1_1_d_b_manager.html#a17db4ba7fd1e5191196f720be154d42f',1,'malidrive::xodr::DBManager::DBManager()=delete']]],
+  ['dbmanager',['DBManager',['../classmalidrive_1_1xodr_1_1_d_b_manager.html#a0f0af8b4598bec9579b4e01f4e2ab955',1,'malidrive::xodr::DBManager::DBManager(tinyxml2::XMLDocument *xodr_doc, const ParserConfiguration &amp;parser_configuration)'],['../classmalidrive_1_1xodr_1_1_d_b_manager.html#a17db4ba7fd1e5191196f720be154d42f',1,'malidrive::xodr::DBManager::DBManager()=delete']]],
   ['debug',['debug',['../../../maliput/html/group__levelmethods.html#gae99b323afab58fbf83f92c6d679e1276',1,'maliput::common::Logger::debug()'],['../../../maliput/html/group__levelmethods.html#gae99b323afab58fbf83f92c6d679e1276',1,'debug()(Global Namespace)']]],
   ['decode',['decode',['../../../maliput/html/struct_y_a_m_l_1_1convert_3_01maliput_1_1api_1_1_s_range_01_4.html#a78646e352877dacb3e820e23d5c3a6af',1,'YAML::convert&lt; maliput::api::SRange &gt;']]],
   ['delegatinghasher',['DelegatingHasher',['../../../maliput/html/structmaliput_1_1common_1_1_delegating_hasher.html#a2f06de017c348e04061971db98125a4e',1,'maliput::common::DelegatingHasher']]],

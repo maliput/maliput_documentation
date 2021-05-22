@@ -1227,7 +1227,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Searches which LaneEnds connect to <code>xodr_lane_properties.lane</code> in <code>connection_type</code> direction considering the LaneEnd belongs to an external interface. </p>
-<p>The XODR Road that contains the LaneEnd is assumed to live within an XODR Junction and it could connect either to another XODR Road.</p>
+<p>The XODR Road that contains the LaneEnd is assumed to live within an XODR Junction and it <em>could</em> connect to another XODR Road.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rg</td><td>Is the pointer to the <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend. ">RoadGeometry</a> is being built. It must not be nullptr. </td></tr>
@@ -1240,7 +1240,6 @@ Variables</h2></td></tr>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname"><a class="elRef" doxygen="/__w/maliput-documentation/maliput-documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag:../../maliput/html/" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When either <code>rg</code> is nullptr. </td></tr>
-    <tr><td class="paramname"><a class="elRef" doxygen="/__w/maliput-documentation/maliput-documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag:../../maliput/html/" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When there isn't a valid RoadLink. </td></tr>
     <tr><td class="paramname"><a class="elRef" doxygen="/__w/maliput-documentation/maliput-documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag:../../maliput/html/" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When the RoadLink links to a junction. </td></tr>
   </table>
   </dd>

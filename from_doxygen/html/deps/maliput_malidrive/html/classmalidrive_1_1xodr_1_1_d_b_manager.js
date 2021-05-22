@@ -5,7 +5,7 @@ var classmalidrive_1_1xodr_1_1_d_b_manager =
     [ "XodrGeometriesToSimplify", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify.html", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify" ],
     [ "XodrGeometryLengthData", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometry_length_data.html", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometry_length_data" ],
     [ "XodrLaneSectionLengthData", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_lane_section_length_data.html", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_lane_section_length_data" ],
-    [ "DBManager", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a83f8e7a267829347234f8ca61d1c9531", null ],
+    [ "DBManager", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a0f0af8b4598bec9579b4e01f4e2ab955", null ],
     [ "DBManager", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a17db4ba7fd1e5191196f720be154d42f", null ],
     [ "~DBManager", "classmalidrive_1_1xodr_1_1_d_b_manager.html#ad99a6c2eabe072deca29bd23e5038c4f", null ],
     [ "GetGeometriesToSimplify", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a03e603447991303f202cc7a71aa31ba5", null ],

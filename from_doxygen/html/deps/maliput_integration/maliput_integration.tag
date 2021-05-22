@@ -466,6 +466,13 @@
     </member>
     <member kind="function">
       <type></type>
+      <name>DEFINE_string</name>
+      <anchorfile>maliput__to__string__with__plugin_8cc.html</anchorfile>
+      <anchor>ac30d2b68b389e52ef9fd93c0fd72dd12</anchor>
+      <arglist>(standard_strictness_policy, &quot;permissive&quot;, &quot;OpenDrive standard strictness, it could be `permissive` or `strict`&quot;)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
       <name>DEFINE_bool</name>
       <anchorfile>maliput__to__string__with__plugin_8cc.html</anchorfile>
       <anchor>a88fb7a6f884a9f3c5dd0364caa130c82</anchor>
@@ -766,6 +773,27 @@
       <name>number_of_threads</name>
       <anchorfile>structmaliput_1_1integration_1_1_malidrive_build_properties.html</anchorfile>
       <anchor>ab125dafdcf11897a987a507a642db50f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>simplification_policy</name>
+      <anchorfile>structmaliput_1_1integration_1_1_malidrive_build_properties.html</anchorfile>
+      <anchor>ab820a09ee1222534ce5c025c6bad57a8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>tolerance_selection_policy</name>
+      <anchorfile>structmaliput_1_1integration_1_1_malidrive_build_properties.html</anchorfile>
+      <anchor>aa7ee4df88db0604e592aace6444baeef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>standard_strictness_policy</name>
+      <anchorfile>structmaliput_1_1integration_1_1_malidrive_build_properties.html</anchorfile>
+      <anchor>afb1627ac8c8d5b240ac9cf9581b45061</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">

@@ -7,7 +7,7 @@ var searchData=
   ['simplerulebook',['SimpleRulebook',['../../../maliput/html/classmaliput_1_1_simple_rulebook.html',1,'maliput']]],
   ['sink',['Sink',['../../../maliput/html/classmaliput_1_1common_1_1_sink.html',1,'maliput::common']]],
   ['sinkbase',['SinkBase',['../../../maliput/html/classmaliput_1_1common_1_1_sink_base.html',1,'maliput::common']]],
-  ['speed',['Speed',['../structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html',1,'RoadType::Speed'],['../structmalidrive_1_1xodr_1_1_lane_1_1_speed.html',1,'Lane::Speed']]],
+  ['speed',['Speed',['../structmalidrive_1_1xodr_1_1_lane_1_1_speed.html',1,'Lane::Speed'],['../structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html',1,'RoadType::Speed']]],
   ['speedlimitbuilder',['SpeedLimitBuilder',['../classmalidrive_1_1builder_1_1_speed_limit_builder.html',1,'malidrive::builder']]],
   ['speedlimitrule',['SpeedLimitRule',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html',1,'maliput::api::rules']]],
   ['srange',['SRange',['../../../maliput/html/classmaliput_1_1api_1_1_s_range.html',1,'maliput::api']]],

@@ -100,7 +100,7 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1xodr_1_1_d_b_manager
 <li>parsing the XML nodes into known structures.</li>
 <li>providing XODR data.</li>
 </ul>
-<p>The common workflow is to: 1 - Construct a <code><a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html" title="Database Manager in charge of: ">DBManager</a></code> object using the provided methods. <code>std::unique_ptr&lt;<a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html" title="Database Manager in charge of: ">xodr::DBManager</a>&gt; manager = <a class="el" href="namespacemalidrive_1_1xodr.html#aadb78509a01793d890f0cd50dbcd1b13" title="Loads a XODR description from a file. ">xodr::LoadDataBaseFromFile</a>(&lt;path_to_xodr_file&gt;)</code> </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="namespacemalidrive_1_1xodr.html#aadb78509a01793d890f0cd50dbcd1b13" title="Loads a XODR description from a file. ">LoadDataBaseFromFile</a> <a class="el" href="namespacemalidrive_1_1xodr.html#a017c33081d837a1fa386c3f3b6f449cc" title="Loads a XODR description from a string. ">LoadDataBaseFromStr</a>. 2 - Query the data base, e.g.: <code>manager-&gt;<a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html#a25260ec634f02cb25a88cf948f7c54f5">GetRoadHeaders()</a>;</code> </dd></dl>
+<p>The common workflow is to: 1 - Construct a <code><a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html" title="Database Manager in charge of: ">DBManager</a></code> object using the provided methods. <code>std::unique_ptr&lt;<a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html" title="Database Manager in charge of: ">xodr::DBManager</a>&gt; manager = <a class="el" href="namespacemalidrive_1_1xodr.html#aaeb7c6fe521e2a8df6b1ab10f28f5c0a" title="Loads a XODR description from a file. ">xodr::LoadDataBaseFromFile</a>(&lt;path_to_xodr_file&gt;)</code> </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="namespacemalidrive_1_1xodr.html#aaeb7c6fe521e2a8df6b1ab10f28f5c0a" title="Loads a XODR description from a file. ">LoadDataBaseFromFile</a> <a class="el" href="namespacemalidrive_1_1xodr.html#ad19f65f8b9f6dad8943e319d358e1a76" title="Loads a XODR description from a string. ">LoadDataBaseFromStr</a>. 2 - Query the data base, e.g.: <code>manager-&gt;<a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html#a25260ec634f02cb25a88cf948f7c54f5">GetRoadHeaders()</a>;</code> </dd></dl>
 </div>
 <p><code>#include &lt;src/maliput_malidrive/xodr/db_manager.h&gt;</code></p>
 <table class="memberdecls">
@@ -126,9 +126,9 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a85aaf81372c7ac4b47ab7ea8ca86b63c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html#a85aaf81372c7ac4b47ab7ea8ca86b63c">MALIDRIVE_NO_COPY_NO_MOVE_NO_ASSIGN</a> (<a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html">DBManager</a>)</td></tr>
 <tr class="separator:a85aaf81372c7ac4b47ab7ea8ca86b63c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83f8e7a267829347234f8ca61d1c9531"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html#a83f8e7a267829347234f8ca61d1c9531">DBManager</a> (tinyxml2::XMLDocument *xodr_doc, const std::optional&lt; double &gt; &amp;<a class="el" href="piecewise__function_8cc.html#a97eab6d709b80585fe9e8a54b1e3da27">tolerance</a>)</td></tr>
-<tr class="memdesc:a83f8e7a267829347234f8ca61d1c9531"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a database manager from a XMLDocument which contains a XODR description.  <a href="#a83f8e7a267829347234f8ca61d1c9531">More...</a><br /></td></tr>
-<tr class="separator:a83f8e7a267829347234f8ca61d1c9531"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f0af8b4598bec9579b4e01f4e2ab955"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html#a0f0af8b4598bec9579b4e01f4e2ab955">DBManager</a> (tinyxml2::XMLDocument *xodr_doc, const <a class="el" href="structmalidrive_1_1xodr_1_1_parser_configuration.html">ParserConfiguration</a> &amp;parser_configuration)</td></tr>
+<tr class="memdesc:a0f0af8b4598bec9579b4e01f4e2ab955"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a database manager from a XMLDocument which contains a XODR description.  <a href="#a0f0af8b4598bec9579b4e01f4e2ab955">More...</a><br /></td></tr>
+<tr class="separator:a0f0af8b4598bec9579b4e01f4e2ab955"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17db4ba7fd1e5191196f720be154d42f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html#a17db4ba7fd1e5191196f720be154d42f">DBManager</a> ()=delete</td></tr>
 <tr class="separator:a17db4ba7fd1e5191196f720be154d42f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad99a6c2eabe072deca29bd23e5038c4f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html#ad99a6c2eabe072deca29bd23e5038c4f">~DBManager</a> ()</td></tr>
@@ -172,8 +172,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6a86ae288ecaad1ea8cbe287f829bdbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a83f8e7a267829347234f8ca61d1c9531"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83f8e7a267829347234f8ca61d1c9531">&#9670;&nbsp;</a></span>DBManager() <span class="overload">[1/2]</span></h2>
+<a id="a0f0af8b4598bec9579b4e01f4e2ab955"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f0af8b4598bec9579b4e01f4e2ab955">&#9670;&nbsp;</a></span>DBManager() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -187,8 +187,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::optional&lt; double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>tolerance</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1xodr_1_1_parser_configuration.html">ParserConfiguration</a> &amp;&#160;</td>
+          <td class="paramname"><em>parser_configuration</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -202,14 +202,14 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xodr_doc</td><td>Contains the XODR description. </td></tr>
-    <tr><td class="paramname">tolerance</td><td>Tolerance used to verify values in the XML node. When it is std::nullopt, no contiguity check is performed. </td></tr>
+    <tr><td class="paramname">parser_configuration</td><td>Holds the configuration for the parser. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname"><a class="elRef" doxygen="/__w/maliput-documentation/maliput-documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag:../../maliput/html/" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>xodr_doc</code> is nullptr. </td></tr>
-    <tr><td class="paramname"><a class="elRef" doxygen="/__w/maliput-documentation/maliput-documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag:../../maliput/html/" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>tolerance_</code> is negative. </td></tr>
+    <tr><td class="paramname"><a class="elRef" doxygen="/__w/maliput-documentation/maliput-documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag:../../maliput/html/" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>parser_configuration.tolerance</code> is negative. </td></tr>
   </table>
   </dd>
 </dl>

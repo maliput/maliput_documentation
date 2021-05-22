@@ -20,6 +20,6 @@ var searchData=
   ['less_3c_20maliput_3a_3aapi_3a_3auniqueid_20_3e',['less&lt; maliput::api::UniqueId &gt;',['../../../maliput/html/structstd_1_1less_3_01maliput_1_1api_1_1_unique_id_01_4.html',1,'std']]],
   ['line',['Line',['../structmalidrive_1_1xodr_1_1_geometry_1_1_line.html',1,'malidrive::xodr::Geometry']]],
   ['linegroundcurve',['LineGroundCurve',['../classmalidrive_1_1road__curve_1_1_line_ground_curve.html',1,'malidrive::road_curve']]],
-  ['linkattributes',['LinkAttributes',['../structmalidrive_1_1xodr_1_1_road_link_1_1_link_attributes.html',1,'RoadLink::LinkAttributes'],['../structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html',1,'LaneLink::LinkAttributes']]],
+  ['linkattributes',['LinkAttributes',['../structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html',1,'LaneLink::LinkAttributes'],['../structmalidrive_1_1xodr_1_1_road_link_1_1_link_attributes.html',1,'RoadLink::LinkAttributes']]],
   ['logger',['Logger',['../../../maliput/html/classmaliput_1_1common_1_1_logger.html',1,'maliput::common']]]
 ];

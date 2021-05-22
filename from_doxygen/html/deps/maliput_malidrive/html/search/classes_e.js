@@ -1,6 +1,7 @@
 var searchData=
 [
   ['parserbase',['ParserBase',['../classmalidrive_1_1xodr_1_1_parser_base.html',1,'malidrive::xodr']]],
+  ['parserconfiguration',['ParserConfiguration',['../structmalidrive_1_1xodr_1_1_parser_configuration.html',1,'malidrive::xodr']]],
   ['passkey',['Passkey',['../../../maliput/html/classmaliput_1_1common_1_1_passkey.html',1,'maliput::common']]],
   ['path',['Path',['../../../maliput/html/classmaliput_1_1common_1_1_path.html',1,'maliput::common']]],
   ['phase',['Phase',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_phase.html',1,'maliput::api::rules']]],

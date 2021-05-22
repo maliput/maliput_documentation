@@ -2,7 +2,7 @@ var searchData=
 [
   ['threadpool',['ThreadPool',['../../../maliput/html/classmaliput_1_1utility_1_1_thread_pool.html',1,'maliput::utility']]],
   ['trafficlight',['TrafficLight',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_light.html',1,'maliput::api::rules']]],
-  ['trafficlightbook',['TrafficLightBook',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html',1,'TrafficLightBook'],['../../../maliput/html/classmaliput_1_1_traffic_light_book.html',1,'TrafficLightBook']]],
+  ['trafficlightbook',['TrafficLightBook',['../../../maliput/html/classmaliput_1_1_traffic_light_book.html',1,'TrafficLightBook'],['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html',1,'TrafficLightBook']]],
   ['trafficlightbookbuildflags',['TrafficLightBookBuildFlags',['../../../maliput/html/structmaliput_1_1api_1_1test_1_1_traffic_light_book_build_flags.html',1,'maliput::api::test']]],
   ['trafficlightbuildflags',['TrafficLightBuildFlags',['../../../maliput/html/structmaliput_1_1api_1_1test_1_1_traffic_light_build_flags.html',1,'maliput::api::test']]],
   ['typespecificidentifier',['TypeSpecificIdentifier',['../../../maliput/html/classmaliput_1_1api_1_1_type_specific_identifier.html',1,'maliput::api']]],

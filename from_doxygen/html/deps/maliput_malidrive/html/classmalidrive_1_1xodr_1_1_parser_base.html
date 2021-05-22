@@ -111,9 +111,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a31aef58082ed623d4e033310a3fa378a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a948e736346e19aa3c366ff91341e2497"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1xodr_1_1_parser_base.html#a948e736346e19aa3c366ff91341e2497">~ParserBase</a> ()=default</td></tr>
 <tr class="separator:a948e736346e19aa3c366ff91341e2497"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3beec1075e7e8283c6669de1f4e40fc9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1xodr_1_1_parser_base.html#a3beec1075e7e8283c6669de1f4e40fc9">ParserBase</a> (tinyxml2::XMLElement *element, const std::optional&lt; double &gt; <a class="el" href="piecewise__function_8cc.html#a97eab6d709b80585fe9e8a54b1e3da27">tolerance</a>)</td></tr>
-<tr class="memdesc:a3beec1075e7e8283c6669de1f4e40fc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classmalidrive_1_1xodr_1_1_parser_base.html" title="Base class for parsing a tinyxml2::XMLElement node. ">ParserBase</a> from a tinyxml2::XMLElement.  <a href="#a3beec1075e7e8283c6669de1f4e40fc9">More...</a><br /></td></tr>
-<tr class="separator:a3beec1075e7e8283c6669de1f4e40fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1e094e6798fe465f2fe50493476c251"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1xodr_1_1_parser_base.html#ad1e094e6798fe465f2fe50493476c251">ParserBase</a> (tinyxml2::XMLElement *element, const <a class="el" href="structmalidrive_1_1xodr_1_1_parser_configuration.html">ParserConfiguration</a> &amp;parser_configuration)</td></tr>
+<tr class="memdesc:ad1e094e6798fe465f2fe50493476c251"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an <a class="el" href="classmalidrive_1_1xodr_1_1_parser_base.html" title="Base class for parsing a tinyxml2::XMLElement node. ">ParserBase</a> from a tinyxml2::XMLElement.  <a href="#ad1e094e6798fe465f2fe50493476c251">More...</a><br /></td></tr>
+<tr class="separator:ad1e094e6798fe465f2fe50493476c251"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a047c14b0dbbfe7835b031eb04164fab6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1xodr_1_1_parser_base.html#a047c14b0dbbfe7835b031eb04164fab6">NumberOfAttributes</a> () const</td></tr>
 <tr class="memdesc:a047c14b0dbbfe7835b031eb04164fab6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count the number of attributes the tinyxml2::XMLElement has.  <a href="#a047c14b0dbbfe7835b031eb04164fab6">More...</a><br /></td></tr>
 <tr class="separator:a047c14b0dbbfe7835b031eb04164fab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,9 +125,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a8bd51b46585d46174406b1a003743834"><td class="memItemLeft" align="right" valign="top">tinyxml2::XMLElement *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1xodr_1_1_parser_base.html#a8bd51b46585d46174406b1a003743834">element_</a> {}</td></tr>
 <tr class="memdesc:a8bd51b46585d46174406b1a003743834"><td class="mdescLeft">&#160;</td><td class="mdescRight">A XML node.  <a href="#a8bd51b46585d46174406b1a003743834">More...</a><br /></td></tr>
 <tr class="separator:a8bd51b46585d46174406b1a003743834"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b93c6d4f311357610cf223558719c6c"><td class="memItemLeft" align="right" valign="top">std::optional&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1xodr_1_1_parser_base.html#a9b93c6d4f311357610cf223558719c6c">tolerance_</a> {std::nullopt}</td></tr>
-<tr class="memdesc:a9b93c6d4f311357610cf223558719c6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional tolerance.  <a href="#a9b93c6d4f311357610cf223558719c6c">More...</a><br /></td></tr>
-<tr class="separator:a9b93c6d4f311357610cf223558719c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b2d790c47222a7979877141194f3ecf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmalidrive_1_1xodr_1_1_parser_configuration.html">ParserConfiguration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1xodr_1_1_parser_base.html#a8b2d790c47222a7979877141194f3ecf">parser_configuration_</a> {}</td></tr>
+<tr class="memdesc:a8b2d790c47222a7979877141194f3ecf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parser configuration.  <a href="#a8b2d790c47222a7979877141194f3ecf">More...</a><br /></td></tr>
+<tr class="separator:a8b2d790c47222a7979877141194f3ecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a31aef58082ed623d4e033310a3fa378a"></a>
@@ -180,8 +180,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3beec1075e7e8283c6669de1f4e40fc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3beec1075e7e8283c6669de1f4e40fc9">&#9670;&nbsp;</a></span>ParserBase() <span class="overload">[2/2]</span></h2>
+<a id="ad1e094e6798fe465f2fe50493476c251"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1e094e6798fe465f2fe50493476c251">&#9670;&nbsp;</a></span>ParserBase() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -195,8 +195,8 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::optional&lt; double &gt;&#160;</td>
-          <td class="paramname"><em>tolerance</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1xodr_1_1_parser_configuration.html">ParserConfiguration</a> &amp;&#160;</td>
+          <td class="paramname"><em>parser_configuration</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -210,14 +210,14 @@ Protected Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">element</td><td>Is the XML Node that contains attributes to be parsed. </td></tr>
-    <tr><td class="paramname">tolerance</td><td>Tolerance used to verify values in the XML node. When it is std::nullopt, no contiguity check is performed. </td></tr>
+    <tr><td class="paramname">parser_configuration</td><td>Holds the configuration for the parser. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname"><a class="elRef" doxygen="/__w/maliput-documentation/maliput-documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag:../../maliput/html/" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>element</code> is nullptr. </td></tr>
-    <tr><td class="paramname"><a class="elRef" doxygen="/__w/maliput-documentation/maliput-documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag:../../maliput/html/" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>tolerance_</code> is negative. </td></tr>
+    <tr><td class="paramname"><a class="elRef" doxygen="/__w/maliput-documentation/maliput-documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag:../../maliput/html/" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>parser_configuration.tolerance</code> is negative. </td></tr>
   </table>
   </dd>
 </dl>
@@ -306,8 +306,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9b93c6d4f311357610cf223558719c6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b93c6d4f311357610cf223558719c6c">&#9670;&nbsp;</a></span>tolerance_</h2>
+<a id="a8b2d790c47222a7979877141194f3ecf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b2d790c47222a7979877141194f3ecf">&#9670;&nbsp;</a></span>parser_configuration_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -316,7 +316,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::optional&lt;double&gt; tolerance_ {std::nullopt}</td>
+          <td class="memname"><a class="el" href="structmalidrive_1_1xodr_1_1_parser_configuration.html">ParserConfiguration</a> parser_configuration_ {}</td>
         </tr>
       </table>
   </td>
@@ -326,7 +326,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Optional tolerance. </p>
+<p>Parser configuration. </p>
 
 </div>
 </div>
