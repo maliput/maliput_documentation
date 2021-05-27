@@ -164,11 +164,8 @@ var files =
     [ "road_geometry_builder_base.h", "road__geometry__builder__base_8h.html", [
       [ "RoadGeometryBuilderBase", "classmalidrive_1_1builder_1_1_road_geometry_builder_base.html", "classmalidrive_1_1builder_1_1_road_geometry_builder_base" ]
     ] ],
-    [ "road_geometry_configuration.cc", "road__geometry__configuration_8cc.html", null ],
-    [ "road_geometry_configuration.h", "road__geometry__configuration_8h.html", [
-      [ "BuildPolicy", "structmalidrive_1_1builder_1_1_build_policy.html", "structmalidrive_1_1builder_1_1_build_policy" ],
-      [ "RoadGeometryConfiguration", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html", "structmalidrive_1_1builder_1_1_road_geometry_configuration" ]
-    ] ],
+    [ "road_geometry_configuration.cc", "road__geometry__configuration_8cc.html", "road__geometry__configuration_8cc" ],
+    [ "road_geometry_configuration.h", "road__geometry__configuration_8h.html", "road__geometry__configuration_8h" ],
     [ "road_geometry_configuration_for_xodrs.cc", "road__geometry__configuration__for__xodrs_8cc.html", "road__geometry__configuration__for__xodrs_8cc" ],
     [ "road_geometry_configuration_for_xodrs.h", "road__geometry__configuration__for__xodrs_8h.html", "road__geometry__configuration__for__xodrs_8h" ],
     [ "road_header.cc", "road__header_8cc.html", "road__header_8cc" ],

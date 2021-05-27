@@ -1552,6 +1552,20 @@
     <includes id="road__geometry__configuration_8h" name="road_geometry_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_configuration.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
+    <member kind="function">
+      <type>RoadGeometryConfiguration::StandardStrictnessPolicy</type>
+      <name>operator|</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>aa7055f0c13d21c95fa8f05f7f4e63d42</anchor>
+      <arglist>(const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;first, const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;second)</arglist>
+    </member>
+    <member kind="function">
+      <type>RoadGeometryConfiguration::StandardStrictnessPolicy</type>
+      <name>operator &amp;</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a56cdf58cf29cfaff6ee2fedbb3218b7f</anchor>
+      <arglist>(const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;first, const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;second)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>road_geometry_configuration.h</name>
@@ -1563,6 +1577,20 @@
     <class kind="struct">malidrive::builder::RoadGeometryConfiguration</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
+    <member kind="function">
+      <type>RoadGeometryConfiguration::StandardStrictnessPolicy</type>
+      <name>operator|</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>aa7055f0c13d21c95fa8f05f7f4e63d42</anchor>
+      <arglist>(const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;first, const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;second)</arglist>
+    </member>
+    <member kind="function">
+      <type>RoadGeometryConfiguration::StandardStrictnessPolicy</type>
+      <name>operator &amp;</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a56cdf58cf29cfaff6ee2fedbb3218b7f</anchor>
+      <arglist>(const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;first, const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;second)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>road_geometry_configuration_for_xodrs.cc</name>
@@ -1680,6 +1708,7 @@
     <includes id="speed__limit__builder_8h" name="speed_limit_builder.h" local="yes" imported="no">maliput_malidrive/builder/speed_limit_builder.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="constants_8h" name="constants.h" local="yes" imported="no">maliput_malidrive/constants.h</includes>
+    <includes id="parser__configuration_8h" name="parser_configuration.h" local="yes" imported="no">maliput_malidrive/xodr/parser_configuration.h</includes>
     <includes id="unit_8h" name="unit.h" local="yes" imported="no">maliput_malidrive/xodr/unit.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
@@ -5068,9 +5097,16 @@
     </member>
     <member kind="variable">
       <type>bool</type>
-      <name>permissive_mode</name>
+      <name>allow_schema_errors</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_parser_configuration.html</anchorfile>
-      <anchor>a60942d24261d79edf2443985015a377c</anchor>
+      <anchor>a51fa361bfda8ffc45c0e7528b8be12db</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>bool</type>
+      <name>allow_semantic_errors</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_parser_configuration.html</anchorfile>
+      <anchor>a3d6f641abbebd505c65c7bfde4d4cb89</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -5903,10 +5939,12 @@
       <type></type>
       <name>StandardStrictnessPolicy</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a873182dc9e5c92c9c5e7eca30bf38eae</anchor>
+      <anchor>a77e8edf465a9cf59367165b9658f07f0</anchor>
       <arglist></arglist>
-      <enumvalue file="structmalidrive_1_1builder_1_1_road_geometry_configuration.html" anchor="a873182dc9e5c92c9c5e7eca30bf38eaea334aa60ef6932a4f4816a2244d0616c0">kPermissive</enumvalue>
-      <enumvalue file="structmalidrive_1_1builder_1_1_road_geometry_configuration.html" anchor="a873182dc9e5c92c9c5e7eca30bf38eaea35215d4c3b69349b967c421fd68b0b36">kStrict</enumvalue>
+      <enumvalue file="structmalidrive_1_1builder_1_1_road_geometry_configuration.html" anchor="a77e8edf465a9cf59367165b9658f07f0a35215d4c3b69349b967c421fd68b0b36">kStrict</enumvalue>
+      <enumvalue file="structmalidrive_1_1builder_1_1_road_geometry_configuration.html" anchor="a77e8edf465a9cf59367165b9658f07f0a30ceca68d1ca06a9c15daeef15debee5">kAllowSchemaErrors</enumvalue>
+      <enumvalue file="structmalidrive_1_1builder_1_1_road_geometry_configuration.html" anchor="a77e8edf465a9cf59367165b9658f07f0a0ce43476a35722d29000b5dab29fe2fd">kAllowSemanticErrors</enumvalue>
+      <enumvalue file="structmalidrive_1_1builder_1_1_road_geometry_configuration.html" anchor="a77e8edf465a9cf59367165b9658f07f0a334aa60ef6932a4f4816a2244d0616c0">kPermissive</enumvalue>
     </member>
     <member kind="enumeration">
       <type></type>
@@ -5946,6 +5984,13 @@
       <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
       <anchor>a329165b5e4b8a6e101fd7ddd35b6267e</anchor>
       <arglist>(const std::string &amp;policy)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static std::string</type>
+      <name>FromStandardStrictnessPolicyToStr</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a8b47aaf846f6dbabf0776c2f2d8ee192</anchor>
+      <arglist>(const StandardStrictnessPolicy &amp;policy)</arglist>
     </member>
     <member kind="variable">
       <type>maliput::api::RoadGeometryId</type>
@@ -7265,6 +7310,20 @@
       <arglist>(const maliput::api::rules::Rule::TypeId &amp;rule_type_id, const maliput::api::LaneId &amp;lane_id, int index)</arglist>
     </member>
     <member kind="function">
+      <type>RoadGeometryConfiguration::StandardStrictnessPolicy</type>
+      <name>operator|</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>aa7055f0c13d21c95fa8f05f7f4e63d42</anchor>
+      <arglist>(const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;first, const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;second)</arglist>
+    </member>
+    <member kind="function">
+      <type>RoadGeometryConfiguration::StandardStrictnessPolicy</type>
+      <name>operator &amp;</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a56cdf58cf29cfaff6ee2fedbb3218b7f</anchor>
+      <arglist>(const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;first, const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;second)</arglist>
+    </member>
+    <member kind="function">
       <type>std::vector&lt; maliput::api::LaneEnd &gt;</type>
       <name>SolveLaneEndsForConnectingRoad</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
@@ -7382,6 +7441,13 @@
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
       <anchor>ab4e48b5757872ce6ff035f5e154f5a2a</anchor>
       <arglist>(const xodr::DBManager *xodr_manager, double linear_tolerance, double angular_tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>RoadGeometryConfiguration::StandardStrictnessPolicy</type>
+      <name>operator &amp;</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a56cdf58cf29cfaff6ee2fedbb3218b7f</anchor>
+      <arglist>(const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;first, const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;second)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; xodr::Geometry &gt;</type>

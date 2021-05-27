@@ -4,14 +4,17 @@ var structmalidrive_1_1builder_1_1_road_geometry_configuration =
       [ "kNone", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aba132f98ea1230f94d40497b60aa9df4a35c3ace1970663a16e5c65baa5941b13", null ],
       [ "kSimplifyWithinToleranceAndKeepGeometryModel", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aba132f98ea1230f94d40497b60aa9df4a772d1e24c5dc52d72e0f5f8567daf7d9", null ]
     ] ],
-    [ "StandardStrictnessPolicy", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a873182dc9e5c92c9c5e7eca30bf38eae", [
-      [ "kPermissive", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a873182dc9e5c92c9c5e7eca30bf38eaea334aa60ef6932a4f4816a2244d0616c0", null ],
-      [ "kStrict", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a873182dc9e5c92c9c5e7eca30bf38eaea35215d4c3b69349b967c421fd68b0b36", null ]
+    [ "StandardStrictnessPolicy", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0", [
+      [ "kStrict", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0a35215d4c3b69349b967c421fd68b0b36", null ],
+      [ "kAllowSchemaErrors", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0a30ceca68d1ca06a9c15daeef15debee5", null ],
+      [ "kAllowSemanticErrors", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0a0ce43476a35722d29000b5dab29fe2fd", null ],
+      [ "kPermissive", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0a334aa60ef6932a4f4816a2244d0616c0", null ]
     ] ],
     [ "ToleranceSelectionPolicy", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4cd4abfdf390ce8a62882d75d96cc830", [
       [ "kManualSelection", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4cd4abfdf390ce8a62882d75d96cc830a0607c802a36b5a6bfc9d95ef06d8117e", null ],
       [ "kAutomaticSelection", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4cd4abfdf390ce8a62882d75d96cc830a9f96d3d0e722e1e1d3cbce90423dcce1", null ]
     ] ],
+    [ "FromStandardStrictnessPolicyToStr", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a8b47aaf846f6dbabf0776c2f2d8ee192", null ],
     [ "FromStrToSimplificationPolicy", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a5af6ea73b3e5a52c6b942a134c0e93b1", null ],
     [ "FromStrToStandardStrictnessPolicy", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a329165b5e4b8a6e101fd7ddd35b6267e", null ],
     [ "FromStrToToleranceSelectionPolicy", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#add93230cc49a65816218575325402ddd", null ],

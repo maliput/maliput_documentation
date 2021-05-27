@@ -1,5 +1,12 @@
 var NAVTREEINDEX3 =
 {
+"structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_geometries.html#a79b8e036dca6911e3295a47d99f21f43":[2,0,0,3,2,1,0],
+"structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify.html":[2,0,0,3,2,2],
+"structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify.html#a16138e9d2c17b9fc27837f6b40a2ecf8":[2,0,0,3,2,2,2],
+"structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify.html#a5eaa57b6224a77eb05f47cb6bc3b8ba1":[2,0,0,3,2,2,3],
+"structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify.html#a8bb1ef53467e4f61410d12822d922498":[2,0,0,3,2,2,0],
+"structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify.html#a8bb1ef53467e4f61410d12822d922498ab7744a9b17430948160b3d8b153c1796":[2,0,0,3,2,2,0,0],
+"structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify.html#a8bb1ef53467e4f61410d12822d922498aec00f8ce847016f2f787679c980bdfa5":[2,0,0,3,2,2,0,1],
 "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify.html#aa9cf7d0afedceb0d21dd5f412fe08c18":[2,0,0,3,2,2,1],
 "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometry_length_data.html":[2,0,0,3,2,3],
 "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometry_length_data.html#a5eaa57b6224a77eb05f47cb6bc3b8ba1":[2,0,0,3,2,3,2],
@@ -232,8 +239,9 @@ var NAVTREEINDEX3 =
 "structmalidrive_1_1xodr_1_1_lateral_profile_1_1_superelevation.html#af41ca0a8e2918ec0e4bcc141eb8308c3":[2,0,0,3,13,0,1],
 "structmalidrive_1_1xodr_1_1_lateral_profile_1_1_superelevation.html#afb8b389927564791e0c4db383443e994":[2,0,0,3,13,0,9],
 "structmalidrive_1_1xodr_1_1_parser_configuration.html":[2,0,0,3,16],
-"structmalidrive_1_1xodr_1_1_parser_configuration.html#a4ab89114094e0b5790d9b74ef684d4ae":[2,0,0,3,16,1],
-"structmalidrive_1_1xodr_1_1_parser_configuration.html#a60942d24261d79edf2443985015a377c":[2,0,0,3,16,0],
+"structmalidrive_1_1xodr_1_1_parser_configuration.html#a3d6f641abbebd505c65c7bfde4d4cb89":[2,0,0,3,16,1],
+"structmalidrive_1_1xodr_1_1_parser_configuration.html#a4ab89114094e0b5790d9b74ef684d4ae":[2,0,0,3,16,2],
+"structmalidrive_1_1xodr_1_1_parser_configuration.html#a51fa361bfda8ffc45c0e7528b8be12db":[2,0,0,3,16,0],
 "structmalidrive_1_1xodr_1_1_plan_view.html":[2,0,0,3,17],
 "structmalidrive_1_1xodr_1_1_plan_view.html#a13ab7efc463adda491a88cfa4b2d94c0":[2,0,0,3,17,0],
 "structmalidrive_1_1xodr_1_1_plan_view.html#a169c9636067b9dfc50f271f80889d87a":[2,0,0,3,17,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX3 =
 "structmalidrive_1_1xodr_1_1_plan_view.html#a8dd3baec7d13ab7f1e9154096aa375b8":[2,0,0,3,17,3],
 "structmalidrive_1_1xodr_1_1_reference_geometry.html":[2,0,0,3,18],
 "structmalidrive_1_1xodr_1_1_reference_geometry.html#a09780162fa3fcf305e391af4af308277":[2,0,0,3,18,3],
-"structmalidrive_1_1xodr_1_1_reference_geometry.html#a2f1fc93b5164bf22f8a161a36fc1c042":[2,0,0,3,18,0],
-"structmalidrive_1_1xodr_1_1_reference_geometry.html#a7733139c3d3f330be3f6b006405fd2ff":[2,0,0,3,18,4],
-"structmalidrive_1_1xodr_1_1_reference_geometry.html#ab053292db3c74632bd9e3057dda910af":[2,0,0,3,18,1],
-"structmalidrive_1_1xodr_1_1_reference_geometry.html#add4d6df8f4c52eda2b5e22e1b0591cce":[2,0,0,3,18,2],
-"structmalidrive_1_1xodr_1_1_road_header.html":[2,0,0,3,19],
-"structmalidrive_1_1xodr_1_1_road_header.html#a150a709e86e7134d17cd063de6810b6c":[2,0,0,3,19,11],
-"structmalidrive_1_1xodr_1_1_road_header.html#a211b8393e80a38beec2131424ed3b31d":[2,0,0,3,19,15],
-"structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7":[2,0,0,3,19,0],
-"structmalidrive_1_1xodr_1_1_road_header.html#a23ccaa232c431802d1735395f6b20b31":[2,0,0,3,19,2]
+"structmalidrive_1_1xodr_1_1_reference_geometry.html#a2f1fc93b5164bf22f8a161a36fc1c042":[2,0,0,3,18,0]
 };

@@ -101,11 +101,13 @@ $(document).ready(function(){initNavTree('structmalidrive_1_1builder_1_1_road_ge
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a873182dc9e5c92c9c5e7eca30bf38eae"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a873182dc9e5c92c9c5e7eca30bf38eae">StandardStrictnessPolicy</a> { <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a873182dc9e5c92c9c5e7eca30bf38eaea334aa60ef6932a4f4816a2244d0616c0">kPermissive</a>, 
-<a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a873182dc9e5c92c9c5e7eca30bf38eaea35215d4c3b69349b967c421fd68b0b36">kStrict</a>
- }<tr class="memdesc:a873182dc9e5c92c9c5e7eca30bf38eae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Level of flexibility in terms of adhering to the OpenDrive standard when constructing a <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend. ">RoadGeometry</a>.  <a href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a873182dc9e5c92c9c5e7eca30bf38eae">More...</a><br /></td></tr>
+<tr class="memitem:a77e8edf465a9cf59367165b9658f07f0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0">StandardStrictnessPolicy</a> : unsigned int { <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0a35215d4c3b69349b967c421fd68b0b36">kStrict</a> = 0, 
+<a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0a30ceca68d1ca06a9c15daeef15debee5">kAllowSchemaErrors</a> = 1 &lt;&lt; 0, 
+<a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0a0ce43476a35722d29000b5dab29fe2fd">kAllowSemanticErrors</a> = 1 &lt;&lt; 1, 
+<a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0a334aa60ef6932a4f4816a2244d0616c0">kPermissive</a> = kAllowSemanticErrors | kAllowSchemaErrors
+ }<tr class="memdesc:a77e8edf465a9cf59367165b9658f07f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Level of flexibility in terms of adhering to the OpenDrive standard when constructing a <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend. ">RoadGeometry</a>.  <a href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0">More...</a><br /></td></tr>
 </td></tr>
-<tr class="separator:a873182dc9e5c92c9c5e7eca30bf38eae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a77e8edf465a9cf59367165b9658f07f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba132f98ea1230f94d40497b60aa9df4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aba132f98ea1230f94d40497b60aa9df4">SimplificationPolicy</a> { <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aba132f98ea1230f94d40497b60aa9df4a35c3ace1970663a16e5c65baa5941b13">kNone</a>, 
 <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aba132f98ea1230f94d40497b60aa9df4a772d1e24c5dc52d72e0f5f8567daf7d9">kSimplifyWithinToleranceAndKeepGeometryModel</a>
  }<tr class="memdesc:aba132f98ea1230f94d40497b60aa9df4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Degree to which the <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend. ">RoadGeometry</a> should be simplified.  <a href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aba132f98ea1230f94d40497b60aa9df4">More...</a><br /></td></tr>
@@ -125,9 +127,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:add93230cc49a65816218575325402ddd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4cd4abfdf390ce8a62882d75d96cc830">ToleranceSelectionPolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#add93230cc49a65816218575325402ddd">FromStrToToleranceSelectionPolicy</a> (const std::string &amp;policy)</td></tr>
 <tr class="memdesc:add93230cc49a65816218575325402ddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a string to a ToleranceSelectionPolicy.  <a href="#add93230cc49a65816218575325402ddd">More...</a><br /></td></tr>
 <tr class="separator:add93230cc49a65816218575325402ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a329165b5e4b8a6e101fd7ddd35b6267e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a873182dc9e5c92c9c5e7eca30bf38eae">StandardStrictnessPolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a329165b5e4b8a6e101fd7ddd35b6267e">FromStrToStandardStrictnessPolicy</a> (const std::string &amp;policy)</td></tr>
+<tr class="memitem:a329165b5e4b8a6e101fd7ddd35b6267e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0">StandardStrictnessPolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a329165b5e4b8a6e101fd7ddd35b6267e">FromStrToStandardStrictnessPolicy</a> (const std::string &amp;policy)</td></tr>
 <tr class="memdesc:a329165b5e4b8a6e101fd7ddd35b6267e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a string to a StandardStrictnessPolicy.  <a href="#a329165b5e4b8a6e101fd7ddd35b6267e">More...</a><br /></td></tr>
 <tr class="separator:a329165b5e4b8a6e101fd7ddd35b6267e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b47aaf846f6dbabf0776c2f2d8ee192"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a8b47aaf846f6dbabf0776c2f2d8ee192">FromStandardStrictnessPolicyToStr</a> (const <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0">StandardStrictnessPolicy</a> &amp;policy)</td></tr>
+<tr class="memdesc:a8b47aaf846f6dbabf0776c2f2d8ee192"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a StandardStrictnessPolicy to a string.  <a href="#a8b47aaf846f6dbabf0776c2f2d8ee192">More...</a><br /></td></tr>
+<tr class="separator:a8b47aaf846f6dbabf0776c2f2d8ee192"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -151,7 +156,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:acba8be98c96a7e48fb1264efaaed94f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4a7f3aced306310c74060455dfe280f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4cd4abfdf390ce8a62882d75d96cc830">ToleranceSelectionPolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aa4a7f3aced306310c74060455dfe280f">tolerance_selection_policy</a> {<a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4cd4abfdf390ce8a62882d75d96cc830a0607c802a36b5a6bfc9d95ef06d8117e">ToleranceSelectionPolicy::kManualSelection</a>}</td></tr>
 <tr class="separator:aa4a7f3aced306310c74060455dfe280f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96d8bcd54119d900cf2e64a3ada179e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a873182dc9e5c92c9c5e7eca30bf38eae">StandardStrictnessPolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a96d8bcd54119d900cf2e64a3ada179e8">standard_strictness_policy</a> {<a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a873182dc9e5c92c9c5e7eca30bf38eaea334aa60ef6932a4f4816a2244d0616c0">StandardStrictnessPolicy::kPermissive</a>}</td></tr>
+<tr class="memitem:a96d8bcd54119d900cf2e64a3ada179e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0">StandardStrictnessPolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a96d8bcd54119d900cf2e64a3ada179e8">standard_strictness_policy</a> {<a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0a334aa60ef6932a4f4816a2244d0616c0">StandardStrictnessPolicy::kPermissive</a>}</td></tr>
 <tr class="separator:a96d8bcd54119d900cf2e64a3ada179e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
@@ -185,8 +190,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a873182dc9e5c92c9c5e7eca30bf38eae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a873182dc9e5c92c9c5e7eca30bf38eae">&#9670;&nbsp;</a></span>StandardStrictnessPolicy</h2>
+<a id="a77e8edf465a9cf59367165b9658f07f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77e8edf465a9cf59367165b9658f07f0">&#9670;&nbsp;</a></span>StandardStrictnessPolicy</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -195,7 +200,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a873182dc9e5c92c9c5e7eca30bf38eae">StandardStrictnessPolicy</a></td>
+          <td class="memname">enum <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0">StandardStrictnessPolicy</a> : unsigned int</td>
         </tr>
       </table>
   </td>
@@ -206,11 +211,15 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Level of flexibility in terms of adhering to the OpenDrive standard when constructing a <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend. ">RoadGeometry</a>. </p>
-<p>This is useful when working with .xodr files that violate the OpenDrive standard. </p>
+<p>This is useful when working with .xodr files that violate the OpenDrive standard. The policy is specified by taking the union of one or more of the following bit flags. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a873182dc9e5c92c9c5e7eca30bf38eaea334aa60ef6932a4f4816a2244d0616c0"></a>kPermissive&#160;</td><td class="fielddoc"><p>Allow the .xodr file to violate the standard. Continue on best-effort-basis. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a77e8edf465a9cf59367165b9658f07f0a35215d4c3b69349b967c421fd68b0b36"></a>kStrict&#160;</td><td class="fielddoc"><p>Do not permit any errors. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a873182dc9e5c92c9c5e7eca30bf38eaea35215d4c3b69349b967c421fd68b0b36"></a>kStrict&#160;</td><td class="fielddoc"><p>Do not allow violation of the standard. </p>
+<tr><td class="fieldname"><a id="a77e8edf465a9cf59367165b9658f07f0a30ceca68d1ca06a9c15daeef15debee5"></a>kAllowSchemaErrors&#160;</td><td class="fielddoc"><p>Allow schema syntax errors. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a77e8edf465a9cf59367165b9658f07f0a0ce43476a35722d29000b5dab29fe2fd"></a>kAllowSemanticErrors&#160;</td><td class="fielddoc"><p>Allow semantic errors. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a77e8edf465a9cf59367165b9658f07f0a334aa60ef6932a4f4816a2244d0616c0"></a>kPermissive&#160;</td><td class="fielddoc"><p>Allow all previous violations. </p>
 </td></tr>
 </table>
 
@@ -247,6 +256,41 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a8b47aaf846f6dbabf0776c2f2d8ee192"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b47aaf846f6dbabf0776c2f2d8ee192">&#9670;&nbsp;</a></span>FromStandardStrictnessPolicyToStr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string FromStandardStrictnessPolicyToStr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0">StandardStrictnessPolicy</a> &amp;&#160;</td>
+          <td class="paramname"><em>policy</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converts a StandardStrictnessPolicy to a string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">policy</td><td>StandardStrictnessPolicy to be translated to a String. Valid strings match the enumerator's name except without the leading 'k' and is all lower case. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A string value. </dd></dl>
+
+</div>
+</div>
 <a id="a5af6ea73b3e5a52c6b942a134c0e93b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5af6ea73b3e5a52c6b942a134c0e93b1">&#9670;&nbsp;</a></span>FromStrToSimplificationPolicy()</h2>
 
@@ -298,7 +342,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a873182dc9e5c92c9c5e7eca30bf38eae">RoadGeometryConfiguration::StandardStrictnessPolicy</a> FromStrToStandardStrictnessPolicy </td>
+          <td class="memname"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0">RoadGeometryConfiguration::StandardStrictnessPolicy</a> FromStrToStandardStrictnessPolicy </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>policy</em></td><td>)</td>
@@ -504,7 +548,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a873182dc9e5c92c9c5e7eca30bf38eae">StandardStrictnessPolicy</a> standard_strictness_policy {<a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a873182dc9e5c92c9c5e7eca30bf38eaea334aa60ef6932a4f4816a2244d0616c0">StandardStrictnessPolicy::kPermissive</a>}</td>
+          <td class="memname"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0">StandardStrictnessPolicy</a> standard_strictness_policy {<a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0a334aa60ef6932a4f4816a2244d0616c0">StandardStrictnessPolicy::kPermissive</a>}</td>
         </tr>
       </table>
 </div><div class="memdoc">
