@@ -8,7 +8,7 @@ In order to build high level documentation
 this repository gathers documentation from:
  - [maliput](https://github.com/ToyotaResearchInstitute/maliput)
  - [maliput_malidrive](https://github.com/ToyotaResearchInstitute/maliput_malidrive)
- - [maliput-dragway](https://github.com/ToyotaResearchInstitute/maliput-dragway)
+ - [maliput_dragway](https://github.com/ToyotaResearchInstitute/maliput_dragway)
  - [maliput-multilane](https://github.com/ToyotaResearchInstitute/maliput-multilane)
  - [maliput-integration](https://github.com/ToyotaResearchInstitute/maliput-integration)
  - [maliput-integration-tests](https://github.com/ToyotaResearchInstitute/maliput-integration-tests)
