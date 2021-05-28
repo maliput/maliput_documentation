@@ -1164,9 +1164,9 @@
     <name>maliput_abort_and_throw.cc</name>
     <path>/__w/maliput-documentation/maliput-documentation/maliput_ws/src/maliput/maliput/src/common/</path>
     <filename>maliput__abort__and__throw_8cc</filename>
+    <includes id="assertion__error_8h" name="assertion_error.h" local="yes" imported="no">maliput/common/assertion_error.h</includes>
     <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
-    <includes id="assertion__error_8h" name="assertion_error.h" local="yes" imported="no">maliput/common/assertion_error.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::common</namespace>
     <namespace>maliput::common::internal</namespace>
@@ -3751,12 +3751,12 @@
     <name>road_rulebook_loader_using_rule_registry.cc</name>
     <path>/__w/maliput-documentation/maliput-documentation/maliput_ws/src/maliput/maliput/src/base/</path>
     <filename>road__rulebook__loader__using__rule__registry_8cc</filename>
-    <includes id="road__rulebook__loader_8h" name="road_rulebook_loader.h" local="yes" imported="no">maliput/base/road_rulebook_loader.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
     <includes id="range__value__rule_8h" name="range_value_rule.h" local="yes" imported="no">maliput/api/rules/range_value_rule.h</includes>
     <includes id="manual__rulebook_8h" name="manual_rulebook.h" local="yes" imported="no">maliput/base/manual_rulebook.h</includes>
+    <includes id="road__rulebook__loader_8h" name="road_rulebook_loader.h" local="yes" imported="no">maliput/base/road_rulebook_loader.h</includes>
     <includes id="base_2rule__registry_8h" name="base/rule_registry.h" local="yes" imported="no">maliput/base/rule_registry.h</includes>
     <includes id="yaml__conversion_8h" name="yaml_conversion.h" local="yes" imported="no">maliput/base/yaml_conversion.h</includes>
     <includes id="logger_8h" name="logger.h" local="yes" imported="no">maliput/common/logger.h</includes>

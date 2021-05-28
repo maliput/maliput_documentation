@@ -155,8 +155,8 @@ Functions</h2></td></tr>
 <tr class="separator:a0328db08d0aa05100c7ef77a581430e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add97125ab5ba35dbb30d4ee876c601f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__to__string__with__plugin_8cc.html#add97125ab5ba35dbb30d4ee876c601f8">DEFINE_string</a> (scale_length, &quot;1&quot;, &quot;Scale length&quot;)</td></tr>
 <tr class="separator:add97125ab5ba35dbb30d4ee876c601f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac30d2b68b389e52ef9fd93c0fd72dd12"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__to__string__with__plugin_8cc.html#ac30d2b68b389e52ef9fd93c0fd72dd12">DEFINE_string</a> (standard_strictness_policy, &quot;permissive&quot;, &quot;OpenDrive standard strictness, it could be `permissive` or `strict`&quot;)</td></tr>
-<tr class="separator:ac30d2b68b389e52ef9fd93c0fd72dd12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad399aae1ce01b010e46a9c0244305898"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__to__string__with__plugin_8cc.html#ad399aae1ce01b010e46a9c0244305898">DEFINE_string</a> (standard_strictness_policy, &quot;permissive&quot;, &quot;OpenDrive standard strictness, it could be `permissive`, `allow_schema_errors`, `allow_semantic_errors` or &quot; &quot;`strict`. Union of policies are also allowed: 'allow_schema_errors|allow_semantic_errors'&quot;)</td></tr>
+<tr class="separator:ad399aae1ce01b010e46a9c0244305898"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88fb7a6f884a9f3c5dd0364caa130c82"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__to__string__with__plugin_8cc.html#a88fb7a6f884a9f3c5dd0364caa130c82">DEFINE_bool</a> (include_type_labels, false, &quot;Whether to include <a class="elRef" doxygen="/__w/maliput-documentation/maliput-documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput_multilane/maliput_multilane.tag:../../maliput_multilane/html/" href="../../maliput_multilane/html/loader_8cc.html#adb5798caab72849ba8da861ddc3acccd">type</a> labels in the output string&quot;)</td></tr>
 <tr class="separator:a88fb7a6f884a9f3c5dd0364caa130c82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87bff4805a7b1c211448bb919e3f0cd1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__to__string__with__plugin_8cc.html#a87bff4805a7b1c211448bb919e3f0cd1">DEFINE_bool</a> (include_road_geometry_id, false, &quot;Whether to include road geometry IDs in the output string&quot;)</td></tr>
@@ -753,8 +753,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac30d2b68b389e52ef9fd93c0fd72dd12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac30d2b68b389e52ef9fd93c0fd72dd12">&#9670;&nbsp;</a></span>DEFINE_string() <span class="overload">[12/12]</span></h2>
+<a id="ad399aae1ce01b010e46a9c0244305898"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad399aae1ce01b010e46a9c0244305898">&#9670;&nbsp;</a></span>DEFINE_string() <span class="overload">[12/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -780,7 +780,19 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">it could be `permissive` or `strict`&quot;&#160;</td>
+          <td class="paramtype">it could be `permissive`&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">`allow_schema_errors`&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">`allow_semantic_errors` or &quot; &quot;`strict`. Union of policies are also allowed:'allow_schema_errors|allow_semantic_errors'&quot;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

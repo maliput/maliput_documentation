@@ -468,8 +468,8 @@
       <type></type>
       <name>DEFINE_string</name>
       <anchorfile>maliput__to__string__with__plugin_8cc.html</anchorfile>
-      <anchor>ac30d2b68b389e52ef9fd93c0fd72dd12</anchor>
-      <arglist>(standard_strictness_policy, &quot;permissive&quot;, &quot;OpenDrive standard strictness, it could be `permissive` or `strict`&quot;)</arglist>
+      <anchor>ad399aae1ce01b010e46a9c0244305898</anchor>
+      <arglist>(standard_strictness_policy, &quot;permissive&quot;, &quot;OpenDrive standard strictness, it could be `permissive`, `allow_schema_errors`, `allow_semantic_errors` or &quot; &quot;`strict`. Union of policies are also allowed: &apos;allow_schema_errors|allow_semantic_errors&apos;&quot;)</arglist>
     </member>
     <member kind="function">
       <type></type>
