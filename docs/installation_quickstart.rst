@@ -376,7 +376,7 @@ after building it along with its dependencies.
 
 .. note::
   If you are building ``drake`` from source as well, make sure ``--cmake-args -DWITH_PYTHON_VERSION=3`` is
-  passed to ``colcon``. Otherwise, python packages and scripts in ``delphyne`` and ``delphyne-gui`` packages
+  passed to ``colcon``. Otherwise, python packages and scripts in ``delphyne`` and ``delphyne_gui`` packages
   won't find ``pydrake``.
 
 .. note::
