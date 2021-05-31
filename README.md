@@ -11,7 +11,7 @@ this repository gathers documentation from:
  - [maliput_dragway](https://github.com/ToyotaResearchInstitute/maliput_dragway)
  - [maliput_multilane](https://github.com/ToyotaResearchInstitute/maliput_multilane)
  - [maliput_integration](https://github.com/ToyotaResearchInstitute/maliput_integration)
- - [maliput-integration-tests](https://github.com/ToyotaResearchInstitute/maliput-integration-tests)
+ - [maliput_integration_tests](https://github.com/ToyotaResearchInstitute/maliput_integration_tests)
 
 
 # Build documentation
