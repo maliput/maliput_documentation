@@ -301,8 +301,8 @@ Releases
 Named major releases
 --------------------
 
-Major releases of Maliput packages will be named. The names will
-be chosen based on famous roads and will be alphabetically sorted. Major
+Significant releases of Maliput packages will be named. The names will
+be chosen based on famous roads and will be alphabetically sorted. Significant
 releases will be created on demand.
 
 Major release output
@@ -352,8 +352,9 @@ Create a new package major release
   * From ``main`` branch, create a new branch called
     ``release/major.minor.x``. ``x`` is not a placeholder, it is the literal
     **x** because this branch will contain all the potential future patch
-    releases in the series of ``major.minor.0``, ``major.minor.1`` and so on. A
-    tag will be used to name the specific commit in the branch.
+    releases in the series of ``major.minor.0``, ``major.minor.1`` and so on (e.g.
+    `1.3.0`, `1.3.1`, `1.3.2`, etc.). A tag will be used to name the specific
+    commit in the branch.
   * Run **all** tests. If you encounter any problem, send PRs to fix them
     targeting ``main`` branch. Merge those commits into
     ``release/major.minor.x``.
