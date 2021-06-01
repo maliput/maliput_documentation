@@ -20,7 +20,7 @@ jobs:
       image: ubuntu:18.04
     steps:
     # setup-ros first since it installs git, which is needed to fetch all branches from actions/checkout
-    - uses: ros-tooling/setup-ros@0.1.2
+    - uses: ros-tooling/setup-ros@0.2.1
     # install git from ppa since git 2.18+ is needed to fetch all branches from actions/checkout
     # this step can be removed on 20.04
     - name: install git from ppa
@@ -54,25 +54,25 @@ jobs:
         token: ${{ secrets.MALIPUT_TOKEN }}
     - uses: actions/checkout@v2
       with:
-        repository: ToyotaResearchInstitute/maliput-dragway
+        repository: ToyotaResearchInstitute/maliput_dragway
         fetch-depth: 0
         path: ${{ env.ROS_WS }}/src/maliput_dragway
         token: ${{ secrets.MALIPUT_TOKEN }}
     - uses: actions/checkout@v2
       with:
-        repository: ToyotaResearchInstitute/maliput-multilane
+        repository: ToyotaResearchInstitute/maliput_multilane
         fetch-depth: 0
         path: ${{ env.ROS_WS }}/src/maliput_multilane
         token: ${{ secrets.MALIPUT_TOKEN }}
     - uses: actions/checkout@v2
       with:
-        repository: ToyotaResearchInstitute/maliput-integration
+        repository: ToyotaResearchInstitute/maliput_integration
         fetch-depth: 0
         path: ${{ env.ROS_WS }}/src/maliput_integration
         token: ${{ secrets.MALIPUT_TOKEN }}
     - uses: actions/checkout@v2
       with:
-        repository: ToyotaResearchInstitute/maliput-integration-tests
+        repository: ToyotaResearchInstitute/maliput_integration_tests
         fetch-depth: 0
         path: ${{ env.ROS_WS }}/src/maliput_integration_tests
         token: ${{ secrets.MALIPUT_TOKEN }}
