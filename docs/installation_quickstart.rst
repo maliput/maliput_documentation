@@ -328,8 +328,7 @@ necessary to build and execute. And we can easily inspect repositories.
 Note though that currently not all workspace prerequisites are nor can be dealt with using ``rosdep``
 alone and thus ``rosdep check`` may fall short. When it comes down to pure binary dependencies, ``drake``\ 's
 binary tarball is a good example, but prerequisites may go beyond that, ``apt`` source lists being another
-good example. See ``prereqs`` executable files in each repository for further details on what's currently
-being handled outside ``rosdep``.
+good example.
 
 In any given case, one can always resort to the specific tool used for repository versioning (e.g. ``git``\ )
 if ``vcs`` isn't enough or to the specific package managers (e.g. ``apt`` or ``pip``\ ) if ``rosdep`` isn't enough.
