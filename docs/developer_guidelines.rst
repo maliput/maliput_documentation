@@ -155,7 +155,7 @@ Libraries
     target_include_directories(foo
       PUBLIC
         $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include>
-        $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>
+        $<INSTALL_INTERFACE:include>
     )
 
 * Header file only libraries should be created as interfaces and header files
