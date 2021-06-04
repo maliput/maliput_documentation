@@ -393,8 +393,7 @@ necessary to build and execute. And we can easily inspect repositories.</p>
 <p>Note though that currently not all workspace prerequisites are nor can be dealt with using <code class="docutils literal"><span class="pre">rosdep</span></code>
 alone and thus <code class="docutils literal"><span class="pre">rosdep</span> <span class="pre">check</span></code> may fall short. When it comes down to pure binary dependencies, <code class="docutils literal"><span class="pre">drake</span></code>’s
 binary tarball is a good example, but prerequisites may go beyond that, <code class="docutils literal"><span class="pre">apt</span></code> source lists being another
-good example. See <code class="docutils literal"><span class="pre">prereqs</span></code> executable files in each repository for further details on what’s currently
-being handled outside <code class="docutils literal"><span class="pre">rosdep</span></code>.</p>
+good example.</p>
 <p>In any given case, one can always resort to the specific tool used for repository versioning (e.g. <code class="docutils literal"><span class="pre">git</span></code>)
 if <code class="docutils literal"><span class="pre">vcs</span></code> isn’t enough or to the specific package managers (e.g. <code class="docutils literal"><span class="pre">apt</span></code> or <code class="docutils literal"><span class="pre">pip</span></code>) if <code class="docutils literal"><span class="pre">rosdep</span></code> isn’t enough.</p>
 </div>
