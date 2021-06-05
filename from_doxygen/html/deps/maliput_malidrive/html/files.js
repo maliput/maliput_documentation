@@ -217,6 +217,8 @@ var files =
     [ "tools.h", "tools_8h.html", "tools_8h" ],
     [ "unit.cc", "unit_8cc.html", "unit_8cc" ],
     [ "unit.h", "unit_8h.html", "unit_8h" ],
+    [ "xodr_parser_configuration.cc", "xodr__parser__configuration_8cc.html", "xodr__parser__configuration_8cc" ],
+    [ "xodr_parser_configuration.h", "xodr__parser__configuration_8h.html", "xodr__parser__configuration_8h" ],
     [ "xodr_query.cc", "xodr__query_8cc.html", "xodr__query_8cc" ],
     [ "xodr_testing_map_descriptions.h", "xodr__testing__map__descriptions_8h.html", "xodr__testing__map__descriptions_8h" ],
     [ "xodr_validate.cc", "xodr__validate_8cc.html", "xodr__validate_8cc" ]

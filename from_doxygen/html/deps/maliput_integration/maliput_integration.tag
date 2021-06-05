@@ -797,6 +797,13 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
+      <type>bool</type>
+      <name>omit_nondrivable_lanes</name>
+      <anchorfile>structmaliput_1_1integration_1_1_malidrive_build_properties.html</anchorfile>
+      <anchor>ac41166953e338be315ced745272492d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
       <type>std::string</type>
       <name>road_rule_book_file</name>
       <anchorfile>structmaliput_1_1integration_1_1_malidrive_build_properties.html</anchorfile>

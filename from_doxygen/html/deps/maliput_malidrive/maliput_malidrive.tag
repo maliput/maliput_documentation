@@ -361,6 +361,13 @@
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
+      <type>static constexpr int</type>
+      <name>kMaxToleranceSelectionRounds</name>
+      <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
+      <anchor>a2d4e86f86d35a1f2dbd8410ecf5a3aa9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
       <type>static constexpr double</type>
       <name>kExplorationRadius</name>
       <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
@@ -1499,6 +1506,7 @@
     <includes id="determine__tolerance_8h" name="determine_tolerance.h" local="yes" imported="no">maliput_malidrive/builder/determine_tolerance.h</includes>
     <includes id="road__curve__factory_8h" name="road_curve_factory.h" local="yes" imported="no">maliput_malidrive/builder/road_curve_factory.h</includes>
     <includes id="simplify__geometries_8h" name="simplify_geometries.h" local="yes" imported="no">maliput_malidrive/builder/simplify_geometries.h</includes>
+    <includes id="xodr__parser__configuration_8h" name="xodr_parser_configuration.h" local="yes" imported="no">maliput_malidrive/builder/xodr_parser_configuration.h</includes>
     <includes id="cubic__polynomial_8h" name="cubic_polynomial.h" local="yes" imported="no">maliput_malidrive/road_curve/cubic_polynomial.h</includes>
     <includes id="function_8h" name="function.h" local="yes" imported="no">maliput_malidrive/road_curve/function.h</includes>
     <includes id="road__curve_2lane__offset_8h" name="road_curve/lane_offset.h" local="yes" imported="no">maliput_malidrive/road_curve/lane_offset.h</includes>
@@ -1706,6 +1714,7 @@
     <includes id="road__rulebook__builder_8h" name="road_rulebook_builder.h" local="yes" imported="no">maliput_malidrive/builder/road_rulebook_builder.h</includes>
     <includes id="rule__registry__builder_8h" name="rule_registry_builder.h" local="yes" imported="no">maliput_malidrive/builder/rule_registry_builder.h</includes>
     <includes id="speed__limit__builder_8h" name="speed_limit_builder.h" local="yes" imported="no">maliput_malidrive/builder/speed_limit_builder.h</includes>
+    <includes id="xodr__parser__configuration_8h" name="xodr_parser_configuration.h" local="yes" imported="no">maliput_malidrive/builder/xodr_parser_configuration.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="constants_8h" name="constants.h" local="yes" imported="no">maliput_malidrive/constants.h</includes>
     <includes id="parser__configuration_8h" name="parser_configuration.h" local="yes" imported="no">maliput_malidrive/xodr/parser_configuration.h</includes>
@@ -2067,6 +2076,37 @@
       <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
       <anchor>a9d9881ea6862c23ba1822254b622c84e</anchor>
       <arglist>(const std::string &amp;unit)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>xodr_parser_configuration.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
+    <filename>xodr__parser__configuration_8cc</filename>
+    <includes id="xodr__parser__configuration_8h" name="xodr_parser_configuration.h" local="yes" imported="no">maliput_malidrive/builder/xodr_parser_configuration.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::builder</namespace>
+    <member kind="function">
+      <type>xodr::ParserConfiguration</type>
+      <name>XodrParserConfigurationFromRoadGeometryConfiguration</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a9a11fdba848f4ed1542605acffa0b594</anchor>
+      <arglist>(const RoadGeometryConfiguration &amp;rg_config)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>xodr_parser_configuration.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
+    <filename>xodr__parser__configuration_8h</filename>
+    <includes id="road__geometry__configuration_8h" name="road_geometry_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_configuration.h</includes>
+    <includes id="parser__configuration_8h" name="parser_configuration.h" local="yes" imported="no">maliput_malidrive/xodr/parser_configuration.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::builder</namespace>
+    <member kind="function">
+      <type>xodr::ParserConfiguration</type>
+      <name>XodrParserConfigurationFromRoadGeometryConfiguration</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a9a11fdba848f4ed1542605acffa0b594</anchor>
+      <arglist>(const RoadGeometryConfiguration &amp;rg_config)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -6069,6 +6109,13 @@
       <anchor>a96d8bcd54119d900cf2e64a3ada179e8</anchor>
       <arglist></arglist>
     </member>
+    <member kind="variable">
+      <type>bool</type>
+      <name>omit_nondrivable_lanes</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>ac41166953e338be315ced745272492d6</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="struct">
     <name>malidrive::xodr::RoadHeader</name>
@@ -7456,6 +7503,13 @@
       <anchor>aa39ac9a357a5a78705a21d92a1ac2794</anchor>
       <arglist>(const std::vector&lt; xodr::Geometry &gt; &amp;geometries, const std::vector&lt; xodr::DBManager::XodrGeometriesToSimplify &gt; &amp;geometries_to_simplify)</arglist>
     </member>
+    <member kind="function">
+      <type>xodr::ParserConfiguration</type>
+      <name>XodrParserConfigurationFromRoadGeometryConfiguration</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a9a11fdba848f4ed1542605acffa0b594</anchor>
+      <arglist>(const RoadGeometryConfiguration &amp;rg_config)</arglist>
+    </member>
     <member kind="variable" static="yes">
       <type>static constexpr double</type>
       <name>kMinLinearTolerance</name>
@@ -7541,6 +7595,13 @@
       <name>kDefaultMaxSpeedLimit</name>
       <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
       <anchor>abc547c57d153c67bba56929fa5a3daef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr int</type>
+      <name>kMaxToleranceSelectionRounds</name>
+      <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
+      <anchor>a2d4e86f86d35a1f2dbd8410ecf5a3aa9</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">

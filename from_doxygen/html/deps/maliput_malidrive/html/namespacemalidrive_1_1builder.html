@@ -250,6 +250,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aa39ac9a357a5a78705a21d92a1ac2794"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html">xodr::Geometry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#aa39ac9a357a5a78705a21d92a1ac2794">SimplifyGeometries</a> (const std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html">xodr::Geometry</a> &gt; &amp;geometries, const std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify.html">xodr::DBManager::XodrGeometriesToSimplify</a> &gt; &amp;geometries_to_simplify)</td></tr>
 <tr class="memdesc:aa39ac9a357a5a78705a21d92a1ac2794"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new vector of <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html" title="Holds the values of a XODR description&#39;s geometry header. ">xodr::Geometry</a> out of <code>geometries</code> by simplifying it following <code>geometries_to_simplify</code>'s actions.  <a href="#aa39ac9a357a5a78705a21d92a1ac2794">More...</a><br /></td></tr>
 <tr class="separator:aa39ac9a357a5a78705a21d92a1ac2794"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a11fdba848f4ed1542605acffa0b594"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmalidrive_1_1xodr_1_1_parser_configuration.html">xodr::ParserConfiguration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#a9a11fdba848f4ed1542605acffa0b594">XodrParserConfigurationFromRoadGeometryConfiguration</a> (const <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html">RoadGeometryConfiguration</a> &amp;rg_config)</td></tr>
+<tr class="memdesc:a9a11fdba848f4ed1542605acffa0b594"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a <a class="el" href="structmalidrive_1_1xodr_1_1_parser_configuration.html" title="Holds the configuration for the parser. ">xodr::ParserConfiguration</a> from a <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html" title="RoadGeometry construction parameters. ">RoadGeometryConfiguration</a> struct.  <a href="#a9a11fdba848f4ed1542605acffa0b594">More...</a><br /></td></tr>
+<tr class="separator:a9a11fdba848f4ed1542605acffa0b594"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -1425,6 +1428,33 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a9a11fdba848f4ed1542605acffa0b594"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a11fdba848f4ed1542605acffa0b594">&#9670;&nbsp;</a></span>XodrParserConfigurationFromRoadGeometryConfiguration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structmalidrive_1_1xodr_1_1_parser_configuration.html">xodr::ParserConfiguration</a> XodrParserConfigurationFromRoadGeometryConfiguration </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html">RoadGeometryConfiguration</a> &amp;&#160;</td>
+          <td class="paramname"><em>rg_config</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Builds a <a class="el" href="structmalidrive_1_1xodr_1_1_parser_configuration.html" title="Holds the configuration for the parser. ">xodr::ParserConfiguration</a> from a <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html" title="RoadGeometry construction parameters. ">RoadGeometryConfiguration</a> struct. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rg_config</td><td>The <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html" title="RoadGeometry construction parameters. ">RoadGeometryConfiguration</a> struct. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="structmalidrive_1_1xodr_1_1_parser_configuration.html" title="Holds the configuration for the parser. ">xodr::ParserConfiguration</a> struct. </dd></dl>
 
 </div>
 </div>

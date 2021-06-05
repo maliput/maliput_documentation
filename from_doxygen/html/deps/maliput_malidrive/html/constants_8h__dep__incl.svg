@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 1440;
+var viewWidth = 1640;
 var viewHeight = 330;
 var sectionId = 'dynsection-0';
 </script>
@@ -54,350 +54,392 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>constants.h</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-326 1436,-326 1436,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-326 1636,-326 1636,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="868.5,-302.5 868.5,-321.5 941.5,-321.5 941.5,-302.5 868.5,-302.5"/>
-<text text-anchor="middle" x="905" y="-309.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">constants.h</text>
+<polygon fill="#bfbfbf" stroke="#000000" points="1068.5,-302.5 1068.5,-321.5 1141.5,-321.5 1141.5,-302.5 1068.5,-302.5"/>
+<text text-anchor="middle" x="1105" y="-309.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">constants.h</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="road__geometry__configuration_8h.html" target="_top" xlink:title="road_geometry_configuration.h">
-<polygon fill="#ffffff" stroke="#000000" points="456,-246.5 456,-265.5 626,-265.5 626,-246.5 456,-246.5"/>
-<text text-anchor="middle" x="541" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_geometry_configuration.h</text>
+<polygon fill="#ffffff" stroke="#000000" points="409,-246.5 409,-265.5 579,-265.5 579,-246.5 409,-246.5"/>
+<text text-anchor="middle" x="494" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_geometry_configuration.h</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="#191970" d="M858.4697,-304.8415C793.4617,-294.8403 675.3161,-276.664 602.9288,-265.5275"/>
-<polygon fill="#191970" stroke="#191970" points="858.0157,-308.3128 868.4317,-306.3741 859.0802,-301.3941 858.0157,-308.3128"/>
+<path fill="none" stroke="#191970" d="M1058.0999,-307.7015C955.4903,-298.297 709.8292,-275.7814 579.1437,-263.8037"/>
+<polygon fill="#191970" stroke="#191970" points="1057.8774,-311.1957 1068.1552,-308.6231 1058.5164,-304.2249 1057.8774,-311.1957"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="road__network__builder_8cc.html" target="_top" xlink:title="road_network_builder.cc">
-<polygon fill="#ffffff" stroke="#000000" points="252,-.5 252,-19.5 388,-19.5 388,-.5 252,-.5"/>
-<text text-anchor="middle" x="320" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_network_builder.cc</text>
+<polygon fill="#ffffff" stroke="#000000" points="209,-.5 209,-19.5 345,-19.5 345,-.5 209,-.5"/>
+<text text-anchor="middle" x="277" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_network_builder.cc</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node6 -->
-<g id="edge23" class="edge">
+<g id="edge27" class="edge">
 <title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="#191970" d="M858.0975,-311.2003C716.9125,-308.4599 297.491,-297.7909 165,-266 87.2835,-247.3521 0,-274.4225 0,-194.5 0,-194.5 0,-194.5 0,-127.5 0,-72.8303 166.6629,-35.8721 259.4342,-19.5345"/>
-<polygon fill="#191970" stroke="#191970" points="858.1007,-314.7009 868.1653,-311.3914 858.2336,-307.7022 858.1007,-314.7009"/>
+<path fill="none" stroke="#191970" d="M1058.0939,-310.7502C944.6859,-307.3347 646.7725,-296.0108 400,-266 220.7253,-244.1978 0,-375.0956 0,-194.5 0,-194.5 0,-194.5 0,-127.5 0,-87.9438 19.6492,-77.27 53,-56 78.439,-39.7758 152.638,-26.6011 208.7262,-18.5742"/>
+<polygon fill="#191970" stroke="#191970" points="1058.0697,-314.2509 1068.1686,-311.0472 1058.2761,-307.2539 1058.0697,-314.2509"/>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
 <g id="a_node11"><a xlink:href="road__network_8cc.html" target="_top" xlink:title="road_network.cc">
-<polygon fill="#ffffff" stroke="#000000" points="784.5,-.5 784.5,-19.5 881.5,-19.5 881.5,-.5 784.5,-.5"/>
-<text text-anchor="middle" x="833" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_network.cc</text>
+<polygon fill="#ffffff" stroke="#000000" points="840.5,-.5 840.5,-19.5 937.5,-19.5 937.5,-.5 840.5,-.5"/>
+<text text-anchor="middle" x="889" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_network.cc</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node11 -->
-<g id="edge27" class="edge">
+<g id="edge31" class="edge">
 <title>Node1&#45;&gt;Node11</title>
-<path fill="none" stroke="#191970" d="M895.1044,-293.0763C884.1442,-270.3213 868,-230.6654 868,-194.5 868,-194.5 868,-194.5 868,-127.5 868,-85.9941 847.6925,-39.5445 838.0146,-19.765"/>
-<polygon fill="#191970" stroke="#191970" points="892.0973,-294.8885 899.6988,-302.2688 898.3588,-291.759 892.0973,-294.8885"/>
-</g>
-<!-- Node16 -->
-<g id="node16" class="node">
-<title>Node16</title>
-<g id="a_node16"><a xlink:href="road__geometry__configuration__for__xodrs_8cc.html" target="_top" xlink:title="road_geometry_configuration\l_for_xodrs.cc">
-<polygon fill="#ffffff" stroke="#000000" points="47.5,-112.5 47.5,-142.5 208.5,-142.5 208.5,-112.5 47.5,-112.5"/>
-<text text-anchor="start" x="55.5" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_geometry_configuration</text>
-<text text-anchor="middle" x="128" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_for_xodrs.cc</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node16 -->
-<g id="edge26" class="edge">
-<title>Node1&#45;&gt;Node16</title>
-<path fill="none" stroke="#191970" d="M858.1857,-309.9641C688.2156,-302.0952 110.8697,-271.0258 58,-210 37.8287,-186.7169 72.2299,-159.4072 99.5609,-142.7854"/>
-<polygon fill="#191970" stroke="#191970" points="858.1679,-313.4669 868.3175,-310.4279 858.4881,-306.4742 858.1679,-313.4669"/>
-</g>
-<!-- Node17 -->
-<g id="node17" class="node">
-<title>Node17</title>
-<g id="a_node17"><a xlink:href="builder__tools_8cc.html" target="_top" xlink:title="builder_tools.cc">
-<polygon fill="#ffffff" stroke="#000000" points="896.5,-246.5 896.5,-265.5 989.5,-265.5 989.5,-246.5 896.5,-246.5"/>
-<text text-anchor="middle" x="943" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">builder_tools.cc</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node17 -->
-<g id="edge21" class="edge">
-<title>Node1&#45;&gt;Node17</title>
-<path fill="none" stroke="#191970" d="M917.2679,-293.9209C923.6488,-284.5176 931.1931,-273.3997 936.4568,-265.6427"/>
-<polygon fill="#191970" stroke="#191970" points="914.338,-292.0055 911.6191,-302.2455 920.1303,-295.936 914.338,-292.0055"/>
+<path fill="none" stroke="#191970" d="M1095.1044,-293.0763C1084.1442,-270.3213 1068,-230.6654 1068,-194.5 1068,-194.5 1068,-194.5 1068,-127.5 1068,-64.4908 989.5284,-33.4089 936.4988,-19.5981"/>
+<polygon fill="#191970" stroke="#191970" points="1092.0973,-294.8885 1099.6988,-302.2688 1098.3588,-291.759 1092.0973,-294.8885"/>
 </g>
 <!-- Node18 -->
 <g id="node18" class="node">
 <title>Node18</title>
-<g id="a_node18"><a xlink:href="determine__tolerance_8cc.html" target="_top" xlink:title="determine_tolerance.cc">
-<polygon fill="#ffffff" stroke="#000000" points="1007.5,-246.5 1007.5,-265.5 1138.5,-265.5 1138.5,-246.5 1007.5,-246.5"/>
-<text text-anchor="middle" x="1073" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">determine_tolerance.cc</text>
+<g id="a_node18"><a xlink:href="road__geometry__configuration__for__xodrs_8cc.html" target="_top" xlink:title="road_geometry_configuration\l_for_xodrs.cc">
+<polygon fill="#ffffff" stroke="#000000" points="826.5,-112.5 826.5,-142.5 987.5,-142.5 987.5,-112.5 826.5,-112.5"/>
+<text text-anchor="start" x="834.5" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_geometry_configuration</text>
+<text text-anchor="middle" x="907" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_for_xodrs.cc</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node18 -->
-<g id="edge22" class="edge">
+<g id="edge30" class="edge">
 <title>Node1&#45;&gt;Node18</title>
-<path fill="none" stroke="#191970" d="M943.4286,-299.1905C974.2073,-288.9309 1016.6926,-274.7691 1044.4966,-265.5011"/>
-<polygon fill="#191970" stroke="#191970" points="942.2602,-295.8905 933.8802,-302.3733 944.4739,-302.5313 942.2602,-295.8905"/>
+<path fill="none" stroke="#191970" d="M1083.7156,-295.9196C1073.833,-287.7212 1062.4337,-277.1409 1054,-266 1027.9671,-231.6106 1041.4872,-209.5102 1011,-179 994.836,-162.8238 972.5618,-150.8681 952.7729,-142.5702"/>
+<polygon fill="#191970" stroke="#191970" points="1081.5693,-298.6847 1091.5619,-302.206 1085.9462,-293.2218 1081.5693,-298.6847"/>
 </g>
 <!-- Node19 -->
 <g id="node19" class="node">
 <title>Node19</title>
-<g id="a_node19"><a xlink:href="rule__registry__builder_8cc.html" target="_top" xlink:title="rule_registry_builder.cc">
-<polygon fill="#ffffff" stroke="#000000" points="1156.5,-246.5 1156.5,-265.5 1287.5,-265.5 1287.5,-246.5 1156.5,-246.5"/>
-<text text-anchor="middle" x="1222" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">rule_registry_builder.cc</text>
+<g id="a_node19"><a xlink:href="builder__tools_8cc.html" target="_top" xlink:title="builder_tools.cc">
+<polygon fill="#ffffff" stroke="#000000" points="1096.5,-246.5 1096.5,-265.5 1189.5,-265.5 1189.5,-246.5 1096.5,-246.5"/>
+<text text-anchor="middle" x="1143" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">builder_tools.cc</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node19 -->
-<g id="edge24" class="edge">
+<g id="edge25" class="edge">
 <title>Node1&#45;&gt;Node19</title>
-<path fill="none" stroke="#191970" d="M951.5999,-303.7678C1009.2185,-293.5892 1107.1067,-276.2966 1167.9604,-265.5464"/>
-<polygon fill="#191970" stroke="#191970" points="950.9122,-300.335 941.6736,-305.5214 952.13,-307.2283 950.9122,-300.335"/>
+<path fill="none" stroke="#191970" d="M1117.2679,-293.9209C1123.6488,-284.5176 1131.1931,-273.3997 1136.4568,-265.6427"/>
+<polygon fill="#191970" stroke="#191970" points="1114.338,-292.0055 1111.6191,-302.2455 1120.1303,-295.936 1114.338,-292.0055"/>
 </g>
 <!-- Node20 -->
 <g id="node20" class="node">
 <title>Node20</title>
-<g id="a_node20"><a xlink:href="speed__limit__builder_8cc.html" target="_top" xlink:title="speed_limit_builder.cc">
-<polygon fill="#ffffff" stroke="#000000" points="1306,-246.5 1306,-265.5 1432,-265.5 1432,-246.5 1306,-246.5"/>
-<text text-anchor="middle" x="1369" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">speed_limit_builder.cc</text>
+<g id="a_node20"><a xlink:href="determine__tolerance_8cc.html" target="_top" xlink:title="determine_tolerance.cc">
+<polygon fill="#ffffff" stroke="#000000" points="1207.5,-246.5 1207.5,-265.5 1338.5,-265.5 1338.5,-246.5 1207.5,-246.5"/>
+<text text-anchor="middle" x="1273" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">determine_tolerance.cc</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node20 -->
-<g id="edge25" class="edge">
+<g id="edge26" class="edge">
 <title>Node1&#45;&gt;Node20</title>
-<path fill="none" stroke="#191970" d="M951.8178,-306.8307C1025.3695,-298.6365 1172.4582,-281.9542 1297,-266 1299.8791,-265.6312 1302.822,-265.2479 1305.794,-264.8558"/>
-<polygon fill="#191970" stroke="#191970" points="951.0627,-303.393 941.5109,-307.977 951.8365,-310.3501 951.0627,-303.393"/>
+<path fill="none" stroke="#191970" d="M1143.4286,-299.1905C1174.2073,-288.9309 1216.6926,-274.7691 1244.4966,-265.5011"/>
+<polygon fill="#191970" stroke="#191970" points="1142.2602,-295.8905 1133.8802,-302.3733 1144.4739,-302.5313 1142.2602,-295.8905"/>
+</g>
+<!-- Node21 -->
+<g id="node21" class="node">
+<title>Node21</title>
+<g id="a_node21"><a xlink:href="rule__registry__builder_8cc.html" target="_top" xlink:title="rule_registry_builder.cc">
+<polygon fill="#ffffff" stroke="#000000" points="1356.5,-246.5 1356.5,-265.5 1487.5,-265.5 1487.5,-246.5 1356.5,-246.5"/>
+<text text-anchor="middle" x="1422" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">rule_registry_builder.cc</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node21 -->
+<g id="edge28" class="edge">
+<title>Node1&#45;&gt;Node21</title>
+<path fill="none" stroke="#191970" d="M1151.5999,-303.7678C1209.2185,-293.5892 1307.1067,-276.2966 1367.9604,-265.5464"/>
+<polygon fill="#191970" stroke="#191970" points="1150.9122,-300.335 1141.6736,-305.5214 1152.13,-307.2283 1150.9122,-300.335"/>
+</g>
+<!-- Node22 -->
+<g id="node22" class="node">
+<title>Node22</title>
+<g id="a_node22"><a xlink:href="speed__limit__builder_8cc.html" target="_top" xlink:title="speed_limit_builder.cc">
+<polygon fill="#ffffff" stroke="#000000" points="1506,-246.5 1506,-265.5 1632,-265.5 1632,-246.5 1506,-246.5"/>
+<text text-anchor="middle" x="1569" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">speed_limit_builder.cc</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node22 -->
+<g id="edge29" class="edge">
+<title>Node1&#45;&gt;Node22</title>
+<path fill="none" stroke="#191970" d="M1151.9808,-306.7652C1225.4344,-298.5147 1371.9207,-281.7959 1496,-266 1499.1724,-265.5961 1502.4214,-265.1758 1505.7017,-264.746"/>
+<polygon fill="#191970" stroke="#191970" points="1151.2323,-303.3271 1141.6847,-307.9199 1152.0125,-310.2835 1151.2323,-303.3271"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="road__geometry__builder__base_8h.html" target="_top" xlink:title="road_geometry_builder\l_base.h">
-<polygon fill="#ffffff" stroke="#000000" points="476,-179.5 476,-209.5 606,-209.5 606,-179.5 476,-179.5"/>
-<text text-anchor="start" x="484" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_geometry_builder</text>
-<text text-anchor="middle" x="541" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_base.h</text>
+<polygon fill="#ffffff" stroke="#000000" points="244,-179.5 244,-209.5 374,-209.5 374,-179.5 244,-179.5"/>
+<text text-anchor="start" x="252" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_geometry_builder</text>
+<text text-anchor="middle" x="309" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_base.h</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="#191970" d="M541,-236.3693C541,-227.681 541,-217.6241 541,-209.5446"/>
-<polygon fill="#191970" stroke="#191970" points="537.5001,-236.3906 541,-246.3906 544.5001,-236.3907 537.5001,-236.3906"/>
+<path fill="none" stroke="#191970" d="M455.5591,-243.221C426.0787,-233.4207 385.3115,-219.8684 354.2561,-209.5446"/>
+<polygon fill="#191970" stroke="#191970" points="454.5002,-246.5573 465.0938,-246.3906 456.7085,-239.9147 454.5002,-246.5573"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="road__geometry__builder_8h.html" target="_top" xlink:title="road_geometry_builder.h">
-<polygon fill="#ffffff" stroke="#000000" points="300.5,-118 300.5,-137 439.5,-137 439.5,-118 300.5,-118"/>
-<text text-anchor="middle" x="370" y="-125" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_geometry_builder.h</text>
+<polygon fill="#ffffff" stroke="#000000" points="348.5,-118 348.5,-137 487.5,-137 487.5,-118 348.5,-118"/>
+<text text-anchor="middle" x="418" y="-125" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_geometry_builder.h</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node4 -->
 <g id="edge17" class="edge">
 <title>Node2&#45;&gt;Node4</title>
-<path fill="none" stroke="#191970" d="M515.1564,-241.2209C500.6573,-232.6145 482.4358,-221.2658 467,-210 449.5892,-197.2927 402.4218,-156.0764 380.9321,-137.1558"/>
-<polygon fill="#191970" stroke="#191970" points="513.6831,-244.4143 524.0801,-246.4522 517.2232,-238.3754 513.6831,-244.4143"/>
+<path fill="none" stroke="#191970" d="M475.9153,-239.1047C467.8453,-230.8835 458.6741,-220.5177 452,-210 436.5616,-185.6706 425.6087,-153.1437 420.7732,-137.1746"/>
+<polygon fill="#191970" stroke="#191970" points="473.613,-241.7495 483.1976,-246.2647 478.5207,-236.758 473.613,-241.7495"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="road__network__configuration_8h.html" target="_top" xlink:title="road_network_configuration.h">
-<polygon fill="#ffffff" stroke="#000000" points="662,-185 662,-204 824,-204 824,-185 662,-185"/>
-<text text-anchor="middle" x="743" y="-192" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_network_configuration.h</text>
+<polygon fill="#ffffff" stroke="#000000" points="468,-185 468,-204 630,-204 630,-185 468,-185"/>
+<text text-anchor="middle" x="549" y="-192" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_network_configuration.h</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node2&#45;&gt;Node8</title>
-<path fill="none" stroke="#191970" d="M582.3852,-243.4001C620.725,-231.7273 676.9141,-214.6202 711.6591,-204.0419"/>
-<polygon fill="#191970" stroke="#191970" points="581.1095,-240.1297 572.5625,-246.3906 583.1484,-246.8263 581.1095,-240.1297"/>
+<path fill="none" stroke="#191970" d="M509.292,-238.9007C519.285,-227.7268 531.9763,-213.5356 540.2851,-204.2449"/>
+<polygon fill="#191970" stroke="#191970" points="506.6511,-236.6034 502.5938,-246.3906 511.8689,-241.2698 506.6511,-236.6034"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
 <g id="a_node13"><a xlink:href="loader_8h.html" target="_top" xlink:title="loader.h">
-<polygon fill="#ffffff" stroke="#000000" points="606,-118 606,-137 662,-137 662,-118 606,-118"/>
-<text text-anchor="middle" x="634" y="-125" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">loader.h</text>
+<polygon fill="#ffffff" stroke="#000000" points="506,-118 506,-137 562,-137 562,-118 506,-118"/>
+<text text-anchor="middle" x="534" y="-125" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">loader.h</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node13 -->
 <g id="edge16" class="edge">
 <title>Node2&#45;&gt;Node13</title>
-<path fill="none" stroke="#191970" d="M575.4051,-241.8708C589.6484,-234.3838 605.1154,-223.8313 615,-210 631.0662,-187.5189 633.782,-153.5641 634.0912,-137.1118"/>
-<polygon fill="#191970" stroke="#191970" points="573.7221,-238.798 566.293,-246.3517 576.8112,-245.0796 573.7221,-238.798"/>
+<path fill="none" stroke="#191970" d="M477.0002,-238.9012C463.4622,-223.115 448.3992,-199.1386 459,-179 469.521,-159.0131 491.6901,-145.2859 509.2113,-137.0616"/>
+<polygon fill="#191970" stroke="#191970" points="474.4696,-241.3204 483.7967,-246.346 479.6394,-236.6009 474.4696,-241.3204"/>
 </g>
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
 <g id="a_node14"><a xlink:href="road__geometry__configuration_8cc.html" target="_top" xlink:title="road_geometry_configuration.cc">
-<polygon fill="#ffffff" stroke="#000000" points="246,-185 246,-204 420,-204 420,-185 246,-185"/>
-<text text-anchor="middle" x="333" y="-192" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_geometry_configuration.cc</text>
+<polygon fill="#ffffff" stroke="#000000" points="828,-185 828,-204 1002,-204 1002,-185 828,-185"/>
+<text text-anchor="middle" x="915" y="-192" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_geometry_configuration.cc</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node14 -->
 <g id="edge18" class="edge">
 <title>Node2&#45;&gt;Node14</title>
-<path fill="none" stroke="#191970" d="M498.8885,-243.5488C459.3997,-231.873 401.2011,-214.6652 365.2718,-204.0419"/>
-<polygon fill="#191970" stroke="#191970" points="497.918,-246.9115 508.5,-246.3906 499.9028,-240.1988 497.918,-246.9115"/>
+<path fill="none" stroke="#191970" d="M573.8429,-245.0589C639.4567,-235.9728 734.8122,-222.5508 818,-210 830.4787,-208.1173 843.8482,-206.0279 856.5508,-204.0086"/>
+<polygon fill="#191970" stroke="#191970" points="573.0002,-241.6421 563.5741,-246.4791 573.9593,-248.576 573.0002,-241.6421"/>
 </g>
 <!-- Node15 -->
 <g id="node15" class="node">
 <title>Node15</title>
-<g id="a_node15"><a xlink:href="road__geometry__configuration__for__xodrs_8h.html" target="_top" xlink:title="road_geometry_configuration\l_for_xodrs.h">
-<polygon fill="#ffffff" stroke="#000000" points="66.5,-179.5 66.5,-209.5 227.5,-209.5 227.5,-179.5 66.5,-179.5"/>
-<text text-anchor="start" x="74.5" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_geometry_configuration</text>
-<text text-anchor="middle" x="147" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_for_xodrs.h</text>
+<g id="a_node15"><a xlink:href="xodr__parser__configuration_8h.html" target="_top" xlink:title="xodr_parser_configuration.h">
+<polygon fill="#ffffff" stroke="#000000" points="28.5,-118 28.5,-137 181.5,-137 181.5,-118 28.5,-118"/>
+<text text-anchor="middle" x="105" y="-125" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xodr_parser_configuration.h</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node15 -->
 <g id="edge19" class="edge">
 <title>Node2&#45;&gt;Node15</title>
-<path fill="none" stroke="#191970" d="M465.3958,-244.9968C403.8469,-235.9341 314.7425,-222.575 237,-210 234.0262,-209.519 230.9981,-209.024 227.94,-208.5197"/>
-<polygon fill="#191970" stroke="#191970" points="465.0094,-248.4775 475.4122,-246.4696 466.0278,-241.552 465.0094,-248.4775"/>
+<path fill="none" stroke="#191970" d="M398.7704,-248.0588C348.7485,-241.6773 287.17,-230.2725 235,-210 187.4112,-191.5076 138.4685,-154.6852 116.6828,-137.1785"/>
+<polygon fill="#191970" stroke="#191970" points="398.5854,-251.5623 408.9375,-249.3075 399.4388,-244.6145 398.5854,-251.5623"/>
+</g>
+<!-- Node17 -->
+<g id="node17" class="node">
+<title>Node17</title>
+<g id="a_node17"><a xlink:href="road__geometry__configuration__for__xodrs_8h.html" target="_top" xlink:title="road_geometry_configuration\l_for_xodrs.h">
+<polygon fill="#ffffff" stroke="#000000" points="648.5,-179.5 648.5,-209.5 809.5,-209.5 809.5,-179.5 648.5,-179.5"/>
+<text text-anchor="start" x="656.5" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_geometry_configuration</text>
+<text text-anchor="middle" x="729" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_for_xodrs.h</text>
+</a>
+</g>
+</g>
+<!-- Node2&#45;&gt;Node17 -->
+<g id="edge23" class="edge">
+<title>Node2&#45;&gt;Node17</title>
+<path fill="none" stroke="#191970" d="M540.1415,-243.9247C577.7287,-234.088 630.9969,-220.1476 671.3833,-209.5784"/>
+<polygon fill="#191970" stroke="#191970" points="539.249,-240.5403 530.4609,-246.4581 541.0213,-247.3122 539.249,-240.5403"/>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="#191970" d="M492.9844,-175.6869C460.9306,-163.1278 420.1128,-147.1349 394.5115,-137.1039"/>
-<polygon fill="#191970" stroke="#191970" points="492.0366,-179.0745 502.6243,-179.4639 494.5903,-172.5569 492.0366,-179.0745"/>
+<path fill="none" stroke="#191970" d="M342.0086,-174.2103C362.0425,-161.8959 386.6898,-146.7457 402.3757,-137.1039"/>
+<polygon fill="#191970" stroke="#191970" points="340.1482,-171.2455 333.4617,-179.4639 343.8138,-177.209 340.1482,-171.2455"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="road__geometry__builder__base_8cc.html" target="_top" xlink:title="road_geometry_builder\l_base.cc">
-<polygon fill="#ffffff" stroke="#000000" points="458,-112.5 458,-142.5 588,-142.5 588,-112.5 458,-112.5"/>
-<text text-anchor="start" x="466" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_geometry_builder</text>
-<text text-anchor="middle" x="523" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_base.cc</text>
+<polygon fill="#ffffff" stroke="#000000" points="200,-112.5 200,-142.5 330,-142.5 330,-112.5 200,-112.5"/>
+<text text-anchor="start" x="208" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_geometry_builder</text>
+<text text-anchor="middle" x="265" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_base.cc</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
 <title>Node3&#45;&gt;Node7</title>
-<path fill="none" stroke="#191970" d="M534.3132,-169.6103C531.8805,-160.5553 529.2059,-150.5998 527.0683,-142.6432"/>
-<polygon fill="#191970" stroke="#191970" points="530.9407,-170.5472 536.9155,-179.2967 537.701,-168.731 530.9407,-170.5472"/>
+<path fill="none" stroke="#191970" d="M293.4184,-170.7735C287.2728,-161.4154 280.3948,-150.9421 274.9448,-142.6432"/>
+<polygon fill="#191970" stroke="#191970" points="290.6008,-172.8592 299.0157,-179.2967 296.4519,-169.0167 290.6008,-172.8592"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="road__geometry__builder_8cc.html" target="_top" xlink:title="road_geometry_builder.cc">
-<polygon fill="#ffffff" stroke="#000000" points="348.5,-56.5 348.5,-75.5 491.5,-75.5 491.5,-56.5 348.5,-56.5"/>
-<text text-anchor="middle" x="420" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_geometry_builder.cc</text>
+<polygon fill="#ffffff" stroke="#000000" points="246.5,-56.5 246.5,-75.5 389.5,-75.5 389.5,-56.5 246.5,-56.5"/>
+<text text-anchor="middle" x="318" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_geometry_builder.cc</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="#191970" d="M384.1671,-110.0744C393.21,-98.9517 404.5972,-84.9454 412.0774,-75.7449"/>
-<polygon fill="#191970" stroke="#191970" points="381.4051,-107.9235 377.8125,-117.8906 386.8366,-112.3393 381.4051,-107.9235"/>
+<path fill="none" stroke="#191970" d="M393.7748,-112.6015C375.0244,-101.07 349.6179,-85.445 333.5153,-75.5419"/>
+<polygon fill="#191970" stroke="#191970" points="392.0234,-115.6333 402.375,-117.8906 395.6905,-109.6707 392.0234,-115.6333"/>
 </g>
 <!-- Node4&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node4&#45;&gt;Node6</title>
-<path fill="none" stroke="#191970" d="M358.0165,-109.3348C352.0338,-99.7117 345.0212,-87.5258 340,-76 331.5839,-56.6814 325.2868,-32.7305 322.173,-19.6479"/>
-<polygon fill="#191970" stroke="#191970" points="355.2098,-111.4427 363.5439,-117.9844 361.1083,-107.6733 355.2098,-111.4427"/>
+<path fill="none" stroke="#191970" d="M417.1958,-107.6017C415.5434,-91.8007 410.8704,-70.0919 398,-56 380.9496,-37.3315 355.5175,-26.1874 332.3632,-19.5597"/>
+<polygon fill="#191970" stroke="#191970" points="413.7262,-108.1487 417.9393,-117.8698 420.7079,-107.6431 413.7262,-108.1487"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
 <g id="a_node9"><a xlink:href="road__network__builder_8h.html" target="_top" xlink:title="road_network_builder.h">
-<polygon fill="#ffffff" stroke="#000000" points="662.5,-56.5 662.5,-75.5 793.5,-75.5 793.5,-56.5 662.5,-56.5"/>
-<text text-anchor="middle" x="728" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_network_builder.h</text>
+<polygon fill="#ffffff" stroke="#000000" points="562.5,-56.5 562.5,-75.5 693.5,-75.5 693.5,-56.5 562.5,-56.5"/>
+<text text-anchor="middle" x="628" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_network_builder.h</text>
 </a>
 </g>
 </g>
 <!-- Node8&#45;&gt;Node9 -->
 <g id="edge8" class="edge">
 <title>Node8&#45;&gt;Node9</title>
-<path fill="none" stroke="#191970" d="M727.7121,-176.9907C720.5244,-167.5938 712.7278,-155.4126 709,-143 701.792,-118.9994 714.4361,-90.2064 722.3482,-75.5658"/>
-<polygon fill="#191970" stroke="#191970" points="724.9942,-179.196 734.0077,-184.7645 730.4341,-174.7905 724.9942,-179.196"/>
+<path fill="none" stroke="#191970" d="M560.2857,-176.1428C577.2754,-148.5077 608.8324,-97.1776 621.9933,-75.7705"/>
+<polygon fill="#191970" stroke="#191970" points="557.1936,-174.4897 554.9378,-184.8416 563.1568,-178.1558 557.1936,-174.4897"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
 <g id="a_node12"><a xlink:href="road__network__builder__base_8h.html" target="_top" xlink:title="road_network_builder\l_base.h">
-<polygon fill="#ffffff" stroke="#000000" points="718,-112.5 718,-142.5 840,-142.5 840,-112.5 718,-112.5"/>
-<text text-anchor="start" x="726" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_network_builder</text>
-<text text-anchor="middle" x="779" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_base.h</text>
+<polygon fill="#ffffff" stroke="#000000" points="618,-112.5 618,-142.5 740,-142.5 740,-112.5 618,-112.5"/>
+<text text-anchor="start" x="626" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">road_network_builder</text>
+<text text-anchor="middle" x="679" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_base.h</text>
 </a>
 </g>
 </g>
 <!-- Node8&#45;&gt;Node12 -->
 <g id="edge12" class="edge">
 <title>Node8&#45;&gt;Node12</title>
-<path fill="none" stroke="#191970" d="M752.8971,-176.0804C758.5679,-165.5264 765.5946,-152.4489 770.9286,-142.5218"/>
-<polygon fill="#191970" stroke="#191970" points="749.808,-174.435 748.1579,-184.9005 755.9743,-177.7482 749.808,-174.435"/>
+<path fill="none" stroke="#191970" d="M576.5844,-180.2834C598.1105,-169.1892 627.9384,-153.8164 649.8533,-142.5218"/>
+<polygon fill="#191970" stroke="#191970" points="574.9113,-177.2082 567.6258,-184.9005 578.1182,-183.4304 574.9113,-177.2082"/>
 </g>
 <!-- Node8&#45;&gt;Node13 -->
 <g id="edge14" class="edge">
 <title>Node8&#45;&gt;Node13</title>
-<path fill="none" stroke="#191970" d="M718.6569,-179.5368C697.5463,-166.5605 667.6252,-148.1687 649.5881,-137.0817"/>
-<polygon fill="#191970" stroke="#191970" points="717.0308,-182.6456 727.383,-184.9005 720.6965,-176.6821 717.0308,-182.6456"/>
+<path fill="none" stroke="#191970" d="M544.6313,-174.9863C541.8422,-162.5286 538.349,-146.9258 536.1451,-137.0817"/>
+<polygon fill="#191970" stroke="#191970" points="541.2506,-175.9068 546.8509,-184.9005 548.0815,-174.3774 541.2506,-175.9068"/>
 </g>
 <!-- Node9&#45;&gt;Node6 -->
 <g id="edge9" class="edge">
 <title>Node9&#45;&gt;Node6</title>
-<path fill="none" stroke="#191970" d="M652.4933,-55.6363C576.7438,-45.2393 461.1273,-29.3704 388.1105,-19.3485"/>
-<polygon fill="#191970" stroke="#191970" points="652.0647,-59.1102 662.4477,-57.0026 653.0166,-52.1753 652.0647,-59.1102"/>
+<path fill="none" stroke="#191970" d="M557.935,-54.8215C493.1597,-44.487 397.9347,-29.2944 336.693,-19.5237"/>
+<polygon fill="#191970" stroke="#191970" points="557.6332,-58.3176 568.0598,-56.4369 558.7361,-51.405 557.6332,-58.3176"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
 <g id="a_node10"><a xlink:href="loader_8cc.html" target="_top" xlink:title="loader.cc">
-<polygon fill="#ffffff" stroke="#000000" points="637.5,-.5 637.5,-19.5 698.5,-19.5 698.5,-.5 637.5,-.5"/>
-<text text-anchor="middle" x="668" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">loader.cc</text>
+<polygon fill="#ffffff" stroke="#000000" points="550.5,-.5 550.5,-19.5 611.5,-19.5 611.5,-.5 550.5,-.5"/>
+<text text-anchor="middle" x="581" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">loader.cc</text>
 </a>
 </g>
 </g>
 <!-- Node9&#45;&gt;Node10 -->
 <g id="edge10" class="edge">
 <title>Node9&#45;&gt;Node10</title>
-<path fill="none" stroke="#191970" d="M710.1722,-49.3607C699.7922,-39.6727 687.0709,-27.7995 678.3314,-19.6427"/>
-<polygon fill="#191970" stroke="#191970" points="707.8501,-51.981 717.5488,-56.2455 712.6263,-46.8636 707.8501,-51.981"/>
+<path fill="none" stroke="#191970" d="M613.3128,-48.5004C605.3204,-38.9775 595.7375,-27.5596 589.093,-19.6427"/>
+<polygon fill="#191970" stroke="#191970" points="610.7036,-50.8358 619.8132,-56.2455 616.0654,-46.3357 610.7036,-50.8358"/>
 </g>
 <!-- Node9&#45;&gt;Node11 -->
 <g id="edge11" class="edge">
 <title>Node9&#45;&gt;Node11</title>
-<path fill="none" stroke="#191970" d="M755.2625,-51.46C774.0522,-41.4388 798.5013,-28.3993 814.92,-19.6427"/>
-<polygon fill="#191970" stroke="#191970" points="753.4661,-48.4514 746.2896,-56.2455 756.7602,-54.6278 753.4661,-48.4514"/>
+<path fill="none" stroke="#191970" d="M682.4964,-54.3073C730.5902,-43.9883 799.8238,-29.1336 844.6129,-19.5237"/>
+<polygon fill="#191970" stroke="#191970" points="681.6141,-50.9168 672.5709,-56.4369 683.0827,-57.7611 681.6141,-50.9168"/>
 </g>
 <!-- Node12&#45;&gt;Node9 -->
 <g id="edge13" class="edge">
 <title>Node12&#45;&gt;Node9</title>
-<path fill="none" stroke="#191970" d="M759.8201,-104.3713C751.6399,-94.5069 742.5336,-83.5258 736.1657,-75.8469"/>
-<polygon fill="#191970" stroke="#191970" points="757.3157,-106.8343 766.3933,-112.2977 762.704,-102.366 757.3157,-106.8343"/>
+<path fill="none" stroke="#191970" d="M659.8201,-104.3713C651.6399,-94.5069 642.5336,-83.5258 636.1657,-75.8469"/>
+<polygon fill="#191970" stroke="#191970" points="657.3157,-106.8343 666.3933,-112.2977 662.704,-102.366 657.3157,-106.8343"/>
 </g>
 <!-- Node13&#45;&gt;Node10 -->
 <g id="edge15" class="edge">
 <title>Node13&#45;&gt;Node10</title>
-<path fill="none" stroke="#191970" d="M639.327,-107.9967C643.2896,-93.6028 648.8754,-73.5503 654,-56 657.6501,-43.4995 662.0504,-29.1524 664.9311,-19.8512"/>
-<polygon fill="#191970" stroke="#191970" points="635.9174,-107.1959 636.6476,-117.7656 642.6681,-109.0475 635.9174,-107.1959"/>
+<path fill="none" stroke="#191970" d="M537.5965,-108.0144C540.6775,-93.3483 545.7704,-72.9453 553,-56 558.65,-42.7571 567.6349,-28.8007 573.8978,-19.7815"/>
+<polygon fill="#191970" stroke="#191970" points="534.1365,-107.4702 535.6306,-117.9592 541.0036,-108.8278 534.1365,-107.4702"/>
+</g>
+<!-- Node15&#45;&gt;Node5 -->
+<g id="edge20" class="edge">
+<title>Node15&#45;&gt;Node5</title>
+<path fill="none" stroke="#191970" d="M148.1238,-115.0488C188.5618,-103.373 248.1594,-86.1652 284.9525,-75.5419"/>
+<polygon fill="#191970" stroke="#191970" points="146.9179,-111.7539 138.2813,-117.8906 148.8597,-118.4792 146.9179,-111.7539"/>
+</g>
+<!-- Node15&#45;&gt;Node6 -->
+<g id="edge21" class="edge">
+<title>Node15&#45;&gt;Node6</title>
+<path fill="none" stroke="#191970" d="M83.4034,-111.2524C66.0497,-96.2261 46.7358,-73.6218 61,-56 79.4239,-33.2393 152.7632,-21.2631 208.9247,-15.305"/>
+<polygon fill="#191970" stroke="#191970" points="81.653,-114.3424 91.6092,-117.9651 86.0852,-108.9243 81.653,-114.3424"/>
+</g>
+<!-- Node16 -->
+<g id="node16" class="node">
+<title>Node16</title>
+<g id="a_node16"><a xlink:href="xodr__parser__configuration_8cc.html" target="_top" xlink:title="xodr_parser_configuration.cc">
+<polygon fill="#ffffff" stroke="#000000" points="70,-56.5 70,-75.5 228,-75.5 228,-56.5 70,-56.5"/>
+<text text-anchor="middle" x="149" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">xodr_parser_configuration.cc</text>
+</a>
+</g>
 </g>
 <!-- Node15&#45;&gt;Node16 -->
-<g id="edge20" class="edge">
+<g id="edge22" class="edge">
 <title>Node15&#45;&gt;Node16</title>
-<path fill="none" stroke="#191970" d="M139.9417,-169.6103C137.3739,-160.5553 134.5507,-150.5998 132.2943,-142.6432"/>
-<polygon fill="#191970" stroke="#191970" points="136.5931,-170.6309 142.6886,-179.2967 143.3275,-168.7211 136.5931,-170.6309"/>
+<path fill="none" stroke="#191970" d="M117.7017,-109.7465C125.621,-98.6775 135.5101,-84.8552 142.0281,-75.7449"/>
+<polygon fill="#191970" stroke="#191970" points="114.8472,-107.7212 111.875,-117.8906 120.5402,-111.7943 114.8472,-107.7212"/>
+</g>
+<!-- Node17&#45;&gt;Node18 -->
+<g id="edge24" class="edge">
+<title>Node17&#45;&gt;Node18</title>
+<path fill="none" stroke="#191970" d="M778.5079,-175.865C806.3707,-165.3773 840.7111,-152.4515 866.8791,-142.6017"/>
+<polygon fill="#191970" stroke="#191970" points="777.0727,-172.6654 768.9467,-179.4639 779.5386,-179.2167 777.0727,-172.6654"/>
 </g>
 </g>
 </svg>

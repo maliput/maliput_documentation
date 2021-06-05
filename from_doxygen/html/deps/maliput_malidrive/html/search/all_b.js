@@ -82,6 +82,7 @@ var searchData=
   ['klowspeed',['kLowSpeed',['../structmalidrive_1_1xodr_1_1_road_type.html#a1d1cfd8ffb84e947f82999c682b666a7a48b915f84e280b98daff7afeb715e32d',1,'malidrive::xodr::RoadType']]],
   ['kmanualselection',['kManualSelection',['../structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4cd4abfdf390ce8a62882d75d96cc830a0607c802a36b5a6bfc9d95ef06d8117e',1,'malidrive::builder::RoadGeometryConfiguration']]],
   ['kmax',['kMax',['../structmalidrive_1_1xodr_1_1_lane_1_1_speed.html#ad5a44ed171cd965aa34aa3dda5711d83',1,'malidrive::xodr::Lane::Speed::kMax()'],['../structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html#ad5a44ed171cd965aa34aa3dda5711d83',1,'malidrive::xodr::RoadType::Speed::kMax()']]],
+  ['kmaxtoleranceselectionrounds',['kMaxToleranceSelectionRounds',['../namespacemalidrive_1_1constants.html#a2d4e86f86d35a1f2dbd8410ecf5a3aa9',1,'malidrive::constants']]],
   ['kmedian',['kMedian',['../structmalidrive_1_1xodr_1_1_lane.html#a1d1cfd8ffb84e947f82999c682b666a7afc0c69ca269010f09ab0218150315477',1,'malidrive::xodr::Lane']]],
   ['kminlineartolerance',['kMinLinearTolerance',['../namespacemalidrive_1_1builder.html#a44f6efbbeab9d98c247402c073a0381a',1,'malidrive::builder']]],
   ['kmotorway',['kMotorway',['../structmalidrive_1_1xodr_1_1_road_type.html#a1d1cfd8ffb84e947f82999c682b666a7a40794b17b0fac7bfdff7724a897ff488',1,'malidrive::xodr::RoadType']]],

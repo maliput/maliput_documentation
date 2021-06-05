@@ -48,6 +48,7 @@ var searchData=
   ['kleveltostring',['kLevelToString',['../../../maliput/html/namespacemaliput_1_1common_1_1logger.html#ab81b119f214f87c2b6af1d30dea096e0',1,'maliput::common::logger']]],
   ['klineartolerance',['kLinearTolerance',['../namespacemalidrive_1_1constants.html#aaf754a0573d53a61d406e01ddfe2e14b',1,'malidrive::constants']]],
   ['kmax',['kMax',['../structmalidrive_1_1xodr_1_1_lane_1_1_speed.html#ad5a44ed171cd965aa34aa3dda5711d83',1,'malidrive::xodr::Lane::Speed::kMax()'],['../structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html#ad5a44ed171cd965aa34aa3dda5711d83',1,'malidrive::xodr::RoadType::Speed::kMax()']]],
+  ['kmaxtoleranceselectionrounds',['kMaxToleranceSelectionRounds',['../namespacemalidrive_1_1constants.html#a2d4e86f86d35a1f2dbd8410ecf5a3aa9',1,'malidrive::constants']]],
   ['kminlineartolerance',['kMinLinearTolerance',['../namespacemalidrive_1_1builder.html#a44f6efbbeab9d98c247402c073a0381a',1,'malidrive::builder']]],
   ['kname',['kName',['../structmalidrive_1_1xodr_1_1_junction.html#ab078d8ddaeb55f071943994e623a6e9d',1,'malidrive::xodr::Junction::kName()'],['../structmalidrive_1_1xodr_1_1_road_header.html#ab078d8ddaeb55f071943994e623a6e9d',1,'malidrive::xodr::RoadHeader::kName()']]],
   ['knumberofarguments',['kNumberOfArguments',['../../../maliput/html/classmaliput_1_1common_1_1_logger.html#a76f2398f97e4258f73caa1838f01c87a',1,'maliput::common::Logger']]],

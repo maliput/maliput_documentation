@@ -154,10 +154,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ae26c7c82c903835e10255b866fff75d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acba8be98c96a7e48fb1264efaaed94f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aba132f98ea1230f94d40497b60aa9df4">SimplificationPolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#acba8be98c96a7e48fb1264efaaed94f4">simplification_policy</a> {<a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aba132f98ea1230f94d40497b60aa9df4a35c3ace1970663a16e5c65baa5941b13">SimplificationPolicy::kNone</a>}</td></tr>
 <tr class="separator:acba8be98c96a7e48fb1264efaaed94f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4a7f3aced306310c74060455dfe280f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4cd4abfdf390ce8a62882d75d96cc830">ToleranceSelectionPolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aa4a7f3aced306310c74060455dfe280f">tolerance_selection_policy</a> {<a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4cd4abfdf390ce8a62882d75d96cc830a0607c802a36b5a6bfc9d95ef06d8117e">ToleranceSelectionPolicy::kManualSelection</a>}</td></tr>
+<tr class="memitem:aa4a7f3aced306310c74060455dfe280f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4cd4abfdf390ce8a62882d75d96cc830">ToleranceSelectionPolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aa4a7f3aced306310c74060455dfe280f">tolerance_selection_policy</a> {<a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4cd4abfdf390ce8a62882d75d96cc830a9f96d3d0e722e1e1d3cbce90423dcce1">ToleranceSelectionPolicy::kAutomaticSelection</a>}</td></tr>
 <tr class="separator:aa4a7f3aced306310c74060455dfe280f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96d8bcd54119d900cf2e64a3ada179e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0">StandardStrictnessPolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a96d8bcd54119d900cf2e64a3ada179e8">standard_strictness_policy</a> {<a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0a334aa60ef6932a4f4816a2244d0616c0">StandardStrictnessPolicy::kPermissive</a>}</td></tr>
 <tr class="separator:a96d8bcd54119d900cf2e64a3ada179e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac41166953e338be315ced745272492d6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#ac41166953e338be315ced745272492d6">omit_nondrivable_lanes</a> {true}</td></tr>
+<tr class="separator:ac41166953e338be315ced745272492d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="aba132f98ea1230f94d40497b60aa9df4"></a>
@@ -499,6 +501,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ac41166953e338be315ced745272492d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac41166953e338be315ced745272492d6">&#9670;&nbsp;</a></span>omit_nondrivable_lanes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool omit_nondrivable_lanes {true}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a473ff8c435c2d3899ecfb58b9b492380"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a473ff8c435c2d3899ecfb58b9b492380">&#9670;&nbsp;</a></span>opendrive_file</h2>
 
@@ -562,7 +578,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4cd4abfdf390ce8a62882d75d96cc830">ToleranceSelectionPolicy</a> tolerance_selection_policy {<a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4cd4abfdf390ce8a62882d75d96cc830a0607c802a36b5a6bfc9d95ef06d8117e">ToleranceSelectionPolicy::kManualSelection</a>}</td>
+          <td class="memname"><a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4cd4abfdf390ce8a62882d75d96cc830">ToleranceSelectionPolicy</a> tolerance_selection_policy {<a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4cd4abfdf390ce8a62882d75d96cc830a9f96d3d0e722e1e1d3cbce90423dcce1">ToleranceSelectionPolicy::kAutomaticSelection</a>}</td>
         </tr>
       </table>
 </div><div class="memdoc">

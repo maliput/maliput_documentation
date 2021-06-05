@@ -4,6 +4,7 @@ var structmaliput_1_1integration_1_1_malidrive_build_properties =
     [ "intersection_book_file", "structmaliput_1_1integration_1_1_malidrive_build_properties.html#aba56e5052165aed5fce1c53ffc9ebdd9", null ],
     [ "linear_tolerance", "structmaliput_1_1integration_1_1_malidrive_build_properties.html#a6a6b7ad51a19a2fcf7e454c1d7892300", null ],
     [ "number_of_threads", "structmaliput_1_1integration_1_1_malidrive_build_properties.html#ab125dafdcf11897a987a507a642db50f", null ],
+    [ "omit_nondrivable_lanes", "structmaliput_1_1integration_1_1_malidrive_build_properties.html#ac41166953e338be315ced745272492d6", null ],
     [ "phase_ring_book_file", "structmaliput_1_1integration_1_1_malidrive_build_properties.html#ad105672ddb983c1bbfc3b6a1f4bf81bf", null ],
     [ "road_rule_book_file", "structmaliput_1_1integration_1_1_malidrive_build_properties.html#a5cb73e690547d614a13aa9e4fd7e3937", null ],
     [ "simplification_policy", "structmaliput_1_1integration_1_1_malidrive_build_properties.html#ab820a09ee1222534ce5c025c6bad57a8", null ],

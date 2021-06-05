@@ -261,6 +261,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates a maliput equivalent backend (<a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend. ">malidrive::RoadGeometry</a>). </p>
+<p>When <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4cd4abfdf390ce8a62882d75d96cc830a0607c802a36b5a6bfc9d95ef06d8117e" title="Manual adjustment. ">RoadGeometryConfiguration::ToleranceSelectionPolicy::kManualSelection</a> is used, the initial linear_tolerance, angular_tolerance and scale_length are used. Otherwise, up to constants::kAutomaticSelectionTrials + 1 trials are done with increasing linear_tolerance, angular_tolerance and scale_length equal to <a class="el" href="namespacemalidrive_1_1constants.html#a2da3209615160919b156333444ca08f8">constants::kScaleLength</a>. Each iteration will add a 10% to linear_tolerance and angular_tolerance.</p>
+<p>Consider using small or default values of linear_tolerance and angular_tolerance to granularly try with different configurations. </p>
 
 <p>Implements <a class="el" href="classmalidrive_1_1builder_1_1_road_geometry_builder_base.html#aa3e16f08aebf637db903ed0862b1c09e">RoadGeometryBuilderBase</a>.</p>
 
