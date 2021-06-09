@@ -29,7 +29,7 @@ Supported platforms
 Prerequisites
 -------------
 
-* To get all the necessary tools, clone ``maliput-infrastructure`` locally.
+* To get all the necessary tools, clone ``maliput_infrastructure`` locally.
 
 .. code-block:: sh
 
@@ -51,12 +51,12 @@ Prerequisites
 Usage instructions
 ------------------
 
-In the following, it is assumed that you want to create a workspace containing
-all of Maliput repositories, with a focus on Maliput and Malidrive development.
-As such, it suggests the creation of a workspace in a ``maliput_ws`` directory
-and pulling sources from the `maliput.repos <hhttps://github.com/ToyotaResearchInstitute/repos_index/blob/main/dashing/maliput.repos>`_
-file. Nevertheless, the instructions also provide information on how to bring
-``delphyne`` repositories if needed, and satisfy their dependencies.
+The following assumes that you want to create a workspace containing all of Maliput's repositories, with a focus on
+Maliput and Malidrive development. As such, it uses a workspace directory named ``maliput_ws`` and pulls
+sources from `maliput.repos <hhttps://github.com/ToyotaResearchInstitute/repos_index/blob/main/dashing/maliput.repos>`_.
+The instructions also provide information on how to bring ``delphyne`` repositories if needed, and satisfy their
+dependencies. You can of course substitute the ``maliput_ws`` directory name with a name of your own choosing, and opt
+out of including ``delphyne`` in your workspace.
 
 Create a workspace
 ^^^^^^^^^^^^^^^^^^
@@ -68,12 +68,10 @@ Create the workspace folder
 
 .. code-block:: sh
 
-    mkdir -p maliput_ws
+    mkdir maliput_ws
 
 .. note::
-  Instructions assumes ``maliput_ws`` folder name as default and its location at
-  the same level as the cloned repository folder ``maliput_infrastructure`` and
-  ``repos_index``.
+  These instructions assume ``maliput_ws`` is at the same level as ``maliput_infrastructure`` and ``repos_index``.
 
 
 .. _copy-repos-file:
@@ -81,16 +79,15 @@ Create the workspace folder
 Copy .repos file
 """"""""""""""""
 
-Copy ``repos_index/dashing/maliput.repos`` file into ``maliput_ws`` workspace
-folder. It will be used to bring all the repositories later on.
+Copy ``repos_index/dashing/maliput.repos`` into ``maliput_ws``. It will be used to add the Maliput-related repositories
+to the workspace.
 
 .. code-block:: sh
 
     cp repos_index/dashing/maliput.repos maliput_ws/
 
 .. note::
-  If you would like to bring the ``delphyne`` repositories too, you should also
-  copy `delphyne.repos <https://github.com/ToyotaResearchInstitute/repos_index/blob/main/dashing/delphyne.repos>`_.
+  To add Delphyne-related repositories to your workspace:
 
   .. code-block:: sh
 
@@ -109,11 +106,12 @@ Install dependencies
 Update all the repositories in your workspace
 """""""""""""""""""""""""""""""""""""""""""""
 
-Bring all the repositories listed in ``maliput.repos`` file. Standing at the root of your workspace folder:
+Bring all the repositories listed in ``maliput.repos`` file:
 
 .. code-block:: sh
 
-    mkdir -p src
+    cd maliput_ws
+    mkdir src
     vcs import src < maliput.repos  # clone and/or checkout
     # Optionally, run:
     # vcs import src < delphyne.repos
@@ -122,9 +120,8 @@ Bring all the repositories listed in ``maliput.repos`` file. Standing at the roo
 This will clone repositories and/or checkout branches, tags or commits as necessary,
 followed by fetching and (likely) fast-forward merging to get branches up to date with
 their upstream counterpart. No merging takes place when a repository is at a given tag
-or commit. Also, note that you can equally bring other repositories as well by repeating
-this ``import`` and ``pull`` operation using additional ``.repos`` files (see the comment
-for ``delphyne.repos``).
+or commit. Note that you can continue to bring other repositories into your workspace by repeating
+the ``import`` and ``pull`` operation using additional ``.repos`` files.
 
 .. _install-all-packages-dependencies:
 
@@ -148,11 +145,13 @@ Install dependencies via ``rosdep``
     rosdep install -i -y --rosdistro $ROS_DISTRO --skip-keys "ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui0 ignition-gui3 ignition-rendering3 pybind11" --from-paths src
 
 .. warning::
-  Package dependencies are installed system wide. ``rosdep`` does not provide any support to remove the dependencies it brings. In this regard, disposable containerized workspaces help keep development environments clean (as system wide installations within a container are limited to that container).
-
+  Package dependencies are installed system wide. ``rosdep`` does not provide any support to remove the dependencies it
+  brings. In this regard, disposable containerized workspaces help keep development environments clean (as system wide
+  installations within a container are limited to that container).
 
 .. note::
-  If you are following the instructions to work with the ``delphyne`` repositories too, you should know that not all the dependencies are met with ``rosdep``. The following list of steps will allow you to get your environment ready for ``delphyne`` packages:
+  If you are following the instructions to work with ``delphyne``, note that not all the dependencies are met with
+  ``rosdep``. The following list of steps will allow you to get your environment ready for ``delphyne`` packages:
 
   .. code-block:: sh
 
@@ -195,8 +194,8 @@ Source ROS environment
 Optional: Create a containerized workspace
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If the workspace is meant to be run using a container the steps are pretty similar.
-We provide the necessary machinery to ``build`` and ``run`` a docker image and container:
+To configure your workspace in a container, the steps are pretty similar. We provide the necessary machinery to
+``build`` and ``run`` a docker image and container:
 
 .. _build-the-docker-image:
 
@@ -301,10 +300,9 @@ by ``exit``-ing the container and accepting to commit the changes.
 Check your workspace
 ^^^^^^^^^^^^^^^^^^^^
 
-Workspace state as a whole encompasses both current local repositories' state plus the state of
-the filesystem that hosts it. However, if a workspace is containerized and no customizations are
-applied by the user, repositories alone carry the source code and state the list of system dependencies
-necessary to build and execute. And we can easily inspect repositories.
+Workspace state as a whole encompasses both current local repositories' state plus the state of the filesystem that
+hosts it. However, if a workspace is containerized and not customized, repositories alone carry the source code and
+state the list of system dependencies necessary to build and execute. And we can easily inspect repositories.
 
 
 #. To check repositories' status, run:
@@ -325,10 +323,9 @@ necessary to build and execute. And we can easily inspect repositories.
 
       rosdep check --rosdistro $ROS_DISTRO --skip-keys "ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui0 ignition-gui3 ignition-rendering3 pybind11" --from-paths src
 
-Note though that currently not all workspace prerequisites are nor can be dealt with using ``rosdep``
-alone and thus ``rosdep check`` may fall short. When it comes down to pure binary dependencies, ``drake``\ 's
-binary tarball is a good example, but prerequisites may go beyond that, ``apt`` source lists being another
-good example.
+Note: not all workspace prerequisites are handled using ``rosdep`` meaning ``rosdep check`` may fall short. For example,
+pure binary dependencies like  ``drake``\ 's binary tarball is not handled by ``rosdep``. Another example is ``apt``
+source lists.
 
 In any given case, one can always resort to the specific tool used for repository versioning (e.g. ``git``\ )
 if ``vcs`` isn't enough or to the specific package managers (e.g. ``apt`` or ``pip``\ ) if ``rosdep`` isn't enough.
@@ -343,7 +340,7 @@ Build your workspace
 Build
 """""
 
-It can be done in full or partially. Standing at ``maliput_ws`` root folder:
+Change the directory to ``maliput_ws``:
 
 .. code-block:: sh
 
@@ -355,23 +352,22 @@ To build all packages:
 
       colcon build
 
-To build some packages, along with their dependencies (recursively), use the
-``--packages-up-to`` flag. For instance, to build ``maliput`` and ``malidrive``\ :
+To build some packages, use ``--packages-up-to``. For example, to build ``maliput`` and ``malidrive``\ :
 
 .. code-block:: sh
 
     colcon build --packages-up-to maliput malidrive
 
 To build some packages and only those packages (i.e. without their dependencies),
-use the ``--packages-select`` flag instead:
+use ``--packages-select``:
 
 .. code-block:: sh
 
     colcon build --packages-select maliput malidrive
 
-Note that if dependencies cannot be met, because they are not installed or not built,
-the build will fail. Thus, this flag is usually helpful only to quickly rebuild a package
-after building it along with its dependencies.
+Note that if dependencies cannot be met, regardless of whether it's because they are not installed or not built,
+the build will fail. Thus, this flag is usually helpful only to quickly rebuild a package after building it along with
+its dependencies.
 
 .. note::
   If you are building ``drake`` from source as well, make sure ``--cmake-args -DWITH_PYTHON_VERSION=3`` is
@@ -400,8 +396,7 @@ Source the workspace
     source install/setup.bash
 
 .. note::
-  If ``delphyne`` is available, we recommend you to run ``delphyne-gazoo`` and ``delphyne-mali`` (type them in
-  your terminal) to see if everything is properly working.
+  If ``delphyne`` is available, run ``delphyne-gazoo`` and ``delphyne-mali`` to see if everything is working.
 
 .. note::
   See `colcon build documentation <https://colcon.readthedocs.io/en/released/user/how-to.html#build-only-a-single-package-or-selected-packages>`_ for further reference on ``build`` support.
@@ -426,10 +421,11 @@ In a built workspace, run:
 Build your workspace using Static Analyzer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In order to verify your code you can run the `Clang Static Analyzer <https://clang-analyzer.llvm.org/>`_.
-A useful script called ``run_scan_build`` is located in the ``.github`` folder in every repository.
+To verify your code, run the `Clang Static Analyzer <https://clang-analyzer.llvm.org/>`_.
+A useful script called ``run_scan_build`` is located in ``.github`` in every repository.
 
-The script will forward arguments to ``colcon build`` so you can use colcon's CLI machinery to choose which packages to evaluate.
+The script will forward arguments to ``colcon build`` so you can use Colcon's CLI machinery to choose which packages to
+evaluate.
 
 To run ``scan-build`` on all packages in the workspace:
 
@@ -448,13 +444,12 @@ To run scan-build up to malidrive:
 Build doxygen documentation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
-Build the workspace, which can be done in full or partially. In particular, we are interested in compiling ``dsim-docs-bundler``. Standing at ``maliput_ws`` root folder:
+Build the workspace. In particular, we are interested in compiling ``dsim_docs_bundler``.
 
 .. code-block:: sh
 
     cd ~/maliput_ws
-    colcon build --packages-up-to dsim-docs-bundler
+    colcon build --packages-up-to dsim_docs_bundler
 
 Open the documentation with your favorite browser. If Google Chrome is available, you can run:
 

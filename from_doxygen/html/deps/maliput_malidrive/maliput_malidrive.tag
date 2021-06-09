@@ -6040,10 +6040,10 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>std::optional&lt; std::string &gt;</type>
+      <type>std::string</type>
       <name>opendrive_file</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a473ff8c435c2d3899ecfb58b9b492380</anchor>
+      <anchor>a567f483f2f1c561049751203f6329fe5</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
