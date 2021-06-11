@@ -212,9 +212,10 @@ var NAVTREEINDEX0 =
 "classmalidrive_1_1road__curve_1_1_line_ground_curve.html#a225b46e3adf24aa18e9901096d3ff88b":[2,0,0,2,6,0],
 "classmalidrive_1_1road__curve_1_1_line_ground_curve.html#a340ef7c795bf10c8f199f51f2958a976":[2,0,0,2,6,2],
 "classmalidrive_1_1road__curve_1_1_open_range_validator.html":[2,0,0,2,7],
-"classmalidrive_1_1road__curve_1_1_open_range_validator.html#a6d58f32dd1358011a25a007839e70dde":[2,0,0,2,7,1],
+"classmalidrive_1_1road__curve_1_1_open_range_validator.html#a6cf93ee0579e4ab064f60d10a0ea4699":[2,0,0,2,7,1],
 "classmalidrive_1_1road__curve_1_1_open_range_validator.html#adcaa8d6398b619bc941374a5fb8cdf85":[2,0,0,2,7,0],
-"classmalidrive_1_1road__curve_1_1_open_range_validator.html#ae7adaac6a97bdb9af82a723393093ebc":[2,0,0,2,7,2],
+"classmalidrive_1_1road__curve_1_1_open_range_validator.html#ae7adaac6a97bdb9af82a723393093ebc":[2,0,0,2,7,3],
+"classmalidrive_1_1road__curve_1_1_open_range_validator.html#afa20ff65e2cff6df1786f618d5db91bc":[2,0,0,2,7,2],
 "classmalidrive_1_1road__curve_1_1_piecewise_function.html":[2,0,0,2,8],
 "classmalidrive_1_1road__curve_1_1_piecewise_function.html#a779444d4a959d068a9c582864e47dde7":[2,0,0,2,8,0],
 "classmalidrive_1_1road__curve_1_1_piecewise_ground_curve.html":[2,0,0,2,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "classmalidrive_1_1road__curve_1_1_road_curve_offset.html#a5acfabae97039bef58ac605af40698e3":[2,0,0,2,11,5],
 "classmalidrive_1_1road__curve_1_1_road_curve_offset.html#a91d6d86ed0abb8f64e9a0ecd0e054810":[2,0,0,2,11,3],
 "classmalidrive_1_1road__curve_1_1_road_curve_offset.html#aaa9ee6af97a9296ca76d7eded884cefd":[2,0,0,2,11,1],
-"classmalidrive_1_1road__curve_1_1_road_curve_offset.html#ae13fbe02a75b76c3b0da7509816fe9db":[2,0,0,2,11,0],
-"classmalidrive_1_1road__curve_1_1_road_curve_offset.html#ae3512802803efc52ee9fc9c607c8fa1f":[2,0,0,2,11,8]
+"classmalidrive_1_1road__curve_1_1_road_curve_offset.html#ae13fbe02a75b76c3b0da7509816fe9db":[2,0,0,2,11,0]
 };

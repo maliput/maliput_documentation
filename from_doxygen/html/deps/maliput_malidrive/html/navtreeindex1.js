@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"classmalidrive_1_1road__curve_1_1_road_curve_offset.html#ae3512802803efc52ee9fc9c607c8fa1f":[2,0,0,2,11,8],
 "classmalidrive_1_1road__curve_1_1_road_curve_offset.html#ae8d8587504f88de5d38dc8117f91bc3c":[2,0,0,2,11,6],
 "classmalidrive_1_1road__curve_1_1_road_curve_offset.html#aedf2569bab191f713c6134ddd954df74":[2,0,0,2,11,7],
 "classmalidrive_1_1road__curve_1_1_scaled_domain_function.html":[2,0,0,2,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "lane__width_8cc.html":[3,0,45],
 "lane__width_8h.html":[3,0,46],
 "lanes_8cc.html":[3,0,47],
-"lanes_8h.html":[3,0,48],
-"lateral__profile_8cc.html":[3,0,49]
+"lanes_8h.html":[3,0,48]
 };

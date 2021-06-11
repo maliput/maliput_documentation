@@ -87,6 +87,7 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1road__curve_1_1_open
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classmalidrive_1_1road__curve_1_1_open_range_validator-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">OpenRangeValidator Class Reference</div>  </div>
@@ -102,16 +103,22 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1road__curve_1_1_open
 Public Member Functions</h2></td></tr>
 <tr class="memitem:adcaa8d6398b619bc941374a5fb8cdf85"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1road__curve_1_1_open_range_validator.html#adcaa8d6398b619bc941374a5fb8cdf85">OpenRangeValidator</a> ()=delete</td></tr>
 <tr class="separator:adcaa8d6398b619bc941374a5fb8cdf85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d58f32dd1358011a25a007839e70dde"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1road__curve_1_1_open_range_validator.html#a6d58f32dd1358011a25a007839e70dde">OpenRangeValidator</a> (double min, double max, double <a class="el" href="piecewise__function_8cc.html#a97eab6d709b80585fe9e8a54b1e3da27">tolerance</a>, double epsilon)</td></tr>
-<tr class="memdesc:a6d58f32dd1358011a25a007839e70dde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the functor.  <a href="#a6d58f32dd1358011a25a007839e70dde">More...</a><br /></td></tr>
-<tr class="separator:a6d58f32dd1358011a25a007839e70dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7adaac6a97bdb9af82a723393093ebc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1road__curve_1_1_open_range_validator.html#ae7adaac6a97bdb9af82a723393093ebc">operator()</a> (double s) const</td></tr>
 <tr class="memdesc:ae7adaac6a97bdb9af82a723393093ebc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluates whether <code>s</code> is in range or not.  <a href="#ae7adaac6a97bdb9af82a723393093ebc">More...</a><br /></td></tr>
 <tr class="separator:ae7adaac6a97bdb9af82a723393093ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:afa20ff65e2cff6df1786f618d5db91bc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmalidrive_1_1road__curve_1_1_open_range_validator.html">OpenRangeValidator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1road__curve_1_1_open_range_validator.html#afa20ff65e2cff6df1786f618d5db91bc">GetRelativeEpsilonValidator</a> (double min, double max, double <a class="el" href="piecewise__function_8cc.html#a97eab6d709b80585fe9e8a54b1e3da27">tolerance</a>, double epsilon)</td></tr>
+<tr class="memdesc:afa20ff65e2cff6df1786f618d5db91bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classmalidrive_1_1road__curve_1_1_open_range_validator.html" title="Functor to validate if a number is within [min, max] and considering assuming a tolerance. ">OpenRangeValidator</a> instance that uses a relative epsilon to validate the values.  <a href="#afa20ff65e2cff6df1786f618d5db91bc">More...</a><br /></td></tr>
+<tr class="separator:afa20ff65e2cff6df1786f618d5db91bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cf93ee0579e4ab064f60d10a0ea4699"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmalidrive_1_1road__curve_1_1_open_range_validator.html">OpenRangeValidator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1road__curve_1_1_open_range_validator.html#a6cf93ee0579e4ab064f60d10a0ea4699">GetAbsoluteEpsilonValidator</a> (double min, double max, double <a class="el" href="piecewise__function_8cc.html#a97eab6d709b80585fe9e8a54b1e3da27">tolerance</a>, double epsilon)</td></tr>
+<tr class="memdesc:a6cf93ee0579e4ab064f60d10a0ea4699"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classmalidrive_1_1road__curve_1_1_open_range_validator.html" title="Functor to validate if a number is within [min, max] and considering assuming a tolerance. ">OpenRangeValidator</a> instance that uses a <code>epsilon</code> as the absolute epsilon to validate the values.  <a href="#a6cf93ee0579e4ab064f60d10a0ea4699">More...</a><br /></td></tr>
+<tr class="separator:a6cf93ee0579e4ab064f60d10a0ea4699"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adcaa8d6398b619bc941374a5fb8cdf85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adcaa8d6398b619bc941374a5fb8cdf85">&#9670;&nbsp;</a></span>OpenRangeValidator() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adcaa8d6398b619bc941374a5fb8cdf85">&#9670;&nbsp;</a></span>OpenRangeValidator()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -135,14 +142,18 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6d58f32dd1358011a25a007839e70dde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d58f32dd1358011a25a007839e70dde">&#9670;&nbsp;</a></span>OpenRangeValidator() <span class="overload">[2/2]</span></h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a6cf93ee0579e4ab064f60d10a0ea4699"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cf93ee0579e4ab064f60d10a0ea4699">&#9670;&nbsp;</a></span>GetAbsoluteEpsilonValidator()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classmalidrive_1_1road__curve_1_1_open_range_validator.html">OpenRangeValidator</a> </td>
+          <td class="memname"><a class="el" href="classmalidrive_1_1road__curve_1_1_open_range_validator.html">OpenRangeValidator</a> GetAbsoluteEpsilonValidator </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>min</em>, </td>
@@ -171,9 +182,14 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Constructs the functor. </p>
+<p>Creates a <a class="el" href="classmalidrive_1_1road__curve_1_1_open_range_validator.html" title="Functor to validate if a number is within [min, max] and considering assuming a tolerance. ">OpenRangeValidator</a> instance that uses a <code>epsilon</code> as the absolute epsilon to validate the values. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">min</td><td>lower extreme of the range. </td></tr>
@@ -183,6 +199,7 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="classmalidrive_1_1road__curve_1_1_open_range_validator.html" title="Functor to validate if a number is within [min, max] and considering assuming a tolerance. ">OpenRangeValidator</a> instance. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname"><a class="elRef" doxygen="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag:../../maliput/html/" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>tolerance</code> is non positive. </td></tr>
@@ -194,7 +211,74 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a id="afa20ff65e2cff6df1786f618d5db91bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa20ff65e2cff6df1786f618d5db91bc">&#9670;&nbsp;</a></span>GetRelativeEpsilonValidator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmalidrive_1_1road__curve_1_1_open_range_validator.html">OpenRangeValidator</a> GetRelativeEpsilonValidator </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>max</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>tolerance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>epsilon</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a <a class="el" href="classmalidrive_1_1road__curve_1_1_open_range_validator.html" title="Functor to validate if a number is within [min, max] and considering assuming a tolerance. ">OpenRangeValidator</a> instance that uses a relative epsilon to validate the values. </p>
+<p>This relative epsilon is computed by multiplying <code>epsilon</code> by the range. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">min</td><td>lower extreme of the range. </td></tr>
+    <tr><td class="paramname">max</td><td>upper extreme of the range. </td></tr>
+    <tr><td class="paramname">tolerance</td><td>is the range extension to be accepted. </td></tr>
+    <tr><td class="paramname">epsilon</td><td>is the relative minimum difference that separates a number within range to be distinct from extremes. It is relative to the range. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="classmalidrive_1_1road__curve_1_1_open_range_validator.html" title="Functor to validate if a number is within [min, max] and considering assuming a tolerance. ">OpenRangeValidator</a> instance. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="elRef" doxygen="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag:../../maliput/html/" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>tolerance</code> is non positive. </td></tr>
+    <tr><td class="paramname"><a class="elRef" doxygen="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag:../../maliput/html/" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>epsilon</code> is not in [0, tolerance]. </td></tr>
+    <tr><td class="paramname"><a class="elRef" doxygen="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag:../../maliput/html/" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>min</code> + <code>epsilon</code> &gt; <code>max</code> or <code>max</code> - <code>epsilon</code> &lt; <code>min</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ae7adaac6a97bdb9af82a723393093ebc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae7adaac6a97bdb9af82a723393093ebc">&#9670;&nbsp;</a></span>operator()()</h2>
 

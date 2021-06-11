@@ -5051,18 +5051,25 @@
       <arglist>()=delete</arglist>
     </member>
     <member kind="function">
-      <type></type>
-      <name>OpenRangeValidator</name>
-      <anchorfile>classmalidrive_1_1road__curve_1_1_open_range_validator.html</anchorfile>
-      <anchor>a6d58f32dd1358011a25a007839e70dde</anchor>
-      <arglist>(double min, double max, double tolerance, double epsilon)</arglist>
-    </member>
-    <member kind="function">
       <type>double</type>
       <name>operator()</name>
       <anchorfile>classmalidrive_1_1road__curve_1_1_open_range_validator.html</anchorfile>
       <anchor>ae7adaac6a97bdb9af82a723393093ebc</anchor>
       <arglist>(double s) const</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static OpenRangeValidator</type>
+      <name>GetRelativeEpsilonValidator</name>
+      <anchorfile>classmalidrive_1_1road__curve_1_1_open_range_validator.html</anchorfile>
+      <anchor>afa20ff65e2cff6df1786f618d5db91bc</anchor>
+      <arglist>(double min, double max, double tolerance, double epsilon)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static OpenRangeValidator</type>
+      <name>GetAbsoluteEpsilonValidator</name>
+      <anchorfile>classmalidrive_1_1road__curve_1_1_open_range_validator.html</anchorfile>
+      <anchor>a6cf93ee0579e4ab064f60d10a0ea4699</anchor>
+      <arglist>(double min, double max, double tolerance, double epsilon)</arglist>
     </member>
   </compound>
   <compound kind="class">
