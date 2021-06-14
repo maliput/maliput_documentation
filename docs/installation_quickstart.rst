@@ -144,6 +144,16 @@ Install dependencies via ``rosdep``
     rosdep update
     rosdep install -i -y --rosdistro $ROS_DISTRO --skip-keys "ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui0 ignition-gui3 ignition-rendering3 pybind11" --from-paths src
 
+
+Sometimes, you might be working with EOL ROS2 distributions. If that's the case, make sure to run ``rosdep update`` with
+``--include-eol-distros`` flag as follows:
+
+
+.. code-block:: sh
+
+    rosdep update --include-eol-distros
+
+
 .. warning::
   Package dependencies are installed system wide. ``rosdep`` does not provide any support to remove the dependencies it
   brings. In this regard, disposable containerized workspaces help keep development environments clean (as system wide
