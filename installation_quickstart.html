@@ -235,6 +235,11 @@ the <code class="docutils literal"><span class="pre">import</span></code> and <c
 rosdep install -i -y --rosdistro <span class="nv">$ROS_DISTRO</span> --skip-keys <span class="s2">&quot;ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui0 ignition-gui3 ignition-rendering3 pybind11&quot;</span> --from-paths src
 </pre></div>
 </div>
+<p>Sometimes, you might be working with EOL ROS2 distributions. If that’s the case, make sure to run <code class="docutils literal"><span class="pre">rosdep</span> <span class="pre">update</span></code> with
+<code class="docutils literal"><span class="pre">--include-eol-distros</span></code> flag as follows:</p>
+<div class="highlight-sh"><div class="highlight"><pre><span></span>rosdep update --include-eol-distros
+</pre></div>
+</div>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
 <p class="last">Package dependencies are installed system wide. <code class="docutils literal"><span class="pre">rosdep</span></code> does not provide any support to remove the dependencies it

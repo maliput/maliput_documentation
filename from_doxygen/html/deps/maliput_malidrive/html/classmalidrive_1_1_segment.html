@@ -116,6 +116,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa818c70f2e92bc4f442bfa20d021a4dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf291ee68f2b95e9553551ad13905fa5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmalidrive_1_1road__curve_1_1_function.html">road_curve::Function</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1_segment.html#abf291ee68f2b95e9553551ad13905fa5">reference_line_offset</a> () const</td></tr>
 <tr class="separator:abf291ee68f2b95e9553551ad13905fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fb7cc74389e9d5b251804e92293b5c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmalidrive_1_1_lane.html">Lane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1_segment.html#a0fb7cc74389e9d5b251804e92293b5c1">AddLane</a> (std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1_lane.html">Lane</a> &gt; <a class="elRef" doxygen="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag:../../maliput/html/" href="../../maliput/html/classmaliput_1_1api_1_1_segment.html#a6f4e1b5acc16f9d2f722f0a36db0a06f">lane</a>, bool hide_lane)</td></tr>
+<tr class="memdesc:a0fb7cc74389e9d5b251804e92293b5c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds <code>lane</code> to the segment.  <a href="#a0fb7cc74389e9d5b251804e92293b5c1">More...</a><br /></td></tr>
+<tr class="separator:a0fb7cc74389e9d5b251804e92293b5c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classmaliput_1_1geometry__base_1_1_segment"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classmaliput_1_1geometry__base_1_1_segment')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../maliput/html/classmaliput_1_1geometry__base_1_1_segment.html">Segment</a></td></tr>
 <tr class="memitem:aa0c04fc22758b187b97e596c48304d9f inherit pub_methods_classmaliput_1_1geometry__base_1_1_segment"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag:../../maliput/html/" href="../../maliput/html/classmaliput_1_1geometry__base_1_1_segment.html#aa0c04fc22758b187b97e596c48304d9f">MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</a> (<a class="elRef" doxygen="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag:../../maliput/html/" href="../../maliput/html/classmaliput_1_1geometry__base_1_1_segment.html">Segment</a>)</td></tr>
 <tr class="separator:aa0c04fc22758b187b97e596c48304d9f inherit pub_methods_classmaliput_1_1geometry__base_1_1_segment"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,6 +218,37 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0fb7cc74389e9d5b251804e92293b5c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fb7cc74389e9d5b251804e92293b5c1">&#9670;&nbsp;</a></span>AddLane()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmalidrive_1_1_lane.html">Lane</a>* AddLane </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1_lane.html">Lane</a> &gt;&#160;</td>
+          <td class="paramname"><em>lane</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>hide_lane</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds <code>lane</code> to the segment. </p>
+<p>If <code>hide_lane</code> is false, the call is forwarded to <a class="elRef" doxygen="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag:../../maliput/html/" href="../../maliput/html/classmaliput_1_1geometry__base_1_1_segment.html#a965bd340853e99f8a59c080ad25a4409">maliput::geometry_base::Segment::AddLane</a>. If <code>hide_lane</code> is true, the segment becomes the lane's owner but the lane is hidden. This behavior is needed to correctly compute the offset of the lanes when the non-drivable lanes are omitted from the Road Network. </p><dl class="section return"><dt>Returns</dt><dd><code>lane</code>s raw pointer. </dd></dl>
+
+</div>
+</div>
 <a id="a91d6d86ed0abb8f64e9a0ecd0e054810"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a91d6d86ed0abb8f64e9a0ecd0e054810">&#9670;&nbsp;</a></span>p0()</h2>
 

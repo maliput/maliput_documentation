@@ -59,10 +59,11 @@ var NAVTREEINDEX0 =
 "classmalidrive_1_1_road_geometry.html#a9708753ea1683f5d5408f862a0abc8ba":[2,0,0,6,3],
 "classmalidrive_1_1_road_geometry.html#ad67e4e667fb5105be51d0ebf94c4fa45":[2,0,0,6,5],
 "classmalidrive_1_1_segment.html":[2,0,0,7],
-"classmalidrive_1_1_segment.html#a4f07ac9d9bda6a50715b59b3c53c356f":[2,0,0,7,2],
-"classmalidrive_1_1_segment.html#a91d6d86ed0abb8f64e9a0ecd0e054810":[2,0,0,7,1],
-"classmalidrive_1_1_segment.html#aa818c70f2e92bc4f442bfa20d021a4dc":[2,0,0,7,4],
-"classmalidrive_1_1_segment.html#abf291ee68f2b95e9553551ad13905fa5":[2,0,0,7,3],
+"classmalidrive_1_1_segment.html#a0fb7cc74389e9d5b251804e92293b5c1":[2,0,0,7,1],
+"classmalidrive_1_1_segment.html#a4f07ac9d9bda6a50715b59b3c53c356f":[2,0,0,7,3],
+"classmalidrive_1_1_segment.html#a91d6d86ed0abb8f64e9a0ecd0e054810":[2,0,0,7,2],
+"classmalidrive_1_1_segment.html#aa818c70f2e92bc4f442bfa20d021a4dc":[2,0,0,7,5],
+"classmalidrive_1_1_segment.html#abf291ee68f2b95e9553551ad13905fa5":[2,0,0,7,4],
 "classmalidrive_1_1_segment.html#af4768d32c0488e30cfe83e06e1457b3f":[2,0,0,7,0],
 "classmalidrive_1_1builder_1_1_direction_usage_builder.html":[2,0,0,1,2],
 "classmalidrive_1_1builder_1_1_direction_usage_builder.html#a0dcb3afebe57fa3001e5a5a44bf1e78c":[2,0,0,1,2,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "classmalidrive_1_1road__curve_1_1_road_curve_offset.html#a4f07ac9d9bda6a50715b59b3c53c356f":[2,0,0,2,11,4],
 "classmalidrive_1_1road__curve_1_1_road_curve_offset.html#a5acfabae97039bef58ac605af40698e3":[2,0,0,2,11,5],
 "classmalidrive_1_1road__curve_1_1_road_curve_offset.html#a91d6d86ed0abb8f64e9a0ecd0e054810":[2,0,0,2,11,3],
-"classmalidrive_1_1road__curve_1_1_road_curve_offset.html#aaa9ee6af97a9296ca76d7eded884cefd":[2,0,0,2,11,1],
-"classmalidrive_1_1road__curve_1_1_road_curve_offset.html#ae13fbe02a75b76c3b0da7509816fe9db":[2,0,0,2,11,0]
+"classmalidrive_1_1road__curve_1_1_road_curve_offset.html#aaa9ee6af97a9296ca76d7eded884cefd":[2,0,0,2,11,1]
 };

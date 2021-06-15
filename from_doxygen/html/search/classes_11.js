@@ -8,7 +8,7 @@ var searchData=
   ['sink',['Sink',['.././deps/maliput/html/classmaliput_1_1common_1_1_sink.html',1,'maliput::common']]],
   ['sinkbase',['SinkBase',['.././deps/maliput/html/classmaliput_1_1common_1_1_sink_base.html',1,'maliput::common']]],
   ['spec',['Spec',['.././deps/maliput_multilane/html/classmaliput_1_1multilane_1_1_start_lane_1_1_spec.html',1,'Spec'],['.././deps/maliput_multilane/html/classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html',1,'EndReference::Spec'],['.././deps/maliput_multilane/html/classmaliput_1_1multilane_1_1_start_reference_1_1_spec.html',1,'Spec'],['.././deps/maliput_multilane/html/classmaliput_1_1multilane_1_1_end_lane_1_1_spec.html',1,'EndLane::Spec']]],
-  ['speed',['Speed',['.././deps/maliput_malidrive/html/structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html',1,'RoadType::Speed'],['.././deps/maliput_malidrive/html/structmalidrive_1_1xodr_1_1_lane_1_1_speed.html',1,'Lane::Speed']]],
+  ['speed',['Speed',['.././deps/maliput_malidrive/html/structmalidrive_1_1xodr_1_1_lane_1_1_speed.html',1,'Lane::Speed'],['.././deps/maliput_malidrive/html/structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html',1,'RoadType::Speed']]],
   ['speedlimitbuilder',['SpeedLimitBuilder',['.././deps/maliput_malidrive/html/classmalidrive_1_1builder_1_1_speed_limit_builder.html',1,'malidrive::builder']]],
   ['speedlimitrule',['SpeedLimitRule',['.././deps/maliput/html/classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html',1,'maliput::api::rules']]],
   ['srange',['SRange',['.././deps/maliput/html/classmaliput_1_1api_1_1_s_range.html',1,'maliput::api']]],
