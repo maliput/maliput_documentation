@@ -68,5 +68,6 @@ var searchData=
   ['draw_5felevation_5fbounds',['draw_elevation_bounds',['.././deps/maliput/html/structmaliput_1_1utility_1_1_obj_features.html#af9ddcf588d5ba5ce18f4f8b78022e466',1,'maliput::utility::ObjFeatures']]],
   ['draw_5flane_5fhaze',['draw_lane_haze',['.././deps/maliput/html/structmaliput_1_1utility_1_1_obj_features.html#abd7f5c230f9de966cdf31b3e88d5ca04',1,'maliput::utility::ObjFeatures']]],
   ['draw_5fstripes',['draw_stripes',['.././deps/maliput/html/structmaliput_1_1utility_1_1_obj_features.html#aaf2029edc899d84e2e85ea279db6c5e8',1,'maliput::utility::ObjFeatures']]],
+  ['duplicatecurlybracesforfmtlogging',['DuplicateCurlyBracesForFmtLogging',['.././deps/maliput_malidrive/html/namespacemalidrive_1_1xodr.html#a101364e5ab2e49ba099fd2cc94387b4b',1,'malidrive::xodr']]],
   ['duration_5funtil',['duration_until',['.././deps/maliput/html/structmaliput_1_1api_1_1rules_1_1_state_provider_result_1_1_next.html#a596139dc82c65d2da98dec065523b777',1,'maliput::api::rules::StateProviderResult::Next::duration_until()'],['.././deps/maliput/html/structmaliput_1_1api_1_1rules_1_1_phase_ring_1_1_next_phase.html#a596139dc82c65d2da98dec065523b777',1,'maliput::api::rules::PhaseRing::NextPhase::duration_until()']]]
 ];

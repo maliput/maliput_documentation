@@ -1239,6 +1239,13 @@
       <anchor>a59322d533f4b0f08bca667b87942df3d</anchor>
       <arglist>(tinyxml2::XMLElement *element)</arglist>
     </member>
+    <member kind="function">
+      <type>void</type>
+      <name>DuplicateCurlyBracesForFmtLogging</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a101364e5ab2e49ba099fd2cc94387b4b</anchor>
+      <arglist>(std::string *text)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>parser.h</name>
@@ -1257,6 +1264,13 @@
       <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
       <anchor>a59322d533f4b0f08bca667b87942df3d</anchor>
       <arglist>(tinyxml2::XMLElement *element)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>DuplicateCurlyBracesForFmtLogging</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a101364e5ab2e49ba099fd2cc94387b4b</anchor>
+      <arglist>(std::string *text)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -7864,6 +7878,13 @@
       <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
       <anchor>a59322d533f4b0f08bca667b87942df3d</anchor>
       <arglist>(tinyxml2::XMLElement *element)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>DuplicateCurlyBracesForFmtLogging</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a101364e5ab2e49ba099fd2cc94387b4b</anchor>
+      <arglist>(std::string *text)</arglist>
     </member>
     <member kind="function">
       <type>std::ostream &amp;</type>
