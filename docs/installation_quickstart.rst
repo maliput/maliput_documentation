@@ -85,7 +85,7 @@ Copy .repos file
 
     cp repos_index/dashing/maliput.repos maliput_ws/
 
-**For foxy:** copy ``repos_index/dashing/maliput.repos`` into ``maliput_ws``. It will be used to add the Maliput-related repositories to the workspace.
+**For foxy:** copy ``repos_index/foxy/maliput.repos`` into ``maliput_ws``. It will be used to add the Maliput-related repositories to the workspace.
 
 .. code-block:: sh
 
