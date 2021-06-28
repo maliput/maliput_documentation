@@ -79,12 +79,17 @@ Create the workspace folder
 Copy .repos file
 """"""""""""""""
 
-Copy ``repos_index/dashing/maliput.repos`` into ``maliput_ws``. It will be used to add the Maliput-related repositories
-to the workspace.
+**For dashing:** copy ``repos_index/dashing/maliput.repos`` into ``maliput_ws``. It will be used to add the Maliput-related repositories to the workspace.
 
 .. code-block:: sh
 
     cp repos_index/dashing/maliput.repos maliput_ws/
+
+**For foxy:** copy ``repos_index/foxy/maliput.repos`` into ``maliput_ws``. It will be used to add the Maliput-related repositories to the workspace.
+
+.. code-block:: sh
+
+    cp repos_index/foxy/maliput.repos maliput_ws/
 
 .. note::
   To add Delphyne-related repositories to your workspace:
@@ -133,6 +138,13 @@ First update the ``ROS_DISTRO`` environment variable with your ``ros2`` version,
 .. code-block:: sh
 
       export ROS_DISTRO=dashing
+
+Alternatively, when working with ``foxy``, you could do:
+
+.. code-block:: sh
+
+      export ROS_DISTRO=foxy
+
 
 .. _install-dependencies-via-rosdep:
 
@@ -226,8 +238,9 @@ If you are using nvidia-docker2 add the ``--nvidia`` option.
 .. note::
   ``build.sh --help`` for more options:
 
-    #. ``-i`` ``--image_name``   Name of the image to be built (default maliput_ws_ubuntu)
-    #. ``-w`` ``--workspace_name``   Name of the workspace folder (default maliput_ws)
+    #. ``-i`` ``--image_name``   Name of the image to be built (default maliput_ws_ubuntu_bionic).
+    #. ``-w`` ``--workspace_name``   Name of the workspace folder (default maliput_ws).
+    #. ``-o`` ``--os`` OS version. It could be bionic or focal (default is bionic).
 
 
 
@@ -256,9 +269,10 @@ If you are using nvidia-docker2 add the ``--nvidia`` option.
 .. note::
   ``run.sh --help`` for more options:
 
-    #. ``-i`` ``--image_name`` Name of the image to be run (default maliput_ws_ubuntu)
-    #. ``-c`` ``--container_name`` Name of the container(default maliput_ws)
-    #. ``-w`` ``--workspace``  Relative or absolute path to the workspace you want to bind. (default to location of maliput_infrastructure folder)
+    #. ``-i`` ``--image_name`` Name of the image to be run (default maliput_ws_ubuntu_bionic).
+    #. ``-c`` ``--container_name`` Name of the container(default maliput_ws_bionic).
+    #. ``-o`` ``--os`` OS version. It could be bionic or focal (default is bionic).
+    #. ``-w`` ``--workspace``  Relative or absolute path to the workspace you want to bind (default to location of maliput_infrastructure folder).
 
 .. _install-dependencies:
 
