@@ -12,5 +12,5 @@ var structmalidrive_1_1xodr_1_1_lane_width =
     [ "kD", "structmalidrive_1_1xodr_1_1_lane_width.html#afb8b389927564791e0c4db383443e994", null ],
     [ "kLaneWidthTag", "structmalidrive_1_1xodr_1_1_lane_width.html#aae04d9e474b74c60188aa3f0d50007c8", null ],
     [ "kOffset", "structmalidrive_1_1xodr_1_1_lane_width.html#af19797ebf3b56df13e281ac5881134bc", null ],
-    [ "offset", "structmalidrive_1_1xodr_1_1_lane_width.html#a129303e4bd38a8cdba722b6238ed56e9", null ]
+    [ "s_0", "structmalidrive_1_1xodr_1_1_lane_width.html#a37ce4938db905b2d6ed4ff66d5955db0", null ]
 ];

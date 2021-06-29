@@ -4528,9 +4528,9 @@
     </member>
     <member kind="variable">
       <type>double</type>
-      <name>offset</name>
+      <name>s_0</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_lane_width.html</anchorfile>
-      <anchor>a129303e4bd38a8cdba722b6238ed56e9</anchor>
+      <anchor>a37ce4938db905b2d6ed4ff66d5955db0</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
