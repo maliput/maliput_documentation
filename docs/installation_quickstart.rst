@@ -193,6 +193,8 @@ Sometimes, you might be working with EOL ROS2 distributions. If that's the case,
                      libignition-gui3-dev \
                      libignition-transport8-dev
 
+  It might be the case that the command ``apt-key adv`` fails. Consider using other key servers like ``hkp://pgp.mit.edu:80`` or ``hkp://keyserver.ubuntu.com:80`` to effectively run that command.
+
 .. _install-drake:
 
 Install drake
@@ -645,6 +647,8 @@ Install ignition binaries
                    libignition-rendering3-dev \
                    libignition-gui3-dev \
                    libignition-transport8-dev
+
+It might be the case that the command ``apt-key adv`` fails. Consider using other key servers like ``hkp://pgp.mit.edu:80`` or ``hkp://keyserver.ubuntu.com:80`` to effectively run that command.
 
 From then on, before building the workspace, you must source the underlay as follows:
 
