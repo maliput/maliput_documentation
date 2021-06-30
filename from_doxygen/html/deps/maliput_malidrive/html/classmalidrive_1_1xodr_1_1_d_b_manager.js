@@ -15,7 +15,7 @@ var classmalidrive_1_1xodr_1_1_d_b_manager =
     [ "GetLargestGeometry", "classmalidrive_1_1xodr_1_1_d_b_manager.html#aa512b1c2017310dc8c23274e9e93f657", null ],
     [ "GetLargestLaneSection", "classmalidrive_1_1xodr_1_1_d_b_manager.html#af2bd3f88d341c7c0457a3d40995d5a89", null ],
     [ "GetLargestSuperelevationGap", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a6a86ae288ecaad1ea8cbe287f829bdbe", null ],
-    [ "GetRoadHeaders", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a25260ec634f02cb25a88cf948f7c54f5", null ],
+    [ "GetRoadHeaders", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a892f55d966715b90c025bcb4e615fe1b", null ],
     [ "GetShortestElevationGap", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a35b320f0333a69ee46b550bb5d64dfed", null ],
     [ "GetShortestGap", "classmalidrive_1_1xodr_1_1_d_b_manager.html#aca08ac05109a82fa850d853e9284d8b6", null ],
     [ "GetShortestGeometry", "classmalidrive_1_1xodr_1_1_d_b_manager.html#ada89516cab3a2b623196bb82004b46bd", null ],

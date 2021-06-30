@@ -108,7 +108,7 @@ var searchData=
   ['getrelativeepsilonvalidator',['GetRelativeEpsilonValidator',['../classmalidrive_1_1road__curve_1_1_open_range_validator.html#afa20ff65e2cff6df1786f618d5db91bc',1,'malidrive::road_curve::OpenRangeValidator']]],
   ['getroadcurve',['GetRoadCurve',['../classmalidrive_1_1_road_geometry.html#a2b2cc8877d20f47e1ec84addf5312f55',1,'malidrive::RoadGeometry']]],
   ['getroadgeometryconfigurationfor',['GetRoadGeometryConfigurationFor',['../namespacemalidrive_1_1test.html#acb6cc43294ae2cba4b045fc78d2dc69b',1,'malidrive::test']]],
-  ['getroadheaders',['GetRoadHeaders',['../classmalidrive_1_1xodr_1_1_d_b_manager.html#a25260ec634f02cb25a88cf948f7c54f5',1,'malidrive::xodr::DBManager']]],
+  ['getroadheaders',['GetRoadHeaders',['../classmalidrive_1_1xodr_1_1_d_b_manager.html#a892f55d966715b90c025bcb4e615fe1b',1,'malidrive::xodr::DBManager']]],
   ['getroadtype',['GetRoadType',['../structmalidrive_1_1xodr_1_1_road_header.html#a7cf33237ec5f169386b285c0b2ab2722',1,'malidrive::xodr::RoadHeader']]],
   ['getroadtypelength',['GetRoadTypeLength',['../structmalidrive_1_1xodr_1_1_road_header.html#a999267ea0fdee0c81e5bb24882d1ad3e',1,'malidrive::xodr::RoadHeader']]],
   ['getroadtypesinrange',['GetRoadTypesInRange',['../structmalidrive_1_1xodr_1_1_road_header.html#adf962b58e1c78006a71579f11a17950b',1,'malidrive::xodr::RoadHeader']]],

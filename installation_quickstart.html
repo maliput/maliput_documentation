@@ -257,7 +257,7 @@ installations within a container are limited to that container).</p>
 <p class="first admonition-title">Note</p>
 <p>If you are following the instructions to work with <code class="docutils literal"><span class="pre">delphyne</span></code>, note that not all the dependencies are met with
 <code class="docutils literal"><span class="pre">rosdep</span></code>. The following list of steps will allow you to get your environment ready for <code class="docutils literal"><span class="pre">delphyne</span></code> packages:</p>
-<div class="last highlight-sh"><div class="highlight"><pre><span></span><span class="nb">echo</span> <span class="s2">&quot;deb http://packages.osrfoundation.org/gazebo/ubuntu-stable </span><span class="k">$(</span>lsb_release -cs<span class="k">)</span><span class="s2"> main&quot;</span> <span class="p">|</span> <span class="se">\</span>
+<div class="highlight-sh"><div class="highlight"><pre><span></span><span class="nb">echo</span> <span class="s2">&quot;deb http://packages.osrfoundation.org/gazebo/ubuntu-stable </span><span class="k">$(</span>lsb_release -cs<span class="k">)</span><span class="s2"> main&quot;</span> <span class="p">|</span> <span class="se">\</span>
      sudo tee --append /etc/apt/sources.list.d/gazebo-stable.list
 sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys D2486D2DD83DB69272AFE98867170598AF249743
 
@@ -274,6 +274,7 @@ sudo apt -y install --no-install-recommends <span class="se">\</span>
                libignition-transport8-dev
 </pre></div>
 </div>
+<p class="last">It might be the case that the command <code class="docutils literal"><span class="pre">apt-key</span> <span class="pre">adv</span></code> fails. Consider using other key servers like <code class="docutils literal"><span class="pre">hkp://pgp.mit.edu:80</span></code> or <code class="docutils literal"><span class="pre">hkp://keyserver.ubuntu.com:80</span></code> to effectively run that command.</p>
 </div>
 </div>
 <div class="section" id="install-drake">
@@ -633,6 +634,7 @@ sudo apt -y install --no-install-recommends <span class="se">\</span>
                libignition-transport8-dev
 </pre></div>
 </div>
+<p>It might be the case that the command <code class="docutils literal"><span class="pre">apt-key</span> <span class="pre">adv</span></code> fails. Consider using other key servers like <code class="docutils literal"><span class="pre">hkp://pgp.mit.edu:80</span></code> or <code class="docutils literal"><span class="pre">hkp://keyserver.ubuntu.com:80</span></code> to effectively run that command.</p>
 <p>From then on, before building the workspace, you must source the underlay as follows:</p>
 <div class="highlight-sh"><div class="highlight"><pre><span></span><span class="nb">source</span> /opt/dsim-desktop/setup.bash
 </pre></div>

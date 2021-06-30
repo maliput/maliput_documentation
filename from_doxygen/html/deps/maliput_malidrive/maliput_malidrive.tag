@@ -36,22 +36,22 @@
       <type>std::vector&lt; maliput::api::LaneEnd &gt;</type>
       <name>SolveLaneEndsForConnectingRoad</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>aa97940ee4895700c60aadd35c76764ba</anchor>
-      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::unordered_map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, XodrConnectionType connection_type)</arglist>
+      <anchor>af4c90e9ac4facbd99c46a05b567d233f</anchor>
+      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, XodrConnectionType connection_type)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; maliput::api::LaneEnd &gt;</type>
       <name>SolveLaneEndsForJunction</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>a91f6a730cad72ab88182b93750c45411</anchor>
-      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::unordered_map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, const std::unordered_map&lt; xodr::Junction::Id, xodr::Junction &gt; &amp;junctions, XodrConnectionType connection_type)</arglist>
+      <anchor>addd7b78f08ed81ded4c5d0b5b880d587</anchor>
+      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, const std::unordered_map&lt; xodr::Junction::Id, xodr::Junction &gt; &amp;junctions, XodrConnectionType connection_type)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; maliput::api::LaneEnd &gt;</type>
       <name>SolveLaneEndsWithinJunction</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>ae9d17a84a009cec7f126092e710b3144</anchor>
-      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::unordered_map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, XodrConnectionType connection_type)</arglist>
+      <anchor>aa2b44e81a26633a615546fea7227b0f9</anchor>
+      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, XodrConnectionType connection_type)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; maliput::api::LaneEnd &gt;</type>
@@ -179,22 +179,22 @@
       <type>std::vector&lt; maliput::api::LaneEnd &gt;</type>
       <name>SolveLaneEndsForConnectingRoad</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>aa97940ee4895700c60aadd35c76764ba</anchor>
-      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::unordered_map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, XodrConnectionType connection_type)</arglist>
+      <anchor>af4c90e9ac4facbd99c46a05b567d233f</anchor>
+      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, XodrConnectionType connection_type)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; maliput::api::LaneEnd &gt;</type>
       <name>SolveLaneEndsForJunction</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>a91f6a730cad72ab88182b93750c45411</anchor>
-      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::unordered_map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, const std::unordered_map&lt; xodr::Junction::Id, xodr::Junction &gt; &amp;junctions, XodrConnectionType connection_type)</arglist>
+      <anchor>addd7b78f08ed81ded4c5d0b5b880d587</anchor>
+      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, const std::unordered_map&lt; xodr::Junction::Id, xodr::Junction &gt; &amp;junctions, XodrConnectionType connection_type)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; maliput::api::LaneEnd &gt;</type>
       <name>SolveLaneEndsWithinJunction</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>ae9d17a84a009cec7f126092e710b3144</anchor>
-      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::unordered_map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, XodrConnectionType connection_type)</arglist>
+      <anchor>aa2b44e81a26633a615546fea7227b0f9</anchor>
+      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, XodrConnectionType connection_type)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; maliput::api::LaneEnd &gt;</type>
@@ -2817,10 +2817,10 @@
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>const std::unordered_map&lt; RoadHeader::Id, RoadHeader &gt; &amp;</type>
+      <type>const std::map&lt; RoadHeader::Id, RoadHeader &gt; &amp;</type>
       <name>GetRoadHeaders</name>
       <anchorfile>classmalidrive_1_1xodr_1_1_d_b_manager.html</anchorfile>
-      <anchor>a25260ec634f02cb25a88cf948f7c54f5</anchor>
+      <anchor>a892f55d966715b90c025bcb4e615fe1b</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -7403,22 +7403,22 @@
       <type>std::vector&lt; maliput::api::LaneEnd &gt;</type>
       <name>SolveLaneEndsForConnectingRoad</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>aa97940ee4895700c60aadd35c76764ba</anchor>
-      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::unordered_map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, XodrConnectionType connection_type)</arglist>
+      <anchor>af4c90e9ac4facbd99c46a05b567d233f</anchor>
+      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, XodrConnectionType connection_type)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; maliput::api::LaneEnd &gt;</type>
       <name>SolveLaneEndsForJunction</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>a91f6a730cad72ab88182b93750c45411</anchor>
-      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::unordered_map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, const std::unordered_map&lt; xodr::Junction::Id, xodr::Junction &gt; &amp;junctions, XodrConnectionType connection_type)</arglist>
+      <anchor>addd7b78f08ed81ded4c5d0b5b880d587</anchor>
+      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, const std::unordered_map&lt; xodr::Junction::Id, xodr::Junction &gt; &amp;junctions, XodrConnectionType connection_type)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; maliput::api::LaneEnd &gt;</type>
       <name>SolveLaneEndsWithinJunction</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>ae9d17a84a009cec7f126092e710b3144</anchor>
-      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::unordered_map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, XodrConnectionType connection_type)</arglist>
+      <anchor>aa2b44e81a26633a615546fea7227b0f9</anchor>
+      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, XodrConnectionType connection_type)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; maliput::api::LaneEnd &gt;</type>

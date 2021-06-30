@@ -100,7 +100,7 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1xodr_1_1_d_b_manager
 <li>parsing the XML nodes into known structures.</li>
 <li>providing XODR data.</li>
 </ul>
-<p>The common workflow is to: 1 - Construct a <code><a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html" title="Database Manager in charge of: ">DBManager</a></code> object using the provided methods. <code>std::unique_ptr&lt;<a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html" title="Database Manager in charge of: ">xodr::DBManager</a>&gt; manager = <a class="el" href="namespacemalidrive_1_1xodr.html#aaeb7c6fe521e2a8df6b1ab10f28f5c0a" title="Loads a XODR description from a file. ">xodr::LoadDataBaseFromFile</a>(&lt;path_to_xodr_file&gt;)</code> </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="namespacemalidrive_1_1xodr.html#aaeb7c6fe521e2a8df6b1ab10f28f5c0a" title="Loads a XODR description from a file. ">LoadDataBaseFromFile</a> <a class="el" href="namespacemalidrive_1_1xodr.html#ad19f65f8b9f6dad8943e319d358e1a76" title="Loads a XODR description from a string. ">LoadDataBaseFromStr</a>. 2 - Query the data base, e.g.: <code>manager-&gt;<a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html#a25260ec634f02cb25a88cf948f7c54f5">GetRoadHeaders()</a>;</code> </dd></dl>
+<p>The common workflow is to: 1 - Construct a <code><a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html" title="Database Manager in charge of: ">DBManager</a></code> object using the provided methods. <code>std::unique_ptr&lt;<a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html" title="Database Manager in charge of: ">xodr::DBManager</a>&gt; manager = <a class="el" href="namespacemalidrive_1_1xodr.html#aaeb7c6fe521e2a8df6b1ab10f28f5c0a" title="Loads a XODR description from a file. ">xodr::LoadDataBaseFromFile</a>(&lt;path_to_xodr_file&gt;)</code> </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="namespacemalidrive_1_1xodr.html#aaeb7c6fe521e2a8df6b1ab10f28f5c0a" title="Loads a XODR description from a file. ">LoadDataBaseFromFile</a> <a class="el" href="namespacemalidrive_1_1xodr.html#ad19f65f8b9f6dad8943e319d358e1a76" title="Loads a XODR description from a string. ">LoadDataBaseFromStr</a>. 2 - Query the data base, e.g.: <code>manager-&gt;<a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html#a892f55d966715b90c025bcb4e615fe1b">GetRoadHeaders()</a>;</code> </dd></dl>
 </div>
 <p><code>#include &lt;src/maliput_malidrive/xodr/db_manager.h&gt;</code></p>
 <table class="memberdecls">
@@ -135,8 +135,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad99a6c2eabe072deca29bd23e5038c4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0a363cf4461b0ea36a51c99c99432eb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structmalidrive_1_1xodr_1_1_header.html">Header</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html#ad0a363cf4461b0ea36a51c99c99432eb">GetXodrHeader</a> () const</td></tr>
 <tr class="separator:ad0a363cf4461b0ea36a51c99c99432eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25260ec634f02cb25a88cf948f7c54f5"><td class="memItemLeft" align="right" valign="top">const std::unordered_map&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">RoadHeader::Id</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html">RoadHeader</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html#a25260ec634f02cb25a88cf948f7c54f5">GetRoadHeaders</a> () const</td></tr>
-<tr class="separator:a25260ec634f02cb25a88cf948f7c54f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a892f55d966715b90c025bcb4e615fe1b"><td class="memItemLeft" align="right" valign="top">const std::map&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">RoadHeader::Id</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html">RoadHeader</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html#a892f55d966715b90c025bcb4e615fe1b">GetRoadHeaders</a> () const</td></tr>
+<tr class="separator:a892f55d966715b90c025bcb4e615fe1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0665903160da9b77b4663da0fde9a213"><td class="memItemLeft" align="right" valign="top">const std::unordered_map&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_junction.html#ac27dd6cabc4998221bea62577567d74c">Junction::Id</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_junction.html">Junction</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html#a0665903160da9b77b4663da0fde9a213">GetJunctions</a> () const</td></tr>
 <tr class="separator:a0665903160da9b77b4663da0fde9a213"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03e603447991303f202cc7a71aa31ba5"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify.html">XodrGeometriesToSimplify</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html#a03e603447991303f202cc7a71aa31ba5">GetGeometriesToSimplify</a> (double <a class="el" href="piecewise__function_8cc.html#a97eab6d709b80585fe9e8a54b1e3da27">tolerance</a>) const</td></tr>
@@ -422,14 +422,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a25260ec634f02cb25a88cf948f7c54f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25260ec634f02cb25a88cf948f7c54f5">&#9670;&nbsp;</a></span>GetRoadHeaders()</h2>
+<a id="a892f55d966715b90c025bcb4e615fe1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a892f55d966715b90c025bcb4e615fe1b">&#9670;&nbsp;</a></span>GetRoadHeaders()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const std::unordered_map&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">RoadHeader::Id</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html">RoadHeader</a> &gt; &amp; GetRoadHeaders </td>
+          <td class="memname">const std::map&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">RoadHeader::Id</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html">RoadHeader</a> &gt; &amp; GetRoadHeaders </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
