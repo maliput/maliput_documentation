@@ -129,6 +129,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adf962b58e1c78006a71579f11a17950b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="structmalidrive_1_1xodr_1_1_road_type.html">RoadType</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#adf962b58e1c78006a71579f11a17950b">GetRoadTypesInRange</a> (double s_start, double s_end) const</td></tr>
 <tr class="memdesc:adf962b58e1c78006a71579f11a17950b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the RoadTypes that are present within the range: [<code>s_start</code>, <code>s_end</code>].  <a href="#adf962b58e1c78006a71579f11a17950b">More...</a><br /></td></tr>
 <tr class="separator:adf962b58e1c78006a71579f11a17950b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a759ab75802fe12bb4299e7e9d4a5331c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a759ab75802fe12bb4299e7e9d4a5331c">s0</a> () const</td></tr>
+<tr class="memdesc:a759ab75802fe12bb4299e7e9d4a5331c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get start s value of the Road.  <a href="#a759ab75802fe12bb4299e7e9d4a5331c">More...</a><br /></td></tr>
+<tr class="separator:a759ab75802fe12bb4299e7e9d4a5331c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a150b08bb3546bdfd5c04372e406b9e88"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a150b08bb3546bdfd5c04372e406b9e88">s1</a> () const</td></tr>
+<tr class="memdesc:a150b08bb3546bdfd5c04372e406b9e88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get start s value of the Road.  <a href="#a150b08bb3546bdfd5c04372e406b9e88">More...</a><br /></td></tr>
+<tr class="separator:a150b08bb3546bdfd5c04372e406b9e88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a556b594e48ed41285d36618c96280bc0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a556b594e48ed41285d36618c96280bc0">operator==</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html">RoadHeader</a> &amp;other) const</td></tr>
 <tr class="memdesc:a556b594e48ed41285d36618c96280bc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operator.  <a href="#a556b594e48ed41285d36618c96280bc0">More...</a><br /></td></tr>
 <tr class="separator:a556b594e48ed41285d36618c96280bc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -491,6 +497,46 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Equality operator. </p>
+
+</div>
+</div>
+<a id="a759ab75802fe12bb4299e7e9d4a5331c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a759ab75802fe12bb4299e7e9d4a5331c">&#9670;&nbsp;</a></span>s0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double s0 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get start s value of the Road. </p>
+<p>It is delimited by the start point of the first geometry in the planView. </p>
+
+</div>
+</div>
+<a id="a150b08bb3546bdfd5c04372e406b9e88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a150b08bb3546bdfd5c04372e406b9e88">&#9670;&nbsp;</a></span>s1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double s1 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get start s value of the Road. </p>
+<p>It is computed as the sum of the last geometry's start point and its length. </p>
 
 </div>
 </div>

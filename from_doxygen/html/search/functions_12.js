@@ -1,8 +1,8 @@
 var searchData=
 [
   ['s',['s',['.././deps/maliput/html/classmaliput_1_1api_1_1_lane_position.html#a88389a186803f18425711478d19c586f',1,'maliput::api::LanePosition::s() const'],['.././deps/maliput/html/classmaliput_1_1api_1_1_lane_position.html#a88389a186803f18425711478d19c586f',1,'maliput::api::LanePosition::s() const']]],
-  ['s0',['s0',['.././deps/maliput/html/classmaliput_1_1api_1_1_s_range.html#a759ab75802fe12bb4299e7e9d4a5331c',1,'maliput::api::SRange']]],
-  ['s1',['s1',['.././deps/maliput/html/classmaliput_1_1api_1_1_s_range.html#a150b08bb3546bdfd5c04372e406b9e88',1,'maliput::api::SRange']]],
+  ['s0',['s0',['.././deps/maliput/html/classmaliput_1_1api_1_1_s_range.html#a759ab75802fe12bb4299e7e9d4a5331c',1,'maliput::api::SRange::s0()'],['.././deps/maliput_malidrive/html/structmalidrive_1_1xodr_1_1_road_header.html#a759ab75802fe12bb4299e7e9d4a5331c',1,'malidrive::xodr::RoadHeader::s0()']]],
+  ['s1',['s1',['.././deps/maliput/html/classmaliput_1_1api_1_1_s_range.html#a150b08bb3546bdfd5c04372e406b9e88',1,'maliput::api::SRange::s1()'],['.././deps/maliput_malidrive/html/structmalidrive_1_1xodr_1_1_road_header.html#a150b08bb3546bdfd5c04372e406b9e88',1,'malidrive::xodr::RoadHeader::s1()']]],
   ['s_5fhat_5fof_5fprh',['s_hat_of_prh',['.././deps/maliput_multilane/html/classmaliput_1_1multilane_1_1_road_curve.html#aa9f12f8323cca3330f71b2153c41c71a',1,'maliput::multilane::RoadCurve']]],
   ['s_5fp',['s_p',['.././deps/maliput_multilane/html/classmaliput_1_1multilane_1_1_cubic_polynomial.html#a9055c565ac170f3ad7c4562f308098fc',1,'maliput::multilane::CubicPolynomial']]],
   ['s_5frange',['s_range',['.././deps/maliput/html/classmaliput_1_1api_1_1_lane_s_range.html#a69989159f96da76c75d8776062cf621d',1,'maliput::api::LaneSRange']]],

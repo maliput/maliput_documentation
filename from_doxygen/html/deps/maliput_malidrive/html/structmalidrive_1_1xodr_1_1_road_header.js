@@ -13,6 +13,8 @@ var structmalidrive_1_1xodr_1_1_road_header =
     [ "hand_traffic_rule_to_str", "structmalidrive_1_1xodr_1_1_road_header.html#adc0f68b531f96e515733aca76dc5701c", null ],
     [ "operator!=", "structmalidrive_1_1xodr_1_1_road_header.html#ab3b2571c72376d8ebbc0cf7c903209e9", null ],
     [ "operator==", "structmalidrive_1_1xodr_1_1_road_header.html#a556b594e48ed41285d36618c96280bc0", null ],
+    [ "s0", "structmalidrive_1_1xodr_1_1_road_header.html#a759ab75802fe12bb4299e7e9d4a5331c", null ],
+    [ "s1", "structmalidrive_1_1xodr_1_1_road_header.html#a150b08bb3546bdfd5c04372e406b9e88", null ],
     [ "str_to_hand_traffic_rule", "structmalidrive_1_1xodr_1_1_road_header.html#a95fc7db14ab2b433db209284e81ff888", null ],
     [ "id", "structmalidrive_1_1xodr_1_1_road_header.html#a150a709e86e7134d17cd063de6810b6c", null ],
     [ "junction", "structmalidrive_1_1xodr_1_1_road_header.html#ad8056bea378fa59f1d6927c9e8a948ec", null ],

@@ -6194,6 +6194,20 @@
       <arglist>(double s_start, double s_end) const</arglist>
     </member>
     <member kind="function">
+      <type>double</type>
+      <name>s0</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_header.html</anchorfile>
+      <anchor>a759ab75802fe12bb4299e7e9d4a5331c</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>s1</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_header.html</anchorfile>
+      <anchor>a150b08bb3546bdfd5c04372e406b9e88</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
       <type>bool</type>
       <name>operator==</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_road_header.html</anchorfile>
