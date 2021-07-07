@@ -125,7 +125,10 @@ Public Attributes</h2></td></tr>
 
 <p>When active, the parser will relaxe constraints related to xodr syntax. </p>
 <p>It will not throw upon the following conditions:</p><ul>
-<li>Junctions without connections. </li>
+<li>Junctions without connections.</li>
+<li>Functions starting at the same <code>s</code>.</li>
+<li>Functions with NaN values as coefficients starting at same <code>s</code> as the following function.</li>
+<li>Functions starting at the end of the road. </li>
 </ul>
 
 </div>
