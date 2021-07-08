@@ -1451,6 +1451,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
     <filename>road__curve__factory_8cc</filename>
     <includes id="road__curve__factory_8h" name="road_curve_factory.h" local="yes" imported="no">maliput_malidrive/builder/road_curve_factory.h</includes>
+    <includes id="constants_8h" name="constants.h" local="yes" imported="no">maliput_malidrive/constants.h</includes>
     <includes id="arc__ground__curve_8h" name="arc_ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/arc_ground_curve.h</includes>
     <includes id="cubic__polynomial_8h" name="cubic_polynomial.h" local="yes" imported="no">maliput_malidrive/road_curve/cubic_polynomial.h</includes>
     <includes id="line__ground__curve_8h" name="line_ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/line_ground_curve.h</includes>
