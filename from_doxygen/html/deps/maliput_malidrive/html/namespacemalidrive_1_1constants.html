@@ -113,7 +113,8 @@ Variables</h2></td></tr>
 <tr class="separator:a3cf414272abd576e2b9fb51eec093a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc547c57d153c67bba56929fa5a3daef"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1constants.html#abc547c57d153c67bba56929fa5a3daef">kDefaultMaxSpeedLimit</a> {40. / 3.6}</td></tr>
 <tr class="separator:abc547c57d153c67bba56929fa5a3daef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d4e86f86d35a1f2dbd8410ecf5a3aa9"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1constants.html#a2d4e86f86d35a1f2dbd8410ecf5a3aa9">kMaxToleranceSelectionRounds</a> {20}</td></tr>
+<tr class="memitem:a2d4e86f86d35a1f2dbd8410ecf5a3aa9"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1constants.html#a2d4e86f86d35a1f2dbd8410ecf5a3aa9">kMaxToleranceSelectionRounds</a> {24}</td></tr>
+<tr class="memdesc:a2d4e86f86d35a1f2dbd8410ecf5a3aa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of trials the Builder will run with different tolerances.  <a href="#a2d4e86f86d35a1f2dbd8410ecf5a3aa9">More...</a><br /></td></tr>
 <tr class="separator:a2d4e86f86d35a1f2dbd8410ecf5a3aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37a04e715c22177bb0502b41bb5b4ee0"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1constants.html#a37a04e715c22177bb0502b41bb5b4ee0">kExplorationRadius</a> {1.}</td></tr>
 <tr class="memdesc:a37a04e715c22177bb0502b41bb5b4ee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO(#701): Remove the following two constants once #701 is merged.  <a href="#a37a04e715c22177bb0502b41bb5b4ee0">More...</a><br /></td></tr>
@@ -247,7 +248,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr int kMaxToleranceSelectionRounds {20}</td>
+          <td class="memname">constexpr int kMaxToleranceSelectionRounds {24}</td>
         </tr>
       </table>
   </td>
@@ -256,6 +257,9 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Number of trials the Builder will run with different tolerances. </p>
+<p>Using default linear tolerance value it is expected that the builder tries with tolerances in a range between 0.05 and 0.49. (<code>kLinearTolerance</code> and \( kLinearTolerance*1.1^24 \)) </p>
 
 </div>
 </div>
