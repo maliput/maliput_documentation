@@ -9,21 +9,33 @@ on:
 
 env:
   PACKAGE_NAME: maliput_documentation
-  ROS_DISTRO: dashing
   ROS_WS: maliput_ws
 
 jobs:
   compile:
     name: Compile
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ubuntu: [18.04, 20.04]
+        include:
+          - ubuntu: 18.04
+            ROS_DISTRO: dashing
+          - ubuntu: 20.04
+            ROS_DISTRO: foxy
     container:
-      image: ubuntu:18.04
+      image: ubuntu:${{ matrix.ubuntu }}
+    env:
+      ROS_DISTRO: ${{ matrix.ROS_DISTRO }}
     steps:
     # setup-ros first since it installs git, which is needed to fetch all branches from actions/checkout
     - uses: ros-tooling/setup-ros@0.2.1
+      env:
+        ACTIONS_ALLOW_UNSECURE_COMMANDS: true
     # install git from ppa since git 2.18+ is needed to fetch all branches from actions/checkout
     # this step can be removed on 20.04
     - name: install git from ppa
+      if: matrix.ubuntu == '18.04'
       shell: bash
       run: |
         apt update;
@@ -112,13 +124,13 @@ jobs:
         colcon build --packages-up-to ${PACKAGE_NAME} --event-handlers=console_direct+;
     # checkout to gh-pages
     - uses: actions/checkout@v2
-      if: ${{ github.event_name == 'schedule' }}
+      if: ${{ github.event_name == 'schedule' && matrix.ubuntu == '20.04' }}
       with:
         path: ${{ env.ROS_WS }}/src/${{ env.PACKAGE_NAME }}
         ref: gh-pages
     # dump the content into gh-pages
     - name: push to gh-pages
-      if: ${{ github.event_name == 'schedule' }}
+      if: ${{ github.event_name == 'schedule' && matrix.ubuntu == '20.04' }}
       shell: bash
       working-directory: ${{ env.ROS_WS }}
       run: |
