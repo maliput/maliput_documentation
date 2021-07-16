@@ -410,7 +410,7 @@ its dependencies.
 
 .. code-block:: sh
 
-    CC=clang-8 CXX=clang++-8 colcon build --packages-up-to maliput malidrive --cmake-args ' -DCMAKE_LINKER=usr/bin/lld-8'
+    LDFLAGS="-fuse-ld=lld-8" CC=clang-8 CXX=clang++-8 colcon build --packages-up-to maliput malidrive
 
 .. _source-the-workspace:
 
