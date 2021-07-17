@@ -3,7 +3,7 @@
   <compound kind="file">
     <name>branch_point.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/src/maliput_dragway/</path>
-    <filename>branch__point_8cc</filename>
+    <filename>branch__point_8cc.html</filename>
     <includes id="branch__point_8h" name="branch_point.h" local="yes" imported="no">maliput_dragway/branch_point.h</includes>
     <includes id="lane_8h" name="lane.h" local="yes" imported="no">maliput_dragway/lane.h</includes>
     <namespace>maliput</namespace>
@@ -12,7 +12,7 @@
   <compound kind="file">
     <name>branch_point.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/include/maliput_dragway/</path>
-    <filename>branch__point_8h</filename>
+    <filename>branch__point_8h.html</filename>
     <class kind="class">maliput::dragway::LaneEndSet</class>
     <class kind="class">maliput::dragway::BranchPoint</class>
     <namespace>maliput</namespace>
@@ -21,7 +21,7 @@
   <compound kind="file">
     <name>dragway_py.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/src/bindings/</path>
-    <filename>dragway__py_8cc</filename>
+    <filename>dragway__py_8cc.html</filename>
     <includes id="road__geometry_8h" name="road_geometry.h" local="yes" imported="no">maliput_dragway/road_geometry.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::dragway</namespace>
@@ -37,7 +37,7 @@
   <compound kind="file">
     <name>fixtures.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/src/maliput_dragway_test_utilities/</path>
-    <filename>fixtures_8cc</filename>
+    <filename>fixtures_8cc.html</filename>
     <includes id="fixtures_8h" name="fixtures.h" local="yes" imported="no">maliput_dragway_test_utilities/fixtures.h</includes>
     <includes id="road__geometry_8h" name="road_geometry.h" local="yes" imported="no">maliput_dragway/road_geometry.h</includes>
     <namespace>maliput</namespace>
@@ -46,7 +46,7 @@
   <compound kind="file">
     <name>fixtures.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/include/maliput_dragway_test_utilities/</path>
-    <filename>fixtures_8h</filename>
+    <filename>fixtures_8h.html</filename>
     <includes id="road__geometry_8h" name="road_geometry.h" local="yes" imported="no">maliput_dragway/road_geometry.h</includes>
     <class kind="class">maliput::dragway::DragwayBasedTest</class>
     <namespace>maliput</namespace>
@@ -55,7 +55,7 @@
   <compound kind="file">
     <name>junction.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/src/maliput_dragway/</path>
-    <filename>junction_8cc</filename>
+    <filename>junction_8cc.html</filename>
     <includes id="junction_8h" name="junction.h" local="yes" imported="no">maliput_dragway/junction.h</includes>
     <includes id="road__geometry_8h" name="road_geometry.h" local="yes" imported="no">maliput_dragway/road_geometry.h</includes>
     <includes id="segment_8h" name="segment.h" local="yes" imported="no">maliput_dragway/segment.h</includes>
@@ -65,7 +65,7 @@
   <compound kind="file">
     <name>junction.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/include/maliput_dragway/</path>
-    <filename>junction_8h</filename>
+    <filename>junction_8h.html</filename>
     <includes id="segment_8h" name="segment.h" local="yes" imported="no">maliput_dragway/segment.h</includes>
     <class kind="class">maliput::dragway::Junction</class>
     <namespace>maliput</namespace>
@@ -74,7 +74,7 @@
   <compound kind="file">
     <name>lane.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/src/maliput_dragway/</path>
-    <filename>lane_8cc</filename>
+    <filename>lane_8cc.html</filename>
     <includes id="lane_8h" name="lane.h" local="yes" imported="no">maliput_dragway/lane.h</includes>
     <includes id="branch__point_8h" name="branch_point.h" local="yes" imported="no">maliput_dragway/branch_point.h</includes>
     <includes id="road__geometry_8h" name="road_geometry.h" local="yes" imported="no">maliput_dragway/road_geometry.h</includes>
@@ -85,7 +85,7 @@
   <compound kind="file">
     <name>lane.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/include/maliput_dragway/</path>
-    <filename>lane_8h</filename>
+    <filename>lane_8h.html</filename>
     <class kind="class">maliput::dragway::Lane</class>
     <namespace>maliput</namespace>
     <namespace>maliput::dragway</namespace>
@@ -93,7 +93,7 @@
   <compound kind="file">
     <name>road_geometry.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/src/maliput_dragway/</path>
-    <filename>road__geometry_8cc</filename>
+    <filename>road__geometry_8cc.html</filename>
     <includes id="road__geometry_8h" name="road_geometry.h" local="yes" imported="no">maliput_dragway/road_geometry.h</includes>
     <includes id="branch__point_8h" name="branch_point.h" local="yes" imported="no">maliput_dragway/branch_point.h</includes>
     <includes id="junction_8h" name="junction.h" local="yes" imported="no">maliput_dragway/junction.h</includes>
@@ -103,7 +103,7 @@
   <compound kind="file">
     <name>road_geometry.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/include/maliput_dragway/</path>
-    <filename>road__geometry_8h</filename>
+    <filename>road__geometry_8h.html</filename>
     <includes id="branch__point_8h" name="branch_point.h" local="yes" imported="no">maliput_dragway/branch_point.h</includes>
     <includes id="junction_8h" name="junction.h" local="yes" imported="no">maliput_dragway/junction.h</includes>
     <class kind="class">maliput::dragway::RoadGeometry</class>
@@ -113,7 +113,7 @@
   <compound kind="file">
     <name>road_network.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/src/plugin/</path>
-    <filename>road__network_8cc</filename>
+    <filename>road__network_8cc.html</filename>
     <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_dragway/road_network_builder.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::dragway</namespace>
@@ -129,7 +129,7 @@
   <compound kind="file">
     <name>road_network_builder.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/src/maliput_dragway/</path>
-    <filename>road__network__builder_8cc</filename>
+    <filename>road__network__builder_8cc.html</filename>
     <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_dragway/road_network_builder.h</includes>
     <includes id="road__geometry_8h" name="road_geometry.h" local="yes" imported="no">maliput_dragway/road_geometry.h</includes>
     <namespace>maliput</namespace>
@@ -145,7 +145,7 @@
   <compound kind="file">
     <name>road_network_builder.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/include/maliput_dragway/</path>
-    <filename>road__network__builder_8h</filename>
+    <filename>road__network__builder_8h.html</filename>
     <class kind="struct">maliput::dragway::RoadGeometryConfiguration</class>
     <namespace>maliput</namespace>
     <namespace>maliput::dragway</namespace>
@@ -160,7 +160,7 @@
   <compound kind="file">
     <name>segment.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/src/maliput_dragway/</path>
-    <filename>segment_8cc</filename>
+    <filename>segment_8cc.html</filename>
     <includes id="segment_8h" name="segment.h" local="yes" imported="no">maliput_dragway/segment.h</includes>
     <includes id="junction_8h" name="junction.h" local="yes" imported="no">maliput_dragway/junction.h</includes>
     <includes id="lane_8h" name="lane.h" local="yes" imported="no">maliput_dragway/lane.h</includes>
@@ -170,7 +170,7 @@
   <compound kind="file">
     <name>segment.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/include/maliput_dragway/</path>
-    <filename>segment_8h</filename>
+    <filename>segment_8h.html</filename>
     <includes id="lane_8h" name="lane.h" local="yes" imported="no">maliput_dragway/lane.h</includes>
     <class kind="class">maliput::dragway::Segment</class>
     <namespace>maliput</namespace>

@@ -1,11 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"road__curve_8h.html#a9f1bdafa1bee33c155f083a58b0a82f0a6b377165120b706cf23b37af6310d961":[3,0,29,2,1],
-"road__geometry_8cc.html":[3,0,30],
-"road__geometry_8h.html":[3,0,31],
-"road__network_8cc.html":[3,0,32],
-"road__network_8cc.html#aea6174995936559d92c4bc30a436aa09":[3,0,32,0],
-"road__network__builder_8cc.html":[3,0,33],
 "road__network__builder_8cc.html#ae1b480b5839f0d20513d52d9becee154":[3,0,33,0],
 "road__network__builder_8h.html":[3,0,34],
 "road__network__builder_8h.html#ae1b480b5839f0d20513d52d9becee154":[3,0,34,1],

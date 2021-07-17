@@ -3,7 +3,7 @@
   <compound kind="file">
     <name>assertion_error.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/common/</path>
-    <filename>assertion__error_8h</filename>
+    <filename>assertion__error_8h.html</filename>
     <class kind="class">maliput::common::assertion_error</class>
     <namespace>maliput</namespace>
     <namespace>maliput::common</namespace>
@@ -11,7 +11,7 @@
   <compound kind="file">
     <name>basic_id_index.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/api/</path>
-    <filename>basic__id__index_8cc</filename>
+    <filename>basic__id__index_8cc.html</filename>
     <includes id="basic__id__index_8h" name="basic_id_index.h" local="yes" imported="no">maliput/api/basic_id_index.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <namespace>maliput</namespace>
@@ -20,7 +20,7 @@
   <compound kind="file">
     <name>basic_id_index.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/</path>
-    <filename>basic__id__index_8h</filename>
+    <filename>basic__id__index_8h.html</filename>
     <includes id="api_2branch__point_8h" name="api/branch_point.h" local="yes" imported="no">maliput/api/branch_point.h</includes>
     <includes id="api_2junction_8h" name="api/junction.h" local="yes" imported="no">maliput/api/junction.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
@@ -34,7 +34,7 @@
   <compound kind="file">
     <name>branch_point.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/geometry_base/</path>
-    <filename>branch__point_8cc</filename>
+    <filename>branch__point_8cc.html</filename>
     <includes id="geometry__base_2branch__point_8h" name="geometry_base/branch_point.h" local="yes" imported="no">maliput/geometry_base/branch_point.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <includes id="geometry__base_2lane_8h" name="geometry_base/lane.h" local="yes" imported="no">maliput/geometry_base/lane.h</includes>
@@ -44,7 +44,7 @@
   <compound kind="file">
     <name>api/branch_point.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/</path>
-    <filename>api_2branch__point_8h</filename>
+    <filename>api_2branch__point_8h.html</filename>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
     <includes id="type__specific__identifier_8h" name="type_specific_identifier.h" local="yes" imported="no">maliput/api/type_specific_identifier.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
@@ -63,7 +63,7 @@
   <compound kind="file">
     <name>geometry_base/branch_point.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/geometry_base/</path>
-    <filename>geometry__base_2branch__point_8h</filename>
+    <filename>geometry__base_2branch__point_8h.html</filename>
     <includes id="api_2branch__point_8h" name="api/branch_point.h" local="yes" imported="no">maliput/api/branch_point.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
     <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
@@ -77,7 +77,7 @@
   <compound kind="file">
     <name>brute_force_find_road_positions_strategy.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/geometry_base/</path>
-    <filename>brute__force__find__road__positions__strategy_8cc</filename>
+    <filename>brute__force__find__road__positions__strategy_8cc.html</filename>
     <includes id="brute__force__find__road__positions__strategy_8h" name="brute_force_find_road_positions_strategy.h" local="yes" imported="no">maliput/geometry_base/brute_force_find_road_positions_strategy.h</includes>
     <includes id="api_2junction_8h" name="api/junction.h" local="yes" imported="no">maliput/api/junction.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
@@ -96,7 +96,7 @@
   <compound kind="file">
     <name>brute_force_find_road_positions_strategy.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/geometry_base/</path>
-    <filename>brute__force__find__road__positions__strategy_8h</filename>
+    <filename>brute__force__find__road__positions__strategy_8h.html</filename>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
     <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
     <namespace>maliput</namespace>
@@ -112,7 +112,7 @@
   <compound kind="file">
     <name>check_id_indexing.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/test_utilities/</path>
-    <filename>check__id__indexing_8cc</filename>
+    <filename>check__id__indexing_8cc.html</filename>
     <includes id="check__id__indexing_8h" name="check_id_indexing.h" local="yes" imported="no">maliput/test_utilities/check_id_indexing.h</includes>
     <includes id="rules__test__utilities_8h" name="rules_test_utilities.h" local="yes" imported="no">maliput/test_utilities/rules_test_utilities.h</includes>
     <namespace>maliput</namespace>
@@ -138,7 +138,7 @@
   <compound kind="file">
     <name>check_id_indexing.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/test_utilities/</path>
-    <filename>check__id__indexing_8h</filename>
+    <filename>check__id__indexing_8h.html</filename>
     <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
@@ -154,7 +154,7 @@
   <compound kind="file">
     <name>derive_lane_s_routes.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/routing/</path>
-    <filename>derive__lane__s__routes_8cc</filename>
+    <filename>derive__lane__s__routes_8cc.html</filename>
     <includes id="derive__lane__s__routes_8h" name="derive_lane_s_routes.h" local="yes" imported="no">maliput/routing/derive_lane_s_routes.h</includes>
     <includes id="api_2branch__point_8h" name="api/branch_point.h" local="yes" imported="no">maliput/api/branch_point.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
@@ -173,7 +173,7 @@
   <compound kind="file">
     <name>derive_lane_s_routes.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/routing/</path>
-    <filename>derive__lane__s__routes_8h</filename>
+    <filename>derive__lane__s__routes_8h.html</filename>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <namespace>maliput</namespace>
@@ -189,7 +189,7 @@
   <compound kind="file">
     <name>direction_usage_rule.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/api/rules/</path>
-    <filename>direction__usage__rule_8cc</filename>
+    <filename>direction__usage__rule_8cc.html</filename>
     <includes id="direction__usage__rule_8h" name="direction_usage_rule.h" local="yes" imported="no">maliput/api/rules/direction_usage_rule.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
@@ -198,7 +198,7 @@
   <compound kind="file">
     <name>direction_usage_rule.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/rules/</path>
-    <filename>direction__usage__rule_8h</filename>
+    <filename>direction__usage__rule_8h.html</filename>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="type__specific__identifier_8h" name="type_specific_identifier.h" local="yes" imported="no">maliput/api/type_specific_identifier.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
@@ -212,7 +212,7 @@
   <compound kind="file">
     <name>discrete_value_rule.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/api/rules/</path>
-    <filename>discrete__value__rule_8cc</filename>
+    <filename>discrete__value__rule_8cc.html</filename>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <namespace>maliput</namespace>
@@ -222,7 +222,7 @@
   <compound kind="file">
     <name>discrete_value_rule.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/rules/</path>
-    <filename>discrete__value__rule_8h</filename>
+    <filename>discrete__value__rule_8h.html</filename>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="rule_8h" name="rule.h" local="yes" imported="no">maliput/api/rules/rule.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
@@ -235,7 +235,7 @@
   <compound kind="file">
     <name>discrete_value_rule_state_provider.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/rules/</path>
-    <filename>discrete__value__rule__state__provider_8h</filename>
+    <filename>discrete__value__rule__state__provider_8h.html</filename>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
     <includes id="rule_8h" name="rule.h" local="yes" imported="no">maliput/api/rules/rule.h</includes>
     <includes id="state__provider__result_8h" name="state_provider_result.h" local="yes" imported="no">maliput/api/rules/state_provider_result.h</includes>
@@ -248,7 +248,7 @@
   <compound kind="file">
     <name>file_utils.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/utility/</path>
-    <filename>file__utils_8cc</filename>
+    <filename>file__utils_8cc.html</filename>
     <includes id="file__utils_8h" name="file_utils.h" local="yes" imported="no">maliput/utility/file_utils.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::utility</namespace>
@@ -277,7 +277,7 @@
   <compound kind="file">
     <name>file_utils.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/utility/</path>
-    <filename>file__utils_8h</filename>
+    <filename>file__utils_8h.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::utility</namespace>
     <member kind="function">
@@ -305,7 +305,7 @@
   <compound kind="file">
     <name>filesystem.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/common/</path>
-    <filename>filesystem_8cc</filename>
+    <filename>filesystem_8cc.html</filename>
     <includes id="filesystem_8h" name="filesystem.h" local="yes" imported="no">maliput/common/filesystem.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::common</namespace>
@@ -313,7 +313,7 @@
   <compound kind="file">
     <name>filesystem.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/common/</path>
-    <filename>filesystem_8h</filename>
+    <filename>filesystem_8h.html</filename>
     <class kind="class">maliput::common::Path</class>
     <class kind="class">maliput::common::Filesystem</class>
     <namespace>maliput</namespace>
@@ -322,7 +322,7 @@
   <compound kind="file">
     <name>filter_positions.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/geometry_base/</path>
-    <filename>filter__positions_8cc</filename>
+    <filename>filter__positions_8cc.html</filename>
     <includes id="filter__positions_8h" name="filter_positions.h" local="yes" imported="no">maliput/geometry_base/filter_positions.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::geometry_base</namespace>
@@ -337,7 +337,7 @@
   <compound kind="file">
     <name>filter_positions.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/geometry_base/</path>
-    <filename>filter__positions_8h</filename>
+    <filename>filter__positions_8h.html</filename>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::geometry_base</namespace>
@@ -352,7 +352,7 @@
   <compound kind="file">
     <name>find_lane_sequences.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/routing/</path>
-    <filename>find__lane__sequences_8cc</filename>
+    <filename>find__lane__sequences_8cc.html</filename>
     <includes id="find__lane__sequences_8h" name="find_lane_sequences.h" local="yes" imported="no">maliput/routing/find_lane_sequences.h</includes>
     <includes id="api_2branch__point_8h" name="api/branch_point.h" local="yes" imported="no">maliput/api/branch_point.h</includes>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
@@ -369,7 +369,7 @@
   <compound kind="file">
     <name>find_lane_sequences.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/routing/</path>
-    <filename>find__lane__sequences_8h</filename>
+    <filename>find__lane__sequences_8h.html</filename>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::routing</namespace>
@@ -384,7 +384,7 @@
   <compound kind="file">
     <name>generate_obj.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/utilities/</path>
-    <filename>generate__obj_8cc</filename>
+    <filename>generate__obj_8cc.html</filename>
     <includes id="generate__obj_8h" name="generate_obj.h" local="yes" imported="no">maliput/utilities/generate_obj.h</includes>
     <includes id="api_2branch__point_8h" name="api/branch_point.h" local="yes" imported="no">maliput/api/branch_point.h</includes>
     <includes id="api_2junction_8h" name="api/junction.h" local="yes" imported="no">maliput/api/junction.h</includes>
@@ -472,7 +472,7 @@
   <compound kind="file">
     <name>generate_obj.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/utilities/</path>
-    <filename>generate__obj_8h</filename>
+    <filename>generate__obj_8h.html</filename>
     <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
     <includes id="road__network_8h" name="road_network.h" local="yes" imported="no">maliput/api/road_network.h</includes>
     <includes id="api_2segment_8h" name="api/segment.h" local="yes" imported="no">maliput/api/segment.h</includes>
@@ -565,7 +565,7 @@
   <compound kind="file">
     <name>generate_string.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/utilities/</path>
-    <filename>generate__string_8cc</filename>
+    <filename>generate__string_8cc.html</filename>
     <includes id="generate__string_8h" name="generate_string.h" local="yes" imported="no">maliput/utilities/generate_string.h</includes>
     <includes id="api_2junction_8h" name="api/junction.h" local="yes" imported="no">maliput/api/junction.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
@@ -605,7 +605,7 @@
   <compound kind="file">
     <name>generate_string.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/utilities/</path>
-    <filename>generate__string_8h</filename>
+    <filename>generate__string_8h.html</filename>
     <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
     <class kind="struct">maliput::utility::GenerateStringOptions</class>
     <namespace>maliput</namespace>
@@ -621,7 +621,7 @@
   <compound kind="file">
     <name>generate_urdf.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/utilities/</path>
-    <filename>generate__urdf_8cc</filename>
+    <filename>generate__urdf_8cc.html</filename>
     <includes id="generate__urdf_8h" name="generate_urdf.h" local="yes" imported="no">maliput/utilities/generate_urdf.h</includes>
     <includes id="generate__obj_8h" name="generate_obj.h" local="yes" imported="no">maliput/utilities/generate_obj.h</includes>
     <namespace>maliput</namespace>
@@ -637,7 +637,7 @@
   <compound kind="file">
     <name>generate_urdf.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/utilities/</path>
-    <filename>generate__urdf_8h</filename>
+    <filename>generate__urdf_8h.html</filename>
     <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
     <includes id="generate__obj_8h" name="generate_obj.h" local="yes" imported="no">maliput/utilities/generate_obj.h</includes>
     <namespace>maliput</namespace>
@@ -653,7 +653,7 @@
   <compound kind="file">
     <name>api/intersection.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/api/</path>
-    <filename>api_2intersection_8cc</filename>
+    <filename>api_2intersection_8cc.html</filename>
     <includes id="api_2intersection_8h" name="api/intersection.h" local="yes" imported="no">maliput/api/intersection.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
@@ -661,7 +661,7 @@
   <compound kind="file">
     <name>base/intersection.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
-    <filename>base_2intersection_8cc</filename>
+    <filename>base_2intersection_8cc.html</filename>
     <includes id="base_2intersection_8h" name="base/intersection.h" local="yes" imported="no">maliput/base/intersection.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <namespace>maliput</namespace>
@@ -669,7 +669,7 @@
   <compound kind="file">
     <name>api/intersection.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/</path>
-    <filename>api_2intersection_8h</filename>
+    <filename>api_2intersection_8h.html</filename>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="phase_8h" name="phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
     <includes id="phase__provider_8h" name="phase_provider.h" local="yes" imported="no">maliput/api/rules/phase_provider.h</includes>
@@ -683,7 +683,7 @@
   <compound kind="file">
     <name>base/intersection.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>base_2intersection_8h</filename>
+    <filename>base_2intersection_8h.html</filename>
     <includes id="api_2intersection_8h" name="api/intersection.h" local="yes" imported="no">maliput/api/intersection.h</includes>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="phase__provider_8h" name="phase_provider.h" local="yes" imported="no">maliput/api/rules/phase_provider.h</includes>
@@ -696,7 +696,7 @@
   <compound kind="file">
     <name>intersection_book.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
-    <filename>intersection__book_8cc</filename>
+    <filename>intersection__book_8cc.html</filename>
     <includes id="base_2intersection__book_8h" name="base/intersection_book.h" local="yes" imported="no">maliput/base/intersection_book.h</includes>
     <includes id="phase_8h" name="phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -705,7 +705,7 @@
   <compound kind="file">
     <name>api/intersection_book.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/</path>
-    <filename>api_2intersection__book_8h</filename>
+    <filename>api_2intersection__book_8h.html</filename>
     <includes id="api_2intersection_8h" name="api/intersection.h" local="yes" imported="no">maliput/api/intersection.h</includes>
     <includes id="traffic__lights_8h" name="traffic_lights.h" local="yes" imported="no">maliput/api/rules/traffic_lights.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
@@ -716,7 +716,7 @@
   <compound kind="file">
     <name>base/intersection_book.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>base_2intersection__book_8h</filename>
+    <filename>base_2intersection__book_8h.html</filename>
     <includes id="api_2intersection_8h" name="api/intersection.h" local="yes" imported="no">maliput/api/intersection.h</includes>
     <includes id="api_2intersection__book_8h" name="api/intersection_book.h" local="yes" imported="no">maliput/api/intersection_book.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
@@ -726,7 +726,7 @@
   <compound kind="file">
     <name>intersection_book_loader.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
-    <filename>intersection__book__loader_8cc</filename>
+    <filename>intersection__book__loader_8cc.html</filename>
     <includes id="intersection__book__loader_8h" name="intersection_book_loader.h" local="yes" imported="no">maliput/base/intersection_book_loader.h</includes>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="phase_8h" name="phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
@@ -754,7 +754,7 @@
   <compound kind="file">
     <name>intersection_book_loader.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>intersection__book__loader_8h</filename>
+    <filename>intersection__book__loader_8h.html</filename>
     <includes id="api_2intersection__book_8h" name="api/intersection_book.h" local="yes" imported="no">maliput/api/intersection_book.h</includes>
     <includes id="phase__ring__book_8h" name="phase_ring_book.h" local="yes" imported="no">maliput/api/rules/phase_ring_book.h</includes>
     <includes id="road__rulebook_8h" name="road_rulebook.h" local="yes" imported="no">maliput/api/rules/road_rulebook.h</includes>
@@ -778,7 +778,7 @@
   <compound kind="file">
     <name>junction.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/geometry_base/</path>
-    <filename>junction_8cc</filename>
+    <filename>junction_8cc.html</filename>
     <includes id="geometry__base_2junction_8h" name="geometry_base/junction.h" local="yes" imported="no">maliput/geometry_base/junction.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <namespace>maliput</namespace>
@@ -787,7 +787,7 @@
   <compound kind="file">
     <name>api/junction.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/</path>
-    <filename>api_2junction_8h</filename>
+    <filename>api_2junction_8h.html</filename>
     <includes id="type__specific__identifier_8h" name="type_specific_identifier.h" local="yes" imported="no">maliput/api/type_specific_identifier.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
     <class kind="class">maliput::api::Junction</class>
@@ -804,7 +804,7 @@
   <compound kind="file">
     <name>geometry_base/junction.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/geometry_base/</path>
-    <filename>geometry__base_2junction_8h</filename>
+    <filename>geometry__base_2junction_8h.html</filename>
     <includes id="api_2junction_8h" name="api/junction.h" local="yes" imported="no">maliput/api/junction.h</includes>
     <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
     <includes id="api_2segment_8h" name="api/segment.h" local="yes" imported="no">maliput/api/segment.h</includes>
@@ -818,7 +818,7 @@
   <compound kind="file">
     <name>api/lane.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/api/</path>
-    <filename>api_2lane_8cc</filename>
+    <filename>api_2lane_8cc.html</filename>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
     <includes id="api_2junction_8h" name="api/junction.h" local="yes" imported="no">maliput/api/junction.h</includes>
     <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
@@ -836,7 +836,7 @@
   <compound kind="file">
     <name>geometry_base/lane.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/geometry_base/</path>
-    <filename>geometry__base_2lane_8cc</filename>
+    <filename>geometry__base_2lane_8cc.html</filename>
     <includes id="geometry__base_2lane_8h" name="geometry_base/lane.h" local="yes" imported="no">maliput/geometry_base/lane.h</includes>
     <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -847,7 +847,7 @@
   <compound kind="file">
     <name>api/lane.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/</path>
-    <filename>api_2lane_8h</filename>
+    <filename>api_2lane_8h.html</filename>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
     <includes id="type__specific__identifier_8h" name="type_specific_identifier.h" local="yes" imported="no">maliput/api/type_specific_identifier.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
@@ -866,7 +866,7 @@
   <compound kind="file">
     <name>geometry_base/lane.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/geometry_base/</path>
-    <filename>geometry__base_2lane_8h</filename>
+    <filename>geometry__base_2lane_8h.html</filename>
     <includes id="api_2branch__point_8h" name="api/branch_point.h" local="yes" imported="no">maliput/api/branch_point.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
@@ -880,7 +880,7 @@
   <compound kind="file">
     <name>lane_data.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/api/</path>
-    <filename>lane__data_8cc</filename>
+    <filename>lane__data_8cc.html</filename>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
@@ -916,7 +916,7 @@
   <compound kind="file">
     <name>lane_data.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/</path>
-    <filename>lane__data_8h</filename>
+    <filename>lane__data_8h.html</filename>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <includes id="matrix_8h" name="matrix.h" local="yes" imported="no">maliput/math/matrix.h</includes>
@@ -968,7 +968,7 @@
   <compound kind="file">
     <name>lane_end_set.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/geometry_base/</path>
-    <filename>lane__end__set_8h</filename>
+    <filename>lane__end__set_8h.html</filename>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -979,7 +979,7 @@
   <compound kind="file">
     <name>logger.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/common/</path>
-    <filename>logger_8cc</filename>
+    <filename>logger_8cc.html</filename>
     <includes id="logger_8h" name="logger.h" local="yes" imported="no">maliput/common/logger.h</includes>
     <includes id="maliput__never__destroyed_8h" name="maliput_never_destroyed.h" local="yes" imported="no">maliput/common/maliput_never_destroyed.h</includes>
     <namespace>maliput</namespace>
@@ -1002,7 +1002,7 @@
   <compound kind="file">
     <name>logger.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/common/</path>
-    <filename>logger_8h</filename>
+    <filename>logger_8h.html</filename>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <class kind="class">maliput::common::SinkBase</class>
@@ -1106,7 +1106,7 @@
   <compound kind="file">
     <name>maliput_abort.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/common/</path>
-    <filename>maliput__abort_8h</filename>
+    <filename>maliput__abort_8h.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::common</namespace>
     <namespace>maliput::common::internal</namespace>
@@ -1163,7 +1163,7 @@
   <compound kind="file">
     <name>maliput_abort_and_throw.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/common/</path>
-    <filename>maliput__abort__and__throw_8cc</filename>
+    <filename>maliput__abort__and__throw_8cc.html</filename>
     <includes id="assertion__error_8h" name="assertion_error.h" local="yes" imported="no">maliput/common/assertion_error.h</includes>
     <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -1195,7 +1195,7 @@
   <compound kind="file">
     <name>maliput_copyable.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/common/</path>
-    <filename>maliput__copyable_8h</filename>
+    <filename>maliput__copyable_8h.html</filename>
     <member kind="define">
       <type>#define</type>
       <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
@@ -1228,12 +1228,12 @@
   <compound kind="file">
     <name>maliput_design.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/</path>
-    <filename>maliput__design_8h</filename>
+    <filename>maliput__design_8h.html</filename>
   </compound>
   <compound kind="file">
     <name>maliput_hash.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/common/</path>
-    <filename>maliput__hash_8h</filename>
+    <filename>maliput__hash_8h.html</filename>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <class kind="struct">maliput::common::uhash</class>
     <class kind="class">maliput::common::internal::FNV1aHasher</class>
@@ -1322,7 +1322,7 @@
   <compound kind="file">
     <name>maliput_math_compare.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/test_utilities/</path>
-    <filename>maliput__math__compare_8cc</filename>
+    <filename>maliput__math__compare_8cc.html</filename>
     <includes id="maliput__math__compare_8h" name="maliput_math_compare.h" local="yes" imported="no">maliput/test_utilities/maliput_math_compare.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::math</namespace>
@@ -1387,7 +1387,7 @@
   <compound kind="file">
     <name>maliput_math_compare.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/test_utilities/</path>
-    <filename>maliput__math__compare_8h</filename>
+    <filename>maliput__math__compare_8h.html</filename>
     <includes id="matrix_8h" name="matrix.h" local="yes" imported="no">maliput/math/matrix.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::math</namespace>
@@ -1419,7 +1419,7 @@
   <compound kind="file">
     <name>maliput_never_destroyed.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/common/</path>
-    <filename>maliput__never__destroyed_8h</filename>
+    <filename>maliput__never__destroyed_8h.html</filename>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
     <class kind="class">maliput::common::never_destroyed</class>
     <namespace>maliput</namespace>
@@ -1428,7 +1428,7 @@
   <compound kind="file">
     <name>maliput_plugin.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/plugin/</path>
-    <filename>maliput__plugin_8cc</filename>
+    <filename>maliput__plugin_8cc.html</filename>
     <includes id="maliput__plugin_8h" name="maliput_plugin.h" local="yes" imported="no">maliput/plugin/maliput_plugin.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::plugin</namespace>
@@ -1436,7 +1436,7 @@
   <compound kind="file">
     <name>maliput_plugin.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/plugin/</path>
-    <filename>maliput__plugin_8h</filename>
+    <filename>maliput__plugin_8h.html</filename>
     <includes id="type__specific__identifier_8h" name="type_specific_identifier.h" local="yes" imported="no">maliput/api/type_specific_identifier.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
     <includes id="maliput__plugin__type_8h" name="maliput_plugin_type.h" local="yes" imported="no">maliput/plugin/maliput_plugin_type.h</includes>
@@ -1447,7 +1447,7 @@
   <compound kind="file">
     <name>maliput_plugin_manager.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/plugin/</path>
-    <filename>maliput__plugin__manager_8cc</filename>
+    <filename>maliput__plugin__manager_8cc.html</filename>
     <includes id="maliput__plugin__manager_8h" name="maliput_plugin_manager.h" local="yes" imported="no">maliput/plugin/maliput_plugin_manager.h</includes>
     <includes id="logger_8h" name="logger.h" local="yes" imported="no">maliput/common/logger.h</includes>
     <includes id="file__utils_8h" name="file_utils.h" local="yes" imported="no">maliput/utility/file_utils.h</includes>
@@ -1457,7 +1457,7 @@
   <compound kind="file">
     <name>maliput_plugin_manager.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/plugin/</path>
-    <filename>maliput__plugin__manager_8h</filename>
+    <filename>maliput__plugin__manager_8h.html</filename>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
     <includes id="maliput__plugin_8h" name="maliput_plugin.h" local="yes" imported="no">maliput/plugin/maliput_plugin.h</includes>
     <class kind="class">maliput::plugin::MaliputPluginManager</class>
@@ -1467,7 +1467,7 @@
   <compound kind="file">
     <name>maliput_plugin_type.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/plugin/</path>
-    <filename>maliput__plugin__type_8h</filename>
+    <filename>maliput__plugin__type_8h.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::plugin</namespace>
     <member kind="enumeration">
@@ -1487,7 +1487,7 @@
   <compound kind="file">
     <name>maliput_throw.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/common/</path>
-    <filename>maliput__throw_8h</filename>
+    <filename>maliput__throw_8h.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::common</namespace>
     <namespace>maliput::common::internal</namespace>
@@ -1523,7 +1523,7 @@
   <compound kind="file">
     <name>maliput_types_compare.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/test_utilities/</path>
-    <filename>maliput__types__compare_8cc</filename>
+    <filename>maliput__types__compare_8cc.html</filename>
     <includes id="maliput__types__compare_8h" name="maliput_types_compare.h" local="yes" imported="no">maliput/test_utilities/maliput_types_compare.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
@@ -1567,7 +1567,7 @@
   <compound kind="file">
     <name>maliput_types_compare.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/test_utilities/</path>
-    <filename>maliput__types__compare_8h</filename>
+    <filename>maliput__types__compare_8h.html</filename>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
@@ -1611,7 +1611,7 @@
   <compound kind="file">
     <name>maliput_unused.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/common/</path>
-    <filename>maliput__unused_8h</filename>
+    <filename>maliput__unused_8h.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::common</namespace>
     <member kind="function">
@@ -1625,14 +1625,14 @@
   <compound kind="file">
     <name>manual_discrete_value_rule_state_provider.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
-    <filename>manual__discrete__value__rule__state__provider_8cc</filename>
+    <filename>manual__discrete__value__rule__state__provider_8cc.html</filename>
     <includes id="manual__discrete__value__rule__state__provider_8h" name="manual_discrete_value_rule_state_provider.h" local="yes" imported="no">maliput/base/manual_discrete_value_rule_state_provider.h</includes>
     <namespace>maliput</namespace>
   </compound>
   <compound kind="file">
     <name>manual_discrete_value_rule_state_provider.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>manual__discrete__value__rule__state__provider_8h</filename>
+    <filename>manual__discrete__value__rule__state__provider_8h.html</filename>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
     <includes id="discrete__value__rule__state__provider_8h" name="discrete_value_rule_state_provider.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule_state_provider.h</includes>
     <includes id="road__rulebook_8h" name="road_rulebook.h" local="yes" imported="no">maliput/api/rules/road_rulebook.h</includes>
@@ -1645,7 +1645,7 @@
   <compound kind="file">
     <name>manual_phase_provider.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
-    <filename>manual__phase__provider_8cc</filename>
+    <filename>manual__phase__provider_8cc.html</filename>
     <includes id="manual__phase__provider_8h" name="manual_phase_provider.h" local="yes" imported="no">maliput/base/manual_phase_provider.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <namespace>maliput</namespace>
@@ -1653,7 +1653,7 @@
   <compound kind="file">
     <name>manual_phase_provider.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>manual__phase__provider_8h</filename>
+    <filename>manual__phase__provider_8h.html</filename>
     <includes id="phase_8h" name="phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
     <includes id="phase__provider_8h" name="phase_provider.h" local="yes" imported="no">maliput/api/rules/phase_provider.h</includes>
     <includes id="phase__ring_8h" name="phase_ring.h" local="yes" imported="no">maliput/api/rules/phase_ring.h</includes>
@@ -1664,7 +1664,7 @@
   <compound kind="file">
     <name>manual_phase_ring_book.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
-    <filename>manual__phase__ring__book_8cc</filename>
+    <filename>manual__phase__ring__book_8cc.html</filename>
     <includes id="manual__phase__ring__book_8h" name="manual_phase_ring_book.h" local="yes" imported="no">maliput/base/manual_phase_ring_book.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <namespace>maliput</namespace>
@@ -1672,7 +1672,7 @@
   <compound kind="file">
     <name>manual_phase_ring_book.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>manual__phase__ring__book_8h</filename>
+    <filename>manual__phase__ring__book_8h.html</filename>
     <includes id="phase__ring_8h" name="phase_ring.h" local="yes" imported="no">maliput/api/rules/phase_ring.h</includes>
     <includes id="phase__ring__book_8h" name="phase_ring_book.h" local="yes" imported="no">maliput/api/rules/phase_ring_book.h</includes>
     <includes id="right__of__way__rule_8h" name="right_of_way_rule.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule.h</includes>
@@ -1684,14 +1684,14 @@
   <compound kind="file">
     <name>manual_range_value_rule_state_provider.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
-    <filename>manual__range__value__rule__state__provider_8cc</filename>
+    <filename>manual__range__value__rule__state__provider_8cc.html</filename>
     <includes id="manual__range__value__rule__state__provider_8h" name="manual_range_value_rule_state_provider.h" local="yes" imported="no">maliput/base/manual_range_value_rule_state_provider.h</includes>
     <namespace>maliput</namespace>
   </compound>
   <compound kind="file">
     <name>manual_range_value_rule_state_provider.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>manual__range__value__rule__state__provider_8h</filename>
+    <filename>manual__range__value__rule__state__provider_8h.html</filename>
     <includes id="range__value__rule_8h" name="range_value_rule.h" local="yes" imported="no">maliput/api/rules/range_value_rule.h</includes>
     <includes id="range__value__rule__state__provider_8h" name="range_value_rule_state_provider.h" local="yes" imported="no">maliput/api/rules/range_value_rule_state_provider.h</includes>
     <includes id="road__rulebook_8h" name="road_rulebook.h" local="yes" imported="no">maliput/api/rules/road_rulebook.h</includes>
@@ -1704,14 +1704,14 @@
   <compound kind="file">
     <name>manual_right_of_way_rule_state_provider.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
-    <filename>manual__right__of__way__rule__state__provider_8cc</filename>
+    <filename>manual__right__of__way__rule__state__provider_8cc.html</filename>
     <includes id="manual__right__of__way__rule__state__provider_8h" name="manual_right_of_way_rule_state_provider.h" local="yes" imported="no">maliput/base/manual_right_of_way_rule_state_provider.h</includes>
     <namespace>maliput</namespace>
   </compound>
   <compound kind="file">
     <name>manual_right_of_way_rule_state_provider.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>manual__right__of__way__rule__state__provider_8h</filename>
+    <filename>manual__right__of__way__rule__state__provider_8h.html</filename>
     <includes id="right__of__way__rule_8h" name="right_of_way_rule.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule.h</includes>
     <includes id="right__of__way__rule__state__provider_8h" name="right_of_way_rule_state_provider.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule_state_provider.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
@@ -1721,7 +1721,7 @@
   <compound kind="file">
     <name>manual_rulebook.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
-    <filename>manual__rulebook_8cc</filename>
+    <filename>manual__rulebook_8cc.html</filename>
     <includes id="manual__rulebook_8h" name="manual_rulebook.h" local="yes" imported="no">maliput/base/manual_rulebook.h</includes>
     <includes id="rule_8h" name="rule.h" local="yes" imported="no">maliput/api/rules/rule.h</includes>
     <includes id="maliput__hash_8h" name="maliput_hash.h" local="yes" imported="no">maliput/common/maliput_hash.h</includes>
@@ -1745,7 +1745,7 @@
   <compound kind="file">
     <name>manual_rulebook.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>manual__rulebook_8h</filename>
+    <filename>manual__rulebook_8h.html</filename>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="direction__usage__rule_8h" name="direction_usage_rule.h" local="yes" imported="no">maliput/api/rules/direction_usage_rule.h</includes>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
@@ -1760,14 +1760,14 @@
   <compound kind="file">
     <name>math.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/math/</path>
-    <filename>math_8h</filename>
+    <filename>math_8h.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::math</namespace>
   </compound>
   <compound kind="file">
     <name>matrix.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/math/</path>
-    <filename>matrix_8cc</filename>
+    <filename>matrix_8cc.html</filename>
     <includes id="matrix_8h" name="matrix.h" local="yes" imported="no">maliput/math/matrix.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <namespace>maliput</namespace>
@@ -1888,7 +1888,7 @@
   <compound kind="file">
     <name>matrix.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/math/</path>
-    <filename>matrix_8h</filename>
+    <filename>matrix_8h.html</filename>
     <includes id="vector_8h" name="vector.h" local="yes" imported="no">maliput/math/vector.h</includes>
     <class kind="class">maliput::math::Matrix</class>
     <namespace>maliput</namespace>
@@ -1925,7 +1925,7 @@
   <compound kind="file">
     <name>mesh.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/utilities/</path>
-    <filename>mesh_8h</filename>
+    <filename>mesh_8h.html</filename>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
     <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
     <includes id="maliput__hash_8h" name="maliput_hash.h" local="yes" imported="no">maliput/common/maliput_hash.h</includes>
@@ -1946,7 +1946,7 @@
   <compound kind="file">
     <name>mesh_simplification.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/utilities/</path>
-    <filename>mesh__simplification_8cc</filename>
+    <filename>mesh__simplification_8cc.html</filename>
     <includes id="mesh__simplification_8h" name="mesh_simplification.h" local="yes" imported="no">maliput/utilities/mesh_simplification.h</includes>
     <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
     <namespace>maliput</namespace>
@@ -2061,7 +2061,7 @@
   <compound kind="file">
     <name>mesh_simplification.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/utilities/</path>
-    <filename>mesh__simplification_8h</filename>
+    <filename>mesh__simplification_8h.html</filename>
     <includes id="maliput__hash_8h" name="maliput_hash.h" local="yes" imported="no">maliput/common/maliput_hash.h</includes>
     <includes id="vector_8h" name="vector.h" local="yes" imported="no">maliput/math/vector.h</includes>
     <includes id="mesh_8h" name="mesh.h" local="yes" imported="no">maliput/utilities/mesh.h</includes>
@@ -2243,7 +2243,7 @@
   <compound kind="file">
     <name>mock.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/test_utilities/</path>
-    <filename>mock_8cc</filename>
+    <filename>mock_8cc.html</filename>
     <includes id="mock_8h" name="mock.h" local="yes" imported="no">maliput/test_utilities/mock.h</includes>
     <includes id="api_2branch__point_8h" name="api/branch_point.h" local="yes" imported="no">maliput/api/branch_point.h</includes>
     <includes id="api_2intersection_8h" name="api/intersection.h" local="yes" imported="no">maliput/api/intersection.h</includes>
@@ -2450,8 +2450,8 @@
       <type>std::unique_ptr&lt; RoadGeometry &gt;</type>
       <name>CreateMultipleLanesRoadGeometry</name>
       <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>aeefad1a15e3b75fb9b9be095cdb52b07</anchor>
-      <arglist>(const std::vector&lt; Lane *&gt; &amp;lanes)</arglist>
+      <anchor>acb850383540320ccf001ff91e0e78f36</anchor>
+      <arglist>(const std::vector&lt; Lane * &gt; &amp;lanes)</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; RoadGeometry &gt;</type>
@@ -2611,7 +2611,7 @@
   <compound kind="file">
     <name>mock.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/test_utilities/</path>
-    <filename>mock_8h</filename>
+    <filename>mock_8h.html</filename>
     <includes id="api_2intersection__book_8h" name="api/intersection_book.h" local="yes" imported="no">maliput/api/intersection_book.h</includes>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
@@ -2975,7 +2975,7 @@
   <compound kind="file">
     <name>mock_geometry.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/test_utilities/</path>
-    <filename>mock__geometry_8cc</filename>
+    <filename>mock__geometry_8cc.html</filename>
     <includes id="mock__geometry_8h" name="mock_geometry.h" local="yes" imported="no">maliput/test_utilities/mock_geometry.h</includes>
     <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -2986,7 +2986,7 @@
   <compound kind="file">
     <name>mock_geometry.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/test_utilities/</path>
-    <filename>mock__geometry_8h</filename>
+    <filename>mock__geometry_8h.html</filename>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
     <includes id="geometry__base_2branch__point_8h" name="geometry_base/branch_point.h" local="yes" imported="no">maliput/geometry_base/branch_point.h</includes>
@@ -3007,7 +3007,7 @@
   <compound kind="file">
     <name>passkey.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/common/</path>
-    <filename>passkey_8h</filename>
+    <filename>passkey_8h.html</filename>
     <class kind="class">maliput::common::Passkey</class>
     <namespace>maliput</namespace>
     <namespace>maliput::common</namespace>
@@ -3015,7 +3015,7 @@
   <compound kind="file">
     <name>phase.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/api/rules/</path>
-    <filename>phase_8cc</filename>
+    <filename>phase_8cc.html</filename>
     <includes id="phase_8h" name="phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
@@ -3024,7 +3024,7 @@
   <compound kind="file">
     <name>phase.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/rules/</path>
-    <filename>phase_8h</filename>
+    <filename>phase_8h.html</filename>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
     <includes id="right__of__way__rule_8h" name="right_of_way_rule.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule.h</includes>
     <includes id="rule_8h" name="rule.h" local="yes" imported="no">maliput/api/rules/rule.h</includes>
@@ -3060,7 +3060,7 @@
   <compound kind="file">
     <name>phase_based_right_of_way_discrete_value_rule_state_provider.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
-    <filename>phase__based__right__of__way__discrete__value__rule__state__provider_8cc</filename>
+    <filename>phase__based__right__of__way__discrete__value__rule__state__provider_8cc.html</filename>
     <includes id="phase__based__right__of__way__discrete__value__rule__state__provider_8h" name="phase_based_right_of_way_discrete_value_rule_state_provider.h" local="yes" imported="no">maliput/base/phase_based_right_of_way_discrete_value_rule_state_provider.h</includes>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
     <includes id="phase_8h" name="phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
@@ -3071,7 +3071,7 @@
   <compound kind="file">
     <name>phase_based_right_of_way_discrete_value_rule_state_provider.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>phase__based__right__of__way__discrete__value__rule__state__provider_8h</filename>
+    <filename>phase__based__right__of__way__discrete__value__rule__state__provider_8h.html</filename>
     <includes id="discrete__value__rule__state__provider_8h" name="discrete_value_rule_state_provider.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule_state_provider.h</includes>
     <includes id="phase__provider_8h" name="phase_provider.h" local="yes" imported="no">maliput/api/rules/phase_provider.h</includes>
     <includes id="phase__ring__book_8h" name="phase_ring_book.h" local="yes" imported="no">maliput/api/rules/phase_ring_book.h</includes>
@@ -3085,7 +3085,7 @@
   <compound kind="file">
     <name>phase_based_right_of_way_rule_state_provider.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
-    <filename>phase__based__right__of__way__rule__state__provider_8cc</filename>
+    <filename>phase__based__right__of__way__rule__state__provider_8cc.html</filename>
     <includes id="phase__based__right__of__way__rule__state__provider_8h" name="phase_based_right_of_way_rule_state_provider.h" local="yes" imported="no">maliput/base/phase_based_right_of_way_rule_state_provider.h</includes>
     <includes id="phase_8h" name="phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
     <includes id="phase__ring_8h" name="phase_ring.h" local="yes" imported="no">maliput/api/rules/phase_ring.h</includes>
@@ -3095,7 +3095,7 @@
   <compound kind="file">
     <name>phase_based_right_of_way_rule_state_provider.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>phase__based__right__of__way__rule__state__provider_8h</filename>
+    <filename>phase__based__right__of__way__rule__state__provider_8h.html</filename>
     <includes id="phase__provider_8h" name="phase_provider.h" local="yes" imported="no">maliput/api/rules/phase_provider.h</includes>
     <includes id="phase__ring__book_8h" name="phase_ring_book.h" local="yes" imported="no">maliput/api/rules/phase_ring_book.h</includes>
     <includes id="right__of__way__rule_8h" name="right_of_way_rule.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule.h</includes>
@@ -3107,7 +3107,7 @@
   <compound kind="file">
     <name>phase_provider.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/rules/</path>
-    <filename>phase__provider_8h</filename>
+    <filename>phase__provider_8h.html</filename>
     <includes id="phase_8h" name="phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
     <includes id="phase__ring_8h" name="phase_ring.h" local="yes" imported="no">maliput/api/rules/phase_ring.h</includes>
     <includes id="state__provider__result_8h" name="state_provider_result.h" local="yes" imported="no">maliput/api/rules/state_provider_result.h</includes>
@@ -3120,7 +3120,7 @@
   <compound kind="file">
     <name>phase_ring.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/api/rules/</path>
-    <filename>phase__ring_8cc</filename>
+    <filename>phase__ring_8cc.html</filename>
     <includes id="phase__ring_8h" name="phase_ring.h" local="yes" imported="no">maliput/api/rules/phase_ring.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <namespace>maliput</namespace>
@@ -3130,7 +3130,7 @@
   <compound kind="file">
     <name>phase_ring.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/rules/</path>
-    <filename>phase__ring_8h</filename>
+    <filename>phase__ring_8h.html</filename>
     <includes id="phase_8h" name="phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
     <includes id="type__specific__identifier_8h" name="type_specific_identifier.h" local="yes" imported="no">maliput/api/type_specific_identifier.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
@@ -3143,7 +3143,7 @@
   <compound kind="file">
     <name>phase_ring_book.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/rules/</path>
-    <filename>phase__ring__book_8h</filename>
+    <filename>phase__ring__book_8h.html</filename>
     <includes id="phase__ring_8h" name="phase_ring.h" local="yes" imported="no">maliput/api/rules/phase_ring.h</includes>
     <includes id="right__of__way__rule_8h" name="right_of_way_rule.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule.h</includes>
     <includes id="rule_8h" name="rule.h" local="yes" imported="no">maliput/api/rules/rule.h</includes>
@@ -3156,7 +3156,7 @@
   <compound kind="file">
     <name>phase_ring_book_loader.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
-    <filename>phase__ring__book__loader_8cc</filename>
+    <filename>phase__ring__book__loader_8cc.html</filename>
     <includes id="phase__ring__book__loader_8h" name="phase_ring_book_loader.h" local="yes" imported="no">maliput/base/phase_ring_book_loader.h</includes>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
@@ -3189,7 +3189,7 @@
   <compound kind="file">
     <name>phase_ring_book_loader.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>phase__ring__book__loader_8h</filename>
+    <filename>phase__ring__book__loader_8h.html</filename>
     <includes id="phase__ring__book_8h" name="phase_ring_book.h" local="yes" imported="no">maliput/api/rules/phase_ring_book.h</includes>
     <includes id="road__rulebook_8h" name="road_rulebook.h" local="yes" imported="no">maliput/api/rules/road_rulebook.h</includes>
     <includes id="api_2rules_2traffic__light__book_8h" name="api/rules/traffic_light_book.h" local="yes" imported="no">maliput/api/rules/traffic_light_book.h</includes>
@@ -3212,7 +3212,7 @@
   <compound kind="file">
     <name>phases_compare.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/test_utilities/</path>
-    <filename>phases__compare_8cc</filename>
+    <filename>phases__compare_8cc.html</filename>
     <includes id="phases__compare_8h" name="phases_compare.h" local="yes" imported="no">maliput/test_utilities/phases_compare.h</includes>
     <includes id="maliput__unused_8h" name="maliput_unused.h" local="yes" imported="no">maliput/common/maliput_unused.h</includes>
     <includes id="rules__compare_8h" name="rules_compare.h" local="yes" imported="no">maliput/test_utilities/rules_compare.h</includes>
@@ -3261,7 +3261,7 @@
   <compound kind="file">
     <name>phases_compare.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/test_utilities/</path>
-    <filename>phases__compare_8h</filename>
+    <filename>phases__compare_8h.html</filename>
     <includes id="phase_8h" name="phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
     <includes id="phase__ring_8h" name="phase_ring.h" local="yes" imported="no">maliput/api/rules/phase_ring.h</includes>
     <includes id="traffic__lights_8h" name="traffic_lights.h" local="yes" imported="no">maliput/api/rules/traffic_lights.h</includes>
@@ -3308,7 +3308,7 @@
   <compound kind="file">
     <name>quaternion.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/math/</path>
-    <filename>quaternion_8cc</filename>
+    <filename>quaternion_8cc.html</filename>
     <includes id="quaternion_8h" name="quaternion.h" local="yes" imported="no">maliput/math/quaternion.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::math</namespace>
@@ -3323,7 +3323,7 @@
   <compound kind="file">
     <name>quaternion.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/math/</path>
-    <filename>quaternion_8h</filename>
+    <filename>quaternion_8h.html</filename>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
     <includes id="matrix_8h" name="matrix.h" local="yes" imported="no">maliput/math/matrix.h</includes>
     <includes id="vector_8h" name="vector.h" local="yes" imported="no">maliput/math/vector.h</includes>
@@ -3341,7 +3341,7 @@
   <compound kind="file">
     <name>range_value_rule.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/api/rules/</path>
-    <filename>range__value__rule_8cc</filename>
+    <filename>range__value__rule_8cc.html</filename>
     <includes id="range__value__rule_8h" name="range_value_rule.h" local="yes" imported="no">maliput/api/rules/range_value_rule.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <namespace>maliput</namespace>
@@ -3351,7 +3351,7 @@
   <compound kind="file">
     <name>range_value_rule.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/rules/</path>
-    <filename>range__value__rule_8h</filename>
+    <filename>range__value__rule_8h.html</filename>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="rule_8h" name="rule.h" local="yes" imported="no">maliput/api/rules/rule.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
@@ -3364,7 +3364,7 @@
   <compound kind="file">
     <name>range_value_rule_state_provider.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/rules/</path>
-    <filename>range__value__rule__state__provider_8h</filename>
+    <filename>range__value__rule__state__provider_8h.html</filename>
     <includes id="range__value__rule_8h" name="range_value_rule.h" local="yes" imported="no">maliput/api/rules/range_value_rule.h</includes>
     <includes id="rule_8h" name="rule.h" local="yes" imported="no">maliput/api/rules/rule.h</includes>
     <includes id="state__provider__result_8h" name="state_provider_result.h" local="yes" imported="no">maliput/api/rules/state_provider_result.h</includes>
@@ -3377,7 +3377,7 @@
   <compound kind="file">
     <name>regions.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/api/</path>
-    <filename>regions_8cc</filename>
+    <filename>regions_8cc.html</filename>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
@@ -3402,7 +3402,7 @@
   <compound kind="file">
     <name>regions.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/</path>
-    <filename>regions_8h</filename>
+    <filename>regions_8h.html</filename>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
     <includes id="type__specific__identifier_8h" name="type_specific_identifier.h" local="yes" imported="no">maliput/api/type_specific_identifier.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
@@ -3429,7 +3429,7 @@
   <compound kind="file">
     <name>regions_test_utilities.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/test_utilities/</path>
-    <filename>regions__test__utilities_8h</filename>
+    <filename>regions__test__utilities_8h.html</filename>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="maliput__unused_8h" name="maliput_unused.h" local="yes" imported="no">maliput/common/maliput_unused.h</includes>
     <includes id="rules__test__utilities_8h" name="rules_test_utilities.h" local="yes" imported="no">maliput/test_utilities/rules_test_utilities.h</includes>
@@ -3475,7 +3475,7 @@
   <compound kind="file">
     <name>right_of_way_rule.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/rules/</path>
-    <filename>right__of__way__rule_8h</filename>
+    <filename>right__of__way__rule_8h.html</filename>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="traffic__lights_8h" name="traffic_lights.h" local="yes" imported="no">maliput/api/rules/traffic_lights.h</includes>
     <includes id="type__specific__identifier_8h" name="type_specific_identifier.h" local="yes" imported="no">maliput/api/type_specific_identifier.h</includes>
@@ -3490,7 +3490,7 @@
   <compound kind="file">
     <name>right_of_way_rule_state_provider.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/rules/</path>
-    <filename>right__of__way__rule__state__provider_8h</filename>
+    <filename>right__of__way__rule__state__provider_8h.html</filename>
     <includes id="right__of__way__rule_8h" name="right_of_way_rule.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule.h</includes>
     <includes id="state__provider__result_8h" name="state_provider_result.h" local="yes" imported="no">maliput/api/rules/state_provider_result.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
@@ -3502,7 +3502,7 @@
   <compound kind="file">
     <name>api/road_geometry.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/api/</path>
-    <filename>api_2road__geometry_8cc</filename>
+    <filename>api_2road__geometry_8cc.html</filename>
     <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
     <includes id="api_2branch__point_8h" name="api/branch_point.h" local="yes" imported="no">maliput/api/branch_point.h</includes>
     <includes id="api_2junction_8h" name="api/junction.h" local="yes" imported="no">maliput/api/junction.h</includes>
@@ -3517,7 +3517,7 @@
   <compound kind="file">
     <name>geometry_base/road_geometry.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/geometry_base/</path>
-    <filename>geometry__base_2road__geometry_8cc</filename>
+    <filename>geometry__base_2road__geometry_8cc.html</filename>
     <includes id="geometry__base_2road__geometry_8h" name="geometry_base/road_geometry.h" local="yes" imported="no">maliput/geometry_base/road_geometry.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
@@ -3528,7 +3528,7 @@
   <compound kind="file">
     <name>api/road_geometry.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/</path>
-    <filename>api_2road__geometry_8h</filename>
+    <filename>api_2road__geometry_8h.html</filename>
     <includes id="api_2branch__point_8h" name="api/branch_point.h" local="yes" imported="no">maliput/api/branch_point.h</includes>
     <includes id="api_2junction_8h" name="api/junction.h" local="yes" imported="no">maliput/api/junction.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
@@ -3554,7 +3554,7 @@
   <compound kind="file">
     <name>geometry_base/road_geometry.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/geometry_base/</path>
-    <filename>geometry__base_2road__geometry_8h</filename>
+    <filename>geometry__base_2road__geometry_8h.html</filename>
     <includes id="basic__id__index_8h" name="basic_id_index.h" local="yes" imported="no">maliput/api/basic_id_index.h</includes>
     <includes id="api_2branch__point_8h" name="api/branch_point.h" local="yes" imported="no">maliput/api/branch_point.h</includes>
     <includes id="api_2junction_8h" name="api/junction.h" local="yes" imported="no">maliput/api/junction.h</includes>
@@ -3571,7 +3571,7 @@
   <compound kind="file">
     <name>road_network.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/api/</path>
-    <filename>road__network_8cc</filename>
+    <filename>road__network_8cc.html</filename>
     <includes id="road__network_8h" name="road_network.h" local="yes" imported="no">maliput/api/road_network.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
@@ -3582,7 +3582,7 @@
   <compound kind="file">
     <name>road_network.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/</path>
-    <filename>road__network_8h</filename>
+    <filename>road__network_8h.html</filename>
     <includes id="api_2intersection__book_8h" name="api/intersection_book.h" local="yes" imported="no">maliput/api/intersection_book.h</includes>
     <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
     <includes id="direction__usage__rule_8h" name="direction_usage_rule.h" local="yes" imported="no">maliput/api/rules/direction_usage_rule.h</includes>
@@ -3603,7 +3603,7 @@
   <compound kind="file">
     <name>road_network_loader.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/plugin/</path>
-    <filename>road__network__loader_8h</filename>
+    <filename>road__network__loader_8h.html</filename>
     <includes id="road__network_8h" name="road_network.h" local="yes" imported="no">maliput/api/road_network.h</includes>
     <includes id="maliput__plugin__type_8h" name="maliput_plugin_type.h" local="yes" imported="no">maliput/plugin/maliput_plugin_type.h</includes>
     <class kind="class">maliput::plugin::RoadNetworkLoader</class>
@@ -3627,7 +3627,7 @@
   <compound kind="file">
     <name>road_network_validator.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/api/</path>
-    <filename>road__network__validator_8cc</filename>
+    <filename>road__network__validator_8cc.html</filename>
     <includes id="road__network__validator_8h" name="road_network_validator.h" local="yes" imported="no">maliput/api/road_network_validator.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
     <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
@@ -3647,7 +3647,7 @@
   <compound kind="file">
     <name>road_network_validator.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/</path>
-    <filename>road__network__validator_8h</filename>
+    <filename>road__network__validator_8h.html</filename>
     <includes id="road__network_8h" name="road_network.h" local="yes" imported="no">maliput/api/road_network.h</includes>
     <class kind="struct">maliput::api::RoadNetworkValidatorOptions</class>
     <namespace>maliput</namespace>
@@ -3663,7 +3663,7 @@
   <compound kind="file">
     <name>road_rulebook.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/rules/</path>
-    <filename>road__rulebook_8h</filename>
+    <filename>road__rulebook_8h.html</filename>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="direction__usage__rule_8h" name="direction_usage_rule.h" local="yes" imported="no">maliput/api/rules/direction_usage_rule.h</includes>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
@@ -3681,7 +3681,7 @@
   <compound kind="file">
     <name>road_rulebook_loader.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
-    <filename>road__rulebook__loader_8cc</filename>
+    <filename>road__rulebook__loader_8cc.html</filename>
     <includes id="road__rulebook__loader_8h" name="road_rulebook_loader.h" local="yes" imported="no">maliput/base/road_rulebook_loader.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
@@ -3713,7 +3713,7 @@
   <compound kind="file">
     <name>road_rulebook_loader.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>road__rulebook__loader_8h</filename>
+    <filename>road__rulebook__loader_8h.html</filename>
     <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
     <includes id="road__rulebook_8h" name="road_rulebook.h" local="yes" imported="no">maliput/api/rules/road_rulebook.h</includes>
     <includes id="api_2rules_2rule__registry_8h" name="api/rules/rule_registry.h" local="yes" imported="no">maliput/api/rules/rule_registry.h</includes>
@@ -3750,7 +3750,7 @@
   <compound kind="file">
     <name>road_rulebook_loader_using_rule_registry.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
-    <filename>road__rulebook__loader__using__rule__registry_8cc</filename>
+    <filename>road__rulebook__loader__using__rule__registry_8cc.html</filename>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
@@ -3780,7 +3780,7 @@
   <compound kind="file">
     <name>roll_pitch_yaw.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/math/</path>
-    <filename>roll__pitch__yaw_8cc</filename>
+    <filename>roll__pitch__yaw_8cc.html</filename>
     <includes id="roll__pitch__yaw_8h" name="roll_pitch_yaw.h" local="yes" imported="no">maliput/math/roll_pitch_yaw.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <namespace>maliput</namespace>
@@ -3789,7 +3789,7 @@
   <compound kind="file">
     <name>roll_pitch_yaw.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/math/</path>
-    <filename>roll__pitch__yaw_8h</filename>
+    <filename>roll__pitch__yaw_8h.html</filename>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
     <includes id="matrix_8h" name="matrix.h" local="yes" imported="no">maliput/math/matrix.h</includes>
     <includes id="quaternion_8h" name="quaternion.h" local="yes" imported="no">maliput/math/quaternion.h</includes>
@@ -3801,7 +3801,7 @@
   <compound kind="file">
     <name>rule.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/api/rules/</path>
-    <filename>rule_8cc</filename>
+    <filename>rule_8cc.html</filename>
     <includes id="rule_8h" name="rule.h" local="yes" imported="no">maliput/api/rules/rule.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <namespace>maliput</namespace>
@@ -3811,7 +3811,7 @@
   <compound kind="file">
     <name>rule.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/rules/</path>
-    <filename>rule_8h</filename>
+    <filename>rule_8h.html</filename>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="type__specific__identifier_8h" name="type_specific_identifier.h" local="yes" imported="no">maliput/api/type_specific_identifier.h</includes>
     <includes id="unique__id_8h" name="unique_id.h" local="yes" imported="no">maliput/api/unique_id.h</includes>
@@ -3825,7 +3825,7 @@
   <compound kind="file">
     <name>rule_filter.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
-    <filename>rule__filter_8cc</filename>
+    <filename>rule__filter_8cc.html</filename>
     <includes id="rule__filter_8h" name="rule_filter.h" local="yes" imported="no">maliput/base/rule_filter.h</includes>
     <namespace>maliput</namespace>
     <member kind="function">
@@ -3839,7 +3839,7 @@
   <compound kind="file">
     <name>rule_filter.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>rule__filter_8h</filename>
+    <filename>rule__filter_8h.html</filename>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
     <includes id="range__value__rule_8h" name="range_value_rule.h" local="yes" imported="no">maliput/api/rules/range_value_rule.h</includes>
     <includes id="road__rulebook_8h" name="road_rulebook.h" local="yes" imported="no">maliput/api/rules/road_rulebook.h</includes>
@@ -3870,7 +3870,7 @@
   <compound kind="file">
     <name>api/rules/rule_registry.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/api/rules/</path>
-    <filename>api_2rules_2rule__registry_8cc</filename>
+    <filename>api_2rules_2rule__registry_8cc.html</filename>
     <includes id="api_2rules_2rule__registry_8h" name="api/rules/rule_registry.h" local="yes" imported="no">maliput/api/rules/rule_registry.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <namespace>maliput</namespace>
@@ -3880,7 +3880,7 @@
   <compound kind="file">
     <name>base/rule_registry.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
-    <filename>base_2rule__registry_8cc</filename>
+    <filename>base_2rule__registry_8cc.html</filename>
     <includes id="base_2rule__registry_8h" name="base/rule_registry.h" local="yes" imported="no">maliput/base/rule_registry.h</includes>
     <includes id="direction__usage__rule_8h" name="direction_usage_rule.h" local="yes" imported="no">maliput/api/rules/direction_usage_rule.h</includes>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
@@ -3938,7 +3938,7 @@
   <compound kind="file">
     <name>api/rules/rule_registry.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/rules/</path>
-    <filename>api_2rules_2rule__registry_8h</filename>
+    <filename>api_2rules_2rule__registry_8h.html</filename>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
     <includes id="range__value__rule_8h" name="range_value_rule.h" local="yes" imported="no">maliput/api/rules/range_value_rule.h</includes>
@@ -3968,7 +3968,7 @@
   <compound kind="file">
     <name>base/rule_registry.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>base_2rule__registry_8h</filename>
+    <filename>base_2rule__registry_8h.html</filename>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
     <includes id="api_2rules_2rule__registry_8h" name="api/rules/rule_registry.h" local="yes" imported="no">maliput/api/rules/rule_registry.h</includes>
     <class kind="struct">maliput::RelatedRulesKeys</class>
@@ -4027,7 +4027,7 @@
   <compound kind="file">
     <name>rule_registry_loader.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
-    <filename>rule__registry__loader_8cc</filename>
+    <filename>rule__registry__loader_8cc.html</filename>
     <includes id="rule__registry__loader_8h" name="rule_registry_loader.h" local="yes" imported="no">maliput/base/rule_registry_loader.h</includes>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
     <includes id="range__value__rule_8h" name="range_value_rule.h" local="yes" imported="no">maliput/api/rules/range_value_rule.h</includes>
@@ -4053,7 +4053,7 @@
   <compound kind="file">
     <name>rule_registry_loader.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>rule__registry__loader_8h</filename>
+    <filename>rule__registry__loader_8h.html</filename>
     <includes id="api_2rules_2rule__registry_8h" name="api/rules/rule_registry.h" local="yes" imported="no">maliput/api/rules/rule_registry.h</includes>
     <namespace>maliput</namespace>
     <member kind="function">
@@ -4074,7 +4074,7 @@
   <compound kind="file">
     <name>rule_tools.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
-    <filename>rule__tools_8cc</filename>
+    <filename>rule__tools_8cc.html</filename>
     <includes id="rule__tools_8h" name="rule_tools.h" local="yes" imported="no">maliput/base/rule_tools.h</includes>
     <includes id="state__provider__result_8h" name="state_provider_result.h" local="yes" imported="no">maliput/api/rules/state_provider_result.h</includes>
     <includes id="base_2rule__registry_8h" name="base/rule_registry.h" local="yes" imported="no">maliput/base/rule_registry.h</includes>
@@ -4111,7 +4111,7 @@
   <compound kind="file">
     <name>rule_tools.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>rule__tools_8h</filename>
+    <filename>rule__tools_8h.html</filename>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
     <includes id="discrete__value__rule__state__provider_8h" name="discrete_value_rule_state_provider.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule_state_provider.h</includes>
     <includes id="rule_8h" name="rule.h" local="yes" imported="no">maliput/api/rules/rule.h</includes>
@@ -4150,7 +4150,7 @@
   <compound kind="file">
     <name>rules_compare.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/test_utilities/</path>
-    <filename>rules__compare_8cc</filename>
+    <filename>rules__compare_8cc.html</filename>
     <includes id="rules__compare_8h" name="rules_compare.h" local="yes" imported="no">maliput/test_utilities/rules_compare.h</includes>
     <includes id="maliput__unused_8h" name="maliput_unused.h" local="yes" imported="no">maliput/common/maliput_unused.h</includes>
     <includes id="regions__test__utilities_8h" name="regions_test_utilities.h" local="yes" imported="no">maliput/test_utilities/regions_test_utilities.h</includes>
@@ -4204,7 +4204,7 @@
   <compound kind="file">
     <name>rules_compare.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/test_utilities/</path>
-    <filename>rules__compare_8h</filename>
+    <filename>rules__compare_8h.html</filename>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
     <includes id="range__value__rule_8h" name="range_value_rule.h" local="yes" imported="no">maliput/api/rules/range_value_rule.h</includes>
     <includes id="rules__test__utilities_8h" name="rules_test_utilities.h" local="yes" imported="no">maliput/test_utilities/rules_test_utilities.h</includes>
@@ -4258,7 +4258,7 @@
   <compound kind="file">
     <name>rules_direction_usage_compare.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/test_utilities/</path>
-    <filename>rules__direction__usage__compare_8cc</filename>
+    <filename>rules__direction__usage__compare_8cc.html</filename>
     <includes id="rules__direction__usage__compare_8h" name="rules_direction_usage_compare.h" local="yes" imported="no">maliput/test_utilities/rules_direction_usage_compare.h</includes>
     <includes id="maliput__unused_8h" name="maliput_unused.h" local="yes" imported="no">maliput/common/maliput_unused.h</includes>
     <includes id="regions__test__utilities_8h" name="regions_test_utilities.h" local="yes" imported="no">maliput/test_utilities/regions_test_utilities.h</includes>
@@ -4306,7 +4306,7 @@
   <compound kind="file">
     <name>rules_direction_usage_compare.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/test_utilities/</path>
-    <filename>rules__direction__usage__compare_8h</filename>
+    <filename>rules__direction__usage__compare_8h.html</filename>
     <includes id="direction__usage__rule_8h" name="direction_usage_rule.h" local="yes" imported="no">maliput/api/rules/direction_usage_rule.h</includes>
     <includes id="rules__test__utilities_8h" name="rules_test_utilities.h" local="yes" imported="no">maliput/test_utilities/rules_test_utilities.h</includes>
     <namespace>maliput</namespace>
@@ -4352,7 +4352,7 @@
   <compound kind="file">
     <name>rules_right_of_way_compare.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/test_utilities/</path>
-    <filename>rules__right__of__way__compare_8cc</filename>
+    <filename>rules__right__of__way__compare_8cc.html</filename>
     <includes id="rules__right__of__way__compare_8h" name="rules_right_of_way_compare.h" local="yes" imported="no">maliput/test_utilities/rules_right_of_way_compare.h</includes>
     <includes id="maliput__unused_8h" name="maliput_unused.h" local="yes" imported="no">maliput/common/maliput_unused.h</includes>
     <includes id="regions__test__utilities_8h" name="regions_test_utilities.h" local="yes" imported="no">maliput/test_utilities/regions_test_utilities.h</includes>
@@ -4421,7 +4421,7 @@
   <compound kind="file">
     <name>rules_right_of_way_compare.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/test_utilities/</path>
-    <filename>rules__right__of__way__compare_8h</filename>
+    <filename>rules__right__of__way__compare_8h.html</filename>
     <includes id="right__of__way__rule_8h" name="right_of_way_rule.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule.h</includes>
     <includes id="right__of__way__rule__state__provider_8h" name="right_of_way_rule_state_provider.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule_state_provider.h</includes>
     <includes id="rules__test__utilities_8h" name="rules_test_utilities.h" local="yes" imported="no">maliput/test_utilities/rules_test_utilities.h</includes>
@@ -4475,7 +4475,7 @@
   <compound kind="file">
     <name>rules_speed_limit_compare.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/test_utilities/</path>
-    <filename>rules__speed__limit__compare_8cc</filename>
+    <filename>rules__speed__limit__compare_8cc.html</filename>
     <includes id="rules__speed__limit__compare_8h" name="rules_speed_limit_compare.h" local="yes" imported="no">maliput/test_utilities/rules_speed_limit_compare.h</includes>
     <includes id="maliput__unused_8h" name="maliput_unused.h" local="yes" imported="no">maliput/common/maliput_unused.h</includes>
     <includes id="regions__test__utilities_8h" name="regions_test_utilities.h" local="yes" imported="no">maliput/test_utilities/regions_test_utilities.h</includes>
@@ -4502,7 +4502,7 @@
   <compound kind="file">
     <name>rules_speed_limit_compare.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/test_utilities/</path>
-    <filename>rules__speed__limit__compare_8h</filename>
+    <filename>rules__speed__limit__compare_8h.html</filename>
     <includes id="speed__limit__rule_8h" name="speed_limit_rule.h" local="yes" imported="no">maliput/api/rules/speed_limit_rule.h</includes>
     <includes id="rules__test__utilities_8h" name="rules_test_utilities.h" local="yes" imported="no">maliput/test_utilities/rules_test_utilities.h</includes>
     <namespace>maliput</namespace>
@@ -4527,7 +4527,7 @@
   <compound kind="file">
     <name>rules_test_utilities.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/test_utilities/</path>
-    <filename>rules__test__utilities_8h</filename>
+    <filename>rules__test__utilities_8h.html</filename>
     <class kind="class">maliput::api::rules::test::AssertionResultCollector</class>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
@@ -4579,7 +4579,7 @@
   <compound kind="file">
     <name>saturate.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/math/</path>
-    <filename>saturate_8cc</filename>
+    <filename>saturate_8cc.html</filename>
     <includes id="saturate_8h" name="saturate.h" local="yes" imported="no">maliput/math/saturate.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <namespace>maliput</namespace>
@@ -4595,7 +4595,7 @@
   <compound kind="file">
     <name>saturate.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/math/</path>
-    <filename>saturate_8h</filename>
+    <filename>saturate_8h.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::math</namespace>
     <member kind="function">
@@ -4609,7 +4609,7 @@
   <compound kind="file">
     <name>segment.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/geometry_base/</path>
-    <filename>segment_8cc</filename>
+    <filename>segment_8cc.html</filename>
     <includes id="geometry__base_2segment_8h" name="geometry_base/segment.h" local="yes" imported="no">maliput/geometry_base/segment.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::geometry_base</namespace>
@@ -4617,7 +4617,7 @@
   <compound kind="file">
     <name>api/segment.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/</path>
-    <filename>api_2segment_8h</filename>
+    <filename>api_2segment_8h.html</filename>
     <includes id="type__specific__identifier_8h" name="type_specific_identifier.h" local="yes" imported="no">maliput/api/type_specific_identifier.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
     <class kind="class">maliput::api::Segment</class>
@@ -4634,7 +4634,7 @@
   <compound kind="file">
     <name>geometry_base/segment.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/geometry_base/</path>
-    <filename>geometry__base_2segment_8h</filename>
+    <filename>geometry__base_2segment_8h.html</filename>
     <includes id="api_2junction_8h" name="api/junction.h" local="yes" imported="no">maliput/api/junction.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
     <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
@@ -4649,7 +4649,7 @@
   <compound kind="file">
     <name>segment_analysis.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/utilities/</path>
-    <filename>segment__analysis_8cc</filename>
+    <filename>segment__analysis_8cc.html</filename>
     <includes id="segment__analysis_8h" name="segment_analysis.h" local="yes" imported="no">maliput/utilities/segment_analysis.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
@@ -4673,7 +4673,7 @@
   <compound kind="file">
     <name>segment_analysis.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/utilities/</path>
-    <filename>segment__analysis_8h</filename>
+    <filename>segment__analysis_8h.html</filename>
     <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
     <includes id="api_2segment_8h" name="api/segment.h" local="yes" imported="no">maliput/api/segment.h</includes>
     <namespace>maliput</namespace>
@@ -4696,7 +4696,7 @@
   <compound kind="file">
     <name>simple_phase_ring_book.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>simple__phase__ring__book_8h</filename>
+    <filename>simple__phase__ring__book_8h.html</filename>
     <includes id="phase__ring_8h" name="phase_ring.h" local="yes" imported="no">maliput/api/rules/phase_ring.h</includes>
     <includes id="phase__ring__book_8h" name="phase_ring_book.h" local="yes" imported="no">maliput/api/rules/phase_ring_book.h</includes>
     <includes id="right__of__way__rule_8h" name="right_of_way_rule.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule.h</includes>
@@ -4707,7 +4707,7 @@
   <compound kind="file">
     <name>simple_rulebook.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>simple__rulebook_8h</filename>
+    <filename>simple__rulebook_8h.html</filename>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="direction__usage__rule_8h" name="direction_usage_rule.h" local="yes" imported="no">maliput/api/rules/direction_usage_rule.h</includes>
     <includes id="right__of__way__rule_8h" name="right_of_way_rule.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule.h</includes>
@@ -4720,7 +4720,7 @@
   <compound kind="file">
     <name>speed_limit_rule.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/rules/</path>
-    <filename>speed__limit__rule_8h</filename>
+    <filename>speed__limit__rule_8h.html</filename>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="type__specific__identifier_8h" name="type_specific_identifier.h" local="yes" imported="no">maliput/api/type_specific_identifier.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
@@ -4733,7 +4733,7 @@
   <compound kind="file">
     <name>state_provider_result.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/rules/</path>
-    <filename>state__provider__result_8h</filename>
+    <filename>state__provider__result_8h.html</filename>
     <class kind="struct">maliput::api::rules::StateProviderResult</class>
     <class kind="struct">maliput::api::rules::StateProviderResult::Next</class>
     <namespace>maliput</namespace>
@@ -4743,7 +4743,7 @@
   <compound kind="file">
     <name>thread_pool.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/utilities/</path>
-    <filename>thread__pool_8cc</filename>
+    <filename>thread__pool_8cc.html</filename>
     <includes id="thread__pool_8h" name="thread_pool.h" local="yes" imported="no">maliput/utilities/thread_pool.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::utility</namespace>
@@ -4751,7 +4751,7 @@
   <compound kind="file">
     <name>thread_pool.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/utilities/</path>
-    <filename>thread__pool_8h</filename>
+    <filename>thread__pool_8h.html</filename>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <class kind="class">maliput::utility::ThreadPool</class>
@@ -4761,14 +4761,14 @@
   <compound kind="file">
     <name>traffic_light_book.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
-    <filename>traffic__light__book_8cc</filename>
+    <filename>traffic__light__book_8cc.html</filename>
     <includes id="base_2traffic__light__book_8h" name="base/traffic_light_book.h" local="yes" imported="no">maliput/base/traffic_light_book.h</includes>
     <namespace>maliput</namespace>
   </compound>
   <compound kind="file">
     <name>api/rules/traffic_light_book.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/rules/</path>
-    <filename>api_2rules_2traffic__light__book_8h</filename>
+    <filename>api_2rules_2traffic__light__book_8h.html</filename>
     <includes id="traffic__lights_8h" name="traffic_lights.h" local="yes" imported="no">maliput/api/rules/traffic_lights.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
     <class kind="class">maliput::api::rules::TrafficLightBook</class>
@@ -4779,7 +4779,7 @@
   <compound kind="file">
     <name>base/traffic_light_book.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>base_2traffic__light__book_8h</filename>
+    <filename>base_2traffic__light__book_8h.html</filename>
     <includes id="api_2rules_2traffic__light__book_8h" name="api/rules/traffic_light_book.h" local="yes" imported="no">maliput/api/rules/traffic_light_book.h</includes>
     <includes id="traffic__lights_8h" name="traffic_lights.h" local="yes" imported="no">maliput/api/rules/traffic_lights.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
@@ -4789,7 +4789,7 @@
   <compound kind="file">
     <name>traffic_light_book_loader.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
-    <filename>traffic__light__book__loader_8cc</filename>
+    <filename>traffic__light__book__loader_8cc.html</filename>
     <includes id="traffic__light__book__loader_8h" name="traffic_light_book_loader.h" local="yes" imported="no">maliput/base/traffic_light_book_loader.h</includes>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
     <includes id="api_2rules_2traffic__light__book_8h" name="api/rules/traffic_light_book.h" local="yes" imported="no">maliput/api/rules/traffic_light_book.h</includes>
@@ -4818,7 +4818,7 @@
   <compound kind="file">
     <name>traffic_light_book_loader.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>traffic__light__book__loader_8h</filename>
+    <filename>traffic__light__book__loader_8h.html</filename>
     <includes id="api_2rules_2traffic__light__book_8h" name="api/rules/traffic_light_book.h" local="yes" imported="no">maliput/api/rules/traffic_light_book.h</includes>
     <namespace>maliput</namespace>
     <member kind="function">
@@ -4839,7 +4839,7 @@
   <compound kind="file">
     <name>traffic_lights.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/api/rules/</path>
-    <filename>traffic__lights_8cc</filename>
+    <filename>traffic__lights_8cc.html</filename>
     <includes id="traffic__lights_8h" name="traffic_lights.h" local="yes" imported="no">maliput/api/rules/traffic_lights.h</includes>
     <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -4871,7 +4871,7 @@
   <compound kind="file">
     <name>traffic_lights.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/rules/</path>
-    <filename>traffic__lights_8h</filename>
+    <filename>traffic__lights_8h.html</filename>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
     <includes id="type__specific__identifier_8h" name="type_specific_identifier.h" local="yes" imported="no">maliput/api/type_specific_identifier.h</includes>
     <includes id="unique__id_8h" name="unique_id.h" local="yes" imported="no">maliput/api/unique_id.h</includes>
@@ -4946,7 +4946,7 @@
   <compound kind="file">
     <name>traffic_lights_compare.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/test_utilities/</path>
-    <filename>traffic__lights__compare_8cc</filename>
+    <filename>traffic__lights__compare_8cc.html</filename>
     <includes id="traffic__lights__compare_8h" name="traffic_lights_compare.h" local="yes" imported="no">maliput/test_utilities/traffic_lights_compare.h</includes>
     <includes id="maliput__unused_8h" name="maliput_unused.h" local="yes" imported="no">maliput/common/maliput_unused.h</includes>
     <includes id="rules__test__utilities_8h" name="rules_test_utilities.h" local="yes" imported="no">maliput/test_utilities/rules_test_utilities.h</includes>
@@ -5000,8 +5000,8 @@
       <type>::testing::AssertionResult</type>
       <name>IsEqual</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>adf21d47fb6bb1b0bb51d01e3ed6a4836</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; const Bulb *&gt; &amp;a, const std::vector&lt; const Bulb *&gt; &amp;b)</arglist>
+      <anchor>a4560fca9b6f2d4fe9f7ee489c0849504</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; const Bulb * &gt; &amp;a, const std::vector&lt; const Bulb * &gt; &amp;b)</arglist>
     </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>
@@ -5021,7 +5021,7 @@
   <compound kind="file">
     <name>traffic_lights_compare.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/test_utilities/</path>
-    <filename>traffic__lights__compare_8h</filename>
+    <filename>traffic__lights__compare_8h.html</filename>
     <includes id="traffic__lights_8h" name="traffic_lights.h" local="yes" imported="no">maliput/api/rules/traffic_lights.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
@@ -5073,8 +5073,8 @@
       <type>::testing::AssertionResult</type>
       <name>IsEqual</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>adf21d47fb6bb1b0bb51d01e3ed6a4836</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; const Bulb *&gt; &amp;a, const std::vector&lt; const Bulb *&gt; &amp;b)</arglist>
+      <anchor>a4560fca9b6f2d4fe9f7ee489c0849504</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; const Bulb * &gt; &amp;a, const std::vector&lt; const Bulb * &gt; &amp;b)</arglist>
     </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>
@@ -5094,7 +5094,7 @@
   <compound kind="file">
     <name>type_specific_identifier.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/</path>
-    <filename>type__specific__identifier_8h</filename>
+    <filename>type__specific__identifier_8h.html</filename>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
     <includes id="maliput__hash_8h" name="maliput_hash.h" local="yes" imported="no">maliput/common/maliput_hash.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -5114,7 +5114,7 @@
   <compound kind="file">
     <name>unique_id.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/</path>
-    <filename>unique__id_8h</filename>
+    <filename>unique__id_8h.html</filename>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
     <includes id="maliput__hash_8h" name="maliput_hash.h" local="yes" imported="no">maliput/common/maliput_hash.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -5127,7 +5127,7 @@
   <compound kind="file">
     <name>vector.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/math/</path>
-    <filename>vector_8cc</filename>
+    <filename>vector_8cc.html</filename>
     <includes id="vector_8h" name="vector.h" local="yes" imported="no">maliput/math/vector.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::math</namespace>
@@ -5303,7 +5303,7 @@
   <compound kind="file">
     <name>vector.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/math/</path>
-    <filename>vector_8h</filename>
+    <filename>vector_8h.html</filename>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <class kind="class">maliput::math::VectorBase</class>
     <class kind="class">maliput::math::Vector</class>
@@ -5316,7 +5316,7 @@
   <compound kind="file">
     <name>yaml_conversion.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
-    <filename>yaml__conversion_8cc</filename>
+    <filename>yaml__conversion_8cc.html</filename>
     <includes id="yaml__conversion_8h" name="yaml_conversion.h" local="yes" imported="no">maliput/base/yaml_conversion.h</includes>
     <includes id="rule_8h" name="rule.h" local="yes" imported="no">maliput/api/rules/rule.h</includes>
     <namespace>YAML</namespace>
@@ -5367,7 +5367,7 @@
   <compound kind="file">
     <name>yaml_conversion.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>yaml__conversion_8h</filename>
+    <filename>yaml__conversion_8h.html</filename>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <class kind="struct">YAML::convert&lt; maliput::api::SRange &gt;</class>
     <class kind="struct">maliput::DiscreteValueRuleConstants</class>
@@ -5565,6 +5565,60 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::geometry_base::BranchPoint</name>
+    <filename>classmaliput_1_1geometry__base_1_1_branch_point.html</filename>
+    <base>maliput::api::BranchPoint</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
+      <anchor>a017026ff821c528031c6ead313fe4533</anchor>
+      <arglist>(BranchPoint)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>BranchPoint</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
+      <anchor>a8988c43da6cb399c2e6cf9aeb27d68a6</anchor>
+      <arglist>(const api::BranchPointId &amp;id)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AddABranch</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
+      <anchor>ae2ed0a9107a888faaf582a8c4ecda9af</anchor>
+      <arglist>(Lane *lane, api::LaneEnd::Which end)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AddBBranch</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
+      <anchor>af2d605e876e24aec4b985d1f448e6195</anchor>
+      <arglist>(Lane *lane, api::LaneEnd::Which end)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetDefault</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
+      <anchor>a9b6a7f3d4f44cbf8b5ae1fed437607b3</anchor>
+      <arglist>(const api::LaneEnd &amp;lane_end, const api::LaneEnd &amp;default_branch)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~BranchPoint</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
+      <anchor>a5f015c5068d0077bec7e3f5b586c497c</anchor>
+      <arglist>() override=default</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AttachToRoadGeometry</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
+      <anchor>a92ac9da3dc898c058e2af06e87a8828e</anchor>
+      <arglist>(common::Passkey&lt; RoadGeometry &gt;, const api::RoadGeometry *road_geometry)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::api::BranchPoint</name>
     <filename>classmaliput_1_1api_1_1_branch_point.html</filename>
     <member kind="function" virtualness="virtual">
@@ -5629,60 +5683,6 @@
       <anchorfile>classmaliput_1_1api_1_1_branch_point.html</anchorfile>
       <anchor>af0b256382bcd91d863d978c388656825</anchor>
       <arglist>()=default</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::geometry_base::BranchPoint</name>
-    <filename>classmaliput_1_1geometry__base_1_1_branch_point.html</filename>
-    <base>maliput::api::BranchPoint</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
-      <anchor>a017026ff821c528031c6ead313fe4533</anchor>
-      <arglist>(BranchPoint)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>BranchPoint</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
-      <anchor>a8988c43da6cb399c2e6cf9aeb27d68a6</anchor>
-      <arglist>(const api::BranchPointId &amp;id)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AddABranch</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
-      <anchor>ae2ed0a9107a888faaf582a8c4ecda9af</anchor>
-      <arglist>(Lane *lane, api::LaneEnd::Which end)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AddBBranch</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
-      <anchor>af2d605e876e24aec4b985d1f448e6195</anchor>
-      <arglist>(Lane *lane, api::LaneEnd::Which end)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>SetDefault</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
-      <anchor>a9b6a7f3d4f44cbf8b5ae1fed437607b3</anchor>
-      <arglist>(const api::LaneEnd &amp;lane_end, const api::LaneEnd &amp;default_branch)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~BranchPoint</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
-      <anchor>a5f015c5068d0077bec7e3f5b586c497c</anchor>
-      <arglist>() override=default</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AttachToRoadGeometry</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
-      <anchor>a92ac9da3dc898c058e2af06e87a8828e</anchor>
-      <arglist>(common::Passkey&lt; RoadGeometry &gt;, const api::RoadGeometry *road_geometry)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -6598,34 +6598,6 @@
       <anchor>a2b07dcd33fdf62555398c5a587035999</anchor>
       <arglist>(double max)</arglist>
     </member>
-    <member kind="function">
-      <type>double</type>
-      <name>min</name>
-      <anchorfile>classmaliput_1_1api_1_1_h_bounds.html</anchorfile>
-      <anchor>a74ad3cfdc000a999ae2d456fe3ec3418</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>set_min</name>
-      <anchorfile>classmaliput_1_1api_1_1_h_bounds.html</anchorfile>
-      <anchor>ac21dffdc86052847014c3a19c08a3759</anchor>
-      <arglist>(double min)</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>max</name>
-      <anchorfile>classmaliput_1_1api_1_1_h_bounds.html</anchorfile>
-      <anchor>ae10f649a540c212781c2d0a4c7385eca</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>set_max</name>
-      <anchorfile>classmaliput_1_1api_1_1_h_bounds.html</anchorfile>
-      <anchor>a2b07dcd33fdf62555398c5a587035999</anchor>
-      <arglist>(double max)</arglist>
-    </member>
   </compound>
   <compound kind="class">
     <name>maliput::api::RoadGeometry::IdIndex</name>
@@ -6730,6 +6702,55 @@
       <anchor>ac2a254b83de7d0c1d08f967fa305115a</anchor>
       <arglist>(const math::Vector3 &amp;xyz)</arglist>
     </member>
+    <member kind="function" static="yes">
+      <type>static InertialPosition</type>
+      <name>FromXyz</name>
+      <anchorfile>classmaliput_1_1api_1_1_inertial_position.html</anchorfile>
+      <anchor>abc80c762edd37054fae4202411a7e630</anchor>
+      <arglist>(const math::Vector3 &amp;xyz)</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>x</name>
+      <anchorfile>classmaliput_1_1api_1_1_inertial_position.html</anchorfile>
+      <anchor>a833e1cf314b7b7a5537b2b6a56fee6a5</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_x</name>
+      <anchorfile>classmaliput_1_1api_1_1_inertial_position.html</anchorfile>
+      <anchor>aa97527d9de194f5227bef2e9fecbc26d</anchor>
+      <arglist>(double x)</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>y</name>
+      <anchorfile>classmaliput_1_1api_1_1_inertial_position.html</anchorfile>
+      <anchor>aca424ddaf2902c1cde483f37813d4278</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_y</name>
+      <anchorfile>classmaliput_1_1api_1_1_inertial_position.html</anchorfile>
+      <anchor>abbc9f19c6ed5de1b914ada0af080f986</anchor>
+      <arglist>(double y)</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>z</name>
+      <anchorfile>classmaliput_1_1api_1_1_inertial_position.html</anchorfile>
+      <anchor>ae7bc7213001e326be4d4eb2d8a035c34</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_z</name>
+      <anchorfile>classmaliput_1_1api_1_1_inertial_position.html</anchorfile>
+      <anchor>a00727089d68cdce27c4b62a88d82644c</anchor>
+      <arglist>(double z)</arglist>
+    </member>
     <member kind="function">
       <type>double</type>
       <name>length</name>
@@ -6779,55 +6800,6 @@
       <anchor>aebb5e3dcecad4cf82cf2743921f99f46</anchor>
       <arglist>(double rhs) const</arglist>
     </member>
-    <member kind="function">
-      <type>double</type>
-      <name>x</name>
-      <anchorfile>classmaliput_1_1api_1_1_inertial_position.html</anchorfile>
-      <anchor>a833e1cf314b7b7a5537b2b6a56fee6a5</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>set_x</name>
-      <anchorfile>classmaliput_1_1api_1_1_inertial_position.html</anchorfile>
-      <anchor>aa97527d9de194f5227bef2e9fecbc26d</anchor>
-      <arglist>(double x)</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>y</name>
-      <anchorfile>classmaliput_1_1api_1_1_inertial_position.html</anchorfile>
-      <anchor>aca424ddaf2902c1cde483f37813d4278</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>set_y</name>
-      <anchorfile>classmaliput_1_1api_1_1_inertial_position.html</anchorfile>
-      <anchor>abbc9f19c6ed5de1b914ada0af080f986</anchor>
-      <arglist>(double y)</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>z</name>
-      <anchorfile>classmaliput_1_1api_1_1_inertial_position.html</anchorfile>
-      <anchor>ae7bc7213001e326be4d4eb2d8a035c34</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>set_z</name>
-      <anchorfile>classmaliput_1_1api_1_1_inertial_position.html</anchorfile>
-      <anchor>a00727089d68cdce27c4b62a88d82644c</anchor>
-      <arglist>(double z)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static InertialPosition</type>
-      <name>FromXyz</name>
-      <anchorfile>classmaliput_1_1api_1_1_inertial_position.html</anchorfile>
-      <anchor>abc80c762edd37054fae4202411a7e630</anchor>
-      <arglist>(const math::Vector3 &amp;xyz)</arglist>
-    </member>
     <member kind="friend">
       <type>friend InertialPosition</type>
       <name>operator*</name>
@@ -6835,47 +6807,38 @@
       <anchor>a9f75f59c7af52fce3725194d8ccd2201</anchor>
       <arglist>(double lhs, const InertialPosition &amp;rhs)</arglist>
     </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::Intersection</name>
+    <filename>classmaliput_1_1_intersection.html</filename>
+    <base>maliput::api::Intersection</base>
     <member kind="function">
-      <type>double</type>
-      <name>x</name>
-      <anchorfile>classmaliput_1_1api_1_1_inertial_position.html</anchorfile>
-      <anchor>a833e1cf314b7b7a5537b2b6a56fee6a5</anchor>
-      <arglist>() const</arglist>
+      <type></type>
+      <name>Intersection</name>
+      <anchorfile>classmaliput_1_1_intersection.html</anchorfile>
+      <anchor>a3e74eea120193e890b3d27e8fcba5417</anchor>
+      <arglist>(const Id &amp;id, const std::vector&lt; api::LaneSRange &gt; &amp;region, const api::rules::PhaseRing &amp;ring, ManualPhaseProvider *phase_provider)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~Intersection</name>
+      <anchorfile>classmaliput_1_1_intersection.html</anchorfile>
+      <anchor>abd1ccc56370f679181137f07fac0f04e</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; api::rules::PhaseProvider::Result &gt;</type>
+      <name>Phase</name>
+      <anchorfile>classmaliput_1_1_intersection.html</anchorfile>
+      <anchor>a8ddce4c4c76cb5d4670651e09f2d80d6</anchor>
+      <arglist>() const override</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>set_x</name>
-      <anchorfile>classmaliput_1_1api_1_1_inertial_position.html</anchorfile>
-      <anchor>aa97527d9de194f5227bef2e9fecbc26d</anchor>
-      <arglist>(double x)</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>y</name>
-      <anchorfile>classmaliput_1_1api_1_1_inertial_position.html</anchorfile>
-      <anchor>aca424ddaf2902c1cde483f37813d4278</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>set_y</name>
-      <anchorfile>classmaliput_1_1api_1_1_inertial_position.html</anchorfile>
-      <anchor>abbc9f19c6ed5de1b914ada0af080f986</anchor>
-      <arglist>(double y)</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>z</name>
-      <anchorfile>classmaliput_1_1api_1_1_inertial_position.html</anchorfile>
-      <anchor>ae7bc7213001e326be4d4eb2d8a035c34</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>set_z</name>
-      <anchorfile>classmaliput_1_1api_1_1_inertial_position.html</anchorfile>
-      <anchor>a00727089d68cdce27c4b62a88d82644c</anchor>
-      <arglist>(double z)</arglist>
+      <name>SetPhase</name>
+      <anchorfile>classmaliput_1_1_intersection.html</anchorfile>
+      <anchor>a74a041e3e4dc79e806c8cbddd9e569fc</anchor>
+      <arglist>(const api::rules::Phase::Id &amp;phase_id, const std::optional&lt; api::rules::Phase::Id &gt; &amp;next_phase=std::nullopt, const std::optional&lt; double &gt; &amp;duration_until=std::nullopt) override</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -6988,36 +6951,43 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::Intersection</name>
-    <filename>classmaliput_1_1_intersection.html</filename>
-    <base>maliput::api::Intersection</base>
+    <name>maliput::IntersectionBook</name>
+    <filename>classmaliput_1_1_intersection_book.html</filename>
+    <base>maliput::api::IntersectionBook</base>
     <member kind="function">
       <type></type>
-      <name>Intersection</name>
-      <anchorfile>classmaliput_1_1_intersection.html</anchorfile>
-      <anchor>a3e74eea120193e890b3d27e8fcba5417</anchor>
-      <arglist>(const Id &amp;id, const std::vector&lt; api::LaneSRange &gt; &amp;region, const api::rules::PhaseRing &amp;ring, ManualPhaseProvider *phase_provider)</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual</type>
-      <name>~Intersection</name>
-      <anchorfile>classmaliput_1_1_intersection.html</anchorfile>
-      <anchor>abd1ccc56370f679181137f07fac0f04e</anchor>
-      <arglist>()=default</arglist>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1_intersection_book.html</anchorfile>
+      <anchor>ae84c8ada3277f76565a16f7d52fc3c7b</anchor>
+      <arglist>(IntersectionBook)</arglist>
     </member>
     <member kind="function">
-      <type>std::optional&lt; api::rules::PhaseProvider::Result &gt;</type>
-      <name>Phase</name>
-      <anchorfile>classmaliput_1_1_intersection.html</anchorfile>
-      <anchor>a8ddce4c4c76cb5d4670651e09f2d80d6</anchor>
-      <arglist>() const override</arglist>
+      <type></type>
+      <name>IntersectionBook</name>
+      <anchorfile>classmaliput_1_1_intersection_book.html</anchorfile>
+      <anchor>a0a92bdcaf188b147700bd010fe30cdfc</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~IntersectionBook</name>
+      <anchorfile>classmaliput_1_1_intersection_book.html</anchorfile>
+      <anchor>ade05a11838cee11a6634b04d34d2f7c0</anchor>
+      <arglist>() override</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>SetPhase</name>
-      <anchorfile>classmaliput_1_1_intersection.html</anchorfile>
-      <anchor>a74a041e3e4dc79e806c8cbddd9e569fc</anchor>
-      <arglist>(const api::rules::Phase::Id &amp;phase_id, const std::optional&lt; api::rules::Phase::Id &gt; &amp;next_phase=std::nullopt, const std::optional&lt; double &gt; &amp;duration_until=std::nullopt) override</arglist>
+      <name>AddIntersection</name>
+      <anchorfile>classmaliput_1_1_intersection_book.html</anchorfile>
+      <anchor>a2e57afefc075b6f5e2b517ac1683ce8a</anchor>
+      <arglist>(std::unique_ptr&lt; api::Intersection &gt; intersection)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; api::Intersection * &gt;</type>
+      <name>FindIntersections</name>
+      <anchorfile>classmaliput_1_1_intersection_book.html</anchorfile>
+      <anchor>a9eb6fc4b2de20d67d9a62fb81a0865f0</anchor>
+      <arglist>(const std::vector&lt; api::LaneSRange &gt; &amp;region, double tolerance)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -7080,46 +7050,6 @@
       <arglist>()=default</arglist>
     </member>
   </compound>
-  <compound kind="class">
-    <name>maliput::IntersectionBook</name>
-    <filename>classmaliput_1_1_intersection_book.html</filename>
-    <base>maliput::api::IntersectionBook</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1_intersection_book.html</anchorfile>
-      <anchor>ae84c8ada3277f76565a16f7d52fc3c7b</anchor>
-      <arglist>(IntersectionBook)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>IntersectionBook</name>
-      <anchorfile>classmaliput_1_1_intersection_book.html</anchorfile>
-      <anchor>a0a92bdcaf188b147700bd010fe30cdfc</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~IntersectionBook</name>
-      <anchorfile>classmaliput_1_1_intersection_book.html</anchorfile>
-      <anchor>ade05a11838cee11a6634b04d34d2f7c0</anchor>
-      <arglist>() override</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AddIntersection</name>
-      <anchorfile>classmaliput_1_1_intersection_book.html</anchorfile>
-      <anchor>a2e57afefc075b6f5e2b517ac1683ce8a</anchor>
-      <arglist>(std::unique_ptr&lt; api::Intersection &gt; intersection)</arglist>
-    </member>
-    <member kind="function">
-      <type>std::vector&lt; api::Intersection * &gt;</type>
-      <name>FindIntersections</name>
-      <anchorfile>classmaliput_1_1_intersection_book.html</anchorfile>
-      <anchor>a9eb6fc4b2de20d67d9a62fb81a0865f0</anchor>
-      <arglist>(const std::vector&lt; api::LaneSRange &gt; &amp;region, double tolerance)</arglist>
-    </member>
-  </compound>
   <compound kind="struct">
     <name>maliput::api::IsoLaneVelocity</name>
     <filename>structmaliput_1_1api_1_1_iso_lane_velocity.html</filename>
@@ -7157,6 +7087,46 @@
       <anchorfile>structmaliput_1_1api_1_1_iso_lane_velocity.html</anchorfile>
       <anchor>afebcdb204b56a32639d88fa2299526d3</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::geometry_base::Junction</name>
+    <filename>classmaliput_1_1geometry__base_1_1_junction.html</filename>
+    <base>maliput::api::Junction</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
+      <anchor>afaf6c0ab8777693eaf810ec9f9850fb7</anchor>
+      <arglist>(Junction)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Junction</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
+      <anchor>aacb3cda5e3884118837090ff47e7bf5e</anchor>
+      <arglist>(const api::JunctionId &amp;id)</arglist>
+    </member>
+    <member kind="function">
+      <type>T *</type>
+      <name>AddSegment</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
+      <anchor>ac3f4ccab5e6fddc051fbfb87cae3bcb0</anchor>
+      <arglist>(std::unique_ptr&lt; T &gt; segment)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~Junction</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
+      <anchor>a74b00113cc0a0e9c085c7744177fc623</anchor>
+      <arglist>() override=default</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AttachToRoadGeometry</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
+      <anchor>abb4fb610362528afc7a6c771d6bb361f</anchor>
+      <arglist>(common::Passkey&lt; RoadGeometry &gt;, const api::RoadGeometry *road_geometry, const std::function&lt; void(const api::Segment *)&gt; &amp;segment_indexing_callback, const std::function&lt; void(const api::Lane *)&gt; &amp;lane_indexing_callback)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -7206,43 +7176,64 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::geometry_base::Junction</name>
-    <filename>classmaliput_1_1geometry__base_1_1_junction.html</filename>
-    <base>maliput::api::Junction</base>
+    <name>maliput::geometry_base::Lane</name>
+    <filename>classmaliput_1_1geometry__base_1_1_lane.html</filename>
+    <base>maliput::api::Lane</base>
     <member kind="function">
       <type></type>
       <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
-      <anchor>afaf6c0ab8777693eaf810ec9f9850fb7</anchor>
-      <arglist>(Junction)</arglist>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
+      <anchor>a99b7649e8342fe7c216553e0a8476d77</anchor>
+      <arglist>(Lane)</arglist>
     </member>
     <member kind="function">
       <type></type>
-      <name>Junction</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
-      <anchor>aacb3cda5e3884118837090ff47e7bf5e</anchor>
-      <arglist>(const api::JunctionId &amp;id)</arglist>
+      <name>Lane</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
+      <anchor>a1aad8d7166ca6dc56865ee932ebcfee6</anchor>
+      <arglist>(const api::LaneId &amp;id)</arglist>
     </member>
     <member kind="function">
-      <type>T *</type>
-      <name>AddSegment</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
-      <anchor>ac3f4ccab5e6fddc051fbfb87cae3bcb0</anchor>
-      <arglist>(std::unique_ptr&lt; T &gt; segment)</arglist>
+      <type>BranchPoint *</type>
+      <name>mutable_start_branch_point</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
+      <anchor>a31184adf29283175d1a907f4a67269cb</anchor>
+      <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type></type>
-      <name>~Junction</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
-      <anchor>a74b00113cc0a0e9c085c7744177fc623</anchor>
-      <arglist>() override=default</arglist>
+      <type>BranchPoint *</type>
+      <name>mutable_finish_branch_point</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
+      <anchor>a44b25a4e31d8cd8dcd48bf1ab1c49364</anchor>
+      <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>void</type>
-      <name>AttachToRoadGeometry</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
-      <anchor>abb4fb610362528afc7a6c771d6bb361f</anchor>
-      <arglist>(common::Passkey&lt; RoadGeometry &gt;, const api::RoadGeometry *road_geometry, const std::function&lt; void(const api::Segment *)&gt; &amp;segment_indexing_callback, const std::function&lt; void(const api::Lane *)&gt; &amp;lane_indexing_callback)</arglist>
+      <name>AttachToSegment</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
+      <anchor>a641be6120d87c39a1713d8d2a2f7cdf0</anchor>
+      <arglist>(common::Passkey&lt; Segment &gt;, const api::Segment *segment, int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetStartBranchPoint</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
+      <anchor>a6d68eac612ca85e7bdf7c1068778ee92</anchor>
+      <arglist>(common::Passkey&lt; BranchPoint &gt;, BranchPoint *branch_point)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetFinishBranchPoint</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
+      <anchor>a2959547e5d8983e00e1b88ff19aa2ec1</anchor>
+      <arglist>(common::Passkey&lt; BranchPoint &gt;, BranchPoint *branch_point)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~Lane</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
+      <anchor>a0f0303065df0aa69138d691204a97f90</anchor>
+      <arglist>() override=default</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -7389,67 +7380,6 @@
       <arglist>()=default</arglist>
     </member>
   </compound>
-  <compound kind="class">
-    <name>maliput::geometry_base::Lane</name>
-    <filename>classmaliput_1_1geometry__base_1_1_lane.html</filename>
-    <base>maliput::api::Lane</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
-      <anchor>a99b7649e8342fe7c216553e0a8476d77</anchor>
-      <arglist>(Lane)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>Lane</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
-      <anchor>a1aad8d7166ca6dc56865ee932ebcfee6</anchor>
-      <arglist>(const api::LaneId &amp;id)</arglist>
-    </member>
-    <member kind="function">
-      <type>BranchPoint *</type>
-      <name>mutable_start_branch_point</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
-      <anchor>a31184adf29283175d1a907f4a67269cb</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>BranchPoint *</type>
-      <name>mutable_finish_branch_point</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
-      <anchor>a44b25a4e31d8cd8dcd48bf1ab1c49364</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AttachToSegment</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
-      <anchor>a641be6120d87c39a1713d8d2a2f7cdf0</anchor>
-      <arglist>(common::Passkey&lt; Segment &gt;, const api::Segment *segment, int index)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>SetStartBranchPoint</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
-      <anchor>a6d68eac612ca85e7bdf7c1068778ee92</anchor>
-      <arglist>(common::Passkey&lt; BranchPoint &gt;, BranchPoint *branch_point)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>SetFinishBranchPoint</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
-      <anchor>a2959547e5d8983e00e1b88ff19aa2ec1</anchor>
-      <arglist>(common::Passkey&lt; BranchPoint &gt;, BranchPoint *branch_point)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~Lane</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
-      <anchor>a0f0303065df0aa69138d691204a97f90</anchor>
-      <arglist>() override=default</arglist>
-    </member>
-  </compound>
   <compound kind="struct">
     <name>maliput::api::LaneEnd</name>
     <filename>structmaliput_1_1api_1_1_lane_end.html</filename>
@@ -7515,38 +7445,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::api::LaneEndSet</name>
-    <filename>classmaliput_1_1api_1_1_lane_end_set.html</filename>
-    <member kind="function" virtualness="virtual">
-      <type>virtual</type>
-      <name>~LaneEndSet</name>
-      <anchorfile>classmaliput_1_1api_1_1_lane_end_set.html</anchorfile>
-      <anchor>a46fc620a2191a9f54fe174ce817ff881</anchor>
-      <arglist>()=default</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>size</name>
-      <anchorfile>classmaliput_1_1api_1_1_lane_end_set.html</anchorfile>
-      <anchor>af9593d4a5ff4274efaf429cb4f9e57cc</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>const LaneEnd &amp;</type>
-      <name>get</name>
-      <anchorfile>classmaliput_1_1api_1_1_lane_end_set.html</anchorfile>
-      <anchor>a5ec189215248174c2f97eab42f685796</anchor>
-      <arglist>(int index) const</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type></type>
-      <name>LaneEndSet</name>
-      <anchorfile>classmaliput_1_1api_1_1_lane_end_set.html</anchorfile>
-      <anchor>ad30d4a5fc72d62e1309a5f24c63e799a</anchor>
-      <arglist>()=default</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>maliput::geometry_base::LaneEndSet</name>
     <filename>classmaliput_1_1geometry__base_1_1_lane_end_set.html</filename>
     <base>maliput::api::LaneEndSet</base>
@@ -7580,6 +7478,38 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::api::LaneEndSet</name>
+    <filename>classmaliput_1_1api_1_1_lane_end_set.html</filename>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~LaneEndSet</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane_end_set.html</anchorfile>
+      <anchor>a46fc620a2191a9f54fe174ce817ff881</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>size</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane_end_set.html</anchorfile>
+      <anchor>af9593d4a5ff4274efaf429cb4f9e57cc</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const LaneEnd &amp;</type>
+      <name>get</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane_end_set.html</anchorfile>
+      <anchor>a5ec189215248174c2f97eab42f685796</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>LaneEndSet</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane_end_set.html</anchorfile>
+      <anchor>ad30d4a5fc72d62e1309a5f24c63e799a</anchor>
+      <arglist>()=default</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::api::LanePosition</name>
     <filename>classmaliput_1_1api_1_1_lane_position.html</filename>
     <member kind="function">
@@ -7609,48 +7539,6 @@
       <anchorfile>classmaliput_1_1api_1_1_lane_position.html</anchorfile>
       <anchor>aabd3319fe78aac4fcac521edec6d4e11</anchor>
       <arglist>(const math::Vector3 &amp;srh)</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>s</name>
-      <anchorfile>classmaliput_1_1api_1_1_lane_position.html</anchorfile>
-      <anchor>a88389a186803f18425711478d19c586f</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>set_s</name>
-      <anchorfile>classmaliput_1_1api_1_1_lane_position.html</anchorfile>
-      <anchor>a0cc6f01bceaf0ccbfadc11c67e936a13</anchor>
-      <arglist>(double s)</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>r</name>
-      <anchorfile>classmaliput_1_1api_1_1_lane_position.html</anchorfile>
-      <anchor>a2158ad8213f28ce9ad6c74b562deecca</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>set_r</name>
-      <anchorfile>classmaliput_1_1api_1_1_lane_position.html</anchorfile>
-      <anchor>a89aed38a97f1fda9ef1a61a92c3ca879</anchor>
-      <arglist>(double r)</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>h</name>
-      <anchorfile>classmaliput_1_1api_1_1_lane_position.html</anchorfile>
-      <anchor>aaee1a7019059c8a9ae11e24ec5879824</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>set_h</name>
-      <anchorfile>classmaliput_1_1api_1_1_lane_position.html</anchorfile>
-      <anchor>a886778aa410bd96234a619fdca5000cb</anchor>
-      <arglist>(double h)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static LanePosition</type>
@@ -8562,7 +8450,7 @@
       <type>double</type>
       <name>cofactor</name>
       <anchorfile>classmaliput_1_1math_1_1_matrix.html</anchorfile>
-      <anchor>aa87b7d4523262e1ad4ac3734f4c930c2</anchor>
+      <anchor>ae6ef9c768a4270a9ebd46177fa250144</anchor>
       <arglist>(std::size_t row, std::size_t col) const</arglist>
     </member>
     <member kind="function" static="yes">
@@ -10075,34 +9963,6 @@
       <anchor>a2b07dcd33fdf62555398c5a587035999</anchor>
       <arglist>(double max)</arglist>
     </member>
-    <member kind="function">
-      <type>double</type>
-      <name>min</name>
-      <anchorfile>classmaliput_1_1api_1_1_r_bounds.html</anchorfile>
-      <anchor>a74ad3cfdc000a999ae2d456fe3ec3418</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>set_min</name>
-      <anchorfile>classmaliput_1_1api_1_1_r_bounds.html</anchorfile>
-      <anchor>ac21dffdc86052847014c3a19c08a3759</anchor>
-      <arglist>(double min)</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>max</name>
-      <anchorfile>classmaliput_1_1api_1_1_r_bounds.html</anchorfile>
-      <anchor>ae10f649a540c212781c2d0a4c7385eca</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>set_max</name>
-      <anchorfile>classmaliput_1_1api_1_1_r_bounds.html</anchorfile>
-      <anchor>a2b07dcd33fdf62555398c5a587035999</anchor>
-      <arglist>(double max)</arglist>
-    </member>
   </compound>
   <compound kind="struct">
     <name>maliput::RelatedRulesKeys</name>
@@ -10261,6 +10121,46 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::geometry_base::RoadGeometry</name>
+    <filename>classmaliput_1_1geometry__base_1_1_road_geometry.html</filename>
+    <base>maliput::api::RoadGeometry</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_road_geometry.html</anchorfile>
+      <anchor>ac4f7fc33fb19946309af17487bbe83f0</anchor>
+      <arglist>(RoadGeometry)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>RoadGeometry</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_road_geometry.html</anchorfile>
+      <anchor>a67f4ef90da8861ea291670c552d720a0</anchor>
+      <arglist>(const api::RoadGeometryId &amp;id, double linear_tolerance, double angular_tolerance, double scale_length, const math::Vector3 &amp;inertial_to_backend_frame_translation)</arglist>
+    </member>
+    <member kind="function">
+      <type>T *</type>
+      <name>AddJunction</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_road_geometry.html</anchorfile>
+      <anchor>ad619f53223c9dc8a1dd711ea7b6769df</anchor>
+      <arglist>(std::unique_ptr&lt; T &gt; junction)</arglist>
+    </member>
+    <member kind="function">
+      <type>T *</type>
+      <name>AddBranchPoint</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_road_geometry.html</anchorfile>
+      <anchor>a36aac6602fb3dcc28d4a0d28af720698</anchor>
+      <arglist>(std::unique_ptr&lt; T &gt; branch_point)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~RoadGeometry</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_road_geometry.html</anchorfile>
+      <anchor>a3180977d75affb100512dc8177009a4f</anchor>
+      <arglist>() override=default</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::api::RoadGeometry</name>
     <filename>classmaliput_1_1api_1_1_road_geometry.html</filename>
     <class kind="class">maliput::api::RoadGeometry::IdIndex</class>
@@ -10375,46 +10275,6 @@
       <anchorfile>classmaliput_1_1api_1_1_road_geometry.html</anchorfile>
       <anchor>a78af9b4d6ccb429d4d75ebd22b3e6493</anchor>
       <arglist>()=default</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::geometry_base::RoadGeometry</name>
-    <filename>classmaliput_1_1geometry__base_1_1_road_geometry.html</filename>
-    <base>maliput::api::RoadGeometry</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_road_geometry.html</anchorfile>
-      <anchor>ac4f7fc33fb19946309af17487bbe83f0</anchor>
-      <arglist>(RoadGeometry)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>RoadGeometry</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_road_geometry.html</anchorfile>
-      <anchor>a67f4ef90da8861ea291670c552d720a0</anchor>
-      <arglist>(const api::RoadGeometryId &amp;id, double linear_tolerance, double angular_tolerance, double scale_length, const math::Vector3 &amp;inertial_to_backend_frame_translation)</arglist>
-    </member>
-    <member kind="function">
-      <type>T *</type>
-      <name>AddJunction</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_road_geometry.html</anchorfile>
-      <anchor>ad619f53223c9dc8a1dd711ea7b6769df</anchor>
-      <arglist>(std::unique_ptr&lt; T &gt; junction)</arglist>
-    </member>
-    <member kind="function">
-      <type>T *</type>
-      <name>AddBranchPoint</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_road_geometry.html</anchorfile>
-      <anchor>a36aac6602fb3dcc28d4a0d28af720698</anchor>
-      <arglist>(std::unique_ptr&lt; T &gt; branch_point)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~RoadGeometry</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_road_geometry.html</anchorfile>
-      <anchor>a3180977d75affb100512dc8177009a4f</anchor>
-      <arglist>() override=default</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -12374,6 +12234,39 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::TrafficLightBook</name>
+    <filename>classmaliput_1_1_traffic_light_book.html</filename>
+    <base>maliput::api::rules::TrafficLightBook</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
+      <anchor>abcc08c5751a8d7e9ffcf5e7e27e1e611</anchor>
+      <arglist>(TrafficLightBook)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>TrafficLightBook</name>
+      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
+      <anchor>ac6252aac70ee58246aaa76909c91dad8</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~TrafficLightBook</name>
+      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
+      <anchor>a73564dc67d24d37a28f9699229eb6707</anchor>
+      <arglist>() override</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AddTrafficLight</name>
+      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
+      <anchor>af7b16aaf63fff8a971cd59fd74347f96</anchor>
+      <arglist>(std::unique_ptr&lt; const api::rules::TrafficLight &gt; traffic_light)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::api::rules::TrafficLightBook</name>
     <filename>classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html</filename>
     <member kind="function">
@@ -12410,39 +12303,6 @@
       <anchorfile>classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html</anchorfile>
       <anchor>a050a1e9e217785773eedeff40a95f39b</anchor>
       <arglist>()=default</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::TrafficLightBook</name>
-    <filename>classmaliput_1_1_traffic_light_book.html</filename>
-    <base>maliput::api::rules::TrafficLightBook</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
-      <anchor>abcc08c5751a8d7e9ffcf5e7e27e1e611</anchor>
-      <arglist>(TrafficLightBook)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>TrafficLightBook</name>
-      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
-      <anchor>ac6252aac70ee58246aaa76909c91dad8</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~TrafficLightBook</name>
-      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
-      <anchor>a73564dc67d24d37a28f9699229eb6707</anchor>
-      <arglist>() override</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AddTrafficLight</name>
-      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
-      <anchor>af7b16aaf63fff8a971cd59fd74347f96</anchor>
-      <arglist>(std::unique_ptr&lt; const api::rules::TrafficLight &gt; traffic_light)</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -12484,7 +12344,7 @@
   <compound kind="class">
     <name>maliput::api::TypeSpecificIdentifier</name>
     <filename>classmaliput_1_1api_1_1_type_specific_identifier.html</filename>
-    <templarg>T</templarg>
+    <templarg></templarg>
     <member kind="typedef">
       <type>T</type>
       <name>identified_type</name>
@@ -13633,9 +13493,9 @@
   <compound kind="class">
     <name>maliput::utility::mesh::UniqueIndexer</name>
     <filename>classmaliput_1_1utility_1_1mesh_1_1_unique_indexer.html</filename>
-    <templarg>T</templarg>
-    <templarg>Hash</templarg>
-    <templarg>KeyEqual</templarg>
+    <templarg></templarg>
+    <templarg></templarg>
+    <templarg></templarg>
     <member kind="function">
       <type></type>
       <name>UniqueIndexer</name>
@@ -13676,7 +13536,7 @@
       <arglist>(const maliput::utility::mesh::GeoNormal &amp;thing)</arglist>
     </member>
     <member kind="function">
-      <type>const std::vector&lt; const maliput::utility::mesh::GeoNormal *&gt; &amp;</type>
+      <type>const std::vector&lt; const maliput::utility::mesh::GeoNormal * &gt; &amp;</type>
       <name>vector</name>
       <anchorfile>classmaliput_1_1utility_1_1mesh_1_1_unique_indexer.html</anchorfile>
       <anchor>a32c8226c7e0f9886ef3e9eba55329c96</anchor>
@@ -13701,7 +13561,7 @@
       <arglist>(const maliput::utility::mesh::GeoVertex &amp;thing)</arglist>
     </member>
     <member kind="function">
-      <type>const std::vector&lt; const maliput::utility::mesh::GeoVertex *&gt; &amp;</type>
+      <type>const std::vector&lt; const maliput::utility::mesh::GeoVertex * &gt; &amp;</type>
       <name>vector</name>
       <anchorfile>classmaliput_1_1utility_1_1mesh_1_1_unique_indexer.html</anchorfile>
       <anchor>a32c8226c7e0f9886ef3e9eba55329c96</anchor>
@@ -14062,7 +13922,7 @@
     <name>maliput::math::VectorBase</name>
     <filename>classmaliput_1_1math_1_1_vector_base.html</filename>
     <templarg>N</templarg>
-    <templarg>Derived</templarg>
+    <templarg></templarg>
     <member kind="function">
       <type></type>
       <name>VectorBase</name>
@@ -15816,8 +15676,8 @@
       <type>::testing::AssertionResult</type>
       <name>IsEqual</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>adf21d47fb6bb1b0bb51d01e3ed6a4836</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; const Bulb *&gt; &amp;a, const std::vector&lt; const Bulb *&gt; &amp;b)</arglist>
+      <anchor>a4560fca9b6f2d4fe9f7ee489c0849504</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; const Bulb * &gt; &amp;a, const std::vector&lt; const Bulb * &gt; &amp;b)</arglist>
     </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>
@@ -16293,8 +16153,8 @@
       <type>std::unique_ptr&lt; RoadGeometry &gt;</type>
       <name>CreateMultipleLanesRoadGeometry</name>
       <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>aeefad1a15e3b75fb9b9be095cdb52b07</anchor>
-      <arglist>(const std::vector&lt; Lane *&gt; &amp;lanes)</arglist>
+      <anchor>acb850383540320ccf001ff91e0e78f36</anchor>
+      <arglist>(const std::vector&lt; Lane * &gt; &amp;lanes)</arglist>
     </member>
   </compound>
   <compound kind="namespace">
@@ -17415,33 +17275,33 @@
     <name>maliput_design</name>
     <title>Maliput Design</title>
     <filename>maliput_design</filename>
-    <docanchor file="maliput_design" title="Modeling Road Networks for Simulation">modeling_road_networks_for_simulation</docanchor>
-    <docanchor file="maliput_design" title="Objectives">objectives</docanchor>
-    <docanchor file="maliput_design" title="Road Network Geometry">road_network_goemetry</docanchor>
-    <docanchor file="maliput_design" title="Geometry Model">geometry_model</docanchor>
-    <docanchor file="maliput_design" title="Overview">overview</docanchor>
-    <docanchor file="maliput_design" title="Scale Length and Tolerances">scale_length_and_tolerances</docanchor>
-    <docanchor file="maliput_design" title="`Inertial`-frame versus `Lane`-frame">inertial_frame_versus_lane_frame</docanchor>
-    <docanchor file="maliput_design" title="Lanes as `Lanes`">lanes_as_lanes</docanchor>
-    <docanchor file="maliput_design" title="Lanes Joined End-to-End via `BranchPoints`">lanes_joined_via_branchpoints</docanchor>
-    <docanchor file="maliput_design" title="Adjacent Lanes Grouped into `Segments`">adjacent_lanes_grouped_into_segments</docanchor>
-    <docanchor file="maliput_design" title="Intersecting `Segments` Grouped into `Junction`">intersecting_segments_grouped_into_junctions</docanchor>
-    <docanchor file="maliput_design" title="Abstract Geometry API: `RoadGeometry`">abstract_geometry_api_roadgeometry</docanchor>
-    <docanchor file="maliput_design" title="Basic Types">basic_types</docanchor>
-    <docanchor file="maliput_design" title="`RoadGeometry`">roadgeometry</docanchor>
-    <docanchor file="maliput_design" title="`Junction`">junction</docanchor>
-    <docanchor file="maliput_design" title="`Segment`">segment</docanchor>
-    <docanchor file="maliput_design" title="`Lane`">lane</docanchor>
-    <docanchor file="maliput_design" title="`BranchPoints`">branchpoints</docanchor>
-    <docanchor file="maliput_design" title="Rules and Features Databases">rules_and_features_databases</docanchor>
-    <docanchor file="maliput_design" title="Rules of the Road: `RoadRulebook`">rules_of_the_road</docanchor>
-    <docanchor file="maliput_design">road-rulebook-outline_img</docanchor>
-    <docanchor file="maliput_design" title="Common Region Entities">common_region_entities</docanchor>
-    <docanchor file="maliput_design" title="`SpeedLimitRule`: Speed Limits">speed_limit_rules</docanchor>
-    <docanchor file="maliput_design" title="`RightOfWayRule`: Stopping and Yielding">right_of_way_rule</docanchor>
-    <docanchor file="maliput_design">RoWR-lone-crosswalk</docanchor>
-    <docanchor file="maliput_design">RoWR-one-way-to-two-way</docanchor>
-    <docanchor file="maliput_design">RoWR-protected-left</docanchor>
-    <docanchor file="maliput_design">RoWR-freeway-merge</docanchor>
+    <docanchor file="maliput_design.html" title="Modeling Road Networks for Simulation">modeling_road_networks_for_simulation</docanchor>
+    <docanchor file="maliput_design.html" title="Objectives">objectives</docanchor>
+    <docanchor file="maliput_design.html" title="Road Network Geometry">road_network_goemetry</docanchor>
+    <docanchor file="maliput_design.html" title="Geometry Model">geometry_model</docanchor>
+    <docanchor file="maliput_design.html" title="Overview">overview</docanchor>
+    <docanchor file="maliput_design.html" title="Scale Length and Tolerances">scale_length_and_tolerances</docanchor>
+    <docanchor file="maliput_design.html" title="&lt;tt&gt;Inertial&lt;/tt&gt;-frame versus &lt;tt&gt;Lane&lt;/tt&gt;-frame">inertial_frame_versus_lane_frame</docanchor>
+    <docanchor file="maliput_design.html" title="Lanes as &lt;tt&gt;Lanes&lt;/tt&gt;">lanes_as_lanes</docanchor>
+    <docanchor file="maliput_design.html" title="Lanes Joined End-to-End via &lt;tt&gt;BranchPoints&lt;/tt&gt;">lanes_joined_via_branchpoints</docanchor>
+    <docanchor file="maliput_design.html" title="Adjacent Lanes Grouped into &lt;tt&gt;Segments&lt;/tt&gt;">adjacent_lanes_grouped_into_segments</docanchor>
+    <docanchor file="maliput_design.html" title="Intersecting &lt;tt&gt;Segments&lt;/tt&gt; Grouped into &lt;tt&gt;Junction&lt;/tt&gt;">intersecting_segments_grouped_into_junctions</docanchor>
+    <docanchor file="maliput_design.html" title="Abstract Geometry API: &lt;tt&gt;RoadGeometry&lt;/tt&gt;">abstract_geometry_api_roadgeometry</docanchor>
+    <docanchor file="maliput_design.html" title="Basic Types">basic_types</docanchor>
+    <docanchor file="maliput_design.html" title="&lt;tt&gt;RoadGeometry&lt;/tt&gt;">roadgeometry</docanchor>
+    <docanchor file="maliput_design.html" title="&lt;tt&gt;Junction&lt;/tt&gt;">junction</docanchor>
+    <docanchor file="maliput_design.html" title="&lt;tt&gt;Segment&lt;/tt&gt;">segment</docanchor>
+    <docanchor file="maliput_design.html" title="&lt;tt&gt;Lane&lt;/tt&gt;">lane</docanchor>
+    <docanchor file="maliput_design.html" title="&lt;tt&gt;BranchPoints&lt;/tt&gt;">branchpoints</docanchor>
+    <docanchor file="maliput_design.html" title="Rules and Features Databases">rules_and_features_databases</docanchor>
+    <docanchor file="maliput_design.html" title="Rules of the Road: &lt;tt&gt;RoadRulebook&lt;/tt&gt;">rules_of_the_road</docanchor>
+    <docanchor file="maliput_design.html">road-rulebook-outline_img</docanchor>
+    <docanchor file="maliput_design.html" title="Common Region Entities">common_region_entities</docanchor>
+    <docanchor file="maliput_design.html" title="&lt;tt&gt;SpeedLimitRule&lt;/tt&gt;: Speed Limits">speed_limit_rules</docanchor>
+    <docanchor file="maliput_design.html" title="&lt;tt&gt;RightOfWayRule&lt;/tt&gt;: Stopping and Yielding">right_of_way_rule</docanchor>
+    <docanchor file="maliput_design.html">RoWR-lone-crosswalk</docanchor>
+    <docanchor file="maliput_design.html">RoWR-one-way-to-two-way</docanchor>
+    <docanchor file="maliput_design.html">RoWR-protected-left</docanchor>
+    <docanchor file="maliput_design.html">RoWR-freeway-merge</docanchor>
   </compound>
 </tagfile>

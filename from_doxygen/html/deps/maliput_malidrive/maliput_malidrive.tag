@@ -3,7 +3,7 @@
   <compound kind="file">
     <name>arc_ground_curve.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
-    <filename>arc__ground__curve_8cc</filename>
+    <filename>arc__ground__curve_8cc.html</filename>
     <includes id="arc__ground__curve_8h" name="arc_ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/arc_ground_curve.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::road_curve</namespace>
@@ -11,7 +11,7 @@
   <compound kind="file">
     <name>arc_ground_curve.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
-    <filename>arc__ground__curve_8h</filename>
+    <filename>arc__ground__curve_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="ground__curve_8h" name="ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/ground_curve.h</includes>
     <includes id="open__range__validator_8h" name="open_range_validator.h" local="yes" imported="no">maliput_malidrive/road_curve/open_range_validator.h</includes>
@@ -22,7 +22,7 @@
   <compound kind="file">
     <name>builder_tools.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>builder__tools_8cc</filename>
+    <filename>builder__tools_8cc.html</filename>
     <includes id="builder__tools_8h" name="builder_tools.h" local="yes" imported="no">maliput_malidrive/builder/builder_tools.h</includes>
     <includes id="road__geometry_8h" name="road_geometry.h" local="yes" imported="no">maliput_malidrive/base/road_geometry.h</includes>
     <includes id="id__providers_8h" name="id_providers.h" local="yes" imported="no">maliput_malidrive/builder/id_providers.h</includes>
@@ -155,7 +155,7 @@
   <compound kind="file">
     <name>builder_tools.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>builder__tools_8h</filename>
+    <filename>builder__tools_8h.html</filename>
     <includes id="base_2lane_8h" name="base/lane.h" local="yes" imported="no">maliput_malidrive/base/lane.h</includes>
     <includes id="rule__tools_8h" name="rule_tools.h" local="yes" imported="no">maliput_malidrive/builder/rule_tools.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
@@ -277,13 +277,13 @@
   <compound kind="file">
     <name>common.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/common/</path>
-    <filename>common_8cc</filename>
+    <filename>common_8cc.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
   </compound>
   <compound kind="file">
     <name>connection.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>connection_8cc</filename>
+    <filename>connection_8cc.html</filename>
     <includes id="connection_8h" name="connection.h" local="yes" imported="no">maliput_malidrive/xodr/connection.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
@@ -291,7 +291,7 @@
   <compound kind="file">
     <name>connection.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>connection_8h</filename>
+    <filename>connection_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <class kind="struct">malidrive::xodr::Connection</class>
     <class kind="struct">malidrive::xodr::Connection::LaneLink</class>
@@ -301,7 +301,7 @@
   <compound kind="file">
     <name>constants.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/</path>
-    <filename>constants_8h</filename>
+    <filename>constants_8h.html</filename>
     <namespace>malidrive</namespace>
     <namespace>malidrive::constants</namespace>
     <member kind="variable" static="yes">
@@ -385,7 +385,7 @@
   <compound kind="file">
     <name>cubic_polynomial.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
-    <filename>cubic__polynomial_8h</filename>
+    <filename>cubic__polynomial_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="function_8h" name="function.h" local="yes" imported="no">maliput_malidrive/road_curve/function.h</includes>
     <includes id="open__range__validator_8h" name="open_range_validator.h" local="yes" imported="no">maliput_malidrive/road_curve/open_range_validator.h</includes>
@@ -396,7 +396,7 @@
   <compound kind="file">
     <name>db_manager.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>db__manager_8cc</filename>
+    <filename>db__manager_8cc.html</filename>
     <includes id="db__manager_8h" name="db_manager.h" local="yes" imported="no">maliput_malidrive/xodr/db_manager.h</includes>
     <includes id="elevation__profile_8h" name="elevation_profile.h" local="yes" imported="no">maliput_malidrive/xodr/elevation_profile.h</includes>
     <includes id="lateral__profile_8h" name="lateral_profile.h" local="yes" imported="no">maliput_malidrive/xodr/lateral_profile.h</includes>
@@ -422,7 +422,7 @@
   <compound kind="file">
     <name>db_manager.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>db__manager_8h</filename>
+    <filename>db__manager_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="header_8h" name="header.h" local="yes" imported="no">maliput_malidrive/xodr/header.h</includes>
     <includes id="junction_8h" name="junction.h" local="yes" imported="no">maliput_malidrive/xodr/junction.h</includes>
@@ -454,7 +454,7 @@
   <compound kind="file">
     <name>determine_tolerance.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>determine__tolerance_8cc</filename>
+    <filename>determine__tolerance_8cc.html</filename>
     <includes id="determine__tolerance_8h" name="determine_tolerance.h" local="yes" imported="no">maliput_malidrive/builder/determine_tolerance.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="constants_8h" name="constants.h" local="yes" imported="no">maliput_malidrive/constants.h</includes>
@@ -487,7 +487,7 @@
   <compound kind="file">
     <name>determine_tolerance.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>determine__tolerance_8h</filename>
+    <filename>determine__tolerance_8h.html</filename>
     <includes id="db__manager_8h" name="db_manager.h" local="yes" imported="no">maliput_malidrive/xodr/db_manager.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
@@ -523,7 +523,7 @@
   <compound kind="file">
     <name>direction_usage_builder.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>direction__usage__builder_8cc</filename>
+    <filename>direction__usage__builder_8cc.html</filename>
     <includes id="direction__usage__builder_8h" name="direction_usage_builder.h" local="yes" imported="no">maliput_malidrive/builder/direction_usage_builder.h</includes>
     <includes id="builder__tools_8h" name="builder_tools.h" local="yes" imported="no">maliput_malidrive/builder/builder_tools.h</includes>
     <namespace>malidrive</namespace>
@@ -532,7 +532,7 @@
   <compound kind="file">
     <name>direction_usage_builder.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>direction__usage__builder_8h</filename>
+    <filename>direction__usage__builder_8h.html</filename>
     <includes id="base_2lane_8h" name="base/lane.h" local="yes" imported="no">maliput_malidrive/base/lane.h</includes>
     <includes id="id__providers_8h" name="id_providers.h" local="yes" imported="no">maliput_malidrive/builder/id_providers.h</includes>
     <class kind="class">malidrive::builder::DirectionUsageBuilder</class>
@@ -542,7 +542,7 @@
   <compound kind="file">
     <name>discrete_value_rule_state_provider_builder.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>discrete__value__rule__state__provider__builder_8cc</filename>
+    <filename>discrete__value__rule__state__provider__builder_8cc.html</filename>
     <includes id="discrete__value__rule__state__provider__builder_8h" name="discrete_value_rule_state_provider_builder.h" local="yes" imported="no">maliput_malidrive/builder/discrete_value_rule_state_provider_builder.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
@@ -550,7 +550,7 @@
   <compound kind="file">
     <name>discrete_value_rule_state_provider_builder.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>discrete__value__rule__state__provider__builder_8h</filename>
+    <filename>discrete__value__rule__state__provider__builder_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <class kind="class">malidrive::builder::DiscreteValueRuleStateProviderBuilder</class>
     <namespace>malidrive</namespace>
@@ -559,7 +559,7 @@
   <compound kind="file">
     <name>elevation_profile.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>elevation__profile_8cc</filename>
+    <filename>elevation__profile_8cc.html</filename>
     <includes id="elevation__profile_8h" name="elevation_profile.h" local="yes" imported="no">maliput_malidrive/xodr/elevation_profile.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
@@ -567,7 +567,7 @@
   <compound kind="file">
     <name>elevation_profile.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>elevation__profile_8h</filename>
+    <filename>elevation__profile_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <class kind="struct">malidrive::xodr::ElevationProfile</class>
     <class kind="struct">malidrive::xodr::ElevationProfile::Elevation</class>
@@ -577,7 +577,7 @@
   <compound kind="file">
     <name>file_tools.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/utility/</path>
-    <filename>file__tools_8cc</filename>
+    <filename>file__tools_8cc.html</filename>
     <includes id="file__tools_8h" name="file_tools.h" local="yes" imported="no">utility/file_tools.h</includes>
     <namespace>utility</namespace>
     <member kind="function">
@@ -591,7 +591,7 @@
   <compound kind="file">
     <name>file_tools.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/utility/</path>
-    <filename>file__tools_8h</filename>
+    <filename>file__tools_8h.html</filename>
     <namespace>utility</namespace>
     <member kind="function">
       <type>std::string</type>
@@ -604,7 +604,7 @@
   <compound kind="file">
     <name>function.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
-    <filename>function_8h</filename>
+    <filename>function_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <class kind="class">malidrive::road_curve::Function</class>
     <namespace>malidrive</namespace>
@@ -613,7 +613,7 @@
   <compound kind="file">
     <name>function_stub.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/test_utilities/</path>
-    <filename>function__stub_8h</filename>
+    <filename>function__stub_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="function_8h" name="function.h" local="yes" imported="no">maliput_malidrive/road_curve/function.h</includes>
     <class kind="class">malidrive::road_curve::test::FunctionStub</class>
@@ -624,7 +624,7 @@
   <compound kind="file">
     <name>geometry.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>geometry_8cc</filename>
+    <filename>geometry_8cc.html</filename>
     <includes id="geometry_8h" name="geometry.h" local="yes" imported="no">maliput_malidrive/xodr/geometry.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
@@ -632,7 +632,7 @@
   <compound kind="file">
     <name>geometry.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>geometry_8h</filename>
+    <filename>geometry_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <class kind="struct">malidrive::xodr::Geometry</class>
     <class kind="struct">malidrive::xodr::Geometry::Line</class>
@@ -643,7 +643,7 @@
   <compound kind="file">
     <name>ground_curve.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
-    <filename>ground__curve_8h</filename>
+    <filename>ground__curve_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <class kind="class">malidrive::road_curve::GroundCurve</class>
     <namespace>malidrive</namespace>
@@ -652,7 +652,7 @@
   <compound kind="file">
     <name>ground_curve_stub.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/test_utilities/</path>
-    <filename>ground__curve__stub_8h</filename>
+    <filename>ground__curve__stub_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="ground__curve_8h" name="ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/ground_curve.h</includes>
     <class kind="class">malidrive::road_curve::test::GroundCurveStub</class>
@@ -663,7 +663,7 @@
   <compound kind="file">
     <name>header.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>header_8cc</filename>
+    <filename>header_8cc.html</filename>
     <includes id="header_8h" name="header.h" local="yes" imported="no">maliput_malidrive/xodr/header.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
@@ -678,7 +678,7 @@
   <compound kind="file">
     <name>header.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>header_8h</filename>
+    <filename>header_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <class kind="struct">malidrive::xodr::Header</class>
     <namespace>malidrive</namespace>
@@ -694,7 +694,7 @@
   <compound kind="file">
     <name>id_providers.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>id__providers_8cc</filename>
+    <filename>id__providers_8cc.html</filename>
     <includes id="id__providers_8h" name="id_providers.h" local="yes" imported="no">maliput_malidrive/builder/id_providers.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
@@ -772,7 +772,7 @@
   <compound kind="file">
     <name>id_providers.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/builder/</path>
-    <filename>id__providers_8h</filename>
+    <filename>id__providers_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <class kind="class">malidrive::builder::UniqueIntegerProvider</class>
     <namespace>malidrive</namespace>
@@ -851,7 +851,7 @@
   <compound kind="file">
     <name>inertial_to_lane_mapping_config.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/base/</path>
-    <filename>inertial__to__lane__mapping__config_8h</filename>
+    <filename>inertial__to__lane__mapping__config_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <class kind="struct">malidrive::InertialToLaneMappingConfig</class>
     <namespace>malidrive</namespace>
@@ -859,7 +859,7 @@
   <compound kind="file">
     <name>junction.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>junction_8cc</filename>
+    <filename>junction_8cc.html</filename>
     <includes id="junction_8h" name="junction.h" local="yes" imported="no">maliput_malidrive/xodr/junction.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
@@ -874,7 +874,7 @@
   <compound kind="file">
     <name>junction.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>junction_8h</filename>
+    <filename>junction_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="connection_8h" name="connection.h" local="yes" imported="no">maliput_malidrive/xodr/connection.h</includes>
     <class kind="struct">malidrive::xodr::Junction</class>
@@ -891,7 +891,7 @@
   <compound kind="file">
     <name>base/lane.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/base/</path>
-    <filename>base_2lane_8cc</filename>
+    <filename>base_2lane_8cc.html</filename>
     <includes id="base_2lane_8h" name="base/lane.h" local="yes" imported="no">maliput_malidrive/base/lane.h</includes>
     <includes id="road__geometry_8h" name="road_geometry.h" local="yes" imported="no">maliput_malidrive/base/road_geometry.h</includes>
     <includes id="open__range__validator_8h" name="open_range_validator.h" local="yes" imported="no">maliput_malidrive/road_curve/open_range_validator.h</includes>
@@ -900,7 +900,7 @@
   <compound kind="file">
     <name>xodr/lane.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>xodr_2lane_8cc</filename>
+    <filename>xodr_2lane_8cc.html</filename>
     <includes id="xodr_2lane_8h" name="xodr/lane.h" local="yes" imported="no">maliput_malidrive/xodr/lane.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
@@ -908,7 +908,7 @@
   <compound kind="file">
     <name>base/lane.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/base/</path>
-    <filename>base_2lane_8h</filename>
+    <filename>base_2lane_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="function_8h" name="function.h" local="yes" imported="no">maliput_malidrive/road_curve/function.h</includes>
     <includes id="road__curve_8h" name="road_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/road_curve.h</includes>
@@ -919,7 +919,7 @@
   <compound kind="file">
     <name>xodr/lane.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>xodr_2lane_8h</filename>
+    <filename>xodr_2lane_8h.html</filename>
     <includes id="lane__link_8h" name="lane_link.h" local="yes" imported="no">maliput_malidrive/xodr/lane_link.h</includes>
     <includes id="lane__width_8h" name="lane_width.h" local="yes" imported="no">maliput_malidrive/xodr/lane_width.h</includes>
     <includes id="unit_8h" name="unit.h" local="yes" imported="no">maliput_malidrive/xodr/unit.h</includes>
@@ -931,7 +931,7 @@
   <compound kind="file">
     <name>lane_link.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>lane__link_8h</filename>
+    <filename>lane__link_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <class kind="struct">malidrive::xodr::LaneLink</class>
     <class kind="struct">malidrive::xodr::LaneLink::LinkAttributes</class>
@@ -941,7 +941,7 @@
   <compound kind="file">
     <name>road_curve/lane_offset.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
-    <filename>road__curve_2lane__offset_8cc</filename>
+    <filename>road__curve_2lane__offset_8cc.html</filename>
     <includes id="road__curve_2lane__offset_8h" name="road_curve/lane_offset.h" local="yes" imported="no">maliput_malidrive/road_curve/lane_offset.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::road_curve</namespace>
@@ -949,7 +949,7 @@
   <compound kind="file">
     <name>xodr/lane_offset.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>xodr_2lane__offset_8cc</filename>
+    <filename>xodr_2lane__offset_8cc.html</filename>
     <includes id="xodr_2lane__offset_8h" name="xodr/lane_offset.h" local="yes" imported="no">maliput_malidrive/xodr/lane_offset.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
@@ -957,7 +957,7 @@
   <compound kind="file">
     <name>road_curve/lane_offset.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
-    <filename>road__curve_2lane__offset_8h</filename>
+    <filename>road__curve_2lane__offset_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="function_8h" name="function.h" local="yes" imported="no">maliput_malidrive/road_curve/function.h</includes>
     <includes id="open__range__validator_8h" name="open_range_validator.h" local="yes" imported="no">maliput_malidrive/road_curve/open_range_validator.h</includes>
@@ -969,7 +969,7 @@
   <compound kind="file">
     <name>xodr/lane_offset.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>xodr_2lane__offset_8h</filename>
+    <filename>xodr_2lane__offset_8h.html</filename>
     <class kind="struct">malidrive::xodr::LaneOffset</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
@@ -977,7 +977,7 @@
   <compound kind="file">
     <name>lane_section.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>lane__section_8cc</filename>
+    <filename>lane__section_8cc.html</filename>
     <includes id="lane__section_8h" name="lane_section.h" local="yes" imported="no">maliput_malidrive/xodr/lane_section.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
@@ -985,7 +985,7 @@
   <compound kind="file">
     <name>lane_section.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>lane__section_8h</filename>
+    <filename>lane__section_8h.html</filename>
     <includes id="xodr_2lane_8h" name="xodr/lane.h" local="yes" imported="no">maliput_malidrive/xodr/lane.h</includes>
     <class kind="struct">malidrive::xodr::LaneSection</class>
     <namespace>malidrive</namespace>
@@ -994,7 +994,7 @@
   <compound kind="file">
     <name>lane_width.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>lane__width_8cc</filename>
+    <filename>lane__width_8cc.html</filename>
     <includes id="lane__width_8h" name="lane_width.h" local="yes" imported="no">maliput_malidrive/xodr/lane_width.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
@@ -1002,7 +1002,7 @@
   <compound kind="file">
     <name>lane_width.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>lane__width_8h</filename>
+    <filename>lane__width_8h.html</filename>
     <class kind="struct">malidrive::xodr::LaneWidth</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
@@ -1010,7 +1010,7 @@
   <compound kind="file">
     <name>lanes.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>lanes_8cc</filename>
+    <filename>lanes_8cc.html</filename>
     <includes id="lanes_8h" name="lanes.h" local="yes" imported="no">maliput_malidrive/xodr/lanes.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
@@ -1018,7 +1018,7 @@
   <compound kind="file">
     <name>lanes.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>lanes_8h</filename>
+    <filename>lanes_8h.html</filename>
     <includes id="xodr_2lane__offset_8h" name="xodr/lane_offset.h" local="yes" imported="no">maliput_malidrive/xodr/lane_offset.h</includes>
     <includes id="lane__section_8h" name="lane_section.h" local="yes" imported="no">maliput_malidrive/xodr/lane_section.h</includes>
     <class kind="struct">malidrive::xodr::Lanes</class>
@@ -1028,7 +1028,7 @@
   <compound kind="file">
     <name>lateral_profile.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>lateral__profile_8cc</filename>
+    <filename>lateral__profile_8cc.html</filename>
     <includes id="lateral__profile_8h" name="lateral_profile.h" local="yes" imported="no">maliput_malidrive/xodr/lateral_profile.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
@@ -1036,7 +1036,7 @@
   <compound kind="file">
     <name>lateral_profile.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>lateral__profile_8h</filename>
+    <filename>lateral__profile_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <class kind="struct">malidrive::xodr::LateralProfile</class>
     <class kind="struct">malidrive::xodr::LateralProfile::Superelevation</class>
@@ -1046,7 +1046,7 @@
   <compound kind="file">
     <name>line_ground_curve.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
-    <filename>line__ground__curve_8cc</filename>
+    <filename>line__ground__curve_8cc.html</filename>
     <includes id="line__ground__curve_8h" name="line_ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/line_ground_curve.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::road_curve</namespace>
@@ -1054,7 +1054,7 @@
   <compound kind="file">
     <name>line_ground_curve.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
-    <filename>line__ground__curve_8h</filename>
+    <filename>line__ground__curve_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="ground__curve_8h" name="ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/ground_curve.h</includes>
     <includes id="open__range__validator_8h" name="open_range_validator.h" local="yes" imported="no">maliput_malidrive/road_curve/open_range_validator.h</includes>
@@ -1065,7 +1065,7 @@
   <compound kind="file">
     <name>loader.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/loader/</path>
-    <filename>loader_8cc</filename>
+    <filename>loader_8cc.html</filename>
     <includes id="loader_8h" name="loader.h" local="yes" imported="no">maliput_malidrive/loader/loader.h</includes>
     <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_malidrive/builder/road_network_builder.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
@@ -1083,7 +1083,7 @@
   <compound kind="file">
     <name>loader.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/loader/</path>
-    <filename>loader_8h</filename>
+    <filename>loader_8h.html</filename>
     <includes id="inertial__to__lane__mapping__config_8h" name="inertial_to_lane_mapping_config.h" local="yes" imported="no">maliput_malidrive/base/inertial_to_lane_mapping_config.h</includes>
     <includes id="road__geometry__configuration_8h" name="road_geometry_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_configuration.h</includes>
     <includes id="road__network__configuration_8h" name="road_network_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_network_configuration.h</includes>
@@ -1100,7 +1100,7 @@
   <compound kind="file">
     <name>log_level_flag.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/applications/</path>
-    <filename>log__level__flag_8h</filename>
+    <filename>log__level__flag_8h.html</filename>
     <member kind="define">
       <type>#define</type>
       <name>MALIPUT_MALIDRIVE_APPLICATION_DEFINE_LOG_LEVEL_FLAG</name>
@@ -1112,7 +1112,7 @@
   <compound kind="file">
     <name>macros.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/common/</path>
-    <filename>macros_8h</filename>
+    <filename>macros_8h.html</filename>
     <member kind="define">
       <type>#define</type>
       <name>MALIDRIVE_DEMAND</name>
@@ -1194,7 +1194,7 @@
   <compound kind="file">
     <name>open_range_validator.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
-    <filename>open__range__validator_8cc</filename>
+    <filename>open__range__validator_8cc.html</filename>
     <includes id="open__range__validator_8h" name="open_range_validator.h" local="yes" imported="no">maliput_malidrive/road_curve/open_range_validator.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::road_curve</namespace>
@@ -1202,7 +1202,7 @@
   <compound kind="file">
     <name>open_range_validator.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/road_curve/</path>
-    <filename>open__range__validator_8h</filename>
+    <filename>open__range__validator_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <class kind="class">malidrive::road_curve::OpenRangeValidator</class>
     <namespace>malidrive</namespace>
@@ -1211,7 +1211,7 @@
   <compound kind="file">
     <name>parser.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>parser_8cc</filename>
+    <filename>parser_8cc.html</filename>
     <includes id="parser_8h" name="parser.h" local="yes" imported="no">maliput_malidrive/xodr/parser.h</includes>
     <includes id="connection_8h" name="connection.h" local="yes" imported="no">maliput_malidrive/xodr/connection.h</includes>
     <includes id="elevation__profile_8h" name="elevation_profile.h" local="yes" imported="no">maliput_malidrive/xodr/elevation_profile.h</includes>
@@ -1250,7 +1250,7 @@
   <compound kind="file">
     <name>parser.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>parser_8h</filename>
+    <filename>parser_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="parser__configuration_8h" name="parser_configuration.h" local="yes" imported="no">maliput_malidrive/xodr/parser_configuration.h</includes>
     <class kind="class">malidrive::xodr::ParserBase</class>
@@ -1276,7 +1276,7 @@
   <compound kind="file">
     <name>parser_configuration.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>parser__configuration_8h</filename>
+    <filename>parser__configuration_8h.html</filename>
     <class kind="struct">malidrive::xodr::ParserConfiguration</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
@@ -1284,7 +1284,7 @@
   <compound kind="file">
     <name>piecewise_function.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
-    <filename>piecewise__function_8cc</filename>
+    <filename>piecewise__function_8cc.html</filename>
     <includes id="piecewise__function_8h" name="piecewise_function.h" local="yes" imported="no">maliput_malidrive/road_curve/piecewise_function.h</includes>
     <includes id="open__range__validator_8h" name="open_range_validator.h" local="yes" imported="no">maliput_malidrive/road_curve/open_range_validator.h</includes>
     <namespace>malidrive</namespace>
@@ -1300,7 +1300,7 @@
   <compound kind="file">
     <name>piecewise_function.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
-    <filename>piecewise__function_8h</filename>
+    <filename>piecewise__function_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="function_8h" name="function.h" local="yes" imported="no">maliput_malidrive/road_curve/function.h</includes>
     <class kind="class">malidrive::road_curve::PiecewiseFunction</class>
@@ -1310,7 +1310,7 @@
   <compound kind="file">
     <name>piecewise_ground_curve.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
-    <filename>piecewise__ground__curve_8cc</filename>
+    <filename>piecewise__ground__curve_8cc.html</filename>
     <includes id="piecewise__ground__curve_8h" name="piecewise_ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/piecewise_ground_curve.h</includes>
     <includes id="open__range__validator_8h" name="open_range_validator.h" local="yes" imported="no">maliput_malidrive/road_curve/open_range_validator.h</includes>
     <namespace>malidrive</namespace>
@@ -1333,7 +1333,7 @@
   <compound kind="file">
     <name>piecewise_ground_curve.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
-    <filename>piecewise__ground__curve_8h</filename>
+    <filename>piecewise__ground__curve_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="ground__curve_8h" name="ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/ground_curve.h</includes>
     <class kind="class">malidrive::road_curve::PiecewiseGroundCurve</class>
@@ -1343,7 +1343,7 @@
   <compound kind="file">
     <name>plan_view.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>plan__view_8h</filename>
+    <filename>plan__view_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="geometry_8h" name="geometry.h" local="yes" imported="no">maliput_malidrive/xodr/geometry.h</includes>
     <class kind="struct">malidrive::xodr::PlanView</class>
@@ -1353,7 +1353,7 @@
   <compound kind="file">
     <name>range_value_rule_state_provider_builder.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>range__value__rule__state__provider__builder_8cc</filename>
+    <filename>range__value__rule__state__provider__builder_8cc.html</filename>
     <includes id="range__value__rule__state__provider__builder_8h" name="range_value_rule_state_provider_builder.h" local="yes" imported="no">maliput_malidrive/builder/range_value_rule_state_provider_builder.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
@@ -1361,7 +1361,7 @@
   <compound kind="file">
     <name>range_value_rule_state_provider_builder.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>range__value__rule__state__provider__builder_8h</filename>
+    <filename>range__value__rule__state__provider__builder_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <class kind="class">malidrive::builder::RangeValueRuleStateProviderBuilder</class>
     <namespace>malidrive</namespace>
@@ -1370,7 +1370,7 @@
   <compound kind="file">
     <name>reference_geometry.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>reference__geometry_8h</filename>
+    <filename>reference__geometry_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="elevation__profile_8h" name="elevation_profile.h" local="yes" imported="no">maliput_malidrive/xodr/elevation_profile.h</includes>
     <includes id="lateral__profile_8h" name="lateral_profile.h" local="yes" imported="no">maliput_malidrive/xodr/lateral_profile.h</includes>
@@ -1382,7 +1382,7 @@
   <compound kind="file">
     <name>resources.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/utility/</path>
-    <filename>resources_8cc</filename>
+    <filename>resources_8cc.html</filename>
     <includes id="resources_8h" name="resources.h" local="yes" imported="no">utility/resources.h</includes>
     <namespace>utility</namespace>
     <member kind="function">
@@ -1403,7 +1403,7 @@
   <compound kind="file">
     <name>resources.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/utility/</path>
-    <filename>resources_8h</filename>
+    <filename>resources_8h.html</filename>
     <namespace>utility</namespace>
     <member kind="function">
       <type>std::string</type>
@@ -1423,7 +1423,7 @@
   <compound kind="file">
     <name>road_curve.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
-    <filename>road__curve_8cc</filename>
+    <filename>road__curve_8cc.html</filename>
     <includes id="road__curve_8h" name="road_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/road_curve.h</includes>
     <includes id="cubic__polynomial_8h" name="cubic_polynomial.h" local="yes" imported="no">maliput_malidrive/road_curve/cubic_polynomial.h</includes>
     <namespace>malidrive</namespace>
@@ -1432,7 +1432,7 @@
   <compound kind="file">
     <name>road_curve.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
-    <filename>road__curve_8h</filename>
+    <filename>road__curve_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="function_8h" name="function.h" local="yes" imported="no">maliput_malidrive/road_curve/function.h</includes>
     <includes id="ground__curve_8h" name="ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/ground_curve.h</includes>
@@ -1444,12 +1444,12 @@
   <compound kind="file">
     <name>road_curve_design.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
-    <filename>road__curve__design_8h</filename>
+    <filename>road__curve__design_8h.html</filename>
   </compound>
   <compound kind="file">
     <name>road_curve_factory.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>road__curve__factory_8cc</filename>
+    <filename>road__curve__factory_8cc.html</filename>
     <includes id="road__curve__factory_8h" name="road_curve_factory.h" local="yes" imported="no">maliput_malidrive/builder/road_curve_factory.h</includes>
     <includes id="constants_8h" name="constants.h" local="yes" imported="no">maliput_malidrive/constants.h</includes>
     <includes id="arc__ground__curve_8h" name="arc_ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/arc_ground_curve.h</includes>
@@ -1463,7 +1463,7 @@
   <compound kind="file">
     <name>road_curve_factory.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>road__curve__factory_8h</filename>
+    <filename>road__curve__factory_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="function_8h" name="function.h" local="yes" imported="no">maliput_malidrive/road_curve/function.h</includes>
     <includes id="ground__curve_8h" name="ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/ground_curve.h</includes>
@@ -1481,7 +1481,7 @@
   <compound kind="file">
     <name>road_curve_offset.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
-    <filename>road__curve__offset_8cc</filename>
+    <filename>road__curve__offset_8cc.html</filename>
     <includes id="road__curve__offset_8h" name="road_curve_offset.h" local="yes" imported="no">maliput_malidrive/road_curve/road_curve_offset.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::road_curve</namespace>
@@ -1489,7 +1489,7 @@
   <compound kind="file">
     <name>road_curve_offset.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
-    <filename>road__curve__offset_8h</filename>
+    <filename>road__curve__offset_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="road__curve_8h" name="road_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/road_curve.h</includes>
     <class kind="class">malidrive::road_curve::RoadCurveOffset</class>
@@ -1499,14 +1499,14 @@
   <compound kind="file">
     <name>road_geometry.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/base/</path>
-    <filename>road__geometry_8cc</filename>
+    <filename>road__geometry_8cc.html</filename>
     <includes id="road__geometry_8h" name="road_geometry.h" local="yes" imported="no">maliput_malidrive/base/road_geometry.h</includes>
     <namespace>malidrive</namespace>
   </compound>
   <compound kind="file">
     <name>road_geometry.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/base/</path>
-    <filename>road__geometry_8h</filename>
+    <filename>road__geometry_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="road__curve_8h" name="road_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/road_curve.h</includes>
     <includes id="db__manager_8h" name="db_manager.h" local="yes" imported="no">maliput_malidrive/xodr/db_manager.h</includes>
@@ -1516,7 +1516,7 @@
   <compound kind="file">
     <name>road_geometry_builder.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>road__geometry__builder_8cc</filename>
+    <filename>road__geometry__builder_8cc.html</filename>
     <includes id="road__geometry__builder_8h" name="road_geometry_builder.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_builder.h</includes>
     <includes id="determine__tolerance_8h" name="determine_tolerance.h" local="yes" imported="no">maliput_malidrive/builder/determine_tolerance.h</includes>
     <includes id="road__curve__factory_8h" name="road_curve_factory.h" local="yes" imported="no">maliput_malidrive/builder/road_curve_factory.h</includes>
@@ -1533,7 +1533,7 @@
   <compound kind="file">
     <name>road_geometry_builder.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>road__geometry__builder_8h</filename>
+    <filename>road__geometry__builder_8h.html</filename>
     <includes id="base_2lane_8h" name="base/lane.h" local="yes" imported="no">maliput_malidrive/base/lane.h</includes>
     <includes id="road__geometry_8h" name="road_geometry.h" local="yes" imported="no">maliput_malidrive/base/road_geometry.h</includes>
     <includes id="segment_8h" name="segment.h" local="yes" imported="no">maliput_malidrive/base/segment.h</includes>
@@ -1551,7 +1551,7 @@
   <compound kind="file">
     <name>road_geometry_builder_base.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>road__geometry__builder__base_8cc</filename>
+    <filename>road__geometry__builder__base_8cc.html</filename>
     <includes id="road__geometry__builder__base_8h" name="road_geometry_builder_base.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_builder_base.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <namespace>malidrive</namespace>
@@ -1560,7 +1560,7 @@
   <compound kind="file">
     <name>road_geometry_builder_base.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/builder/</path>
-    <filename>road__geometry__builder__base_8h</filename>
+    <filename>road__geometry__builder__base_8h.html</filename>
     <includes id="inertial__to__lane__mapping__config_8h" name="inertial_to_lane_mapping_config.h" local="yes" imported="no">maliput_malidrive/base/inertial_to_lane_mapping_config.h</includes>
     <includes id="id__providers_8h" name="id_providers.h" local="yes" imported="no">maliput_malidrive/builder/id_providers.h</includes>
     <includes id="road__geometry__configuration_8h" name="road_geometry_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_configuration.h</includes>
@@ -1571,7 +1571,7 @@
   <compound kind="file">
     <name>road_geometry_configuration.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>road__geometry__configuration_8cc</filename>
+    <filename>road__geometry__configuration_8cc.html</filename>
     <includes id="road__geometry__configuration_8h" name="road_geometry_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_configuration.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
@@ -1584,16 +1584,16 @@
     </member>
     <member kind="function">
       <type>RoadGeometryConfiguration::StandardStrictnessPolicy</type>
-      <name>operator &amp;</name>
+      <name>operator&amp;</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>a56cdf58cf29cfaff6ee2fedbb3218b7f</anchor>
+      <anchor>a7a0aeb371a6e6f42192de7986a10d2b9</anchor>
       <arglist>(const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;first, const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;second)</arglist>
     </member>
   </compound>
   <compound kind="file">
     <name>road_geometry_configuration.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/builder/</path>
-    <filename>road__geometry__configuration_8h</filename>
+    <filename>road__geometry__configuration_8h.html</filename>
     <includes id="inertial__to__lane__mapping__config_8h" name="inertial_to_lane_mapping_config.h" local="yes" imported="no">maliput_malidrive/base/inertial_to_lane_mapping_config.h</includes>
     <includes id="constants_8h" name="constants.h" local="yes" imported="no">maliput_malidrive/constants.h</includes>
     <class kind="struct">malidrive::builder::BuildPolicy</class>
@@ -1609,16 +1609,16 @@
     </member>
     <member kind="function">
       <type>RoadGeometryConfiguration::StandardStrictnessPolicy</type>
-      <name>operator &amp;</name>
+      <name>operator&amp;</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>a56cdf58cf29cfaff6ee2fedbb3218b7f</anchor>
+      <anchor>a7a0aeb371a6e6f42192de7986a10d2b9</anchor>
       <arglist>(const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;first, const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;second)</arglist>
     </member>
   </compound>
   <compound kind="file">
     <name>road_geometry_configuration_for_xodrs.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/test_utilities/</path>
-    <filename>road__geometry__configuration__for__xodrs_8cc</filename>
+    <filename>road__geometry__configuration__for__xodrs_8cc.html</filename>
     <includes id="road__geometry__configuration__for__xodrs_8h" name="road_geometry_configuration_for_xodrs.h" local="yes" imported="no">maliput_malidrive/test_utilities/road_geometry_configuration_for_xodrs.h</includes>
     <includes id="constants_8h" name="constants.h" local="yes" imported="no">maliput_malidrive/constants.h</includes>
     <namespace>malidrive</namespace>
@@ -1634,7 +1634,7 @@
   <compound kind="file">
     <name>road_geometry_configuration_for_xodrs.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/test_utilities/</path>
-    <filename>road__geometry__configuration__for__xodrs_8h</filename>
+    <filename>road__geometry__configuration__for__xodrs_8h.html</filename>
     <includes id="road__geometry__configuration_8h" name="road_geometry_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_configuration.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::test</namespace>
@@ -1649,7 +1649,7 @@
   <compound kind="file">
     <name>road_header.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>road__header_8cc</filename>
+    <filename>road__header_8cc.html</filename>
     <includes id="road__header_8h" name="road_header.h" local="yes" imported="no">maliput_malidrive/xodr/road_header.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
@@ -1664,7 +1664,7 @@
   <compound kind="file">
     <name>road_header.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>road__header_8h</filename>
+    <filename>road__header_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="lanes_8h" name="lanes.h" local="yes" imported="no">maliput_malidrive/xodr/lanes.h</includes>
     <includes id="reference__geometry_8h" name="reference_geometry.h" local="yes" imported="no">maliput_malidrive/xodr/reference_geometry.h</includes>
@@ -1684,7 +1684,7 @@
   <compound kind="file">
     <name>road_link.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>road__link_8cc</filename>
+    <filename>road__link_8cc.html</filename>
     <includes id="road__link_8h" name="road_link.h" local="yes" imported="no">maliput_malidrive/xodr/road_link.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
@@ -1692,7 +1692,7 @@
   <compound kind="file">
     <name>road_link.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>road__link_8h</filename>
+    <filename>road__link_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <class kind="struct">malidrive::xodr::RoadLink</class>
     <class kind="struct">malidrive::xodr::RoadLink::LinkAttributes</class>
@@ -1702,7 +1702,7 @@
   <compound kind="file">
     <name>road_network.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/plugin/</path>
-    <filename>road__network_8cc</filename>
+    <filename>road__network_8cc.html</filename>
     <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_malidrive/builder/road_network_builder.h</includes>
     <includes id="constants_8h" name="constants.h" local="yes" imported="no">maliput_malidrive/constants.h</includes>
     <namespace>malidrive</namespace>
@@ -1718,7 +1718,7 @@
   <compound kind="file">
     <name>road_network_builder.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>road__network__builder_8cc</filename>
+    <filename>road__network__builder_8cc.html</filename>
     <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_malidrive/builder/road_network_builder.h</includes>
     <includes id="builder__tools_8h" name="builder_tools.h" local="yes" imported="no">maliput_malidrive/builder/builder_tools.h</includes>
     <includes id="direction__usage__builder_8h" name="direction_usage_builder.h" local="yes" imported="no">maliput_malidrive/builder/direction_usage_builder.h</includes>
@@ -1740,7 +1740,7 @@
   <compound kind="file">
     <name>road_network_builder.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/builder/</path>
-    <filename>road__network__builder_8h</filename>
+    <filename>road__network__builder_8h.html</filename>
     <includes id="road__network__builder__base_8h" name="road_network_builder_base.h" local="yes" imported="no">maliput_malidrive/builder/road_network_builder_base.h</includes>
     <includes id="road__network__configuration_8h" name="road_network_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_network_configuration.h</includes>
     <class kind="class">malidrive::builder::RoadNetworkBuilder</class>
@@ -1750,7 +1750,7 @@
   <compound kind="file">
     <name>road_network_builder_base.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/builder/</path>
-    <filename>road__network__builder__base_8h</filename>
+    <filename>road__network__builder__base_8h.html</filename>
     <includes id="road__network__configuration_8h" name="road_network_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_network_configuration.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <class kind="class">malidrive::builder::RoadNetworkBuilderBase</class>
@@ -1760,7 +1760,7 @@
   <compound kind="file">
     <name>road_network_configuration.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/builder/</path>
-    <filename>road__network__configuration_8h</filename>
+    <filename>road__network__configuration_8h.html</filename>
     <includes id="road__geometry__configuration_8h" name="road_geometry_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_configuration.h</includes>
     <class kind="struct">malidrive::builder::RoadNetworkConfiguration</class>
     <namespace>malidrive</namespace>
@@ -1769,7 +1769,7 @@
   <compound kind="file">
     <name>road_rulebook_builder.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>road__rulebook__builder_8cc</filename>
+    <filename>road__rulebook__builder_8cc.html</filename>
     <includes id="road__rulebook__builder_8h" name="road_rulebook_builder.h" local="yes" imported="no">maliput_malidrive/builder/road_rulebook_builder.h</includes>
     <includes id="builder__tools_8h" name="builder_tools.h" local="yes" imported="no">maliput_malidrive/builder/builder_tools.h</includes>
     <includes id="id__providers_8h" name="id_providers.h" local="yes" imported="no">maliput_malidrive/builder/id_providers.h</includes>
@@ -1779,7 +1779,7 @@
   <compound kind="file">
     <name>road_rulebook_builder.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>road__rulebook__builder_8h</filename>
+    <filename>road__rulebook__builder_8h.html</filename>
     <includes id="base_2lane_8h" name="base/lane.h" local="yes" imported="no">maliput_malidrive/base/lane.h</includes>
     <includes id="rule__tools_8h" name="rule_tools.h" local="yes" imported="no">maliput_malidrive/builder/rule_tools.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
@@ -1790,7 +1790,7 @@
   <compound kind="file">
     <name>road_type.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>road__type_8cc</filename>
+    <filename>road__type_8cc.html</filename>
     <includes id="road__type_8h" name="road_type.h" local="yes" imported="no">maliput_malidrive/xodr/road_type.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
@@ -1798,7 +1798,7 @@
   <compound kind="file">
     <name>road_type.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>road__type_8h</filename>
+    <filename>road__type_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="unit_8h" name="unit.h" local="yes" imported="no">maliput_malidrive/xodr/unit.h</includes>
     <class kind="struct">malidrive::xodr::RoadType</class>
@@ -1809,7 +1809,7 @@
   <compound kind="file">
     <name>rule_registry_builder.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>rule__registry__builder_8cc</filename>
+    <filename>rule__registry__builder_8cc.html</filename>
     <includes id="rule__registry__builder_8h" name="rule_registry_builder.h" local="yes" imported="no">maliput_malidrive/builder/rule_registry_builder.h</includes>
     <includes id="builder__tools_8h" name="builder_tools.h" local="yes" imported="no">maliput_malidrive/builder/builder_tools.h</includes>
     <includes id="constants_8h" name="constants.h" local="yes" imported="no">maliput_malidrive/constants.h</includes>
@@ -1819,7 +1819,7 @@
   <compound kind="file">
     <name>rule_registry_builder.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>rule__registry__builder_8h</filename>
+    <filename>rule__registry__builder_8h.html</filename>
     <includes id="base_2lane_8h" name="base/lane.h" local="yes" imported="no">maliput_malidrive/base/lane.h</includes>
     <includes id="rule__tools_8h" name="rule_tools.h" local="yes" imported="no">maliput_malidrive/builder/rule_tools.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
@@ -1830,7 +1830,7 @@
   <compound kind="file">
     <name>rule_tools.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>rule__tools_8cc</filename>
+    <filename>rule__tools_8cc.html</filename>
     <includes id="rule__tools_8h" name="rule_tools.h" local="yes" imported="no">maliput_malidrive/builder/rule_tools.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <namespace>malidrive</namespace>
@@ -1854,7 +1854,7 @@
   <compound kind="file">
     <name>rule_tools.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/builder/</path>
-    <filename>rule__tools_8h</filename>
+    <filename>rule__tools_8h.html</filename>
     <class kind="struct">malidrive::builder::rules::RelatedRulesKeys</class>
     <class kind="struct">malidrive::builder::rules::XodrSpeedProperties</class>
     <namespace>malidrive</namespace>
@@ -1878,7 +1878,7 @@
   <compound kind="file">
     <name>scaled_domain_function.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
-    <filename>scaled__domain__function_8h</filename>
+    <filename>scaled__domain__function_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="function_8h" name="function.h" local="yes" imported="no">maliput_malidrive/road_curve/function.h</includes>
     <includes id="open__range__validator_8h" name="open_range_validator.h" local="yes" imported="no">maliput_malidrive/road_curve/open_range_validator.h</includes>
@@ -1889,7 +1889,7 @@
   <compound kind="file">
     <name>segment.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/base/</path>
-    <filename>segment_8h</filename>
+    <filename>segment_8h.html</filename>
     <includes id="base_2lane_8h" name="base/lane.h" local="yes" imported="no">maliput_malidrive/base/lane.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="road__curve_8h" name="road_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/road_curve.h</includes>
@@ -1900,7 +1900,7 @@
   <compound kind="file">
     <name>simplify_geometries.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>simplify__geometries_8cc</filename>
+    <filename>simplify__geometries_8cc.html</filename>
     <includes id="simplify__geometries_8h" name="simplify_geometries.h" local="yes" imported="no">maliput_malidrive/builder/simplify_geometries.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
@@ -1915,7 +1915,7 @@
   <compound kind="file">
     <name>simplify_geometries.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>simplify__geometries_8h</filename>
+    <filename>simplify__geometries_8h.html</filename>
     <includes id="db__manager_8h" name="db_manager.h" local="yes" imported="no">maliput_malidrive/xodr/db_manager.h</includes>
     <includes id="geometry_8h" name="geometry.h" local="yes" imported="no">maliput_malidrive/xodr/geometry.h</includes>
     <namespace>malidrive</namespace>
@@ -1931,7 +1931,7 @@
   <compound kind="file">
     <name>speed_limit_builder.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>speed__limit__builder_8cc</filename>
+    <filename>speed__limit__builder_8cc.html</filename>
     <includes id="speed__limit__builder_8h" name="speed_limit_builder.h" local="yes" imported="no">maliput_malidrive/builder/speed_limit_builder.h</includes>
     <includes id="builder__tools_8h" name="builder_tools.h" local="yes" imported="no">maliput_malidrive/builder/builder_tools.h</includes>
     <includes id="id__providers_8h" name="id_providers.h" local="yes" imported="no">maliput_malidrive/builder/id_providers.h</includes>
@@ -1942,7 +1942,7 @@
   <compound kind="file">
     <name>speed_limit_builder.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>speed__limit__builder_8h</filename>
+    <filename>speed__limit__builder_8h.html</filename>
     <includes id="base_2lane_8h" name="base/lane.h" local="yes" imported="no">maliput_malidrive/base/lane.h</includes>
     <includes id="id__providers_8h" name="id_providers.h" local="yes" imported="no">maliput_malidrive/builder/id_providers.h</includes>
     <includes id="rule__tools_8h" name="rule_tools.h" local="yes" imported="no">maliput_malidrive/builder/rule_tools.h</includes>
@@ -1954,7 +1954,7 @@
   <compound kind="file">
     <name>tools.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>tools_8cc</filename>
+    <filename>tools_8cc.html</filename>
     <includes id="tools_8h" name="tools.h" local="yes" imported="no">maliput_malidrive/xodr/tools.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="elevation__profile_8h" name="elevation_profile.h" local="yes" imported="no">maliput_malidrive/xodr/elevation_profile.h</includes>
@@ -2000,7 +2000,7 @@
   <compound kind="file">
     <name>tools.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>tools_8h</filename>
+    <filename>tools_8h.html</filename>
     <includes id="geometry_8h" name="geometry.h" local="yes" imported="no">maliput_malidrive/xodr/geometry.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
@@ -2029,7 +2029,7 @@
   <compound kind="file">
     <name>unit.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>unit_8cc</filename>
+    <filename>unit_8cc.html</filename>
     <includes id="unit_8h" name="unit.h" local="yes" imported="no">maliput_malidrive/xodr/unit.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <namespace>malidrive</namespace>
@@ -2059,7 +2059,7 @@
   <compound kind="file">
     <name>unit.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
-    <filename>unit_8h</filename>
+    <filename>unit_8h.html</filename>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
     <member kind="enumeration">
@@ -2097,7 +2097,7 @@
   <compound kind="file">
     <name>xodr_parser_configuration.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>xodr__parser__configuration_8cc</filename>
+    <filename>xodr__parser__configuration_8cc.html</filename>
     <includes id="xodr__parser__configuration_8h" name="xodr_parser_configuration.h" local="yes" imported="no">maliput_malidrive/builder/xodr_parser_configuration.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
@@ -2112,7 +2112,7 @@
   <compound kind="file">
     <name>xodr_parser_configuration.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>xodr__parser__configuration_8h</filename>
+    <filename>xodr__parser__configuration_8h.html</filename>
     <includes id="road__geometry__configuration_8h" name="road_geometry_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_configuration.h</includes>
     <includes id="parser__configuration_8h" name="parser_configuration.h" local="yes" imported="no">maliput_malidrive/xodr/parser_configuration.h</includes>
     <namespace>malidrive</namespace>
@@ -2128,7 +2128,7 @@
   <compound kind="file">
     <name>xodr_query.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/applications/</path>
-    <filename>xodr__query_8cc</filename>
+    <filename>xodr__query_8cc.html</filename>
     <includes id="log__level__flag_8h" name="log_level_flag.h" local="yes" imported="no">log_level_flag.h</includes>
     <includes id="db__manager_8h" name="db_manager.h" local="yes" imported="no">maliput_malidrive/xodr/db_manager.h</includes>
     <namespace>malidrive</namespace>
@@ -2173,58 +2173,9 @@
   <compound kind="file">
     <name>xodr_testing_map_descriptions.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/test_utilities/</path>
-    <filename>xodr__testing__map__descriptions_8h</filename>
+    <filename>xodr__testing__map__descriptions_8h.html</filename>
     <namespace>malidrive</namespace>
     <namespace>malidrive::test</namespace>
-    <member kind="variable">
-      <type>constexpr const char *</type>
-      <name>kXodrSingleGeometry</name>
-      <anchorfile>namespacemalidrive_1_1test.html</anchorfile>
-      <anchor>a6bb2f5a8f66769befcc6aff04763dbe5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>constexpr const char *</type>
-      <name>kXodrLineAndArcGeometry</name>
-      <anchorfile>namespacemalidrive_1_1test.html</anchorfile>
-      <anchor>a33b0bcde73e3fcb79053c9e69ade7d63</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>constexpr const char *</type>
-      <name>kXodrWithLinesToBeSimplified</name>
-      <anchorfile>namespacemalidrive_1_1test.html</anchorfile>
-      <anchor>a6f68f8877c6c76c18566f646247c0dc6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>constexpr const char *</type>
-      <name>kXodrWithArcsToBeSimplified</name>
-      <anchorfile>namespacemalidrive_1_1test.html</anchorfile>
-      <anchor>ae2122ab565bea345d4ed4841e0629851</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>constexpr const char *</type>
-      <name>kXodrCombinedLinesWithArcs</name>
-      <anchorfile>namespacemalidrive_1_1test.html</anchorfile>
-      <anchor>af0e22296dce9af09582d393103ef87fe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>constexpr const char *</type>
-      <name>kXodrCombinedArcsWithLines</name>
-      <anchorfile>namespacemalidrive_1_1test.html</anchorfile>
-      <anchor>a87df883002bb8a162acea7b690cd3a6f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>constexpr const char *</type>
-      <name>kTown04Road399</name>
-      <anchorfile>namespacemalidrive_1_1test.html</anchorfile>
-      <anchor>af618b4b73f4d541051f8e6b8bf9d537b</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="variable">
       <type>constexpr const char *</type>
       <name>kXodrSingleGeometry</name>
@@ -2278,7 +2229,7 @@
   <compound kind="file">
     <name>xodr_validate.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/applications/</path>
-    <filename>xodr__validate_8cc</filename>
+    <filename>xodr__validate_8cc.html</filename>
     <includes id="log__level__flag_8h" name="log_level_flag.h" local="yes" imported="no">log_level_flag.h</includes>
     <includes id="db__manager_8h" name="db_manager.h" local="yes" imported="no">maliput_malidrive/xodr/db_manager.h</includes>
     <namespace>malidrive</namespace>
@@ -2404,84 +2355,7 @@
       <type>std::optional&lt; double &gt;</type>
       <name>As</name>
       <anchorfile>classmalidrive_1_1xodr_1_1_attribute_parser.html</anchorfile>
-      <anchor>a8bcd78e44d365b7bc69b030fdbf80f96</anchor>
-      <arglist>(const std::string &amp;attribute_name) const</arglist>
-    </member>
-    <member kind="function">
-      <type>std::optional&lt; std::string &gt;</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_attribute_parser.html</anchorfile>
-      <anchor>ac76c9a2aa909a4d8b51ef250aa391976</anchor>
-      <arglist>(const std::string &amp;attribute_name) const</arglist>
-    </member>
-    <member kind="function">
-      <type>std::optional&lt; bool &gt;</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_attribute_parser.html</anchorfile>
-      <anchor>a14aef594d0b5f8e557b24f2691917e62</anchor>
-      <arglist>(const std::string &amp;attribute_name) const</arglist>
-    </member>
-    <member kind="function">
-      <type>std::optional&lt; Lane::Type &gt;</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_attribute_parser.html</anchorfile>
-      <anchor>ab7f91ad302ed84d65e19bb3dbfe2b804</anchor>
-      <arglist>(const std::string &amp;attribute_name) const</arglist>
-    </member>
-    <member kind="function">
-      <type>std::optional&lt; RoadLink::ElementType &gt;</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_attribute_parser.html</anchorfile>
-      <anchor>a93eea3f15e8c683d764d7e74e2739048</anchor>
-      <arglist>(const std::string &amp;attribute_name) const</arglist>
-    </member>
-    <member kind="function">
-      <type>std::optional&lt; RoadLink::ContactPoint &gt;</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_attribute_parser.html</anchorfile>
-      <anchor>aa0ba478ce6a9a3db269fac4fe0ca33b3</anchor>
-      <arglist>(const std::string &amp;attribute_name) const</arglist>
-    </member>
-    <member kind="function">
-      <type>std::optional&lt; Connection::ContactPoint &gt;</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_attribute_parser.html</anchorfile>
-      <anchor>a001aec97e27aa949e92e8f89ae142911</anchor>
-      <arglist>(const std::string &amp;attribute_name) const</arglist>
-    </member>
-    <member kind="function">
-      <type>std::optional&lt; Junction::Type &gt;</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_attribute_parser.html</anchorfile>
-      <anchor>a625566fe9ade18ae37364c0befa889a5</anchor>
-      <arglist>(const std::string &amp;attribute_name) const</arglist>
-    </member>
-    <member kind="function">
-      <type>std::optional&lt; Connection::Type &gt;</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_attribute_parser.html</anchorfile>
-      <anchor>a32cafe76bf2c05a7bd25fe746afecf05</anchor>
-      <arglist>(const std::string &amp;attribute_name) const</arglist>
-    </member>
-    <member kind="function">
-      <type>std::optional&lt; RoadHeader::HandTrafficRule &gt;</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_attribute_parser.html</anchorfile>
-      <anchor>a34ae384b763c2a4ccc1d1464016a9f3e</anchor>
-      <arglist>(const std::string &amp;attribute_name) const</arglist>
-    </member>
-    <member kind="function">
-      <type>std::optional&lt; RoadType::Type &gt;</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_attribute_parser.html</anchorfile>
-      <anchor>a5214755a2793f8e08d4a0a65e4a8938c</anchor>
-      <arglist>(const std::string &amp;attribute_name) const</arglist>
-    </member>
-    <member kind="function">
-      <type>std::optional&lt; Unit &gt;</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_attribute_parser.html</anchorfile>
-      <anchor>a8ba387972802b44b7eab5b4ccd161aba</anchor>
+      <anchor>a1361b92781a4ad54e600a297e66535ad</anchor>
       <arglist>(const std::string &amp;attribute_name) const</arglist>
     </member>
   </compound>
@@ -3849,67 +3723,6 @@
       <arglist></arglist>
     </member>
   </compound>
-  <compound kind="class">
-    <name>malidrive::Lane</name>
-    <filename>classmalidrive_1_1_lane.html</filename>
-    <base>maliput::geometry_base::Lane</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIDRIVE_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>a6140ac583e6e71304fb7a4b0252baa98</anchor>
-      <arglist>(Lane)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>Lane</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>a754b56e8bb63742dca82aa187cf79c09</anchor>
-      <arglist>(const maliput::api::LaneId &amp;id, int xodr_track, int xodr_lane_id, const maliput::api::HBounds &amp;elevation_bounds, const road_curve::RoadCurve *road_curve, std::unique_ptr&lt; road_curve::Function &gt; lane_width, std::unique_ptr&lt; road_curve::Function &gt; lane_offset, double p0, double p1)</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>get_track</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>a9c9c3b577525a5b421fc0ccdb0eb1cb4</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>get_lane_id</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>a6fd8fd747aec8546c67c75f8ed0bc6a0</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>get_track_s_start</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>a15dc832908c773b3f1e1bf2615ea74f2</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>get_track_s_end</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>ab1773002f837cbef4ea41d923cdb3041</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>TrackSFromLaneS</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>afeab73b6ebae3c8fce8b52699a32fc99</anchor>
-      <arglist>(double lane_s) const</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>LaneSFromTrackS</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>ad17b08b4477d4e2f3d348ea8f47f20bf</anchor>
-      <arglist>(double track_s) const</arglist>
-    </member>
-  </compound>
   <compound kind="struct">
     <name>malidrive::xodr::Lane</name>
     <filename>structmalidrive_1_1xodr_1_1_lane.html</filename>
@@ -4066,6 +3879,67 @@
       <anchorfile>structmalidrive_1_1xodr_1_1_lane.html</anchorfile>
       <anchor>a72fc73aa5da78d2ef3b4b81ce2fb094c</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>malidrive::Lane</name>
+    <filename>classmalidrive_1_1_lane.html</filename>
+    <base>maliput::geometry_base::Lane</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIDRIVE_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>a6140ac583e6e71304fb7a4b0252baa98</anchor>
+      <arglist>(Lane)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Lane</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>a754b56e8bb63742dca82aa187cf79c09</anchor>
+      <arglist>(const maliput::api::LaneId &amp;id, int xodr_track, int xodr_lane_id, const maliput::api::HBounds &amp;elevation_bounds, const road_curve::RoadCurve *road_curve, std::unique_ptr&lt; road_curve::Function &gt; lane_width, std::unique_ptr&lt; road_curve::Function &gt; lane_offset, double p0, double p1)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>get_track</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>a9c9c3b577525a5b421fc0ccdb0eb1cb4</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>get_lane_id</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>a6fd8fd747aec8546c67c75f8ed0bc6a0</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>get_track_s_start</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>a15dc832908c773b3f1e1bf2615ea74f2</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>get_track_s_end</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>ab1773002f837cbef4ea41d923cdb3041</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>TrackSFromLaneS</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>afeab73b6ebae3c8fce8b52699a32fc99</anchor>
+      <arglist>(double lane_s) const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>LaneSFromTrackS</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>ad17b08b4477d4e2f3d348ea8f47f20bf</anchor>
+      <arglist>(double track_s) const</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -4882,174 +4756,6 @@
     </member>
     <member kind="function">
       <type>Header</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>a3c142302c2f684f32f4998a1309c8dbc</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>RoadLink::LinkAttributes</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>a3df7c2d60286148a22e191b0bee0954c</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>RoadLink</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>ab0dfd2dd67f3c7f1ecdb3985564b52fc</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>Geometry::Line</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>a1965fd1a992e55301e177122f535e8d9</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>Geometry::Arc</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>a7ddd337ccab9ec4ec63bd3ecca999714</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>LaneWidth</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>a977f1bd5adfff7186270b15b79399172</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>LaneOffset</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>a21e542eab175c66f8ec79bcff67b6b4d</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>LaneLink::LinkAttributes</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>a07de284532ea9132a48174d8f29789ba</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>LaneLink</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>a65ad832de091455323b9056995aac8df</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>RoadType::Speed</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>adc04fcbd711eaef4a778660925de40a8</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>RoadType</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>a64ff3eadde087392df701124fa1e4a35</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>Lane::Speed</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>a3d9a6bdb29b2a8c2d64eb215477f64e7</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>Lane</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>adaceda4dcb27421bf639098eab0eae60</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>LaneSection</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>a11ed798c4a05d71d8fc7f880b566cf31</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>Lanes</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>acf0f7e047dbcce704112f82af78bad46</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>Geometry</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>a98c2d6d85f34de1659c8b2252f0f66d1</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>ElevationProfile::Elevation</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>a0538ffe199608065bd43cb3dfd08f1e9</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>ElevationProfile</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>af28660e3d78d8656c238137b048b554e</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>LateralProfile::Superelevation</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>a3a45bbbc1160e1099100878fd113b9ea</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>LateralProfile</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>aacf7964044eb2ac07dc97125fbdf5eee</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>PlanView</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>a4bdacff3fe388e36abfc3e72c1bc5f4a</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>RoadHeader</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>a4b757aa5ce69006ba779f1f3239578bb</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>Connection::LaneLink</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>aedab9968ea2973bd8ede7dbdb9db9c68</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>Connection</type>
-      <name>As</name>
-      <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
-      <anchor>a19cbc0a5bed924e7b9522157b02f0a4a</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>Junction</type>
       <name>As</name>
       <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
       <anchor>a68e5744161272385d0e192aecf52344f</anchor>
@@ -5918,6 +5624,34 @@
       <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
+      <type>double</type>
+      <name>linear_tolerance_</name>
+      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
+      <anchor>a529019abea607cdc9fa4bffda414b6d9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>double</type>
+      <name>angular_tolerance_</name>
+      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
+      <anchor>a45fee6aaa65cd0a74dd3ff7af1242f9e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>double</type>
+      <name>scale_length_</name>
+      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
+      <anchor>af12c680d044c5b49236fbd48b7336e9e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>maliput::math::Vector3</type>
+      <name>inertial_to_backend_frame_translation_</name>
+      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
+      <anchor>ac7f3de65133f07d3435fada87b119f51</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
       <type>UniqueIntegerProvider</type>
       <name>branch_point_indexer_</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
@@ -5936,62 +5670,6 @@
       <name>junctions_</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
       <anchor>acf9156ed60375ae77e6df03a786ddd57</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>double</type>
-      <name>linear_tolerance_</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>a529019abea607cdc9fa4bffda414b6d9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>double</type>
-      <name>angular_tolerance_</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>a45fee6aaa65cd0a74dd3ff7af1242f9e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>double</type>
-      <name>scale_length_</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>af12c680d044c5b49236fbd48b7336e9e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>maliput::math::Vector3</type>
-      <name>inertial_to_backend_frame_translation_</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>ac7f3de65133f07d3435fada87b119f51</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>double</type>
-      <name>linear_tolerance_</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>a529019abea607cdc9fa4bffda414b6d9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>double</type>
-      <name>angular_tolerance_</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>a45fee6aaa65cd0a74dd3ff7af1242f9e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>double</type>
-      <name>scale_length_</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>af12c680d044c5b49236fbd48b7336e9e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>maliput::math::Vector3</type>
-      <name>inertial_to_backend_frame_translation_</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>ac7f3de65133f07d3435fada87b119f51</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -6809,66 +6487,6 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>malidrive::xodr::RoadType::Speed</name>
-    <filename>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</filename>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a5f45d342c063e4fbbbaa8fd2308cad8a</anchor>
-      <arglist>(const Speed &amp;other) const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator!=</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a7732bb1227795b68ace924cf693cddd1</anchor>
-      <arglist>(const Speed &amp;other) const</arglist>
-    </member>
-    <member kind="variable">
-      <type>std::optional&lt; double &gt;</type>
-      <name>max</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>ab3a77d4ba4dbb0a69e77b738206e0ebe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>Unit</type>
-      <name>unit</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>aaa0d61fcdf7a0b9f0f2b48c9946cbd10</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kSpeedTag</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a06113c1eac1bbfe32139f18dd62a8d98</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kMax</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>ad5a44ed171cd965aa34aa3dda5711d83</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kUnit</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr std::array&lt; const char *, 2 &gt;</type>
-      <name>kUnlimitedSpeedStrings</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a2be0454dbef3ba795b56eb3fa40d36ed</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
     <name>malidrive::xodr::Lane::Speed</name>
     <filename>structmalidrive_1_1xodr_1_1_lane_1_1_speed.html</filename>
     <member kind="function">
@@ -6932,6 +6550,66 @@
       <name>kUnit</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_lane_1_1_speed.html</anchorfile>
       <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::RoadType::Speed</name>
+    <filename>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a5f45d342c063e4fbbbaa8fd2308cad8a</anchor>
+      <arglist>(const Speed &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a7732bb1227795b68ace924cf693cddd1</anchor>
+      <arglist>(const Speed &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>max</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>ab3a77d4ba4dbb0a69e77b738206e0ebe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Unit</type>
+      <name>unit</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>aaa0d61fcdf7a0b9f0f2b48c9946cbd10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kSpeedTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a06113c1eac1bbfe32139f18dd62a8d98</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kMax</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>ad5a44ed171cd965aa34aa3dda5711d83</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kUnit</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr std::array&lt; const char *, 2 &gt;</type>
+      <name>kUnlimitedSpeedStrings</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a2be0454dbef3ba795b56eb3fa40d36ed</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -7409,9 +7087,9 @@
     </member>
     <member kind="function">
       <type>RoadGeometryConfiguration::StandardStrictnessPolicy</type>
-      <name>operator &amp;</name>
+      <name>operator&amp;</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>a56cdf58cf29cfaff6ee2fedbb3218b7f</anchor>
+      <anchor>a7a0aeb371a6e6f42192de7986a10d2b9</anchor>
       <arglist>(const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;first, const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;second)</arglist>
     </member>
     <member kind="function">
@@ -7532,13 +7210,6 @@
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
       <anchor>ab4e48b5757872ce6ff035f5e154f5a2a</anchor>
       <arglist>(const xodr::DBManager *xodr_manager, double linear_tolerance, double angular_tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>RoadGeometryConfiguration::StandardStrictnessPolicy</type>
-      <name>operator &amp;</name>
-      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>a56cdf58cf29cfaff6ee2fedbb3218b7f</anchor>
-      <arglist>(const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;first, const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;second)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; xodr::Geometry &gt;</type>
@@ -7774,55 +7445,6 @@
       <anchor>af618b4b73f4d541051f8e6b8bf9d537b</anchor>
       <arglist></arglist>
     </member>
-    <member kind="variable">
-      <type>constexpr const char *</type>
-      <name>kXodrSingleGeometry</name>
-      <anchorfile>namespacemalidrive_1_1test.html</anchorfile>
-      <anchor>a6bb2f5a8f66769befcc6aff04763dbe5</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>constexpr const char *</type>
-      <name>kXodrLineAndArcGeometry</name>
-      <anchorfile>namespacemalidrive_1_1test.html</anchorfile>
-      <anchor>a33b0bcde73e3fcb79053c9e69ade7d63</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>constexpr const char *</type>
-      <name>kXodrWithLinesToBeSimplified</name>
-      <anchorfile>namespacemalidrive_1_1test.html</anchorfile>
-      <anchor>a6f68f8877c6c76c18566f646247c0dc6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>constexpr const char *</type>
-      <name>kXodrWithArcsToBeSimplified</name>
-      <anchorfile>namespacemalidrive_1_1test.html</anchorfile>
-      <anchor>ae2122ab565bea345d4ed4841e0629851</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>constexpr const char *</type>
-      <name>kXodrCombinedLinesWithArcs</name>
-      <anchorfile>namespacemalidrive_1_1test.html</anchorfile>
-      <anchor>af0e22296dce9af09582d393103ef87fe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>constexpr const char *</type>
-      <name>kXodrCombinedArcsWithLines</name>
-      <anchorfile>namespacemalidrive_1_1test.html</anchorfile>
-      <anchor>a87df883002bb8a162acea7b690cd3a6f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>constexpr const char *</type>
-      <name>kTown04Road399</name>
-      <anchorfile>namespacemalidrive_1_1test.html</anchorfile>
-      <anchor>af618b4b73f4d541051f8e6b8bf9d537b</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="namespace">
     <name>malidrive::xodr</name>
@@ -7994,19 +7616,19 @@
     <name>malidrive_road_curve_design</name>
     <title>Malidrive RoadCurve Design</title>
     <filename>malidrive_road_curve_design</filename>
-    <docanchor file="malidrive_road_curve_design" title="RoadCurve concepts and definitions">road_curve_concepts</docanchor>
-    <docanchor file="malidrive_road_curve_design" title="Mapping the INERTIAL Frame">mapping_the_inertial_frame</docanchor>
-    <docanchor file="malidrive_road_curve_design" title="Computing the tangent vector">tangent_vector_road_surface</docanchor>
-    <docanchor file="malidrive_road_curve_design" title="Orientation">orientation</docanchor>
-    <docanchor file="malidrive_road_curve_design" title="Orientation at the centerline">orientation_at_the_centerline</docanchor>
-    <docanchor file="malidrive_road_curve_design" title="Orientation at any point in the road volume">orientation_at_any_point</docanchor>
-    <docanchor file="malidrive_road_curve_design" title="Inverse function">inverse_function</docanchor>
-    <docanchor file="malidrive_road_curve_design" title="Alternate formulation of math problem">math_reformulation</docanchor>
-    <docanchor file="malidrive_road_curve_design" title="Rotation at a lateral offset">at_a_lateral_offset</docanchor>
-    <docanchor file="malidrive_road_curve_design" title="Motion derivatives">motion_derivatives</docanchor>
-    <docanchor file="malidrive_road_curve_design" title="Questions">questions</docanchor>
-    <docanchor file="malidrive_road_curve_design" title="Comparing definitions of the Frenet-like frame">comparing_definitions_of_frenet_frame</docanchor>
-    <docanchor file="malidrive_road_curve_design" title="`RollPitchYaw` orthogonality">roll_pitch_yaw_orthogonality</docanchor>
-    <docanchor file="malidrive_road_curve_design" title="Continuity requirements">continuity_requirements</docanchor>
+    <docanchor file="malidrive_road_curve_design.html" title="RoadCurve concepts and definitions">road_curve_concepts</docanchor>
+    <docanchor file="malidrive_road_curve_design.html" title="Mapping the INERTIAL Frame">mapping_the_inertial_frame</docanchor>
+    <docanchor file="malidrive_road_curve_design.html" title="Computing the tangent vector">tangent_vector_road_surface</docanchor>
+    <docanchor file="malidrive_road_curve_design.html" title="Orientation">orientation</docanchor>
+    <docanchor file="malidrive_road_curve_design.html" title="Orientation at the centerline">orientation_at_the_centerline</docanchor>
+    <docanchor file="malidrive_road_curve_design.html" title="Orientation at any point in the road volume">orientation_at_any_point</docanchor>
+    <docanchor file="malidrive_road_curve_design.html" title="Inverse function">inverse_function</docanchor>
+    <docanchor file="malidrive_road_curve_design.html" title="Alternate formulation of math problem">math_reformulation</docanchor>
+    <docanchor file="malidrive_road_curve_design.html" title="Rotation at a lateral offset">at_a_lateral_offset</docanchor>
+    <docanchor file="malidrive_road_curve_design.html" title="Motion derivatives">motion_derivatives</docanchor>
+    <docanchor file="malidrive_road_curve_design.html" title="Questions">questions</docanchor>
+    <docanchor file="malidrive_road_curve_design.html" title="Comparing definitions of the Frenet-like frame">comparing_definitions_of_frenet_frame</docanchor>
+    <docanchor file="malidrive_road_curve_design.html" title="&lt;tt&gt;RollPitchYaw&lt;/tt&gt; orthogonality">roll_pitch_yaw_orthogonality</docanchor>
+    <docanchor file="malidrive_road_curve_design.html" title="Continuity requirements">continuity_requirements</docanchor>
   </compound>
 </tagfile>

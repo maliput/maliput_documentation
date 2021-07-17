@@ -11,8 +11,8 @@ var lane__data_8h =
     [ "RoadPositionResult", "structmaliput_1_1api_1_1_road_position_result.html", "structmaliput_1_1api_1_1_road_position_result" ],
     [ "RBounds", "classmaliput_1_1api_1_1_r_bounds.html", "classmaliput_1_1api_1_1_r_bounds" ],
     [ "HBounds", "classmaliput_1_1api_1_1_h_bounds.html", "classmaliput_1_1api_1_1_h_bounds" ],
-    [ "operator<<", "lane__data_8h.html#a48eeb740d4ff16cd88bf8bf99e5eb309", null ],
     [ "operator<<", "lane__data_8h.html#a967a84358ae62857cee70964b7fcd2f8", null ],
-    [ "operator<<", "lane__data_8h.html#af06102e3da0eee4b9a99e2c55e91e3fa", null ],
-    [ "operator<<", "lane__data_8h.html#a835a821b6ebb66f57e28664f3b582401", null ]
+    [ "operator<<", "lane__data_8h.html#a48eeb740d4ff16cd88bf8bf99e5eb309", null ],
+    [ "operator<<", "lane__data_8h.html#a835a821b6ebb66f57e28664f3b582401", null ],
+    [ "operator<<", "lane__data_8h.html#af06102e3da0eee4b9a99e2c55e91e3fa", null ]
 ];

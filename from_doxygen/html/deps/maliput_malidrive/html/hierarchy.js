@@ -26,12 +26,12 @@ var hierarchy =
     [ "Header", "structmalidrive_1_1xodr_1_1_header.html", null ],
     [ "InertialToLaneMappingConfig", "structmalidrive_1_1_inertial_to_lane_mapping_config.html", null ],
     [ "Junction", "structmalidrive_1_1xodr_1_1_junction.html", null ],
+    [ "Lane", "structmalidrive_1_1xodr_1_1_lane.html", null ],
     [ "Lane", "../../maliput/html/classmaliput_1_1api_1_1_lane.html", [
       [ "Lane", "../../maliput/html/classmaliput_1_1geometry__base_1_1_lane.html", [
         [ "Lane", "classmalidrive_1_1_lane.html", null ]
       ] ]
     ] ],
-    [ "Lane", "structmalidrive_1_1xodr_1_1_lane.html", null ],
     [ "Connection::LaneLink", "structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html", null ],
     [ "LaneLink", "structmalidrive_1_1xodr_1_1_lane_link.html", null ],
     [ "LaneOffset", "structmalidrive_1_1xodr_1_1_lane_offset.html", null ],
@@ -82,8 +82,8 @@ var hierarchy =
         [ "Segment", "classmalidrive_1_1_segment.html", null ]
       ] ]
     ] ],
-    [ "RoadType::Speed", "structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html", null ],
     [ "Lane::Speed", "structmalidrive_1_1xodr_1_1_lane_1_1_speed.html", null ],
+    [ "RoadType::Speed", "structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html", null ],
     [ "SpeedLimitBuilder", "classmalidrive_1_1builder_1_1_speed_limit_builder.html", null ],
     [ "LateralProfile::Superelevation", "structmalidrive_1_1xodr_1_1_lateral_profile_1_1_superelevation.html", null ],
     [ "UniqueIntegerProvider", "classmalidrive_1_1builder_1_1_unique_integer_provider.html", null ],

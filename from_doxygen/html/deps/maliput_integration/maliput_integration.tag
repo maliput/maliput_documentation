@@ -3,7 +3,7 @@
   <compound kind="file">
     <name>maliput_derive_lane_s_routes.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration/src/applications/</path>
-    <filename>maliput__derive__lane__s__routes_8cc</filename>
+    <filename>maliput__derive__lane__s__routes_8cc.html</filename>
     <includes id="tools_8h" name="tools.h" local="yes" imported="no">integration/tools.h</includes>
     <includes id="maliput__gflags_8h" name="maliput_gflags.h" local="yes" imported="no">maliput_gflags.h</includes>
     <namespace>YAML</namespace>
@@ -69,7 +69,7 @@
   <compound kind="file">
     <name>maliput_gflags.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration/src/applications/</path>
-    <filename>maliput__gflags_8h</filename>
+    <filename>maliput__gflags_8h.html</filename>
     <member kind="define">
       <type>#define</type>
       <name>MALIPUT_APPLICATION_DEFINE_LOG_LEVEL_FLAG</name>
@@ -102,7 +102,7 @@
   <compound kind="file">
     <name>maliput_measure_load_time.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration/src/applications/</path>
-    <filename>maliput__measure__load__time_8cc</filename>
+    <filename>maliput__measure__load__time_8cc.html</filename>
     <includes id="tools_8h" name="tools.h" local="yes" imported="no">integration/tools.h</includes>
     <includes id="maliput__gflags_8h" name="maliput_gflags.h" local="yes" imported="no">maliput_gflags.h</includes>
     <namespace>maliput</namespace>
@@ -118,7 +118,7 @@
   <compound kind="file">
     <name>maliput_query.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration/src/applications/</path>
-    <filename>maliput__query_8cc</filename>
+    <filename>maliput__query_8cc.html</filename>
     <includes id="tools_8h" name="tools.h" local="yes" imported="no">integration/tools.h</includes>
     <includes id="maliput__gflags_8h" name="maliput_gflags.h" local="yes" imported="no">maliput_gflags.h</includes>
     <namespace>maliput</namespace>
@@ -197,7 +197,7 @@
   <compound kind="file">
     <name>maliput_to_obj.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration/src/applications/</path>
-    <filename>maliput__to__obj_8cc</filename>
+    <filename>maliput__to__obj_8cc.html</filename>
     <includes id="tools_8h" name="tools.h" local="yes" imported="no">integration/tools.h</includes>
     <includes id="maliput__gflags_8h" name="maliput_gflags.h" local="yes" imported="no">maliput_gflags.h</includes>
     <namespace>maliput</namespace>
@@ -290,7 +290,7 @@
   <compound kind="file">
     <name>maliput_to_string.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration/src/applications/</path>
-    <filename>maliput__to__string_8cc</filename>
+    <filename>maliput__to__string_8cc.html</filename>
     <includes id="tools_8h" name="tools.h" local="yes" imported="no">integration/tools.h</includes>
     <includes id="maliput__gflags_8h" name="maliput_gflags.h" local="yes" imported="no">maliput_gflags.h</includes>
     <namespace>maliput</namespace>
@@ -383,7 +383,7 @@
   <compound kind="file">
     <name>maliput_to_string_with_plugin.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration/src/applications/</path>
-    <filename>maliput__to__string__with__plugin_8cc</filename>
+    <filename>maliput__to__string__with__plugin_8cc.html</filename>
     <includes id="maliput__gflags_8h" name="maliput_gflags.h" local="yes" imported="no">maliput_gflags.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::integration</namespace>
@@ -531,7 +531,7 @@
   <compound kind="file">
     <name>maliput_to_urdf.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration/src/applications/</path>
-    <filename>maliput__to__urdf_8cc</filename>
+    <filename>maliput__to__urdf_8cc.html</filename>
     <includes id="tools_8h" name="tools.h" local="yes" imported="no">integration/tools.h</includes>
     <includes id="maliput__gflags_8h" name="maliput_gflags.h" local="yes" imported="no">maliput_gflags.h</includes>
     <namespace>maliput</namespace>
@@ -582,8 +582,8 @@
       <type></type>
       <name>DEFINE_string</name>
       <anchorfile>maliput__to__urdf_8cc.html</anchorfile>
-      <anchor>a48a98e18be3c782c56568cfe4892b638</anchor>
-      <arglist>(file_name_root, &quot;maliput_to_urdf&quot;, &quot;The root name of the files to create. For example, if the value of this &quot; &quot;parameter is \oo\ the following files will be created: \oo.urdf\ &quot; &quot;\oo.obj\ and \oo.mtl\ These files will be placed in the path &quot; &quot;specified by parameter &apos;dirpath&apos;.&quot;)</arglist>
+      <anchor>a37076a04d2e2334bf366be0b2d57745e</anchor>
+      <arglist>(file_name_root, &quot;maliput_to_urdf&quot;, &quot;The root name of the files to create. For example, if the value of this &quot; &quot;parameter is \&quot;foo\&quot;, the following files will be created: \&quot;foo.urdf\&quot;, &quot; &quot;\&quot;foo.obj\&quot;, and \&quot;foo.mtl\&quot;. These files will be placed in the path &quot; &quot;specified by parameter &apos;dirpath&apos;.&quot;)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
@@ -596,7 +596,7 @@
   <compound kind="file">
     <name>tools.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration/src/integration/</path>
-    <filename>tools_8cc</filename>
+    <filename>tools_8cc.html</filename>
     <includes id="tools_8h" name="tools.h" local="yes" imported="no">integration/tools.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::integration</namespace>
@@ -646,7 +646,7 @@
   <compound kind="file">
     <name>tools.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration/include/integration/</path>
-    <filename>tools_8h</filename>
+    <filename>tools_8h.html</filename>
     <class kind="struct">maliput::integration::DragwayBuildProperties</class>
     <class kind="struct">maliput::integration::MultilaneBuildProperties</class>
     <class kind="struct">maliput::integration::MalidriveBuildProperties</class>

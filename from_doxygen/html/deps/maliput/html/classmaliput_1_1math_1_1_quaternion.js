@@ -29,13 +29,13 @@ var classmaliput_1_1math_1_1_quaternion =
     [ "ToRotationMatrix", "classmaliput_1_1math_1_1_quaternion.html#a61e74a12c74318532deca15df05b6c7d", null ],
     [ "TransformVector", "classmaliput_1_1math_1_1_quaternion.html#a10c040ae6a84aad50a2dabe7e228b3e7", null ],
     [ "vec", "classmaliput_1_1math_1_1_quaternion.html#ab79f2db31305b12524eae7e53043eada", null ],
-    [ "w", "classmaliput_1_1math_1_1_quaternion.html#a745f411855e1082580b1d485172ad6ca", null ],
     [ "w", "classmaliput_1_1math_1_1_quaternion.html#a5ca5515fecd7fe676bbc2c4f2dd586a1", null ],
-    [ "x", "classmaliput_1_1math_1_1_quaternion.html#a833e1cf314b7b7a5537b2b6a56fee6a5", null ],
+    [ "w", "classmaliput_1_1math_1_1_quaternion.html#a745f411855e1082580b1d485172ad6ca", null ],
     [ "x", "classmaliput_1_1math_1_1_quaternion.html#a3b195b867437acf8de45f48c83e81932", null ],
-    [ "y", "classmaliput_1_1math_1_1_quaternion.html#aca424ddaf2902c1cde483f37813d4278", null ],
+    [ "x", "classmaliput_1_1math_1_1_quaternion.html#a833e1cf314b7b7a5537b2b6a56fee6a5", null ],
     [ "y", "classmaliput_1_1math_1_1_quaternion.html#ad927d9808ded1fc49c05ae9e1a3ed2a6", null ],
-    [ "z", "classmaliput_1_1math_1_1_quaternion.html#ae7bc7213001e326be4d4eb2d8a035c34", null ],
+    [ "y", "classmaliput_1_1math_1_1_quaternion.html#aca424ddaf2902c1cde483f37813d4278", null ],
     [ "z", "classmaliput_1_1math_1_1_quaternion.html#a2134ad02d68f29e9c7cd87e4cd4c75b8", null ],
+    [ "z", "classmaliput_1_1math_1_1_quaternion.html#ae7bc7213001e326be4d4eb2d8a035c34", null ],
     [ "kTolerance", "classmaliput_1_1math_1_1_quaternion.html#a409f0fc00f5231042c95ccf5fe8fda5f", null ]
 ];

@@ -1,3 +1,25 @@
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this file.
+
+Copyright (C) 1997-2019 by Dimitri van Heesch
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of version 2 of the GNU General Public License as published by
+the Free Software Foundation
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+@licend  The above is the entire license notice
+for the JavaScript code in this file
+*/
 var NAVTREE =
 [
   [ "maliput_malidrive", "index.html", [
@@ -17,12 +39,12 @@ var NAVTREE =
       ] ],
       [ "Questions", "malidrive_road_curve_design.html#questions", [
         [ "Comparing definitions of the Frenet-like frame", "malidrive_road_curve_design.html#comparing_definitions_of_frenet_frame", null ],
-        [ "`RollPitchYaw` orthogonality", "malidrive_road_curve_design.html#roll_pitch_yaw_orthogonality", null ],
+        [ "<tt>RollPitchYaw</tt> orthogonality", "malidrive_road_curve_design.html#roll_pitch_yaw_orthogonality", null ],
         [ "Continuity requirements", "malidrive_road_curve_design.html#continuity_requirements", null ]
       ] ]
     ] ],
-    [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.html", "namespaces" ],
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ],
@@ -43,8 +65,8 @@ var NAVTREE =
         [ "Enumerator", "functions_eval.html", null ]
       ] ]
     ] ],
-    [ "Files", null, [
-      [ "File List", "files.html", "files" ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
@@ -59,9 +81,9 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classmalidrive_1_1road__curve_1_1_road_curve_offset.html#ae13fbe02a75b76c3b0da7509816fe9db",
-"lanes_8h.html",
-"structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_functions.html#a52940bc6107e31251e1f43d01f4fa2ee",
-"structmalidrive_1_1xodr_1_1_plan_view.html#a169c9636067b9dfc50f271f80889d87a"
+"malidrive_road_curve_design.html#road_curve_concepts",
+"structmalidrive_1_1xodr_1_1_elevation_profile_1_1_elevation.html#a6be5070758b145173c3ffa45b2d72979",
+"structmalidrive_1_1xodr_1_1_road_header.html#adf962b58e1c78006a71579f11a17950b"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

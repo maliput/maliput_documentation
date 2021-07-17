@@ -1,4 +1,4 @@
-var files =
+var files_dup =
 [
     [ "assertion_error.h", "assertion__error_8h.html", [
       [ "assertion_error", "classmaliput_1_1common_1_1assertion__error.html", "classmaliput_1_1common_1_1assertion__error" ]

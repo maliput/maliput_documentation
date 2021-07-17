@@ -1,4 +1,4 @@
-var files =
+var files_dup =
 [
     [ "arc_ground_curve.cc", "arc__ground__curve_8cc.html", null ],
     [ "arc_ground_curve.h", "arc__ground__curve_8h.html", [

@@ -1,75 +1,90 @@
 <map id="road_geometry_builder.cc" name="road_geometry_builder.cc">
-<area shape="rect" id="node2" href="$road__geometry__builder_8h.html" title="maliput_malidrive/builder\l/road_geometry_builder.h" alt="" coords="1910,80,2101,121"/>
-<area shape="rect" id="node19" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$logger_8h.html" title="maliput/common/logger.h" alt="" coords="6105,831,6295,858"/>
-<area shape="rect" id="node21" href="$function_8h.html" title="maliput_malidrive/road\l_curve/function.h" alt="" coords="4079,645,4254,687"/>
-<area shape="rect" id="node24" href="$road__curve_2lane__offset_8h.html" title="maliput_malidrive/road\l_curve/lane_offset.h" alt="" coords="4231,556,4406,597"/>
-<area shape="rect" id="node72" href="$road__curve__factory_8h.html" title="maliput_malidrive/builder\l/road_curve_factory.h" alt="" coords="585,355,775,397"/>
-<area shape="rect" id="node93" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$maliput__unused_8h.html" title="maliput/common/maliput\l_unused.h" alt="" coords="6843,80,7029,121"/>
-<area shape="rect" id="node94" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$thread__pool_8h.html" title="maliput/utilities/thread\l_pool.h" alt="" coords="8697,824,8868,865"/>
-<area shape="rect" id="node95" href="$determine__tolerance_8h.html" title="maliput_malidrive/builder\l/determine_tolerance.h" alt="" coords="3211,169,3402,211"/>
-<area shape="rect" id="node96" href="$simplify__geometries_8h.html" title="maliput_malidrive/builder\l/simplify_geometries.h" alt="" coords="237,259,427,300"/>
-<area shape="rect" id="node97" href="$xodr__parser__configuration_8h.html" title="maliput_malidrive/builder\l/xodr_parser_configuration.h" alt="" coords="4589,169,4797,211"/>
-<area shape="rect" id="node98" href="$cubic__polynomial_8h.html" title="maliput_malidrive/road\l_curve/cubic_polynomial.h" alt="" coords="5699,556,5893,597"/>
-<area shape="rect" id="node99" href="$piecewise__function_8h.html" title="maliput_malidrive/road\l_curve/piecewise_function.h" alt="" coords="1003,459,1210,501"/>
-<area shape="rect" id="node100" href="$scaled__domain__function_8h.html" title="maliput_malidrive/road\l_curve/scaled_domain_function.h" alt="" coords="5485,459,5723,501"/>
-<area shape="rect" id="node7" href="$base_2lane_8h.html" title="maliput_malidrive/base\l/lane.h" alt="" coords="2565,259,2741,300"/>
-<area shape="rect" id="node16" href="$macros_8h.html" title="maliput_malidrive/common\l/macros.h" alt="" coords="3701,735,3904,776"/>
-<area shape="rect" id="node31" href="$road__geometry_8h.html" title="maliput_malidrive/base\l/road_geometry.h" alt="" coords="1703,259,1879,300"/>
-<area shape="rect" id="node33" href="$db__manager_8h.html" title="maliput_malidrive/xodr\l/db_manager.h" alt="" coords="2043,355,2218,397"/>
-<area shape="rect" id="node53" href="$segment_8h.html" title="maliput_malidrive/base\l/segment.h" alt="" coords="1360,169,1536,211"/>
-<area shape="rect" id="node55" href="$builder__tools_8h.html" title="maliput_malidrive/builder\l/builder_tools.h" alt="" coords="3811,169,4002,211"/>
-<area shape="rect" id="node65" href="$id__providers_8h.html" title="maliput_malidrive/builder\l/id_providers.h" alt="" coords="5113,459,5303,501"/>
-<area shape="rect" id="node75" href="$road__geometry__builder__base_8h.html" title="maliput_malidrive/builder\l/road_geometry_builder_base.h" alt="" coords="1691,169,1917,211"/>
-<area shape="rect" id="node77" href="$road__geometry__configuration_8h.html" title="maliput_malidrive/builder\l/road_geometry_configuration.h" alt="" coords="4578,259,4809,300"/>
-<area shape="rect" id="node8" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$lane__data_8h.html" title="maliput/api/lane_data.h" alt="" coords="6069,563,6245,590"/>
-<area shape="rect" id="node12" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$vector_8h.html" title="maliput/math/vector.h" alt="" coords="5605,921,5771,947"/>
-<area shape="rect" id="node22" href="$road__curve_8h.html" title="maliput_malidrive/road\l_curve/road_curve.h" alt="" coords="1742,459,1917,501"/>
-<area shape="rect" id="node27" href="$road__curve__offset_8h.html" title="maliput_malidrive/road\l_curve/road_curve_offset.h" alt="" coords="2554,355,2753,397"/>
-<area shape="rect" id="node9" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$maliput__copyable_8h.html" title="maliput/common/maliput\l_copyable.h" alt="" coords="7283,913,7469,955"/>
-<area shape="rect" id="node10" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$maliput__throw_8h.html" title="maliput/common/maliput\l_throw.h" alt="" coords="6573,1003,6760,1044"/>
-<area shape="rect" id="node11" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$matrix_8h.html" title="maliput/math/matrix.h" alt="" coords="5542,831,5711,858"/>
-<area shape="rect" id="node13" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$quaternion_8h.html" title="maliput/math/quaternion.h" alt="" coords="5643,742,5839,769"/>
-<area shape="rect" id="node14" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$roll__pitch__yaw_8h.html" title="maliput/math/roll_pitch\l_yaw.h" alt="" coords="5614,645,5789,687"/>
-<area shape="rect" id="node18" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$assertion__error_8h.html" title="maliput/common/assertion\l_error.h" alt="" coords="3840,824,4037,865"/>
-<area shape="rect" id="node20" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$maliput__abort_8h.html" title="maliput/common/maliput\l_abort.h" alt="" coords="5089,824,5276,865"/>
-<area shape="rect" id="node23" href="$ground__curve_8h.html" title="maliput_malidrive/road\l_curve/ground_curve.h" alt="" coords="1446,645,1621,687"/>
-<area shape="rect" id="node26" href="$open__range__validator_8h.html" title="maliput_malidrive/road\l_curve/open_range_validator.h" alt="" coords="5266,645,5489,687"/>
-<area shape="rect" id="node37" href="$header_8h.html" title="maliput_malidrive/xodr\l/header.h" alt="" coords="2211,459,2386,501"/>
-<area shape="rect" id="node39" href="$junction_8h.html" title="maliput_malidrive/xodr\l/junction.h" alt="" coords="3673,459,3847,501"/>
-<area shape="rect" id="node42" href="$parser__configuration_8h.html" title="maliput_malidrive/xodr\l/parser_configuration.h" alt="" coords="3427,459,3602,501"/>
-<area shape="rect" id="node43" href="$road__header_8h.html" title="maliput_malidrive/xodr\l/road_header.h" alt="" coords="2875,459,3050,501"/>
-<area shape="rect" id="node40" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$type__specific__identifier_8h.html" title="maliput/api/type_specific\l_identifier.h" alt="" coords="6573,824,6760,865"/>
-<area shape="rect" id="node41" href="$connection_8h.html" title="maliput_malidrive/xodr\l/connection.h" alt="" coords="3778,556,3953,597"/>
-<area shape="rect" id="node44" href="$lanes_8h.html" title="maliput_malidrive/xodr\l/lanes.h" alt="" coords="1263,556,1438,597"/>
-<area shape="rect" id="node46" href="$reference__geometry_8h.html" title="maliput_malidrive/xodr\l/reference_geometry.h" alt="" coords="1565,556,1739,597"/>
-<area shape="rect" id="node49" href="$road__link_8h.html" title="maliput_malidrive/xodr\l/road_link.h" alt="" coords="3579,556,3754,597"/>
-<area shape="rect" id="node50" href="$road__type_8h.html" title="maliput_malidrive/xodr\l/road_type.h" alt="" coords="2373,556,2547,597"/>
-<area shape="rect" id="node45" href="$xodr_2lane__offset_8h.html" title="maliput_malidrive/xodr\l/lane_offset.h" alt="" coords="546,645,721,687"/>
-<area shape="rect" id="node47" href="$elevation__profile_8h.html" title="maliput_malidrive/xodr\l/elevation_profile.h" alt="" coords="1138,645,1313,687"/>
-<area shape="rect" id="node48" href="$lateral__profile_8h.html" title="maliput_malidrive/xodr\l/lateral_profile.h" alt="" coords="847,645,1022,687"/>
-<area shape="rect" id="node52" href="$unit_8h.html" title="maliput_malidrive/xodr\l/unit.h" alt="" coords="2322,645,2497,687"/>
-<area shape="rect" id="node57" href="$rule__tools_8h.html" title="maliput_malidrive/builder\l/rule_tools.h" alt="" coords="5962,355,6153,397"/>
-<area shape="rect" id="node62" href="$xodr_2lane_8h.html" title="maliput_malidrive/xodr\l/lane.h" alt="" coords="3177,459,3351,501"/>
-<area shape="rect" id="node58" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$discrete__value__rule_8h.html" title="maliput/api/rules/discrete\l_value_rule.h" alt="" coords="7283,556,7471,597"/>
-<area shape="rect" id="node60" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$rule_8h.html" title="maliput/api/rules/rule.h" alt="" coords="7096,653,7269,679"/>
-<area shape="rect" id="node59" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$regions_8h.html" title="maliput/api/regions.h" alt="" coords="7045,742,7205,769"/>
-<area shape="rect" id="node61" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$unique__id_8h.html" title="maliput/api/unique_id.h" alt="" coords="6886,831,7061,858"/>
-<area shape="rect" id="node63" href="$lane__link_8h.html" title="maliput_malidrive/xodr\l/lane_link.h" alt="" coords="4430,556,4605,597"/>
-<area shape="rect" id="node64" href="$lane__width_8h.html" title="maliput_malidrive/xodr\l/lane_width.h" alt="" coords="2926,556,3101,597"/>
-<area shape="rect" id="node69" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$direction__usage__rule_8h.html" title="maliput/api/rules/direction\l_usage_rule.h" alt="" coords="6726,645,6919,687"/>
-<area shape="rect" id="node70" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$speed__limit__rule_8h.html" title="maliput/api/rules/speed\l_limit_rule.h" alt="" coords="7831,645,8006,687"/>
-<area shape="rect" id="node73" href="$geometry_8h.html" title="maliput_malidrive/xodr\l/geometry.h" alt="" coords="347,459,522,501"/>
-<area shape="rect" id="node76" href="$inertial__to__lane__mapping__config_8h.html" title="maliput_malidrive/base\l/inertial_to_lane_mapping\l_config.h" alt="" coords="4598,348,4789,404"/>
-<area shape="rect" id="node78" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$road__network_8h.html" title="maliput/api/road_network.h" alt="" coords="7781,363,7982,389"/>
-<area shape="rect" id="node89" href="$constants_8h.html" title="maliput_malidrive/constants.h" alt="" coords="5165,363,5385,389"/>
-<area shape="rect" id="node79" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$api_2intersection__book_8h.html" title="maliput/api/intersection\l_book.h" alt="" coords="8195,735,8373,776"/>
-<area shape="rect" id="node80" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$api_2road__geometry_8h.html" title="maliput/api/road_geometry.h" alt="" coords="6633,467,6844,493"/>
-<area shape="rect" id="node81" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$discrete__value__rule__state__provider_8h.html" title="maliput/api/rules/discrete\l_value_rule_state_provider.h" alt="" coords="7424,459,7635,501"/>
-<area shape="rect" id="node82" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$phase__provider_8h.html" title="maliput/api/rules/phase\l_provider.h" alt="" coords="8397,735,8571,776"/>
-<area shape="rect" id="node83" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$phase__ring__book_8h.html" title="maliput/api/rules/phase\l_ring_book.h" alt="" coords="7495,556,7670,597"/>
-<area shape="rect" id="node84" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$range__value__rule__state__provider_8h.html" title="maliput/api/rules/range\l_value_rule_state_provider.h" alt="" coords="7695,556,7905,597"/>
-<area shape="rect" id="node85" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$right__of__way__rule__state__provider_8h.html" title="maliput/api/rules/right\l_of_way_rule_state_provider.h" alt="" coords="7699,735,7920,776"/>
-<area shape="rect" id="node86" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$road__rulebook_8h.html" title="maliput/api/rules/road\l_rulebook.h" alt="" coords="7860,459,8025,501"/>
-<area shape="rect" id="node87" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$api_2rules_2rule__registry_8h.html" title="maliput/api/rules/rule\l_registry.h" alt="" coords="7078,459,7239,501"/>
-<area shape="rect" id="node88" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$api_2rules_2traffic__light__book_8h.html" title="maliput/api/rules/traffic\l_light_book.h" alt="" coords="7945,735,8119,776"/>
+<area shape="rect" id="node1" title=" " alt="" coords="6087,5,6278,32"/>
+<area shape="rect" id="node2" href="$road__geometry__builder_8h.html" title=" " alt="" coords="3939,80,4130,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="3070,631,3247,672"/>
+<area shape="rect" id="node14" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$logger_8h.html.html" title=" " alt="" coords="5291,921,5482,947"/>
+<area shape="rect" id="node18" href="$function_8h.html" title=" " alt="" coords="5793,727,5967,769"/>
+<area shape="rect" id="node22" href="$road__curve_2lane__offset_8h.html" title=" " alt="" coords="5438,631,5613,672"/>
+<area shape="rect" id="node57" title=" " alt="" coords="124,831,180,858"/>
+<area shape="rect" id="node72" href="$road__curve__factory_8h.html" title=" " alt="" coords="4257,437,4447,479"/>
+<area shape="rect" id="node78" title=" " alt="" coords="6397,87,6459,114"/>
+<area shape="rect" id="node79" title=" " alt="" coords="6483,87,6554,114"/>
+<area shape="rect" id="node80" title=" " alt="" coords="6579,87,6643,114"/>
+<area shape="rect" id="node81" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$maliput__unused_8h.html.html" title=" " alt="" coords="6667,80,6853,121"/>
+<area shape="rect" id="node82" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$thread__pool_8h.html.html" title=" " alt="" coords="6877,80,7048,121"/>
+<area shape="rect" id="node83" href="$determine__tolerance_8h.html" title=" " alt="" coords="1393,169,1583,211"/>
+<area shape="rect" id="node84" href="$simplify__geometries_8h.html" title=" " alt="" coords="1785,169,1975,211"/>
+<area shape="rect" id="node85" href="$xodr__parser__configuration_8h.html" title=" " alt="" coords="1124,259,1332,300"/>
+<area shape="rect" id="node86" href="$cubic__polynomial_8h.html" title=" " alt="" coords="6245,631,6440,672"/>
+<area shape="rect" id="node87" href="$piecewise__function_8h.html" title=" " alt="" coords="3161,534,3367,575"/>
+<area shape="rect" id="node88" href="$scaled__domain__function_8h.html" title=" " alt="" coords="6297,534,6535,575"/>
+<area shape="rect" id="node3" title=" " alt="" coords="2103,735,2153,761"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5739,638,5816,665"/>
+<area shape="rect" id="node5" title=" " alt="" coords="3807,638,3870,665"/>
+<area shape="rect" id="node7" href="$base_2lane_8h.html" title=" " alt="" coords="5461,348,5637,389"/>
+<area shape="rect" id="node11" href="$macros_8h.html" title=" " alt="" coords="3668,824,3871,865"/>
+<area shape="rect" id="node29" href="$road__geometry_8h.html" title=" " alt="" coords="3947,169,4123,211"/>
+<area shape="rect" id="node31" href="$db__manager_8h.html" title=" " alt="" coords="1357,259,1531,300"/>
+<area shape="rect" id="node58" href="$segment_8h.html" title=" " alt="" coords="5339,259,5515,300"/>
+<area shape="rect" id="node60" href="$builder__tools_8h.html" title=" " alt="" coords="2153,259,2343,300"/>
+<area shape="rect" id="node65" href="$id__providers_8h.html" title=" " alt="" coords="4845,631,5035,672"/>
+<area shape="rect" id="node73" href="$road__geometry__builder__base_8h.html" title=" " alt="" coords="2808,534,3035,575"/>
+<area shape="rect" id="node75" href="$road__geometry__configuration_8h.html" title=" " alt="" coords="2561,631,2791,672"/>
+<area shape="rect" id="node8" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$lane__data_8h.html.html" title=" " alt="" coords="5491,735,5667,761"/>
+<area shape="rect" id="node9" title=" " alt="" coords="5587,437,5765,479"/>
+<area shape="rect" id="node10" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$vector_8h.html.html" title=" " alt="" coords="3514,735,3681,761"/>
+<area shape="rect" id="node19" href="$road__curve_8h.html" title=" " alt="" coords="5337,534,5511,575"/>
+<area shape="rect" id="node25" href="$road__curve__offset_8h.html" title=" " alt="" coords="4935,437,5134,479"/>
+<area shape="rect" id="node12" title=" " alt="" coords="1517,921,1576,947"/>
+<area shape="rect" id="node13" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$assertion__error_8h.html.html" title=" " alt="" coords="3455,913,3652,955"/>
+<area shape="rect" id="node15" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$maliput__abort_8h.html.html" title=" " alt="" coords="3195,913,3381,955"/>
+<area shape="rect" id="node16" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$maliput__copyable_8h.html.html" title=" " alt="" coords="3676,913,3863,955"/>
+<area shape="rect" id="node17" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$maliput__throw_8h.html.html" title=" " alt="" coords="3887,913,4073,955"/>
+<area shape="rect" id="node20" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$roll__pitch__yaw_8h.html.html" title=" " alt="" coords="5239,631,5414,672"/>
+<area shape="rect" id="node21" href="$ground__curve_8h.html" title=" " alt="" coords="4163,631,4338,672"/>
+<area shape="rect" id="node23" title=" " alt="" coords="1349,831,1424,858"/>
+<area shape="rect" id="node24" href="$open__range__validator_8h.html" title=" " alt="" coords="6218,727,6441,769"/>
+<area shape="rect" id="node26" title=" " alt="" coords="4659,541,4746,568"/>
+<area shape="rect" id="node27" title=" " alt="" coords="5021,534,5211,575"/>
+<area shape="rect" id="node28" title=" " alt="" coords="4822,527,4997,583"/>
+<area shape="rect" id="node30" title=" " alt="" coords="3946,259,4123,300"/>
+<area shape="rect" id="node32" title=" " alt="" coords="546,735,670,761"/>
+<area shape="rect" id="node33" title=" " alt="" coords="2323,638,2383,665"/>
+<area shape="rect" id="node34" title=" " alt="" coords="1111,355,1203,382"/>
+<area shape="rect" id="node35" href="$header_8h.html" title=" " alt="" coords="395,631,570,672"/>
+<area shape="rect" id="node37" href="$junction_8h.html" title=" " alt="" coords="823,631,998,672"/>
+<area shape="rect" id="node40" href="$parser__configuration_8h.html" title=" " alt="" coords="345,348,519,389"/>
+<area shape="rect" id="node41" href="$road__header_8h.html" title=" " alt="" coords="1227,348,1402,389"/>
+<area shape="rect" id="node36" title=" " alt="" coords="446,735,522,761"/>
+<area shape="rect" id="node38" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$type__specific__identifier_8h.html.html" title=" " alt="" coords="881,824,1068,865"/>
+<area shape="rect" id="node39" href="$connection_8h.html" title=" " alt="" coords="898,727,1073,769"/>
+<area shape="rect" id="node42" href="$lanes_8h.html" title=" " alt="" coords="1547,437,1722,479"/>
+<area shape="rect" id="node49" href="$reference__geometry_8h.html" title=" " alt="" coords="2406,437,2581,479"/>
+<area shape="rect" id="node55" href="$road__link_8h.html" title=" " alt="" coords="1149,727,1323,769"/>
+<area shape="rect" id="node56" href="$road__type_8h.html" title=" " alt="" coords="94,727,269,769"/>
+<area shape="rect" id="node43" href="$xodr_2lane__offset_8h.html" title=" " alt="" coords="3391,534,3566,575"/>
+<area shape="rect" id="node44" href="$lane__section_8h.html" title=" " alt="" coords="1547,534,1722,575"/>
+<area shape="rect" id="node45" href="$xodr_2lane_8h.html" title=" " alt="" coords="1525,631,1699,672"/>
+<area shape="rect" id="node46" href="$lane__link_8h.html" title=" " alt="" coords="1501,727,1675,769"/>
+<area shape="rect" id="node47" href="$lane__width_8h.html" title=" " alt="" coords="1903,727,2078,769"/>
+<area shape="rect" id="node48" href="$unit_8h.html" title=" " alt="" coords="671,824,846,865"/>
+<area shape="rect" id="node50" href="$elevation__profile_8h.html" title=" " alt="" coords="3590,534,3765,575"/>
+<area shape="rect" id="node51" href="$lateral__profile_8h.html" title=" " alt="" coords="4043,534,4218,575"/>
+<area shape="rect" id="node52" href="$plan__view_8h.html" title=" " alt="" coords="2355,534,2530,575"/>
+<area shape="rect" id="node53" href="$geometry_8h.html" title=" " alt="" coords="2073,631,2247,672"/>
+<area shape="rect" id="node54" title=" " alt="" coords="2229,735,2297,761"/>
+<area shape="rect" id="node59" title=" " alt="" coords="5662,348,5839,389"/>
+<area shape="rect" id="node61" title=" " alt="" coords="2286,355,2495,382"/>
+<area shape="rect" id="node62" href="$rule__tools_8h.html" title=" " alt="" coords="4473,437,4663,479"/>
+<area shape="rect" id="node63" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$discrete__value__rule_8h.html.html" title=" " alt="" coords="4345,534,4533,575"/>
+<area shape="rect" id="node64" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$rule_8h.html.html" title=" " alt="" coords="3959,735,4132,761"/>
+<area shape="rect" id="node66" title=" " alt="" coords="4868,727,5012,769"/>
+<area shape="rect" id="node67" title=" " alt="" coords="5037,735,5201,761"/>
+<area shape="rect" id="node68" title=" " alt="" coords="5225,735,5365,761"/>
+<area shape="rect" id="node69" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$direction__usage__rule_8h.html.html" title=" " alt="" coords="4258,727,4451,769"/>
+<area shape="rect" id="node70" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$speed__limit__rule_8h.html.html" title=" " alt="" coords="4475,727,4650,769"/>
+<area shape="rect" id="node71" title=" " alt="" coords="4674,735,4843,761"/>
+<area shape="rect" id="node74" href="$inertial__to__lane__mapping__config_8h.html" title=" " alt="" coords="3045,720,3235,776"/>
+<area shape="rect" id="node76" href="/__w/maliput_documentation/maliput_documentation/maliput_ws/build/maliput_documentation/docs/docs/sphinx/from_doxygen/html/deps/maliput/maliput.tag$road__network_8h.html.html" title=" " alt="" coords="2575,735,2777,761"/>
+<area shape="rect" id="node77" href="$constants_8h.html" title=" " alt="" coords="2801,735,3021,761"/>
 </map>
