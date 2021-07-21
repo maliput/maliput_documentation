@@ -442,7 +442,7 @@ to <code class="docutils literal notranslate"><span class="pre">colcon</span></c
 <p class="first admonition-title">Note</p>
 <p class="last">If you want to build with <code class="docutils literal notranslate"><span class="pre">clang-8</span></code>, run the following:</p>
 </div>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nv">CC</span><span class="o">=</span>clang-8 <span class="nv">CXX</span><span class="o">=</span>clang++-8 colcon build --packages-up-to maliput malidrive --cmake-args <span class="s1">&#39; -DCMAKE_LINKER=usr/bin/lld-8&#39;</span>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nv">LDFLAGS</span><span class="o">=</span><span class="s2">&quot;-fuse-ld=lld-8&quot;</span> <span class="nv">CC</span><span class="o">=</span>clang-8 <span class="nv">CXX</span><span class="o">=</span>clang++-8 colcon build --packages-up-to maliput malidrive
 </pre></div>
 </div>
 </div>
