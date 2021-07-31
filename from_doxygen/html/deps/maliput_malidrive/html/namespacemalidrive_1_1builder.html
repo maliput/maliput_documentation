@@ -239,6 +239,9 @@ Functions</h2></td></tr>
 <tr class="separator:a7a5b324e2c515e74cb76db55ecaaf994"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd27b211238553bfcaddc566885470b0"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::string, std::optional&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#acd27b211238553bfcaddc566885470b0">VehicleUsageAndExclusiveRuleStateValues</a> (const <a class="el" href="classmalidrive_1_1_lane.html">Lane</a> *<a class="elRef" href="../../maliput/html/generate__string_8cc.html#ac1592f838ecdc6da89b4d8d2bc12c130">lane</a>)</td></tr>
 <tr class="separator:acd27b211238553bfcaddc566885470b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a744c0ebef658f17b42e0893685c9d014"><td class="memItemLeft" align="right" valign="top">std::optional&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#a744c0ebef658f17b42e0893685c9d014">FindLocalMinFromCubicPol</a> (double a, double b, double c, double d)</td></tr>
+<tr class="memdesc:a744c0ebef658f17b42e0893685c9d014"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the local minimum of the cubic polynomial.  <a href="namespacemalidrive_1_1builder.html#a744c0ebef658f17b42e0893685c9d014">More...</a><br /></td></tr>
+<tr class="separator:a744c0ebef658f17b42e0893685c9d014"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7500a8e9852463ca0ad683127ac2ab13"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#a7500a8e9852463ca0ad683127ac2ab13">DetermineRoadGeometryLinearTolerance</a> (const <a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html">xodr::DBManager</a> *xodr_manager)</td></tr>
 <tr class="memdesc:a7500a8e9852463ca0ad683127ac2ab13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the runtime tolerance a <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend.">RoadGeometry</a> should be set from the characteristics in a XODR map.  <a href="namespacemalidrive_1_1builder.html#a7500a8e9852463ca0ad683127ac2ab13">More...</a><br /></td></tr>
 <tr class="separator:a7500a8e9852463ca0ad683127ac2ab13"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -413,6 +416,59 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a744c0ebef658f17b42e0893685c9d014"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a744c0ebef658f17b42e0893685c9d014">&#9670;&nbsp;</a></span>FindLocalMinFromCubicPol()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; double &gt; FindLocalMinFromCubicPol </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>d</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Finds the local minimum of the cubic polynomial. </p>
+<p>\( f(p) = a p^3 + b p^2 + c p + d / p,a,b,c ∈ ℝ \).</p>
+<p>Note: 1 - Local minimum is only related to cubic polynomial. So when a = 0 and the parabola is ascending (b &gt; 0) it will return the absolute minimum. 2 - There is no need to know <code>d</code> coefficient to get the minimum local, but it is asked just for consistency. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>Cubic coefficient. </td></tr>
+    <tr><td class="paramname">b</td><td>Quadratic coefficient. </td></tr>
+    <tr><td class="paramname">c</td><td>Linear coefficient. </td></tr>
+    <tr><td class="paramname">d</td><td>Constant coefficient. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The p value that matches a local min in the cubic, if exists. </dd></dl>
 
 </div>
 </div>

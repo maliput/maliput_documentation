@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"malidrive_road_curve_design.html#orientation_at_the_centerline":[0,0,2,0],
+"malidrive_road_curve_design.html#questions":[0,2],
 "malidrive_road_curve_design.html#road_curve_concepts":[0,0],
 "malidrive_road_curve_design.html#roll_pitch_yaw_orthogonality":[0,2,1],
 "malidrive_road_curve_design.html#tangent_vector_road_surface":[0,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "structmalidrive_1_1xodr_1_1_elevation_profile_1_1_elevation.html#a1510a66dacf9cf3586de5fc89ae2a073":[2,0,0,3,3,0,3],
 "structmalidrive_1_1xodr_1_1_elevation_profile_1_1_elevation.html#a2c09e929a6ea340fc9653cca414b11d3":[2,0,0,3,3,0,4],
 "structmalidrive_1_1xodr_1_1_elevation_profile_1_1_elevation.html#a37ce4938db905b2d6ed4ff66d5955db0":[2,0,0,3,3,0,12],
-"structmalidrive_1_1xodr_1_1_elevation_profile_1_1_elevation.html#a3d8623c14e5b2cb10e80006699f5ace6":[2,0,0,3,3,0,11],
-"structmalidrive_1_1xodr_1_1_elevation_profile_1_1_elevation.html#a3e4a64d55a7d9b6fb03350cbe84b0a80":[2,0,0,3,3,0,7],
-"structmalidrive_1_1xodr_1_1_elevation_profile_1_1_elevation.html#a44721a5e0e063c20a0721cf8921d2a6f":[2,0,0,3,3,0,10]
+"structmalidrive_1_1xodr_1_1_elevation_profile_1_1_elevation.html#a3d8623c14e5b2cb10e80006699f5ace6":[2,0,0,3,3,0,11]
 };

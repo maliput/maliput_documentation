@@ -96,9 +96,11 @@ $(document).ready(function(){initNavTree('builder__tools_8cc.html',''); initResi
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="builder__tools_8h.html">maliput_malidrive/builder/builder_tools.h</a>&quot;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;map&gt;</code><br />
 <code>#include &lt;maliput/api/lane.h&gt;</code><br />
 <code>#include &lt;<a class="elRef" href="../../maliput/html/logger_8h.html">maliput/common/logger.h</a>&gt;</code><br />
+<code>#include &lt;<a class="elRef" href="../../maliput/html/maliput__unused_8h.html">maliput/common/maliput_unused.h</a>&gt;</code><br />
 <code>#include &lt;tinyxml2.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="road__geometry_8h.html">maliput_malidrive/base/road_geometry.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="id__providers_8h.html">maliput_malidrive/builder/id_providers.h</a>&quot;</code><br />
@@ -157,6 +159,9 @@ Functions</h2></td></tr>
 <tr class="separator:a7a5b324e2c515e74cb76db55ecaaf994"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd27b211238553bfcaddc566885470b0"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::string, std::optional&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#acd27b211238553bfcaddc566885470b0">VehicleUsageAndExclusiveRuleStateValues</a> (const Lane *<a class="elRef" href="../../maliput/html/generate__string_8cc.html#ac1592f838ecdc6da89b4d8d2bc12c130">lane</a>)</td></tr>
 <tr class="separator:acd27b211238553bfcaddc566885470b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a744c0ebef658f17b42e0893685c9d014"><td class="memItemLeft" align="right" valign="top">std::optional&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#a744c0ebef658f17b42e0893685c9d014">FindLocalMinFromCubicPol</a> (double a, double b, double c, double d)</td></tr>
+<tr class="memdesc:a744c0ebef658f17b42e0893685c9d014"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the local minimum of the cubic polynomial.  <a href="namespacemalidrive_1_1builder.html#a744c0ebef658f17b42e0893685c9d014">More...</a><br /></td></tr>
+<tr class="separator:a744c0ebef658f17b42e0893685c9d014"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="a146b7fcbd7f58b8d0b6196c0fcb44559"></a>

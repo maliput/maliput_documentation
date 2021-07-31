@@ -130,6 +130,13 @@
       <anchor>acd27b211238553bfcaddc566885470b0</anchor>
       <arglist>(const Lane *lane)</arglist>
     </member>
+    <member kind="function">
+      <type>std::optional&lt; double &gt;</type>
+      <name>FindLocalMinFromCubicPol</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a744c0ebef658f17b42e0893685c9d014</anchor>
+      <arglist>(double a, double b, double c, double d)</arglist>
+    </member>
     <member kind="variable">
       <type>bool</type>
       <name>is_driveable_lane</name>
@@ -272,6 +279,13 @@
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
       <anchor>acd27b211238553bfcaddc566885470b0</anchor>
       <arglist>(const Lane *lane)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; double &gt;</type>
+      <name>FindLocalMinFromCubicPol</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a744c0ebef658f17b42e0893685c9d014</anchor>
+      <arglist>(double a, double b, double c, double d)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -7189,6 +7203,13 @@
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
       <anchor>acd27b211238553bfcaddc566885470b0</anchor>
       <arglist>(const Lane *lane)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; double &gt;</type>
+      <name>FindLocalMinFromCubicPol</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a744c0ebef658f17b42e0893685c9d014</anchor>
+      <arglist>(double a, double b, double c, double d)</arglist>
     </member>
     <member kind="function">
       <type>double</type>
