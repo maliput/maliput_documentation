@@ -14070,6 +14070,13 @@
       <anchor>a0f30546a0293a269d5d1bc4b2efd8522</anchor>
       <arglist>(double scalar) const</arglist>
     </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>to_str</name>
+      <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
+      <anchor>a7157eb0f3e4314a1d621f0bed374ea97</anchor>
+      <arglist>() const</arglist>
+    </member>
     <member kind="function" static="yes">
       <type>static Derived</type>
       <name>Zero</name>
@@ -14083,6 +14090,13 @@
       <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
       <anchor>a96e7df0569658f4bd1a5226a905c93d0</anchor>
       <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static Derived</type>
+      <name>FromStr</name>
+      <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
+      <anchor>a306392c895dce3965dd925a36a71391c</anchor>
+      <arglist>(const std::string &amp;vector_str)</arglist>
     </member>
     <member kind="variable" protection="protected">
       <type>std::array&lt; double, N &gt;</type>
@@ -14263,6 +14277,13 @@
       <anchor>a0f30546a0293a269d5d1bc4b2efd8522</anchor>
       <arglist>(double scalar) const</arglist>
     </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>to_str</name>
+      <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
+      <anchor>a7157eb0f3e4314a1d621f0bed374ea97</anchor>
+      <arglist>() const</arglist>
+    </member>
     <member kind="function" static="yes">
       <type>static Vector2</type>
       <name>Zero</name>
@@ -14276,6 +14297,13 @@
       <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
       <anchor>a96e7df0569658f4bd1a5226a905c93d0</anchor>
       <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static Vector2</type>
+      <name>FromStr</name>
+      <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
+      <anchor>a306392c895dce3965dd925a36a71391c</anchor>
+      <arglist>(const std::string &amp;vector_str)</arglist>
     </member>
     <member kind="variable" protection="protected">
       <type>std::array&lt; double, N &gt;</type>
@@ -14456,6 +14484,13 @@
       <anchor>a0f30546a0293a269d5d1bc4b2efd8522</anchor>
       <arglist>(double scalar) const</arglist>
     </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>to_str</name>
+      <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
+      <anchor>a7157eb0f3e4314a1d621f0bed374ea97</anchor>
+      <arglist>() const</arglist>
+    </member>
     <member kind="function" static="yes">
       <type>static Vector3</type>
       <name>Zero</name>
@@ -14469,6 +14504,13 @@
       <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
       <anchor>a96e7df0569658f4bd1a5226a905c93d0</anchor>
       <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static Vector3</type>
+      <name>FromStr</name>
+      <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
+      <anchor>a306392c895dce3965dd925a36a71391c</anchor>
+      <arglist>(const std::string &amp;vector_str)</arglist>
     </member>
     <member kind="variable" protection="protected">
       <type>std::array&lt; double, N &gt;</type>
@@ -14649,6 +14691,13 @@
       <anchor>a0f30546a0293a269d5d1bc4b2efd8522</anchor>
       <arglist>(double scalar) const</arglist>
     </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>to_str</name>
+      <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
+      <anchor>a7157eb0f3e4314a1d621f0bed374ea97</anchor>
+      <arglist>() const</arglist>
+    </member>
     <member kind="function" static="yes">
       <type>static Vector4</type>
       <name>Zero</name>
@@ -14662,6 +14711,13 @@
       <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
       <anchor>a96e7df0569658f4bd1a5226a905c93d0</anchor>
       <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static Vector4</type>
+      <name>FromStr</name>
+      <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
+      <anchor>a306392c895dce3965dd925a36a71391c</anchor>
+      <arglist>(const std::string &amp;vector_str)</arglist>
     </member>
     <member kind="variable" protection="protected">
       <type>std::array&lt; double, N &gt;</type>
@@ -14842,6 +14898,13 @@
       <anchor>a0f30546a0293a269d5d1bc4b2efd8522</anchor>
       <arglist>(double scalar) const</arglist>
     </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>to_str</name>
+      <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
+      <anchor>a7157eb0f3e4314a1d621f0bed374ea97</anchor>
+      <arglist>() const</arglist>
+    </member>
     <member kind="function" static="yes">
       <type>static Vector&lt; N &gt;</type>
       <name>Zero</name>
@@ -14855,6 +14918,13 @@
       <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
       <anchor>a96e7df0569658f4bd1a5226a905c93d0</anchor>
       <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static Vector&lt; N &gt;</type>
+      <name>FromStr</name>
+      <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
+      <anchor>a306392c895dce3965dd925a36a71391c</anchor>
+      <arglist>(const std::string &amp;vector_str)</arglist>
     </member>
     <member kind="variable" protection="protected">
       <type>std::array&lt; double, N &gt;</type>
