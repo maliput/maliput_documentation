@@ -154,7 +154,7 @@ Install dependencies via ``rosdep``
 .. code-block:: sh
 
     rosdep update
-    rosdep install -i -y --rosdistro $ROS_DISTRO --skip-keys "ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui0 ignition-gui3 ignition-rendering3 pybind11" --from-paths src
+    rosdep install -i -y --rosdistro $ROS_DISTRO --skip-keys "ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui3 ignition-rendering3 pybind11" --from-paths src
 
 
 Sometimes, you might be working with EOL ROS2 distributions. If that's the case, make sure to run ``rosdep update`` with
@@ -187,7 +187,6 @@ Sometimes, you might be working with EOL ROS2 distributions. If that's the case,
                      libignition-math6-dev \
                      libignition-msgs5-dev \
                      libignition-tools-dev \
-                     libignition-cmake1-dev \
                      libignition-cmake2-dev \
                      libignition-rendering3-dev \
                      libignition-gui3-dev \
@@ -347,7 +346,7 @@ state the list of system dependencies necessary to build and execute. And we can
 
 .. code-block:: sh
 
-      rosdep check --rosdistro $ROS_DISTRO --skip-keys "ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui0 ignition-gui3 ignition-rendering3 pybind11" --from-paths src
+      rosdep check --rosdistro $ROS_DISTRO --skip-keys "ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui3 ignition-rendering3 pybind11" --from-paths src
 
 Note: not all workspace prerequisites are handled using ``rosdep`` meaning ``rosdep check`` may fall short. For example,
 pure binary dependencies like  ``drake``\ 's binary tarball is not handled by ``rosdep``. Another example is ``apt``
@@ -613,7 +612,7 @@ Install all underlay packages' dependencies
 
     export ROS_DISTRO=dashing
     rosdep update
-    rosdep install -i -y --rosdistro $ROS_DISTRO --skip-keys "ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui0 ignition-gui3 ignition-rendering3 pybind11" --from-paths /opt/dsim-desktop/*
+    rosdep install -i -y --rosdistro $ROS_DISTRO --skip-keys "ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui3 ignition-rendering3 pybind11" --from-paths /opt/dsim-desktop/*
 
 .. _install-underlay-drake:
 
@@ -643,7 +642,6 @@ Install ignition binaries
                    libignition-msgs5-dev \
                    libignition-tools-dev \
                    libignition-cmake2-dev \
-                   libignition-cmake1-dev \
                    libignition-rendering3-dev \
                    libignition-gui3-dev \
                    libignition-transport8-dev
