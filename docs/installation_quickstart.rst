@@ -151,19 +151,22 @@ Alternatively, when working with ``foxy``, you could do:
 Install dependencies via ``rosdep``
 """""""""""""""""""""""""""""""""""
 
-.. code-block:: sh
-
-    rosdep update
-    rosdep install -i -y --rosdistro $ROS_DISTRO --skip-keys "ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui3 ignition-rendering3 pybind11" --from-paths src
-
-
-Sometimes, you might be working with EOL ROS2 distributions. If that's the case, make sure to run ``rosdep update`` with
-``--include-eol-distros`` flag as follows:
-
+**For dashing**
 
 .. code-block:: sh
 
     rosdep update --include-eol-distros
+    rosdep install -i -y --rosdistro $ROS_DISTRO --skip-keys "pybind11" --from-paths src
+
+
+As you can see, ``--include-eol-distros`` is necessary to discover the ROS2-EOL ``dashing`` distribution.
+
+**For foxy**
+
+.. code-block:: sh
+
+    rosdep update
+    rosdep install -i -y --rosdistro $ROS_DISTRO --skip-keys "pybind11" --from-paths src
 
 
 .. warning::
@@ -171,28 +174,6 @@ Sometimes, you might be working with EOL ROS2 distributions. If that's the case,
   brings. In this regard, disposable containerized workspaces help keep development environments clean (as system wide
   installations within a container are limited to that container).
 
-.. note::
-  If you are following the instructions to work with ``delphyne``, note that not all the dependencies are met with
-  ``rosdep``. The following list of steps will allow you to get your environment ready for ``delphyne`` packages:
-
-  .. code-block:: sh
-
-      echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" | \
-           sudo tee --append /etc/apt/sources.list.d/gazebo-stable.list
-      sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys D2486D2DD83DB69272AFE98867170598AF249743
-
-      sudo apt update
-      sudo apt -y install --no-install-recommends \
-                     libignition-common3-dev \
-                     libignition-math6-dev \
-                     libignition-msgs5-dev \
-                     libignition-tools-dev \
-                     libignition-cmake2-dev \
-                     libignition-rendering3-dev \
-                     libignition-gui3-dev \
-                     libignition-transport8-dev
-
-  It might be the case that the command ``apt-key adv`` fails. Consider using other key servers like ``hkp://pgp.mit.edu:80`` or ``hkp://keyserver.ubuntu.com:80`` to effectively run that command.
 
 .. _install-drake:
 
@@ -346,7 +327,7 @@ state the list of system dependencies necessary to build and execute. And we can
 
 .. code-block:: sh
 
-      rosdep check --rosdistro $ROS_DISTRO --skip-keys "ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui3 ignition-rendering3 pybind11" --from-paths src
+      rosdep check --rosdistro $ROS_DISTRO --skip-keys "pybind11" --from-paths src
 
 Note: not all workspace prerequisites are handled using ``rosdep`` meaning ``rosdep check`` may fall short. For example,
 pure binary dependencies like  ``drake``\ 's binary tarball is not handled by ``rosdep``. Another example is ``apt``
@@ -377,18 +358,18 @@ To build all packages:
 
       colcon build
 
-To build some packages, use ``--packages-up-to``. For example, to build ``maliput`` and ``malidrive``\ :
+To build some packages, use ``--packages-up-to``. For example, to build ``maliput`` and ``maliput_malidrive``\ :
 
 .. code-block:: sh
 
-    colcon build --packages-up-to maliput malidrive
+    colcon build --packages-up-to maliput maliput_malidrive
 
 To build some packages and only those packages (i.e. without their dependencies),
 use ``--packages-select``:
 
 .. code-block:: sh
 
-    colcon build --packages-select maliput malidrive
+    colcon build --packages-select maliput maliput_malidrive
 
 Note that if dependencies cannot be met, regardless of whether it's because they are not installed or not built,
 the build will fail. Thus, this flag is usually helpful only to quickly rebuild a package after building it along with
@@ -491,9 +472,9 @@ Containerized workspace could be deleted simply deleting the docker image:
 
 .. code-block:: sh
 
-       docker rmi maliput_ws_ubuntu
+       docker rmi maliput_ws_ubuntu_bionic
 
-Consider replacing ``maliput_ws_ubuntu`` by your image name when using a custom one.
+Consider replacing ``maliput_ws_ubuntu_bionic`` by your image name when using a custom one.
 
 .. _contributing:
 
@@ -608,11 +589,24 @@ Install prerequisites
 Install all underlay packages' dependencies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+**For dashing**
+
+Note that this is only required in old (previous to 2021-08-09) tarballs.
+
 .. code-block:: sh
 
     export ROS_DISTRO=dashing
-    rosdep update
+    rosdep update --include-eol-distros
     rosdep install -i -y --rosdistro $ROS_DISTRO --skip-keys "ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui3 ignition-rendering3 pybind11" --from-paths /opt/dsim-desktop/*
+
+**For foxy**
+
+.. code-block:: sh
+
+    export ROS_DISTRO=foxy
+    rosdep update
+    rosdep install -i -y --rosdistro $ROS_DISTRO --skip-keys "pybind11" --from-paths /opt/dsim-desktop/*
+
 
 .. _install-underlay-drake:
 
@@ -628,6 +622,10 @@ Install drake
 
 Install ignition binaries
 ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**For dashing only**
+
+Note that this is only required in old (previous to 2021-08-09) tarballs.
 
 .. code-block:: sh
 
