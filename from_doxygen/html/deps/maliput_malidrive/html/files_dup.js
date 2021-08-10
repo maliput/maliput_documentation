@@ -183,6 +183,7 @@ var files_dup =
     [ "road_network_builder_base.h", "road__network__builder__base_8h.html", [
       [ "RoadNetworkBuilderBase", "classmalidrive_1_1builder_1_1_road_network_builder_base.html", "classmalidrive_1_1builder_1_1_road_network_builder_base" ]
     ] ],
+    [ "road_network_configuration.cc", "road__network__configuration_8cc.html", null ],
     [ "road_network_configuration.h", "road__network__configuration_8h.html", [
       [ "RoadNetworkConfiguration", "structmalidrive_1_1builder_1_1_road_network_configuration.html", "structmalidrive_1_1builder_1_1_road_network_configuration" ]
     ] ],

@@ -89,6 +89,8 @@ $(document).ready(function(){initNavTree('structmalidrive_1_1builder_1_1_road_ne
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structmalidrive_1_1builder_1_1_road_network_configuration-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -100,24 +102,100 @@ $(document).ready(function(){initNavTree('structmalidrive_1_1builder_1_1_road_ne
 </div>
 <p><code>#include &lt;include/maliput_malidrive/builder/road_network_configuration.h&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ad9d7e276b16ed7a92b69859f2a00eacb"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html#ad9d7e276b16ed7a92b69859f2a00eacb">ToStringMap</a> () const</td></tr>
+<tr class="separator:ad9d7e276b16ed7a92b69859f2a00eacb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a2c8af5b057c48d2662e560053800dbd0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html">RoadNetworkConfiguration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html#a2c8af5b057c48d2662e560053800dbd0">FromMap</a> (const std::map&lt; std::string, std::string &gt; &amp;road_network_configuration)</td></tr>
+<tr class="memdesc:a2c8af5b057c48d2662e560053800dbd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html" title="Structure to hold file paths for multiple RoadNetwork structures.">RoadNetworkConfiguration</a> out of a string dictionary.  <a href="structmalidrive_1_1builder_1_1_road_network_configuration.html#a2c8af5b057c48d2662e560053800dbd0">More...</a><br /></td></tr>
+<tr class="separator:a2c8af5b057c48d2662e560053800dbd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a0e9c582d9f1e689479e4b3707f9afe93"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structmalidrive_1_1builder_1_1_road_geometry_configuration.html">RoadGeometryConfiguration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html#a0e9c582d9f1e689479e4b3707f9afe93">road_geometry_configuration</a></td></tr>
 <tr class="memdesc:a0e9c582d9f1e689479e4b3707f9afe93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Road geometry configuration parameters.  <a href="structmalidrive_1_1builder_1_1_road_network_configuration.html#a0e9c582d9f1e689479e4b3707f9afe93">More...</a><br /></td></tr>
 <tr class="separator:a0e9c582d9f1e689479e4b3707f9afe93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a127efa8b04191c300170ff5f1a109672"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html#a127efa8b04191c300170ff5f1a109672">road_rule_book</a> {}</td></tr>
+<tr class="memitem:a127efa8b04191c300170ff5f1a109672"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html#a127efa8b04191c300170ff5f1a109672">road_rule_book</a> {std::nullopt}</td></tr>
 <tr class="memdesc:a127efa8b04191c300170ff5f1a109672"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path to the configuration file to load a RoadRulebook.  <a href="structmalidrive_1_1builder_1_1_road_network_configuration.html#a127efa8b04191c300170ff5f1a109672">More...</a><br /></td></tr>
 <tr class="separator:a127efa8b04191c300170ff5f1a109672"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a514e58c74e866584a8b842b6fb96a1"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html#a8a514e58c74e866584a8b842b6fb96a1">traffic_light_book</a> {}</td></tr>
+<tr class="memitem:a8a514e58c74e866584a8b842b6fb96a1"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html#a8a514e58c74e866584a8b842b6fb96a1">traffic_light_book</a> {std::nullopt}</td></tr>
 <tr class="memdesc:a8a514e58c74e866584a8b842b6fb96a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path to the configuration file to load a TrafficLightBook.  <a href="structmalidrive_1_1builder_1_1_road_network_configuration.html#a8a514e58c74e866584a8b842b6fb96a1">More...</a><br /></td></tr>
 <tr class="separator:a8a514e58c74e866584a8b842b6fb96a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afeae0ebf01539011ff5bc82919390063"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html#afeae0ebf01539011ff5bc82919390063">phase_ring_book</a> {}</td></tr>
+<tr class="memitem:afeae0ebf01539011ff5bc82919390063"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html#afeae0ebf01539011ff5bc82919390063">phase_ring_book</a> {std::nullopt}</td></tr>
 <tr class="memdesc:afeae0ebf01539011ff5bc82919390063"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path to the configuration file to load a PhaseRingBook.  <a href="structmalidrive_1_1builder_1_1_road_network_configuration.html#afeae0ebf01539011ff5bc82919390063">More...</a><br /></td></tr>
 <tr class="separator:afeae0ebf01539011ff5bc82919390063"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d9c027b5448b0ee9060b1012fc8716a"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html#a8d9c027b5448b0ee9060b1012fc8716a">intersection_book</a> {}</td></tr>
+<tr class="memitem:a8d9c027b5448b0ee9060b1012fc8716a"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html#a8d9c027b5448b0ee9060b1012fc8716a">intersection_book</a> {std::nullopt}</td></tr>
 <tr class="memdesc:a8d9c027b5448b0ee9060b1012fc8716a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path to the configuration file to load an IntersectionBook.  <a href="structmalidrive_1_1builder_1_1_road_network_configuration.html#a8d9c027b5448b0ee9060b1012fc8716a">More...</a><br /></td></tr>
 <tr class="separator:a8d9c027b5448b0ee9060b1012fc8716a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Road Network configuration's keys used in string map.</div></td></tr>
+<tr class="memitem:a4bbfa3fa2cf9d1d6fa4bbeb3ea49b2eb"><td class="memItemLeft" align="right" valign="top">static constexpr char const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html#a4bbfa3fa2cf9d1d6fa4bbeb3ea49b2eb">kStrRoadRuleBook</a> = &quot;road_rule_book&quot;</td></tr>
+<tr class="separator:a4bbfa3fa2cf9d1d6fa4bbeb3ea49b2eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2722e2ee3c7a994eb5624d2512e6ffee"><td class="memItemLeft" align="right" valign="top">static constexpr char const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html#a2722e2ee3c7a994eb5624d2512e6ffee">kStrTrafficLightBook</a> = &quot;traffic_light_book&quot;</td></tr>
+<tr class="separator:a2722e2ee3c7a994eb5624d2512e6ffee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77bd8a4371ed2702aec2868d7c1141d6"><td class="memItemLeft" align="right" valign="top">static constexpr char const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html#a77bd8a4371ed2702aec2868d7c1141d6">kStrPhaseRingBook</a> = &quot;phase_ring_book&quot;</td></tr>
+<tr class="separator:a77bd8a4371ed2702aec2868d7c1141d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff25887b7a74d24295d576e7d78f913f"><td class="memItemLeft" align="right" valign="top">static constexpr char const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html#aff25887b7a74d24295d576e7d78f913f">kStrIntersectionBook</a> = &quot;intersection_book&quot;</td></tr>
+<tr class="separator:aff25887b7a74d24295d576e7d78f913f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a2c8af5b057c48d2662e560053800dbd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c8af5b057c48d2662e560053800dbd0">&#9670;&nbsp;</a></span>FromMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html">RoadNetworkConfiguration</a> FromMap </td>
+          <td>(</td>
+          <td class="paramtype">const std::map&lt; std::string, std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>road_network_configuration</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a <a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html" title="Structure to hold file paths for multiple RoadNetwork structures.">RoadNetworkConfiguration</a> out of a string dictionary. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">road_geometry_configuration</td><td>A string-string map containing the configuration for the builder. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad9d7e276b16ed7a92b69859f2a00eacb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9d7e276b16ed7a92b69859f2a00eacb">&#9670;&nbsp;</a></span>ToStringMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt; std::string, std::string &gt; ToStringMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>A string-string map containing the <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend.">RoadGeometry</a> configuration. </dd></dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a8d9c027b5448b0ee9060b1012fc8716a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8d9c027b5448b0ee9060b1012fc8716a">&#9670;&nbsp;</a></span>intersection_book</h2>
@@ -126,12 +204,100 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::optional&lt;std::string&gt; intersection_book {}</td>
+          <td class="memname">std::optional&lt;std::string&gt; intersection_book {std::nullopt}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Path to the configuration file to load an IntersectionBook. </p>
+
+</div>
+</div>
+<a id="aff25887b7a74d24295d576e7d78f913f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff25887b7a74d24295d576e7d78f913f">&#9670;&nbsp;</a></span>kStrIntersectionBook</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr char const* kStrIntersectionBook = &quot;intersection_book&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a77bd8a4371ed2702aec2868d7c1141d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77bd8a4371ed2702aec2868d7c1141d6">&#9670;&nbsp;</a></span>kStrPhaseRingBook</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr char const* kStrPhaseRingBook = &quot;phase_ring_book&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4bbfa3fa2cf9d1d6fa4bbeb3ea49b2eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bbfa3fa2cf9d1d6fa4bbeb3ea49b2eb">&#9670;&nbsp;</a></span>kStrRoadRuleBook</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr char const* kStrRoadRuleBook = &quot;road_rule_book&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2722e2ee3c7a994eb5624d2512e6ffee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2722e2ee3c7a994eb5624d2512e6ffee">&#9670;&nbsp;</a></span>kStrTrafficLightBook</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr char const* kStrTrafficLightBook = &quot;traffic_light_book&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -142,7 +308,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::optional&lt;std::string&gt; phase_ring_book {}</td>
+          <td class="memname">std::optional&lt;std::string&gt; phase_ring_book {std::nullopt}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -174,7 +340,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::optional&lt;std::string&gt; road_rule_book {}</td>
+          <td class="memname">std::optional&lt;std::string&gt; road_rule_book {std::nullopt}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -190,7 +356,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::optional&lt;std::string&gt; traffic_light_book {}</td>
+          <td class="memname">std::optional&lt;std::string&gt; traffic_light_book {std::nullopt}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -199,8 +365,9 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<hr/>The documentation for this struct was generated from the following files:<ul>
 <li><a class="el" href="road__network__configuration_8h.html">road_network_configuration.h</a></li>
+<li><a class="el" href="road__network__configuration_8cc.html">road_network_configuration.cc</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

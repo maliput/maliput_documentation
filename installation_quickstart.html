@@ -230,13 +230,15 @@ the <code class="docutils literal notranslate"><span class="pre">import</span></
 </div>
 <div class="section" id="install-dependencies-via-rosdep">
 <span id="id5"></span><h5><a class="toc-backref" href="#id44">Install dependencies via <code class="docutils literal notranslate"><span class="pre">rosdep</span></code></a><a class="headerlink" href="#install-dependencies-via-rosdep" title="Permalink to this headline">¶</a></h5>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>rosdep update
-rosdep install -i -y --rosdistro <span class="nv">$ROS_DISTRO</span> --skip-keys <span class="s2">&quot;ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui3 ignition-rendering3 pybind11&quot;</span> --from-paths src
+<p><strong>For dashing</strong></p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>rosdep update --include-eol-distros
+rosdep install -i -y --rosdistro <span class="nv">$ROS_DISTRO</span> --skip-keys <span class="s2">&quot;pybind11&quot;</span> --from-paths src
 </pre></div>
 </div>
-<p>Sometimes, you might be working with EOL ROS2 distributions. If that’s the case, make sure to run <code class="docutils literal notranslate"><span class="pre">rosdep</span> <span class="pre">update</span></code> with
-<code class="docutils literal notranslate"><span class="pre">--include-eol-distros</span></code> flag as follows:</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>rosdep update --include-eol-distros
+<p>As you can see, <code class="docutils literal notranslate"><span class="pre">--include-eol-distros</span></code> is necessary to discover the ROS2-EOL <code class="docutils literal notranslate"><span class="pre">dashing</span></code> distribution.</p>
+<p><strong>For foxy</strong></p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>rosdep update
+rosdep install -i -y --rosdistro <span class="nv">$ROS_DISTRO</span> --skip-keys <span class="s2">&quot;pybind11&quot;</span> --from-paths src
 </pre></div>
 </div>
 <div class="admonition warning">
@@ -244,28 +246,6 @@ rosdep install -i -y --rosdistro <span class="nv">$ROS_DISTRO</span> --skip-keys
 <p class="last">Package dependencies are installed system wide. <code class="docutils literal notranslate"><span class="pre">rosdep</span></code> does not provide any support to remove the dependencies it
 brings. In this regard, disposable containerized workspaces help keep development environments clean (as system wide
 installations within a container are limited to that container).</p>
-</div>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p>If you are following the instructions to work with <code class="docutils literal notranslate"><span class="pre">delphyne</span></code>, note that not all the dependencies are met with
-<code class="docutils literal notranslate"><span class="pre">rosdep</span></code>. The following list of steps will allow you to get your environment ready for <code class="docutils literal notranslate"><span class="pre">delphyne</span></code> packages:</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span> <span class="s2">&quot;deb http://packages.osrfoundation.org/gazebo/ubuntu-stable </span><span class="k">$(</span>lsb_release -cs<span class="k">)</span><span class="s2"> main&quot;</span> <span class="p">|</span> <span class="se">\</span>
-     sudo tee --append /etc/apt/sources.list.d/gazebo-stable.list
-sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys D2486D2DD83DB69272AFE98867170598AF249743
-
-sudo apt update
-sudo apt -y install --no-install-recommends <span class="se">\</span>
-               libignition-common3-dev <span class="se">\</span>
-               libignition-math6-dev <span class="se">\</span>
-               libignition-msgs5-dev <span class="se">\</span>
-               libignition-tools-dev <span class="se">\</span>
-               libignition-cmake2-dev <span class="se">\</span>
-               libignition-rendering3-dev <span class="se">\</span>
-               libignition-gui3-dev <span class="se">\</span>
-               libignition-transport8-dev
-</pre></div>
-</div>
-<p class="last">It might be the case that the command <code class="docutils literal notranslate"><span class="pre">apt-key</span> <span class="pre">adv</span></code> fails. Consider using other key servers like <code class="docutils literal notranslate"><span class="pre">hkp://pgp.mit.edu:80</span></code> or <code class="docutils literal notranslate"><span class="pre">hkp://keyserver.ubuntu.com:80</span></code> to effectively run that command.</p>
 </div>
 </div>
 <div class="section" id="install-drake">
@@ -392,7 +372,7 @@ state the list of system dependencies necessary to build and execute. And we can
 <ol class="arabic simple">
 <li>To see if (most of) our versioned packages’ dependencies have been met, run:</li>
 </ol>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>rosdep check --rosdistro <span class="nv">$ROS_DISTRO</span> --skip-keys <span class="s2">&quot;ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui3 ignition-rendering3 pybind11&quot;</span> --from-paths src
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>rosdep check --rosdistro <span class="nv">$ROS_DISTRO</span> --skip-keys <span class="s2">&quot;pybind11&quot;</span> --from-paths src
 </pre></div>
 </div>
 <p>Note: not all workspace prerequisites are handled using <code class="docutils literal notranslate"><span class="pre">rosdep</span></code> meaning <code class="docutils literal notranslate"><span class="pre">rosdep</span> <span class="pre">check</span></code> may fall short. For example,
@@ -413,13 +393,13 @@ if <code class="docutils literal notranslate"><span class="pre">vcs</span></code
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>colcon build
 </pre></div>
 </div>
-<p>To build some packages, use <code class="docutils literal notranslate"><span class="pre">--packages-up-to</span></code>. For example, to build <code class="docutils literal notranslate"><span class="pre">maliput</span></code> and <code class="docutils literal notranslate"><span class="pre">malidrive</span></code>:</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>colcon build --packages-up-to maliput malidrive
+<p>To build some packages, use <code class="docutils literal notranslate"><span class="pre">--packages-up-to</span></code>. For example, to build <code class="docutils literal notranslate"><span class="pre">maliput</span></code> and <code class="docutils literal notranslate"><span class="pre">maliput_malidrive</span></code>:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>colcon build --packages-up-to maliput maliput_malidrive
 </pre></div>
 </div>
 <p>To build some packages and only those packages (i.e. without their dependencies),
 use <code class="docutils literal notranslate"><span class="pre">--packages-select</span></code>:</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>colcon build --packages-select maliput malidrive
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>colcon build --packages-select maliput maliput_malidrive
 </pre></div>
 </div>
 <p>Note that if dependencies cannot be met, regardless of whether it’s because they are not installed or not built,
@@ -502,10 +482,10 @@ colcon build --packages-up-to dsim_docs_bundler
 <div class="section" id="delete-your-workspace">
 <span id="id24"></span><h4><a class="toc-backref" href="#id65">Delete your workspace</a><a class="headerlink" href="#delete-your-workspace" title="Permalink to this headline">¶</a></h4>
 <p>Containerized workspace could be deleted simply deleting the docker image:</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>docker rmi maliput_ws_ubuntu
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>docker rmi maliput_ws_ubuntu_bionic
 </pre></div>
 </div>
-<p>Consider replacing <code class="docutils literal notranslate"><span class="pre">maliput_ws_ubuntu</span></code> by your image name when using a custom one.</p>
+<p>Consider replacing <code class="docutils literal notranslate"><span class="pre">maliput_ws_ubuntu_bionic</span></code> by your image name when using a custom one.</p>
 </div>
 </div>
 </div>
@@ -593,9 +573,17 @@ sudo rosdep init
 </div>
 <div class="section" id="install-all-underlay-packages-dependencies">
 <span id="install-underlay-dependencies"></span><h4><a class="toc-backref" href="#id72">Install all underlay packages’ dependencies</a><a class="headerlink" href="#install-all-underlay-packages-dependencies" title="Permalink to this headline">¶</a></h4>
+<p><strong>For dashing</strong></p>
+<p>Note that this is only required in old (previous to 2021-08-09) tarballs.</p>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">ROS_DISTRO</span><span class="o">=</span>dashing
-rosdep update
+rosdep update --include-eol-distros
 rosdep install -i -y --rosdistro <span class="nv">$ROS_DISTRO</span> --skip-keys <span class="s2">&quot;ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui3 ignition-rendering3 pybind11&quot;</span> --from-paths /opt/dsim-desktop/*
+</pre></div>
+</div>
+<p><strong>For foxy</strong></p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">ROS_DISTRO</span><span class="o">=</span>foxy
+rosdep update
+rosdep install -i -y --rosdistro <span class="nv">$ROS_DISTRO</span> --skip-keys <span class="s2">&quot;pybind11&quot;</span> --from-paths /opt/dsim-desktop/*
 </pre></div>
 </div>
 </div>
@@ -608,6 +596,8 @@ rosdep install -i -y --rosdistro <span class="nv">$ROS_DISTRO</span> --skip-keys
 </div>
 <div class="section" id="install-ignition-binaries">
 <span id="install-underlay-ignition"></span><h4><a class="toc-backref" href="#id74">Install ignition binaries</a><a class="headerlink" href="#install-ignition-binaries" title="Permalink to this headline">¶</a></h4>
+<p><strong>For dashing only</strong></p>
+<p>Note that this is only required in old (previous to 2021-08-09) tarballs.</p>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span> <span class="s2">&quot;deb http://packages.osrfoundation.org/gazebo/ubuntu-stable </span><span class="k">$(</span>lsb_release -cs<span class="k">)</span><span class="s2"> main&quot;</span> <span class="p">|</span> <span class="se">\</span>
      sudo tee --append /etc/apt/sources.list.d/gazebo-stable.list
 sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys D2486D2DD83DB69272AFE98867170598AF249743

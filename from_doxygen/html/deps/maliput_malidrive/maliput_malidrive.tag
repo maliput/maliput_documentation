@@ -1090,6 +1090,13 @@
       <type>template std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>Load&lt; builder::RoadNetworkBuilder &gt;</name>
       <anchorfile>namespacemalidrive_1_1loader.html</anchorfile>
+      <anchor>a4d3b85c1e732410dab0fbd81d36acf78</anchor>
+      <arglist>(const std::map&lt; std::string, std::string &gt; &amp;road_network_configuration)</arglist>
+    </member>
+    <member kind="function">
+      <type>template std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <name>Load&lt; builder::RoadNetworkBuilder &gt;</name>
+      <anchorfile>namespacemalidrive_1_1loader.html</anchorfile>
       <anchor>a989c750c02da73a396ab978a7b12a84e</anchor>
       <arglist>(const builder::RoadNetworkConfiguration &amp;road_network_configuration)</arglist>
     </member>
@@ -1098,11 +1105,16 @@
     <name>loader.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/loader/</path>
     <filename>loader_8h.html</filename>
-    <includes id="inertial__to__lane__mapping__config_8h" name="inertial_to_lane_mapping_config.h" local="yes" imported="no">maliput_malidrive/base/inertial_to_lane_mapping_config.h</includes>
-    <includes id="road__geometry__configuration_8h" name="road_geometry_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_configuration.h</includes>
     <includes id="road__network__configuration_8h" name="road_network_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_network_configuration.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::loader</namespace>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <name>Load</name>
+      <anchorfile>namespacemalidrive_1_1loader.html</anchorfile>
+      <anchor>a6f1efaf237fa657a701642e68a286b67</anchor>
+      <arglist>(const std::map&lt; std::string, std::string &gt; &amp;road_network_configuration)</arglist>
+    </member>
     <member kind="function">
       <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>Load</name>
@@ -1577,7 +1589,6 @@
     <filename>road__geometry__builder__base_8h.html</filename>
     <includes id="inertial__to__lane__mapping__config_8h" name="inertial_to_lane_mapping_config.h" local="yes" imported="no">maliput_malidrive/base/inertial_to_lane_mapping_config.h</includes>
     <includes id="id__providers_8h" name="id_providers.h" local="yes" imported="no">maliput_malidrive/builder/id_providers.h</includes>
-    <includes id="road__geometry__configuration_8h" name="road_geometry_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_configuration.h</includes>
     <class kind="class">malidrive::builder::RoadGeometryBuilderBase</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
@@ -1718,7 +1729,6 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/plugin/</path>
     <filename>road__network_8cc.html</filename>
     <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_malidrive/builder/road_network_builder.h</includes>
-    <includes id="constants_8h" name="constants.h" local="yes" imported="no">maliput_malidrive/constants.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::plugin</namespace>
     <member kind="function">
@@ -1740,6 +1750,7 @@
     <includes id="range__value__rule__state__provider__builder_8h" name="range_value_rule_state_provider_builder.h" local="yes" imported="no">maliput_malidrive/builder/range_value_rule_state_provider_builder.h</includes>
     <includes id="road__curve__factory_8h" name="road_curve_factory.h" local="yes" imported="no">maliput_malidrive/builder/road_curve_factory.h</includes>
     <includes id="road__geometry__builder_8h" name="road_geometry_builder.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_builder.h</includes>
+    <includes id="road__network__configuration_8h" name="road_network_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_network_configuration.h</includes>
     <includes id="road__rulebook__builder_8h" name="road_rulebook_builder.h" local="yes" imported="no">maliput_malidrive/builder/road_rulebook_builder.h</includes>
     <includes id="rule__registry__builder_8h" name="rule_registry_builder.h" local="yes" imported="no">maliput_malidrive/builder/rule_registry_builder.h</includes>
     <includes id="speed__limit__builder_8h" name="speed_limit_builder.h" local="yes" imported="no">maliput_malidrive/builder/speed_limit_builder.h</includes>
@@ -1756,7 +1767,6 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/builder/</path>
     <filename>road__network__builder_8h.html</filename>
     <includes id="road__network__builder__base_8h" name="road_network_builder_base.h" local="yes" imported="no">maliput_malidrive/builder/road_network_builder_base.h</includes>
-    <includes id="road__network__configuration_8h" name="road_network_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_network_configuration.h</includes>
     <class kind="class">malidrive::builder::RoadNetworkBuilder</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
@@ -1768,6 +1778,14 @@
     <includes id="road__network__configuration_8h" name="road_network_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_network_configuration.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <class kind="class">malidrive::builder::RoadNetworkBuilderBase</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::builder</namespace>
+  </compound>
+  <compound kind="file">
+    <name>road_network_configuration.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
+    <filename>road__network__configuration_8cc.html</filename>
+    <includes id="road__network__configuration_8h" name="road_network_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_network_configuration.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
   </compound>
@@ -2413,6 +2431,13 @@
       <anchorfile>structmalidrive_1_1builder_1_1_build_policy.html</anchorfile>
       <anchor>adbba415c14b00a65bb5ecb69b7f3ff1c</anchor>
       <arglist>(const std::string &amp;type)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static std::string</type>
+      <name>FromTypeToStr</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_build_policy.html</anchorfile>
+      <anchor>ae4fa9f1adebda2501da8b6be686fc71a</anchor>
+      <arglist>(const BuildPolicy::Type &amp;type)</arglist>
     </member>
     <member kind="variable">
       <type>Type</type>
@@ -5548,8 +5573,8 @@
       <type></type>
       <name>RoadGeometryBuilderBase</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>a3a6c957db15df4f5c6a22a7f94bafefe</anchor>
-      <arglist>()=delete</arglist>
+      <anchor>a99a3ba7a912bec679e7d753679aa2e63</anchor>
+      <arglist>()=default</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual</type>
@@ -5557,13 +5582,6 @@
       <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
       <anchor>aa43d356d9abb666103dada7d022da1b6</anchor>
       <arglist>()=default</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>RoadGeometryBuilderBase</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>a7118524115de786fd7e55d4a39e14735</anchor>
-      <arglist>(const RoadGeometryConfiguration &amp;road_geometry_configuration)</arglist>
     </member>
     <member kind="function" virtualness="pure">
       <type>virtual std::unique_ptr&lt; const maliput::api::RoadGeometry &gt;</type>
@@ -5615,55 +5633,6 @@
       <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
       <anchor>a244d34633710103c347ae96b63adfc83</anchor>
       <arglist>(const maliput::api::LaneEnd &amp;lane_end, const std::vector&lt; std::unique_ptr&lt; maliput::geometry_base::BranchPoint &gt;&gt; &amp;bps)</arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>const InertialToLaneMappingConfig</type>
-      <name>inertial_to_lane_mapping_config_</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>a9d6a7085fdb5e3e93c47ec40eb616e3d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>const maliput::api::RoadGeometryId</type>
-      <name>id_</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>a968219bf34a7b44b899adfe607ab88d0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>const BuildPolicy</type>
-      <name>build_policy_</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>aba16c85720d1bf45184d378c02788d3f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>double</type>
-      <name>linear_tolerance_</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>a529019abea607cdc9fa4bffda414b6d9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>double</type>
-      <name>angular_tolerance_</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>a45fee6aaa65cd0a74dd3ff7af1242f9e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>double</type>
-      <name>scale_length_</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>af12c680d044c5b49236fbd48b7336e9e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>maliput::math::Vector3</type>
-      <name>inertial_to_backend_frame_translation_</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>ac7f3de65133f07d3435fada87b119f51</anchor>
-      <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
       <type>UniqueIntegerProvider</type>
@@ -5719,6 +5688,13 @@
       <enumvalue file="structmalidrive_1_1builder_1_1_road_geometry_configuration.html" anchor="a4cd4abfdf390ce8a62882d75d96cc830a0607c802a36b5a6bfc9d95ef06d8117e">kManualSelection</enumvalue>
       <enumvalue file="structmalidrive_1_1builder_1_1_road_geometry_configuration.html" anchor="a4cd4abfdf390ce8a62882d75d96cc830a9f96d3d0e722e1e1d3cbce90423dcce1">kAutomaticSelection</enumvalue>
     </member>
+    <member kind="function">
+      <type>std::map&lt; std::string, std::string &gt;</type>
+      <name>ToStringMap</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>ad9d7e276b16ed7a92b69859f2a00eacb</anchor>
+      <arglist>() const</arglist>
+    </member>
     <member kind="function" static="yes">
       <type>static SimplificationPolicy</type>
       <name>FromStrToSimplificationPolicy</name>
@@ -5727,11 +5703,25 @@
       <arglist>(const std::string &amp;policy)</arglist>
     </member>
     <member kind="function" static="yes">
+      <type>static std::string</type>
+      <name>FromSimplificationPolicyToStr</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a4a5e2f4173e44787a109e907651bcdc0</anchor>
+      <arglist>(const SimplificationPolicy &amp;policy)</arglist>
+    </member>
+    <member kind="function" static="yes">
       <type>static ToleranceSelectionPolicy</type>
       <name>FromStrToToleranceSelectionPolicy</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
       <anchor>add93230cc49a65816218575325402ddd</anchor>
       <arglist>(const std::string &amp;policy)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static std::string</type>
+      <name>FromToleranceSelectionPolicyToStr</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a9c31666f2595d87bedd34a74aef82190</anchor>
+      <arglist>(const ToleranceSelectionPolicy &amp;policy)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static StandardStrictnessPolicy</type>
@@ -5746,6 +5736,265 @@
       <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
       <anchor>a8b47aaf846f6dbabf0776c2f2d8ee192</anchor>
       <arglist>(const StandardStrictnessPolicy &amp;policy)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static RoadGeometryConfiguration</type>
+      <name>FromMap</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>ad0262c870f54adbf49b9bc9cb74b4157</anchor>
+      <arglist>(const std::map&lt; std::string, std::string &gt; &amp;road_geometry_configuration)</arglist>
+    </member>
+    <member kind="variable">
+      <type>maliput::api::RoadGeometryId</type>
+      <name>id</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>aa391bb03a060289d92caf7548968b0b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>opendrive_file</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a567f483f2f1c561049751203f6329fe5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>linear_tolerance</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a6a6b7ad51a19a2fcf7e454c1d7892300</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>angular_tolerance</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a81d132d0efbdf9cb0535607abd868c07</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>scale_length</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a0568514282864f36cccdacdbd14d57eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>maliput::math::Vector3</type>
+      <name>inertial_to_backend_frame_translation</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a4e2d2a2119b6d3bff5f1ed7d08c4336e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>InertialToLaneMappingConfig</type>
+      <name>inertial_to_lane_mapping_config</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a37374c2b075909a4a63283a39494c148</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>BuildPolicy</type>
+      <name>build_policy</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>ae26c7c82c903835e10255b866fff75d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>SimplificationPolicy</type>
+      <name>simplification_policy</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>acba8be98c96a7e48fb1264efaaed94f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>ToleranceSelectionPolicy</type>
+      <name>tolerance_selection_policy</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>aa4a7f3aced306310c74060455dfe280f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>StandardStrictnessPolicy</type>
+      <name>standard_strictness_policy</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a96d8bcd54119d900cf2e64a3ada179e8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>bool</type>
+      <name>omit_nondrivable_lanes</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>ac41166953e338be315ced745272492d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrRoadGeometryId</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>aaf7b46ec855857705618947c35b6bea6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrOpendriveFile</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a21b04f303060469615b42103a99ae024</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrLinearTolerance</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a9ffef6812c1638a02c16dd705c0b7806</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrAngularTolerance</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a9c6f08ac06582ebaebf5c7cd475a668e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrScaleLength</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a16932f2209aeb75808eacc7df9c8ea7c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrInertialToBackendFrameTranslation</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a8e79a3b97e907ccf1af46660f52a4397</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrBuildPolicy</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>ab0166332845f3d80e0c508af03bc2c23</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrNumThreads</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>af06af2e1f694807b31dfdfd94660461e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrSimplificationPolicy</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a9b42cedce874b3c9da3bed19eba3dd67</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrToleranceSelectionPolicy</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a8109ba4cbb53db6aa90a51bd3cd36b4b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrStandardStrictnessPolicy</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a02ca0c6e4c764a058fcfdeed8509d7ef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrOmitNonDrivableLanes</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>aa60936132c2c5491916d46348cac12dd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrRoadGeometryId</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>aaf7b46ec855857705618947c35b6bea6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrOpendriveFile</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a21b04f303060469615b42103a99ae024</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrLinearTolerance</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a9ffef6812c1638a02c16dd705c0b7806</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrAngularTolerance</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a9c6f08ac06582ebaebf5c7cd475a668e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrScaleLength</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a16932f2209aeb75808eacc7df9c8ea7c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrInertialToBackendFrameTranslation</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a8e79a3b97e907ccf1af46660f52a4397</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrBuildPolicy</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>ab0166332845f3d80e0c508af03bc2c23</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrNumThreads</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>af06af2e1f694807b31dfdfd94660461e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrSimplificationPolicy</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a9b42cedce874b3c9da3bed19eba3dd67</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrToleranceSelectionPolicy</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a8109ba4cbb53db6aa90a51bd3cd36b4b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrStandardStrictnessPolicy</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a02ca0c6e4c764a058fcfdeed8509d7ef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrOmitNonDrivableLanes</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>aa60936132c2c5491916d46348cac12dd</anchor>
+      <arglist></arglist>
     </member>
     <member kind="variable">
       <type>maliput::api::RoadGeometryId</type>
@@ -6193,6 +6442,13 @@
       <type></type>
       <name>RoadNetworkBuilder</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_network_builder.html</anchorfile>
+      <anchor>acb4c9e05c2d7ebb02c55de82a97300ff</anchor>
+      <arglist>(const std::map&lt; std::string, std::string &gt; &amp;road_network_configuration)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>RoadNetworkBuilder</name>
+      <anchorfile>classmalidrive_1_1builder_1_1_road_network_builder.html</anchorfile>
       <anchor>a67a734517f4561bc414c8aa424f53cee</anchor>
       <arglist>(const RoadNetworkConfiguration &amp;road_network_configuration)</arglist>
     </member>
@@ -6225,6 +6481,13 @@
       <type></type>
       <name>RoadNetworkBuilderBase</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_network_builder_base.html</anchorfile>
+      <anchor>a484a534f25fafd0e858b63e5552d6094</anchor>
+      <arglist>(const std::map&lt; std::string, std::string &gt; &amp;road_network_configuration)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>RoadNetworkBuilderBase</name>
+      <anchorfile>classmalidrive_1_1builder_1_1_road_network_builder_base.html</anchorfile>
       <anchor>a5ff06895265cd92ee33a1c6b496bde3a</anchor>
       <arglist>(const RoadNetworkConfiguration &amp;road_network_configuration)</arglist>
     </member>
@@ -6236,16 +6499,30 @@
       <arglist>() const =0</arglist>
     </member>
     <member kind="variable" protection="protected">
-      <type>const RoadNetworkConfiguration</type>
+      <type>const std::map&lt; std::string, std::string &gt;</type>
       <name>road_network_configuration_</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_network_builder_base.html</anchorfile>
-      <anchor>aad3bc82c4198c5c6905a442c73a740ce</anchor>
+      <anchor>a7a3104ba4db6ef314dd06eb9c4ea4416</anchor>
       <arglist></arglist>
     </member>
   </compound>
   <compound kind="struct">
     <name>malidrive::builder::RoadNetworkConfiguration</name>
     <filename>structmalidrive_1_1builder_1_1_road_network_configuration.html</filename>
+    <member kind="function">
+      <type>std::map&lt; std::string, std::string &gt;</type>
+      <name>ToStringMap</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
+      <anchor>ad9d7e276b16ed7a92b69859f2a00eacb</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static RoadNetworkConfiguration</type>
+      <name>FromMap</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
+      <anchor>a2c8af5b057c48d2662e560053800dbd0</anchor>
+      <arglist>(const std::map&lt; std::string, std::string &gt; &amp;road_network_configuration)</arglist>
+    </member>
     <member kind="variable">
       <type>const RoadGeometryConfiguration</type>
       <name>road_geometry_configuration</name>
@@ -6279,6 +6556,62 @@
       <name>intersection_book</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
       <anchor>a8d9c027b5448b0ee9060b1012fc8716a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrRoadRuleBook</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
+      <anchor>a4bbfa3fa2cf9d1d6fa4bbeb3ea49b2eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrTrafficLightBook</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
+      <anchor>a2722e2ee3c7a994eb5624d2512e6ffee</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrPhaseRingBook</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
+      <anchor>a77bd8a4371ed2702aec2868d7c1141d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrIntersectionBook</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
+      <anchor>aff25887b7a74d24295d576e7d78f913f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrRoadRuleBook</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
+      <anchor>a4bbfa3fa2cf9d1d6fa4bbeb3ea49b2eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrTrafficLightBook</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
+      <anchor>a2722e2ee3c7a994eb5624d2512e6ffee</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrPhaseRingBook</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
+      <anchor>a77bd8a4371ed2702aec2868d7c1141d6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStrIntersectionBook</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
+      <anchor>aff25887b7a74d24295d576e7d78f913f</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -6501,6 +6834,66 @@
     </member>
   </compound>
   <compound kind="struct">
+    <name>malidrive::xodr::RoadType::Speed</name>
+    <filename>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a5f45d342c063e4fbbbaa8fd2308cad8a</anchor>
+      <arglist>(const Speed &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a7732bb1227795b68ace924cf693cddd1</anchor>
+      <arglist>(const Speed &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>max</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>ab3a77d4ba4dbb0a69e77b738206e0ebe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Unit</type>
+      <name>unit</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>aaa0d61fcdf7a0b9f0f2b48c9946cbd10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kSpeedTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a06113c1eac1bbfe32139f18dd62a8d98</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kMax</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>ad5a44ed171cd965aa34aa3dda5711d83</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kUnit</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr std::array&lt; const char *, 2 &gt;</type>
+      <name>kUnlimitedSpeedStrings</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a2be0454dbef3ba795b56eb3fa40d36ed</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
     <name>malidrive::xodr::Lane::Speed</name>
     <filename>structmalidrive_1_1xodr_1_1_lane_1_1_speed.html</filename>
     <member kind="function">
@@ -6564,66 +6957,6 @@
       <name>kUnit</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_lane_1_1_speed.html</anchorfile>
       <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>malidrive::xodr::RoadType::Speed</name>
-    <filename>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</filename>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a5f45d342c063e4fbbbaa8fd2308cad8a</anchor>
-      <arglist>(const Speed &amp;other) const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator!=</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a7732bb1227795b68ace924cf693cddd1</anchor>
-      <arglist>(const Speed &amp;other) const</arglist>
-    </member>
-    <member kind="variable">
-      <type>std::optional&lt; double &gt;</type>
-      <name>max</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>ab3a77d4ba4dbb0a69e77b738206e0ebe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>Unit</type>
-      <name>unit</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>aaa0d61fcdf7a0b9f0f2b48c9946cbd10</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kSpeedTag</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a06113c1eac1bbfe32139f18dd62a8d98</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kMax</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>ad5a44ed171cd965aa34aa3dda5711d83</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kUnit</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr std::array&lt; const char *, 2 &gt;</type>
-      <name>kUnlimitedSpeedStrings</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a2be0454dbef3ba795b56eb3fa40d36ed</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -7362,8 +7695,22 @@
       <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>Load</name>
       <anchorfile>namespacemalidrive_1_1loader.html</anchorfile>
+      <anchor>a6f1efaf237fa657a701642e68a286b67</anchor>
+      <arglist>(const std::map&lt; std::string, std::string &gt; &amp;road_network_configuration)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <name>Load</name>
+      <anchorfile>namespacemalidrive_1_1loader.html</anchorfile>
       <anchor>a61c62db53dca00fdf962949236e94cc2</anchor>
       <arglist>(const builder::RoadNetworkConfiguration &amp;road_network_configuration)</arglist>
+    </member>
+    <member kind="function">
+      <type>template std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <name>Load&lt; builder::RoadNetworkBuilder &gt;</name>
+      <anchorfile>namespacemalidrive_1_1loader.html</anchorfile>
+      <anchor>a4d3b85c1e732410dab0fbd81d36acf78</anchor>
+      <arglist>(const std::map&lt; std::string, std::string &gt; &amp;road_network_configuration)</arglist>
     </member>
     <member kind="function">
       <type>template std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>

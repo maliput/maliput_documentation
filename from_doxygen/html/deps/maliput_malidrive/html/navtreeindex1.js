@@ -1,11 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"classmalidrive_1_1road__curve_1_1_road_curve_offset.html#a91d6d86ed0abb8f64e9a0ecd0e054810":[2,0,0,2,11,3],
-"classmalidrive_1_1road__curve_1_1_road_curve_offset.html#aaa9ee6af97a9296ca76d7eded884cefd":[2,0,0,2,11,1],
-"classmalidrive_1_1road__curve_1_1_road_curve_offset.html#ae13fbe02a75b76c3b0da7509816fe9db":[2,0,0,2,11,0],
-"classmalidrive_1_1road__curve_1_1_road_curve_offset.html#ae3512802803efc52ee9fc9c607c8fa1f":[2,0,0,2,11,8],
-"classmalidrive_1_1road__curve_1_1_road_curve_offset.html#ae8d8587504f88de5d38dc8117f91bc3c":[2,0,0,2,11,6],
-"classmalidrive_1_1road__curve_1_1_road_curve_offset.html#aedf2569bab191f713c6134ddd954df74":[2,0,0,2,11,7],
 "classmalidrive_1_1road__curve_1_1_scaled_domain_function.html":[2,0,0,2,12],
 "classmalidrive_1_1road__curve_1_1_scaled_domain_function.html#a01d2fa1f1519eddb784074faca6b3796":[2,0,0,2,12,1],
 "classmalidrive_1_1road__curve_1_1_scaled_domain_function.html#ad9703a3a344f433f563312275b6961e0":[2,0,0,2,12,0],
@@ -223,9 +217,11 @@ var NAVTREEINDEX1 =
 "line__ground__curve_8cc.html":[3,0,51],
 "line__ground__curve_8h.html":[3,0,52],
 "loader_8cc.html":[3,0,53],
+"loader_8cc.html#a4d3b85c1e732410dab0fbd81d36acf78":[3,0,53,1],
 "loader_8cc.html#a989c750c02da73a396ab978a7b12a84e":[3,0,53,0],
 "loader_8h.html":[3,0,54],
 "loader_8h.html#a61c62db53dca00fdf962949236e94cc2":[3,0,54,0],
+"loader_8h.html#a6f1efaf237fa657a701642e68a286b67":[3,0,54,1],
 "log__level__flag_8h.html":[3,0,55],
 "log__level__flag_8h.html#aa69c9c514db45b75ea1051546447c503":[3,0,55,0],
 "macros_8h.html":[3,0,56],
@@ -249,5 +245,9 @@ var NAVTREEINDEX1 =
 "malidrive_road_curve_design.html#math_reformulation":[0,1],
 "malidrive_road_curve_design.html#motion_derivatives":[0,1,1],
 "malidrive_road_curve_design.html#orientation":[0,0,2],
-"malidrive_road_curve_design.html#orientation_at_any_point":[0,0,2,1]
+"malidrive_road_curve_design.html#orientation_at_any_point":[0,0,2,1],
+"malidrive_road_curve_design.html#orientation_at_the_centerline":[0,0,2,0],
+"malidrive_road_curve_design.html#questions":[0,2],
+"malidrive_road_curve_design.html#road_curve_concepts":[0,0],
+"malidrive_road_curve_design.html#roll_pitch_yaw_orthogonality":[0,2,1]
 };

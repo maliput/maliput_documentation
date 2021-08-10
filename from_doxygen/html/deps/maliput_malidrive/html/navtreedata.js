@@ -80,10 +80,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classmalidrive_1_1road__curve_1_1_road_curve_offset.html#a91d6d86ed0abb8f64e9a0ecd0e054810",
-"malidrive_road_curve_design.html#orientation_at_the_centerline",
-"structmalidrive_1_1xodr_1_1_elevation_profile_1_1_elevation.html#a3e4a64d55a7d9b6fb03350cbe84b0a80",
-"structmalidrive_1_1xodr_1_1_road_header.html#ad8056bea378fa59f1d6927c9e8a948ec"
+"classmalidrive_1_1road__curve_1_1_scaled_domain_function.html",
+"malidrive_road_curve_design.html#tangent_vector_road_surface",
+"structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify.html#aa9cf7d0afedceb0d21dd5f412fe08c18",
+"structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
