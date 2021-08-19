@@ -1,6 +1,6 @@
 var classmalidrive_1_1road__curve_1_1_road_curve =
 [
-    [ "RoadCurve", "classmalidrive_1_1road__curve_1_1_road_curve.html#a15254a0acac8018badc1b9cf62ff3b64", null ],
+    [ "RoadCurve", "classmalidrive_1_1road__curve_1_1_road_curve.html#aa774db2a3d5677e6273d4ef276ce71ab", null ],
     [ "~RoadCurve", "classmalidrive_1_1road__curve_1_1_road_curve.html#a40cf4ff353807f1f5ca7fdc734b362c2", null ],
     [ "HHat", "classmalidrive_1_1road__curve_1_1_road_curve.html#a0a83dc6e12773b03330d79e324bf064b", null ],
     [ "linear_tolerance", "classmalidrive_1_1road__curve_1_1_road_curve.html#a96017eb2ac92f272cfa348b8d55f6190", null ],

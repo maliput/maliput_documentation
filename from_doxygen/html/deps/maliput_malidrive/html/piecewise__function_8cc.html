@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('piecewise__function_8cc.html',''); ini
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="piecewise__function_8h.html">maliput_malidrive/road_curve/piecewise_function.h</a>&quot;</code><br />
 <code>#include &lt;cmath&gt;</code><br />
+<code>#include &lt;<a class="elRef" href="../../maliput/html/logger_8h.html">maliput/common/logger.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="open__range__validator_8h.html">maliput_malidrive/road_curve/open_range_validator.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for piecewise_function.cc:</div>
@@ -112,14 +113,28 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a97eab6d709b80585fe9e8a54b1e3da27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97eab6d709b80585fe9e8a54b1e3da27">&#9670;&nbsp;</a></span>tolerance</h2>
+<a id="ac84de999d0dfb40d60268737c0d5fa42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac84de999d0dfb40d60268737c0d5fa42">&#9670;&nbsp;</a></span>continuity_check</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double tolerance {}</td>
+          <td class="memname">const PiecewiseFunction::ContinuityCheck continuity_check {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a628d801d093e5d9b41ecaa82592ee92d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a628d801d093e5d9b41ecaa82592ee92d">&#9670;&nbsp;</a></span>tolerance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const double tolerance {}</td>
         </tr>
       </table>
 </div><div class="memdoc">

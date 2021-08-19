@@ -219,6 +219,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a14bd50eefd7d268587de3d7d36b02cb7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#a14bd50eefd7d268587de3d7d36b02cb7">is_driveable_lane</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1_lane.html">xodr::Lane</a> &amp;xodr_lane)</td></tr>
 <tr class="memdesc:a14bd50eefd7d268587de3d7d36b02cb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether or not an <code>xodr_lane</code> is driveable by any vehicle.  <a href="namespacemalidrive_1_1builder.html#a14bd50eefd7d268587de3d7d36b02cb7">More...</a><br /></td></tr>
 <tr class="separator:a14bd50eefd7d268587de3d7d36b02cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaec81bc2cb08e554776479cc0254cc58"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#aaec81bc2cb08e554776479cc0254cc58">AreOnlyNonDrivableLanes</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html">xodr::RoadHeader</a> &amp;xodr_road)</td></tr>
+<tr class="memdesc:aaec81bc2cb08e554776479cc0254cc58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether or not an <code>xodr_road</code> contains only non-drivable lanes.  <a href="namespacemalidrive_1_1builder.html#aaec81bc2cb08e554776479cc0254cc58">More...</a><br /></td></tr>
+<tr class="separator:aaec81bc2cb08e554776479cc0254cc58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73d94b99b61dfed9471f0dc9fbb85c3b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#a73d94b99b61dfed9471f0dc9fbb85c3b">VehicleUsageValueForXodrLane</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1_lane.html">xodr::Lane</a> &amp;xodr_lane)</td></tr>
 <tr class="memdesc:a73d94b99b61dfed9471f0dc9fbb85c3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the vehicle usage rule state value for <code>xodr_lane</code> based on its XODR <a class="el" href="classmalidrive_1_1_lane.html" title="Describes a Lane whose centerline is a offset of a road_curve::RoadCurve at a certain lane offset whi...">Lane</a> type.  <a href="namespacemalidrive_1_1builder.html#a73d94b99b61dfed9471f0dc9fbb85c3b">More...</a><br /></td></tr>
 <tr class="separator:a73d94b99b61dfed9471f0dc9fbb85c3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -293,6 +296,33 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="aaec81bc2cb08e554776479cc0254cc58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaec81bc2cb08e554776479cc0254cc58">&#9670;&nbsp;</a></span>AreOnlyNonDrivableLanes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AreOnlyNonDrivableLanes </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html">xodr::RoadHeader</a> &amp;&#160;</td>
+          <td class="paramname"><em>xodr_road</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Determines whether or not an <code>xodr_road</code> contains only non-drivable lanes. </p>
+<p><a class="el" href="namespacemalidrive_1_1builder.html#a14bd50eefd7d268587de3d7d36b02cb7" title="Determines whether or not an xodr_lane is driveable by any vehicle.">is_driveable_lane</a> method is used to determine the driveability of the lanes in the road. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xodr_road</td><td>An Xodr RoadHeader whose lanes will be evaluated as drivable or non-drivable.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True when <code>xodr_road</code> only contains non-drivable lanes. </dd></dl>
+
+</div>
+</div>
 <a id="ab338b16e7f417d9a360ceafdf069322a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab338b16e7f417d9a360ceafdf069322a">&#9670;&nbsp;</a></span>DetermineRoadGeometryAngularTolerance()</h2>
 
@@ -1025,10 +1055,10 @@ Variables</h2></td></tr>
 <li>kRail</li>
 <li>kMedian</li>
 </ul>
-<dl class="section return"><dt>Returns</dt><dd>True when <code>xodr_lane</code> is not the TRACK-lane and it is driveable.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>True when <code>xodr_lane</code> is not the TRACK-lane and it is drivable.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xodr_lane</td><td>An XODR <a class="el" href="classmalidrive_1_1_lane.html" title="Describes a Lane whose centerline is a offset of a road_curve::RoadCurve at a certain lane offset whi...">Lane</a>. It must not be nullptr. </td></tr>
+    <tr><td class="paramname">xodr_lane</td><td>An Xodr <a class="el" href="classmalidrive_1_1_lane.html" title="Describes a Lane whose centerline is a offset of a road_curve::RoadCurve at a certain lane offset whi...">Lane</a> that will be evaluated as drivable or non-drivable </td></tr>
   </table>
   </dd>
 </dl>

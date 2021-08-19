@@ -68,6 +68,13 @@
       <arglist>(const xodr::Lane &amp;xodr_lane)</arglist>
     </member>
     <member kind="function">
+      <type>bool</type>
+      <name>AreOnlyNonDrivableLanes</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>aaec81bc2cb08e554776479cc0254cc58</anchor>
+      <arglist>(const xodr::RoadHeader &amp;xodr_road)</arglist>
+    </member>
+    <member kind="function">
       <type>std::string</type>
       <name>VehicleUsageValueForXodrLane</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
@@ -216,6 +223,13 @@
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
       <anchor>a14bd50eefd7d268587de3d7d36b02cb7</anchor>
       <arglist>(const xodr::Lane &amp;xodr_lane)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>AreOnlyNonDrivableLanes</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>aaec81bc2cb08e554776479cc0254cc58</anchor>
+      <arglist>(const xodr::RoadHeader &amp;xodr_road)</arglist>
     </member>
     <member kind="function">
       <type>std::string</type>
@@ -1316,10 +1330,17 @@
     <namespace>malidrive</namespace>
     <namespace>malidrive::road_curve</namespace>
     <member kind="variable">
-      <type>double</type>
+      <type>const double</type>
       <name>tolerance</name>
       <anchorfile>piecewise__function_8cc.html</anchorfile>
-      <anchor>a97eab6d709b80585fe9e8a54b1e3da27</anchor>
+      <anchor>a628d801d093e5d9b41ecaa82592ee92d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const PiecewiseFunction::ContinuityCheck</type>
+      <name>continuity_check</name>
+      <anchorfile>piecewise__function_8cc.html</anchorfile>
+      <anchor>ac84de999d0dfb40d60268737c0d5fa42</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -1481,7 +1502,6 @@
     <includes id="arc__ground__curve_8h" name="arc_ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/arc_ground_curve.h</includes>
     <includes id="cubic__polynomial_8h" name="cubic_polynomial.h" local="yes" imported="no">maliput_malidrive/road_curve/cubic_polynomial.h</includes>
     <includes id="line__ground__curve_8h" name="line_ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/line_ground_curve.h</includes>
-    <includes id="piecewise__function_8h" name="piecewise_function.h" local="yes" imported="no">maliput_malidrive/road_curve/piecewise_function.h</includes>
     <includes id="piecewise__ground__curve_8h" name="piecewise_ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/piecewise_ground_curve.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
@@ -1493,6 +1513,7 @@
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="function_8h" name="function.h" local="yes" imported="no">maliput_malidrive/road_curve/function.h</includes>
     <includes id="ground__curve_8h" name="ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/ground_curve.h</includes>
+    <includes id="piecewise__function_8h" name="piecewise_function.h" local="yes" imported="no">maliput_malidrive/road_curve/piecewise_function.h</includes>
     <includes id="road__curve_8h" name="road_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/road_curve.h</includes>
     <includes id="elevation__profile_8h" name="elevation_profile.h" local="yes" imported="no">maliput_malidrive/xodr/elevation_profile.h</includes>
     <includes id="geometry_8h" name="geometry.h" local="yes" imported="no">maliput_malidrive/xodr/geometry.h</includes>
@@ -4922,12 +4943,28 @@
     <name>malidrive::road_curve::PiecewiseFunction</name>
     <filename>classmalidrive_1_1road__curve_1_1_piecewise_function.html</filename>
     <base>malidrive::road_curve::Function</base>
+    <member kind="enumeration">
+      <type></type>
+      <name>ContinuityCheck</name>
+      <anchorfile>classmalidrive_1_1road__curve_1_1_piecewise_function.html</anchorfile>
+      <anchor>a2766fba78de6b1462e9dbbcbf3652054</anchor>
+      <arglist></arglist>
+      <enumvalue file="classmalidrive_1_1road__curve_1_1_piecewise_function.html" anchor="a2766fba78de6b1462e9dbbcbf3652054af7971cffe1eeab35748c8d08e50703ec">kLog</enumvalue>
+      <enumvalue file="classmalidrive_1_1road__curve_1_1_piecewise_function.html" anchor="a2766fba78de6b1462e9dbbcbf3652054a35130bbee286ecb2905a1eacbddb309d">kThrow</enumvalue>
+    </member>
     <member kind="function">
       <type></type>
       <name>PiecewiseFunction</name>
       <anchorfile>classmalidrive_1_1road__curve_1_1_piecewise_function.html</anchorfile>
-      <anchor>a779444d4a959d068a9c582864e47dde7</anchor>
-      <arglist>(std::vector&lt; std::unique_ptr&lt; Function &gt;&gt; functions, double tolerance, bool no_contiguity_check=false)</arglist>
+      <anchor>a525e9e592e04e277a98ecd58df3dd150</anchor>
+      <arglist>(std::vector&lt; std::unique_ptr&lt; Function &gt;&gt; functions, double tolerance, const ContinuityCheck &amp;continuity_check)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>PiecewiseFunction</name>
+      <anchorfile>classmalidrive_1_1road__curve_1_1_piecewise_function.html</anchorfile>
+      <anchor>a20e4a148733a41739a82fbfe8855e95a</anchor>
+      <arglist>(std::vector&lt; std::unique_ptr&lt; Function &gt;&gt; functions, double tolerance)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -5070,8 +5107,8 @@
       <type></type>
       <name>RoadCurve</name>
       <anchorfile>classmalidrive_1_1road__curve_1_1_road_curve.html</anchorfile>
-      <anchor>a15254a0acac8018badc1b9cf62ff3b64</anchor>
-      <arglist>(double linear_tolerance, double scale_length, std::unique_ptr&lt; GroundCurve &gt; ground_curve, std::unique_ptr&lt; Function &gt; elevation, std::unique_ptr&lt; Function &gt; superelevation)</arglist>
+      <anchor>aa774db2a3d5677e6273d4ef276ce71ab</anchor>
+      <arglist>(double linear_tolerance, double scale_length, std::unique_ptr&lt; GroundCurve &gt; ground_curve, std::unique_ptr&lt; Function &gt; elevation, std::unique_ptr&lt; Function &gt; superelevation, bool assert_contiguity)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -5257,22 +5294,22 @@
       <type>std::unique_ptr&lt; malidrive::road_curve::Function &gt;</type>
       <name>MakeElevation</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_curve_factory.html</anchorfile>
-      <anchor>a2f880e0dd0c159e3cee6d56d881b5480</anchor>
-      <arglist>(const xodr::ElevationProfile &amp;elevation_profile, double p0, double p1) const override</arglist>
+      <anchor>a252ef239ba701eb71243dd09c0cafaa2</anchor>
+      <arglist>(const xodr::ElevationProfile &amp;elevation_profile, double p0, double p1, bool assert_continuity) const override</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; malidrive::road_curve::Function &gt;</type>
       <name>MakeSuperelevation</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_curve_factory.html</anchorfile>
-      <anchor>adc4cfe7b6d8d20ed9d61036d724a71a2</anchor>
-      <arglist>(const xodr::LateralProfile &amp;lateral_profile, double p0, double p1) const override</arglist>
+      <anchor>a9708c208badbe52e798066f009d0185a</anchor>
+      <arglist>(const xodr::LateralProfile &amp;lateral_profile, double p0, double p1, bool assert_continuity) const override</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; malidrive::road_curve::Function &gt;</type>
       <name>MakeLaneWidth</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_curve_factory.html</anchorfile>
-      <anchor>a2b1bcc4d133664115d2855fbd07d143c</anchor>
-      <arglist>(const std::vector&lt; xodr::LaneWidth &gt; &amp;lane_widths, double p0, double p1) const override</arglist>
+      <anchor>a56e0f0d153afee6944030eacb6fe7741</anchor>
+      <arglist>(const std::vector&lt; xodr::LaneWidth &gt; &amp;lane_widths, double p0, double p1, bool assert_continuity) const override</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; malidrive::road_curve::Function &gt;</type>
@@ -5285,8 +5322,8 @@
       <type>std::unique_ptr&lt; road_curve::RoadCurve &gt;</type>
       <name>MakeMalidriveRoadCurve</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_curve_factory.html</anchorfile>
-      <anchor>a57017313726cc574bd3cb6e72e62a823</anchor>
-      <arglist>(std::unique_ptr&lt; road_curve::GroundCurve &gt; ground_curve, std::unique_ptr&lt; road_curve::Function &gt; elevation, std::unique_ptr&lt; road_curve::Function &gt; superelevation) const override</arglist>
+      <anchor>a72d60f0043c37ec50893588c5475b058</anchor>
+      <arglist>(std::unique_ptr&lt; road_curve::GroundCurve &gt; ground_curve, std::unique_ptr&lt; road_curve::Function &gt; elevation, std::unique_ptr&lt; road_curve::Function &gt; superelevation, bool assert_contiguity) const override</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -5352,22 +5389,22 @@
       <type>virtual std::unique_ptr&lt; malidrive::road_curve::Function &gt;</type>
       <name>MakeElevation</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_curve_factory_base.html</anchorfile>
-      <anchor>ab10172364a07e46e0bba9f487db6b96a</anchor>
-      <arglist>(const xodr::ElevationProfile &amp;elevation_profile, double p0, double p1) const =0</arglist>
+      <anchor>a6ae3c48274020fad7a389b9288a68113</anchor>
+      <arglist>(const xodr::ElevationProfile &amp;elevation_profile, double p0, double p1, bool assert_continuity) const =0</arglist>
     </member>
     <member kind="function" virtualness="pure">
       <type>virtual std::unique_ptr&lt; malidrive::road_curve::Function &gt;</type>
       <name>MakeSuperelevation</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_curve_factory_base.html</anchorfile>
-      <anchor>a692c53f35c57efaa6001d01a6387452f</anchor>
-      <arglist>(const xodr::LateralProfile &amp;lateral_profile, double p0, double p1) const =0</arglist>
+      <anchor>a85d5601deb9a95adee1261f5198abb20</anchor>
+      <arglist>(const xodr::LateralProfile &amp;lateral_profile, double p0, double p1, bool assert_continuity) const =0</arglist>
     </member>
     <member kind="function" virtualness="pure">
       <type>virtual std::unique_ptr&lt; malidrive::road_curve::Function &gt;</type>
       <name>MakeLaneWidth</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_curve_factory_base.html</anchorfile>
-      <anchor>abd0ae4eb0b5483bb6ebcdc9c06bac7e2</anchor>
-      <arglist>(const std::vector&lt; xodr::LaneWidth &gt; &amp;lane_widths, double p0, double p1) const =0</arglist>
+      <anchor>a73197b19a15bc3349a1c25e8f6e9c5c6</anchor>
+      <arglist>(const std::vector&lt; xodr::LaneWidth &gt; &amp;lane_widths, double p0, double p1, bool assert_continuity) const =0</arglist>
     </member>
     <member kind="function" virtualness="pure">
       <type>virtual std::unique_ptr&lt; malidrive::road_curve::Function &gt;</type>
@@ -5380,8 +5417,8 @@
       <type>virtual std::unique_ptr&lt; road_curve::RoadCurve &gt;</type>
       <name>MakeMalidriveRoadCurve</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_curve_factory_base.html</anchorfile>
-      <anchor>ae9b87f7a4b598c1fa4ee3be66f363c94</anchor>
-      <arglist>(std::unique_ptr&lt; road_curve::GroundCurve &gt; ground_curve, std::unique_ptr&lt; road_curve::Function &gt; elevation, std::unique_ptr&lt; road_curve::Function &gt; superelevation) const =0</arglist>
+      <anchor>a4bd114eb6578f056cf4bc788f68fd36f</anchor>
+      <arglist>(std::unique_ptr&lt; road_curve::GroundCurve &gt; ground_curve, std::unique_ptr&lt; road_curve::Function &gt; elevation, std::unique_ptr&lt; road_curve::Function &gt; superelevation, bool assert_contiguity) const =0</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual double</type>
@@ -7473,6 +7510,13 @@
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
       <anchor>a14bd50eefd7d268587de3d7d36b02cb7</anchor>
       <arglist>(const xodr::Lane &amp;xodr_lane)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>AreOnlyNonDrivableLanes</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>aaec81bc2cb08e554776479cc0254cc58</anchor>
+      <arglist>(const xodr::RoadHeader &amp;xodr_road)</arglist>
     </member>
     <member kind="function">
       <type>std::string</type>

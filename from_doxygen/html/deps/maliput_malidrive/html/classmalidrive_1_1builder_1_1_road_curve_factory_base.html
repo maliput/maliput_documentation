@@ -130,21 +130,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a513ba553ccdee5766a3e6816eb7b260b"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_ground_curve.html">road_curve::GroundCurve</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a513ba553ccdee5766a3e6816eb7b260b">MakePiecewiseGroundCurve</a> (const std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html">xodr::Geometry</a> &gt; &amp;geometries) const =0</td></tr>
 <tr class="memdesc:a513ba553ccdee5766a3e6816eb7b260b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a <a class="el" href="classmalidrive_1_1road__curve_1_1_piecewise_ground_curve.html" title="GroundCurve specification for a reference curve that is described as a piecewise ground curve.">road_curve::PiecewiseGroundCurve</a>.  <a href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a513ba553ccdee5766a3e6816eb7b260b">More...</a><br /></td></tr>
 <tr class="separator:a513ba553ccdee5766a3e6816eb7b260b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab10172364a07e46e0bba9f487db6b96a"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_function.html">malidrive::road_curve::Function</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#ab10172364a07e46e0bba9f487db6b96a">MakeElevation</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1_elevation_profile.html">xodr::ElevationProfile</a> &amp;elevation_profile, double p0, double p1) const =0</td></tr>
-<tr class="memdesc:ab10172364a07e46e0bba9f487db6b96a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a cubic polynomial that describes the elevation of a Road.  <a href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#ab10172364a07e46e0bba9f487db6b96a">More...</a><br /></td></tr>
-<tr class="separator:ab10172364a07e46e0bba9f487db6b96a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a692c53f35c57efaa6001d01a6387452f"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_function.html">malidrive::road_curve::Function</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a692c53f35c57efaa6001d01a6387452f">MakeSuperelevation</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1_lateral_profile.html">xodr::LateralProfile</a> &amp;lateral_profile, double p0, double p1) const =0</td></tr>
-<tr class="memdesc:a692c53f35c57efaa6001d01a6387452f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a cubic polynomial that describes the superelevation of a Road.  <a href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a692c53f35c57efaa6001d01a6387452f">More...</a><br /></td></tr>
-<tr class="separator:a692c53f35c57efaa6001d01a6387452f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd0ae4eb0b5483bb6ebcdc9c06bac7e2"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_function.html">malidrive::road_curve::Function</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#abd0ae4eb0b5483bb6ebcdc9c06bac7e2">MakeLaneWidth</a> (const std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_lane_width.html">xodr::LaneWidth</a> &gt; &amp;lane_widths, double p0, double p1) const =0</td></tr>
-<tr class="memdesc:abd0ae4eb0b5483bb6ebcdc9c06bac7e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a cubic polynomial that describes the width of a <a class="el" href="classmalidrive_1_1_lane.html" title="Describes a Lane whose centerline is a offset of a road_curve::RoadCurve at a certain lane offset whi...">Lane</a>.  <a href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#abd0ae4eb0b5483bb6ebcdc9c06bac7e2">More...</a><br /></td></tr>
-<tr class="separator:abd0ae4eb0b5483bb6ebcdc9c06bac7e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ae3c48274020fad7a389b9288a68113"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_function.html">malidrive::road_curve::Function</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a6ae3c48274020fad7a389b9288a68113">MakeElevation</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1_elevation_profile.html">xodr::ElevationProfile</a> &amp;elevation_profile, double p0, double p1, bool assert_continuity) const =0</td></tr>
+<tr class="memdesc:a6ae3c48274020fad7a389b9288a68113"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a cubic polynomial that describes the elevation of a Road.  <a href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a6ae3c48274020fad7a389b9288a68113">More...</a><br /></td></tr>
+<tr class="separator:a6ae3c48274020fad7a389b9288a68113"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85d5601deb9a95adee1261f5198abb20"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_function.html">malidrive::road_curve::Function</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a85d5601deb9a95adee1261f5198abb20">MakeSuperelevation</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1_lateral_profile.html">xodr::LateralProfile</a> &amp;lateral_profile, double p0, double p1, bool assert_continuity) const =0</td></tr>
+<tr class="memdesc:a85d5601deb9a95adee1261f5198abb20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a cubic polynomial that describes the superelevation of a Road.  <a href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a85d5601deb9a95adee1261f5198abb20">More...</a><br /></td></tr>
+<tr class="separator:a85d5601deb9a95adee1261f5198abb20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73197b19a15bc3349a1c25e8f6e9c5c6"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_function.html">malidrive::road_curve::Function</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a73197b19a15bc3349a1c25e8f6e9c5c6">MakeLaneWidth</a> (const std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_lane_width.html">xodr::LaneWidth</a> &gt; &amp;lane_widths, double p0, double p1, bool assert_continuity) const =0</td></tr>
+<tr class="memdesc:a73197b19a15bc3349a1c25e8f6e9c5c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a cubic polynomial that describes the width of a <a class="el" href="classmalidrive_1_1_lane.html" title="Describes a Lane whose centerline is a offset of a road_curve::RoadCurve at a certain lane offset whi...">Lane</a>.  <a href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a73197b19a15bc3349a1c25e8f6e9c5c6">More...</a><br /></td></tr>
+<tr class="separator:a73197b19a15bc3349a1c25e8f6e9c5c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cf30b52a8638c42f326c6f33bbc2c84"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_function.html">malidrive::road_curve::Function</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a1cf30b52a8638c42f326c6f33bbc2c84">MakeReferenceLineOffset</a> (const std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_lane_offset.html">xodr::LaneOffset</a> &gt; &amp;reference_offsets, double p0, double p1) const =0</td></tr>
 <tr class="memdesc:a1cf30b52a8638c42f326c6f33bbc2c84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a cubic polynomial that describes the lateral shift of the road reference line.  <a href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a1cf30b52a8638c42f326c6f33bbc2c84">More...</a><br /></td></tr>
 <tr class="separator:a1cf30b52a8638c42f326c6f33bbc2c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9b87f7a4b598c1fa4ee3be66f363c94"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_road_curve.html">road_curve::RoadCurve</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#ae9b87f7a4b598c1fa4ee3be66f363c94">MakeMalidriveRoadCurve</a> (std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_ground_curve.html">road_curve::GroundCurve</a> &gt; ground_curve, std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_function.html">road_curve::Function</a> &gt; elevation, std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_function.html">road_curve::Function</a> &gt; superelevation) const =0</td></tr>
-<tr class="memdesc:ae9b87f7a4b598c1fa4ee3be66f363c94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a road_curve::MalidriveGroundCurve.  <a href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#ae9b87f7a4b598c1fa4ee3be66f363c94">More...</a><br /></td></tr>
-<tr class="separator:ae9b87f7a4b598c1fa4ee3be66f363c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bd114eb6578f056cf4bc788f68fd36f"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_road_curve.html">road_curve::RoadCurve</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a4bd114eb6578f056cf4bc788f68fd36f">MakeMalidriveRoadCurve</a> (std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_ground_curve.html">road_curve::GroundCurve</a> &gt; ground_curve, std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_function.html">road_curve::Function</a> &gt; elevation, std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_function.html">road_curve::Function</a> &gt; superelevation, bool assert_contiguity) const =0</td></tr>
+<tr class="memdesc:a4bd114eb6578f056cf4bc788f68fd36f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a road_curve::MalidriveGroundCurve.  <a href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a4bd114eb6578f056cf4bc788f68fd36f">More...</a><br /></td></tr>
+<tr class="separator:a4bd114eb6578f056cf4bc788f68fd36f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a14794315e2724c4038f1e7778da98c27"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a14794315e2724c4038f1e7778da98c27">linear_tolerance</a> () const</td></tr>
 <tr class="memdesc:a14794315e2724c4038f1e7778da98c27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tolerance accessors.  <a href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a14794315e2724c4038f1e7778da98c27">More...</a><br /></td></tr>
@@ -489,8 +489,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab10172364a07e46e0bba9f487db6b96a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab10172364a07e46e0bba9f487db6b96a">&#9670;&nbsp;</a></span>MakeElevation()</h2>
+<a id="a6ae3c48274020fad7a389b9288a68113"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ae3c48274020fad7a389b9288a68113">&#9670;&nbsp;</a></span>MakeElevation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -514,7 +514,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>p1</em>&#160;</td>
+          <td class="paramname"><em>p1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>assert_continuity</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -541,6 +547,7 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">elevation_profile</td><td>Contains the elevation described in the XODR for the Road. </td></tr>
     <tr><td class="paramname">p0</td><td>Lower bound extreme of the parameter range. It must not be negative and must be less than <code>p1</code>. </td></tr>
     <tr><td class="paramname">p1</td><td>Upper bound extreme of the parameter range. It must be greater than <code>p0</code>. </td></tr>
+    <tr><td class="paramname">assert_continuity</td><td>If true, C1 continuity is assert when function describing the elevation is built. Otherwise only warning messages are printed. </td></tr>
   </table>
   </dd>
 </dl>
@@ -553,12 +560,12 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory.html#a2f880e0dd0c159e3cee6d56d881b5480">RoadCurveFactory</a>.</p>
+<p>Implemented in <a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory.html#a252ef239ba701eb71243dd09c0cafaa2">RoadCurveFactory</a>.</p>
 
 </div>
 </div>
-<a id="abd0ae4eb0b5483bb6ebcdc9c06bac7e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd0ae4eb0b5483bb6ebcdc9c06bac7e2">&#9670;&nbsp;</a></span>MakeLaneWidth()</h2>
+<a id="a73197b19a15bc3349a1c25e8f6e9c5c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73197b19a15bc3349a1c25e8f6e9c5c6">&#9670;&nbsp;</a></span>MakeLaneWidth()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -582,7 +589,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>p1</em>&#160;</td>
+          <td class="paramname"><em>p1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>assert_continuity</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -604,6 +617,7 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">lane_widths</td><td>Contains the width described in the XODR for the <a class="el" href="classmalidrive_1_1_lane.html" title="Describes a Lane whose centerline is a offset of a road_curve::RoadCurve at a certain lane offset whi...">Lane</a>. </td></tr>
     <tr><td class="paramname">p0</td><td>Lower bound extreme of the parameter range. It must not be negative and must be less than <code>p1</code>. </td></tr>
     <tr><td class="paramname">p1</td><td>Upper bound extreme of the parameter range. It must be greater than <code>p0</code>. </td></tr>
+    <tr><td class="paramname">assert_continuity</td><td>If true, C1 continuity is assert when function describing the lane width is built. Otherwise only warning messages are printed. </td></tr>
   </table>
   </dd>
 </dl>
@@ -620,7 +634,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory.html#a2b1bcc4d133664115d2855fbd07d143c">RoadCurveFactory</a>.</p>
+<p>Implemented in <a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory.html#a56e0f0d153afee6944030eacb6fe7741">RoadCurveFactory</a>.</p>
 
 </div>
 </div>
@@ -668,8 +682,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae9b87f7a4b598c1fa4ee3be66f363c94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9b87f7a4b598c1fa4ee3be66f363c94">&#9670;&nbsp;</a></span>MakeMalidriveRoadCurve()</h2>
+<a id="a4bd114eb6578f056cf4bc788f68fd36f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bd114eb6578f056cf4bc788f68fd36f">&#9670;&nbsp;</a></span>MakeMalidriveRoadCurve()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -693,7 +707,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_function.html">road_curve::Function</a> &gt;&#160;</td>
-          <td class="paramname"><em>superelevation</em>&#160;</td>
+          <td class="paramname"><em>superelevation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>assert_contiguity</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -710,10 +730,10 @@ Public Member Functions</h2></td></tr>
 
 <p>Makes a road_curve::MalidriveGroundCurve. </p>
 <p>Its linear tolerance and scale length will be the constructor arguments.</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classmalidrive_1_1road__curve_1_1_road_curve.html#a15254a0acac8018badc1b9cf62ff3b64" title="Constructs a RoadCurve.">road_curve::RoadCurve::RoadCurve()</a> for argument details.</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classmalidrive_1_1road__curve_1_1_road_curve.html#aa774db2a3d5677e6273d4ef276ce71ab" title="Constructs a RoadCurve.">road_curve::RoadCurve::RoadCurve()</a> for argument details.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>A road_curve::MalidriveGroundCurve. </dd></dl>
 
-<p>Implemented in <a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory.html#a57017313726cc574bd3cb6e72e62a823">RoadCurveFactory</a>.</p>
+<p>Implemented in <a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory.html#a72d60f0043c37ec50893588c5475b058">RoadCurveFactory</a>.</p>
 
 </div>
 </div>
@@ -826,8 +846,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a692c53f35c57efaa6001d01a6387452f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a692c53f35c57efaa6001d01a6387452f">&#9670;&nbsp;</a></span>MakeSuperelevation()</h2>
+<a id="a85d5601deb9a95adee1261f5198abb20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85d5601deb9a95adee1261f5198abb20">&#9670;&nbsp;</a></span>MakeSuperelevation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -851,7 +871,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>p1</em>&#160;</td>
+          <td class="paramname"><em>p1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>assert_continuity</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -878,6 +904,7 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">lateral_profile</td><td>Contains the superelevation described in the XODR for the Road. </td></tr>
     <tr><td class="paramname">p0</td><td>Lower bound extreme of the parameter range. It must not be negative and must be less than <code>p1</code>. </td></tr>
     <tr><td class="paramname">p1</td><td>Upper bound extreme of the parameter range. It must be greater than <code>p0</code>. </td></tr>
+    <tr><td class="paramname">assert_continuity</td><td>If true, C1 continuity is assert when function describing the superelevation is built. Otherwise only warning messages are printed. </td></tr>
   </table>
   </dd>
 </dl>
@@ -890,7 +917,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory.html#adc4cfe7b6d8d20ed9d61036d724a71a2">RoadCurveFactory</a>.</p>
+<p>Implemented in <a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory.html#a9708c208badbe52e798066f009d0185a">RoadCurveFactory</a>.</p>
 
 </div>
 </div>

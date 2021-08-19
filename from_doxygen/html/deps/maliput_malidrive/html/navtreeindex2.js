@@ -1,5 +1,11 @@
 var NAVTREEINDEX2 =
 {
+"malidrive_road_curve_design.html#orientation":[0,0,2],
+"malidrive_road_curve_design.html#orientation_at_any_point":[0,0,2,1],
+"malidrive_road_curve_design.html#orientation_at_the_centerline":[0,0,2,0],
+"malidrive_road_curve_design.html#questions":[0,2],
+"malidrive_road_curve_design.html#road_curve_concepts":[0,0],
+"malidrive_road_curve_design.html#roll_pitch_yaw_orthogonality":[0,2,1],
 "malidrive_road_curve_design.html#tangent_vector_road_surface":[0,0,1],
 "namespacemalidrive.html":[2,0,0],
 "namespacemalidrive.html":[1,0,0],
@@ -15,8 +21,8 @@ var NAVTREEINDEX2 =
 "namespacemalidrive_1_1plugin.html":[1,0,0,4],
 "namespacemalidrive_1_1road__curve.html":[2,0,0,2],
 "namespacemalidrive_1_1road__curve.html":[1,0,0,5],
-"namespacemalidrive_1_1road__curve_1_1test.html":[1,0,0,5,0],
 "namespacemalidrive_1_1road__curve_1_1test.html":[2,0,0,2,0],
+"namespacemalidrive_1_1road__curve_1_1test.html":[1,0,0,5,0],
 "namespacemalidrive_1_1test.html":[1,0,0,6],
 "namespacemalidrive_1_1xodr.html":[2,0,0,3],
 "namespacemalidrive_1_1xodr.html":[1,0,0,7],
@@ -37,7 +43,8 @@ var NAVTREEINDEX2 =
 "parser_8h.html#a59322d533f4b0f08bca667b87942df3d":[3,0,60,3],
 "parser__configuration_8h.html":[3,0,61],
 "piecewise__function_8cc.html":[3,0,62],
-"piecewise__function_8cc.html#a97eab6d709b80585fe9e8a54b1e3da27":[3,0,62,0],
+"piecewise__function_8cc.html#a628d801d093e5d9b41ecaa82592ee92d":[3,0,62,1],
+"piecewise__function_8cc.html#ac84de999d0dfb40d60268737c0d5fa42":[3,0,62,0],
 "piecewise__function_8h.html":[3,0,63],
 "piecewise__ground__curve_8cc.html":[3,0,64],
 "piecewise__ground__curve_8cc.html#a6a6b7ad51a19a2fcf7e454c1d7892300":[3,0,64,1],
@@ -242,12 +249,5 @@ var NAVTREEINDEX2 =
 "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_functions.html#a79b8e036dca6911e3295a47d99f21f43":[2,0,0,3,2,0,0],
 "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_geometries.html":[2,0,0,3,2,1],
 "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_geometries.html#a375e7721161c730bdb6d687ae559cc9b":[2,0,0,3,2,1,1],
-"structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_geometries.html#a5eaa57b6224a77eb05f47cb6bc3b8ba1":[2,0,0,3,2,1,2],
-"structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_geometries.html#a79b8e036dca6911e3295a47d99f21f43":[2,0,0,3,2,1,0],
-"structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify.html":[2,0,0,3,2,2],
-"structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify.html#a16138e9d2c17b9fc27837f6b40a2ecf8":[2,0,0,3,2,2,2],
-"structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify.html#a5eaa57b6224a77eb05f47cb6bc3b8ba1":[2,0,0,3,2,2,3],
-"structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify.html#a8bb1ef53467e4f61410d12822d922498":[2,0,0,3,2,2,0],
-"structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify.html#a8bb1ef53467e4f61410d12822d922498ab7744a9b17430948160b3d8b153c1796":[2,0,0,3,2,2,0,0],
-"structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify.html#a8bb1ef53467e4f61410d12822d922498aec00f8ce847016f2f787679c980bdfa5":[2,0,0,3,2,2,0,1]
+"structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_geometries.html#a5eaa57b6224a77eb05f47cb6bc3b8ba1":[2,0,0,3,2,1,2]
 };
