@@ -183,6 +183,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ad19f65f8b9f6dad8943e319d358e1a76"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html">DBManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1xodr.html#ad19f65f8b9f6dad8943e319d358e1a76">LoadDataBaseFromStr</a> (const std::string &amp;xodr_str, const <a class="el" href="structmalidrive_1_1xodr_1_1_parser_configuration.html">ParserConfiguration</a> &amp;parser_configuration)</td></tr>
 <tr class="memdesc:ad19f65f8b9f6dad8943e319d358e1a76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a XODR description from a string.  <a href="namespacemalidrive_1_1xodr.html#ad19f65f8b9f6dad8943e319d358e1a76">More...</a><br /></td></tr>
 <tr class="separator:ad19f65f8b9f6dad8943e319d358e1a76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1002239d9e6fd02629bb5500278ed98"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1xodr.html#ad1002239d9e6fd02629bb5500278ed98">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html">Geometry</a> &amp;geometry)</td></tr>
+<tr class="separator:ad1002239d9e6fd02629bb5500278ed98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3395b70e4a69bbf987402d4b7e8a3d8f"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1xodr.html#a3395b70e4a69bbf987402d4b7e8a3d8f">operator&lt;&lt;</a> (std::ostream &amp;out, const <a class="el" href="structmalidrive_1_1xodr_1_1_header.html">Header</a> &amp;header)</td></tr>
 <tr class="memdesc:a3395b70e4a69bbf987402d4b7e8a3d8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Streams a string representation of <code>header</code> into <code>out</code>.  <a href="namespacemalidrive_1_1xodr.html#a3395b70e4a69bbf987402d4b7e8a3d8f">More...</a><br /></td></tr>
 <tr class="separator:a3395b70e4a69bbf987402d4b7e8a3d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -642,8 +644,44 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ad1002239d9e6fd02629bb5500278ed98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1002239d9e6fd02629bb5500278ed98">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; malidrive::xodr::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html">Geometry</a> &amp;&#160;</td>
+          <td class="paramname"><em>geometry</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">related</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3395b70e4a69bbf987402d4b7e8a3d8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3395b70e4a69bbf987402d4b7e8a3d8f">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3395b70e4a69bbf987402d4b7e8a3d8f">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -674,7 +712,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="af570e4ee8fc4c155cd347ea9a5f38cb2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af570e4ee8fc4c155cd347ea9a5f38cb2">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af570e4ee8fc4c155cd347ea9a5f38cb2">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -705,7 +743,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="ac6c3fe5792f91c2936137357a61ee117"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6c3fe5792f91c2936137357a61ee117">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6c3fe5792f91c2936137357a61ee117">&#9670;&nbsp;</a></span>operator&lt;&lt;() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

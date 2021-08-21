@@ -10,6 +10,7 @@ var structmalidrive_1_1xodr_1_1_geometry =
     [ "operator==", "structmalidrive_1_1xodr_1_1_geometry.html#a86c550595e7a86b9229da53c6ec5fd8a", null ],
     [ "str_to_type", "structmalidrive_1_1xodr_1_1_geometry.html#a98acc419c9eb9f121a3ba33ff3973852", null ],
     [ "type_to_str", "structmalidrive_1_1xodr_1_1_geometry.html#ac7d5b03780e83d0fb7a3b57e271a5924", null ],
+    [ "operator<<", "structmalidrive_1_1xodr_1_1_geometry.html#a41a84cf079162db202127e0246492fd0", null ],
     [ "description", "structmalidrive_1_1xodr_1_1_geometry.html#a982920862114ecaa57356d26649f2090", null ],
     [ "kGeometryTag", "structmalidrive_1_1xodr_1_1_geometry.html#aa9e8b26360530e0251a80133adb2acce", null ],
     [ "kLength", "structmalidrive_1_1xodr_1_1_geometry.html#a211b8393e80a38beec2131424ed3b31d", null ],

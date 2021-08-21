@@ -656,6 +656,13 @@
     <includes id="geometry_8h" name="geometry.h" local="yes" imported="no">maliput_malidrive/xodr/geometry.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
+    <member kind="function">
+      <type>std::ostream &amp;</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>ad1002239d9e6fd02629bb5500278ed98</anchor>
+      <arglist>(std::ostream &amp;os, const Geometry &amp;geometry)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>geometry.h</name>
@@ -3330,6 +3337,13 @@
       <anchorfile>structmalidrive_1_1xodr_1_1_geometry.html</anchorfile>
       <anchor>a211b8393e80a38beec2131424ed3b31d</anchor>
       <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>std::ostream &amp;</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry.html</anchorfile>
+      <anchor>a41a84cf079162db202127e0246492fd0</anchor>
+      <arglist>(std::ostream &amp;os, const Geometry &amp;geometry)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -7906,6 +7920,13 @@
       <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
       <anchor>ad19f65f8b9f6dad8943e319d358e1a76</anchor>
       <arglist>(const std::string &amp;xodr_str, const ParserConfiguration &amp;parser_configuration)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::ostream &amp;</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>ad1002239d9e6fd02629bb5500278ed98</anchor>
+      <arglist>(std::ostream &amp;os, const Geometry &amp;geometry)</arglist>
     </member>
     <member kind="function">
       <type>std::ostream &amp;</type>

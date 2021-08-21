@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"malidrive_road_curve_design.html#motion_derivatives":[0,1,1],
 "malidrive_road_curve_design.html#orientation":[0,0,2],
 "malidrive_road_curve_design.html#orientation_at_any_point":[0,0,2,1],
 "malidrive_road_curve_design.html#orientation_at_the_centerline":[0,0,2,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_functions.html#a5eaa57b6224a77eb05f47cb6bc3b8ba1":[2,0,0,3,2,0,2],
 "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_functions.html#a79b8e036dca6911e3295a47d99f21f43":[2,0,0,3,2,0,0],
 "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_geometries.html":[2,0,0,3,2,1],
-"structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_geometries.html#a375e7721161c730bdb6d687ae559cc9b":[2,0,0,3,2,1,1],
-"structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_geometries.html#a5eaa57b6224a77eb05f47cb6bc3b8ba1":[2,0,0,3,2,1,2]
+"structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_geometries.html#a375e7721161c730bdb6d687ae559cc9b":[2,0,0,3,2,1,1]
 };

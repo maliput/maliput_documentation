@@ -41,7 +41,7 @@ var files_dup =
     [ "function_stub.h", "function__stub_8h.html", [
       [ "FunctionStub", "classmalidrive_1_1road__curve_1_1test_1_1_function_stub.html", "classmalidrive_1_1road__curve_1_1test_1_1_function_stub" ]
     ] ],
-    [ "geometry.cc", "geometry_8cc.html", null ],
+    [ "geometry.cc", "geometry_8cc.html", "geometry_8cc" ],
     [ "geometry.h", "geometry_8h.html", [
       [ "Geometry", "structmalidrive_1_1xodr_1_1_geometry.html", "structmalidrive_1_1xodr_1_1_geometry" ],
       [ "Line", "structmalidrive_1_1xodr_1_1_geometry_1_1_line.html", "structmalidrive_1_1xodr_1_1_geometry_1_1_line" ],

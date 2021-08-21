@@ -146,8 +146,8 @@ var NAVTREEINDEX1 =
 "functions_type.html":[2,3,3],
 "functions_u.html":[2,3,0,19],
 "functions_v.html":[2,3,0,20],
-"functions_vars.html":[2,3,2],
 "functions_vars.html":[2,3,2,0],
+"functions_vars.html":[2,3,2],
 "functions_vars_b.html":[2,3,2,1],
 "functions_vars_c.html":[2,3,2,2],
 "functions_vars_d.html":[2,3,2,3],
@@ -171,6 +171,7 @@ var NAVTREEINDEX1 =
 "functions_w.html":[2,3,0,21],
 "functions_~.html":[2,3,0,22],
 "geometry_8cc.html":[3,0,23],
+"geometry_8cc.html#ad1002239d9e6fd02629bb5500278ed98":[3,0,23,0],
 "geometry_8h.html":[3,0,24],
 "globals.html":[3,1,0],
 "globals_defs.html":[3,1,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "malidrive_road_curve_design.html#continuity_requirements":[0,2,2],
 "malidrive_road_curve_design.html#inverse_function":[0,0,3],
 "malidrive_road_curve_design.html#mapping_the_inertial_frame":[0,0,0],
-"malidrive_road_curve_design.html#math_reformulation":[0,1],
-"malidrive_road_curve_design.html#motion_derivatives":[0,1,1]
+"malidrive_road_curve_design.html#math_reformulation":[0,1]
 };
