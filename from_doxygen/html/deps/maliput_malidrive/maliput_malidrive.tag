@@ -397,6 +397,13 @@
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr double</type>
+      <name>kIncreasingToleranceStep</name>
+      <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
+      <anchor>a21ea1536f7f9374964589814fd23ad70</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr double</type>
       <name>kExplorationRadius</name>
       <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
       <anchor>a37a04e715c22177bb0502b41bb5b4ee0</anchor>
@@ -7729,6 +7736,13 @@
       <name>kMaxToleranceSelectionRounds</name>
       <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
       <anchor>a2d4e86f86d35a1f2dbd8410ecf5a3aa9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr double</type>
+      <name>kIncreasingToleranceStep</name>
+      <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
+      <anchor>a21ea1536f7f9374964589814fd23ad70</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
