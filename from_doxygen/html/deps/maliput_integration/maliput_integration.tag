@@ -334,6 +334,13 @@
       <type></type>
       <name>DEFINE_bool</name>
       <anchorfile>maliput__to__string_8cc.html</anchorfile>
+      <anchor>ae26e69f0bc5fda879699ae6fd470c90c</anchor>
+      <arglist>(check_invariants, false, &quot;Whether to enable maliput invariants verification.&quot;)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>DEFINE_bool</name>
+      <anchorfile>maliput__to__string_8cc.html</anchorfile>
       <anchor>a88fb7a6f884a9f3c5dd0364caa130c82</anchor>
       <arglist>(include_type_labels, false, &quot;Whether to include type labels in the output string&quot;)</arglist>
     </member>

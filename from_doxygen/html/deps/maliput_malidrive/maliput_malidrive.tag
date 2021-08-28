@@ -2162,6 +2162,54 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>applications/xodr_extract.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/applications/</path>
+    <filename>applications_2xodr__extract_8cc.html</filename>
+    <includes id="log__level__flag_8h" name="log_level_flag.h" local="yes" imported="no">log_level_flag.h</includes>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <includes id="xodr__extract_8h" name="xodr_extract.h" local="yes" imported="no">maliput_malidrive/xodr/xodr_extract.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::applications</namespace>
+    <namespace>malidrive::applications::xodr</namespace>
+    <member kind="function">
+      <type>int</type>
+      <name>main</name>
+      <anchorfile>applications_2xodr__extract_8cc.html</anchorfile>
+      <anchor>a3c04138a5bfe5d72780bb7e82a18e627</anchor>
+      <arglist>(int argc, char **argv)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>maliput_malidrive/xodr/xodr_extract.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
+    <filename>maliput__malidrive_2xodr_2xodr__extract_8cc.html</filename>
+    <includes id="xodr__extract_8h" name="xodr_extract.h" local="yes" imported="no">maliput_malidrive/xodr/xodr_extract.h</includes>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <member kind="function">
+      <type>std::string</type>
+      <name>XodrExtract</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a5bf5ed695e9f77f5f9fedd4d95e367f0</anchor>
+      <arglist>(tinyxml2::XMLDocument *xodr_doc, const std::vector&lt; std::string &gt; &amp;road_ids, bool update_linkage)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>xodr_extract.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
+    <filename>xodr__extract_8h.html</filename>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <member kind="function">
+      <type>std::string</type>
+      <name>XodrExtract</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a5bf5ed695e9f77f5f9fedd4d95e367f0</anchor>
+      <arglist>(tinyxml2::XMLDocument *xodr_doc, const std::vector&lt; std::string &gt; &amp;road_ids, bool update_linkage)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>xodr_parser_configuration.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
     <filename>xodr__parser__configuration_8cc.html</filename>
@@ -8032,6 +8080,13 @@
       <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
       <anchor>a241e0a91289ec2ce9ec36b1a7266371f</anchor>
       <arglist>(double value, Unit unit)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>XodrExtract</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a5bf5ed695e9f77f5f9fedd4d95e367f0</anchor>
+      <arglist>(tinyxml2::XMLDocument *xodr_doc, const std::vector&lt; std::string &gt; &amp;road_ids, bool update_linkage)</arglist>
     </member>
   </compound>
   <compound kind="namespace">

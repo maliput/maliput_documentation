@@ -223,6 +223,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a241e0a91289ec2ce9ec36b1a7266371f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1xodr.html#a241e0a91289ec2ce9ec36b1a7266371f">ConvertToMs</a> (double value, <a class="el" href="namespacemalidrive_1_1xodr.html#abceb2331ad056e3c5ad27894199a49ed">Unit</a> unit)</td></tr>
 <tr class="memdesc:a241e0a91289ec2ce9ec36b1a7266371f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to meters per second.  <a href="namespacemalidrive_1_1xodr.html#a241e0a91289ec2ce9ec36b1a7266371f">More...</a><br /></td></tr>
 <tr class="separator:a241e0a91289ec2ce9ec36b1a7266371f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bf5ed695e9f77f5f9fedd4d95e367f0"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1xodr.html#a5bf5ed695e9f77f5f9fedd4d95e367f0">XodrExtract</a> (tinyxml2::XMLDocument *xodr_doc, const std::vector&lt; std::string &gt; &amp;road_ids, bool update_linkage)</td></tr>
+<tr class="memdesc:a5bf5ed695e9f77f5f9fedd4d95e367f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extracts Roads out of a XODR file and creates a new XODR description.  <a href="namespacemalidrive_1_1xodr.html#a5bf5ed695e9f77f5f9fedd4d95e367f0">More...</a><br /></td></tr>
+<tr class="separator:a5bf5ed695e9f77f5f9fedd4d95e367f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="abceb2331ad056e3c5ad27894199a49ed"></a>
@@ -830,6 +833,64 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A string that matches with <code>unit</code>. </dd></dl>
+
+</div>
+</div>
+<a id="a5bf5ed695e9f77f5f9fedd4d95e367f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bf5ed695e9f77f5f9fedd4d95e367f0">&#9670;&nbsp;</a></span>XodrExtract()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string XodrExtract </td>
+          <td>(</td>
+          <td class="paramtype">tinyxml2::XMLDocument *&#160;</td>
+          <td class="paramname"><em>xodr_doc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>road_ids</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>update_linkage</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Extracts Roads out of a XODR file and creates a new XODR description. </p>
+<ul>
+<li>Default header file with minimum information will be used.</li>
+<li>Roads that aren't found will be skipped with the correspondant logging message.</li>
+<li>Road linkage and junction value information can be updated depending on <code>update_linkage</code> argument. <dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xodr_doc</td><td>XMLDocument pointer with a parsed XODR file. </td></tr>
+    <tr><td class="paramname">road_ids</td><td>Collection of road ids that are wanted to be extracted. </td></tr>
+    <tr><td class="paramname">update_linkage</td><td>True if predecessor,successor nodes and the junction id of the of the Roads should be updated by removing them. Otherwise those nodes won't be modified. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A XODR description with the selected Road ids.</dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When the XML file contained in <code>xodr_doc</code> isn't a XODR file. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When XODR file's roads doesn't have 'id' attributes. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When road_ids is empty. </td></tr>
+  </table>
+  </dd>
+</dl>
+</li>
+</ul>
 
 </div>
 </div>

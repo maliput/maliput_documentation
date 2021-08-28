@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"classmalidrive_1_1road__curve_1_1_road_curve_offset.html#a4f07ac9d9bda6a50715b59b3c53c356f":[2,0,0,2,11,4],
+"classmalidrive_1_1road__curve_1_1_road_curve_offset.html#a5acfabae97039bef58ac605af40698e3":[2,0,0,2,11,5],
 "classmalidrive_1_1road__curve_1_1_road_curve_offset.html#a91d6d86ed0abb8f64e9a0ecd0e054810":[2,0,0,2,11,3],
 "classmalidrive_1_1road__curve_1_1_road_curve_offset.html#aaa9ee6af97a9296ca76d7eded884cefd":[2,0,0,2,11,1],
 "classmalidrive_1_1road__curve_1_1_road_curve_offset.html#ae13fbe02a75b76c3b0da7509816fe9db":[2,0,0,2,11,0],
@@ -147,8 +149,8 @@ var NAVTREEINDEX1 =
 "functions_type.html":[2,3,3],
 "functions_u.html":[2,3,0,19],
 "functions_v.html":[2,3,0,20],
-"functions_vars.html":[2,3,2],
 "functions_vars.html":[2,3,2,0],
+"functions_vars.html":[2,3,2],
 "functions_vars_b.html":[2,3,2,1],
 "functions_vars_c.html":[2,3,2,2],
 "functions_vars_d.html":[2,3,2,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "malidrive_road_curve_design.html":[0],
 "malidrive_road_curve_design.html#at_a_lateral_offset":[0,1,0],
 "malidrive_road_curve_design.html#comparing_definitions_of_frenet_frame":[0,2,0],
-"malidrive_road_curve_design.html#continuity_requirements":[0,2,2],
-"malidrive_road_curve_design.html#inverse_function":[0,0,3],
-"malidrive_road_curve_design.html#mapping_the_inertial_frame":[0,0,0]
+"malidrive_road_curve_design.html#continuity_requirements":[0,2,2]
 };
