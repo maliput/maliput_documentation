@@ -26,7 +26,6 @@ var structmalidrive_1_1builder_1_1_road_geometry_configuration =
     [ "build_policy", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#ae26c7c82c903835e10255b866fff75d6", null ],
     [ "id", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aa391bb03a060289d92caf7548968b0b6", null ],
     [ "inertial_to_backend_frame_translation", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4e2d2a2119b6d3bff5f1ed7d08c4336e", null ],
-    [ "inertial_to_lane_mapping_config", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a37374c2b075909a4a63283a39494c148", null ],
     [ "kStrAngularTolerance", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a9c6f08ac06582ebaebf5c7cd475a668e", null ],
     [ "kStrBuildPolicy", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#ab0166332845f3d80e0c508af03bc2c23", null ],
     [ "kStrInertialToBackendFrameTranslation", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a8e79a3b97e907ccf1af46660f52a4397", null ],

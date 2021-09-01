@@ -402,20 +402,6 @@
       <anchor>a21ea1536f7f9374964589814fd23ad70</anchor>
       <arglist></arglist>
     </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr double</type>
-      <name>kExplorationRadius</name>
-      <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
-      <anchor>a37a04e715c22177bb0502b41bb5b4ee0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr int</type>
-      <name>kNumIterations</name>
-      <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
-      <anchor>ac0f3fa61adf97f41591060d93ed11717</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>cubic_polynomial.h</name>
@@ -813,7 +799,7 @@
   </compound>
   <compound kind="file">
     <name>id_providers.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/builder/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
     <filename>id__providers_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <class kind="class">malidrive::builder::UniqueIntegerProvider</class>
@@ -889,14 +875,6 @@
       <anchor>ab22adfadbaf60b5231d928eeb8fbf871</anchor>
       <arglist>(const maliput::api::rules::Rule::TypeId &amp;rule_type_id, const maliput::api::LaneId &amp;lane_id, int index)</arglist>
     </member>
-  </compound>
-  <compound kind="file">
-    <name>inertial_to_lane_mapping_config.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/base/</path>
-    <filename>inertial__to__lane__mapping__config_8h.html</filename>
-    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
-    <class kind="struct">malidrive::InertialToLaneMappingConfig</class>
-    <namespace>malidrive</namespace>
   </compound>
   <compound kind="file">
     <name>junction.cc</name>
@@ -1134,6 +1112,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/loader/</path>
     <filename>loader_8h.html</filename>
     <includes id="road__network__configuration_8h" name="road_network_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_network_configuration.h</includes>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::loader</namespace>
     <member kind="function">
@@ -1255,7 +1234,7 @@
   </compound>
   <compound kind="file">
     <name>open_range_validator.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/road_curve/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
     <filename>open__range__validator_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <class kind="class">malidrive::road_curve::OpenRangeValidator</class>
@@ -1620,9 +1599,8 @@
   </compound>
   <compound kind="file">
     <name>road_geometry_builder_base.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/builder/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
     <filename>road__geometry__builder__base_8h.html</filename>
-    <includes id="inertial__to__lane__mapping__config_8h" name="inertial_to_lane_mapping_config.h" local="yes" imported="no">maliput_malidrive/base/inertial_to_lane_mapping_config.h</includes>
     <includes id="id__providers_8h" name="id_providers.h" local="yes" imported="no">maliput_malidrive/builder/id_providers.h</includes>
     <class kind="class">malidrive::builder::RoadGeometryBuilderBase</class>
     <namespace>malidrive</namespace>
@@ -1633,6 +1611,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
     <filename>road__geometry__configuration_8cc.html</filename>
     <includes id="road__geometry__configuration_8h" name="road_geometry_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_configuration.h</includes>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
     <member kind="function">
@@ -1654,7 +1633,6 @@
     <name>road_geometry_configuration.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/builder/</path>
     <filename>road__geometry__configuration_8h.html</filename>
-    <includes id="inertial__to__lane__mapping__config_8h" name="inertial_to_lane_mapping_config.h" local="yes" imported="no">maliput_malidrive/base/inertial_to_lane_mapping_config.h</includes>
     <includes id="constants_8h" name="constants.h" local="yes" imported="no">maliput_malidrive/constants.h</includes>
     <class kind="struct">malidrive::builder::BuildPolicy</class>
     <class kind="struct">malidrive::builder::RoadGeometryConfiguration</class>
@@ -3695,38 +3673,6 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>malidrive::InertialToLaneMappingConfig</name>
-    <filename>structmalidrive_1_1_inertial_to_lane_mapping_config.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>InertialToLaneMappingConfig</name>
-      <anchorfile>structmalidrive_1_1_inertial_to_lane_mapping_config.html</anchorfile>
-      <anchor>a66295649060778bdc9b7af8a910036e8</anchor>
-      <arglist>()=delete</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>InertialToLaneMappingConfig</name>
-      <anchorfile>structmalidrive_1_1_inertial_to_lane_mapping_config.html</anchorfile>
-      <anchor>a2e898af10fddce57b3aaff9d7dd657f0</anchor>
-      <arglist>(double exploration_radius_step_in, int max_iterations_in)</arglist>
-    </member>
-    <member kind="variable">
-      <type>double</type>
-      <name>exploration_radius_step</name>
-      <anchorfile>structmalidrive_1_1_inertial_to_lane_mapping_config.html</anchorfile>
-      <anchor>a0baa2e3706368e24d1f511e8e527e000</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>int</type>
-      <name>max_iterations</name>
-      <anchorfile>structmalidrive_1_1_inertial_to_lane_mapping_config.html</anchorfile>
-      <anchor>a82eead8e5a402b5c5da8b449073bad45</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
     <name>malidrive::xodr::Junction</name>
     <filename>structmalidrive_1_1xodr_1_1_junction.html</filename>
     <member kind="enumeration">
@@ -3850,6 +3796,67 @@
       <anchorfile>structmalidrive_1_1xodr_1_1_junction.html</anchorfile>
       <anchor>a0115715e581fd2a65ef043354a0e902a</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>malidrive::Lane</name>
+    <filename>classmalidrive_1_1_lane.html</filename>
+    <base>maliput::geometry_base::Lane</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIDRIVE_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>a6140ac583e6e71304fb7a4b0252baa98</anchor>
+      <arglist>(Lane)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Lane</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>a754b56e8bb63742dca82aa187cf79c09</anchor>
+      <arglist>(const maliput::api::LaneId &amp;id, int xodr_track, int xodr_lane_id, const maliput::api::HBounds &amp;elevation_bounds, const road_curve::RoadCurve *road_curve, std::unique_ptr&lt; road_curve::Function &gt; lane_width, std::unique_ptr&lt; road_curve::Function &gt; lane_offset, double p0, double p1)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>get_track</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>a9c9c3b577525a5b421fc0ccdb0eb1cb4</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>get_lane_id</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>a6fd8fd747aec8546c67c75f8ed0bc6a0</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>get_track_s_start</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>a15dc832908c773b3f1e1bf2615ea74f2</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>get_track_s_end</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>ab1773002f837cbef4ea41d923cdb3041</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>TrackSFromLaneS</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>afeab73b6ebae3c8fce8b52699a32fc99</anchor>
+      <arglist>(double lane_s) const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>LaneSFromTrackS</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>ad17b08b4477d4e2f3d348ea8f47f20bf</anchor>
+      <arglist>(double track_s) const</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -4008,67 +4015,6 @@
       <anchorfile>structmalidrive_1_1xodr_1_1_lane.html</anchorfile>
       <anchor>a72fc73aa5da78d2ef3b4b81ce2fb094c</anchor>
       <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>malidrive::Lane</name>
-    <filename>classmalidrive_1_1_lane.html</filename>
-    <base>maliput::geometry_base::Lane</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIDRIVE_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>a6140ac583e6e71304fb7a4b0252baa98</anchor>
-      <arglist>(Lane)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>Lane</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>a754b56e8bb63742dca82aa187cf79c09</anchor>
-      <arglist>(const maliput::api::LaneId &amp;id, int xodr_track, int xodr_lane_id, const maliput::api::HBounds &amp;elevation_bounds, const road_curve::RoadCurve *road_curve, std::unique_ptr&lt; road_curve::Function &gt; lane_width, std::unique_ptr&lt; road_curve::Function &gt; lane_offset, double p0, double p1)</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>get_track</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>a9c9c3b577525a5b421fc0ccdb0eb1cb4</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>get_lane_id</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>a6fd8fd747aec8546c67c75f8ed0bc6a0</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>get_track_s_start</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>a15dc832908c773b3f1e1bf2615ea74f2</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>get_track_s_end</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>ab1773002f837cbef4ea41d923cdb3041</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>TrackSFromLaneS</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>afeab73b6ebae3c8fce8b52699a32fc99</anchor>
-      <arglist>(double lane_s) const</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>LaneSFromTrackS</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>ad17b08b4477d4e2f3d348ea8f47f20bf</anchor>
-      <arglist>(double track_s) const</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -5893,13 +5839,6 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>InertialToLaneMappingConfig</type>
-      <name>inertial_to_lane_mapping_config</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a37374c2b075909a4a63283a39494c148</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
       <type>BuildPolicy</type>
       <name>build_policy</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
@@ -6142,13 +6081,6 @@
       <name>inertial_to_backend_frame_translation</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
       <anchor>a4e2d2a2119b6d3bff5f1ed7d08c4336e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>InertialToLaneMappingConfig</type>
-      <name>inertial_to_lane_mapping_config</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a37374c2b075909a4a63283a39494c148</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -7416,7 +7348,6 @@
     <namespace>malidrive::road_curve</namespace>
     <namespace>malidrive::test</namespace>
     <namespace>malidrive::xodr</namespace>
-    <class kind="struct">malidrive::InertialToLaneMappingConfig</class>
     <class kind="class">malidrive::Lane</class>
     <class kind="class">malidrive::RoadGeometry</class>
     <class kind="class">malidrive::Segment</class>
@@ -7460,76 +7391,6 @@
       <arglist></arglist>
       <enumvalue file="namespacemalidrive_1_1builder.html" anchor="aa05c22b45e1642b62091723d3e86fc4fa9e44433096731b7f27f44f34178e1d6d">kSuccessor</enumvalue>
       <enumvalue file="namespacemalidrive_1_1builder.html" anchor="aa05c22b45e1642b62091723d3e86fc4fab1b3e46440416e5c6772b42ad0dca5e2">kPredecessor</enumvalue>
-    </member>
-    <member kind="function">
-      <type>maliput::api::BranchPointId</type>
-      <name>GetBranchPointId</name>
-      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>a69f4d7bd13f1a1850b186864eb8f8851</anchor>
-      <arglist>(int branch_point_index)</arglist>
-    </member>
-    <member kind="function">
-      <type>maliput::api::JunctionId</type>
-      <name>GetJunctionId</name>
-      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>ad92ff446a35f40ec0bd87957b5e7197e</anchor>
-      <arglist>(int xodr_track_id, int xodr_lane_section_index)</arglist>
-    </member>
-    <member kind="function">
-      <type>maliput::api::JunctionId</type>
-      <name>GetJunctionId</name>
-      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>a9f9b00e4e3e8c4d9d7c94df24f2f017c</anchor>
-      <arglist>(int xodr_junction_id)</arglist>
-    </member>
-    <member kind="function">
-      <type>maliput::api::LaneId</type>
-      <name>GetLaneId</name>
-      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>aa1f0f0e969d6dadaed27c86f95b7c1a7</anchor>
-      <arglist>(int xodr_track_id, int xodr_lane_section_index, int xodr_lane_id)</arglist>
-    </member>
-    <member kind="function">
-      <type>maliput::api::SegmentId</type>
-      <name>GetSegmentId</name>
-      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>aa4b0791fed1d0eff93ccaba6a900f2df</anchor>
-      <arglist>(int xodr_track_id, int xodr_lane_section_index)</arglist>
-    </member>
-    <member kind="function">
-      <type>maliput::api::rules::SpeedLimitRule::Id</type>
-      <name>GetSpeedLimitId</name>
-      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>a54517b20e5545f13a5ee40afcdd5c849</anchor>
-      <arglist>(const maliput::api::LaneId &amp;lane_id, int speed_limit_index)</arglist>
-    </member>
-    <member kind="function">
-      <type>maliput::api::rules::DirectionUsageRule::Id</type>
-      <name>GetDirectionUsageRuleId</name>
-      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>a8c4459ac2f22146d91f32ae70e15c043</anchor>
-      <arglist>(const maliput::api::LaneId &amp;lane_id, int direction_usage_index)</arglist>
-    </member>
-    <member kind="function">
-      <type>maliput::api::rules::DirectionUsageRule::State::Id</type>
-      <name>GetDirectionUsageRuleStateId</name>
-      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>a72a88901b9b8c925dd3868adcfbf4fdf</anchor>
-      <arglist>(const maliput::api::rules::DirectionUsageRule::Id &amp;rule_id)</arglist>
-    </member>
-    <member kind="function">
-      <type>maliput::api::rules::Rule::Id</type>
-      <name>GetRuleIdFrom</name>
-      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>a7852d314735fa4439f1c33fc717328fc</anchor>
-      <arglist>(const maliput::api::rules::Rule::TypeId &amp;rule_type_id, const maliput::api::LaneId &amp;lane_id)</arglist>
-    </member>
-    <member kind="function">
-      <type>maliput::api::rules::Rule::Id</type>
-      <name>GetRuleIdFrom</name>
-      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>ab22adfadbaf60b5231d928eeb8fbf871</anchor>
-      <arglist>(const maliput::api::rules::Rule::TypeId &amp;rule_type_id, const maliput::api::LaneId &amp;lane_id, int index)</arglist>
     </member>
     <member kind="function">
       <type>RoadGeometryConfiguration::StandardStrictnessPolicy</type>
@@ -7679,6 +7540,76 @@
       <arglist>(const xodr::DBManager *xodr_manager, double linear_tolerance, double angular_tolerance)</arglist>
     </member>
     <member kind="function">
+      <type>maliput::api::BranchPointId</type>
+      <name>GetBranchPointId</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a69f4d7bd13f1a1850b186864eb8f8851</anchor>
+      <arglist>(int branch_point_index)</arglist>
+    </member>
+    <member kind="function">
+      <type>maliput::api::JunctionId</type>
+      <name>GetJunctionId</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>ad92ff446a35f40ec0bd87957b5e7197e</anchor>
+      <arglist>(int xodr_track_id, int xodr_lane_section_index)</arglist>
+    </member>
+    <member kind="function">
+      <type>maliput::api::JunctionId</type>
+      <name>GetJunctionId</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a9f9b00e4e3e8c4d9d7c94df24f2f017c</anchor>
+      <arglist>(int xodr_junction_id)</arglist>
+    </member>
+    <member kind="function">
+      <type>maliput::api::LaneId</type>
+      <name>GetLaneId</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>aa1f0f0e969d6dadaed27c86f95b7c1a7</anchor>
+      <arglist>(int xodr_track_id, int xodr_lane_section_index, int xodr_lane_id)</arglist>
+    </member>
+    <member kind="function">
+      <type>maliput::api::SegmentId</type>
+      <name>GetSegmentId</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>aa4b0791fed1d0eff93ccaba6a900f2df</anchor>
+      <arglist>(int xodr_track_id, int xodr_lane_section_index)</arglist>
+    </member>
+    <member kind="function">
+      <type>maliput::api::rules::SpeedLimitRule::Id</type>
+      <name>GetSpeedLimitId</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a54517b20e5545f13a5ee40afcdd5c849</anchor>
+      <arglist>(const maliput::api::LaneId &amp;lane_id, int speed_limit_index)</arglist>
+    </member>
+    <member kind="function">
+      <type>maliput::api::rules::DirectionUsageRule::Id</type>
+      <name>GetDirectionUsageRuleId</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a8c4459ac2f22146d91f32ae70e15c043</anchor>
+      <arglist>(const maliput::api::LaneId &amp;lane_id, int direction_usage_index)</arglist>
+    </member>
+    <member kind="function">
+      <type>maliput::api::rules::DirectionUsageRule::State::Id</type>
+      <name>GetDirectionUsageRuleStateId</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a72a88901b9b8c925dd3868adcfbf4fdf</anchor>
+      <arglist>(const maliput::api::rules::DirectionUsageRule::Id &amp;rule_id)</arglist>
+    </member>
+    <member kind="function">
+      <type>maliput::api::rules::Rule::Id</type>
+      <name>GetRuleIdFrom</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a7852d314735fa4439f1c33fc717328fc</anchor>
+      <arglist>(const maliput::api::rules::Rule::TypeId &amp;rule_type_id, const maliput::api::LaneId &amp;lane_id)</arglist>
+    </member>
+    <member kind="function">
+      <type>maliput::api::rules::Rule::Id</type>
+      <name>GetRuleIdFrom</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>ab22adfadbaf60b5231d928eeb8fbf871</anchor>
+      <arglist>(const maliput::api::rules::Rule::TypeId &amp;rule_type_id, const maliput::api::LaneId &amp;lane_id, int index)</arglist>
+    </member>
+    <member kind="function">
       <type>std::vector&lt; xodr::Geometry &gt;</type>
       <name>SimplifyGeometries</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
@@ -7791,20 +7722,6 @@
       <name>kIncreasingToleranceStep</name>
       <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
       <anchor>a21ea1536f7f9374964589814fd23ad70</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr double</type>
-      <name>kExplorationRadius</name>
-      <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
-      <anchor>a37a04e715c22177bb0502b41bb5b4ee0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr int</type>
-      <name>kNumIterations</name>
-      <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
-      <anchor>ac0f3fa61adf97f41591060d93ed11717</anchor>
       <arglist></arglist>
     </member>
   </compound>

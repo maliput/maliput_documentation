@@ -57,9 +57,6 @@ var files_dup =
     [ "header.h", "header_8h.html", "header_8h" ],
     [ "id_providers.cc", "id__providers_8cc.html", "id__providers_8cc" ],
     [ "id_providers.h", "id__providers_8h.html", "id__providers_8h" ],
-    [ "inertial_to_lane_mapping_config.h", "inertial__to__lane__mapping__config_8h.html", [
-      [ "InertialToLaneMappingConfig", "structmalidrive_1_1_inertial_to_lane_mapping_config.html", "structmalidrive_1_1_inertial_to_lane_mapping_config" ]
-    ] ],
     [ "junction.cc", "junction_8cc.html", "junction_8cc" ],
     [ "junction.h", "junction_8h.html", "junction_8h" ],
     [ "base/lane.cc", "base_2lane_8cc.html", null ],

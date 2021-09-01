@@ -24,14 +24,13 @@ var hierarchy =
       [ "GroundCurveStub", "classmalidrive_1_1road__curve_1_1test_1_1_ground_curve_stub.html", null ]
     ] ],
     [ "Header", "structmalidrive_1_1xodr_1_1_header.html", null ],
-    [ "InertialToLaneMappingConfig", "structmalidrive_1_1_inertial_to_lane_mapping_config.html", null ],
     [ "Junction", "structmalidrive_1_1xodr_1_1_junction.html", null ],
-    [ "Lane", "structmalidrive_1_1xodr_1_1_lane.html", null ],
     [ "Lane", "../../maliput/html/classmaliput_1_1api_1_1_lane.html", [
       [ "Lane", "../../maliput/html/classmaliput_1_1geometry__base_1_1_lane.html", [
         [ "Lane", "classmalidrive_1_1_lane.html", null ]
       ] ]
     ] ],
+    [ "Lane", "structmalidrive_1_1xodr_1_1_lane.html", null ],
     [ "Connection::LaneLink", "structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html", null ],
     [ "LaneLink", "structmalidrive_1_1xodr_1_1_lane_link.html", null ],
     [ "LaneOffset", "structmalidrive_1_1xodr_1_1_lane_offset.html", null ],

@@ -35,6 +35,5 @@ var searchData=
   ['executesymbol_371',['ExecuteSymbol',['.././deps/maliput/html/classmaliput_1_1plugin_1_1_maliput_plugin.html#a2a8c8203de29831660ac6e4a59efa617',1,'maliput::plugin::MaliputPlugin']]],
   ['exists_372',['exists',['.././deps/maliput/html/classmaliput_1_1common_1_1_path.html#a574c4186b0cff13b95db8ccb8902e3fb',1,'maliput::common::Path']]],
   ['expects_5fthrow_373',['expects_throw',['.././deps/maliput/html/structmaliput_1_1api_1_1test_1_1_road_geometry_build_flags.html#a091dde3a23daeda91f23af656e619dd8',1,'maliput::api::test::RoadGeometryBuildFlags::expects_throw()'],['.././deps/maliput/html/structmaliput_1_1api_1_1test_1_1_road_network_contiguity_build_flags.html#a091dde3a23daeda91f23af656e619dd8',1,'maliput::api::test::RoadNetworkContiguityBuildFlags::expects_throw()']]],
-  ['exploration_5fradius_5fstep_374',['exploration_radius_step',['.././deps/maliput_malidrive/html/structmalidrive_1_1_inertial_to_lane_mapping_config.html#a0baa2e3706368e24d1f511e8e527e000',1,'malidrive::InertialToLaneMappingConfig']]],
-  ['extra_5fdetails_375',['extra_details',['.././deps/maliput/html/namespacemaliput_1_1common_1_1internal.html#a1a63baa421186d858d40d4baf283b591',1,'maliput::common::internal']]]
+  ['extra_5fdetails_374',['extra_details',['.././deps/maliput/html/namespacemaliput_1_1common_1_1internal.html#a1a63baa421186d858d40d4baf283b591',1,'maliput::common::internal']]]
 ];
