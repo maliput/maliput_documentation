@@ -63,15 +63,11 @@ var hierarchy =
         [ "RoadGeometry", "classmalidrive_1_1_road_geometry.html", null ]
       ] ]
     ] ],
-    [ "RoadGeometryBuilderBase", "classmalidrive_1_1builder_1_1_road_geometry_builder_base.html", [
-      [ "RoadGeometryBuilder", "classmalidrive_1_1builder_1_1_road_geometry_builder.html", null ]
-    ] ],
+    [ "RoadGeometryBuilder", "classmalidrive_1_1builder_1_1_road_geometry_builder.html", null ],
     [ "RoadGeometryConfiguration", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html", null ],
     [ "RoadHeader", "structmalidrive_1_1xodr_1_1_road_header.html", null ],
     [ "RoadLink", "structmalidrive_1_1xodr_1_1_road_link.html", null ],
-    [ "RoadNetworkBuilderBase", "classmalidrive_1_1builder_1_1_road_network_builder_base.html", [
-      [ "RoadNetworkBuilder", "classmalidrive_1_1builder_1_1_road_network_builder.html", null ]
-    ] ],
+    [ "RoadNetworkBuilder", "classmalidrive_1_1builder_1_1_road_network_builder.html", null ],
     [ "RoadNetworkConfiguration", "structmalidrive_1_1builder_1_1_road_network_configuration.html", null ],
     [ "RoadRuleBookBuilder", "classmalidrive_1_1builder_1_1_road_rule_book_builder.html", null ],
     [ "RoadType", "structmalidrive_1_1xodr_1_1_road_type.html", null ],

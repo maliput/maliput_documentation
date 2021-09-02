@@ -1541,6 +1541,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/base/</path>
     <filename>road__geometry_8cc.html</filename>
     <includes id="road__geometry_8h" name="road_geometry.h" local="yes" imported="no">maliput_malidrive/base/road_geometry.h</includes>
+    <includes id="constants_8h" name="constants.h" local="yes" imported="no">maliput_malidrive/constants.h</includes>
     <namespace>malidrive</namespace>
   </compound>
   <compound kind="file">
@@ -1562,6 +1563,7 @@
     <includes id="road__curve__factory_8h" name="road_curve_factory.h" local="yes" imported="no">maliput_malidrive/builder/road_curve_factory.h</includes>
     <includes id="simplify__geometries_8h" name="simplify_geometries.h" local="yes" imported="no">maliput_malidrive/builder/simplify_geometries.h</includes>
     <includes id="xodr__parser__configuration_8h" name="xodr_parser_configuration.h" local="yes" imported="no">maliput_malidrive/builder/xodr_parser_configuration.h</includes>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="cubic__polynomial_8h" name="cubic_polynomial.h" local="yes" imported="no">maliput_malidrive/road_curve/cubic_polynomial.h</includes>
     <includes id="function_8h" name="function.h" local="yes" imported="no">maliput_malidrive/road_curve/function.h</includes>
     <includes id="road__curve_2lane__offset_8h" name="road_curve/lane_offset.h" local="yes" imported="no">maliput_malidrive/road_curve/lane_offset.h</includes>
@@ -1580,29 +1582,10 @@
     <includes id="builder__tools_8h" name="builder_tools.h" local="yes" imported="no">maliput_malidrive/builder/builder_tools.h</includes>
     <includes id="id__providers_8h" name="id_providers.h" local="yes" imported="no">maliput_malidrive/builder/id_providers.h</includes>
     <includes id="road__curve__factory_8h" name="road_curve_factory.h" local="yes" imported="no">maliput_malidrive/builder/road_curve_factory.h</includes>
-    <includes id="road__geometry__builder__base_8h" name="road_geometry_builder_base.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_builder_base.h</includes>
     <includes id="road__geometry__configuration_8h" name="road_geometry_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_configuration.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="db__manager_8h" name="db_manager.h" local="yes" imported="no">maliput_malidrive/xodr/db_manager.h</includes>
     <class kind="class">malidrive::builder::RoadGeometryBuilder</class>
-    <namespace>malidrive</namespace>
-    <namespace>malidrive::builder</namespace>
-  </compound>
-  <compound kind="file">
-    <name>road_geometry_builder_base.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>road__geometry__builder__base_8cc.html</filename>
-    <includes id="road__geometry__builder__base_8h" name="road_geometry_builder_base.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_builder_base.h</includes>
-    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
-    <namespace>malidrive</namespace>
-    <namespace>malidrive::builder</namespace>
-  </compound>
-  <compound kind="file">
-    <name>road_geometry_builder_base.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
-    <filename>road__geometry__builder__base_8h.html</filename>
-    <includes id="id__providers_8h" name="id_providers.h" local="yes" imported="no">maliput_malidrive/builder/id_providers.h</includes>
-    <class kind="class">malidrive::builder::RoadGeometryBuilderBase</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
   </compound>
@@ -1779,18 +1762,9 @@
     <name>road_network_builder.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/builder/</path>
     <filename>road__network__builder_8h.html</filename>
-    <includes id="road__network__builder__base_8h" name="road_network_builder_base.h" local="yes" imported="no">maliput_malidrive/builder/road_network_builder_base.h</includes>
-    <class kind="class">malidrive::builder::RoadNetworkBuilder</class>
-    <namespace>malidrive</namespace>
-    <namespace>malidrive::builder</namespace>
-  </compound>
-  <compound kind="file">
-    <name>road_network_builder_base.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/builder/</path>
-    <filename>road__network__builder__base_8h.html</filename>
     <includes id="road__network__configuration_8h" name="road_network_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_network_configuration.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
-    <class kind="class">malidrive::builder::RoadNetworkBuilderBase</class>
+    <class kind="class">malidrive::builder::RoadNetworkBuilder</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
   </compound>
@@ -5595,7 +5569,6 @@
   <compound kind="class">
     <name>malidrive::builder::RoadGeometryBuilder</name>
     <filename>classmalidrive_1_1builder_1_1_road_geometry_builder.html</filename>
-    <base>malidrive::builder::RoadGeometryBuilderBase</base>
     <member kind="function">
       <type></type>
       <name>RoadGeometryBuilder</name>
@@ -5614,98 +5587,8 @@
       <type>std::unique_ptr&lt; const maliput::api::RoadGeometry &gt;</type>
       <name>operator()</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder.html</anchorfile>
-      <anchor>a8b64dc1731867ca3d86a00ba677b52ad</anchor>
-      <arglist>() override</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>malidrive::builder::RoadGeometryBuilderBase</name>
-    <filename>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>RoadGeometryBuilderBase</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>a99a3ba7a912bec679e7d753679aa2e63</anchor>
-      <arglist>()=default</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual</type>
-      <name>~RoadGeometryBuilderBase</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>aa43d356d9abb666103dada7d022da1b6</anchor>
-      <arglist>()=default</arglist>
-    </member>
-    <member kind="function" virtualness="pure">
-      <type>virtual std::unique_ptr&lt; const maliput::api::RoadGeometry &gt;</type>
-      <name>operator()</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>aa3e16f08aebf637db903ed0862b1c09e</anchor>
-      <arglist>()=0</arglist>
-    </member>
-    <member kind="enumeration" protection="protected">
-      <type></type>
-      <name>BranchPointSide</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>aa4dabade3f9886c2aa5a3fe0639f0084</anchor>
-      <arglist></arglist>
-      <enumvalue file="classmalidrive_1_1builder_1_1_road_geometry_builder_base.html" anchor="aa4dabade3f9886c2aa5a3fe0639f0084a52e005f379c06fc64e41c9d9ef1d0ac5">kASide</enumvalue>
-      <enumvalue file="classmalidrive_1_1builder_1_1_road_geometry_builder_base.html" anchor="aa4dabade3f9886c2aa5a3fe0639f0084a71334218e12b976e6d48c67df2b78e93">kBSide</enumvalue>
-    </member>
-    <member kind="function" protection="protected">
-      <type>void</type>
-      <name>AttachLaneEndToBranchPoint</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>a4b4ba23c78cfa8fb23f0d18d5b836a34</anchor>
-      <arglist>(const maliput::api::LaneEnd &amp;lane_end, const std::vector&lt; maliput::api::LaneEnd &gt; &amp;lane_ends)</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type>void</type>
-      <name>SetDefaultsToBranchPoints</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>aed686c7b4f6865aeccdef79d4057bc35</anchor>
+      <anchor>a3371c7155aac3d3e975b827f6e418cf1</anchor>
       <arglist>()</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type>maliput::api::BranchPointId</type>
-      <name>GetNewBranchPointId</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>a61064fce6c761b135270ff82aea77581</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function" protection="protected" static="yes">
-      <type>static bool</type>
-      <name>IsLaneEndOnABSide</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>a6d6b0c1f0139e87797ed86fda7ad185c</anchor>
-      <arglist>(const maliput::api::BranchPoint *bp, const maliput::api::LaneEnd &amp;lane_end, BranchPointSide bp_side)</arglist>
-    </member>
-    <member kind="function" protection="protected" static="yes">
-      <type>static std::pair&lt; maliput::geometry_base::BranchPoint *, std::optional&lt; BranchPointSide &gt; &gt;</type>
-      <name>FindBranchpointByLaneEnd</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>a244d34633710103c347ae96b63adfc83</anchor>
-      <arglist>(const maliput::api::LaneEnd &amp;lane_end, const std::vector&lt; std::unique_ptr&lt; maliput::geometry_base::BranchPoint &gt;&gt; &amp;bps)</arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>UniqueIntegerProvider</type>
-      <name>branch_point_indexer_</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>a0061540086ef18805d17b62a99036988</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>std::vector&lt; std::unique_ptr&lt; maliput::geometry_base::BranchPoint &gt; &gt;</type>
-      <name>bps_</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>adc984c5ca421733778c63d831287f260</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>std::map&lt; maliput::api::JunctionId, maliput::geometry_base::Junction * &gt;</type>
-      <name>junctions_</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder_base.html</anchorfile>
-      <anchor>acf9156ed60375ae77e6df03a786ddd57</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -6468,7 +6351,6 @@
   <compound kind="class">
     <name>malidrive::builder::RoadNetworkBuilder</name>
     <filename>classmalidrive_1_1builder_1_1_road_network_builder.html</filename>
-    <base>malidrive::builder::RoadNetworkBuilderBase</base>
     <member kind="function">
       <type></type>
       <name>MALIDRIVE_NO_COPY_NO_MOVE_NO_ASSIGN</name>
@@ -6494,54 +6376,8 @@
       <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>operator()</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_network_builder.html</anchorfile>
-      <anchor>a253b455305fb9df66d4412a257179a1e</anchor>
-      <arglist>() const override</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>malidrive::builder::RoadNetworkBuilderBase</name>
-    <filename>classmalidrive_1_1builder_1_1_road_network_builder_base.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>MALIDRIVE_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_network_builder_base.html</anchorfile>
-      <anchor>a350bed6e75a163c5fedebd5110f13088</anchor>
-      <arglist>(RoadNetworkBuilderBase)</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual</type>
-      <name>~RoadNetworkBuilderBase</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_network_builder_base.html</anchorfile>
-      <anchor>ab27c55f344984c4a74092e53b3bb76cf</anchor>
-      <arglist>()=default</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>RoadNetworkBuilderBase</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_network_builder_base.html</anchorfile>
-      <anchor>a484a534f25fafd0e858b63e5552d6094</anchor>
-      <arglist>(const std::map&lt; std::string, std::string &gt; &amp;road_network_configuration)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>RoadNetworkBuilderBase</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_network_builder_base.html</anchorfile>
-      <anchor>a5ff06895265cd92ee33a1c6b496bde3a</anchor>
-      <arglist>(const RoadNetworkConfiguration &amp;road_network_configuration)</arglist>
-    </member>
-    <member kind="function" virtualness="pure">
-      <type>virtual std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
-      <name>operator()</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_network_builder_base.html</anchorfile>
-      <anchor>a1c9352b8802a7fe2b59e741a2373f7c8</anchor>
-      <arglist>() const =0</arglist>
-    </member>
-    <member kind="variable" protection="protected">
-      <type>const std::map&lt; std::string, std::string &gt;</type>
-      <name>road_network_configuration_</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_network_builder_base.html</anchorfile>
-      <anchor>a7a3104ba4db6ef314dd06eb9c4ea4416</anchor>
-      <arglist></arglist>
+      <anchor>a39d1711392269d5130fa8ad50d184dab</anchor>
+      <arglist>() const</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -7374,10 +7210,8 @@
     <class kind="class">malidrive::builder::RoadCurveFactory</class>
     <class kind="class">malidrive::builder::RoadCurveFactoryBase</class>
     <class kind="class">malidrive::builder::RoadGeometryBuilder</class>
-    <class kind="class">malidrive::builder::RoadGeometryBuilderBase</class>
     <class kind="struct">malidrive::builder::RoadGeometryConfiguration</class>
     <class kind="class">malidrive::builder::RoadNetworkBuilder</class>
-    <class kind="class">malidrive::builder::RoadNetworkBuilderBase</class>
     <class kind="struct">malidrive::builder::RoadNetworkConfiguration</class>
     <class kind="class">malidrive::builder::RoadRuleBookBuilder</class>
     <class kind="class">malidrive::builder::RuleRegistryBuilder</class>

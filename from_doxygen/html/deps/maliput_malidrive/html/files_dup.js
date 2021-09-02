@@ -157,10 +157,6 @@ var files_dup =
     [ "road_geometry_builder.h", "road__geometry__builder_8h.html", [
       [ "RoadGeometryBuilder", "classmalidrive_1_1builder_1_1_road_geometry_builder.html", "classmalidrive_1_1builder_1_1_road_geometry_builder" ]
     ] ],
-    [ "road_geometry_builder_base.cc", "road__geometry__builder__base_8cc.html", null ],
-    [ "road_geometry_builder_base.h", "road__geometry__builder__base_8h.html", [
-      [ "RoadGeometryBuilderBase", "classmalidrive_1_1builder_1_1_road_geometry_builder_base.html", "classmalidrive_1_1builder_1_1_road_geometry_builder_base" ]
-    ] ],
     [ "road_geometry_configuration.cc", "road__geometry__configuration_8cc.html", "road__geometry__configuration_8cc" ],
     [ "road_geometry_configuration.h", "road__geometry__configuration_8h.html", "road__geometry__configuration_8h" ],
     [ "road_geometry_configuration_for_xodrs.cc", "road__geometry__configuration__for__xodrs_8cc.html", "road__geometry__configuration__for__xodrs_8cc" ],
@@ -176,9 +172,6 @@ var files_dup =
     [ "road_network_builder.cc", "road__network__builder_8cc.html", null ],
     [ "road_network_builder.h", "road__network__builder_8h.html", [
       [ "RoadNetworkBuilder", "classmalidrive_1_1builder_1_1_road_network_builder.html", "classmalidrive_1_1builder_1_1_road_network_builder" ]
-    ] ],
-    [ "road_network_builder_base.h", "road__network__builder__base_8h.html", [
-      [ "RoadNetworkBuilderBase", "classmalidrive_1_1builder_1_1_road_network_builder_base.html", "classmalidrive_1_1builder_1_1_road_network_builder_base" ]
     ] ],
     [ "road_network_configuration.cc", "road__network__configuration_8cc.html", null ],
     [ "road_network_configuration.h", "road__network__configuration_8h.html", [
