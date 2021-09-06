@@ -12,6 +12,7 @@ Maliput Malidrive
 =================
 
 * `RoadCurve design <from_doxygen/html/deps/maliput_malidrive/html/malidrive_road_curve_design.html>`_
+* `Tutorials <from_doxygen/html/deps/maliput_malidrive/html/tutorials.html>`_
 * `Maliput_malidrive C++ namespace <from_doxygen/html/deps/maliput_malidrive/html/namespacemalidrive.html>`_
 
 Dragway
