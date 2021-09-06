@@ -33,3 +33,18 @@ Integration tests
 =================
 
 * `Integration tests C++ files <from_doxygen/html/deps/maliput_integration_tests/html/files.html>`_
+
+Delphyne
+========
+
+* `Delphyne C++/Python namespace <from_doxygen/html/deps/delphyne/html/namespacedelphyne.html>`_
+
+Delphyne Gui
+============
+
+* `Delphyne Gui doc <from_doxygen/html/deps/delphyne_gui/html/index.html>`_
+
+Delphyne Demos
+==============
+
+* `Delphyne Demos doc <from_doxygen/html/deps/delphyne_demos/html/index.html>`_
