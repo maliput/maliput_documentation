@@ -75,6 +75,24 @@ jobs:
         fetch-depth: 0
         path: ${{ env.ROS_WS }}/src/drake_vendor
         token: ${{ secrets.MALIPUT_TOKEN }}
+    - uses: actions/checkout@v2
+      with:
+        repository: ToyotaResearchInstitute/delphyne
+        fetch-depth: 0
+        path: ${{ env.ROS_WS }}/src/delphyne
+        token: ${{ secrets.MALIPUT_TOKEN }}
+    - uses: actions/checkout@v2
+      with:
+        repository: ToyotaResearchInstitute/delphyne_gui
+        fetch-depth: 0
+        path: ${{ env.ROS_WS }}/src/delphyne_gui
+        token: ${{ secrets.MALIPUT_TOKEN }}
+    - uses: actions/checkout@v2
+      with:
+        repository: ToyotaResearchInstitute/delphyne_demos
+        fetch-depth: 0
+        path: ${{ env.ROS_WS }}/src/delphyne_demos
+        token: ${{ secrets.MALIPUT_TOKEN }}
     - name: check if dependencies have a matching branch
       shell: bash
       working-directory: ${{ env.ROS_WS }}/src

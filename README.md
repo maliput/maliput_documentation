@@ -12,6 +12,9 @@ this repository gathers documentation from:
  - [maliput_multilane](https://github.com/ToyotaResearchInstitute/maliput_multilane)
  - [maliput_integration](https://github.com/ToyotaResearchInstitute/maliput_integration)
  - [maliput_integration_tests](https://github.com/ToyotaResearchInstitute/maliput_integration_tests)
+ - [delphyne](https://github.com/ToyotaResearchInstitute/delphyne)
+ - [delphyne_gui](https://github.com/ToyotaResearchInstitute/delphyne_gui)
+ - [delphyne_demos](https://github.com/ToyotaResearchInstitute/delphyne_demos)
 
 
 # Build documentation

@@ -12,5 +12,5 @@ ament_doxygen_generate(doxygen_maliput_docs
   BUILD_DIRECTORY ${SPHINX_BUILD}/from_doxygen
   DEPENDENCIES maliput maliput_dragway maliput_malidrive
                maliput_multilane maliput_integration
-               maliput_integration_tests
+               maliput_integration_tests delphyne delphyne_gui delphyne_demos
 )
