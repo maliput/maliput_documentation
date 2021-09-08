@@ -8,8 +8,8 @@ Installation and Quickstart
 Introduction
 ============
 
-This section explains how to build a workspace for ``maliput`` development. You'll find how to work
-with ``maliput`` and with ``delphyne`` repositories in a multi-repository workspace.
+This section explains how to build a workspace for ``maliput`` development. You'll learn how to work with ``maliput``
+and with ``delphyne`` repositories in a multi-repository workspace.
 
 Workspaces
 ==========
@@ -18,12 +18,11 @@ Supported platforms
 -------------------
 
 
-* Docker containerized workspaces (**recommended**): A docker image is provided in order to
-  show the steps needed to set up the environment in a containerized workspace.
-  When setting up docker, do *not* add yourself to the "docker" group
+* Docker containerized workspaces (**recommended**): A docker image is provided in order to show the steps needed to set
+  up the environment in a containerized workspace. When setting up docker, do *not* add yourself to the "docker" group
   since that represents a security risk
   (`it is equivalent to password-less sudo <https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user>`_).
-  The instructions below use ``sudo`` for building the image and running the container as a workaround.
+  As a workaround, the instructions below use ``sudo`` for building the image and running the container.
 * Non-containerized workspaces: Ubuntu Bionic Beaver 18.04 LTS only.
 
 Prerequisites
@@ -48,18 +47,29 @@ Prerequisites
 * Containerized workspaces require having `docker engine <https://docs.docker.com/engine/install/>`_ installed in host machine.
   Also, you can use ``nvidia-docker2``. Follow their `instructions <https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker>`_ if you want to install it.
 
-Usage instructions
+Workspace creation
 ------------------
 
 The following assumes that you want to create a workspace containing all of Maliput's repositories, with a focus on
 Maliput and Malidrive development. As such, it uses a workspace directory named ``maliput_ws`` and pulls
-sources from `maliput.repos <hhttps://github.com/ToyotaResearchInstitute/repos_index/blob/main/dashing/maliput.repos>`_.
-The instructions also provide information on how to bring ``delphyne`` repositories if needed, and satisfy their
-dependencies. You can of course substitute the ``maliput_ws`` directory name with a name of your own choosing, and opt
-out of including ``delphyne`` in your workspace.
+sources from `dashing/maliput.repos <hhttps://github.com/ToyotaResearchInstitute/repos_index/blob/main/dashing/maliput.repos>`_
+or `foxy/maliput.repos <hhttps://github.com/ToyotaResearchInstitute/repos_index/blob/main/foxy/maliput.repos>`_.
 
-Create a workspace
-^^^^^^^^^^^^^^^^^^
+If you are using ROS 2 Foxy, the instructions also cover how to optionally add ``delphyne`` repositories into your
+workspace. These repositories include a simulator and visualizer useful when working with Maliput road networks.
+
+The instructions below first cover how to create a non-containerized workspace, followed by a containerized workspace.
+Note that using a containerized workspace is recommended.
+
+.. _create-a-non-containerized-workspace:
+
+Option 1: Create a non-containerized workspace
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The following creates a non-containerized workspace. Follow it if you are willing to install Maliput and its
+dependencies directly in your base operating system. Bear in mind that using a non-containerized workspace makes
+reproducing and troubleshooting issues harder for others. If in doubt, install your workspace within a container by
+following the instructions in the subsequent "Option 2" section.
 
 .. _create-the-workspace-folder:
 
@@ -79,24 +89,24 @@ Create the workspace folder
 Copy .repos file
 """"""""""""""""
 
-**For dashing:** copy ``repos_index/dashing/maliput.repos`` into ``maliput_ws``. It will be used to add the Maliput-related repositories to the workspace.
+**For ROS 2 Dashing:** copy ``repos_index/dashing/maliput.repos`` into ``maliput_ws``. It will be used to add the Maliput-related repositories to the workspace.
 
 .. code-block:: sh
 
     cp repos_index/dashing/maliput.repos maliput_ws/
 
-**For foxy:** copy ``repos_index/foxy/maliput.repos`` into ``maliput_ws``. It will be used to add the Maliput-related repositories to the workspace.
+**For ROS 2 Foxy:** copy ``repos_index/foxy/maliput.repos`` into ``maliput_ws``. It will be used to add the Maliput-related repositories to the workspace.
 
 .. code-block:: sh
 
     cp repos_index/foxy/maliput.repos maliput_ws/
 
-.. note::
-  To add Delphyne-related repositories to your workspace:
+.. Note::
+  If you are using ROS 2 Foxy, you can optionally add Delphyne-related repositories to your workspace:
 
   .. code-block:: sh
 
-      cp repos_index/dashing/delphyne.repos maliput_ws/
+      cp repos_index/foxy/delphyne.repos maliput_ws/
 
 
 Install dependencies
@@ -193,13 +203,18 @@ Source ROS environment
 
     source /opt/ros/$ROS_DISTRO/setup.bash
 
-.. _create-a-contenerized-workspace:
+.. _create-a-containerized-workspace:
 
-Optional: Create a containerized workspace
+Option 2: Create a containerized workspace
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To configure your workspace in a container, the steps are pretty similar. We provide the necessary machinery to
-``build`` and ``run`` a docker image and container:
+The following creates a containerized workspace. Maliput and its dependencies remain in the container and do not impact
+your operating system. Likewise, packages installed on your operating system do not impact the container. The uniformity
+of the container's environment makes it easier for other developers to reproduce and resolve problems you may encounter.
+
+Configuring a containerized workspace is similar to that of a non-containerized workspace. When the steps are identical,
+links to the non-containerized setup instructions are used. Machinery is provided to ``build`` and ``run`` a docker
+image and container for Maliput workspace development:
 
 .. _build-the-docker-image:
 
@@ -278,10 +293,6 @@ During docker build stage a script is copied into the container at ``/home/$USER
 
 :ref:`source-ros-environment`
 """""""""""""""""""""""""""""
-
-
-.. note::
-  Bear in mind that using a non-containerized workspace makes reproducing and troubleshooting issues harder for others.
 
 .. _staging-changes-in-your-container:
 
