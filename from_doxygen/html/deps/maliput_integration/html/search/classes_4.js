@@ -1,11 +1,13 @@
 var searchData=
 [
-  ['endlane_1350',['EndLane',['../../../maliput_multilane/html/classmaliput_1_1multilane_1_1_end_lane.html',1,'maliput::multilane']]],
-  ['endlanespecmatcher_1351',['EndLaneSpecMatcher',['../../../maliput_multilane/html/classmaliput_1_1multilane_1_1test_1_1_end_lane_spec_matcher.html',1,'maliput::multilane::test']]],
-  ['endpoint_1352',['Endpoint',['../../../maliput_multilane/html/classmaliput_1_1multilane_1_1_endpoint.html',1,'maliput::multilane']]],
-  ['endpointxy_1353',['EndpointXy',['../../../maliput_multilane/html/classmaliput_1_1multilane_1_1_endpoint_xy.html',1,'maliput::multilane']]],
-  ['endpointz_1354',['EndpointZ',['../../../maliput_multilane/html/classmaliput_1_1multilane_1_1_endpoint_z.html',1,'maliput::multilane']]],
-  ['endreference_1355',['EndReference',['../../../maliput_multilane/html/classmaliput_1_1multilane_1_1_end_reference.html',1,'maliput::multilane']]],
-  ['endreferencespecmatcher_1356',['EndReferenceSpecMatcher',['../../../maliput_multilane/html/classmaliput_1_1multilane_1_1test_1_1_end_reference_spec_matcher.html',1,'maliput::multilane::test']]],
-  ['equiv_1357',['Equiv',['../../../maliput/html/structmaliput_1_1utility_1_1mesh_1_1_geo_vertex_1_1_equiv.html',1,'Equiv'],['../../../maliput/html/structmaliput_1_1utility_1_1mesh_1_1_geo_normal_1_1_equiv.html',1,'Equiv']]]
+  ['elevation_1928',['Elevation',['../../../maliput_malidrive/html/structmalidrive_1_1xodr_1_1_elevation_profile_1_1_elevation.html',1,'malidrive::xodr::ElevationProfile']]],
+  ['elevationprofile_1929',['ElevationProfile',['../../../maliput_malidrive/html/structmalidrive_1_1xodr_1_1_elevation_profile.html',1,'malidrive::xodr']]],
+  ['endlane_1930',['EndLane',['../../../maliput_multilane/html/classmaliput_1_1multilane_1_1_end_lane.html',1,'maliput::multilane']]],
+  ['endlanespecmatcher_1931',['EndLaneSpecMatcher',['../../../maliput_multilane/html/classmaliput_1_1multilane_1_1test_1_1_end_lane_spec_matcher.html',1,'maliput::multilane::test']]],
+  ['endpoint_1932',['Endpoint',['../../../maliput_multilane/html/classmaliput_1_1multilane_1_1_endpoint.html',1,'maliput::multilane']]],
+  ['endpointxy_1933',['EndpointXy',['../../../maliput_multilane/html/classmaliput_1_1multilane_1_1_endpoint_xy.html',1,'maliput::multilane']]],
+  ['endpointz_1934',['EndpointZ',['../../../maliput_multilane/html/classmaliput_1_1multilane_1_1_endpoint_z.html',1,'maliput::multilane']]],
+  ['endreference_1935',['EndReference',['../../../maliput_multilane/html/classmaliput_1_1multilane_1_1_end_reference.html',1,'maliput::multilane']]],
+  ['endreferencespecmatcher_1936',['EndReferenceSpecMatcher',['../../../maliput_multilane/html/classmaliput_1_1multilane_1_1test_1_1_end_reference_spec_matcher.html',1,'maliput::multilane::test']]],
+  ['equiv_1937',['Equiv',['../../../maliput/html/structmaliput_1_1utility_1_1mesh_1_1_geo_vertex_1_1_equiv.html',1,'Equiv'],['../../../maliput/html/structmaliput_1_1utility_1_1mesh_1_1_geo_normal_1_1_equiv.html',1,'Equiv']]]
 ];

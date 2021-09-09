@@ -12,7 +12,7 @@ var indexSectionsWithContent =
   9: "ho",
   10: "ms",
   11: "clm",
-  12: "m"
+  12: "mtx"
 };
 
 var indexSectionNames =

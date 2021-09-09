@@ -162,7 +162,7 @@ Related Functions</h2></td></tr>
 <tr><td class="ititle" colspan="2"><p>(Note that these are not member functions.) </p>
 </td></tr>
 <tr class="memitem:ae4810092d5fdfca56f482a22ba061ce9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1common_1_1_logger.html#ae4810092d5fdfca56f482a22ba061ce9">set_log_level</a> (const std::string &amp;level)</td></tr>
-<tr class="memdesc:ae4810092d5fdfca56f482a22ba061ce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invokes <code><a class="el" href="namespacemaliput.html#a3f89d574d0d51e9df0f5b437e0c122fc" title="Retrieve an instance of a logger to use for logger.">maliput::log()</a>-&gt;set_level(level)</code>.  <a href="classmaliput_1_1common_1_1_logger.html#ae4810092d5fdfca56f482a22ba061ce9">More...</a><br /></td></tr>
+<tr class="memdesc:ae4810092d5fdfca56f482a22ba061ce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invokes <code><a class="el" href="namespacemaliput.html#a8d79f56feceef38ffe51eb5e0a1e1b03">maliput::log()</a>-&gt;set_level(level)</code>.  <a href="classmaliput_1_1common_1_1_logger.html#ae4810092d5fdfca56f482a22ba061ce9">More...</a><br /></td></tr>
 <tr class="separator:ae4810092d5fdfca56f482a22ba061ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f89d574d0d51e9df0f5b437e0c122fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput_1_1common_1_1_logger.html">common::Logger</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1common_1_1_logger.html#a3f89d574d0d51e9df0f5b437e0c122fc">log</a> ()</td></tr>
 <tr class="memdesc:a3f89d574d0d51e9df0f5b437e0c122fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve an instance of a logger to use for logger.  <a href="classmaliput_1_1common_1_1_logger.html#a3f89d574d0d51e9df0f5b437e0c122fc">More...</a><br /></td></tr>
@@ -318,6 +318,7 @@ Related Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Retrieve an instance of a logger to use for logger. </p>
+<p>See <a class="el" href="classmaliput_1_1common_1_1_logger.html" title="A logger class implementation.">Logger</a>. </p>
 
 </div>
 </div>
@@ -345,7 +346,8 @@ Related Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Invokes <code><a class="el" href="namespacemaliput.html#a3f89d574d0d51e9df0f5b437e0c122fc" title="Retrieve an instance of a logger to use for logger.">maliput::log()</a>-&gt;set_level(level)</code>. </p>
+<p>Invokes <code><a class="el" href="namespacemaliput.html#a8d79f56feceef38ffe51eb5e0a1e1b03">maliput::log()</a>-&gt;set_level(level)</code>. </p>
+<p>See <a class="el" href="classmaliput_1_1common_1_1_logger.html" title="A logger class implementation.">Logger</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">level</td><td>Must be a string from the level enumerations: <code>trace</code>, <code>debug</code>, <code>info</code>, <code>warning</code>, <code>error</code>, <code>critical</code> or <code>off</code>. </td></tr>
@@ -355,7 +357,7 @@ Related Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The string value of the previous log level.</dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">std::out_of_range</td><td>When <code>level</code> is not one of the predefined values.</td></tr>
+    <tr><td class="paramname">std::out_of_range</td><td>When <code>level</code> is not one of the predefined values. </td></tr>
   </table>
   </dd>
 </dl>

@@ -43,6 +43,7 @@ var NAVTREE =
         [ "Continuity requirements", "malidrive_road_curve_design.html#continuity_requirements", null ]
       ] ]
     ] ],
+    [ "Tutorials", "tutorials.html", "tutorials" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [

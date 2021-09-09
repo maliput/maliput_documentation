@@ -14,8 +14,6 @@ var logger_8h =
       [ "critical", "logger_8h.html#afde8e18a788ccc92fc61cab298bca7e3a5fe0ea375791d13455a34f3d40dc9c7d", null ],
       [ "unchanged", "logger_8h.html#afde8e18a788ccc92fc61cab298bca7e3a4fb8437e3610883e3ac68ffe75ab521d", null ]
     ] ],
-    [ "log", "logger_8h.html#a3f89d574d0d51e9df0f5b437e0c122fc", null ],
-    [ "set_log_level", "logger_8h.html#ae4810092d5fdfca56f482a22ba061ce9", null ],
     [ "kLevelToMessage", "logger_8h.html#a4015c7b3d782510e3fc09658157df199", null ],
     [ "kLevelToString", "logger_8h.html#ab81b119f214f87c2b6af1d30dea096e0", null ],
     [ "kStringToLevel", "logger_8h.html#ae1c3da69b2be6b9ffbe88cc03856aa60", null ]

@@ -1,5 +1,5 @@
 var logger_8cc =
 [
-    [ "log", "logger_8cc.html#a3f89d574d0d51e9df0f5b437e0c122fc", null ],
-    [ "set_log_level", "logger_8cc.html#ae4810092d5fdfca56f482a22ba061ce9", null ]
+    [ "log", "logger_8cc.html#a8d79f56feceef38ffe51eb5e0a1e1b03", null ],
+    [ "set_log_level", "logger_8cc.html#a7783f3769985bc4aab7193b525bb4411", null ]
 ];

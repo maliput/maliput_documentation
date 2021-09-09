@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['type_2763',['Type',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state.html#a1d1cfd8ffb84e947f82999c682b666a7',1,'maliput::api::rules::DirectionUsageRule::State::Type()'],['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_1_1_state.html#a1d1cfd8ffb84e947f82999c682b666a7',1,'maliput::api::rules::RightOfWayRule::State::Type()'],['../../../maliput_multilane/html/classmaliput_1_1multilane_1_1_connection.html#a1d1cfd8ffb84e947f82999c682b666a7',1,'maliput::multilane::Connection::Type()']]]
+  ['maliputimplementation_3882',['MaliputImplementation',['../namespacemaliput_1_1integration.html#a78ee0565a11069e8c15b544bb43dd841',1,'maliput::integration']]],
+  ['maliputplugintype_3883',['MaliputPluginType',['../../../maliput/html/namespacemaliput_1_1plugin.html#a2afd58b120b90956eefe0e19727605d7',1,'maliput::plugin']]],
+  ['materialtype_3884',['MaterialType',['../../../maliput/html/namespacemaliput_1_1utility.html#ace55764233310da429c994a8c334b32a',1,'maliput::utility']]]
 ];

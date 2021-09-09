@@ -151,15 +151,14 @@ Macros</h2></td></tr>
 <div class="line">  }</div>
 </div><!-- fragment -->
 <p>MALIPUT_DECLARE_COPY_AND_MOVE_AND_ASSIGN declares (but does not define) the special member functions for copy-construction, copy-assignment, move-construction, and move-assignment. </p>
-<p>This is useful when paired with MALIPUT_DEFINE_DEFAULT_COPY_AND_MOVE_AND_ASSIGN_T to work around <a href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=57728">https://gcc.gnu.org/bugzilla/show_bug.cgi?id=57728</a> whereby the declaration and definition must be split. Once Maliput no longer supports GCC versions prior to 6.3, this macro could be removed. Invoke this this macro in the public section of the class declaration, e.g.: </p><pre>
-template &lt;typename T&gt;
-class Foo {
- public:
-  <a class="el" href="maliput__copyable_8h.html#ac47af45bec7bdae67bdfe8b3a56cfda1" title="MALIPUT_DECLARE_COPY_AND_MOVE_AND_ASSIGN declares (but does not define) the special member functions ...">MALIPUT_DECLARE_COPY_AND_MOVE_AND_ASSIGN(Foo)</a>
-  // ...
-};
-<a class="el" href="maliput__copyable_8h.html#a57b69054bb865b7a05a0cc2f7f9d7457" title="Helper for MALIPUT_DECLARE_COPY_AND_MOVE_AND_ASSIGN.">MALIPUT_DEFINE_DEFAULT_COPY_AND_MOVE_AND_ASSIGN_T(Foo)</a>
-</pre> 
+<p>This is useful when paired with MALIPUT_DEFINE_DEFAULT_COPY_AND_MOVE_AND_ASSIGN_T to work around <a href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=57728">https://gcc.gnu.org/bugzilla/show_bug.cgi?id=57728</a> whereby the declaration and definition must be split. Once Maliput no longer supports GCC versions prior to 6.3, this macro could be removed. Invoke this macro in the public section of the class declaration, e.g.: </p><div class="fragment"><div class="line"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><span class="keyword">class </span>Foo {</div>
+<div class="line"> <span class="keyword">public</span>:</div>
+<div class="line">  <a class="code" href="maliput__copyable_8h.html#ac47af45bec7bdae67bdfe8b3a56cfda1">MALIPUT_DECLARE_COPY_AND_MOVE_AND_ASSIGN</a>(Foo)</div>
+<div class="line">  <span class="comment">// ...</span></div>
+<div class="line">};</div>
+<div class="line"><a class="code" href="maliput__copyable_8h.html#a57b69054bb865b7a05a0cc2f7f9d7457">MALIPUT_DEFINE_DEFAULT_COPY_AND_MOVE_AND_ASSIGN_T</a>(Foo)</div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a id="a87b35cab8854c998b5137bd72f61f188"></a>
@@ -187,13 +186,12 @@ class Foo {
 <div class="line">  }</div>
 </div><!-- fragment -->
 <p>MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN defaults the special member functions for copy-construction, copy-assignment, move-construction, and move-assignment. </p>
-<p>This macro should be used only when copy-construction and copy-assignment defaults are well-formed. Note that the defaulted move functions could conceivably still be ill-formed, in which case they will effectively not be declared or used &ndash; but because the copy constructor exists the type will still be MoveConstructible. Invoke this this macro in the public section of the class declaration, e.g.: </p><pre>
-class Foo {
- public:
-  <a class="el" href="maliput__copyable_8h.html#a87b35cab8854c998b5137bd72f61f188" title="MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN defaults the special member functions for copy-construction,...">MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN(Foo)</a>
-  // ...
-};
-</pre> 
+<p>This macro should be used only when copy-construction and copy-assignment defaults are well-formed. Note that the defaulted move functions could conceivably still be ill-formed, in which case they will effectively not be declared or used &ndash; but because the copy constructor exists the type will still be MoveConstructible. Invoke this this macro in the public section of the class declaration, e.g.: </p><div class="fragment"><div class="line"><span class="keyword">class </span>Foo {</div>
+<div class="line"> <span class="keyword">public</span>:</div>
+<div class="line">  <a class="code" href="maliput__copyable_8h.html#a87b35cab8854c998b5137bd72f61f188">MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</a>(Foo)</div>
+<div class="line">  <span class="comment">// ...</span></div>
+<div class="line">};</div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a id="a57b69054bb865b7a05a0cc2f7f9d7457"></a>
@@ -246,17 +244,20 @@ class Foo {
 <div class="line">  void operator=(Classname&amp;&amp;) = <span class="keyword">delete</span>;</div>
 </div><!-- fragment -->
 <p>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN deletes the special member functions for copy-construction, copy-assignment, move-construction, and move-assignment. </p>
-<p>Invoke this this macro in the public section of the class declaration, e.g.: </p><pre>
-class Foo {
- public:
-  <a class="el" href="maliput__copyable_8h.html#ac8fc299c8acfe1580b85175659df1ffc" title="MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN deletes the special member functions for copy-construction,...">MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN(Foo)</a>
-  // ...
-};
-</pre> 
+<p>Invoke this this macro in the public section of the class declaration, e.g.: </p><div class="fragment"><div class="line"><span class="keyword">class </span>Foo {</div>
+<div class="line"> <span class="keyword">public</span>:</div>
+<div class="line">  <a class="code" href="maliput__copyable_8h.html#ac8fc299c8acfe1580b85175659df1ffc">MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</a>(Foo)</div>
+<div class="line">  <span class="comment">// ...</span></div>
+<div class="line">};</div>
+</div><!-- fragment --> 
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="amaliput__copyable_8h_html_ac47af45bec7bdae67bdfe8b3a56cfda1"><div class="ttname"><a href="maliput__copyable_8h.html#ac47af45bec7bdae67bdfe8b3a56cfda1">MALIPUT_DECLARE_COPY_AND_MOVE_AND_ASSIGN</a></div><div class="ttdeci">#define MALIPUT_DECLARE_COPY_AND_MOVE_AND_ASSIGN(Classname)</div><div class="ttdoc">MALIPUT_DECLARE_COPY_AND_MOVE_AND_ASSIGN declares (but does not define) the special member functions ...</div><div class="ttdef"><b>Definition:</b> maliput_copyable.h:112</div></div>
+<div class="ttc" id="amaliput__copyable_8h_html_ac8fc299c8acfe1580b85175659df1ffc"><div class="ttname"><a href="maliput__copyable_8h.html#ac8fc299c8acfe1580b85175659df1ffc">MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</a></div><div class="ttdeci">#define MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN(Classname)</div><div class="ttdoc">MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN deletes the special member functions for copy-construction,...</div><div class="ttdef"><b>Definition:</b> maliput_copyable.h:62</div></div>
+<div class="ttc" id="amaliput__copyable_8h_html_a57b69054bb865b7a05a0cc2f7f9d7457"><div class="ttname"><a href="maliput__copyable_8h.html#a57b69054bb865b7a05a0cc2f7f9d7457">MALIPUT_DEFINE_DEFAULT_COPY_AND_MOVE_AND_ASSIGN_T</a></div><div class="ttdeci">#define MALIPUT_DEFINE_DEFAULT_COPY_AND_MOVE_AND_ASSIGN_T(Classname)</div><div class="ttdoc">Helper for MALIPUT_DECLARE_COPY_AND_MOVE_AND_ASSIGN.</div><div class="ttdef"><b>Definition:</b> maliput_copyable.h:125</div></div>
+<div class="ttc" id="amaliput__copyable_8h_html_a87b35cab8854c998b5137bd72f61f188"><div class="ttname"><a href="maliput__copyable_8h.html#a87b35cab8854c998b5137bd72f61f188">MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</a></div><div class="ttdeci">#define MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN(Classname)</div><div class="ttdoc">MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN defaults the special member functions for copy-construction,...</div><div class="ttdef"><b>Definition:</b> maliput_copyable.h:84</div></div>
 <!-- HTML footer for doxygen 1.8.15 -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

@@ -988,14 +988,14 @@
       <type>std::string</type>
       <name>set_log_level</name>
       <anchorfile>namespacemaliput_1_1common.html</anchorfile>
-      <anchor>ae4810092d5fdfca56f482a22ba061ce9</anchor>
+      <anchor>a7783f3769985bc4aab7193b525bb4411</anchor>
       <arglist>(const std::string &amp;level)</arglist>
     </member>
     <member kind="function">
       <type>common::Logger *</type>
       <name>log</name>
       <anchorfile>namespacemaliput.html</anchorfile>
-      <anchor>a3f89d574d0d51e9df0f5b437e0c122fc</anchor>
+      <anchor>a8d79f56feceef38ffe51eb5e0a1e1b03</anchor>
       <arglist>()</arglist>
     </member>
   </compound>
@@ -1066,20 +1066,6 @@
       <anchorfile>namespacemaliput_1_1common_1_1logger.html</anchorfile>
       <anchor>afde8e18a788ccc92fc61cab298bca7e3a4fb8437e3610883e3ac68ffe75ab521d</anchor>
       <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>std::string</type>
-      <name>set_log_level</name>
-      <anchorfile>namespacemaliput_1_1common.html</anchorfile>
-      <anchor>ae4810092d5fdfca56f482a22ba061ce9</anchor>
-      <arglist>(const std::string &amp;level)</arglist>
-    </member>
-    <member kind="function">
-      <type>common::Logger *</type>
-      <name>log</name>
-      <anchorfile>namespacemaliput.html</anchorfile>
-      <anchor>a3f89d574d0d51e9df0f5b437e0c122fc</anchor>
-      <arglist>()</arglist>
     </member>
     <member kind="variable">
       <type>const std::map&lt; std::string, logger::level &gt;</type>
@@ -1328,60 +1314,18 @@
     <namespace>maliput::math</namespace>
     <namespace>maliput::math::test</namespace>
     <member kind="function">
-      <type>::testing::AssertionResult</type>
+      <type>testing::AssertionResult</type>
       <name>CompareVectors</name>
       <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>a3e1531ddc8d5f486b7cb38eb70225225</anchor>
+      <anchor>a01c88aed5bc87c60290e8bf68222d5e8</anchor>
       <arglist>(const math::VectorBase&lt; N, Derived &gt; &amp;v1, const math::VectorBase&lt; N, Derived &gt; &amp;v2, double tolerance=0.0, CompareType compare_type=CompareType::kAbsolute)</arglist>
     </member>
     <member kind="function">
-      <type>::testing::AssertionResult</type>
+      <type>testing::AssertionResult</type>
       <name>CompareMatrices</name>
       <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>afaa7cf7bd9bb21a646e4400b70fbe176</anchor>
+      <anchor>ade5f658726dea18b7e094ac499ece140</anchor>
       <arglist>(const math::Matrix&lt; N &gt; &amp;m1, const math::Matrix&lt; N &gt; &amp;m2, double tolerance=0.0, CompareType compare_type=CompareType::kAbsolute)</arglist>
-    </member>
-    <member kind="function">
-      <type>template ::testing::AssertionResult</type>
-      <name>CompareVectors</name>
-      <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>a54a5c436fdff582d57244f4de5731e1a</anchor>
-      <arglist>(const VectorBase&lt; 2, Vector2 &gt; &amp;, const VectorBase&lt; 2, Vector2 &gt; &amp;, double, CompareType)</arglist>
-    </member>
-    <member kind="function">
-      <type>template ::testing::AssertionResult</type>
-      <name>CompareVectors</name>
-      <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>a47e71afde9e736fed9b4a91d045b5ef7</anchor>
-      <arglist>(const VectorBase&lt; 3, Vector3 &gt; &amp;, const VectorBase&lt; 3, Vector3 &gt; &amp;, double, CompareType)</arglist>
-    </member>
-    <member kind="function">
-      <type>template ::testing::AssertionResult</type>
-      <name>CompareVectors</name>
-      <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>ab37eafb2f535bd63b98f40b29d67622f</anchor>
-      <arglist>(const VectorBase&lt; 4, Vector4 &gt; &amp;, const VectorBase&lt; 4, Vector4 &gt; &amp;, double, CompareType)</arglist>
-    </member>
-    <member kind="function">
-      <type>template ::testing::AssertionResult</type>
-      <name>CompareMatrices</name>
-      <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>a00ce9d6e7c8007fa6c4fccf24837769a</anchor>
-      <arglist>(const Matrix&lt; 2 &gt; &amp;, const Matrix&lt; 2 &gt; &amp;, double, CompareType)</arglist>
-    </member>
-    <member kind="function">
-      <type>template ::testing::AssertionResult</type>
-      <name>CompareMatrices</name>
-      <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>aea08543949fcb56c5b4e4f03c6b45d39</anchor>
-      <arglist>(const Matrix&lt; 3 &gt; &amp;, const Matrix&lt; 3 &gt; &amp;, double, CompareType)</arglist>
-    </member>
-    <member kind="function">
-      <type>template ::testing::AssertionResult</type>
-      <name>CompareMatrices</name>
-      <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>adb797a87c38febdfd33dabcf2d5c74e7</anchor>
-      <arglist>(const Matrix&lt; 4 &gt; &amp;, const Matrix&lt; 4 &gt; &amp;, double, CompareType)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -1402,17 +1346,17 @@
       <enumvalue file="namespacemaliput_1_1math_1_1test.html" anchor="afbc5396d9a88c41d6aeb522b9f06f426af460a96ab20647996c15854794763384">kRelative</enumvalue>
     </member>
     <member kind="function">
-      <type>::testing::AssertionResult</type>
+      <type>testing::AssertionResult</type>
       <name>CompareVectors</name>
       <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>a3e1531ddc8d5f486b7cb38eb70225225</anchor>
+      <anchor>a01c88aed5bc87c60290e8bf68222d5e8</anchor>
       <arglist>(const math::VectorBase&lt; N, Derived &gt; &amp;v1, const math::VectorBase&lt; N, Derived &gt; &amp;v2, double tolerance=0.0, CompareType compare_type=CompareType::kAbsolute)</arglist>
     </member>
     <member kind="function">
-      <type>::testing::AssertionResult</type>
+      <type>testing::AssertionResult</type>
       <name>CompareMatrices</name>
       <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>afaa7cf7bd9bb21a646e4400b70fbe176</anchor>
+      <anchor>ade5f658726dea18b7e094ac499ece140</anchor>
       <arglist>(const math::Matrix&lt; N &gt; &amp;m1, const math::Matrix&lt; N &gt; &amp;m2, double tolerance=0.0, CompareType compare_type=CompareType::kAbsolute)</arglist>
     </member>
   </compound>
@@ -3233,6 +3177,13 @@
       <type>::testing::AssertionResult</type>
       <name>IsEqual</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
+      <anchor>a10225f2e24c3fe2c949532f7976a92ba</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; Rule::Id, DiscreteValueRule::DiscreteValue &gt; &amp;a, const std::unordered_map&lt; Rule::Id, DiscreteValueRule::DiscreteValue &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
       <anchor>a9e0da5c969777a22258174c72ab212ac</anchor>
       <arglist>(const char *a_expression, const char *b_expression, const std::optional&lt; BulbStates &gt; &amp;a, const std::optional&lt; BulbStates &gt; &amp;b)</arglist>
     </member>
@@ -3275,6 +3226,13 @@
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
       <anchor>ae0b5f4db42632abd9627bbe9b7cf47dd</anchor>
       <arglist>(const char *a_expression, const char *b_expression, const RuleStates &amp;a, const RuleStates &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
+      <anchor>a10225f2e24c3fe2c949532f7976a92ba</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; Rule::Id, DiscreteValueRule::DiscreteValue &gt; &amp;a, const std::unordered_map&lt; Rule::Id, DiscreteValueRule::DiscreteValue &gt; &amp;b)</arglist>
     </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>
@@ -4400,8 +4358,8 @@
       <type>::testing::AssertionResult</type>
       <name>IsEqual</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ae0b5f4db42632abd9627bbe9b7cf47dd</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const RuleStates &amp;a, const RuleStates &amp;b)</arglist>
+      <anchor>aef9bf12902571cf1ba34c35a362d71ef</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; TrafficLight::Id, std::vector&lt; BulbGroup::Id &gt;&gt; &amp;a, const std::unordered_map&lt; TrafficLight::Id, std::vector&lt; BulbGroup::Id &gt;&gt; &amp;b)</arglist>
     </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>
@@ -4454,8 +4412,8 @@
       <type>::testing::AssertionResult</type>
       <name>IsEqual</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ae0b5f4db42632abd9627bbe9b7cf47dd</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const RuleStates &amp;a, const RuleStates &amp;b)</arglist>
+      <anchor>aef9bf12902571cf1ba34c35a362d71ef</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; TrafficLight::Id, std::vector&lt; BulbGroup::Id &gt;&gt; &amp;a, const std::unordered_map&lt; TrafficLight::Id, std::vector&lt; BulbGroup::Id &gt;&gt; &amp;b)</arglist>
     </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>
@@ -15251,13 +15209,6 @@
       <arglist>(const YAML::Node &amp;node)</arglist>
     </member>
     <member kind="function">
-      <type>common::Logger *</type>
-      <name>log</name>
-      <anchorfile>namespacemaliput.html</anchorfile>
-      <anchor>a3f89d574d0d51e9df0f5b437e0c122fc</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
       <type>std::unique_ptr&lt; api::rules::PhaseRingBook &gt;</type>
       <name>LoadPhaseRingBook</name>
       <anchorfile>namespacemaliput.html</anchorfile>
@@ -15270,6 +15221,13 @@
       <anchorfile>namespacemaliput.html</anchorfile>
       <anchor>a265cddc5edae1f57e02d03499c4c29c5</anchor>
       <arglist>(const RoadRulebook *rulebook, const TrafficLightBook *traffic_light_book, const std::string &amp;filename)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::Logger *</type>
+      <name>log</name>
+      <anchorfile>namespacemaliput.html</anchorfile>
+      <anchor>a8d79f56feceef38ffe51eb5e0a1e1b03</anchor>
+      <arglist>()</arglist>
     </member>
   </compound>
   <compound kind="namespace">
@@ -15522,6 +15480,13 @@
       <type>::testing::AssertionResult</type>
       <name>IsEqual</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
+      <anchor>a10225f2e24c3fe2c949532f7976a92ba</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; Rule::Id, DiscreteValueRule::DiscreteValue &gt; &amp;a, const std::unordered_map&lt; Rule::Id, DiscreteValueRule::DiscreteValue &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
       <anchor>a9e0da5c969777a22258174c72ab212ac</anchor>
       <arglist>(const char *a_expression, const char *b_expression, const std::optional&lt; BulbStates &gt; &amp;a, const std::optional&lt; BulbStates &gt; &amp;b)</arglist>
     </member>
@@ -15643,6 +15608,13 @@
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
       <anchor>a2d300c7ba8e56cf43df127a48a46be58</anchor>
       <arglist>(const char *a_expression, const char *b_expression, const rules::RightOfWayRule::State &amp;a, const rules::RightOfWayRule::State &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
+      <anchor>aef9bf12902571cf1ba34c35a362d71ef</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; TrafficLight::Id, std::vector&lt; BulbGroup::Id &gt;&gt; &amp;a, const std::unordered_map&lt; TrafficLight::Id, std::vector&lt; BulbGroup::Id &gt;&gt; &amp;b)</arglist>
     </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>
@@ -16258,13 +16230,6 @@
       <arglist></arglist>
     </member>
     <member kind="function">
-      <type>std::string</type>
-      <name>set_log_level</name>
-      <anchorfile>namespacemaliput_1_1common.html</anchorfile>
-      <anchor>ae4810092d5fdfca56f482a22ba061ce9</anchor>
-      <arglist>(const std::string &amp;level)</arglist>
-    </member>
-    <member kind="function">
       <type>std::enable_if_t&lt; std::is_integral&lt; T &gt;::value &gt;</type>
       <name>hash_append</name>
       <anchorfile>namespacemaliput_1_1common.html</anchorfile>
@@ -16333,6 +16298,13 @@
       <anchorfile>namespacemaliput_1_1common.html</anchorfile>
       <anchor>af4f9479a48d8c6a544754428a183a423</anchor>
       <arglist>(const Args &amp;...)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>set_log_level</name>
+      <anchorfile>namespacemaliput_1_1common.html</anchorfile>
+      <anchor>a7783f3769985bc4aab7193b525bb4411</anchor>
+      <arglist>(const std::string &amp;level)</arglist>
     </member>
   </compound>
   <compound kind="namespace">
@@ -16851,60 +16823,18 @@
       <enumvalue file="namespacemaliput_1_1math_1_1test.html" anchor="afbc5396d9a88c41d6aeb522b9f06f426af460a96ab20647996c15854794763384">kRelative</enumvalue>
     </member>
     <member kind="function">
-      <type>::testing::AssertionResult</type>
+      <type>testing::AssertionResult</type>
       <name>CompareVectors</name>
       <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>a3e1531ddc8d5f486b7cb38eb70225225</anchor>
+      <anchor>a01c88aed5bc87c60290e8bf68222d5e8</anchor>
       <arglist>(const math::VectorBase&lt; N, Derived &gt; &amp;v1, const math::VectorBase&lt; N, Derived &gt; &amp;v2, double tolerance=0.0, CompareType compare_type=CompareType::kAbsolute)</arglist>
     </member>
     <member kind="function">
-      <type>::testing::AssertionResult</type>
+      <type>testing::AssertionResult</type>
       <name>CompareMatrices</name>
       <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>afaa7cf7bd9bb21a646e4400b70fbe176</anchor>
+      <anchor>ade5f658726dea18b7e094ac499ece140</anchor>
       <arglist>(const math::Matrix&lt; N &gt; &amp;m1, const math::Matrix&lt; N &gt; &amp;m2, double tolerance=0.0, CompareType compare_type=CompareType::kAbsolute)</arglist>
-    </member>
-    <member kind="function">
-      <type>template ::testing::AssertionResult</type>
-      <name>CompareVectors</name>
-      <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>a54a5c436fdff582d57244f4de5731e1a</anchor>
-      <arglist>(const VectorBase&lt; 2, Vector2 &gt; &amp;, const VectorBase&lt; 2, Vector2 &gt; &amp;, double, CompareType)</arglist>
-    </member>
-    <member kind="function">
-      <type>template ::testing::AssertionResult</type>
-      <name>CompareVectors</name>
-      <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>a47e71afde9e736fed9b4a91d045b5ef7</anchor>
-      <arglist>(const VectorBase&lt; 3, Vector3 &gt; &amp;, const VectorBase&lt; 3, Vector3 &gt; &amp;, double, CompareType)</arglist>
-    </member>
-    <member kind="function">
-      <type>template ::testing::AssertionResult</type>
-      <name>CompareVectors</name>
-      <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>ab37eafb2f535bd63b98f40b29d67622f</anchor>
-      <arglist>(const VectorBase&lt; 4, Vector4 &gt; &amp;, const VectorBase&lt; 4, Vector4 &gt; &amp;, double, CompareType)</arglist>
-    </member>
-    <member kind="function">
-      <type>template ::testing::AssertionResult</type>
-      <name>CompareMatrices</name>
-      <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>a00ce9d6e7c8007fa6c4fccf24837769a</anchor>
-      <arglist>(const Matrix&lt; 2 &gt; &amp;, const Matrix&lt; 2 &gt; &amp;, double, CompareType)</arglist>
-    </member>
-    <member kind="function">
-      <type>template ::testing::AssertionResult</type>
-      <name>CompareMatrices</name>
-      <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>aea08543949fcb56c5b4e4f03c6b45d39</anchor>
-      <arglist>(const Matrix&lt; 3 &gt; &amp;, const Matrix&lt; 3 &gt; &amp;, double, CompareType)</arglist>
-    </member>
-    <member kind="function">
-      <type>template ::testing::AssertionResult</type>
-      <name>CompareMatrices</name>
-      <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>adb797a87c38febdfd33dabcf2d5c74e7</anchor>
-      <arglist>(const Matrix&lt; 4 &gt; &amp;, const Matrix&lt; 4 &gt; &amp;, double, CompareType)</arglist>
     </member>
   </compound>
   <compound kind="namespace">

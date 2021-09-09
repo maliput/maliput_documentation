@@ -150,9 +150,6 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae4810092d5fdfca56f482a22ba061ce9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1common.html#ae4810092d5fdfca56f482a22ba061ce9">set_log_level</a> (const std::string &amp;level)</td></tr>
-<tr class="memdesc:ae4810092d5fdfca56f482a22ba061ce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invokes <code><a class="el" href="namespacemaliput.html#a3f89d574d0d51e9df0f5b437e0c122fc" title="Retrieve an instance of a logger to use for logger.">maliput::log()</a>-&gt;set_level(level)</code>.  <a href="namespacemaliput_1_1common.html#ae4810092d5fdfca56f482a22ba061ce9">More...</a><br /></td></tr>
-<tr class="separator:ae4810092d5fdfca56f482a22ba061ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44240da1e534b4f1ad217fd60715fefe"><td class="memTemplParams" colspan="2">template&lt;class HashAlgorithm , class T &gt; </td></tr>
 <tr class="memitem:a44240da1e534b4f1ad217fd60715fefe"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_integral&lt; T &gt;::value &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1common.html#a44240da1e534b4f1ad217fd60715fefe">hash_append</a> (HashAlgorithm &amp;hasher, const T &amp;item) noexcept</td></tr>
 <tr class="memdesc:a44240da1e534b4f1ad217fd60715fefe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides <a class="el" href="namespacemaliput_1_1common.html#a44240da1e534b4f1ad217fd60715fefe">hash_append</a> for integral constants.  <a href="namespacemaliput_1_1common.html#a44240da1e534b4f1ad217fd60715fefe">More...</a><br /></td></tr>
@@ -193,6 +190,8 @@ Functions</h2></td></tr>
 <tr class="memitem:af4f9479a48d8c6a544754428a183a423"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1common.html#af4f9479a48d8c6a544754428a183a423">unused</a> (const Args &amp;...)</td></tr>
 <tr class="memdesc:af4f9479a48d8c6a544754428a183a423"><td class="mdescLeft">&#160;</td><td class="mdescRight">Documents the argument(s) as unused, placating GCC's -Wunused-parameter warning.  <a href="namespacemaliput_1_1common.html#af4f9479a48d8c6a544754428a183a423">More...</a><br /></td></tr>
 <tr class="separator:af4f9479a48d8c6a544754428a183a423"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7783f3769985bc4aab7193b525bb4411"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1common.html#a7783f3769985bc4aab7193b525bb4411">set_log_level</a> (const std::string &amp;level)</td></tr>
+<tr class="separator:a7783f3769985bc4aab7193b525bb4411"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="ae925cde990a915749d22776d5b22b6a4"></a>
@@ -581,36 +580,29 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae4810092d5fdfca56f482a22ba061ce9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4810092d5fdfca56f482a22ba061ce9">&#9670;&nbsp;</a></span>set_log_level()</h2>
+<a id="a7783f3769985bc4aab7193b525bb4411"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7783f3769985bc4aab7193b525bb4411">&#9670;&nbsp;</a></span>set_log_level()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string set_log_level </td>
+          <td class="memname">std::string maliput::common::set_log_level </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>level</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">related</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-
-<p>Invokes <code><a class="el" href="namespacemaliput.html#a3f89d574d0d51e9df0f5b437e0c122fc" title="Retrieve an instance of a logger to use for logger.">maliput::log()</a>-&gt;set_level(level)</code>. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">level</td><td>Must be a string from the level enumerations: <code>trace</code>, <code>debug</code>, <code>info</code>, <code>warning</code>, <code>error</code>, <code>critical</code> or <code>off</code>. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The string value of the previous log level.</dd></dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::out_of_range</td><td>When <code>level</code> is not one of the predefined values.</td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>

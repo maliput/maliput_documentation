@@ -20,6 +20,6 @@ var searchData=
   ['loadruleregistryfromfile_1716',['LoadRuleRegistryFromFile',['../namespacemaliput.html#a03c4c176854c7d60524ec666c03f3ff4',1,'maliput']]],
   ['loadtrafficlightbook_1717',['LoadTrafficLightBook',['../namespacemaliput.html#a3673381fed4e6e5b62a3ffc77f3f9bae',1,'maliput']]],
   ['loadtrafficlightbookfromfile_1718',['LoadTrafficLightBookFromFile',['../namespacemaliput.html#a748a7535cbc24118299c3bcbef33a20d',1,'maliput']]],
-  ['log_1719',['log',['../classmaliput_1_1common_1_1_sink_base.html#ad94de719c8f0c4209b4895f315db5227',1,'maliput::common::SinkBase::log()'],['../classmaliput_1_1common_1_1_sink.html#a73f72d66a2f6ff1406e19b6a497ce9b8',1,'maliput::common::Sink::log()'],['../classmaliput_1_1common_1_1_logger.html#a3f89d574d0d51e9df0f5b437e0c122fc',1,'maliput::common::Logger::log()'],['../namespacemaliput.html#a3f89d574d0d51e9df0f5b437e0c122fc',1,'maliput::log()']]],
+  ['log_1719',['log',['../classmaliput_1_1common_1_1_sink_base.html#ad94de719c8f0c4209b4895f315db5227',1,'maliput::common::SinkBase::log()'],['../classmaliput_1_1common_1_1_sink.html#a73f72d66a2f6ff1406e19b6a497ce9b8',1,'maliput::common::Sink::log()'],['../classmaliput_1_1common_1_1_logger.html#a3f89d574d0d51e9df0f5b437e0c122fc',1,'maliput::common::Logger::log()'],['../namespacemaliput.html#a8d79f56feceef38ffe51eb5e0a1e1b03',1,'maliput::log()']]],
   ['logger_1720',['Logger',['../classmaliput_1_1common_1_1_logger.html#aef8052bbf4d54842d72662ee4c1ed930',1,'maliput::common::Logger']]]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['segmentid_3854',['SegmentId',['.././deps/maliput/html/namespacemaliput_1_1api.html#a405b9288d31a542db4352153419edba1',1,'maliput::api']]],
-  ['stateresult_3855',['StateResult',['.././deps/maliput/html/classmaliput_1_1api_1_1rules_1_1_discrete_value_rule_state_provider.html#a1188b99948ffd2a79b923ed2c564c9a5',1,'maliput::api::rules::DiscreteValueRuleStateProvider::StateResult()'],['.././deps/maliput/html/classmaliput_1_1api_1_1rules_1_1_range_value_rule_state_provider.html#ad95f1bcea095ba0edcdfb39ee5e39eec',1,'maliput::api::rules::RangeValueRuleStateProvider::StateResult()']]]
+  ['matrix2_6346',['Matrix2',['.././deps/maliput/html/namespacemaliput_1_1math.html#ac6bd2b15c356618c3c5ccba30dacfffd',1,'maliput::math']]],
+  ['matrix3_6347',['Matrix3',['.././deps/maliput/html/namespacemaliput_1_1math.html#a817bdcb2b7e2c17fc4781e72ba6abe37',1,'maliput::math']]],
+  ['matrix4_6348',['Matrix4',['.././deps/maliput/html/namespacemaliput_1_1math.html#a1d79dac56e52511791f446a46b160358',1,'maliput::math']]]
 ];

@@ -214,7 +214,7 @@ Lanes as &lt;tt&gt;Lanes&lt;/tt&gt;</h3>
 <p class="formulaDsp">
 \[ B_\text{segment}: s \mapsto [r_\text{min}, r_\text{max}] \text{ s.t. } r_\text{min}&lt;=0 \text{ and } r_\text{max}&gt;=0 \]
 </p>
-<p>defines inclusive min/max bounds which depend only on \(s\). These are the @f/segment bounds@f/ for the <code>Lane</code>, the valid domain of \(r\), which is intended to represent the full lateral extent of the <code>Segment</code> including all adjacent <code>Lanes</code>.</p>
+<p>defines inclusive min/max bounds which depend only on \(s\). These are the \(segment bounds\) for the <code>Lane</code>, the valid domain of \(r\), which is intended to represent the full lateral extent of the <code>Segment</code> including all adjacent <code>Lanes</code>.</p>
 <blockquote class="doxtable">
 <p>TODO: This begs for a picture. </p>
 </blockquote>
@@ -363,15 +363,11 @@ right-hand side here."). <code>RoadRulebook</code> abstracts away from both the 
 <p>Six rule types are currently defined or proposed:</p>
 <ul>
 <li><code>SpeedLimitRule</code> - speed limits</li>
-<li><code>RightOfWayRule</code> - control of right-of-way / priority on specific routes <blockquote class="doxtable">
-<p></p>
-</blockquote>
-</li>
-</ul>
-<p>TODO: <code>DirectionUsageRule</code> - direction-of-travel specification</p><ul>
+<li><code>RightOfWayRule</code> - control of right-of-way / priority on specific routes</li>
+<li>TODO: <code>DirectionUsageRule</code> - direction-of-travel specification</li>
 <li>TODO: <code>LaneChangeRule</code> - adjacent-lane transition restrictions</li>
 <li>TODO: <code>OngoingRouteRule</code> - turning restrictions</li>
-<li>TODO: <code>PreferentialUseRule</code> - lane-based vehicle-type restrictions (e.g., HOV lanes) </li>
+<li>TODO: <code>PreferentialUseRule</code> - lane-based vehicle-type restrictions (e.g., HOV lanes)</li>
 </ul>
 <h3><a class="anchor" id="common_region_entities"></a>
 Common Region Entities</h3>
@@ -392,19 +388,17 @@ Common Region Entities</h3>
 <li>maximum and minimum speed limits (in which a minimum of zero is effectively no minimum)</li>
 <li>severity:<ul>
 <li><em>strict</em> (e.g., in the US, black-on-white posted limit)</li>
-<li><em>advisory</em> (e.g., in the US, black-on-yellow advisory limit on curves) <blockquote class="doxtable">
-<p></p>
-</blockquote>
-</li>
-</ul>
-</li>
-</ul>
-<p>TODO: applicable vehicle type (for limits applying to specific types):</p><ul>
+<li><em>advisory</em> (e.g., in the US, black-on-yellow advisory limit on curves)</li>
+<li>TODO: applicable vehicle type (for limits applying to specific types):<ul>
 <li>any</li>
 <li>trucks</li>
 <li>...</li>
 </ul>
-<p>TODO: time-of-day/calendar condition </p>
+</li>
+<li>TODO: time-of-day/calendar condition</li>
+</ul>
+</li>
+</ul>
 <h3><a class="anchor" id="right_of_way_rule"></a>
 &lt;tt&gt;RightOfWayRule&lt;/tt&gt;: Stopping and Yielding</h3>
 <p><code>RightOfWayRule</code> describes which vehicles have right-of-way (also known as "priority"). Note that "right of way" does not mean "right

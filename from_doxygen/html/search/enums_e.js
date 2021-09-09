@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zonetype_3882',['ZoneType',['.././deps/maliput/html/classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html#a29fcc592f1c1254f2738a72794a16ea3',1,'maliput::api::rules::RightOfWayRule']]]
+  ['xodrconnectiontype_6411',['XodrConnectionType',['.././deps/maliput_malidrive/html/namespacemalidrive_1_1builder.html#aa05c22b45e1642b62091723d3e86fc4f',1,'malidrive::builder']]]
 ];

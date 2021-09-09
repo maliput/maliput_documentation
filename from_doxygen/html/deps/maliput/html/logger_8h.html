@@ -92,7 +92,6 @@ $(document).ready(function(){initNavTree('logger_8h.html',''); initResizable(); 
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">logger.h File Reference</div>  </div>
@@ -101,15 +100,15 @@ $(document).ready(function(){initNavTree('logger_8h.html',''); initResizable(); 
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>To log with <code><a class="el" href="namespacemaliput_1_1common_1_1logger.html">maliput::common::logger</a></code>, you should:</p>
 <pre>
-  <a class="el" href="namespacemaliput.html#a3f89d574d0d51e9df0f5b437e0c122fc" title="Retrieve an instance of a logger to use for logger.">maliput::log()</a>-&gt;trace("Trace message: {} {}", something, some_other);
+  <a class="el" href="namespacemaliput.html#a8d79f56feceef38ffe51eb5e0a1e1b03">maliput::log()</a>-&gt;trace("Trace message: {} {}", something, some_other);
 </pre><p>Similarly, it provides:</p>
 <pre>
-  <a class="el" href="namespacemaliput.html#a3f89d574d0d51e9df0f5b437e0c122fc" title="Retrieve an instance of a logger to use for logger.">maliput::log()</a>-&gt;trace(...);
-  <a class="el" href="namespacemaliput.html#a3f89d574d0d51e9df0f5b437e0c122fc" title="Retrieve an instance of a logger to use for logger.">maliput::log()</a>-&gt;debug(...);
-  <a class="el" href="namespacemaliput.html#a3f89d574d0d51e9df0f5b437e0c122fc" title="Retrieve an instance of a logger to use for logger.">maliput::log()</a>-&gt;info(...);
-  <a class="el" href="namespacemaliput.html#a3f89d574d0d51e9df0f5b437e0c122fc" title="Retrieve an instance of a logger to use for logger.">maliput::log()</a>-&gt;warn(...);
-  <a class="el" href="namespacemaliput.html#a3f89d574d0d51e9df0f5b437e0c122fc" title="Retrieve an instance of a logger to use for logger.">maliput::log()</a>-&gt;error(...);
-  <a class="el" href="namespacemaliput.html#a3f89d574d0d51e9df0f5b437e0c122fc" title="Retrieve an instance of a logger to use for logger.">maliput::log()</a>-&gt;critical(...);
+  <a class="el" href="namespacemaliput.html#a8d79f56feceef38ffe51eb5e0a1e1b03">maliput::log()</a>-&gt;trace(...);
+  <a class="el" href="namespacemaliput.html#a8d79f56feceef38ffe51eb5e0a1e1b03">maliput::log()</a>-&gt;debug(...);
+  <a class="el" href="namespacemaliput.html#a8d79f56feceef38ffe51eb5e0a1e1b03">maliput::log()</a>-&gt;info(...);
+  <a class="el" href="namespacemaliput.html#a8d79f56feceef38ffe51eb5e0a1e1b03">maliput::log()</a>-&gt;warn(...);
+  <a class="el" href="namespacemaliput.html#a8d79f56feceef38ffe51eb5e0a1e1b03">maliput::log()</a>-&gt;error(...);
+  <a class="el" href="namespacemaliput.html#a8d79f56feceef38ffe51eb5e0a1e1b03">maliput::log()</a>-&gt;critical(...);
 </pre><p>The format string syntax is fmtlib; see <a href="http://fmtlib.net/5.3.0/syntax.html">http://fmtlib.net/5.3.0/syntax.html</a>. In particular, any class that overloads <code>operator&lt;&lt;</code> for <code>ostream</code> can be printed without any special handling. </p>
 </div><div class="textblock"><code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;map&gt;</code><br />
@@ -173,15 +172,6 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:afde8e18a788ccc92fc61cab298bca7e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Logging levels.  <a href="namespacemaliput_1_1common_1_1logger.html#afde8e18a788ccc92fc61cab298bca7e3">More...</a><br /></td></tr>
 <tr class="separator:afde8e18a788ccc92fc61cab298bca7e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ae4810092d5fdfca56f482a22ba061ce9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1common.html#ae4810092d5fdfca56f482a22ba061ce9">set_log_level</a> (const std::string &amp;level)</td></tr>
-<tr class="memdesc:ae4810092d5fdfca56f482a22ba061ce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invokes <code><a class="el" href="namespacemaliput.html#a3f89d574d0d51e9df0f5b437e0c122fc" title="Retrieve an instance of a logger to use for logger.">maliput::log()</a>-&gt;set_level(level)</code>.  <a href="namespacemaliput_1_1common.html#ae4810092d5fdfca56f482a22ba061ce9">More...</a><br /></td></tr>
-<tr class="separator:ae4810092d5fdfca56f482a22ba061ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f89d574d0d51e9df0f5b437e0c122fc"><td class="memItemLeft" align="right" valign="top">common::Logger *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput.html#a3f89d574d0d51e9df0f5b437e0c122fc">log</a> ()</td></tr>
-<tr class="memdesc:a3f89d574d0d51e9df0f5b437e0c122fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve an instance of a logger to use for logger.  <a href="namespacemaliput.html#a3f89d574d0d51e9df0f5b437e0c122fc">More...</a><br /></td></tr>
-<tr class="separator:a3f89d574d0d51e9df0f5b437e0c122fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>

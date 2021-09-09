@@ -2046,6 +2046,11 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>tutorials.md</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/tutorials/</path>
+    <filename>tutorials_8md.html</filename>
+  </compound>
+  <compound kind="file">
     <name>unit.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
     <filename>unit_8cc.html</filename>
@@ -2162,6 +2167,11 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>xodr_extract_app.md</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/tutorials/</path>
+    <filename>xodr__extract__app_8md.html</filename>
+  </compound>
+  <compound kind="file">
     <name>xodr_parser_configuration.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
     <filename>xodr__parser__configuration_8cc.html</filename>
@@ -2238,6 +2248,11 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>xodr_query_app.md</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/tutorials/</path>
+    <filename>xodr__query__app_8md.html</filename>
+  </compound>
+  <compound kind="file">
     <name>xodr_testing_map_descriptions.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/test_utilities/</path>
     <filename>xodr__testing__map__descriptions_8h.html</filename>
@@ -2309,6 +2324,11 @@
       <anchor>a3c04138a5bfe5d72780bb7e82a18e627</anchor>
       <arglist>(int argc, char **argv)</arglist>
     </member>
+  </compound>
+  <compound kind="file">
+    <name>xodr_validate_app.md</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/tutorials/</path>
+    <filename>xodr__validate__app_8md.html</filename>
   </compound>
   <compound kind="struct">
     <name>malidrive::road_curve::LaneOffset::AdjacentLaneFunctions</name>
@@ -7883,5 +7903,25 @@
     <docanchor file="malidrive_road_curve_design.html" title="Comparing definitions of the Frenet-like frame">comparing_definitions_of_frenet_frame</docanchor>
     <docanchor file="malidrive_road_curve_design.html" title="&lt;tt&gt;RollPitchYaw&lt;/tt&gt; orthogonality">roll_pitch_yaw_orthogonality</docanchor>
     <docanchor file="malidrive_road_curve_design.html" title="Continuity requirements">continuity_requirements</docanchor>
+  </compound>
+  <compound kind="page">
+    <name>tutorials</name>
+    <title>Tutorials</title>
+    <filename>tutorials</filename>
+  </compound>
+  <compound kind="page">
+    <name>xodr_extract_app</name>
+    <title>xodr_extract application</title>
+    <filename>xodr_extract_app</filename>
+  </compound>
+  <compound kind="page">
+    <name>xodr_query_app</name>
+    <title>xodr_query application</title>
+    <filename>xodr_query_app</filename>
+  </compound>
+  <compound kind="page">
+    <name>xodr_validate_app</name>
+    <title>xodr_validate application</title>
+    <filename>xodr_validate_app</filename>
   </compound>
 </tagfile>
