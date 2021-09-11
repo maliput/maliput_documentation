@@ -388,6 +388,11 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>maliput_to_string_app.md</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration/tutorials/</path>
+    <filename>maliput__to__string__app_8md.html</filename>
+  </compound>
+  <compound kind="file">
     <name>maliput_to_string_with_plugin.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration/src/applications/</path>
     <filename>maliput__to__string__with__plugin_8cc.html</filename>
@@ -712,6 +717,11 @@
       <arglist>(MaliputImplementation maliput_implementation, const DragwayBuildProperties &amp;dragway_build_properties, const MultilaneBuildProperties &amp;multilane_build_properties, const MalidriveBuildProperties &amp;malidrive_build_properties)</arglist>
     </member>
   </compound>
+  <compound kind="file">
+    <name>tutorials.md</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration/tutorials/</path>
+    <filename>tutorials_8md.html</filename>
+  </compound>
   <compound kind="struct">
     <name>maliput::integration::DragwayBuildProperties</name>
     <filename>structmaliput_1_1integration_1_1_dragway_build_properties.html</filename>
@@ -917,5 +927,15 @@
   <compound kind="namespace">
     <name>YAML</name>
     <filename>namespace_y_a_m_l.html</filename>
+  </compound>
+  <compound kind="page">
+    <name>maliput_to_string_app</name>
+    <title>maliput_to_string application</title>
+    <filename>maliput_to_string_app</filename>
+  </compound>
+  <compound kind="page">
+    <name>integration_tutorials</name>
+    <title>Tutorials</title>
+    <filename>integration_tutorials</filename>
   </compound>
 </tagfile>
