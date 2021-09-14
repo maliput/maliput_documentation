@@ -195,6 +195,11 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>maliput_query_app.md</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration/tutorials/</path>
+    <filename>maliput__query__app_8md.html</filename>
+  </compound>
+  <compound kind="file">
     <name>maliput_to_obj.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration/src/applications/</path>
     <filename>maliput__to__obj_8cc.html</filename>
@@ -927,6 +932,11 @@
   <compound kind="namespace">
     <name>YAML</name>
     <filename>namespace_y_a_m_l.html</filename>
+  </compound>
+  <compound kind="page">
+    <name>maliput_query_app</name>
+    <title>maliput_query application</title>
+    <filename>maliput_query_app</filename>
   </compound>
   <compound kind="page">
     <name>maliput_to_string_app</name>

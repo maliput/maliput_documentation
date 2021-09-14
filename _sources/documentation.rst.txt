@@ -12,7 +12,7 @@ Maliput Malidrive
 =================
 
 * `RoadCurve design <from_doxygen/html/deps/maliput_malidrive/html/malidrive_road_curve_design.html>`_
-* `Tutorials <from_doxygen/html/deps/maliput_malidrive/html/tutorials.html>`_
+* `Tutorials: Maliput Malidrive <from_doxygen/html/deps/maliput_malidrive/html/tutorials.html>`_
 * `Maliput_malidrive C++ namespace <from_doxygen/html/deps/maliput_malidrive/html/namespacemalidrive.html>`_
 
 Dragway
@@ -28,6 +28,7 @@ Multilane
 Integration
 ===========
 
+* `Tutorials: Maliput Integration <from_doxygen/html/deps/maliput_integration/html/integration_tutorials.html>`_
 * `Integration C++ namespace <from_doxygen/html/deps/maliput_integration/html/namespacemaliput_1_1integration.html>`_
 
 Integration tests
