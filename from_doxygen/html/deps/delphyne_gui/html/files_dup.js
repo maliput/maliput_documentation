@@ -41,7 +41,6 @@ var files_dup =
       [ "PlaybackPlugin", "classdelphyne_1_1gui_1_1_playback_plugin.html", "classdelphyne_1_1gui_1_1_playback_plugin" ]
     ] ],
     [ "replay.py", "replay_8py.html", "replay_8py" ],
-    [ "replay2.py", "replay2_8py.html", "replay2_8py" ],
     [ "selector.cc", "selector_8cc.html", null ],
     [ "selector.hh", "selector_8hh.html", [
       [ "Selector", "classdelphyne_1_1gui_1_1_selector.html", "classdelphyne_1_1gui_1_1_selector" ]
@@ -64,5 +63,5 @@ var files_dup =
       [ "TrafficLightManager", "classdelphyne_1_1gui_1_1_traffic_light_manager.html", "classdelphyne_1_1gui_1_1_traffic_light_manager" ]
     ] ],
     [ "utilities.py", "utilities_8py.html", "utilities_8py" ],
-    [ "visualizer2.cc", "visualizer2_8cc.html", "visualizer2_8cc" ]
+    [ "visualizer.cc", "visualizer_8cc.html", "visualizer_8cc" ]
 ];

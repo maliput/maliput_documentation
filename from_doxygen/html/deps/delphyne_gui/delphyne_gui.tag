@@ -412,54 +412,6 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>replay2.py</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_gui/delphyne_gui/python/toolkit/</path>
-    <filename>replay2_8py.html</filename>
-    <namespace>toolkit::replay2</namespace>
-    <member kind="function">
-      <type>def</type>
-      <name>is_log_file</name>
-      <anchorfile>namespacetoolkit_1_1replay2.html</anchorfile>
-      <anchor>a727e65575392339a32f23e5acb800d76</anchor>
-      <arglist>(path)</arglist>
-    </member>
-    <member kind="function">
-      <type>def</type>
-      <name>open_log_file</name>
-      <anchorfile>namespacetoolkit_1_1replay2.html</anchorfile>
-      <anchor>a73bf155abb4fe755916264b760c700cd</anchor>
-      <arglist>(path)</arglist>
-    </member>
-    <member kind="function">
-      <type>def</type>
-      <name>parse_arguments</name>
-      <anchorfile>namespacetoolkit_1_1replay2.html</anchorfile>
-      <anchor>ac1e7aabb1fa4175ca9c78b4e4df901e8</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>def</type>
-      <name>main</name>
-      <anchorfile>namespacetoolkit_1_1replay2.html</anchorfile>
-      <anchor>ae4ea221f8ad7a1c7c728bdcbdb51eb3b</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="variable">
-      <type>string</type>
-      <name>TOPIC_LOG_FILENAME</name>
-      <anchorfile>namespacetoolkit_1_1replay2.html</anchorfile>
-      <anchor>a4091ef746bc70340bd606432efb2aa6a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>string</type>
-      <name>BUNDLE_DIRNAME</name>
-      <anchorfile>namespacetoolkit_1_1replay2.html</anchorfile>
-      <anchor>a81ca5fb50cf16f140782c572304d9e64</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="file">
     <name>selector.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_gui/delphyne_gui/visualizer/maliput_viewer_plugin/</path>
     <filename>selector_8cc.html</filename>
@@ -583,16 +535,16 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>visualizer2.cc</name>
+    <name>visualizer.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_gui/delphyne_gui/visualizer/</path>
-    <filename>visualizer2_8cc.html</filename>
+    <filename>visualizer_8cc.html</filename>
     <includes id="global__attributes_8hh" name="global_attributes.hh" local="yes" imported="no">global_attributes.hh</includes>
     <namespace>delphyne_gui</namespace>
     <namespace>delphyne_gui::visualizer</namespace>
     <member kind="function">
       <type>int</type>
       <name>main</name>
-      <anchorfile>visualizer2_8cc.html</anchorfile>
+      <anchorfile>visualizer_8cc.html</anchorfile>
       <anchor>a3c04138a5bfe5d72780bb7e82a18e627</anchor>
       <arglist>(int argc, char **argv)</arglist>
     </member>
@@ -2471,7 +2423,6 @@
     <name>toolkit</name>
     <filename>namespacetoolkit.html</filename>
     <namespace>toolkit::replay</namespace>
-    <namespace>toolkit::replay2</namespace>
   </compound>
   <compound kind="namespace">
     <name>toolkit::replay</name>
@@ -2515,52 +2466,6 @@
       <type>string</type>
       <name>BUNDLE_DIRNAME</name>
       <anchorfile>namespacetoolkit_1_1replay.html</anchorfile>
-      <anchor>a81ca5fb50cf16f140782c572304d9e64</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="namespace">
-    <name>toolkit::replay2</name>
-    <filename>namespacetoolkit_1_1replay2.html</filename>
-    <member kind="function">
-      <type>def</type>
-      <name>is_log_file</name>
-      <anchorfile>namespacetoolkit_1_1replay2.html</anchorfile>
-      <anchor>a727e65575392339a32f23e5acb800d76</anchor>
-      <arglist>(path)</arglist>
-    </member>
-    <member kind="function">
-      <type>def</type>
-      <name>open_log_file</name>
-      <anchorfile>namespacetoolkit_1_1replay2.html</anchorfile>
-      <anchor>a73bf155abb4fe755916264b760c700cd</anchor>
-      <arglist>(path)</arglist>
-    </member>
-    <member kind="function">
-      <type>def</type>
-      <name>parse_arguments</name>
-      <anchorfile>namespacetoolkit_1_1replay2.html</anchorfile>
-      <anchor>ac1e7aabb1fa4175ca9c78b4e4df901e8</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>def</type>
-      <name>main</name>
-      <anchorfile>namespacetoolkit_1_1replay2.html</anchorfile>
-      <anchor>ae4ea221f8ad7a1c7c728bdcbdb51eb3b</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="variable">
-      <type>string</type>
-      <name>TOPIC_LOG_FILENAME</name>
-      <anchorfile>namespacetoolkit_1_1replay2.html</anchorfile>
-      <anchor>a4091ef746bc70340bd606432efb2aa6a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>string</type>
-      <name>BUNDLE_DIRNAME</name>
-      <anchorfile>namespacetoolkit_1_1replay2.html</anchorfile>
       <anchor>a81ca5fb50cf16f140782c572304d9e64</anchor>
       <arglist></arglist>
     </member>

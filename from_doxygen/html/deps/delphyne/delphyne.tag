@@ -3182,8 +3182,8 @@
       <type>def</type>
       <name>setup</name>
       <anchorfile>classdelphyne_1_1trees_1_1_behaviour_tree.html</anchorfile>
-      <anchor>a33b7fa6152c2971d24fa19541f288a22</anchor>
-      <arglist>(self, realtime_rate, start_paused, time_step=0.01, logfile_name=&apos;&apos;, **kwargs)</arglist>
+      <anchor>ad92a5976e205024f7203b27181c53e17</anchor>
+      <arglist>(self, realtime_rate, start_paused, time_step=0.01, log=False, logfile_name=&apos;&apos;, **kwargs)</arglist>
     </member>
     <member kind="function">
       <type>def</type>

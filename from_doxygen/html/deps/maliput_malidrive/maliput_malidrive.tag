@@ -2122,7 +2122,7 @@
     <name>applications/xodr_extract.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/applications/</path>
     <filename>applications_2xodr__extract_8cc.html</filename>
-    <includes id="log__level__flag_8h" name="log_level_flag.h" local="yes" imported="no">log_level_flag.h</includes>
+    <includes id="log__level__flag_8h" name="log_level_flag.h" local="yes" imported="no">applications/log_level_flag.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="xodr__extract_8h" name="xodr_extract.h" local="yes" imported="no">maliput_malidrive/xodr/xodr_extract.h</includes>
     <namespace>malidrive</namespace>
@@ -2206,7 +2206,7 @@
     <name>xodr_query.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/applications/</path>
     <filename>xodr__query_8cc.html</filename>
-    <includes id="log__level__flag_8h" name="log_level_flag.h" local="yes" imported="no">log_level_flag.h</includes>
+    <includes id="log__level__flag_8h" name="log_level_flag.h" local="yes" imported="no">applications/log_level_flag.h</includes>
     <includes id="db__manager_8h" name="db_manager.h" local="yes" imported="no">maliput_malidrive/xodr/db_manager.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::applications</namespace>
@@ -2312,7 +2312,7 @@
     <name>xodr_validate.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/applications/</path>
     <filename>xodr__validate_8cc.html</filename>
-    <includes id="log__level__flag_8h" name="log_level_flag.h" local="yes" imported="no">log_level_flag.h</includes>
+    <includes id="log__level__flag_8h" name="log_level_flag.h" local="yes" imported="no">applications/log_level_flag.h</includes>
     <includes id="db__manager_8h" name="db_manager.h" local="yes" imported="no">maliput_malidrive/xodr/db_manager.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::applications</namespace>

@@ -52,7 +52,7 @@ var searchData=
   ['interactivesimulationstats_493',['InteractiveSimulationStats',['../../../delphyne/html/classdelphyne_1_1_interactive_simulation_stats.html',1,'InteractiveSimulationStats'],['../../../delphyne/html/classdelphyne_1_1_interactive_simulation_stats.html#acd5dc78b76073b70c740ff9865d2c93f',1,'delphyne::InteractiveSimulationStats::InteractiveSimulationStats()']]],
   ['interpolationtype_494',['InterpolationType',['../../../delphyne/html/classdelphyne_1_1_trajectory.html#a8472f01c511d77bbfb981a46618ea1ea',1,'delphyne::Trajectory']]],
   ['interrupt_5ftick_5ftocking_495',['interrupt_tick_tocking',['../../../delphyne/html/classdelphyne_1_1trees_1_1_behaviour_tree.html#ae8a781b0c10855f27a30b1434a5ee701',1,'delphyne::trees::BehaviourTree']]],
-  ['is_5flog_5ffile_496',['is_log_file',['../../../delphyne_gui/html/namespacetoolkit_1_1replay.html#a52b22ea8473946c14a8600bcaf5eed0b',1,'toolkit::replay::is_log_file()'],['../../../delphyne_gui/html/namespacetoolkit_1_1replay2.html#a727e65575392339a32f23e5acb800d76',1,'toolkit::replay2::is_log_file()']]],
+  ['is_5flog_5ffile_496',['is_log_file',['../../../delphyne_gui/html/namespacetoolkit_1_1replay.html#a52b22ea8473946c14a8600bcaf5eed0b',1,'toolkit::replay']]],
   ['is_5flogging_497',['is_logging',['../../../delphyne/html/classdelphyne_1_1_data_logger.html#a00e9e303fefafde9b1623e51fcfdbec8',1,'delphyne::DataLogger']]],
   ['isabsolutepath_498',['IsAbsolutePath',['../../../delphyne/html/namespacedelphyne.html#a8f54146998bf6bbd94bb87f7bbe419a4',1,'delphyne']]],
   ['iscompound_499',['IsCompound',['../../../delphyne_gui/html/classdelphyne_1_1gui_1_1internal_1_1_message.html#a736ce2a5231dd53e8749a93d95b4ff93',1,'delphyne::gui::internal::Message']]],

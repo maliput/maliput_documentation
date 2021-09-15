@@ -77,7 +77,7 @@ var searchData=
   ['is_5fabsolute_848',['is_absolute',['../../../maliput/html/classmaliput_1_1common_1_1_path.html#a6fa3783ce36e6e65017109696310e8bc',1,'maliput::common::Path']]],
   ['is_5fdirectory_849',['is_directory',['../../../maliput/html/classmaliput_1_1common_1_1_path.html#a67f95fcc88068b2ecec6c676b04e906f',1,'maliput::common::Path']]],
   ['is_5ffile_850',['is_file',['../../../maliput/html/classmaliput_1_1common_1_1_path.html#a8ecb88b8361b56edca7e78b3c4e61122',1,'maliput::common::Path']]],
-  ['is_5flog_5ffile_851',['is_log_file',['../namespacetoolkit_1_1replay.html#a52b22ea8473946c14a8600bcaf5eed0b',1,'toolkit.replay.is_log_file()'],['../namespacetoolkit_1_1replay2.html#a727e65575392339a32f23e5acb800d76',1,'toolkit.replay2.is_log_file()']]],
+  ['is_5flog_5ffile_851',['is_log_file',['../namespacetoolkit_1_1replay.html#a52b22ea8473946c14a8600bcaf5eed0b',1,'toolkit::replay']]],
   ['is_5flogging_852',['is_logging',['../../../delphyne/html/classdelphyne_1_1_data_logger.html#a00e9e303fefafde9b1623e51fcfdbec8',1,'delphyne::DataLogger']]],
   ['is_5frunning_853',['is_running',['../../../maliput/html/classmaliput_1_1utility_1_1_thread_pool.html#a61da580fc69a74f3ef17956ba5fd88a0',1,'maliput::utility::ThreadPool']]],
   ['is_5fsingular_854',['is_singular',['../../../maliput/html/classmaliput_1_1math_1_1_matrix.html#af1699ec65bff838d2ede217f0df45141',1,'maliput::math::Matrix']]],
