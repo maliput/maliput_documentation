@@ -118,6 +118,7 @@ $(document).ready(function(){initNavTree('maliput_query_app.html',''); initResiz
 <div class="line">              : Result: inertial_position:(x = 59, y = 1.75, z = 0)</div>
 <div class="line">              : Result round_trip inertial_position(x = 59, y = 1.75, z = 0), with distance: 0</div>
 <div class="line">              : RoadPosition: (lane: 1_0_1, lane_pos: (s = 5, r = 0, h = 0))</div>
+<div class="line">Elapsed Query Time: 1.001e-05 s</div>
 </div><!-- fragment --><p><em>Note: To increase verbosity the log level could be adjusted to <code>TRACE</code> by adding the <code>--log_level=trace</code> flag.</em></p>
 <h3>Using maliput_multilane backend</h3>
 <p>Similarly, <code>maliput_multilane</code> can be used.</p>
@@ -129,6 +130,7 @@ $(document).ready(function(){initNavTree('maliput_query_app.html',''); initResiz
 <div class="line">              : Result: inertial_position:(x = -9.375, y = -1.875, z = 0)</div>
 <div class="line">              : Result round_trip inertial_position(x = -9.375, y = -1.875, z = 0), with distance: 0</div>
 <div class="line">              : RoadPosition: (lane: l:ew_intersection_segment_0, lane_pos: (s = 0, r = 0, h = 0))</div>
+<div class="line">Elapsed Query Time: 2.331e-06 s</div>
 </div><!-- fragment --><h3>Using maliput_dragway backend</h3>
 <p>Similarly, <code>maliput_dragway</code> can be used.</p>
 <div class="fragment"><div class="line">$ maliput_query --maliput_backend=dragway --num_lanes=3 --length=5 --lane_width=3 --shoulder_width=0.5 --maximum_height=4 -- LaneToInertialPosition Dragway_Lane_0 5 0 0</div>
@@ -139,6 +141,7 @@ $(document).ready(function(){initNavTree('maliput_query_app.html',''); initResiz
 <div class="line">              : Result: inertial_position:(x = 5, y = -3, z = 0)</div>
 <div class="line">              : Result round_trip inertial_position(x = 5, y = -3, z = 0), with distance: 0</div>
 <div class="line">              : RoadPosition: (lane: Dragway_Lane_0, lane_pos: (s = 5, r = 0, h = 0))</div>
+<div class="line">Elapsed Query Time: 2.042e-06 s</div>
 </div><!-- fragment --><h2>More available options</h2>
 <p><code>maliput_query</code> application has several arguments that can be used. All of them can be accessed by running <code>maliput_query --help</code>.</p>
 <p>Use <code>--log_level</code> to set the log output See possible values at <a class="elRef" href="../../maliput/html/namespacemaliput_1_1common_1_1logger.html#afde8e18a788ccc92fc61cab298bca7e3">maliput::common::logger::level</a>. By default set to <code>unchanged</code>. </p>
