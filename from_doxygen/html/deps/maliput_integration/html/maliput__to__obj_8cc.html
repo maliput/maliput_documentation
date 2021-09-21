@@ -105,6 +105,7 @@ $(document).ready(function(){initNavTree('maliput__to__obj_8cc.html',''); initRe
 </ul>
 </li>
 <li>The applications possesses flags to modify the OBJ file builder: -obj_dir, -obj_file, -max_grid_unit, -min_grid_resolution, -draw_elevation_bounds, -simplify_mesh_threshold</li>
+<li>An urdf file can also be created by passing -urdf flag.</li>
 <li>The level of the logger could be setted by: -log_level. </li>
 </ol>
 </dd></dl>
@@ -115,6 +116,7 @@ $(document).ready(function(){initNavTree('maliput__to__obj_8cc.html',''); initRe
 <code>#include &lt;<a class="elRef" href="../../maliput/html/logger_8h.html">maliput/common/logger.h</a>&gt;</code><br />
 <code>#include &lt;<a class="elRef" href="../../maliput/html/maliput__abort_8h.html">maliput/common/maliput_abort.h</a>&gt;</code><br />
 <code>#include &lt;<a class="elRef" href="../../maliput/html/generate__obj_8h.html">maliput/utilities/generate_obj.h</a>&gt;</code><br />
+<code>#include &lt;<a class="elRef" href="../../maliput/html/generate__urdf_8h.html">maliput/utilities/generate_urdf.h</a>&gt;</code><br />
 <code>#include &lt;yaml-cpp/yaml.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="tools_8h.html">integration/tools.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="maliput__gflags_8h.html">maliput_gflags.h</a>&quot;</code><br />
@@ -144,6 +146,8 @@ Functions</h2></td></tr>
 <tr class="separator:a279f8265bbb629f711000ea1f804572d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01a104ee863078ef2ce2837bae17e575"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__to__obj_8cc.html#a01a104ee863078ef2ce2837bae17e575">DEFINE_string</a> (maliput_backend, &quot;dragway&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt; or &lt;malidrive&gt;. Default is dragway.&quot;)</td></tr>
 <tr class="separator:a01a104ee863078ef2ce2837bae17e575"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a607a58114ce535065a9d8525d0bc92e8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__to__obj_8cc.html#a607a58114ce535065a9d8525d0bc92e8">DEFINE_bool</a> (urdf, false, &quot;Enable URDF <a class="elRef" href="../../maliput/html/namespacemaliput_1_1common_1_1internal.html#a88cdae8c33f1a7c9d1032870876961e2">file</a> creation.&quot;)</td></tr>
+<tr class="separator:a607a58114ce535065a9d8525d0bc92e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa075066be535cbb1ca7b193d71e2d4aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__to__obj_8cc.html#aa075066be535cbb1ca7b193d71e2d4aa">DEFINE_string</a> (dirpath, &quot;.&quot;, &quot;Directory to contain rendered road surface&quot;)</td></tr>
 <tr class="separator:aa075066be535cbb1ca7b193d71e2d4aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a1b87a24f3d2abc20978b3cff2e1bd9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__to__obj_8cc.html#a7a1b87a24f3d2abc20978b3cff2e1bd9">DEFINE_string</a> (file_name_root, &quot;maliput_to_obj&quot;, &quot;Basename for output Wavefront OBJ and MTL files&quot;)</td></tr>
@@ -161,7 +165,7 @@ Functions</h2></td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a5d8b399ddbd722195a82403f094dce10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d8b399ddbd722195a82403f094dce10">&#9670;&nbsp;</a></span>DEFINE_bool()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d8b399ddbd722195a82403f094dce10">&#9670;&nbsp;</a></span>DEFINE_bool() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -182,6 +186,40 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&quot;Whether to draw the elevation bounds&quot;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a607a58114ce535065a9d8525d0bc92e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a607a58114ce535065a9d8525d0bc92e8">&#9670;&nbsp;</a></span>DEFINE_bool() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DEFINE_bool </td>
+          <td>(</td>
+          <td class="paramtype">urdf&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">false&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot;Enable URDF <a class="elRef" href="../../maliput/html/namespacemaliput_1_1common_1_1internal.html#a88cdae8c33f1a7c9d1032870876961e2">file</a> creation.&quot;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

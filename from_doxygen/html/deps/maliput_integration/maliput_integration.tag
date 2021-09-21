@@ -244,6 +244,13 @@
     </member>
     <member kind="function">
       <type></type>
+      <name>DEFINE_bool</name>
+      <anchorfile>maliput__to__obj_8cc.html</anchorfile>
+      <anchor>a607a58114ce535065a9d8525d0bc92e8</anchor>
+      <arglist>(urdf, false, &quot;Enable URDF file creation.&quot;)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
       <name>DEFINE_string</name>
       <anchorfile>maliput__to__obj_8cc.html</anchorfile>
       <anchor>aa075066be535cbb1ca7b193d71e2d4aa</anchor>
@@ -291,6 +298,11 @@
       <anchor>a0ddf1224851353fc92bfbff6f499fa97</anchor>
       <arglist>(int argc, char *argv[])</arglist>
     </member>
+  </compound>
+  <compound kind="file">
+    <name>maliput_to_obj_app.md</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration/tutorials/</path>
+    <filename>maliput__to__obj__app_8md.html</filename>
   </compound>
   <compound kind="file">
     <name>maliput_to_string.cc</name>
@@ -541,71 +553,6 @@
       <type>int</type>
       <name>main</name>
       <anchorfile>maliput__to__string__with__plugin_8cc.html</anchorfile>
-      <anchor>a0ddf1224851353fc92bfbff6f499fa97</anchor>
-      <arglist>(int argc, char *argv[])</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>maliput_to_urdf.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration/src/applications/</path>
-    <filename>maliput__to__urdf_8cc.html</filename>
-    <includes id="tools_8h" name="tools.h" local="yes" imported="no">integration/tools.h</includes>
-    <includes id="maliput__gflags_8h" name="maliput_gflags.h" local="yes" imported="no">maliput_gflags.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::integration</namespace>
-    <member kind="function">
-      <type></type>
-      <name>MULTILANE_PROPERTIES_FLAGS</name>
-      <anchorfile>maliput__to__urdf_8cc.html</anchorfile>
-      <anchor>a5fb948470c06be1e929407cbdc062b5c</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>DRAGWAY_PROPERTIES_FLAGS</name>
-      <anchorfile>maliput__to__urdf_8cc.html</anchorfile>
-      <anchor>aa95edccf257afd4f29f9f8744fcd2083</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MALIDRIVE_PROPERTIES_FLAGS</name>
-      <anchorfile>maliput__to__urdf_8cc.html</anchorfile>
-      <anchor>abbeda97de754ea81e05b3d0e463a83f6</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_APPLICATION_DEFINE_LOG_LEVEL_FLAG</name>
-      <anchorfile>maliput__to__urdf_8cc.html</anchorfile>
-      <anchor>a279f8265bbb629f711000ea1f804572d</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>DEFINE_string</name>
-      <anchorfile>maliput__to__urdf_8cc.html</anchorfile>
-      <anchor>a949c8bd574e134aee1fbf51ddb0d2c3c</anchor>
-      <arglist>(maliput_backend, &quot;malidrive&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt; or &lt;malidrive&gt;. Default is malidrive.&quot;)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>DEFINE_string</name>
-      <anchorfile>maliput__to__urdf_8cc.html</anchorfile>
-      <anchor>ad6a643609182d33130130f530656da76</anchor>
-      <arglist>(dirpath, &quot;.&quot;, &quot;The path to where the URDF and OBJ files should be saved. If this path &quot; &quot; does not exist, it is created.&quot;)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>DEFINE_string</name>
-      <anchorfile>maliput__to__urdf_8cc.html</anchorfile>
-      <anchor>a37076a04d2e2334bf366be0b2d57745e</anchor>
-      <arglist>(file_name_root, &quot;maliput_to_urdf&quot;, &quot;The root name of the files to create. For example, if the value of this &quot; &quot;parameter is \&quot;foo\&quot;, the following files will be created: \&quot;foo.urdf\&quot;, &quot; &quot;\&quot;foo.obj\&quot;, and \&quot;foo.mtl\&quot;. These files will be placed in the path &quot; &quot;specified by parameter &apos;dirpath&apos;.&quot;)</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>main</name>
-      <anchorfile>maliput__to__urdf_8cc.html</anchorfile>
       <anchor>a0ddf1224851353fc92bfbff6f499fa97</anchor>
       <arglist>(int argc, char *argv[])</arglist>
     </member>
@@ -937,6 +884,11 @@
     <name>maliput_query_app</name>
     <title>maliput_query application</title>
     <filename>maliput_query_app</filename>
+  </compound>
+  <compound kind="page">
+    <name>maliput_to_obj_app</name>
+    <title>maliput_to_obj application</title>
+    <filename>maliput_to_obj_app</filename>
   </compound>
   <compound kind="page">
     <name>maliput_to_string_app</name>

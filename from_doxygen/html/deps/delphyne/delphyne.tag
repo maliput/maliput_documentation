@@ -2640,10 +2640,10 @@
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>drake::Isometry3&lt; T &gt;</type>
+      <type>drake::systems::rendering::PoseVector&lt; T &gt;</type>
       <name>GetPose</name>
       <anchorfile>classdelphyne_1_1_agent_base.html</anchorfile>
-      <anchor>aab21d95dfad084c6f6bfadb8eb9cc0d8</anchor>
+      <anchor>a587a20f5c1e4f086dd7a443a9530a922</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">

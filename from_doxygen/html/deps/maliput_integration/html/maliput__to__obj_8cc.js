@@ -1,6 +1,7 @@
 var maliput__to__obj_8cc =
 [
     [ "DEFINE_bool", "maliput__to__obj_8cc.html#a5d8b399ddbd722195a82403f094dce10", null ],
+    [ "DEFINE_bool", "maliput__to__obj_8cc.html#a607a58114ce535065a9d8525d0bc92e8", null ],
     [ "DEFINE_double", "maliput__to__obj_8cc.html#a816d04266026cd954ba46a9bced93474", null ],
     [ "DEFINE_double", "maliput__to__obj_8cc.html#aefb90d97e99c4de9088b23237a258edf", null ],
     [ "DEFINE_double", "maliput__to__obj_8cc.html#a0b543a395af4276163de9ee59a4f294c", null ],
