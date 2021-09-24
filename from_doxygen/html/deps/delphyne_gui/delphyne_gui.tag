@@ -509,8 +509,15 @@
       <type>def</type>
       <name>launch_visualizer</name>
       <anchorfile>namespaceutilities.html</anchorfile>
-      <anchor>a991fc384f5aecd2886f0064e4cdb0f0a</anchor>
-      <arglist>(launcher_manager, layout_filename=None, plugin_injection=None, plugin_name=None, bundle_path=None, ign_visualizer=None)</arglist>
+      <anchor>a6c194b73acaa88829b122ea87ad66b28</anchor>
+      <arglist>(launcher_manager, layout=None, plugin_injection=None, plugin_name=None, bundle_path=None, ign_visualizer=None)</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>resolve_layout_path</name>
+      <anchorfile>namespaceutilities.html</anchorfile>
+      <anchor>aaf212111243a0ea6ae37110377167de0</anchor>
+      <arglist>(layout)</arglist>
     </member>
     <member kind="function">
       <type>def</type>
@@ -2484,8 +2491,15 @@
       <type>def</type>
       <name>launch_visualizer</name>
       <anchorfile>namespaceutilities.html</anchorfile>
-      <anchor>a991fc384f5aecd2886f0064e4cdb0f0a</anchor>
-      <arglist>(launcher_manager, layout_filename=None, plugin_injection=None, plugin_name=None, bundle_path=None, ign_visualizer=None)</arglist>
+      <anchor>a6c194b73acaa88829b122ea87ad66b28</anchor>
+      <arglist>(launcher_manager, layout=None, plugin_injection=None, plugin_name=None, bundle_path=None, ign_visualizer=None)</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>resolve_layout_path</name>
+      <anchorfile>namespaceutilities.html</anchorfile>
+      <anchor>aaf212111243a0ea6ae37110377167de0</anchor>
+      <arglist>(layout)</arglist>
     </member>
     <member kind="function">
       <type>def</type>
