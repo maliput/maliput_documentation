@@ -10,8 +10,9 @@
   </compound>
   <compound kind="file">
     <name>arc_road_curve.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/include/maliput_multilane/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/src/maliput_multilane/</path>
     <filename>arc__road__curve_8h.html</filename>
+    <includes id="computation__policy_8h" name="computation_policy.h" local="yes" imported="no">maliput_multilane/computation_policy.h</includes>
     <includes id="road__curve_8h" name="road_curve.h" local="yes" imported="no">maliput_multilane/road_curve.h</includes>
     <class kind="class">maliput::multilane::ArcRoadCurve</class>
     <namespace>maliput</namespace>
@@ -27,7 +28,7 @@
   </compound>
   <compound kind="file">
     <name>branch_point.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/include/maliput_multilane/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/src/maliput_multilane/</path>
     <filename>branch__point_8h.html</filename>
     <class kind="class">maliput::multilane::LaneEndSet</class>
     <class kind="class">maliput::multilane::BranchPoint</class>
@@ -87,8 +88,8 @@
     <name>builder.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/include/maliput_multilane/</path>
     <filename>builder_8h.html</filename>
+    <includes id="computation__policy_8h" name="computation_policy.h" local="yes" imported="no">maliput_multilane/computation_policy.h</includes>
     <includes id="connection_8h" name="connection.h" local="yes" imported="no">maliput_multilane/connection.h</includes>
-    <includes id="junction_8h" name="junction.h" local="yes" imported="no">maliput_multilane/junction.h</includes>
     <class kind="class">maliput::multilane::StartReference</class>
     <class kind="class">maliput::multilane::StartReference::Spec</class>
     <class kind="class">maliput::multilane::StartLane</class>
@@ -150,6 +151,22 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>computation_policy.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/include/maliput_multilane/</path>
+    <filename>computation__policy_8h.html</filename>
+    <namespace>maliput</namespace>
+    <namespace>maliput::multilane</namespace>
+    <member kind="enumeration">
+      <type></type>
+      <name>ComputationPolicy</name>
+      <anchorfile>namespacemaliput_1_1multilane.html</anchorfile>
+      <anchor>a9f1bdafa1bee33c155f083a58b0a82f0</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespacemaliput_1_1multilane.html" anchor="a9f1bdafa1bee33c155f083a58b0a82f0a0d709837c028c986ee74673645158c0d">kPreferAccuracy</enumvalue>
+      <enumvalue file="namespacemaliput_1_1multilane.html" anchor="a9f1bdafa1bee33c155f083a58b0a82f0a6b377165120b706cf23b37af6310d961">kPreferSpeed</enumvalue>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>connection.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/src/maliput_multilane/</path>
     <filename>connection_8cc.html</filename>
@@ -198,6 +215,7 @@
     <name>connection.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/include/maliput_multilane/</path>
     <filename>connection_8h.html</filename>
+    <includes id="computation__policy_8h" name="computation_policy.h" local="yes" imported="no">maliput_multilane/computation_policy.h</includes>
     <includes id="road__curve_8h" name="road_curve.h" local="yes" imported="no">maliput_multilane/road_curve.h</includes>
     <class kind="class">maliput::multilane::EndpointXy</class>
     <class kind="class">maliput::multilane::EndpointZ</class>
@@ -334,7 +352,7 @@
   </compound>
   <compound kind="file">
     <name>junction.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/include/maliput_multilane/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/src/maliput_multilane/</path>
     <filename>junction_8h.html</filename>
     <includes id="road__curve_8h" name="road_curve.h" local="yes" imported="no">maliput_multilane/road_curve.h</includes>
     <includes id="segment_8h" name="segment.h" local="yes" imported="no">maliput_multilane/segment.h</includes>
@@ -353,7 +371,7 @@
   </compound>
   <compound kind="file">
     <name>lane.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/include/maliput_multilane/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/src/maliput_multilane/</path>
     <filename>lane_8h.html</filename>
     <includes id="cubic__polynomial_8h" name="cubic_polynomial.h" local="yes" imported="no">maliput_multilane/cubic_polynomial.h</includes>
     <includes id="road__curve_8h" name="road_curve.h" local="yes" imported="no">maliput_multilane/road_curve.h</includes>
@@ -371,8 +389,9 @@
   </compound>
   <compound kind="file">
     <name>line_road_curve.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/include/maliput_multilane/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/src/maliput_multilane/</path>
     <filename>line__road__curve_8h.html</filename>
+    <includes id="computation__policy_8h" name="computation_policy.h" local="yes" imported="no">maliput_multilane/computation_policy.h</includes>
     <includes id="road__curve_8h" name="road_curve.h" local="yes" imported="no">maliput_multilane/road_curve.h</includes>
     <class kind="class">maliput::multilane::LineRoadCurve</class>
     <namespace>maliput</namespace>
@@ -538,7 +557,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/include/maliput_multilane/</path>
     <filename>multilane__onramp__merge_8h.html</filename>
     <includes id="builder_8h" name="builder.h" local="yes" imported="no">maliput_multilane/builder.h</includes>
-    <includes id="road__curve_8h" name="road_curve.h" local="yes" imported="no">maliput_multilane/road_curve.h</includes>
+    <includes id="computation__policy_8h" name="computation_policy.h" local="yes" imported="no">maliput_multilane/computation_policy.h</includes>
     <class kind="struct">maliput::multilane::MultilaneRoadCharacteristics</class>
     <class kind="class">maliput::multilane::MultilaneOnrampMerge</class>
     <namespace>maliput</namespace>
@@ -765,20 +784,12 @@
     <name>road_curve.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/include/maliput_multilane/</path>
     <filename>road__curve_8h.html</filename>
+    <includes id="computation__policy_8h" name="computation_policy.h" local="yes" imported="no">maliput_multilane/computation_policy.h</includes>
     <includes id="cubic__polynomial_8h" name="cubic_polynomial.h" local="yes" imported="no">maliput_multilane/cubic_polynomial.h</includes>
     <class kind="class">maliput::multilane::Rot3</class>
     <class kind="class">maliput::multilane::RoadCurve</class>
     <namespace>maliput</namespace>
     <namespace>maliput::multilane</namespace>
-    <member kind="enumeration">
-      <type></type>
-      <name>ComputationPolicy</name>
-      <anchorfile>namespacemaliput_1_1multilane.html</anchorfile>
-      <anchor>a9f1bdafa1bee33c155f083a58b0a82f0</anchor>
-      <arglist></arglist>
-      <enumvalue file="namespacemaliput_1_1multilane.html" anchor="a9f1bdafa1bee33c155f083a58b0a82f0a0d709837c028c986ee74673645158c0d">kPreferAccuracy</enumvalue>
-      <enumvalue file="namespacemaliput_1_1multilane.html" anchor="a9f1bdafa1bee33c155f083a58b0a82f0a6b377165120b706cf23b37af6310d961">kPreferSpeed</enumvalue>
-    </member>
   </compound>
   <compound kind="file">
     <name>road_geometry.cc</name>
@@ -790,7 +801,7 @@
   </compound>
   <compound kind="file">
     <name>road_geometry.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/include/maliput_multilane/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/src/maliput_multilane/</path>
     <filename>road__geometry_8h.html</filename>
     <includes id="branch__point_8h" name="branch_point.h" local="yes" imported="no">maliput_multilane/branch_point.h</includes>
     <includes id="junction_8h" name="junction.h" local="yes" imported="no">maliput_multilane/junction.h</includes>
@@ -856,7 +867,7 @@
   </compound>
   <compound kind="file">
     <name>segment.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/include/maliput_multilane/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/src/maliput_multilane/</path>
     <filename>segment_8h.html</filename>
     <includes id="cubic__polynomial_8h" name="cubic_polynomial.h" local="yes" imported="no">maliput_multilane/cubic_polynomial.h</includes>
     <includes id="lane_8h" name="lane.h" local="yes" imported="no">maliput_multilane/lane.h</includes>
@@ -2781,6 +2792,31 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::multilane::EndLane::Spec</name>
+    <filename>classmaliput_1_1multilane_1_1_end_lane_1_1_spec.html</filename>
+    <member kind="function">
+      <type>const EndpointZ &amp;</type>
+      <name>endpoint_z</name>
+      <anchorfile>classmaliput_1_1multilane_1_1_end_lane_1_1_spec.html</anchorfile>
+      <anchor>a89bcd61b576c966787e3d1356f15726f</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>lane_id</name>
+      <anchorfile>classmaliput_1_1multilane_1_1_end_lane_1_1_spec.html</anchorfile>
+      <anchor>aa5f63d3a89a08774c281c2cfb923316c</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="friend" protection="private">
+      <type>friend class</type>
+      <name>EndLane</name>
+      <anchorfile>classmaliput_1_1multilane_1_1_end_lane_1_1_spec.html</anchorfile>
+      <anchor>af9c50e5d07296fecabfdaea00cfc7669</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::multilane::StartReference::Spec</name>
     <filename>classmaliput_1_1multilane_1_1_start_reference_1_1_spec.html</filename>
     <member kind="function">
@@ -2813,31 +2849,6 @@
       <name>EndReference</name>
       <anchorfile>classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html</anchorfile>
       <anchor>abe8003e20fdfec393e76c5edb3fbd649</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::multilane::EndLane::Spec</name>
-    <filename>classmaliput_1_1multilane_1_1_end_lane_1_1_spec.html</filename>
-    <member kind="function">
-      <type>const EndpointZ &amp;</type>
-      <name>endpoint_z</name>
-      <anchorfile>classmaliput_1_1multilane_1_1_end_lane_1_1_spec.html</anchorfile>
-      <anchor>a89bcd61b576c966787e3d1356f15726f</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>lane_id</name>
-      <anchorfile>classmaliput_1_1multilane_1_1_end_lane_1_1_spec.html</anchorfile>
-      <anchor>aa5f63d3a89a08774c281c2cfb923316c</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="friend" protection="private">
-      <type>friend class</type>
-      <name>EndLane</name>
-      <anchorfile>classmaliput_1_1multilane_1_1_end_lane_1_1_spec.html</anchorfile>
-      <anchor>af9c50e5d07296fecabfdaea00cfc7669</anchor>
       <arglist></arglist>
     </member>
   </compound>

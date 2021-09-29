@@ -9,6 +9,7 @@ var NAVTREEINDEX0 =
 "builder_8cc.html#a12864c615e14d9ee109d37da4b62e5cc":[3,0,4,4],
 "builder_8cc.html#a13ff8694a0655db8692bcb5f802f9b3b":[3,0,4,2],
 "builder_8cc.html#a96a0dee0292332247317691a46d39749":[3,0,4,3],
+"builder_8cc.html#a96f467c931dce4a153356c8e7b1ec5d4":[3,0,4,5],
 "builder_8cc.html#ac87b1ea09b1a6417ffbc3aa6d9e2a5a8":[3,0,4,1],
 "builder_8cc.html#ad0e28d4a294a939a956cd2a74a19826c":[3,0,4,0],
 "builder_8h.html":[3,0,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "classmaliput_1_1multilane_1_1_road_curve.html#a6b5dbd4db6c3492d00753c458374a453":[2,0,0,0,29,3],
 "classmaliput_1_1multilane_1_1_road_curve.html#a721b7d3fd5c1783b9a7457ffbfd2e1db":[2,0,0,0,29,13],
 "classmaliput_1_1multilane_1_1_road_curve.html#a76150d92c52c1262a76b28602c8ab13a":[2,0,0,0,29,7],
-"classmaliput_1_1multilane_1_1_road_curve.html#a91493c88ef47b74b43bed2d0e60b21a1":[2,0,0,0,29,4],
-"classmaliput_1_1multilane_1_1_road_curve.html#a92b29fff38bb4dfea6fdef1bfc989f07":[2,0,0,0,29,9]
+"classmaliput_1_1multilane_1_1_road_curve.html#a91493c88ef47b74b43bed2d0e60b21a1":[2,0,0,0,29,4]
 };

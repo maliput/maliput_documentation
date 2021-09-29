@@ -11,6 +11,7 @@ var files_dup =
     ] ],
     [ "builder.cc", "builder_8cc.html", "builder_8cc" ],
     [ "builder.h", "builder_8h.html", "builder_8h" ],
+    [ "computation_policy.h", "computation__policy_8h.html", "computation__policy_8h" ],
     [ "connection.cc", "connection_8cc.html", "connection_8cc" ],
     [ "connection.h", "connection_8h.html", "connection_8h" ],
     [ "cubic_polynomial.cc", "cubic__polynomial_8cc.html", "cubic__polynomial_8cc" ],
@@ -47,7 +48,10 @@ var files_dup =
     [ "multilane_types_compare.cc", "multilane__types__compare_8cc.html", "multilane__types__compare_8cc" ],
     [ "multilane_types_compare.h", "multilane__types__compare_8h.html", "multilane__types__compare_8h" ],
     [ "road_curve.cc", "road__curve_8cc.html", "road__curve_8cc" ],
-    [ "road_curve.h", "road__curve_8h.html", "road__curve_8h" ],
+    [ "road_curve.h", "road__curve_8h.html", [
+      [ "Rot3", "classmaliput_1_1multilane_1_1_rot3.html", "classmaliput_1_1multilane_1_1_rot3" ],
+      [ "RoadCurve", "classmaliput_1_1multilane_1_1_road_curve.html", "classmaliput_1_1multilane_1_1_road_curve" ]
+    ] ],
     [ "road_geometry.cc", "road__geometry_8cc.html", null ],
     [ "road_geometry.h", "road__geometry_8h.html", [
       [ "RoadGeometry", "classmaliput_1_1multilane_1_1_road_geometry.html", "classmaliput_1_1multilane_1_1_road_geometry" ]

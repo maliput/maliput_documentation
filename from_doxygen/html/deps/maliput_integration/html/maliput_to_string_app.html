@@ -193,8 +193,104 @@ $(document).ready(function(){initNavTree('maliput_to_string_app.html',''); initR
 </div><!-- fragment --><h2>More available options</h2>
 <p>As mentioned before, <code>maliput_to_string</code> application has several arguments that can be used. All of them can be accessed by running <code>maliput_to_string --help</code>.</p>
 <p>Use <code>--check_invariants</code> to enable maliput invariants verification. See <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html#a5063335837b3825eb592bd88229d27a9">maliput::api::RoadGeometry::CheckInvariants()</a> .</p>
-<p>Use <code>--log_level</code> to set the log output See possible values at <a class="elRef" href="../../maliput/html/namespacemaliput_1_1common_1_1logger.html#afde8e18a788ccc92fc61cab298bca7e3">maliput::common::logger::level</a>. By default set to <code>unchanged</code>. </p>
-</div></div><!-- contents -->
+<p>Use <code>--log_level</code> to set the log output See possible values at <a class="elRef" href="../../maliput/html/namespacemaliput_1_1common_1_1logger.html#afde8e18a788ccc92fc61cab298bca7e3">maliput::common::logger::level</a>. By default set to <code>unchanged</code>.</p>
+<h2>Other maliput_to_string implementations</h2>
+<p>There are two more variants of <code>maliput_to_string</code> app that you can find within <code>maliput_integration</code> package.</p>
+<p>They are reduced versions of <code>maliput_to_string</code> however they were meant to exemplify how to use maliput and its backend using the plugin architecture. (See <a class="elRef" href="../../maliput/html/classmaliput_1_1plugin_1_1_maliput_plugin.html">maliput::plugin::MaliputPlugin()</a>)</p>
+<h3>maliput_to_string_with_plugin:</h3>
+<p>Based on the plugin architecture that maliput provides for loading the RoadNetwork the application lets you to indicate which plugin (backend) you want to use.</p>
+<p>For example using <code>--plugin_name=maliput_malidrive</code> </p><div class="fragment"><div class="line">maliput_to_string_with_plugin --plugin_name=maliput_malidrive --include_lane_ids --opendrive_file=TShapeRoad.xodr</div>
+</div><!-- fragment --><p>Output: </p><div class="fragment"><div class="line">[INFO] Creating MaliputPluginManager instance...</div>
+<div class="line">[INFO] Plugin Id: maliput_multilane was correctly loaded.</div>
+<div class="line">[INFO] Plugin Id: maliput_malidrive was correctly loaded.</div>
+<div class="line">[INFO] Plugin Id: maliput_dragway was correctly loaded.</div>
+<div class="line">[INFO] Number of plugins loaded: 3</div>
+<div class="line">[INFO] Plugins loading is completed.</div>
+<div class="line">[INFO] maliput_malidrive plugin has been found.</div>
+<div class="line">[INFO] Plugin id: maliput_malidrive</div>
+<div class="line">[INFO] Plugin type: RoadNetworkLoader</div>
+<div class="line">[INFO] RoadGeometry loaded successfully after iteration [0] using:</div>
+<div class="line">  |__ linear_tolerance = 0.05</div>
+<div class="line">  |__ angular_tolerance = 0.001</div>
+<div class="line">  |__ scale_length = 1</div>
+<div class="line">[INFO] RoadNetwork loaded successfully.</div>
+<div class="line">0_0_-1</div>
+<div class="line">0_0_1</div>
+<div class="line">1_0_-1</div>
+<div class="line">1_0_1</div>
+<div class="line">2_0_-1</div>
+<div class="line">2_0_1</div>
+<div class="line">4_0_1</div>
+<div class="line">5_0_-1</div>
+<div class="line">6_0_-1</div>
+<div class="line">7_0_-1</div>
+<div class="line">8_0_-1</div>
+<div class="line">9_0_-1</div>
+</div><!-- fragment --><h3>maliput_to_string_with_plugin.py</h3>
+<p>Similarly to <code>maliput_to_string_with_plugin</code> in which the plugin architecture is in between however in this case, python bindings are used.</p>
+<div class="fragment"><div class="line">maliput_to_string_with_plugin.py -plugin_name maliput_malidrive -opendrive_file=TShapeRoad.xodr</div>
+</div><!-- fragment --><p>Output: </p><div class="fragment"><div class="line">[INFO] Plugin Id: maliput_multilane was correctly loaded.</div>
+<div class="line">[INFO] Plugin Id: maliput_malidrive was correctly loaded.</div>
+<div class="line">[INFO] Plugin Id: maliput_dragway was correctly loaded.</div>
+<div class="line">[INFO] Number of plugins loaded: 3</div>
+<div class="line">[INFO] RoadGeometry loaded successfully after iteration [0] using:</div>
+<div class="line">  |__ linear_tolerance = 0.05</div>
+<div class="line">  |__ angular_tolerance = 0.01</div>
+<div class="line">  |__ scale_length = 1</div>
+<div class="line"> </div>
+<div class="line">Road Geometry ID:  maliput</div>
+<div class="line">Number of junctions:</div>
+<div class="line">  Junction  0</div>
+<div class="line">    Number of segments  1</div>
+<div class="line">    Segment  0</div>
+<div class="line">      Number of lanes:  2</div>
+<div class="line">      Lane id:  0_0_-1</div>
+<div class="line">        length:  45.99999999999975</div>
+<div class="line">      Lane id:  0_0_1</div>
+<div class="line">        length:  45.99999999999975</div>
+<div class="line">  Junction  1</div>
+<div class="line">    Number of segments  1</div>
+<div class="line">    Segment  0</div>
+<div class="line">      Number of lanes:  2</div>
+<div class="line">      Lane id:  1_0_-1</div>
+<div class="line">        length:  45.99999999999975</div>
+<div class="line">      Lane id:  1_0_1</div>
+<div class="line">        length:  45.99999999999975</div>
+<div class="line">  Junction  2</div>
+<div class="line">    Number of segments  1</div>
+<div class="line">    Segment  0</div>
+<div class="line">      Number of lanes:  2</div>
+<div class="line">      Lane id:  2_0_-1</div>
+<div class="line">        length:  45.99999999999975</div>
+<div class="line">      Lane id:  2_0_1</div>
+<div class="line">        length:  45.99999999999975</div>
+<div class="line">  Junction  3</div>
+<div class="line">    Number of segments  6</div>
+<div class="line">    Segment  0</div>
+<div class="line">      Number of lanes:  1</div>
+<div class="line">      Lane id:  4_0_1</div>
+<div class="line">        length:  7.999999999999803</div>
+<div class="line">    Segment  1</div>
+<div class="line">      Number of lanes:  1</div>
+<div class="line">      Lane id:  5_0_-1</div>
+<div class="line">        length:  7.999999999999803</div>
+<div class="line">    Segment  2</div>
+<div class="line">      Number of lanes:  1</div>
+<div class="line">      Lane id:  6_0_-1</div>
+<div class="line">        length:  9.061381870907974</div>
+<div class="line">    Segment  3</div>
+<div class="line">      Number of lanes:  1</div>
+<div class="line">      Lane id:  7_0_-1</div>
+<div class="line">        length:  3.563590834716626</div>
+<div class="line">    Segment  4</div>
+<div class="line">      Number of lanes:  1</div>
+<div class="line">      Lane id:  8_0_-1</div>
+<div class="line">        length:  9.061381870907978</div>
+<div class="line">    Segment  5</div>
+<div class="line">      Number of lanes:  1</div>
+<div class="line">      Lane id:  9_0_-1</div>
+<div class="line">        length:  3.563590834715477</div>
+</div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.15 -->

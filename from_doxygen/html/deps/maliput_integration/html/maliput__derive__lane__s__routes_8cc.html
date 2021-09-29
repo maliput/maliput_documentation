@@ -153,37 +153,41 @@ Functions</h2></td></tr>
 <tr class="separator:a279f8265bbb629f711000ea1f804572d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a949c8bd574e134aee1fbf51ddb0d2c3c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__derive__lane__s__routes_8cc.html#a949c8bd574e134aee1fbf51ddb0d2c3c">DEFINE_string</a> (maliput_backend, &quot;malidrive&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt; or &lt;malidrive&gt;. Default is malidrive.&quot;)</td></tr>
 <tr class="separator:a949c8bd574e134aee1fbf51ddb0d2c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a678c82f6221a38749194c4b1a4ca839e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__derive__lane__s__routes_8cc.html#a678c82f6221a38749194c4b1a4ca839e">DEFINE_string</a> (config_file, &quot;&quot;, &quot;Defines the XODR <a class="elRef" href="../../maliput/html/namespacemaliput_1_1common_1_1internal.html#a88cdae8c33f1a7c9d1032870876961e2">file</a>, route max length, and waypoints.&quot;)</td></tr>
-<tr class="separator:a678c82f6221a38749194c4b1a4ca839e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50d7bd8d74e9b05126574c4b1c91e978"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__derive__lane__s__routes_8cc.html#a50d7bd8d74e9b05126574c4b1c91e978">DEFINE_bool</a> (verbose, false, &quot;Whether to print the route-derivation input parameters and status &quot; &quot;messages. Useful for debugging.&quot;)</td></tr>
-<tr class="separator:a50d7bd8d74e9b05126574c4b1c91e978"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8803bf08f19db31793c8c33ab899d6f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__derive__lane__s__routes_8cc.html#a8803bf08f19db31793c8c33ab899d6f1">DEFINE_string</a> (config_file, &quot;&quot;, &quot;YAML <a class="elRef" href="../../maliput/html/namespacemaliput_1_1common_1_1internal.html#a88cdae8c33f1a7c9d1032870876961e2">file</a> that defines XODR <a class="elRef" href="../../maliput/html/namespacemaliput_1_1common_1_1internal.html#a88cdae8c33f1a7c9d1032870876961e2">file</a> path, route max length, and start/<a class="elRef" href="../../maliput_multilane/html/loader_8cc.html#a4ba99a349b210a240b5ebc92ff1c5a42">end</a> waypoints.&quot;)</td></tr>
+<tr class="separator:a8803bf08f19db31793c8c33ab899d6f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afafbb1bdb19e6374207946daaed0c5f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__derive__lane__s__routes_8cc.html#afafbb1bdb19e6374207946daaed0c5f2">DEFINE_double</a> (max_length, 1000, &quot;Maximum length of the intermediate lanes between start and <a class="elRef" href="../../maliput_multilane/html/loader_8cc.html#a4ba99a349b210a240b5ebc92ff1c5a42">end</a> waypoints.[m]&quot;)</td></tr>
+<tr class="separator:afafbb1bdb19e6374207946daaed0c5f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18c8e351c379a99d61ff00d988d052e3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__derive__lane__s__routes_8cc.html#a18c8e351c379a99d61ff00d988d052e3">DEFINE_string</a> (start_waypoint, &quot;&quot;, &quot;Start waypoint to calculate the routing from. Expected format: '{x0, y0, z0}' &quot;)</td></tr>
+<tr class="separator:a18c8e351c379a99d61ff00d988d052e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5131a25ef8e98d1787831bc6db29f5e5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__derive__lane__s__routes_8cc.html#a5131a25ef8e98d1787831bc6db29f5e5">DEFINE_string</a> (end_waypoint, &quot;&quot;, &quot;End waypoint to calculate the routing to. Expected format: '{x1, y1, z1}' &quot;)</td></tr>
+<tr class="separator:a5131a25ef8e98d1787831bc6db29f5e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__derive__lane__s__routes_8cc.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
 <tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a50d7bd8d74e9b05126574c4b1c91e978"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50d7bd8d74e9b05126574c4b1c91e978">&#9670;&nbsp;</a></span>DEFINE_bool()</h2>
+<a id="afafbb1bdb19e6374207946daaed0c5f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afafbb1bdb19e6374207946daaed0c5f2">&#9670;&nbsp;</a></span>DEFINE_double()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">DEFINE_bool </td>
+          <td class="memname">DEFINE_double </td>
           <td>(</td>
-          <td class="paramtype">verbose&#160;</td>
+          <td class="paramtype">max_length&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">false&#160;</td>
+          <td class="paramtype">1000&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">&quot;Whether to print the route-derivation input parameters and status &quot; &quot;messages. Useful for debugging.&quot;&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramtype">&quot;Maximum length of the intermediate lanes between start and <a class="elRef" href="../../maliput_multilane/html/loader_8cc.html#a4ba99a349b210a240b5ebc92ff1c5a42">end</a> waypoints.&quot;&#160;</td>
+          <td class="paramname">[m]&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -195,8 +199,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a678c82f6221a38749194c4b1a4ca839e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a678c82f6221a38749194c4b1a4ca839e">&#9670;&nbsp;</a></span>DEFINE_string() <span class="overload">[1/2]</span></h2>
+<a id="a8803bf08f19db31793c8c33ab899d6f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8803bf08f19db31793c8c33ab899d6f1">&#9670;&nbsp;</a></span>DEFINE_string() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -216,8 +220,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">&quot;Defines the XODR&#160;</td>
-          <td class="paramname"><em>file</em>, </td>
+          <td class="paramtype">&quot;YAML <a class="elRef" href="../../maliput/html/namespacemaliput_1_1common_1_1internal.html#a88cdae8c33f1a7c9d1032870876961e2">file</a> that defines XODR <a class="elRef" href="../../maliput/html/namespacemaliput_1_1common_1_1internal.html#a88cdae8c33f1a7c9d1032870876961e2">file</a>&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -228,7 +232,41 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">and waypoints.&quot;&#160;</td>
+          <td class="paramtype">and start/<a class="elRef" href="../../maliput_multilane/html/loader_8cc.html#a4ba99a349b210a240b5ebc92ff1c5a42">end</a> waypoints.&quot;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5131a25ef8e98d1787831bc6db29f5e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5131a25ef8e98d1787831bc6db29f5e5">&#9670;&nbsp;</a></span>DEFINE_string() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DEFINE_string </td>
+          <td>(</td>
+          <td class="paramtype">end_waypoint&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot;&quot;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot;End waypoint to calculate the routing to. Expected format: '{x1, y1, z1}' &quot;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -242,7 +280,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a949c8bd574e134aee1fbf51ddb0d2c3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a949c8bd574e134aee1fbf51ddb0d2c3c">&#9670;&nbsp;</a></span>DEFINE_string() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a949c8bd574e134aee1fbf51ddb0d2c3c">&#9670;&nbsp;</a></span>DEFINE_string() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -269,6 +307,40 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&lt; multilane &gt; or&lt; malidrive &gt;. Default is malidrive.&quot;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a18c8e351c379a99d61ff00d988d052e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18c8e351c379a99d61ff00d988d052e3">&#9670;&nbsp;</a></span>DEFINE_string() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DEFINE_string </td>
+          <td>(</td>
+          <td class="paramtype">start_waypoint&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot;&quot;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot;Start waypoint to calculate the routing from. Expected format: '{x0, y0, z0}' &quot;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

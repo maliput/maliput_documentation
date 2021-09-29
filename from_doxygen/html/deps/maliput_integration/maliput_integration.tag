@@ -48,15 +48,29 @@
       <type></type>
       <name>DEFINE_string</name>
       <anchorfile>maliput__derive__lane__s__routes_8cc.html</anchorfile>
-      <anchor>a678c82f6221a38749194c4b1a4ca839e</anchor>
-      <arglist>(config_file, &quot;&quot;, &quot;Defines the XODR file, route max length, and waypoints.&quot;)</arglist>
+      <anchor>a8803bf08f19db31793c8c33ab899d6f1</anchor>
+      <arglist>(config_file, &quot;&quot;, &quot;YAML file that defines XODR file path, route max length, and start/end waypoints.&quot;)</arglist>
     </member>
     <member kind="function">
       <type></type>
-      <name>DEFINE_bool</name>
+      <name>DEFINE_double</name>
       <anchorfile>maliput__derive__lane__s__routes_8cc.html</anchorfile>
-      <anchor>a50d7bd8d74e9b05126574c4b1c91e978</anchor>
-      <arglist>(verbose, false, &quot;Whether to print the route-derivation input parameters and status &quot; &quot;messages. Useful for debugging.&quot;)</arglist>
+      <anchor>afafbb1bdb19e6374207946daaed0c5f2</anchor>
+      <arglist>(max_length, 1000, &quot;Maximum length of the intermediate lanes between start and end waypoints.[m]&quot;)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>DEFINE_string</name>
+      <anchorfile>maliput__derive__lane__s__routes_8cc.html</anchorfile>
+      <anchor>a18c8e351c379a99d61ff00d988d052e3</anchor>
+      <arglist>(start_waypoint, &quot;&quot;, &quot;Start waypoint to calculate the routing from. Expected format: &apos;{x0, y0, z0}&apos; &quot;)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>DEFINE_string</name>
+      <anchorfile>maliput__derive__lane__s__routes_8cc.html</anchorfile>
+      <anchor>a5131a25ef8e98d1787831bc6db29f5e5</anchor>
+      <arglist>(end_waypoint, &quot;&quot;, &quot;End waypoint to calculate the routing to. Expected format: &apos;{x1, y1, z1}&apos; &quot;)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
@@ -65,6 +79,11 @@
       <anchor>a0ddf1224851353fc92bfbff6f499fa97</anchor>
       <arglist>(int argc, char *argv[])</arglist>
     </member>
+  </compound>
+  <compound kind="file">
+    <name>maliput_derive_lane_s_routes_app.md</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration/tutorials/</path>
+    <filename>maliput__derive__lane__s__routes__app_8md.html</filename>
   </compound>
   <compound kind="file">
     <name>maliput_gflags.h</name>
@@ -114,6 +133,11 @@
       <anchor>a0ddf1224851353fc92bfbff6f499fa97</anchor>
       <arglist>(int argc, char *argv[])</arglist>
     </member>
+  </compound>
+  <compound kind="file">
+    <name>maliput_measure_load_time_app.md</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration/tutorials/</path>
+    <filename>maliput__measure__load__time__app_8md.html</filename>
   </compound>
   <compound kind="file">
     <name>maliput_query.cc</name>
@@ -879,6 +903,16 @@
   <compound kind="namespace">
     <name>YAML</name>
     <filename>namespace_y_a_m_l.html</filename>
+  </compound>
+  <compound kind="page">
+    <name>maliput_derive_lane_s_routes_app</name>
+    <title>maliput_derive_lane_s_routes application</title>
+    <filename>maliput_derive_lane_s_routes_app</filename>
+  </compound>
+  <compound kind="page">
+    <name>maliput_measure_load_time_app</name>
+    <title>maliput_measure_load_time application</title>
+    <filename>maliput_measure_load_time_app</filename>
   </compound>
   <compound kind="page">
     <name>maliput_query_app</name>
