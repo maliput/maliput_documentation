@@ -45,6 +45,7 @@
     <includes id="cubic__polynomial_8h" name="cubic_polynomial.h" local="yes" imported="no">maliput_multilane/cubic_polynomial.h</includes>
     <includes id="junction_8h" name="junction.h" local="yes" imported="no">maliput_multilane/junction.h</includes>
     <includes id="line__road__curve_8h" name="line_road_curve.h" local="yes" imported="no">maliput_multilane/line_road_curve.h</includes>
+    <includes id="make__road__curve__for__connection_8h" name="make_road_curve_for_connection.h" local="yes" imported="no">maliput_multilane/make_road_curve_for_connection.h</includes>
     <includes id="road__geometry_8h" name="road_geometry.h" local="yes" imported="no">maliput_multilane/road_geometry.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::multilane</namespace>
@@ -171,8 +172,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/src/maliput_multilane/</path>
     <filename>connection_8cc.html</filename>
     <includes id="connection_8h" name="connection.h" local="yes" imported="no">maliput_multilane/connection.h</includes>
-    <includes id="arc__road__curve_8h" name="arc_road_curve.h" local="yes" imported="no">maliput_multilane/arc_road_curve.h</includes>
-    <includes id="line__road__curve_8h" name="line_road_curve.h" local="yes" imported="no">maliput_multilane/line_road_curve.h</includes>
+    <includes id="make__road__curve__for__connection_8h" name="make_road_curve_for_connection.h" local="yes" imported="no">maliput_multilane/make_road_curve_for_connection.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::multilane</namespace>
     <member kind="function">
@@ -216,7 +216,6 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/include/maliput_multilane/</path>
     <filename>connection_8h.html</filename>
     <includes id="computation__policy_8h" name="computation_policy.h" local="yes" imported="no">maliput_multilane/computation_policy.h</includes>
-    <includes id="road__curve_8h" name="road_curve.h" local="yes" imported="no">maliput_multilane/road_curve.h</includes>
     <class kind="class">maliput::multilane::EndpointXy</class>
     <class kind="class">maliput::multilane::EndpointZ</class>
     <class kind="class">maliput::multilane::Endpoint</class>
@@ -281,7 +280,7 @@
   </compound>
   <compound kind="file">
     <name>cubic_polynomial.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/include/maliput_multilane/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/src/maliput_multilane/</path>
     <filename>cubic__polynomial_8h.html</filename>
     <class kind="class">maliput::multilane::CubicPolynomial</class>
     <namespace>maliput</namespace>
@@ -292,27 +291,6 @@
       <anchorfile>namespacemaliput_1_1multilane.html</anchorfile>
       <anchor>ac412f72f83bc05d922314cb282c1c06e</anchor>
       <arglist>(std::ostream &amp;out, const CubicPolynomial &amp;cubic_polynomial)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>eigen_matrix_compare.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/include/maliput_multilane_test_utilities/</path>
-    <filename>eigen__matrix__compare_8h.html</filename>
-    <member kind="enumeration">
-      <type></type>
-      <name>MatrixCompareType</name>
-      <anchorfile>eigen__matrix__compare_8h.html</anchorfile>
-      <anchor>a487584d4d770172ae2f665bde7462de2</anchor>
-      <arglist></arglist>
-      <enumvalue file="eigen__matrix__compare_8h.html" anchor="a487584d4d770172ae2f665bde7462de2adc4d53aa0d117d8b189b36d161af4e96">absolute</enumvalue>
-      <enumvalue file="eigen__matrix__compare_8h.html" anchor="a487584d4d770172ae2f665bde7462de2a99c483e1d11b1a279a2a1a3960528487">relative</enumvalue>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>CompareMatrices</name>
-      <anchorfile>eigen__matrix__compare_8h.html</anchorfile>
-      <anchor>a51792b710a408793f607965ed5fa8f30</anchor>
-      <arglist>(const Eigen::MatrixBase&lt; DerivedA &gt; &amp;m1, const Eigen::MatrixBase&lt; DerivedB &gt; &amp;m2, double tolerance=0.0, MatrixCompareType compare_type=MatrixCompareType::absolute)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -494,49 +472,38 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>multilane_brute_force_integral.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/src/maliput_multilane_test_utilities/</path>
-    <filename>multilane__brute__force__integral_8cc.html</filename>
-    <includes id="multilane__brute__force__integral_8h" name="multilane_brute_force_integral.h" local="yes" imported="no">maliput_multilane_test_utilities/multilane_brute_force_integral.h</includes>
+    <name>make_road_curve_for_connection.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/src/maliput_multilane/</path>
+    <filename>make__road__curve__for__connection_8cc.html</filename>
+    <includes id="make__road__curve__for__connection_8h" name="make_road_curve_for_connection.h" local="yes" imported="no">maliput_multilane/make_road_curve_for_connection.h</includes>
+    <includes id="arc__road__curve_8h" name="arc_road_curve.h" local="yes" imported="no">maliput_multilane/arc_road_curve.h</includes>
+    <includes id="computation__policy_8h" name="computation_policy.h" local="yes" imported="no">maliput_multilane/computation_policy.h</includes>
+    <includes id="cubic__polynomial_8h" name="cubic_polynomial.h" local="yes" imported="no">maliput_multilane/cubic_polynomial.h</includes>
+    <includes id="line__road__curve_8h" name="line_road_curve.h" local="yes" imported="no">maliput_multilane/line_road_curve.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::multilane</namespace>
-    <namespace>maliput::multilane::test</namespace>
     <member kind="function">
-      <type>double</type>
-      <name>BruteForcePathLengthIntegral</name>
-      <anchorfile>namespacemaliput_1_1multilane_1_1test.html</anchorfile>
-      <anchor>a87dd71e4faf257bc8fdee2a7478cd61c</anchor>
-      <arglist>(const RoadCurve &amp;road_curve, double p_0, double p_1, double r, double h, int k_order, double *maximum_step)</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>AdaptiveBruteForcePathLengthIntegral</name>
-      <anchorfile>namespacemaliput_1_1multilane_1_1test.html</anchorfile>
-      <anchor>a6a27589aaa4786adaa00d1f1124da709</anchor>
-      <arglist>(const RoadCurve &amp;rc, double p_0, double p_1, double r, double h, double tolerance, int *k_order_hint)</arglist>
+      <type>std::unique_ptr&lt; RoadCurve &gt;</type>
+      <name>MakeRoadCurveFor</name>
+      <anchorfile>namespacemaliput_1_1multilane.html</anchorfile>
+      <anchor>ab95a283ea909cce5453d56d9f2913ba0</anchor>
+      <arglist>(const Connection &amp;connection)</arglist>
     </member>
   </compound>
   <compound kind="file">
-    <name>multilane_brute_force_integral.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/include/maliput_multilane_test_utilities/</path>
-    <filename>multilane__brute__force__integral_8h.html</filename>
+    <name>make_road_curve_for_connection.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/src/maliput_multilane/</path>
+    <filename>make__road__curve__for__connection_8h.html</filename>
+    <includes id="connection_8h" name="connection.h" local="yes" imported="no">maliput_multilane/connection.h</includes>
     <includes id="road__curve_8h" name="road_curve.h" local="yes" imported="no">maliput_multilane/road_curve.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::multilane</namespace>
-    <namespace>maliput::multilane::test</namespace>
     <member kind="function">
-      <type>double</type>
-      <name>BruteForcePathLengthIntegral</name>
-      <anchorfile>namespacemaliput_1_1multilane_1_1test.html</anchorfile>
-      <anchor>a87dd71e4faf257bc8fdee2a7478cd61c</anchor>
-      <arglist>(const RoadCurve &amp;road_curve, double p_0, double p_1, double r, double h, int k_order, double *maximum_step)</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>AdaptiveBruteForcePathLengthIntegral</name>
-      <anchorfile>namespacemaliput_1_1multilane_1_1test.html</anchorfile>
-      <anchor>a6a27589aaa4786adaa00d1f1124da709</anchor>
-      <arglist>(const RoadCurve &amp;rc, double p_0, double p_1, double r, double h, double tolerance, int *k_order_hint)</arglist>
+      <type>std::unique_ptr&lt; RoadCurve &gt;</type>
+      <name>MakeRoadCurveFor</name>
+      <anchorfile>namespacemaliput_1_1multilane.html</anchorfile>
+      <anchor>ab95a283ea909cce5453d56d9f2913ba0</anchor>
+      <arglist>(const Connection &amp;connection)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -598,13 +565,6 @@
       <anchorfile>namespacemaliput_1_1multilane_1_1test.html</anchorfile>
       <anchor>a5bc51e1440d05be2694e58f3fe39aeb3</anchor>
       <arglist>(const ArcOffset &amp;arc_offset1, const ArcOffset &amp;arc_offset2, double linear_tolerance, double angular_tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsCubicPolynomialClose</name>
-      <anchorfile>namespacemaliput_1_1multilane_1_1test.html</anchorfile>
-      <anchor>ae705a2cc9d0633ae2ee77bc1d45d054a</anchor>
-      <arglist>(const CubicPolynomial &amp;cubic1, const CubicPolynomial &amp;cubic2, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>Matcher&lt; const api::HBounds &amp; &gt;</type>
@@ -709,13 +669,6 @@
       <arglist>(const ArcOffset &amp;arc_offset1, const ArcOffset &amp;arc_offset2, double linear_tolerance, double angular_tolerance)</arglist>
     </member>
     <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsCubicPolynomialClose</name>
-      <anchorfile>namespacemaliput_1_1multilane_1_1test.html</anchorfile>
-      <anchor>ae705a2cc9d0633ae2ee77bc1d45d054a</anchor>
-      <arglist>(const CubicPolynomial &amp;cubic1, const CubicPolynomial &amp;cubic2, double tolerance)</arglist>
-    </member>
-    <member kind="function">
       <type>Matcher&lt; const api::HBounds &amp; &gt;</type>
       <name>Matches</name>
       <anchorfile>namespacemaliput_1_1multilane_1_1test.html</anchorfile>
@@ -782,7 +735,7 @@
   </compound>
   <compound kind="file">
     <name>road_curve.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/include/maliput_multilane/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/src/maliput_multilane/</path>
     <filename>road__curve_8h.html</filename>
     <includes id="computation__policy_8h" name="computation_policy.h" local="yes" imported="no">maliput_multilane/computation_policy.h</includes>
     <includes id="cubic__polynomial_8h" name="cubic_polynomial.h" local="yes" imported="no">maliput_multilane/cubic_polynomial.h</includes>
@@ -942,8 +895,8 @@
       <type></type>
       <name>ArcRoadCurve</name>
       <anchorfile>classmaliput_1_1multilane_1_1_arc_road_curve.html</anchorfile>
-      <anchor>a4f496064c8e52b3a78f3cacf60510e4d</anchor>
-      <arglist>(const drake::Vector2&lt; double &gt; &amp;center, double radius, double theta0, double d_theta, const CubicPolynomial &amp;elevation, const CubicPolynomial &amp;superelevation, double linear_tolerance, double scale_length, ComputationPolicy computation_policy)</arglist>
+      <anchor>a21c9ff1d5a2264f77e8af9e3c0f1b17e</anchor>
+      <arglist>(const math::Vector2 &amp;center, double radius, double theta0, double d_theta, const CubicPolynomial &amp;elevation, const CubicPolynomial &amp;superelevation, double linear_tolerance, double scale_length, ComputationPolicy computation_policy)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -953,17 +906,17 @@
       <arglist>() override=default</arglist>
     </member>
     <member kind="function">
-      <type>drake::Vector2&lt; double &gt;</type>
+      <type>math::Vector2</type>
       <name>xy_of_p</name>
       <anchorfile>classmaliput_1_1multilane_1_1_arc_road_curve.html</anchorfile>
-      <anchor>a1ba46dd6b1f51a5d2cf4261c1a10df6b</anchor>
+      <anchor>a001bc3bf60a67ea0dcb0b24732c00d35</anchor>
       <arglist>(double p) const override</arglist>
     </member>
     <member kind="function">
-      <type>drake::Vector2&lt; double &gt;</type>
+      <type>math::Vector2</type>
       <name>xy_dot_of_p</name>
       <anchorfile>classmaliput_1_1multilane_1_1_arc_road_curve.html</anchorfile>
-      <anchor>a611339f72cb8ce66e737a140526e3f76</anchor>
+      <anchor>a42eb756177e29ccac128fcb74dc546dc</anchor>
       <arglist>(double p) const override</arglist>
     </member>
     <member kind="function">
@@ -988,11 +941,11 @@
       <arglist>() const override</arglist>
     </member>
     <member kind="function">
-      <type>drake::Vector3&lt; double &gt;</type>
+      <type>math::Vector3</type>
       <name>ToCurveFrame</name>
       <anchorfile>classmaliput_1_1multilane_1_1_arc_road_curve.html</anchorfile>
-      <anchor>acf00c631dc27c597df5b83e463858b84</anchor>
-      <arglist>(const drake::Vector3&lt; double &gt; &amp;geo_coordinate, double r_min, double r_max, const api::HBounds &amp;height_bounds) const override</arglist>
+      <anchor>af5ca577cf03f23a30dfa7aee8911fb73</anchor>
+      <arglist>(const math::Vector3 &amp;geo_coordinate, double r_min, double r_max, const api::HBounds &amp;height_bounds) const override</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
@@ -1380,6 +1333,13 @@
     </member>
     <member kind="function">
       <type></type>
+      <name>~Connection</name>
+      <anchorfile>classmaliput_1_1multilane_1_1_connection.html</anchorfile>
+      <anchor>a7a3e1a734e64796b393be72275bcb246</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
       <name>Connection</name>
       <anchorfile>classmaliput_1_1multilane_1_1_connection.html</anchorfile>
       <anchor>a06351403e67b556bd362b8230fbd0d04</anchor>
@@ -1396,28 +1356,28 @@
       <type>Type</type>
       <name>type</name>
       <anchorfile>classmaliput_1_1multilane_1_1_connection.html</anchorfile>
-      <anchor>adf4a6727c689e0038cf2cdd158d5ed2c</anchor>
+      <anchor>a2fee8bf4198d2b99a6cebb9db2675f9e</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
       <type>const std::string &amp;</type>
       <name>id</name>
       <anchorfile>classmaliput_1_1multilane_1_1_connection.html</anchorfile>
-      <anchor>aad583cd755a276cee5a47ee45237745c</anchor>
+      <anchor>a2afbfe390842c04d4a063889cee1b543</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
       <type>const Endpoint &amp;</type>
       <name>start</name>
       <anchorfile>classmaliput_1_1multilane_1_1_connection.html</anchorfile>
-      <anchor>a34850da20ebb7340fb367610add50919</anchor>
+      <anchor>a81fb16e556c698d6e7a5318b3ae0176c</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
       <type>const Endpoint &amp;</type>
       <name>end</name>
       <anchorfile>classmaliput_1_1multilane_1_1_connection.html</anchorfile>
-      <anchor>afd9aabaa7b6684773394ede40884388e</anchor>
+      <anchor>a185a9f434d160dd74997dfeab73e7b7d</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -1531,13 +1491,6 @@
       <anchorfile>classmaliput_1_1multilane_1_1_connection.html</anchorfile>
       <anchor>a372761c4d5ca6f20fbe2f36a174ccfcc</anchor>
       <arglist>(int lane_index) const</arglist>
-    </member>
-    <member kind="function">
-      <type>std::unique_ptr&lt; RoadCurve &gt;</type>
-      <name>CreateRoadCurve</name>
-      <anchorfile>classmaliput_1_1multilane_1_1_connection.html</anchorfile>
-      <anchor>a8bb1802d0d79d36a3ad41debf74e252d</anchor>
-      <arglist>() const</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -2293,8 +2246,8 @@
       <type></type>
       <name>LineRoadCurve</name>
       <anchorfile>classmaliput_1_1multilane_1_1_line_road_curve.html</anchorfile>
-      <anchor>a762f1a59636bf1836acab9424a2e09fa</anchor>
-      <arglist>(const drake::Vector2&lt; double &gt; &amp;xy0, const drake::Vector2&lt; double &gt; &amp;dxy, const CubicPolynomial &amp;elevation, const CubicPolynomial &amp;superelevation, double linear_tolerance, double scale_length, ComputationPolicy computation_policy)</arglist>
+      <anchor>a50e1b20f35a5ea0408b221c4f569c77c</anchor>
+      <arglist>(const math::Vector2 &amp;xy0, const math::Vector2 &amp;dxy, const CubicPolynomial &amp;elevation, const CubicPolynomial &amp;superelevation, double linear_tolerance, double scale_length, ComputationPolicy computation_policy)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -2304,17 +2257,17 @@
       <arglist>() override=default</arglist>
     </member>
     <member kind="function">
-      <type>drake::Vector2&lt; double &gt;</type>
+      <type>math::Vector2</type>
       <name>xy_of_p</name>
       <anchorfile>classmaliput_1_1multilane_1_1_line_road_curve.html</anchorfile>
-      <anchor>a1ba46dd6b1f51a5d2cf4261c1a10df6b</anchor>
+      <anchor>a001bc3bf60a67ea0dcb0b24732c00d35</anchor>
       <arglist>(double p) const override</arglist>
     </member>
     <member kind="function">
-      <type>drake::Vector2&lt; double &gt;</type>
+      <type>math::Vector2</type>
       <name>xy_dot_of_p</name>
       <anchorfile>classmaliput_1_1multilane_1_1_line_road_curve.html</anchorfile>
-      <anchor>a611339f72cb8ce66e737a140526e3f76</anchor>
+      <anchor>a42eb756177e29ccac128fcb74dc546dc</anchor>
       <arglist>(double p) const override</arglist>
     </member>
     <member kind="function">
@@ -2339,11 +2292,11 @@
       <arglist>() const override</arglist>
     </member>
     <member kind="function">
-      <type>drake::Vector3&lt; double &gt;</type>
+      <type>math::Vector3</type>
       <name>ToCurveFrame</name>
       <anchorfile>classmaliput_1_1multilane_1_1_line_road_curve.html</anchorfile>
-      <anchor>acf00c631dc27c597df5b83e463858b84</anchor>
-      <arglist>(const drake::Vector3&lt; double &gt; &amp;geo_coordinate, double r_min, double r_max, const api::HBounds &amp;height_bounds) const override</arglist>
+      <anchor>af5ca577cf03f23a30dfa7aee8911fb73</anchor>
+      <arglist>(const math::Vector3 &amp;geo_coordinate, double r_min, double r_max, const api::HBounds &amp;height_bounds) const override</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
@@ -2545,17 +2498,17 @@
       <arglist>(double r) const</arglist>
     </member>
     <member kind="function" virtualness="pure">
-      <type>virtual drake::Vector2&lt; double &gt;</type>
+      <type>virtual math::Vector2</type>
       <name>xy_of_p</name>
       <anchorfile>classmaliput_1_1multilane_1_1_road_curve.html</anchorfile>
-      <anchor>a54e73e7acb70a83c5b75165ff3d6dbf0</anchor>
+      <anchor>a031aece41762d34a78a88d574df78642</anchor>
       <arglist>(double p) const =0</arglist>
     </member>
     <member kind="function" virtualness="pure">
-      <type>virtual drake::Vector2&lt; double &gt;</type>
+      <type>virtual math::Vector2</type>
       <name>xy_dot_of_p</name>
       <anchorfile>classmaliput_1_1multilane_1_1_road_curve.html</anchorfile>
-      <anchor>a1fcd75e33786137beea1a30ea79bdf3a</anchor>
+      <anchor>a6f557c7e4f01da5fae5256aad2517cf8</anchor>
       <arglist>(double p) const =0</arglist>
     </member>
     <member kind="function" virtualness="pure">
@@ -2580,11 +2533,11 @@
       <arglist>() const =0</arglist>
     </member>
     <member kind="function" virtualness="pure">
-      <type>virtual drake::Vector3&lt; double &gt;</type>
+      <type>virtual math::Vector3</type>
       <name>ToCurveFrame</name>
       <anchorfile>classmaliput_1_1multilane_1_1_road_curve.html</anchorfile>
-      <anchor>ae65885a3cbb0172a3a8ba7e902c44e77</anchor>
-      <arglist>(const drake::Vector3&lt; double &gt; &amp;inertial_coordinate, double r_min, double r_max, const api::HBounds &amp;height_bounds) const =0</arglist>
+      <anchor>a09219a22053944a70805bf3d4726ebbe</anchor>
+      <arglist>(const math::Vector3 &amp;inertial_coordinate, double r_min, double r_max, const api::HBounds &amp;height_bounds) const =0</arglist>
     </member>
     <member kind="function" virtualness="pure">
       <type>virtual bool</type>
@@ -2594,17 +2547,17 @@
       <arglist>(double r_min, double r_max, const api::HBounds &amp;height_bounds) const =0</arglist>
     </member>
     <member kind="function">
-      <type>drake::Vector3&lt; double &gt;</type>
+      <type>math::Vector3</type>
       <name>W_of_prh</name>
       <anchorfile>classmaliput_1_1multilane_1_1_road_curve.html</anchorfile>
-      <anchor>abce5615fe1af290bba920a911bad73a0</anchor>
+      <anchor>aaefca100e8547dc3afed6f70adc3d579</anchor>
       <arglist>(double p, double r, double h) const</arglist>
     </member>
     <member kind="function">
-      <type>drake::Vector3&lt; double &gt;</type>
+      <type>math::Vector3</type>
       <name>W_prime_of_prh</name>
       <anchorfile>classmaliput_1_1multilane_1_1_road_curve.html</anchorfile>
-      <anchor>a0afb7a2b3e5b69ba65adf83d070cc758</anchor>
+      <anchor>a3023850fecc54350a4b602d30d633ee7</anchor>
       <arglist>(double p, double r, double h, const Rot3 &amp;Rabg, double g_prime) const</arglist>
     </member>
     <member kind="function">
@@ -2622,17 +2575,17 @@
       <arglist>(double p, double r, double h) const</arglist>
     </member>
     <member kind="function">
-      <type>drake::Vector3&lt; double &gt;</type>
+      <type>math::Vector3</type>
       <name>s_hat_of_prh</name>
       <anchorfile>classmaliput_1_1multilane_1_1_road_curve.html</anchorfile>
-      <anchor>aa9f12f8323cca3330f71b2153c41c71a</anchor>
+      <anchor>aa08a7231b25f51aaeb3ecb9008aba65d</anchor>
       <arglist>(double p, double r, double h, const Rot3 &amp;Rabg, double g_prime) const</arglist>
     </member>
     <member kind="function">
-      <type>drake::Vector3&lt; double &gt;</type>
+      <type>math::Vector3</type>
       <name>r_hat_of_Rabg</name>
       <anchorfile>classmaliput_1_1multilane_1_1_road_curve.html</anchorfile>
-      <anchor>a721b7d3fd5c1783b9a7457ffbfd2e1db</anchor>
+      <anchor>ae67d98a44dd01669e2de9dd14d758ee0</anchor>
       <arglist>(const Rot3 &amp;Rabg) const</arglist>
     </member>
     <member kind="function">
@@ -2705,11 +2658,11 @@
       <arglist>(double roll, double pitch, double yaw)</arglist>
     </member>
     <member kind="function">
-      <type>drake::Vector3&lt; double &gt;</type>
+      <type>math::Vector3</type>
       <name>apply</name>
       <anchorfile>classmaliput_1_1multilane_1_1_rot3.html</anchorfile>
-      <anchor>abd76d2cff7616e4611b6f28661c168aa</anchor>
-      <arglist>(const drake::Vector3&lt; double &gt; &amp;in) const</arglist>
+      <anchor>a541f4ea463bc0d1af3ea34fa56768561</anchor>
+      <arglist>(const math::Vector3 &amp;in) const</arglist>
     </member>
     <member kind="function">
       <type>double</type>
@@ -2767,6 +2720,24 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::multilane::EndReference::Spec</name>
+    <filename>classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html</filename>
+    <member kind="function">
+      <type>const EndpointZ &amp;</type>
+      <name>endpoint_z</name>
+      <anchorfile>classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html</anchorfile>
+      <anchor>a89bcd61b576c966787e3d1356f15726f</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="friend" protection="private">
+      <type>friend class</type>
+      <name>EndReference</name>
+      <anchorfile>classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html</anchorfile>
+      <anchor>abe8003e20fdfec393e76c5edb3fbd649</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::multilane::StartLane::Spec</name>
     <filename>classmaliput_1_1multilane_1_1_start_lane_1_1_spec.html</filename>
     <member kind="function">
@@ -2792,6 +2763,24 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::multilane::StartReference::Spec</name>
+    <filename>classmaliput_1_1multilane_1_1_start_reference_1_1_spec.html</filename>
+    <member kind="function">
+      <type>const Endpoint &amp;</type>
+      <name>endpoint</name>
+      <anchorfile>classmaliput_1_1multilane_1_1_start_reference_1_1_spec.html</anchorfile>
+      <anchor>aeb7fead247e94c226026c5b57cff7beb</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="friend" protection="private">
+      <type>friend class</type>
+      <name>StartReference</name>
+      <anchorfile>classmaliput_1_1multilane_1_1_start_reference_1_1_spec.html</anchorfile>
+      <anchor>aa09c69c32d0d5ada4e63443664c2f607</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::multilane::EndLane::Spec</name>
     <filename>classmaliput_1_1multilane_1_1_end_lane_1_1_spec.html</filename>
     <member kind="function">
@@ -2813,42 +2802,6 @@
       <name>EndLane</name>
       <anchorfile>classmaliput_1_1multilane_1_1_end_lane_1_1_spec.html</anchorfile>
       <anchor>af9c50e5d07296fecabfdaea00cfc7669</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::multilane::StartReference::Spec</name>
-    <filename>classmaliput_1_1multilane_1_1_start_reference_1_1_spec.html</filename>
-    <member kind="function">
-      <type>const Endpoint &amp;</type>
-      <name>endpoint</name>
-      <anchorfile>classmaliput_1_1multilane_1_1_start_reference_1_1_spec.html</anchorfile>
-      <anchor>aeb7fead247e94c226026c5b57cff7beb</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="friend" protection="private">
-      <type>friend class</type>
-      <name>StartReference</name>
-      <anchorfile>classmaliput_1_1multilane_1_1_start_reference_1_1_spec.html</anchorfile>
-      <anchor>aa09c69c32d0d5ada4e63443664c2f607</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::multilane::EndReference::Spec</name>
-    <filename>classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html</filename>
-    <member kind="function">
-      <type>const EndpointZ &amp;</type>
-      <name>endpoint_z</name>
-      <anchorfile>classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html</anchorfile>
-      <anchor>a89bcd61b576c966787e3d1356f15726f</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="friend" protection="private">
-      <type>friend class</type>
-      <name>EndReference</name>
-      <anchorfile>classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html</anchorfile>
-      <anchor>abe8003e20fdfec393e76c5edb3fbd649</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -3102,13 +3055,6 @@
       <arglist>(std::ostream &amp;out, const ArcOffset &amp;arc_offset)</arglist>
     </member>
     <member kind="function">
-      <type>std::ostream &amp;</type>
-      <name>operator&lt;&lt;</name>
-      <anchorfile>namespacemaliput_1_1multilane.html</anchorfile>
-      <anchor>ac412f72f83bc05d922314cb282c1c06e</anchor>
-      <arglist>(std::ostream &amp;out, const CubicPolynomial &amp;cubic_polynomial)</arglist>
-    </member>
-    <member kind="function">
       <type>std::unique_ptr&lt; const api::RoadGeometry &gt;</type>
       <name>Load</name>
       <anchorfile>namespacemaliput_1_1multilane.html</anchorfile>
@@ -3128,6 +3074,20 @@
       <anchorfile>namespacemaliput_1_1multilane.html</anchorfile>
       <anchor>ae1b480b5839f0d20513d52d9becee154</anchor>
       <arglist>(const RoadNetworkConfiguration &amp;road_network_configuration)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::ostream &amp;</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacemaliput_1_1multilane.html</anchorfile>
+      <anchor>ac412f72f83bc05d922314cb282c1c06e</anchor>
+      <arglist>(std::ostream &amp;out, const CubicPolynomial &amp;cubic_polynomial)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; RoadCurve &gt;</type>
+      <name>MakeRoadCurveFor</name>
+      <anchorfile>namespacemaliput_1_1multilane.html</anchorfile>
+      <anchor>ab95a283ea909cce5453d56d9f2913ba0</anchor>
+      <arglist>(const Connection &amp;connection)</arglist>
     </member>
     <member kind="variable">
       <type>constexpr char</type>
@@ -3160,20 +3120,6 @@
     <class kind="class">maliput::multilane::test::StartLaneSpecMatcher</class>
     <class kind="class">maliput::multilane::test::StartReferenceSpecMatcher</class>
     <member kind="function">
-      <type>double</type>
-      <name>BruteForcePathLengthIntegral</name>
-      <anchorfile>namespacemaliput_1_1multilane_1_1test.html</anchorfile>
-      <anchor>a87dd71e4faf257bc8fdee2a7478cd61c</anchor>
-      <arglist>(const RoadCurve &amp;road_curve, double p_0, double p_1, double r, double h, int k_order, double *maximum_step)</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>AdaptiveBruteForcePathLengthIntegral</name>
-      <anchorfile>namespacemaliput_1_1multilane_1_1test.html</anchorfile>
-      <anchor>a6a27589aaa4786adaa00d1f1124da709</anchor>
-      <arglist>(const RoadCurve &amp;rc, double p_0, double p_1, double r, double h, double tolerance, int *k_order_hint)</arglist>
-    </member>
-    <member kind="function">
       <type>::testing::AssertionResult</type>
       <name>IsEndpointXyClose</name>
       <anchorfile>namespacemaliput_1_1multilane_1_1test.html</anchorfile>
@@ -3200,13 +3146,6 @@
       <anchorfile>namespacemaliput_1_1multilane_1_1test.html</anchorfile>
       <anchor>a5bc51e1440d05be2694e58f3fe39aeb3</anchor>
       <arglist>(const ArcOffset &amp;arc_offset1, const ArcOffset &amp;arc_offset2, double linear_tolerance, double angular_tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsCubicPolynomialClose</name>
-      <anchorfile>namespacemaliput_1_1multilane_1_1test.html</anchorfile>
-      <anchor>ae705a2cc9d0633ae2ee77bc1d45d054a</anchor>
-      <arglist>(const CubicPolynomial &amp;cubic1, const CubicPolynomial &amp;cubic2, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>Matcher&lt; const api::HBounds &amp; &gt;</type>

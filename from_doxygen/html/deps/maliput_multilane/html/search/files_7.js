@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['intersection_5fbook_2ecc_1558',['intersection_book.cc',['../../../maliput/html/intersection__book_8cc.html.html',1,'']]],
-  ['intersection_5fbook_5floader_2ecc_1559',['intersection_book_loader.cc',['../../../maliput/html/intersection__book__loader_8cc.html.html',1,'']]],
-  ['intersection_5fbook_5floader_2eh_1560',['intersection_book_loader.h',['../../../maliput/html/intersection__book__loader_8h.html.html',1,'']]]
+  ['junction_2ecc_1554',['junction.cc',['../junction_8cc.html',1,'(Global Namespace)'],['../../../maliput/html/junction_8cc.html.html',1,'(Global Namespace)']]],
+  ['junction_2eh_1555',['junction.h',['../junction_8h.html',1,'']]]
 ];

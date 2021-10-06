@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('classmaliput_1_1multilane_1_1_road_cur
 <p>W: (p,r,h) --&gt; (x,y,z)</p>
 <p>which maps a <code><a class="el" href="classmaliput_1_1multilane_1_1_lane.html" title="Base class for the multilane implementation of api::Lane.">Lane</a></code>-frame position to its corresponding representation in world coordinates (with the caveat that instead of the lane's native longitudinal coordinate 's', the reference curve parameter 'p' is used).</p>
 <p>W is derived from the three functions which define the lane:</p>
-<p>G: p --&gt; (x,y) = the reference curve, a.k.a. <a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#a54e73e7acb70a83c5b75165ff3d6dbf0" title="Computes the reference curve.">xy_of_p()</a> Z: p --&gt; z / l_max = the elevation function, a.k.a. elevation_ Θ: p --&gt; θ / l_max = the superelevation function, a.k.a. superelevation_</p>
+<p>G: p --&gt; (x,y) = the reference curve, a.k.a. <a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#a031aece41762d34a78a88d574df78642" title="Computes the reference curve.">xy_of_p()</a> Z: p --&gt; z / l_max = the elevation function, a.k.a. elevation_ Θ: p --&gt; θ / l_max = the superelevation function, a.k.a. superelevation_</p>
 <p>as:</p>
 <p>(x,y,z) = W(p,r,h) = (G(p), Z(p)) + R_αβγ*(0,r,h)</p>
 <p>where R_αβγ is the roll/pitch/yaw rotation given by angles:</p>
@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('classmaliput_1_1multilane_1_1_road_cur
 <p>(x,y,z) = L(s,r,h) = W(P(s, r0), r + r0, h),</p>
 <p>where P:(s, r0) --&gt; (p) is a (potentially non-linear) function dependent on the <a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html" title="Defines an interface for a path in a Segment object surface.">RoadCurve</a>'s reference-curve, elevation, and superelevation functions. </p>
 </div>
-<p><code>#include &lt;include/maliput_multilane/road_curve.h&gt;</code></p>
+<p><code>#include &lt;src/maliput_multilane/road_curve.h&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for RoadCurve:</div>
 <div class="dyncontent">
@@ -141,12 +141,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a66e89b545ea44c72fbf0ff35a04f0385"><td class="memItemLeft" align="right" valign="top">std::function&lt; double(double)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#a66e89b545ea44c72fbf0ff35a04f0385">OptimizeCalcSFromP</a> (double r) const</td></tr>
 <tr class="memdesc:a66e89b545ea44c72fbf0ff35a04f0385"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optimizes the computation of path length integral in the interval of the parameter [0; p] and along a parallel curve laterally offset by <code>r</code> the planar reference curve.  <a href="classmaliput_1_1multilane_1_1_road_curve.html#a66e89b545ea44c72fbf0ff35a04f0385">More...</a><br /></td></tr>
 <tr class="separator:a66e89b545ea44c72fbf0ff35a04f0385"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54e73e7acb70a83c5b75165ff3d6dbf0"><td class="memItemLeft" align="right" valign="top">virtual drake::Vector2&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#a54e73e7acb70a83c5b75165ff3d6dbf0">xy_of_p</a> (double p) const =0</td></tr>
-<tr class="memdesc:a54e73e7acb70a83c5b75165ff3d6dbf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the reference curve.  <a href="classmaliput_1_1multilane_1_1_road_curve.html#a54e73e7acb70a83c5b75165ff3d6dbf0">More...</a><br /></td></tr>
-<tr class="separator:a54e73e7acb70a83c5b75165ff3d6dbf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fcd75e33786137beea1a30ea79bdf3a"><td class="memItemLeft" align="right" valign="top">virtual drake::Vector2&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#a1fcd75e33786137beea1a30ea79bdf3a">xy_dot_of_p</a> (double p) const =0</td></tr>
-<tr class="memdesc:a1fcd75e33786137beea1a30ea79bdf3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the first derivative of the reference curve.  <a href="classmaliput_1_1multilane_1_1_road_curve.html#a1fcd75e33786137beea1a30ea79bdf3a">More...</a><br /></td></tr>
-<tr class="separator:a1fcd75e33786137beea1a30ea79bdf3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a031aece41762d34a78a88d574df78642"><td class="memItemLeft" align="right" valign="top">virtual <a class="elRef" href="../../maliput/html/classmaliput_1_1math_1_1_vector2.html">math::Vector2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#a031aece41762d34a78a88d574df78642">xy_of_p</a> (double p) const =0</td></tr>
+<tr class="memdesc:a031aece41762d34a78a88d574df78642"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the reference curve.  <a href="classmaliput_1_1multilane_1_1_road_curve.html#a031aece41762d34a78a88d574df78642">More...</a><br /></td></tr>
+<tr class="separator:a031aece41762d34a78a88d574df78642"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f557c7e4f01da5fae5256aad2517cf8"><td class="memItemLeft" align="right" valign="top">virtual <a class="elRef" href="../../maliput/html/classmaliput_1_1math_1_1_vector2.html">math::Vector2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#a6f557c7e4f01da5fae5256aad2517cf8">xy_dot_of_p</a> (double p) const =0</td></tr>
+<tr class="memdesc:a6f557c7e4f01da5fae5256aad2517cf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the first derivative of the reference curve.  <a href="classmaliput_1_1multilane_1_1_road_curve.html#a6f557c7e4f01da5fae5256aad2517cf8">More...</a><br /></td></tr>
+<tr class="separator:a6f557c7e4f01da5fae5256aad2517cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a359b9ffcc954912646166047a3820431"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#a359b9ffcc954912646166047a3820431">heading_of_p</a> (double p) const =0</td></tr>
 <tr class="memdesc:a359b9ffcc954912646166047a3820431"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the heading of the reference curve.  <a href="classmaliput_1_1multilane_1_1_road_curve.html#a359b9ffcc954912646166047a3820431">More...</a><br /></td></tr>
 <tr class="separator:a359b9ffcc954912646166047a3820431"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,30 +156,30 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0cbed157623522bcfb3cfddd192ed434"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#a0cbed157623522bcfb3cfddd192ed434">l_max</a> () const =0</td></tr>
 <tr class="memdesc:a0cbed157623522bcfb3cfddd192ed434"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the path length integral of the reference curve for the whole [0; 1] interval of p, formally l_max = ∫₀¹ |G'(p)| dp where G' = dG/dp.  <a href="classmaliput_1_1multilane_1_1_road_curve.html#a0cbed157623522bcfb3cfddd192ed434">More...</a><br /></td></tr>
 <tr class="separator:a0cbed157623522bcfb3cfddd192ed434"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae65885a3cbb0172a3a8ba7e902c44e77"><td class="memItemLeft" align="right" valign="top">virtual drake::Vector3&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#ae65885a3cbb0172a3a8ba7e902c44e77">ToCurveFrame</a> (const drake::Vector3&lt; double &gt; &amp;inertial_coordinate, double r_min, double r_max, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_h_bounds.html">api::HBounds</a> &amp;height_bounds) const =0</td></tr>
-<tr class="memdesc:ae65885a3cbb0172a3a8ba7e902c44e77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a <code>inertial_coordinate</code> in the world frame to the composed curve frame, i.e., the superposition of the reference curve, elevation and superelevation polynomials.  <a href="classmaliput_1_1multilane_1_1_road_curve.html#ae65885a3cbb0172a3a8ba7e902c44e77">More...</a><br /></td></tr>
-<tr class="separator:ae65885a3cbb0172a3a8ba7e902c44e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09219a22053944a70805bf3d4726ebbe"><td class="memItemLeft" align="right" valign="top">virtual <a class="elRef" href="../../maliput/html/classmaliput_1_1math_1_1_vector3.html">math::Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#a09219a22053944a70805bf3d4726ebbe">ToCurveFrame</a> (const <a class="elRef" href="../../maliput/html/classmaliput_1_1math_1_1_vector3.html">math::Vector3</a> &amp;inertial_coordinate, double r_min, double r_max, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_h_bounds.html">api::HBounds</a> &amp;height_bounds) const =0</td></tr>
+<tr class="memdesc:a09219a22053944a70805bf3d4726ebbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a <code>inertial_coordinate</code> in the world frame to the composed curve frame, i.e., the superposition of the reference curve, elevation and superelevation polynomials.  <a href="classmaliput_1_1multilane_1_1_road_curve.html#a09219a22053944a70805bf3d4726ebbe">More...</a><br /></td></tr>
+<tr class="separator:a09219a22053944a70805bf3d4726ebbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76150d92c52c1262a76b28602c8ab13a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#a76150d92c52c1262a76b28602c8ab13a">IsValid</a> (double r_min, double r_max, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_h_bounds.html">api::HBounds</a> &amp;height_bounds) const =0</td></tr>
 <tr class="memdesc:a76150d92c52c1262a76b28602c8ab13a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks that there are no self-intersections (singularities) in the volume created by applying the constant <code>r_min</code>, <code>r_max</code> and <code>height_bounds</code> to the <a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html" title="Defines an interface for a path in a Segment object surface.">RoadCurve</a>.  <a href="classmaliput_1_1multilane_1_1_road_curve.html#a76150d92c52c1262a76b28602c8ab13a">More...</a><br /></td></tr>
 <tr class="separator:a76150d92c52c1262a76b28602c8ab13a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abce5615fe1af290bba920a911bad73a0"><td class="memItemLeft" align="right" valign="top">drake::Vector3&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#abce5615fe1af290bba920a911bad73a0">W_of_prh</a> (double p, double r, double h) const</td></tr>
-<tr class="memdesc:abce5615fe1af290bba920a911bad73a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns W, the world function evaluated at <code>p</code>, <code>r</code>, <code>h</code>.  <a href="classmaliput_1_1multilane_1_1_road_curve.html#abce5615fe1af290bba920a911bad73a0">More...</a><br /></td></tr>
-<tr class="separator:abce5615fe1af290bba920a911bad73a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0afb7a2b3e5b69ba65adf83d070cc758"><td class="memItemLeft" align="right" valign="top">drake::Vector3&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#a0afb7a2b3e5b69ba65adf83d070cc758">W_prime_of_prh</a> (double p, double r, double h, const <a class="el" href="classmaliput_1_1multilane_1_1_rot3.html">Rot3</a> &amp;Rabg, double g_prime) const</td></tr>
-<tr class="memdesc:a0afb7a2b3e5b69ba65adf83d070cc758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns W' = ∂W/∂p, the partial differential of W with respect to p, evaluated at <code>p</code>, <code>r</code>, <code>h</code>.  <a href="classmaliput_1_1multilane_1_1_road_curve.html#a0afb7a2b3e5b69ba65adf83d070cc758">More...</a><br /></td></tr>
-<tr class="separator:a0afb7a2b3e5b69ba65adf83d070cc758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaefca100e8547dc3afed6f70adc3d579"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../../maliput/html/classmaliput_1_1math_1_1_vector3.html">math::Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#aaefca100e8547dc3afed6f70adc3d579">W_of_prh</a> (double p, double r, double h) const</td></tr>
+<tr class="memdesc:aaefca100e8547dc3afed6f70adc3d579"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns W, the world function evaluated at <code>p</code>, <code>r</code>, <code>h</code>.  <a href="classmaliput_1_1multilane_1_1_road_curve.html#aaefca100e8547dc3afed6f70adc3d579">More...</a><br /></td></tr>
+<tr class="separator:aaefca100e8547dc3afed6f70adc3d579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3023850fecc54350a4b602d30d633ee7"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../../maliput/html/classmaliput_1_1math_1_1_vector3.html">math::Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#a3023850fecc54350a4b602d30d633ee7">W_prime_of_prh</a> (double p, double r, double h, const <a class="el" href="classmaliput_1_1multilane_1_1_rot3.html">Rot3</a> &amp;Rabg, double g_prime) const</td></tr>
+<tr class="memdesc:a3023850fecc54350a4b602d30d633ee7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns W' = ∂W/∂p, the partial differential of W with respect to p, evaluated at <code>p</code>, <code>r</code>, <code>h</code>.  <a href="classmaliput_1_1multilane_1_1_road_curve.html#a3023850fecc54350a4b602d30d633ee7">More...</a><br /></td></tr>
+<tr class="separator:a3023850fecc54350a4b602d30d633ee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba9ce9d0acb4eb14b15f1ed37c954bdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput_1_1multilane_1_1_rot3.html">Rot3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#aba9ce9d0acb4eb14b15f1ed37c954bdb">Rabg_of_p</a> (double p) const</td></tr>
 <tr class="memdesc:aba9ce9d0acb4eb14b15f1ed37c954bdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the rotation R_αβγ, evaluated at <code>p</code> along the reference curve.  <a href="classmaliput_1_1multilane_1_1_road_curve.html#aba9ce9d0acb4eb14b15f1ed37c954bdb">More...</a><br /></td></tr>
 <tr class="separator:aba9ce9d0acb4eb14b15f1ed37c954bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab73122e1e2a158ae2c8e51f3ef5b2517"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput_1_1multilane_1_1_rot3.html">Rot3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#ab73122e1e2a158ae2c8e51f3ef5b2517">Orientation</a> (double p, double r, double h) const</td></tr>
 <tr class="memdesc:ab73122e1e2a158ae2c8e51f3ef5b2517"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the rotation R_αβγ, evaluated at <code>p</code>, <code>r</code> and <code>h</code>.  <a href="classmaliput_1_1multilane_1_1_road_curve.html#ab73122e1e2a158ae2c8e51f3ef5b2517">More...</a><br /></td></tr>
 <tr class="separator:ab73122e1e2a158ae2c8e51f3ef5b2517"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9f12f8323cca3330f71b2153c41c71a"><td class="memItemLeft" align="right" valign="top">drake::Vector3&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#aa9f12f8323cca3330f71b2153c41c71a">s_hat_of_prh</a> (double p, double r, double h, const <a class="el" href="classmaliput_1_1multilane_1_1_rot3.html">Rot3</a> &amp;Rabg, double g_prime) const</td></tr>
-<tr class="memdesc:aa9f12f8323cca3330f71b2153c41c71a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the s-axis unit-vector, expressed in the world frame, of the (s,r,h) <code><a class="el" href="classmaliput_1_1multilane_1_1_lane.html" title="Base class for the multilane implementation of api::Lane.">Lane</a></code>-frame (with respect to the world frame).  <a href="classmaliput_1_1multilane_1_1_road_curve.html#aa9f12f8323cca3330f71b2153c41c71a">More...</a><br /></td></tr>
-<tr class="separator:aa9f12f8323cca3330f71b2153c41c71a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a721b7d3fd5c1783b9a7457ffbfd2e1db"><td class="memItemLeft" align="right" valign="top">drake::Vector3&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#a721b7d3fd5c1783b9a7457ffbfd2e1db">r_hat_of_Rabg</a> (const <a class="el" href="classmaliput_1_1multilane_1_1_rot3.html">Rot3</a> &amp;Rabg) const</td></tr>
-<tr class="memdesc:a721b7d3fd5c1783b9a7457ffbfd2e1db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the r-axis unit-vector, expressed in the world frame, of the (s,r,h) <code><a class="el" href="classmaliput_1_1multilane_1_1_lane.html" title="Base class for the multilane implementation of api::Lane.">Lane</a></code>-frame (with respect to the world frame).  <a href="classmaliput_1_1multilane_1_1_road_curve.html#a721b7d3fd5c1783b9a7457ffbfd2e1db">More...</a><br /></td></tr>
-<tr class="separator:a721b7d3fd5c1783b9a7457ffbfd2e1db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa08a7231b25f51aaeb3ecb9008aba65d"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../../maliput/html/classmaliput_1_1math_1_1_vector3.html">math::Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#aa08a7231b25f51aaeb3ecb9008aba65d">s_hat_of_prh</a> (double p, double r, double h, const <a class="el" href="classmaliput_1_1multilane_1_1_rot3.html">Rot3</a> &amp;Rabg, double g_prime) const</td></tr>
+<tr class="memdesc:aa08a7231b25f51aaeb3ecb9008aba65d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the s-axis unit-vector, expressed in the world frame, of the (s,r,h) <code><a class="el" href="classmaliput_1_1multilane_1_1_lane.html" title="Base class for the multilane implementation of api::Lane.">Lane</a></code>-frame (with respect to the world frame).  <a href="classmaliput_1_1multilane_1_1_road_curve.html#aa08a7231b25f51aaeb3ecb9008aba65d">More...</a><br /></td></tr>
+<tr class="separator:aa08a7231b25f51aaeb3ecb9008aba65d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae67d98a44dd01669e2de9dd14d758ee0"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../../maliput/html/classmaliput_1_1math_1_1_vector3.html">math::Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#ae67d98a44dd01669e2de9dd14d758ee0">r_hat_of_Rabg</a> (const <a class="el" href="classmaliput_1_1multilane_1_1_rot3.html">Rot3</a> &amp;Rabg) const</td></tr>
+<tr class="memdesc:ae67d98a44dd01669e2de9dd14d758ee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the r-axis unit-vector, expressed in the world frame, of the (s,r,h) <code><a class="el" href="classmaliput_1_1multilane_1_1_lane.html" title="Base class for the multilane implementation of api::Lane.">Lane</a></code>-frame (with respect to the world frame).  <a href="classmaliput_1_1multilane_1_1_road_curve.html#ae67d98a44dd01669e2de9dd14d758ee0">More...</a><br /></td></tr>
+<tr class="separator:ae67d98a44dd01669e2de9dd14d758ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8e3ddf6bfb511921ac2dcb9f03075c7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#ad8e3ddf6bfb511921ac2dcb9f03075c7">CalcGPrimeAsUsedForCalcSFromP</a> (double p) const</td></tr>
 <tr class="memdesc:ad8e3ddf6bfb511921ac2dcb9f03075c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the most appropriate value for the elevation derivative g' at <code>p</code>, that accounts for the limitations of the arc length parameterization being used.  <a href="classmaliput_1_1multilane_1_1_road_curve.html#ad8e3ddf6bfb511921ac2dcb9f03075c7">More...</a><br /></td></tr>
 <tr class="separator:ad8e3ddf6bfb511921ac2dcb9f03075c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -328,7 +328,7 @@ The given <code>linear_tolerance</code> is a positive number. </dd></dl>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The elevation derivative g'(<code>p</code>) value. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#a0afb7a2b3e5b69ba65adf83d070cc758" title="Returns W&#39; = ∂W/∂p, the partial differential of W with respect to p, evaluated at p,...">W_prime_of_prh()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classmaliput_1_1multilane_1_1_road_curve.html#a3023850fecc54350a4b602d30d633ee7" title="Returns W&#39; = ∂W/∂p, the partial differential of W with respect to p, evaluated at p,...">W_prime_of_prh()</a> </dd></dl>
 
 </div>
 </div>
@@ -632,14 +632,14 @@ The given <code>linear_tolerance</code> is a positive number. </dd></dl>
 
 </div>
 </div>
-<a id="a721b7d3fd5c1783b9a7457ffbfd2e1db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a721b7d3fd5c1783b9a7457ffbfd2e1db">&#9670;&nbsp;</a></span>r_hat_of_Rabg()</h2>
+<a id="ae67d98a44dd01669e2de9dd14d758ee0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae67d98a44dd01669e2de9dd14d758ee0">&#9670;&nbsp;</a></span>r_hat_of_Rabg()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">drake::Vector3&lt; double &gt; r_hat_of_Rabg </td>
+          <td class="memname"><a class="elRef" href="../../maliput/html/classmaliput_1_1math_1_1_vector3.html">math::Vector3</a> r_hat_of_Rabg </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classmaliput_1_1multilane_1_1_rot3.html">Rot3</a> &amp;&#160;</td>
           <td class="paramname"><em>Rabg</em></td><td>)</td>
@@ -673,14 +673,14 @@ The given <code>linear_tolerance</code> is a positive number. </dd></dl>
 
 </div>
 </div>
-<a id="aa9f12f8323cca3330f71b2153c41c71a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9f12f8323cca3330f71b2153c41c71a">&#9670;&nbsp;</a></span>s_hat_of_prh()</h2>
+<a id="aa08a7231b25f51aaeb3ecb9008aba65d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa08a7231b25f51aaeb3ecb9008aba65d">&#9670;&nbsp;</a></span>s_hat_of_prh()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">drake::Vector3&lt; double &gt; s_hat_of_prh </td>
+          <td class="memname"><a class="elRef" href="../../maliput/html/classmaliput_1_1math_1_1_vector3.html">math::Vector3</a> s_hat_of_prh </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>p</em>, </td>
@@ -756,8 +756,8 @@ The given <code>linear_tolerance</code> is a positive number. </dd></dl>
 
 </div>
 </div>
-<a id="ae65885a3cbb0172a3a8ba7e902c44e77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae65885a3cbb0172a3a8ba7e902c44e77">&#9670;&nbsp;</a></span>ToCurveFrame()</h2>
+<a id="a09219a22053944a70805bf3d4726ebbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09219a22053944a70805bf3d4726ebbe">&#9670;&nbsp;</a></span>ToCurveFrame()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -766,9 +766,9 @@ The given <code>linear_tolerance</code> is a positive number. </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual drake::Vector3&lt;double&gt; ToCurveFrame </td>
+          <td class="memname">virtual <a class="elRef" href="../../maliput/html/classmaliput_1_1math_1_1_vector3.html">math::Vector3</a> ToCurveFrame </td>
           <td>(</td>
-          <td class="paramtype">const drake::Vector3&lt; double &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" href="../../maliput/html/classmaliput_1_1math_1_1_vector3.html">math::Vector3</a> &amp;&#160;</td>
           <td class="paramname"><em>inertial_coordinate</em>, </td>
         </tr>
         <tr>
@@ -820,18 +820,18 @@ The given <code>linear_tolerance</code> is a positive number. </dd></dl>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A 3D vector [p, r, h], that represent the domain coordinates of the world function, that gives as world function output <code>inertial_coordinate</code>. </dd></dl>
 
-<p>Implemented in <a class="el" href="classmaliput_1_1multilane_1_1_arc_road_curve.html#acf00c631dc27c597df5b83e463858b84">ArcRoadCurve</a>, and <a class="el" href="classmaliput_1_1multilane_1_1_line_road_curve.html#acf00c631dc27c597df5b83e463858b84">LineRoadCurve</a>.</p>
+<p>Implemented in <a class="el" href="classmaliput_1_1multilane_1_1_arc_road_curve.html#af5ca577cf03f23a30dfa7aee8911fb73">ArcRoadCurve</a>, and <a class="el" href="classmaliput_1_1multilane_1_1_line_road_curve.html#af5ca577cf03f23a30dfa7aee8911fb73">LineRoadCurve</a>.</p>
 
 </div>
 </div>
-<a id="abce5615fe1af290bba920a911bad73a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abce5615fe1af290bba920a911bad73a0">&#9670;&nbsp;</a></span>W_of_prh()</h2>
+<a id="aaefca100e8547dc3afed6f70adc3d579"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaefca100e8547dc3afed6f70adc3d579">&#9670;&nbsp;</a></span>W_of_prh()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">drake::Vector3&lt; double &gt; W_of_prh </td>
+          <td class="memname"><a class="elRef" href="../../maliput/html/classmaliput_1_1math_1_1_vector3.html">math::Vector3</a> W_of_prh </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>p</em>, </td>
@@ -860,14 +860,14 @@ The given <code>linear_tolerance</code> is a positive number. </dd></dl>
 
 </div>
 </div>
-<a id="a0afb7a2b3e5b69ba65adf83d070cc758"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0afb7a2b3e5b69ba65adf83d070cc758">&#9670;&nbsp;</a></span>W_prime_of_prh()</h2>
+<a id="a3023850fecc54350a4b602d30d633ee7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3023850fecc54350a4b602d30d633ee7">&#9670;&nbsp;</a></span>W_prime_of_prh()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">drake::Vector3&lt; double &gt; W_prime_of_prh </td>
+          <td class="memname"><a class="elRef" href="../../maliput/html/classmaliput_1_1math_1_1_vector3.html">math::Vector3</a> W_prime_of_prh </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>p</em>, </td>
@@ -909,8 +909,8 @@ The given <code>linear_tolerance</code> is a positive number. </dd></dl>
 
 </div>
 </div>
-<a id="a1fcd75e33786137beea1a30ea79bdf3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fcd75e33786137beea1a30ea79bdf3a">&#9670;&nbsp;</a></span>xy_dot_of_p()</h2>
+<a id="a6f557c7e4f01da5fae5256aad2517cf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f557c7e4f01da5fae5256aad2517cf8">&#9670;&nbsp;</a></span>xy_dot_of_p()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -919,7 +919,7 @@ The given <code>linear_tolerance</code> is a positive number. </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual drake::Vector2&lt;double&gt; xy_dot_of_p </td>
+          <td class="memname">virtual <a class="elRef" href="../../maliput/html/classmaliput_1_1math_1_1_vector2.html">math::Vector2</a> xy_dot_of_p </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>p</em></td><td>)</td>
@@ -942,12 +942,12 @@ The given <code>linear_tolerance</code> is a positive number. </dd></dl>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The derivative of the curve with respect to p, at <code>p</code>, i.e., F'(p0) = (dx/dp, dy/dp) at p0. </dd></dl>
 
-<p>Implemented in <a class="el" href="classmaliput_1_1multilane_1_1_arc_road_curve.html#a611339f72cb8ce66e737a140526e3f76">ArcRoadCurve</a>, and <a class="el" href="classmaliput_1_1multilane_1_1_line_road_curve.html#a611339f72cb8ce66e737a140526e3f76">LineRoadCurve</a>.</p>
+<p>Implemented in <a class="el" href="classmaliput_1_1multilane_1_1_arc_road_curve.html#a42eb756177e29ccac128fcb74dc546dc">ArcRoadCurve</a>, and <a class="el" href="classmaliput_1_1multilane_1_1_line_road_curve.html#a42eb756177e29ccac128fcb74dc546dc">LineRoadCurve</a>.</p>
 
 </div>
 </div>
-<a id="a54e73e7acb70a83c5b75165ff3d6dbf0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54e73e7acb70a83c5b75165ff3d6dbf0">&#9670;&nbsp;</a></span>xy_of_p()</h2>
+<a id="a031aece41762d34a78a88d574df78642"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a031aece41762d34a78a88d574df78642">&#9670;&nbsp;</a></span>xy_of_p()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -956,7 +956,7 @@ The given <code>linear_tolerance</code> is a positive number. </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual drake::Vector2&lt;double&gt; xy_of_p </td>
+          <td class="memname">virtual <a class="elRef" href="../../maliput/html/classmaliput_1_1math_1_1_vector2.html">math::Vector2</a> xy_of_p </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>p</em></td><td>)</td>
@@ -979,7 +979,7 @@ The given <code>linear_tolerance</code> is a positive number. </dd></dl>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The reference curve itself, F(p). </dd></dl>
 
-<p>Implemented in <a class="el" href="classmaliput_1_1multilane_1_1_arc_road_curve.html#a1ba46dd6b1f51a5d2cf4261c1a10df6b">ArcRoadCurve</a>, and <a class="el" href="classmaliput_1_1multilane_1_1_line_road_curve.html#a1ba46dd6b1f51a5d2cf4261c1a10df6b">LineRoadCurve</a>.</p>
+<p>Implemented in <a class="el" href="classmaliput_1_1multilane_1_1_arc_road_curve.html#a001bc3bf60a67ea0dcb0b24732c00d35">ArcRoadCurve</a>, and <a class="el" href="classmaliput_1_1multilane_1_1_line_road_curve.html#a001bc3bf60a67ea0dcb0b24732c00d35">LineRoadCurve</a>.</p>
 
 </div>
 </div>

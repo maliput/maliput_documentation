@@ -62,9 +62,7 @@ var NAVTREE =
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
-        [ "Variables", "globals_vars.html", null ],
-        [ "Enumerations", "globals_enum.html", null ]
+        [ "Variables", "globals_vars.html", null ]
       ] ]
     ] ]
   ] ]
@@ -74,7 +72,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classmaliput_1_1multilane_1_1_road_curve.html#a92b29fff38bb4dfea6fdef1bfc989f07",
-"road__network_8cc.html#aea6174995936559d92c4bc30a436aa09"
+"structmaliput_1_1multilane_1_1_multilane_road_characteristics.html#a43eae01431a70feb52995efdb80d7728"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

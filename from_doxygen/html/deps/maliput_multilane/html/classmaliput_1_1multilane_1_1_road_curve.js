@@ -13,14 +13,14 @@ var classmaliput_1_1multilane_1_1_road_curve =
     [ "OptimizeCalcPFromS", "classmaliput_1_1multilane_1_1_road_curve.html#a97e4ceeb4b0898f7c3f5066cfa9d9d04", null ],
     [ "OptimizeCalcSFromP", "classmaliput_1_1multilane_1_1_road_curve.html#a66e89b545ea44c72fbf0ff35a04f0385", null ],
     [ "Orientation", "classmaliput_1_1multilane_1_1_road_curve.html#ab73122e1e2a158ae2c8e51f3ef5b2517", null ],
-    [ "r_hat_of_Rabg", "classmaliput_1_1multilane_1_1_road_curve.html#a721b7d3fd5c1783b9a7457ffbfd2e1db", null ],
+    [ "r_hat_of_Rabg", "classmaliput_1_1multilane_1_1_road_curve.html#ae67d98a44dd01669e2de9dd14d758ee0", null ],
     [ "Rabg_of_p", "classmaliput_1_1multilane_1_1_road_curve.html#aba9ce9d0acb4eb14b15f1ed37c954bdb", null ],
-    [ "s_hat_of_prh", "classmaliput_1_1multilane_1_1_road_curve.html#aa9f12f8323cca3330f71b2153c41c71a", null ],
+    [ "s_hat_of_prh", "classmaliput_1_1multilane_1_1_road_curve.html#aa08a7231b25f51aaeb3ecb9008aba65d", null ],
     [ "scale_length", "classmaliput_1_1multilane_1_1_road_curve.html#ae99fb78038727417cdcb6c904001af1a", null ],
     [ "superelevation", "classmaliput_1_1multilane_1_1_road_curve.html#ad941e5522af428641375cbeaf2348ef8", null ],
-    [ "ToCurveFrame", "classmaliput_1_1multilane_1_1_road_curve.html#ae65885a3cbb0172a3a8ba7e902c44e77", null ],
-    [ "W_of_prh", "classmaliput_1_1multilane_1_1_road_curve.html#abce5615fe1af290bba920a911bad73a0", null ],
-    [ "W_prime_of_prh", "classmaliput_1_1multilane_1_1_road_curve.html#a0afb7a2b3e5b69ba65adf83d070cc758", null ],
-    [ "xy_dot_of_p", "classmaliput_1_1multilane_1_1_road_curve.html#a1fcd75e33786137beea1a30ea79bdf3a", null ],
-    [ "xy_of_p", "classmaliput_1_1multilane_1_1_road_curve.html#a54e73e7acb70a83c5b75165ff3d6dbf0", null ]
+    [ "ToCurveFrame", "classmaliput_1_1multilane_1_1_road_curve.html#a09219a22053944a70805bf3d4726ebbe", null ],
+    [ "W_of_prh", "classmaliput_1_1multilane_1_1_road_curve.html#aaefca100e8547dc3afed6f70adc3d579", null ],
+    [ "W_prime_of_prh", "classmaliput_1_1multilane_1_1_road_curve.html#a3023850fecc54350a4b602d30d633ee7", null ],
+    [ "xy_dot_of_p", "classmaliput_1_1multilane_1_1_road_curve.html#a6f557c7e4f01da5fae5256aad2517cf8", null ],
+    [ "xy_of_p", "classmaliput_1_1multilane_1_1_road_curve.html#a031aece41762d34a78a88d574df78642", null ]
 ];

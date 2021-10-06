@@ -16,7 +16,6 @@ var files_dup =
     [ "connection.h", "connection_8h.html", "connection_8h" ],
     [ "cubic_polynomial.cc", "cubic__polynomial_8cc.html", "cubic__polynomial_8cc" ],
     [ "cubic_polynomial.h", "cubic__polynomial_8h.html", "cubic__polynomial_8h" ],
-    [ "eigen_matrix_compare.h", "eigen__matrix__compare_8h.html", "eigen__matrix__compare_8h" ],
     [ "fixtures.cc", "fixtures_8cc.html", "fixtures_8cc" ],
     [ "fixtures.h", "fixtures_8h.html", [
       [ "BranchAndMergeBasedTest", "classmaliput_1_1multilane_1_1_branch_and_merge_based_test.html", "classmaliput_1_1multilane_1_1_branch_and_merge_based_test" ],
@@ -37,8 +36,8 @@ var files_dup =
     ] ],
     [ "loader.cc", "loader_8cc.html", "loader_8cc" ],
     [ "loader.h", "loader_8h.html", "loader_8h" ],
-    [ "multilane_brute_force_integral.cc", "multilane__brute__force__integral_8cc.html", "multilane__brute__force__integral_8cc" ],
-    [ "multilane_brute_force_integral.h", "multilane__brute__force__integral_8h.html", "multilane__brute__force__integral_8h" ],
+    [ "make_road_curve_for_connection.cc", "make__road__curve__for__connection_8cc.html", "make__road__curve__for__connection_8cc" ],
+    [ "make_road_curve_for_connection.h", "make__road__curve__for__connection_8h.html", "make__road__curve__for__connection_8h" ],
     [ "multilane_design.h", "multilane__design_8h.html", null ],
     [ "multilane_onramp_merge.cc", "multilane__onramp__merge_8cc.html", null ],
     [ "multilane_onramp_merge.h", "multilane__onramp__merge_8h.html", [

@@ -1,7 +1,6 @@
 var multilane__types__compare_8cc =
 [
     [ "IsArcOffsetClose", "multilane__types__compare_8cc.html#a5bc51e1440d05be2694e58f3fe39aeb3", null ],
-    [ "IsCubicPolynomialClose", "multilane__types__compare_8cc.html#ae705a2cc9d0633ae2ee77bc1d45d054a", null ],
     [ "IsEndpointClose", "multilane__types__compare_8cc.html#ae3f1d1c7ae0e7b1af190145e082f619e", null ],
     [ "IsEndpointXyClose", "multilane__types__compare_8cc.html#a1b9257e0e794ba93cf5de234c1b77469", null ],
     [ "IsEndpointZClose", "multilane__types__compare_8cc.html#a7f279f6b222d443af5eb0f1d99c95f2b", null ],

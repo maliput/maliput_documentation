@@ -9,7 +9,6 @@ var multilane__types__compare_8h =
     [ "StartLaneSpecMatcher", "classmaliput_1_1multilane_1_1test_1_1_start_lane_spec_matcher.html", "classmaliput_1_1multilane_1_1test_1_1_start_lane_spec_matcher" ],
     [ "EndLaneSpecMatcher", "classmaliput_1_1multilane_1_1test_1_1_end_lane_spec_matcher.html", "classmaliput_1_1multilane_1_1test_1_1_end_lane_spec_matcher" ],
     [ "IsArcOffsetClose", "multilane__types__compare_8h.html#a5bc51e1440d05be2694e58f3fe39aeb3", null ],
-    [ "IsCubicPolynomialClose", "multilane__types__compare_8h.html#ae705a2cc9d0633ae2ee77bc1d45d054a", null ],
     [ "IsEndpointClose", "multilane__types__compare_8h.html#ae3f1d1c7ae0e7b1af190145e082f619e", null ],
     [ "IsEndpointXyClose", "multilane__types__compare_8h.html#a1b9257e0e794ba93cf5de234c1b77469", null ],
     [ "IsEndpointZClose", "multilane__types__compare_8h.html#a7f279f6b222d443af5eb0f1d99c95f2b", null ],

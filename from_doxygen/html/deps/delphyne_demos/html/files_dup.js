@@ -6,6 +6,7 @@ var files_dup =
     [ "dragway.py", "dragway_8py.html", "dragway_8py" ],
     [ "gazoo.py", "gazoo_8py.html", "gazoo_8py" ],
     [ "helpers.py", "helpers_8py.html", "helpers_8py" ],
+    [ "keyboard_handler.py", "keyboard__handler_8py.html", "keyboard__handler_8py" ],
     [ "keyop.py", "keyop_8py.html", "keyop_8py" ],
     [ "mali.py", "mali_8py.html", "mali_8py" ],
     [ "mobil_perf.py", "mobil__perf_8py.html", "mobil__perf_8py" ],

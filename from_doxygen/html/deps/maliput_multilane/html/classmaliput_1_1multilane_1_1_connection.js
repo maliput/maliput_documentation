@@ -4,13 +4,13 @@ var classmaliput_1_1multilane_1_1_connection =
       [ "kLine", "classmaliput_1_1multilane_1_1_connection.html#a1d1cfd8ffb84e947f82999c682b666a7aa09e4525b309a178fe014ffe79b9218a", null ],
       [ "kArc", "classmaliput_1_1multilane_1_1_connection.html#a1d1cfd8ffb84e947f82999c682b666a7af0dd157ea05c2f8424f6f07975306503", null ]
     ] ],
+    [ "~Connection", "classmaliput_1_1multilane_1_1_connection.html#a7a3e1a734e64796b393be72275bcb246", null ],
     [ "Connection", "classmaliput_1_1multilane_1_1_connection.html#a06351403e67b556bd362b8230fbd0d04", null ],
     [ "Connection", "classmaliput_1_1multilane_1_1_connection.html#a0e77961de78a878992ccd6ca20ab72c4", null ],
     [ "computation_policy", "classmaliput_1_1multilane_1_1_connection.html#ae46bc78684f23f4847a297599d0c1434", null ],
-    [ "CreateRoadCurve", "classmaliput_1_1multilane_1_1_connection.html#a8bb1802d0d79d36a3ad41debf74e252d", null ],
     [ "d_theta", "classmaliput_1_1multilane_1_1_connection.html#ac2264c7363008aaa3a4be1c59ddb06c8", null ],
-    [ "end", "classmaliput_1_1multilane_1_1_connection.html#afd9aabaa7b6684773394ede40884388e", null ],
-    [ "id", "classmaliput_1_1multilane_1_1_connection.html#aad583cd755a276cee5a47ee45237745c", null ],
+    [ "end", "classmaliput_1_1multilane_1_1_connection.html#a185a9f434d160dd74997dfeab73e7b7d", null ],
+    [ "id", "classmaliput_1_1multilane_1_1_connection.html#a2afbfe390842c04d4a063889cee1b543", null ],
     [ "lane_offset", "classmaliput_1_1multilane_1_1_connection.html#a018f4f5256feeafd1d627b8f73469dd2", null ],
     [ "lane_width", "classmaliput_1_1multilane_1_1_connection.html#a4db0952e27a0b92ed0d8b48a129d4eae", null ],
     [ "LaneEnd", "classmaliput_1_1multilane_1_1_connection.html#a372761c4d5ca6f20fbe2f36a174ccfcc", null ],
@@ -25,6 +25,6 @@ var classmaliput_1_1multilane_1_1_connection =
     [ "radius", "classmaliput_1_1multilane_1_1_connection.html#a3abcf0571d81409b4c8043ae979fdab1", null ],
     [ "right_shoulder", "classmaliput_1_1multilane_1_1_connection.html#a2fbbf1879fe3c8425b9a336bd41d22fe", null ],
     [ "scale_length", "classmaliput_1_1multilane_1_1_connection.html#a4f2b663d219f340450721354e4903c48", null ],
-    [ "start", "classmaliput_1_1multilane_1_1_connection.html#a34850da20ebb7340fb367610add50919", null ],
-    [ "type", "classmaliput_1_1multilane_1_1_connection.html#adf4a6727c689e0038cf2cdd158d5ed2c", null ]
+    [ "start", "classmaliput_1_1multilane_1_1_connection.html#a81fb16e556c698d6e7a5318b3ae0176c", null ],
+    [ "type", "classmaliput_1_1multilane_1_1_connection.html#a2fee8bf4198d2b99a6cebb9db2675f9e", null ]
 ];

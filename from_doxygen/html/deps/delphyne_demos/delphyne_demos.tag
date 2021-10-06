@@ -142,10 +142,25 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>keyboard_handler.py</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/delphyne_demos/demos/</path>
+    <filename>keyboard__handler_8py.html</filename>
+    <class kind="class">demos::keyboard_handler::KeyboardHandler</class>
+    <class kind="class">demos::keyboard_handler::KeyboardStdIn</class>
+    <class kind="class">demos::keyboard_handler::KeyboardStub</class>
+    <namespace>demos::keyboard_handler</namespace>
+    <member kind="function">
+      <type>KeyboardHandler</type>
+      <name>get_keyboard_handler</name>
+      <anchorfile>namespacedemos_1_1keyboard__handler.html</anchorfile>
+      <anchor>ab21622dc46bda15bb6e6a5d496692f5d</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>keyop.py</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/delphyne_demos/demos/</path>
     <filename>keyop_8py.html</filename>
-    <class kind="class">demos::keyop::KeyboardHandler</class>
     <namespace>demos::keyop</namespace>
     <member kind="function">
       <type>def</type>
@@ -353,7 +368,6 @@
     <name>trip_integration.py</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/delphyne_demos/demos/</path>
     <filename>trip__integration_8py.html</filename>
-    <class kind="class">demos::trip_integration::KeyboardHandler</class>
     <class kind="class">demos::trip_integration::KeyopAccelerateSteerUnicycleCar</class>
     <namespace>demos::trip_integration</namespace>
     <member kind="function">
@@ -446,125 +460,94 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>demos::keyop::KeyboardHandler</name>
-    <filename>classdemos_1_1keyop_1_1_keyboard_handler.html</filename>
-    <base>object</base>
+    <name>demos::keyboard_handler::KeyboardHandler</name>
+    <filename>classdemos_1_1keyboard__handler_1_1_keyboard_handler.html</filename>
     <member kind="function">
       <type>def</type>
-      <name>__init__</name>
-      <anchorfile>classdemos_1_1keyop_1_1_keyboard_handler.html</anchorfile>
-      <anchor>a6bbfcfcbdb472d209af862af7b88f514</anchor>
-      <arglist>(self, input_stream=None)</arglist>
-    </member>
-    <member kind="function">
-      <type>def</type>
-      <name>set_normal_term</name>
-      <anchorfile>classdemos_1_1keyop_1_1_keyboard_handler.html</anchorfile>
-      <anchor>a1ff114ca3b9ae6f42e5682a1e3fea332</anchor>
+      <name>key_hit</name>
+      <anchorfile>classdemos_1_1keyboard__handler_1_1_keyboard_handler.html</anchorfile>
+      <anchor>a1b3b541a2d49391ab3c25a29e5e87cb6</anchor>
       <arglist>(self)</arglist>
     </member>
     <member kind="function">
       <type>def</type>
       <name>get_character</name>
-      <anchorfile>classdemos_1_1keyop_1_1_keyboard_handler.html</anchorfile>
+      <anchorfile>classdemos_1_1keyboard__handler_1_1_keyboard_handler.html</anchorfile>
+      <anchor>acb10f0c400a2b011f4d99f8d5ff56e0c</anchor>
+      <arglist>(self)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>demos::keyboard_handler::KeyboardStdIn</name>
+    <filename>classdemos_1_1keyboard__handler_1_1_keyboard_std_in.html</filename>
+    <base>demos::keyboard_handler::KeyboardHandler</base>
+    <member kind="function">
+      <type>def</type>
+      <name>__init__</name>
+      <anchorfile>classdemos_1_1keyboard__handler_1_1_keyboard_std_in.html</anchorfile>
+      <anchor>ae64f0875afe3067b97ba370b354b9213</anchor>
+      <arglist>(self)</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>get_character</name>
+      <anchorfile>classdemos_1_1keyboard__handler_1_1_keyboard_std_in.html</anchorfile>
       <anchor>acb10f0c400a2b011f4d99f8d5ff56e0c</anchor>
       <arglist>(self)</arglist>
     </member>
     <member kind="function">
       <type>def</type>
       <name>key_hit</name>
-      <anchorfile>classdemos_1_1keyop_1_1_keyboard_handler.html</anchorfile>
+      <anchorfile>classdemos_1_1keyboard__handler_1_1_keyboard_std_in.html</anchorfile>
       <anchor>a1b3b541a2d49391ab3c25a29e5e87cb6</anchor>
       <arglist>(self)</arglist>
     </member>
     <member kind="variable">
       <type></type>
       <name>input_stream</name>
-      <anchorfile>classdemos_1_1keyop_1_1_keyboard_handler.html</anchorfile>
+      <anchorfile>classdemos_1_1keyboard__handler_1_1_keyboard_std_in.html</anchorfile>
       <anchor>ace1eb13a3ea42f8aa87ed74f787d530d</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type></type>
       <name>file_descriptor</name>
-      <anchorfile>classdemos_1_1keyop_1_1_keyboard_handler.html</anchorfile>
+      <anchorfile>classdemos_1_1keyboard__handler_1_1_keyboard_std_in.html</anchorfile>
       <anchor>aec4dd4a0cd3828220a8d64a1896f8d84</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type></type>
       <name>new_terminal</name>
-      <anchorfile>classdemos_1_1keyop_1_1_keyboard_handler.html</anchorfile>
+      <anchorfile>classdemos_1_1keyboard__handler_1_1_keyboard_std_in.html</anchorfile>
       <anchor>a424424b3178a66238873ba0052eeb554</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type></type>
       <name>old_terminal</name>
-      <anchorfile>classdemos_1_1keyop_1_1_keyboard_handler.html</anchorfile>
+      <anchorfile>classdemos_1_1keyboard__handler_1_1_keyboard_std_in.html</anchorfile>
       <anchor>af9708e51254186ecf941764382f5288d</anchor>
       <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
-    <name>demos::trip_integration::KeyboardHandler</name>
-    <filename>classdemos_1_1trip__integration_1_1_keyboard_handler.html</filename>
-    <base>object</base>
+    <name>demos::keyboard_handler::KeyboardStub</name>
+    <filename>classdemos_1_1keyboard__handler_1_1_keyboard_stub.html</filename>
+    <base>demos::keyboard_handler::KeyboardHandler</base>
     <member kind="function">
       <type>def</type>
-      <name>__init__</name>
-      <anchorfile>classdemos_1_1trip__integration_1_1_keyboard_handler.html</anchorfile>
-      <anchor>a6bbfcfcbdb472d209af862af7b88f514</anchor>
-      <arglist>(self, input_stream=None)</arglist>
-    </member>
-    <member kind="function">
-      <type>def</type>
-      <name>set_normal_term</name>
-      <anchorfile>classdemos_1_1trip__integration_1_1_keyboard_handler.html</anchorfile>
-      <anchor>a1ff114ca3b9ae6f42e5682a1e3fea332</anchor>
+      <name>key_hit</name>
+      <anchorfile>classdemos_1_1keyboard__handler_1_1_keyboard_stub.html</anchorfile>
+      <anchor>a1b3b541a2d49391ab3c25a29e5e87cb6</anchor>
       <arglist>(self)</arglist>
     </member>
     <member kind="function">
       <type>def</type>
       <name>get_character</name>
-      <anchorfile>classdemos_1_1trip__integration_1_1_keyboard_handler.html</anchorfile>
+      <anchorfile>classdemos_1_1keyboard__handler_1_1_keyboard_stub.html</anchorfile>
       <anchor>acb10f0c400a2b011f4d99f8d5ff56e0c</anchor>
       <arglist>(self)</arglist>
-    </member>
-    <member kind="function">
-      <type>def</type>
-      <name>key_hit</name>
-      <anchorfile>classdemos_1_1trip__integration_1_1_keyboard_handler.html</anchorfile>
-      <anchor>a1b3b541a2d49391ab3c25a29e5e87cb6</anchor>
-      <arglist>(self)</arglist>
-    </member>
-    <member kind="variable">
-      <type></type>
-      <name>input_stream</name>
-      <anchorfile>classdemos_1_1trip__integration_1_1_keyboard_handler.html</anchorfile>
-      <anchor>ace1eb13a3ea42f8aa87ed74f787d530d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type></type>
-      <name>file_descriptor</name>
-      <anchorfile>classdemos_1_1trip__integration_1_1_keyboard_handler.html</anchorfile>
-      <anchor>aec4dd4a0cd3828220a8d64a1896f8d84</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type></type>
-      <name>new_terminal</name>
-      <anchorfile>classdemos_1_1trip__integration_1_1_keyboard_handler.html</anchorfile>
-      <anchor>a424424b3178a66238873ba0052eeb554</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type></type>
-      <name>old_terminal</name>
-      <anchorfile>classdemos_1_1trip__integration_1_1_keyboard_handler.html</anchorfile>
-      <anchor>af9708e51254186ecf941764382f5288d</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -722,6 +705,7 @@
     <namespace>demos::dragway</namespace>
     <namespace>demos::gazoo</namespace>
     <namespace>demos::helpers</namespace>
+    <namespace>demos::keyboard_handler</namespace>
     <namespace>demos::keyop</namespace>
     <namespace>demos::mali</namespace>
     <namespace>demos::mobil_perf</namespace>
@@ -856,9 +840,22 @@
     </member>
   </compound>
   <compound kind="namespace">
+    <name>demos::keyboard_handler</name>
+    <filename>namespacedemos_1_1keyboard__handler.html</filename>
+    <class kind="class">demos::keyboard_handler::KeyboardHandler</class>
+    <class kind="class">demos::keyboard_handler::KeyboardStdIn</class>
+    <class kind="class">demos::keyboard_handler::KeyboardStub</class>
+    <member kind="function">
+      <type>KeyboardHandler</type>
+      <name>get_keyboard_handler</name>
+      <anchorfile>namespacedemos_1_1keyboard__handler.html</anchorfile>
+      <anchor>ab21622dc46bda15bb6e6a5d496692f5d</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="namespace">
     <name>demos::keyop</name>
     <filename>namespacedemos_1_1keyop.html</filename>
-    <class kind="class">demos::keyop::KeyboardHandler</class>
     <member kind="function">
       <type>def</type>
       <name>demo_callback</name>
@@ -1054,7 +1051,6 @@
   <compound kind="namespace">
     <name>demos::trip_integration</name>
     <filename>namespacedemos_1_1trip__integration.html</filename>
-    <class kind="class">demos::trip_integration::KeyboardHandler</class>
     <class kind="class">demos::trip_integration::KeyopAccelerateSteerUnicycleCar</class>
     <member kind="function">
       <type>def</type>
