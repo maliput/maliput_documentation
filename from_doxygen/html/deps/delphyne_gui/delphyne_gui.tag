@@ -1106,13 +1106,6 @@
       <arglist>(const QModelIndex &amp;_index)</arglist>
     </member>
     <member kind="function" protection="protected">
-      <type>void</type>
-      <name>timerEvent</name>
-      <anchorfile>classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html</anchorfile>
-      <anchor>ad69907c6b92e2e76300e11e16c8f766c</anchor>
-      <arglist>(QTimerEvent *_event) override</arglist>
-    </member>
-    <member kind="function" protection="protected">
       <type>bool</type>
       <name>eventFilter</name>
       <anchorfile>classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html</anchorfile>

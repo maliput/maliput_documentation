@@ -102,11 +102,7 @@ $(document).ready(function(){initNavTree('classdelphyne_1_1gui_1_1_maliput_viewe
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Loads a road geometry out of a xodr file or a yaml file. </p>
-<p>Meshes are created and displayed in the scene.</p>
-<h2>Configuration</h2>
-<ul>
-<li>&lt;main_scene_plugin_title&gt; : Title of the Scene3D plugin instance that manages the main scene. Defaults to '3D Scene'. </li>
-</ul>
+<p>Meshes are created and displayed in the scene provided by Scene3D plugin. </p>
 </div>
 <p><code>#include &lt;visualizer/maliput_viewer_plugin/maliput_viewer_plugin.hh&gt;</code></p>
 <div class="dynheader">
@@ -181,9 +177,6 @@ Protected Slots</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ad69907c6b92e2e76300e11e16c8f766c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#ad69907c6b92e2e76300e11e16c8f766c">timerEvent</a> (QTimerEvent *_event) override</td></tr>
-<tr class="memdesc:ad69907c6b92e2e76300e11e16c8f766c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer event callback which handles the logic to load the meshes when the scene is not ready yet.  <a href="classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#ad69907c6b92e2e76300e11e16c8f766c">More...</a><br /></td></tr>
-<tr class="separator:ad69907c6b92e2e76300e11e16c8f766c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a368888b50c9d0e1694732c1f9e3a6ce4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#a368888b50c9d0e1694732c1f9e3a6ce4">eventFilter</a> (QObject *_obj, QEvent *_event) override</td></tr>
 <tr class="memdesc:a368888b50c9d0e1694732c1f9e3a6ce4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filters QMouseEvents from a Scene3D plugin whose title matches with <code>&lt;main_scene_plugin_title&gt;</code>.  <a href="classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#a368888b50c9d0e1694732c1f9e3a6ce4">More...</a><br /></td></tr>
 <tr class="separator:a368888b50c9d0e1694732c1f9e3a6ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -773,34 +766,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Signal emitted to indicate which lane id in the table should be highlighted. </p>
-
-</div>
-</div>
-<a id="ad69907c6b92e2e76300e11e16c8f766c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad69907c6b92e2e76300e11e16c8f766c">&#9670;&nbsp;</a></span>timerEvent()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void timerEvent </td>
-          <td>(</td>
-          <td class="paramtype">QTimerEvent *&#160;</td>
-          <td class="paramname"><em>_event</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Timer event callback which handles the logic to load the meshes when the scene is not ready yet. </p>
 
 </div>
 </div>
