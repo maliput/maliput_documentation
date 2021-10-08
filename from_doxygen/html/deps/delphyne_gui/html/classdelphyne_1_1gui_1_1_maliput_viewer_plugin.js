@@ -19,6 +19,7 @@ var classdelphyne_1_1gui_1_1_maliput_viewer_plugin =
     [ "RulesList", "classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#af0f17b557fe549c1c75a378dbc40b372", null ],
     [ "RulesListChanged", "classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#a07ea385d7fa92704e009d5ab243b951b", null ],
     [ "tableLaneIdSelection", "classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#a35b774dc0a5baf05cedcbd8ebb1abc81", null ],
+    [ "timerEvent", "classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#ad69907c6b92e2e76300e11e16c8f766c", null ],
     [ "labelCheckboxes", "classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#abf15b00fedb92c4fdcd543f94bafa2b0", null ],
     [ "laneInfo", "classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#a12e3ea52b1f6d0c5b5a3c0f467a87bbd", null ],
     [ "layerCheckboxes", "classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#a2f347d6b967c40c012d56321b73caea3", null ],

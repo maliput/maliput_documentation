@@ -1112,6 +1112,13 @@
       <anchor>a368888b50c9d0e1694732c1f9e3a6ce4</anchor>
       <arglist>(QObject *_obj, QEvent *_event) override</arglist>
     </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>timerEvent</name>
+      <anchorfile>classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html</anchorfile>
+      <anchor>ad69907c6b92e2e76300e11e16c8f766c</anchor>
+      <arglist>(QTimerEvent *_event) override</arglist>
+    </member>
     <member kind="property">
       <type>QList&lt; bool &gt;</type>
       <name>layerCheckboxes</name>
@@ -1282,7 +1289,7 @@
       <type>Q_INVOKABLE void</type>
       <name>SetIsVisible</name>
       <anchorfile>classdelphyne_1_1gui_1_1_origin_display.html</anchorfile>
-      <anchor>aab62f0701dfc4bb42b033b787325d023</anchor>
+      <anchor>aae9f12cd583e4b31fe3c766cd1263642</anchor>
       <arglist>(bool _isVisible)</arglist>
     </member>
     <member kind="function" protection="protected">
@@ -1291,6 +1298,13 @@
       <anchorfile>classdelphyne_1_1gui_1_1_origin_display.html</anchorfile>
       <anchor>ad69907c6b92e2e76300e11e16c8f766c</anchor>
       <arglist>(QTimerEvent *_event) override</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>bool</type>
+      <name>eventFilter</name>
+      <anchorfile>classdelphyne_1_1gui_1_1_origin_display.html</anchorfile>
+      <anchor>a368888b50c9d0e1694732c1f9e3a6ce4</anchor>
+      <arglist>(QObject *_obj, QEvent *_event) override</arglist>
     </member>
     <member kind="property">
       <type>bool</type>
@@ -1310,7 +1324,7 @@
       <type>Q_INVOKABLE void</type>
       <name>SetIsVisible</name>
       <anchorfile>classdelphyne_1_1gui_1_1_origin_display.html</anchorfile>
-      <anchor>aab62f0701dfc4bb42b033b787325d023</anchor>
+      <anchor>aae9f12cd583e4b31fe3c766cd1263642</anchor>
       <arglist>(bool _isVisible)</arglist>
     </member>
   </compound>
