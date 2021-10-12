@@ -190,6 +190,9 @@ As you can see, ``--include-eol-distros`` is necessary to discover the ROS2-EOL 
 Install drake
 """""""""""""
 
+Run the following command only if you are in **foxy** and using ``delphyne.repos``, otherwise it will fail because
+``drake_vendor`` is not in the workspace.
+
 .. code-block:: sh
 
     sudo ./src/drake_vendor/drake_installer
