@@ -401,7 +401,7 @@ its dependencies.
 
 .. code-block:: sh
 
-    LDFLAGS="-fuse-ld=lld-8" CC=clang-8 CXX=clang++-8 colcon build --packages-up-to maliput malidrive
+    LDFLAGS="-fuse-ld=lld-8" CC=clang-8 CXX=clang++-8 colcon build --packages-up-to maliput maliput_malidrive
 
 .. _source-the-workspace:
 
@@ -450,11 +450,11 @@ To run ``scan-build`` on all packages in the workspace:
 
     ./src/maliput/.github/run_scan_build
 
-To run scan-build up to malidrive:
+To run scan-build up to ``maliput_malidrive``:
 
 .. code-block:: sh
 
-    ./src/maliput/.github/run_scan_build --packages-up-to malidrive
+    ./src/maliput/.github/run_scan_build --packages-up-to maliput_malidrive
 
 .. _doxygen-documentation:
 
