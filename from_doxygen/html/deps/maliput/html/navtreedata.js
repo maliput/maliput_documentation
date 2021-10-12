@@ -54,6 +54,20 @@ var NAVTREE =
         ] ]
       ] ]
     ] ],
+    [ "Maliput Plugin Architecture", "maliput_plugin_architecture.html", [
+      [ "Maliput Plugin Architecture", "maliput_plugin_architecture.html#maliput_plugin_architecture_section", [
+        [ "Overview", "maliput_plugin_architecture.html#plugin_architecture_overview", null ],
+        [ "MaliputPlugin", "maliput_plugin_architecture.html#maliput_plugin", null ],
+        [ "MaliputPlugin types", "maliput_plugin_architecture.html#maliput_plugin_types", null ],
+        [ "MaliputPluginManager", "maliput_plugin_architecture.html#maliput_plugin_manager", null ]
+      ] ],
+      [ "Maliput available interfaces", "maliput_plugin_architecture.html#maliput_available_interfaces", [
+        [ "RoadNetworkLoader plugin", "maliput_plugin_architecture.html#road_network_loader_plugin", [
+          [ "Using a custom RoadNetworkLoader plugin", "maliput_plugin_architecture.html#using_custom_road_network_loader", null ]
+        ] ]
+      ] ],
+      [ "Related References", "maliput_plugin_architecture.html#related_references", null ]
+    ] ],
     [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -98,10 +112,10 @@ var NAVTREEINDEX =
 "classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_state_provider.html#a4dd111289aa9e32c0b87731f55259839",
 "classmaliput_1_1math_1_1_matrix.html#a59aa4194176579e234872ba587a1881c",
 "filter__positions_8cc.html#a6526fab630ce68db4883df8c4f8afe9e",
-"maliput_design.html#modeling_road_networks_for_simulation",
-"namespacemembers_func_g.html",
-"structmaliput_1_1api_1_1_lane_position_result.html#a381e8f9bf948edc81169fda9329380fc",
-"traffic__lights__compare_8h.html#abf4ea573629a953745db7955fe11dcff"
+"maliput_design.html#lanes_joined_via_branchpoints",
+"namespacemembers_e.html",
+"structmaliput_1_1api_1_1_lane_end.html",
+"traffic__lights__compare_8cc.html#aab4fb0526fe8cd64e5df47a40963f93e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

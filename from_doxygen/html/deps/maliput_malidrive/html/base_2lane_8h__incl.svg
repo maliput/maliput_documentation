@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 1252;
+var viewWidth = 1237;
 var viewHeight = 441;
 var sectionId = 'dynsection-0';
 </script>
@@ -54,7 +54,7 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>lane.h</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-437 1247.5,-437 1247.5,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-437 1232.5,-437 1232.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -138,8 +138,8 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M471.1,-421.26C544.07,-418.67 772.33,-408.44 958.5,-377 1089.09,-354.95 1243.5,-422.44 1243.5,-290 1243.5,-290 1243.5,-290 1243.5,-215.5 1243.5,-144.99 746.45,-103.22 541.88,-89.01"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="541.99,-85.51 531.77,-88.32 541.51,-92.49 541.99,-85.51"/>
+<path fill="none" stroke="midnightblue" d="M471.12,-421.37C544.14,-419.12 772.56,-409.75 958.5,-377 1082.66,-355.13 1228.5,-416.08 1228.5,-290 1228.5,-290 1228.5,-290 1228.5,-215.5 1228.5,-146.5 743.75,-104 542,-89.31"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="541.96,-85.79 531.73,-88.56 541.46,-92.78 541.96,-85.79"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node">
@@ -453,34 +453,35 @@ var sectionId = 'dynsection-0';
 <g id="node22" class="node">
 <title>Node22</title>
 <g id="a_node22"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="923.5,-274 923.5,-304 1065.5,-304 1065.5,-274 923.5,-274"/>
-<text text-anchor="start" x="931.5" y="-292" font-family="Helvetica,sans-Serif" font-size="10.00">drake/systems/analysis</text>
-<text text-anchor="middle" x="994.5" y="-281" font-family="Helvetica,sans-Serif" font-size="10.00">/antiderivative_function.h</text>
+<polygon fill="white" stroke="#bfbfbf" points="923,-268.5 923,-309.5 1054,-309.5 1054,-268.5 923,-268.5"/>
+<text text-anchor="start" x="931" y="-297.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/drake/systems</text>
+<text text-anchor="start" x="931" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00">/analysis/antiderivative</text>
+<text text-anchor="middle" x="988.5" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">_function.h</text>
 </a>
 </g>
 </g>
 <!-- Node20&#45;&gt;Node22 -->
 <g id="edge31" class="edge">
 <title>Node20&#45;&gt;Node22</title>
-<path fill="none" stroke="midnightblue" d="M899.3,-346.4C917.29,-335.74 942.21,-320.98 962.04,-309.23"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="963.93,-312.18 970.75,-304.07 960.36,-306.16 963.93,-312.18"/>
+<path fill="none" stroke="midnightblue" d="M898.1,-346.4C912.47,-337.44 931.48,-325.58 948.36,-315.04"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="950.32,-317.94 956.96,-309.68 946.62,-312 950.32,-317.94"/>
 </g>
 <!-- Node23 -->
 <g id="node23" class="node">
 <title>Node23</title>
 <g id="a_node23"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="1084,-268.5 1084,-309.5 1215,-309.5 1215,-268.5 1084,-268.5"/>
-<text text-anchor="start" x="1092" y="-297.5" font-family="Helvetica,sans-Serif" font-size="10.00">drake/systems/analysis</text>
-<text text-anchor="start" x="1092" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00">/scalar_initial_value</text>
-<text text-anchor="middle" x="1149.5" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">_problem.h</text>
+<polygon fill="white" stroke="#bfbfbf" points="1072.5,-268.5 1072.5,-309.5 1200.5,-309.5 1200.5,-268.5 1072.5,-268.5"/>
+<text text-anchor="start" x="1080.5" y="-297.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/drake/systems</text>
+<text text-anchor="start" x="1080.5" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00">/analysis/scalar_initial</text>
+<text text-anchor="middle" x="1136.5" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">_value_problem.h</text>
 </a>
 </g>
 </g>
 <!-- Node20&#45;&gt;Node23 -->
 <g id="edge32" class="edge">
 <title>Node20&#45;&gt;Node23</title>
-<path fill="none" stroke="midnightblue" d="M931.73,-346.42C969.35,-336.96 1020.22,-324.08 1073.95,-310.13"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1074.86,-313.51 1083.66,-307.61 1073.1,-306.73 1074.86,-313.51"/>
+<path fill="none" stroke="midnightblue" d="M928.19,-346.42C963.61,-336.94 1011.6,-324.06 1062.53,-310.26"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1063.68,-313.57 1072.41,-307.58 1061.84,-306.82 1063.68,-313.57"/>
 </g>
 </g>
 </svg>

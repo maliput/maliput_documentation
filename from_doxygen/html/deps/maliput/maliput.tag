@@ -1389,6 +1389,11 @@
     <namespace>maliput::plugin</namespace>
   </compound>
   <compound kind="file">
+    <name>maliput_plugin_architecture.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/plugin/</path>
+    <filename>maliput__plugin__architecture_8h.html</filename>
+  </compound>
+  <compound kind="file">
     <name>maliput_plugin_manager.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/plugin/</path>
     <filename>maliput__plugin__manager_8cc.html</filename>
@@ -17303,5 +17308,19 @@
     <docanchor file="maliput_design.html">RoWR-one-way-to-two-way</docanchor>
     <docanchor file="maliput_design.html">RoWR-protected-left</docanchor>
     <docanchor file="maliput_design.html">RoWR-freeway-merge</docanchor>
+  </compound>
+  <compound kind="page">
+    <name>maliput_plugin_architecture</name>
+    <title>Maliput Plugin Architecture</title>
+    <filename>maliput_plugin_architecture</filename>
+    <docanchor file="maliput_plugin_architecture.html" title="Maliput Plugin Architecture">maliput_plugin_architecture_section</docanchor>
+    <docanchor file="maliput_plugin_architecture.html" title="Overview">plugin_architecture_overview</docanchor>
+    <docanchor file="maliput_plugin_architecture.html" title="MaliputPlugin">maliput_plugin</docanchor>
+    <docanchor file="maliput_plugin_architecture.html" title="MaliputPlugin types">maliput_plugin_types</docanchor>
+    <docanchor file="maliput_plugin_architecture.html" title="MaliputPluginManager">maliput_plugin_manager</docanchor>
+    <docanchor file="maliput_plugin_architecture.html" title="Maliput available interfaces">maliput_available_interfaces</docanchor>
+    <docanchor file="maliput_plugin_architecture.html" title="RoadNetworkLoader plugin">road_network_loader_plugin</docanchor>
+    <docanchor file="maliput_plugin_architecture.html" title="Using a custom RoadNetworkLoader plugin">using_custom_road_network_loader</docanchor>
+    <docanchor file="maliput_plugin_architecture.html" title="Related References">related_references</docanchor>
   </compound>
 </tagfile>
