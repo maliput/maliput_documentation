@@ -255,6 +255,8 @@ installations within a container are limited to that container).</p>
 </div>
 <div class="section" id="install-drake">
 <span id="id6"></span><h5><a class="toc-backref" href="#id45">Install drake</a><a class="headerlink" href="#install-drake" title="Permalink to this headline">¶</a></h5>
+<p>Run the following command only if you are in <strong>foxy</strong> and using <code class="docutils literal notranslate"><span class="pre">delphyne.repos</span></code>, otherwise it will fail because
+<code class="docutils literal notranslate"><span class="pre">drake_vendor</span></code> is not in the workspace.</p>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>sudo ./src/drake_vendor/drake_installer
 </pre></div>
 </div>
@@ -426,7 +428,7 @@ to <code class="docutils literal notranslate"><span class="pre">colcon</span></c
 <p class="first admonition-title">Note</p>
 <p class="last">If you want to build with <code class="docutils literal notranslate"><span class="pre">clang-8</span></code>, run the following:</p>
 </div>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nv">LDFLAGS</span><span class="o">=</span><span class="s2">&quot;-fuse-ld=lld-8&quot;</span> <span class="nv">CC</span><span class="o">=</span>clang-8 <span class="nv">CXX</span><span class="o">=</span>clang++-8 colcon build --packages-up-to maliput malidrive
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nv">LDFLAGS</span><span class="o">=</span><span class="s2">&quot;-fuse-ld=lld-8&quot;</span> <span class="nv">CC</span><span class="o">=</span>clang-8 <span class="nv">CXX</span><span class="o">=</span>clang++-8 colcon build --packages-up-to maliput maliput_malidrive
 </pre></div>
 </div>
 </div>
@@ -467,8 +469,8 @@ evaluate.</p>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>./src/maliput/.github/run_scan_build
 </pre></div>
 </div>
-<p>To run scan-build up to malidrive:</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>./src/maliput/.github/run_scan_build --packages-up-to malidrive
+<p>To run scan-build up to <code class="docutils literal notranslate"><span class="pre">maliput_malidrive</span></code>:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>./src/maliput/.github/run_scan_build --packages-up-to maliput_malidrive
 </pre></div>
 </div>
 </div>

@@ -25,21 +25,33 @@ The following packages are provided:
 * Integration packages:
     * `maliput_integration`_
     * `maliput_integration_tests`_
+* Mathematical support:
+    * `maliput_drake`_
 * Utility packages:
     * `drake_vendor`_
     * `pybind11`_
+    * `dsim_docs_bundler`_
+* Delphyne:
+    * `delphyne`_
+    * `delphyne_gui`_
+    * `delphyne_demos`_
 
-.. _maliput: TODO
-.. _maliput_py: TODO
-.. _ament_cmake_doxygen: TODO
-.. _maliput_documentation: TODO
-.. _maliput_dragway: TODO
-.. _maliput_malidrive: TODO
-.. _maliput_multilane: TODO
-.. _maliput_integration: TODO
-.. _maliput_integration_tests: TODO
-.. _drake_vendor: TODO
-.. _pybind11: TODO
+.. _maliput: https://github.com/ToyotaResearchInstitute/maliput
+.. _maliput_py: https://github.com/ToyotaResearchInstitute/maliput_py
+.. _ament_cmake_doxygen: https://github.com/ToyotaResearchInstitute/ament_cmake_doxygen
+.. _maliput_documentation: https://github.com/ToyotaResearchInstitute/maliput_documentation
+.. _maliput_dragway: https://github.com/ToyotaResearchInstitute/maliput_dragway
+.. _maliput_malidrive: https://github.com/ToyotaResearchInstitute/maliput_malidrive
+.. _maliput_multilane: https://github.com/ToyotaResearchInstitute/maliput_multilane
+.. _maliput_integration: https://github.com/ToyotaResearchInstitute/maliput_integration
+.. _maliput_integration_tests: https://github.com/ToyotaResearchInstitute/maliput_integration_tests
+.. _maliput_drake: https://github.com/ToyotaResearchInstitute/maliput_drake
+.. _drake_vendor: https://github.com/ToyotaResearchInstitute/drake_vendor
+.. _pybind11: https://github.com/RobotLocomotion/pybind11
+.. _dsim_docs_bundler: https://github.com/ToyotaResearchInstitute/dsim_docs_bundler
+.. _delphyne: https://github.com/ToyotaResearchInstitute/delphyne
+.. _delphyne_gui: https://github.com/ToyotaResearchInstitute/delphyne_gui
+.. _delphyne: https://github.com/ToyotaResearchInstitute/delphyne_demos
 
 Each repository may contain one or more packages. When a repository contains
 two or more packages, it is expected that all packages' versions within the same

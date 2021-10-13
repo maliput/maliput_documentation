@@ -250,6 +250,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/utility/</path>
     <filename>file__utils_8cc.html</filename>
     <includes id="file__utils_8h" name="file_utils.h" local="yes" imported="no">maliput/utility/file_utils.h</includes>
+    <includes id="logger_8h" name="logger.h" local="yes" imported="no">maliput/common/logger.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::utility</namespace>
     <member kind="function">
@@ -1398,6 +1399,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/plugin/</path>
     <filename>maliput__plugin__manager_8cc.html</filename>
     <includes id="maliput__plugin__manager_8h" name="maliput_plugin_manager.h" local="yes" imported="no">maliput/plugin/maliput_plugin_manager.h</includes>
+    <includes id="filesystem_8h" name="filesystem.h" local="yes" imported="no">maliput/common/filesystem.h</includes>
     <includes id="logger_8h" name="logger.h" local="yes" imported="no">maliput/common/logger.h</includes>
     <includes id="file__utils_8h" name="file_utils.h" local="yes" imported="no">maliput/utility/file_utils.h</includes>
     <namespace>maliput</namespace>
