@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"classmalidrive_1_1xodr_1_1_attribute_parser.html#aba507533a751f3f7884bdabd6454ebc6":[3,0,0,3,0,2],
 "classmalidrive_1_1xodr_1_1_attribute_parser.html#adde3dcbe59ce03eedfbb9dcba95403c0":[3,0,0,3,0,1],
 "classmalidrive_1_1xodr_1_1_d_b_manager.html":[3,0,0,3,2],
 "classmalidrive_1_1xodr_1_1_d_b_manager.html#a03e603447991303f202cc7a71aa31ba5":[3,0,0,3,2,8],
@@ -202,11 +201,9 @@ var NAVTREEINDEX1 =
 "line__ground__curve_8cc.html":[4,0,50],
 "line__ground__curve_8h.html":[4,0,51],
 "loader_8cc.html":[4,0,52],
-"loader_8cc.html#a4d3b85c1e732410dab0fbd81d36acf78":[4,0,52,1],
-"loader_8cc.html#a989c750c02da73a396ab978a7b12a84e":[4,0,52,0],
+"loader_8cc.html#a4d3b85c1e732410dab0fbd81d36acf78":[4,0,52,0],
 "loader_8h.html":[4,0,53],
-"loader_8h.html#a61c62db53dca00fdf962949236e94cc2":[4,0,53,0],
-"loader_8h.html#a6f1efaf237fa657a701642e68a286b67":[4,0,53,1],
+"loader_8h.html#a6f1efaf237fa657a701642e68a286b67":[4,0,53,0],
 "log__level__flag_8h.html":[4,0,54],
 "log__level__flag_8h.html#aa69c9c514db45b75ea1051546447c503":[4,0,54,0],
 "macros_8h.html":[4,0,55],
@@ -249,5 +246,8 @@ var NAVTREEINDEX1 =
 "namespacemalidrive_1_1builder_1_1rules.html":[2,0,0,1,0],
 "namespacemalidrive_1_1constants.html":[2,0,0,2],
 "namespacemalidrive_1_1loader.html":[2,0,0,3],
-"namespacemalidrive_1_1plugin.html":[2,0,0,4]
+"namespacemalidrive_1_1plugin.html":[2,0,0,4],
+"namespacemalidrive_1_1road__curve.html":[3,0,0,2],
+"namespacemalidrive_1_1road__curve.html":[2,0,0,5],
+"namespacemalidrive_1_1road__curve_1_1test.html":[2,0,0,5,0]
 };

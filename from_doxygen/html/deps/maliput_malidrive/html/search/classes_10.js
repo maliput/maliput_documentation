@@ -16,7 +16,7 @@ var searchData=
   ['roadcurvefactory_1826',['RoadCurveFactory',['../classmalidrive_1_1builder_1_1_road_curve_factory.html',1,'malidrive::builder']]],
   ['roadcurvefactorybase_1827',['RoadCurveFactoryBase',['../classmalidrive_1_1builder_1_1_road_curve_factory_base.html',1,'malidrive::builder']]],
   ['roadcurveoffset_1828',['RoadCurveOffset',['../classmalidrive_1_1road__curve_1_1_road_curve_offset.html',1,'malidrive::road_curve']]],
-  ['roadgeometry_1829',['RoadGeometry',['../../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html',1,'RoadGeometry'],['../classmalidrive_1_1_road_geometry.html',1,'RoadGeometry'],['../../../maliput/html/classmaliput_1_1geometry__base_1_1_road_geometry.html',1,'RoadGeometry']]],
+  ['roadgeometry_1829',['RoadGeometry',['../classmalidrive_1_1_road_geometry.html',1,'RoadGeometry'],['../../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html',1,'RoadGeometry'],['../../../maliput/html/classmaliput_1_1geometry__base_1_1_road_geometry.html',1,'RoadGeometry']]],
   ['roadgeometrybuilder_1830',['RoadGeometryBuilder',['../classmalidrive_1_1builder_1_1_road_geometry_builder.html',1,'malidrive::builder']]],
   ['roadgeometrybuildflags_1831',['RoadGeometryBuildFlags',['../../../maliput/html/structmaliput_1_1api_1_1test_1_1_road_geometry_build_flags.html',1,'maliput::api::test']]],
   ['roadgeometryconfiguration_1832',['RoadGeometryConfiguration',['../structmalidrive_1_1builder_1_1_road_geometry_configuration.html',1,'malidrive::builder']]],

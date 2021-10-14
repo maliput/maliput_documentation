@@ -1,7 +1,7 @@
 var searchData=
 [
   ['scaleddomainfunction_1859',['ScaledDomainFunction',['../classmalidrive_1_1road__curve_1_1_scaled_domain_function.html',1,'malidrive::road_curve']]],
-  ['segment_1860',['Segment',['../../../maliput/html/classmaliput_1_1api_1_1_segment.html',1,'Segment'],['../classmalidrive_1_1_segment.html',1,'Segment'],['../../../maliput/html/classmaliput_1_1geometry__base_1_1_segment.html',1,'Segment']]],
+  ['segment_1860',['Segment',['../classmalidrive_1_1_segment.html',1,'Segment'],['../../../maliput/html/classmaliput_1_1geometry__base_1_1_segment.html',1,'Segment'],['../../../maliput/html/classmaliput_1_1api_1_1_segment.html',1,'Segment']]],
   ['serialize_1861',['Serialize',['../../../maliput/html/structmaliput_1_1common_1_1_serialize.html',1,'maliput::common']]],
   ['simplephaseringbook_1862',['SimplePhaseRingBook',['../../../maliput/html/classmaliput_1_1_simple_phase_ring_book.html',1,'maliput']]],
   ['simplerulebook_1863',['SimpleRulebook',['../../../maliput/html/classmaliput_1_1_simple_rulebook.html',1,'maliput']]],

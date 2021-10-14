@@ -101,60 +101,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a6f1efaf237fa657a701642e68a286b67"><td class="memTemplItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1loader.html#a6f1efaf237fa657a701642e68a286b67">Load</a> (const std::map&lt; std::string, std::string &gt; &amp;road_network_configuration)</td></tr>
 <tr class="memdesc:a6f1efaf237fa657a701642e68a286b67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a malidrive RoadNetwork.  <a href="namespacemalidrive_1_1loader.html#a6f1efaf237fa657a701642e68a286b67">More...</a><br /></td></tr>
 <tr class="separator:a6f1efaf237fa657a701642e68a286b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61c62db53dca00fdf962949236e94cc2"><td class="memTemplParams" colspan="2">template&lt;class RoadNetworkBuilderT &gt; </td></tr>
-<tr class="memitem:a61c62db53dca00fdf962949236e94cc2"><td class="memTemplItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1loader.html#a61c62db53dca00fdf962949236e94cc2">Load</a> (const <a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html">builder::RoadNetworkConfiguration</a> &amp;road_network_configuration)</td></tr>
-<tr class="memdesc:a61c62db53dca00fdf962949236e94cc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO(#135): Deprecates this Load method.  <a href="namespacemalidrive_1_1loader.html#a61c62db53dca00fdf962949236e94cc2">More...</a><br /></td></tr>
-<tr class="separator:a61c62db53dca00fdf962949236e94cc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d3b85c1e732410dab0fbd81d36acf78"><td class="memItemLeft" align="right" valign="top">template std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1loader.html#a4d3b85c1e732410dab0fbd81d36acf78">Load&lt; builder::RoadNetworkBuilder &gt;</a> (const std::map&lt; std::string, std::string &gt; &amp;road_network_configuration)</td></tr>
 <tr class="separator:a4d3b85c1e732410dab0fbd81d36acf78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a989c750c02da73a396ab978a7b12a84e"><td class="memItemLeft" align="right" valign="top">template std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1loader.html#a989c750c02da73a396ab978a7b12a84e">Load&lt; builder::RoadNetworkBuilder &gt;</a> (const <a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html">builder::RoadNetworkConfiguration</a> &amp;road_network_configuration)</td></tr>
-<tr class="memdesc:a989c750c02da73a396ab978a7b12a84e"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO(#135): Deprecates this Load method.  <a href="namespacemalidrive_1_1loader.html#a989c750c02da73a396ab978a7b12a84e">More...</a><br /></td></tr>
-<tr class="separator:a989c750c02da73a396ab978a7b12a84e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a61c62db53dca00fdf962949236e94cc2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61c62db53dca00fdf962949236e94cc2">&#9670;&nbsp;</a></span>Load() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a>&gt; malidrive::loader::Load </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html">builder::RoadNetworkConfiguration</a> &amp;&#160;</td>
-          <td class="paramname"><em>road_network_configuration</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>TODO(#135): Deprecates this Load method. </p>
-<p>Builds a malidrive RoadNetwork.</p>
-<p>Forwards a call to RoadNetworkBuilderT.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">road_network_configuration</td><td>contains a RoadGeometryConfiguration and the configuration files for RoadNetwork entity loaders. The RoadGeometryConfiguration in the network configuration must be valid.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::runtime_err</td><td>When the OpenDrive file cannot be loaded or the <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend.">RoadGeometry</a> can not be constructed. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>A unique_ptr to a RoadNetwork. </dd></dl>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">RoadNetworkBuilderT</td><td>One of opendrive::builder::RoadNetworkBuilder or <a class="el" href="classmalidrive_1_1builder_1_1_road_network_builder.html">builder::RoadNetworkBuilder</a>. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="a6f1efaf237fa657a701642e68a286b67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f1efaf237fa657a701642e68a286b67">&#9670;&nbsp;</a></span>Load() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f1efaf237fa657a701642e68a286b67">&#9670;&nbsp;</a></span>Load()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -209,6 +161,10 @@ Functions</h2></td></tr>
 </ul>
 </li>
 <li>Default: <em>"sequential"</em> </li>
+</ul>
+</li>
+<li><b>num_threads</b> : Indicates the number of threads to be used to build the <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend.">RoadGeometry</a> when <code>build_policy</code> flag is set to <code>parallel</code>.<ul>
+<li>Default: std::thread::hardware_concurrency() minus one (running thread).</li>
 </ul>
 </li>
 <li><b>simplification_policy</b> : Determines geometries simplification for the XODR's roads.<ul>
@@ -285,28 +241,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a989c750c02da73a396ab978a7b12a84e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a989c750c02da73a396ab978a7b12a84e">&#9670;&nbsp;</a></span>Load&lt; builder::RoadNetworkBuilder &gt;() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">template std::unique_ptr&lt;<a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a>&gt; <a class="el" href="namespacemalidrive_1_1loader.html#a6f1efaf237fa657a701642e68a286b67">malidrive::loader::Load</a>&lt; <a class="el" href="classmalidrive_1_1builder_1_1_road_network_builder.html">builder::RoadNetworkBuilder</a> &gt; </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html">builder::RoadNetworkConfiguration</a> &amp;&#160;</td>
-          <td class="paramname"><em>road_network_configuration</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>TODO(#135): Deprecates this Load method. </p>
-
-</div>
-</div>
 <a id="a4d3b85c1e732410dab0fbd81d36acf78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d3b85c1e732410dab0fbd81d36acf78">&#9670;&nbsp;</a></span>Load&lt; builder::RoadNetworkBuilder &gt;() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d3b85c1e732410dab0fbd81d36acf78">&#9670;&nbsp;</a></span>Load&lt; builder::RoadNetworkBuilder &gt;()</h2>
 
 <div class="memitem">
 <div class="memproto">

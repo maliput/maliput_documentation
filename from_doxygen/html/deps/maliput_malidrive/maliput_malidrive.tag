@@ -1099,19 +1099,11 @@
       <anchor>a4d3b85c1e732410dab0fbd81d36acf78</anchor>
       <arglist>(const std::map&lt; std::string, std::string &gt; &amp;road_network_configuration)</arglist>
     </member>
-    <member kind="function">
-      <type>template std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
-      <name>Load&lt; builder::RoadNetworkBuilder &gt;</name>
-      <anchorfile>namespacemalidrive_1_1loader.html</anchorfile>
-      <anchor>a989c750c02da73a396ab978a7b12a84e</anchor>
-      <arglist>(const builder::RoadNetworkConfiguration &amp;road_network_configuration)</arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>loader.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/loader/</path>
     <filename>loader_8h.html</filename>
-    <includes id="road__network__configuration_8h" name="road_network_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_network_configuration.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::loader</namespace>
@@ -1121,13 +1113,6 @@
       <anchorfile>namespacemalidrive_1_1loader.html</anchorfile>
       <anchor>a6f1efaf237fa657a701642e68a286b67</anchor>
       <arglist>(const std::map&lt; std::string, std::string &gt; &amp;road_network_configuration)</arglist>
-    </member>
-    <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
-      <name>Load</name>
-      <anchorfile>namespacemalidrive_1_1loader.html</anchorfile>
-      <anchor>a61c62db53dca00fdf962949236e94cc2</anchor>
-      <arglist>(const builder::RoadNetworkConfiguration &amp;road_network_configuration)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -1614,7 +1599,7 @@
   </compound>
   <compound kind="file">
     <name>road_geometry_configuration.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/builder/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
     <filename>road__geometry__configuration_8h.html</filename>
     <includes id="constants_8h" name="constants.h" local="yes" imported="no">maliput_malidrive/constants.h</includes>
     <class kind="struct">malidrive::builder::BuildPolicy</class>
@@ -1762,7 +1747,6 @@
     <name>road_network_builder.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/builder/</path>
     <filename>road__network__builder_8h.html</filename>
-    <includes id="road__network__configuration_8h" name="road_network_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_network_configuration.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <class kind="class">malidrive::builder::RoadNetworkBuilder</class>
     <namespace>malidrive</namespace>
@@ -1778,7 +1762,7 @@
   </compound>
   <compound kind="file">
     <name>road_network_configuration.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/builder/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
     <filename>road__network__configuration_8h.html</filename>
     <includes id="road__geometry__configuration_8h" name="road_geometry_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_configuration.h</includes>
     <class kind="struct">malidrive::builder::RoadNetworkConfiguration</class>
@@ -6386,13 +6370,6 @@
       <arglist>(const std::map&lt; std::string, std::string &gt; &amp;road_network_configuration)</arglist>
     </member>
     <member kind="function">
-      <type></type>
-      <name>RoadNetworkBuilder</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_road_network_builder.html</anchorfile>
-      <anchor>a67a734517f4561bc414c8aa424f53cee</anchor>
-      <arglist>(const RoadNetworkConfiguration &amp;road_network_configuration)</arglist>
-    </member>
-    <member kind="function">
       <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>operator()</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_network_builder.html</anchorfile>
@@ -7247,20 +7224,6 @@
       <enumvalue file="namespacemalidrive_1_1builder.html" anchor="aa05c22b45e1642b62091723d3e86fc4fab1b3e46440416e5c6772b42ad0dca5e2">kPredecessor</enumvalue>
     </member>
     <member kind="function">
-      <type>RoadGeometryConfiguration::StandardStrictnessPolicy</type>
-      <name>operator|</name>
-      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>aa7055f0c13d21c95fa8f05f7f4e63d42</anchor>
-      <arglist>(const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;first, const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;second)</arglist>
-    </member>
-    <member kind="function">
-      <type>RoadGeometryConfiguration::StandardStrictnessPolicy</type>
-      <name>operator&amp;</name>
-      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>a7a0aeb371a6e6f42192de7986a10d2b9</anchor>
-      <arglist>(const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;first, const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;second)</arglist>
-    </member>
-    <member kind="function">
       <type>std::vector&lt; maliput::api::LaneEnd &gt;</type>
       <name>SolveLaneEndsForConnectingRoad</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
@@ -7464,6 +7427,20 @@
       <arglist>(const maliput::api::rules::Rule::TypeId &amp;rule_type_id, const maliput::api::LaneId &amp;lane_id, int index)</arglist>
     </member>
     <member kind="function">
+      <type>RoadGeometryConfiguration::StandardStrictnessPolicy</type>
+      <name>operator|</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>aa7055f0c13d21c95fa8f05f7f4e63d42</anchor>
+      <arglist>(const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;first, const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;second)</arglist>
+    </member>
+    <member kind="function">
+      <type>RoadGeometryConfiguration::StandardStrictnessPolicy</type>
+      <name>operator&amp;</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a7a0aeb371a6e6f42192de7986a10d2b9</anchor>
+      <arglist>(const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;first, const RoadGeometryConfiguration::StandardStrictnessPolicy &amp;second)</arglist>
+    </member>
+    <member kind="function">
       <type>std::vector&lt; xodr::Geometry &gt;</type>
       <name>SimplifyGeometries</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
@@ -7590,25 +7567,11 @@
       <arglist>(const std::map&lt; std::string, std::string &gt; &amp;road_network_configuration)</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
-      <name>Load</name>
-      <anchorfile>namespacemalidrive_1_1loader.html</anchorfile>
-      <anchor>a61c62db53dca00fdf962949236e94cc2</anchor>
-      <arglist>(const builder::RoadNetworkConfiguration &amp;road_network_configuration)</arglist>
-    </member>
-    <member kind="function">
       <type>template std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>Load&lt; builder::RoadNetworkBuilder &gt;</name>
       <anchorfile>namespacemalidrive_1_1loader.html</anchorfile>
       <anchor>a4d3b85c1e732410dab0fbd81d36acf78</anchor>
       <arglist>(const std::map&lt; std::string, std::string &gt; &amp;road_network_configuration)</arglist>
-    </member>
-    <member kind="function">
-      <type>template std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
-      <name>Load&lt; builder::RoadNetworkBuilder &gt;</name>
-      <anchorfile>namespacemalidrive_1_1loader.html</anchorfile>
-      <anchor>a989c750c02da73a396ab978a7b12a84e</anchor>
-      <arglist>(const builder::RoadNetworkConfiguration &amp;road_network_configuration)</arglist>
     </member>
   </compound>
   <compound kind="namespace">
