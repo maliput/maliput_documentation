@@ -20,9 +20,15 @@ Dragway
 
 * `Dragway C++ namespace <from_doxygen/html/deps/maliput_dragway/html/namespacemaliput_1_1dragway.html>`_
 
+Maliput Py
+==========
+
+* `Maliput Python Interface <from_doxygen/html/deps/maliput_py/html/maliput_python_interface.html>`_
+
 Multilane
 =========
 
+* `Multilane Design <from_doxygen/html/deps/maliput_multilane/html/multilane_design.html>`_
 * `Multilane C++ namespace <from_doxygen/html/deps/maliput_multilane/html/namespacemaliput_1_1multilane.html>`_
 
 Integration
