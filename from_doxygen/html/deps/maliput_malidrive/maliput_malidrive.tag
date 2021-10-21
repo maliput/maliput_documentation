@@ -355,6 +355,20 @@
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr double</type>
+      <name>kBaseLinearTolerance</name>
+      <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
+      <anchor>a129f6a1a0dad9f0c8cecb7abe02552d9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr double</type>
+      <name>kToleranceStepMultiplier</name>
+      <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
+      <anchor>a3a549523e3ac847f565223ff906fd834</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr double</type>
       <name>kStrictLinearTolerance</name>
       <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
       <anchor>a0ada0b01b6728a6b242fbfdc2d764ee6</anchor>
@@ -386,20 +400,6 @@
       <name>kDefaultMaxSpeedLimit</name>
       <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
       <anchor>abc547c57d153c67bba56929fa5a3daef</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr int</type>
-      <name>kMaxToleranceSelectionRounds</name>
-      <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
-      <anchor>a2d4e86f86d35a1f2dbd8410ecf5a3aa9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr double</type>
-      <name>kIncreasingToleranceStep</name>
-      <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
-      <anchor>a21ea1536f7f9374964589814fd23ad70</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -1604,6 +1604,7 @@
     <includes id="constants_8h" name="constants.h" local="yes" imported="no">maliput_malidrive/constants.h</includes>
     <class kind="struct">malidrive::builder::BuildPolicy</class>
     <class kind="struct">malidrive::builder::RoadGeometryConfiguration</class>
+    <class kind="struct">malidrive::builder::RoadGeometryConfiguration::BuildTolerance</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
     <member kind="function">
@@ -1729,7 +1730,6 @@
     <includes id="direction__usage__builder_8h" name="direction_usage_builder.h" local="yes" imported="no">maliput_malidrive/builder/direction_usage_builder.h</includes>
     <includes id="discrete__value__rule__state__provider__builder_8h" name="discrete_value_rule_state_provider_builder.h" local="yes" imported="no">maliput_malidrive/builder/discrete_value_rule_state_provider_builder.h</includes>
     <includes id="range__value__rule__state__provider__builder_8h" name="range_value_rule_state_provider_builder.h" local="yes" imported="no">maliput_malidrive/builder/range_value_rule_state_provider_builder.h</includes>
-    <includes id="road__curve__factory_8h" name="road_curve_factory.h" local="yes" imported="no">maliput_malidrive/builder/road_curve_factory.h</includes>
     <includes id="road__geometry__builder_8h" name="road_geometry_builder.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_builder.h</includes>
     <includes id="road__network__configuration_8h" name="road_network_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_network_configuration.h</includes>
     <includes id="road__rulebook__builder_8h" name="road_rulebook_builder.h" local="yes" imported="no">maliput_malidrive/builder/road_rulebook_builder.h</includes>
@@ -2490,6 +2490,52 @@
       <name>num_threads</name>
       <anchorfile>structmalidrive_1_1builder_1_1_build_policy.html</anchorfile>
       <anchor>a828474ecb230ccb2ee68318812dee750</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::builder::RoadGeometryConfiguration::BuildTolerance</name>
+    <filename>structmalidrive_1_1builder_1_1_road_geometry_configuration_1_1_build_tolerance.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>BuildTolerance</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration_1_1_build_tolerance.html</anchorfile>
+      <anchor>ab5966be84feb59f47eb2014527340a1b</anchor>
+      <arglist>(double angular_tolerance_in)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>BuildTolerance</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration_1_1_build_tolerance.html</anchorfile>
+      <anchor>ad7048faf654e983ab760d23165ac4eaa</anchor>
+      <arglist>(double linear_tolerance_in, double angular_tolerance_in)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>BuildTolerance</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration_1_1_build_tolerance.html</anchorfile>
+      <anchor>ae25cad8c045c8888fb96949923f8e016</anchor>
+      <arglist>(double min_linear_tolerance_in, double max_linear_tolerance_in, double angular_tolerance_in)</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>linear_tolerance</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration_1_1_build_tolerance.html</anchorfile>
+      <anchor>a88b54211f9d04c8e75a731d9b5371f27</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>max_linear_tolerance</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration_1_1_build_tolerance.html</anchorfile>
+      <anchor>a91d439769e4a65c9f14f03fece0d315a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>angular_tolerance</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration_1_1_build_tolerance.html</anchorfile>
+      <anchor>a81d132d0efbdf9cb0535607abd868c07</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -5584,8 +5630,8 @@
       <type></type>
       <name>RoadGeometryBuilder</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_geometry_builder.html</anchorfile>
-      <anchor>a91a734db6a7a18efe5d05c1d142747d9</anchor>
-      <arglist>(std::unique_ptr&lt; xodr::DBManager &gt; manager, const RoadGeometryConfiguration &amp;road_geometry_configuration, std::unique_ptr&lt; RoadCurveFactoryBase &gt; factory)</arglist>
+      <anchor>a8d989cd309a8aaec9febb47d9b2c4be7</anchor>
+      <arglist>(std::unique_ptr&lt; xodr::DBManager &gt; manager, const RoadGeometryConfiguration &amp;road_geometry_configuration)</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; const maliput::api::RoadGeometry &gt;</type>
@@ -5598,6 +5644,7 @@
   <compound kind="struct">
     <name>malidrive::builder::RoadGeometryConfiguration</name>
     <filename>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</filename>
+    <class kind="struct">malidrive::builder::RoadGeometryConfiguration::BuildTolerance</class>
     <member kind="enumeration">
       <type></type>
       <name>StandardStrictnessPolicy</name>
@@ -5617,15 +5664,6 @@
       <arglist></arglist>
       <enumvalue file="structmalidrive_1_1builder_1_1_road_geometry_configuration.html" anchor="aba132f98ea1230f94d40497b60aa9df4a35c3ace1970663a16e5c65baa5941b13">kNone</enumvalue>
       <enumvalue file="structmalidrive_1_1builder_1_1_road_geometry_configuration.html" anchor="aba132f98ea1230f94d40497b60aa9df4a772d1e24c5dc52d72e0f5f8567daf7d9">kSimplifyWithinToleranceAndKeepGeometryModel</enumvalue>
-    </member>
-    <member kind="enumeration">
-      <type></type>
-      <name>ToleranceSelectionPolicy</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a4cd4abfdf390ce8a62882d75d96cc830</anchor>
-      <arglist></arglist>
-      <enumvalue file="structmalidrive_1_1builder_1_1_road_geometry_configuration.html" anchor="a4cd4abfdf390ce8a62882d75d96cc830a0607c802a36b5a6bfc9d95ef06d8117e">kManualSelection</enumvalue>
-      <enumvalue file="structmalidrive_1_1builder_1_1_road_geometry_configuration.html" anchor="a4cd4abfdf390ce8a62882d75d96cc830a9f96d3d0e722e1e1d3cbce90423dcce1">kAutomaticSelection</enumvalue>
     </member>
     <member kind="function">
       <type>std::map&lt; std::string, std::string &gt;</type>
@@ -5647,20 +5685,6 @@
       <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
       <anchor>a4a5e2f4173e44787a109e907651bcdc0</anchor>
       <arglist>(const SimplificationPolicy &amp;policy)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static ToleranceSelectionPolicy</type>
-      <name>FromStrToToleranceSelectionPolicy</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>add93230cc49a65816218575325402ddd</anchor>
-      <arglist>(const std::string &amp;policy)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static std::string</type>
-      <name>FromToleranceSelectionPolicyToStr</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a9c31666f2595d87bedd34a74aef82190</anchor>
-      <arglist>(const ToleranceSelectionPolicy &amp;policy)</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static StandardStrictnessPolicy</type>
@@ -5698,17 +5722,10 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>double</type>
-      <name>linear_tolerance</name>
+      <type>BuildTolerance</type>
+      <name>tolerances</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a6a6b7ad51a19a2fcf7e454c1d7892300</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>double</type>
-      <name>angular_tolerance</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a81d132d0efbdf9cb0535607abd868c07</anchor>
+      <anchor>a546915ae9fecbffc99a2336942d65d3f</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -5737,13 +5754,6 @@
       <name>simplification_policy</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
       <anchor>acba8be98c96a7e48fb1264efaaed94f4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>ToleranceSelectionPolicy</type>
-      <name>tolerance_selection_policy</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>aa4a7f3aced306310c74060455dfe280f</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -5783,6 +5793,13 @@
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr char const  *</type>
+      <name>kStrMaxLinearTolerance</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>acf8b27c008756e3aeb01d5a25da15bfb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
       <name>kStrAngularTolerance</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
       <anchor>a9c6f08ac06582ebaebf5c7cd475a668e</anchor>
@@ -5821,13 +5838,6 @@
       <name>kStrSimplificationPolicy</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
       <anchor>a9b42cedce874b3c9da3bed19eba3dd67</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrToleranceSelectionPolicy</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a8109ba4cbb53db6aa90a51bd3cd36b4b</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
@@ -5867,6 +5877,13 @@
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr char const  *</type>
+      <name>kStrMaxLinearTolerance</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>acf8b27c008756e3aeb01d5a25da15bfb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
       <name>kStrAngularTolerance</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
       <anchor>a9c6f08ac06582ebaebf5c7cd475a668e</anchor>
@@ -5909,13 +5926,6 @@
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr char const  *</type>
-      <name>kStrToleranceSelectionPolicy</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a8109ba4cbb53db6aa90a51bd3cd36b4b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
       <name>kStrStandardStrictnessPolicy</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
       <anchor>a02ca0c6e4c764a058fcfdeed8509d7ef</anchor>
@@ -5943,17 +5953,10 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>double</type>
-      <name>linear_tolerance</name>
+      <type>BuildTolerance</type>
+      <name>tolerances</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a6a6b7ad51a19a2fcf7e454c1d7892300</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>double</type>
-      <name>angular_tolerance</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a81d132d0efbdf9cb0535607abd868c07</anchor>
+      <anchor>a546915ae9fecbffc99a2336942d65d3f</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -5982,13 +5985,6 @@
       <name>simplification_policy</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
       <anchor>acba8be98c96a7e48fb1264efaaed94f4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>ToleranceSelectionPolicy</type>
-      <name>tolerance_selection_policy</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>aa4a7f3aced306310c74060455dfe280f</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -7508,6 +7504,20 @@
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr double</type>
+      <name>kBaseLinearTolerance</name>
+      <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
+      <anchor>a129f6a1a0dad9f0c8cecb7abe02552d9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr double</type>
+      <name>kToleranceStepMultiplier</name>
+      <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
+      <anchor>a3a549523e3ac847f565223ff906fd834</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr double</type>
       <name>kStrictLinearTolerance</name>
       <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
       <anchor>a0ada0b01b6728a6b242fbfdc2d764ee6</anchor>
@@ -7539,20 +7549,6 @@
       <name>kDefaultMaxSpeedLimit</name>
       <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
       <anchor>abc547c57d153c67bba56929fa5a3daef</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr int</type>
-      <name>kMaxToleranceSelectionRounds</name>
-      <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
-      <anchor>a2d4e86f86d35a1f2dbd8410ecf5a3aa9</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr double</type>
-      <name>kIncreasingToleranceStep</name>
-      <anchorfile>namespacemalidrive_1_1constants.html</anchorfile>
-      <anchor>a21ea1536f7f9374964589814fd23ad70</anchor>
       <arglist></arglist>
     </member>
   </compound>

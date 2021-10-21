@@ -104,16 +104,16 @@ $(document).ready(function(){initNavTree('structmaliput_1_1integration_1_1_malid
 Public Attributes</h2></td></tr>
 <tr class="memitem:a20fec79b44c01c37309ca8e51191695f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1integration_1_1_malidrive_build_properties.html#a20fec79b44c01c37309ca8e51191695f">xodr_file_path</a> {&quot;&quot;}</td></tr>
 <tr class="separator:a20fec79b44c01c37309ca8e51191695f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a6b7ad51a19a2fcf7e454c1d7892300"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1integration_1_1_malidrive_build_properties.html#a6a6b7ad51a19a2fcf7e454c1d7892300">linear_tolerance</a> {5e-2}</td></tr>
-<tr class="separator:a6a6b7ad51a19a2fcf7e454c1d7892300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88b54211f9d04c8e75a731d9b5371f27"><td class="memItemLeft" align="right" valign="top">std::optional&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1integration_1_1_malidrive_build_properties.html#a88b54211f9d04c8e75a731d9b5371f27">linear_tolerance</a> {std::nullopt}</td></tr>
+<tr class="separator:a88b54211f9d04c8e75a731d9b5371f27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91d439769e4a65c9f14f03fece0d315a"><td class="memItemLeft" align="right" valign="top">std::optional&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1integration_1_1_malidrive_build_properties.html#a91d439769e4a65c9f14f03fece0d315a">max_linear_tolerance</a> {std::nullopt}</td></tr>
+<tr class="separator:a91d439769e4a65c9f14f03fece0d315a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77b0a0a90f396bc58a0f2decd2f2af1c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1integration_1_1_malidrive_build_properties.html#a77b0a0a90f396bc58a0f2decd2f2af1c">build_policy</a> {&quot;sequential&quot;}</td></tr>
 <tr class="separator:a77b0a0a90f396bc58a0f2decd2f2af1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab125dafdcf11897a987a507a642db50f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1integration_1_1_malidrive_build_properties.html#ab125dafdcf11897a987a507a642db50f">number_of_threads</a> {0}</td></tr>
 <tr class="separator:ab125dafdcf11897a987a507a642db50f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab820a09ee1222534ce5c025c6bad57a8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1integration_1_1_malidrive_build_properties.html#ab820a09ee1222534ce5c025c6bad57a8">simplification_policy</a> {&quot;none&quot;}</td></tr>
 <tr class="separator:ab820a09ee1222534ce5c025c6bad57a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7ee4df88db0604e592aace6444baeef"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1integration_1_1_malidrive_build_properties.html#aa7ee4df88db0604e592aace6444baeef">tolerance_selection_policy</a> {&quot;manual&quot;}</td></tr>
-<tr class="separator:aa7ee4df88db0604e592aace6444baeef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb1627ac8c8d5b240ac9cf9581b45061"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1integration_1_1_malidrive_build_properties.html#afb1627ac8c8d5b240ac9cf9581b45061">standard_strictness_policy</a> {&quot;permissive&quot;}</td></tr>
 <tr class="separator:afb1627ac8c8d5b240ac9cf9581b45061"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac41166953e338be315ced745272492d6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1integration_1_1_malidrive_build_properties.html#ac41166953e338be315ced745272492d6">omit_nondrivable_lanes</a> {&quot;true&quot;}</td></tr>
@@ -156,14 +156,28 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6a6b7ad51a19a2fcf7e454c1d7892300"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a6b7ad51a19a2fcf7e454c1d7892300">&#9670;&nbsp;</a></span>linear_tolerance</h2>
+<a id="a88b54211f9d04c8e75a731d9b5371f27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88b54211f9d04c8e75a731d9b5371f27">&#9670;&nbsp;</a></span>linear_tolerance</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double linear_tolerance {5e-2}</td>
+          <td class="memname">std::optional&lt;double&gt; linear_tolerance {std::nullopt}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a91d439769e4a65c9f14f03fece0d315a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91d439769e4a65c9f14f03fece0d315a">&#9670;&nbsp;</a></span>max_linear_tolerance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;double&gt; max_linear_tolerance {std::nullopt}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -248,20 +262,6 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">std::string standard_strictness_policy {&quot;permissive&quot;}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa7ee4df88db0604e592aace6444baeef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7ee4df88db0604e592aace6444baeef">&#9670;&nbsp;</a></span>tolerance_selection_policy</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string tolerance_selection_policy {&quot;manual&quot;}</td>
         </tr>
       </table>
 </div><div class="memdoc">

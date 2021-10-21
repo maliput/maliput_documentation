@@ -748,10 +748,17 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>double</type>
+      <type>std::optional&lt; double &gt;</type>
       <name>linear_tolerance</name>
       <anchorfile>structmaliput_1_1integration_1_1_malidrive_build_properties.html</anchorfile>
-      <anchor>a6a6b7ad51a19a2fcf7e454c1d7892300</anchor>
+      <anchor>a88b54211f9d04c8e75a731d9b5371f27</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>max_linear_tolerance</name>
+      <anchorfile>structmaliput_1_1integration_1_1_malidrive_build_properties.html</anchorfile>
+      <anchor>a91d439769e4a65c9f14f03fece0d315a</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -773,13 +780,6 @@
       <name>simplification_policy</name>
       <anchorfile>structmaliput_1_1integration_1_1_malidrive_build_properties.html</anchorfile>
       <anchor>ab820a09ee1222534ce5c025c6bad57a8</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>std::string</type>
-      <name>tolerance_selection_policy</name>
-      <anchorfile>structmaliput_1_1integration_1_1_malidrive_build_properties.html</anchorfile>
-      <anchor>aa7ee4df88db0604e592aace6444baeef</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">

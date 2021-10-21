@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 703;
+var viewWidth = 847;
 var viewHeight = 151;
 var sectionId = 'dynsection-0';
 </script>
@@ -54,13 +54,13 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>road_network.cc</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-147 698.5,-147 698.5,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-147 842.5,-147 842.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="148.5,-123.5 148.5,-142.5 245.5,-142.5 245.5,-123.5 148.5,-123.5"/>
-<text text-anchor="middle" x="197" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">road_network.cc</text>
+<polygon fill="#bfbfbf" stroke="black" points="203.5,-123.5 203.5,-142.5 300.5,-142.5 300.5,-123.5 203.5,-123.5"/>
+<text text-anchor="middle" x="252" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">road_network.cc</text>
 </a>
 </g>
 </g>
@@ -76,23 +76,23 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M173.36,-123.48C145.06,-113.27 97.47,-96.11 65.41,-84.55"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="66.19,-81.11 55.6,-81.01 63.82,-87.69 66.19,-81.11"/>
+<path fill="none" stroke="midnightblue" d="M216.86,-123.48C181.61,-114.81 125.84,-100.72 78,-87 74.68,-86.05 71.24,-85.03 67.79,-83.98"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="68.79,-80.63 58.2,-81.02 66.72,-87.31 68.79,-80.63"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="221,-0.5 221,-19.5 279,-19.5 279,-0.5 221,-0.5"/>
-<text text-anchor="middle" x="250" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">memory</text>
+<polygon fill="white" stroke="#bfbfbf" points="293,-0.5 293,-19.5 351,-19.5 351,-0.5 293,-0.5"/>
+<text text-anchor="middle" x="322" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">memory</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M162.82,-123.49C144.01,-116.88 122.26,-105.6 111,-87 103.86,-75.21 102.9,-67.14 111,-56 133.62,-24.9 178.19,-14.86 210.78,-11.83"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="211.19,-15.31 220.9,-11.08 210.67,-8.33 211.19,-15.31"/>
+<path fill="none" stroke="midnightblue" d="M203.05,-124.11C151.52,-113.7 81.61,-92.32 111,-56 132.19,-29.81 227.81,-18.21 282.77,-13.62"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="283.17,-17.1 292.86,-12.82 282.62,-10.12 283.17,-17.1"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -106,8 +106,8 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M189.12,-123.48C180.71,-114.37 167.18,-99.74 156.77,-88.48"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="159.22,-85.98 149.87,-81.01 154.08,-90.73 159.22,-85.98"/>
+<path fill="none" stroke="midnightblue" d="M236.24,-123.48C218.02,-113.62 187.83,-97.29 166.53,-85.77"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="168.19,-82.69 157.73,-81.01 164.86,-88.85 168.19,-82.69"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -122,76 +122,91 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M204.88,-123.48C211.98,-115.79 222.72,-104.17 232.16,-93.96"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="234.82,-96.24 239.04,-86.52 229.68,-91.49 234.82,-96.24"/>
+<path fill="none" stroke="midnightblue" d="M252,-123.48C252,-116.47 252,-106.19 252,-96.7"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="255.5,-96.52 252,-86.52 248.5,-96.52 255.5,-96.52"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../maliput/html/road__network__loader_8h.html.html" xlink:title=" ">
-<polygon fill="white" stroke="black" points="340,-56.5 340,-86.5 452,-86.5 452,-56.5 340,-56.5"/>
-<text text-anchor="start" x="348" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/plugin/road</text>
-<text text-anchor="middle" x="396" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">_network_loader.h</text>
+<g id="a_node6"><a xlink:href="../../maliput/html/vector_8h.html.html" xlink:title=" ">
+<polygon fill="white" stroke="black" points="340.5,-62 340.5,-81 465.5,-81 465.5,-62 340.5,-62"/>
+<text text-anchor="middle" x="403" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/math/vector.h</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M225.51,-123.48C255.11,-114.63 302.19,-100.55 339.38,-89.43"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="340.52,-92.74 349.1,-86.52 338.52,-86.03 340.52,-92.74"/>
+<path fill="none" stroke="midnightblue" d="M273.63,-123.48C299.42,-113.31 342.71,-96.26 372.04,-84.7"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="373.38,-87.93 381.41,-81.01 370.82,-81.42 373.38,-87.93"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="road__network__builder_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="470,-56.5 470,-86.5 596,-86.5 596,-56.5 470,-56.5"/>
-<text text-anchor="start" x="478" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput_dragway/road</text>
-<text text-anchor="middle" x="533" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">_network_builder.h</text>
+<g id="a_node7"><a xlink:href="../../maliput/html/road__network__loader_8h.html.html" xlink:title=" ">
+<polygon fill="white" stroke="black" points="484,-56.5 484,-86.5 596,-86.5 596,-56.5 484,-56.5"/>
+<text text-anchor="start" x="492" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/plugin/road</text>
+<text text-anchor="middle" x="540" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">_network_loader.h</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
 <title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M245.73,-124.14C296.6,-115.84 378.93,-102.12 459.48,-87.25"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="460.61,-90.6 469.8,-85.34 459.33,-83.72 460.61,-90.6"/>
-</g>
-<!-- Node7&#45;&gt;Node3 -->
-<g id="edge7" class="edge">
-<title>Node7&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M469.84,-57.22C414.56,-45.6 335.99,-29.08 289.28,-19.26"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="289.76,-15.78 279.26,-17.15 288.32,-22.63 289.76,-15.78"/>
+<path fill="none" stroke="midnightblue" d="M295.02,-123.5C339.77,-114.6 411.86,-100.12 474,-87 474.1,-86.98 474.2,-86.96 474.3,-86.94"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="474.79,-90.41 483.84,-84.9 473.33,-83.56 474.79,-90.41"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="368.5,-0.5 368.5,-19.5 525.5,-19.5 525.5,-0.5 368.5,-0.5"/>
-<text text-anchor="middle" x="447" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/api/road_geometry.h</text>
+<g id="a_node8"><a xlink:href="road__network__builder_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="614,-56.5 614,-86.5 740,-86.5 740,-56.5 614,-56.5"/>
+<text text-anchor="start" x="622" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput_dragway/road</text>
+<text text-anchor="middle" x="677" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">_network_builder.h</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node8 -->
+<!-- Node1&#45;&gt;Node8 -->
+<g id="edge7" class="edge">
+<title>Node1&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M300.7,-126.91C367,-119.74 489.59,-105.6 603.86,-87.12"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="604.53,-90.55 613.83,-85.49 603.4,-83.65 604.53,-90.55"/>
+</g>
+<!-- Node8&#45;&gt;Node3 -->
 <g id="edge8" class="edge">
-<title>Node7&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M512.62,-56.4C499.09,-47.04 481.39,-34.79 467.78,-25.38"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="469.73,-22.47 459.51,-19.66 465.75,-28.23 469.73,-22.47"/>
+<title>Node8&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M613.81,-57.62C610.84,-57.06 607.89,-56.52 605,-56 518.3,-40.38 416.13,-24.84 361.38,-16.74"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="361.8,-13.26 351.4,-15.27 360.78,-20.19 361.8,-13.26"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="../../maliput/html/road__network_8h.html.html" xlink:title=" ">
-<polygon fill="white" stroke="black" points="543.5,-0.5 543.5,-19.5 694.5,-19.5 694.5,-0.5 543.5,-0.5"/>
-<text text-anchor="middle" x="619" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/api/road_network.h</text>
+<g id="a_node9"><a xlink:title=" ">
+<polygon fill="white" stroke="#bfbfbf" points="512.5,-0.5 512.5,-19.5 669.5,-19.5 669.5,-0.5 512.5,-0.5"/>
+<text text-anchor="middle" x="591" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/api/road_geometry.h</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node9 -->
+<!-- Node8&#45;&gt;Node9 -->
 <g id="edge9" class="edge">
-<title>Node7&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M553.38,-56.4C566.91,-47.04 584.61,-34.79 598.22,-25.38"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="600.25,-28.23 606.49,-19.66 596.27,-22.47 600.25,-28.23"/>
+<title>Node8&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M656.62,-56.4C643.09,-47.04 625.39,-34.79 611.78,-25.38"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="613.73,-22.47 603.51,-19.66 609.75,-28.23 613.73,-22.47"/>
+</g>
+<!-- Node10 -->
+<g id="node10" class="node">
+<title>Node10</title>
+<g id="a_node10"><a xlink:href="../../maliput/html/road__network_8h.html.html" xlink:title=" ">
+<polygon fill="white" stroke="black" points="687.5,-0.5 687.5,-19.5 838.5,-19.5 838.5,-0.5 687.5,-0.5"/>
+<text text-anchor="middle" x="763" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/api/road_network.h</text>
+</a>
+</g>
+</g>
+<!-- Node8&#45;&gt;Node10 -->
+<g id="edge10" class="edge">
+<title>Node8&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M697.38,-56.4C710.91,-47.04 728.61,-34.79 742.22,-25.38"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="744.25,-28.23 750.49,-19.66 740.27,-22.47 744.25,-28.23"/>
 </g>
 </g>
 </svg>

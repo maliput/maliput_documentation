@@ -10564,10 +10564,10 @@
     <name>maliput::plugin::RoadNetworkLoader</name>
     <filename>classmaliput_1_1plugin_1_1_road_network_loader.html</filename>
     <member kind="function" virtualness="pure">
-      <type>virtual std::unique_ptr&lt; const maliput::api::RoadNetwork &gt;</type>
+      <type>virtual std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>operator()</name>
       <anchorfile>classmaliput_1_1plugin_1_1_road_network_loader.html</anchorfile>
-      <anchor>aefcc1c2ed5221928bcd03b0633a03dc6</anchor>
+      <anchor>af0f8f4e968d3dbc9fdccefd5a4c047f6</anchor>
       <arglist>(const std::map&lt; std::string, std::string &gt; &amp;properties) const =0</arglist>
     </member>
     <member kind="function" virtualness="virtual">

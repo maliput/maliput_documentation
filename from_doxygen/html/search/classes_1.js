@@ -19,7 +19,8 @@ var searchData=
   ['builderfactory_3145',['BuilderFactory',['.././deps/maliput_multilane/html/classmaliput_1_1multilane_1_1_builder_factory.html',1,'maliput::multilane']]],
   ['builderfactorybase_3146',['BuilderFactoryBase',['.././deps/maliput_multilane/html/classmaliput_1_1multilane_1_1_builder_factory_base.html',1,'maliput::multilane']]],
   ['buildpolicy_3147',['BuildPolicy',['.././deps/maliput_malidrive/html/structmalidrive_1_1builder_1_1_build_policy.html',1,'malidrive::builder']]],
-  ['bulb_3148',['Bulb',['.././deps/maliput/html/classmaliput_1_1api_1_1rules_1_1_bulb.html',1,'maliput::api::rules']]],
-  ['bulbgroup_3149',['BulbGroup',['.././deps/maliput/html/classmaliput_1_1api_1_1rules_1_1_bulb_group.html',1,'maliput::api::rules']]],
-  ['bundledpackage_3150',['BundledPackage',['.././deps/delphyne/html/classdelphyne_1_1utility_1_1_bundled_package.html',1,'delphyne::utility']]]
+  ['buildtolerance_3148',['BuildTolerance',['.././deps/maliput_malidrive/html/structmalidrive_1_1builder_1_1_road_geometry_configuration_1_1_build_tolerance.html',1,'malidrive::builder::RoadGeometryConfiguration']]],
+  ['bulb_3149',['Bulb',['.././deps/maliput/html/classmaliput_1_1api_1_1rules_1_1_bulb.html',1,'maliput::api::rules']]],
+  ['bulbgroup_3150',['BulbGroup',['.././deps/maliput/html/classmaliput_1_1api_1_1rules_1_1_bulb_group.html',1,'maliput::api::rules']]],
+  ['bundledpackage_3151',['BundledPackage',['.././deps/delphyne/html/classdelphyne_1_1utility_1_1_bundled_package.html',1,'delphyne::utility']]]
 ];

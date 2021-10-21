@@ -766,6 +766,7 @@
     <name>road_network.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/src/plugin/</path>
     <filename>road__network_8cc.html</filename>
+    <includes id="multilane__onramp__merge_8h" name="multilane_onramp_merge.h" local="yes" imported="no">maliput_multilane/multilane_onramp_merge.h</includes>
     <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_multilane/road_network_builder.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::multilane</namespace>
@@ -788,26 +789,41 @@
     <namespace>maliput</namespace>
     <namespace>maliput::multilane</namespace>
     <member kind="function">
-      <type>std::unique_ptr&lt; const api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
       <name>BuildRoadNetwork</name>
       <anchorfile>namespacemaliput_1_1multilane.html</anchorfile>
-      <anchor>ae1b480b5839f0d20513d52d9becee154</anchor>
+      <anchor>aba23f7bf58334d9ec2b2b62047b27526</anchor>
       <arglist>(const RoadNetworkConfiguration &amp;road_network_configuration)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
+      <name>BuildOnRampMergeRoadNetwork</name>
+      <anchorfile>namespacemaliput_1_1multilane.html</anchorfile>
+      <anchor>ae5e9f66a38081e3a17a10e8dbe47f3cc</anchor>
+      <arglist>(const MultilaneRoadCharacteristics &amp;road_characteristics)</arglist>
     </member>
   </compound>
   <compound kind="file">
     <name>road_network_builder.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/include/maliput_multilane/</path>
     <filename>road__network__builder_8h.html</filename>
+    <includes id="multilane__onramp__merge_8h" name="multilane_onramp_merge.h" local="yes" imported="no">maliput_multilane/multilane_onramp_merge.h</includes>
     <class kind="struct">maliput::multilane::RoadNetworkConfiguration</class>
     <namespace>maliput</namespace>
     <namespace>maliput::multilane</namespace>
     <member kind="function">
-      <type>std::unique_ptr&lt; const api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
       <name>BuildRoadNetwork</name>
       <anchorfile>namespacemaliput_1_1multilane.html</anchorfile>
-      <anchor>ae1b480b5839f0d20513d52d9becee154</anchor>
+      <anchor>aba23f7bf58334d9ec2b2b62047b27526</anchor>
       <arglist>(const RoadNetworkConfiguration &amp;road_network_configuration)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
+      <name>BuildOnRampMergeRoadNetwork</name>
+      <anchorfile>namespacemaliput_1_1multilane.html</anchorfile>
+      <anchor>ae5e9f66a38081e3a17a10e8dbe47f3cc</anchor>
+      <arglist>(const MultilaneRoadCharacteristics &amp;road_characteristics)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -2646,6 +2662,13 @@
       <anchor>af1ec72bd6e28075f5ac0451bec55e7c2</anchor>
       <arglist></arglist>
     </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>yaml_description</name>
+      <anchorfile>structmaliput_1_1multilane_1_1_road_network_configuration.html</anchorfile>
+      <anchor>ae18d47f10a8bd2714b37efe116230063</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>maliput::multilane::Rot3</name>
@@ -3069,11 +3092,18 @@
       <arglist>(const BuilderFactoryBase &amp;builder_factory, const std::string &amp;filename)</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; const api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
       <name>BuildRoadNetwork</name>
       <anchorfile>namespacemaliput_1_1multilane.html</anchorfile>
-      <anchor>ae1b480b5839f0d20513d52d9becee154</anchor>
+      <anchor>aba23f7bf58334d9ec2b2b62047b27526</anchor>
       <arglist>(const RoadNetworkConfiguration &amp;road_network_configuration)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
+      <name>BuildOnRampMergeRoadNetwork</name>
+      <anchorfile>namespacemaliput_1_1multilane.html</anchorfile>
+      <anchor>ae5e9f66a38081e3a17a10e8dbe47f3cc</anchor>
+      <arglist>(const MultilaneRoadCharacteristics &amp;road_characteristics)</arglist>
     </member>
     <member kind="function">
       <type>std::ostream &amp;</type>

@@ -135,10 +135,10 @@
     <namespace>maliput</namespace>
     <namespace>maliput::dragway</namespace>
     <member kind="function">
-      <type>std::unique_ptr&lt; const api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
       <name>BuildRoadNetwork</name>
       <anchorfile>namespacemaliput_1_1dragway.html</anchorfile>
-      <anchor>a276c8a3a14c5347281cd8086519dd45f</anchor>
+      <anchor>a2b197af66db83551d143d7caf5bd4bd1</anchor>
       <arglist>(const RoadGeometryConfiguration &amp;road_geometry_configuration)</arglist>
     </member>
   </compound>
@@ -150,10 +150,10 @@
     <namespace>maliput</namespace>
     <namespace>maliput::dragway</namespace>
     <member kind="function">
-      <type>std::unique_ptr&lt; const api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
       <name>BuildRoadNetwork</name>
       <anchorfile>namespacemaliput_1_1dragway.html</anchorfile>
-      <anchor>a276c8a3a14c5347281cd8086519dd45f</anchor>
+      <anchor>a2b197af66db83551d143d7caf5bd4bd1</anchor>
       <arglist>(const RoadGeometryConfiguration &amp;road_geometry_configuration)</arglist>
     </member>
   </compound>
@@ -471,10 +471,10 @@
     <class kind="struct">maliput::dragway::RoadGeometryConfiguration</class>
     <class kind="class">maliput::dragway::Segment</class>
     <member kind="function">
-      <type>std::unique_ptr&lt; const api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
       <name>BuildRoadNetwork</name>
       <anchorfile>namespacemaliput_1_1dragway.html</anchorfile>
-      <anchor>a276c8a3a14c5347281cd8086519dd45f</anchor>
+      <anchor>a2b197af66db83551d143d7caf5bd4bd1</anchor>
       <arglist>(const RoadGeometryConfiguration &amp;road_geometry_configuration)</arglist>
     </member>
   </compound>

@@ -139,7 +139,11 @@ Functions</h2></td></tr>
 </ul>
 </li>
 <li><b>linear_tolerance</b> : <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend.">RoadGeometry</a>'s linear tolerance.<ul>
-<li>Default: <em>"5e-2"</em> (<a class="el" href="namespacemalidrive_1_1constants.html#aaf754a0573d53a61d406e01ddfe2e14b" title="maliput::api::RoadGeometry properties.">malidrive::constants::kLinearTolerance</a>)</li>
+<li>Default: By default it isn't set. When <code>max_linear_tolerance</code> isn't also set then <em>"5e-2"</em> (<a class="el" href="namespacemalidrive_1_1constants.html#aaf754a0573d53a61d406e01ddfe2e14b" title="maliput::api::RoadGeometry properties.">malidrive::constants::kLinearTolerance</a>) is used.</li>
+</ul>
+</li>
+<li><b>max_linear_tolerance</b> : A maximum allowed linear tolerance. When this parameter is passed, the linear tolerance the builder will use is defined within the range [<code>linear_tolerance</code>, <code>max_linear_tolerance</code>]. The builder is expected to iteratively try higher linear tolerances until it either finds a value that works, or reaches this maximum value, at which point it will abort with a failure. When <code>linear_tolerance</code> isn't set, the minimum value of the range will be defined by <a class="el" href="namespacemalidrive_1_1constants.html#a129f6a1a0dad9f0c8cecb7abe02552d9" title="Base linear tolerance used as minimum value in the linear tolerance range when tolerance selection me...">malidrive::constants::kBaseLinearTolerance</a>. It is recommended to define the minimum value using the <code>linear_tolerance</code> parameter to hint the builder to a valid range, otherwise this method could demand a considerable extra time while it tries out relatively small linear tolerances.<ul>
+<li>Default: By default it isn't set. The builder will try only <code>linear_tolerance</code>.</li>
 </ul>
 </li>
 <li><b>angular_tolerance</b> : <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend.">RoadGeometry</a>'s angular tolerance.<ul>
@@ -174,15 +178,6 @@ Functions</h2></td></tr>
 </ul>
 </li>
 <li>Default: <em>"none"</em> </li>
-</ul>
-</li>
-<li><b>tolerance_selection_policy</b> : Tolerance selection method used by the builder.<ul>
-<li>Options:<ul>
-<li>1. "manual" : <em>linear_tolerance</em> will be used.</li>
-<li>2. "automatic" : <em>linear_tolerance</em> is used as base and bigger tolerances are used when the base tolerance make the builder to fail.</li>
-</ul>
-</li>
-<li>Default: <em>"automatic"</em> </li>
 </ul>
 </li>
 <li><b>standard_strictness_policy</b> : Indicates how permissive builder should be with the XODR description.<ul>

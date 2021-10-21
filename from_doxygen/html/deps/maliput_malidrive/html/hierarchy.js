@@ -3,6 +3,7 @@ var hierarchy =
     [ "LaneOffset::AdjacentLaneFunctions", "structmalidrive_1_1road__curve_1_1_lane_offset_1_1_adjacent_lane_functions.html", null ],
     [ "Geometry::Arc", "structmalidrive_1_1xodr_1_1_geometry_1_1_arc.html", null ],
     [ "BuildPolicy", "structmalidrive_1_1builder_1_1_build_policy.html", null ],
+    [ "RoadGeometryConfiguration::BuildTolerance", "structmalidrive_1_1builder_1_1_road_geometry_configuration_1_1_build_tolerance.html", null ],
     [ "Connection", "structmalidrive_1_1xodr_1_1_connection.html", null ],
     [ "DBManager", "classmalidrive_1_1xodr_1_1_d_b_manager.html", null ],
     [ "DirectionUsageBuilder", "classmalidrive_1_1builder_1_1_direction_usage_builder.html", null ],
