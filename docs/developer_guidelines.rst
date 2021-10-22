@@ -51,7 +51,7 @@ The following packages are provided:
 .. _dsim_docs_bundler: https://github.com/ToyotaResearchInstitute/dsim_docs_bundler
 .. _delphyne: https://github.com/ToyotaResearchInstitute/delphyne
 .. _delphyne_gui: https://github.com/ToyotaResearchInstitute/delphyne_gui
-.. _delphyne: https://github.com/ToyotaResearchInstitute/delphyne_demos
+.. _delphyne_demos: https://github.com/ToyotaResearchInstitute/delphyne_demos
 
 Each repository may contain one or more packages. When a repository contains
 two or more packages, it is expected that all packages' versions within the same
