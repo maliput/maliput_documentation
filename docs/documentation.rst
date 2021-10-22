@@ -6,6 +6,7 @@ Maliput
 =======
 
 * `Maliput Design <from_doxygen/html/deps/maliput/html/maliput_design.html>`_
+* `Maliput Plugin Architecture <from_doxygen/html/deps/maliput/html/maliput_plugin_architecture.html>`_
 * `Maliput C++ namespace <from_doxygen/html/deps/maliput/html/namespacemaliput.html>`_
 
 Maliput Malidrive
