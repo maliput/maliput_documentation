@@ -705,8 +705,8 @@
       <type>std::tuple&lt; Curve2&lt; double &gt;, double, double &gt;</type>
       <name>CreateTrajectoryParamsForDragway</name>
       <anchorfile>namespacedelphyne.html</anchorfile>
-      <anchor>a9a1764c7ca8cfe055d063c0c04e7465a</anchor>
-      <arglist>(const maliput::dragway::RoadGeometry &amp;road_geometry, int index, double speed, double start_time)</arglist>
+      <anchor>a82307167a119de1292902588802e7828</anchor>
+      <arglist>(const maliput::api::RoadGeometry &amp;road_geometry, int index, double speed, double start_time)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -726,8 +726,8 @@
       <type>std::tuple&lt; Curve2&lt; double &gt;, double, double &gt;</type>
       <name>CreateTrajectoryParamsForDragway</name>
       <anchorfile>namespacedelphyne.html</anchorfile>
-      <anchor>a9a1764c7ca8cfe055d063c0c04e7465a</anchor>
-      <arglist>(const maliput::dragway::RoadGeometry &amp;road_geometry, int index, double speed, double start_time)</arglist>
+      <anchor>a82307167a119de1292902588802e7828</anchor>
+      <arglist>(const maliput::api::RoadGeometry &amp;road_geometry, int index, double speed, double start_time)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -1857,27 +1857,42 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/src/roads/</path>
     <filename>road__builder_8cc.html</filename>
     <includes id="road__builder_8h" name="road_builder.h" local="yes" imported="no">delphyne/roads/road_builder.h</includes>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">delphyne/macros.h</includes>
     <namespace>delphyne</namespace>
     <namespace>delphyne::roads</namespace>
     <member kind="function">
-      <type>std::unique_ptr&lt; const maliput::api::RoadGeometry &gt;</type>
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <name>CreateRoadNetwork</name>
+      <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
+      <anchor>a64ec3dabf66ab724fc0b747d3c75fddd</anchor>
+      <arglist>(const std::string &amp;road_network_plugin_name, const std::map&lt; std::string, std::string &gt; &amp;loader_parameters)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>CreateDragway</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>aaec92f72b0b9a584ddd7672832163fdd</anchor>
+      <anchor>ae0ff0a7c4009db93da56a837d29268d9</anchor>
       <arglist>(const std::string &amp;name, int num_lanes, double length, double lane_width, double shoulder_width, double maximum_height, double linear_tolerance=std::numeric_limits&lt; double &gt;::epsilon(), double angular_tolerance=std::numeric_limits&lt; double &gt;::epsilon())</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; const maliput::api::RoadGeometry &gt;</type>
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>CreateMultilaneFromFile</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>a7cfef9f17e93bda72776599b7a361d6a</anchor>
+      <anchor>acd9993fa0a6ee00a96ebdf7d955ba068</anchor>
       <arglist>(const std::string &amp;file_path)</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; const maliput::api::RoadGeometry &gt;</type>
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <name>CreateMultilaneFromDescription</name>
+      <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
+      <anchor>aa91d31fd414413685d3581966aac4b98</anchor>
+      <arglist>(const std::string &amp;yaml_description)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>CreateOnRamp</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>a97b5fa20fac72c3bfae94bb0a5dfd0e4</anchor>
+      <anchor>ab08fb8ea72ef1e9d7f77279f28fe6965</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -1902,18 +1917,32 @@
     <namespace>delphyne</namespace>
     <namespace>delphyne::roads</namespace>
     <member kind="function">
-      <type>std::unique_ptr&lt; const maliput::api::RoadGeometry &gt;</type>
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <name>CreateRoadNetwork</name>
+      <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
+      <anchor>a64ec3dabf66ab724fc0b747d3c75fddd</anchor>
+      <arglist>(const std::string &amp;road_network_plugin_name, const std::map&lt; std::string, std::string &gt; &amp;loader_parameters)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>CreateDragway</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>aaec92f72b0b9a584ddd7672832163fdd</anchor>
+      <anchor>ae0ff0a7c4009db93da56a837d29268d9</anchor>
       <arglist>(const std::string &amp;name, int num_lanes, double length, double lane_width, double shoulder_width, double maximum_height, double linear_tolerance=std::numeric_limits&lt; double &gt;::epsilon(), double angular_tolerance=std::numeric_limits&lt; double &gt;::epsilon())</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; const maliput::api::RoadGeometry &gt;</type>
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>CreateMultilaneFromFile</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>a7cfef9f17e93bda72776599b7a361d6a</anchor>
+      <anchor>acd9993fa0a6ee00a96ebdf7d955ba068</anchor>
       <arglist>(const std::string &amp;file_path)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <name>CreateMultilaneFromDescription</name>
+      <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
+      <anchor>aa91d31fd414413685d3581966aac4b98</anchor>
+      <arglist>(const std::string &amp;yaml_description)</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
@@ -1930,10 +1959,10 @@
       <arglist>(const std::string &amp;name, const std::string &amp;file_path, const std::string &amp;road_rulebook_file_path=std::string(), const std::string &amp;traffic_light_book_path=std::string(), const std::string &amp;phase_ring_path=std::string(), double linear_tolerance=1e-3, double angular_tolerance=1e-3)</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; const maliput::api::RoadGeometry &gt;</type>
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>CreateOnRamp</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>a97b5fa20fac72c3bfae94bb0a5dfd0e4</anchor>
+      <anchor>ab08fb8ea72ef1e9d7f77279f28fe6965</anchor>
       <arglist>()</arglist>
     </member>
   </compound>
@@ -10874,38 +10903,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>delphyne::behaviours::agents::UnicycleCar</name>
-    <filename>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</filename>
-    <member kind="function">
-      <type>def</type>
-      <name>__init__</name>
-      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
-      <anchor>a13249fc1ace1d48056547d4e02c94fa8</anchor>
-      <arglist>(self, name=py_trees.common.Name.AUTO_GENERATED, initial_pose=(0., 0., 0.), speed=1.)</arglist>
-    </member>
-    <member kind="function">
-      <type>def</type>
-      <name>setup</name>
-      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
-      <anchor>a175e40d3f85f9743682b3ba44c60dc13</anchor>
-      <arglist>(self, *builder)</arglist>
-    </member>
-    <member kind="variable">
-      <type></type>
-      <name>initial_pose</name>
-      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
-      <anchor>a422636159fa92f54ca997246946f793c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type></type>
-      <name>speed</name>
-      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
-      <anchor>ab04a44aead88cfdbd44325ec2cf7a33a</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>delphyne::UnicycleCar</name>
     <filename>classdelphyne_1_1_unicycle_car.html</filename>
     <templarg></templarg>
@@ -10943,6 +10940,38 @@
       <anchorfile>classdelphyne_1_1_unicycle_car.html</anchorfile>
       <anchor>a738454715d868258a2f62ff4a1cc60f8</anchor>
       <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>delphyne::behaviours::agents::UnicycleCar</name>
+    <filename>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</filename>
+    <member kind="function">
+      <type>def</type>
+      <name>__init__</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
+      <anchor>a13249fc1ace1d48056547d4e02c94fa8</anchor>
+      <arglist>(self, name=py_trees.common.Name.AUTO_GENERATED, initial_pose=(0., 0., 0.), speed=1.)</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>setup</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
+      <anchor>a175e40d3f85f9743682b3ba44c60dc13</anchor>
+      <arglist>(self, *builder)</arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>initial_pose</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
+      <anchor>a422636159fa92f54ca997246946f793c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>speed</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
+      <anchor>ab04a44aead88cfdbd44325ec2cf7a33a</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -11549,8 +11578,8 @@
       <type>std::tuple&lt; Curve2&lt; double &gt;, double, double &gt;</type>
       <name>CreateTrajectoryParamsForDragway</name>
       <anchorfile>namespacedelphyne.html</anchorfile>
-      <anchor>a9a1764c7ca8cfe055d063c0c04e7465a</anchor>
-      <arglist>(const maliput::dragway::RoadGeometry &amp;road_geometry, int index, double speed, double start_time)</arglist>
+      <anchor>a82307167a119de1292902588802e7828</anchor>
+      <arglist>(const maliput::api::RoadGeometry &amp;road_geometry, int index, double speed, double start_time)</arglist>
     </member>
     <member kind="function">
       <type>size_t</type>
@@ -11882,18 +11911,32 @@
       <arglist>(const maliput::api::LaneId &amp;lane_id, const maliput::api::RoadGeometry &amp;road_geometry)</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; const maliput::api::RoadGeometry &gt;</type>
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <name>CreateRoadNetwork</name>
+      <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
+      <anchor>a64ec3dabf66ab724fc0b747d3c75fddd</anchor>
+      <arglist>(const std::string &amp;road_network_plugin_name, const std::map&lt; std::string, std::string &gt; &amp;loader_parameters)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>CreateDragway</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>aaec92f72b0b9a584ddd7672832163fdd</anchor>
+      <anchor>ae0ff0a7c4009db93da56a837d29268d9</anchor>
       <arglist>(const std::string &amp;name, int num_lanes, double length, double lane_width, double shoulder_width, double maximum_height, double linear_tolerance=std::numeric_limits&lt; double &gt;::epsilon(), double angular_tolerance=std::numeric_limits&lt; double &gt;::epsilon())</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; const maliput::api::RoadGeometry &gt;</type>
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>CreateMultilaneFromFile</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>a7cfef9f17e93bda72776599b7a361d6a</anchor>
+      <anchor>acd9993fa0a6ee00a96ebdf7d955ba068</anchor>
       <arglist>(const std::string &amp;file_path)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <name>CreateMultilaneFromDescription</name>
+      <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
+      <anchor>aa91d31fd414413685d3581966aac4b98</anchor>
+      <arglist>(const std::string &amp;yaml_description)</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
@@ -11910,10 +11953,10 @@
       <arglist>(const std::string &amp;name, const std::string &amp;file_path, const std::string &amp;road_rulebook_file_path=std::string(), const std::string &amp;traffic_light_book_path=std::string(), const std::string &amp;phase_ring_path=std::string(), double linear_tolerance=1e-3, double angular_tolerance=1e-3)</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; const maliput::api::RoadGeometry &gt;</type>
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>CreateOnRamp</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>a97b5fa20fac72c3bfae94bb0a5dfd0e4</anchor>
+      <anchor>ab08fb8ea72ef1e9d7f77279f28fe6965</anchor>
       <arglist>()</arglist>
     </member>
   </compound>

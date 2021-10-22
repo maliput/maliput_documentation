@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['handtrafficrule_5721',['HandTrafficRule',['../../../maliput_malidrive/html/structmalidrive_1_1xodr_1_1_road_header.html#af39250dde5c526ec4dbe00180239202e',1,'malidrive::xodr::RoadHeader']]]
+  ['maliputplugintype_4189',['MaliputPluginType',['../../../maliput/html/namespacemaliput_1_1plugin.html#a2afd58b120b90956eefe0e19727605d7',1,'maliput::plugin']]],
+  ['materialtype_4190',['MaterialType',['../../../maliput/html/namespacemaliput_1_1utility.html#ace55764233310da429c994a8c334b32a',1,'maliput::utility']]]
 ];

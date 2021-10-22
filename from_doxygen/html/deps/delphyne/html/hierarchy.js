@@ -181,6 +181,8 @@ var hierarchy =
       ] ],
       [ "Type< Base >::ConstructibleWith< Args >", "classdelphyne_1_1utility_1_1internal_1_1_type_1_1_constructible_with.html", null ]
     ] ],
+    [ "const int", "classconst_01int.html", null ],
     [ "InputPortIndex", "classdrake_1_1systems_1_1_input_port_index.html", null ],
-    [ "OutputPortIndex", "classdrake_1_1systems_1_1_output_port_index.html", null ]
+    [ "OutputPortIndex", "classdrake_1_1systems_1_1_output_port_index.html", null ],
+    [ "static const unsigned int", "classstatic_01const_01unsigned_01int.html", null ]
 ];

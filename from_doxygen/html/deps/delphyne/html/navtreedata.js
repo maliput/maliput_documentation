@@ -66,7 +66,7 @@ var NAVTREEINDEX =
 "classdelphyne_1_1_simple_prius_vis.html#a11a20bab49154c55ef1f76b4380aab4f",
 "classdelphyne_1_1utility_1_1internal_1_1_subtype.html#a510337e18fa593ff7f3c9383a24496be",
 "namespacedrake_1_1systems.html",
-"types_8h.html#a0730e76ac4eea9e271512bc4f242209c"
+"trajectory__follower_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
