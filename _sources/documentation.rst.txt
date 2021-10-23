@@ -6,6 +6,7 @@ Maliput
 =======
 
 * `Maliput Design <from_doxygen/html/deps/maliput/html/maliput_design.html>`_
+* `Maliput Plugin Architecture <from_doxygen/html/deps/maliput/html/maliput_plugin_architecture.html>`_
 * `Maliput C++ namespace <from_doxygen/html/deps/maliput/html/namespacemaliput.html>`_
 
 Maliput Malidrive
@@ -20,9 +21,15 @@ Dragway
 
 * `Dragway C++ namespace <from_doxygen/html/deps/maliput_dragway/html/namespacemaliput_1_1dragway.html>`_
 
+Maliput Py
+==========
+
+* `Maliput Python Interface <from_doxygen/html/deps/maliput_py/html/maliput_python_interface.html>`_
+
 Multilane
 =========
 
+* `Multilane Design <from_doxygen/html/deps/maliput_multilane/html/multilane_design.html>`_
 * `Multilane C++ namespace <from_doxygen/html/deps/maliput_multilane/html/namespacemaliput_1_1multilane.html>`_
 
 Integration
