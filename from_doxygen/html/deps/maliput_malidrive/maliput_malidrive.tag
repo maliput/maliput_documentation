@@ -1227,6 +1227,126 @@
     <namespace>malidrive::road_curve</namespace>
   </compound>
   <compound kind="file">
+    <name>params.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/include/maliput_malidrive/builder/</path>
+    <filename>params_8h.html</filename>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::builder</namespace>
+    <namespace>malidrive::builder::params</namespace>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kRoadRuleBook</name>
+      <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
+      <anchor>ga413e2136aa512c92d58bf633b25e72af</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kTrafficLightBook</name>
+      <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
+      <anchor>gaa52290b1f18b24e3f00bd1dc5db5eb53</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kPhaseRingBook</name>
+      <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
+      <anchor>gabab6ea6289a9d6a997ea3623df2981e7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kIntersectionBook</name>
+      <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
+      <anchor>gabb49a593032b6e55d43c4b69b342c09b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kRoadGeometryId</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga65640ac01adf58486da1ff6f92d44c3f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kOpendriveFile</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>gaa33b5cc629c0ba9a2f408380ed52f43e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kLinearTolerance</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>gac6e403db72f1c6cea48836ea7754e3de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kMaxLinearTolerance</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga0f16961202b41840391832934ba1ac49</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kAngularTolerance</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga0e97f7f471a134224c1ce20a25da877d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kScaleLength</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga10cc3dafe29eccb96fcbd1843f97acab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kInertialToBackendFrameTranslation</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga94c21e622feaf27c90c695b3c81206ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kBuildPolicy</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga616e92bcd5681aceae39350e8731e419</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kNumThreads</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga04b5baa83b71a79306a19ea4c78caf26</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kSimplificationPolicy</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga25a1809a845328b793ca520d5c1c65f5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStandardStrictnessPolicy</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga118ba6b173fb49c3bf8fb8fbf6292171</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kOmitNonDrivableLanes</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga391ad474e33cffa6544ace890d2e340f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>parser.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/xodr/</path>
     <filename>parser_8cc.html</filename>
@@ -1579,6 +1699,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
     <filename>road__geometry__configuration_8cc.html</filename>
     <includes id="road__geometry__configuration_8h" name="road_geometry_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_configuration.h</includes>
+    <includes id="params_8h" name="params.h" local="yes" imported="no">maliput_malidrive/builder/params.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
@@ -1757,6 +1878,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
     <filename>road__network__configuration_8cc.html</filename>
     <includes id="road__network__configuration_8h" name="road_network_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_network_configuration.h</includes>
+    <includes id="params_8h" name="params.h" local="yes" imported="no">maliput_malidrive/builder/params.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
   </compound>
@@ -5770,174 +5892,6 @@
       <anchor>ac41166953e338be315ced745272492d6</anchor>
       <arglist></arglist>
     </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrRoadGeometryId</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>aaf7b46ec855857705618947c35b6bea6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrOpendriveFile</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a21b04f303060469615b42103a99ae024</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrLinearTolerance</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a9ffef6812c1638a02c16dd705c0b7806</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrMaxLinearTolerance</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>acf8b27c008756e3aeb01d5a25da15bfb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrAngularTolerance</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a9c6f08ac06582ebaebf5c7cd475a668e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrScaleLength</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a16932f2209aeb75808eacc7df9c8ea7c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrInertialToBackendFrameTranslation</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a8e79a3b97e907ccf1af46660f52a4397</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrBuildPolicy</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>ab0166332845f3d80e0c508af03bc2c23</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrNumThreads</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>af06af2e1f694807b31dfdfd94660461e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrSimplificationPolicy</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a9b42cedce874b3c9da3bed19eba3dd67</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrStandardStrictnessPolicy</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a02ca0c6e4c764a058fcfdeed8509d7ef</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrOmitNonDrivableLanes</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>aa60936132c2c5491916d46348cac12dd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrRoadGeometryId</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>aaf7b46ec855857705618947c35b6bea6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrOpendriveFile</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a21b04f303060469615b42103a99ae024</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrLinearTolerance</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a9ffef6812c1638a02c16dd705c0b7806</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrMaxLinearTolerance</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>acf8b27c008756e3aeb01d5a25da15bfb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrAngularTolerance</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a9c6f08ac06582ebaebf5c7cd475a668e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrScaleLength</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a16932f2209aeb75808eacc7df9c8ea7c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrInertialToBackendFrameTranslation</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a8e79a3b97e907ccf1af46660f52a4397</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrBuildPolicy</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>ab0166332845f3d80e0c508af03bc2c23</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrNumThreads</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>af06af2e1f694807b31dfdfd94660461e</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrSimplificationPolicy</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a9b42cedce874b3c9da3bed19eba3dd67</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrStandardStrictnessPolicy</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>a02ca0c6e4c764a058fcfdeed8509d7ef</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrOmitNonDrivableLanes</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
-      <anchor>aa60936132c2c5491916d46348cac12dd</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="variable">
       <type>maliput::api::RoadGeometryId</type>
       <name>id</name>
@@ -6423,62 +6377,6 @@
       <name>intersection_book</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
       <anchor>a8d9c027b5448b0ee9060b1012fc8716a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrRoadRuleBook</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
-      <anchor>a4bbfa3fa2cf9d1d6fa4bbeb3ea49b2eb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrTrafficLightBook</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
-      <anchor>a2722e2ee3c7a994eb5624d2512e6ffee</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrPhaseRingBook</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
-      <anchor>a77bd8a4371ed2702aec2868d7c1141d6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrIntersectionBook</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
-      <anchor>aff25887b7a74d24295d576e7d78f913f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrRoadRuleBook</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
-      <anchor>a4bbfa3fa2cf9d1d6fa4bbeb3ea49b2eb</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrTrafficLightBook</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
-      <anchor>a2722e2ee3c7a994eb5624d2512e6ffee</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrPhaseRingBook</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
-      <anchor>a77bd8a4371ed2702aec2868d7c1141d6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr char const  *</type>
-      <name>kStrIntersectionBook</name>
-      <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
-      <anchor>aff25887b7a74d24295d576e7d78f913f</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -7193,6 +7091,7 @@
   <compound kind="namespace">
     <name>malidrive::builder</name>
     <filename>namespacemalidrive_1_1builder.html</filename>
+    <namespace>malidrive::builder::params</namespace>
     <namespace>malidrive::builder::rules</namespace>
     <class kind="struct">malidrive::builder::BuildPolicy</class>
     <class kind="class">malidrive::builder::DirectionUsageBuilder</class>
@@ -7455,6 +7354,122 @@
       <name>kMinLinearTolerance</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
       <anchor>a44f6efbbeab9d98c247402c073a0381a</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="namespace">
+    <name>malidrive::builder::params</name>
+    <filename>namespacemalidrive_1_1builder_1_1params.html</filename>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kRoadRuleBook</name>
+      <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
+      <anchor>ga413e2136aa512c92d58bf633b25e72af</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kTrafficLightBook</name>
+      <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
+      <anchor>gaa52290b1f18b24e3f00bd1dc5db5eb53</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kPhaseRingBook</name>
+      <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
+      <anchor>gabab6ea6289a9d6a997ea3623df2981e7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kIntersectionBook</name>
+      <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
+      <anchor>gabb49a593032b6e55d43c4b69b342c09b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kRoadGeometryId</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga65640ac01adf58486da1ff6f92d44c3f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kOpendriveFile</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>gaa33b5cc629c0ba9a2f408380ed52f43e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kLinearTolerance</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>gac6e403db72f1c6cea48836ea7754e3de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kMaxLinearTolerance</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga0f16961202b41840391832934ba1ac49</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kAngularTolerance</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga0e97f7f471a134224c1ce20a25da877d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kScaleLength</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga10cc3dafe29eccb96fcbd1843f97acab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kInertialToBackendFrameTranslation</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga94c21e622feaf27c90c695b3c81206ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kBuildPolicy</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga616e92bcd5681aceae39350e8731e419</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kNumThreads</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga04b5baa83b71a79306a19ea4c78caf26</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kSimplificationPolicy</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga25a1809a845328b793ca520d5c1c65f5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStandardStrictnessPolicy</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga118ba6b173fb49c3bf8fb8fbf6292171</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kOmitNonDrivableLanes</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga391ad474e33cffa6544ace890d2e340f</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -7842,6 +7857,129 @@
       <anchorfile>namespaceutility.html</anchorfile>
       <anchor>a6bfdf2f23a5dd9a85ca0b02111cfadd0</anchor>
       <arglist>(const std::string &amp;resource_name)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>road_network_configuration_builder_keys</name>
+    <title>RoadNetwork configuration builder keys</title>
+    <filename>group__road__network__configuration__builder__keys.html</filename>
+    <subgroup>road_geometry_configuration_builder_keys</subgroup>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kRoadRuleBook</name>
+      <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
+      <anchor>ga413e2136aa512c92d58bf633b25e72af</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kTrafficLightBook</name>
+      <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
+      <anchor>gaa52290b1f18b24e3f00bd1dc5db5eb53</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kPhaseRingBook</name>
+      <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
+      <anchor>gabab6ea6289a9d6a997ea3623df2981e7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kIntersectionBook</name>
+      <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
+      <anchor>gabb49a593032b6e55d43c4b69b342c09b</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>road_geometry_configuration_builder_keys</name>
+    <title>RoadGeometry configuration builder keys</title>
+    <filename>group__road__geometry__configuration__builder__keys.html</filename>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kRoadGeometryId</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga65640ac01adf58486da1ff6f92d44c3f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kOpendriveFile</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>gaa33b5cc629c0ba9a2f408380ed52f43e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kLinearTolerance</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>gac6e403db72f1c6cea48836ea7754e3de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kMaxLinearTolerance</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga0f16961202b41840391832934ba1ac49</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kAngularTolerance</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga0e97f7f471a134224c1ce20a25da877d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kScaleLength</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga10cc3dafe29eccb96fcbd1843f97acab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kInertialToBackendFrameTranslation</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga94c21e622feaf27c90c695b3c81206ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kBuildPolicy</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga616e92bcd5681aceae39350e8731e419</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kNumThreads</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga04b5baa83b71a79306a19ea4c78caf26</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kSimplificationPolicy</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga25a1809a845328b793ca520d5c1c65f5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kStandardStrictnessPolicy</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga118ba6b173fb49c3bf8fb8fbf6292171</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kOmitNonDrivableLanes</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga391ad474e33cffa6544ace890d2e340f</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="page">

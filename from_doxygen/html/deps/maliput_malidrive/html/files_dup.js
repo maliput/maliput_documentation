@@ -110,6 +110,7 @@ var files_dup =
     [ "open_range_validator.h", "open__range__validator_8h.html", [
       [ "OpenRangeValidator", "classmalidrive_1_1road__curve_1_1_open_range_validator.html", "classmalidrive_1_1road__curve_1_1_open_range_validator" ]
     ] ],
+    [ "params.h", "params_8h.html", "params_8h" ],
     [ "parser.cc", "parser_8cc.html", "parser_8cc" ],
     [ "parser.h", "parser_8h.html", "parser_8h" ],
     [ "parser_configuration.h", "parser__configuration_8h.html", [

@@ -59,8 +59,8 @@ var sectionId = 'dynsection-0';
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="1.5,-190.5 1.5,-209.5 168.5,-209.5 168.5,-190.5 1.5,-190.5"/>
-<text text-anchor="middle" x="85" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">road_network_configuration.cc</text>
+<polygon fill="#bfbfbf" stroke="black" points="87.5,-190.5 87.5,-209.5 254.5,-209.5 254.5,-190.5 87.5,-190.5"/>
+<text text-anchor="middle" x="171" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">road_network_configuration.cc</text>
 </a>
 </g>
 </g>
@@ -77,8 +77,24 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M85,-190.48C85,-183.47 85,-173.19 85,-163.7"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="88.5,-163.52 85,-153.52 81.5,-163.52 88.5,-163.52"/>
+<path fill="none" stroke="midnightblue" d="M158.68,-190.48C147.03,-182.42 129.12,-170.02 113.87,-159.47"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="115.48,-156.33 105.27,-153.52 111.5,-162.09 115.48,-156.33"/>
+</g>
+<!-- Node10 -->
+<g id="node10" class="node">
+<title>Node10</title>
+<g id="a_node10"><a xlink:href="params_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="185.5,-123.5 185.5,-153.5 328.5,-153.5 328.5,-123.5 185.5,-123.5"/>
+<text text-anchor="start" x="193.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput_malidrive/builder</text>
+<text text-anchor="middle" x="257" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">/params.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node10 -->
+<g id="edge11" class="edge">
+<title>Node1&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M183.32,-190.48C194.97,-182.42 212.88,-170.02 228.13,-159.47"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="230.5,-162.09 236.73,-153.52 226.52,-156.33 230.5,-162.09"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">

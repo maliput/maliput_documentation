@@ -130,18 +130,6 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a8d9c027b5448b0ee9060b1012fc8716a"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html#a8d9c027b5448b0ee9060b1012fc8716a">intersection_book</a> {std::nullopt}</td></tr>
 <tr class="memdesc:a8d9c027b5448b0ee9060b1012fc8716a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path to the configuration file to load an IntersectionBook.  <a href="structmalidrive_1_1builder_1_1_road_network_configuration.html#a8d9c027b5448b0ee9060b1012fc8716a">More...</a><br /></td></tr>
 <tr class="separator:a8d9c027b5448b0ee9060b1012fc8716a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Road Network configuration's keys used in string map.</div></td></tr>
-<tr class="memitem:a4bbfa3fa2cf9d1d6fa4bbeb3ea49b2eb"><td class="memItemLeft" align="right" valign="top">static constexpr char const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html#a4bbfa3fa2cf9d1d6fa4bbeb3ea49b2eb">kStrRoadRuleBook</a> = &quot;road_rule_book&quot;</td></tr>
-<tr class="separator:a4bbfa3fa2cf9d1d6fa4bbeb3ea49b2eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2722e2ee3c7a994eb5624d2512e6ffee"><td class="memItemLeft" align="right" valign="top">static constexpr char const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html#a2722e2ee3c7a994eb5624d2512e6ffee">kStrTrafficLightBook</a> = &quot;traffic_light_book&quot;</td></tr>
-<tr class="separator:a2722e2ee3c7a994eb5624d2512e6ffee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77bd8a4371ed2702aec2868d7c1141d6"><td class="memItemLeft" align="right" valign="top">static constexpr char const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html#a77bd8a4371ed2702aec2868d7c1141d6">kStrPhaseRingBook</a> = &quot;phase_ring_book&quot;</td></tr>
-<tr class="separator:a77bd8a4371ed2702aec2868d7c1141d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff25887b7a74d24295d576e7d78f913f"><td class="memItemLeft" align="right" valign="top">static constexpr char const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html#aff25887b7a74d24295d576e7d78f913f">kStrIntersectionBook</a> = &quot;intersection_book&quot;</td></tr>
-<tr class="separator:aff25887b7a74d24295d576e7d78f913f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2c8af5b057c48d2662e560053800dbd0"></a>
@@ -169,7 +157,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates a <a class="el" href="structmalidrive_1_1builder_1_1_road_network_configuration.html" title="Structure to hold file paths for multiple RoadNetwork structures.">RoadNetworkConfiguration</a> out of a string dictionary. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>The keys of the map are listed at <a class="el" href="group__road__network__configuration__builder__keys.html">RoadNetwork configuration builder keys</a>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">road_network_configuration</td><td>A string-string map containing the configuration for the builder. </td></tr>
   </table>
@@ -192,7 +180,7 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>A string-string map containing the <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend.">RoadGeometry</a> configuration. </dd></dl>
+<p>The keys of the map are listed at <a class="el" href="group__road__network__configuration__builder__keys.html">RoadNetwork configuration builder keys</a>. </p><dl class="section return"><dt>Returns</dt><dd>A string-string map containing the <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend.">RoadGeometry</a> configuration. </dd></dl>
 
 </div>
 </div>
@@ -210,94 +198,6 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Path to the configuration file to load an IntersectionBook. </p>
-
-</div>
-</div>
-<a id="aff25887b7a74d24295d576e7d78f913f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff25887b7a74d24295d576e7d78f913f">&#9670;&nbsp;</a></span>kStrIntersectionBook</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr char const* kStrIntersectionBook = &quot;intersection_book&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a77bd8a4371ed2702aec2868d7c1141d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77bd8a4371ed2702aec2868d7c1141d6">&#9670;&nbsp;</a></span>kStrPhaseRingBook</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr char const* kStrPhaseRingBook = &quot;phase_ring_book&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4bbfa3fa2cf9d1d6fa4bbeb3ea49b2eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bbfa3fa2cf9d1d6fa4bbeb3ea49b2eb">&#9670;&nbsp;</a></span>kStrRoadRuleBook</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr char const* kStrRoadRuleBook = &quot;road_rule_book&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2722e2ee3c7a994eb5624d2512e6ffee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2722e2ee3c7a994eb5624d2512e6ffee">&#9670;&nbsp;</a></span>kStrTrafficLightBook</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr char const* kStrTrafficLightBook = &quot;traffic_light_book&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
