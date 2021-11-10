@@ -7903,6 +7903,13 @@
       <anchor>a0d7ea220b09a9d8b36826d64957f072c</anchor>
       <arglist>(const std::string &amp;path_to_plugin)</arglist>
     </member>
+    <member kind="function">
+      <type>std::vector&lt; MaliputPlugin::Id &gt;</type>
+      <name>ListPlugins</name>
+      <anchorfile>classmaliput_1_1plugin_1_1_maliput_plugin_manager.html</anchorfile>
+      <anchor>a62d591930843730d9e1860f481fe6ae4</anchor>
+      <arglist>()</arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>maliput::ManualDiscreteValueRuleStateProvider</name>

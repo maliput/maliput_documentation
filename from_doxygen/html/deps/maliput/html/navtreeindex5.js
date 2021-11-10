@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"maliput_design.html#lanes_as_lanes":[0,1,0,3],
 "maliput_design.html#lanes_joined_via_branchpoints":[0,1,0,4],
 "maliput_design.html#modeling_road_networks_for_simulation":[0,0],
 "maliput_design.html#objectives":[0,0,0],
@@ -219,8 +220,8 @@ var NAVTREEINDEX5 =
 "namespacemaliput.html":[4,0,0],
 "namespacemaliput_1_1api.html":[3,0,0,0],
 "namespacemaliput_1_1api.html":[4,0,0,0],
-"namespacemaliput_1_1api_1_1rules.html":[4,0,0,0,0],
 "namespacemaliput_1_1api_1_1rules.html":[3,0,0,0,0],
+"namespacemaliput_1_1api_1_1rules.html":[4,0,0,0,0],
 "namespacemaliput_1_1api_1_1rules_1_1test.html":[3,0,0,0,0,0],
 "namespacemaliput_1_1api_1_1rules_1_1test.html":[4,0,0,0,0,0],
 "namespacemaliput_1_1api_1_1test.html":[4,0,0,0,1],
@@ -244,10 +245,9 @@ var NAVTREEINDEX5 =
 "namespacemaliput_1_1utility.html":[3,0,0,6],
 "namespacemaliput_1_1utility_1_1mesh.html":[4,0,0,5,0],
 "namespacemaliput_1_1utility_1_1mesh.html":[3,0,0,6,0],
-"namespacemembers.html":[3,1,0,0],
 "namespacemembers.html":[3,1,0],
+"namespacemembers.html":[3,1,0,0],
 "namespacemembers_a.html":[3,1,0,1],
 "namespacemembers_b.html":[3,1,0,2],
-"namespacemembers_c.html":[3,1,0,3],
-"namespacemembers_d.html":[3,1,0,4]
+"namespacemembers_c.html":[3,1,0,3]
 };

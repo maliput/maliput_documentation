@@ -149,6 +149,9 @@ Maliput plugin</h2>
 <p>Code example: </p><div class="fragment"><div class="line"><span class="keyword">import</span> <a class="codeRef" href="../../maliput/html/namespacemaliput_1_1plugin.html">maliput.plugin</a></div>
 <div class="line"> </div>
 <div class="line">manager = <a class="codeRef" href="../../maliput/html/classmaliput_1_1plugin_1_1_maliput_plugin_manager.html">maliput.plugin.MaliputPluginManager</a>()</div>
+<div class="line"><span class="comment"># Plugins` id can be listed by doing:</span></div>
+<div class="line">plugin_ids = <a class="codeRef" href="../../maliput/html/classmaliput_1_1plugin_1_1_maliput_plugin_manager.html">maliput.plugin.MaliputPluginManager</a>().ListPlugins()</div>
+<div class="line"><span class="comment"># A loaded plugin can be obtained by doing:</span></div>
 <div class="line">my_plugin = <a class="codeRef" href="../../maliput/html/classmaliput_1_1plugin_1_1_maliput_plugin_manager.html">maliput.plugin.MaliputPluginManager</a>().GetPlugin(<span class="stringliteral">&quot;foo_plugin&quot;</span>)</div>
 </div><!-- fragment --><p>There is also provided a method to easily get a <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> from a <a class="elRef" href="../../maliput/html/classmaliput_1_1plugin_1_1_road_network_loader.html">maliput::plugin::RoadNetworkLoader</a> implementation.</p>
 <p>Code example: </p><div class="fragment"><div class="line"><span class="keyword">import</span> <a class="codeRef" href="../../maliput/html/namespacemaliput_1_1api.html">maliput.api</a></div>

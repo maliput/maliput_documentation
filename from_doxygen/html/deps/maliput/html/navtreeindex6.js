@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"namespacemembers_d.html":[3,1,0,4],
 "namespacemembers_e.html":[3,1,0,5],
 "namespacemembers_enum.html":[3,1,4],
 "namespacemembers_eval.html":[3,1,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "structmaliput_1_1api_1_1_iso_lane_velocity.html#a0b952a5c7316c18689a4ed0d52116e1d":[4,0,0,0,8,3],
 "structmaliput_1_1api_1_1_iso_lane_velocity.html#a10f42953901acfdedb9cabafc069a6f4":[4,0,0,0,8,0],
 "structmaliput_1_1api_1_1_iso_lane_velocity.html#a445a6260255bb5e14482e2eaa8689a80":[4,0,0,0,8,1],
-"structmaliput_1_1api_1_1_iso_lane_velocity.html#a8afd1c855602caaabe7b7a9c75e8268b":[4,0,0,0,8,4],
-"structmaliput_1_1api_1_1_iso_lane_velocity.html#afebcdb204b56a32639d88fa2299526d3":[4,0,0,0,8,2]
+"structmaliput_1_1api_1_1_iso_lane_velocity.html#a8afd1c855602caaabe7b7a9c75e8268b":[4,0,0,0,8,4]
 };
