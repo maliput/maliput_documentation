@@ -11795,10 +11795,10 @@
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>double</type>
+      <type>bool</type>
       <name>WithS</name>
       <anchorfile>classmaliput_1_1api_1_1_s_range.html</anchorfile>
-      <anchor>a61bb48fba41181266ab6350d087c1008</anchor>
+      <anchor>a1187cd4bd8bd2678fba4ed946ee1bd6d</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">

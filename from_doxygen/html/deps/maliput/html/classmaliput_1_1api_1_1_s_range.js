@@ -10,5 +10,5 @@ var classmaliput_1_1api_1_1_s_range =
     [ "set_s0", "classmaliput_1_1api_1_1_s_range.html#a2cdb02cd43286c893b2847d83447697e", null ],
     [ "set_s1", "classmaliput_1_1api_1_1_s_range.html#a8a85f447a321221d42bbd9ed48b10dd3", null ],
     [ "size", "classmaliput_1_1api_1_1_s_range.html#ac3fe9e82d5f4f1d55a5c104a2a5d37a6", null ],
-    [ "WithS", "classmaliput_1_1api_1_1_s_range.html#a61bb48fba41181266ab6350d087c1008", null ]
+    [ "WithS", "classmaliput_1_1api_1_1_s_range.html#a1187cd4bd8bd2678fba4ed946ee1bd6d", null ]
 ];
