@@ -17295,24 +17295,24 @@
     <docanchor file="maliput_design.html" title="Geometry Model">geometry_model</docanchor>
     <docanchor file="maliput_design.html" title="Overview">overview</docanchor>
     <docanchor file="maliput_design.html" title="Scale Length and Tolerances">scale_length_and_tolerances</docanchor>
-    <docanchor file="maliput_design.html" title="&lt;tt&gt;Inertial&lt;/tt&gt;-frame versus &lt;tt&gt;Lane&lt;/tt&gt;-frame">inertial_frame_versus_lane_frame</docanchor>
-    <docanchor file="maliput_design.html" title="Lanes as &lt;tt&gt;Lanes&lt;/tt&gt;">lanes_as_lanes</docanchor>
-    <docanchor file="maliput_design.html" title="Lanes Joined End-to-End via &lt;tt&gt;BranchPoints&lt;/tt&gt;">lanes_joined_via_branchpoints</docanchor>
-    <docanchor file="maliput_design.html" title="Adjacent Lanes Grouped into &lt;tt&gt;Segments&lt;/tt&gt;">adjacent_lanes_grouped_into_segments</docanchor>
-    <docanchor file="maliput_design.html" title="Intersecting &lt;tt&gt;Segments&lt;/tt&gt; Grouped into &lt;tt&gt;Junction&lt;/tt&gt;">intersecting_segments_grouped_into_junctions</docanchor>
-    <docanchor file="maliput_design.html" title="Abstract Geometry API: &lt;tt&gt;RoadGeometry&lt;/tt&gt;">abstract_geometry_api_roadgeometry</docanchor>
+    <docanchor file="maliput_design.html" title="Inertial-frame versus Lane-frame">inertial_frame_versus_lane_frame</docanchor>
+    <docanchor file="maliput_design.html" title="Lanes as Lanes">lanes_as_lanes</docanchor>
+    <docanchor file="maliput_design.html" title="Lanes Joined End-to-End via BranchPoints">lanes_joined_via_branchpoints</docanchor>
+    <docanchor file="maliput_design.html" title="Adjacent Lanes Grouped into Segments">adjacent_lanes_grouped_into_segments</docanchor>
+    <docanchor file="maliput_design.html" title="Intersecting Segments Grouped into Junction">intersecting_segments_grouped_into_junctions</docanchor>
+    <docanchor file="maliput_design.html" title="Abstract Geometry API: RoadGeometry">abstract_geometry_api_roadgeometry</docanchor>
     <docanchor file="maliput_design.html" title="Basic Types">basic_types</docanchor>
-    <docanchor file="maliput_design.html" title="&lt;tt&gt;RoadGeometry&lt;/tt&gt;">roadgeometry</docanchor>
-    <docanchor file="maliput_design.html" title="&lt;tt&gt;Junction&lt;/tt&gt;">junction</docanchor>
-    <docanchor file="maliput_design.html" title="&lt;tt&gt;Segment&lt;/tt&gt;">segment</docanchor>
-    <docanchor file="maliput_design.html" title="&lt;tt&gt;Lane&lt;/tt&gt;">lane</docanchor>
-    <docanchor file="maliput_design.html" title="&lt;tt&gt;BranchPoints&lt;/tt&gt;">branchpoints</docanchor>
+    <docanchor file="maliput_design.html" title="RoadGeometry">roadgeometry</docanchor>
+    <docanchor file="maliput_design.html" title="Junction">junction</docanchor>
+    <docanchor file="maliput_design.html" title="Segment">segment</docanchor>
+    <docanchor file="maliput_design.html" title="Lane">lane</docanchor>
+    <docanchor file="maliput_design.html" title="BranchPoints">branchpoints</docanchor>
     <docanchor file="maliput_design.html" title="Rules and Features Databases">rules_and_features_databases</docanchor>
-    <docanchor file="maliput_design.html" title="Rules of the Road: &lt;tt&gt;RoadRulebook&lt;/tt&gt;">rules_of_the_road</docanchor>
+    <docanchor file="maliput_design.html" title="Rules of the Road: RoadRulebook">rules_of_the_road</docanchor>
     <docanchor file="maliput_design.html">road-rulebook-outline_img</docanchor>
     <docanchor file="maliput_design.html" title="Common Region Entities">common_region_entities</docanchor>
-    <docanchor file="maliput_design.html" title="&lt;tt&gt;SpeedLimitRule&lt;/tt&gt;: Speed Limits">speed_limit_rules</docanchor>
-    <docanchor file="maliput_design.html" title="&lt;tt&gt;RightOfWayRule&lt;/tt&gt;: Stopping and Yielding">right_of_way_rule</docanchor>
+    <docanchor file="maliput_design.html" title="SpeedLimitRule: Speed Limits">speed_limit_rules</docanchor>
+    <docanchor file="maliput_design.html" title="RightOfWayRule: Stopping and Yielding">right_of_way_rule</docanchor>
     <docanchor file="maliput_design.html">RoWR-lone-crosswalk</docanchor>
     <docanchor file="maliput_design.html">RoWR-one-way-to-two-way</docanchor>
     <docanchor file="maliput_design.html">RoWR-protected-left</docanchor>

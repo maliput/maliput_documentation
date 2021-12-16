@@ -98,26 +98,26 @@ $(document).ready(function(){initNavTree('maliput_design.html',''); initResizabl
 </li>
 <li class="level1"><a href="#road_network_goemetry">Road Network Geometry</a><ul><li class="level2"><a href="#geometry_model">Geometry Model</a><ul><li class="level3"><a href="#overview">Overview</a></li>
 <li class="level3"><a href="#scale_length_and_tolerances">Scale Length and Tolerances</a></li>
-<li class="level3"><a href="#inertial_frame_versus_lane_frame">&lt;tt&gt;Inertial&lt;/tt&gt;-frame versus &lt;tt&gt;Lane&lt;/tt&gt;-frame</a></li>
-<li class="level3"><a href="#lanes_as_lanes">Lanes as &lt;tt&gt;Lanes&lt;/tt&gt;</a></li>
-<li class="level3"><a href="#lanes_joined_via_branchpoints">Lanes Joined End-to-End via &lt;tt&gt;BranchPoints&lt;/tt&gt;</a></li>
-<li class="level3"><a href="#adjacent_lanes_grouped_into_segments">Adjacent Lanes Grouped into &lt;tt&gt;Segments&lt;/tt&gt;</a></li>
-<li class="level3"><a href="#intersecting_segments_grouped_into_junctions">Intersecting &lt;tt&gt;Segments&lt;/tt&gt; Grouped into &lt;tt&gt;Junction&lt;/tt&gt;</a></li>
+<li class="level3"><a href="#inertial_frame_versus_lane_frame">Inertial-frame versus Lane-frame</a></li>
+<li class="level3"><a href="#lanes_as_lanes">Lanes as Lanes</a></li>
+<li class="level3"><a href="#lanes_joined_via_branchpoints">Lanes Joined End-to-End via BranchPoints</a></li>
+<li class="level3"><a href="#adjacent_lanes_grouped_into_segments">Adjacent Lanes Grouped into Segments</a></li>
+<li class="level3"><a href="#intersecting_segments_grouped_into_junctions">Intersecting Segments Grouped into Junction</a></li>
 </ul>
 </li>
-<li class="level2"><a href="#abstract_geometry_api_roadgeometry">Abstract Geometry API: &lt;tt&gt;RoadGeometry&lt;/tt&gt;</a><ul><li class="level3"><a href="#basic_types">Basic Types</a></li>
-<li class="level3"><a href="#roadgeometry">&lt;tt&gt;RoadGeometry&lt;/tt&gt;</a></li>
-<li class="level3"><a href="#junction">&lt;tt&gt;Junction&lt;/tt&gt;</a></li>
-<li class="level3"><a href="#segment">&lt;tt&gt;Segment&lt;/tt&gt;</a></li>
-<li class="level3"><a href="#lane">&lt;tt&gt;Lane&lt;/tt&gt;</a></li>
-<li class="level3"><a href="#branchpoints">&lt;tt&gt;BranchPoints&lt;/tt&gt;</a></li>
+<li class="level2"><a href="#abstract_geometry_api_roadgeometry">Abstract Geometry API: RoadGeometry</a><ul><li class="level3"><a href="#basic_types">Basic Types</a></li>
+<li class="level3"><a href="#roadgeometry">RoadGeometry</a></li>
+<li class="level3"><a href="#junction">Junction</a></li>
+<li class="level3"><a href="#segment">Segment</a></li>
+<li class="level3"><a href="#lane">Lane</a></li>
+<li class="level3"><a href="#branchpoints">BranchPoints</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="level1"><a href="#rules_and_features_databases">Rules and Features Databases</a><ul><li class="level2"><a href="#rules_of_the_road">Rules of the Road: &lt;tt&gt;RoadRulebook&lt;/tt&gt;</a><ul><li class="level3"><a href="#common_region_entities">Common Region Entities</a></li>
-<li class="level3"><a href="#speed_limit_rules">&lt;tt&gt;SpeedLimitRule&lt;/tt&gt;: Speed Limits</a></li>
-<li class="level3"><a href="#right_of_way_rule">&lt;tt&gt;RightOfWayRule&lt;/tt&gt;: Stopping and Yielding</a></li>
+<li class="level1"><a href="#rules_and_features_databases">Rules and Features Databases</a><ul><li class="level2"><a href="#rules_of_the_road">Rules of the Road: RoadRulebook</a><ul><li class="level3"><a href="#common_region_entities">Common Region Entities</a></li>
+<li class="level3"><a href="#speed_limit_rules">SpeedLimitRule: Speed Limits</a></li>
+<li class="level3"><a href="#right_of_way_rule">RightOfWayRule: Stopping and Yielding</a></li>
 </ul>
 </li>
 </ul>
@@ -172,7 +172,7 @@ Scale Length and Tolerances</h3>
 <p>TODO: Explain the concepts of linear tolerance, angular tolerance, and characteristic scale length. </p>
 </blockquote>
 <h3><a class="anchor" id="inertial_frame_versus_lane_frame"></a>
-&lt;tt&gt;Inertial&lt;/tt&gt;-frame versus &lt;tt&gt;Lane&lt;/tt&gt;-frame</h3>
+Inertial-frame versus Lane-frame</h3>
 <p>Two types of coordinate frames are used in this model: the (single) <code>Inertial</code>-frame and the (multiple) <code>Lane</code>-frames. In both, distances are typically measured in units of meters.</p>
 <p>The <code>Inertial</code>-frame is any right-handed 3D inertial Cartesian coordinate system, with orthonormal basis \((\hat{x},\hat{y},\hat{z})\) and positions expressed as triples \((x,y,z)\). This could be a globally-flat coordinate system, e.g., ECEF ("Earth-centered,
 Earth-fixed"). Or, it could be a locally-flat projection of the Earth's surface, e.g., a UTM ("Universal Transverse Mercator") projection coupled with elevation. No specific projection is mandated by <code>maliput</code>. To disambiguate for one or another <code>Inertial</code>-frame choice, the API uses the preferred <code>InertialPosition</code> type which can be interpreted for one or another frame choice.</p>
@@ -197,7 +197,7 @@ Earth-fixed"). Or, it could be a locally-flat projection of the Earth's surface,
 <p>Note: Due to certain geometric constraints in <code>Lane</code>-frame parameterization, some regions of the <code>RoadGeometry</code> manifold may not be covered by the <code>Lane</code>-frame of any <code>Lane</code>. We anticipate needing an additional set of surface/volume parameterizations in the future to complete the picture. </p>
 </blockquote>
 <h3><a class="anchor" id="lanes_as_lanes"></a>
-Lanes as &lt;tt&gt;Lanes&lt;/tt&gt;</h3>
+Lanes as Lanes</h3>
 <p>A <code>Lane</code> represents a lane of travel in a road network, expressing a path along a stretch of asphalt as well as a parameterization of that asphalt from one lateral edge to the other (including adjacent lanes of travel, shoulders, etc).</p>
 <p>As discussed above, a <code>Lane</code>, identified by \(L\), defines a map \(W_L\) from curvilinear coordinates to the <code>Inertial</code>-frame:</p>
 <p class="formulaDsp">
@@ -233,7 +233,7 @@ Lanes as &lt;tt&gt;Lanes&lt;/tt&gt;</h3>
 lines") is basically a parallel curve to the centerline \(C_L\). Thus, the shape of \(C_L\) and/or the road surface may produce limits to \((r,h)\) before such a curve develops a cusp. The current definitions of \(B_\text{segment}\) and \(H_\text{lane}\) conflate the bounds of the /segment/ volume (e.g., pavement and free space under bridges) with the bounds of the /modeled/ volume (e.g., the bounds on \(r\) and \(h\) which maintain \(G^1\) continuity, avoiding cusps). Hence, the road surface may continue into regions that cannot be properly represented by the parameterization of a given <code>Lane</code>. </p>
 </blockquote>
 <h3><a class="anchor" id="lanes_joined_via_branchpoints"></a>
-Lanes Joined End-to-End via &lt;tt&gt;BranchPoints&lt;/tt&gt;</h3>
+Lanes Joined End-to-End via BranchPoints</h3>
 <p><code>BranchPoints</code> are the points where <code>Lanes</code> are connected end-to-end. They are so named because they are the branch-points in the decision tree of an agent driving in the network, which must decide which new <code>Lane</code> to follow at the end of its current <code>Lane</code>. Each end (<em>start</em> or <em>finish</em>) of a <code>Lane</code> has an associated <code>BranchPoint</code> (3). Each <code>BranchPoint</code> has at least one <code>Lane</code> associated with it, typically two, and often more than that (when <code>Lanes</code> merge/diverge). (4)</p>
 <p>We only allow <code>BranchPoints</code> to occur at the ends of <code>Lanes</code>, specifically at the ends of their centerlines ( \(C_L(s)\)). We also require that the centerlines of the <code>Lanes</code> joined at a <code>BranchPoint</code> are \(G^1\) continuous. Together with the earlier-stated requirement of overall \(G^1\) continuity of the road surface and the conditions on \(r\) and \(h\) being path-lengths, this implies that:</p><ol type="1">
 <li>The location of a <code>BranchPoint</code> is a well-defined point in the <code>Inertial</code>-frame.</li>
@@ -259,7 +259,7 @@ branch should I choose in order to continue straight ahead" (5). For example, wh
 <p>(4): <code>BranchPoint</code> with only a single <code>Lane</code> attached to it is basically a dead-end.</p>
 <p>(5): At the <em>finish</em> end of a <code>Lane</code>, this is just the tangent of \(C_L\); at the <em>start</em> end of a <code>Lane</code>, it's the negative of the tangent, pointing in the \(-s\) direction instead of the \(+s\) direction.</p>
 <h3><a class="anchor" id="adjacent_lanes_grouped_into_segments"></a>
-Adjacent Lanes Grouped into &lt;tt&gt;Segments&lt;/tt&gt;</h3>
+Adjacent Lanes Grouped into Segments</h3>
 <p>In real roads, the pavement is often divided into multiple adjacent lanes of travel; in <code>maliput</code>, adjacent <code>Lanes</code> are grouped together into <code>Segments</code>. The basic idea is that a <code>Segment</code> corresponds to a longitudinal stretch of pavement, and each <code>Lane</code> in that <code>Segment</code> presents a different \((s,r,h)\) parameterization of that same pavement.</p>
 <p>We would like for the segment-bounds of each <code>Lane</code> to map to the same extent of physical space in the <code>Inertial</code>-frame, but that isn't always possible due to the geometric constraints of parallel curves. However, we do require that the union of the segment-bounds of all <code>Lanes</code> in a <code>Segment</code> is simply-connected. This means that:</p><ul>
 <li>a <code>Segment</code> doesn't have any "holes" in its segment space (e.g., no impassable monument in the middle of the road);</li>
@@ -272,13 +272,13 @@ Adjacent Lanes Grouped into &lt;tt&gt;Segments&lt;/tt&gt;</h3>
 <li>For every pair of distinct <code>Lanes</code> \(J\) and \(K\), \(K\) must be either to the left or to the right of \(J\), and may not be both. A consequence of this ((2) in particular) is that the /start/ and /finish/ ends of all the <code>Lanes</code> in a <code>Segment</code> are grouped together respectively so that the <code>Lanes</code> are generally "pointing in the same direction". Given the consistent ordering, we index the <code>Lanes</code> in a <code>Segment</code> with unique integers, beginning with zero for the rightmost <code>Lane</code> and increasing leftward.</li>
 </ol>
 <h3><a class="anchor" id="intersecting_segments_grouped_into_junctions"></a>
-Intersecting &lt;tt&gt;Segments&lt;/tt&gt; Grouped into &lt;tt&gt;Junction&lt;/tt&gt;</h3>
+Intersecting Segments Grouped into Junction</h3>
 <p>It is possible for multiple <code>Segments</code> to cover the same pavement. In fact, that is how intersections are represented, by criss-crossing <code>Segments</code> which define the different paths through an intersection. Overlapping <code>Segments</code> also occur where the road merges or diverges, such as on-ramps, exit ramps, traffic circles, and a road that splits to go around an impassable monument.</p>
 <p><code>Segments</code> which map to intersecting volumes in the <code>Inertial</code>-frame (in terms of the union of the segment-bounds of their <code>Lanes</code>) are grouped together into a <code>Junction</code>. The primary (sole?) purpose of a <code>Junction</code> is to indicate that objects in its component <code>Segments</code> may spatially interact with each other (e.g., collide!). Conversely, if two <code>Segments</code> belong to two distinct <code>Junction</code>, then objects within their respective segment-bounds should /not/ be touching. (Note that in considering intersection, we ignore the overlaps that may occur where <code>Segments</code> join end-to-end via their <code>Lanes</code>.)</p>
 <p>Every <code>Segment</code> must belong to one and only one <code>Junction</code>, and every <code>Junction</code> must contain at least one <code>Segment</code>.</p>
 <p>When designing/implementing a <code>RoadGeometry</code>, it is good practice to structure the <code>Segments</code> to minimize the spatial extent of <code>Junction</code>. For example, a single long <code>Segment</code> which crosses through two intersections would cause both intersections to belong to the same <code>Junction</code>. It would be better to split that single <code>Segment</code> into three: one crossing each intersection and one in-between that joins those two end-to-end, resulting in three independent <code>Junction</code> that are better localized.</p>
 <h2><a class="anchor" id="abstract_geometry_api_roadgeometry"></a>
-Abstract Geometry API: &lt;tt&gt;RoadGeometry&lt;/tt&gt;</h2>
+Abstract Geometry API: RoadGeometry</h2>
 <blockquote class="doxtable">
 <p>TODO: Explain semantics of object ID's. (cross-referencing, tiling, debugging, visualization) </p>
 </blockquote>
@@ -294,7 +294,7 @@ Basic Types</h3>
 <li>...</li>
 </ul>
 <h3><a class="anchor" id="roadgeometry"></a>
-&lt;tt&gt;RoadGeometry&lt;/tt&gt;</h3>
+RoadGeometry</h3>
 <ul>
 <li>accessors for component <code>Junctions</code></li>
 <li>accessors for component <code>BranchPoints</code></li>
@@ -306,17 +306,17 @@ Basic Types</h3>
 </li>
 </ul>
 <h3><a class="anchor" id="junction"></a>
-&lt;tt&gt;Junction&lt;/tt&gt;</h3>
+Junction</h3>
 <ul>
 <li>accessors for parent <code>RoadGeometry</code>, component <code>Junctions</code></li>
 </ul>
 <h3><a class="anchor" id="segment"></a>
-&lt;tt&gt;Segment&lt;/tt&gt;</h3>
+Segment</h3>
 <ul>
 <li>accessors for parent <code>Junction</code>, component <code>Lanes</code></li>
 </ul>
 <h3><a class="anchor" id="lane"></a>
-&lt;tt&gt;Lane&lt;/tt&gt;</h3>
+Lane</h3>
 <ul>
 <li>nominal \(r\) bounds, \(B_\text{nominal}: (s) \mapsto [r_\text{min}, r_\text{max}]\)</li>
 <li>segment \(r\) bounds, \(B_\text{segment}: (s) \mapsto [r_\text{min}, r_\text{max}]\)</li>
@@ -329,7 +329,7 @@ Basic Types</h3>
 <li>accessors for parent <code>Segment</code>, associated <code>BranchPoints</code>, and left/right <code>Lanes</code>, to traverse the object graph.</li>
 </ul>
 <h3><a class="anchor" id="branchpoints"></a>
-&lt;tt&gt;BranchPoints&lt;/tt&gt;</h3>
+BranchPoints</h3>
 <ul>
 <li>accessors for <code>Lanes</code> on each side ("A" versus "B")</li>
 <li>accessor for the set of confluent <code>Lanes</code> for a given <code>Lane</code></li>
@@ -340,7 +340,7 @@ Basic Types</h3>
 <h1><a class="anchor" id="rules_and_features_databases"></a>
 Rules and Features Databases</h1>
 <h2><a class="anchor" id="rules_of_the_road"></a>
-Rules of the Road: &lt;tt&gt;RoadRulebook&lt;/tt&gt;</h2>
+Rules of the Road: RoadRulebook</h2>
 <p>A <code>RoadRulebook</code> (see <a class="el" href="maliput_design.html#road-rulebook-outline_img">figure</a> ) expresses the semantic "rules of the road" for a road network, as rule elements associated to components of a <code>RoadGeometry</code>. In a real, physical road network, road rules are typically signaled to users via signs or striping, though some rules are expected to be prior knowledge (e.g., "We drive on the
 right-hand side here."). <code>RoadRulebook</code> abstracts away from both the physical artifacts and the symbolic state of such signals, and directly represents the intended use of a road network at a semantic level.</p>
 <p>We define three levels of knowledge of rules of the road:</p><ul>
@@ -380,7 +380,7 @@ Common Region Entities</h3>
 <li><code>LaneIdEnd</code>: a pair of <code>LaneId</code> and an "end" specifier, which describes either the start or finish of a specific <code>Lane</code>.</li>
 </ul>
 <h3><a class="anchor" id="speed_limit_rules"></a>
-&lt;tt&gt;SpeedLimitRule&lt;/tt&gt;: Speed Limits</h3>
+SpeedLimitRule: Speed Limits</h3>
 <p>A <code>SpeedLimitRule</code> describes speed limits on a longitudinal range of a Lane. It comprises:</p>
 <ul>
 <li>id</li>
@@ -400,7 +400,7 @@ Common Region Entities</h3>
 </li>
 </ul>
 <h3><a class="anchor" id="right_of_way_rule"></a>
-&lt;tt&gt;RightOfWayRule&lt;/tt&gt;: Stopping and Yielding</h3>
+RightOfWayRule: Stopping and Yielding</h3>
 <p><code>RightOfWayRule</code> describes which vehicles have right-of-way (also known as "priority"). Note that "right of way" does not mean "right
 to smash through obstacles". A green light means that other cars should not enter an intersection, but the light turning green will not magically clear an intersection. Even after acquiring the right-of-way, a vehicle should still respect the physical reality of its environment and operate in a safe manner. When operating on intersecting regions of the road network. In the real world, such rules are typically signaled by stop signs, yield signs, and traffic lights, or are understood as implicit knowledge of the local laws (e.g., "vehicle on the right has priority at uncontrolled
 intersections").</p>

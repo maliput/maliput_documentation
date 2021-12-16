@@ -31,26 +31,26 @@ var NAVTREE =
         [ "Geometry Model", "maliput_design.html#geometry_model", [
           [ "Overview", "maliput_design.html#overview", null ],
           [ "Scale Length and Tolerances", "maliput_design.html#scale_length_and_tolerances", null ],
-          [ "<tt>Inertial</tt>-frame versus <tt>Lane</tt>-frame", "maliput_design.html#inertial_frame_versus_lane_frame", null ],
-          [ "Lanes as <tt>Lanes</tt>", "maliput_design.html#lanes_as_lanes", null ],
-          [ "Lanes Joined End-to-End via <tt>BranchPoints</tt>", "maliput_design.html#lanes_joined_via_branchpoints", null ],
-          [ "Adjacent Lanes Grouped into <tt>Segments</tt>", "maliput_design.html#adjacent_lanes_grouped_into_segments", null ],
-          [ "Intersecting <tt>Segments</tt> Grouped into <tt>Junction</tt>", "maliput_design.html#intersecting_segments_grouped_into_junctions", null ]
+          [ "Inertial-frame versus Lane-frame", "maliput_design.html#inertial_frame_versus_lane_frame", null ],
+          [ "Lanes as Lanes", "maliput_design.html#lanes_as_lanes", null ],
+          [ "Lanes Joined End-to-End via BranchPoints", "maliput_design.html#lanes_joined_via_branchpoints", null ],
+          [ "Adjacent Lanes Grouped into Segments", "maliput_design.html#adjacent_lanes_grouped_into_segments", null ],
+          [ "Intersecting Segments Grouped into Junction", "maliput_design.html#intersecting_segments_grouped_into_junctions", null ]
         ] ],
-        [ "Abstract Geometry API: <tt>RoadGeometry</tt>", "maliput_design.html#abstract_geometry_api_roadgeometry", [
+        [ "Abstract Geometry API: RoadGeometry", "maliput_design.html#abstract_geometry_api_roadgeometry", [
           [ "Basic Types", "maliput_design.html#basic_types", null ],
-          [ "<tt>RoadGeometry</tt>", "maliput_design.html#roadgeometry", null ],
-          [ "<tt>Junction</tt>", "maliput_design.html#junction", null ],
-          [ "<tt>Segment</tt>", "maliput_design.html#segment", null ],
-          [ "<tt>Lane</tt>", "maliput_design.html#lane", null ],
-          [ "<tt>BranchPoints</tt>", "maliput_design.html#branchpoints", null ]
+          [ "RoadGeometry", "maliput_design.html#roadgeometry", null ],
+          [ "Junction", "maliput_design.html#junction", null ],
+          [ "Segment", "maliput_design.html#segment", null ],
+          [ "Lane", "maliput_design.html#lane", null ],
+          [ "BranchPoints", "maliput_design.html#branchpoints", null ]
         ] ]
       ] ],
       [ "Rules and Features Databases", "maliput_design.html#rules_and_features_databases", [
-        [ "Rules of the Road: <tt>RoadRulebook</tt>", "maliput_design.html#rules_of_the_road", [
+        [ "Rules of the Road: RoadRulebook", "maliput_design.html#rules_of_the_road", [
           [ "Common Region Entities", "maliput_design.html#common_region_entities", null ],
-          [ "<tt>SpeedLimitRule</tt>: Speed Limits", "maliput_design.html#speed_limit_rules", null ],
-          [ "<tt>RightOfWayRule</tt>: Stopping and Yielding", "maliput_design.html#right_of_way_rule", null ]
+          [ "SpeedLimitRule: Speed Limits", "maliput_design.html#speed_limit_rules", null ],
+          [ "RightOfWayRule: Stopping and Yielding", "maliput_design.html#right_of_way_rule", null ]
         ] ]
       ] ]
     ] ],
