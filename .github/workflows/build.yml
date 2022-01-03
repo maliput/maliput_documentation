@@ -131,13 +131,13 @@ jobs:
         colcon build --packages-up-to ${PACKAGE_NAME} --event-handlers=console_direct+;
     # checkout to gh-pages
     - uses: actions/checkout@v2
-      if: ${{ github.event_name == 'schedule' }}
+      if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
       with:
         path: ${{ env.ROS_WS }}/src/${{ env.PACKAGE_NAME }}
         ref: gh-pages
     # dump the content into gh-pages
     - name: push to gh-pages
-      if: ${{ github.event_name == 'schedule' }}
+      if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
       shell: bash
       working-directory: ${{ env.ROS_WS }}
       run: |
