@@ -107,14 +107,14 @@ Maliput Python Interface</h1>
 <h2><a class="anchor" id="maliput_python_interface_overview"></a>
 Overview</h2>
 <p>The <code>maliput_py</code> package provides a maliput python interface covering:</p><ul>
-<li><a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html">maliput::api</a></li>
+<li><a class="el" href="namespacemaliput_1_1api.html">maliput::api</a></li>
 <li><a class="elRef" href="../../maliput/html/namespacemaliput_1_1math.html">maliput::math</a></li>
 <li><a class="elRef" href="../../maliput/html/namespacemaliput_1_1plugin.html">maliput::plugin</a></li>
 </ul>
 <p>Python bindings are created using <a href="https://github.com/pybind/pybind11">pybind11</a> library. </p>
 <h2><a class="anchor" id="maliput_api_bindings"></a>
 Maliput api</h2>
-<p><code><a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html">maliput.api</a></code> submodule provides bindings to <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html">maliput::api</a> entities such as:</p><ul>
+<p><code><a class="el" href="namespacemaliput_1_1api.html">maliput.api</a></code> submodule provides bindings to <a class="el" href="namespacemaliput_1_1api.html">maliput::api</a> entities such as:</p><ul>
 <li><a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_inertial_position.html">maliput::api::InertialPosition</a></li>
 <li><a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_junction.html">maliput::api::Junction</a></li>
 <li><a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a></li>
@@ -129,7 +129,7 @@ Maliput api</h2>
 <li><a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_rotation.html">maliput::api::Rotation</a></li>
 <li><a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_segment.html">maliput::api::Segment</a></li>
 </ul>
-<p>Code example: </p><div class="fragment"><div class="line">import <a class="codeRef" href="../../maliput/html/namespacemaliput_1_1api.html">maliput.api</a></div>
+<p>Code example: </p><div class="fragment"><div class="line">import <a class="code" href="namespacemaliput_1_1api.html">maliput.api</a></div>
 <div class="line"> </div>
 <div class="line">inertial_position = <a class="codeRef" href="../../maliput/html/classmaliput_1_1api_1_1_inertial_position.html">maliput.api.InertialPosition</a>(x=1., y=2., z=3.)</div>
 </div><!-- fragment --><h2><a class="anchor" id="maliput_math_bindings"></a>
@@ -154,7 +154,7 @@ Maliput plugin</h2>
 <div class="line"><span class="comment"># A loaded plugin can be obtained by doing:</span></div>
 <div class="line">my_plugin = <a class="codeRef" href="../../maliput/html/classmaliput_1_1plugin_1_1_maliput_plugin_manager.html">maliput.plugin.MaliputPluginManager</a>().GetPlugin(<span class="stringliteral">&quot;foo_plugin&quot;</span>)</div>
 </div><!-- fragment --><p>There is also provided a method to easily get a <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> from a <a class="elRef" href="../../maliput/html/classmaliput_1_1plugin_1_1_road_network_loader.html">maliput::plugin::RoadNetworkLoader</a> implementation.</p>
-<p>Code example: </p><div class="fragment"><div class="line"><span class="keyword">import</span> <a class="codeRef" href="../../maliput/html/namespacemaliput_1_1api.html">maliput.api</a></div>
+<p>Code example: </p><div class="fragment"><div class="line"><span class="keyword">import</span> <a class="code" href="namespacemaliput_1_1api.html">maliput.api</a></div>
 <div class="line"><span class="keyword">import</span> <a class="codeRef" href="../../maliput/html/namespacemaliput_1_1plugin.html">maliput.plugin</a></div>
 <div class="line"> </div>
 <div class="line">road_network = maliput.plugin.create_road_network_from_plugin(<span class="stringliteral">&quot;my_road_network_loader_plugin&quot;</span>, dict())</div>
@@ -164,7 +164,7 @@ Maliput plugin</h2>
 </div><!-- doc-content -->
 <div class="ttc" id="aclassmaliput_1_1api_1_1_inertial_position_html"><div class="ttname"><a href="../../maliput/html/classmaliput_1_1api_1_1_inertial_position.html">maliput::api::InertialPosition</a></div></div>
 <div class="ttc" id="aclassmaliput_1_1math_1_1_roll_pitch_yaw_html"><div class="ttname"><a href="../../maliput/html/classmaliput_1_1math_1_1_roll_pitch_yaw.html">maliput::math::RollPitchYaw</a></div></div>
-<div class="ttc" id="anamespacemaliput_1_1api_html"><div class="ttname"><a href="../../maliput/html/namespacemaliput_1_1api.html">maliput::api</a></div></div>
+<div class="ttc" id="anamespacemaliput_1_1api_html"><div class="ttname"><a href="namespacemaliput_1_1api.html">maliput::api</a></div></div>
 <div class="ttc" id="anamespacemaliput_1_1math_html"><div class="ttname"><a href="../../maliput/html/namespacemaliput_1_1math.html">maliput::math</a></div></div>
 <div class="ttc" id="aclassmaliput_1_1plugin_1_1_maliput_plugin_manager_html"><div class="ttname"><a href="../../maliput/html/classmaliput_1_1plugin_1_1_maliput_plugin_manager.html">maliput::plugin::MaliputPluginManager</a></div></div>
 <div class="ttc" id="anamespacemaliput_1_1plugin_html"><div class="ttname"><a href="../../maliput/html/namespacemaliput_1_1plugin.html">maliput::plugin</a></div></div>
