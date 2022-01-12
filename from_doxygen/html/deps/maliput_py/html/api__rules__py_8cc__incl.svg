@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 698;
+var viewWidth = 1965;
 var viewHeight = 151;
 var sectionId = 'dynsection-0';
 </script>
@@ -54,13 +54,13 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>api_rules_py.cc</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-147 694,-147 694,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-147 1961,-147 1961,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="328,-123.5 328,-142.5 418,-142.5 418,-123.5 328,-123.5"/>
-<text text-anchor="middle" x="373" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">api_rules_py.cc</text>
+<polygon fill="#bfbfbf" stroke="black" points="949,-123.5 949,-142.5 1039,-142.5 1039,-123.5 949,-123.5"/>
+<text text-anchor="middle" x="994" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">api_rules_py.cc</text>
 </a>
 </g>
 </g>
@@ -76,85 +76,218 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M328.77,-123.46C281.9,-114.41 205.73,-99.7 140,-87 133.26,-85.7 126.19,-84.33 119.18,-82.98"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="119.5,-79.47 109.02,-81.01 118.17,-86.35 119.5,-79.47"/>
+<path fill="none" stroke="midnightblue" d="M948.67,-131.65C821.39,-130.22 450,-123.03 144,-87 134.85,-85.92 125.15,-84.43 115.81,-82.82"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="116.31,-79.35 105.85,-81.03 115.08,-86.24 116.31,-79.35"/>
+</g>
+<!-- Node3 -->
+<g id="node3" class="node">
+<title>Node3</title>
+<g id="a_node3"><a xlink:title=" ">
+<polygon fill="white" stroke="#bfbfbf" points="51.5,-0.5 51.5,-19.5 170.5,-19.5 170.5,-0.5 51.5,-0.5"/>
+<text text-anchor="middle" x="111" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">pybind11/pybind11.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node3 -->
+<g id="edge14" class="edge">
+<title>Node1&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M948.89,-131.54C787.9,-129.61 247.41,-120.67 178,-87 152.1,-74.43 131.93,-46.87 120.75,-28.62"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="123.55,-26.47 115.48,-19.59 117.5,-29.99 123.55,-26.47"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="../../maliput/html/discrete__value__rule_8h.html.html" xlink:title=" ">
-<polygon fill="white" stroke="black" points="148.5,-56.5 148.5,-86.5 289.5,-86.5 289.5,-56.5 148.5,-56.5"/>
-<text text-anchor="start" x="156.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/api/rules/discrete</text>
-<text text-anchor="middle" x="219" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">_value_rule.h</text>
+<polygon fill="white" stroke="black" points="186.5,-56.5 186.5,-86.5 327.5,-86.5 327.5,-56.5 186.5,-56.5"/>
+<text text-anchor="start" x="194.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/api/rules/discrete</text>
+<text text-anchor="middle" x="257" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">_value_rule.h</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M350.94,-123.48C328.52,-114.81 293.14,-101.15 264.66,-90.14"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="265.88,-86.86 255.29,-86.52 263.36,-93.39 265.88,-86.86"/>
+<path fill="none" stroke="midnightblue" d="M948.83,-130.63C843.57,-127.08 573.68,-115.82 337.75,-86.99"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="337.96,-83.49 327.61,-85.74 337.1,-90.44 337.96,-83.49"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../maliput/html/range__value__rule_8h.html.html" xlink:title=" ">
-<polygon fill="white" stroke="black" points="308,-56.5 308,-86.5 438,-86.5 438,-56.5 308,-56.5"/>
-<text text-anchor="start" x="316" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/api/rules/range</text>
-<text text-anchor="middle" x="373" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">_value_rule.h</text>
+<g id="a_node5"><a xlink:href="../../maliput/html/discrete__value__rule__state__provider_8h.html.html" xlink:title=" ">
+<polygon fill="white" stroke="black" points="346,-56.5 346,-86.5 504,-86.5 504,-56.5 346,-56.5"/>
+<text text-anchor="start" x="354" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/api/rules/discrete</text>
+<text text-anchor="middle" x="425" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">_value_rule_state_provider.h</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M373,-123.48C373,-116.47 373,-106.19 373,-96.7"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="376.5,-96.52 373,-86.52 369.5,-96.52 376.5,-96.52"/>
+<path fill="none" stroke="midnightblue" d="M948.89,-128.8C863.7,-122.53 673.4,-107.43 514,-87 513.9,-86.99 513.8,-86.97 513.69,-86.96"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="514.43,-83.53 504.06,-85.67 513.5,-90.47 514.43,-83.53"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../maliput/html/rule_8h.html.html" xlink:title=" ">
-<polygon fill="white" stroke="black" points="456,-62 456,-81 586,-81 586,-62 456,-62"/>
-<text text-anchor="middle" x="521" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/api/rules/rule.h</text>
+<g id="a_node6"><a xlink:href="../../maliput/html/direction__usage__rule_8h.html.html" xlink:title=" ">
+<polygon fill="white" stroke="black" points="522.5,-56.5 522.5,-86.5 667.5,-86.5 667.5,-56.5 522.5,-56.5"/>
+<text text-anchor="start" x="530.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/api/rules/direction</text>
+<text text-anchor="middle" x="595" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">_usage_rule.h</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M394.2,-123.48C419.37,-113.36 461.54,-96.4 490.28,-84.85"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="491.86,-87.99 499.83,-81.01 489.25,-81.49 491.86,-87.99"/>
+<path fill="none" stroke="midnightblue" d="M948.78,-126.07C889.14,-118.15 780.66,-103.36 677.79,-87.09"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="678.28,-83.63 667.86,-85.52 677.18,-90.54 678.28,-83.63"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="604,-62 604,-81 690,-81 690,-62 604,-62"/>
-<text text-anchor="middle" x="647" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">pybind11/stl.h</text>
+<g id="a_node7"><a xlink:href="../../maliput/html/range__value__rule_8h.html.html" xlink:title=" ">
+<polygon fill="white" stroke="black" points="686,-56.5 686,-86.5 816,-86.5 816,-56.5 686,-56.5"/>
+<text text-anchor="start" x="694" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/api/rules/range</text>
+<text text-anchor="middle" x="751" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">_value_rule.h</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
 <title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M418.28,-123.81C463.29,-115.44 534.21,-101.62 595,-87 599.15,-86 603.47,-84.9 607.77,-83.76"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="608.94,-87.07 617.67,-81.08 607.1,-80.32 608.94,-87.07"/>
+<path fill="none" stroke="midnightblue" d="M959.18,-123.48C922.51,-114.49 863.83,-100.13 818.11,-88.93"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="818.82,-85.5 808.27,-86.52 817.15,-92.3 818.82,-85.5"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node">
-<title>Node3</title>
-<g id="a_node3"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="5.5,-0.5 5.5,-19.5 124.5,-19.5 124.5,-0.5 5.5,-0.5"/>
-<text text-anchor="middle" x="65" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">pybind11/pybind11.h</text>
+<!-- Node8 -->
+<g id="node8" class="node">
+<title>Node8</title>
+<g id="a_node8"><a xlink:href="../../maliput/html/range__value__rule__state__provider_8h.html.html" xlink:title=" ">
+<polygon fill="white" stroke="black" points="834,-56.5 834,-86.5 992,-86.5 992,-56.5 834,-56.5"/>
+<text text-anchor="start" x="842" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/api/rules/range</text>
+<text text-anchor="middle" x="913" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">_value_rule_state_provider.h</text>
 </a>
 </g>
+</g>
+<!-- Node1&#45;&gt;Node8 -->
+<g id="edge7" class="edge">
+<title>Node1&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M982.39,-123.48C971.42,-115.42 954.55,-103.02 940.19,-92.47"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="942.22,-89.62 932.09,-86.52 938.08,-95.26 942.22,-89.62"/>
+</g>
+<!-- Node9 -->
+<g id="node9" class="node">
+<title>Node9</title>
+<g id="a_node9"><a xlink:href="../../maliput/html/rule_8h.html.html" xlink:title=" ">
+<polygon fill="white" stroke="black" points="1010,-62 1010,-81 1140,-81 1140,-62 1010,-62"/>
+<text text-anchor="middle" x="1075" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/api/rules/rule.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node9 -->
+<g id="edge8" class="edge">
+<title>Node1&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M1005.61,-123.48C1018.48,-114.02 1039.47,-98.6 1055.01,-87.19"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1057.43,-89.75 1063.42,-81.01 1053.28,-84.11 1057.43,-89.75"/>
+</g>
+<!-- Node10 -->
+<g id="node10" class="node">
+<title>Node10</title>
+<g id="a_node10"><a xlink:href="../../maliput/html/right__of__way__rule_8h.html.html" xlink:title=" ">
+<polygon fill="white" stroke="black" points="1158.5,-56.5 1158.5,-86.5 1283.5,-86.5 1283.5,-56.5 1158.5,-56.5"/>
+<text text-anchor="start" x="1166.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/api/rules/right</text>
+<text text-anchor="middle" x="1221" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">_of_way_rule.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node10 -->
+<g id="edge9" class="edge">
+<title>Node1&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M1026.52,-123.48C1060.64,-114.53 1115.14,-100.25 1157.77,-89.07"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1158.71,-92.44 1167.5,-86.52 1156.94,-85.67 1158.71,-92.44"/>
+</g>
+<!-- Node11 -->
+<g id="node11" class="node">
+<title>Node11</title>
+<g id="a_node11"><a xlink:href="../../maliput/html/road__rulebook_8h.html.html" xlink:title=" ">
+<polygon fill="white" stroke="black" points="1302,-56.5 1302,-86.5 1426,-86.5 1426,-56.5 1302,-56.5"/>
+<text text-anchor="start" x="1310" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/api/rules/road</text>
+<text text-anchor="middle" x="1364" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">_rulebook.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node11 -->
+<g id="edge10" class="edge">
+<title>Node1&#45;&gt;Node11</title>
+<path fill="none" stroke="midnightblue" d="M1039.2,-125.94C1095.86,-118.19 1196.17,-103.91 1291.59,-87.2"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1292.46,-90.6 1301.7,-85.41 1291.24,-83.71 1292.46,-90.6"/>
+</g>
+<!-- Node12 -->
+<g id="node12" class="node">
+<title>Node12</title>
+<g id="a_node12"><a xlink:title=" ">
+<polygon fill="white" stroke="#bfbfbf" points="1444.5,-56.5 1444.5,-86.5 1565.5,-86.5 1565.5,-56.5 1444.5,-56.5"/>
+<text text-anchor="start" x="1452.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/api/rules/rule</text>
+<text text-anchor="middle" x="1505" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">_registry.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node12 -->
+<g id="edge11" class="edge">
+<title>Node1&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M1039.27,-128.92C1117.66,-123.25 1283.9,-109.76 1434.47,-86.97"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1435.01,-90.43 1444.36,-85.46 1433.95,-83.51 1435.01,-90.43"/>
+</g>
+<!-- Node13 -->
+<g id="node13" class="node">
+<title>Node13</title>
+<g id="a_node13"><a xlink:href="../../maliput/html/speed__limit__rule_8h.html.html" xlink:title=" ">
+<polygon fill="white" stroke="black" points="1583.5,-56.5 1583.5,-86.5 1714.5,-86.5 1714.5,-56.5 1583.5,-56.5"/>
+<text text-anchor="start" x="1591.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/api/rules/speed</text>
+<text text-anchor="middle" x="1649" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">_limit_rule.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node13 -->
+<g id="edge12" class="edge">
+<title>Node1&#45;&gt;Node13</title>
+<path fill="none" stroke="midnightblue" d="M1039.02,-130.3C1135.32,-126.27 1368.59,-114.46 1573.27,-87.14"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1573.86,-90.59 1583.3,-85.79 1572.92,-83.66 1573.86,-90.59"/>
+</g>
+<!-- Node14 -->
+<g id="node14" class="node">
+<title>Node14</title>
+<g id="a_node14"><a xlink:title=" ">
+<polygon fill="white" stroke="#bfbfbf" points="1733,-62 1733,-81 1853,-81 1853,-62 1733,-62"/>
+<text text-anchor="middle" x="1793" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">pybind11/operators.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node14 -->
+<g id="edge13" class="edge">
+<title>Node1&#45;&gt;Node14</title>
+<path fill="none" stroke="midnightblue" d="M1039.08,-131.5C1153.87,-129.73 1466.36,-121.82 1724,-87 1731.59,-85.97 1739.59,-84.58 1747.35,-83.07"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1748.26,-86.45 1757.36,-81.02 1746.86,-79.6 1748.26,-86.45"/>
+</g>
+<!-- Node15 -->
+<g id="node15" class="node">
+<title>Node15</title>
+<g id="a_node15"><a xlink:title=" ">
+<polygon fill="white" stroke="#bfbfbf" points="1871,-62 1871,-81 1957,-81 1957,-62 1871,-62"/>
+<text text-anchor="middle" x="1914" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">pybind11/stl.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node15 -->
+<g id="edge15" class="edge">
+<title>Node1&#45;&gt;Node15</title>
+<path fill="none" stroke="midnightblue" d="M1039.17,-130.97C1193.8,-127.24 1701.16,-113.26 1862,-87 1867.19,-86.15 1872.59,-84.98 1877.88,-83.67"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1879.04,-86.98 1887.8,-81.02 1877.23,-80.22 1879.04,-86.98"/>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M65,-61.98C65,-53.58 65,-40.48 65,-29.66"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="68.5,-29.51 65,-19.51 61.5,-29.51 68.5,-29.51"/>
+<path fill="none" stroke="midnightblue" d="M71.59,-61.98C78.49,-53.05 89.5,-38.81 98.13,-27.64"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="101.07,-29.56 104.42,-19.51 95.54,-25.28 101.07,-29.56"/>
 </g>
 </g>
 </svg>
