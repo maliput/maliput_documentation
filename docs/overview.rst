@@ -1,18 +1,38 @@
 **********************************
-Overview
+Maliput Overview
 **********************************
 
 .. contents:: Table of Contents
     :depth: 5
 
-Maliput
+Summary
 =======
 
-A Road Network model for use in agent and traffic simulations.
-TODO: Improve this first general description.
-TODO: Ros2 package.
-TODO: Is it worth adding a summary here with ALL the features at first?
+A C++ runtime API describing a Road Network model for use in agent and traffic simulations.
+It guarantees a continuous description of the road geometry and supports dynamic environments
+with varying rules state, among other things.
+There are currently several implementations of maliput, the most complex one is based on `OpenDRIVE` specification.
 
+
+
+Features
+--------
+
+* G1 Contiguous road geometry description with tolerance control.
+* Lane-frame and Inertial-frame support.
+* Customizable traffic rules.
+* Handles dynamic rule environments.
+* Supports Traffic Lights.
+* Convenience functions to query the Road Network and Rules.
+* Available maliput backend based on `OpenDRIVE` specification.
+* Plugin architecture to extend Road Network implementation.
+* C++ 17 API.
+* Python Interface.
+* Support for ROS2 Foxy.
+* BSD 3-Clause License.
+
+Maliput components
+==================
 
 Road Network
 ------------
@@ -30,6 +50,7 @@ Road Geometry model
 In the lexicon of `maliput` and its C++ API, the road volume manifold is called a `RoadGeometry`. A `RoadGeometry` is partitioned into `Segments`, which correspond to stretches of asphalt (and the space above and/or below them).
 Each `Segment` is a group of one or more adjacent `Lanes`. A `Lane` corresponds to a lane of travel on a road, and defines a specific parameterization of the parent `Segment`'s volume from a local lane frame into the Inertial-frame.
 `Lanes` are connected at `BranchPoints`, and the graph of `Lanes` and `BranchPoints` describes the topology of a `RoadGeometry`. `Segments` which map to intersecting volumes of the Inertial-frame (e.g., intersections) are grouped together into `Junctions`.
+The semantic direction of the lane isn't defined by the geometry but by traffic rules, which is convenient in case where lanes are expected to change its direction.
 
 In a sense, there are two complementary object graphs in `maliput`. The container hierarchy (Junctions contain `Segments`, which contain Lanes) groups together different views of the same regions of road surface.
 The routing graph (Lanes are joined end-to-end via BranchPoints) describes how one can get from one region of the road network to another.
@@ -38,8 +59,18 @@ A `RoadGeometry` may also model paths that are adjacent to roads like sidewalks.
 This is not in violation of `maliput`'s continuity requirements because `maliput` has no notion of laterally-adjacent `Segments`.
 
 
-Features
-^^^^^^^^
+Summary
+^^^^^^^
+
+* A group of adjacent `Lane`s is a `Segment`.
+* A Segment represents a bundle of adjacent Lanes which share a continuously traversable road surface.
+
+  * The number of lanes in a `Segment` is the same along the road.
+  * A Junction is a closed set of `Segments` which have physically coplanar road surfaces.
+
+* A `BranchPoint` is a node in the network of a `RoadGeometry` at which `Lanes` connect to one another.
+* Direction of the lanes are defined by traffic rules.
+  * In dynamic environments the direction of the lane can change to replicate real road scenarios(i.e.: Lanes changing direction depending on rush hour).
 
 * Inertial frame vs Lane frame.
 
@@ -54,18 +85,19 @@ Features
   * Linear and angular tolerances are user-defined.
 
 
-Road Network Graph
-------------------
+.. image:: media/overview/maliput_primitives.png
 
-TODO: Mention about how lanes are connected and the queries provided to traverse the graph.
-A picture/diagram would be nice.
+
+TODO: Mention about queries provided to traverse the graph.
 
 
 Intersections
 -------------
 
-TODO: IntersectionBook is a convenience class which serves as single source of information to avoid users to query a large number of data structures. At the end is a helper, should we add this here?
+`maliput` provides a register of intersections called `IntersectionBook` and it holds all the intersections located in the map.
+This book is a convenience class that serves as single source of information to avoid users to query a large number of data structures.
 
+Once obtained the intersection of interest information about the states of the traffic lights and the rules(i.e.: Right-Of-Way rules) can be queried.
 
 
 Traffic Rules
@@ -124,86 +156,106 @@ Furthermore, the bulbs of each bulb group defines a color and the state, among o
 In consequence, it is possible to define pretty complex traffic lights arrays, where bulbs' states changes as required.
 
 
-Phase Rings
------------
+Dynamic Rules
+-------------
 
-TODO: Explain phases and dynamic states.
+`maliput` supports dynamic states of rules. Having more than one possible state per rule could make systems pretty complex
+when handling the environment.
+To help the user to handle this situations, `maliput` also provides convenience methods and entities for such a goal.
 
+Phases
+^^^^^^
 
-Maliput backends
-----------------
+In a typical intersection we could localize at least two types of actors being present, whose states may change on time basis.
+ - Traffic Lights: To organize the traffic by managing the right of way in the intersection, the traffic lights change their state.
+ - Right-Of-Way Rules: This rule isn't static, given that its state will depend on the state of the traffic lights.
 
-Available concrete implementations of the abstract API
-
-* `maliput_dragway <https://github.com/ToyotaResearchInstitute/maliput_dragway>`_
-* `maliput_multilane <https://github.com/ToyotaResearchInstitute/maliput_multilane>`_
-* `maliput_malidrive <https://github.com/ToyotaResearchInstitute/maliput_malidrive>`_
-
-(Create diagram showing maliput as api and the backends.)
-
-
-Maliput_Malidrive backend
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-TODO: Provide maliput_malidrive's features.
-
-* OpenDRIVE based
-
-  * RoadGeometry description.
-
-    * Arc road properties.
-
-      * Variable Lane width
-
-    * Elevation profile
-    * Lateral profile:
-
-      * Superelvation
-      * crossfall (Not Yet Implemented in backend)
-
-  * OpenCRG
+`maliput` introduces the concept of `Phase` which in essence is a group of rules and their states that apply to an intersection.
+In the intersection just proposed, it is expected to have many `phases`. To handle this situation a `PhaseRing` class is provided to
+manage the Phases per intersection and also to iterate them.
 
 
+TODO: Here there should be a link to more information about phases. Probably to an example as it is the best way to understand phases, phase ring and phase providers.
 
 
 Maliput Design and Architecture
 ===============================
 
+* TODO:
+
+  * maliput is a runtime api
+  * base has certain implementions of the api, mainly for rules
+  * Explain what is needed to create a new implementation.
+
+    * Mainly road geometry description.
+
 * TODO: Plugin architecture
-* TODO
+
+
+Maliput backends
+================
+
+Available concrete implementations of the abstract API:
+
+* `maliput_dragway <https://github.com/ToyotaResearchInstitute/maliput_dragway>`_ : `maliput_dragway is an implementation of `maliput`'s API that allows users to instantiate a multilane dragway. All lanes in the dragway are straight, parallel, and in the same segment. The ends of each lane are connected together via a "magical loop" that results in vehicles traveling on the Dragway's lanes instantaneously teleporting from one end of the lane to the opposite end of the lane. The number of lanes and their lengths, widths, and shoulder widths are all user specifiable.
+
+* `maliput_multilane <https://github.com/ToyotaResearchInstitute/maliput_multilane>`_: `maliput_multilane` is an implementation of `maliput`'s API that allows users to instantiate a `RoadNetowork` with the following relevant characteristics:
+
+  * Multiple Lanes are allowed per Segment.
+  * Constant width Lanes.
+  * Segments with lateral asphalt extensions, aka shoulders.
+  * Line and Arc base geometries, composed with cubic elevation and superelevation polynomials.
+  * Semantic Builder API.
+  * YAML based map description.
+  * Adjustable linear tolerance.
+  * The number of lanes and their lengths, widths, and shoulder widths are all user specifiable.
+
+* `maliput_malidrive <https://github.com/ToyotaResearchInstitute/maliput_malidrive>`_ : `maliput_malidrive` is an implementation of `maliput`'s API that allows users to instantiate a `RoadNetwork` based on the `OpenDRIVE` specification which allows defining complex `RoadGeometry` as the standard guarantees.
+
+  * OpenDRIVE based map description.
+  * Multiple Lanes per Segment.
+  * Line and Arc base geometries, composition is allowed.
+  * Elevation profile defined by piecewise-defined cubic polynomials
+  * Lateral profile defined by piecewise-defined cubic polynomials
+    * Supports superelevation description.
+  * Varying lane width.
+  * Adjustable linear tolerance.
+
+TODO: Create diagram showing maliput as api and the backends.
 
 
 Maliput Python interface
 ===============================
 
-* TODO
+A Python interface is provided by `maliput_py <https://github.com/ToyotaResearchInstitute/maliput_py>`_ package.
 
 
 Dependencies
 ============
 
-TODO: FInd a better way to show the low quantity of dependencies maliput has.
+`maliput` and its related packages have focused on being light weight and keep a low number of dependencies.
 
-maliput
--------
+Below there is table showing the dependencies for `maliput`, `maliput_py` and `maliput_malidrive` packages.
 
-* fmt
-* yaml-cpp
+.. list-table:: Dependencies
+   :widths: 40 40 40
+   :header-rows: 1
 
-
-maliput_py
-----------
-
-* maliput
-* pybind11
-
-maliput_malidrive
------------------
-
-* fmt
-* maliput
-* maliput_drake
-* tinyxml2
+   * - maliput
+     - maliput_py
+     - maliput_malidrive
+   * - fmt
+     - maliput
+     - fmt
+   * - yaml-cpp
+     - pybind11
+     - tinyxml2
+   * -
+     - python3
+     - maliput
+   * -
+     -
+     - maliput_drake(fmt, spdlog, eigen)
 
 
 Related Repositories
