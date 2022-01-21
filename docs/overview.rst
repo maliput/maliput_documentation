@@ -181,15 +181,58 @@ TODO: Here there should be a link to more information about phases. Probably to 
 Maliput Design and Architecture
 ===============================
 
-* TODO:
 
-  * maliput is a runtime api
-  * base has certain implementions of the api, mainly for rules
-  * Explain what is needed to create a new implementation.
+`maliput` package is in essence a C++ runtime API with most of the classes being purely virtual.
 
-    * Mainly road geometry description.
+Along the API, other namespaces/libraries are provided by `maliput`:
 
-* TODO: Plugin architecture
+* **api**: Defines the `maliput` API.
+* **base**: Base implementations of rules and traffic-lights related API.
+* **geometry_base**: Base implementations of geometry-related API.
+* **common**: Contains classes used by other namespaces and packages.(i.g: Logger, errors, etc)
+* **math**: Math library providing support for vector, matrix, quaternion, and roll, pitch and yaw representations.
+* **plugin**: Maliput provides a plugin architecture for easily customize certain systems implementations.
+* **routing**: Provides methods to obtain routes in the `RoadNetwork` graph.
+* **test_utilities**: Contains convenience helpers for testing the `RoadNetwork`.
+* **utilities**: Provides useful methods and classes related to mesh generation and concurrent task solvers.
+* **utility**: Contains file-handling related methods.
+
+Implementing Maliput backend
+----------------------------
+
+As we mentioned before `maliput` defines an API that forces the backends to meet its requirements.
+
+When implementing a maliput backend, the following needs to be taken into account.
+
+1 - Implement classes related to the road geometry model:
+
+* `maliput::api::RoadGeometry`: It is partially implemented at `maliput::base`, however the fundamental geometric methods that define the immersion of `lane`-frame into `Inertial`-frame is the job of each specific backend.
+* `maliput::api::Lane`: A Lane represents a lane of travel in a road network. It is necessary to define a road model for the lanes.
+
+2 - Populate the `RoadNetwork`:
+
+* Add `Lanes` to `Segments`.
+* Add `Segments` `Junctions`.
+* Add `Junctions` to the `RoadGeometry`.
+* Populate RoadNetwork related entities: Many of them have a builder at maliput::base to easily create them.
+
+  * RuleRegistry
+  * RoadRulebook.
+  * IntersectionBook.
+  * TrafficLightBook.
+  * PhaseRingBook.
+  * PhaseProvider
+  * DiscreteValueRuleStateProvider
+  * RangeValueRuleStateProvider
+
+Maliput Plugin Architecture
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+`maliput` provides an architecture that allows users to customize certain systems implementations in an easy and effective way.
+Maliput clients may opt to use the plugin architecture to load at runtime specific backends.
+That simplifies the linkage process and reduces the number of compile time dependencies.
+
+For further information refer to `Maliput Plugin Architecture <from_doxygen/html/deps/maliput/html/maliput_plugin_architecture.html>`_ page.
 
 
 Maliput backends
