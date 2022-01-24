@@ -1,3 +1,7 @@
+| GCC |
+| --------- |
+|[![gcc](https://github.com/ToyotaResearchInstitute/maliput_documentation/actions/workflows/build.yml/badge.svg)](https://github.com/ToyotaResearchInstitute/maliput_documentation/actions/workflows/build.yml) |
+
 # Maliput Documentation
 
 Documentation and Changelog for Maliput & family.
