@@ -317,10 +317,53 @@ Related Repositories
 * `delphyne_demos <https://github.com/ToyotaResearchInstitute/delphyne_demos>`_
 
 
-Comparison with other libraries
-===============================
-TODO
+Why Maliput?
+============
 
+As it was mentioned along the document, `maliput` proposes an API to query a `RoadNetwork` model, guaranteeing, among other things, a continuous description of the road(under certain user-defined tolerance) and handling
+dynamic environments where traffic rules and traffic lights may change according another condition(e.g.: time basis).
+
+`maliput` goes beyond defining a particular specification format for describing a road network model, as it could be `lanelet2` or `OpenDRIVE` specification formats.
+The `maliput`'s architecture allows implementing as many `maliput` backend as needed, for which each backend can rely on any preferred map specification format.
+
+TODO: Should this section be located at the top of the document?
+
+Comparison with other libraries
+-------------------------------
+
+Even though there aren't many open-source map handling frameworks out there, it is worth noting some differences with `lanelet2` library so as to get to know
+the advantages that `maliput` provides.
+
+ * Road surface definition
+
+    `maliput` guarantees G1 contiguity on the `Road Network` surface under certain user-defined tolerance. The description of the surface can be as versatile as it is required by downstream packages.
+    In particular, `maliput_malidrive` package, which is a `maliput` backend, is based on the `OpenDRIVE` specification. This `OpenDRIVE` specification provides vast control over the physical characteristics that a road may have(e.g.: elevation, banking, crossfall, OpenCRG integration) which
+    endures obtaining a more realistic road surface model.
+    In counterpart, `lanelet2` is based on an custom `OSM` description format in which the lanes are defined by using two polylines to indicate both left and right boundaries and the points in between defining the lane surface are linearly interpolated.
+    The standard only guarantees G0 contiguity by definition and the implementation doesn't provide tolerance control.
+    Road's characteristics like elevation and banking profiles could be achieved by using correct set points, yet giving up precision obtained by missing tolerance control. However, information like crossfall of the road isn't supported.
+
+ * Traffic rules descriptions.
+
+    In `maliput` traffic rules can be loaded via YAML file and they are independent of the underlying map format that is being used in the `maliput` backend.
+    The rules are meant to apply to a zone in particular including one or more lanes, consequently obtaining the rules that apply to a particular lane is rather trivial.
+    In `lanelet2` the rules are extended by creating `Regulatory Elements` and adding them into the OSM description file. Computing where each rule starts or ends isn't that straight forward in comparison with `maliput`. Additional
+    geometry calculations are required for obtaining the range of the rule as there is no conception of lane frame in `lanelet2` as there is in `maliput`.
+
+ * Dynamic state of rules.
+
+    `maliput` supports environments with dynamic rules, that is, rules that change their states based on different conditions(e.g: Time). Several entities are provided
+    to handle this situations gracefully.
+    In `lanelet2` there is no support for dynamic rules whatsoever.
+
+ * Intersection's helpers
+
+    In `maliput`, the intersections of the `RoadNetwork` are identified to easily manage the state of the rules that apply to
+    a particular intersection (e.g: Right-Of-Way rules depending on traffic light's states.).
+    In counterpart, in `lanelet2` identifying crossing roads and the rules that apply to the intersection could be rather challenging.
+
+
+TODO: Wrap up section
 
 Road Map
 ========
