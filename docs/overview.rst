@@ -31,6 +31,8 @@ Features
 * Support for ROS2 Foxy.
 * BSD 3-Clause License.
 
+TLDR: Jump to `Why Maliput?`_ section to learn what it provides and compare it against other map specifications. Disclaimer: this is not another map specification.
+
 Maliput components
 ==================
 
@@ -104,8 +106,6 @@ In `maliput` the rules have the following properties:
   * `related unique ids`: Holds groups of related uniques ids typically used for traffic lights' bulb groups.
 
 
-The Rules API allows adding as rules and rule types as needed.
-
 RoadRulebook
 ^^^^^^^^^^^^
 
@@ -124,8 +124,6 @@ RuleRegistry
 ^^^^^^^^^^^^
 
 The `RuleRegistry` works as a register of rule types to validate the rule type consistency. A properly created and filled `RoadRulebook` must contain rules whose type exists in the `RuleRegistry`.
-In consequence, the final rules are coherent with the kind of rules that are available for a RoadNetwork in particular. For example:
-Different cities may have different number of rules and all diversity of rule types.
 
 The `RuleRegistry` can be filled with rules by two different ways:
  * Manually, by using the `RuleRegistry` API.
@@ -138,8 +136,7 @@ Traffic Lights
 `maliput` has support for Traffic Lights. For each traffic light
 a position and orientation is defined in the Inertial-frame.
 Each traffic light could be composed by one or more bulb groups, where each bulb group is refered to the 
-frame of traffic light that contains it.
-Furthermore, the bulbs of each bulb group defines a color and the state, among other things.
+frame of traffic light that contains it. Each bulb has a collection of possible states.
 
 Consequently, it is possible to define pretty complex traffic lights arrays, where bulbs' states change with related rule states.
 
@@ -193,14 +190,15 @@ When implementing a `maliput` backend, the following needs to be taken into acco
 1 - Implement classes related to the road geometry model:
 
 * `maliput::api::RoadGeometry`: It is partially implemented at `geometry_base`, however the fundamental geometric methods that define the immersion of Lane-Frame into Inertial-Frame is specific to each backend.
-* `maliput::api::Lane`: A Lane represents a lane of travel in a road network. It is necessary to define a road model for the lanes.
+
+  * `maliput::api::Lane`
 
 2 - Populate the `RoadNetwork`:
 
 * Add `Lanes` to `Segments`.
 * Add `Segments` `Junctions`.
 * Add `Junctions` to the `RoadGeometry`.
-* Populate RoadNetwork related entities: Many of them have a builder at `maliput::base` to easily create them.
+* Populate RoadNetwork related entities: Many of them have a builder at `maliput` to easily create them.
 
   * RuleRegistry
   * RoadRulebook.
@@ -264,44 +262,9 @@ Dependencies
 
 `maliput` and its related packages have focused on being lightweight and keeping a low number of external dependencies.
 
-Below there is table showing the dependencies for `maliput`, `maliput_py` and `maliput_malidrive` packages.
+The dependencies are listed in the `package.xml` file of each repository.
 
-.. list-table:: Dependencies
-   :widths: 40 40 40
-   :header-rows: 1
-
-   * - maliput
-     - maliput_py
-     - maliput_malidrive
-   * - fmt
-     - maliput
-     - fmt
-   * - yaml-cpp
-     - pybind11
-     - tinyxml2
-   * -
-     - python3
-     - maliput
-   * -
-     -
-     - maliput_drake(fmt, spdlog, eigen)
-
-
-Related Repositories
-====================
-
-* `maliput <https://github.com/ToyotaResearchInstitute/maliput>`_
-* `maliput_py <https://github.com/ToyotaResearchInstitute/maliput_py>`_
-* `maliput_dragway <https://github.com/ToyotaResearchInstitute/maliput_dragway>`_
-* `maliput_multilane <https://github.com/ToyotaResearchInstitute/maliput_multilane>`_
-* `maliput_malidrive <https://github.com/ToyotaResearchInstitute/maliput_malidrive>`_
-* `maliput_drake <https://github.com/ToyotaResearchInstitute/maliput_drake>`_
-* `maliput_integration <https://github.com/ToyotaResearchInstitute/maliput_integration>`_
-* `maliput_integration_tests <https://github.com/ToyotaResearchInstitute/maliput_integration_tests>`_
-* `delphyne <https://github.com/ToyotaResearchInstitute/delphyne>`_
-* `delphyne_gui <https://github.com/ToyotaResearchInstitute/delphyne_gui>`_
-* `delphyne_demos <https://github.com/ToyotaResearchInstitute/delphyne_demos>`_
-
+.. _Why Maliput?:
 
 Why Maliput?
 ============
@@ -310,7 +273,6 @@ As it was mentioned along the document, `maliput` proposes an API to query a `Ro
 dynamic environments where traffic rules and traffic lights may change according other conditions (e.g.: time events).
 
 `maliput` does not focus on a specific format, e.g. `lanelet2` or `OpenDRIVE`. It's a `maliput` backend the one that will convert / parse / load a specific data bundle described in terms of a specification into a `maliput` implementation that could be used seamlessly by simulated agents.
-The `maliput`'s architecture allows implementing as many `maliput` backend as needed, for which each backend can rely on any preferred map specification format.
 
 TODO: Should this section be located at the top of the document?
 
@@ -349,9 +311,7 @@ the advantages that `maliput` provides.
     On the contrary, identifying crossing roads and the rules that apply to the intersection could be rather challenging in `lanelet2`.
 
 
-TODO: Wrap up section
-
 Roadmap
-========
+=======
 
 TODO
