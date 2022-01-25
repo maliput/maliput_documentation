@@ -10,7 +10,7 @@ Summary
 
 A C++ runtime API describing a Road Network model for use in agent and traffic simulations.
 It guarantees a continuous description of the road geometry and supports dynamic environments
-with varying rules state, among other things.
+with varying rules states.
 There are currently several implementations of maliput, the most complex one is based on `OpenDRIVE` specification.
 
 
@@ -19,15 +19,15 @@ Features
 --------
 
 * G1 Contiguous road geometry description with tolerance control.
-* Lane-frame and Inertial-frame support.
+* Lane-FRAME and Inertial-FRAME support.
 * Customizable traffic rules.
 * Handles dynamic rule environments.
 * Supports Traffic Lights.
-* Convenience functions to query the Road Network and Rules.
+* Convenience functions to query the Road Network and its Rules.
 * Available maliput backend based on `OpenDRIVE` specification.
 * Plugin architecture to extend Road Network implementation.
-* C++ 17 API.
-* Python Interface.
+* C++ 17 compatible API.
+* Python bindings.
 * Support for ROS2 Foxy.
 * BSD 3-Clause License.
 
@@ -37,26 +37,26 @@ Maliput components
 Road Network
 ------------
 
-At the core of maliput is a mathematical model of the geometry and topology of a road network.
-That model is practically expressed by an abstract C++ API which is intended to be independent of any specific on-disk format for persistent road data.
+maliput is a runtime API that describes the road volume and connectivity graph.
+The road model is accessed via an abstract C++ API.
 
 `maliput` is agnostic of the data source for a road network. Concrete implementations for different data sources will expose the same abstract interface.
-Some networks may be completely synthetic (constructed by hand, or even procedurally), others will be created from measurements of real-life roads.
+Some networks may be completely synthetic (i.e. they are built from the road surface mathematical function), others will be created from measurements of real-life roads (i.e. sampled surfaces).
 
 
 Road Geometry model
 -------------------
 
 In the lexicon of `maliput` and its C++ API, the road volume manifold is called a `RoadGeometry`. A `RoadGeometry` is partitioned into `Segments`, which correspond to stretches of asphalt (and the space above and/or below them).
-Each `Segment` is a group of one or more adjacent `Lanes`. A `Lane` corresponds to a lane of travel on a road, and defines a specific parameterization of the parent `Segment`'s volume from a local lane frame into the Inertial-frame.
-`Lanes` are connected at `BranchPoints`, and the graph of `Lanes` and `BranchPoints` describes the topology of a `RoadGeometry`. `Segments` which map to intersecting volumes of the Inertial-frame (e.g., intersections) are grouped together into `Junctions`.
-The semantic direction of the lane isn't defined by the geometry but by traffic rules, which is convenient in case where lanes are expected to change its direction.
+Each `Segment` is a group of one or more adjacent `Lanes`. A `Lane` corresponds to a lane of travel on a road, and defines a specific parameterization of the parent `Segment`'s volume from a local Lane-Frame into the Inertial-frame.
+`Lanes` are connected at `BranchPoints`, and the graph of `Lanes` and `BranchPoints` describes the topology of a `RoadGeometry`. `Segments` which map to intersecting volumes of the Inertial-frame (e.g., road intersections) are grouped together into `Junctions`.
+The semantic direction of the lane isn't defined by the geometry but by traffic rules. Almost all lane properties will be defined by rules because of their convenient state dynamics.
 
-In a sense, there are two complementary object graphs in `maliput`. The container hierarchy (Junctions contain `Segments`, which contain Lanes) groups together different views of the same regions of road surface.
-The routing graph (Lanes are joined end-to-end via BranchPoints) describes how one can get from one region of the road network to another.
+To summarize, there are two complementary object graphs in `maliput`. The container hierarchy (`Junctions` contain `Segments`, which contain `Lanes`) groups together different parts of the entire road surface.
+Solving the routing graph (`Lanes` are joined end-to-end via `BranchPoints`) allows to derive routes in the road network.
 
-A `RoadGeometry` may also model paths that are adjacent to roads like sidewalks. If there is no G1 continuity between the road and its adjacent paths, the two must be separated by `Segment` boundaries.
-This is not in violation of `maliput`'s continuity requirements because `maliput` has no notion of laterally-adjacent `Segments`.
+A `RoadGeometry` may also model laterally adjacent paths to the road, such as sidewalks. If there is no G1 continuity between the road and its adjacent paths, the two must be separated by `Segment` boundaries.
+It does not violate `maliput`'s continuity constraint because `maliput` has no notion of laterally-adjacent `Segments`.
 
 
 Summary
@@ -74,12 +74,12 @@ Summary
 
 * Inertial frame vs Lane frame.
 
-  * The Inertial-frame is any right-handed 3D inertial Cartesian coordinate system, with orthonormal basis (x^,y^,z^) and positions expressed as triples (x,y,z).
-  * The Lane-frame is a right-handed orthonormal curvilinear coordinate system, with positions expressed as coordinates (s,r,h). Each Lane in a ``RoadGeometry`` defines its own embedding into the Inertial space, and thus each Lane has its own Lane-frame.
+  * The Inertial-Frame is any right-handed 3D inertial Cartesian coordinate system, with orthonormal basis (x̂, ŷ, ẑ) and positions expressed as triples (x,y,z).
+  * The Lane-frame is a right-handed orthonormal curvilinear coordinate system, with positions expressed as coordinates (s,r,h). Each Lane in a ``RoadGeometry`` defines its own embedding into the Inertial space, and thus each Lane has its own Lane-Frame.
 
 * G1 Contiguity
 
-  * G1 Contiguity requirement affects both `Lane` description and `Segment` description.
+G1 contiguity is controlled via a linear tolerance (measured in meters) and an angular tolerance (measured in radians). Tolerances are checked at the BranchPoints by `maliput` API and it is required that the implementation respects them for all points the `RoadGeometry` volume.
 * Tolerance control
 
   * Linear and angular tolerances are user-defined.
@@ -94,8 +94,8 @@ TODO: Mention about queries provided to traverse the graph.
 Intersections
 -------------
 
-`maliput` provides a register of intersections called `IntersectionBook` and it holds all the intersections located in the map.
-This book is a convenience class that serves as single source of information to avoid users to query a large number of data structures.
+`maliput` provides a register of `Intersections` called `IntersectionBook` which holds all the `Intersections` in the map.
+Each `Intersection` aggregates related entities by zone and applied rules and their states.
 
 Once obtained the intersection of interest information about the states of the traffic lights and the rules(i.e.: Right-Of-Way rules) can be queried.
 
@@ -106,12 +106,12 @@ Traffic Rules
 Rules
 ^^^^^
 
-In `maliput` the rules have the following components:
+In `maliput` the rules have the following properties:
 
 * `severity`: A non-negative quantity that specifies the level of enforcement.
-* `zone`: The `zone` where the rule applies can be composed by as many lanes needed, and even only a range of each lane can be selected.
-* `type`: There are many type of rules: speed-limit rule, right-of-way rule, direction usage rule, vehicle usage rule, etc.
-* `states`: Each rule could be static or it could have multiple states. The API supports having states' that are either a discrete value or a range of values(a.k.a. `DiscreteValueRule` and `RangeValueRule`).
+* `zone`: the lane route where the rule applies.
+* `type`: user defined rule types: speed-limit rule, right-of-way rule, direction usage rule, vehicle usage rule, etc.
+* `states`: Each rule could be static (ie. it has one state) or dynamic (it has multiple states). The API supports having states that are either a discrete valued (which are named by string labels) or define a contiguous range of a quantity (a.k.a. `DiscreteValueRule` and `RangeValueRule`).
 * `related rules`: Holds groups of rules that are related to the one being described.
 
 
