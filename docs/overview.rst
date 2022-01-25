@@ -59,31 +59,20 @@ A `RoadGeometry` may also model laterally adjacent paths to the road, such as si
 It does not violate `maliput`'s continuity constraint because `maliput` has no notion of laterally-adjacent `Segments`.
 
 
-Summary
-^^^^^^^
+Frames
+^^^^^^
 
-* A group of adjacent `Lane`s is a `Segment`.
-* A Segment represents a bundle of adjacent Lanes which share a continuously traversable road surface.
+* The **Inertial-Frame** is any right-handed 3D inertial Cartesian coordinate system, with orthonormal basis (x̂, ŷ, ẑ) and positions expressed as triples (x,y,z).
+* The **Lane-frame** is a right-handed orthonormal curvilinear coordinate system, with positions expressed as coordinates (s,r,h). Each Lane in a ``RoadGeometry`` defines its own embedding into the Inertial space, and thus each Lane has its own Lane-Frame.
 
-  * The number of lanes in a `Segment` is the same along the road.
-  * A Junction is a closed set of `Segments` which have physically coplanar road surfaces.
-
-* A `BranchPoint` is a node in the network of a `RoadGeometry` at which `Lanes` connect to one another.
-* Direction of the lanes are defined by traffic rules.
-  * In dynamic environments the direction of the lane can change to replicate real road scenarios(i.e.: Lanes changing direction depending on rush hour).
-
-* Inertial frame vs Lane frame.
-
-  * The Inertial-Frame is any right-handed 3D inertial Cartesian coordinate system, with orthonormal basis (x̂, ŷ, ẑ) and positions expressed as triples (x,y,z).
-  * The Lane-frame is a right-handed orthonormal curvilinear coordinate system, with positions expressed as coordinates (s,r,h). Each Lane in a ``RoadGeometry`` defines its own embedding into the Inertial space, and thus each Lane has its own Lane-Frame.
-
-* G1 Contiguity
+G1 Contiguity
+^^^^^^^^^^^^^
 
 G1 contiguity is controlled via a linear tolerance (measured in meters) and an angular tolerance (measured in radians). Tolerances are checked at the BranchPoints by `maliput` API and it is required that the implementation respects them for all points the `RoadGeometry` volume.
-* Tolerance control
 
-  * Linear and angular tolerances are user-defined.
 
+Road Network Example
+--------------------
 
 .. image:: media/overview/maliput_primitives.png
 
@@ -97,8 +86,6 @@ Intersections
 `maliput` provides a register of `Intersections` called `IntersectionBook` which holds all the `Intersections` in the map.
 Each `Intersection` aggregates related entities by zone and applied rules and their states.
 
-Once obtained the intersection of interest information about the states of the traffic lights and the rules(i.e.: Right-Of-Way rules) can be queried.
-
 
 Traffic Rules
 -------------
@@ -108,11 +95,13 @@ Rules
 
 In `maliput` the rules have the following properties:
 
-* `severity`: A non-negative quantity that specifies the level of enforcement.
 * `zone`: the lane route where the rule applies.
 * `type`: user defined rule types: speed-limit rule, right-of-way rule, direction usage rule, vehicle usage rule, etc.
-* `states`: Each rule could be static (ie. it has one state) or dynamic (it has multiple states). The API supports having states that are either a discrete valued (which are named by string labels) or define a contiguous range of a quantity (a.k.a. `DiscreteValueRule` and `RangeValueRule`).
-* `related rules`: Holds groups of rules that are related to the one being described.
+* `states`: Each rule could be static (ie. it has one state) or dynamic (it has multiple states). The API supports having states that are either a discrete valued (which are named by string labels) or define a contiguous range of a quantity (a.k.a. `DiscreteValueRule` and `RangeValueRule`). Each state has the following properties:
+
+  * `severity`: A non-negative quantity that specifies the level of enforcement.
+  * `related rules`: Holds groups of rules that are related to the one being described.
+  * `related unique ids`: Holds groups of related uniques ids typically used for traffic lights' bulb groups.
 
 
 The Rules API allows adding as rules and rule types as needed.
