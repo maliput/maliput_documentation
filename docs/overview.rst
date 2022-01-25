@@ -133,12 +133,13 @@ The `RuleRegistry` can be filled with rules by two different ways:
 Traffic Lights
 --------------
 
-`maliput` has support for Traffic Lights. For each traffic light
-a position and orientation is defined in the Inertial-frame.
-Each traffic light could be composed by one or more bulb groups, where each bulb group is refered to the 
-frame of traffic light that contains it. Each bulb has a collection of possible states.
+`maliput` has support for traffic lights in the `RoadNetwork`.
 
-Consequently, it is possible to define pretty complex traffic lights arrays, where bulbs' states change with related rule states.
+* A **TrafficLight** models the signaling device that are typically located at road intersections. It is composed by one or more groups of light bulbs called `BulbGroup`. For each `TrafficLight` an unique id and a pose in the Inertial-frame is defined.
+* A **BulbGroup** models a group of light bulbs within a traffic light. Pose is relative to the traffic light that holds it.
+* A **Bulb** models a light bulb within a `BulbGroup`. The pose is relative to the `BulbGroup` it belongs. Each `Bulb` has a collection of possible states (e.g: On, Off, Blinking).
+
+Consequently, it is possible to define pretty complex traffic lights arrays.
 
 
 Dynamic Rules
