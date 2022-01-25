@@ -11,7 +11,7 @@ Summary
 A C++ runtime API describing a Road Network model for use in agent and traffic simulations.
 It guarantees a continuous description of the road geometry and supports dynamic environments
 with varying rules states.
-There are currently several implementations of maliput, the most complex one is based on `OpenDRIVE` specification.
+There are currently several implementations of `maliput`, the most complex one is based on `OpenDRIVE` specification.
 
 
 
@@ -24,7 +24,7 @@ Features
 * Handles dynamic rule environments.
 * Supports Traffic Lights.
 * Convenience functions to query the Road Network and its Rules.
-* Available maliput backend based on `OpenDRIVE` specification.
+* Available `maliput` backend based on `OpenDRIVE` specification.
 * Plugin architecture to extend Road Network implementation.
 * C++ 17 compatible API.
 * Python bindings.
@@ -37,7 +37,7 @@ Maliput components
 Road Network
 ------------
 
-maliput is a runtime API that describes the road volume and connectivity graph.
+`maliput` is a runtime API that describes the road volume and connectivity graph.
 The road model is accessed via an abstract C++ API.
 
 `maliput` is agnostic of the data source for a road network. Concrete implementations for different data sources will expose the same abstract interface.
@@ -180,7 +180,7 @@ Along the API, other namespaces/libraries are provided by `maliput`:
 * **geometry_base**: Base implementations of geometry-related API.
 * **common**: Contains classes used by other namespaces and packages.(i.g: Logger, errors, etc)
 * **math**: Math library providing support for vector, matrix, quaternion, and roll, pitch and yaw representations.
-* **plugin**: Maliput provides a plugin architecture for easily customize certain systems implementations.
+* **plugin**: `maliput` provides a plugin architecture for easily customize certain systems implementations.
 * **routing**: Provides methods to obtain routes in the `RoadNetwork` graph.
 * **test_utilities**: Contains convenience helpers for testing the `RoadNetwork`.
 * **utilities**: Provides useful methods and classes related to mesh generation and concurrent task solvers.
@@ -191,7 +191,7 @@ Implementing Maliput backend
 
 As we mentioned before `maliput` defines an API that forces the backends to meet its requirements.
 
-When implementing a maliput backend, the following needs to be taken into account.
+When implementing a `maliput` backend, the following needs to be taken into account.
 
 1 - Implement classes related to the road geometry model:
 
@@ -203,7 +203,7 @@ When implementing a maliput backend, the following needs to be taken into accoun
 * Add `Lanes` to `Segments`.
 * Add `Segments` `Junctions`.
 * Add `Junctions` to the `RoadGeometry`.
-* Populate RoadNetwork related entities: Many of them have a builder at maliput::base to easily create them.
+* Populate RoadNetwork related entities: Many of them have a builder at `maliput::base` to easily create them.
 
   * RuleRegistry
   * RoadRulebook.
@@ -218,7 +218,7 @@ Maliput Plugin Architecture
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 `maliput` provides an architecture that allows users to customize certain systems implementations in an easy and effective way.
-Maliput clients may opt to use the plugin architecture to load at runtime specific backends.
+`maliput`'s clients may opt to use the plugin architecture to load at runtime specific backends.
 That simplifies the linkage process and reduces the number of compile time dependencies.
 
 For further information refer to `Maliput Plugin Architecture <from_doxygen/html/deps/maliput/html/maliput_plugin_architecture.html>`_ page.
@@ -253,7 +253,7 @@ Available concrete implementations of the abstract API:
   * Varying lane width.
   * Adjustable linear tolerance.
 
-TODO: Create diagram showing maliput as api and the backends.
+TODO: Create diagram showing `maliput` as api and the backends.
 
 
 Maliput Python interface
