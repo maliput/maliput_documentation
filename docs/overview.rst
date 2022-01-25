@@ -109,28 +109,27 @@ The Rules API allows adding as rules and rule types as needed.
 RoadRulebook
 ^^^^^^^^^^^^
 
-A `RoadRulebook` contains the semantic traffic rules for a road network, as rule elements associated to components of a `RoadGeometry`.
-The `RoadRulebook` API provides methods to obtain the rules that apply to a certain lane range.
+A `RoadRulebook` contains the rules for a road network. It allows to query them based on their ID and route.
 
 
 Filling the book
 """"""""""""""""
 
 The `RoadRulebook` can be filled with rules by two different ways:
- * Manually by using the `ManualRoadRulebook` API.
+ * Manually (or by procedural code) by using the `ManualRoadRulebook` API.
  * Automatically by loading a YAML file where all the rules were previously described.
 
 
 RuleRegistry
 ^^^^^^^^^^^^
 
-The `RuleRegistry` works as a register of rule types in which the `RoadRulebook` relies on when the rules are being created.
+The `RuleRegistry` works as a register of rule types to validate the rule type consistency. A properly created and filled `RoadRulebook` must contain rules whose type exists in the `RuleRegistry`.
 In consequence, the final rules are coherent with the kind of rules that are available for a RoadNetwork in particular. For example:
 Different cities may have different number of rules and all diversity of rule types.
 
 The `RuleRegistry` can be filled with rules by two different ways:
- * Manually by using the `RuleRegistry` API.
- * Automatically by loading a YAML file where all the rule types were previously described.
+ * Manually, by using the `RuleRegistry` API.
+ * Automatically, by loading a YAML file where all the rule types were previously described.
 
 
 Traffic Lights
@@ -142,26 +141,24 @@ Each traffic light could be composed by one or more bulb groups, where each bulb
 frame of traffic light that contains it.
 Furthermore, the bulbs of each bulb group defines a color and the state, among other things.
 
-In consequence, it is possible to define pretty complex traffic lights arrays, where bulbs' states changes as required.
+Consequently, it is possible to define pretty complex traffic lights arrays, where bulbs' states change with related rule states.
 
 
 Dynamic Rules
 -------------
 
-`maliput` supports dynamic states of rules. Having more than one possible state per rule could make systems pretty complex
-when handling the environment.
-To help the user to handle this situations, `maliput` also provides convenience methods and entities for such a goal.
+`maliput` supports dynamic rule states. Having more than one possible state per rule and bulbs allows to define complex relations between them for a given region.
+`maliput` offers a set of convenient classes to ease the general state transition management,
 
 Phases
 ^^^^^^
 
-In a typical intersection we could localize at least two types of actors being present, whose states may change on time basis.
- - Traffic Lights: To organize the traffic by managing the right of way in the intersection, the traffic lights change their state.
- - Right-Of-Way Rules: This rule isn't static, given that its state will depend on the state of the traffic lights.
+In a typical road intersection, we may identify at least two `maliput` entities whose states may change.
+ - The `Bulbs`' state in `TrafficLights`.
+ - The rule state of dynamic rules. For instance, a `DiscreteValueRule` whose type is `Right-Of-Way`.
 
-`maliput` introduces the concept of `Phase` which in essence is a group of rules and their states that apply to an intersection.
-In the intersection just proposed, it is expected to have many `phases`. To handle this situation a `PhaseRing` class is provided to
-manage the Phases per intersection and also to iterate them.
+To couple the `Bulb` and `Rule` states, `maliput` introduces the `Phases`. A `Phase` aggregates rule states and bulb states.
+`PhaseRings` manage the transition cycle between `Phases`.
 
 
 TODO: Here there should be a link to more information about phases. Probably to an example as it is the best way to understand phases, phase ring and phase providers.
@@ -195,7 +192,7 @@ When implementing a `maliput` backend, the following needs to be taken into acco
 
 1 - Implement classes related to the road geometry model:
 
-* `maliput::api::RoadGeometry`: It is partially implemented at `maliput::base`, however the fundamental geometric methods that define the immersion of `lane`-frame into `Inertial`-frame is the job of each specific backend.
+* `maliput::api::RoadGeometry`: It is partially implemented at `geometry_base`, however the fundamental geometric methods that define the immersion of Lane-Frame into Inertial-Frame is specific to each backend.
 * `maliput::api::Lane`: A Lane represents a lane of travel in a road network. It is necessary to define a road model for the lanes.
 
 2 - Populate the `RoadNetwork`:
@@ -219,7 +216,7 @@ Maliput Plugin Architecture
 
 `maliput` provides an architecture that allows users to customize certain systems implementations in an easy and effective way.
 `maliput`'s clients may opt to use the plugin architecture to load at runtime specific backends.
-That simplifies the linkage process and reduces the number of compile time dependencies.
+That simplifies and unifies the linkage process and reduces the number of compile time dependencies.
 
 For further information refer to `Maliput Plugin Architecture <from_doxygen/html/deps/maliput/html/maliput_plugin_architecture.html>`_ page.
 
@@ -229,13 +226,13 @@ Maliput backends
 
 Available concrete implementations of the abstract API:
 
-* `maliput_dragway <https://github.com/ToyotaResearchInstitute/maliput_dragway>`_ : `maliput_dragway is an implementation of `maliput`'s API that allows users to instantiate a multilane dragway. All lanes in the dragway are straight, parallel, and in the same segment. The ends of each lane are connected together via a "magical loop" that results in vehicles traveling on the Dragway's lanes instantaneously teleporting from one end of the lane to the opposite end of the lane. The number of lanes and their lengths, widths, and shoulder widths are all user specifiable.
+* `maliput_dragway <https://github.com/ToyotaResearchInstitute/maliput_dragway>`_ : `maliput_dragway is an implementation of `maliput`'s API that allows users to instantiate a multi-Lane dragway. All lanes in the dragway are straight, parallel, and in the same segment. The ends of each lane are connected together via a "magical loop" that results in vehicles traveling on the Dragway's lanes instantaneously teleporting from one end of the lane to the opposite end of the lane. The number of lanes and their lengths, widths, and shoulder widths are all user customizable.
 
 * `maliput_multilane <https://github.com/ToyotaResearchInstitute/maliput_multilane>`_: `maliput_multilane` is an implementation of `maliput`'s API that allows users to instantiate a `RoadNetowork` with the following relevant characteristics:
 
   * Multiple Lanes are allowed per Segment.
   * Constant width Lanes.
-  * Segments with lateral asphalt extensions, aka shoulders.
+  * Segments with lateral asphalt extensions, a.k.a. shoulders.
   * Line and Arc base geometries, composed with cubic elevation and superelevation polynomials.
   * Semantic Builder API.
   * YAML based map description.
@@ -259,13 +256,13 @@ TODO: Create diagram showing `maliput` as api and the backends.
 Maliput Python interface
 ===============================
 
-A Python interface is provided by `maliput_py <https://github.com/ToyotaResearchInstitute/maliput_py>`_ package.
+Python bindings are provided by `maliput_py <https://github.com/ToyotaResearchInstitute/maliput_py>`_ package. Only the API is covered.
 
 
 Dependencies
 ============
 
-`maliput` and its related packages have focused on being light weight and keep a low number of dependencies.
+`maliput` and its related packages have focused on being lightweight and keeping a low number of external dependencies.
 
 Below there is table showing the dependencies for `maliput`, `maliput_py` and `maliput_malidrive` packages.
 
@@ -309,10 +306,10 @@ Related Repositories
 Why Maliput?
 ============
 
-As it was mentioned along the document, `maliput` proposes an API to query a `RoadNetwork` model, guaranteeing, among other things, a continuous description of the road(under certain user-defined tolerance) and handling
-dynamic environments where traffic rules and traffic lights may change according another condition(e.g.: time basis).
+As it was mentioned along the document, `maliput` proposes an API to query a `RoadNetwork` model, guaranteeing, among other things, a continuous description of the road (under certain user-defined tolerance) and handling
+dynamic environments where traffic rules and traffic lights may change according other conditions (e.g.: time events).
 
-`maliput` goes beyond defining a particular specification format for describing a road network model, as it could be `lanelet2` or `OpenDRIVE` specification formats.
+`maliput` does not focus on a specific format, e.g. `lanelet2` or `OpenDRIVE`. It's a `maliput` backend the one that will convert / parse / load a specific data bundle described in terms of a specification into a `maliput` implementation that could be used seamlessly by simulated agents.
 The `maliput`'s architecture allows implementing as many `maliput` backend as needed, for which each backend can rely on any preferred map specification format.
 
 TODO: Should this section be located at the top of the document?
@@ -320,41 +317,41 @@ TODO: Should this section be located at the top of the document?
 Comparison with other libraries
 -------------------------------
 
-Even though there aren't many open-source map handling frameworks out there, it is worth noting some differences with `lanelet2` library so as to get to know
+Even though there aren't many open-source map handling frameworks out there, it is worth noting some differences with `lanelet2` library to understand
 the advantages that `maliput` provides.
 
  * Road surface definition
 
     `maliput` guarantees G1 contiguity on the `Road Network` surface under certain user-defined tolerance. The description of the surface can be as versatile as it is required by downstream packages.
-    In particular, `maliput_malidrive` package, which is a `maliput` backend, is based on the `OpenDRIVE` specification. This `OpenDRIVE` specification provides vast control over the physical characteristics that a road may have(e.g.: elevation, banking, crossfall, OpenCRG integration) which
+    In particular, `maliput_malidrive` package, which is a `maliput` backend, is based on the `OpenDRIVE` specification. This `OpenDRIVE` specification provides vast control over the physical characteristics that a road may have (e.g.: elevation, banking, crossfall, OpenCRG integration) which
     endures obtaining a more realistic road surface model.
-    In counterpart, `lanelet2` is based on an custom `OSM` description format in which the lanes are defined by using two polylines to indicate both left and right boundaries and the points in between defining the lane surface are linearly interpolated.
+    `lanelet2` is based on an custom `OSM` (or derived schema) description format in which the lanes are defined by using two polylines to indicate both left and right boundaries. The lane surface is inferred from the polygons that those two polylines define.
     The standard only guarantees G0 contiguity by definition and the implementation doesn't provide tolerance control.
-    Road's characteristics like elevation and banking profiles could be achieved by using correct set points, yet giving up precision obtained by missing tolerance control. However, information like crossfall of the road isn't supported.
+    Road's characteristics like elevation and banking profiles could be achieved by using the same points used to define lanes. However, information like crossfall of the road isn't supported.
 
  * Traffic rules descriptions.
 
     In `maliput` traffic rules can be loaded via YAML file and they are independent of the underlying map format that is being used in the `maliput` backend.
-    The rules are meant to apply to a zone in particular including one or more lanes, consequently obtaining the rules that apply to a particular lane is rather trivial.
-    In `lanelet2` the rules are extended by creating `Regulatory Elements` and adding them into the OSM description file. Computing where each rule starts or ends isn't that straight forward in comparison with `maliput`. Additional
-    geometry calculations are required for obtaining the range of the rule as there is no conception of lane frame in `lanelet2` as there is in `maliput`.
+    The rules are meant to apply to a zone in particular including one or more consecutive lanes (routes), consequently obtaining the rules that apply to a particular lane range is rather trivial.
+    In `lanelet2` the rules are extended by creating `Regulatory Elements` and adding them into the OSM description file. Computing where each rule starts or ends isn't straightforward in comparison with `maliput`. Additional
+    geometry calculations are required to obtain the rule range because there is no Lane-Frame in `lanelet2`.
 
- * Dynamic state of rules.
+ * Rules dynamic states
 
-    `maliput` supports environments with dynamic rules, that is, rules that change their states based on different conditions(e.g: Time). Several entities are provided
-    to handle this situations gracefully.
-    In `lanelet2` there is no support for dynamic rules whatsoever.
+    `maliput` supports environments with dynamic rules, that is, rules that change their states based on different conditions (e.g: time). Several entities are provided
+    to gracefully handle these situations.
+    `lanelet2` has no builtin support for dynamic rules. Road designer can extend the specification with custom behaviors though.
 
  * Intersection's helpers
 
     In `maliput`, the intersections of the `RoadNetwork` are identified to easily manage the state of the rules that apply to
-    a particular intersection (e.g: Right-Of-Way rules depending on traffic light's states.).
-    In counterpart, in `lanelet2` identifying crossing roads and the rules that apply to the intersection could be rather challenging.
+    a particular intersection (e.g: Right-Of-Way rules depending on traffic light's bulb states.).
+    On the contrary, identifying crossing roads and the rules that apply to the intersection could be rather challenging in `lanelet2`.
 
 
 TODO: Wrap up section
 
-Road Map
+Roadmap
 ========
 
 TODO
