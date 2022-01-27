@@ -286,7 +286,7 @@ the advantages that `maliput` provides.
  * Road surface definition
 
     `maliput` guarantees G1 contiguity on the `Road Network` surface under certain user-defined tolerance. The description of the surface can be as versatile as it is required by downstream packages.
-    In particular, `maliput_malidrive` package, which is a `maliput` backend, is based on the `OpenDRIVE` specification. This `OpenDRIVE` specification provides vast control over the physical characteristics that a road may have (e.g.: elevation, banking, crossfall, OpenCRG integration) which
+    In particular, `maliput_malidrive` package, which is a `maliput` backend, is based on the `OpenDRIVE` specification. This `OpenDRIVE` specification provides vast control over the physical characteristics that a road may have (e.g.: elevation, banking, crossfall, `OpenCRG <https://www.asam.net/standards/detail/opencrg/>`_ integration) which
     endures obtaining a more realistic road surface model.
     `lanelet2` is based on an custom `OSM` (or derived schema) description format in which the lanes are defined by using two polylines to indicate both left and right boundaries. The lane surface is inferred from the polygons that those two polylines define.
     The standard only guarantees G0 contiguity by definition and the implementation doesn't provide tolerance control.

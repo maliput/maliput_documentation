@@ -4,7 +4,7 @@ Welcome to maliput documentation!
 .. toctree::
    :maxdepth: 1
 
-   overview
+   maliput_overview
    installation_quickstart
    developer_guidelines
    contributing
