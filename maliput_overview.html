@@ -1,0 +1,445 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Maliput Overview &#8212; Maliput Documentation</title>
+    <link rel="stylesheet" href="_static/pyramid.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Installation and Quickstart" href="installation_quickstart.html" />
+    <link rel="prev" title="Welcome to maliput documentation!" href="index.html" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head><body>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="installation_quickstart.html" title="Installation and Quickstart"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to maliput documentation!"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Maliput Documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="maliput-overview">
+<h1><a class="toc-backref" href="#id3">Maliput Overview</a><a class="headerlink" href="#maliput-overview" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="table-of-contents">
+<p class="topic-title">Table of Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#maliput-overview" id="id3">Maliput Overview</a><ul>
+<li><a class="reference internal" href="#summary" id="id4">Summary</a><ul>
+<li><a class="reference internal" href="#features" id="id5">Features</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#maliput-components" id="id6">Maliput components</a><ul>
+<li><a class="reference internal" href="#road-network" id="id7">Road Network</a></li>
+<li><a class="reference internal" href="#road-geometry-model" id="id8">Road Geometry model</a><ul>
+<li><a class="reference internal" href="#frames" id="id9">Frames</a></li>
+<li><a class="reference internal" href="#g1-contiguity" id="id10">G1 Contiguity</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#road-network-example" id="id11">Road Network Example</a></li>
+<li><a class="reference internal" href="#intersections" id="id12">Intersections</a></li>
+<li><a class="reference internal" href="#traffic-rules" id="id13">Traffic Rules</a><ul>
+<li><a class="reference internal" href="#rules" id="id14">Rules</a></li>
+<li><a class="reference internal" href="#roadrulebook" id="id15">RoadRulebook</a><ul>
+<li><a class="reference internal" href="#filling-the-book" id="id16">Filling the book</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ruleregistry" id="id17">RuleRegistry</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#traffic-lights" id="id18">Traffic Lights</a></li>
+<li><a class="reference internal" href="#dynamic-rules" id="id19">Dynamic Rules</a><ul>
+<li><a class="reference internal" href="#phases" id="id20">Phases</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#maliput-design-and-architecture" id="id21">Maliput Design and Architecture</a><ul>
+<li><a class="reference internal" href="#implementing-maliput-backend" id="id22">Implementing Maliput backend</a><ul>
+<li><a class="reference internal" href="#maliput-plugin-architecture" id="id23">Maliput Plugin Architecture</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#maliput-backends" id="id24">Maliput backends</a></li>
+<li><a class="reference internal" href="#maliput-python-interface" id="id25">Maliput Python interface</a></li>
+<li><a class="reference internal" href="#dependencies" id="id26">Dependencies</a></li>
+<li><a class="reference internal" href="#why-maliput" id="id27">Why Maliput?</a><ul>
+<li><a class="reference internal" href="#comparison-with-other-libraries" id="id28">Comparison with other libraries</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#roadmap" id="id29">Roadmap</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="summary">
+<h2><a class="toc-backref" href="#id4">Summary</a><a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h2>
+<p>A C++ runtime API describing a Road Network model for use in agent and traffic simulations.
+It guarantees a continuous description of the road geometry and supports dynamic environments
+with varying rules states.
+There are currently several implementations of <cite>maliput</cite>, the most complex one is based on <cite>OpenDRIVE</cite> specification.</p>
+<div class="section" id="features">
+<h3><a class="toc-backref" href="#id5">Features</a><a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>G1 Contiguous road geometry description with tolerance control.</li>
+<li>Lane-FRAME and Inertial-FRAME support.</li>
+<li>Customizable traffic rules.</li>
+<li>Handles dynamic rule environments.</li>
+<li>Supports Traffic Lights.</li>
+<li>Convenience functions to query the Road Network and its Rules.</li>
+<li>Available <cite>maliput</cite> backend based on <cite>OpenDRIVE</cite> specification.</li>
+<li>Plugin architecture to extend Road Network implementation.</li>
+<li>C++ 17 compatible API.</li>
+<li>Python bindings.</li>
+<li>Support for ROS2 Foxy.</li>
+<li>BSD 3-Clause License.</li>
+</ul>
+<p>TLDR: Jump to <a class="reference internal" href="#why-maliput">Why Maliput?</a> section to learn what it provides and compare it against other map specifications. Disclaimer: this is not another map specification.</p>
+</div>
+</div>
+<div class="section" id="maliput-components">
+<h2><a class="toc-backref" href="#id6">Maliput components</a><a class="headerlink" href="#maliput-components" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="road-network">
+<h3><a class="toc-backref" href="#id7">Road Network</a><a class="headerlink" href="#road-network" title="Permalink to this headline">¶</a></h3>
+<p><cite>maliput</cite> is a runtime API that describes the road volume and connectivity graph.
+The road model is accessed via an abstract C++ API.</p>
+<p><cite>maliput</cite> is agnostic of the data source for a road network. Concrete implementations for different data sources will expose the same abstract interface.
+Some networks may be completely synthetic (i.e. they are built from the road surface mathematical function), others will be created from measurements of real-life roads (i.e. sampled surfaces).</p>
+</div>
+<div class="section" id="road-geometry-model">
+<h3><a class="toc-backref" href="#id8">Road Geometry model</a><a class="headerlink" href="#road-geometry-model" title="Permalink to this headline">¶</a></h3>
+<p>In the lexicon of <cite>maliput</cite> and its C++ API, the road volume manifold is called a <cite>RoadGeometry</cite>. A <cite>RoadGeometry</cite> is partitioned into <cite>Segments</cite>, which correspond to stretches of asphalt (and the space above and/or below them).
+Each <cite>Segment</cite> is a group of one or more adjacent <cite>Lanes</cite>. A <cite>Lane</cite> corresponds to a lane of travel on a road, and defines a specific parameterization of the parent <cite>Segment</cite>’s volume from a local Lane-Frame into the Inertial-frame.
+<cite>Lanes</cite> are connected at <cite>BranchPoints</cite>, and the graph of <cite>Lanes</cite> and <cite>BranchPoints</cite> describes the topology of a <cite>RoadGeometry</cite>. <cite>Segments</cite> which map to intersecting volumes of the Inertial-frame (e.g., road intersections) are grouped together into <cite>Junctions</cite>.
+The semantic direction of the lane isn’t defined by the geometry but by traffic rules. Almost all lane properties will be defined by rules because of their convenient state dynamics.</p>
+<p>To summarize, there are two complementary object graphs in <cite>maliput</cite>. The container hierarchy (<cite>Junctions</cite> contain <cite>Segments</cite>, which contain <cite>Lanes</cite>) groups together different parts of the entire road surface.
+Solving the routing graph (<cite>Lanes</cite> are joined end-to-end via <cite>BranchPoints</cite>) allows to derive routes in the road network.</p>
+<p>A <cite>RoadGeometry</cite> may also model laterally adjacent paths to the road, such as sidewalks. If there is no G1 continuity between the road and its adjacent paths, the two must be separated by <cite>Segment</cite> boundaries.
+It does not violate <cite>maliput</cite>’s continuity constraint because <cite>maliput</cite> has no notion of laterally-adjacent <cite>Segments</cite>.</p>
+<div class="section" id="frames">
+<h4><a class="toc-backref" href="#id9">Frames</a><a class="headerlink" href="#frames" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>The <strong>Inertial-Frame</strong> is any right-handed 3D inertial Cartesian coordinate system, with orthonormal basis (x̂, ŷ, ẑ) and positions expressed as triples (x,y,z).</li>
+<li>The <strong>Lane-frame</strong> is a right-handed orthonormal curvilinear coordinate system, with positions expressed as coordinates (s,r,h). Each Lane in a <code class="docutils literal notranslate"><span class="pre">RoadGeometry</span></code> defines its own embedding into the Inertial space, and thus each Lane has its own Lane-Frame.</li>
+</ul>
+</div>
+<div class="section" id="g1-contiguity">
+<h4><a class="toc-backref" href="#id10">G1 Contiguity</a><a class="headerlink" href="#g1-contiguity" title="Permalink to this headline">¶</a></h4>
+<p>G1 contiguity is controlled via a linear tolerance (measured in meters) and an angular tolerance (measured in radians). Tolerances are checked at the BranchPoints by <cite>maliput</cite> API and it is required that the implementation respects them for all points the <cite>RoadGeometry</cite> volume.</p>
+</div>
+</div>
+<div class="section" id="road-network-example">
+<h3><a class="toc-backref" href="#id11">Road Network Example</a><a class="headerlink" href="#road-network-example" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/maliput_primitives.png" src="_images/maliput_primitives.png" />
+<p>TODO: Mention about queries provided to traverse the graph.</p>
+</div>
+<div class="section" id="intersections">
+<h3><a class="toc-backref" href="#id12">Intersections</a><a class="headerlink" href="#intersections" title="Permalink to this headline">¶</a></h3>
+<p><cite>maliput</cite> provides a register of <cite>Intersections</cite> called <cite>IntersectionBook</cite> which holds all the <cite>Intersections</cite> in the map.
+Each <cite>Intersection</cite> aggregates related entities by zone and applied rules and their states.</p>
+</div>
+<div class="section" id="traffic-rules">
+<h3><a class="toc-backref" href="#id13">Traffic Rules</a><a class="headerlink" href="#traffic-rules" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="rules">
+<h4><a class="toc-backref" href="#id14">Rules</a><a class="headerlink" href="#rules" title="Permalink to this headline">¶</a></h4>
+<p>In <cite>maliput</cite> the rules have the following properties:</p>
+<ul class="simple">
+<li><cite>zone</cite>: the lane route where the rule applies.</li>
+<li><cite>type</cite>: user defined rule types: speed-limit rule, right-of-way rule, direction usage rule, vehicle usage rule, etc.</li>
+<li><cite>states</cite>: Each rule could be static (ie. it has one state) or dynamic (it has multiple states). The API supports having states that are either a discrete valued (which are named by string labels) or define a contiguous range of a quantity (a.k.a. <cite>DiscreteValueRule</cite> and <cite>RangeValueRule</cite>). Each state has the following properties:<ul>
+<li><cite>severity</cite>: A non-negative quantity that specifies the level of enforcement.</li>
+<li><cite>related rules</cite>: Holds groups of rules that are related to the one being described.</li>
+<li><cite>related unique ids</cite>: Holds groups of related uniques ids typically used for traffic lights’ bulb groups.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="roadrulebook">
+<h4><a class="toc-backref" href="#id15">RoadRulebook</a><a class="headerlink" href="#roadrulebook" title="Permalink to this headline">¶</a></h4>
+<p>A <cite>RoadRulebook</cite> contains the rules for a road network. It allows to query them based on their ID and route.</p>
+<div class="section" id="filling-the-book">
+<h5><a class="toc-backref" href="#id16">Filling the book</a><a class="headerlink" href="#filling-the-book" title="Permalink to this headline">¶</a></h5>
+<dl class="docutils">
+<dt>The <cite>RoadRulebook</cite> can be filled with rules by two different ways:</dt>
+<dd><ul class="first last simple">
+<li>Manually (or by procedural code) by using the <cite>ManualRoadRulebook</cite> API.</li>
+<li>Automatically by loading a YAML file where all the rules were previously described.</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<div class="section" id="ruleregistry">
+<h4><a class="toc-backref" href="#id17">RuleRegistry</a><a class="headerlink" href="#ruleregistry" title="Permalink to this headline">¶</a></h4>
+<p>The <cite>RuleRegistry</cite> works as a register of rule types to validate the rule type consistency. A properly created and filled <cite>RoadRulebook</cite> must contain rules whose type exists in the <cite>RuleRegistry</cite>.</p>
+<dl class="docutils">
+<dt>The <cite>RuleRegistry</cite> can be filled with rules by two different ways:</dt>
+<dd><ul class="first last simple">
+<li>Manually, by using the <cite>RuleRegistry</cite> API.</li>
+<li>Automatically, by loading a YAML file where all the rule types were previously described.</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+<div class="section" id="traffic-lights">
+<h3><a class="toc-backref" href="#id18">Traffic Lights</a><a class="headerlink" href="#traffic-lights" title="Permalink to this headline">¶</a></h3>
+<p><cite>maliput</cite> has support for traffic lights in the <cite>RoadNetwork</cite>.</p>
+<ul class="simple">
+<li>A <strong>TrafficLight</strong> models the signaling device that are typically located at road intersections. It is composed by one or more groups of light bulbs called <cite>BulbGroup</cite>. For each <cite>TrafficLight</cite> an unique id and a pose in the Inertial-frame is defined.</li>
+<li>A <strong>BulbGroup</strong> models a group of light bulbs within a traffic light. Pose is relative to the traffic light that holds it.</li>
+<li>A <strong>Bulb</strong> models a light bulb within a <cite>BulbGroup</cite>. The pose is relative to the <cite>BulbGroup</cite> it belongs. Each <cite>Bulb</cite> has a collection of possible states (e.g: On, Off, Blinking).</li>
+</ul>
+<p>Consequently, it is possible to define pretty complex traffic lights arrays.</p>
+</div>
+<div class="section" id="dynamic-rules">
+<h3><a class="toc-backref" href="#id19">Dynamic Rules</a><a class="headerlink" href="#dynamic-rules" title="Permalink to this headline">¶</a></h3>
+<p><cite>maliput</cite> supports dynamic rule states. Having more than one possible state per rule and bulbs allows to define complex relations between them for a given region.
+<cite>maliput</cite> offers a set of convenient classes to ease the general state transition management,</p>
+<div class="section" id="phases">
+<h4><a class="toc-backref" href="#id20">Phases</a><a class="headerlink" href="#phases" title="Permalink to this headline">¶</a></h4>
+<dl class="docutils">
+<dt>In a typical road intersection, we may identify at least two <cite>maliput</cite> entities whose states may change.</dt>
+<dd><ul class="first last simple">
+<li>The <cite>Bulbs</cite>’ state in <cite>TrafficLights</cite>.</li>
+<li>The rule state of dynamic rules. For instance, a <cite>DiscreteValueRule</cite> whose type is <cite>Right-Of-Way</cite>.</li>
+</ul>
+</dd>
+</dl>
+<p>To couple the <cite>Bulb</cite> and <cite>Rule</cite> states, <cite>maliput</cite> introduces the <cite>Phases</cite>. A <cite>Phase</cite> aggregates rule states and bulb states.
+<cite>PhaseRings</cite> manage the transition cycle between <cite>Phases</cite>.</p>
+<p>TODO: Here there should be a link to more information about phases. Probably to an example as it is the best way to understand phases, phase ring and phase providers.</p>
+</div>
+</div>
+</div>
+<div class="section" id="maliput-design-and-architecture">
+<h2><a class="toc-backref" href="#id21">Maliput Design and Architecture</a><a class="headerlink" href="#maliput-design-and-architecture" title="Permalink to this headline">¶</a></h2>
+<p><cite>maliput</cite> package is in essence a C++ runtime API with most of the classes being purely virtual.</p>
+<p>Along the API, other namespaces/libraries are provided by <cite>maliput</cite>:</p>
+<ul class="simple">
+<li><strong>api</strong>: Defines the <cite>maliput</cite> API.</li>
+<li><strong>base</strong>: Base implementations of rules and traffic-lights related API.</li>
+<li><strong>geometry_base</strong>: Base implementations of geometry-related API.</li>
+<li><strong>common</strong>: Contains classes used by other namespaces and packages.(i.g: Logger, errors, etc)</li>
+<li><strong>math</strong>: Math library providing support for vector, matrix, quaternion, and roll, pitch and yaw representations.</li>
+<li><strong>plugin</strong>: <cite>maliput</cite> provides a plugin architecture for easily customize certain systems implementations.</li>
+<li><strong>routing</strong>: Provides methods to obtain routes in the <cite>RoadNetwork</cite> graph.</li>
+<li><strong>test_utilities</strong>: Contains convenience helpers for testing the <cite>RoadNetwork</cite>.</li>
+<li><strong>utilities</strong>: Provides useful methods and classes related to mesh generation and concurrent task solvers.</li>
+<li><strong>utility</strong>: Contains file-handling related methods.</li>
+</ul>
+<div class="section" id="implementing-maliput-backend">
+<h3><a class="toc-backref" href="#id22">Implementing Maliput backend</a><a class="headerlink" href="#implementing-maliput-backend" title="Permalink to this headline">¶</a></h3>
+<p>As we mentioned before <cite>maliput</cite> defines an API that forces the backends to meet its requirements.</p>
+<p>When implementing a <cite>maliput</cite> backend, the following needs to be taken into account.</p>
+<p>1 - Implement classes related to the road geometry model:</p>
+<ul class="simple">
+<li><cite>maliput::api::RoadGeometry</cite>: It is partially implemented at <cite>geometry_base</cite>, however the fundamental geometric methods that define the immersion of Lane-Frame into Inertial-Frame is specific to each backend.<ul>
+<li><cite>maliput::api::Lane</cite></li>
+</ul>
+</li>
+</ul>
+<p>2 - Populate the <cite>RoadNetwork</cite>:</p>
+<ul class="simple">
+<li>Add <cite>Lanes</cite> to <cite>Segments</cite>.</li>
+<li>Add <cite>Segments</cite> <cite>Junctions</cite>.</li>
+<li>Add <cite>Junctions</cite> to the <cite>RoadGeometry</cite>.</li>
+<li>Populate RoadNetwork related entities: Many of them have a builder at <cite>maliput</cite> to easily create them.<ul>
+<li>RuleRegistry</li>
+<li>RoadRulebook.</li>
+<li>IntersectionBook.</li>
+<li>TrafficLightBook.</li>
+<li>PhaseRingBook.</li>
+<li>PhaseProvider</li>
+<li>DiscreteValueRuleStateProvider</li>
+<li>RangeValueRuleStateProvider</li>
+</ul>
+</li>
+</ul>
+<div class="section" id="maliput-plugin-architecture">
+<h4><a class="toc-backref" href="#id23">Maliput Plugin Architecture</a><a class="headerlink" href="#maliput-plugin-architecture" title="Permalink to this headline">¶</a></h4>
+<p><cite>maliput</cite> provides an architecture that allows users to customize certain systems implementations in an easy and effective way.
+<cite>maliput</cite>’s clients may opt to use the plugin architecture to load at runtime specific backends.
+That simplifies and unifies the linkage process and reduces the number of compile time dependencies.</p>
+<p>For further information refer to <a class="reference external" href="from_doxygen/html/deps/maliput/html/maliput_plugin_architecture.html">Maliput Plugin Architecture</a> page.</p>
+</div>
+</div>
+</div>
+<div class="section" id="maliput-backends">
+<h2><a class="toc-backref" href="#id24">Maliput backends</a><a class="headerlink" href="#maliput-backends" title="Permalink to this headline">¶</a></h2>
+<p>Available concrete implementations of the abstract API:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/ToyotaResearchInstitute/maliput_dragway">maliput_dragway</a> : <cite>maliput_dragway is an implementation of `maliput</cite>’s API that allows users to instantiate a multi-Lane dragway. All lanes in the dragway are straight, parallel, and in the same segment. The ends of each lane are connected together via a “magical loop” that results in vehicles traveling on the Dragway’s lanes instantaneously teleporting from one end of the lane to the opposite end of the lane. The number of lanes and their lengths, widths, and shoulder widths are all user customizable.</li>
+<li><a class="reference external" href="https://github.com/ToyotaResearchInstitute/maliput_multilane">maliput_multilane</a>: <cite>maliput_multilane</cite> is an implementation of <cite>maliput</cite>’s API that allows users to instantiate a <cite>RoadNetowork</cite> with the following relevant characteristics:<ul>
+<li>Multiple Lanes are allowed per Segment.</li>
+<li>Constant width Lanes.</li>
+<li>Segments with lateral asphalt extensions, a.k.a. shoulders.</li>
+<li>Line and Arc base geometries, composed with cubic elevation and superelevation polynomials.</li>
+<li>Semantic Builder API.</li>
+<li>YAML based map description.</li>
+<li>Adjustable linear tolerance.</li>
+<li>The number of lanes and their lengths, widths, and shoulder widths are all user specifiable.</li>
+</ul>
+</li>
+<li><a class="reference external" href="https://github.com/ToyotaResearchInstitute/maliput_malidrive">maliput_malidrive</a> : <cite>maliput_malidrive</cite> is an implementation of <cite>maliput</cite>’s API that allows users to instantiate a <cite>RoadNetwork</cite> based on the <cite>OpenDRIVE</cite> specification which allows defining complex <cite>RoadGeometry</cite> as the standard guarantees.<ul>
+<li>OpenDRIVE based map description.</li>
+<li>Multiple Lanes per Segment.</li>
+<li>Line and Arc base geometries, composition is allowed.</li>
+<li>Elevation profile defined by piecewise-defined cubic polynomials</li>
+<li>Lateral profile defined by piecewise-defined cubic polynomials
+* Supports superelevation description.</li>
+<li>Varying lane width.</li>
+<li>Adjustable linear tolerance.</li>
+</ul>
+</li>
+</ul>
+<p>TODO: Create diagram showing <cite>maliput</cite> as api and the backends.</p>
+</div>
+<div class="section" id="maliput-python-interface">
+<h2><a class="toc-backref" href="#id25">Maliput Python interface</a><a class="headerlink" href="#maliput-python-interface" title="Permalink to this headline">¶</a></h2>
+<p>Python bindings are provided by <a class="reference external" href="https://github.com/ToyotaResearchInstitute/maliput_py">maliput_py</a> package. Only the API is covered.</p>
+</div>
+<div class="section" id="dependencies">
+<h2><a class="toc-backref" href="#id26">Dependencies</a><a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h2>
+<p><cite>maliput</cite> and its related packages have focused on being lightweight and keeping a low number of external dependencies.</p>
+<p>The dependencies are listed in the <cite>package.xml</cite> file of each repository.</p>
+</div>
+<div class="section" id="why-maliput">
+<span id="id2"></span><h2><a class="toc-backref" href="#id27">Why Maliput?</a><a class="headerlink" href="#why-maliput" title="Permalink to this headline">¶</a></h2>
+<p>As it was mentioned along the document, <cite>maliput</cite> proposes an API to query a <cite>RoadNetwork</cite> model, guaranteeing, among other things, a continuous description of the road (under certain user-defined tolerance) and handling
+dynamic environments where traffic rules and traffic lights may change according other conditions (e.g.: time events).</p>
+<p><cite>maliput</cite> does not focus on a specific format, e.g. <cite>lanelet2</cite> or <cite>OpenDRIVE</cite>. It’s a <cite>maliput</cite> backend the one that will convert / parse / load a specific data bundle described in terms of a specification into a <cite>maliput</cite> implementation that could be used seamlessly by simulated agents.</p>
+<p>TODO: Should this section be located at the top of the document?</p>
+<div class="section" id="comparison-with-other-libraries">
+<h3><a class="toc-backref" href="#id28">Comparison with other libraries</a><a class="headerlink" href="#comparison-with-other-libraries" title="Permalink to this headline">¶</a></h3>
+<p>Even though there aren’t many open-source map handling frameworks out there, it is worth noting some differences with <cite>lanelet2</cite> library to understand
+the advantages that <cite>maliput</cite> provides.</p>
+<blockquote>
+<div><ul>
+<li><p class="first">Road surface definition</p>
+<blockquote>
+<div><p><cite>maliput</cite> guarantees G1 contiguity on the <cite>Road Network</cite> surface under certain user-defined tolerance. The description of the surface can be as versatile as it is required by downstream packages.
+In particular, <cite>maliput_malidrive</cite> package, which is a <cite>maliput</cite> backend, is based on the <cite>OpenDRIVE</cite> specification. This <cite>OpenDRIVE</cite> specification provides vast control over the physical characteristics that a road may have (e.g.: elevation, banking, crossfall, <a class="reference external" href="https://www.asam.net/standards/detail/opencrg/">OpenCRG</a> integration) which
+endures obtaining a more realistic road surface model.
+<cite>lanelet2</cite> is based on an custom <cite>OSM</cite> (or derived schema) description format in which the lanes are defined by using two polylines to indicate both left and right boundaries. The lane surface is inferred from the polygons that those two polylines define.
+The standard only guarantees G0 contiguity by definition and the implementation doesn’t provide tolerance control.
+Road’s characteristics like elevation and banking profiles could be achieved by using the same points used to define lanes. However, information like crossfall of the road isn’t supported.</p>
+</div></blockquote>
+</li>
+<li><p class="first">Traffic rules descriptions.</p>
+<blockquote>
+<div><p>In <cite>maliput</cite> traffic rules can be loaded via YAML file and they are independent of the underlying map format that is being used in the <cite>maliput</cite> backend.
+The rules are meant to apply to a zone in particular including one or more consecutive lanes (routes), consequently obtaining the rules that apply to a particular lane range is rather trivial.
+In <cite>lanelet2</cite> the rules are extended by creating <cite>Regulatory Elements</cite> and adding them into the OSM description file. Computing where each rule starts or ends isn’t straightforward in comparison with <cite>maliput</cite>. Additional
+geometry calculations are required to obtain the rule range because there is no Lane-Frame in <cite>lanelet2</cite>.</p>
+</div></blockquote>
+</li>
+<li><p class="first">Rules dynamic states</p>
+<blockquote>
+<div><p><cite>maliput</cite> supports environments with dynamic rules, that is, rules that change their states based on different conditions (e.g: time). Several entities are provided
+to gracefully handle these situations.
+<cite>lanelet2</cite> has no builtin support for dynamic rules. Road designer can extend the specification with custom behaviors though.</p>
+</div></blockquote>
+</li>
+<li><p class="first">Intersection’s helpers</p>
+<blockquote>
+<div><p>In <cite>maliput</cite>, the intersections of the <cite>RoadNetwork</cite> are identified to easily manage the state of the rules that apply to
+a particular intersection (e.g: Right-Of-Way rules depending on traffic light’s bulb states.).
+On the contrary, identifying crossing roads and the rules that apply to the intersection could be rather challenging in <cite>lanelet2</cite>.</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="roadmap">
+<h2><a class="toc-backref" href="#id29">Roadmap</a><a class="headerlink" href="#roadmap" title="Permalink to this headline">¶</a></h2>
+<p>TODO</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h3><a href="index.html">Table of Contents</a></h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Maliput Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation_quickstart.html">Installation and Quickstart</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer_guidelines.html">Developer guidelines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gallery.html">Gallery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="documentation.html">Documentation</a></li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Welcome to maliput documentation!</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="installation_quickstart.html"
+                        title="next chapter">Installation and Quickstart</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="installation_quickstart.html" title="Installation and Quickstart"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to maliput documentation!"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Maliput Documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020 Toyota Research Institute.
+    </div>
+  </body>
+</html>
