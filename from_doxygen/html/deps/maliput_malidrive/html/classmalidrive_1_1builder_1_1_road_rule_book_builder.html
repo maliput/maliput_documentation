@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1builder_1_1_road_rul
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classmalidrive_1_1builder_1_1_road_rule_book_builder-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">RoadRuleBookBuilder Class Reference</div>  </div>
@@ -97,23 +98,94 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1builder_1_1_road_rul
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Functor to build a RoadRulebook. </p>
+<p>The rules API is composed of:</p><ul>
+<li>maliput::api::rules::Rules depending on the type of value they hold:<ul>
+<li><a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_discrete_value_rule.html">maliput::api::rules::DiscreteValueRule</a></li>
+<li><a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_range_value_rule.html">maliput::api::rules::RangeValueRule</a></li>
+</ul>
+</li>
+<li><a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_rule_registry.html">maliput::api::rules::RuleRegistry</a>: it is used to register all the rule type that are allowed.</li>
+</ul>
+<p>The building procedure is based on top a loader method provided by maliput: <a href="https://github.com/ToyotaResearchInstitute/maliput/blob/ab4bff490702c31abd2d0d9ff87383f6f00c45c8/maliput/src/base/road_rulebook_loader_using_rule_registry.cc#L206">RoadRulebook loader with rule registry</a></p>
+<p>The following rules are created and added programatically on top what the RoadRulebook <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> file describes.</p><ul>
+<li>Speed limits: <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_range_value_rule.html">maliput::api::rules::RangeValueRule</a> whose type is "Speed-Limit Rule Type" are created.</li>
+<li>Direction usage: maliput::api::rules::DiscretValueRule whose type is "Direction-Usage Rule Type" are created.</li>
+<li>Vehicle exclusive: maliput::api::rules::DiscretValueRule whose type is "Vehicle-Exclusive Rule Type" are created.</li>
+<li>Vehicle usage: maliput::api::rules::DiscretValueRule whose type is "Vehicle-Usage Rule Type" are created. </li>
+</ul>
 </div>
 <p><code>#include &lt;src/maliput_malidrive/builder/road_rulebook_builder.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a9a4247615de61a80aa77cc031b32ab95"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_rule_book_builder.html#a9a4247615de61a80aa77cc031b32ab95">RoadRuleBookBuilder</a> (const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *rg, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_rule_registry.html">maliput::api::rules::RuleRegistry</a> *rule_registry, const std::optional&lt; std::string &gt; &amp;road_rulebook_file_path)</td></tr>
+<tr class="memdesc:a9a4247615de61a80aa77cc031b32ab95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a RoadRuleBook.  <a href="classmalidrive_1_1builder_1_1_road_rule_book_builder.html#a9a4247615de61a80aa77cc031b32ab95">More...</a><br /></td></tr>
+<tr class="separator:a9a4247615de61a80aa77cc031b32ab95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b0c37966413c5e2e6b8e102af10ba26"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_rule_book_builder.html#a6b0c37966413c5e2e6b8e102af10ba26">RoadRuleBookBuilder</a> ()=delete</td></tr>
 <tr class="separator:a6b0c37966413c5e2e6b8e102af10ba26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa41b015522fcbd73764eeb40967c76e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_rule_book_builder.html#aaa41b015522fcbd73764eeb40967c76e">RoadRuleBookBuilder</a> (const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *rg, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_rule_registry.html">maliput::api::rules::RuleRegistry</a> *rule_registry, const std::optional&lt; std::string &gt; &amp;road_rulebook_file_path, const std::vector&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_direction_usage_rule.html">maliput::api::rules::DirectionUsageRule</a> &gt; &amp;direction_usage_rules, const std::vector&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html">maliput::api::rules::SpeedLimitRule</a> &gt; &amp;speed_limit_rules)</td></tr>
-<tr class="memdesc:aaa41b015522fcbd73764eeb40967c76e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a RoadRuleBook.  <a href="classmalidrive_1_1builder_1_1_road_rule_book_builder.html#aaa41b015522fcbd73764eeb40967c76e">More...</a><br /></td></tr>
-<tr class="separator:aaa41b015522fcbd73764eeb40967c76e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a602d1dc8e7333ed57d55d5f41f2dc86f"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_road_rulebook.html">maliput::api::rules::RoadRulebook</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_rule_book_builder.html#a602d1dc8e7333ed57d55d5f41f2dc86f">operator()</a> ()</td></tr>
 <tr class="memdesc:a602d1dc8e7333ed57d55d5f41f2dc86f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a ManualRulebook.  <a href="classmalidrive_1_1builder_1_1_road_rule_book_builder.html#a602d1dc8e7333ed57d55d5f41f2dc86f">More...</a><br /></td></tr>
 <tr class="separator:a602d1dc8e7333ed57d55d5f41f2dc86f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a327521612b1e677f3976e9503e4cec82"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_rule_book_builder.html#a327521612b1e677f3976e9503e4cec82">AddsXODRBasedRulesToRulebook</a> (const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *rg, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_rule_registry.html">maliput::api::rules::RuleRegistry</a> *rule_registry, <a class="elRef" href="../../maliput/html/classmaliput_1_1_manual_rulebook.html">maliput::ManualRulebook</a> *rulebook)</td></tr>
+<tr class="memdesc:a327521612b1e677f3976e9503e4cec82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populates RoadRulebook using rule types previously defined in the RuleRegistry.  <a href="classmalidrive_1_1builder_1_1_road_rule_book_builder.html#a327521612b1e677f3976e9503e4cec82">More...</a><br /></td></tr>
+<tr class="separator:a327521612b1e677f3976e9503e4cec82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a9a4247615de61a80aa77cc031b32ab95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a4247615de61a80aa77cc031b32ab95">&#9670;&nbsp;</a></span>RoadRuleBookBuilder() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmalidrive_1_1builder_1_1_road_rule_book_builder.html">RoadRuleBookBuilder</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *&#160;</td>
+          <td class="paramname"><em>rg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_rule_registry.html">maliput::api::rules::RuleRegistry</a> *&#160;</td>
+          <td class="paramname"><em>rule_registry</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::optional&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>road_rulebook_file_path</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructs a RoadRuleBook. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rg</td><td>is the pointer to the <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend.">RoadGeometry</a>. It must not be nullptr. </td></tr>
+    <tr><td class="paramname">rule_registry</td><td>is the pointer to the RuleRegistry. It must not be nullptr. </td></tr>
+    <tr><td class="paramname">road_rulebook_file_path</td><td>to the yaml file to load the RoadRulebook. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">maliput::assertion_error</td><td>When <code>rg</code> or <code>rule_registry</code> are nullptr. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a6b0c37966413c5e2e6b8e102af10ba26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b0c37966413c5e2e6b8e102af10ba26">&#9670;&nbsp;</a></span>RoadRuleBookBuilder() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b0c37966413c5e2e6b8e102af10ba26">&#9670;&nbsp;</a></span>RoadRuleBookBuilder() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137,14 +209,18 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aaa41b015522fcbd73764eeb40967c76e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa41b015522fcbd73764eeb40967c76e">&#9670;&nbsp;</a></span>RoadRuleBookBuilder() <span class="overload">[2/2]</span></h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a327521612b1e677f3976e9503e4cec82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a327521612b1e677f3976e9503e4cec82">&#9670;&nbsp;</a></span>AddsXODRBasedRulesToRulebook()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classmalidrive_1_1builder_1_1_road_rule_book_builder.html">RoadRuleBookBuilder</a> </td>
+          <td class="memname">void AddsXODRBasedRulesToRulebook </td>
           <td>(</td>
           <td class="paramtype">const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *&#160;</td>
           <td class="paramname"><em>rg</em>, </td>
@@ -158,20 +234,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::optional&lt; std::string &gt; &amp;&#160;</td>
-          <td class="paramname"><em>road_rulebook_file_path</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_direction_usage_rule.html">maliput::api::rules::DirectionUsageRule</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>direction_usage_rules</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html">maliput::api::rules::SpeedLimitRule</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>speed_limit_rules</em>&#160;</td>
+          <td class="paramtype"><a class="elRef" href="../../maliput/html/classmaliput_1_1_manual_rulebook.html">maliput::ManualRulebook</a> *&#160;</td>
+          <td class="paramname"><em>rulebook</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -179,29 +243,24 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Constructs a RoadRuleBook. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">rg</td><td>is the pointer to the <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend.">RoadGeometry</a>. It must not be nullptr. </td></tr>
-    <tr><td class="paramname">rule_registry</td><td>is the pointer to the RuleRegistry. It must not be nullptr. </td></tr>
-    <tr><td class="paramname">road_rulebook_file_path</td><td>to the yaml file to load the RoadRulebook. </td></tr>
-    <tr><td class="paramname">direction_usage_rules</td><td>is a vector of DirectionUsageRules. </td></tr>
-    <tr><td class="paramname">speed_limit_rules</td><td>is a vector of SpeedLimitRules. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">maliput::assertion_error</td><td>When <code>rg</code> or <code>rule_registry</code> are nullptr. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Populates RoadRulebook using rule types previously defined in the RuleRegistry. </p>
+<p>These rules' values are obtained from the XODR file description. They are of type:</p><ul>
+<li>Vehicle-Usage Rule Type</li>
+<li>Vehicle-Exclusive Rule Type</li>
+<li>Speed-Limit Rule Type</li>
+<li>Direction-Usage Rule Type</li>
+</ul>
+<p>See <a class="el" href="classmalidrive_1_1builder_1_1_rule_registry_builder.html" title="Functor to build a RuleRegistry.">malidrive::builder::RuleRegistryBuilder</a> for further information. </p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a602d1dc8e7333ed57d55d5f41f2dc86f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a602d1dc8e7333ed57d55d5f41f2dc86f">&#9670;&nbsp;</a></span>operator()()</h2>
 
@@ -218,7 +277,6 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Builds a ManualRulebook. </p>
-<p>Both Speed Limits Rules and Direction Usage Rules are added to the Rulebook after Rulebook yaml file is loaded. </p>
 
 </div>
 </div>

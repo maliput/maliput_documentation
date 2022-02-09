@@ -48,7 +48,11 @@ var NAVTREE =
       ] ],
       [ "Rules and Features Databases", "maliput_design.html#rules_and_features_databases", [
         [ "Rules of the Road: RoadRulebook", "maliput_design.html#rules_of_the_road", [
+          [ "New Rule API description", "maliput_design.html#new_rules_types", [
+            [ "Common rule types and their implementations", "maliput_design.html#new_rule_common_types", null ]
+          ] ],
           [ "Common Region Entities", "maliput_design.html#common_region_entities", null ],
+          [ "[DEPRECATED] Old rule API", "maliput_design.html#deprecated_rule_api", null ],
           [ "SpeedLimitRule: Speed Limits", "maliput_design.html#speed_limit_rules", null ],
           [ "RightOfWayRule: Stopping and Yielding", "maliput_design.html#right_of_way_rule", null ]
         ] ]
@@ -112,10 +116,10 @@ var NAVTREEINDEX =
 "classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_state_provider.html#a4dd111289aa9e32c0b87731f55259839",
 "classmaliput_1_1math_1_1_matrix.html#a59aa4194176579e234872ba587a1881c",
 "filter__positions_8cc.html",
-"maliput_design.html#lanes_as_lanes",
-"namespacemembers_d.html",
-"structmaliput_1_1api_1_1_iso_lane_velocity.html#afebcdb204b56a32639d88fa2299526d3",
-"traffic__lights__compare_8cc.html#a4560fca9b6f2d4fe9f7ee489c0849504"
+"maliput_design.html#lane",
+"namespacemembers_a.html",
+"structmaliput_1_1api_1_1_iso_lane_velocity.html#a10f42953901acfdedb9cabafc069a6f4",
+"traffic__lights__compare_8cc.html#a089610aca46476265341a0a509f10363"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

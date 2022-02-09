@@ -71,6 +71,7 @@ var hierarchy =
     [ "RoadNetworkBuilder", "classmalidrive_1_1builder_1_1_road_network_builder.html", null ],
     [ "RoadNetworkConfiguration", "structmalidrive_1_1builder_1_1_road_network_configuration.html", null ],
     [ "RoadRuleBookBuilder", "classmalidrive_1_1builder_1_1_road_rule_book_builder.html", null ],
+    [ "RoadRuleBookBuilderOldRules", "classmalidrive_1_1builder_1_1_road_rule_book_builder_old_rules.html", null ],
     [ "RoadType", "structmalidrive_1_1xodr_1_1_road_type.html", null ],
     [ "RuleRegistryBuilder", "classmalidrive_1_1builder_1_1_rule_registry_builder.html", null ],
     [ "Segment", "../../maliput/html/classmaliput_1_1api_1_1_segment.html", [

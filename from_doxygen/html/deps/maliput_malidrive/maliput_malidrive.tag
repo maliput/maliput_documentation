@@ -1242,6 +1242,13 @@
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr char const  *</type>
+      <name>kRuleRegistry</name>
+      <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
+      <anchor>gad98da37a0819c38a07a700edc8f2ec88</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
       <name>kTrafficLightBook</name>
       <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
       <anchor>gaa52290b1f18b24e3f00bd1dc5db5eb53</anchor>
@@ -1854,6 +1861,7 @@
     <includes id="road__geometry__builder_8h" name="road_geometry_builder.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_builder.h</includes>
     <includes id="road__network__configuration_8h" name="road_network_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_network_configuration.h</includes>
     <includes id="road__rulebook__builder_8h" name="road_rulebook_builder.h" local="yes" imported="no">maliput_malidrive/builder/road_rulebook_builder.h</includes>
+    <includes id="road__rulebook__builder__old__rules_8h" name="road_rulebook_builder_old_rules.h" local="yes" imported="no">maliput_malidrive/builder/road_rulebook_builder_old_rules.h</includes>
     <includes id="rule__registry__builder_8h" name="rule_registry_builder.h" local="yes" imported="no">maliput_malidrive/builder/rule_registry_builder.h</includes>
     <includes id="speed__limit__builder_8h" name="speed_limit_builder.h" local="yes" imported="no">maliput_malidrive/builder/speed_limit_builder.h</includes>
     <includes id="xodr__parser__configuration_8h" name="xodr_parser_configuration.h" local="yes" imported="no">maliput_malidrive/builder/xodr_parser_configuration.h</includes>
@@ -1909,6 +1917,28 @@
     <includes id="rule__tools_8h" name="rule_tools.h" local="yes" imported="no">maliput_malidrive/builder/rule_tools.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <class kind="class">malidrive::builder::RoadRuleBookBuilder</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::builder</namespace>
+  </compound>
+  <compound kind="file">
+    <name>road_rulebook_builder_old_rules.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
+    <filename>road__rulebook__builder__old__rules_8cc.html</filename>
+    <includes id="road__rulebook__builder__old__rules_8h" name="road_rulebook_builder_old_rules.h" local="yes" imported="no">maliput_malidrive/builder/road_rulebook_builder_old_rules.h</includes>
+    <includes id="builder__tools_8h" name="builder_tools.h" local="yes" imported="no">maliput_malidrive/builder/builder_tools.h</includes>
+    <includes id="id__providers_8h" name="id_providers.h" local="yes" imported="no">maliput_malidrive/builder/id_providers.h</includes>
+    <includes id="road__rulebook__builder_8h" name="road_rulebook_builder.h" local="yes" imported="no">maliput_malidrive/builder/road_rulebook_builder.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::builder</namespace>
+  </compound>
+  <compound kind="file">
+    <name>road_rulebook_builder_old_rules.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
+    <filename>road__rulebook__builder__old__rules_8h.html</filename>
+    <includes id="base_2lane_8h" name="base/lane.h" local="yes" imported="no">maliput_malidrive/base/lane.h</includes>
+    <includes id="rule__tools_8h" name="rule_tools.h" local="yes" imported="no">maliput_malidrive/builder/rule_tools.h</includes>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <class kind="class">malidrive::builder::RoadRuleBookBuilderOldRules</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
   </compound>
@@ -6353,6 +6383,13 @@
     </member>
     <member kind="variable">
       <type>std::optional&lt; std::string &gt;</type>
+      <name>rule_registry</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
+      <anchor>a84d5aaac8f3a92928a1af39bc73ee8b7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
       <name>road_rule_book</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
       <anchor>a127efa8b04191c300170ff5f1a109672</anchor>
@@ -6387,20 +6424,52 @@
       <type></type>
       <name>RoadRuleBookBuilder</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_rule_book_builder.html</anchorfile>
-      <anchor>a6b0c37966413c5e2e6b8e102af10ba26</anchor>
-      <arglist>()=delete</arglist>
+      <anchor>a9a4247615de61a80aa77cc031b32ab95</anchor>
+      <arglist>(const maliput::api::RoadGeometry *rg, const maliput::api::rules::RuleRegistry *rule_registry, const std::optional&lt; std::string &gt; &amp;road_rulebook_file_path)</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>RoadRuleBookBuilder</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_rule_book_builder.html</anchorfile>
-      <anchor>aaa41b015522fcbd73764eeb40967c76e</anchor>
-      <arglist>(const maliput::api::RoadGeometry *rg, const maliput::api::rules::RuleRegistry *rule_registry, const std::optional&lt; std::string &gt; &amp;road_rulebook_file_path, const std::vector&lt; maliput::api::rules::DirectionUsageRule &gt; &amp;direction_usage_rules, const std::vector&lt; maliput::api::rules::SpeedLimitRule &gt; &amp;speed_limit_rules)</arglist>
+      <anchor>a6b0c37966413c5e2e6b8e102af10ba26</anchor>
+      <arglist>()=delete</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; const maliput::api::rules::RoadRulebook &gt;</type>
       <name>operator()</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_rule_book_builder.html</anchorfile>
+      <anchor>a602d1dc8e7333ed57d55d5f41f2dc86f</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>AddsXODRBasedRulesToRulebook</name>
+      <anchorfile>classmalidrive_1_1builder_1_1_road_rule_book_builder.html</anchorfile>
+      <anchor>a327521612b1e677f3976e9503e4cec82</anchor>
+      <arglist>(const maliput::api::RoadGeometry *rg, const maliput::api::rules::RuleRegistry *rule_registry, maliput::ManualRulebook *rulebook)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>malidrive::builder::RoadRuleBookBuilderOldRules</name>
+    <filename>classmalidrive_1_1builder_1_1_road_rule_book_builder_old_rules.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>RoadRuleBookBuilderOldRules</name>
+      <anchorfile>classmalidrive_1_1builder_1_1_road_rule_book_builder_old_rules.html</anchorfile>
+      <anchor>a9f58a856ad78af1a20b24b39e9c5592e</anchor>
+      <arglist>()=delete</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>RoadRuleBookBuilderOldRules</name>
+      <anchorfile>classmalidrive_1_1builder_1_1_road_rule_book_builder_old_rules.html</anchorfile>
+      <anchor>abdc0792f6705b37d4f269f06cfa13d81</anchor>
+      <arglist>(const maliput::api::RoadGeometry *rg, const maliput::api::rules::RuleRegistry *rule_registry, const std::optional&lt; std::string &gt; &amp;road_rulebook_file_path, const std::vector&lt; maliput::api::rules::DirectionUsageRule &gt; &amp;direction_usage_rules, const std::vector&lt; maliput::api::rules::SpeedLimitRule &gt; &amp;speed_limit_rules)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; const maliput::api::rules::RoadRulebook &gt;</type>
+      <name>operator()</name>
+      <anchorfile>classmalidrive_1_1builder_1_1_road_rule_book_builder_old_rules.html</anchorfile>
       <anchor>a602d1dc8e7333ed57d55d5f41f2dc86f</anchor>
       <arglist>()</arglist>
     </member>
@@ -6521,8 +6590,8 @@
       <type></type>
       <name>RuleRegistryBuilder</name>
       <anchorfile>classmalidrive_1_1builder_1_1_rule_registry_builder.html</anchorfile>
-      <anchor>a6744e8e1587b6a0d1b37a8881a6c6024</anchor>
-      <arglist>(const maliput::api::RoadGeometry *rg)</arglist>
+      <anchor>a7476543a5ba107de78ccd0b50fa78f45</anchor>
+      <arglist>(const maliput::api::RoadGeometry *rg, const std::optional&lt; std::string &gt; &amp;rule_registry_file_path)</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; maliput::api::rules::RuleRegistry &gt;</type>
@@ -7106,6 +7175,7 @@
     <class kind="class">malidrive::builder::RoadNetworkBuilder</class>
     <class kind="struct">malidrive::builder::RoadNetworkConfiguration</class>
     <class kind="class">malidrive::builder::RoadRuleBookBuilder</class>
+    <class kind="class">malidrive::builder::RoadRuleBookBuilderOldRules</class>
     <class kind="class">malidrive::builder::RuleRegistryBuilder</class>
     <class kind="class">malidrive::builder::SpeedLimitBuilder</class>
     <class kind="class">malidrive::builder::UniqueIntegerProvider</class>
@@ -7365,6 +7435,13 @@
       <name>kRoadRuleBook</name>
       <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
       <anchor>ga413e2136aa512c92d58bf633b25e72af</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kRuleRegistry</name>
+      <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
+      <anchor>gad98da37a0819c38a07a700edc8f2ec88</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
@@ -7869,6 +7946,13 @@
       <name>kRoadRuleBook</name>
       <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
       <anchor>ga413e2136aa512c92d58bf633b25e72af</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kRuleRegistry</name>
+      <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
+      <anchor>gad98da37a0819c38a07a700edc8f2ec88</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">

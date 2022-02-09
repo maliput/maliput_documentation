@@ -12,6 +12,7 @@ var params_8h =
     [ "kPhaseRingBook", "params_8h.html#gabab6ea6289a9d6a997ea3623df2981e7", null ],
     [ "kRoadGeometryId", "params_8h.html#ga65640ac01adf58486da1ff6f92d44c3f", null ],
     [ "kRoadRuleBook", "params_8h.html#ga413e2136aa512c92d58bf633b25e72af", null ],
+    [ "kRuleRegistry", "params_8h.html#gad98da37a0819c38a07a700edc8f2ec88", null ],
     [ "kScaleLength", "params_8h.html#ga10cc3dafe29eccb96fcbd1843f97acab", null ],
     [ "kSimplificationPolicy", "params_8h.html#ga25a1809a845328b793ca520d5c1c65f5", null ],
     [ "kStandardStrictnessPolicy", "params_8h.html#ga118ba6b173fb49c3bf8fb8fbf6292171", null ],

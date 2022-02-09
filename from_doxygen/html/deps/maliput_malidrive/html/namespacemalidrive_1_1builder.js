@@ -14,6 +14,7 @@ var namespacemalidrive_1_1builder =
     [ "RoadNetworkBuilder", "classmalidrive_1_1builder_1_1_road_network_builder.html", "classmalidrive_1_1builder_1_1_road_network_builder" ],
     [ "RoadNetworkConfiguration", "structmalidrive_1_1builder_1_1_road_network_configuration.html", "structmalidrive_1_1builder_1_1_road_network_configuration" ],
     [ "RoadRuleBookBuilder", "classmalidrive_1_1builder_1_1_road_rule_book_builder.html", "classmalidrive_1_1builder_1_1_road_rule_book_builder" ],
+    [ "RoadRuleBookBuilderOldRules", "classmalidrive_1_1builder_1_1_road_rule_book_builder_old_rules.html", "classmalidrive_1_1builder_1_1_road_rule_book_builder_old_rules" ],
     [ "RuleRegistryBuilder", "classmalidrive_1_1builder_1_1_rule_registry_builder.html", "classmalidrive_1_1builder_1_1_rule_registry_builder" ],
     [ "SpeedLimitBuilder", "classmalidrive_1_1builder_1_1_speed_limit_builder.html", "classmalidrive_1_1builder_1_1_speed_limit_builder" ],
     [ "UniqueIntegerProvider", "classmalidrive_1_1builder_1_1_unique_integer_provider.html", "classmalidrive_1_1builder_1_1_unique_integer_provider" ]

@@ -17310,7 +17310,10 @@
     <docanchor file="maliput_design.html" title="Rules and Features Databases">rules_and_features_databases</docanchor>
     <docanchor file="maliput_design.html" title="Rules of the Road: RoadRulebook">rules_of_the_road</docanchor>
     <docanchor file="maliput_design.html">road-rulebook-outline_img</docanchor>
+    <docanchor file="maliput_design.html" title="New Rule API description">new_rules_types</docanchor>
+    <docanchor file="maliput_design.html" title="Common rule types and their implementations">new_rule_common_types</docanchor>
     <docanchor file="maliput_design.html" title="Common Region Entities">common_region_entities</docanchor>
+    <docanchor file="maliput_design.html" title="[DEPRECATED] Old rule API">deprecated_rule_api</docanchor>
     <docanchor file="maliput_design.html" title="SpeedLimitRule: Speed Limits">speed_limit_rules</docanchor>
     <docanchor file="maliput_design.html" title="RightOfWayRule: Stopping and Yielding">right_of_way_rule</docanchor>
     <docanchor file="maliput_design.html">RoWR-lone-crosswalk</docanchor>

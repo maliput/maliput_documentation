@@ -182,6 +182,10 @@ var files_dup =
     [ "road_rulebook_builder.h", "road__rulebook__builder_8h.html", [
       [ "RoadRuleBookBuilder", "classmalidrive_1_1builder_1_1_road_rule_book_builder.html", "classmalidrive_1_1builder_1_1_road_rule_book_builder" ]
     ] ],
+    [ "road_rulebook_builder_old_rules.cc", "road__rulebook__builder__old__rules_8cc.html", null ],
+    [ "road_rulebook_builder_old_rules.h", "road__rulebook__builder__old__rules_8h.html", [
+      [ "RoadRuleBookBuilderOldRules", "classmalidrive_1_1builder_1_1_road_rule_book_builder_old_rules.html", "classmalidrive_1_1builder_1_1_road_rule_book_builder_old_rules" ]
+    ] ],
     [ "road_type.cc", "road__type_8cc.html", null ],
     [ "road_type.h", "road__type_8h.html", [
       [ "RoadType", "structmalidrive_1_1xodr_1_1_road_type.html", "structmalidrive_1_1xodr_1_1_road_type" ],
