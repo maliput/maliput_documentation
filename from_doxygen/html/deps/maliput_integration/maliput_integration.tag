@@ -798,6 +798,13 @@
     </member>
     <member kind="variable">
       <type>std::string</type>
+      <name>rule_registry_file</name>
+      <anchorfile>structmaliput_1_1integration_1_1_malidrive_build_properties.html</anchorfile>
+      <anchor>a1fa543054f365f30fdabafcdf631a6d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
       <name>road_rule_book_file</name>
       <anchorfile>structmaliput_1_1integration_1_1_malidrive_build_properties.html</anchorfile>
       <anchor>a5cb73e690547d614a13aa9e4fd7e3937</anchor>
