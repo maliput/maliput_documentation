@@ -52,10 +52,14 @@ var NAVTREE =
             [ "Common rule types and their implementations", "maliput_design.html#new_rule_common_types", null ]
           ] ],
           [ "Common Region Entities", "maliput_design.html#common_region_entities", null ],
+          [ "Queries to the <tt>RoadRulebook</tt>", "maliput_design.html#roadrulebook_queries", null ],
           [ "[DEPRECATED] Old rule API", "maliput_design.html#deprecated_rule_api", null ],
           [ "SpeedLimitRule: Speed Limits", "maliput_design.html#speed_limit_rules", null ],
           [ "RightOfWayRule: Stopping and Yielding", "maliput_design.html#right_of_way_rule", null ]
-        ] ]
+        ] ],
+        [ "<tt>Phase</tt> dynamics: how to handle the rule state changes", "maliput_design.html#phase_dynamics", null ],
+        [ "<tt>TafficLight</tt> modelling and databases", "maliput_design.html#traffic_lights", null ],
+        [ "<tt>Intersections</tt> to aggregate multiple related entities", "maliput_design.html#intersections_aggregation", null ]
       ] ]
     ] ],
     [ "Maliput Plugin Architecture", "maliput_plugin_architecture.html", [
@@ -116,10 +120,10 @@ var NAVTREEINDEX =
 "classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_state_provider.html#a4dd111289aa9e32c0b87731f55259839",
 "classmaliput_1_1math_1_1_matrix.html#a59aa4194176579e234872ba587a1881c",
 "filter__positions_8cc.html",
-"maliput_design.html#lane",
-"namespacemembers_a.html",
-"structmaliput_1_1api_1_1_iso_lane_velocity.html#a10f42953901acfdedb9cabafc069a6f4",
-"traffic__lights__compare_8cc.html#a089610aca46476265341a0a509f10363"
+"maliput_design.html#junction",
+"namespacemaliput_1_1utility_1_1mesh.html",
+"structmaliput_1_1_rule_constants.html#ad51990aa8aa3a55b451773eb7fc4a390",
+"traffic__lights_8h.html#a8e3cc9f879a0ac1d7bd47eb69bba5b34a2e6612c563e3cf5e64362b0f19f4b33f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

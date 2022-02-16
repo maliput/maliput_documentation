@@ -119,11 +119,15 @@ $(document).ready(function(){initNavTree('maliput_design.html',''); initResizabl
 </ul>
 </li>
 <li class="level3"><a href="#common_region_entities">Common Region Entities</a></li>
+<li class="level3"><a href="#roadrulebook_queries">Queries to the &lt;tt&gt;RoadRulebook&lt;/tt&gt;</a></li>
 <li class="level3"><a href="#deprecated_rule_api">[DEPRECATED] Old rule API</a></li>
 <li class="level3"><a href="#speed_limit_rules">SpeedLimitRule: Speed Limits</a></li>
 <li class="level3"><a href="#right_of_way_rule">RightOfWayRule: Stopping and Yielding</a></li>
 </ul>
 </li>
+<li class="level2"><a href="#phase_dynamics">&lt;tt&gt;Phase&lt;/tt&gt; dynamics: how to handle the rule state changes</a></li>
+<li class="level2"><a href="#traffic_lights">&lt;tt&gt;TafficLight&lt;/tt&gt; modelling and databases</a></li>
+<li class="level2"><a href="#intersections_aggregation">&lt;tt&gt;Intersections&lt;/tt&gt; to aggregate multiple related entities</a></li>
 </ul>
 </li>
 </ul>
@@ -391,6 +395,14 @@ Common Region Entities</h3>
 <blockquote class="doxtable">
 <p>Note: regions are attributes of new and old rule descriptions. They define the applicability space of each rule. </p>
 </blockquote>
+<h3><a class="anchor" id="roadrulebook_queries"></a>
+Queries to the &lt;tt&gt;RoadRulebook&lt;/tt&gt;</h3>
+<p>The <code>RoadRulebook</code> API allows to query the collection of rules by:</p><ul>
+<li>No restriction: can retrieve all rules.</li>
+<li>Rule ID: which are guaranteed to be unique at rule construction.</li>
+<li>By region: whether rule's applicability in the <code>RoadGeometry</code> intersects the query region.</li>
+</ul>
+<p>These queries are convenient because of the properties the rules themselves have and what is interesting to a simulated agent. One important aspect of the rules are their state dynamics which are handled in a different book though.</p>
 <h3><a class="anchor" id="deprecated_rule_api"></a>
 [DEPRECATED] Old rule API</h3>
 <p>We distinguish two kinds of state:</p><ul>
@@ -679,6 +691,31 @@ Entrance ramp merging onto a 2-lane (one-way) freeway.</div></div>
 </li>
 <li>time-of-day/calendar condition?</li>
 <li><em>Should this should be merged with <code>DirectionUsageRule</code>, because lane usage/direction might be specified per vehicle type?</em></li>
+</ul>
+<h2><a class="anchor" id="phase_dynamics"></a>
+&lt;tt&gt;Phase&lt;/tt&gt; dynamics: how to handle the rule state changes</h2>
+<p>As explained before, rule state dynamics are complex enough to be modeled within the very same <code>Rule</code> type. Also, the <code>RoadRulebook</code> falls short to provide query support for the state transition of the Rules it can fetch. <code>maliput</code> models the sequencing of rule states and traffic lights' bulbs as a ring of <code>Phases</code>. Each <code>Phase</code> holds a dictionary of rule IDs to rule states (<code>DiscreteValues</code>) and related bulb IDs (<code>UniqueBulbIds</code>) to the bulb state (<code>BulbState</code>).</p>
+<p><code>Phases</code> have an implicit rule co-location constraint. Sequencing of <code>Phases</code> that do not share the same region are designer's responsibility. The API does not provide any further enhanced semantics to deal with such case. However, the ordered sequence of co-located <code>Phases</code> is captured by a <code>PhaseRing</code>. <code>Phases</code> are stored in <code>PhaseRings</code> which cannot be empty. They may have only one <code>Phase</code> though, meaning that it is self connected or it never ends.</p>
+<blockquote class="doxtable">
+<p>NOTE: Intra-<code>Phase</code> relationship between <code>Rule::Id</code> and <code>UniqueBulbId</code> can be discovered by the actual <code>DiscreteValue</code>'s related unique IDs by the agent. </p>
+</blockquote>
+<p>The <code>PhaseRing</code> acts as a container of all the related <code>Phases</code> in a sequence. A designer might query them by the <code>Phase::Id</code> or the next <code>Phases</code>, but no strict order should be expected. Instead, <code>PhaseProvider</code> offers an interface to obtain the current and next <code>Phase::Ids</code> for a <code>PhaseRing</code>. Custom time based or event driven behaviors could be implemented for this interface. Similarly to the rules, there are convenient "manual" implementations to exercise the interfaces in integration examples.</p>
+<h2><a class="anchor" id="traffic_lights"></a>
+&lt;tt&gt;TafficLight&lt;/tt&gt; modelling and databases</h2>
+<p>Traffic lights physically come in various shapes and configurations. With a set of bulbs (from now on <code>BulbGroups</code> and <code>Bulbs</code>) that are semantically related and serve many road lanes simultaneously. We are not able to capture all variations of configurations, but the API proposes a generic enough abstraction that comprises most of the use cases that involve the physical properties of the <code>TrafficLights</code>, their <code>BulbGroups</code> and each <code>Bulb</code> in them.</p>
+<p><code>Bulbs</code> can be round or arrows, have an orientation and position relative to the parent <code>BulbGroup</code> and a specific color. At certain moment, they can be on, off or blinking. Each <code>Bulb</code> occupies a volume defined with a bounding box.</p>
+<p>A collection of <code>Bulbs</code> compose a <code>BulbGroup</code>. Each <code>BulbGroup</code> has a pose relative to the <code>TrafficLight</code> they are part of.</p>
+<p>Finally, a <code>TrafficLight</code> is composed of a set of <code>BulbGroups</code>. It is set in a pose (position and orientation) in the Inertial Frame. Once it is built, both its <code>BulbGroups</code> and <code>Bulbs</code> are uniquely identified by composing the parent (<code>TrafficLight::Id</code>), child (<code>BulbGroup::Id</code>) and grandchild (<code>Bulb::Id</code>) IDs. Those compound IDs are represented by <code>UniqueBulbId</code> and <code>UniqueBulbGroupId</code> types.</p>
+<p><code>TrafficLights</code> can be obtained via <code>TrafficLightBook</code>, another interface to which offers queries by <code>TrafficLight::Id</code> and to retrieve all <code>TrafficLights</code>.</p>
+<h2><a class="anchor" id="intersections_aggregation"></a>
+&lt;tt&gt;Intersections&lt;/tt&gt; to aggregate multiple related entities</h2>
+<p>The inherent complexity of the rule dynamics require multiple interfaces and and concrete implementations to be setup in favor of describing the traffic dynamics and adapt to multiple scenarios. In favor of reducing the complexity of the queries, the <code>Intersection</code> aggregates multiple disperse IDs and related entities that would require many queries to different books and state providers.</p>
+<p>To obtain the <code>Intersection</code> the agent is immerse, it can use the <code>IntersectionBook</code> which provides multiple query semantics to retrieve the right one:</p><ul>
+<li>by <code>Intersection::Id</code></li>
+<li>by <code>TrafficLight::Id</code></li>
+<li>by <code>DiscreteValueRule::Id</code></li>
+<li>all <code>Intersections</code></li>
+<li>(DEPRECATED) by <code>RightOfWayRule::Id</code></li>
 </ul>
 <blockquote class="doxtable">
 <p>TODO Furniture and Physical Features </p>

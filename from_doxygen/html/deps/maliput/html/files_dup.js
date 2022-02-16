@@ -184,6 +184,7 @@ var files_dup =
     ] ],
     [ "phase_ring_book_loader.cc", "phase__ring__book__loader_8cc.html", "phase__ring__book__loader_8cc" ],
     [ "phase_ring_book_loader.h", "phase__ring__book__loader_8h.html", "phase__ring__book__loader_8h" ],
+    [ "phase_ring_book_loader_old_rules.cc", "phase__ring__book__loader__old__rules_8cc.html", "phase__ring__book__loader__old__rules_8cc" ],
     [ "phases_compare.cc", "phases__compare_8cc.html", "phases__compare_8cc" ],
     [ "phases_compare.h", "phases__compare_8h.html", "phases__compare_8h" ],
     [ "quaternion.cc", "quaternion_8cc.html", "quaternion_8cc" ],

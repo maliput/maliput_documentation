@@ -3113,7 +3113,6 @@
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
     <includes id="phase_8h" name="phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
     <includes id="phase__ring_8h" name="phase_ring.h" local="yes" imported="no">maliput/api/rules/phase_ring.h</includes>
-    <includes id="right__of__way__rule_8h" name="right_of_way_rule.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule.h</includes>
     <includes id="rule_8h" name="rule.h" local="yes" imported="no">maliput/api/rules/rule.h</includes>
     <includes id="traffic__lights_8h" name="traffic_lights.h" local="yes" imported="no">maliput/api/rules/traffic_lights.h</includes>
     <includes id="manual__phase__ring__book_8h" name="manual_phase_ring_book.h" local="yes" imported="no">maliput/base/manual_phase_ring_book.h</includes>
@@ -3147,6 +3146,20 @@
     <namespace>maliput</namespace>
     <member kind="function">
       <type>std::unique_ptr&lt; api::rules::PhaseRingBook &gt;</type>
+      <name>LoadPhaseRingBookOldRules</name>
+      <anchorfile>namespacemaliput.html</anchorfile>
+      <anchor>a71eff4450bcc4e11f38442441cdb5195</anchor>
+      <arglist>(const api::rules::RoadRulebook *rulebook, const api::rules::TrafficLightBook *traffic_light_book, const std::string &amp;input)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; api::rules::PhaseRingBook &gt;</type>
+      <name>LoadPhaseRingBookFromFileOldRules</name>
+      <anchorfile>namespacemaliput.html</anchorfile>
+      <anchor>a179c8e2243d2f113a0574efc1f57758e</anchor>
+      <arglist>(const api::rules::RoadRulebook *rulebook, const api::rules::TrafficLightBook *traffic_light_book, const std::string &amp;filename)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; api::rules::PhaseRingBook &gt;</type>
       <name>LoadPhaseRingBook</name>
       <anchorfile>namespacemaliput.html</anchorfile>
       <anchor>a16da6294622c366500107beede513985</anchor>
@@ -3158,6 +3171,39 @@
       <anchorfile>namespacemaliput.html</anchorfile>
       <anchor>aa94a8bdc4b38fcc4d05e6637903f0f56</anchor>
       <arglist>(const api::rules::RoadRulebook *rulebook, const api::rules::TrafficLightBook *traffic_light_book, const std::string &amp;filename)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>phase_ring_book_loader_old_rules.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
+    <filename>phase__ring__book__loader__old__rules_8cc.html</filename>
+    <includes id="phase__ring__book__loader_8h" name="phase_ring_book_loader.h" local="yes" imported="no">maliput/base/phase_ring_book_loader.h</includes>
+    <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
+    <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
+    <includes id="phase_8h" name="phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
+    <includes id="phase__ring_8h" name="phase_ring.h" local="yes" imported="no">maliput/api/rules/phase_ring.h</includes>
+    <includes id="right__of__way__rule_8h" name="right_of_way_rule.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule.h</includes>
+    <includes id="rule_8h" name="rule.h" local="yes" imported="no">maliput/api/rules/rule.h</includes>
+    <includes id="traffic__lights_8h" name="traffic_lights.h" local="yes" imported="no">maliput/api/rules/traffic_lights.h</includes>
+    <includes id="manual__phase__ring__book_8h" name="manual_phase_ring_book.h" local="yes" imported="no">maliput/base/manual_phase_ring_book.h</includes>
+    <includes id="base_2rule__registry_8h" name="base/rule_registry.h" local="yes" imported="no">maliput/base/rule_registry.h</includes>
+    <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
+    <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
+    <namespace>YAML</namespace>
+    <namespace>maliput</namespace>
+    <member kind="function">
+      <type>std::unique_ptr&lt; api::rules::PhaseRingBook &gt;</type>
+      <name>LoadPhaseRingBookOldRules</name>
+      <anchorfile>namespacemaliput.html</anchorfile>
+      <anchor>aa55ad2c0686a0577304e12d2094fa355</anchor>
+      <arglist>(const RoadRulebook *rulebook, const TrafficLightBook *traffic_light_book, const std::string &amp;input)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; api::rules::PhaseRingBook &gt;</type>
+      <name>LoadPhaseRingBookFromFileOldRules</name>
+      <anchorfile>namespacemaliput.html</anchorfile>
+      <anchor>a826897c7b08dbb77b64737456e1d0b7a</anchor>
+      <arglist>(const RoadRulebook *rulebook, const TrafficLightBook *traffic_light_book, const std::string &amp;filename)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -15028,6 +15074,20 @@
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; api::rules::PhaseRingBook &gt;</type>
+      <name>LoadPhaseRingBookOldRules</name>
+      <anchorfile>namespacemaliput.html</anchorfile>
+      <anchor>a71eff4450bcc4e11f38442441cdb5195</anchor>
+      <arglist>(const api::rules::RoadRulebook *rulebook, const api::rules::TrafficLightBook *traffic_light_book, const std::string &amp;input)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; api::rules::PhaseRingBook &gt;</type>
+      <name>LoadPhaseRingBookFromFileOldRules</name>
+      <anchorfile>namespacemaliput.html</anchorfile>
+      <anchor>a179c8e2243d2f113a0574efc1f57758e</anchor>
+      <arglist>(const api::rules::RoadRulebook *rulebook, const api::rules::TrafficLightBook *traffic_light_book, const std::string &amp;filename)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; api::rules::PhaseRingBook &gt;</type>
       <name>LoadPhaseRingBook</name>
       <anchorfile>namespacemaliput.html</anchorfile>
       <anchor>a16da6294622c366500107beede513985</anchor>
@@ -15234,6 +15294,20 @@
       <name>LoadPhaseRingBookFromFile</name>
       <anchorfile>namespacemaliput.html</anchorfile>
       <anchor>a265cddc5edae1f57e02d03499c4c29c5</anchor>
+      <arglist>(const RoadRulebook *rulebook, const TrafficLightBook *traffic_light_book, const std::string &amp;filename)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; api::rules::PhaseRingBook &gt;</type>
+      <name>LoadPhaseRingBookOldRules</name>
+      <anchorfile>namespacemaliput.html</anchorfile>
+      <anchor>aa55ad2c0686a0577304e12d2094fa355</anchor>
+      <arglist>(const RoadRulebook *rulebook, const TrafficLightBook *traffic_light_book, const std::string &amp;input)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; api::rules::PhaseRingBook &gt;</type>
+      <name>LoadPhaseRingBookFromFileOldRules</name>
+      <anchorfile>namespacemaliput.html</anchorfile>
+      <anchor>a826897c7b08dbb77b64737456e1d0b7a</anchor>
       <arglist>(const RoadRulebook *rulebook, const TrafficLightBook *traffic_light_book, const std::string &amp;filename)</arglist>
     </member>
     <member kind="function">
@@ -17313,6 +17387,7 @@
     <docanchor file="maliput_design.html" title="New Rule API description">new_rules_types</docanchor>
     <docanchor file="maliput_design.html" title="Common rule types and their implementations">new_rule_common_types</docanchor>
     <docanchor file="maliput_design.html" title="Common Region Entities">common_region_entities</docanchor>
+    <docanchor file="maliput_design.html" title="Queries to the &lt;tt&gt;RoadRulebook&lt;/tt&gt;">roadrulebook_queries</docanchor>
     <docanchor file="maliput_design.html" title="[DEPRECATED] Old rule API">deprecated_rule_api</docanchor>
     <docanchor file="maliput_design.html" title="SpeedLimitRule: Speed Limits">speed_limit_rules</docanchor>
     <docanchor file="maliput_design.html" title="RightOfWayRule: Stopping and Yielding">right_of_way_rule</docanchor>
@@ -17320,6 +17395,9 @@
     <docanchor file="maliput_design.html">RoWR-one-way-to-two-way</docanchor>
     <docanchor file="maliput_design.html">RoWR-protected-left</docanchor>
     <docanchor file="maliput_design.html">RoWR-freeway-merge</docanchor>
+    <docanchor file="maliput_design.html" title="&lt;tt&gt;Phase&lt;/tt&gt; dynamics: how to handle the rule state changes">phase_dynamics</docanchor>
+    <docanchor file="maliput_design.html" title="&lt;tt&gt;TafficLight&lt;/tt&gt; modelling and databases">traffic_lights</docanchor>
+    <docanchor file="maliput_design.html" title="&lt;tt&gt;Intersections&lt;/tt&gt; to aggregate multiple related entities">intersections_aggregation</docanchor>
   </compound>
   <compound kind="page">
     <name>maliput_plugin_architecture</name>
