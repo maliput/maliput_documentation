@@ -287,6 +287,26 @@ The workspace is built with Ubuntu's default ``gcc`` (version 7.5) and ``ld``
 * Thread sanitizer.
 * Static analyzer (scan-build): it runs with ``clang``.
 
+Documentation
+=============
+
+`maliput_documentation` package is in charge of concentrating the documentation of the entire maliput ecosystem.
+
+The page is built upon `Sphinx <https://www.sphinx-doc.org/en/master/>`_ framework, while the docstring's code is converted to `html` by `Doxygen <https://www.doxygen.nl/index.html>`_.
+
+The documentation is finally served via GitHub Pages.
+
+
+In order to build the documentation, the cmake flag `-DBUILD_DOCS=On` should be added:
+
+.. code-block:: sh
+
+  colcon build --packages-up-to maliput_documentation --cmake-args "-DBUILD_DOCS=On"
+
+
+Note: `maliput` repository has a particularity and for that reason the flag works as `opt-in` whilst in the rest of the repositories it is a `opt-out`. For further information refer to `issue <https://github.com/ToyotaResearchInstitute/maliput_documentation/issues/81>`_.
+
+
 Versioning
 ==========
 
