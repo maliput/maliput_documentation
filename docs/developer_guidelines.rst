@@ -287,8 +287,8 @@ The workspace is built with Ubuntu's default ``gcc`` (version 7.5) and ``ld``
 * Thread sanitizer.
 * Static analyzer (scan-build): it runs with ``clang``.
 
-Documentation
-=============
+Building the documentation
+==========================
 
 `maliput_documentation` package is in charge of concentrating the documentation of the entire maliput ecosystem.
 
