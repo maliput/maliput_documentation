@@ -10,3 +10,5 @@ Welcome to maliput documentation!
    contributing
    gallery
    documentation
+   roadmap
+
