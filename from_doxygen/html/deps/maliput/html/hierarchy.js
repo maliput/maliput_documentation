@@ -13,7 +13,6 @@ var hierarchy =
     [ "convert< maliput::api::SRange >", "struct_y_a_m_l_1_1convert_3_01maliput_1_1api_1_1_s_range_01_4.html", null ],
     [ "DelegatingHasher", "structmaliput_1_1common_1_1_delegating_hasher.html", null ],
     [ "DirectedEdgeIndex", "structmaliput_1_1utility_1_1mesh_1_1_directed_edge_index.html", null ],
-    [ "DirectionUsageRule", "classmaliput_1_1api_1_1rules_1_1_direction_usage_rule.html", null ],
     [ "DiscreteValueRuleConstants", "structmaliput_1_1_discrete_value_rule_constants.html", null ],
     [ "DiscreteValueRuleStateProvider", "classmaliput_1_1api_1_1rules_1_1_discrete_value_rule_state_provider.html", [
       [ "ManualDiscreteValueRuleStateProvider", "classmaliput_1_1_manual_discrete_value_rule_state_provider.html", [
@@ -107,11 +106,6 @@ var hierarchy =
     [ "RelatedRulesKeys", "structmaliput_1_1_related_rules_keys.html", null ],
     [ "RelatedUniqueIdsKeys", "structmaliput_1_1_related_unique_ids_keys.html", null ],
     [ "RightOfWayBuildFlags", "structmaliput_1_1api_1_1test_1_1_right_of_way_build_flags.html", null ],
-    [ "RightOfWayRule", "classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html", null ],
-    [ "RightOfWayRuleStateProvider", "classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_state_provider.html", [
-      [ "ManualRightOfWayRuleStateProvider", "classmaliput_1_1_manual_right_of_way_rule_state_provider.html", null ],
-      [ "PhaseBasedRightOfWayRuleStateProvider", "classmaliput_1_1_phase_based_right_of_way_rule_state_provider.html", null ]
-    ] ],
     [ "RoadGeometry", "classmaliput_1_1api_1_1_road_geometry.html", [
       [ "MockRoadGeometry", "classmaliput_1_1api_1_1test_1_1_mock_road_geometry.html", null ],
       [ "RoadGeometry", "classmaliput_1_1geometry__base_1_1_road_geometry.html", [
@@ -154,11 +148,8 @@ var hierarchy =
     [ "SinkBase", "classmaliput_1_1common_1_1_sink_base.html", [
       [ "Sink", "classmaliput_1_1common_1_1_sink.html", null ]
     ] ],
-    [ "SpeedLimitRule", "classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html", null ],
     [ "SRange", "classmaliput_1_1api_1_1_s_range.html", null ],
     [ "SrhFace", "classmaliput_1_1utility_1_1mesh_1_1_srh_face.html", null ],
-    [ "DirectionUsageRule::State", "classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state.html", null ],
-    [ "RightOfWayRule::State", "classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_1_1_state.html", null ],
     [ "Rule::State", "structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html", [
       [ "DiscreteValueRule::DiscreteValue", "structmaliput_1_1api_1_1rules_1_1_discrete_value_rule_1_1_discrete_value.html", null ],
       [ "RangeValueRule::Range", "structmaliput_1_1api_1_1rules_1_1_range_value_rule_1_1_range.html", null ]
@@ -176,17 +167,13 @@ var hierarchy =
     [ "TypeSpecificIdentifier< BulbGroup >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< class BranchPoint >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< class Bulb >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
-    [ "TypeSpecificIdentifier< class DirectionUsageRule >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< class Junction >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< class Lane >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< class MaliputPlugin >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< class PhaseRing >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
-    [ "TypeSpecificIdentifier< class RightOfWayRule >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< class RoadGeometry >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< class Rule >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< class Segment >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
-    [ "TypeSpecificIdentifier< class SpeedLimitRule >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
-    [ "TypeSpecificIdentifier< class State >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< class Type >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< Phase >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< TrafficLight >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['severity_2215',['Severity',['../classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state.html#a11717da96dc4e4a5f79371318448f82b',1,'maliput::api::rules::DirectionUsageRule::State::Severity()'],['../classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html#a11717da96dc4e4a5f79371318448f82b',1,'maliput::api::rules::SpeedLimitRule::Severity()']]]
+  ['which_2157',['Which',['../structmaliput_1_1api_1_1_lane_end.html#a76832237d5d837232469a6c46f1eeff2',1,'maliput::api::LaneEnd']]]
 ];

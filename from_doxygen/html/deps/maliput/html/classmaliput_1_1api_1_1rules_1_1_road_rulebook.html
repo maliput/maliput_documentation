@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('classmaliput_1_1api_1_1rules_1_1_road_
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract interface for querying "rules of the road". </p>
-<p>This interface provides access to static information about a road network (i.e., information determined prior to the beginning of a simulation). Some rule types may refer to additional dynamic information which will be provided by other interfaces. (For example, see <a class="el" href="classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html" title="Rule describing right-of-way, a.k.a.">RightOfWayRule</a>.)</p>
+<p>This interface provides access to static information about a road network (i.e., information determined prior to the beginning of a simulation). Some rule types may refer to additional dynamic information which will be provided by other interfaces. (For example, see RightOfWayRule.)</p>
 <p>Concrete implementations of this interface shall be provided by implementing the pure virtual methods declared in private scope. </p>
 </div>
 <p><code>#include &lt;include/maliput/api/rules/road_rulebook.h&gt;</code></p>
@@ -128,14 +128,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4b028974b9007c80ab8a355844263aaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmaliput_1_1api_1_1rules_1_1_road_rulebook_1_1_query_results.html">QueryResults</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html#a4b028974b9007c80ab8a355844263aaa">Rules</a> () const</td></tr>
 <tr class="memdesc:a4b028974b9007c80ab8a355844263aaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all the rules in this <a class="el" href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html" title="Abstract interface for querying &quot;rules of the road&quot;.">RoadRulebook</a>.  <a href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html#a4b028974b9007c80ab8a355844263aaa">More...</a><br /></td></tr>
 <tr class="separator:a4b028974b9007c80ab8a355844263aaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18ab16fce3c99b8c3c5fc904ce18ecb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html">RightOfWayRule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html#a18ab16fce3c99b8c3c5fc904ce18ecb7">GetRule</a> (const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html#a69be7b6f53a1b396d7be1a7848f20312">RightOfWayRule::Id</a> &amp;id) const</td></tr>
-<tr class="memdesc:a18ab16fce3c99b8c3c5fc904ce18ecb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html" title="Rule describing right-of-way, a.k.a.">RightOfWayRule</a> with the specified <code>id</code>.  <a href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html#a18ab16fce3c99b8c3c5fc904ce18ecb7">More...</a><br /></td></tr>
+<tr class="memitem:a18ab16fce3c99b8c3c5fc904ce18ecb7"><td class="memItemLeft" align="right" valign="top">RightOfWayRule&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html#a18ab16fce3c99b8c3c5fc904ce18ecb7">GetRule</a> (const RightOfWayRule::Id &amp;id) const</td></tr>
+<tr class="memdesc:a18ab16fce3c99b8c3c5fc904ce18ecb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the RightOfWayRule with the specified <code>id</code>.  <a href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html#a18ab16fce3c99b8c3c5fc904ce18ecb7">More...</a><br /></td></tr>
 <tr class="separator:a18ab16fce3c99b8c3c5fc904ce18ecb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25b9f270ad53f4bf6a9933eb4100047a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html">SpeedLimitRule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html#a25b9f270ad53f4bf6a9933eb4100047a">GetRule</a> (const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html#a5fa5d95df24696bd0bb4a145e37997cc">SpeedLimitRule::Id</a> &amp;id) const</td></tr>
-<tr class="memdesc:a25b9f270ad53f4bf6a9933eb4100047a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html" title="Rule describing speed limits.">SpeedLimitRule</a> with the specified <code>id</code>.  <a href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html#a25b9f270ad53f4bf6a9933eb4100047a">More...</a><br /></td></tr>
+<tr class="memitem:a25b9f270ad53f4bf6a9933eb4100047a"><td class="memItemLeft" align="right" valign="top">SpeedLimitRule&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html#a25b9f270ad53f4bf6a9933eb4100047a">GetRule</a> (const SpeedLimitRule::Id &amp;id) const</td></tr>
+<tr class="memdesc:a25b9f270ad53f4bf6a9933eb4100047a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the SpeedLimitRule with the specified <code>id</code>.  <a href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html#a25b9f270ad53f4bf6a9933eb4100047a">More...</a><br /></td></tr>
 <tr class="separator:a25b9f270ad53f4bf6a9933eb4100047a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad61cf4c441f8251a11bea9786c0dc51c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_direction_usage_rule.html">DirectionUsageRule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html#ad61cf4c441f8251a11bea9786c0dc51c">GetRule</a> (const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_direction_usage_rule.html#a7a7710401175a4780dcb13dd239bbbbc">DirectionUsageRule::Id</a> &amp;id) const</td></tr>
-<tr class="memdesc:ad61cf4c441f8251a11bea9786c0dc51c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classmaliput_1_1api_1_1rules_1_1_direction_usage_rule.html" title="Rule describing direction usage for a road lane.">DirectionUsageRule</a> with the specified <code>id</code>.  <a href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html#ad61cf4c441f8251a11bea9786c0dc51c">More...</a><br /></td></tr>
+<tr class="memitem:ad61cf4c441f8251a11bea9786c0dc51c"><td class="memItemLeft" align="right" valign="top">DirectionUsageRule&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html#ad61cf4c441f8251a11bea9786c0dc51c">GetRule</a> (const DirectionUsageRule::Id &amp;id) const</td></tr>
+<tr class="memdesc:ad61cf4c441f8251a11bea9786c0dc51c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the DirectionUsageRule with the specified <code>id</code>.  <a href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html#ad61cf4c441f8251a11bea9786c0dc51c">More...</a><br /></td></tr>
 <tr class="separator:ad61cf4c441f8251a11bea9786c0dc51c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47010dd5e2e82fcc17eda38db466f032"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_discrete_value_rule.html">DiscreteValueRule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html#a47010dd5e2e82fcc17eda38db466f032">GetDiscreteValueRule</a> (const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_rule.html#a5358e3b05db56d19875bb15f02523f2f">Rule::Id</a> &amp;id) const</td></tr>
 <tr class="memdesc:a47010dd5e2e82fcc17eda38db466f032"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classmaliput_1_1api_1_1rules_1_1_discrete_value_rule.html" title="Describes a discrete value rule.">DiscreteValueRule</a> with the specified <code>id</code>.  <a href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html#a47010dd5e2e82fcc17eda38db466f032">More...</a><br /></td></tr>
@@ -297,16 +297,16 @@ Protected Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_direction_usage_rule.html">DirectionUsageRule</a> GetRule </td>
+          <td class="memname">DirectionUsageRule GetRule </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_direction_usage_rule.html#a7a7710401175a4780dcb13dd239bbbbc">DirectionUsageRule::Id</a> &amp;&#160;</td>
+          <td class="paramtype">const DirectionUsageRule::Id &amp;&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the <a class="el" href="classmaliput_1_1api_1_1rules_1_1_direction_usage_rule.html" title="Rule describing direction usage for a road lane.">DirectionUsageRule</a> with the specified <code>id</code>. </p>
+<p>Returns the DirectionUsageRule with the specified <code>id</code>. </p>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">std::out_of_range</td><td>if <code>id</code> is unknown. </td></tr>
@@ -323,16 +323,16 @@ Protected Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html">RightOfWayRule</a> GetRule </td>
+          <td class="memname">RightOfWayRule GetRule </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html#a69be7b6f53a1b396d7be1a7848f20312">RightOfWayRule::Id</a> &amp;&#160;</td>
+          <td class="paramtype">const RightOfWayRule::Id &amp;&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the <a class="el" href="classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html" title="Rule describing right-of-way, a.k.a.">RightOfWayRule</a> with the specified <code>id</code>. </p>
+<p>Returns the RightOfWayRule with the specified <code>id</code>. </p>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">std::out_of_range</td><td>if <code>id</code> is unknown. </td></tr>
@@ -349,16 +349,16 @@ Protected Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html">SpeedLimitRule</a> GetRule </td>
+          <td class="memname">SpeedLimitRule GetRule </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html#a5fa5d95df24696bd0bb4a145e37997cc">SpeedLimitRule::Id</a> &amp;&#160;</td>
+          <td class="paramtype">const SpeedLimitRule::Id &amp;&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the <a class="el" href="classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html" title="Rule describing speed limits.">SpeedLimitRule</a> with the specified <code>id</code>. </p>
+<p>Returns the SpeedLimitRule with the specified <code>id</code>. </p>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">std::out_of_range</td><td>if <code>id</code> is unknown. </td></tr>

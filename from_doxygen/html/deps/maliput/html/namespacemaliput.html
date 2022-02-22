@@ -173,17 +173,11 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1_manual_range_value_rule_state_provider.html">ManualRangeValueRuleStateProvider</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of a manual <a class="el" href="classmaliput_1_1api_1_1rules_1_1_range_value_rule_state_provider.html" title="Abstract interface for the state provider of RangeValueRules.">api::rules::RangeValueRuleStateProvider</a>.  <a href="classmaliput_1_1_manual_range_value_rule_state_provider.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1_manual_right_of_way_rule_state_provider.html">ManualRightOfWayRuleStateProvider</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A trivial implementation of an <a class="el" href="classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_state_provider.html" title="Abstract interface for the provider of the RightOfWayRule.">api::rules::RightOfWayRuleStateProvider</a>.  <a href="classmaliput_1_1_manual_right_of_way_rule_state_provider.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1_manual_rulebook.html">ManualRulebook</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classmaliput_1_1_manual_rulebook.html" title="ManualRulebook is a simple concrete implementation of the api::rules::RoadRulebook abstract interface...">ManualRulebook</a> is a simple concrete implementation of the <a class="el" href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html" title="Abstract interface for querying &quot;rules of the road&quot;.">api::rules::RoadRulebook</a> abstract interface.  <a href="classmaliput_1_1_manual_rulebook.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1_phase_based_right_of_way_discrete_value_rule_state_provider.html">PhaseBasedRightOfWayDiscreteValueRuleStateProvider</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the state of Right-Of-Way <a class="el" href="classmaliput_1_1api_1_1rules_1_1_discrete_value_rule.html" title="Describes a discrete value rule.">api::rules::DiscreteValueRule</a> instances based on the current <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase.html" title="A group of RightOfWayRule instances and their states.">api::rules::Phase</a>.  <a href="classmaliput_1_1_phase_based_right_of_way_discrete_value_rule_state_provider.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1_phase_based_right_of_way_rule_state_provider.html">PhaseBasedRightOfWayRuleStateProvider</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the state of <a class="el" href="classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html" title="Rule describing right-of-way, a.k.a.">api::rules::RightOfWayRule</a> instances based on the current <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase.html" title="A group of RightOfWayRule instances and their states.">api::rules::Phase</a>.  <a href="classmaliput_1_1_phase_based_right_of_way_rule_state_provider.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1_range_value_rule_constants.html">RangeValueRuleConstants</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constants to identify attributes of <a class="el" href="classmaliput_1_1api_1_1rules_1_1_range_value_rule.html" title="Describes a numeric range based rule.">api::rules::RangeValueRule</a> Types.  <a href="structmaliput_1_1_range_value_rule_constants.html#details">More...</a><br /></td></tr>
@@ -1358,7 +1352,7 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>An <a class="el" href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html" title="Abstract interface for querying &quot;rules of the road&quot;.">api::rules::RoadRulebook</a> containing the rules specified in <code>input</code>.</dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">std::exception</td><td>if the <a class="el" href="namespace_y_a_m_l.html">YAML</a> document within <code>input</code> is invalid, or an <a class="el" href="classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html" title="Rule describing right-of-way, a.k.a.">api::rules::RightOfWayRule</a> within <code>input</code> has an invalid state or zone type. </td></tr>
+    <tr><td class="paramname">std::exception</td><td>if the <a class="el" href="namespace_y_a_m_l.html">YAML</a> document within <code>input</code> is invalid, or an api::rules::RightOfWayRule within <code>input</code> has an invalid state or zone type. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1453,7 +1447,7 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>An <a class="el" href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html" title="Abstract interface for querying &quot;rules of the road&quot;.">api::rules::RoadRulebook</a> containing the rules specified in <code>input</code>.</dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">std::exception</td><td>if the <a class="el" href="namespace_y_a_m_l.html">YAML</a> document in <code>filename</code> is invalid, or an <a class="el" href="classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html" title="Rule describing right-of-way, a.k.a.">api::rules::RightOfWayRule</a> within that document has an invalid state or zone type. </td></tr>
+    <tr><td class="paramname">std::exception</td><td>if the <a class="el" href="namespace_y_a_m_l.html">YAML</a> document in <code>filename</code> is invalid, or an api::rules::RightOfWayRule within that document has an invalid state or zone type. </td></tr>
   </table>
   </dd>
 </dl>

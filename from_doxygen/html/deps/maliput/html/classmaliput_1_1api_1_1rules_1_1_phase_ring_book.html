@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('classmaliput_1_1api_1_1rules_1_1_phase
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Abstract interface for providing the mapping from <a class="el" href="classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html#a69be7b6f53a1b396d7be1a7848f20312" title="Unique identifier for a RightOfWayRule.">RightOfWayRule::Id</a> to <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring.html" title="A set of mutually exclusive phases, e.g., that comprise the signaling cycle for an intersection.">PhaseRing</a>. </p>
+<div class="textblock"><p>Abstract interface for providing the mapping from RightOfWayRule::Id to <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring.html" title="A set of mutually exclusive phases, e.g., that comprise the signaling cycle for an intersection.">PhaseRing</a>. </p>
 </div>
 <p><code>#include &lt;include/maliput/api/rules/phase_ring_book.h&gt;</code></p>
 <div class="dynheader">
@@ -119,8 +119,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a68aaf552dffc58abd508fb0aec7ac73e"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring.html">PhaseRing</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring_book.html#a68aaf552dffc58abd508fb0aec7ac73e">GetPhaseRing</a> (const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring.html#ab0106b35b56a5f162860159a7a84c142">PhaseRing::Id</a> &amp;ring_id) const</td></tr>
 <tr class="memdesc:a68aaf552dffc58abd508fb0aec7ac73e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the specified <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring.html" title="A set of mutually exclusive phases, e.g., that comprise the signaling cycle for an intersection.">PhaseRing</a>.  <a href="classmaliput_1_1api_1_1rules_1_1_phase_ring_book.html#a68aaf552dffc58abd508fb0aec7ac73e">More...</a><br /></td></tr>
 <tr class="separator:a68aaf552dffc58abd508fb0aec7ac73e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8933725159086d32e97ee2d553c9d8d5"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring.html">PhaseRing</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring_book.html#a8933725159086d32e97ee2d553c9d8d5">FindPhaseRing</a> (const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html#a69be7b6f53a1b396d7be1a7848f20312">RightOfWayRule::Id</a> &amp;rule_id) const</td></tr>
-<tr class="memdesc:a8933725159086d32e97ee2d553c9d8d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds and returns the <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring.html" title="A set of mutually exclusive phases, e.g., that comprise the signaling cycle for an intersection.">PhaseRing</a> containing the specified <a class="el" href="classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html" title="Rule describing right-of-way, a.k.a.">RightOfWayRule</a>.  <a href="classmaliput_1_1api_1_1rules_1_1_phase_ring_book.html#a8933725159086d32e97ee2d553c9d8d5">More...</a><br /></td></tr>
+<tr class="memitem:a8933725159086d32e97ee2d553c9d8d5"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring.html">PhaseRing</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring_book.html#a8933725159086d32e97ee2d553c9d8d5">FindPhaseRing</a> (const RightOfWayRule::Id &amp;rule_id) const</td></tr>
+<tr class="memdesc:a8933725159086d32e97ee2d553c9d8d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds and returns the <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring.html" title="A set of mutually exclusive phases, e.g., that comprise the signaling cycle for an intersection.">PhaseRing</a> containing the specified RightOfWayRule.  <a href="classmaliput_1_1api_1_1rules_1_1_phase_ring_book.html#a8933725159086d32e97ee2d553c9d8d5">More...</a><br /></td></tr>
 <tr class="separator:a8933725159086d32e97ee2d553c9d8d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5705ba2f20347d8aa665de843040684f"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring.html">PhaseRing</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring_book.html#a5705ba2f20347d8aa665de843040684f">FindPhaseRing</a> (const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_rule.html#a5358e3b05db56d19875bb15f02523f2f">Rule::Id</a> &amp;rule_id) const</td></tr>
 <tr class="memdesc:a5705ba2f20347d8aa665de843040684f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds and returns the <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring.html" title="A set of mutually exclusive phases, e.g., that comprise the signaling cycle for an intersection.">PhaseRing</a> containing the specified <a class="el" href="classmaliput_1_1api_1_1rules_1_1_rule.html" title="Describes a generic rule type.">Rule</a>.  <a href="classmaliput_1_1api_1_1rules_1_1_phase_ring_book.html#a5705ba2f20347d8aa665de843040684f">More...</a><br /></td></tr>
@@ -192,14 +192,14 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">std::optional&lt;<a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring.html">PhaseRing</a>&gt; FindPhaseRing </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html#a69be7b6f53a1b396d7be1a7848f20312">RightOfWayRule::Id</a> &amp;&#160;</td>
+          <td class="paramtype">const RightOfWayRule::Id &amp;&#160;</td>
           <td class="paramname"><em>rule_id</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Finds and returns the <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring.html" title="A set of mutually exclusive phases, e.g., that comprise the signaling cycle for an intersection.">PhaseRing</a> containing the specified <a class="el" href="classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html" title="Rule describing right-of-way, a.k.a.">RightOfWayRule</a>. </p>
+<p>Finds and returns the <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring.html" title="A set of mutually exclusive phases, e.g., that comprise the signaling cycle for an intersection.">PhaseRing</a> containing the specified RightOfWayRule. </p>
 <p>Returns std::nullopt if <code>rule_id</code> is unrecognized. </p>
 
 </div>

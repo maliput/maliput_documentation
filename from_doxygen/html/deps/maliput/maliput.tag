@@ -202,12 +202,18 @@
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="type__specific__identifier_8h" name="type_specific_identifier.h" local="yes" imported="no">maliput/api/type_specific_identifier.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
+    <includes id="maliput__deprecated_8h" name="maliput_deprecated.h" local="yes" imported="no">maliput/common/maliput_deprecated.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
-    <class kind="class">maliput::api::rules::DirectionUsageRule</class>
-    <class kind="class">maliput::api::rules::DirectionUsageRule::State</class>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
     <namespace>maliput::api::rules</namespace>
+    <member kind="function">
+      <type>class</type>
+      <name>MALIPUT_DEPRECATED</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a22caa4eb253ffe3163ac3b3bb3cdce2a</anchor>
+      <arglist>(&quot;DirectionUsageRule will be deprecated&quot;, &quot;DiscreteValueRule&quot;) DirectionUsageRule final</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>discrete_value_rule.cc</name>
@@ -677,6 +683,7 @@
     <includes id="phase__ring_8h" name="phase_ring.h" local="yes" imported="no">maliput/api/rules/phase_ring.h</includes>
     <includes id="type__specific__identifier_8h" name="type_specific_identifier.h" local="yes" imported="no">maliput/api/type_specific_identifier.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
+    <includes id="maliput__deprecated_8h" name="maliput_deprecated.h" local="yes" imported="no">maliput/common/maliput_deprecated.h</includes>
     <class kind="class">maliput::api::Intersection</class>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
@@ -710,6 +717,7 @@
     <includes id="api_2intersection_8h" name="api/intersection.h" local="yes" imported="no">maliput/api/intersection.h</includes>
     <includes id="traffic__lights_8h" name="traffic_lights.h" local="yes" imported="no">maliput/api/rules/traffic_lights.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
+    <includes id="maliput__deprecated_8h" name="maliput_deprecated.h" local="yes" imported="no">maliput/common/maliput_deprecated.h</includes>
     <class kind="class">maliput::api::IntersectionBook</class>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
@@ -1213,6 +1221,74 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>maliput_deprecated.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/common/</path>
+    <filename>maliput__deprecated_8h.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_DEPRECATED</name>
+      <anchorfile>maliput__deprecated_8h.html</anchorfile>
+      <anchor>a608a5c3a167da48e34860f3e0e0607a4</anchor>
+      <arglist>(...)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_DEPRECATED_MSG</name>
+      <anchorfile>maliput__deprecated_8h.html</anchorfile>
+      <anchor>ab2868e5550936d9c2d28963511dd140f</anchor>
+      <arglist>(message)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_DEPRECATED_MSG_REPLACEMENT</name>
+      <anchorfile>maliput__deprecated_8h.html</anchorfile>
+      <anchor>a8debe1f2d6b394550c59a1a59c96a639</anchor>
+      <arglist>(message, replacement)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_DEPRECATED_MSG_REPLACEMENT_DATE</name>
+      <anchorfile>maliput__deprecated_8h.html</anchorfile>
+      <anchor>afc615d1bee4d19c65044b4c01f77b381</anchor>
+      <arglist>(message, replacement, removal_date)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_GET_DEPRECATED_MACRO</name>
+      <anchorfile>maliput__deprecated_8h.html</anchorfile>
+      <anchor>a23929d02354b635f41a3300c87d2eee9</anchor>
+      <arglist>(_1, _2, _3, DEPRECATED_MACRO_NAME,...)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_DEPRECATED_MSG</name>
+      <anchorfile>maliput__deprecated_8h.html</anchorfile>
+      <anchor>ab2868e5550936d9c2d28963511dd140f</anchor>
+      <arglist>(message)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_DEPRECATED_MSG_REPLACEMENT</name>
+      <anchorfile>maliput__deprecated_8h.html</anchorfile>
+      <anchor>a8debe1f2d6b394550c59a1a59c96a639</anchor>
+      <arglist>(message, replacement)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_DEPRECATED_MSG_REPLACEMENT_DATE</name>
+      <anchorfile>maliput__deprecated_8h.html</anchorfile>
+      <anchor>afc615d1bee4d19c65044b4c01f77b381</anchor>
+      <arglist>(message, replacement, removal_date)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_GET_DEPRECATED_MACRO</name>
+      <anchorfile>maliput__deprecated_8h.html</anchorfile>
+      <anchor>a23929d02354b635f41a3300c87d2eee9</anchor>
+      <arglist>(_1, _2, _3, DEPRECATED_MACRO_NAME,...)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>maliput_design.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/</path>
     <filename>maliput__design_8h.html</filename>
@@ -1666,7 +1742,7 @@
     <includes id="right__of__way__rule_8h" name="right_of_way_rule.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule.h</includes>
     <includes id="right__of__way__rule__state__provider_8h" name="right_of_way_rule_state_provider.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule_state_provider.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
-    <class kind="class">maliput::ManualRightOfWayRuleStateProvider</class>
+    <includes id="maliput__deprecated_8h" name="maliput_deprecated.h" local="yes" imported="no">maliput/common/maliput_deprecated.h</includes>
     <namespace>maliput</namespace>
   </compound>
   <compound kind="file">
@@ -2982,15 +3058,16 @@
     <includes id="traffic__lights_8h" name="traffic_lights.h" local="yes" imported="no">maliput/api/rules/traffic_lights.h</includes>
     <includes id="type__specific__identifier_8h" name="type_specific_identifier.h" local="yes" imported="no">maliput/api/type_specific_identifier.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
+    <includes id="maliput__deprecated_8h" name="maliput_deprecated.h" local="yes" imported="no">maliput/common/maliput_deprecated.h</includes>
     <class kind="class">maliput::api::rules::Phase</class>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
     <namespace>maliput::api::rules</namespace>
     <member kind="typedef">
       <type>std::unordered_map&lt; RightOfWayRule::Id, RightOfWayRule::State::Id &gt;</type>
-      <name>RuleStates</name>
+      <name>deprecated</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
-      <anchor>a7746cf2e80c102a6e983d7021296bc26</anchor>
+      <anchor>a9880f1aadf0730ff465fc9a4ea2a0ca9</anchor>
       <arglist></arglist>
     </member>
     <member kind="typedef">
@@ -3052,7 +3129,7 @@
     <includes id="right__of__way__rule_8h" name="right_of_way_rule.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule.h</includes>
     <includes id="right__of__way__rule__state__provider_8h" name="right_of_way_rule_state_provider.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule_state_provider.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
-    <class kind="class">maliput::PhaseBasedRightOfWayRuleStateProvider</class>
+    <includes id="maliput__deprecated_8h" name="maliput_deprecated.h" local="yes" imported="no">maliput/common/maliput_deprecated.h</includes>
     <namespace>maliput</namespace>
   </compound>
   <compound kind="file">
@@ -3099,6 +3176,7 @@
     <includes id="right__of__way__rule_8h" name="right_of_way_rule.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule.h</includes>
     <includes id="rule_8h" name="rule.h" local="yes" imported="no">maliput/api/rules/rule.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
+    <includes id="maliput__deprecated_8h" name="maliput_deprecated.h" local="yes" imported="no">maliput/common/maliput_deprecated.h</includes>
     <class kind="class">maliput::api::rules::PhaseRingBook</class>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
@@ -3491,12 +3569,18 @@
     <includes id="traffic__lights_8h" name="traffic_lights.h" local="yes" imported="no">maliput/api/rules/traffic_lights.h</includes>
     <includes id="type__specific__identifier_8h" name="type_specific_identifier.h" local="yes" imported="no">maliput/api/type_specific_identifier.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
+    <includes id="maliput__deprecated_8h" name="maliput_deprecated.h" local="yes" imported="no">maliput/common/maliput_deprecated.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
-    <class kind="class">maliput::api::rules::RightOfWayRule</class>
-    <class kind="class">maliput::api::rules::RightOfWayRule::State</class>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
     <namespace>maliput::api::rules</namespace>
+    <member kind="function">
+      <type>class</type>
+      <name>MALIPUT_DEPRECATED</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a0d497c24123337e67c55e9b163db1135</anchor>
+      <arglist>(&quot;RightOfWayRule class will be deprecated&quot;, &quot;DiscreteValueRule&quot;) RightOfWayRule final</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>right_of_way_rule_state_provider.h</name>
@@ -3505,10 +3589,17 @@
     <includes id="right__of__way__rule_8h" name="right_of_way_rule.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule.h</includes>
     <includes id="state__provider__result_8h" name="state_provider_result.h" local="yes" imported="no">maliput/api/rules/state_provider_result.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
-    <class kind="class">maliput::api::rules::RightOfWayRuleStateProvider</class>
+    <includes id="maliput__deprecated_8h" name="maliput_deprecated.h" local="yes" imported="no">maliput/common/maliput_deprecated.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
     <namespace>maliput::api::rules</namespace>
+    <member kind="function">
+      <type>class</type>
+      <name>MALIPUT_DEPRECATED</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a689b8cce73fdae159a03a234f658a925</anchor>
+      <arglist>(&quot;RigthOfWayRule class will be deprecated.&quot;) RightOfWayRuleStateProvider</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>api/road_geometry.cc</name>
@@ -4282,36 +4373,36 @@
       <type>::testing::AssertionResult</type>
       <name>IsEqual</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>af87bf8cb64fbac0466814a74374847f9</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, DirectionUsageRule::State::Type a, DirectionUsageRule::State::Type b)</arglist>
+      <anchor>a93f203fb41200ab9e61603d99918ce5d</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, rules::DirectionUsageRule::State::Type a, rules::DirectionUsageRule::State::Type b)</arglist>
     </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>
       <name>IsEqual</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a9f1660ac51ca1f4cf06d55d7d63633d7</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, DirectionUsageRule::State::Severity a, DirectionUsageRule::State::Severity b)</arglist>
+      <anchor>a17ef20aa79556f0e8baa9f92e047bf2b</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, rules::DirectionUsageRule::State::Severity a, rules::DirectionUsageRule::State::Severity b)</arglist>
     </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>
       <name>IsEqual</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ae17a37f89c25d963d7c59a4707fc2e05</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const DirectionUsageRule::State &amp;a, const DirectionUsageRule::State &amp;b)</arglist>
+      <anchor>aa2dfb3db9c1f188cbe3c8fa97a4287a7</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const rules::DirectionUsageRule::State &amp;a, const rules::DirectionUsageRule::State &amp;b)</arglist>
     </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>
       <name>IsEqual</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a26aef1dc811b56af3498c1e5ef0f5d1e</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; DirectionUsageRule::State::Id, DirectionUsageRule::State &gt; &amp;a, const std::unordered_map&lt; DirectionUsageRule::State::Id, DirectionUsageRule::State &gt; &amp;b)</arglist>
+      <anchor>a1b72495a43f496c01170d26002c97cbf</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; rules::DirectionUsageRule::State::Id, rules::DirectionUsageRule::State &gt; &amp;a, const std::unordered_map&lt; rules::DirectionUsageRule::State::Id, rules::DirectionUsageRule::State &gt; &amp;b)</arglist>
     </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>
       <name>IsEqual</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>adcfa1351d838dac11e9a441d8148a19f</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const DirectionUsageRule &amp;a, const DirectionUsageRule &amp;b)</arglist>
+      <anchor>a6689b29590181c982058bea99d2c69d4</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const rules::DirectionUsageRule &amp;a, const rules::DirectionUsageRule &amp;b)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -4328,35 +4419,35 @@
       <type>::testing::AssertionResult</type>
       <name>IsEqual</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>af87bf8cb64fbac0466814a74374847f9</anchor>
+      <anchor>a9293324947038dd9ba5d6a121b3d00ed</anchor>
       <arglist>(const char *a_expression, const char *b_expression, DirectionUsageRule::State::Type a, DirectionUsageRule::State::Type b)</arglist>
     </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>
       <name>IsEqual</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a9f1660ac51ca1f4cf06d55d7d63633d7</anchor>
+      <anchor>aa7aeeadd885568951bbf9a612ae5abd9</anchor>
       <arglist>(const char *a_expression, const char *b_expression, DirectionUsageRule::State::Severity a, DirectionUsageRule::State::Severity b)</arglist>
     </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>
       <name>IsEqual</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ae17a37f89c25d963d7c59a4707fc2e05</anchor>
+      <anchor>a50f4bbed6271b6ce869186b6bc5d8f4e</anchor>
       <arglist>(const char *a_expression, const char *b_expression, const DirectionUsageRule::State &amp;a, const DirectionUsageRule::State &amp;b)</arglist>
     </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>
       <name>IsEqual</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a26aef1dc811b56af3498c1e5ef0f5d1e</anchor>
+      <anchor>aad8c9ac0766d9fb9b17873506d0cdc99</anchor>
       <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; DirectionUsageRule::State::Id, DirectionUsageRule::State &gt; &amp;a, const std::unordered_map&lt; DirectionUsageRule::State::Id, DirectionUsageRule::State &gt; &amp;b)</arglist>
     </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>
       <name>IsEqual</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>adcfa1351d838dac11e9a441d8148a19f</anchor>
+      <anchor>ad69b644674595f247dd119d12253ce41</anchor>
       <arglist>(const char *a_expression, const char *b_expression, const DirectionUsageRule &amp;a, const DirectionUsageRule &amp;b)</arglist>
     </member>
   </compound>
@@ -4735,11 +4826,18 @@
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="type__specific__identifier_8h" name="type_specific_identifier.h" local="yes" imported="no">maliput/api/type_specific_identifier.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
+    <includes id="maliput__deprecated_8h" name="maliput_deprecated.h" local="yes" imported="no">maliput/common/maliput_deprecated.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
-    <class kind="class">maliput::api::rules::SpeedLimitRule</class>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
     <namespace>maliput::api::rules</namespace>
+    <member kind="function">
+      <type>class</type>
+      <name>MALIPUT_DEPRECATED</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>aeac7d5c176e479046745b85fe96f21e5</anchor>
+      <arglist>(&quot;next release&quot;, &quot;Use RangeValueRule instead.&quot;) SpeedLimitRule</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>state_provider_result.h</name>
@@ -5960,74 +6058,6 @@
       <anchorfile>structmaliput_1_1utility_1_1mesh_1_1_directed_edge_index.html</anchorfile>
       <anchor>ac069a2a74d72b5eac9ab70301084f7c2</anchor>
       <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::api::rules::DirectionUsageRule</name>
-    <filename>classmaliput_1_1api_1_1rules_1_1_direction_usage_rule.html</filename>
-    <class kind="class">maliput::api::rules::DirectionUsageRule::State</class>
-    <member kind="typedef">
-      <type>TypeSpecificIdentifier&lt; class DirectionUsageRule &gt;</type>
-      <name>Id</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_direction_usage_rule.html</anchorfile>
-      <anchor>a7a7710401175a4780dcb13dd239bbbbc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_direction_usage_rule.html</anchorfile>
-      <anchor>adb55d6cf58db45bc2f95f7298eb53436</anchor>
-      <arglist>(DirectionUsageRule)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>DirectionUsageRule</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_direction_usage_rule.html</anchorfile>
-      <anchor>ae2d0750c2e67848bb10bb51b991d64b9</anchor>
-      <arglist>(const Id &amp;id, const LaneSRange &amp;zone, std::vector&lt; State &gt; states)</arglist>
-    </member>
-    <member kind="function">
-      <type>const Id &amp;</type>
-      <name>id</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_direction_usage_rule.html</anchorfile>
-      <anchor>a3e9b36985fa40131c908fffb29f45c75</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>const LaneSRange &amp;</type>
-      <name>zone</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_direction_usage_rule.html</anchorfile>
-      <anchor>a9a86d6d96d913683a69a038a7cfd33c4</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>const std::unordered_map&lt; State::Id, State &gt; &amp;</type>
-      <name>states</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_direction_usage_rule.html</anchorfile>
-      <anchor>ac008b1f3324a5c0c79f8fbd007c085d8</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>is_static</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_direction_usage_rule.html</anchorfile>
-      <anchor>abfa42287b93354ccd5c79a1ccd4411cd</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>const State &amp;</type>
-      <name>static_state</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_direction_usage_rule.html</anchorfile>
-      <anchor>af7925df19f8a28f75afae28f46b31400</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static std::unordered_map&lt; State::Type, const char *, maliput::common::DefaultHash &gt;</type>
-      <name>StateTypeMapper</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_direction_usage_rule.html</anchorfile>
-      <anchor>ac2c3faa08d37cf60aefc329ba0b1bf94</anchor>
-      <arglist>()</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -8090,39 +8120,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::ManualRightOfWayRuleStateProvider</name>
-    <filename>classmaliput_1_1_manual_right_of_way_rule_state_provider.html</filename>
-    <base>maliput::api::rules::RightOfWayRuleStateProvider</base>
-    <member kind="function">
-      <type></type>
-      <name>ManualRightOfWayRuleStateProvider</name>
-      <anchorfile>classmaliput_1_1_manual_right_of_way_rule_state_provider.html</anchorfile>
-      <anchor>aba3e5d04402569fdf3c90afb632ad353</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~ManualRightOfWayRuleStateProvider</name>
-      <anchorfile>classmaliput_1_1_manual_right_of_way_rule_state_provider.html</anchorfile>
-      <anchor>adf93ccfb2fa76b9805dbc28bc0d60c73</anchor>
-      <arglist>() final=default</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AddState</name>
-      <anchorfile>classmaliput_1_1_manual_right_of_way_rule_state_provider.html</anchorfile>
-      <anchor>a89616b27f61b5f8ef28ca2895b743dec</anchor>
-      <arglist>(const api::rules::RightOfWayRule::Id &amp;id, const api::rules::RightOfWayRule::State::Id &amp;initial_state)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>SetState</name>
-      <anchorfile>classmaliput_1_1_manual_right_of_way_rule_state_provider.html</anchorfile>
-      <anchor>af697f2709c1d81f40f72930f4ef00c45</anchor>
-      <arglist>(const api::rules::RightOfWayRule::Id &amp;id, const api::rules::RightOfWayRule::State::Id &amp;state)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>maliput::ManualRulebook</name>
     <filename>classmaliput_1_1_manual_rulebook.html</filename>
     <base>maliput::api::rules::RoadRulebook</base>
@@ -8824,6 +8821,25 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::geometry_base::test::MockSegment</name>
+    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</filename>
+    <base>maliput::geometry_base::Segment</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
+      <anchor>a667227ded4ffb60bad6d5bf69e104a38</anchor>
+      <arglist>(MockSegment)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MockSegment</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
+      <anchor>a9384ed7a03ee84b8f965a5d156f4efee</anchor>
+      <arglist>(const api::SegmentId &amp;id)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::api::test::MockSegment</name>
     <filename>classmaliput_1_1api_1_1test_1_1_mock_segment.html</filename>
     <base>maliput::api::Segment</base>
@@ -8847,25 +8863,6 @@
       <anchorfile>classmaliput_1_1api_1_1test_1_1_mock_segment.html</anchorfile>
       <anchor>ab18c3ac1d55322f884de6d1313ee2888</anchor>
       <arglist>(std::unique_ptr&lt; MockLane &gt; lane)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::geometry_base::test::MockSegment</name>
-    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</filename>
-    <base>maliput::geometry_base::Segment</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
-      <anchor>a667227ded4ffb60bad6d5bf69e104a38</anchor>
-      <arglist>(MockSegment)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MockSegment</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
-      <anchor>a9384ed7a03ee84b8f965a5d156f4efee</anchor>
-      <arglist>(const api::SegmentId &amp;id)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -9221,39 +9218,6 @@
       <type>const api::rules::PhaseProvider &amp;</type>
       <name>phase_provider</name>
       <anchorfile>classmaliput_1_1_phase_based_right_of_way_discrete_value_rule_state_provider.html</anchorfile>
-      <anchor>afed31264b8838b06457bf5a3faa96976</anchor>
-      <arglist>() const</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::PhaseBasedRightOfWayRuleStateProvider</name>
-    <filename>classmaliput_1_1_phase_based_right_of_way_rule_state_provider.html</filename>
-    <base>maliput::api::rules::RightOfWayRuleStateProvider</base>
-    <member kind="function">
-      <type></type>
-      <name>PhaseBasedRightOfWayRuleStateProvider</name>
-      <anchorfile>classmaliput_1_1_phase_based_right_of_way_rule_state_provider.html</anchorfile>
-      <anchor>ae8edb0c5932b079b281528d6dd239244</anchor>
-      <arglist>(const api::rules::PhaseRingBook *phase_ring_book, const api::rules::PhaseProvider *phase_provider)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~PhaseBasedRightOfWayRuleStateProvider</name>
-      <anchorfile>classmaliput_1_1_phase_based_right_of_way_rule_state_provider.html</anchorfile>
-      <anchor>ac018c143d231817e1d28b4fbf023b2bd</anchor>
-      <arglist>() final=default</arglist>
-    </member>
-    <member kind="function">
-      <type>const api::rules::PhaseRingBook &amp;</type>
-      <name>phase_ring_book</name>
-      <anchorfile>classmaliput_1_1_phase_based_right_of_way_rule_state_provider.html</anchorfile>
-      <anchor>afde30b154df0caf6a8c85fa29721f783</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>const api::rules::PhaseProvider &amp;</type>
-      <name>phase_provider</name>
-      <anchorfile>classmaliput_1_1_phase_based_right_of_way_rule_state_provider.html</anchorfile>
       <anchor>afed31264b8838b06457bf5a3faa96976</anchor>
       <arglist>() const</arglist>
     </member>
@@ -10013,129 +9977,6 @@
       <anchorfile>structmaliput_1_1api_1_1test_1_1_right_of_way_build_flags.html</anchorfile>
       <anchor>a8ba809272a7cec904f854a3f82ac9195</anchor>
       <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::api::rules::RightOfWayRule</name>
-    <filename>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html</filename>
-    <class kind="class">maliput::api::rules::RightOfWayRule::State</class>
-    <member kind="enumeration">
-      <type></type>
-      <name>ZoneType</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html</anchorfile>
-      <anchor>a29fcc592f1c1254f2738a72794a16ea3</anchor>
-      <arglist></arglist>
-      <enumvalue file="classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html" anchor="a29fcc592f1c1254f2738a72794a16ea3a0f63665fae9ea86b9f4d79e1e298b1db">kStopExcluded</enumvalue>
-      <enumvalue file="classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html" anchor="a29fcc592f1c1254f2738a72794a16ea3a861c791c94a793a11035b831031716f9">kStopAllowed</enumvalue>
-    </member>
-    <member kind="typedef">
-      <type>TypeSpecificIdentifier&lt; class RightOfWayRule &gt;</type>
-      <name>Id</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html</anchorfile>
-      <anchor>a69be7b6f53a1b396d7be1a7848f20312</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="typedef">
-      <type>std::unordered_map&lt; TrafficLight::Id, std::vector&lt; BulbGroup::Id &gt; &gt;</type>
-      <name>RelatedBulbGroups</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html</anchorfile>
-      <anchor>a217590658dd5d3cf397c8143246f1e39</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html</anchorfile>
-      <anchor>a631aec9be750f386aebb05506ed0dab2</anchor>
-      <arglist>(RightOfWayRule)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>RightOfWayRule</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html</anchorfile>
-      <anchor>a5b9eae0b6143b85d85d351b977967833</anchor>
-      <arglist>(const Id &amp;id, const LaneSRoute &amp;zone, ZoneType zone_type, const std::vector&lt; State &gt; &amp;states, const RelatedBulbGroups &amp;related_bulb_groups)</arglist>
-    </member>
-    <member kind="function">
-      <type>const Id &amp;</type>
-      <name>id</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html</anchorfile>
-      <anchor>a3e9b36985fa40131c908fffb29f45c75</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>const LaneSRoute &amp;</type>
-      <name>zone</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html</anchorfile>
-      <anchor>a2f62468a5f47fdcf6093abc9aaa25156</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>ZoneType</type>
-      <name>zone_type</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html</anchorfile>
-      <anchor>afeb29d59b50026bd2f87e11c08b4ee99</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>const std::unordered_map&lt; State::Id, State &gt; &amp;</type>
-      <name>states</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html</anchorfile>
-      <anchor>ac008b1f3324a5c0c79f8fbd007c085d8</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>is_static</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html</anchorfile>
-      <anchor>abfa42287b93354ccd5c79a1ccd4411cd</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>const State &amp;</type>
-      <name>static_state</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html</anchorfile>
-      <anchor>af7925df19f8a28f75afae28f46b31400</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>const RelatedBulbGroups &amp;</type>
-      <name>related_bulb_groups</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html</anchorfile>
-      <anchor>ad033f61db476405e5a30f511a5867b2d</anchor>
-      <arglist>() const</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::api::rules::RightOfWayRuleStateProvider</name>
-    <filename>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_state_provider.html</filename>
-    <member kind="typedef">
-      <type>StateProviderResult&lt; RightOfWayRule::State::Id &gt;</type>
-      <name>RightOfWayResult</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_state_provider.html</anchorfile>
-      <anchor>a4dd111289aa9e32c0b87731f55259839</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual</type>
-      <name>~RightOfWayRuleStateProvider</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_state_provider.html</anchorfile>
-      <anchor>a6cb3d33c0a18bb3e6cc59cf86bc11634</anchor>
-      <arglist>()=default</arglist>
-    </member>
-    <member kind="function">
-      <type>std::optional&lt; RightOfWayResult &gt;</type>
-      <name>GetState</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_state_provider.html</anchorfile>
-      <anchor>a054c95f720abd4834b16f90bda7c86cd</anchor>
-      <arglist>(const RightOfWayRule::Id &amp;id) const</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type></type>
-      <name>RightOfWayRuleStateProvider</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_state_provider.html</anchorfile>
-      <anchor>afd249807b7da94815cc4d18e087fd0ee</anchor>
-      <arglist>()=default</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -11415,52 +11256,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::api::Segment</name>
-    <filename>classmaliput_1_1api_1_1_segment.html</filename>
-    <member kind="function" virtualness="virtual">
-      <type>virtual</type>
-      <name>~Segment</name>
-      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
-      <anchor>ad62aab38a774d311fcd89d88a96681d0</anchor>
-      <arglist>()=default</arglist>
-    </member>
-    <member kind="function">
-      <type>SegmentId</type>
-      <name>id</name>
-      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
-      <anchor>acc1e5f359ad7f670ce73faa23be39d24</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>const Junction *</type>
-      <name>junction</name>
-      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
-      <anchor>ae7d45473b824832f3828103f350b8f72</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>num_lanes</name>
-      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
-      <anchor>a7fa67be7f6db7ed4c931a2491b0c51bb</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>const Lane *</type>
-      <name>lane</name>
-      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
-      <anchor>a6f4e1b5acc16f9d2f722f0a36db0a06f</anchor>
-      <arglist>(int index) const</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type></type>
-      <name>Segment</name>
-      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
-      <anchor>a323d93e726913120d0c5ec89c64549fc</anchor>
-      <arglist>()=default</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>maliput::geometry_base::Segment</name>
     <filename>classmaliput_1_1geometry__base_1_1_segment.html</filename>
     <base>maliput::api::Segment</base>
@@ -11505,6 +11300,52 @@
       <anchorfile>classmaliput_1_1geometry__base_1_1_segment.html</anchorfile>
       <anchor>a84a537aa6336ab1b17e86fcc3d165979</anchor>
       <arglist>() override=default</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::api::Segment</name>
+    <filename>classmaliput_1_1api_1_1_segment.html</filename>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~Segment</name>
+      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
+      <anchor>ad62aab38a774d311fcd89d88a96681d0</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>SegmentId</type>
+      <name>id</name>
+      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
+      <anchor>acc1e5f359ad7f670ce73faa23be39d24</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Junction *</type>
+      <name>junction</name>
+      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
+      <anchor>ae7d45473b824832f3828103f350b8f72</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_lanes</name>
+      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
+      <anchor>a7fa67be7f6db7ed4c931a2491b0c51bb</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Lane *</type>
+      <name>lane</name>
+      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
+      <anchor>a6f4e1b5acc16f9d2f722f0a36db0a06f</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>Segment</name>
+      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
+      <anchor>a323d93e726913120d0c5ec89c64549fc</anchor>
+      <arglist>()=default</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -11713,75 +11554,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::api::rules::SpeedLimitRule</name>
-    <filename>classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html</filename>
-    <member kind="enumeration">
-      <type></type>
-      <name>Severity</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html</anchorfile>
-      <anchor>a11717da96dc4e4a5f79371318448f82b</anchor>
-      <arglist></arglist>
-      <enumvalue file="classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html" anchor="a11717da96dc4e4a5f79371318448f82ba35215d4c3b69349b967c421fd68b0b36">kStrict</enumvalue>
-      <enumvalue file="classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html" anchor="a11717da96dc4e4a5f79371318448f82ba5c50d28c54b2415906397a541dbfb7a3">kAdvisory</enumvalue>
-    </member>
-    <member kind="typedef">
-      <type>TypeSpecificIdentifier&lt; class SpeedLimitRule &gt;</type>
-      <name>Id</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html</anchorfile>
-      <anchor>a5fa5d95df24696bd0bb4a145e37997cc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html</anchorfile>
-      <anchor>ad07d8ee96bc1970c3e7f4421df8f1312</anchor>
-      <arglist>(SpeedLimitRule)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>SpeedLimitRule</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html</anchorfile>
-      <anchor>a3ffecc1772ccb7b2e7b9a119ea40f44e</anchor>
-      <arglist>(const Id &amp;id, const LaneSRange &amp;zone, Severity severity, double min, double max)</arglist>
-    </member>
-    <member kind="function">
-      <type>const Id &amp;</type>
-      <name>id</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html</anchorfile>
-      <anchor>a3e9b36985fa40131c908fffb29f45c75</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>const LaneSRange &amp;</type>
-      <name>zone</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html</anchorfile>
-      <anchor>a9a86d6d96d913683a69a038a7cfd33c4</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>Severity</type>
-      <name>severity</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html</anchorfile>
-      <anchor>a61565d42b3a4c63dbfe14fb29b23c3aa</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>min</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html</anchorfile>
-      <anchor>a74ad3cfdc000a999ae2d456fe3ec3418</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>max</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html</anchorfile>
-      <anchor>ae10f649a540c212781c2d0a4c7385eca</anchor>
-      <arglist>() const</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>maliput::api::SRange</name>
     <filename>classmaliput_1_1api_1_1_s_range.html</filename>
     <member kind="function">
@@ -11878,138 +11650,6 @@
       <anchorfile>classmaliput_1_1utility_1_1mesh_1_1_srh_face.html</anchorfile>
       <anchor>a9066879c275ebba1f86129e672a075a6</anchor>
       <arglist>(const api::Lane *lane) const</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::api::rules::DirectionUsageRule::State</name>
-    <filename>classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state.html</filename>
-    <member kind="enumeration">
-      <type></type>
-      <name>Severity</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state.html</anchorfile>
-      <anchor>a11717da96dc4e4a5f79371318448f82b</anchor>
-      <arglist></arglist>
-      <enumvalue file="classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state.html" anchor="a11717da96dc4e4a5f79371318448f82ba35215d4c3b69349b967c421fd68b0b36">kStrict</enumvalue>
-      <enumvalue file="classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state.html" anchor="a11717da96dc4e4a5f79371318448f82badef84d98ccbaf6b12d65747933ef3302">kPreferred</enumvalue>
-    </member>
-    <member kind="enumeration">
-      <type></type>
-      <name>Type</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state.html</anchorfile>
-      <anchor>a1d1cfd8ffb84e947f82999c682b666a7</anchor>
-      <arglist></arglist>
-      <enumvalue file="classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a4439a15076665c11e71b4838f0bc34e8">kWithS</enumvalue>
-      <enumvalue file="classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7aff5914d726d886c7d370de5e67ded2a6">kAgainstS</enumvalue>
-      <enumvalue file="classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a2bbe1a0ba50da9d6a71e768330359367">kBidirectional</enumvalue>
-      <enumvalue file="classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7ac0a353f1565e87f30ec8c619c3f5865c">kBidirectionalTurnOnly</enumvalue>
-      <enumvalue file="classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7abbd5bb787a2a3adb80809d6ba0a72d70">kNoUse</enumvalue>
-      <enumvalue file="classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a2f1b49aef4a81f0f9b4e7f0e1b9b90ac">kParking</enumvalue>
-      <enumvalue file="classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a7934d40c7c17315d892e8d5d745b1c66">kUndefined</enumvalue>
-    </member>
-    <member kind="typedef">
-      <type>TypeSpecificIdentifier&lt; class State &gt;</type>
-      <name>Id</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state.html</anchorfile>
-      <anchor>a62fa69761fc78c36f2a531f7798dfd5c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state.html</anchorfile>
-      <anchor>a8099d9c527beab7a18bdcf3c3ef34eb1</anchor>
-      <arglist>(State)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>State</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state.html</anchorfile>
-      <anchor>ad18c6c6086db604971437205c8963a94</anchor>
-      <arglist>(Id id, Type type, Severity severity)</arglist>
-    </member>
-    <member kind="function">
-      <type>const Id &amp;</type>
-      <name>id</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state.html</anchorfile>
-      <anchor>a3e9b36985fa40131c908fffb29f45c75</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>Type</type>
-      <name>type</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state.html</anchorfile>
-      <anchor>adf4a6727c689e0038cf2cdd158d5ed2c</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>Severity</type>
-      <name>severity</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state.html</anchorfile>
-      <anchor>a61565d42b3a4c63dbfe14fb29b23c3aa</anchor>
-      <arglist>() const</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::api::rules::RightOfWayRule::State</name>
-    <filename>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_1_1_state.html</filename>
-    <member kind="enumeration">
-      <type></type>
-      <name>Type</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_1_1_state.html</anchorfile>
-      <anchor>a1d1cfd8ffb84e947f82999c682b666a7</anchor>
-      <arglist></arglist>
-      <enumvalue file="classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_1_1_state.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a44502fe4915d471b71350f3371066aac">kGo</enumvalue>
-      <enumvalue file="classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_1_1_state.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a97bebae73e3334ef0c946c5df81e440b">kStop</enumvalue>
-      <enumvalue file="classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_1_1_state.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a7a484b5aaf762064a91456209d356e86">kStopThenGo</enumvalue>
-    </member>
-    <member kind="typedef">
-      <type>TypeSpecificIdentifier&lt; class State &gt;</type>
-      <name>Id</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_1_1_state.html</anchorfile>
-      <anchor>a62fa69761fc78c36f2a531f7798dfd5c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="typedef">
-      <type>std::vector&lt; RightOfWayRule::Id &gt;</type>
-      <name>YieldGroup</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_1_1_state.html</anchorfile>
-      <anchor>a2487628a04d1a179aac94badddacf17a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_1_1_state.html</anchorfile>
-      <anchor>a8099d9c527beab7a18bdcf3c3ef34eb1</anchor>
-      <arglist>(State)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>State</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_1_1_state.html</anchorfile>
-      <anchor>a1fe752417f81a6da1066ee1b9f168d54</anchor>
-      <arglist>(Id id, Type type, const YieldGroup &amp;yield_to)</arglist>
-    </member>
-    <member kind="function">
-      <type>const Id &amp;</type>
-      <name>id</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_1_1_state.html</anchorfile>
-      <anchor>a3e9b36985fa40131c908fffb29f45c75</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>Type</type>
-      <name>type</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_1_1_state.html</anchorfile>
-      <anchor>adf4a6727c689e0038cf2cdd158d5ed2c</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>const YieldGroup &amp;</type>
-      <name>yield_to</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_1_1_state.html</anchorfile>
-      <anchor>a33d77a4294262adabb88ee11dffe6858</anchor>
-      <arglist>() const</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -12573,59 +12213,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>TypeSpecificIdentifier&lt; class DirectionUsageRule &gt;</name>
-    <filename>classmaliput_1_1api_1_1_type_specific_identifier.html</filename>
-    <member kind="typedef">
-      <type>class DirectionUsageRule</type>
-      <name>identified_type</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>af20630e7db1b537e2b605e0f5a266e6b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>ae1c90c9eff1dfe4d052c9a012f813fca</anchor>
-      <arglist>(TypeSpecificIdentifier)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>TypeSpecificIdentifier</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>af57672784e7f203359a24bb2694327b2</anchor>
-      <arglist>(std::string string)</arglist>
-    </member>
-    <member kind="function">
-      <type>const std::string &amp;</type>
-      <name>string</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>a7314f49a51859d46439cfeddb9ea06ec</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>ab135a123a2ff98cdd1d23b6df15eb9ab</anchor>
-      <arglist>(const TypeSpecificIdentifier&lt; class DirectionUsageRule &gt; &amp;rhs) const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator!=</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>a40a8386e472aff3f49ddaa53197b6746</anchor>
-      <arglist>(const TypeSpecificIdentifier&lt; class DirectionUsageRule &gt; &amp;rhs) const</arglist>
-    </member>
-    <member kind="friend">
-      <type>friend void</type>
-      <name>hash_append</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>a4b1b321bba77194abdc265fc952ea158</anchor>
-      <arglist>(HashAlgorithm &amp;hasher, const TypeSpecificIdentifier &amp;item) noexcept</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>TypeSpecificIdentifier&lt; class Junction &gt;</name>
     <filename>classmaliput_1_1api_1_1_type_specific_identifier.html</filename>
     <member kind="typedef">
@@ -12838,59 +12425,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>TypeSpecificIdentifier&lt; class RightOfWayRule &gt;</name>
-    <filename>classmaliput_1_1api_1_1_type_specific_identifier.html</filename>
-    <member kind="typedef">
-      <type>class RightOfWayRule</type>
-      <name>identified_type</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>af20630e7db1b537e2b605e0f5a266e6b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>ae1c90c9eff1dfe4d052c9a012f813fca</anchor>
-      <arglist>(TypeSpecificIdentifier)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>TypeSpecificIdentifier</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>af57672784e7f203359a24bb2694327b2</anchor>
-      <arglist>(std::string string)</arglist>
-    </member>
-    <member kind="function">
-      <type>const std::string &amp;</type>
-      <name>string</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>a7314f49a51859d46439cfeddb9ea06ec</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>ab135a123a2ff98cdd1d23b6df15eb9ab</anchor>
-      <arglist>(const TypeSpecificIdentifier&lt; class RightOfWayRule &gt; &amp;rhs) const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator!=</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>a40a8386e472aff3f49ddaa53197b6746</anchor>
-      <arglist>(const TypeSpecificIdentifier&lt; class RightOfWayRule &gt; &amp;rhs) const</arglist>
-    </member>
-    <member kind="friend">
-      <type>friend void</type>
-      <name>hash_append</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>a4b1b321bba77194abdc265fc952ea158</anchor>
-      <arglist>(HashAlgorithm &amp;hasher, const TypeSpecificIdentifier &amp;item) noexcept</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>TypeSpecificIdentifier&lt; class RoadGeometry &gt;</name>
     <filename>classmaliput_1_1api_1_1_type_specific_identifier.html</filename>
     <member kind="typedef">
@@ -13040,112 +12574,6 @@
       <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
       <anchor>a40a8386e472aff3f49ddaa53197b6746</anchor>
       <arglist>(const TypeSpecificIdentifier&lt; class Segment &gt; &amp;rhs) const</arglist>
-    </member>
-    <member kind="friend">
-      <type>friend void</type>
-      <name>hash_append</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>a4b1b321bba77194abdc265fc952ea158</anchor>
-      <arglist>(HashAlgorithm &amp;hasher, const TypeSpecificIdentifier &amp;item) noexcept</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>TypeSpecificIdentifier&lt; class SpeedLimitRule &gt;</name>
-    <filename>classmaliput_1_1api_1_1_type_specific_identifier.html</filename>
-    <member kind="typedef">
-      <type>class SpeedLimitRule</type>
-      <name>identified_type</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>af20630e7db1b537e2b605e0f5a266e6b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>ae1c90c9eff1dfe4d052c9a012f813fca</anchor>
-      <arglist>(TypeSpecificIdentifier)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>TypeSpecificIdentifier</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>af57672784e7f203359a24bb2694327b2</anchor>
-      <arglist>(std::string string)</arglist>
-    </member>
-    <member kind="function">
-      <type>const std::string &amp;</type>
-      <name>string</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>a7314f49a51859d46439cfeddb9ea06ec</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>ab135a123a2ff98cdd1d23b6df15eb9ab</anchor>
-      <arglist>(const TypeSpecificIdentifier&lt; class SpeedLimitRule &gt; &amp;rhs) const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator!=</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>a40a8386e472aff3f49ddaa53197b6746</anchor>
-      <arglist>(const TypeSpecificIdentifier&lt; class SpeedLimitRule &gt; &amp;rhs) const</arglist>
-    </member>
-    <member kind="friend">
-      <type>friend void</type>
-      <name>hash_append</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>a4b1b321bba77194abdc265fc952ea158</anchor>
-      <arglist>(HashAlgorithm &amp;hasher, const TypeSpecificIdentifier &amp;item) noexcept</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>TypeSpecificIdentifier&lt; class State &gt;</name>
-    <filename>classmaliput_1_1api_1_1_type_specific_identifier.html</filename>
-    <member kind="typedef">
-      <type>class State</type>
-      <name>identified_type</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>af20630e7db1b537e2b605e0f5a266e6b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>ae1c90c9eff1dfe4d052c9a012f813fca</anchor>
-      <arglist>(TypeSpecificIdentifier)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>TypeSpecificIdentifier</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>af57672784e7f203359a24bb2694327b2</anchor>
-      <arglist>(std::string string)</arglist>
-    </member>
-    <member kind="function">
-      <type>const std::string &amp;</type>
-      <name>string</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>a7314f49a51859d46439cfeddb9ea06ec</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>ab135a123a2ff98cdd1d23b6df15eb9ab</anchor>
-      <arglist>(const TypeSpecificIdentifier&lt; class State &gt; &amp;rhs) const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator!=</name>
-      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
-      <anchor>a40a8386e472aff3f49ddaa53197b6746</anchor>
-      <arglist>(const TypeSpecificIdentifier&lt; class State &gt; &amp;rhs) const</arglist>
     </member>
     <member kind="friend">
       <type>friend void</type>
@@ -15015,10 +14443,8 @@
     <class kind="class">maliput::ManualPhaseProvider</class>
     <class kind="class">maliput::ManualPhaseRingBook</class>
     <class kind="class">maliput::ManualRangeValueRuleStateProvider</class>
-    <class kind="class">maliput::ManualRightOfWayRuleStateProvider</class>
     <class kind="class">maliput::ManualRulebook</class>
     <class kind="class">maliput::PhaseBasedRightOfWayDiscreteValueRuleStateProvider</class>
-    <class kind="class">maliput::PhaseBasedRightOfWayRuleStateProvider</class>
     <class kind="struct">maliput::RangeValueRuleConstants</class>
     <class kind="struct">maliput::RelatedRulesKeys</class>
     <class kind="struct">maliput::RelatedUniqueIdsKeys</class>
@@ -15447,7 +14873,6 @@
     <namespace>maliput::api::rules::test</namespace>
     <class kind="class">maliput::api::rules::Bulb</class>
     <class kind="class">maliput::api::rules::BulbGroup</class>
-    <class kind="class">maliput::api::rules::DirectionUsageRule</class>
     <class kind="class">maliput::api::rules::DiscreteValueRule</class>
     <class kind="class">maliput::api::rules::DiscreteValueRuleStateProvider</class>
     <class kind="class">maliput::api::rules::Phase</class>
@@ -15456,12 +14881,9 @@
     <class kind="class">maliput::api::rules::PhaseRingBook</class>
     <class kind="class">maliput::api::rules::RangeValueRule</class>
     <class kind="class">maliput::api::rules::RangeValueRuleStateProvider</class>
-    <class kind="class">maliput::api::rules::RightOfWayRule</class>
-    <class kind="class">maliput::api::rules::RightOfWayRuleStateProvider</class>
     <class kind="class">maliput::api::rules::RoadRulebook</class>
     <class kind="class">maliput::api::rules::Rule</class>
     <class kind="class">maliput::api::rules::RuleRegistry</class>
-    <class kind="class">maliput::api::rules::SpeedLimitRule</class>
     <class kind="struct">maliput::api::rules::StateProviderResult</class>
     <class kind="class">maliput::api::rules::TrafficLight</class>
     <class kind="class">maliput::api::rules::TrafficLightBook</class>
@@ -15469,9 +14891,9 @@
     <class kind="class">maliput::api::rules::UniqueBulbId</class>
     <member kind="typedef">
       <type>std::unordered_map&lt; RightOfWayRule::Id, RightOfWayRule::State::Id &gt;</type>
-      <name>RuleStates</name>
+      <name>deprecated</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
-      <anchor>a7746cf2e80c102a6e983d7021296bc26</anchor>
+      <anchor>a9880f1aadf0730ff465fc9a4ea2a0ca9</anchor>
       <arglist></arglist>
     </member>
     <member kind="typedef">
@@ -15530,6 +14952,34 @@
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="a8e3cc9f879a0ac1d7bd47eb69bba5b34acc9ab5e60ac2a9a675ba64bf4bb49dc8">kOff</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="a8e3cc9f879a0ac1d7bd47eb69bba5b34a2e6612c563e3cf5e64362b0f19f4b33f">kOn</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="a8e3cc9f879a0ac1d7bd47eb69bba5b34a52932182c1d638e198dc39077e8da180">kBlinking</enumvalue>
+    </member>
+    <member kind="function">
+      <type>class</type>
+      <name>MALIPUT_DEPRECATED</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a22caa4eb253ffe3163ac3b3bb3cdce2a</anchor>
+      <arglist>(&quot;DirectionUsageRule will be deprecated&quot;, &quot;DiscreteValueRule&quot;) DirectionUsageRule final</arglist>
+    </member>
+    <member kind="function">
+      <type>class</type>
+      <name>MALIPUT_DEPRECATED</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a0d497c24123337e67c55e9b163db1135</anchor>
+      <arglist>(&quot;RightOfWayRule class will be deprecated&quot;, &quot;DiscreteValueRule&quot;) RightOfWayRule final</arglist>
+    </member>
+    <member kind="function">
+      <type>class</type>
+      <name>MALIPUT_DEPRECATED</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a689b8cce73fdae159a03a234f658a925</anchor>
+      <arglist>(&quot;RigthOfWayRule class will be deprecated.&quot;) RightOfWayRuleStateProvider</arglist>
+    </member>
+    <member kind="function">
+      <type>class</type>
+      <name>MALIPUT_DEPRECATED</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>aeac7d5c176e479046745b85fe96f21e5</anchor>
+      <arglist>(&quot;next release&quot;, &quot;Use RangeValueRule instead.&quot;) SpeedLimitRule</arglist>
     </member>
     <member kind="function">
       <type>std::unordered_map&lt; BulbColor, const char *, maliput::common::DefaultHash &gt;</type>
@@ -15645,35 +15095,35 @@
       <type>::testing::AssertionResult</type>
       <name>IsEqual</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>af87bf8cb64fbac0466814a74374847f9</anchor>
+      <anchor>a9293324947038dd9ba5d6a121b3d00ed</anchor>
       <arglist>(const char *a_expression, const char *b_expression, DirectionUsageRule::State::Type a, DirectionUsageRule::State::Type b)</arglist>
     </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>
       <name>IsEqual</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a9f1660ac51ca1f4cf06d55d7d63633d7</anchor>
+      <anchor>aa7aeeadd885568951bbf9a612ae5abd9</anchor>
       <arglist>(const char *a_expression, const char *b_expression, DirectionUsageRule::State::Severity a, DirectionUsageRule::State::Severity b)</arglist>
     </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>
       <name>IsEqual</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ae17a37f89c25d963d7c59a4707fc2e05</anchor>
+      <anchor>a50f4bbed6271b6ce869186b6bc5d8f4e</anchor>
       <arglist>(const char *a_expression, const char *b_expression, const DirectionUsageRule::State &amp;a, const DirectionUsageRule::State &amp;b)</arglist>
     </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>
       <name>IsEqual</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a26aef1dc811b56af3498c1e5ef0f5d1e</anchor>
+      <anchor>aad8c9ac0766d9fb9b17873506d0cdc99</anchor>
       <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; DirectionUsageRule::State::Id, DirectionUsageRule::State &gt; &amp;a, const std::unordered_map&lt; DirectionUsageRule::State::Id, DirectionUsageRule::State &gt; &amp;b)</arglist>
     </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>
       <name>IsEqual</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>adcfa1351d838dac11e9a441d8148a19f</anchor>
+      <anchor>ad69b644674595f247dd119d12253ce41</anchor>
       <arglist>(const char *a_expression, const char *b_expression, const DirectionUsageRule &amp;a, const DirectionUsageRule &amp;b)</arglist>
     </member>
     <member kind="function">
@@ -15829,6 +15279,41 @@
       <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
       <anchor>a20a66b220a5b178a2b0e73a4dfe75b66</anchor>
       <arglist>(const char *a_expression, const char *b_expression, const T *a, const T *b)</arglist>
+    </member>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
+      <anchor>a93f203fb41200ab9e61603d99918ce5d</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, rules::DirectionUsageRule::State::Type a, rules::DirectionUsageRule::State::Type b)</arglist>
+    </member>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
+      <anchor>a17ef20aa79556f0e8baa9f92e047bf2b</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, rules::DirectionUsageRule::State::Severity a, rules::DirectionUsageRule::State::Severity b)</arglist>
+    </member>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
+      <anchor>aa2dfb3db9c1f188cbe3c8fa97a4287a7</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const rules::DirectionUsageRule::State &amp;a, const rules::DirectionUsageRule::State &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
+      <anchor>a1b72495a43f496c01170d26002c97cbf</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; rules::DirectionUsageRule::State::Id, rules::DirectionUsageRule::State &gt; &amp;a, const std::unordered_map&lt; rules::DirectionUsageRule::State::Id, rules::DirectionUsageRule::State &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
+      <anchor>a6689b29590181c982058bea99d2c69d4</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const rules::DirectionUsageRule &amp;a, const rules::DirectionUsageRule &amp;b)</arglist>
     </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>

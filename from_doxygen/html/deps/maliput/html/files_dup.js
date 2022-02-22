@@ -19,10 +19,7 @@ var files_dup =
     [ "derive_lane_s_routes.cc", "derive__lane__s__routes_8cc.html", "derive__lane__s__routes_8cc" ],
     [ "derive_lane_s_routes.h", "derive__lane__s__routes_8h.html", "derive__lane__s__routes_8h" ],
     [ "direction_usage_rule.cc", "direction__usage__rule_8cc.html", null ],
-    [ "direction_usage_rule.h", "direction__usage__rule_8h.html", [
-      [ "DirectionUsageRule", "classmaliput_1_1api_1_1rules_1_1_direction_usage_rule.html", "classmaliput_1_1api_1_1rules_1_1_direction_usage_rule" ],
-      [ "State", "classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state.html", "classmaliput_1_1api_1_1rules_1_1_direction_usage_rule_1_1_state" ]
-    ] ],
+    [ "direction_usage_rule.h", "direction__usage__rule_8h.html", "direction__usage__rule_8h" ],
     [ "discrete_value_rule.cc", "discrete__value__rule_8cc.html", null ],
     [ "discrete_value_rule.h", "discrete__value__rule_8h.html", [
       [ "DiscreteValueRule", "classmaliput_1_1api_1_1rules_1_1_discrete_value_rule.html", "classmaliput_1_1api_1_1rules_1_1_discrete_value_rule" ],
@@ -86,6 +83,7 @@ var files_dup =
     [ "maliput_abort.h", "maliput__abort_8h.html", "maliput__abort_8h" ],
     [ "maliput_abort_and_throw.cc", "maliput__abort__and__throw_8cc.html", "maliput__abort__and__throw_8cc" ],
     [ "maliput_copyable.h", "maliput__copyable_8h.html", "maliput__copyable_8h" ],
+    [ "maliput_deprecated.h", "maliput__deprecated_8h.html", "maliput__deprecated_8h" ],
     [ "maliput_design.h", "maliput__design_8h.html", null ],
     [ "maliput_hash.h", "maliput__hash_8h.html", "maliput__hash_8h" ],
     [ "maliput_math_compare.cc", "maliput__math__compare_8cc.html", "maliput__math__compare_8cc" ],
@@ -124,9 +122,7 @@ var files_dup =
       [ "ManualRangeValueRuleStateProvider", "classmaliput_1_1_manual_range_value_rule_state_provider.html", "classmaliput_1_1_manual_range_value_rule_state_provider" ]
     ] ],
     [ "manual_right_of_way_rule_state_provider.cc", "manual__right__of__way__rule__state__provider_8cc.html", null ],
-    [ "manual_right_of_way_rule_state_provider.h", "manual__right__of__way__rule__state__provider_8h.html", [
-      [ "ManualRightOfWayRuleStateProvider", "classmaliput_1_1_manual_right_of_way_rule_state_provider.html", "classmaliput_1_1_manual_right_of_way_rule_state_provider" ]
-    ] ],
+    [ "manual_right_of_way_rule_state_provider.h", "manual__right__of__way__rule__state__provider_8h.html", null ],
     [ "manual_rulebook.cc", "manual__rulebook_8cc.html", "manual__rulebook_8cc" ],
     [ "manual_rulebook.h", "manual__rulebook_8h.html", [
       [ "ManualRulebook", "classmaliput_1_1_manual_rulebook.html", "classmaliput_1_1_manual_rulebook" ]
@@ -168,9 +164,7 @@ var files_dup =
       [ "PhaseBasedRightOfWayDiscreteValueRuleStateProvider", "classmaliput_1_1_phase_based_right_of_way_discrete_value_rule_state_provider.html", "classmaliput_1_1_phase_based_right_of_way_discrete_value_rule_state_provider" ]
     ] ],
     [ "phase_based_right_of_way_rule_state_provider.cc", "phase__based__right__of__way__rule__state__provider_8cc.html", null ],
-    [ "phase_based_right_of_way_rule_state_provider.h", "phase__based__right__of__way__rule__state__provider_8h.html", [
-      [ "PhaseBasedRightOfWayRuleStateProvider", "classmaliput_1_1_phase_based_right_of_way_rule_state_provider.html", "classmaliput_1_1_phase_based_right_of_way_rule_state_provider" ]
-    ] ],
+    [ "phase_based_right_of_way_rule_state_provider.h", "phase__based__right__of__way__rule__state__provider_8h.html", null ],
     [ "phase_provider.h", "phase__provider_8h.html", [
       [ "PhaseProvider", "classmaliput_1_1api_1_1rules_1_1_phase_provider.html", "classmaliput_1_1api_1_1rules_1_1_phase_provider" ]
     ] ],
@@ -200,13 +194,8 @@ var files_dup =
     [ "regions.cc", "regions_8cc.html", "regions_8cc" ],
     [ "regions.h", "regions_8h.html", "regions_8h" ],
     [ "regions_test_utilities.h", "regions__test__utilities_8h.html", "regions__test__utilities_8h" ],
-    [ "right_of_way_rule.h", "right__of__way__rule_8h.html", [
-      [ "RightOfWayRule", "classmaliput_1_1api_1_1rules_1_1_right_of_way_rule.html", "classmaliput_1_1api_1_1rules_1_1_right_of_way_rule" ],
-      [ "State", "classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_1_1_state.html", "classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_1_1_state" ]
-    ] ],
-    [ "right_of_way_rule_state_provider.h", "right__of__way__rule__state__provider_8h.html", [
-      [ "RightOfWayRuleStateProvider", "classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_state_provider.html", "classmaliput_1_1api_1_1rules_1_1_right_of_way_rule_state_provider" ]
-    ] ],
+    [ "right_of_way_rule.h", "right__of__way__rule_8h.html", "right__of__way__rule_8h" ],
+    [ "right_of_way_rule_state_provider.h", "right__of__way__rule__state__provider_8h.html", "right__of__way__rule__state__provider_8h" ],
     [ "api/road_geometry.cc", "api_2road__geometry_8cc.html", null ],
     [ "geometry_base/road_geometry.cc", "geometry__base_2road__geometry_8cc.html", null ],
     [ "api/road_geometry.h", "api_2road__geometry_8h.html", "api_2road__geometry_8h" ],
@@ -270,9 +259,7 @@ var files_dup =
     [ "simple_rulebook.h", "simple__rulebook_8h.html", [
       [ "SimpleRulebook", "classmaliput_1_1_simple_rulebook.html", "classmaliput_1_1_simple_rulebook" ]
     ] ],
-    [ "speed_limit_rule.h", "speed__limit__rule_8h.html", [
-      [ "SpeedLimitRule", "classmaliput_1_1api_1_1rules_1_1_speed_limit_rule.html", "classmaliput_1_1api_1_1rules_1_1_speed_limit_rule" ]
-    ] ],
+    [ "speed_limit_rule.h", "speed__limit__rule_8h.html", "speed__limit__rule_8h" ],
     [ "state_provider_result.h", "state__provider__result_8h.html", [
       [ "StateProviderResult", "structmaliput_1_1api_1_1rules_1_1_state_provider_result.html", "structmaliput_1_1api_1_1rules_1_1_state_provider_result" ],
       [ "Next", "structmaliput_1_1api_1_1rules_1_1_state_provider_result_1_1_next.html", "structmaliput_1_1api_1_1rules_1_1_state_provider_result_1_1_next" ]

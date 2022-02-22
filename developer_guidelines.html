@@ -74,19 +74,20 @@
 <li><a class="reference internal" href="#compiler-support" id="id20">Compiler support</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#versioning" id="id21">Versioning</a><ul>
-<li><a class="reference internal" href="#branches-and-tags-for-releases" id="id22">Branches and tags for releases</a></li>
+<li><a class="reference internal" href="#building-the-documentation" id="id21">Building the documentation</a></li>
+<li><a class="reference internal" href="#versioning" id="id22">Versioning</a><ul>
+<li><a class="reference internal" href="#branches-and-tags-for-releases" id="id23">Branches and tags for releases</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#releases" id="id23">Releases</a><ul>
-<li><a class="reference internal" href="#named-major-releases" id="id24">Named major releases</a></li>
-<li><a class="reference internal" href="#major-release-output" id="id25">Major release output</a></li>
-<li><a class="reference internal" href="#how-to-release" id="id26">How to release?</a><ul>
-<li><a class="reference internal" href="#make-a-new-major-maliput-workspace-release" id="id27">Make a new major <code class="docutils literal notranslate"><span class="pre">maliput</span></code> workspace release</a></li>
-<li><a class="reference internal" href="#create-a-new-package-major-release" id="id28">Create a new package major release</a></li>
-<li><a class="reference internal" href="#create-a-new-package-minor-release" id="id29">Create a new package minor release</a></li>
-<li><a class="reference internal" href="#create-a-new-package-patch-release" id="id30">Create a new package patch release</a></li>
-<li><a class="reference internal" href="#create-a-named-release-tarball" id="id31">Create a named release tarball</a></li>
+<li><a class="reference internal" href="#releases" id="id24">Releases</a><ul>
+<li><a class="reference internal" href="#named-major-releases" id="id25">Named major releases</a></li>
+<li><a class="reference internal" href="#major-release-output" id="id26">Major release output</a></li>
+<li><a class="reference internal" href="#how-to-release" id="id27">How to release?</a><ul>
+<li><a class="reference internal" href="#make-a-new-major-maliput-workspace-release" id="id28">Make a new major <code class="docutils literal notranslate"><span class="pre">maliput</span></code> workspace release</a></li>
+<li><a class="reference internal" href="#create-a-new-package-major-release" id="id29">Create a new package major release</a></li>
+<li><a class="reference internal" href="#create-a-new-package-minor-release" id="id30">Create a new package minor release</a></li>
+<li><a class="reference internal" href="#create-a-new-package-patch-release" id="id31">Create a new package patch release</a></li>
+<li><a class="reference internal" href="#create-a-named-release-tarball" id="id32">Create a named release tarball</a></li>
 </ul>
 </li>
 </ul>
@@ -400,12 +401,23 @@ select =
 </ul>
 </div>
 </div>
+<div class="section" id="building-the-documentation">
+<h2><a class="toc-backref" href="#id21">Building the documentation</a><a class="headerlink" href="#building-the-documentation" title="Permalink to this headline">¶</a></h2>
+<p><cite>maliput_documentation</cite> package is in charge of concentrating the documentation of the entire maliput ecosystem.</p>
+<p>The page is built upon <a class="reference external" href="https://www.sphinx-doc.org/en/master/">Sphinx</a> framework, while the docstring’s code is converted to <cite>html</cite> by <a class="reference external" href="https://www.doxygen.nl/index.html">Doxygen</a>.</p>
+<p>The documentation is finally served via GitHub Pages.</p>
+<p>In order to build the documentation, the cmake flag <cite>-DBUILD_DOCS=On</cite> should be added:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>colcon build --packages-up-to maliput_documentation --cmake-args <span class="s2">&quot;-DBUILD_DOCS=On&quot;</span>
+</pre></div>
+</div>
+<p>Note: <cite>maliput</cite> repository has a particularity and for that reason the flag works as <cite>opt-in</cite> whilst in the rest of the repositories it is a <cite>opt-out</cite>. For further information refer to <a class="reference external" href="https://github.com/ToyotaResearchInstitute/maliput_documentation/issues/81">issue</a>.</p>
+</div>
 <div class="section" id="versioning">
-<h2><a class="toc-backref" href="#id21">Versioning</a><a class="headerlink" href="#versioning" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id22">Versioning</a><a class="headerlink" href="#versioning" title="Permalink to this headline">¶</a></h2>
 <p><code class="docutils literal notranslate"><span class="pre">maliput</span></code> packages adhere to <a class="reference external" href="https://semver.org/">semantic versioning</a> and
 will follow as much as possible the <a class="reference external" href="https://docs.ros.org/en/foxy/Contributing/Developer-Guide.html#versioning">ROS2 Versioning guidelines</a> .</p>
 <div class="section" id="branches-and-tags-for-releases">
-<h3><a class="toc-backref" href="#id22">Branches and tags for releases</a><a class="headerlink" href="#branches-and-tags-for-releases" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id23">Branches and tags for releases</a><a class="headerlink" href="#branches-and-tags-for-releases" title="Permalink to this headline">¶</a></h3>
 <p>The following branches and tags schemes will be used:</p>
 <ul class="simple">
 <li>Use <code class="docutils literal notranslate"><span class="pre">main</span></code> as the mainline development branch. The tip of
@@ -420,15 +432,15 @@ patch release <code class="docutils literal notranslate"><span class="pre">(x</s
 </div>
 </div>
 <div class="section" id="releases">
-<h2><a class="toc-backref" href="#id23">Releases</a><a class="headerlink" href="#releases" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id24">Releases</a><a class="headerlink" href="#releases" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="named-major-releases">
-<h3><a class="toc-backref" href="#id24">Named major releases</a><a class="headerlink" href="#named-major-releases" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id25">Named major releases</a><a class="headerlink" href="#named-major-releases" title="Permalink to this headline">¶</a></h3>
 <p>Significant releases of Maliput packages will be named. The names will
 be chosen based on famous roads and will be alphabetically sorted. Significant
 releases will be created on demand.</p>
 </div>
 <div class="section" id="major-release-output">
-<h3><a class="toc-backref" href="#id25">Major release output</a><a class="headerlink" href="#major-release-output" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id26">Major release output</a><a class="headerlink" href="#major-release-output" title="Permalink to this headline">¶</a></h3>
 <p>Every new major release will provide:</p>
 <ul class="simple">
 <li>Updated <code class="docutils literal notranslate"><span class="pre">maliput_rolling.repos</span></code> file when appropriate (new major release,
@@ -440,11 +452,11 @@ where <code class="docutils literal notranslate"><span class="pre">name</span></
 </ul>
 </div>
 <div class="section" id="how-to-release">
-<h3><a class="toc-backref" href="#id26">How to release?</a><a class="headerlink" href="#how-to-release" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id27">How to release?</a><a class="headerlink" href="#how-to-release" title="Permalink to this headline">¶</a></h3>
 <p>There are different steps to follow based on the type of release you want to
 create.</p>
 <div class="section" id="make-a-new-major-maliput-workspace-release">
-<h4><a class="toc-backref" href="#id27">Make a new major <code class="docutils literal notranslate"><span class="pre">maliput</span></code> workspace release</a><a class="headerlink" href="#make-a-new-major-maliput-workspace-release" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id28">Make a new major <code class="docutils literal notranslate"><span class="pre">maliput</span></code> workspace release</a><a class="headerlink" href="#make-a-new-major-maliput-workspace-release" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li>Choose a name that is next in the alphabet relative to the previous major
 release.</li>
@@ -461,7 +473,7 @@ under the appropriate ROS2 distro folder.</li>
 </ul>
 </div>
 <div class="section" id="create-a-new-package-major-release">
-<h4><a class="toc-backref" href="#id28">Create a new package major release</a><a class="headerlink" href="#create-a-new-package-major-release" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id29">Create a new package major release</a><a class="headerlink" href="#create-a-new-package-major-release" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li>Prepare the workspace by pinning all dependencies and downstream packages to
 their target branches or tags.</li>
@@ -488,7 +500,7 @@ and update <code class="docutils literal notranslate"><span class="pre">maliput_
 </ul>
 </div>
 <div class="section" id="create-a-new-package-minor-release">
-<h4><a class="toc-backref" href="#id29">Create a new package minor release</a><a class="headerlink" href="#create-a-new-package-minor-release" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id30">Create a new package minor release</a><a class="headerlink" href="#create-a-new-package-minor-release" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li>Prepare the workspace by pinning all dependencies and downstream packages to
 their target branches or tags.</li>
@@ -515,7 +527,7 @@ and update <code class="docutils literal notranslate"><span class="pre">maliput_
 </ul>
 </div>
 <div class="section" id="create-a-new-package-patch-release">
-<h4><a class="toc-backref" href="#id30">Create a new package patch release</a><a class="headerlink" href="#create-a-new-package-patch-release" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id31">Create a new package patch release</a><a class="headerlink" href="#create-a-new-package-patch-release" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li>Prepare the workspace by pinning all dependencies and downstream packages to
 their target branches or tags.</li>
@@ -535,7 +547,7 @@ targeting <code class="docutils literal notranslate"><span class="pre">release/m
 </ul>
 </div>
 <div class="section" id="create-a-named-release-tarball">
-<span id="id4"></span><h4><a class="toc-backref" href="#id31">Create a named release tarball</a><a class="headerlink" href="#create-a-named-release-tarball" title="Permalink to this headline">¶</a></h4>
+<span id="id4"></span><h4><a class="toc-backref" href="#id32">Create a named release tarball</a><a class="headerlink" href="#create-a-named-release-tarball" title="Permalink to this headline">¶</a></h4>
 <p>To generate the tarball:</p>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span> /path/to/maliput_ws
 <span class="nb">export</span> <span class="nv">BUNDLE_NAME</span><span class="o">=</span>maliput_ws_name
