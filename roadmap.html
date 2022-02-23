@@ -6,28 +6,20 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Search &#8212; Maliput Documentation</title>
+    <title>Roadmap &#8212; Maliput Documentation</title>
     <link rel="stylesheet" href="_static/pyramid.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    
     <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="_static/language_data.js"></script>
-    <script type="text/javascript" src="_static/searchtools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="#" />
-  <script type="text/javascript">
-    jQuery(function() { Search.loadIndex("searchindex.js"); });
-  </script>
-  
-  <script type="text/javascript" id="searchindexloader"></script>
-  
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Documentation" href="documentation.html" />
 <!--[if lte IE 6]>
 <link rel="stylesheet" href="_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
 <![endif]-->
-
 
   </head><body>
 
@@ -37,6 +29,9 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="documentation.html" title="Documentation"
+             accesskey="P">previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">Maliput Documentation</a> &#187;</li> 
       </ul>
     </div>  
@@ -46,29 +41,51 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <h1 id="search-documentation">Search</h1>
-  <div id="fallback" class="admonition warning">
-  <script type="text/javascript">$('#fallback').hide();</script>
-  <p>
-    Please activate JavaScript to enable the search
-    functionality.
-  </p>
-  </div>
-  <p>
-    From here you can search these documents. Enter your search
-    words into the box below and click "search". Note that the search
-    function will automatically search for all of the words. Pages
-    containing fewer words won't appear in the result list.
-  </p>
-  <form action="" method="get">
-    <input type="text" name="q" value="" />
-    <input type="submit" value="search" />
-    <span id="search-progress" style="padding-left: 10px"></span>
-  </form>
-  
-  <div id="search-results">
-  
-  </div>
+  <div class="section" id="roadmap">
+<h1>Roadmap<a class="headerlink" href="#roadmap" title="Permalink to this headline">¶</a></h1>
+<p>The entire <code class="docutils literal notranslate"><span class="pre">maliput</span></code> project has a cross package roadmap. Not all of the topics affect
+them all but they are important enough to list them here. Specific discussions will be
+opened in tickets to work on design documents and labor breakdown. Ordering in the
+following list does not mean priority.</p>
+<ul class="simple">
+<li>Infrastructure<ul>
+<li>ROS2 targeted branches and semantic versioning.</li>
+</ul>
+</li>
+<li>Tooling and integration<ul>
+<li>Migrate to ignition fortress.</li>
+<li>Update <code class="docutils literal notranslate"><span class="pre">drake_vendor</span></code> dependency and refactor <code class="docutils literal notranslate"><span class="pre">delphyne</span></code>.</li>
+<li>Build a visualizer to evaluate the connectivity graph and routing results.</li>
+</ul>
+</li>
+<li><code class="docutils literal notranslate"><span class="pre">maliput</span></code><ul>
+<li>Routing API<ul>
+<li>Design and implementation.</li>
+<li>Integration examples.</li>
+</ul>
+</li>
+<li>Scenario modeling<ul>
+<li>Furniture API / Lane markings API<ul>
+<li>Design and implementation.</li>
+<li>Integration examples.</li>
+</ul>
+</li>
+<li>Surface data<ul>
+<li>Integrate with OpenCRG.</li>
+<li>Define and implement and API to run surface queries beyond the current <code class="docutils literal notranslate"><span class="pre">Lane</span></code> support.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Complex integration examples<ul>
+<li>Build smarter agents that take into account rules and phasing.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
 
           </div>
         </div>
@@ -76,16 +93,31 @@
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
 <h3><a href="index.html">Table of Contents</a></h3>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="maliput_overview.html">Maliput Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="installation_quickstart.html">Installation and Quickstart</a></li>
 <li class="toctree-l1"><a class="reference internal" href="developer_guidelines.html">Developer guidelines</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gallery.html">Gallery</a></li>
 <li class="toctree-l1"><a class="reference internal" href="documentation.html">Documentation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="roadmap.html">Roadmap</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Roadmap</a></li>
 </ul>
 
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="documentation.html"
+                        title="previous chapter">Documentation</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
       </div>
       <div class="clearer"></div>
@@ -96,6 +128,9 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              >index</a></li>
+        <li class="right" >
+          <a href="documentation.html" title="Documentation"
+             >previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="index.html">Maliput Documentation</a> &#187;</li> 
       </ul>
     </div>

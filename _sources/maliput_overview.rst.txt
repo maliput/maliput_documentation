@@ -310,9 +310,3 @@ the advantages that `maliput` provides.
     In `maliput`, the intersections of the `RoadNetwork` are identified to easily manage the state of the rules that apply to
     a particular intersection (e.g: Right-Of-Way rules depending on traffic light's bulb states.).
     On the contrary, identifying crossing roads and the rules that apply to the intersection could be rather challenging in `lanelet2`.
-
-
-Roadmap
-=======
-
-TODO
