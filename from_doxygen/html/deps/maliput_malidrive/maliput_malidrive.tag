@@ -1427,6 +1427,23 @@
     <namespace>malidrive::xodr</namespace>
   </compound>
   <compound kind="file">
+    <name>phase_provider_builder.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
+    <filename>phase__provider__builder_8cc.html</filename>
+    <includes id="phase__provider__builder_8h" name="phase_provider_builder.h" local="yes" imported="no">maliput_malidrive/builder/phase_provider_builder.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::builder</namespace>
+  </compound>
+  <compound kind="file">
+    <name>phase_provider_builder.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/builder/</path>
+    <filename>phase__provider__builder_8h.html</filename>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <class kind="class">malidrive::builder::PhaseProviderBuilder</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::builder</namespace>
+  </compound>
+  <compound kind="file">
     <name>piecewise_function.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
     <filename>piecewise__function_8cc.html</filename>
@@ -1857,6 +1874,7 @@
     <includes id="builder__tools_8h" name="builder_tools.h" local="yes" imported="no">maliput_malidrive/builder/builder_tools.h</includes>
     <includes id="direction__usage__builder_8h" name="direction_usage_builder.h" local="yes" imported="no">maliput_malidrive/builder/direction_usage_builder.h</includes>
     <includes id="discrete__value__rule__state__provider__builder_8h" name="discrete_value_rule_state_provider_builder.h" local="yes" imported="no">maliput_malidrive/builder/discrete_value_rule_state_provider_builder.h</includes>
+    <includes id="phase__provider__builder_8h" name="phase_provider_builder.h" local="yes" imported="no">maliput_malidrive/builder/phase_provider_builder.h</includes>
     <includes id="range__value__rule__state__provider__builder_8h" name="range_value_rule_state_provider_builder.h" local="yes" imported="no">maliput_malidrive/builder/range_value_rule_state_provider_builder.h</includes>
     <includes id="road__geometry__builder_8h" name="road_geometry_builder.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_builder.h</includes>
     <includes id="road__network__configuration_8h" name="road_network_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_network_configuration.h</includes>
@@ -3974,67 +3992,6 @@
       <arglist></arglist>
     </member>
   </compound>
-  <compound kind="class">
-    <name>malidrive::Lane</name>
-    <filename>classmalidrive_1_1_lane.html</filename>
-    <base>maliput::geometry_base::Lane</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIDRIVE_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>a6140ac583e6e71304fb7a4b0252baa98</anchor>
-      <arglist>(Lane)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>Lane</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>a754b56e8bb63742dca82aa187cf79c09</anchor>
-      <arglist>(const maliput::api::LaneId &amp;id, int xodr_track, int xodr_lane_id, const maliput::api::HBounds &amp;elevation_bounds, const road_curve::RoadCurve *road_curve, std::unique_ptr&lt; road_curve::Function &gt; lane_width, std::unique_ptr&lt; road_curve::Function &gt; lane_offset, double p0, double p1)</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>get_track</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>a9c9c3b577525a5b421fc0ccdb0eb1cb4</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>get_lane_id</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>a6fd8fd747aec8546c67c75f8ed0bc6a0</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>get_track_s_start</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>a15dc832908c773b3f1e1bf2615ea74f2</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>get_track_s_end</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>ab1773002f837cbef4ea41d923cdb3041</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>TrackSFromLaneS</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>afeab73b6ebae3c8fce8b52699a32fc99</anchor>
-      <arglist>(double lane_s) const</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>LaneSFromTrackS</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>ad17b08b4477d4e2f3d348ea8f47f20bf</anchor>
-      <arglist>(double track_s) const</arglist>
-    </member>
-  </compound>
   <compound kind="struct">
     <name>malidrive::xodr::Lane</name>
     <filename>structmalidrive_1_1xodr_1_1_lane.html</filename>
@@ -4191,6 +4148,67 @@
       <anchorfile>structmalidrive_1_1xodr_1_1_lane.html</anchorfile>
       <anchor>a72fc73aa5da78d2ef3b4b81ce2fb094c</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>malidrive::Lane</name>
+    <filename>classmalidrive_1_1_lane.html</filename>
+    <base>maliput::geometry_base::Lane</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIDRIVE_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>a6140ac583e6e71304fb7a4b0252baa98</anchor>
+      <arglist>(Lane)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Lane</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>a754b56e8bb63742dca82aa187cf79c09</anchor>
+      <arglist>(const maliput::api::LaneId &amp;id, int xodr_track, int xodr_lane_id, const maliput::api::HBounds &amp;elevation_bounds, const road_curve::RoadCurve *road_curve, std::unique_ptr&lt; road_curve::Function &gt; lane_width, std::unique_ptr&lt; road_curve::Function &gt; lane_offset, double p0, double p1)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>get_track</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>a9c9c3b577525a5b421fc0ccdb0eb1cb4</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>get_lane_id</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>a6fd8fd747aec8546c67c75f8ed0bc6a0</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>get_track_s_start</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>a15dc832908c773b3f1e1bf2615ea74f2</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>get_track_s_end</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>ab1773002f837cbef4ea41d923cdb3041</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>TrackSFromLaneS</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>afeab73b6ebae3c8fce8b52699a32fc99</anchor>
+      <arglist>(double lane_s) const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>LaneSFromTrackS</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>ad17b08b4477d4e2f3d348ea8f47f20bf</anchor>
+      <arglist>(double track_s) const</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -5128,6 +5146,24 @@
       <anchorfile>structmalidrive_1_1xodr_1_1_parser_configuration.html</anchorfile>
       <anchor>a3d6f641abbebd505c65c7bfde4d4cb89</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>malidrive::builder::PhaseProviderBuilder</name>
+    <filename>classmalidrive_1_1builder_1_1_phase_provider_builder.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>PhaseProviderBuilder</name>
+      <anchorfile>classmalidrive_1_1builder_1_1_phase_provider_builder.html</anchorfile>
+      <anchor>aaa657bc4ec286d89596218d7b4179026</anchor>
+      <arglist>(const maliput::api::rules::PhaseRingBook *phase_ring_book)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::ManualPhaseProvider &gt;</type>
+      <name>operator()</name>
+      <anchorfile>classmalidrive_1_1builder_1_1_phase_provider_builder.html</anchorfile>
+      <anchor>a8045060846c1aa887ff9c4b69dc5412a</anchor>
+      <arglist>() const</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -7167,6 +7203,7 @@
     <class kind="class">malidrive::builder::DiscreteValueRuleStateProviderBuilder</class>
     <class kind="class">malidrive::builder::LaneTravelDirection</class>
     <class kind="struct">malidrive::builder::MalidriveXodrLaneProperties</class>
+    <class kind="class">malidrive::builder::PhaseProviderBuilder</class>
     <class kind="class">malidrive::builder::RangeValueRuleStateProviderBuilder</class>
     <class kind="class">malidrive::builder::RoadCurveFactory</class>
     <class kind="class">malidrive::builder::RoadCurveFactoryBase</class>

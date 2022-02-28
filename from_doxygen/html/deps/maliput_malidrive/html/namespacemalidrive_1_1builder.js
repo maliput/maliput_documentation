@@ -6,6 +6,7 @@ var namespacemalidrive_1_1builder =
     [ "DiscreteValueRuleStateProviderBuilder", "classmalidrive_1_1builder_1_1_discrete_value_rule_state_provider_builder.html", "classmalidrive_1_1builder_1_1_discrete_value_rule_state_provider_builder" ],
     [ "LaneTravelDirection", "classmalidrive_1_1builder_1_1_lane_travel_direction.html", "classmalidrive_1_1builder_1_1_lane_travel_direction" ],
     [ "MalidriveXodrLaneProperties", "structmalidrive_1_1builder_1_1_malidrive_xodr_lane_properties.html", "structmalidrive_1_1builder_1_1_malidrive_xodr_lane_properties" ],
+    [ "PhaseProviderBuilder", "classmalidrive_1_1builder_1_1_phase_provider_builder.html", "classmalidrive_1_1builder_1_1_phase_provider_builder" ],
     [ "RangeValueRuleStateProviderBuilder", "classmalidrive_1_1builder_1_1_range_value_rule_state_provider_builder.html", "classmalidrive_1_1builder_1_1_range_value_rule_state_provider_builder" ],
     [ "RoadCurveFactory", "classmalidrive_1_1builder_1_1_road_curve_factory.html", "classmalidrive_1_1builder_1_1_road_curve_factory" ],
     [ "RoadCurveFactoryBase", "classmalidrive_1_1builder_1_1_road_curve_factory_base.html", "classmalidrive_1_1builder_1_1_road_curve_factory_base" ],

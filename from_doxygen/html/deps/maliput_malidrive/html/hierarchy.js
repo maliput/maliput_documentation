@@ -26,12 +26,12 @@ var hierarchy =
     ] ],
     [ "Header", "structmalidrive_1_1xodr_1_1_header.html", null ],
     [ "Junction", "structmalidrive_1_1xodr_1_1_junction.html", null ],
+    [ "Lane", "structmalidrive_1_1xodr_1_1_lane.html", null ],
     [ "Lane", "../../maliput/html/classmaliput_1_1api_1_1_lane.html", [
       [ "Lane", "../../maliput/html/classmaliput_1_1geometry__base_1_1_lane.html", [
         [ "Lane", "classmalidrive_1_1_lane.html", null ]
       ] ]
     ] ],
-    [ "Lane", "structmalidrive_1_1xodr_1_1_lane.html", null ],
     [ "Connection::LaneLink", "structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html", null ],
     [ "LaneLink", "structmalidrive_1_1xodr_1_1_lane_link.html", null ],
     [ "LaneOffset", "structmalidrive_1_1xodr_1_1_lane_offset.html", null ],
@@ -50,6 +50,7 @@ var hierarchy =
       [ "NodeParser", "classmalidrive_1_1xodr_1_1_node_parser.html", null ]
     ] ],
     [ "ParserConfiguration", "structmalidrive_1_1xodr_1_1_parser_configuration.html", null ],
+    [ "PhaseProviderBuilder", "classmalidrive_1_1builder_1_1_phase_provider_builder.html", null ],
     [ "PlanView", "structmalidrive_1_1xodr_1_1_plan_view.html", null ],
     [ "RangeValueRuleStateProviderBuilder", "classmalidrive_1_1builder_1_1_range_value_rule_state_provider_builder.html", null ],
     [ "ReferenceGeometry", "structmalidrive_1_1xodr_1_1_reference_geometry.html", null ],

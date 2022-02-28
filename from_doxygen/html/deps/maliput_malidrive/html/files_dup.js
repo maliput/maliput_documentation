@@ -116,6 +116,10 @@ var files_dup =
     [ "parser_configuration.h", "parser__configuration_8h.html", [
       [ "ParserConfiguration", "structmalidrive_1_1xodr_1_1_parser_configuration.html", "structmalidrive_1_1xodr_1_1_parser_configuration" ]
     ] ],
+    [ "phase_provider_builder.cc", "phase__provider__builder_8cc.html", null ],
+    [ "phase_provider_builder.h", "phase__provider__builder_8h.html", [
+      [ "PhaseProviderBuilder", "classmalidrive_1_1builder_1_1_phase_provider_builder.html", "classmalidrive_1_1builder_1_1_phase_provider_builder" ]
+    ] ],
     [ "piecewise_function.cc", "piecewise__function_8cc.html", "piecewise__function_8cc" ],
     [ "piecewise_function.h", "piecewise__function_8h.html", [
       [ "PiecewiseFunction", "classmalidrive_1_1road__curve_1_1_piecewise_function.html", "classmalidrive_1_1road__curve_1_1_piecewise_function" ]
