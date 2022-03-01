@@ -70,7 +70,7 @@ __Note:__ If the `apt-key` command fails, try a different key server like `hkp:/
 ## Build
 
 ```sh
-  colcon build --packages-up-to maliput_documentation
+  colcon build --packages-up-to maliput_documentation --cmake-args " -DBUILD_DOCS=On"
 ```
 
 # Visualize

@@ -21,7 +21,13 @@ find_package(ament_cmake REQUIRED)
 ##############################################################################
 # Docs
 ##############################################################################
-add_subdirectory("docs")
+
+if(BUILD_DOCS)
+  message(STATUS "Documentation build - Enabled")
+  add_subdirectory("docs")
+else()
+  message(STATUS "Documentation build - Disabled")
+endif()
 
 
 ament_package()
