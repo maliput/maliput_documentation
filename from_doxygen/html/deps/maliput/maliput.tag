@@ -242,6 +242,7 @@
     <name>discrete_value_rule_state_provider.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/api/rules/</path>
     <filename>discrete__value__rule__state__provider_8h.html</filename>
+    <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
     <includes id="rule_8h" name="rule.h" local="yes" imported="no">maliput/api/rules/rule.h</includes>
     <includes id="state__provider__result_8h" name="state_provider_result.h" local="yes" imported="no">maliput/api/rules/state_provider_result.h</includes>
@@ -1654,12 +1655,15 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
     <filename>manual__discrete__value__rule__state__provider_8cc.html</filename>
     <includes id="manual__discrete__value__rule__state__provider_8h" name="manual_discrete_value_rule_state_provider.h" local="yes" imported="no">maliput/base/manual_discrete_value_rule_state_provider.h</includes>
+    <includes id="rule__filter_8h" name="rule_filter.h" local="yes" imported="no">maliput/base/rule_filter.h</includes>
+    <includes id="logger_8h" name="logger.h" local="yes" imported="no">maliput/common/logger.h</includes>
     <namespace>maliput</namespace>
   </compound>
   <compound kind="file">
     <name>manual_discrete_value_rule_state_provider.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
     <filename>manual__discrete__value__rule__state__provider_8h.html</filename>
+    <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
     <includes id="discrete__value__rule__state__provider_8h" name="discrete_value_rule_state_provider.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule_state_provider.h</includes>
     <includes id="road__rulebook_8h" name="road_rulebook.h" local="yes" imported="no">maliput/api/rules/road_rulebook.h</includes>
@@ -1713,6 +1717,8 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
     <filename>manual__range__value__rule__state__provider_8cc.html</filename>
     <includes id="manual__range__value__rule__state__provider_8h" name="manual_range_value_rule_state_provider.h" local="yes" imported="no">maliput/base/manual_range_value_rule_state_provider.h</includes>
+    <includes id="rule__filter_8h" name="rule_filter.h" local="yes" imported="no">maliput/base/rule_filter.h</includes>
+    <includes id="logger_8h" name="logger.h" local="yes" imported="no">maliput/common/logger.h</includes>
     <namespace>maliput</namespace>
   </compound>
   <compound kind="file">
@@ -6176,6 +6182,13 @@
       <anchor>af853a1f3f4c940f16d93be1bb639cd6a</anchor>
       <arglist>(const Rule::Id &amp;id) const</arglist>
     </member>
+    <member kind="function">
+      <type>std::optional&lt; StateResult &gt;</type>
+      <name>GetState</name>
+      <anchorfile>classmaliput_1_1api_1_1rules_1_1_discrete_value_rule_state_provider.html</anchorfile>
+      <anchor>a4de3b8f0f5aded483fdd3e0a110abf34</anchor>
+      <arglist>(const RoadPosition &amp;road_position, const Rule::TypeId &amp;rule_type, double tolerance) const</arglist>
+    </member>
     <member kind="function" protection="protected">
       <type></type>
       <name>DiscreteValueRuleStateProvider</name>
@@ -8018,6 +8031,13 @@
       <anchorfile>classmaliput_1_1_manual_discrete_value_rule_state_provider.html</anchorfile>
       <anchor>a569a97614f622d6a8564c918593e3f0d</anchor>
       <arglist>(const api::rules::Rule::Id &amp;id) const override</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual std::optional&lt; api::rules::DiscreteValueRuleStateProvider::StateResult &gt;</type>
+      <name>DoGetState</name>
+      <anchorfile>classmaliput_1_1_manual_discrete_value_rule_state_provider.html</anchorfile>
+      <anchor>a664ac0d6ea90dcf0d4b9a4c34e3d881d</anchor>
+      <arglist>(const api::RoadPosition &amp;road_position, const api::rules::Rule::TypeId &amp;rule_type, double tolerance) const override</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -9891,6 +9911,13 @@
       <anchorfile>classmaliput_1_1api_1_1rules_1_1_range_value_rule_state_provider.html</anchorfile>
       <anchor>af853a1f3f4c940f16d93be1bb639cd6a</anchor>
       <arglist>(const Rule::Id &amp;id) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; StateResult &gt;</type>
+      <name>GetState</name>
+      <anchorfile>classmaliput_1_1api_1_1rules_1_1_range_value_rule_state_provider.html</anchorfile>
+      <anchor>a4de3b8f0f5aded483fdd3e0a110abf34</anchor>
+      <arglist>(const RoadPosition &amp;road_position, const Rule::TypeId &amp;rule_type, double tolerance) const</arglist>
     </member>
     <member kind="function" protection="protected">
       <type></type>

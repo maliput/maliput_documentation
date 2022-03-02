@@ -121,6 +121,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af853a1f3f4c940f16d93be1bb639cd6a"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classmaliput_1_1api_1_1rules_1_1_discrete_value_rule_state_provider.html#a1188b99948ffd2a79b923ed2c564c9a5">StateResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_discrete_value_rule_state_provider.html#af853a1f3f4c940f16d93be1bb639cd6a">GetState</a> (const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_rule.html#a5358e3b05db56d19875bb15f02523f2f">Rule::Id</a> &amp;id) const</td></tr>
 <tr class="memdesc:af853a1f3f4c940f16d93be1bb639cd6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the state of the <a class="el" href="classmaliput_1_1api_1_1rules_1_1_discrete_value_rule.html" title="Describes a discrete value rule.">DiscreteValueRule</a> identified by <code>id</code>.  <a href="classmaliput_1_1api_1_1rules_1_1_discrete_value_rule_state_provider.html#af853a1f3f4c940f16d93be1bb639cd6a">More...</a><br /></td></tr>
 <tr class="separator:af853a1f3f4c940f16d93be1bb639cd6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4de3b8f0f5aded483fdd3e0a110abf34"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classmaliput_1_1api_1_1rules_1_1_discrete_value_rule_state_provider.html#a1188b99948ffd2a79b923ed2c564c9a5">StateResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_discrete_value_rule_state_provider.html#a4de3b8f0f5aded483fdd3e0a110abf34">GetState</a> (const <a class="el" href="structmaliput_1_1api_1_1_road_position.html">RoadPosition</a> &amp;road_position, const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_rule.html#a4a4b94bba0865a112a84d2b4a054b6b1">Rule::TypeId</a> &amp;rule_type, <a class="el" href="classdouble.html">double</a> tolerance) const</td></tr>
+<tr class="memdesc:a4de3b8f0f5aded483fdd3e0a110abf34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the state of the <a class="el" href="classmaliput_1_1api_1_1rules_1_1_discrete_value_rule.html" title="Describes a discrete value rule.">DiscreteValueRule</a> that matches provided <code>road_position</code> and <code>rule_type</code> values according to certain <code>tolerance</code>.  <a href="classmaliput_1_1api_1_1rules_1_1_discrete_value_rule_state_provider.html#a4de3b8f0f5aded483fdd3e0a110abf34">More...</a><br /></td></tr>
+<tr class="separator:a4de3b8f0f5aded483fdd3e0a110abf34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -196,8 +199,45 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4de3b8f0f5aded483fdd3e0a110abf34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4de3b8f0f5aded483fdd3e0a110abf34">&#9670;&nbsp;</a></span>GetState() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;<a class="el" href="classmaliput_1_1api_1_1rules_1_1_discrete_value_rule_state_provider.html#a1188b99948ffd2a79b923ed2c564c9a5">StateResult</a>&gt; GetState </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmaliput_1_1api_1_1_road_position.html">RoadPosition</a> &amp;&#160;</td>
+          <td class="paramname"><em>road_position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_rule.html#a4a4b94bba0865a112a84d2b4a054b6b1">Rule::TypeId</a> &amp;&#160;</td>
+          <td class="paramname"><em>rule_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdouble.html">double</a>&#160;</td>
+          <td class="paramname"><em>tolerance</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the state of the <a class="el" href="classmaliput_1_1api_1_1rules_1_1_discrete_value_rule.html" title="Describes a discrete value rule.">DiscreteValueRule</a> that matches provided <code>road_position</code> and <code>rule_type</code> values according to certain <code>tolerance</code>. </p>
+<p>Returns a StateResult struct bearing the state of the rule. If no rule is obtained out of the <code>road_position</code> and <code>rule_type</code> combination, std::nullopt is returned. </p>
+
+</div>
+</div>
 <a id="af853a1f3f4c940f16d93be1bb639cd6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af853a1f3f4c940f16d93be1bb639cd6a">&#9670;&nbsp;</a></span>GetState()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af853a1f3f4c940f16d93be1bb639cd6a">&#9670;&nbsp;</a></span>GetState() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
