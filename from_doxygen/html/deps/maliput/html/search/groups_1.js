@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['logging_20level_20methods_2e_2214',['Logging Level Methods.',['../group__levelmethods.html',1,'']]]
+  ['logging_20level_20methods_2e_2216',['Logging Level Methods.',['../group__levelmethods.html',1,'']]]
 ];

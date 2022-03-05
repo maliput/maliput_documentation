@@ -866,8 +866,8 @@
       <type>bool</type>
       <name>Load</name>
       <anchorfile>classdelphyne_1_1gui_1_1_maliput_viewer_model.html</anchorfile>
-      <anchor>aceea94754620dfa7c117fcf61a7241ac</anchor>
-      <arglist>(const std::string &amp;_maliputFilePath, const std::string &amp;_roadRulebookFilePath=std::string(), const std::string &amp;_trafficLightBook=std::string(), const std::string &amp;_phaseRingFilePath=std::string())</arglist>
+      <anchor>ac8562d6e2b31a934661e97275f1305fd</anchor>
+      <arglist>(const std::string &amp;_maliputFilePath, const std::string &amp;_ruleRegistryFilePath=std::string(), const std::string &amp;_roadRulebookFilePath=std::string(), const std::string &amp;_trafficLightBook=std::string(), const std::string &amp;_phaseRingFilePath=std::string(), const std::string &amp;_intersectionBookFilePath=std::string())</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
@@ -1074,8 +1074,8 @@
       <type>void</type>
       <name>OnNewRoadNetwork</name>
       <anchorfile>classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html</anchorfile>
-      <anchor>a19895c66f7a648eb718ef07ce8536511</anchor>
-      <arglist>(const QString &amp;_mapFile, const QString &amp;_roadRulebookFile, const QString &amp;_trafficLightBookFile, const QString &amp;_phaseRingBookFile)</arglist>
+      <anchor>ad23b3c21bf7f9d3ee4ee7a6db934b39a</anchor>
+      <arglist>(const QString &amp;_mapFile, const QString &amp;_ruleRegistryFile, const QString &amp;_roadRulebookFile, const QString &amp;_trafficLightBookFile, const QString &amp;_phaseRingBookFile, const QString &amp;_intersectionBookFile)</arglist>
     </member>
     <member kind="slot" protection="protected">
       <type>void</type>

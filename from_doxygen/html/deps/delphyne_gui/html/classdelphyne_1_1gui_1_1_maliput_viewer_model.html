@@ -109,9 +109,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a562c3a95ededfd33b3811af220655001"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1gui_1_1_maliput_viewer_model.html#a562c3a95ededfd33b3811af220655001">~MaliputViewerModel</a> ()=default</td></tr>
 <tr class="memdesc:a562c3a95ededfd33b3811af220655001"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="classdelphyne_1_1gui_1_1_maliput_viewer_model.html#a562c3a95ededfd33b3811af220655001">More...</a><br /></td></tr>
 <tr class="separator:a562c3a95ededfd33b3811af220655001"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aceea94754620dfa7c117fcf61a7241ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1gui_1_1_maliput_viewer_model.html#aceea94754620dfa7c117fcf61a7241ac">Load</a> (const std::string &amp;_maliputFilePath, const std::string &amp;_roadRulebookFilePath=std::string(), const std::string &amp;_trafficLightBook=std::string(), const std::string &amp;_phaseRingFilePath=std::string())</td></tr>
-<tr class="memdesc:aceea94754620dfa7c117fcf61a7241ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the meshes from a yaml file.  <a href="classdelphyne_1_1gui_1_1_maliput_viewer_model.html#aceea94754620dfa7c117fcf61a7241ac">More...</a><br /></td></tr>
-<tr class="separator:aceea94754620dfa7c117fcf61a7241ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8562d6e2b31a934661e97275f1305fd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1gui_1_1_maliput_viewer_model.html#ac8562d6e2b31a934661e97275f1305fd">Load</a> (const std::string &amp;_maliputFilePath, const std::string &amp;_ruleRegistryFilePath=std::string(), const std::string &amp;_roadRulebookFilePath=std::string(), const std::string &amp;_trafficLightBook=std::string(), const std::string &amp;_phaseRingFilePath=std::string(), const std::string &amp;_intersectionBookFilePath=std::string())</td></tr>
+<tr class="memdesc:ac8562d6e2b31a934661e97275f1305fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the meshes from a yaml file.  <a href="classdelphyne_1_1gui_1_1_maliput_viewer_model.html#ac8562d6e2b31a934661e97275f1305fd">More...</a><br /></td></tr>
+<tr class="separator:ac8562d6e2b31a934661e97275f1305fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a475d2bd8072f3c9df7b37581c4f1eca4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1gui_1_1_maliput_viewer_model.html#a475d2bd8072f3c9df7b37581c4f1eca4">IsInitialized</a> () const</td></tr>
 <tr class="separator:a475d2bd8072f3c9df7b37581c4f1eca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32d02f73a37623fd4d58da8fd7c160c7"><td class="memItemLeft" align="right" valign="top">const std::map&lt; std::string, std::unique_ptr&lt; <a class="el" href="classdelphyne_1_1gui_1_1_maliput_mesh.html">MaliputMesh</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1gui_1_1_maliput_viewer_model.html#a32d02f73a37623fd4d58da8fd7c160c7">Meshes</a> () const</td></tr>
@@ -516,8 +516,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aceea94754620dfa7c117fcf61a7241ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aceea94754620dfa7c117fcf61a7241ac">&#9670;&nbsp;</a></span>Load()</h2>
+<a id="ac8562d6e2b31a934661e97275f1305fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8562d6e2b31a934661e97275f1305fd">&#9670;&nbsp;</a></span>Load()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -527,6 +527,12 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>_maliputFilePath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>_ruleRegistryFilePath</em> = <code>std::string()</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -544,7 +550,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>_phaseRingFilePath</em> = <code>std::string()</code>&#160;</td>
+          <td class="paramname"><em>_phaseRingFilePath</em> = <code>std::string()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>_intersectionBookFilePath</em> = <code>std::string()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

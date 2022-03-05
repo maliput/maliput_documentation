@@ -2487,6 +2487,13 @@
       <arglist>(const std::vector&lt; Lane * &gt; &amp;lanes)</arglist>
     </member>
     <member kind="function">
+      <type>std::unique_ptr&lt; RoadNetwork &gt;</type>
+      <name>CreateRoadNetwork</name>
+      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
+      <anchor>a055aef0ad0d91cdd77fddd8520f767ee</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
       <type>std::unique_ptr&lt; RoadGeometry &gt;</type>
       <name>CreateRoadGeometry</name>
       <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
@@ -2648,6 +2655,7 @@
     <includes id="api_2intersection__book_8h" name="api/intersection_book.h" local="yes" imported="no">maliput/api/intersection_book.h</includes>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
+    <includes id="road__network_8h" name="road_network.h" local="yes" imported="no">maliput/api/road_network.h</includes>
     <includes id="direction__usage__rule_8h" name="direction_usage_rule.h" local="yes" imported="no">maliput/api/rules/direction_usage_rule.h</includes>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
     <includes id="discrete__value__rule__state__provider_8h" name="discrete_value_rule_state_provider.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule_state_provider.h</includes>
@@ -2848,6 +2856,13 @@
       <name>CreateRangeValueRuleForContiguityTest</name>
       <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
       <anchor>ad93d4462062718fe885a4cf47fd146c8</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; RoadNetwork &gt;</type>
+      <name>CreateRoadNetwork</name>
+      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
+      <anchor>a055aef0ad0d91cdd77fddd8520f767ee</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -15586,6 +15601,13 @@
       <name>CreateRangeValueRuleForContiguityTest</name>
       <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
       <anchor>ad93d4462062718fe885a4cf47fd146c8</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; RoadNetwork &gt;</type>
+      <name>CreateRoadNetwork</name>
+      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
+      <anchor>a055aef0ad0d91cdd77fddd8520f767ee</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">

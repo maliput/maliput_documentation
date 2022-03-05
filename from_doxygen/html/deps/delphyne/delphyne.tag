@@ -1906,8 +1906,8 @@
       <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>CreateMalidriveRoadNetworkFromXodr</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>a1d01a6eb5216a607c688c8cc97b6728b</anchor>
-      <arglist>(const std::string &amp;name, const std::string &amp;file_path, const std::string &amp;road_rulebook_file_path=std::string(), const std::string &amp;traffic_light_book_path=std::string(), const std::string &amp;phase_ring_path=std::string(), double linear_tolerance=1e-3, double angular_tolerance=1e-3)</arglist>
+      <anchor>a62670d30382c616d719a706db10e3852</anchor>
+      <arglist>(const std::string &amp;name, const std::string &amp;file_path, const std::string &amp;rule_registry_file_path=std::string(), const std::string &amp;road_rulebook_file_path=std::string(), const std::string &amp;traffic_light_book_path=std::string(), const std::string &amp;phase_ring_path=std::string(), const std::string &amp;intersection_book_path=std::string(), double linear_tolerance=1e-3, double angular_tolerance=1e-3)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -1955,8 +1955,8 @@
       <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>CreateMalidriveRoadNetworkFromXodr</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>a1d01a6eb5216a607c688c8cc97b6728b</anchor>
-      <arglist>(const std::string &amp;name, const std::string &amp;file_path, const std::string &amp;road_rulebook_file_path=std::string(), const std::string &amp;traffic_light_book_path=std::string(), const std::string &amp;phase_ring_path=std::string(), double linear_tolerance=1e-3, double angular_tolerance=1e-3)</arglist>
+      <anchor>a62670d30382c616d719a706db10e3852</anchor>
+      <arglist>(const std::string &amp;name, const std::string &amp;file_path, const std::string &amp;rule_registry_file_path=std::string(), const std::string &amp;road_rulebook_file_path=std::string(), const std::string &amp;traffic_light_book_path=std::string(), const std::string &amp;phase_ring_path=std::string(), const std::string &amp;intersection_book_path=std::string(), double linear_tolerance=1e-3, double angular_tolerance=1e-3)</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
@@ -11949,8 +11949,8 @@
       <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>CreateMalidriveRoadNetworkFromXodr</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>a1d01a6eb5216a607c688c8cc97b6728b</anchor>
-      <arglist>(const std::string &amp;name, const std::string &amp;file_path, const std::string &amp;road_rulebook_file_path=std::string(), const std::string &amp;traffic_light_book_path=std::string(), const std::string &amp;phase_ring_path=std::string(), double linear_tolerance=1e-3, double angular_tolerance=1e-3)</arglist>
+      <anchor>a62670d30382c616d719a706db10e3852</anchor>
+      <arglist>(const std::string &amp;name, const std::string &amp;file_path, const std::string &amp;rule_registry_file_path=std::string(), const std::string &amp;road_rulebook_file_path=std::string(), const std::string &amp;traffic_light_book_path=std::string(), const std::string &amp;phase_ring_path=std::string(), const std::string &amp;intersection_book_path=std::string(), double linear_tolerance=1e-3, double angular_tolerance=1e-3)</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>

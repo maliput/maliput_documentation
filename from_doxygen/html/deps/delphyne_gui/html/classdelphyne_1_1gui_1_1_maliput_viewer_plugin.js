@@ -12,7 +12,7 @@ var classdelphyne_1_1gui_1_1_maliput_viewer_plugin =
     [ "ListLanesChanged", "classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#aa7a2b0960cd7bee89cb2bf4a29c61c9d", null ],
     [ "LoadConfig", "classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#afeab00c893ba55d6553e13df7586486e", null ],
     [ "OnNewMeshLayerSelection", "classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#a014364555584bdd45d029c9f637c279f", null ],
-    [ "OnNewRoadNetwork", "classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#a19895c66f7a648eb718ef07ce8536511", null ],
+    [ "OnNewRoadNetwork", "classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#ad23b3c21bf7f9d3ee4ee7a6db934b39a", null ],
     [ "OnNewTextLabelSelection", "classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#aaaf8ad7a772f45da055bd13a37da3179", null ],
     [ "OnPhaseSelection", "classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#a76b5533d2fcf2eb510736b3619567eac", null ],
     [ "OnTableLaneIdSelection", "classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#a699c51d2d51a7bec5bdc62bc753323ec", null ],

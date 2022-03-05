@@ -13,7 +13,7 @@ var classdelphyne_1_1gui_1_1_maliput_viewer_model =
     [ "GetTrafficLights", "classdelphyne_1_1gui_1_1_maliput_viewer_model.html#ac9014473a396cdfafd32c427dbf0bd30", null ],
     [ "IsInitialized", "classdelphyne_1_1gui_1_1_maliput_viewer_model.html#a475d2bd8072f3c9df7b37581c4f1eca4", null ],
     [ "Labels", "classdelphyne_1_1gui_1_1_maliput_viewer_model.html#a8b029b8c4a36ba65bb476473018d73db", null ],
-    [ "Load", "classdelphyne_1_1gui_1_1_maliput_viewer_model.html#aceea94754620dfa7c117fcf61a7241ac", null ],
+    [ "Load", "classdelphyne_1_1gui_1_1_maliput_viewer_model.html#ac8562d6e2b31a934661e97275f1305fd", null ],
     [ "Meshes", "classdelphyne_1_1gui_1_1_maliput_viewer_model.html#a32d02f73a37623fd4d58da8fd7c160c7", null ],
     [ "SetLayerState", "classdelphyne_1_1gui_1_1_maliput_viewer_model.html#acf7b53329b70cd8855a3be18ca371b23", null ],
     [ "SetTextLabelState", "classdelphyne_1_1gui_1_1_maliput_viewer_model.html#aafff1b26f0116e0117f03bea510c370c", null ],

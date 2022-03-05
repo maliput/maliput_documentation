@@ -159,9 +159,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-slots"></a>
 Protected Slots</h2></td></tr>
-<tr class="memitem:a19895c66f7a648eb718ef07ce8536511"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#a19895c66f7a648eb718ef07ce8536511">OnNewRoadNetwork</a> (const QString &amp;_mapFile, const QString &amp;_roadRulebookFile, const QString &amp;_trafficLightBookFile, const QString &amp;_phaseRingBookFile)</td></tr>
-<tr class="memdesc:a19895c66f7a648eb718ef07ce8536511"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the visualizer, loads a RoadNetwork and update the GUI with meshes and labels.  <a href="classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#a19895c66f7a648eb718ef07ce8536511">More...</a><br /></td></tr>
-<tr class="separator:a19895c66f7a648eb718ef07ce8536511"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad23b3c21bf7f9d3ee4ee7a6db934b39a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#ad23b3c21bf7f9d3ee4ee7a6db934b39a">OnNewRoadNetwork</a> (const QString &amp;_mapFile, const QString &amp;_ruleRegistryFile, const QString &amp;_roadRulebookFile, const QString &amp;_trafficLightBookFile, const QString &amp;_phaseRingBookFile, const QString &amp;_intersectionBookFile)</td></tr>
+<tr class="memdesc:ad23b3c21bf7f9d3ee4ee7a6db934b39a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the visualizer, loads a RoadNetwork and update the GUI with meshes and labels.  <a href="classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#ad23b3c21bf7f9d3ee4ee7a6db934b39a">More...</a><br /></td></tr>
+<tr class="separator:ad23b3c21bf7f9d3ee4ee7a6db934b39a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a014364555584bdd45d029c9f637c279f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#a014364555584bdd45d029c9f637c279f">OnNewMeshLayerSelection</a> (const QString &amp;_layer, bool _state)</td></tr>
 <tr class="memdesc:a014364555584bdd45d029c9f637c279f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the visibility of the layers.  <a href="classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#a014364555584bdd45d029c9f637c279f">More...</a><br /></td></tr>
 <tr class="separator:a014364555584bdd45d029c9f637c279f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -526,8 +526,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a19895c66f7a648eb718ef07ce8536511"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19895c66f7a648eb718ef07ce8536511">&#9670;&nbsp;</a></span>OnNewRoadNetwork</h2>
+<a id="ad23b3c21bf7f9d3ee4ee7a6db934b39a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad23b3c21bf7f9d3ee4ee7a6db934b39a">&#9670;&nbsp;</a></span>OnNewRoadNetwork</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -545,6 +545,12 @@ Properties</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>_ruleRegistryFile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
           <td class="paramname"><em>_roadRulebookFile</em>, </td>
         </tr>
         <tr>
@@ -557,7 +563,13 @@ Properties</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>_phaseRingBookFile</em>&#160;</td>
+          <td class="paramname"><em>_phaseRingBookFile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>_intersectionBookFile</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -576,9 +588,11 @@ Properties</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">_mapFile</td><td>The path to the map file to load and visualize. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">_ruleRegistryFile</td><td>The path to the rule registry file. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">_roadRulebookFile</td><td>The path to the road rulebook file. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">_trafficLightBookFile</td><td>The path to the traffic light book file. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">_phaseRingBookFile</td><td>The path to the phase ring book file. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">_intersectionBookFile</td><td>The path to the phase ring book file. </td></tr>
   </table>
   </dd>
 </dl>
