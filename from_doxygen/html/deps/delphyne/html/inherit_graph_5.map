@@ -1,40 +1,41 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,801,104,828"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,843,104,869"/>
 <area shape="rect" id="node2" href="$classdelphyne_1_1_agent_state__v___splitter.html" title="A system that takes a AgentState_V and splits it into separate AgentState messages." alt="" coords="185,5,386,32"/>
 <area shape="rect" id="node3" href="$classdelphyne_1_1_bicycle_car.html" title="BicycleCar implements a nonlinear rigid body bicycle model from Althoff &amp; Dolan (2014) [1]." alt="" coords="221,56,350,83"/>
 <area shape="rect" id="node4" href="$classdelphyne_1_1_car_vis_applicator.html" title="CarVisApplicator takes as input a PoseVector containing vehicle poses." alt="" coords="201,107,369,133"/>
 <area shape="rect" id="node5" href="$classdelphyne_1_1_drake_to_ign.html" title="A system that translates Drake messages on its single input port (which will be discrete or abstract ..." alt="" coords="187,158,384,199"/>
 <area shape="rect" id="node6" href="$classdelphyne_1_1_driving_command_mux.html" title="A special&#45;purpose multiplexer that packs two scalar inputs, steering angle (in units rad) and acceler..." alt="" coords="184,224,387,251"/>
 <area shape="rect" id="node7" href="$classdelphyne_1_1_dynamic_bicycle_car.html" title="DynamicBicycleCar implements a planar rigid body bicycle model of an automobile with a non&#45;linear bru..." alt="" coords="192,275,379,301"/>
-<area shape="rect" id="node8" href="$classdelphyne_1_1_frame_pose_aggregator.html" title="A system that aggregates drake::systems::rendering::PoseVector inputs into a single drake::geometry::..." alt="" coords="183,325,387,352"/>
-<area shape="rect" id="node9" href="$classdelphyne_1_1_i_d_m_controller.html" title="IDMController implements the IDM (Intelligent Driver Model) planner, computed based only on the neare..." alt="" coords="210,376,361,403"/>
-<area shape="rect" id="node10" href="$classdelphyne_1_1_ign_models_assembler.html" title="A helper System to assemble ignition::msgs::Model messages (given as an ignition::msgs::Model_V messa..." alt="" coords="206,427,365,453"/>
-<area shape="rect" id="node11" href="$classdelphyne_1_1_ign_publisher_system.html" title="A system to publish ignition messages at its single abstract input port through an ignition transport..." alt="" coords="209,478,361,519"/>
-<area shape="rect" id="node12" href="$classdelphyne_1_1_ign_subscriber_system.html" title="This class is the counterpart of Drake&#39;s LcmSubscriberSystem." alt="" coords="206,543,365,585"/>
-<area shape="rect" id="node13" href="$classdelphyne_1_1_ign_to_drake.html" title="A system that translates ignition messages on its single abstract input port to a Drake message on it..." alt="" coords="197,609,373,650"/>
-<area shape="rect" id="node14" href="$classdelphyne_1_1_load_robot_aggregator.html" title="A system that aggregates LCM viewer load robot messages, creating a new viewer load robot message,..." alt="" coords="204,675,367,701"/>
-<area shape="rect" id="node15" href="$classdelphyne_1_1_mobil_planner.html" title="MOBIL (Minimizing Overall Braking Induced by Lane Changes) [1] is a planner that minimizes braking re..." alt="" coords="213,725,358,752"/>
-<area shape="rect" id="node16" href="$classdelphyne_1_1_pure_pursuit_controller.html" title="PurePursuitController implements a pure pursuit controller." alt="" coords="186,776,385,803"/>
-<area shape="rect" id="node17" href="$classdelphyne_1_1_rail_follower.html" title="RailFollower models an entity that follows a maliput::api::Lane as if it were on rails and neglecting..." alt="" coords="215,827,355,853"/>
-<area shape="rect" id="node18" href="$classdelphyne_1_1_scene_system.html" title="A system that creates an ignition Scene message from two Model_V messages: one describing the geometr..." alt="" coords="230,877,341,904"/>
-<area shape="rect" id="node19" href="$classdelphyne_1_1_simple_car2.html" title="SimpleCar models an idealized response to driving commands, neglecting all physics." alt="" coords="218,928,353,955"/>
-<area shape="rect" id="node20" href="$classdelphyne_1_1_speed_system.html" title="The SpeedSystem implements a very simple speed controller, taking as an input the current frame veloc..." alt="" coords="211,979,360,1005"/>
-<area shape="rect" id="node21" href="$classdelphyne_1_1_trajectory_follower.html" title="TrajectoryFollower simply moves along a pre&#45;established trajectory." alt="" coords="195,1029,375,1056"/>
-<area shape="rect" id="node22" href="$classdelphyne_1_1_unicycle_car.html" title="UnicylceCar is a parameter&#45;free model of a car governed by the second&#45;order equations." alt="" coords="216,1080,355,1107"/>
-<area shape="rect" id="node23" href="$classdelphyne_1_1_vector_source.html" title="The VectorSource is a drake system to continually set an output port to a fixed value until the user ..." alt="" coords="212,1131,359,1157"/>
-<area shape="rect" id="node24" href="$classdelphyne_1_1_drake_to_ign.html" title=" " alt="" coords="186,1181,385,1237"/>
-<area shape="rect" id="node26" href="$classdelphyne_1_1_drake_to_ign.html" title=" " alt="" coords="187,1261,384,1317"/>
-<area shape="rect" id="node28" href="$classdelphyne_1_1_drake_to_ign.html" title=" " alt="" coords="171,1342,400,1413"/>
-<area shape="rect" id="node30" href="$classdelphyne_1_1_drake_to_ign.html" title=" " alt="" coords="168,1437,403,1493"/>
-<area shape="rect" id="node32" href="$classdelphyne_1_1_ign_to_drake.html" title=" " alt="" coords="152,1517,419,1573"/>
-<area shape="rect" id="node34" href="$classdelphyne_1_1_ign_to_drake.html" title=" " alt="" coords="199,1597,372,1653"/>
-<area shape="rect" id="node36" href="$classdelphyne_1_1_ign_to_drake.html" title=" " alt="" coords="192,1677,379,1733"/>
-<area shape="rect" id="node38" href="$classdelphyne_1_1_vector_source.html" title=" " alt="" coords="194,1757,377,1784"/>
-<area shape="rect" id="node25" href="$classdelphyne_1_1_lcm_viewer_draw_to_ign_model_v.html" title="A system that translates LCM viewer draw messages to ignition Model_V." alt="" coords="485,1196,695,1223"/>
-<area shape="rect" id="node27" href="$classdelphyne_1_1_lcm_viewer_load_robot_to_ign_model_v.html" title="A system that translates LCM viewer load robot messages to ignition Model_V." alt="" coords="467,1276,713,1303"/>
-<area shape="rect" id="node29" href="$classdelphyne_1_1_pose_bundle_to_agent_state___v.html" title="A system that takes a PoseBundle and generates an array of AgentState (AgentState_V)." alt="" coords="490,1364,690,1391"/>
-<area shape="rect" id="node31" href="$classdelphyne_1_1_drake_driving_command_to_ign.html" title="A system that translates Drake driving command messages to ignition driving command messages." alt="" coords="486,1452,694,1479"/>
-<area shape="rect" id="node33" href="$classdelphyne_1_1_ign_driving_command_to_drake.html" title="A system that translates ignition driving command messages to Drake driving command messages." alt="" coords="486,1532,694,1559"/>
-<area shape="rect" id="node35" href="$classdelphyne_1_1_ign_model_v_to_lcm_viewer_draw.html" title="A system that translates ignition Model_V messages to LCM viewer draw messages." alt="" coords="485,1612,695,1639"/>
-<area shape="rect" id="node37" href="$classdelphyne_1_1_ign_model_v_to_ign_pose_v.html" title="A system that translates ignition Model_V messages to ignition Pose_V messages messages." alt="" coords="507,1692,673,1719"/>
+<area shape="rect" id="node8" href="$classdelphyne_1_1_dynamic_environment_handler_system.html" title=" " alt="" coords="178,326,393,367"/>
+<area shape="rect" id="node9" href="$classdelphyne_1_1_frame_pose_aggregator.html" title="A system that aggregates drake::systems::rendering::PoseVector inputs into a single drake::geometry::..." alt="" coords="183,392,387,419"/>
+<area shape="rect" id="node10" href="$classdelphyne_1_1_i_d_m_controller.html" title="IDMController implements the IDM (Intelligent Driver Model) planner, computed based only on the neare..." alt="" coords="210,443,361,469"/>
+<area shape="rect" id="node11" href="$classdelphyne_1_1_ign_models_assembler.html" title="A helper System to assemble ignition::msgs::Model messages (given as an ignition::msgs::Model_V messa..." alt="" coords="206,493,365,520"/>
+<area shape="rect" id="node12" href="$classdelphyne_1_1_ign_publisher_system.html" title="A system to publish ignition messages at its single abstract input port through an ignition transport..." alt="" coords="209,545,361,586"/>
+<area shape="rect" id="node13" href="$classdelphyne_1_1_ign_subscriber_system.html" title="This class is the counterpart of Drake&#39;s LcmSubscriberSystem." alt="" coords="206,610,365,651"/>
+<area shape="rect" id="node14" href="$classdelphyne_1_1_ign_to_drake.html" title="A system that translates ignition messages on its single abstract input port to a Drake message on it..." alt="" coords="197,675,373,717"/>
+<area shape="rect" id="node15" href="$classdelphyne_1_1_load_robot_aggregator.html" title="A system that aggregates LCM viewer load robot messages, creating a new viewer load robot message,..." alt="" coords="204,741,367,768"/>
+<area shape="rect" id="node16" href="$classdelphyne_1_1_mobil_planner.html" title="MOBIL (Minimizing Overall Braking Induced by Lane Changes) [1] is a planner that minimizes braking re..." alt="" coords="213,792,358,819"/>
+<area shape="rect" id="node17" href="$classdelphyne_1_1_pure_pursuit_controller.html" title="PurePursuitController implements a pure pursuit controller." alt="" coords="186,843,385,869"/>
+<area shape="rect" id="node18" href="$classdelphyne_1_1_rail_follower.html" title="RailFollower models an entity that follows a maliput::api::Lane as if it were on rails and neglecting..." alt="" coords="215,893,355,920"/>
+<area shape="rect" id="node19" href="$classdelphyne_1_1_scene_system.html" title="A system that creates an ignition Scene message from two Model_V messages: one describing the geometr..." alt="" coords="230,944,341,971"/>
+<area shape="rect" id="node20" href="$classdelphyne_1_1_simple_car2.html" title="SimpleCar models an idealized response to driving commands, neglecting all physics." alt="" coords="218,995,353,1021"/>
+<area shape="rect" id="node21" href="$classdelphyne_1_1_speed_system.html" title="The SpeedSystem implements a very simple speed controller, taking as an input the current frame veloc..." alt="" coords="211,1045,360,1072"/>
+<area shape="rect" id="node22" href="$classdelphyne_1_1_trajectory_follower.html" title="TrajectoryFollower simply moves along a pre&#45;established trajectory." alt="" coords="195,1096,375,1123"/>
+<area shape="rect" id="node23" href="$classdelphyne_1_1_unicycle_car.html" title="UnicylceCar is a parameter&#45;free model of a car governed by the second&#45;order equations." alt="" coords="216,1147,355,1173"/>
+<area shape="rect" id="node24" href="$classdelphyne_1_1_vector_source.html" title="The VectorSource is a drake system to continually set an output port to a fixed value until the user ..." alt="" coords="212,1197,359,1224"/>
+<area shape="rect" id="node25" href="$classdelphyne_1_1_drake_to_ign.html" title=" " alt="" coords="186,1248,385,1304"/>
+<area shape="rect" id="node27" href="$classdelphyne_1_1_drake_to_ign.html" title=" " alt="" coords="187,1328,384,1384"/>
+<area shape="rect" id="node29" href="$classdelphyne_1_1_drake_to_ign.html" title=" " alt="" coords="171,1409,400,1479"/>
+<area shape="rect" id="node31" href="$classdelphyne_1_1_drake_to_ign.html" title=" " alt="" coords="168,1504,403,1560"/>
+<area shape="rect" id="node33" href="$classdelphyne_1_1_ign_to_drake.html" title=" " alt="" coords="152,1584,419,1640"/>
+<area shape="rect" id="node35" href="$classdelphyne_1_1_ign_to_drake.html" title=" " alt="" coords="199,1664,372,1720"/>
+<area shape="rect" id="node37" href="$classdelphyne_1_1_ign_to_drake.html" title=" " alt="" coords="192,1744,379,1800"/>
+<area shape="rect" id="node39" href="$classdelphyne_1_1_vector_source.html" title=" " alt="" coords="194,1824,377,1851"/>
+<area shape="rect" id="node26" href="$classdelphyne_1_1_lcm_viewer_draw_to_ign_model_v.html" title="A system that translates LCM viewer draw messages to ignition Model_V." alt="" coords="485,1263,695,1289"/>
+<area shape="rect" id="node28" href="$classdelphyne_1_1_lcm_viewer_load_robot_to_ign_model_v.html" title="A system that translates LCM viewer load robot messages to ignition Model_V." alt="" coords="467,1343,713,1369"/>
+<area shape="rect" id="node30" href="$classdelphyne_1_1_pose_bundle_to_agent_state___v.html" title="A system that takes a PoseBundle and generates an array of AgentState (AgentState_V)." alt="" coords="490,1431,690,1457"/>
+<area shape="rect" id="node32" href="$classdelphyne_1_1_drake_driving_command_to_ign.html" title="A system that translates Drake driving command messages to ignition driving command messages." alt="" coords="486,1519,694,1545"/>
+<area shape="rect" id="node34" href="$classdelphyne_1_1_ign_driving_command_to_drake.html" title="A system that translates ignition driving command messages to Drake driving command messages." alt="" coords="486,1599,694,1625"/>
+<area shape="rect" id="node36" href="$classdelphyne_1_1_ign_model_v_to_lcm_viewer_draw.html" title="A system that translates ignition Model_V messages to LCM viewer draw messages." alt="" coords="485,1679,695,1705"/>
+<area shape="rect" id="node38" href="$classdelphyne_1_1_ign_model_v_to_ign_pose_v.html" title="A system that translates ignition Model_V messages to ignition Pose_V messages messages." alt="" coords="507,1759,673,1785"/>
 </map>

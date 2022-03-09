@@ -63,6 +63,9 @@ var hierarchy =
     [ "DynamicBicycleCarInputIndices", "structdelphyne_1_1_dynamic_bicycle_car_input_indices.html", null ],
     [ "DynamicBicycleCarParamsIndices", "structdelphyne_1_1_dynamic_bicycle_car_params_indices.html", null ],
     [ "DynamicBicycleCarStateIndices", "structdelphyne_1_1_dynamic_bicycle_car_state_indices.html", null ],
+    [ "DynamicEnvironmentHandler", "classdelphyne_1_1_dynamic_environment_handler.html", [
+      [ "FixedPhaseIterationHandler", "classdelphyne_1_1_fixed_phase_iteration_handler.html", null ]
+    ] ],
     [ "exception", null, [
       [ "runtime_error", null, [
         [ "TranslateException", "classdelphyne_1_1_translate_exception.html", null ]
@@ -83,6 +86,7 @@ var hierarchy =
       [ "DrakeToIgn< DRAKE_TYPE, IGN_TYPE >", "classdelphyne_1_1_drake_to_ign.html", null ],
       [ "DrivingCommandMux< T >", "classdelphyne_1_1_driving_command_mux.html", null ],
       [ "DynamicBicycleCar< T >", "classdelphyne_1_1_dynamic_bicycle_car.html", null ],
+      [ "DynamicEnvironmentHandlerSystem", "classdelphyne_1_1_dynamic_environment_handler_system.html", null ],
       [ "FramePoseAggregator< T >", "classdelphyne_1_1_frame_pose_aggregator.html", null ],
       [ "IDMController< T >", "classdelphyne_1_1_i_d_m_controller.html", null ],
       [ "IgnModelsAssembler", "classdelphyne_1_1_ign_models_assembler.html", null ],

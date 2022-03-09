@@ -93,10 +93,20 @@ var files_dup =
     [ "dynamic_bicycle_car_params.h", "dynamic__bicycle__car__params_8h.html", "dynamic__bicycle__car__params_8h" ],
     [ "dynamic_bicycle_car_state.cc", "dynamic__bicycle__car__state_8cc.html", null ],
     [ "dynamic_bicycle_car_state.h", "dynamic__bicycle__car__state_8h.html", "dynamic__bicycle__car__state_8h" ],
+    [ "dynamic_environment_handler.h", "dynamic__environment__handler_8h.html", [
+      [ "DynamicEnvironmentHandler", "classdelphyne_1_1_dynamic_environment_handler.html", "classdelphyne_1_1_dynamic_environment_handler" ]
+    ] ],
+    [ "dynamic_environment_handler_system.h", "dynamic__environment__handler__system_8h.html", [
+      [ "DynamicEnvironmentHandlerSystem", "classdelphyne_1_1_dynamic_environment_handler_system.html", "classdelphyne_1_1_dynamic_environment_handler_system" ]
+    ] ],
     [ "filesystem.cc", "filesystem_8cc.html", "filesystem_8cc" ],
     [ "filesystem.h", "filesystem_8h.html", "filesystem_8h" ],
     [ "find_lane.cc", "find__lane_8cc.html", "find__lane_8cc" ],
     [ "find_lane.h", "find__lane_8h.html", "find__lane_8h" ],
+    [ "fixed_phase_iteration_handler.cc", "fixed__phase__iteration__handler_8cc.html", null ],
+    [ "fixed_phase_iteration_handler.h", "fixed__phase__iteration__handler_8h.html", [
+      [ "FixedPhaseIterationHandler", "classdelphyne_1_1_fixed_phase_iteration_handler.html", "classdelphyne_1_1_fixed_phase_iteration_handler" ]
+    ] ],
     [ "frame_pose_aggregator.cc", "frame__pose__aggregator_8cc.html", null ],
     [ "frame_pose_aggregator.h", "frame__pose__aggregator_8h.html", [
       [ "FramePoseAggregator", "classdelphyne_1_1_frame_pose_aggregator.html", "classdelphyne_1_1_frame_pose_aggregator" ]

@@ -236,6 +236,8 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/src/backend/</path>
     <filename>agent__simulation__builder_8cc.html</filename>
     <includes id="agent__simulation__builder_8h" name="agent_simulation_builder.h" local="yes" imported="no">backend/agent_simulation_builder.h</includes>
+    <includes id="dynamic__environment__handler__system_8h" name="dynamic_environment_handler_system.h" local="yes" imported="no">backend/dynamic_environment_handler_system.h</includes>
+    <includes id="fixed__phase__iteration__handler_8h" name="fixed_phase_iteration_handler.h" local="yes" imported="no">backend/fixed_phase_iteration_handler.h</includes>
     <includes id="geometry__utilities_8h" name="geometry_utilities.h" local="yes" imported="no">backend/geometry_utilities.h</includes>
     <includes id="ign__models__assembler_8h" name="ign_models_assembler.h" local="yes" imported="no">backend/ign_models_assembler.h</includes>
     <includes id="ign__publisher__system_8h" name="ign_publisher_system.h" local="yes" imported="no">backend/ign_publisher_system.h</includes>
@@ -922,6 +924,23 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>dynamic_environment_handler.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/src/backend/</path>
+    <filename>dynamic__environment__handler_8h.html</filename>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">delphyne/macros.h</includes>
+    <class kind="class">delphyne::DynamicEnvironmentHandler</class>
+    <namespace>delphyne</namespace>
+  </compound>
+  <compound kind="file">
+    <name>dynamic_environment_handler_system.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/src/backend/</path>
+    <filename>dynamic__environment__handler__system_8h.html</filename>
+    <includes id="dynamic__environment__handler_8h" name="dynamic_environment_handler.h" local="yes" imported="no">backend/dynamic_environment_handler.h</includes>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">delphyne/macros.h</includes>
+    <class kind="class">delphyne::DynamicEnvironmentHandlerSystem</class>
+    <namespace>delphyne</namespace>
+  </compound>
+  <compound kind="file">
     <name>filesystem.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/src/utility/</path>
     <filename>filesystem_8cc.html</filename>
@@ -1040,6 +1059,23 @@
       <anchor>aafa54213b58621b2ec914cb4113b133d</anchor>
       <arglist>(const maliput::api::LaneId &amp;lane_id, const maliput::api::RoadGeometry &amp;road_geometry)</arglist>
     </member>
+  </compound>
+  <compound kind="file">
+    <name>fixed_phase_iteration_handler.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/src/backend/</path>
+    <filename>fixed__phase__iteration__handler_8cc.html</filename>
+    <includes id="fixed__phase__iteration__handler_8h" name="fixed_phase_iteration_handler.h" local="yes" imported="no">backend/fixed_phase_iteration_handler.h</includes>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">delphyne/macros.h</includes>
+    <namespace>delphyne</namespace>
+  </compound>
+  <compound kind="file">
+    <name>fixed_phase_iteration_handler.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/src/backend/</path>
+    <filename>fixed__phase__iteration__handler_8h.html</filename>
+    <includes id="dynamic__environment__handler_8h" name="dynamic_environment_handler.h" local="yes" imported="no">backend/dynamic_environment_handler.h</includes>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">delphyne/macros.h</includes>
+    <class kind="class">delphyne::FixedPhaseIterationHandler</class>
+    <namespace>delphyne</namespace>
   </compound>
   <compound kind="file">
     <name>frame_pose_aggregator.cc</name>
@@ -3013,15 +3049,15 @@
       <type>const maliput::api::RoadNetwork *</type>
       <name>SetRoadNetwork</name>
       <anchorfile>classdelphyne_1_1_agent_simulation_base_builder.html</anchorfile>
-      <anchor>acd73eaf1eaf807da622582e6b1e39294</anchor>
-      <arglist>(std::unique_ptr&lt; const maliput::api::RoadNetwork &gt; road_network)</arglist>
+      <anchor>a167a342f1e068a7fccfad4aaf26e0051</anchor>
+      <arglist>(std::unique_ptr&lt; maliput::api::RoadNetwork &gt; road_network)</arglist>
     </member>
     <member kind="function">
       <type>const maliput::api::RoadNetwork *</type>
       <name>SetRoadNetwork</name>
       <anchorfile>classdelphyne_1_1_agent_simulation_base_builder.html</anchorfile>
-      <anchor>ab97a0b19d17750a76b60fccdf183f6b0</anchor>
-      <arglist>(std::unique_ptr&lt; const maliput::api::RoadNetwork &gt; road_network, const maliput::utility::ObjFeatures &amp;features)</arglist>
+      <anchor>ab4f96270f6fc3ed27e97bb7990665dc2</anchor>
+      <arglist>(std::unique_ptr&lt; maliput::api::RoadNetwork &gt; road_network, const maliput::utility::ObjFeatures &amp;features)</arglist>
     </member>
     <member kind="function">
       <type>Blueprint *</type>
@@ -6111,6 +6147,124 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>delphyne::DynamicEnvironmentHandler</name>
+    <filename>classdelphyne_1_1_dynamic_environment_handler.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>DynamicEnvironmentHandler</name>
+      <anchorfile>classdelphyne_1_1_dynamic_environment_handler.html</anchorfile>
+      <anchor>a72b7265364548b524c6b69def7e1ba54</anchor>
+      <arglist>()=delete</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~DynamicEnvironmentHandler</name>
+      <anchorfile>classdelphyne_1_1_dynamic_environment_handler.html</anchorfile>
+      <anchor>a3dec50d9db3f2a151fc6f7a02efb5dac</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>Update</name>
+      <anchorfile>classdelphyne_1_1_dynamic_environment_handler.html</anchorfile>
+      <anchor>a09fade3111c78a516e60b906f2ac2076</anchor>
+      <arglist>(double sim_time)=0</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>DynamicEnvironmentHandler</name>
+      <anchorfile>classdelphyne_1_1_dynamic_environment_handler.html</anchorfile>
+      <anchor>ac2ee7c773be0556c34ca6c71324908d6</anchor>
+      <arglist>(maliput::api::RoadNetwork *road_network)</arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>maliput::api::RoadNetwork *</type>
+      <name>road_network_</name>
+      <anchorfile>classdelphyne_1_1_dynamic_environment_handler.html</anchorfile>
+      <anchor>aecd9eb7346853c0c868015da2fdfed73</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>delphyne::DynamicEnvironmentHandlerSystem</name>
+    <filename>classdelphyne_1_1_dynamic_environment_handler_system.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>DynamicEnvironmentHandlerSystem</name>
+      <anchorfile>classdelphyne_1_1_dynamic_environment_handler_system.html</anchorfile>
+      <anchor>a49bdfe7096e416f7bd455605c3384ff7</anchor>
+      <arglist>(std::unique_ptr&lt; DynamicEnvironmentHandler &gt; deh)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~DynamicEnvironmentHandlerSystem</name>
+      <anchorfile>classdelphyne_1_1_dynamic_environment_handler_system.html</anchorfile>
+      <anchor>ade957b3ed81ecaa023fa7aa3018d4fbc</anchor>
+      <arglist>() override</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>delphyne::FixedPhaseIterationHandler</name>
+    <filename>classdelphyne_1_1_fixed_phase_iteration_handler.html</filename>
+    <base>delphyne::DynamicEnvironmentHandler</base>
+    <member kind="function">
+      <type></type>
+      <name>FixedPhaseIterationHandler</name>
+      <anchorfile>classdelphyne_1_1_fixed_phase_iteration_handler.html</anchorfile>
+      <anchor>ad68ea2ae2e75208eadfe272d35684fcc</anchor>
+      <arglist>()=delete</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>FixedPhaseIterationHandler</name>
+      <anchorfile>classdelphyne_1_1_fixed_phase_iteration_handler.html</anchorfile>
+      <anchor>aa498a694f02a0f808ef9b9d1362b0dae</anchor>
+      <arglist>(maliput::api::RoadNetwork *road_network, double phase_duration=10.)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~FixedPhaseIterationHandler</name>
+      <anchorfile>classdelphyne_1_1_fixed_phase_iteration_handler.html</anchorfile>
+      <anchor>a8b6d7eefe98dfce02bda83905df104fc</anchor>
+      <arglist>() override=default</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>Update</name>
+      <anchorfile>classdelphyne_1_1_fixed_phase_iteration_handler.html</anchorfile>
+      <anchor>a081391cf3d440963e0298d529ffc721c</anchor>
+      <arglist>(double sim_time) override</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>get_phase_duration</name>
+      <anchorfile>classdelphyne_1_1_fixed_phase_iteration_handler.html</anchorfile>
+      <anchor>a727c493a8f4d416fc25bce0838df95e3</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_phase_duration</name>
+      <anchorfile>classdelphyne_1_1_fixed_phase_iteration_handler.html</anchorfile>
+      <anchor>a7752bea0a72fd715aa1ff87cee619d34</anchor>
+      <arglist>(double phase_duration)</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char</type>
+      <name>kSetPhaseDurationSrvName</name>
+      <anchorfile>classdelphyne_1_1_fixed_phase_iteration_handler.html</anchorfile>
+      <anchor>ae30933dd4aad04d71fa26dede82af8d2</anchor>
+      <arglist>[]</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>SetPhaseDurationSvCb</name>
+      <anchorfile>classdelphyne_1_1_fixed_phase_iteration_handler.html</anchorfile>
+      <anchor>aa569b15ed9f41dc1e25a8360e79111d0</anchor>
+      <arglist>(const ignition::msgs::Double &amp;phase_duration)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>delphyne::FramePoseAggregator</name>
     <filename>classdelphyne_1_1_frame_pose_aggregator.html</filename>
     <templarg></templarg>
@@ -7266,8 +7420,8 @@
       <type>def</type>
       <name>__init__</name>
       <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_malidrive.html</anchorfile>
-      <anchor>afbf9f8c0c544817be377a3c8b7c2f5f2</anchor>
-      <arglist>(self, file_path, features=delphyne.roads.ObjFeatures(), name=py_trees.common.Name.AUTO_GENERATED, linear_tolerance=1e-3, angular_tolerance=1e-3)</arglist>
+      <anchor>ad88f872a22e0bd858d4226453132f033</anchor>
+      <arglist>(self, name=py_trees.common.Name.AUTO_GENERATED, file_path=&quot;&quot;, rule_registry_file_path=&quot;&quot;, road_rulebook_file_path=&quot;&quot;, traffic_light_book_path=&quot;&quot;, phase_ring_path=&quot;&quot;, intersection_book_path=&quot;&quot;, linear_tolerance=1e-3, angular_tolerance=1e-3, features=delphyne.roads.ObjFeatures())</arglist>
     </member>
     <member kind="function">
       <type>def</type>
@@ -7278,6 +7432,20 @@
     </member>
     <member kind="variable">
       <type></type>
+      <name>road_network</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_malidrive.html</anchorfile>
+      <anchor>aa221c318dee7b4b7c34572f3f80d28cf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>name</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_malidrive.html</anchorfile>
+      <anchor>ab74e6bf80237ddc4109968cedc58c151</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
       <name>file_path</name>
       <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_malidrive.html</anchorfile>
       <anchor>a8aa55c8aa2346c2358ce68869a197088</anchor>
@@ -7285,16 +7453,37 @@
     </member>
     <member kind="variable">
       <type></type>
-      <name>features</name>
+      <name>rule_registry_file_path</name>
       <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_malidrive.html</anchorfile>
-      <anchor>a6b54c7d82e1d89ae7994a88ce0c6889b</anchor>
+      <anchor>adfbe2d2bb3dbf2fc495f481aaa4e14ae</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type></type>
-      <name>road_network</name>
+      <name>road_rulebook_file_path</name>
       <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_malidrive.html</anchorfile>
-      <anchor>aa221c318dee7b4b7c34572f3f80d28cf</anchor>
+      <anchor>a1a6b06bb9c1aa48143e106882f1d75f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>traffic_light_book_path</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_malidrive.html</anchorfile>
+      <anchor>a0650d9a7af4d0875175f84b95cd6aae2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>phase_ring_path</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_malidrive.html</anchorfile>
+      <anchor>a3eef7b9346af9b705c75d2d0c4f2578a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>intersection_book_path</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_malidrive.html</anchorfile>
+      <anchor>af26852842457d222f0ea9db1b44ad0fc</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -7309,6 +7498,13 @@
       <name>angular_tolerance</name>
       <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_malidrive.html</anchorfile>
       <anchor>a9e8fd8c0575c8b83fc4483838b469128</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>features</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_malidrive.html</anchorfile>
+      <anchor>a6b54c7d82e1d89ae7994a88ce0c6889b</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -11179,6 +11375,9 @@
     <class kind="struct">delphyne::DynamicBicycleCarParamsIndices</class>
     <class kind="class">delphyne::DynamicBicycleCarState</class>
     <class kind="struct">delphyne::DynamicBicycleCarStateIndices</class>
+    <class kind="class">delphyne::DynamicEnvironmentHandler</class>
+    <class kind="class">delphyne::DynamicEnvironmentHandlerSystem</class>
+    <class kind="class">delphyne::FixedPhaseIterationHandler</class>
     <class kind="class">delphyne::FramePoseAggregator</class>
     <class kind="class">delphyne::IDMController</class>
     <class kind="class">delphyne::IdmPlanner</class>
