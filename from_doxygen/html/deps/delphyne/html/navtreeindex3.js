@@ -1,7 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"classdelphyne_1_1_simple_car_state.html#ae2f1e509e08a28e0d6dce99399fcd776":[1,0,0,84,8],
-"classdelphyne_1_1_simple_car_state.html#af4d451f9c5a3522790181035e4a532f2":[1,0,0,84,11],
 "classdelphyne_1_1_simple_car_state.html#afbe91f5e43ddac4e2868a95156b92888":[1,0,0,84,18],
 "classdelphyne_1_1_simple_car_state_translator.html":[1,0,0,86],
 "classdelphyne_1_1_simple_car_state_translator.html#a13decc2d0c75ad1fe960f5eaf7f4f634":[1,0,0,86,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX3 =
 "classdelphyne_1_1utility_1_1_package.html#a940b610a90c31b1461d7647b6503aebe":[1,0,0,5,6,1],
 "classdelphyne_1_1utility_1_1_package.html#abef19327195203ef064a0c1005df2846":[1,0,0,5,6,2],
 "classdelphyne_1_1utility_1_1_package.html#add25f64b6e85a02ffc81ab05dd20436a":[1,0,0,5,6,3],
-"classdelphyne_1_1utility_1_1_package.html#ae48bab3438bad00ad312dc7ac0cc377b":[1,0,0,5,6,0]
+"classdelphyne_1_1utility_1_1_package.html#ae48bab3438bad00ad312dc7ac0cc377b":[1,0,0,5,6,0],
+"classdelphyne_1_1utility_1_1_package_manager.html":[1,0,0,5,7],
+"classdelphyne_1_1utility_1_1_package_manager.html#a2f747e41cc7af0f61d940f35d968446c":[1,0,0,5,7,1]
 };

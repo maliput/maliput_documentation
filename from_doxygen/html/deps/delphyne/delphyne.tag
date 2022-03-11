@@ -2783,8 +2783,8 @@
       <type>std::unique_ptr&lt; AgentBase&lt; T &gt; &gt;</type>
       <name>BuildInto</name>
       <anchorfile>classdelphyne_1_1_agent_base_blueprint.html</anchorfile>
-      <anchor>ac1834e2380f5195f84fdcb622ca6eae4</anchor>
-      <arglist>(const maliput::api::RoadGeometry *road_geometry, drake::systems::DiagramBuilder&lt; T &gt; *builder)</arglist>
+      <anchor>a70849426b82ffb4ce0db9d9cf4273622</anchor>
+      <arglist>(const maliput::api::RoadNetwork *road_network, drake::systems::DiagramBuilder&lt; T &gt; *builder)</arglist>
     </member>
     <member kind="function">
       <type>const std::string &amp;</type>
@@ -3030,20 +3030,6 @@
       <anchorfile>classdelphyne_1_1_agent_simulation_base_builder.html</anchorfile>
       <anchor>afcfdad312bfbd73d2093dfb2f4983f75</anchor>
       <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>const maliput::api::RoadGeometry *</type>
-      <name>SetRoadGeometry</name>
-      <anchorfile>classdelphyne_1_1_agent_simulation_base_builder.html</anchorfile>
-      <anchor>a4b291c11298d82b4a42e7d0c3c232070</anchor>
-      <arglist>(std::unique_ptr&lt; const maliput::api::RoadGeometry &gt; road_geometry)</arglist>
-    </member>
-    <member kind="function">
-      <type>const maliput::api::RoadGeometry *</type>
-      <name>SetRoadGeometry</name>
-      <anchorfile>classdelphyne_1_1_agent_simulation_base_builder.html</anchorfile>
-      <anchor>a6c82c316bc34c393e933f61827c76618</anchor>
-      <arglist>(std::unique_ptr&lt; const maliput::api::RoadGeometry &gt; road_geometry, const maliput::utility::ObjFeatures &amp;features)</arglist>
     </member>
     <member kind="function">
       <type>const maliput::api::RoadNetwork *</type>
