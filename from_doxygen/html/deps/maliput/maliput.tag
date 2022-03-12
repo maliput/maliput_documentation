@@ -739,9 +739,11 @@
     <filename>intersection__book__loader_8cc.html</filename>
     <includes id="intersection__book__loader_8h" name="intersection_book_loader.h" local="yes" imported="no">maliput/base/intersection_book_loader.h</includes>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
+    <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
     <includes id="phase_8h" name="phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
     <includes id="phase__ring_8h" name="phase_ring.h" local="yes" imported="no">maliput/api/rules/phase_ring.h</includes>
     <includes id="right__of__way__rule_8h" name="right_of_way_rule.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule.h</includes>
+    <includes id="rule_8h" name="rule.h" local="yes" imported="no">maliput/api/rules/rule.h</includes>
     <includes id="base_2intersection_8h" name="base/intersection.h" local="yes" imported="no">maliput/base/intersection.h</includes>
     <includes id="base_2intersection__book_8h" name="base/intersection_book.h" local="yes" imported="no">maliput/base/intersection_book.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
