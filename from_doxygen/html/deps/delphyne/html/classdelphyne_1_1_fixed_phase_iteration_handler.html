@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('classdelphyne_1_1_fixed_phase_iteratio
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classdelphyne_1_1_dynamic_environment_handler.html" title="Abstract API for managing the rules dynamic states of a maliput::api::RoadNetwork.">DynamicEnvironmentHandler</a> class implementation. </p>
-<p>Each rule state is expected to last a fixed amount of time. An ignition service is provided for modifying the phase duration. </p>
+<p>Each rule state is expected to last a fixed amount of time. An ignition service is provided for modifying the phase duration. A topic is advertised for publishing the current phase for each PhaseRing. The message being published is a ignition::msgs::StringMsg. topic_name : "/current_phase </p>
 </div>
 <p><code>#include &lt;src/backend/fixed_phase_iteration_handler.h&gt;</code></p>
 <div class="dynheader">
@@ -133,8 +133,10 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
+<tr class="memitem:a9b67cd13b6e136c6afab34f81c815691"><td class="memItemLeft" align="right" valign="top">static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1_fixed_phase_iteration_handler.html#a9b67cd13b6e136c6afab34f81c815691">kCurrentPhaseTopic</a> [] = &quot;/current_phase&quot;</td></tr>
+<tr class="memdesc:a9b67cd13b6e136c6afab34f81c815691"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of service for modifying phase duration.  <a href="classdelphyne_1_1_fixed_phase_iteration_handler.html#a9b67cd13b6e136c6afab34f81c815691">More...</a><br /></td></tr>
+<tr class="separator:a9b67cd13b6e136c6afab34f81c815691"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae30933dd4aad04d71fa26dede82af8d2"><td class="memItemLeft" align="right" valign="top">static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1_fixed_phase_iteration_handler.html#ae30933dd4aad04d71fa26dede82af8d2">kSetPhaseDurationSrvName</a> [] = &quot;/set_phase_duration&quot;</td></tr>
-<tr class="memdesc:ae30933dd4aad04d71fa26dede82af8d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of service for modifying phase duration.  <a href="classdelphyne_1_1_fixed_phase_iteration_handler.html#ae30933dd4aad04d71fa26dede82af8d2">More...</a><br /></td></tr>
 <tr class="separator:ae30933dd4aad04d71fa26dede82af8d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
@@ -346,6 +348,30 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a9b67cd13b6e136c6afab34f81c815691"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b67cd13b6e136c6afab34f81c815691">&#9670;&nbsp;</a></span>kCurrentPhaseTopic</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr char kCurrentPhaseTopic[] = &quot;/current_phase&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Name of service for modifying phase duration. </p>
+
+</div>
+</div>
 <a id="ae30933dd4aad04d71fa26dede82af8d2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae30933dd4aad04d71fa26dede82af8d2">&#9670;&nbsp;</a></span>kSetPhaseDurationSrvName</h2>
 
@@ -365,8 +391,6 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Name of service for modifying phase duration. </p>
 
 </div>
 </div>

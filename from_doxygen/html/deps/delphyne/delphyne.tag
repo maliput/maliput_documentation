@@ -312,6 +312,7 @@
     <filename>agents_8cc.html</filename>
     <includes id="mobil__car_8h" name="mobil_car.h" local="yes" imported="no">agents/mobil_car.h</includes>
     <includes id="rail__car_8h" name="rail_car.h" local="yes" imported="no">agents/rail_car.h</includes>
+    <includes id="rule__rail__car_8h" name="rule_rail_car.h" local="yes" imported="no">agents/rule_rail_car.h</includes>
     <includes id="agents_2simple__car_8h" name="agents/simple_car.h" local="yes" imported="no">agents/simple_car.h</includes>
     <includes id="trajectory__agent_8h" name="trajectory_agent.h" local="yes" imported="no">agents/trajectory_agent.h</includes>
     <includes id="agents_2unicycle__car_8h" name="agents/unicycle_car.h" local="yes" imported="no">agents/unicycle_car.h</includes>
@@ -326,6 +327,7 @@
     <class kind="class">delphyne::behaviours::agents::SimpleCar</class>
     <class kind="class">delphyne::behaviours::agents::MobilCar</class>
     <class kind="class">delphyne::behaviours::agents::RailCar</class>
+    <class kind="class">delphyne::behaviours::agents::RuleRailCar</class>
     <class kind="class">delphyne::behaviours::agents::TrajectoryAgent</class>
     <class kind="class">delphyne::behaviours::agents::UnicycleCar</class>
     <namespace>delphyne::behaviours::agents</namespace>
@@ -1889,6 +1891,22 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>right_of_way_system.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/src/systems/</path>
+    <filename>right__of__way__system_8cc.html</filename>
+    <includes id="right__of__way__system_8h" name="right_of_way_system.h" local="yes" imported="no">systems/right_of_way_system.h</includes>
+    <includes id="lane__direction_8h" name="lane_direction.h" local="yes" imported="no">systems/lane_direction.h</includes>
+    <namespace>delphyne</namespace>
+  </compound>
+  <compound kind="file">
+    <name>right_of_way_system.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/src/systems/</path>
+    <filename>right__of__way__system_8h.html</filename>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">delphyne/macros.h</includes>
+    <class kind="class">delphyne::RightOfWaySystem</class>
+    <namespace>delphyne</namespace>
+  </compound>
+  <compound kind="file">
     <name>road_builder.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/src/roads/</path>
     <filename>road__builder_8cc.html</filename>
@@ -2042,6 +2060,36 @@
     <class kind="class">delphyne::behaviours::roads::Malidrive</class>
     <class kind="class">delphyne::behaviours::roads::OnRamp</class>
     <namespace>delphyne::behaviours::roads</namespace>
+  </compound>
+  <compound kind="file">
+    <name>rule_rail_car.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/src/agents/</path>
+    <filename>rule__rail__car_8cc.html</filename>
+    <includes id="rule__rail__car_8h" name="rule_rail_car.h" local="yes" imported="no">agents/rule_rail_car.h</includes>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">delphyne/macros.h</includes>
+    <includes id="find__lane_8h" name="find_lane.h" local="yes" imported="no">delphyne/roads/find_lane.h</includes>
+    <includes id="rail__follower__params_8h" name="rail_follower_params.h" local="yes" imported="no">gen/rail_follower_params.h</includes>
+    <includes id="rail__follower__state_8h" name="rail_follower_state.h" local="yes" imported="no">gen/rail_follower_state.h</includes>
+    <includes id="lane__direction_8h" name="lane_direction.h" local="yes" imported="no">systems/lane_direction.h</includes>
+    <includes id="rail__follower_8h" name="rail_follower.h" local="yes" imported="no">systems/rail_follower.h</includes>
+    <includes id="right__of__way__system_8h" name="right_of_way_system.h" local="yes" imported="no">systems/right_of_way_system.h</includes>
+    <includes id="speed__system_8h" name="speed_system.h" local="yes" imported="no">systems/speed_system.h</includes>
+    <includes id="vector__source_8h" name="vector_source.h" local="yes" imported="no">systems/vector_source.h</includes>
+    <namespace>delphyne</namespace>
+  </compound>
+  <compound kind="file">
+    <name>rule_rail_car.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/src/agents/</path>
+    <filename>rule__rail__car_8h.html</filename>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">delphyne/macros.h</includes>
+    <includes id="agent__base_8h" name="agent_base.h" local="yes" imported="no">delphyne/mi6/agent_base.h</includes>
+    <includes id="agent__base__blueprint_8h" name="agent_base_blueprint.h" local="yes" imported="no">delphyne/mi6/agent_base_blueprint.h</includes>
+    <includes id="maliput__railcar__state_8h" name="maliput_railcar_state.h" local="yes" imported="no">gen/maliput_railcar_state.h</includes>
+    <includes id="speed__system_8h" name="speed_system.h" local="yes" imported="no">systems/speed_system.h</includes>
+    <includes id="vector__source_8h" name="vector_source.h" local="yes" imported="no">systems/vector_source.h</includes>
+    <class kind="class">delphyne::RuleRailCar</class>
+    <class kind="class">delphyne::RuleRailCarBlueprint</class>
+    <namespace>delphyne</namespace>
   </compound>
   <compound kind="file">
     <name>scene_system.cc</name>
@@ -2783,8 +2831,8 @@
       <type>std::unique_ptr&lt; AgentBase&lt; T &gt; &gt;</type>
       <name>BuildInto</name>
       <anchorfile>classdelphyne_1_1_agent_base_blueprint.html</anchorfile>
-      <anchor>a70849426b82ffb4ce0db9d9cf4273622</anchor>
-      <arglist>(const maliput::api::RoadNetwork *road_network, drake::systems::DiagramBuilder&lt; T &gt; *builder)</arglist>
+      <anchor>a12e8ded004f399f890bad8e70e112ecc</anchor>
+      <arglist>(maliput::api::RoadNetwork *road_network, drake::systems::DiagramBuilder&lt; T &gt; *builder)</arglist>
     </member>
     <member kind="function">
       <type>const std::string &amp;</type>
@@ -6237,6 +6285,13 @@
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr char</type>
+      <name>kCurrentPhaseTopic</name>
+      <anchorfile>classdelphyne_1_1_fixed_phase_iteration_handler.html</anchorfile>
+      <anchor>a9b67cd13b6e136c6afab34f81c815691</anchor>
+      <arglist>[]</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char</type>
       <name>kSetPhaseDurationSrvName</name>
       <anchorfile>classdelphyne_1_1_fixed_phase_iteration_handler.html</anchorfile>
       <anchor>ae30933dd4aad04d71fa26dede82af8d2</anchor>
@@ -9393,6 +9448,67 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>delphyne::RightOfWaySystem</name>
+    <filename>classdelphyne_1_1_right_of_way_system.html</filename>
+    <templarg></templarg>
+    <member kind="function">
+      <type></type>
+      <name>RightOfWaySystem</name>
+      <anchorfile>classdelphyne_1_1_right_of_way_system.html</anchorfile>
+      <anchor>a7e05a479a015ecffeb3fee1b85081407</anchor>
+      <arglist>(maliput::api::RoadNetwork *road_network)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>RightOfWaySystem</name>
+      <anchorfile>classdelphyne_1_1_right_of_way_system.html</anchorfile>
+      <anchor>a8fba088b91ac386c3abc44c4abe0357a</anchor>
+      <arglist>()=delete</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~RightOfWaySystem</name>
+      <anchorfile>classdelphyne_1_1_right_of_way_system.html</anchorfile>
+      <anchor>ae1b0662b90b32b77b75889591b1be0be</anchor>
+      <arglist>() override=default</arglist>
+    </member>
+    <member kind="function">
+      <type>const drake::systems::InputPort&lt; T &gt; &amp;</type>
+      <name>lane_state_input</name>
+      <anchorfile>classdelphyne_1_1_right_of_way_system.html</anchorfile>
+      <anchor>a1e68ecdacfaec9b3b76f2e9cc45ee22c</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const drake::systems::InputPort&lt; T &gt; &amp;</type>
+      <name>velocity_input</name>
+      <anchorfile>classdelphyne_1_1_right_of_way_system.html</anchorfile>
+      <anchor>a0244f23cad8fbc0f947a89578ef7a233</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const drake::systems::InputPort&lt; T &gt; &amp;</type>
+      <name>pose_input</name>
+      <anchorfile>classdelphyne_1_1_right_of_way_system.html</anchorfile>
+      <anchor>a0a6597ad648c3334aced0b77c1624994</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const drake::systems::OutputPort&lt; T &gt; &amp;</type>
+      <name>velocity_output</name>
+      <anchorfile>classdelphyne_1_1_right_of_way_system.html</anchorfile>
+      <anchor>a738454715d868258a2f62ff4a1cc60f8</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>CalcOutputVelocity</name>
+      <anchorfile>classdelphyne_1_1_right_of_way_system.html</anchorfile>
+      <anchor>a4912a26d1e61b0816057a5ea67aff7e6</anchor>
+      <arglist>(const drake::systems::Context&lt; T &gt; &amp;context, drake::systems::BasicVector&lt; T &gt; *output) const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>delphyne::behaviours::roads::Road</name>
     <filename>classdelphyne_1_1behaviours_1_1roads_1_1_road.html</filename>
     <member kind="function">
@@ -9495,6 +9611,97 @@
       <anchorfile>classdelphyne_1_1_road_path.html</anchorfile>
       <anchor>a064ac6f685f7e90d4c9ae7740efa0de1</anchor>
       <arglist>(const drake::Vector3&lt; T &gt; &amp;geo_position, const T &amp;s_guess) const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>delphyne::RuleRailCar</name>
+    <filename>classdelphyne_1_1_rule_rail_car.html</filename>
+    <base>delphyne::AgentBase</base>
+    <member kind="function">
+      <type></type>
+      <name>RuleRailCar</name>
+      <anchorfile>classdelphyne_1_1_rule_rail_car.html</anchorfile>
+      <anchor>a2c15873b16742ed84b6cfd187d60cd92</anchor>
+      <arglist>(Agent::Diagram *diagram, VectorSource&lt; double &gt; *speed_setter)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetSpeed</name>
+      <anchorfile>classdelphyne_1_1_rule_rail_car.html</anchorfile>
+      <anchor>a57637477372945871c8bfccb39e82c32</anchor>
+      <arglist>(double new_speed_mps)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>delphyne::behaviours::agents::RuleRailCar</name>
+    <filename>classdelphyne_1_1behaviours_1_1agents_1_1_rule_rail_car.html</filename>
+    <member kind="function">
+      <type>def</type>
+      <name>__init__</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_rule_rail_car.html</anchorfile>
+      <anchor>a6dbed7539dcd179546fe89c185d3bfb5</anchor>
+      <arglist>(self, lane_id, direction_of_travel=True, longitudinal_position=0., lateral_offset=0., speed=1., nominal_speed=20., name=py_trees.common.Name.AUTO_GENERATED)</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>setup</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_rule_rail_car.html</anchorfile>
+      <anchor>a175e40d3f85f9743682b3ba44c60dc13</anchor>
+      <arglist>(self, *builder)</arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>lane_id</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_rule_rail_car.html</anchorfile>
+      <anchor>abfb86fc8bc643157857305c339f24aa3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>direction_of_travel</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_rule_rail_car.html</anchorfile>
+      <anchor>af660a64aa35b5244139827a8e4709d6e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>longitudinal_position</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_rule_rail_car.html</anchorfile>
+      <anchor>a53c40fd2c8f9bdaff7e57734b5b58d2c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>lateral_offset</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_rule_rail_car.html</anchorfile>
+      <anchor>af773c83663a88ffa187db9224f260147</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>speed</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_rule_rail_car.html</anchorfile>
+      <anchor>ab04a44aead88cfdbd44325ec2cf7a33a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>nominal_speed</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_rule_rail_car.html</anchorfile>
+      <anchor>a800de3d511d4a97faf9b26d427313ce9</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>delphyne::RuleRailCarBlueprint</name>
+    <filename>classdelphyne_1_1_rule_rail_car_blueprint.html</filename>
+    <base>delphyne::TypedAgentBaseBlueprint</base>
+    <member kind="function">
+      <type></type>
+      <name>RuleRailCarBlueprint</name>
+      <anchorfile>classdelphyne_1_1_rule_rail_car_blueprint.html</anchorfile>
+      <anchor>ae76f5a1ba6047a96a2d4c89bbf3ad835</anchor>
+      <arglist>(const std::string &amp;name, const maliput::api::Lane &amp;lane, bool direction_of_travel, double longitudinal_position, double lateral_offset, double speed, double nominal_speed)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -11085,6 +11292,38 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>delphyne::behaviours::agents::UnicycleCar</name>
+    <filename>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</filename>
+    <member kind="function">
+      <type>def</type>
+      <name>__init__</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
+      <anchor>a13249fc1ace1d48056547d4e02c94fa8</anchor>
+      <arglist>(self, name=py_trees.common.Name.AUTO_GENERATED, initial_pose=(0., 0., 0.), speed=1.)</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>setup</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
+      <anchor>a175e40d3f85f9743682b3ba44c60dc13</anchor>
+      <arglist>(self, *builder)</arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>initial_pose</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
+      <anchor>a422636159fa92f54ca997246946f793c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>speed</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
+      <anchor>ab04a44aead88cfdbd44325ec2cf7a33a</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>delphyne::UnicycleCar</name>
     <filename>classdelphyne_1_1_unicycle_car.html</filename>
     <templarg></templarg>
@@ -11122,38 +11361,6 @@
       <anchorfile>classdelphyne_1_1_unicycle_car.html</anchorfile>
       <anchor>a738454715d868258a2f62ff4a1cc60f8</anchor>
       <arglist>() const</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>delphyne::behaviours::agents::UnicycleCar</name>
-    <filename>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</filename>
-    <member kind="function">
-      <type>def</type>
-      <name>__init__</name>
-      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
-      <anchor>a13249fc1ace1d48056547d4e02c94fa8</anchor>
-      <arglist>(self, name=py_trees.common.Name.AUTO_GENERATED, initial_pose=(0., 0., 0.), speed=1.)</arglist>
-    </member>
-    <member kind="function">
-      <type>def</type>
-      <name>setup</name>
-      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
-      <anchor>a175e40d3f85f9743682b3ba44c60dc13</anchor>
-      <arglist>(self, *builder)</arglist>
-    </member>
-    <member kind="variable">
-      <type></type>
-      <name>initial_pose</name>
-      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
-      <anchor>a422636159fa92f54ca997246946f793c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type></type>
-      <name>speed</name>
-      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
-      <anchor>ab04a44aead88cfdbd44325ec2cf7a33a</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -11399,8 +11606,11 @@
     <class kind="class">delphyne::RailFollower</class>
     <class kind="class">delphyne::RailFollowerParams</class>
     <class kind="class">delphyne::RailFollowerState</class>
+    <class kind="class">delphyne::RightOfWaySystem</class>
     <class kind="struct">delphyne::RoadOdometry</class>
     <class kind="class">delphyne::RoadPath</class>
+    <class kind="class">delphyne::RuleRailCar</class>
+    <class kind="class">delphyne::RuleRailCarBlueprint</class>
     <class kind="class">delphyne::SceneSystem</class>
     <class kind="class">delphyne::SimpleCar2</class>
     <class kind="class">delphyne::SimpleCarBlueprint</class>
@@ -11925,6 +12135,7 @@
     <filename>namespacedelphyne_1_1behaviours_1_1agents.html</filename>
     <class kind="class">delphyne::behaviours::agents::MobilCar</class>
     <class kind="class">delphyne::behaviours::agents::RailCar</class>
+    <class kind="class">delphyne::behaviours::agents::RuleRailCar</class>
     <class kind="class">delphyne::behaviours::agents::SimpleCar</class>
     <class kind="class">delphyne::behaviours::agents::TrajectoryAgent</class>
     <class kind="class">delphyne::behaviours::agents::UnicycleCar</class>

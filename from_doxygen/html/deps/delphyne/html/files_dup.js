@@ -21,6 +21,7 @@ var files_dup =
       [ "SimpleCar", "classdelphyne_1_1behaviours_1_1agents_1_1_simple_car.html", "classdelphyne_1_1behaviours_1_1agents_1_1_simple_car" ],
       [ "MobilCar", "classdelphyne_1_1behaviours_1_1agents_1_1_mobil_car.html", "classdelphyne_1_1behaviours_1_1agents_1_1_mobil_car" ],
       [ "RailCar", "classdelphyne_1_1behaviours_1_1agents_1_1_rail_car.html", "classdelphyne_1_1behaviours_1_1agents_1_1_rail_car" ],
+      [ "RuleRailCar", "classdelphyne_1_1behaviours_1_1agents_1_1_rule_rail_car.html", "classdelphyne_1_1behaviours_1_1agents_1_1_rule_rail_car" ],
       [ "TrajectoryAgent", "classdelphyne_1_1behaviours_1_1agents_1_1_trajectory_agent.html", "classdelphyne_1_1behaviours_1_1agents_1_1_trajectory_agent" ],
       [ "UnicycleCar", "classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html", "classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car" ]
     ] ],
@@ -228,6 +229,10 @@ var files_dup =
     [ "replayer.cc", "replayer_8cc.html", "replayer_8cc" ],
     [ "resources.cc", "resources_8cc.html", null ],
     [ "resources.h", "resources_8h.html", "resources_8h" ],
+    [ "right_of_way_system.cc", "right__of__way__system_8cc.html", null ],
+    [ "right_of_way_system.h", "right__of__way__system_8h.html", [
+      [ "RightOfWaySystem", "classdelphyne_1_1_right_of_way_system.html", "classdelphyne_1_1_right_of_way_system" ]
+    ] ],
     [ "road_builder.cc", "road__builder_8cc.html", "road__builder_8cc" ],
     [ "road_builder.h", "road__builder_8h.html", "road__builder_8h" ],
     [ "road_odometry.h", "road__odometry_8h.html", [
@@ -244,6 +249,11 @@ var files_dup =
       [ "Multilane", "classdelphyne_1_1behaviours_1_1roads_1_1_multilane.html", "classdelphyne_1_1behaviours_1_1roads_1_1_multilane" ],
       [ "Malidrive", "classdelphyne_1_1behaviours_1_1roads_1_1_malidrive.html", "classdelphyne_1_1behaviours_1_1roads_1_1_malidrive" ],
       [ "OnRamp", "classdelphyne_1_1behaviours_1_1roads_1_1_on_ramp.html", "classdelphyne_1_1behaviours_1_1roads_1_1_on_ramp" ]
+    ] ],
+    [ "rule_rail_car.cc", "rule__rail__car_8cc.html", null ],
+    [ "rule_rail_car.h", "rule__rail__car_8h.html", [
+      [ "RuleRailCar", "classdelphyne_1_1_rule_rail_car.html", "classdelphyne_1_1_rule_rail_car" ],
+      [ "RuleRailCarBlueprint", "classdelphyne_1_1_rule_rail_car_blueprint.html", "classdelphyne_1_1_rule_rail_car_blueprint" ]
     ] ],
     [ "scene_system.cc", "scene__system_8cc.html", "scene__system_8cc" ],
     [ "scene_system.h", "scene__system_8h.html", [
