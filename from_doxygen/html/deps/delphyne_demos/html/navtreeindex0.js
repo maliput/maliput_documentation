@@ -86,7 +86,7 @@ var NAVTREEINDEX0 =
 "mali_8py.html#a43d11b09a1dc73878776f09b1dc91526":[2,0,8,4],
 "mali_8py.html#a668514c7e0a0092d37ac492f901692f6":[2,0,8,2],
 "mali_8py.html#a680dae600b67e5764740431783f34e2c":[2,0,8,3],
-"mali_8py.html#a94b8a57bd9e2f1e60550f9cdcbb290d7":[2,0,8,0],
+"mali_8py.html#adbbc5a542cc8207ac66c74ea679af522":[2,0,8,0],
 "mali_8py.html#af50b9d9db30ec54f689d3fad07292212":[2,0,8,1],
 "mobil__perf_8py.html":[2,0,9],
 "mobil__perf_8py.html#a53f4989bbae8a66a8f46ce393ca0bfc5":[2,0,9,0],

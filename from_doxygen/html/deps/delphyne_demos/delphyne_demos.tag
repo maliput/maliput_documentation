@@ -214,8 +214,8 @@
       <type>def</type>
       <name>create_mali_scenario_subtree</name>
       <anchorfile>namespacedemos_1_1mali.html</anchorfile>
-      <anchor>a94b8a57bd9e2f1e60550f9cdcbb290d7</anchor>
-      <arglist>(file_path, features, lane_position, direction_of_travel, lane_id, linear_tolerance, angular_tolerance=1e-3)</arglist>
+      <anchor>adbbc5a542cc8207ac66c74ea679af522</anchor>
+      <arglist>(file_path, yaml_file_path, features, lane_position, agent_type, direction_of_travel, lane_id, linear_tolerance, angular_tolerance=1e-3)</arglist>
     </member>
     <member kind="function">
       <type>def</type>
@@ -906,8 +906,8 @@
       <type>def</type>
       <name>create_mali_scenario_subtree</name>
       <anchorfile>namespacedemos_1_1mali.html</anchorfile>
-      <anchor>a94b8a57bd9e2f1e60550f9cdcbb290d7</anchor>
-      <arglist>(file_path, features, lane_position, direction_of_travel, lane_id, linear_tolerance, angular_tolerance=1e-3)</arglist>
+      <anchor>adbbc5a542cc8207ac66c74ea679af522</anchor>
+      <arglist>(file_path, yaml_file_path, features, lane_position, agent_type, direction_of_travel, lane_id, linear_tolerance, angular_tolerance=1e-3)</arglist>
     </member>
     <member kind="function">
       <type>def</type>
