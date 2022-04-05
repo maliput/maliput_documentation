@@ -126,6 +126,10 @@ var files_dup =
     ] ],
     [ "idm_planner_parameters.cc", "idm__planner__parameters_8cc.html", null ],
     [ "idm_planner_parameters.h", "idm__planner__parameters_8h.html", "idm__planner__parameters_8h" ],
+    [ "ign_commanded_pass_through.cc", "ign__commanded__pass__through_8cc.html", null ],
+    [ "ign_commanded_pass_through.h", "ign__commanded__pass__through_8h.html", [
+      [ "IgnCommandedPassThrough", "classdelphyne_1_1_ign_commanded_pass_through.html", "classdelphyne_1_1_ign_commanded_pass_through" ]
+    ] ],
     [ "ign_driving_command_to_drake.cc", "ign__driving__command__to__drake_8cc.html", null ],
     [ "ign_driving_command_to_drake.h", "ign__driving__command__to__drake_8h.html", [
       [ "IgnDrivingCommandToDrake", "classdelphyne_1_1_ign_driving_command_to_drake.html", "classdelphyne_1_1_ign_driving_command_to_drake" ]
@@ -141,6 +145,14 @@ var files_dup =
     [ "ign_models_assembler.cc", "ign__models__assembler_8cc.html", null ],
     [ "ign_models_assembler.h", "ign__models__assembler_8h.html", [
       [ "IgnModelsAssembler", "classdelphyne_1_1_ign_models_assembler.html", "classdelphyne_1_1_ign_models_assembler" ]
+    ] ],
+    [ "ign_models_to_ids.cc", "ign__models__to__ids_8cc.html", null ],
+    [ "ign_models_to_ids.h", "ign__models__to__ids_8h.html", [
+      [ "IgnModelsToIds", "classdelphyne_1_1_ign_models_to_ids.html", "classdelphyne_1_1_ign_models_to_ids" ]
+    ] ],
+    [ "ign_models_traffic_lights.cc", "ign__models__traffic__lights_8cc.html", null ],
+    [ "ign_models_traffic_lights.h", "ign__models__traffic__lights_8h.html", [
+      [ "IgnModelsTrafficLights", "classdelphyne_1_1_ign_models_traffic_lights.html", "classdelphyne_1_1_ign_models_traffic_lights" ]
     ] ],
     [ "ign_publisher_system.h", "ign__publisher__system_8h.html", [
       [ "IgnPublisherSystem", "classdelphyne_1_1_ign_publisher_system.html", "classdelphyne_1_1_ign_publisher_system" ]

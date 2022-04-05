@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"mesh__simplification_8cc.html#a1b2e80aea3e5eb6ba14352362220d658":[5,0,87,3],
+"mesh__simplification_8cc.html#a23497997c2e46655d8f921074440f7e1":[5,0,87,4],
 "mesh__simplification_8cc.html#a3c9b3b4c9e5c0a0679b51b2a6c752f88":[5,0,87,10],
 "mesh__simplification_8cc.html#a4597a0b90338ac00cd3da265c0cd852a":[5,0,87,11],
 "mesh__simplification_8cc.html#a4941b76cb69d136a39d4ef014d6e74e2":[5,0,87,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "phase__ring_8cc.html":[5,0,101],
 "phase__ring_8h.html":[5,0,102],
 "phase__ring__book_8h.html":[5,0,103],
-"phase__ring__book__loader_8cc.html":[5,0,104],
-"phase__ring__book__loader_8cc.html#a265cddc5edae1f57e02d03499c4c29c5":[5,0,104,1],
-"phase__ring__book__loader_8cc.html#a965f15f535b37a8265347d8d2e5434be":[5,0,104,0]
+"phase__ring__book__loader_8cc.html":[5,0,104]
 };

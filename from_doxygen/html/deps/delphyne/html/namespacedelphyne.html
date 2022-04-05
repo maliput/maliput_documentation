@@ -246,11 +246,20 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdelphyne_1_1_idm_planner_parameters_indices.html">IdmPlannerParametersIndices</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes the row indices of a <a class="el" href="classdelphyne_1_1_idm_planner_parameters.html" title="Specializes BasicVector with specific getters and setters.">IdmPlannerParameters</a>.  <a href="structdelphyne_1_1_idm_planner_parameters_indices.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1_ign_commanded_pass_through.html">IgnCommandedPassThrough</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pass through system with input <code>u</code> and output <code>y = u</code> that only redirects to the output when the commanded switch is true.  <a href="classdelphyne_1_1_ign_commanded_pass_through.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1_ign_driving_command_to_drake.html">IgnDrivingCommandToDrake</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A system that translates ignition driving command messages to Drake driving command messages.  <a href="classdelphyne_1_1_ign_driving_command_to_drake.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1_ign_models_assembler.html">IgnModelsAssembler</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A helper System to assemble ignition::msgs::Model messages (given as an ignition::msgs::Model_V message i.e.  <a href="classdelphyne_1_1_ign_models_assembler.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1_ign_models_to_ids.html">IgnModelsToIds</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outputs the ids of the received ignition models.  <a href="classdelphyne_1_1_ign_models_to_ids.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1_ign_models_traffic_lights.html">IgnModelsTrafficLights</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">System in charge of updating the traffic lights models according to the current value of the traffic lights state obtained through the <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a>.  <a href="classdelphyne_1_1_ign_models_traffic_lights.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1_ign_model_v_to_ign_pose_v.html">IgnModelVToIgnPoseV</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A system that translates ignition Model_V messages to ignition Pose_V messages messages.  <a href="classdelphyne_1_1_ign_model_v_to_ign_pose_v.html#details">More...</a><br /></td></tr>
@@ -352,7 +361,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An agent that follows roads as if they were railroad tracks.  <a href="classdelphyne_1_1_rule_rail_car_blueprint.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1_scene_system.html">SceneSystem</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A system that creates an ignition Scene message from two Model_V messages: one describing the geometry of the whole scene (which contains all the models, including their Visual subfield), and one with the updated poses for some of those models (the non-static ones).  <a href="classdelphyne_1_1_scene_system.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A system that creates an ignition Scene message from three Model_V messages: one describing the geometry of the whole scene (which contains all the models, including their Visual subfield), another one with the updated poses for some of those models (the non-static ones) and the third one containing the updated visuals for some of those models.  <a href="classdelphyne_1_1_scene_system.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1_simple_car2.html">SimpleCar2</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">SimpleCar models an idealized response to driving commands, neglecting all physics.  <a href="classdelphyne_1_1_simple_car2.html#details">More...</a><br /></td></tr>
@@ -515,6 +524,8 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:af0e2cd2b1bce1f176e1a7aa63d711370"><td class="memItemLeft" align="right" valign="top">drake::lcmt_viewer_load_robot&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedelphyne.html#af0e2cd2b1bce1f176e1a7aa63d711370">BuildLoadMessageForRoad</a> (const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> &amp;road_geometry, const <a class="elRef" href="../../maliput/html/structmaliput_1_1utility_1_1_obj_features.html">maliput::utility::ObjFeatures</a> &amp;features)</td></tr>
 <tr class="separator:af0e2cd2b1bce1f176e1a7aa63d711370"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed7fef30850c0bb03b7cd96244164eac"><td class="memItemLeft" align="right" valign="top">drake::lcmt_viewer_load_robot&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedelphyne.html#aed7fef30850c0bb03b7cd96244164eac">BuildLoadMessageForTrafficLights</a> (const std::vector&lt; const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_light.html">maliput::api::rules::TrafficLight</a> * &gt; &amp;traffic_lights)</td></tr>
+<tr class="separator:aed7fef30850c0bb03b7cd96244164eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a819674e81379469d55499adfef04a82a"><td class="memTemplParams" colspan="2">template&lt;typename T , typename std::enable_if&lt; std::is_same&lt; T, double &gt;::value, int &gt;::type  = 0&gt; </td></tr>
 <tr class="memitem:a819674e81379469d55499adfef04a82a"><td class="memTemplItemLeft" align="right" valign="top">const drake::systems::InputPort&lt; T &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacedelphyne.html#a819674e81379469d55499adfef04a82a">WirePriusGeometry</a> (const std::string &amp;frame_root, <a class="el" href="classdrake_1_1systems_1_1_diagram_builder.html">drake::systems::DiagramBuilder</a>&lt; T &gt; *builder, drake::geometry::SceneGraph&lt; T &gt; *scene_graph, std::set&lt; drake::geometry::GeometryId &gt; *geometry_ids)</td></tr>
 <tr class="memdesc:a819674e81379469d55499adfef04a82a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wires up a Prius car geometry (and associated systems) using the given <code>builder</code> and <code>scene_graph</code>.  <a href="namespacedelphyne.html#a819674e81379469d55499adfef04a82a">More...</a><br /></td></tr>
@@ -1186,6 +1197,24 @@ Variables</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed7fef30850c0bb03b7cd96244164eac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed7fef30850c0bb03b7cd96244164eac">&#9670;&nbsp;</a></span>BuildLoadMessageForTrafficLights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">drake::lcmt_viewer_load_robot BuildLoadMessageForTrafficLights </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_light.html">maliput::api::rules::TrafficLight</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>traffic_lights</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">

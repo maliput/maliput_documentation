@@ -239,7 +239,10 @@
     <includes id="dynamic__environment__handler__system_8h" name="dynamic_environment_handler_system.h" local="yes" imported="no">backend/dynamic_environment_handler_system.h</includes>
     <includes id="fixed__phase__iteration__handler_8h" name="fixed_phase_iteration_handler.h" local="yes" imported="no">backend/fixed_phase_iteration_handler.h</includes>
     <includes id="geometry__utilities_8h" name="geometry_utilities.h" local="yes" imported="no">backend/geometry_utilities.h</includes>
+    <includes id="ign__commanded__pass__through_8h" name="ign_commanded_pass_through.h" local="yes" imported="no">backend/ign_commanded_pass_through.h</includes>
     <includes id="ign__models__assembler_8h" name="ign_models_assembler.h" local="yes" imported="no">backend/ign_models_assembler.h</includes>
+    <includes id="ign__models__to__ids_8h" name="ign_models_to_ids.h" local="yes" imported="no">backend/ign_models_to_ids.h</includes>
+    <includes id="ign__models__traffic__lights_8h" name="ign_models_traffic_lights.h" local="yes" imported="no">backend/ign_models_traffic_lights.h</includes>
     <includes id="ign__publisher__system_8h" name="ign_publisher_system.h" local="yes" imported="no">backend/ign_publisher_system.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">delphyne/macros.h</includes>
     <includes id="agent__state__v__splitter_8h" name="agent_state_v_splitter.h" local="yes" imported="no">translations/agent_state_v_splitter.h</includes>
@@ -1128,6 +1131,13 @@
       <anchor>af0e2cd2b1bce1f176e1a7aa63d711370</anchor>
       <arglist>(const maliput::api::RoadGeometry &amp;road_geometry, const maliput::utility::ObjFeatures &amp;features)</arglist>
     </member>
+    <member kind="function">
+      <type>drake::lcmt_viewer_load_robot</type>
+      <name>BuildLoadMessageForTrafficLights</name>
+      <anchorfile>namespacedelphyne.html</anchorfile>
+      <anchor>aed7fef30850c0bb03b7cd96244164eac</anchor>
+      <arglist>(const std::vector&lt; const maliput::api::rules::TrafficLight * &gt; &amp;traffic_lights)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>geometry_utilities.h</name>
@@ -1163,6 +1173,13 @@
       <anchorfile>namespacedelphyne.html</anchorfile>
       <anchor>af0e2cd2b1bce1f176e1a7aa63d711370</anchor>
       <arglist>(const maliput::api::RoadGeometry &amp;road_geometry, const maliput::utility::ObjFeatures &amp;features)</arglist>
+    </member>
+    <member kind="function">
+      <type>drake::lcmt_viewer_load_robot</type>
+      <name>BuildLoadMessageForTrafficLights</name>
+      <anchorfile>namespacedelphyne.html</anchorfile>
+      <anchor>aed7fef30850c0bb03b7cd96244164eac</anchor>
+      <arglist>(const std::vector&lt; const maliput::api::rules::TrafficLight * &gt; &amp;traffic_lights)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -1232,6 +1249,20 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>ign_commanded_pass_through.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/src/backend/</path>
+    <filename>ign__commanded__pass__through_8cc.html</filename>
+    <includes id="ign__commanded__pass__through_8h" name="ign_commanded_pass_through.h" local="yes" imported="no">backend/ign_commanded_pass_through.h</includes>
+    <namespace>delphyne</namespace>
+  </compound>
+  <compound kind="file">
+    <name>ign_commanded_pass_through.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/src/backend/</path>
+    <filename>ign__commanded__pass__through_8h.html</filename>
+    <class kind="class">delphyne::IgnCommandedPassThrough</class>
+    <namespace>delphyne</namespace>
+  </compound>
+  <compound kind="file">
     <name>ign_driving_command_to_drake.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/src/translations/</path>
     <filename>ign__driving__command__to__drake_8cc.html</filename>
@@ -1293,6 +1324,34 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/src/backend/</path>
     <filename>ign__models__assembler_8h.html</filename>
     <class kind="class">delphyne::IgnModelsAssembler</class>
+    <namespace>delphyne</namespace>
+  </compound>
+  <compound kind="file">
+    <name>ign_models_to_ids.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/src/backend/</path>
+    <filename>ign__models__to__ids_8cc.html</filename>
+    <includes id="ign__models__to__ids_8h" name="ign_models_to_ids.h" local="yes" imported="no">backend/ign_models_to_ids.h</includes>
+    <namespace>delphyne</namespace>
+  </compound>
+  <compound kind="file">
+    <name>ign_models_to_ids.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/src/backend/</path>
+    <filename>ign__models__to__ids_8h.html</filename>
+    <class kind="class">delphyne::IgnModelsToIds</class>
+    <namespace>delphyne</namespace>
+  </compound>
+  <compound kind="file">
+    <name>ign_models_traffic_lights.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/src/backend/</path>
+    <filename>ign__models__traffic__lights_8cc.html</filename>
+    <includes id="ign__models__traffic__lights_8h" name="ign_models_traffic_lights.h" local="yes" imported="no">backend/ign_models_traffic_lights.h</includes>
+    <namespace>delphyne</namespace>
+  </compound>
+  <compound kind="file">
+    <name>ign_models_traffic_lights.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/src/backend/</path>
+    <filename>ign__models__traffic__lights_8h.html</filename>
+    <class kind="class">delphyne::IgnModelsTrafficLights</class>
     <namespace>delphyne</namespace>
   </compound>
   <compound kind="file">
@@ -6903,6 +6962,60 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>delphyne::IgnCommandedPassThrough</name>
+    <filename>classdelphyne_1_1_ign_commanded_pass_through.html</filename>
+    <templarg></templarg>
+    <member kind="function">
+      <type></type>
+      <name>IgnCommandedPassThrough</name>
+      <anchorfile>classdelphyne_1_1_ign_commanded_pass_through.html</anchorfile>
+      <anchor>a925b0dd121fa6713ee49496e1c61f0ad</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>const drake::systems::InputPort&lt; double &gt; &amp;</type>
+      <name>get_data_input_port</name>
+      <anchorfile>classdelphyne_1_1_ign_commanded_pass_through.html</anchorfile>
+      <anchor>a075f7fc92f52974dc4d617ee378ecdd4</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>get_data_input_port_index</name>
+      <anchorfile>classdelphyne_1_1_ign_commanded_pass_through.html</anchorfile>
+      <anchor>a6fac3a949f71c0e2abd42c39d0fafb37</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const drake::systems::InputPort&lt; double &gt; &amp;</type>
+      <name>get_switch_input_port</name>
+      <anchorfile>classdelphyne_1_1_ign_commanded_pass_through.html</anchorfile>
+      <anchor>a3606a3ebd55bda2996787a1aaf26fd01</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>get_switch_input_port_index</name>
+      <anchorfile>classdelphyne_1_1_ign_commanded_pass_through.html</anchorfile>
+      <anchor>aa617c4ff812a433f32e43a8e7e1057c7</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const drake::systems::OutputPort&lt; double &gt; &amp;</type>
+      <name>get_data_output_port</name>
+      <anchorfile>classdelphyne_1_1_ign_commanded_pass_through.html</anchorfile>
+      <anchor>a0601566438838f40bef6cef595915637</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>get_data_output_port_index</name>
+      <anchorfile>classdelphyne_1_1_ign_commanded_pass_through.html</anchorfile>
+      <anchor>acc6afdc0fdcc50462c4a14622774ebc5</anchor>
+      <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>delphyne::IgnDrivingCommandToDrake</name>
     <filename>classdelphyne_1_1_ign_driving_command_to_drake.html</filename>
     <base>IgnToDrake&lt; ignition::msgs::AutomotiveDrivingCommand, DrivingCommand&lt; double &gt; &gt;</base>
@@ -6950,6 +7063,98 @@
       <name>get_states_input_port_index</name>
       <anchorfile>classdelphyne_1_1_ign_models_assembler.html</anchorfile>
       <anchor>aff0ccee7377aac9e616ba5184d98c02f</anchor>
+      <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>delphyne::IgnModelsToIds</name>
+    <filename>classdelphyne_1_1_ign_models_to_ids.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>IgnModelsToIds</name>
+      <anchorfile>classdelphyne_1_1_ign_models_to_ids.html</anchorfile>
+      <anchor>a371a3a303f5aaa4a27a97cb57463a0d7</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>const drake::systems::InputPort&lt; double &gt; &amp;</type>
+      <name>get_models_input_port</name>
+      <anchorfile>classdelphyne_1_1_ign_models_to_ids.html</anchorfile>
+      <anchor>aec5480f4ccf68fc43118e659096e1c6b</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>get_models_input_port_index</name>
+      <anchorfile>classdelphyne_1_1_ign_models_to_ids.html</anchorfile>
+      <anchor>ab3d5f10b9232ac6782f7ae63f72d0769</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const drake::systems::OutputPort&lt; double &gt; &amp;</type>
+      <name>get_ids_output_port</name>
+      <anchorfile>classdelphyne_1_1_ign_models_to_ids.html</anchorfile>
+      <anchor>af3c41d823aba16225218c7f578061315</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>get_ids_output_port_index</name>
+      <anchorfile>classdelphyne_1_1_ign_models_to_ids.html</anchorfile>
+      <anchor>a60eb85e04ee2c83efb707fd4aa7840fb</anchor>
+      <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>delphyne::IgnModelsTrafficLights</name>
+    <filename>classdelphyne_1_1_ign_models_traffic_lights.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>IgnModelsTrafficLights</name>
+      <anchorfile>classdelphyne_1_1_ign_models_traffic_lights.html</anchorfile>
+      <anchor>ab160bb495506a6ce206fb88e1556d860</anchor>
+      <arglist>(maliput::api::RoadNetwork *road_network)</arglist>
+    </member>
+    <member kind="function">
+      <type>const drake::systems::InputPort&lt; double &gt; &amp;</type>
+      <name>get_models_input_port</name>
+      <anchorfile>classdelphyne_1_1_ign_models_traffic_lights.html</anchorfile>
+      <anchor>aec5480f4ccf68fc43118e659096e1c6b</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>get_models_input_port_index</name>
+      <anchorfile>classdelphyne_1_1_ign_models_traffic_lights.html</anchorfile>
+      <anchor>ab3d5f10b9232ac6782f7ae63f72d0769</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const drake::systems::OutputPort&lt; double &gt; &amp;</type>
+      <name>get_traffic_lights_models_output_port</name>
+      <anchorfile>classdelphyne_1_1_ign_models_traffic_lights.html</anchorfile>
+      <anchor>aac858e5e1c4b51da3dd931ca87720e8b</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>get_traffic_light_output_port_index</name>
+      <anchorfile>classdelphyne_1_1_ign_models_traffic_lights.html</anchorfile>
+      <anchor>ad87363a1893c3eb6dc191a309a789813</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const drake::systems::OutputPort&lt; double &gt; &amp;</type>
+      <name>get_new_data_output_port</name>
+      <anchorfile>classdelphyne_1_1_ign_models_traffic_lights.html</anchorfile>
+      <anchor>a39bb8faf241614a1a7b6ae1f3fa59054</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>get_new_data_output_port_index</name>
+      <anchorfile>classdelphyne_1_1_ign_models_traffic_lights.html</anchorfile>
+      <anchor>aadc83cab07846b0dfb55c85e28882dac</anchor>
       <arglist>() const</arglist>
     </member>
   </compound>
@@ -9614,25 +9819,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>delphyne::RuleRailCar</name>
-    <filename>classdelphyne_1_1_rule_rail_car.html</filename>
-    <base>delphyne::AgentBase</base>
-    <member kind="function">
-      <type></type>
-      <name>RuleRailCar</name>
-      <anchorfile>classdelphyne_1_1_rule_rail_car.html</anchorfile>
-      <anchor>a2c15873b16742ed84b6cfd187d60cd92</anchor>
-      <arglist>(Agent::Diagram *diagram, VectorSource&lt; double &gt; *speed_setter)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>SetSpeed</name>
-      <anchorfile>classdelphyne_1_1_rule_rail_car.html</anchorfile>
-      <anchor>a57637477372945871c8bfccb39e82c32</anchor>
-      <arglist>(double new_speed_mps)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>delphyne::behaviours::agents::RuleRailCar</name>
     <filename>classdelphyne_1_1behaviours_1_1agents_1_1_rule_rail_car.html</filename>
     <member kind="function">
@@ -9693,6 +9879,25 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>delphyne::RuleRailCar</name>
+    <filename>classdelphyne_1_1_rule_rail_car.html</filename>
+    <base>delphyne::AgentBase</base>
+    <member kind="function">
+      <type></type>
+      <name>RuleRailCar</name>
+      <anchorfile>classdelphyne_1_1_rule_rail_car.html</anchorfile>
+      <anchor>a2c15873b16742ed84b6cfd187d60cd92</anchor>
+      <arglist>(Agent::Diagram *diagram, VectorSource&lt; double &gt; *speed_setter)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetSpeed</name>
+      <anchorfile>classdelphyne_1_1_rule_rail_car.html</anchorfile>
+      <anchor>a57637477372945871c8bfccb39e82c32</anchor>
+      <arglist>(double new_speed_mps)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>delphyne::RuleRailCarBlueprint</name>
     <filename>classdelphyne_1_1_rule_rail_car_blueprint.html</filename>
     <base>delphyne::TypedAgentBaseBlueprint</base>
@@ -9740,6 +9945,20 @@
       <name>get_updated_pose_models_input_port_index</name>
       <anchorfile>classdelphyne_1_1_scene_system.html</anchorfile>
       <anchor>affd6aa1052fb59eefe9a1c5e490938a2</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>get_updated_visual_models_input_port_index</name>
+      <anchorfile>classdelphyne_1_1_scene_system.html</anchorfile>
+      <anchor>aac916ecb560412c179c31a87322ea593</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const drake::systems::InputPort&lt; double &gt; &amp;</type>
+      <name>get_updated_visual_models_input_port</name>
+      <anchorfile>classdelphyne_1_1_scene_system.html</anchorfile>
+      <anchor>ab40416fcac4a7cde4cca8fd7d5bd1882</anchor>
       <arglist>() const</arglist>
     </member>
   </compound>
@@ -11576,8 +11795,11 @@
     <class kind="class">delphyne::IdmPlanner</class>
     <class kind="class">delphyne::IdmPlannerParameters</class>
     <class kind="struct">delphyne::IdmPlannerParametersIndices</class>
+    <class kind="class">delphyne::IgnCommandedPassThrough</class>
     <class kind="class">delphyne::IgnDrivingCommandToDrake</class>
     <class kind="class">delphyne::IgnModelsAssembler</class>
+    <class kind="class">delphyne::IgnModelsToIds</class>
+    <class kind="class">delphyne::IgnModelsTrafficLights</class>
     <class kind="class">delphyne::IgnModelVToIgnPoseV</class>
     <class kind="class">delphyne::IgnModelVToLcmViewerDraw</class>
     <class kind="class">delphyne::IgnPublisherSystem</class>
@@ -11884,6 +12106,13 @@
       <anchorfile>namespacedelphyne.html</anchorfile>
       <anchor>af0e2cd2b1bce1f176e1a7aa63d711370</anchor>
       <arglist>(const maliput::api::RoadGeometry &amp;road_geometry, const maliput::utility::ObjFeatures &amp;features)</arglist>
+    </member>
+    <member kind="function">
+      <type>drake::lcmt_viewer_load_robot</type>
+      <name>BuildLoadMessageForTrafficLights</name>
+      <anchorfile>namespacedelphyne.html</anchorfile>
+      <anchor>aed7fef30850c0bb03b7cd96244164eac</anchor>
+      <arglist>(const std::vector&lt; const maliput::api::rules::TrafficLight * &gt; &amp;traffic_lights)</arglist>
     </member>
     <member kind="function">
       <type>const drake::systems::InputPort&lt; T &gt; &amp;</type>

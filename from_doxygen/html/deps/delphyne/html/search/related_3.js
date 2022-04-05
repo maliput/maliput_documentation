@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['trajectoryfollower_4258',['TrajectoryFollower',['../classdelphyne_1_1_trajectory_follower.html#a478a19ab6454c820bcbb32fa9696e7b4',1,'delphyne::TrajectoryFollower']]]
+  ['trajectoryfollower_4313',['TrajectoryFollower',['../classdelphyne_1_1_trajectory_follower.html#a478a19ab6454c820bcbb32fa9696e7b4',1,'delphyne::TrajectoryFollower']]]
 ];

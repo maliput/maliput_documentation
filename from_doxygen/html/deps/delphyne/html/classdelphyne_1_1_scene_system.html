@@ -96,8 +96,8 @@ $(document).ready(function(){initNavTree('classdelphyne_1_1_scene_system.html','
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A system that creates an ignition Scene message from two Model_V messages: one describing the geometry of the whole scene (which contains all the models, including their Visual subfield), and one with the updated poses for some of those models (the non-static ones). </p>
-<p>The full scene is created by updating the poses of the geometry models, and it is placed on the system output port. </p>
+<div class="textblock"><p>A system that creates an ignition Scene message from three Model_V messages: one describing the geometry of the whole scene (which contains all the models, including their Visual subfield), another one with the updated poses for some of those models (the non-static ones) and the third one containing the updated visuals for some of those models. </p>
+<p>The full scene is then created and placed on the system output port. </p>
 </div>
 <p><code>#include &lt;src/backend/scene_system.h&gt;</code></p>
 <div class="dynheader">
@@ -119,6 +119,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa17334af8347395d5842421df1e1af49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affd6aa1052fb59eefe9a1c5e490938a2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1_scene_system.html#affd6aa1052fb59eefe9a1c5e490938a2">get_updated_pose_models_input_port_index</a> () const</td></tr>
 <tr class="separator:affd6aa1052fb59eefe9a1c5e490938a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac916ecb560412c179c31a87322ea593"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1_scene_system.html#aac916ecb560412c179c31a87322ea593">get_updated_visual_models_input_port_index</a> () const</td></tr>
+<tr class="separator:aac916ecb560412c179c31a87322ea593"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab40416fcac4a7cde4cca8fd7d5bd1882"><td class="memItemLeft" align="right" valign="top">const drake::systems::InputPort&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1_scene_system.html#ab40416fcac4a7cde4cca8fd7d5bd1882">get_updated_visual_models_input_port</a> () const</td></tr>
+<tr class="separator:ab40416fcac4a7cde4cca8fd7d5bd1882"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a01b1676a2181e3988c06492a90095b7d"></a>
@@ -198,6 +202,40 @@ Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">int get_updated_pose_models_input_port_index </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab40416fcac4a7cde4cca8fd7d5bd1882"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab40416fcac4a7cde4cca8fd7d5bd1882">&#9670;&nbsp;</a></span>get_updated_visual_models_input_port()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const drake::systems::InputPort&lt;double&gt;&amp; get_updated_visual_models_input_port </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aac916ecb560412c179c31a87322ea593"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac916ecb560412c179c31a87322ea593">&#9670;&nbsp;</a></span>get_updated_visual_models_input_port_index()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int get_updated_visual_models_input_port_index </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>

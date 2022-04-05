@@ -3116,6 +3116,8 @@
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
     <includes id="phase_8h" name="phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
     <includes id="phase__ring_8h" name="phase_ring.h" local="yes" imported="no">maliput/api/rules/phase_ring.h</includes>
+    <includes id="rule__filter_8h" name="rule_filter.h" local="yes" imported="no">maliput/base/rule_filter.h</includes>
+    <includes id="logger_8h" name="logger.h" local="yes" imported="no">maliput/common/logger.h</includes>
     <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
     <namespace>maliput</namespace>
   </compound>
@@ -8055,6 +8057,20 @@
       <anchorfile>classmaliput_1_1_manual_discrete_value_rule_state_provider.html</anchorfile>
       <anchor>a664ac0d6ea90dcf0d4b9a4c34e3d881d</anchor>
       <arglist>(const api::RoadPosition &amp;road_position, const api::rules::Rule::TypeId &amp;rule_type, double tolerance) const override</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>std::map&lt; api::rules::DiscreteValueRule::Id, api::rules::DiscreteValueRule &gt;</type>
+      <name>GetFilteredDiscreteValueRules</name>
+      <anchorfile>classmaliput_1_1_manual_discrete_value_rule_state_provider.html</anchorfile>
+      <anchor>a70fa2eb96964f75feb1096a5e63a4508</anchor>
+      <arglist>(const api::RoadPosition &amp;road_position, const api::rules::Rule::TypeId &amp;rule_type, double tolerance) const</arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>const api::rules::RoadRulebook *</type>
+      <name>rulebook_</name>
+      <anchorfile>classmaliput_1_1_manual_discrete_value_rule_state_provider.html</anchorfile>
+      <anchor>a03019cb91cca18732b65671601800e68</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
