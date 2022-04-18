@@ -21,6 +21,11 @@ Dragway
 
 * `Dragway C++ namespace <from_doxygen/html/deps/maliput_dragway/html/namespacemaliput_1_1dragway.html>`_
 
+Maliput Object
+==========
+
+* `Maliput Object C++ namespace <from_doxygen/html/deps/maliput_object/html/namespacemaliput_1_1object.html>`_
+
 Maliput Py
 ==========
 
