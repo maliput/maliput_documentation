@@ -248,8 +248,8 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">id</td><td>RangeValueRule's ID. It must be recognized by the <code>rulebook</code> specified at time of construction. </td></tr>
-    <tr><td class="paramname">state</td><td>The state of the rule. It must be one in <a class="el" href="classmaliput_1_1api_1_1rules_1_1_range_value_rule.html#a85f018935ef0db66ed1bdb8ffaf5ffbb">RangeValueRule::ranges()</a>. </td></tr>
-    <tr><td class="paramname">next_state</td><td>The optional next state of the rule. It must be one in <a class="el" href="classmaliput_1_1api_1_1rules_1_1_range_value_rule.html#a85f018935ef0db66ed1bdb8ffaf5ffbb">RangeValueRule::ranges()</a>. </td></tr>
+    <tr><td class="paramname">state</td><td>The state of the rule. It must be one in <a class="el" href="classmaliput_1_1api_1_1rules_1_1_range_value_rule.html#ac2150ebb8b8ddb8b45733decaf8932c8">RangeValueRule::states()</a>. </td></tr>
+    <tr><td class="paramname">next_state</td><td>The optional next state of the rule. It must be one in <a class="el" href="classmaliput_1_1api_1_1rules_1_1_range_value_rule.html#ac2150ebb8b8ddb8b45733decaf8932c8">RangeValueRule::states()</a>. </td></tr>
     <tr><td class="paramname">duration_until</td><td>If known, the estimated time until the transition to the next state, relative to when this method is called. When provided, it must be positive and <code>next_state</code> must not be nullopt.</td></tr>
   </table>
   </dd>
@@ -257,8 +257,8 @@ Additional Inherited Members</h2></td></tr>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">std::out_of_range</td><td>When <code>id</code> is unrecognized by the <code>rulebook</code> specified at time of construction. </td></tr>
-    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html" title="This is what MALIPUT_THROW_UNLESS throws.">common::assertion_error</a></td><td>When <code>state</code> does not match any state in <a class="el" href="classmaliput_1_1api_1_1rules_1_1_range_value_rule.html#a85f018935ef0db66ed1bdb8ffaf5ffbb">RangeValueRule::ranges()</a>. </td></tr>
-    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html" title="This is what MALIPUT_THROW_UNLESS throws.">common::assertion_error</a></td><td>When <code>next_state</code> does not match any state in <a class="el" href="classmaliput_1_1api_1_1rules_1_1_range_value_rule.html#a85f018935ef0db66ed1bdb8ffaf5ffbb">RangeValueRule::ranges()</a>. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html" title="This is what MALIPUT_THROW_UNLESS throws.">common::assertion_error</a></td><td>When <code>state</code> does not match any state in <a class="el" href="classmaliput_1_1api_1_1rules_1_1_range_value_rule.html#ac2150ebb8b8ddb8b45733decaf8932c8">RangeValueRule::states()</a>. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html" title="This is what MALIPUT_THROW_UNLESS throws.">common::assertion_error</a></td><td>When <code>next_state</code> does not match any state in <a class="el" href="classmaliput_1_1api_1_1rules_1_1_range_value_rule.html#ac2150ebb8b8ddb8b45733decaf8932c8">RangeValueRule::states()</a>. </td></tr>
     <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html" title="This is what MALIPUT_THROW_UNLESS throws.">common::assertion_error</a></td><td>When <code>duration_until</code> is not positive or it is provided when <code>next_state</code> is nullopt. </td></tr>
   </table>
   </dd>

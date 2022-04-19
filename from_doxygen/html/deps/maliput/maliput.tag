@@ -6153,9 +6153,9 @@
     </member>
     <member kind="function">
       <type>const std::vector&lt; DiscreteValue &gt; &amp;</type>
-      <name>values</name>
+      <name>states</name>
       <anchorfile>classmaliput_1_1api_1_1rules_1_1_discrete_value_rule.html</anchorfile>
-      <anchor>a6ab6ac6e1e277e8acf150ca18f529b96</anchor>
+      <anchor>aa30ba990802f08f3aa4e3a411961b16f</anchor>
       <arglist>() const</arglist>
     </member>
   </compound>
@@ -9890,9 +9890,9 @@
     </member>
     <member kind="function">
       <type>const std::vector&lt; Range &gt; &amp;</type>
-      <name>ranges</name>
+      <name>states</name>
       <anchorfile>classmaliput_1_1api_1_1rules_1_1_range_value_rule.html</anchorfile>
-      <anchor>a85f018935ef0db66ed1bdb8ffaf5ffbb</anchor>
+      <anchor>ac2150ebb8b8ddb8b45733decaf8932c8</anchor>
       <arglist>() const</arglist>
     </member>
   </compound>
