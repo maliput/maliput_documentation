@@ -159,10 +159,6 @@ var files_dup =
     ] ],
     [ "phase.cc", "phase_8cc.html", null ],
     [ "phase.h", "phase_8h.html", "phase_8h" ],
-    [ "phase_based_right_of_way_discrete_value_rule_state_provider.cc", "phase__based__right__of__way__discrete__value__rule__state__provider_8cc.html", null ],
-    [ "phase_based_right_of_way_discrete_value_rule_state_provider.h", "phase__based__right__of__way__discrete__value__rule__state__provider_8h.html", [
-      [ "PhaseBasedRightOfWayDiscreteValueRuleStateProvider", "classmaliput_1_1_phase_based_right_of_way_discrete_value_rule_state_provider.html", "classmaliput_1_1_phase_based_right_of_way_discrete_value_rule_state_provider" ]
-    ] ],
     [ "phase_based_right_of_way_rule_state_provider.cc", "phase__based__right__of__way__rule__state__provider_8cc.html", null ],
     [ "phase_based_right_of_way_rule_state_provider.h", "phase__based__right__of__way__rule__state__provider_8h.html", null ],
     [ "phase_provider.h", "phase__provider_8h.html", [
@@ -179,6 +175,10 @@ var files_dup =
     [ "phase_ring_book_loader.cc", "phase__ring__book__loader_8cc.html", "phase__ring__book__loader_8cc" ],
     [ "phase_ring_book_loader.h", "phase__ring__book__loader_8h.html", "phase__ring__book__loader_8h" ],
     [ "phase_ring_book_loader_old_rules.cc", "phase__ring__book__loader__old__rules_8cc.html", "phase__ring__book__loader__old__rules_8cc" ],
+    [ "phased_discrete_rule_state_provider.cc", "phased__discrete__rule__state__provider_8cc.html", null ],
+    [ "phased_discrete_rule_state_provider.h", "phased__discrete__rule__state__provider_8h.html", [
+      [ "PhasedDiscreteRuleStateProvider", "classmaliput_1_1_phased_discrete_rule_state_provider.html", "classmaliput_1_1_phased_discrete_rule_state_provider" ]
+    ] ],
     [ "phases_compare.cc", "phases__compare_8cc.html", "phases__compare_8cc" ],
     [ "phases_compare.h", "phases__compare_8h.html", "phases__compare_8h" ],
     [ "quaternion.cc", "quaternion_8cc.html", "quaternion_8cc" ],

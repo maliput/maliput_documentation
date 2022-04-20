@@ -16,7 +16,7 @@ var hierarchy =
     [ "DiscreteValueRuleConstants", "structmaliput_1_1_discrete_value_rule_constants.html", null ],
     [ "DiscreteValueRuleStateProvider", "classmaliput_1_1api_1_1rules_1_1_discrete_value_rule_state_provider.html", [
       [ "ManualDiscreteValueRuleStateProvider", "classmaliput_1_1_manual_discrete_value_rule_state_provider.html", [
-        [ "PhaseBasedRightOfWayDiscreteValueRuleStateProvider", "classmaliput_1_1_phase_based_right_of_way_discrete_value_rule_state_provider.html", null ]
+        [ "PhasedDiscreteRuleStateProvider", "classmaliput_1_1_phased_discrete_rule_state_provider.html", null ]
       ] ]
     ] ],
     [ "GeoVertex::Equiv", "structmaliput_1_1utility_1_1mesh_1_1_geo_vertex_1_1_equiv.html", null ],

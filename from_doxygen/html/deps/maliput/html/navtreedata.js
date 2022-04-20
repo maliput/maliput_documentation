@@ -121,7 +121,7 @@ var NAVTREEINDEX =
 "classmaliput_1_1math_1_1_roll_pitch_yaw.html#ac196b272dd57f9df448dd86d22693e96",
 "generate__obj_8cc.html#aaffd8a62d03cb0fd748d3f3304b0306b",
 "mesh__simplification_8cc.html#a1b2e80aea3e5eb6ba14352362220d658",
-"phase__ring__book__loader_8cc.html#a265cddc5edae1f57e02d03499c4c29c5",
+"phase__ring__book__loader_8h.html",
 "structmaliput_1_1api_1_1rules_1_1_range_value_rule_1_1_range.html#a3b21c7fc52105375a0217245c67ce5dc",
 "yaml__conversion_8h.html#a0da2be5e4963c00e7d90bea0c5d6e299"
 ];

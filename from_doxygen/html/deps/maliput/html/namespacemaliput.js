@@ -14,7 +14,7 @@ var namespacemaliput =
     [ "ManualPhaseRingBook", "classmaliput_1_1_manual_phase_ring_book.html", "classmaliput_1_1_manual_phase_ring_book" ],
     [ "ManualRangeValueRuleStateProvider", "classmaliput_1_1_manual_range_value_rule_state_provider.html", "classmaliput_1_1_manual_range_value_rule_state_provider" ],
     [ "ManualRulebook", "classmaliput_1_1_manual_rulebook.html", "classmaliput_1_1_manual_rulebook" ],
-    [ "PhaseBasedRightOfWayDiscreteValueRuleStateProvider", "classmaliput_1_1_phase_based_right_of_way_discrete_value_rule_state_provider.html", "classmaliput_1_1_phase_based_right_of_way_discrete_value_rule_state_provider" ],
+    [ "PhasedDiscreteRuleStateProvider", "classmaliput_1_1_phased_discrete_rule_state_provider.html", "classmaliput_1_1_phased_discrete_rule_state_provider" ],
     [ "RangeValueRuleConstants", "structmaliput_1_1_range_value_rule_constants.html", "structmaliput_1_1_range_value_rule_constants" ],
     [ "RelatedRulesKeys", "structmaliput_1_1_related_rules_keys.html", "structmaliput_1_1_related_rules_keys" ],
     [ "RelatedUniqueIdsKeys", "structmaliput_1_1_related_unique_ids_keys.html", "structmaliput_1_1_related_unique_ids_keys" ],

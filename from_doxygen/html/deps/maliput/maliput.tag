@@ -3109,33 +3109,6 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>phase_based_right_of_way_discrete_value_rule_state_provider.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
-    <filename>phase__based__right__of__way__discrete__value__rule__state__provider_8cc.html</filename>
-    <includes id="phase__based__right__of__way__discrete__value__rule__state__provider_8h" name="phase_based_right_of_way_discrete_value_rule_state_provider.h" local="yes" imported="no">maliput/base/phase_based_right_of_way_discrete_value_rule_state_provider.h</includes>
-    <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
-    <includes id="phase_8h" name="phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
-    <includes id="phase__ring_8h" name="phase_ring.h" local="yes" imported="no">maliput/api/rules/phase_ring.h</includes>
-    <includes id="rule__filter_8h" name="rule_filter.h" local="yes" imported="no">maliput/base/rule_filter.h</includes>
-    <includes id="logger_8h" name="logger.h" local="yes" imported="no">maliput/common/logger.h</includes>
-    <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
-    <namespace>maliput</namespace>
-  </compound>
-  <compound kind="file">
-    <name>phase_based_right_of_way_discrete_value_rule_state_provider.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
-    <filename>phase__based__right__of__way__discrete__value__rule__state__provider_8h.html</filename>
-    <includes id="discrete__value__rule__state__provider_8h" name="discrete_value_rule_state_provider.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule_state_provider.h</includes>
-    <includes id="phase__provider_8h" name="phase_provider.h" local="yes" imported="no">maliput/api/rules/phase_provider.h</includes>
-    <includes id="phase__ring__book_8h" name="phase_ring_book.h" local="yes" imported="no">maliput/api/rules/phase_ring_book.h</includes>
-    <includes id="road__rulebook_8h" name="road_rulebook.h" local="yes" imported="no">maliput/api/rules/road_rulebook.h</includes>
-    <includes id="rule_8h" name="rule.h" local="yes" imported="no">maliput/api/rules/rule.h</includes>
-    <includes id="manual__discrete__value__rule__state__provider_8h" name="manual_discrete_value_rule_state_provider.h" local="yes" imported="no">maliput/base/manual_discrete_value_rule_state_provider.h</includes>
-    <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
-    <class kind="class">maliput::PhaseBasedRightOfWayDiscreteValueRuleStateProvider</class>
-    <namespace>maliput</namespace>
-  </compound>
-  <compound kind="file">
     <name>phase_based_right_of_way_rule_state_provider.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
     <filename>phase__based__right__of__way__rule__state__provider_8cc.html</filename>
@@ -3308,6 +3281,33 @@
       <anchor>a826897c7b08dbb77b64737456e1d0b7a</anchor>
       <arglist>(const RoadRulebook *rulebook, const TrafficLightBook *traffic_light_book, const std::string &amp;filename)</arglist>
     </member>
+  </compound>
+  <compound kind="file">
+    <name>phased_discrete_rule_state_provider.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/base/</path>
+    <filename>phased__discrete__rule__state__provider_8cc.html</filename>
+    <includes id="phased__discrete__rule__state__provider_8h" name="phased_discrete_rule_state_provider.h" local="yes" imported="no">maliput/base/phased_discrete_rule_state_provider.h</includes>
+    <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
+    <includes id="phase_8h" name="phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
+    <includes id="phase__ring_8h" name="phase_ring.h" local="yes" imported="no">maliput/api/rules/phase_ring.h</includes>
+    <includes id="rule__filter_8h" name="rule_filter.h" local="yes" imported="no">maliput/base/rule_filter.h</includes>
+    <includes id="logger_8h" name="logger.h" local="yes" imported="no">maliput/common/logger.h</includes>
+    <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
+    <namespace>maliput</namespace>
+  </compound>
+  <compound kind="file">
+    <name>phased_discrete_rule_state_provider.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/include/maliput/base/</path>
+    <filename>phased__discrete__rule__state__provider_8h.html</filename>
+    <includes id="discrete__value__rule__state__provider_8h" name="discrete_value_rule_state_provider.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule_state_provider.h</includes>
+    <includes id="phase__provider_8h" name="phase_provider.h" local="yes" imported="no">maliput/api/rules/phase_provider.h</includes>
+    <includes id="phase__ring__book_8h" name="phase_ring_book.h" local="yes" imported="no">maliput/api/rules/phase_ring_book.h</includes>
+    <includes id="road__rulebook_8h" name="road_rulebook.h" local="yes" imported="no">maliput/api/rules/road_rulebook.h</includes>
+    <includes id="rule_8h" name="rule.h" local="yes" imported="no">maliput/api/rules/rule.h</includes>
+    <includes id="manual__discrete__value__rule__state__provider_8h" name="manual_discrete_value_rule_state_provider.h" local="yes" imported="no">maliput/base/manual_discrete_value_rule_state_provider.h</includes>
+    <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
+    <class kind="class">maliput::PhasedDiscreteRuleStateProvider</class>
+    <namespace>maliput</namespace>
   </compound>
   <compound kind="file">
     <name>phases_compare.cc</name>
@@ -9242,39 +9242,6 @@
       <arglist>() const</arglist>
     </member>
   </compound>
-  <compound kind="class">
-    <name>maliput::PhaseBasedRightOfWayDiscreteValueRuleStateProvider</name>
-    <filename>classmaliput_1_1_phase_based_right_of_way_discrete_value_rule_state_provider.html</filename>
-    <base>maliput::ManualDiscreteValueRuleStateProvider</base>
-    <member kind="function">
-      <type></type>
-      <name>PhaseBasedRightOfWayDiscreteValueRuleStateProvider</name>
-      <anchorfile>classmaliput_1_1_phase_based_right_of_way_discrete_value_rule_state_provider.html</anchorfile>
-      <anchor>afa6fe16845eaaa7125daafa3e569e8fe</anchor>
-      <arglist>(const api::rules::RoadRulebook *rulebook, const api::rules::PhaseRingBook *phase_ring_book, const api::rules::PhaseProvider *phase_provider)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~PhaseBasedRightOfWayDiscreteValueRuleStateProvider</name>
-      <anchorfile>classmaliput_1_1_phase_based_right_of_way_discrete_value_rule_state_provider.html</anchorfile>
-      <anchor>a349973bc0a6b8c4424479f835cedbdc3</anchor>
-      <arglist>() final=default</arglist>
-    </member>
-    <member kind="function">
-      <type>const api::rules::PhaseRingBook &amp;</type>
-      <name>phase_ring_book</name>
-      <anchorfile>classmaliput_1_1_phase_based_right_of_way_discrete_value_rule_state_provider.html</anchorfile>
-      <anchor>afde30b154df0caf6a8c85fa29721f783</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>const api::rules::PhaseProvider &amp;</type>
-      <name>phase_provider</name>
-      <anchorfile>classmaliput_1_1_phase_based_right_of_way_discrete_value_rule_state_provider.html</anchorfile>
-      <anchor>afed31264b8838b06457bf5a3faa96976</anchor>
-      <arglist>() const</arglist>
-    </member>
-  </compound>
   <compound kind="struct">
     <name>maliput::api::test::PhaseBuildFlags</name>
     <filename>structmaliput_1_1api_1_1test_1_1_phase_build_flags.html</filename>
@@ -9305,6 +9272,39 @@
       <anchorfile>structmaliput_1_1api_1_1test_1_1_phase_build_flags.html</anchorfile>
       <anchor>a0368b569152b7101bc05a58d42b33a8d</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::PhasedDiscreteRuleStateProvider</name>
+    <filename>classmaliput_1_1_phased_discrete_rule_state_provider.html</filename>
+    <base>maliput::ManualDiscreteValueRuleStateProvider</base>
+    <member kind="function">
+      <type></type>
+      <name>PhasedDiscreteRuleStateProvider</name>
+      <anchorfile>classmaliput_1_1_phased_discrete_rule_state_provider.html</anchorfile>
+      <anchor>a6709342389dca266f5d49928fd1696df</anchor>
+      <arglist>(const api::rules::RoadRulebook *rulebook, const api::rules::PhaseRingBook *phase_ring_book, const api::rules::PhaseProvider *phase_provider)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~PhasedDiscreteRuleStateProvider</name>
+      <anchorfile>classmaliput_1_1_phased_discrete_rule_state_provider.html</anchorfile>
+      <anchor>ab8d1c6e276ab978f698664fe78a99f5e</anchor>
+      <arglist>() final=default</arglist>
+    </member>
+    <member kind="function">
+      <type>const api::rules::PhaseRingBook &amp;</type>
+      <name>phase_ring_book</name>
+      <anchorfile>classmaliput_1_1_phased_discrete_rule_state_provider.html</anchorfile>
+      <anchor>afde30b154df0caf6a8c85fa29721f783</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const api::rules::PhaseProvider &amp;</type>
+      <name>phase_provider</name>
+      <anchorfile>classmaliput_1_1_phased_discrete_rule_state_provider.html</anchorfile>
+      <anchor>afed31264b8838b06457bf5a3faa96976</anchor>
+      <arglist>() const</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -14504,7 +14504,7 @@
     <class kind="class">maliput::ManualPhaseRingBook</class>
     <class kind="class">maliput::ManualRangeValueRuleStateProvider</class>
     <class kind="class">maliput::ManualRulebook</class>
-    <class kind="class">maliput::PhaseBasedRightOfWayDiscreteValueRuleStateProvider</class>
+    <class kind="class">maliput::PhasedDiscreteRuleStateProvider</class>
     <class kind="struct">maliput::RangeValueRuleConstants</class>
     <class kind="struct">maliput::RelatedRulesKeys</class>
     <class kind="struct">maliput::RelatedUniqueIdsKeys</class>

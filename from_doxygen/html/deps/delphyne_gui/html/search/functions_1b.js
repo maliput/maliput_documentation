@@ -32,7 +32,7 @@ var searchData=
   ['_7enever_5fdestroyed_4311',['~never_destroyed',['../../../maliput/html/classmaliput_1_1common_1_1never__destroyed.html#a27fa859355b10542c0cdbf991a8c3a66',1,'maliput::common::never_destroyed']]],
   ['_7epackage_4312',['~Package',['../../../delphyne/html/classdelphyne_1_1utility_1_1_package.html#ae48bab3438bad00ad312dc7ac0cc377b',1,'delphyne::utility::Package']]],
   ['_7epackagemanager_4313',['~PackageManager',['../../../delphyne/html/classdelphyne_1_1utility_1_1_package_manager.html#a716ea4f553a52f2aafcab62cb417ec51',1,'delphyne::utility::PackageManager']]],
-  ['_7ephasebasedrightofwaydiscretevaluerulestateprovider_4314',['~PhaseBasedRightOfWayDiscreteValueRuleStateProvider',['../../../maliput/html/classmaliput_1_1_phase_based_right_of_way_discrete_value_rule_state_provider.html#a349973bc0a6b8c4424479f835cedbdc3',1,'maliput::PhaseBasedRightOfWayDiscreteValueRuleStateProvider']]],
+  ['_7ephaseddiscreterulestateprovider_4314',['~PhasedDiscreteRuleStateProvider',['../../../maliput/html/classmaliput_1_1_phased_discrete_rule_state_provider.html#ab8d1c6e276ab978f698664fe78a99f5e',1,'maliput::PhasedDiscreteRuleStateProvider']]],
   ['_7ephaseprovider_4315',['~PhaseProvider',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_phase_provider.html#a4bf3f1f6a74fffddf986b1a6ee1b5df8',1,'maliput::api::rules::PhaseProvider']]],
   ['_7ephaseringbook_4316',['~PhaseRingBook',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_phase_ring_book.html#aa149878bbe36e61516bb39a6123a4754',1,'maliput::api::rules::PhaseRingBook']]],
   ['_7eplaybackplugin_4317',['~PlaybackPlugin',['../classdelphyne_1_1gui_1_1_playback_plugin.html#a7aef74be86c98c441e8c6ed8298d7441',1,'delphyne::gui::PlaybackPlugin']]],
