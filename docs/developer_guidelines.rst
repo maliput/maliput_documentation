@@ -15,6 +15,7 @@ The following packages are provided:
 
 * Core packages:
     * `maliput`_
+    * `maliput_object`_
     * `maliput_py`_
     * `ament_cmake_doxygen`_
     * `maliput_documentation`_
@@ -37,6 +38,7 @@ The following packages are provided:
     * `delphyne_demos`_
 
 .. _maliput: https://github.com/ToyotaResearchInstitute/maliput
+.. _maliput_object: https://github.com/ToyotaResearchInstitute/maliput_object
 .. _maliput_py: https://github.com/ToyotaResearchInstitute/maliput_py
 .. _ament_cmake_doxygen: https://github.com/ToyotaResearchInstitute/ament_cmake_doxygen
 .. _maliput_documentation: https://github.com/ToyotaResearchInstitute/maliput_documentation
