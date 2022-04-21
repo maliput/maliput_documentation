@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['roadpositionstrategy_6576',['RoadPositionStrategy',['.././deps/delphyne/html/namespacedelphyne.html#a80c24f02d40ad1d60da3a88a412b08c3',1,'delphyne']]],
-  ['ruletype_6577',['RuleType',['.././deps/maliput/html/namespacemaliput.html#a0da2be5e4963c00e7d90bea0c5d6e299',1,'maliput']]]
+  ['overlappingtype_6592',['OverlappingType',['.././deps/maliput_object/html/classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0',1,'maliput::object::api::BoundingRegion']]]
 ];
