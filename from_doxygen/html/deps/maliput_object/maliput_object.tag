@@ -9,6 +9,25 @@
     <namespace>maliput::object</namespace>
     <namespace>maliput::object::api</namespace>
   </compound>
+  <compound kind="file">
+    <name>object.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/src/api/</path>
+    <filename>object_8cc.html</filename>
+    <includes id="object_8h" name="object.h" local="yes" imported="no">maliput_object/api/object.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::object</namespace>
+    <namespace>maliput::object::api</namespace>
+  </compound>
+  <compound kind="file">
+    <name>object.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/include/maliput_object/api/</path>
+    <filename>object_8h.html</filename>
+    <includes id="bounding__region_8h" name="bounding_region.h" local="yes" imported="no">maliput_object/api/bounding_region.h</includes>
+    <class kind="class">maliput::object::api::Object</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::object</namespace>
+    <namespace>maliput::object::api</namespace>
+  </compound>
   <compound kind="class">
     <name>maliput::object::api::BoundingRegion</name>
     <filename>classmaliput_1_1object_1_1api_1_1_bounding_region.html</filename>
@@ -59,6 +78,67 @@
       <arglist>()=default</arglist>
     </member>
   </compound>
+  <compound kind="class">
+    <name>maliput::object::api::Object</name>
+    <filename>classmaliput_1_1object_1_1api_1_1_object.html</filename>
+    <templarg></templarg>
+    <member kind="typedef">
+      <type>maliput::api::TypeSpecificIdentifier&lt; class Object &gt;</type>
+      <name>Id</name>
+      <anchorfile>classmaliput_1_1object_1_1api_1_1_object.html</anchorfile>
+      <anchor>aafec6c7a551bb4f475a95be1425cffc7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Object</name>
+      <anchorfile>classmaliput_1_1object_1_1api_1_1_object.html</anchorfile>
+      <anchor>a509a36b54511b415ba6b2b496530c4af</anchor>
+      <arglist>(const Id &amp;id, const std::map&lt; std::string, std::string &gt; &amp;properties, std::unique_ptr&lt; BoundingRegion&lt; Coordinate &gt;&gt; region)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~Object</name>
+      <anchorfile>classmaliput_1_1object_1_1api_1_1_object.html</anchorfile>
+      <anchor>af4372c84535f8c280f50fa2dcdfbcdfb</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>Id</type>
+      <name>id</name>
+      <anchorfile>classmaliput_1_1object_1_1api_1_1_object.html</anchorfile>
+      <anchor>a6e11ecf57ec23ef01c13bd967d80318f</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const BoundingRegion&lt; Coordinate &gt; &amp;</type>
+      <name>bounding_region</name>
+      <anchorfile>classmaliput_1_1object_1_1api_1_1_object.html</anchorfile>
+      <anchor>ab4a4788b4d78851a1377892f87da6969</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Coordinate &amp;</type>
+      <name>position</name>
+      <anchorfile>classmaliput_1_1object_1_1api_1_1_object.html</anchorfile>
+      <anchor>ac6300f1c1f7c8c03ea8a809cec53f3ac</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>get_property</name>
+      <anchorfile>classmaliput_1_1object_1_1api_1_1_object.html</anchorfile>
+      <anchor>a00d2449fe728d9d4ba7aaf66cbed702c</anchor>
+      <arglist>(const std::string &amp;key) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::map&lt; std::string, std::string &gt; &amp;</type>
+      <name>get_properties</name>
+      <anchorfile>classmaliput_1_1object_1_1api_1_1_object.html</anchorfile>
+      <anchor>a43f4a8c586506f9b87b08c270ebdfa2a</anchor>
+      <arglist>() const</arglist>
+    </member>
+  </compound>
   <compound kind="namespace">
     <name>maliput</name>
     <filename>namespacemaliput.html</filename>
@@ -73,5 +153,6 @@
     <name>maliput::object::api</name>
     <filename>namespacemaliput_1_1object_1_1api.html</filename>
     <class kind="class">maliput::object::api::BoundingRegion</class>
+    <class kind="class">maliput::object::api::Object</class>
   </compound>
 </tagfile>

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['overlappingtype_9',['OverlappingType',['../classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0',1,'maliput::object::api::BoundingRegion']]],
-  ['overlaps_10',['Overlaps',['../classmaliput_1_1object_1_1api_1_1_bounding_region.html#a872c5712e03561862f663c1fe3f72756',1,'maliput::object::api::BoundingRegion']]]
+  ['kcontained_7',['kContained',['../classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0a37909e88ded01d78663d301fa3454166',1,'maliput::object::api::BoundingRegion']]],
+  ['kdisjointed_8',['kDisjointed',['../classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0a026931af6058f84edf6f23b727936e46',1,'maliput::object::api::BoundingRegion']]],
+  ['kintersected_9',['kIntersected',['../classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0a8bf5940d983d36987f4a41691ea1d562',1,'maliput::object::api::BoundingRegion']]]
 ];

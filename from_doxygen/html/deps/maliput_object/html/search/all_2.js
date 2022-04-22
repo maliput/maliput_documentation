@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['kcontained_3',['kContained',['../classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0a37909e88ded01d78663d301fa3454166',1,'maliput::object::api::BoundingRegion']]],
-  ['kdisjointed_4',['kDisjointed',['../classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0a026931af6058f84edf6f23b727936e46',1,'maliput::object::api::BoundingRegion']]],
-  ['kintersected_5',['kIntersected',['../classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0a8bf5940d983d36987f4a41691ea1d562',1,'maliput::object::api::BoundingRegion']]]
+  ['get_5fproperties_4',['get_properties',['../classmaliput_1_1object_1_1api_1_1_object.html#a43f4a8c586506f9b87b08c270ebdfa2a',1,'maliput::object::api::Object']]],
+  ['get_5fproperty_5',['get_property',['../classmaliput_1_1object_1_1api_1_1_object.html#a00d2449fe728d9d4ba7aaf66cbed702c',1,'maliput::object::api::Object']]]
 ];
