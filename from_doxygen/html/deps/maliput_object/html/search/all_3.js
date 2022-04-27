@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['id_6',['id',['../classmaliput_1_1object_1_1api_1_1_object.html#a6e11ecf57ec23ef01c13bd967d80318f',1,'maliput::object::api::Object::id() const'],['../classmaliput_1_1object_1_1api_1_1_object.html#aafec6c7a551bb4f475a95be1425cffc7',1,'maliput::object::api::Object::Id()']]]
+  ['get_5fproperties_8',['get_properties',['../classmaliput_1_1object_1_1api_1_1_object.html#a43f4a8c586506f9b87b08c270ebdfa2a',1,'maliput::object::api::Object']]],
+  ['get_5fproperty_9',['get_property',['../classmaliput_1_1object_1_1api_1_1_object.html#a00d2449fe728d9d4ba7aaf66cbed702c',1,'maliput::object::api::Object']]]
 ];

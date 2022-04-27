@@ -1,10 +1,5 @@
 var classmaliput_1_1object_1_1api_1_1_bounding_region =
 [
-    [ "OverlappingType", "classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0", [
-      [ "kDisjointed", "classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0a026931af6058f84edf6f23b727936e46", null ],
-      [ "kIntersected", "classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0a8bf5940d983d36987f4a41691ea1d562", null ],
-      [ "kContained", "classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0a37909e88ded01d78663d301fa3454166", null ]
-    ] ],
     [ "~BoundingRegion", "classmaliput_1_1object_1_1api_1_1_bounding_region.html#a2b2ad1df9141d697a52832036573e4c3", null ],
     [ "BoundingRegion", "classmaliput_1_1object_1_1api_1_1_bounding_region.html#a4724819589de4d9d8d0b0c523bf2626b", null ],
     [ "Contains", "classmaliput_1_1object_1_1api_1_1_bounding_region.html#aa3b634f7d0a9f72ae1b980ae759dcd1f", null ],

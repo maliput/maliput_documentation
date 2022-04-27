@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['get_5fproperties_32',['get_properties',['../classmaliput_1_1object_1_1api_1_1_object.html#a43f4a8c586506f9b87b08c270ebdfa2a',1,'maliput::object::api::Object']]],
-  ['get_5fproperty_33',['get_property',['../classmaliput_1_1object_1_1api_1_1_object.html#a00d2449fe728d9d4ba7aaf66cbed702c',1,'maliput::object::api::Object']]]
+  ['findbyid_59',['FindById',['../classmaliput_1_1object_1_1api_1_1_object_book.html#ac9ed44485446652dc342c6c52114861c',1,'maliput::object::api::ObjectBook']]],
+  ['findbypredicate_60',['FindByPredicate',['../classmaliput_1_1object_1_1api_1_1_object_book.html#a2caa36686e7d71470bb042a26f983426',1,'maliput::object::api::ObjectBook']]],
+  ['findoverlappingin_61',['FindOverlappingIn',['../classmaliput_1_1object_1_1api_1_1_object_book.html#a1f2290969b3b3bd3bcf5e57d728b2725',1,'maliput::object::api::ObjectBook']]]
 ];

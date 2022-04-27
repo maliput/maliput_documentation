@@ -89,7 +89,6 @@ $(document).ready(function(){initNavTree('classmaliput_1_1object_1_1api_1_1_boun
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classmaliput_1_1object_1_1api_1_1_bounding_region-members.html">List of all members</a>  </div>
@@ -111,15 +110,6 @@ class maliput::object::api::BoundingRegion&lt; Coordinate &gt;</h3>
 </div>
 <p><code>#include &lt;include/maliput_object/api/bounding_region.h&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a821477bce00da9d2962360e1aec9aef0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0">OverlappingType</a> { <a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0a026931af6058f84edf6f23b727936e46">kDisjointed</a> = 0, 
-<a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0a8bf5940d983d36987f4a41691ea1d562">kIntersected</a>, 
-<a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0a37909e88ded01d78663d301fa3454166">kContained</a>
- }</td></tr>
-<tr class="memdesc:a821477bce00da9d2962360e1aec9aef0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds the possible bounding overlapping types.  <a href="classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0">More...</a><br /></td></tr>
-<tr class="separator:a821477bce00da9d2962360e1aec9aef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2b2ad1df9141d697a52832036573e4c3"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html#a2b2ad1df9141d697a52832036573e4c3">~BoundingRegion</a> ()=default</td></tr>
@@ -130,7 +120,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa3b634f7d0a9f72ae1b980ae759dcd1f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html#aa3b634f7d0a9f72ae1b980ae759dcd1f">Contains</a> (const Coordinate &amp;<a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html#a7ad7a9db80533649956d66851ae47a49">position</a>) const</td></tr>
 <tr class="memdesc:aa3b634f7d0a9f72ae1b980ae759dcd1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether a <code>position</code> in the Inertial-frame is contained in this bounding region.  <a href="classmaliput_1_1object_1_1api_1_1_bounding_region.html#aa3b634f7d0a9f72ae1b980ae759dcd1f">More...</a><br /></td></tr>
 <tr class="separator:aa3b634f7d0a9f72ae1b980ae759dcd1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a872c5712e03561862f663c1fe3f72756"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0">OverlappingType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html#a872c5712e03561862f663c1fe3f72756">Overlaps</a> (const <a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html">BoundingRegion</a>&lt; Coordinate &gt; &amp;other) const</td></tr>
+<tr class="memitem:a872c5712e03561862f663c1fe3f72756"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemaliput_1_1object_1_1api.html#af6022ec3177e3ba16073ae84ccfb5b61">OverlappingType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html#a872c5712e03561862f663c1fe3f72756">Overlaps</a> (const <a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html">BoundingRegion</a>&lt; Coordinate &gt; &amp;other) const</td></tr>
 <tr class="memdesc:a872c5712e03561862f663c1fe3f72756"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the overlapping type with <code>other</code> <a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html" title="Abstract API for bounding description.">BoundingRegion</a> instance.  <a href="classmaliput_1_1object_1_1api_1_1_bounding_region.html#a872c5712e03561862f663c1fe3f72756">More...</a><br /></td></tr>
 <tr class="separator:a872c5712e03561862f663c1fe3f72756"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -139,39 +129,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a4724819589de4d9d8d0b0c523bf2626b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html#a4724819589de4d9d8d0b0c523bf2626b">BoundingRegion</a> ()=default</td></tr>
 <tr class="separator:a4724819589de4d9d8d0b0c523bf2626b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="a821477bce00da9d2962360e1aec9aef0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a821477bce00da9d2962360e1aec9aef0">&#9670;&nbsp;</a></span>OverlappingType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0">OverlappingType</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Holds the possible bounding overlapping types. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a821477bce00da9d2962360e1aec9aef0a026931af6058f84edf6f23b727936e46"></a>kDisjointed&#160;</td><td class="fielddoc"><p>No overlapping between bounding regions. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a821477bce00da9d2962360e1aec9aef0a8bf5940d983d36987f4a41691ea1d562"></a>kIntersected&#160;</td><td class="fielddoc"><p>Bounding regions intersects. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a821477bce00da9d2962360e1aec9aef0a37909e88ded01d78663d301fa3454166"></a>kContained&#160;</td><td class="fielddoc"><p>Entire bounding region is contained within another. </p>
-</td></tr>
-</table>
-
-</div>
-</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2b2ad1df9141d697a52832036573e4c3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2b2ad1df9141d697a52832036573e4c3">&#9670;&nbsp;</a></span>~BoundingRegion()</h2>
@@ -258,7 +215,7 @@ Protected Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0">OverlappingType</a> Overlaps </td>
+          <td class="memname"><a class="el" href="namespacemaliput_1_1object_1_1api.html#af6022ec3177e3ba16073ae84ccfb5b61">OverlappingType</a> Overlaps </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html">BoundingRegion</a>&lt; Coordinate &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
@@ -269,9 +226,9 @@ Protected Member Functions</h2></td></tr>
 
 <p>Determines the overlapping type with <code>other</code> <a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html" title="Abstract API for bounding description.">BoundingRegion</a> instance. </p>
 <ul>
-<li><a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0a026931af6058f84edf6f23b727936e46" title="No overlapping between bounding regions.">OverlappingType::kDisjointed</a> is returned when there is no overlapping with <code>other</code> .</li>
-<li><a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0a8bf5940d983d36987f4a41691ea1d562" title="Bounding regions intersects.">OverlappingType::kIntersected</a> is returned when <code>other</code> intersects with this region.</li>
-<li><a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html#a821477bce00da9d2962360e1aec9aef0a37909e88ded01d78663d301fa3454166" title="Entire bounding region is contained within another.">OverlappingType::kContained</a> is returned when <code>other</code> is contained within this region. <dl class="params"><dt>Parameters</dt><dd>
+<li><a class="el" href="namespacemaliput_1_1object_1_1api.html#af6022ec3177e3ba16073ae84ccfb5b61a026931af6058f84edf6f23b727936e46" title="No overlapping between bounding regions.">OverlappingType::kDisjointed</a> is returned when there is no overlapping with <code>other</code> .</li>
+<li><a class="el" href="namespacemaliput_1_1object_1_1api.html#af6022ec3177e3ba16073ae84ccfb5b61a8bf5940d983d36987f4a41691ea1d562" title="Bounding regions intersects.">OverlappingType::kIntersected</a> is returned when <code>other</code> intersects with this region.</li>
+<li><a class="el" href="namespacemaliput_1_1object_1_1api.html#af6022ec3177e3ba16073ae84ccfb5b61a37909e88ded01d78663d301fa3454166" title="Entire bounding region is contained within another.">OverlappingType::kContained</a> is returned when <code>other</code> is contained within this region. <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">other</td><td>Another <a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html" title="Abstract API for bounding description.">BoundingRegion</a>. </td></tr>
   </table>
