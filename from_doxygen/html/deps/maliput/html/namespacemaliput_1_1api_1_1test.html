@@ -249,6 +249,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a5c45c4b17f389bc37a33fbccad327f57"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classmaliput_1_1api_1_1_road_geometry.html">RoadGeometry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1test.html#a5c45c4b17f389bc37a33fbccad327f57">CreateTwoLanesRoadGeometry</a> ()</td></tr>
 <tr class="memdesc:a5c45c4b17f389bc37a33fbccad327f57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an arbitrary two-lane <a class="el" href="classmaliput_1_1api_1_1_road_geometry.html" title="Abstract API for the geometry of a road network, including both the network topology and the geometry...">RoadGeometry</a>.  <a href="namespacemaliput_1_1api_1_1test.html#a5c45c4b17f389bc37a33fbccad327f57">More...</a><br /></td></tr>
 <tr class="separator:a5c45c4b17f389bc37a33fbccad327f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa97c50d03ebd0e3eba4d489def2351c3"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classmaliput_1_1api_1_1_lane.html">Lane</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1test.html#aa97c50d03ebd0e3eba4d489def2351c3">CreateLane</a> (const <a class="el" href="namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">LaneId</a> &amp;id)</td></tr>
+<tr class="memdesc:aa97c50d03ebd0e3eba4d489def2351c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an aribtrary lane with <code>id</code> .  <a href="namespacemaliput_1_1api_1_1test.html#aa97c50d03ebd0e3eba4d489def2351c3">More...</a><br /></td></tr>
+<tr class="separator:aa97c50d03ebd0e3eba4d489def2351c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a1d1da83594d9dee3b4e14809df517d"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html">rules::RoadRulebook</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1test.html#a4a1d1da83594d9dee3b4e14809df517d">CreateRoadRulebook</a> ()</td></tr>
 <tr class="memdesc:a4a1d1da83594d9dee3b4e14809df517d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an arbitrary <a class="el" href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html" title="Abstract interface for querying &quot;rules of the road&quot;.">rules::RoadRulebook</a>.  <a href="namespacemaliput_1_1api_1_1test.html#a4a1d1da83594d9dee3b4e14809df517d">More...</a><br /></td></tr>
 <tr class="separator:a4a1d1da83594d9dee3b4e14809df517d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -316,8 +319,6 @@ Functions</h2></td></tr>
 <tr class="separator:a4d4d11b5dc30bf2beacd5ca99b6a799a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3de6b649b65eb6e43a9b26b18470a030"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_range_value_rule.html">RangeValueRule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1test.html#a3de6b649b65eb6e43a9b26b18470a030">CreateRangeValueRule</a> (bool consistent_related_rule_groups)</td></tr>
 <tr class="separator:a3de6b649b65eb6e43a9b26b18470a030"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6b13aad518fa13c9c13d8f934dd735a"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classmaliput_1_1api_1_1_lane.html">Lane</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1test.html#aa6b13aad518fa13c9c13d8f934dd735a">CreateLane</a> (const <a class="el" href="namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">LaneId</a> &amp;id)</td></tr>
-<tr class="separator:aa6b13aad518fa13c9c13d8f934dd735a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb850383540320ccf001ff91e0e78f36"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classmaliput_1_1api_1_1_road_geometry.html">RoadGeometry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1test.html#acb850383540320ccf001ff91e0e78f36">CreateMultipleLanesRoadGeometry</a> (const std::vector&lt; <a class="el" href="classmaliput_1_1api_1_1_lane.html">Lane</a> * &gt; &amp;lanes)</td></tr>
 <tr class="separator:acb850383540320ccf001ff91e0e78f36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -553,14 +554,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aa6b13aad518fa13c9c13d8f934dd735a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6b13aad518fa13c9c13d8f934dd735a">&#9670;&nbsp;</a></span>CreateLane()</h2>
+<a id="aa97c50d03ebd0e3eba4d489def2351c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa97c50d03ebd0e3eba4d489def2351c3">&#9670;&nbsp;</a></span>CreateLane()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="classmaliput_1_1api_1_1_lane.html">Lane</a>&gt; maliput::api::test::CreateLane </td>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classmaliput_1_1api_1_1_lane.html">Lane</a> &gt; CreateLane </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">LaneId</a> &amp;&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
@@ -568,6 +569,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns an aribtrary lane with <code>id</code> . </p>
 
 </div>
 </div>

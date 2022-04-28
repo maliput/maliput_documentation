@@ -5,7 +5,8 @@ var files_dup =
     ] ],
     [ "mock.h", "mock_8h.html", [
       [ "MockBoundingRegion", "classmaliput_1_1object_1_1test__utilities_1_1_mock_bounding_region.html", "classmaliput_1_1object_1_1test__utilities_1_1_mock_bounding_region" ],
-      [ "MockObjectBook", "classmaliput_1_1object_1_1test__utilities_1_1_mock_object_book.html", "classmaliput_1_1object_1_1test__utilities_1_1_mock_object_book" ]
+      [ "MockObjectBook", "classmaliput_1_1object_1_1test__utilities_1_1_mock_object_book.html", "classmaliput_1_1object_1_1test__utilities_1_1_mock_object_book" ],
+      [ "MockObjectQuery", "classmaliput_1_1object_1_1test__utilities_1_1_mock_object_query.html", "classmaliput_1_1object_1_1test__utilities_1_1_mock_object_query" ]
     ] ],
     [ "object.cc", "object_8cc.html", null ],
     [ "object.h", "object_8h.html", [
@@ -13,6 +14,9 @@ var files_dup =
     ] ],
     [ "object_book.h", "object__book_8h.html", [
       [ "ObjectBook", "classmaliput_1_1object_1_1api_1_1_object_book.html", "classmaliput_1_1object_1_1api_1_1_object_book" ]
+    ] ],
+    [ "object_query.h", "object__query_8h.html", [
+      [ "ObjectQuery", "classmaliput_1_1object_1_1api_1_1_object_query.html", "classmaliput_1_1object_1_1api_1_1_object_query" ]
     ] ],
     [ "overlapping_type.cc", "overlapping__type_8cc.html", "overlapping__type_8cc" ],
     [ "overlapping_type.h", "overlapping__type_8h.html", "overlapping__type_8h" ]

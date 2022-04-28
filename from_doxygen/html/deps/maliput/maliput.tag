@@ -2478,7 +2478,7 @@
       <type>std::unique_ptr&lt; Lane &gt;</type>
       <name>CreateLane</name>
       <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>aa6b13aad518fa13c9c13d8f934dd735a</anchor>
+      <anchor>aa97c50d03ebd0e3eba4d489def2351c3</anchor>
       <arglist>(const LaneId &amp;id)</arglist>
     </member>
     <member kind="function">
@@ -2901,6 +2901,13 @@
       <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
       <anchor>a5c45c4b17f389bc37a33fbccad327f57</anchor>
       <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; Lane &gt;</type>
+      <name>CreateLane</name>
+      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
+      <anchor>aa97c50d03ebd0e3eba4d489def2351c3</anchor>
+      <arglist>(const LaneId &amp;id)</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; rules::RoadRulebook &gt;</type>
@@ -15664,6 +15671,13 @@
       <arglist>()</arglist>
     </member>
     <member kind="function">
+      <type>std::unique_ptr&lt; Lane &gt;</type>
+      <name>CreateLane</name>
+      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
+      <anchor>aa97c50d03ebd0e3eba4d489def2351c3</anchor>
+      <arglist>(const LaneId &amp;id)</arglist>
+    </member>
+    <member kind="function">
       <type>std::unique_ptr&lt; rules::RoadRulebook &gt;</type>
       <name>CreateRoadRulebook</name>
       <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
@@ -15823,13 +15837,6 @@
       <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
       <anchor>a3de6b649b65eb6e43a9b26b18470a030</anchor>
       <arglist>(bool consistent_related_rule_groups)</arglist>
-    </member>
-    <member kind="function">
-      <type>std::unique_ptr&lt; Lane &gt;</type>
-      <name>CreateLane</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>aa6b13aad518fa13c9c13d8f934dd735a</anchor>
-      <arglist>(const LaneId &amp;id)</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; RoadGeometry &gt;</type>

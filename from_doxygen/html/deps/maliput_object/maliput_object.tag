@@ -17,9 +17,11 @@
     <includes id="bounding__region_8h" name="bounding_region.h" local="yes" imported="no">maliput_object/api/bounding_region.h</includes>
     <includes id="object_8h" name="object.h" local="yes" imported="no">maliput_object/api/object.h</includes>
     <includes id="object__book_8h" name="object_book.h" local="yes" imported="no">maliput_object/api/object_book.h</includes>
+    <includes id="object__query_8h" name="object_query.h" local="yes" imported="no">maliput_object/api/object_query.h</includes>
     <includes id="overlapping__type_8h" name="overlapping_type.h" local="yes" imported="no">maliput_object/api/overlapping_type.h</includes>
     <class kind="class">maliput::object::test_utilities::MockBoundingRegion</class>
     <class kind="class">maliput::object::test_utilities::MockObjectBook</class>
+    <class kind="class">maliput::object::test_utilities::MockObjectQuery</class>
     <namespace>maliput</namespace>
     <namespace>maliput::object</namespace>
     <namespace>maliput::object::test_utilities</namespace>
@@ -51,6 +53,18 @@
     <includes id="object_8h" name="object.h" local="yes" imported="no">maliput_object/api/object.h</includes>
     <includes id="overlapping__type_8h" name="overlapping_type.h" local="yes" imported="no">maliput_object/api/overlapping_type.h</includes>
     <class kind="class">maliput::object::api::ObjectBook</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::object</namespace>
+    <namespace>maliput::object::api</namespace>
+  </compound>
+  <compound kind="file">
+    <name>object_query.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/include/maliput_object/api/</path>
+    <filename>object__query_8h.html</filename>
+    <includes id="object_8h" name="object.h" local="yes" imported="no">maliput_object/api/object.h</includes>
+    <includes id="object__book_8h" name="object_book.h" local="yes" imported="no">maliput_object/api/object_book.h</includes>
+    <includes id="overlapping__type_8h" name="overlapping_type.h" local="yes" imported="no">maliput_object/api/overlapping_type.h</includes>
+    <class kind="class">maliput::object::api::ObjectQuery</class>
     <namespace>maliput</namespace>
     <namespace>maliput::object</namespace>
     <namespace>maliput::object::api</namespace>
@@ -258,6 +272,46 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::object::test_utilities::MockObjectQuery</name>
+    <filename>classmaliput_1_1object_1_1test__utilities_1_1_mock_object_query.html</filename>
+    <base>maliput::object::api::ObjectQuery</base>
+    <member kind="function">
+      <type></type>
+      <name>MOCK_METHOD</name>
+      <anchorfile>classmaliput_1_1object_1_1test__utilities_1_1_mock_object_query.html</anchorfile>
+      <anchor>a6a06e2c5ec46a42a82f70e04d75634d1</anchor>
+      <arglist>((std::vector&lt; const maliput::api::Lane * &gt;), DoFindOverlappingLanesIn,(const api::Object&lt; maliput::math::Vector3 &gt; *),(const, override))</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MOCK_METHOD</name>
+      <anchorfile>classmaliput_1_1object_1_1test__utilities_1_1_mock_object_query.html</anchorfile>
+      <anchor>ad26bb831a2b0a1efdd4cec41cd78939f</anchor>
+      <arglist>((std::vector&lt; const maliput::api::Lane * &gt;), DoFindOverlappingLanesIn,(const api::Object&lt; maliput::math::Vector3 &gt; *, const api::OverlappingType &amp;),(const, override))</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MOCK_METHOD</name>
+      <anchorfile>classmaliput_1_1object_1_1test__utilities_1_1_mock_object_query.html</anchorfile>
+      <anchor>ac5b74e41018612b1555cbfcb1b0e1072</anchor>
+      <arglist>((std::optional&lt; const maliput::api::LaneSRoute &gt;), DoRoute,(const api::Object&lt; maliput::math::Vector3 &gt; *, const api::Object&lt; maliput::math::Vector3 &gt; *),(const, override))</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MOCK_METHOD</name>
+      <anchorfile>classmaliput_1_1object_1_1test__utilities_1_1_mock_object_query.html</anchorfile>
+      <anchor>a3d3764b84b603ccf36a452f74ff65aa7</anchor>
+      <arglist>((const api::ObjectBook&lt; maliput::math::Vector3 &gt; *), do_object_book,(),(const, override))</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MOCK_METHOD</name>
+      <anchorfile>classmaliput_1_1object_1_1test__utilities_1_1_mock_object_query.html</anchorfile>
+      <anchor>ab6222814e78e046e44ca10c3eb62f989</anchor>
+      <arglist>((const maliput::api::RoadNetwork *), do_road_network,(),(const, override))</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::object::api::Object</name>
     <filename>classmaliput_1_1object_1_1api_1_1_object.html</filename>
     <templarg></templarg>
@@ -365,6 +419,59 @@
       <arglist>()=default</arglist>
     </member>
   </compound>
+  <compound kind="class">
+    <name>maliput::object::api::ObjectQuery</name>
+    <filename>classmaliput_1_1object_1_1api_1_1_object_query.html</filename>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~ObjectQuery</name>
+      <anchorfile>classmaliput_1_1object_1_1api_1_1_object_query.html</anchorfile>
+      <anchor>ad9e34c5b3aeac20d919128e2140e3f3a</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; const maliput::api::Lane * &gt;</type>
+      <name>FindOverlappingLanesIn</name>
+      <anchorfile>classmaliput_1_1object_1_1api_1_1_object_query.html</anchorfile>
+      <anchor>a6c57ea417a778dee5ebf8dfa05acc911</anchor>
+      <arglist>(const Object&lt; maliput::math::Vector3 &gt; *object) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; const maliput::api::Lane * &gt;</type>
+      <name>FindOverlappingLanesIn</name>
+      <anchorfile>classmaliput_1_1object_1_1api_1_1_object_query.html</anchorfile>
+      <anchor>aa3c457dfdc7dba60283ec14008fe3763</anchor>
+      <arglist>(const Object&lt; maliput::math::Vector3 &gt; *object, const OverlappingType &amp;overlapping_type) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; const maliput::api::LaneSRoute &gt;</type>
+      <name>Route</name>
+      <anchorfile>classmaliput_1_1object_1_1api_1_1_object_query.html</anchorfile>
+      <anchor>a696720a779e5f39dcda3a5414ed2ed8f</anchor>
+      <arglist>(const Object&lt; maliput::math::Vector3 &gt; *origin, const Object&lt; maliput::math::Vector3 &gt; *target) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const ObjectBook&lt; maliput::math::Vector3 &gt; *</type>
+      <name>object_book</name>
+      <anchorfile>classmaliput_1_1object_1_1api_1_1_object_query.html</anchorfile>
+      <anchor>adebf39d2ee261f74d06689c1ce579646</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const maliput::api::RoadNetwork *</type>
+      <name>road_network</name>
+      <anchorfile>classmaliput_1_1object_1_1api_1_1_object_query.html</anchorfile>
+      <anchor>a01d9e59eb9a1d0788b0955e8ca33065b</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>ObjectQuery</name>
+      <anchorfile>classmaliput_1_1object_1_1api_1_1_object_query.html</anchorfile>
+      <anchor>afdbebde65cde5b829eb1ca4bbb7f2e7b</anchor>
+      <arglist>()=default</arglist>
+    </member>
+  </compound>
   <compound kind="namespace">
     <name>maliput</name>
     <filename>namespacemaliput.html</filename>
@@ -382,6 +489,7 @@
     <class kind="class">maliput::object::api::BoundingRegion</class>
     <class kind="class">maliput::object::api::Object</class>
     <class kind="class">maliput::object::api::ObjectBook</class>
+    <class kind="class">maliput::object::api::ObjectQuery</class>
     <member kind="enumeration">
       <type></type>
       <name>OverlappingType</name>
@@ -413,5 +521,6 @@
     <filename>namespacemaliput_1_1object_1_1test__utilities.html</filename>
     <class kind="class">maliput::object::test_utilities::MockBoundingRegion</class>
     <class kind="class">maliput::object::test_utilities::MockObjectBook</class>
+    <class kind="class">maliput::object::test_utilities::MockObjectQuery</class>
   </compound>
 </tagfile>
