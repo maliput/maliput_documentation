@@ -2,6 +2,7 @@ var classmaliput_1_1api_1_1_intersection_book =
 [
     [ "~IntersectionBook", "classmaliput_1_1api_1_1_intersection_book.html#a367bbbc791bd9b39b817ae8da3fb5375", null ],
     [ "IntersectionBook", "classmaliput_1_1api_1_1_intersection_book.html#ae9fc7972b4bf1e5a40b32387c3109148", null ],
+    [ "FindIntersection", "classmaliput_1_1api_1_1_intersection_book.html#a5cb7826676611e4e47e914a84d8c416f", null ],
     [ "FindIntersection", "classmaliput_1_1api_1_1_intersection_book.html#a4c9e6f25c23929b4738c5b5b2fbe50a8", null ],
     [ "FindIntersection", "classmaliput_1_1api_1_1_intersection_book.html#a7a62cfe6c364cd32368f03b13f664c1e", null ],
     [ "FindIntersection", "classmaliput_1_1api_1_1_intersection_book.html#abfef1d8de6c36ddb8ae43596f559fa2a", null ],
