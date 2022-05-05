@@ -896,6 +896,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/maliput/src/api/</path>
     <filename>lane__data_8cc.html</filename>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
+    <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
     <member kind="function">
@@ -10631,6 +10632,13 @@
       <anchorfile>structmaliput_1_1api_1_1_road_position.html</anchorfile>
       <anchor>a7c3987ba959bbbbeafba43c0db4c24d8</anchor>
       <arglist>(const Lane *_lane, const LanePosition &amp;_pos)</arglist>
+    </member>
+    <member kind="function">
+      <type>InertialPosition</type>
+      <name>ToInertialPosition</name>
+      <anchorfile>structmaliput_1_1api_1_1_road_position.html</anchorfile>
+      <anchor>a7102a0aeb36fa64045778d02e3c0dc7e</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="variable">
       <type>const Lane *</type>

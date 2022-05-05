@@ -7,7 +7,7 @@ var searchData=
   ['to_5fright_1884',['to_right',['../classmaliput_1_1api_1_1_lane.html#ab501636a78a79970214b42a0c4d0a0e2',1,'maliput::api::Lane']]],
   ['to_5fstr_1885',['to_str',['../classmaliput_1_1math_1_1_vector_base.html#a7157eb0f3e4314a1d621f0bed374ea97',1,'maliput::math::VectorBase']]],
   ['togeoface_1886',['ToGeoFace',['../classmaliput_1_1utility_1_1mesh_1_1_srh_face.html#a9066879c275ebba1f86129e672a075a6',1,'maliput::utility::mesh::SrhFace']]],
-  ['toinertialposition_1887',['ToInertialPosition',['../classmaliput_1_1api_1_1_lane.html#ac2b4153a3a9bf55d07255331bf0223c2',1,'maliput::api::Lane']]],
+  ['toinertialposition_1887',['ToInertialPosition',['../classmaliput_1_1api_1_1_lane.html#ac2b4153a3a9bf55d07255331bf0223c2',1,'maliput::api::Lane::ToInertialPosition()'],['../structmaliput_1_1api_1_1_road_position.html#a7102a0aeb36fa64045778d02e3c0dc7e',1,'maliput::api::RoadPosition::ToInertialPosition()']]],
   ['tolaneposition_1888',['ToLanePosition',['../classmaliput_1_1api_1_1_lane.html#acda224f66653385e297534edc3e98395',1,'maliput::api::Lane']]],
   ['tomatrix_1889',['ToMatrix',['../classmaliput_1_1math_1_1_roll_pitch_yaw.html#ab7ff6943e374292844c6c7189d76101e',1,'maliput::math::RollPitchYaw']]],
   ['toquaternion_1890',['ToQuaternion',['../classmaliput_1_1math_1_1_roll_pitch_yaw.html#a611c3fcee885450a48688d9360bc6a9c',1,'maliput::math::RollPitchYaw']]],

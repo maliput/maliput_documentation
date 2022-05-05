@@ -1,6 +1,24 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
 <tagfile>
   <compound kind="file">
+    <name>bounding_box.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/src/base/</path>
+    <filename>bounding__box_8cc.html</filename>
+    <includes id="bounding__box_8h" name="bounding_box.h" local="yes" imported="no">maliput_object/base/bounding_box.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::object</namespace>
+  </compound>
+  <compound kind="file">
+    <name>bounding_box.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/include/maliput_object/base/</path>
+    <filename>bounding__box_8h.html</filename>
+    <includes id="bounding__region_8h" name="bounding_region.h" local="yes" imported="no">maliput_object/api/bounding_region.h</includes>
+    <includes id="overlapping__type_8h" name="overlapping_type.h" local="yes" imported="no">maliput_object/api/overlapping_type.h</includes>
+    <class kind="class">maliput::object::BoundingBox</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::object</namespace>
+  </compound>
+  <compound kind="file">
     <name>bounding_region.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/include/maliput_object/api/</path>
     <filename>bounding__region_8h.html</filename>
@@ -122,6 +140,60 @@
       <anchorfile>namespacemaliput_1_1object_1_1api.html</anchorfile>
       <anchor>a188960295ec6a52f2477c6e0bb5984b6</anchor>
       <arglist>(const OverlappingType &amp;first, const OverlappingType &amp;second)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::object::BoundingBox</name>
+    <filename>classmaliput_1_1object_1_1_bounding_box.html</filename>
+    <base>BoundingRegion&lt; maliput::math::Vector3 &gt;</base>
+    <member kind="function">
+      <type></type>
+      <name>BoundingBox</name>
+      <anchorfile>classmaliput_1_1object_1_1_bounding_box.html</anchorfile>
+      <anchor>acd3dd34cee419cb908524b2adb7e85ab</anchor>
+      <arglist>(const maliput::math::Vector3 &amp;position, const maliput::math::Vector3 &amp;box_size, const maliput::math::RollPitchYaw &amp;orientation, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~BoundingBox</name>
+      <anchorfile>classmaliput_1_1object_1_1_bounding_box.html</anchorfile>
+      <anchor>a15fb13660b3e79ef417c31551008120c</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; maliput::math::Vector3 &gt;</type>
+      <name>get_vertices</name>
+      <anchorfile>classmaliput_1_1object_1_1_bounding_box.html</anchorfile>
+      <anchor>a57ea6e3585ac0e36eed756e668aa70d1</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const maliput::math::RollPitchYaw &amp;</type>
+      <name>get_orientation</name>
+      <anchorfile>classmaliput_1_1object_1_1_bounding_box.html</anchorfile>
+      <anchor>adb79781ac7f8c13c4b9c838fd3b9c33a</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const maliput::math::Vector3 &amp;</type>
+      <name>box_size</name>
+      <anchorfile>classmaliput_1_1object_1_1_bounding_box.html</anchorfile>
+      <anchor>aa4894f54d9e82027ba76a77555a997a9</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>IsBoxContained</name>
+      <anchorfile>classmaliput_1_1object_1_1_bounding_box.html</anchorfile>
+      <anchor>a75c8ec18202add84cf755a4c6f88a23b</anchor>
+      <arglist>(const BoundingBox &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>IsBoxIntersected</name>
+      <anchorfile>classmaliput_1_1object_1_1_bounding_box.html</anchorfile>
+      <anchor>a0c10b8796316c9f2e7ee7ac8cae9eef6</anchor>
+      <arglist>(const BoundingBox &amp;other) const</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -481,6 +553,7 @@
     <filename>namespacemaliput_1_1object.html</filename>
     <namespace>maliput::object::api</namespace>
     <namespace>maliput::object::test_utilities</namespace>
+    <class kind="class">maliput::object::BoundingBox</class>
   </compound>
   <compound kind="namespace">
     <name>maliput::object::api</name>

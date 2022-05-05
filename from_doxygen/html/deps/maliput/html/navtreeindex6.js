@@ -224,10 +224,11 @@ var NAVTREEINDEX6 =
 "structmaliput_1_1api_1_1_road_network_validator_options.html#ad3e720e34f3d04f190dcf87ec767d017":[4,0,0,0,20,4],
 "structmaliput_1_1api_1_1_road_network_validator_options.html#adc52a26461242787031a5f7e803c54ed":[4,0,0,0,20,6],
 "structmaliput_1_1api_1_1_road_position.html":[4,0,0,0,21],
-"structmaliput_1_1api_1_1_road_position.html#a052f1bed10d7aad444802177f1d7d18b":[4,0,0,0,21,3],
+"structmaliput_1_1api_1_1_road_position.html#a052f1bed10d7aad444802177f1d7d18b":[4,0,0,0,21,4],
 "structmaliput_1_1api_1_1_road_position.html#a4ed2e763b9bcf2c840b6ff56c17de59b":[4,0,0,0,21,0],
+"structmaliput_1_1api_1_1_road_position.html#a7102a0aeb36fa64045778d02e3c0dc7e":[4,0,0,0,21,2],
 "structmaliput_1_1api_1_1_road_position.html#a7c3987ba959bbbbeafba43c0db4c24d8":[4,0,0,0,21,1],
-"structmaliput_1_1api_1_1_road_position.html#a7f4404a6c9065d06842311b7308a6cba":[4,0,0,0,21,2],
+"structmaliput_1_1api_1_1_road_position.html#a7f4404a6c9065d06842311b7308a6cba":[4,0,0,0,21,3],
 "structmaliput_1_1api_1_1_road_position_result.html":[4,0,0,0,22],
 "structmaliput_1_1api_1_1_road_position_result.html#a65cf38def1177b13564494a5c5d48655":[4,0,0,0,22,1],
 "structmaliput_1_1api_1_1_road_position_result.html#a79b8e036dca6911e3295a47d99f21f43":[4,0,0,0,22,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "structmaliput_1_1api_1_1rules_1_1_phase_ring_1_1_next_phase.html#aa6fa72a024a00670c921e553aa8cf3e7":[4,0,0,0,0,7,0,1],
 "structmaliput_1_1api_1_1rules_1_1_range_value_rule_1_1_range.html":[4,0,0,0,0,9,0],
 "structmaliput_1_1api_1_1rules_1_1_range_value_rule_1_1_range.html#a08c984773cd00ded6d3a572ff5426455":[4,0,0,0,0,9,0,3],
-"structmaliput_1_1api_1_1rules_1_1_range_value_rule_1_1_range.html#a0b0ede69e8156eb97acc579b88e883de":[4,0,0,0,0,9,0,7],
-"structmaliput_1_1api_1_1rules_1_1_range_value_rule_1_1_range.html#a2c7f856c2189f514f3f80acf341193b2":[4,0,0,0,0,9,0,0]
+"structmaliput_1_1api_1_1rules_1_1_range_value_rule_1_1_range.html#a0b0ede69e8156eb97acc579b88e883de":[4,0,0,0,0,9,0,7]
 };

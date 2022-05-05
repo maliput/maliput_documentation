@@ -109,6 +109,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7c3987ba959bbbbeafba43c0db4c24d8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1api_1_1_road_position.html#a7c3987ba959bbbbeafba43c0db4c24d8">RoadPosition</a> (const <a class="el" href="classmaliput_1_1api_1_1_lane.html">Lane</a> *_lane, const <a class="el" href="classmaliput_1_1api_1_1_lane_position.html">LanePosition</a> &amp;_pos)</td></tr>
 <tr class="memdesc:a7c3987ba959bbbbeafba43c0db4c24d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fully parameterized constructor.  <a href="structmaliput_1_1api_1_1_road_position.html#a7c3987ba959bbbbeafba43c0db4c24d8">More...</a><br /></td></tr>
 <tr class="separator:a7c3987ba959bbbbeafba43c0db4c24d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7102a0aeb36fa64045778d02e3c0dc7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput_1_1api_1_1_inertial_position.html">InertialPosition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1api_1_1_road_position.html#a7102a0aeb36fa64045778d02e3c0dc7e">ToInertialPosition</a> () const</td></tr>
+<tr class="memdesc:a7102a0aeb36fa64045778d02e3c0dc7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indirection to #api::Lane::ToInertialPosition() method.  <a href="structmaliput_1_1api_1_1_road_position.html#a7102a0aeb36fa64045778d02e3c0dc7e">More...</a><br /></td></tr>
+<tr class="separator:a7102a0aeb36fa64045778d02e3c0dc7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -175,6 +178,33 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7102a0aeb36fa64045778d02e3c0dc7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7102a0aeb36fa64045778d02e3c0dc7e">&#9670;&nbsp;</a></span>ToInertialPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmaliput_1_1api_1_1_inertial_position.html">InertialPosition</a> ToInertialPosition </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Indirection to #api::Lane::ToInertialPosition() method. </p>
+<dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="classmaliput_1_1api_1_1_inertial_position.html" title="A position in 3-dimensional geographical Cartesian space, i.e., in the Inertial-frame,...">InertialPosition</a> that corresponds to <code>lane</code> and <code>pos</code>. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">When</td><td>member <code>lane</code> is nullptr. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a7f4404a6c9065d06842311b7308a6cba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7f4404a6c9065d06842311b7308a6cba">&#9670;&nbsp;</a></span>lane</h2>
@@ -204,8 +234,9 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<hr/>The documentation for this struct was generated from the following files:<ul>
 <li><a class="el" href="lane__data_8h.html">lane_data.h</a></li>
+<li><a class="el" href="lane__data_8cc.html">lane_data.cc</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
