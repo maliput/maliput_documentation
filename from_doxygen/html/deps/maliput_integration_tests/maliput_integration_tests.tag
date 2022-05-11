@@ -350,6 +350,152 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>object_query_test.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
+    <filename>object__query__test_8cc.html</filename>
+    <namespace>maliput</namespace>
+    <member kind="define">
+      <type>#define</type>
+      <name>EXPECT_FOUND_IN</name>
+      <anchorfile>object__query__test_8cc.html</anchorfile>
+      <anchor>a469203c016046590afc2332071cc8aa1</anchor>
+      <arglist>(item, expected_items)</arglist>
+    </member>
+    <member kind="variable">
+      <type>maliput::math::Vector3</type>
+      <name>box_position</name>
+      <anchorfile>object__query__test_8cc.html</anchorfile>
+      <anchor>a98926bdb293ba1d7360e72ff55c9f808</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>maliput::math::Vector3</type>
+      <name>box_size</name>
+      <anchorfile>object__query__test_8cc.html</anchorfile>
+      <anchor>aac705c9d669ede23cee0de6d077ecc34</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>maliput::math::RollPitchYaw</type>
+      <name>box_orientation</name>
+      <anchorfile>object__query__test_8cc.html</anchorfile>
+      <anchor>a9515ae8c6c7a22872e97f7b84492bfe8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; maliput::api::LaneId &gt;</type>
+      <name>expected_intersected_lane_ids</name>
+      <anchorfile>object__query__test_8cc.html</anchorfile>
+      <anchor>a1d06742ad534f5858b5627c51014daf8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; maliput::api::LaneId &gt;</type>
+      <name>expected_disjointed_lane_ids</name>
+      <anchorfile>object__query__test_8cc.html</anchorfile>
+      <anchor>a8aaf321aeb22a8abfb7e08d802961c24</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const SimpleObjectQueryResults</type>
+      <name>results_</name>
+      <anchorfile>object__query__test_8cc.html</anchorfile>
+      <anchor>ad96387297416aef296b02b1c4b219e2b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const maliput::object::api::Object&lt; maliput::math::Vector3 &gt;::Id</type>
+      <name>kId</name>
+      <anchorfile>object__query__test_8cc.html</anchorfile>
+      <anchor>a213edadecd7d51aa12e266ee32703a5f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const double</type>
+      <name>kTolerance</name>
+      <anchorfile>object__query__test_8cc.html</anchorfile>
+      <anchor>aa2d67d0fd80a7cd337894511fc10df11</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const std::string</type>
+      <name>filepath_</name>
+      <anchorfile>object__query__test_8cc.html</anchorfile>
+      <anchor>ac70d92d00a576cfba1596f5006113186</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const std::map&lt; std::string, std::string &gt;</type>
+      <name>configuration_</name>
+      <anchorfile>object__query__test_8cc.html</anchorfile>
+      <anchor>a301907865d1335a705c45c08b2fa2ecc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const maliput::object::test_utilities::MockObjectBook&lt; maliput::math::Vector3 &gt;</type>
+      <name>object_book</name>
+      <anchorfile>object__query__test_8cc.html</anchorfile>
+      <anchor>a6d2eab23f5e962d3d3ec89e5be8e8730</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::unique_ptr&lt; const RoadNetwork &gt;</type>
+      <name>road_network_</name>
+      <anchorfile>object__query__test_8cc.html</anchorfile>
+      <anchor>a4f815f682a43aa70f9ba7611b4be4083</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::unique_ptr&lt; maliput::object::api::ObjectQuery &gt;</type>
+      <name>dut_</name>
+      <anchorfile>object__query__test_8cc.html</anchorfile>
+      <anchor>aa31a439e58582034554966a81fd3a903</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>maliput::math::Vector3</type>
+      <name>position</name>
+      <anchorfile>object__query__test_8cc.html</anchorfile>
+      <anchor>ab3f3c5a3f79a3396d700ce34c12fe2c8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>maliput::math::Vector3</type>
+      <name>size</name>
+      <anchorfile>object__query__test_8cc.html</anchorfile>
+      <anchor>a96d0d9e884583fc5f8c5104f5e1e59c4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>maliput::math::RollPitchYaw</type>
+      <name>orientation</name>
+      <anchorfile>object__query__test_8cc.html</anchorfile>
+      <anchor>a0f088a8b1c0b65662dbd34c19cdf432b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>BoxConfig</type>
+      <name>origin</name>
+      <anchorfile>object__query__test_8cc.html</anchorfile>
+      <anchor>a360aae3cfefe29003f0c676391ddaaf8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>BoxConfig</type>
+      <name>target</name>
+      <anchorfile>object__query__test_8cc.html</anchorfile>
+      <anchor>a5806669ba656ea6e616bc14df3913d23</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; maliput::api::LaneSRoute &gt;</type>
+      <name>expected_lane_s_route</name>
+      <anchorfile>object__query__test_8cc.html</anchorfile>
+      <anchor>a946740fa35cb1a98b952c73922b97909</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>phase_ring_book_loader_test.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
     <filename>phase__ring__book__loader__test_8cc.html</filename>

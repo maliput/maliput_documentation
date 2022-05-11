@@ -29,6 +29,26 @@
     <namespace>maliput::object::api</namespace>
   </compound>
   <compound kind="file">
+    <name>manual_object_book.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/src/base/</path>
+    <filename>manual__object__book_8cc.html</filename>
+    <includes id="manual__object__book_8h" name="manual_object_book.h" local="yes" imported="no">maliput_object/base/manual_object_book.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::object</namespace>
+  </compound>
+  <compound kind="file">
+    <name>manual_object_book.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/include/maliput_object/base/</path>
+    <filename>manual__object__book_8h.html</filename>
+    <includes id="bounding__region_8h" name="bounding_region.h" local="yes" imported="no">maliput_object/api/bounding_region.h</includes>
+    <includes id="object_8h" name="object.h" local="yes" imported="no">maliput_object/api/object.h</includes>
+    <includes id="object__book_8h" name="object_book.h" local="yes" imported="no">maliput_object/api/object_book.h</includes>
+    <includes id="overlapping__type_8h" name="overlapping_type.h" local="yes" imported="no">maliput_object/api/overlapping_type.h</includes>
+    <class kind="class">maliput::object::ManualObjectBook</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::object</namespace>
+  </compound>
+  <compound kind="file">
     <name>mock.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/include/maliput_object/test_utilities/</path>
     <filename>mock_8h.html</filename>
@@ -141,6 +161,27 @@
       <anchor>a188960295ec6a52f2477c6e0bb5984b6</anchor>
       <arglist>(const OverlappingType &amp;first, const OverlappingType &amp;second)</arglist>
     </member>
+  </compound>
+  <compound kind="file">
+    <name>simple_object_query.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/src/base/</path>
+    <filename>simple__object__query_8cc.html</filename>
+    <includes id="simple__object__query_8h" name="simple_object_query.h" local="yes" imported="no">maliput_object/base/simple_object_query.h</includes>
+    <includes id="bounding__box_8h" name="bounding_box.h" local="yes" imported="no">maliput_object/base/bounding_box.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::object</namespace>
+  </compound>
+  <compound kind="file">
+    <name>simple_object_query.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/include/maliput_object/base/</path>
+    <filename>simple__object__query_8h.html</filename>
+    <includes id="object_8h" name="object.h" local="yes" imported="no">maliput_object/api/object.h</includes>
+    <includes id="object__book_8h" name="object_book.h" local="yes" imported="no">maliput_object/api/object_book.h</includes>
+    <includes id="object__query_8h" name="object_query.h" local="yes" imported="no">maliput_object/api/object_query.h</includes>
+    <includes id="overlapping__type_8h" name="overlapping_type.h" local="yes" imported="no">maliput_object/api/overlapping_type.h</includes>
+    <class kind="class">maliput::object::SimpleObjectQuery</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::object</namespace>
   </compound>
   <compound kind="class">
     <name>maliput::object::BoundingBox</name>
@@ -273,6 +314,40 @@
       <anchorfile>classmaliput_1_1object_1_1api_1_1_bounding_region.html</anchorfile>
       <anchor>a4724819589de4d9d8d0b0c523bf2626b</anchor>
       <arglist>()=default</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::object::ManualObjectBook</name>
+    <filename>classmaliput_1_1object_1_1_manual_object_book.html</filename>
+    <templarg></templarg>
+    <base>maliput::object::api::ObjectBook</base>
+    <member kind="function">
+      <type></type>
+      <name>ManualObjectBook</name>
+      <anchorfile>classmaliput_1_1object_1_1_manual_object_book.html</anchorfile>
+      <anchor>a698c75a4675684af13a90c41b461c651</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~ManualObjectBook</name>
+      <anchorfile>classmaliput_1_1object_1_1_manual_object_book.html</anchorfile>
+      <anchor>a94e5a1eb5638ffafab7ff3b9a1ce0407</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AddObject</name>
+      <anchorfile>classmaliput_1_1object_1_1_manual_object_book.html</anchorfile>
+      <anchor>a3c062fc775d734260dae48a2de6f559d</anchor>
+      <arglist>(std::unique_ptr&lt; api::Object&lt; Coordinate &gt;&gt; object)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>RemoveObject</name>
+      <anchorfile>classmaliput_1_1object_1_1_manual_object_book.html</anchorfile>
+      <anchor>a18d651843dfe270351af98956a52b17c</anchor>
+      <arglist>(const typename api::Object&lt; Coordinate &gt;::Id &amp;object)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -491,6 +566,52 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>ObjectBook&lt; maliput::math::Vector3 &gt;</name>
+    <filename>classmaliput_1_1object_1_1api_1_1_object_book.html</filename>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~ObjectBook</name>
+      <anchorfile>classmaliput_1_1object_1_1api_1_1_object_book.html</anchorfile>
+      <anchor>acfd285c43ff3c2f606088040b7e4f87d</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unordered_map&lt; typename Object&lt; maliput::math::Vector3 &gt;::Id, Object&lt; maliput::math::Vector3 &gt; * &gt;</type>
+      <name>objects</name>
+      <anchorfile>classmaliput_1_1object_1_1api_1_1_object_book.html</anchorfile>
+      <anchor>a628d49a114e10144b94014bef82e05dc</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>Object&lt; maliput::math::Vector3 &gt; *</type>
+      <name>FindById</name>
+      <anchorfile>classmaliput_1_1object_1_1api_1_1_object_book.html</anchorfile>
+      <anchor>ac9ed44485446652dc342c6c52114861c</anchor>
+      <arglist>(const typename Object&lt; maliput::math::Vector3 &gt;::Id &amp;object_id) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; Object&lt; maliput::math::Vector3 &gt; * &gt;</type>
+      <name>FindByPredicate</name>
+      <anchorfile>classmaliput_1_1object_1_1api_1_1_object_book.html</anchorfile>
+      <anchor>a2caa36686e7d71470bb042a26f983426</anchor>
+      <arglist>(std::function&lt; bool(const Object&lt; maliput::math::Vector3 &gt; *)&gt; predicate) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; Object&lt; maliput::math::Vector3 &gt; * &gt;</type>
+      <name>FindOverlappingIn</name>
+      <anchorfile>classmaliput_1_1object_1_1api_1_1_object_book.html</anchorfile>
+      <anchor>a1f2290969b3b3bd3bcf5e57d728b2725</anchor>
+      <arglist>(const BoundingRegion&lt; maliput::math::Vector3 &gt; &amp;region, const OverlappingType &amp;overlapping_type) const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>ObjectBook</name>
+      <anchorfile>classmaliput_1_1object_1_1api_1_1_object_book.html</anchorfile>
+      <anchor>ad4023664e9f76ad683635f368ae84a67</anchor>
+      <arglist>()=default</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::object::api::ObjectQuery</name>
     <filename>classmaliput_1_1object_1_1api_1_1_object_query.html</filename>
     <member kind="function" virtualness="virtual">
@@ -543,6 +664,25 @@
       <arglist>()=default</arglist>
     </member>
   </compound>
+  <compound kind="class">
+    <name>maliput::object::SimpleObjectQuery</name>
+    <filename>classmaliput_1_1object_1_1_simple_object_query.html</filename>
+    <base>maliput::object::api::ObjectQuery</base>
+    <member kind="function">
+      <type></type>
+      <name>SimpleObjectQuery</name>
+      <anchorfile>classmaliput_1_1object_1_1_simple_object_query.html</anchorfile>
+      <anchor>a520ceb31a631e52d815e797219c7d1af</anchor>
+      <arglist>(const maliput::api::RoadNetwork *road_network, const api::ObjectBook&lt; maliput::math::Vector3 &gt; *object_book)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~SimpleObjectQuery</name>
+      <anchorfile>classmaliput_1_1object_1_1_simple_object_query.html</anchorfile>
+      <anchor>af57eaf805efc7938c901e2ec071020c3</anchor>
+      <arglist>()=default</arglist>
+    </member>
+  </compound>
   <compound kind="namespace">
     <name>maliput</name>
     <filename>namespacemaliput.html</filename>
@@ -554,6 +694,8 @@
     <namespace>maliput::object::api</namespace>
     <namespace>maliput::object::test_utilities</namespace>
     <class kind="class">maliput::object::BoundingBox</class>
+    <class kind="class">maliput::object::ManualObjectBook</class>
+    <class kind="class">maliput::object::SimpleObjectQuery</class>
   </compound>
   <compound kind="namespace">
     <name>maliput::object::api</name>

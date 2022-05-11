@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['bounding_5fregion_78',['bounding_region',['../classmaliput_1_1object_1_1api_1_1_object.html#ab4a4788b4d78851a1377892f87da6969',1,'maliput::object::api::Object']]],
-  ['boundingbox_79',['BoundingBox',['../classmaliput_1_1object_1_1_bounding_box.html#acd3dd34cee419cb908524b2adb7e85ab',1,'maliput::object::BoundingBox']]],
-  ['boundingregion_80',['BoundingRegion',['../classmaliput_1_1object_1_1api_1_1_bounding_region.html#a4724819589de4d9d8d0b0c523bf2626b',1,'maliput::object::api::BoundingRegion']]],
-  ['box_5fsize_81',['box_size',['../classmaliput_1_1object_1_1_bounding_box.html#aa4894f54d9e82027ba76a77555a997a9',1,'maliput::object::BoundingBox']]]
+  ['addobject_96',['AddObject',['../classmaliput_1_1object_1_1_manual_object_book.html#a3c062fc775d734260dae48a2de6f559d',1,'maliput::object::ManualObjectBook']]]
 ];

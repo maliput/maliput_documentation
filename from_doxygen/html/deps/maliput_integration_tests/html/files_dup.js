@@ -6,6 +6,7 @@ var files_dup =
     [ "generate_string_test.cc", "generate__string__test_8cc.html", "generate__string__test_8cc" ],
     [ "generate_urdf_test.cc", "generate__urdf__test_8cc.html", "generate__urdf__test_8cc" ],
     [ "intersection_book_loader_test.cc", "intersection__book__loader__test_8cc.html", "intersection__book__loader__test_8cc" ],
+    [ "object_query_test.cc", "object__query__test_8cc.html", "object__query__test_8cc" ],
     [ "phase_ring_book_loader_test.cc", "phase__ring__book__loader__test_8cc.html", "phase__ring__book__loader__test_8cc" ],
     [ "road_rulebook_loader_test.cc", "road__rulebook__loader__test_8cc.html", "road__rulebook__loader__test_8cc" ],
     [ "segment_analysis_test.cc", "segment__analysis__test_8cc.html", null ],
