@@ -249,6 +249,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a5c45c4b17f389bc37a33fbccad327f57"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classmaliput_1_1api_1_1_road_geometry.html">RoadGeometry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1test.html#a5c45c4b17f389bc37a33fbccad327f57">CreateTwoLanesRoadGeometry</a> ()</td></tr>
 <tr class="memdesc:a5c45c4b17f389bc37a33fbccad327f57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an arbitrary two-lane <a class="el" href="classmaliput_1_1api_1_1_road_geometry.html" title="Abstract API for the geometry of a road network, including both the network topology and the geometry...">RoadGeometry</a>.  <a href="namespacemaliput_1_1api_1_1test.html#a5c45c4b17f389bc37a33fbccad327f57">More...</a><br /></td></tr>
 <tr class="separator:a5c45c4b17f389bc37a33fbccad327f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d03c6c4dc963fce73446f652efb950d"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classmaliput_1_1api_1_1_road_geometry.html">RoadGeometry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1test.html#a2d03c6c4dc963fce73446f652efb950d">CreateTwoLanesRoadGeometry</a> (const <a class="el" href="structmaliput_1_1api_1_1_lane_position_result.html">LanePositionResult</a> &amp;lane_a_pos_result, const <a class="el" href="structmaliput_1_1api_1_1_lane_position_result.html">LanePositionResult</a> &amp;lane_b_pos_result)</td></tr>
+<tr class="memdesc:a2d03c6c4dc963fce73446f652efb950d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an arbitrary two-lane <a class="el" href="classmaliput_1_1api_1_1_road_geometry.html" title="Abstract API for the geometry of a road network, including both the network topology and the geometry...">RoadGeometry</a> and each lane will return <code>lane_a_pos_result</code> and <code>lane_b_pos_result</code> when calling <a class="el" href="classmaliput_1_1api_1_1_lane.html#acda224f66653385e297534edc3e98395" title="Determines the LanePosition corresponding to InertialPosition inertial_pos.">Lane::ToLanePosition()</a> with any <a class="el" href="classmaliput_1_1api_1_1_inertial_position.html" title="A position in 3-dimensional geographical Cartesian space, i.e., in the Inertial-frame,...">InertialPosition</a>.  <a href="namespacemaliput_1_1api_1_1test.html#a2d03c6c4dc963fce73446f652efb950d">More...</a><br /></td></tr>
+<tr class="separator:a2d03c6c4dc963fce73446f652efb950d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa97c50d03ebd0e3eba4d489def2351c3"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classmaliput_1_1api_1_1_lane.html">Lane</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1test.html#aa97c50d03ebd0e3eba4d489def2351c3">CreateLane</a> (const <a class="el" href="namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">LaneId</a> &amp;id)</td></tr>
 <tr class="memdesc:aa97c50d03ebd0e3eba4d489def2351c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an aribtrary lane with <code>id</code> .  <a href="namespacemaliput_1_1api_1_1test.html#aa97c50d03ebd0e3eba4d489def2351c3">More...</a><br /></td></tr>
 <tr class="separator:aa97c50d03ebd0e3eba4d489def2351c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1240,7 +1243,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a5c45c4b17f389bc37a33fbccad327f57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c45c4b17f389bc37a33fbccad327f57">&#9670;&nbsp;</a></span>CreateTwoLanesRoadGeometry()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c45c4b17f389bc37a33fbccad327f57">&#9670;&nbsp;</a></span>CreateTwoLanesRoadGeometry() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1255,6 +1258,40 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns an arbitrary two-lane <a class="el" href="classmaliput_1_1api_1_1_road_geometry.html" title="Abstract API for the geometry of a road network, including both the network topology and the geometry...">RoadGeometry</a>. </p>
+<p>Forwards the call to <a class="el" href="namespacemaliput_1_1api_1_1test.html#a2d03c6c4dc963fce73446f652efb950d" title="Returns an arbitrary two-lane RoadGeometry and each lane will return lane_a_pos_result and lane_b_pos...">CreateTwoLanesRoadGeometry(const LanePositionResult&amp;, const LanePositionResult&amp;)</a> and provides two hardcoded LanePositionResults:</p><ul>
+<li>"lane_a": {{10., 20., 30.}, {12., 89., 1.}, 0.5}</li>
+<li>"lane_b": {{40., 50., 60.}, {50., 1., 45.}, 30.} </li>
+</ul>
+
+</div>
+</div>
+<a id="a2d03c6c4dc963fce73446f652efb950d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d03c6c4dc963fce73446f652efb950d">&#9670;&nbsp;</a></span>CreateTwoLanesRoadGeometry() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classmaliput_1_1api_1_1_road_geometry.html">RoadGeometry</a> &gt; CreateTwoLanesRoadGeometry </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmaliput_1_1api_1_1_lane_position_result.html">LanePositionResult</a> &amp;&#160;</td>
+          <td class="paramname"><em>lane_a_pos_result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structmaliput_1_1api_1_1_lane_position_result.html">LanePositionResult</a> &amp;&#160;</td>
+          <td class="paramname"><em>lane_b_pos_result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns an arbitrary two-lane <a class="el" href="classmaliput_1_1api_1_1_road_geometry.html" title="Abstract API for the geometry of a road network, including both the network topology and the geometry...">RoadGeometry</a> and each lane will return <code>lane_a_pos_result</code> and <code>lane_b_pos_result</code> when calling <a class="el" href="classmaliput_1_1api_1_1_lane.html#acda224f66653385e297534edc3e98395" title="Determines the LanePosition corresponding to InertialPosition inertial_pos.">Lane::ToLanePosition()</a> with any <a class="el" href="classmaliput_1_1api_1_1_inertial_position.html" title="A position in 3-dimensional geographical Cartesian space, i.e., in the Inertial-frame,...">InertialPosition</a>. </p>
 
 </div>
 </div>

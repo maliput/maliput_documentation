@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"phase__ring__book_8h.html":[5,0,101],
+"phase__ring__book__loader_8cc.html":[5,0,102],
 "phase__ring__book__loader_8cc.html#a265cddc5edae1f57e02d03499c4c29c5":[5,0,102,1],
 "phase__ring__book__loader_8cc.html#a965f15f535b37a8265347d8d2e5434be":[5,0,102,0],
 "phase__ring__book__loader_8h.html":[5,0,103],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "structmaliput_1_1api_1_1rules_1_1_phase_ring_1_1_next_phase.html":[4,0,0,0,0,7,0],
 "structmaliput_1_1api_1_1rules_1_1_phase_ring_1_1_next_phase.html#a596139dc82c65d2da98dec065523b777":[4,0,0,0,0,7,0,0],
 "structmaliput_1_1api_1_1rules_1_1_phase_ring_1_1_next_phase.html#aa6fa72a024a00670c921e553aa8cf3e7":[4,0,0,0,0,7,0,1],
-"structmaliput_1_1api_1_1rules_1_1_range_value_rule_1_1_range.html":[4,0,0,0,0,9,0],
-"structmaliput_1_1api_1_1rules_1_1_range_value_rule_1_1_range.html#a08c984773cd00ded6d3a572ff5426455":[4,0,0,0,0,9,0,3],
-"structmaliput_1_1api_1_1rules_1_1_range_value_rule_1_1_range.html#a0b0ede69e8156eb97acc579b88e883de":[4,0,0,0,0,9,0,7]
+"structmaliput_1_1api_1_1rules_1_1_range_value_rule_1_1_range.html":[4,0,0,0,0,9,0]
 };

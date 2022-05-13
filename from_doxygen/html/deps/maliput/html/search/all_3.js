@@ -69,7 +69,7 @@ var searchData=
   ['createspeedlimitrule_186',['CreateSpeedLimitRule',['../namespacemaliput_1_1api_1_1test.html#a464b8eb391fd0b3f1c290ebadcd3eebc',1,'maliput::api::test']]],
   ['createtrafficlight_187',['CreateTrafficLight',['../namespacemaliput_1_1api_1_1test.html#a6153b0d3869a083346188992d611145f',1,'maliput::api::test']]],
   ['createtrafficlightbook_188',['CreateTrafficLightBook',['../namespacemaliput_1_1api_1_1test.html#a64d6476b07e2711e2d73b62f3f7f8638',1,'maliput::api::test::CreateTrafficLightBook()'],['../namespacemaliput_1_1api_1_1test.html#adf94c46d007e5ff6a964475bcdc52a11',1,'maliput::api::test::CreateTrafficLightBook(const TrafficLightBookBuildFlags &amp;build_flags)']]],
-  ['createtwolanesroadgeometry_189',['CreateTwoLanesRoadGeometry',['../namespacemaliput_1_1api_1_1test.html#a5c45c4b17f389bc37a33fbccad327f57',1,'maliput::api::test']]],
+  ['createtwolanesroadgeometry_189',['CreateTwoLanesRoadGeometry',['../namespacemaliput_1_1api_1_1test.html#a5c45c4b17f389bc37a33fbccad327f57',1,'maliput::api::test::CreateTwoLanesRoadGeometry()'],['../namespacemaliput_1_1api_1_1test.html#a2d03c6c4dc963fce73446f652efb950d',1,'maliput::api::test::CreateTwoLanesRoadGeometry(const LanePositionResult &amp;lane_a_pos_result, const LanePositionResult &amp;lane_b_pos_result)']]],
   ['critical_190',['critical',['../group__levelmethods.html#ga1a9b8a013bffc28ce8587b34e653ff7f',1,'maliput::common::Logger::critical()'],['../namespacemaliput_1_1common_1_1logger.html#afde8e18a788ccc92fc61cab298bca7e3a5fe0ea375791d13455a34f3d40dc9c7d',1,'maliput::common::logger::critical()']]],
   ['cross_191',['cross',['../classmaliput_1_1math_1_1_vector3.html#acb8a5703662ce8da7a5c2f4d8bc0f270',1,'maliput::math::Vector3']]]
 ];

@@ -2521,6 +2521,13 @@
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; RoadGeometry &gt;</type>
+      <name>CreateTwoLanesRoadGeometry</name>
+      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
+      <anchor>a2d03c6c4dc963fce73446f652efb950d</anchor>
+      <arglist>(const LanePositionResult &amp;lane_a_pos_result, const LanePositionResult &amp;lane_b_pos_result)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; RoadGeometry &gt;</type>
       <name>CreateMockContiguousRoadGeometry</name>
       <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
       <anchor>a86df4889faa77e29796faedd939b9872</anchor>
@@ -2904,6 +2911,13 @@
       <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
       <anchor>a5c45c4b17f389bc37a33fbccad327f57</anchor>
       <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; RoadGeometry &gt;</type>
+      <name>CreateTwoLanesRoadGeometry</name>
+      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
+      <anchor>a2d03c6c4dc963fce73446f652efb950d</anchor>
+      <arglist>(const LanePositionResult &amp;lane_a_pos_result, const LanePositionResult &amp;lane_b_pos_result)</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; Lane &gt;</type>
@@ -15686,6 +15700,13 @@
       <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
       <anchor>a5c45c4b17f389bc37a33fbccad327f57</anchor>
       <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; RoadGeometry &gt;</type>
+      <name>CreateTwoLanesRoadGeometry</name>
+      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
+      <anchor>a2d03c6c4dc963fce73446f652efb950d</anchor>
+      <arglist>(const LanePositionResult &amp;lane_a_pos_result, const LanePositionResult &amp;lane_b_pos_result)</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; Lane &gt;</type>

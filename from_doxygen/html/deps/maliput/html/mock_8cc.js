@@ -47,6 +47,7 @@ var mock_8cc =
     [ "CreateTrafficLightBook", "mock_8cc.html#a64d6476b07e2711e2d73b62f3f7f8638", null ],
     [ "CreateTrafficLightBook", "mock_8cc.html#adf94c46d007e5ff6a964475bcdc52a11", null ],
     [ "CreateTwoLanesRoadGeometry", "mock_8cc.html#a5c45c4b17f389bc37a33fbccad327f57", null ],
+    [ "CreateTwoLanesRoadGeometry", "mock_8cc.html#a2d03c6c4dc963fce73446f652efb950d", null ],
     [ "NoYieldState", "mock_8cc.html#abc28ca8174569877ffb51fc033b4892a", null ],
     [ "RelatedBulbGroups", "mock_8cc.html#a88549b6027accd8039b7ae7d8ff826d5", null ],
     [ "YieldGroup2", "mock_8cc.html#aec9d4bffea146b49d663e7a9f8a09cba", null ],
