@@ -7,5 +7,5 @@ var searchData=
   ['boundingbox_5',['BoundingBox',['../classmaliput_1_1object_1_1_bounding_box.html',1,'BoundingBox'],['../classmaliput_1_1object_1_1_bounding_box.html#acd3dd34cee419cb908524b2adb7e85ab',1,'maliput::object::BoundingBox::BoundingBox()']]],
   ['boundingregion_6',['BoundingRegion',['../classmaliput_1_1object_1_1api_1_1_bounding_region.html',1,'BoundingRegion&lt; Coordinate &gt;'],['../classmaliput_1_1object_1_1api_1_1_bounding_region.html#a4724819589de4d9d8d0b0c523bf2626b',1,'maliput::object::api::BoundingRegion::BoundingRegion()']]],
   ['boundingregion_3c_20maliput_3a_3amath_3a_3avector3_20_3e_7',['BoundingRegion&lt; maliput::math::Vector3 &gt;',['../classmaliput_1_1object_1_1api_1_1_bounding_region.html',1,'maliput::object::api']]],
-  ['box_5fsize_8',['box_size',['../classmaliput_1_1object_1_1_bounding_box.html#aa4894f54d9e82027ba76a77555a997a9',1,'maliput::object::BoundingBox']]]
+  ['box_5fsize_8',['box_size',['../classmaliput_1_1object_1_1_bounding_box.html#a87b1e001e0f0cc3d650cec588502a0aa',1,'maliput::object::BoundingBox']]]
 ];

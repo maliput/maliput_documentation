@@ -219,7 +219,7 @@
       <type>const maliput::math::Vector3 &amp;</type>
       <name>box_size</name>
       <anchorfile>classmaliput_1_1object_1_1_bounding_box.html</anchorfile>
-      <anchor>aa4894f54d9e82027ba76a77555a997a9</anchor>
+      <anchor>a87b1e001e0f0cc3d650cec588502a0aa</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">

@@ -108,7 +108,7 @@ Inheritance diagram for BoundingBox:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acd3dd34cee419cb908524b2adb7e85ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1object_1_1_bounding_box.html#acd3dd34cee419cb908524b2adb7e85ab">BoundingBox</a> (const maliput::math::Vector3 &amp;<a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html#a7ad7a9db80533649956d66851ae47a49">position</a>, const maliput::math::Vector3 &amp;<a class="el" href="classmaliput_1_1object_1_1_bounding_box.html#aa4894f54d9e82027ba76a77555a997a9">box_size</a>, const maliput::math::RollPitchYaw &amp;orientation, double tolerance)</td></tr>
+<tr class="memitem:acd3dd34cee419cb908524b2adb7e85ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1object_1_1_bounding_box.html#acd3dd34cee419cb908524b2adb7e85ab">BoundingBox</a> (const maliput::math::Vector3 &amp;<a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html#a7ad7a9db80533649956d66851ae47a49">position</a>, const maliput::math::Vector3 &amp;<a class="el" href="classmaliput_1_1object_1_1_bounding_box.html#a87b1e001e0f0cc3d650cec588502a0aa">box_size</a>, const maliput::math::RollPitchYaw &amp;orientation, double tolerance)</td></tr>
 <tr class="memdesc:acd3dd34cee419cb908524b2adb7e85ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmaliput_1_1object_1_1_bounding_box.html" title="Implements BoundingRegion abstract class for non-axis-aligned-box-shaped bounding regions.">BoundingBox</a> object.  <a href="classmaliput_1_1object_1_1_bounding_box.html#acd3dd34cee419cb908524b2adb7e85ab">More...</a><br /></td></tr>
 <tr class="separator:acd3dd34cee419cb908524b2adb7e85ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15fb13660b3e79ef417c31551008120c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1object_1_1_bounding_box.html#a15fb13660b3e79ef417c31551008120c">~BoundingBox</a> ()=default</td></tr>
@@ -117,8 +117,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a57ea6e3585ac0e36eed756e668aa70d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb79781ac7f8c13c4b9c838fd3b9c33a"><td class="memItemLeft" align="right" valign="top">const maliput::math::RollPitchYaw &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1object_1_1_bounding_box.html#adb79781ac7f8c13c4b9c838fd3b9c33a">get_orientation</a> () const</td></tr>
 <tr class="separator:adb79781ac7f8c13c4b9c838fd3b9c33a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4894f54d9e82027ba76a77555a997a9"><td class="memItemLeft" align="right" valign="top">const maliput::math::Vector3 &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1object_1_1_bounding_box.html#aa4894f54d9e82027ba76a77555a997a9">box_size</a> () const</td></tr>
-<tr class="separator:aa4894f54d9e82027ba76a77555a997a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87b1e001e0f0cc3d650cec588502a0aa"><td class="memItemLeft" align="right" valign="top">const maliput::math::Vector3 &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1object_1_1_bounding_box.html#a87b1e001e0f0cc3d650cec588502a0aa">box_size</a> () const</td></tr>
+<tr class="separator:a87b1e001e0f0cc3d650cec588502a0aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75c8ec18202add84cf755a4c6f88a23b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1object_1_1_bounding_box.html#a75c8ec18202add84cf755a4c6f88a23b">IsBoxContained</a> (const <a class="el" href="classmaliput_1_1object_1_1_bounding_box.html">BoundingBox</a> &amp;other) const</td></tr>
 <tr class="separator:a75c8ec18202add84cf755a4c6f88a23b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c10b8796316c9f2e7ee7ac8cae9eef6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1object_1_1_bounding_box.html#a0c10b8796316c9f2e7ee7ac8cae9eef6">IsBoxIntersected</a> (const <a class="el" href="classmaliput_1_1object_1_1_bounding_box.html">BoundingBox</a> &amp;other) const</td></tr>
@@ -190,6 +190,12 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">maliput::common::assertion_error</td><td>When tolerance or any box_size's component are negative. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -219,14 +225,14 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa4894f54d9e82027ba76a77555a997a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4894f54d9e82027ba76a77555a997a9">&#9670;&nbsp;</a></span>box_size()</h2>
+<a id="a87b1e001e0f0cc3d650cec588502a0aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87b1e001e0f0cc3d650cec588502a0aa">&#9670;&nbsp;</a></span>box_size()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const maliput::math::Vector3&amp; box_size </td>
+          <td class="memname">const maliput::math::Vector3 &amp; box_size </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
