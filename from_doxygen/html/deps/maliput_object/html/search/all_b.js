@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['simple_5fobject_5fquery_2ecc_56',['simple_object_query.cc',['../simple__object__query_8cc.html',1,'']]],
-  ['simple_5fobject_5fquery_2eh_57',['simple_object_query.h',['../simple__object__query_8h.html',1,'']]],
-  ['simpleobjectquery_58',['SimpleObjectQuery',['../classmaliput_1_1object_1_1_simple_object_query.html',1,'SimpleObjectQuery'],['../classmaliput_1_1object_1_1_simple_object_query.html#a520ceb31a631e52d815e797219c7d1af',1,'maliput::object::SimpleObjectQuery::SimpleObjectQuery()']]]
+  ['removeobject_59',['RemoveObject',['../classmaliput_1_1object_1_1_manual_object_book.html#a18d651843dfe270351af98956a52b17c',1,'maliput::object::ManualObjectBook']]],
+  ['road_5fnetwork_60',['road_network',['../classmaliput_1_1object_1_1api_1_1_object_query.html#a01d9e59eb9a1d0788b0955e8ca33065b',1,'maliput::object::api::ObjectQuery']]],
+  ['route_61',['Route',['../classmaliput_1_1object_1_1api_1_1_object_query.html#a696720a779e5f39dcda3a5414ed2ed8f',1,'maliput::object::api::ObjectQuery']]]
 ];

@@ -29,6 +29,51 @@
     <namespace>maliput::object::api</namespace>
   </compound>
   <compound kind="file">
+    <name>loader.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/src/loader/</path>
+    <filename>loader_8cc.html</filename>
+    <includes id="loader_8h" name="loader.h" local="yes" imported="no">maliput_object/loader/loader.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::object</namespace>
+    <namespace>maliput::object::loader</namespace>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::object::api::ObjectBook&lt; maliput::math::Vector3 &gt; &gt;</type>
+      <name>Load</name>
+      <anchorfile>namespacemaliput_1_1object_1_1loader.html</anchorfile>
+      <anchor>a5523995a8d36e2e6c2dc929f78ec594d</anchor>
+      <arglist>(const std::string &amp;input)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::object::api::ObjectBook&lt; maliput::math::Vector3 &gt; &gt;</type>
+      <name>LoadFile</name>
+      <anchorfile>namespacemaliput_1_1object_1_1loader.html</anchorfile>
+      <anchor>a027e1ac05a7f004ad4d74a7980c90dcb</anchor>
+      <arglist>(const std::string &amp;filename)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>loader.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/include/maliput_object/loader/</path>
+    <filename>loader_8h.html</filename>
+    <namespace>maliput</namespace>
+    <namespace>maliput::object</namespace>
+    <namespace>maliput::object::loader</namespace>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::object::api::ObjectBook&lt; maliput::math::Vector3 &gt; &gt;</type>
+      <name>Load</name>
+      <anchorfile>namespacemaliput_1_1object_1_1loader.html</anchorfile>
+      <anchor>a5523995a8d36e2e6c2dc929f78ec594d</anchor>
+      <arglist>(const std::string &amp;input)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::object::api::ObjectBook&lt; maliput::math::Vector3 &gt; &gt;</type>
+      <name>LoadFile</name>
+      <anchorfile>namespacemaliput_1_1object_1_1loader.html</anchorfile>
+      <anchor>a027e1ac05a7f004ad4d74a7980c90dcb</anchor>
+      <arglist>(const std::string &amp;filename)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>manual_object_book.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/src/base/</path>
     <filename>manual__object__book_8cc.html</filename>
@@ -692,6 +737,7 @@
     <name>maliput::object</name>
     <filename>namespacemaliput_1_1object.html</filename>
     <namespace>maliput::object::api</namespace>
+    <namespace>maliput::object::loader</namespace>
     <namespace>maliput::object::test_utilities</namespace>
     <class kind="class">maliput::object::BoundingBox</class>
     <class kind="class">maliput::object::ManualObjectBook</class>
@@ -730,10 +776,36 @@
     </member>
   </compound>
   <compound kind="namespace">
+    <name>maliput::object::loader</name>
+    <filename>namespacemaliput_1_1object_1_1loader.html</filename>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::object::api::ObjectBook&lt; maliput::math::Vector3 &gt; &gt;</type>
+      <name>Load</name>
+      <anchorfile>namespacemaliput_1_1object_1_1loader.html</anchorfile>
+      <anchor>a5523995a8d36e2e6c2dc929f78ec594d</anchor>
+      <arglist>(const std::string &amp;input)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::object::api::ObjectBook&lt; maliput::math::Vector3 &gt; &gt;</type>
+      <name>LoadFile</name>
+      <anchorfile>namespacemaliput_1_1object_1_1loader.html</anchorfile>
+      <anchor>a027e1ac05a7f004ad4d74a7980c90dcb</anchor>
+      <arglist>(const std::string &amp;filename)</arglist>
+    </member>
+  </compound>
+  <compound kind="namespace">
     <name>maliput::object::test_utilities</name>
     <filename>namespacemaliput_1_1object_1_1test__utilities.html</filename>
     <class kind="class">maliput::object::test_utilities::MockBoundingRegion</class>
     <class kind="class">maliput::object::test_utilities::MockObjectBook</class>
     <class kind="class">maliput::object::test_utilities::MockObjectQuery</class>
+  </compound>
+  <compound kind="page">
+    <name>maliput_object_yaml_spec</name>
+    <title>Maliput Object YAML specification</title>
+    <filename>maliput_object_yaml_spec</filename>
+    <docanchor file="maliput_object_yaml_spec.html" title="YAML format specification for objects">maliput_object_yaml</docanchor>
+    <docanchor file="maliput_object_yaml_spec.html" title="YAML format">maliput_object_yaml_format</docanchor>
+    <docanchor file="maliput_object_yaml_spec.html" title="Entities">maliput_object_yaml_entities</docanchor>
   </compound>
 </tagfile>

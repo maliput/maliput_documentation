@@ -23,6 +23,13 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "maliput_object", "index.html", [
+    [ "Maliput Object YAML specification", "maliput_object_yaml_spec.html", [
+      [ "YAML format specification for objects", "maliput_object_yaml_spec.html#maliput_object_yaml", [
+        [ "YAML format", "maliput_object_yaml_spec.html#maliput_object_yaml_format", [
+          [ "Entities", "maliput_object_yaml_spec.html#maliput_object_yaml_entities", null ]
+        ] ]
+      ] ]
+    ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [

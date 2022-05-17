@@ -7,6 +7,8 @@ var files_dup =
     [ "bounding_region.h", "bounding__region_8h.html", [
       [ "BoundingRegion", "classmaliput_1_1object_1_1api_1_1_bounding_region.html", "classmaliput_1_1object_1_1api_1_1_bounding_region" ]
     ] ],
+    [ "loader.cc", "loader_8cc.html", "loader_8cc" ],
+    [ "loader.h", "loader_8h.html", "loader_8h" ],
     [ "manual_object_book.cc", "manual__object__book_8cc.html", null ],
     [ "manual_object_book.h", "manual__object__book_8h.html", [
       [ "ManualObjectBook", "classmaliput_1_1object_1_1_manual_object_book.html", "classmaliput_1_1object_1_1_manual_object_book" ]
