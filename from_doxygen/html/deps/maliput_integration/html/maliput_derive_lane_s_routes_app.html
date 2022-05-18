@@ -99,9 +99,9 @@ $(document).ready(function(){initNavTree('maliput_derive_lane_s_routes_app.html'
 <li>Using a configuration file: <code>--config_file</code> flag should be used and pass a yaml file path that contains: <div class="fragment"><div class="line"># -*- yaml -*-</div>
 <div class="line">---</div>
 <div class="line"># If using malidrive backend:</div>
-<div class="line">xodr_file: src/maliput_malidrive/maliput_malidrive/resources/TShapeRoad.xodr</div>
+<div class="line">xodr_file: TShapeRoad.xodr</div>
 <div class="line"># If using multilane backend:</div>
-<div class="line">yaml_file: src/maliput_multilane/resources/2x2_intersection.yaml</div>
+<div class="line">yaml_file: 2x2_intersection.yaml</div>
 <div class="line"> </div>
 <div class="line">max_length: 100</div>
 <div class="line">waypoints:</div>
@@ -112,9 +112,9 @@ $(document).ready(function(){initNavTree('maliput_derive_lane_s_routes_app.html'
 <div class="line">--end_waypoint=&quot;{47.5, -49, 0}&quot;</div>
 <div class="line">--max_length=100</div>
 <div class="line"># For malidrive backend</div>
-<div class="line">--xodr_file_path=src/maliput_malidrive/maliput_malidrive/resources/TShapeRoad.xodr</div>
+<div class="line">--xodr_file_path=TShapeRoad.xodr</div>
 <div class="line"># For multilane backend</div>
-<div class="line">--yaml_file: src/maliput_multilane/maliput_multilane/resources/2x2_intersection.yaml</div>
+<div class="line">--yaml_file: 2x2_intersection.yaml</div>
 </div><!-- fragment --></li>
 </ul>
 <p><em>Note: The configuration file method will be prioritized when flags are mixed up.</em></p>
@@ -137,7 +137,7 @@ $(document).ready(function(){initNavTree('maliput_derive_lane_s_routes_app.html'
 </div><!-- fragment --><p>or </p><div class="fragment"><div class="line">$ maliput_derive_lane_s_routes --maliput_backend=malidrive --config_file=&lt;path_to_config_yaml_file&gt;</div>
 </div><!-- fragment --><p>with the configuration <a class="el" href="namespace_y_a_m_l.html">YAML</a> file being: </p><div class="fragment"><div class="line"># -*- yaml -*-</div>
 <div class="line">---</div>
-<div class="line">xodr_file: src/maliput_malidrive/maliput_malidrive/resources/TShapeRoad.xodr</div>
+<div class="line">xodr_file: TShapeRoad.xodr</div>
 <div class="line">max_length: 100</div>
 <div class="line">waypoints:</div>
 <div class="line">  - [0.0, -2.0, 0.0]</div>
@@ -169,7 +169,7 @@ $(document).ready(function(){initNavTree('maliput_derive_lane_s_routes_app.html'
 <div class="fragment"><div class="line">maliput_derive_lane_s_routes --maliput_backend=malidrive --config_file=&lt;path_to_config_yaml_file&gt;</div>
 </div><!-- fragment --><p>with the configuration <a class="el" href="namespace_y_a_m_l.html">YAML</a> file being: </p><div class="fragment"><div class="line"># -*- yaml -*-</div>
 <div class="line">---</div>
-<div class="line">yaml_file: src/maliput_multilane/resources/2x2_intersection.yaml</div>
+<div class="line">yaml_file: 2x2_intersection.yaml</div>
 <div class="line">max_length: 100</div>
 <div class="line">waypoints:</div>
 <div class="line">  - [-50.0, -2.0, 0.0]</div>

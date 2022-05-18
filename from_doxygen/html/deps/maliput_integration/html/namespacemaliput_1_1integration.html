@@ -165,6 +165,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aba2a84485c4b79268ccb50791e61fb3c"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">api::RoadNetwork</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1integration.html#aba2a84485c4b79268ccb50791e61fb3c">LoadRoadNetwork</a> (<a class="el" href="namespacemaliput_1_1integration.html#a78ee0565a11069e8c15b544bb43dd841">MaliputImplementation</a> maliput_implementation, const <a class="el" href="structmaliput_1_1integration_1_1_dragway_build_properties.html">DragwayBuildProperties</a> &amp;dragway_build_properties, const <a class="el" href="structmaliput_1_1integration_1_1_multilane_build_properties.html">MultilaneBuildProperties</a> &amp;multilane_build_properties, const <a class="el" href="structmaliput_1_1integration_1_1_malidrive_build_properties.html">MalidriveBuildProperties</a> &amp;malidrive_build_properties)</td></tr>
 <tr class="memdesc:aba2a84485c4b79268ccb50791e61fb3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds an <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">api::RoadNetwork</a> using the implementation that <code>maliput_implementation</code> describes.  <a href="namespacemaliput_1_1integration.html#aba2a84485c4b79268ccb50791e61fb3c">More...</a><br /></td></tr>
 <tr class="separator:aba2a84485c4b79268ccb50791e61fb3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56de39bdff3e0d4a4275fa75090a76c4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1integration.html#a56de39bdff3e0d4a4275fa75090a76c4">GetResource</a> (const <a class="el" href="namespacemaliput_1_1integration.html#a78ee0565a11069e8c15b544bb43dd841">MaliputImplementation</a> &amp;maliput_implementation, const std::string &amp;resource_name)</td></tr>
+<tr class="memdesc:a56de39bdff3e0d4a4275fa75090a76c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtains the correspondent path to the <code>resource_name</code> located at the maliput's implementation's resource directory if exists, otherwise it returns <code>resource_name</code> .  <a href="namespacemaliput_1_1integration.html#a56de39bdff3e0d4a4275fa75090a76c4">More...</a><br /></td></tr>
+<tr class="separator:a56de39bdff3e0d4a4275fa75090a76c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a2b9f7053e5b39f01c5ea712086096b34"></a>
@@ -412,6 +415,49 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="classmaliput_1_1integration_1_1_timer.html" title="Simple Timer API.">Timer</a> instance based on the selected implementation. </dd></dl>
+
+</div>
+</div>
+<a id="a56de39bdff3e0d4a4275fa75090a76c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56de39bdff3e0d4a4275fa75090a76c4">&#9670;&nbsp;</a></span>GetResource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string GetResource </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacemaliput_1_1integration.html#a78ee0565a11069e8c15b544bb43dd841">MaliputImplementation</a> &amp;&#160;</td>
+          <td class="paramname"><em>maliput_implementation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>resource_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Obtains the correspondent path to the <code>resource_name</code> located at the maliput's implementation's resource directory if exists, otherwise it returns <code>resource_name</code> . </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">maliput_implementation</td><td>One of MaliputImplementation. (kDragway, kMultilane, kMalidrive). </td></tr>
+    <tr><td class="paramname">resource_name</td><td>Name of the resource. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><ul>
+<li><code>resource_name</code> when <code>resource_name</code> is an absolute path.</li>
+<li>The full path to <code>resource_name</code> when <code>resource_name</code> is relative path and it is found at the maliput's implementation's resource folder</li>
+<li><code>resource_name</code> when <code>resource_name</code> is relative path but it isn't found at the malidrive resource folder. </li>
+</ul>
+</dd></dl>
 
 </div>
 </div>

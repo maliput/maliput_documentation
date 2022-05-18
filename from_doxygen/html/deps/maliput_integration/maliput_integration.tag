@@ -819,6 +819,13 @@
       <anchor>aba2a84485c4b79268ccb50791e61fb3c</anchor>
       <arglist>(MaliputImplementation maliput_implementation, const DragwayBuildProperties &amp;dragway_build_properties, const MultilaneBuildProperties &amp;multilane_build_properties, const MalidriveBuildProperties &amp;malidrive_build_properties)</arglist>
     </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>GetResource</name>
+      <anchorfile>namespacemaliput_1_1integration.html</anchorfile>
+      <anchor>a56de39bdff3e0d4a4275fa75090a76c4</anchor>
+      <arglist>(const MaliputImplementation &amp;maliput_implementation, const std::string &amp;resource_name)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>tools.h</name>
@@ -880,6 +887,13 @@
       <anchorfile>namespacemaliput_1_1integration.html</anchorfile>
       <anchor>aba2a84485c4b79268ccb50791e61fb3c</anchor>
       <arglist>(MaliputImplementation maliput_implementation, const DragwayBuildProperties &amp;dragway_build_properties, const MultilaneBuildProperties &amp;multilane_build_properties, const MalidriveBuildProperties &amp;malidrive_build_properties)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>GetResource</name>
+      <anchorfile>namespacemaliput_1_1integration.html</anchorfile>
+      <anchor>a56de39bdff3e0d4a4275fa75090a76c4</anchor>
+      <arglist>(const MaliputImplementation &amp;maliput_implementation, const std::string &amp;resource_name)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -1258,6 +1272,13 @@
       <anchorfile>namespacemaliput_1_1integration.html</anchorfile>
       <anchor>aba2a84485c4b79268ccb50791e61fb3c</anchor>
       <arglist>(MaliputImplementation maliput_implementation, const DragwayBuildProperties &amp;dragway_build_properties, const MultilaneBuildProperties &amp;multilane_build_properties, const MalidriveBuildProperties &amp;malidrive_build_properties)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>GetResource</name>
+      <anchorfile>namespacemaliput_1_1integration.html</anchorfile>
+      <anchor>a56de39bdff3e0d4a4275fa75090a76c4</anchor>
+      <arglist>(const MaliputImplementation &amp;maliput_implementation, const std::string &amp;resource_name)</arglist>
     </member>
   </compound>
   <compound kind="namespace">
