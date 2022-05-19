@@ -23,7 +23,7 @@ Supported platforms
   since that represents a security risk
   (`it is equivalent to password-less sudo <https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user>`_).
   As a workaround, the instructions below use ``sudo`` for building the image and running the container.
-* Non-containerized workspaces: Ubuntu Bionic Beaver 18.04 LTS only.
+* Non-containerized workspaces: Ubuntu Focal Fossa 20.04 LTS only.
 
 Prerequisites
 -------------
@@ -34,12 +34,6 @@ Prerequisites
 
       git clone git@github.com:ToyotaResearchInstitute/maliput_infrastructure.git
 
-
-* To get all the necessary ``.repos`` files, clone ``repos_index`` locally.
-
-.. code-block:: sh
-
-      git clone git@github.com:ToyotaResearchInstitute/repos_index.git
 
 * To pull private repositories, the current user default SSH keys will be used
   (and thus assumed as both necessary and sufficient for the purpose).
@@ -52,14 +46,13 @@ Workspace creation
 
 The following assumes that you want to create a workspace containing all of Maliput's repositories, with a focus on
 Maliput and Malidrive development. As such, it uses a workspace directory named ``maliput_ws`` and pulls
-sources from `dashing/maliput.repos <hhttps://github.com/ToyotaResearchInstitute/repos_index/blob/main/dashing/maliput.repos>`_
-or `foxy/maliput.repos <hhttps://github.com/ToyotaResearchInstitute/repos_index/blob/main/foxy/maliput.repos>`_.
+sources from `foxy/maliput.repos <https://github.com/ToyotaResearchInstitute/maliput_infrastructure/blob/main/repos_index/foxy/maliput.repos>`_.
 
-If you are using ROS 2 Foxy, the instructions also cover how to optionally add ``delphyne`` repositories into your
+The instructions also cover how to optionally add ``delphyne`` repositories into your
 workspace. These repositories include a simulator and visualizer useful when working with Maliput road networks.
 
 The instructions below first cover how to create a non-containerized workspace, followed by a containerized workspace.
-Note that using a containerized workspace is recommended.
+**Note that using a containerized workspace is recommended**.
 
 .. _create-a-non-containerized-workspace:
 
@@ -89,24 +82,18 @@ Create the workspace folder
 Copy .repos file
 """"""""""""""""
 
-**For ROS 2 Dashing:** copy ``repos_index/dashing/maliput.repos`` into ``maliput_ws``. It will be used to add the Maliput-related repositories to the workspace.
+copy ``maliput_infrastructure/repos_index/foxy/maliput.repos`` into ``maliput_ws``. It will be used to add the Maliput-related repositories to the workspace.
 
 .. code-block:: sh
 
-    cp repos_index/dashing/maliput.repos maliput_ws/
-
-**For ROS 2 Foxy:** copy ``repos_index/foxy/maliput.repos`` into ``maliput_ws``. It will be used to add the Maliput-related repositories to the workspace.
-
-.. code-block:: sh
-
-    cp repos_index/foxy/maliput.repos maliput_ws/
+    cp maliput_infrastructure/repos_index/foxy/maliput.repos maliput_ws/
 
 .. Note::
-  If you are using ROS 2 Foxy, you can optionally add Delphyne-related repositories to your workspace:
+  You can optionally add Delphyne-related repositories to your workspace:
 
   .. code-block:: sh
 
-      cp repos_index/foxy/delphyne.repos maliput_ws/
+      cp maliput_infrastructure/repos_index/foxy/delphyne.repos maliput_ws/
 
 
 Install dependencies
@@ -147,12 +134,6 @@ First update the ``ROS_DISTRO`` environment variable with your ``ros2`` version,
 
 .. code-block:: sh
 
-      export ROS_DISTRO=dashing
-
-Alternatively, when working with ``foxy``, you could do:
-
-.. code-block:: sh
-
       export ROS_DISTRO=foxy
 
 
@@ -160,18 +141,6 @@ Alternatively, when working with ``foxy``, you could do:
 
 Install dependencies via ``rosdep``
 """""""""""""""""""""""""""""""""""
-
-**For dashing**
-
-.. code-block:: sh
-
-    rosdep update --include-eol-distros
-    rosdep install -i -y --rosdistro $ROS_DISTRO --skip-keys "pybind11" --from-paths src
-
-
-As you can see, ``--include-eol-distros`` is necessary to discover the ROS2-EOL ``dashing`` distribution.
-
-**For foxy**
 
 .. code-block:: sh
 
@@ -190,7 +159,7 @@ As you can see, ``--include-eol-distros`` is necessary to discover the ROS2-EOL 
 Install drake
 """""""""""""
 
-Run the following command only if you are in **foxy** and using ``delphyne.repos``, otherwise it will fail because
+Installing drake is **only** necessary when working with ``delphyne.repos``, otherwise it will fail because
 ``drake_vendor`` is not in the workspace.
 
 .. code-block:: sh
@@ -238,9 +207,9 @@ If you are using nvidia-docker2 add the ``--nvidia`` option.
 .. note::
   ``build.sh --help`` for more options:
 
-    #. ``-i`` ``--image_name``   Name of the image to be built (default maliput_ws_ubuntu_bionic).
+    #. ``-i`` ``--image_name``   Name of the image to be built (default maliput_ws_ubuntu_focal).
     #. ``-w`` ``--workspace_name``   Name of the workspace folder (default maliput_ws).
-    #. ``-o`` ``--os`` OS version. It could be bionic or focal (default is bionic).
+    #. ``-o`` ``--os`` OS version. It could be bionic or focal (default is focal).
 
 
 
@@ -269,9 +238,9 @@ If you are using nvidia-docker2 add the ``--nvidia`` option.
 .. note::
   ``run.sh --help`` for more options:
 
-    #. ``-i`` ``--image_name`` Name of the image to be run (default maliput_ws_ubuntu_bionic).
-    #. ``-c`` ``--container_name`` Name of the container(default maliput_ws_bionic).
-    #. ``-o`` ``--os`` OS version. It could be bionic or focal (default is bionic).
+    #. ``-i`` ``--image_name`` Name of the image to be run (default maliput_ws_ubuntu_focal).
+    #. ``-c`` ``--container_name`` Name of the container(default maliput_ws_focal).
+    #. ``-o`` ``--os`` OS version. It could be bionic or focal (default is focal).
     #. ``-w`` ``--workspace``  Relative or absolute path to the workspace you want to bind (default to location of maliput_infrastructure folder).
 
 .. _install-dependencies:
@@ -544,14 +513,14 @@ for further details.
 Several binary underlays are available for download and installation:
 
 
-* ``dsim-desktop-YYYYMMDD-bionic-tar.gz``
+* ``dsim-desktop-YYYYMMDD-focal-tar.gz``
 
-  Built nightly, targeting Ubuntu Bionic 18.04 LTS. Contains all known packages in all our repositories as of
+  Built nightly, targeting Ubuntu Focal 20.04 LTS. Contains all known packages in all our repositories as of
   the specified date (DD/MM/YYYY). To be found at ``s3://driving-sim/projects/maliput/packages/nightlies/``.
 
-* ``dsim-desktop-latest-bionic.tar.gz``
+* ``dsim-desktop-latest-focal.tar.gz``
 
-  Built nightly, targeting Ubuntu Bionic 18.04 LTS. Contains the most recent versions of all packages known in
+  Built nightly, targeting Ubuntu Focal 20.04 LTS. Contains the most recent versions of all packages known in
   all our repositories. To be found at ``s3://driving-sim/projects/maliput/packages/nightlies/``.
 
 In the following, it is assumed that you want to use a full ``dsim-desktop`` underlay for working on a
@@ -566,8 +535,8 @@ Download the binary underlay tarball of choice from dsim's S3 bucket
 
 .. code-block:: sh
 
-    aws s3 cp s3://driving-sim/projects/maliput/packages/nightlies/dsim-desktop-latest-bionic.tar.gz \
-        /path/to/workspace/dsim-desktop-latest-bionic.tar.gz
+    aws s3 cp s3://driving-sim/projects/maliput/packages/nightlies/dsim-desktop-latest-focal.tar.gz \
+        /path/to/workspace/dsim-desktop-latest-focal.tar.gz
 
 It is assumed that you have the right AWS credentials configured in your system.
 See `AWS CLI user guide to configuration <https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html>`_ for further reference.
@@ -603,16 +572,6 @@ Install prerequisites
 Install all underlay packages' dependencies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**For dashing**
-
-Note that this is only required in old (previous to 2021-08-09) tarballs.
-
-.. code-block:: sh
-
-    export ROS_DISTRO=dashing
-    rosdep update --include-eol-distros
-    rosdep install -i -y --rosdistro $ROS_DISTRO --skip-keys "ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui3 ignition-rendering3 pybind11" --from-paths /opt/dsim-desktop/*
-
 **For foxy**
 
 .. code-block:: sh
@@ -632,33 +591,6 @@ Install drake
     cd /opt/dsim-desktop
     ./drake_vendor/bin/drake_installer -f drake_vendor/share/VERSION.TXT
 
-.. _install-underlay-ignition:
-
-Install ignition binaries
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-**For dashing only**
-
-Note that this is only required in old (previous to 2021-08-09) tarballs.
-
-.. code-block:: sh
-
-    echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" | \
-         sudo tee --append /etc/apt/sources.list.d/gazebo-stable.list
-    sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys D2486D2DD83DB69272AFE98867170598AF249743
-
-    sudo apt update
-    sudo apt -y install --no-install-recommends \
-                   libignition-common3-dev \
-                   libignition-math6-dev \
-                   libignition-msgs5-dev \
-                   libignition-tools-dev \
-                   libignition-cmake2-dev \
-                   libignition-rendering3-dev \
-                   libignition-gui3-dev \
-                   libignition-transport8-dev
-
-It might be the case that the command ``apt-key adv`` fails. Consider using other key servers like ``hkp://pgp.mit.edu:80`` or ``hkp://keyserver.ubuntu.com:80`` to effectively run that command.
 
 From then on, before building the workspace, you must source the underlay as follows:
 
