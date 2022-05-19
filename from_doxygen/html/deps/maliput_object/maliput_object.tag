@@ -33,6 +33,10 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/src/loader/</path>
     <filename>loader_8cc.html</filename>
     <includes id="loader_8h" name="loader.h" local="yes" imported="no">maliput_object/loader/loader.h</includes>
+    <includes id="object_8h" name="object.h" local="yes" imported="no">maliput_object/api/object.h</includes>
+    <includes id="bounding__box_8h" name="bounding_box.h" local="yes" imported="no">maliput_object/base/bounding_box.h</includes>
+    <includes id="manual__object__book_8h" name="manual_object_book.h" local="yes" imported="no">maliput_object/base/manual_object_book.h</includes>
+    <namespace>YAML</namespace>
     <namespace>maliput</namespace>
     <namespace>maliput::object</namespace>
     <namespace>maliput::object::loader</namespace>
@@ -55,6 +59,7 @@
     <name>loader.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/include/maliput_object/loader/</path>
     <filename>loader_8h.html</filename>
+    <includes id="object__book_8h" name="object_book.h" local="yes" imported="no">maliput_object/api/object_book.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::object</namespace>
     <namespace>maliput::object::loader</namespace>
@@ -799,6 +804,10 @@
     <class kind="class">maliput::object::test_utilities::MockBoundingRegion</class>
     <class kind="class">maliput::object::test_utilities::MockObjectBook</class>
     <class kind="class">maliput::object::test_utilities::MockObjectQuery</class>
+  </compound>
+  <compound kind="namespace">
+    <name>YAML</name>
+    <filename>namespace_y_a_m_l.html</filename>
   </compound>
   <compound kind="page">
     <name>maliput_object_yaml_spec</name>
