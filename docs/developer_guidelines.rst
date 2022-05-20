@@ -348,7 +348,7 @@ Every new major release will provide:
 - Updated ``maliput_rolling.repos`` file when appropriate (new major release,
   update to latest minor release or patch release).
 - New ``maliput_<name>.repos`` file.
-- Updated tarball in S3 bucket with the following name pattern: ``maliput_ws_<name>_YYYYMMDD_bionic.tar.gz``
+- Updated tarball in S3 bucket with the following name pattern: ``maliput_ws_<name>_YYYYMMDD_focal.tar.gz``
   where ``name`` is the release name and ``YYYYMMDD`` is the release date (see
   :ref:`create-a-named-release-tarball` ).
 
@@ -456,6 +456,6 @@ To generate the tarball:
     cd /path/to/maliput_ws
     export BUNDLE_NAME=maliput_ws_name
     mv install ${BUNDLE_NAME};
-    CURRENT_BUNDLE_TARBALL_NAME="${BUNDLE_NAME}_$(date +%Y%m%d)_bionic.tar.gz"
+    CURRENT_BUNDLE_TARBALL_NAME="${BUNDLE_NAME}_$(date +%Y%m%d)_focal.tar.gz"
     tar -czvf ${CURRENT_BUNDLE_TARBALL_NAME} ${BUNDLE_NAME}
 
