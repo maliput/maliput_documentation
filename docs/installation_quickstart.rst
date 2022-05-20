@@ -209,7 +209,6 @@ If you are using nvidia-docker2 add the ``--nvidia`` option.
 
     #. ``-i`` ``--image_name``   Name of the image to be built (default maliput_ws_ubuntu_focal).
     #. ``-w`` ``--workspace_name``   Name of the workspace folder (default maliput_ws).
-    #. ``-o`` ``--os`` OS version. It could be bionic or focal (default is focal).
 
 
 
@@ -240,7 +239,6 @@ If you are using nvidia-docker2 add the ``--nvidia`` option.
 
     #. ``-i`` ``--image_name`` Name of the image to be run (default maliput_ws_ubuntu_focal).
     #. ``-c`` ``--container_name`` Name of the container(default maliput_ws_focal).
-    #. ``-o`` ``--os`` OS version. It could be bionic or focal (default is focal).
     #. ``-w`` ``--workspace``  Relative or absolute path to the workspace you want to bind (default to location of maliput_infrastructure folder).
 
 .. _install-dependencies:
@@ -455,9 +453,9 @@ Containerized workspace could be deleted simply deleting the docker image:
 
 .. code-block:: sh
 
-       docker rmi maliput_ws_ubuntu_bionic
+       docker rmi maliput_ws_ubuntu_focal
 
-Consider replacing ``maliput_ws_ubuntu_bionic`` by your image name when using a custom one.
+Consider replacing ``maliput_ws_ubuntu_focal`` by your image name when using a custom one.
 
 .. _contributing:
 
@@ -549,7 +547,7 @@ Extract binary underlay tarball
 .. code-block:: sh
 
     sudo mkdir -p /opt/dsim-desktop
-    sudo tar -zxvf dsim-desktop-latest-bionic.tar.gz -C /opt/dsim-desktop --strip 1
+    sudo tar -zxvf dsim-desktop-latest-focal.tar.gz -C /opt/dsim-desktop --strip 1
 
 .. _install-underlay-prerequisites:
 
