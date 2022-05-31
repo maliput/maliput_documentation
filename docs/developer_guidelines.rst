@@ -1,3 +1,5 @@
+.. _developer_guidelines_label:
+
 ********************
 Developer guidelines
 ********************

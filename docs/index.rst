@@ -12,6 +12,7 @@ Welcome to maliput documentation!
    api_documentation
    roadmap
    contributing
+   code_of_conduct
    developer_guidelines
    developer_setup
 
