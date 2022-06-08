@@ -17,13 +17,14 @@
   <build_depend>delphyne_gui</build_depend>
   <build_depend>delphyne_demos</build_depend>
   <build_depend>maliput</build_depend>
-  <build_depend>maliput_object</build_depend>
-  <build_depend>maliput_py</build_depend>
   <build_depend>maliput_dragway</build_depend>
   <build_depend>maliput_integration</build_depend>
   <build_depend>maliput_integration_tests</build_depend>
   <build_depend>maliput_malidrive</build_depend>
   <build_depend>maliput_multilane</build_depend>
+  <build_depend>maliput_object</build_depend>
+  <build_depend>maliput_object_py</build_depend>
+  <build_depend>maliput_py</build_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
