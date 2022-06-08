@@ -61,6 +61,7 @@ jobs:
       working-directory: ${{ env.ROS_WS }}
       run: |
         . /opt/ros/${ROS_DISTRO}/setup.bash;
+        . install/setup.bash;
         colcon build --packages-up-to ${PACKAGE_NAME} --packages-skip ament_cmake_doxygen --cmake-args " -DBUILD_DOCS=On" --event-handlers=console_direct+;
     # checkout to gh-pages
     - uses: actions/checkout@v2
