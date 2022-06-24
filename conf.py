@@ -57,7 +57,7 @@ language = 'en'
 exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+# pygments_style = 'sphinx'
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -68,7 +68,7 @@ html_title = "Maliput Documentation"
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'pyramid'
+# html_theme = 'pyramid'
 
 html_extra_path = ['media/gallery/us2_single_lane.webm',
                    'media/gallery/us3_arc_lane.webm',
@@ -81,7 +81,8 @@ html_extra_path = ['media/gallery/us2_single_lane.webm',
                    'media/gallery/us10_line_variable_width.webm',
                    'media/gallery/us12_line_variable_offset.webm',
                    'media/gallery/town05.webm',
-                   'media/gallery/town07.webm']
+                   'media/gallery/town07.webm',
+                   'from_doxygen/*']
 
 # Icon of the window.
 # html_favicon = 'm_icon_24x24.ico'
