@@ -70,19 +70,27 @@ html_title = "Maliput Documentation"
 #
 # html_theme = 'pyramid'
 
-html_extra_path = ['media/gallery/us2_single_lane.webm',
-                   'media/gallery/us3_arc_lane.webm',
-                   'media/gallery/us4_s_shape_road.webm',
-                   'media/gallery/us5_l_shape_road.webm',
-                   'media/gallery/us6_t_shape_road.webm',
-                   'media/gallery/us7_line_multiple_sections.webm',
-                   'media/gallery/us8_parking_garage_ramp.webm',
-                   'media/gallery/us9_s_shape_superelevated_road.webm',
-                   'media/gallery/us10_line_variable_width.webm',
-                   'media/gallery/us12_line_variable_offset.webm',
-                   'media/gallery/town05.webm',
-                   'media/gallery/town07.webm',
-                   'from_doxygen/*']
+html_extra_path = list()
+for (dirpath, dirnames, filenames) in os.walk("media"):
+    for filename in filenames:
+      html_extra_path.append(dirpath + "/" + filename)
+for (dirpath, dirnames, filenames) in os.walk("from_doxygen"):
+    for filename in filenames:
+      html_extra_path.append(dirpath + "/" + filename)
+
+# html_extra_path = ['media/gallery/us2_single_lane.webm',
+#                    'media/gallery/us3_arc_lane.webm',
+#                    'media/gallery/us4_s_shape_road.webm',
+#                    'media/gallery/us5_l_shape_road.webm',
+#                    'media/gallery/us6_t_shape_road.webm',
+#                    'media/gallery/us7_line_multiple_sections.webm',
+#                    'media/gallery/us8_parking_garage_ramp.webm',
+#                    'media/gallery/us9_s_shape_superelevated_road.webm',
+#                    'media/gallery/us10_line_variable_width.webm',
+#                    'media/gallery/us12_line_variable_offset.webm',
+#                    'media/gallery/town05.webm',
+#                    'media/gallery/town07.webm',
+#                    'from_doxygen/*']
 
 # Icon of the window.
 # html_favicon = 'm_icon_24x24.ico'
