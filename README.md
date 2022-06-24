@@ -6,10 +6,12 @@
 
 Documentation and Changelog for Maliput & family.
 
-# Introduction
+# Summary
 
-Maliput's documentation is generated using [Sphinx](https://www.sphinx-doc.org/en/master/) using information gathered
-from:
+Maliput's documentation is generated using [readthedocs](https://readthedocs.org/).
+The documentation is prepared and served in this repository, in order to be built using [Sphinx](https://www.sphinx-doc.org/en/master/) later on on [readthedocs](https://readthedocs.org/).
+
+Code documentation from all the packages are collected via Doxygen. Those packages are:
  - [maliput](https://github.com/ToyotaResearchInstitute/maliput)
  - [maliput_py](https://github.com/ToyotaResearchInstitute/maliput_py)
  - [maliput_object](https://github.com/ToyotaResearchInstitute/maliput_object)
@@ -22,6 +24,8 @@ from:
  - [delphyne_gui](https://github.com/ToyotaResearchInstitute/delphyne_gui)
  - [delphyne_demos](https://github.com/ToyotaResearchInstitute/delphyne_demos)
 
+The ready-to-build documentation is pushed to `rtd-pages` branch in a daily basis. [readthedocs](https://readthedocs.org/) takes over from there
+and updates the online documentation.
 
 # Build documentation
 
@@ -31,16 +35,29 @@ from:
 
 __Note:__ As `maliput_documentation` depends on `delphyne` repos mind following the instructions for adding them.
 
+ * Sphinx must be installed, if not:
+  ```sh
+    apt-get install python3-sphinx
+  ```
 
-## Build
+## Build maliput_documentation package
 
 ```sh
   colcon build --packages-up-to maliput_documentation --cmake-args " -DBUILD_DOCS=On"
 ```
+This will prepare and install the files required to later on be built using `sphinx-build`.
+
+## Build Sphinx docs
+
+Run `sphinx-build` command:
+```sh
+sphinx-build install/maliput_documentation/share/docs output
+```
+
+The HTML pages are located in the `output` folder.
 
 # Visualize
 
-When building the workspace, the generated documentation is saved in `build/maliput_documentation/docs/docs/sphinx`.
 To visualize it, open `index.html` using your preferred browser.
 
 _Note:_ If your workspace is containerized, execute the following *outside of your container*. This is because
@@ -49,7 +66,7 @@ _Note:_ If your workspace is containerized, execute the following *outside of yo
 From the workspace root:
 
 ```sh
-xdg-open build/maliput_documentation/docs/docs/sphinx/index.html
+xdg-open output/index.html
 ```
 
 If you encounter an error saying `xdg-open` is not installed, install it using the following:

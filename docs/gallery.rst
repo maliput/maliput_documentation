@@ -14,7 +14,7 @@ At the moment, `maliput-malidrive` supports `Lines` and `Arcs` as geometries to 
 .. raw:: html
 
     <video controls width="600" autoplay loop>
-        <source src="us2_single_lane.webm" type="video/webm">
+        <source src="gallery/us2_single_lane.webm" type="video/webm">
 
         Sorry, your browser doesn't support embedded videos.
     </video>
@@ -26,7 +26,7 @@ At the moment, `maliput-malidrive` supports `Lines` and `Arcs` as geometries to 
 .. raw:: html
 
     <video controls width="600" autoplay loop>
-        <source src="us3_arc_lane.webm" type="video/webm">
+        <source src="gallery/us3_arc_lane.webm" type="video/webm">
 
         Sorry, your browser doesn't support embedded videos.
     </video>
@@ -40,7 +40,7 @@ Each road can be piecewise-defined using an unlimited number of arcs and lines:
 .. raw:: html
 
     <video controls width="600" autoplay loop>
-        <source src="us4_s_shape_road.webm" type="video/webm">
+        <source src="gallery/us4_s_shape_road.webm" type="video/webm">
 
         Sorry, your browser doesn't support embedded videos.
     </video>
@@ -56,7 +56,7 @@ Variable number of Lanes
 .. raw:: html
 
     <video controls width="600" autoplay loop>
-        <source src="us5_l_shape_road.webm" type="video/webm">
+        <source src="gallery/us5_l_shape_road.webm" type="video/webm">
 
         Sorry, your browser doesn't support embedded videos.
     </video>
@@ -71,7 +71,7 @@ Elevation of a Road could be piecewise-defined by using a unlimited number of th
 .. raw:: html
 
     <video controls width="600" autoplay loop>
-        <source src="us8_parking_garage_ramp.webm" type="video/webm">
+        <source src="gallery/us8_parking_garage_ramp.webm" type="video/webm">
 
         Sorry, your browser doesn't support embedded videos.
     </video>
@@ -88,7 +88,7 @@ Superelevation of a Road could be piecewise-defined by using a unlimited number 
 .. raw:: html
 
     <video controls width="600" autoplay loop>
-        <source src="us9_s_shape_superelevated_road.webm" type="video/webm">
+        <source src="gallery/us9_s_shape_superelevated_road.webm" type="video/webm">
 
         Sorry, your browser doesn't support embedded videos.
     </video>
@@ -101,7 +101,7 @@ Lanes with varying width
 .. raw:: html
 
     <video controls width="600" autoplay loop>
-        <source src="us10_line_variable_width.webm" type="video/webm">
+        <source src="gallery/us10_line_variable_width.webm" type="video/webm">
 
         Sorry, your browser doesn't support embedded videos.
     </video>
@@ -114,7 +114,7 @@ Lanes with varying offset
 .. raw:: html
 
     <video controls width="600" autoplay loop>
-        <source src="us12_line_variable_offset.webm" type="video/webm">
+        <source src="gallery/us12_line_variable_offset.webm" type="video/webm">
 
         Sorry, your browser doesn't support embedded videos.
     </video>
@@ -129,7 +129,7 @@ Intersections
 .. raw:: html
 
     <video controls width="600" autoplay loop>
-        <source src="us6_t_shape_road.webm" type="video/webm">
+        <source src="gallery/us6_t_shape_road.webm" type="video/webm">
 
         Sorry, your browser doesn't support embedded videos.
     </video>
@@ -145,7 +145,7 @@ Integration demos
 .. raw:: html
 
     <video controls width="600" autoplay loop>
-        <source src="town05.webm" type="video/webm">
+        <source src="gallery/town05.webm" type="video/webm">
 
         Sorry, your browser doesn't support embedded videos.
     </video>
@@ -157,7 +157,7 @@ Integration demos
 .. raw:: html
 
     <video controls width="600" autoplay loop>
-        <source src="town07.webm" type="video/webm">
+        <source src="gallery/town07.webm" type="video/webm">
 
         Sorry, your browser doesn't support embedded videos.
     </video>

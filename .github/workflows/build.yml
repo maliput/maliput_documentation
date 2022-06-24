@@ -1,6 +1,7 @@
 name: Compile
 
 on:
+  push:
   pull_request:
     branches:
       - main
@@ -22,10 +23,10 @@ jobs:
       image: ubuntu:20.04
     steps:
     # setup-ros first since it installs git, which is needed to fetch all branches from actions/checkout
-    - uses: ros-tooling/setup-ros@0.2.1
+    - uses: ros-tooling/setup-ros@v0.3
       env:
         ACTIONS_ALLOW_UNSECURE_COMMANDS: true
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         path: ${{ env.ROS_WS }}/src/${{ env.PACKAGE_NAME }}
     # clone public dependencies
@@ -45,11 +46,7 @@ jobs:
       working-directory: ${{ env.ROS_WS }}
       run: |
         rosdep update --include-eol-distros;
-        rosdep install  -i -y --rosdistro ${ROS_DISTRO} --skip-keys "pybind11" --from-paths src
-    - name: install drake
-      shell: bash
-      working-directory: ${{ env.ROS_WS }}/src/drake_vendor
-      run: ./drake_installer
+        rosdep install  -i -y --rosdistro ${ROS_DISTRO} --from-paths src
     - name: colcon build ament_cmake_doxygen
       shell: bash
       working-directory: ${{ env.ROS_WS }}
@@ -63,23 +60,21 @@ jobs:
         . /opt/ros/${ROS_DISTRO}/setup.bash;
         . install/setup.bash;
         colcon build --packages-up-to ${PACKAGE_NAME} --packages-skip ament_cmake_doxygen --cmake-args " -DBUILD_DOCS=On" --event-handlers=console_direct+;
-    # checkout to gh-pages
-    - uses: actions/checkout@v2
-      if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
+    # checkout to rtd branch
+    - uses: actions/checkout@v3
       with:
         path: ${{ env.ROS_WS }}/src/${{ env.PACKAGE_NAME }}
-        ref: gh-pages
-    # dump the content into gh-pages
-    - name: push to gh-pages
+        ref: rtd-pages
+    # dump the content into rtd
+    - name: push to rtd
       if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
       shell: bash
       working-directory: ${{ env.ROS_WS }}
       run: |
         rm -rf src/${{ env.PACKAGE_NAME }}/*
-        cp -r build/maliput_documentation/docs/docs/sphinx/* src/${{ env.PACKAGE_NAME }}/
+        cp -r install/maliput_documentation/share/docs/* src/${{ env.PACKAGE_NAME }}/
         echo $(date) > src/${{ env.PACKAGE_NAME }}/build_stamp
         cd src/${{ env.PACKAGE_NAME }}
-        touch .nojekyll
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add --all
