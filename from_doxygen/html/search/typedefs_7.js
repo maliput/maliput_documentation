@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['matrix2_3556',['Matrix2',['.././deps/maliput/html/namespacemaliput_1_1math.html#ac6bd2b15c356618c3c5ccba30dacfffd',1,'maliput::math']]],
-  ['matrix3_3557',['Matrix3',['.././deps/maliput/html/namespacemaliput_1_1math.html#a817bdcb2b7e2c17fc4781e72ba6abe37',1,'maliput::math']]],
-  ['matrix4_3558',['Matrix4',['.././deps/maliput/html/namespacemaliput_1_1math.html#a1d79dac56e52511791f446a46b160358',1,'maliput::math']]]
+  ['junctionid_6646',['JunctionId',['.././deps/maliput/html/namespacemaliput_1_1api.html#ab025537d8f29dd0709b9c53bf2e3afd5',1,'maliput::api']]]
 ];
