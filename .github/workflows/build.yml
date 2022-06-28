@@ -47,6 +47,10 @@ jobs:
       run: |
         rosdep update --include-eol-distros;
         rosdep install  -i -y --rosdistro ${ROS_DISTRO} --from-paths src
+    - name: install drake
+      shell: bash
+      working-directory: ${{ env.ROS_WS }}/src/drake_vendor
+      run: ./drake_installer
     - name: colcon build ament_cmake_doxygen
       shell: bash
       working-directory: ${{ env.ROS_WS }}
@@ -65,8 +69,8 @@ jobs:
       with:
         path: ${{ env.ROS_WS }}/src/${{ env.PACKAGE_NAME }}
         ref: rtd-pages
-    # dump the content into rtd
-    - name: push to rtd
+    # dump the content into rtd-pages
+    - name: push to rtd-pages
       if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
       shell: bash
       working-directory: ${{ env.ROS_WS }}
