@@ -2,12 +2,19 @@
 Gallery
 *******
 
-*Collection of demos that shows the `maliput-malidrive`'s features:*
+.. contents:: Table of Contents
+    :depth: 5
 
-Geometries
-==========
+Collection of demos that shows ``maliput`` features via ``maliput-malidrive`` implementation:
+
+Road Geometry
+=============
 
 At the moment, `maliput-malidrive` supports `Lines` and `Arcs` as geometries to describe a road.
+Each road can be piecewise-defined using an unlimited number of arcs and lines.
+
+Geometries
+----------
 
 - **Line**
 
@@ -19,7 +26,7 @@ At the moment, `maliput-malidrive` supports `Lines` and `Arcs` as geometries to 
         Sorry, your browser doesn't support embedded videos.
     </video>
 
-*SingleLane.xodr*
+Used map: `SingleLane.xodr <https://github.com/maliput/maliput_malidrive/blob/main/resources/SingleLane.xodr>`_
 
 - **Arc**
 
@@ -31,10 +38,9 @@ At the moment, `maliput-malidrive` supports `Lines` and `Arcs` as geometries to 
         Sorry, your browser doesn't support embedded videos.
     </video>
 
-*ArcLane.xodr*
+Used map: `ArcLane.xodr <https://github.com/maliput/maliput_malidrive/blob/main/resources/ArcLane.xodr>`_
 
 
-Each road can be piecewise-defined using an unlimited number of arcs and lines:
 - **Combination of arcs and lines**
 
 .. raw:: html
@@ -45,11 +51,11 @@ Each road can be piecewise-defined using an unlimited number of arcs and lines:
         Sorry, your browser doesn't support embedded videos.
     </video>
 
-*SShapeRoad.xodr*
+Used map: `SShapeRoad.xodr <https://github.com/maliput/maliput_malidrive/blob/main/resources/SShapeRoad.xodr>`_
 
 
-Variable number of Lanes
-========================
+Several lanes per road
+----------------------
 
 - Each road supports as many lanes as needed.
 
@@ -61,10 +67,36 @@ Variable number of Lanes
         Sorry, your browser doesn't support embedded videos.
     </video>
 
-*LShapeRoadVariableLanes.xodr*
+Used map: `LShapeRoadVariableLanes.xodr <https://github.com/maliput/maliput_malidrive/blob/main/resources/LShapeRoadVariableLanes.xodr>`_
 
-Elevation profile
-=================
+Lanes with varying width
+------------------------
+
+.. raw:: html
+
+    <video controls width="600" autoplay loop>
+        <source src="gallery/us10_line_variable_width.webm" type="video/webm">
+
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+
+Used map: `LineVariableWidth.xodr <https://github.com/maliput/maliput_malidrive/blob/main/resources/LineVariableWidth.xodr>`_
+
+Lanes with varying offset
+-------------------------
+
+.. raw:: html
+
+    <video controls width="600" autoplay loop>
+        <source src="gallery/us12_line_variable_offset.webm" type="video/webm">
+
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+
+Used map: `LineVariableOffset.xodr <https://github.com/maliput/maliput_malidrive/blob/main/resources/LineVariableOffset.xodr>`_
+
+Roads with elevation profile
+----------------------------
 
 Elevation of a Road could be piecewise-defined by using a unlimited number of third-grade polynomials.
 
@@ -76,10 +108,10 @@ Elevation of a Road could be piecewise-defined by using a unlimited number of th
         Sorry, your browser doesn't support embedded videos.
     </video>
 
-*ParkingGarageRamp.xodr*
+Used map: `ParkingGarageRamp.xodr <https://github.com/maliput/maliput_malidrive/blob/main/resources/ParkingGarageRamp.xodr>`_
 
-Lateral profile
-===============
+Roads with lateral profile
+--------------------------
 
 - Superelevation:
 
@@ -93,36 +125,10 @@ Superelevation of a Road could be piecewise-defined by using a unlimited number 
         Sorry, your browser doesn't support embedded videos.
     </video>
 
-*SShapeSuperelevatedRoad.xodr*
-
-Lanes with varying width
-=========================
-
-.. raw:: html
-
-    <video controls width="600" autoplay loop>
-        <source src="gallery/us10_line_variable_width.webm" type="video/webm">
-
-        Sorry, your browser doesn't support embedded videos.
-    </video>
-
-*LineVariableWidth.xodr*
-
-Lanes with varying offset
-=========================
-
-.. raw:: html
-
-    <video controls width="600" autoplay loop>
-        <source src="gallery/us12_line_variable_offset.webm" type="video/webm">
-
-        Sorry, your browser doesn't support embedded videos.
-    </video>
-
-*LineVariableOffset.xodr*
+Used map: `SShapeSuperelevatedRoad.xodr <https://github.com/maliput/maliput_malidrive/blob/main/resources/SShapeSuperelevatedRoad.xodr>`_
 
 Intersections
-=============
+-------------
 
 - Connections/intersections between roads are supported.
 
@@ -134,25 +140,17 @@ Intersections
         Sorry, your browser doesn't support embedded videos.
     </video>
 
-*TShapeRoad.xodr*
+Used map: `TShapeRoad.xodr <https://github.com/maliput/maliput_malidrive/blob/main/resources/TShapeRoad.xodr>`_
 
 
 Integration demos
 =================
 
-- Town05
+The `delphyne_demos` package provides several demos where `delphyne` agents are placed on `maliput` Road Networks.
 
-.. raw:: html
 
-    <video controls width="600" autoplay loop>
-        <source src="gallery/town05.webm" type="video/webm">
-
-        Sorry, your browser doesn't support embedded videos.
-    </video>
-
-*Town05.xodr*
-
-- Town07
+Agent traversing a city
+-----------------------
 
 .. raw:: html
 
@@ -162,4 +160,19 @@ Integration demos
         Sorry, your browser doesn't support embedded videos.
     </video>
 
-*Town07.xodr*
+Used map: `Town07.xodr <https://github.com/maliput/maliput_malidrive/blob/main/resources/Town07.xodr>`_
+
+Dynamic environments: Traffic Lights and Rules
+----------------------------------------------
+
+Agents being aware of state rules changing according to traffic lights.
+
+.. raw:: html
+
+    <video controls width="600" autoplay loop>
+        <source src="gallery/dynamic_environment.webm" type="video/webm">
+
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+
+Used map: `LoopRoadPedestrianCrosswalk.xodr <https://github.com/maliput/maliput_malidrive/blob/main/resources/LoopRoadPedestrianCrosswalk.xodr>`_

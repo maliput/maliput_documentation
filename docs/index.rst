@@ -8,7 +8,9 @@ Welcome to maliput documentation!
    installation_quickstart
    developer_guidelines
    contributing
+   design
+   tutorials
    gallery
-   documentation
+   api_documentation
    roadmap
 
