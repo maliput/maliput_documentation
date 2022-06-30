@@ -9,8 +9,8 @@ var classdelphyne_1_1_agent_simulation_base_builder =
     [ "GetRoadGeometry", "classdelphyne_1_1_agent_simulation_base_builder.html#afcfdad312bfbd73d2093dfb2f4983f75", null ],
     [ "GetTargetRealTimeRate", "classdelphyne_1_1_agent_simulation_base_builder.html#a2b591cf9377078d2b959b2dc7ac64e25", null ],
     [ "Reset", "classdelphyne_1_1_agent_simulation_base_builder.html#a372de693ad40b3f42839c8ec6ac845f4", null ],
-    [ "SetRoadNetwork", "classdelphyne_1_1_agent_simulation_base_builder.html#ab0e4a6a3cc616a83c752c73d9400a572", null ],
-    [ "SetRoadNetwork", "classdelphyne_1_1_agent_simulation_base_builder.html#a8090a2cbd45bdc2b7ecba80e3f0e4361", null ],
+    [ "SetRoadNetwork", "classdelphyne_1_1_agent_simulation_base_builder.html#a167a342f1e068a7fccfad4aaf26e0051", null ],
+    [ "SetRoadNetwork", "classdelphyne_1_1_agent_simulation_base_builder.html#ab4f96270f6fc3ed27e97bb7990665dc2", null ],
     [ "SetTargetRealTimeRate", "classdelphyne_1_1_agent_simulation_base_builder.html#a8152b9238a2336ad5fd88920638b4fb2", null ],
     [ "UsesFixedStepMode", "classdelphyne_1_1_agent_simulation_base_builder.html#ae6b797c15edc5ce46a6931558812f8be", null ]
 ];

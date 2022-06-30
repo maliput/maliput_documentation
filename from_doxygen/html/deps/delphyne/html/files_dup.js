@@ -247,9 +247,6 @@ var files_dup =
     ] ],
     [ "road_builder.cc", "road__builder_8cc.html", "road__builder_8cc" ],
     [ "road_builder.h", "road__builder_8h.html", "road__builder_8h" ],
-    [ "road_network.h", "road__network_8h.html", [
-      [ "RoadNetwork", "classdelphyne_1_1roads_1_1_road_network.html", "classdelphyne_1_1roads_1_1_road_network" ]
-    ] ],
     [ "road_odometry.h", "road__odometry_8h.html", [
       [ "RoadOdometry", "structdelphyne_1_1_road_odometry.html", "structdelphyne_1_1_road_odometry" ]
     ] ],
