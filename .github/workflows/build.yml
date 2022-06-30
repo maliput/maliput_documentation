@@ -79,8 +79,8 @@ jobs:
         cp -r install/maliput_documentation/share/docs/* src/${{ env.PACKAGE_NAME }}/
         echo $(date) > src/${{ env.PACKAGE_NAME }}/build_stamp
         cd src/${{ env.PACKAGE_NAME }}
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
+        git config --local user.email 'github-actions[bot]@users.noreply.github.com'
+        git config --local user.name 'github-actions[bot]'
         git add --all
         git commit -m "Github actions build on: $(date)" -a
         git push
