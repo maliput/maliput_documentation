@@ -8,14 +8,11 @@ Tutorials
 Maliput Malidrive
 =================
 
-  .. raw:: html
-
-      <iframe src="html/deps/maliput_malidrive/html/tutorials.html" height="600px" width="900px"></iframe>
+* `Maliput Malidrive Tutorials <html/deps/maliput_malidrive/html/tutorials.html>`_
 
 
 Maliput Integration
 ===================
 
-  .. raw:: html
+* `Maliput Integration Tutorials <html/deps/maliput_integration/html/integration_tutorials.html>`_
 
-      <iframe src="html/deps/maliput_integration/html/integration_tutorials.html" height="600px" width="900px"></iframe>
