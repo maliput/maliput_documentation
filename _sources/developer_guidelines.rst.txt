@@ -15,8 +15,9 @@ The following packages are provided:
 
 * Core packages:
     * `maliput`_
-    * `maliput_object`_
     * `maliput_py`_
+    * `maliput_object`_
+    * `maliput_object_py`_
     * `ament_cmake_doxygen`_
     * `maliput_documentation`_
 * Backend implementations:
@@ -31,29 +32,28 @@ The following packages are provided:
 * Utility packages:
     * `drake_vendor`_
     * `pybind11`_
-    * `dsim_docs_bundler`_
 * Delphyne:
     * `delphyne`_
     * `delphyne_gui`_
     * `delphyne_demos`_
 
-.. _maliput: https://github.com/ToyotaResearchInstitute/maliput
-.. _maliput_object: https://github.com/ToyotaResearchInstitute/maliput_object
-.. _maliput_py: https://github.com/ToyotaResearchInstitute/maliput_py
+.. _maliput: https://github.com/maliput/maliput
+.. _maliput_py: https://github.com/maliput/maliput_py
+.. _maliput_object: https://github.com/maliput/maliput_object
+.. _maliput_object: https://github.com/maliput/maliput_object_py
 .. _ament_cmake_doxygen: https://github.com/ToyotaResearchInstitute/ament_cmake_doxygen
-.. _maliput_documentation: https://github.com/ToyotaResearchInstitute/maliput_documentation
-.. _maliput_dragway: https://github.com/ToyotaResearchInstitute/maliput_dragway
-.. _maliput_malidrive: https://github.com/ToyotaResearchInstitute/maliput_malidrive
-.. _maliput_multilane: https://github.com/ToyotaResearchInstitute/maliput_multilane
-.. _maliput_integration: https://github.com/ToyotaResearchInstitute/maliput_integration
-.. _maliput_integration_tests: https://github.com/ToyotaResearchInstitute/maliput_integration_tests
-.. _maliput_drake: https://github.com/ToyotaResearchInstitute/maliput_drake
-.. _drake_vendor: https://github.com/ToyotaResearchInstitute/drake_vendor
+.. _maliput_documentation: https://github.com/maliput/maliput_documentation
+.. _maliput_dragway: https://github.com/maliput/maliput_dragway
+.. _maliput_malidrive: https://github.com/maliput/maliput_malidrive
+.. _maliput_multilane: https://github.com/maliput/maliput_multilane
+.. _maliput_integration: https://github.com/maliput/maliput_integration
+.. _maliput_integration_tests: https://github.com/maliput/maliput_integration_tests
+.. _maliput_drake: https://github.com/maliput/maliput_drake
+.. _drake_vendor: https://github.com/maliput/drake_vendor
 .. _pybind11: https://github.com/RobotLocomotion/pybind11
-.. _dsim_docs_bundler: https://github.com/ToyotaResearchInstitute/dsim_docs_bundler
-.. _delphyne: https://github.com/ToyotaResearchInstitute/delphyne
-.. _delphyne_gui: https://github.com/ToyotaResearchInstitute/delphyne_gui
-.. _delphyne_demos: https://github.com/ToyotaResearchInstitute/delphyne_demos
+.. _delphyne: https://github.com/maliput/delphyne
+.. _delphyne_gui: https://github.com/maliput/delphyne_gui
+.. _delphyne_demos: https://github.com/maliput/delphyne_demos
 
 Each repository may contain one or more packages. When a repository contains
 two or more packages, it is expected that all packages' versions within the same
@@ -348,7 +348,7 @@ Every new major release will provide:
 - Updated ``maliput_rolling.repos`` file when appropriate (new major release,
   update to latest minor release or patch release).
 - New ``maliput_<name>.repos`` file.
-- Updated tarball in S3 bucket with the following name pattern: ``maliput_ws_<name>_YYYYMMDD_bionic.tar.gz``
+- Updated tarball in S3 bucket with the following name pattern: ``maliput_ws_<name>_YYYYMMDD_focal.tar.gz``
   where ``name`` is the release name and ``YYYYMMDD`` is the release date (see
   :ref:`create-a-named-release-tarball` ).
 
@@ -456,6 +456,6 @@ To generate the tarball:
     cd /path/to/maliput_ws
     export BUNDLE_NAME=maliput_ws_name
     mv install ${BUNDLE_NAME};
-    CURRENT_BUNDLE_TARBALL_NAME="${BUNDLE_NAME}_$(date +%Y%m%d)_bionic.tar.gz"
+    CURRENT_BUNDLE_TARBALL_NAME="${BUNDLE_NAME}_$(date +%Y%m%d)_focal.tar.gz"
     tar -czvf ${CURRENT_BUNDLE_TARBALL_NAME} ${BUNDLE_NAME}
 

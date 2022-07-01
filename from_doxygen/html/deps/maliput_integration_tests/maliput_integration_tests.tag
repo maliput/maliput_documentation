@@ -146,11 +146,11 @@
       <anchor>aec8178976679b5a3ed65148e869e83e5</anchor>
       <arglist>(FindLaneSequencesTest, MaxLengthOmitsStartAndEndLanes)</arglist>
     </member>
-    <member kind="variable">
-      <type>constexpr char</type>
-      <name>MULTILANE_RESOURCE_VAR</name>
+    <member kind="variable" static="yes">
+      <type>static constexpr char</type>
+      <name>kMultilaneResourcesPath</name>
       <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
-      <anchor>ab85edeb116f14c7bd0d9481c9af11c45</anchor>
+      <anchor>a966668b48f0d7a836bc405782117c4f5</anchor>
       <arglist>[]</arglist>
     </member>
   </compound>
@@ -288,9 +288,9 @@
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr char</type>
-      <name>MULTILANE_RESOURCE_VAR</name>
+      <name>kMultilaneResourcesPath</name>
       <anchorfile>namespacemaliput_1_1utility.html</anchorfile>
-      <anchor>ab85edeb116f14c7bd0d9481c9af11c45</anchor>
+      <anchor>a966668b48f0d7a836bc405782117c4f5</anchor>
       <arglist>[]</arglist>
     </member>
   </compound>
@@ -761,11 +761,11 @@
       <anchor>aec8178976679b5a3ed65148e869e83e5</anchor>
       <arglist>(FindLaneSequencesTest, MaxLengthOmitsStartAndEndLanes)</arglist>
     </member>
-    <member kind="variable">
-      <type>constexpr char</type>
-      <name>MULTILANE_RESOURCE_VAR</name>
+    <member kind="variable" static="yes">
+      <type>static constexpr char</type>
+      <name>kMultilaneResourcesPath</name>
       <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
-      <anchor>ab85edeb116f14c7bd0d9481c9af11c45</anchor>
+      <anchor>a966668b48f0d7a836bc405782117c4f5</anchor>
       <arglist>[]</arglist>
     </member>
   </compound>
@@ -904,9 +904,9 @@
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr char</type>
-      <name>MULTILANE_RESOURCE_VAR</name>
+      <name>kMultilaneResourcesPath</name>
       <anchorfile>namespacemaliput_1_1utility.html</anchorfile>
-      <anchor>ab85edeb116f14c7bd0d9481c9af11c45</anchor>
+      <anchor>a966668b48f0d7a836bc405782117c4f5</anchor>
       <arglist>[]</arglist>
     </member>
   </compound>

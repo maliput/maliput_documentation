@@ -102,14 +102,13 @@
 <li><a class="reference internal" href="#install-prerequisites" id="id71">Install prerequisites</a></li>
 <li><a class="reference internal" href="#install-all-underlay-packages-dependencies" id="id72">Install all underlay packages’ dependencies</a></li>
 <li><a class="reference internal" href="#install-underlay-drake" id="id73">Install drake</a></li>
-<li><a class="reference internal" href="#install-ignition-binaries" id="id74">Install ignition binaries</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#how-to-use-ci" id="id75">How to use CI</a></li>
+<li><a class="reference internal" href="#how-to-use-ci" id="id74">How to use CI</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#troubleshooting" id="id76">Troubleshooting</a><ul>
-<li><a class="reference internal" href="#issue-forensics" id="id77">Issue Forensics</a></li>
+<li><a class="reference internal" href="#troubleshooting" id="id75">Troubleshooting</a><ul>
+<li><a class="reference internal" href="#issue-forensics" id="id76">Issue Forensics</a></li>
 </ul>
 </li>
 </ul>
@@ -131,7 +130,7 @@ up the environment in a containerized workspace. When setting up docker, do <em>
 since that represents a security risk
 (<a class="reference external" href="https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user">it is equivalent to password-less sudo</a>).
 As a workaround, the instructions below use <code class="docutils literal notranslate"><span class="pre">sudo</span></code> for building the image and running the container.</li>
-<li>Non-containerized workspaces: Ubuntu Bionic Beaver 18.04 LTS only.</li>
+<li>Non-containerized workspaces: Ubuntu Focal Fossa 20.04 LTS only.</li>
 </ul>
 </div>
 <div class="section" id="prerequisites">
@@ -140,12 +139,6 @@ As a workaround, the instructions below use <code class="docutils literal notran
 <li>To get all the necessary tools, clone <code class="docutils literal notranslate"><span class="pre">maliput_infrastructure</span></code> locally.</li>
 </ul>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>git clone git@github.com:ToyotaResearchInstitute/maliput_infrastructure.git
-</pre></div>
-</div>
-<ul class="simple">
-<li>To get all the necessary <code class="docutils literal notranslate"><span class="pre">.repos</span></code> files, clone <code class="docutils literal notranslate"><span class="pre">repos_index</span></code> locally.</li>
-</ul>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>git clone git@github.com:ToyotaResearchInstitute/repos_index.git
 </pre></div>
 </div>
 <ul class="simple">
@@ -159,12 +152,11 @@ Also, you can use <code class="docutils literal notranslate"><span class="pre">n
 <h3><a class="toc-backref" href="#id37">Workspace creation</a><a class="headerlink" href="#workspace-creation" title="Permalink to this headline">¶</a></h3>
 <p>The following assumes that you want to create a workspace containing all of Maliput’s repositories, with a focus on
 Maliput and Malidrive development. As such, it uses a workspace directory named <code class="docutils literal notranslate"><span class="pre">maliput_ws</span></code> and pulls
-sources from <a class="reference external" href="hhttps://github.com/ToyotaResearchInstitute/repos_index/blob/main/dashing/maliput.repos">dashing/maliput.repos</a>
-or <a class="reference external" href="hhttps://github.com/ToyotaResearchInstitute/repos_index/blob/main/foxy/maliput.repos">foxy/maliput.repos</a>.</p>
-<p>If you are using ROS 2 Foxy, the instructions also cover how to optionally add <code class="docutils literal notranslate"><span class="pre">delphyne</span></code> repositories into your
+sources from <a class="reference external" href="https://github.com/ToyotaResearchInstitute/maliput_infrastructure/blob/main/repos_index/foxy/maliput.repos">foxy/maliput.repos</a>.</p>
+<p>The instructions also cover how to optionally add <code class="docutils literal notranslate"><span class="pre">delphyne</span></code> repositories into your
 workspace. These repositories include a simulator and visualizer useful when working with Maliput road networks.</p>
 <p>The instructions below first cover how to create a non-containerized workspace, followed by a containerized workspace.
-Note that using a containerized workspace is recommended.</p>
+<strong>Note that using a containerized workspace is recommended</strong>.</p>
 <div class="section" id="option-1-create-a-non-containerized-workspace">
 <span id="create-a-non-containerized-workspace"></span><h4><a class="toc-backref" href="#id38">Option 1: Create a non-containerized workspace</a><a class="headerlink" href="#option-1-create-a-non-containerized-workspace" title="Permalink to this headline">¶</a></h4>
 <p>The following creates a non-containerized workspace. Follow it if you are willing to install Maliput and its
@@ -183,18 +175,14 @@ following the instructions in the subsequent “Option 2” section.</p>
 </div>
 <div class="section" id="copy-repos-file">
 <span id="id2"></span><h5><a class="toc-backref" href="#id40">Copy .repos file</a><a class="headerlink" href="#copy-repos-file" title="Permalink to this headline">¶</a></h5>
-<p><strong>For ROS 2 Dashing:</strong> copy <code class="docutils literal notranslate"><span class="pre">repos_index/dashing/maliput.repos</span></code> into <code class="docutils literal notranslate"><span class="pre">maliput_ws</span></code>. It will be used to add the Maliput-related repositories to the workspace.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>cp repos_index/dashing/maliput.repos maliput_ws/
-</pre></div>
-</div>
-<p><strong>For ROS 2 Foxy:</strong> copy <code class="docutils literal notranslate"><span class="pre">repos_index/foxy/maliput.repos</span></code> into <code class="docutils literal notranslate"><span class="pre">maliput_ws</span></code>. It will be used to add the Maliput-related repositories to the workspace.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>cp repos_index/foxy/maliput.repos maliput_ws/
+<p>copy <code class="docutils literal notranslate"><span class="pre">maliput_infrastructure/repos_index/foxy/maliput.repos</span></code> into <code class="docutils literal notranslate"><span class="pre">maliput_ws</span></code>. It will be used to add the Maliput-related repositories to the workspace.</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>cp maliput_infrastructure/repos_index/foxy/maliput.repos maliput_ws/
 </pre></div>
 </div>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p>If you are using ROS 2 Foxy, you can optionally add Delphyne-related repositories to your workspace:</p>
-<div class="last highlight-sh notranslate"><div class="highlight"><pre><span></span>cp repos_index/foxy/delphyne.repos maliput_ws/
+<p>You can optionally add Delphyne-related repositories to your workspace:</p>
+<div class="last highlight-sh notranslate"><div class="highlight"><pre><span></span>cp maliput_infrastructure/repos_index/foxy/delphyne.repos maliput_ws/
 </pre></div>
 </div>
 </div>
@@ -225,23 +213,12 @@ the <code class="docutils literal notranslate"><span class="pre">import</span></
 <div class="section" id="install-all-packages-dependencies">
 <span id="id4"></span><h5><a class="toc-backref" href="#id43">Install all packages’ dependencies</a><a class="headerlink" href="#install-all-packages-dependencies" title="Permalink to this headline">¶</a></h5>
 <p>First update the <code class="docutils literal notranslate"><span class="pre">ROS_DISTRO</span></code> environment variable with your <code class="docutils literal notranslate"><span class="pre">ros2</span></code> version, e.g.:</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">ROS_DISTRO</span><span class="o">=</span>dashing
-</pre></div>
-</div>
-<p>Alternatively, when working with <code class="docutils literal notranslate"><span class="pre">foxy</span></code>, you could do:</p>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">ROS_DISTRO</span><span class="o">=</span>foxy
 </pre></div>
 </div>
 </div>
 <div class="section" id="install-dependencies-via-rosdep">
 <span id="id5"></span><h5><a class="toc-backref" href="#id44">Install dependencies via <code class="docutils literal notranslate"><span class="pre">rosdep</span></code></a><a class="headerlink" href="#install-dependencies-via-rosdep" title="Permalink to this headline">¶</a></h5>
-<p><strong>For dashing</strong></p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>rosdep update --include-eol-distros
-rosdep install -i -y --rosdistro <span class="nv">$ROS_DISTRO</span> --skip-keys <span class="s2">&quot;pybind11&quot;</span> --from-paths src
-</pre></div>
-</div>
-<p>As you can see, <code class="docutils literal notranslate"><span class="pre">--include-eol-distros</span></code> is necessary to discover the ROS2-EOL <code class="docutils literal notranslate"><span class="pre">dashing</span></code> distribution.</p>
-<p><strong>For foxy</strong></p>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>rosdep update
 rosdep install -i -y --rosdistro <span class="nv">$ROS_DISTRO</span> --skip-keys <span class="s2">&quot;pybind11&quot;</span> --from-paths src
 </pre></div>
@@ -255,7 +232,7 @@ installations within a container are limited to that container).</p>
 </div>
 <div class="section" id="install-drake">
 <span id="id6"></span><h5><a class="toc-backref" href="#id45">Install drake</a><a class="headerlink" href="#install-drake" title="Permalink to this headline">¶</a></h5>
-<p>Run the following command only if you are in <strong>foxy</strong> and using <code class="docutils literal notranslate"><span class="pre">delphyne.repos</span></code>, otherwise it will fail because
+<p>Installing drake is <strong>only</strong> necessary when working with <code class="docutils literal notranslate"><span class="pre">delphyne.repos</span></code>, otherwise it will fail because
 <code class="docutils literal notranslate"><span class="pre">drake_vendor</span></code> is not in the workspace.</p>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>sudo ./src/drake_vendor/drake_installer
 </pre></div>
@@ -290,9 +267,8 @@ image and container for Maliput workspace development:</p>
 <p><code class="docutils literal notranslate"><span class="pre">build.sh</span> <span class="pre">--help</span></code> for more options:</p>
 <blockquote class="last">
 <div><ol class="arabic simple">
-<li><code class="docutils literal notranslate"><span class="pre">-i</span></code> <code class="docutils literal notranslate"><span class="pre">--image_name</span></code>   Name of the image to be built (default maliput_ws_ubuntu_bionic).</li>
+<li><code class="docutils literal notranslate"><span class="pre">-i</span></code> <code class="docutils literal notranslate"><span class="pre">--image_name</span></code>   Name of the image to be built (default maliput_ws_ubuntu_focal).</li>
 <li><code class="docutils literal notranslate"><span class="pre">-w</span></code> <code class="docutils literal notranslate"><span class="pre">--workspace_name</span></code>   Name of the workspace folder (default maliput_ws).</li>
-<li><code class="docutils literal notranslate"><span class="pre">-o</span></code> <code class="docutils literal notranslate"><span class="pre">--os</span></code> OS version. It could be bionic or focal (default is bionic).</li>
 </ol>
 </div></blockquote>
 </div>
@@ -317,9 +293,8 @@ image and container for Maliput workspace development:</p>
 <p><code class="docutils literal notranslate"><span class="pre">run.sh</span> <span class="pre">--help</span></code> for more options:</p>
 <blockquote class="last">
 <div><ol class="arabic simple">
-<li><code class="docutils literal notranslate"><span class="pre">-i</span></code> <code class="docutils literal notranslate"><span class="pre">--image_name</span></code> Name of the image to be run (default maliput_ws_ubuntu_bionic).</li>
-<li><code class="docutils literal notranslate"><span class="pre">-c</span></code> <code class="docutils literal notranslate"><span class="pre">--container_name</span></code> Name of the container(default maliput_ws_bionic).</li>
-<li><code class="docutils literal notranslate"><span class="pre">-o</span></code> <code class="docutils literal notranslate"><span class="pre">--os</span></code> OS version. It could be bionic or focal (default is bionic).</li>
+<li><code class="docutils literal notranslate"><span class="pre">-i</span></code> <code class="docutils literal notranslate"><span class="pre">--image_name</span></code> Name of the image to be run (default maliput_ws_ubuntu_focal).</li>
+<li><code class="docutils literal notranslate"><span class="pre">-c</span></code> <code class="docutils literal notranslate"><span class="pre">--container_name</span></code> Name of the container(default maliput_ws_focal).</li>
 <li><code class="docutils literal notranslate"><span class="pre">-w</span></code> <code class="docutils literal notranslate"><span class="pre">--workspace</span></code>  Relative or absolute path to the workspace you want to bind (default to location of maliput_infrastructure folder).</li>
 </ol>
 </div></blockquote>
@@ -489,10 +464,10 @@ colcon build --packages-up-to dsim_docs_bundler
 <div class="section" id="delete-your-workspace">
 <span id="id24"></span><h4><a class="toc-backref" href="#id65">Delete your workspace</a><a class="headerlink" href="#delete-your-workspace" title="Permalink to this headline">¶</a></h4>
 <p>Containerized workspace could be deleted simply deleting the docker image:</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>docker rmi maliput_ws_ubuntu_bionic
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>docker rmi maliput_ws_ubuntu_focal
 </pre></div>
 </div>
-<p>Consider replacing <code class="docutils literal notranslate"><span class="pre">maliput_ws_ubuntu_bionic</span></code> by your image name when using a custom one.</p>
+<p>Consider replacing <code class="docutils literal notranslate"><span class="pre">maliput_ws_ubuntu_focal</span></code> by your image name when using a custom one.</p>
 </div>
 </div>
 </div>
@@ -536,12 +511,12 @@ refer to <a class="reference external" href="https://index.ros.org/doc/ros2/Tuto
 for further details.</p>
 <p>Several binary underlays are available for download and installation:</p>
 <ul>
-<li><p class="first"><code class="docutils literal notranslate"><span class="pre">dsim-desktop-YYYYMMDD-bionic-tar.gz</span></code></p>
-<p>Built nightly, targeting Ubuntu Bionic 18.04 LTS. Contains all known packages in all our repositories as of
+<li><p class="first"><code class="docutils literal notranslate"><span class="pre">dsim-desktop-YYYYMMDD-focal-tar.gz</span></code></p>
+<p>Built nightly, targeting Ubuntu Focal 20.04 LTS. Contains all known packages in all our repositories as of
 the specified date (DD/MM/YYYY). To be found at <code class="docutils literal notranslate"><span class="pre">s3://driving-sim/projects/maliput/packages/nightlies/</span></code>.</p>
 </li>
-<li><p class="first"><code class="docutils literal notranslate"><span class="pre">dsim-desktop-latest-bionic.tar.gz</span></code></p>
-<p>Built nightly, targeting Ubuntu Bionic 18.04 LTS. Contains the most recent versions of all packages known in
+<li><p class="first"><code class="docutils literal notranslate"><span class="pre">dsim-desktop-latest-focal.tar.gz</span></code></p>
+<p>Built nightly, targeting Ubuntu Focal 20.04 LTS. Contains the most recent versions of all packages known in
 all our repositories. To be found at <code class="docutils literal notranslate"><span class="pre">s3://driving-sim/projects/maliput/packages/nightlies/</span></code>.</p>
 </li>
 </ul>
@@ -551,8 +526,8 @@ that brings all known packages in all our repositories. You should choose an und
 your intended purpose.</p>
 <div class="section" id="download-the-binary-underlay-tarball-of-choice-from-dsim-s-s3-bucket">
 <span id="download-binary-underlay"></span><h4><a class="toc-backref" href="#id69">Download the binary underlay tarball of choice from dsim’s S3 bucket</a><a class="headerlink" href="#download-the-binary-underlay-tarball-of-choice-from-dsim-s-s3-bucket" title="Permalink to this headline">¶</a></h4>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>aws s3 cp s3://driving-sim/projects/maliput/packages/nightlies/dsim-desktop-latest-bionic.tar.gz <span class="se">\</span>
-    /path/to/workspace/dsim-desktop-latest-bionic.tar.gz
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>aws s3 cp s3://driving-sim/projects/maliput/packages/nightlies/dsim-desktop-latest-focal.tar.gz <span class="se">\</span>
+    /path/to/workspace/dsim-desktop-latest-focal.tar.gz
 </pre></div>
 </div>
 <p>It is assumed that you have the right AWS credentials configured in your system.
@@ -561,7 +536,7 @@ See <a class="reference external" href="https://docs.aws.amazon.com/cli/latest/u
 <div class="section" id="extract-binary-underlay-tarball">
 <span id="extract-underaly-tarball"></span><h4><a class="toc-backref" href="#id70">Extract binary underlay tarball</a><a class="headerlink" href="#extract-binary-underlay-tarball" title="Permalink to this headline">¶</a></h4>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>sudo mkdir -p /opt/dsim-desktop
-sudo tar -zxvf dsim-desktop-latest-bionic.tar.gz -C /opt/dsim-desktop --strip <span class="m">1</span>
+sudo tar -zxvf dsim-desktop-latest-focal.tar.gz -C /opt/dsim-desktop --strip <span class="m">1</span>
 </pre></div>
 </div>
 </div>
@@ -580,13 +555,6 @@ sudo rosdep init
 </div>
 <div class="section" id="install-all-underlay-packages-dependencies">
 <span id="install-underlay-dependencies"></span><h4><a class="toc-backref" href="#id72">Install all underlay packages’ dependencies</a><a class="headerlink" href="#install-all-underlay-packages-dependencies" title="Permalink to this headline">¶</a></h4>
-<p><strong>For dashing</strong></p>
-<p>Note that this is only required in old (previous to 2021-08-09) tarballs.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">ROS_DISTRO</span><span class="o">=</span>dashing
-rosdep update --include-eol-distros
-rosdep install -i -y --rosdistro <span class="nv">$ROS_DISTRO</span> --skip-keys <span class="s2">&quot;ignition-transport8 ignition-msgs5 ignition-math6 ignition-common3 ignition-gui3 ignition-rendering3 pybind11&quot;</span> --from-paths /opt/dsim-desktop/*
-</pre></div>
-</div>
 <p><strong>For foxy</strong></p>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">ROS_DISTRO</span><span class="o">=</span>foxy
 rosdep update
@@ -600,28 +568,6 @@ rosdep install -i -y --rosdistro <span class="nv">$ROS_DISTRO</span> --skip-keys
 ./drake_vendor/bin/drake_installer -f drake_vendor/share/VERSION.TXT
 </pre></div>
 </div>
-</div>
-<div class="section" id="install-ignition-binaries">
-<span id="install-underlay-ignition"></span><h4><a class="toc-backref" href="#id74">Install ignition binaries</a><a class="headerlink" href="#install-ignition-binaries" title="Permalink to this headline">¶</a></h4>
-<p><strong>For dashing only</strong></p>
-<p>Note that this is only required in old (previous to 2021-08-09) tarballs.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span> <span class="s2">&quot;deb http://packages.osrfoundation.org/gazebo/ubuntu-stable </span><span class="k">$(</span>lsb_release -cs<span class="k">)</span><span class="s2"> main&quot;</span> <span class="p">|</span> <span class="se">\</span>
-     sudo tee --append /etc/apt/sources.list.d/gazebo-stable.list
-sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys D2486D2DD83DB69272AFE98867170598AF249743
-
-sudo apt update
-sudo apt -y install --no-install-recommends <span class="se">\</span>
-               libignition-common3-dev <span class="se">\</span>
-               libignition-math6-dev <span class="se">\</span>
-               libignition-msgs5-dev <span class="se">\</span>
-               libignition-tools-dev <span class="se">\</span>
-               libignition-cmake2-dev <span class="se">\</span>
-               libignition-rendering3-dev <span class="se">\</span>
-               libignition-gui3-dev <span class="se">\</span>
-               libignition-transport8-dev
-</pre></div>
-</div>
-<p>It might be the case that the command <code class="docutils literal notranslate"><span class="pre">apt-key</span> <span class="pre">adv</span></code> fails. Consider using other key servers like <code class="docutils literal notranslate"><span class="pre">hkp://pgp.mit.edu:80</span></code> or <code class="docutils literal notranslate"><span class="pre">hkp://keyserver.ubuntu.com:80</span></code> to effectively run that command.</p>
 <p>From then on, before building the workspace, you must source the underlay as follows:</p>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nb">source</span> /opt/dsim-desktop/setup.bash
 </pre></div>
@@ -633,7 +579,7 @@ sudo apt -y install --no-install-recommends <span class="se">\</span>
 </div>
 </div>
 <div class="section" id="how-to-use-ci">
-<span id="id29"></span><h3><a class="toc-backref" href="#id75">How to use CI</a><a class="headerlink" href="#how-to-use-ci" title="Permalink to this headline">¶</a></h3>
+<span id="id29"></span><h3><a class="toc-backref" href="#id74">How to use CI</a><a class="headerlink" href="#how-to-use-ci" title="Permalink to this headline">¶</a></h3>
 <p>CI jobs build and test relevant packages for each repository on every PR. Being a multi-repository project,
 patches that are not limited to a single repository must be separately PR’d but built and tested together.
 To that end, make sure that all PR’d branches that are part of the same patch have the same name
@@ -645,9 +591,9 @@ e.g. <code class="docutils literal notranslate"><span class="pre">my_github_user
 </div>
 </div>
 <div class="section" id="troubleshooting">
-<span id="id30"></span><h2><a class="toc-backref" href="#id76">Troubleshooting</a><a class="headerlink" href="#troubleshooting" title="Permalink to this headline">¶</a></h2>
+<span id="id30"></span><h2><a class="toc-backref" href="#id75">Troubleshooting</a><a class="headerlink" href="#troubleshooting" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="issue-forensics">
-<span id="id31"></span><h3><a class="toc-backref" href="#id77">Issue Forensics</a><a class="headerlink" href="#issue-forensics" title="Permalink to this headline">¶</a></h3>
+<span id="id31"></span><h3><a class="toc-backref" href="#id76">Issue Forensics</a><a class="headerlink" href="#issue-forensics" title="Permalink to this headline">¶</a></h3>
 <p>When reproducing issues, either related to the codebase or to the infrastructure
 that supports it, recreating the environment in which these issues arose is crucial.</p>
 </div>

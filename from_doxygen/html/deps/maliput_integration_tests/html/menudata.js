@@ -28,7 +28,7 @@ var menudata={children:[
 {text:"Namespace Members",url:"namespacemembers.html",children:[
 {text:"All",url:"namespacemembers.html",children:[
 {text:"g",url:"namespacemembers.html#index_g"},
-{text:"m",url:"namespacemembers.html#index_m"},
+{text:"k",url:"namespacemembers.html#index_k"},
 {text:"t",url:"namespacemembers.html#index_t"}]},
 {text:"Functions",url:"namespacemembers_func.html",children:[
 {text:"g",url:"namespacemembers_func.html#index_g"},

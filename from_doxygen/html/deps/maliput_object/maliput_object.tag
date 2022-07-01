@@ -2,7 +2,7 @@
 <tagfile>
   <compound kind="file">
     <name>bounding_box.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/src/base/</path>
     <filename>bounding__box_8cc.html</filename>
     <includes id="bounding__box_8h" name="bounding_box.h" local="yes" imported="no">maliput_object/base/bounding_box.h</includes>
     <namespace>maliput</namespace>
@@ -10,7 +10,7 @@
   </compound>
   <compound kind="file">
     <name>bounding_box.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/include/maliput_object/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/include/maliput_object/base/</path>
     <filename>bounding__box_8h.html</filename>
     <includes id="bounding__region_8h" name="bounding_region.h" local="yes" imported="no">maliput_object/api/bounding_region.h</includes>
     <includes id="overlapping__type_8h" name="overlapping_type.h" local="yes" imported="no">maliput_object/api/overlapping_type.h</includes>
@@ -20,7 +20,7 @@
   </compound>
   <compound kind="file">
     <name>bounding_region.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/include/maliput_object/api/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/include/maliput_object/api/</path>
     <filename>bounding__region_8h.html</filename>
     <includes id="overlapping__type_8h" name="overlapping_type.h" local="yes" imported="no">maliput_object/api/overlapping_type.h</includes>
     <class kind="class">maliput::object::api::BoundingRegion</class>
@@ -30,7 +30,7 @@
   </compound>
   <compound kind="file">
     <name>loader.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/src/loader/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/src/loader/</path>
     <filename>loader_8cc.html</filename>
     <includes id="loader_8h" name="loader.h" local="yes" imported="no">maliput_object/loader/loader.h</includes>
     <includes id="object_8h" name="object.h" local="yes" imported="no">maliput_object/api/object.h</includes>
@@ -57,7 +57,7 @@
   </compound>
   <compound kind="file">
     <name>loader.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/include/maliput_object/loader/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/include/maliput_object/loader/</path>
     <filename>loader_8h.html</filename>
     <includes id="object__book_8h" name="object_book.h" local="yes" imported="no">maliput_object/api/object_book.h</includes>
     <namespace>maliput</namespace>
@@ -80,7 +80,7 @@
   </compound>
   <compound kind="file">
     <name>manual_object_book.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/src/base/</path>
     <filename>manual__object__book_8cc.html</filename>
     <includes id="manual__object__book_8h" name="manual_object_book.h" local="yes" imported="no">maliput_object/base/manual_object_book.h</includes>
     <namespace>maliput</namespace>
@@ -88,7 +88,7 @@
   </compound>
   <compound kind="file">
     <name>manual_object_book.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/include/maliput_object/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/include/maliput_object/base/</path>
     <filename>manual__object__book_8h.html</filename>
     <includes id="bounding__region_8h" name="bounding_region.h" local="yes" imported="no">maliput_object/api/bounding_region.h</includes>
     <includes id="object_8h" name="object.h" local="yes" imported="no">maliput_object/api/object.h</includes>
@@ -100,7 +100,7 @@
   </compound>
   <compound kind="file">
     <name>mock.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/include/maliput_object/test_utilities/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/include/maliput_object/test_utilities/</path>
     <filename>mock_8h.html</filename>
     <includes id="bounding__region_8h" name="bounding_region.h" local="yes" imported="no">maliput_object/api/bounding_region.h</includes>
     <includes id="object_8h" name="object.h" local="yes" imported="no">maliput_object/api/object.h</includes>
@@ -116,7 +116,7 @@
   </compound>
   <compound kind="file">
     <name>object.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/src/api/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/src/api/</path>
     <filename>object_8cc.html</filename>
     <includes id="object_8h" name="object.h" local="yes" imported="no">maliput_object/api/object.h</includes>
     <namespace>maliput</namespace>
@@ -125,7 +125,7 @@
   </compound>
   <compound kind="file">
     <name>object.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/include/maliput_object/api/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/include/maliput_object/api/</path>
     <filename>object_8h.html</filename>
     <includes id="bounding__region_8h" name="bounding_region.h" local="yes" imported="no">maliput_object/api/bounding_region.h</includes>
     <class kind="class">maliput::object::api::Object</class>
@@ -135,7 +135,7 @@
   </compound>
   <compound kind="file">
     <name>object_book.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/include/maliput_object/api/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/include/maliput_object/api/</path>
     <filename>object__book_8h.html</filename>
     <includes id="bounding__region_8h" name="bounding_region.h" local="yes" imported="no">maliput_object/api/bounding_region.h</includes>
     <includes id="object_8h" name="object.h" local="yes" imported="no">maliput_object/api/object.h</includes>
@@ -147,7 +147,7 @@
   </compound>
   <compound kind="file">
     <name>object_query.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/include/maliput_object/api/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/include/maliput_object/api/</path>
     <filename>object__query_8h.html</filename>
     <includes id="object_8h" name="object.h" local="yes" imported="no">maliput_object/api/object.h</includes>
     <includes id="object__book_8h" name="object_book.h" local="yes" imported="no">maliput_object/api/object_book.h</includes>
@@ -159,7 +159,7 @@
   </compound>
   <compound kind="file">
     <name>overlapping_type.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/src/api/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/src/api/</path>
     <filename>overlapping__type_8cc.html</filename>
     <includes id="overlapping__type_8h" name="overlapping_type.h" local="yes" imported="no">maliput_object/api/overlapping_type.h</includes>
     <namespace>maliput</namespace>
@@ -182,7 +182,7 @@
   </compound>
   <compound kind="file">
     <name>overlapping_type.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/include/maliput_object/api/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/include/maliput_object/api/</path>
     <filename>overlapping__type_8h.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::object</namespace>
@@ -214,7 +214,7 @@
   </compound>
   <compound kind="file">
     <name>simple_object_query.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/src/base/</path>
     <filename>simple__object__query_8cc.html</filename>
     <includes id="simple__object__query_8h" name="simple_object_query.h" local="yes" imported="no">maliput_object/base/simple_object_query.h</includes>
     <includes id="bounding__box_8h" name="bounding_box.h" local="yes" imported="no">maliput_object/base/bounding_box.h</includes>
@@ -223,7 +223,7 @@
   </compound>
   <compound kind="file">
     <name>simple_object_query.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/maliput_object/include/maliput_object/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/include/maliput_object/base/</path>
     <filename>simple__object__query_8h.html</filename>
     <includes id="object_8h" name="object.h" local="yes" imported="no">maliput_object/api/object.h</includes>
     <includes id="object__book_8h" name="object_book.h" local="yes" imported="no">maliput_object/api/object_book.h</includes>

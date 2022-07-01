@@ -11,5 +11,5 @@ var find__lane__sequences__test_8cc =
     [ "TEST_F", "find__lane__sequences__test_8cc.html#aa4d006f1264f4a89f81a4f809c237fb8", null ],
     [ "TEST_F", "find__lane__sequences__test_8cc.html#a99acbe1dba42ba5a14db4cb69d157bab", null ],
     [ "TEST_F", "find__lane__sequences__test_8cc.html#ab975192d490d6b7d9864647afbbc3ea5", null ],
-    [ "MULTILANE_RESOURCE_VAR", "find__lane__sequences__test_8cc.html#ab85edeb116f14c7bd0d9481c9af11c45", null ]
+    [ "kMultilaneResourcesPath", "find__lane__sequences__test_8cc.html#a966668b48f0d7a836bc405782117c4f5", null ]
 ];

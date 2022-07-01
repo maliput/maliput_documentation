@@ -8,5 +8,5 @@ var generate__string__test_8cc =
     [ "TEST_F", "generate__string__test_8cc.html#a79ca9dd5c887ee129cc8413c57da4e8c", null ],
     [ "TEST_F", "generate__string__test_8cc.html#a2be13a01474979c494cdbdf6159ecd67", null ],
     [ "TEST_F", "generate__string__test_8cc.html#aaa00d9664c9b1480b4a6b9912efb9951", null ],
-    [ "MULTILANE_RESOURCE_VAR", "generate__string__test_8cc.html#ab85edeb116f14c7bd0d9481c9af11c45", null ]
+    [ "kMultilaneResourcesPath", "generate__string__test_8cc.html#a966668b48f0d7a836bc405782117c4f5", null ]
 ];
