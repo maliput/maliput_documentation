@@ -260,6 +260,7 @@
     <includes id="agent__base_8h" name="agent_base.h" local="yes" imported="no">delphyne/mi6/agent_base.h</includes>
     <includes id="agent__base__blueprint_8h" name="agent_base_blueprint.h" local="yes" imported="no">delphyne/mi6/agent_base_blueprint.h</includes>
     <includes id="agent__simulation_8h" name="agent_simulation.h" local="yes" imported="no">delphyne/mi6/agent_simulation.h</includes>
+    <includes id="road__network__wrapper_8h" name="road_network_wrapper.h" local="yes" imported="no">delphyne/roads/road_network_wrapper.h</includes>
     <includes id="curve2_8h" name="curve2.h" local="yes" imported="no">systems/curve2.h</includes>
     <includes id="lane__direction_8h" name="lane_direction.h" local="yes" imported="no">systems/lane_direction.h</includes>
     <includes id="car__vis__applicator_8h" name="car_vis_applicator.h" local="yes" imported="no">visualization/car_vis_applicator.h</includes>
@@ -1974,52 +1975,52 @@
     <namespace>delphyne</namespace>
     <namespace>delphyne::roads</namespace>
     <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; RoadNetworkWrapper &gt;</type>
       <name>CreateRoadNetwork</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>a64ec3dabf66ab724fc0b747d3c75fddd</anchor>
+      <anchor>a69351b3686c6afc1329721fdbd332ac2</anchor>
       <arglist>(const std::string &amp;road_network_plugin_name, const std::map&lt; std::string, std::string &gt; &amp;loader_parameters)</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; RoadNetworkWrapper &gt;</type>
       <name>CreateDragway</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>ae0ff0a7c4009db93da56a837d29268d9</anchor>
+      <anchor>aa498d146802591d6d82eef32a3397704</anchor>
       <arglist>(const std::string &amp;name, int num_lanes, double length, double lane_width, double shoulder_width, double maximum_height, double linear_tolerance=std::numeric_limits&lt; double &gt;::epsilon(), double angular_tolerance=std::numeric_limits&lt; double &gt;::epsilon())</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; RoadNetworkWrapper &gt;</type>
       <name>CreateMultilaneFromFile</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>acd9993fa0a6ee00a96ebdf7d955ba068</anchor>
+      <anchor>a55691fe76e62b8520cacf0707ab93d60</anchor>
       <arglist>(const std::string &amp;file_path)</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; RoadNetworkWrapper &gt;</type>
       <name>CreateMultilaneFromDescription</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>aa91d31fd414413685d3581966aac4b98</anchor>
+      <anchor>a060676e1a93b80c3969468230e161707</anchor>
       <arglist>(const std::string &amp;yaml_description)</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; RoadNetworkWrapper &gt;</type>
       <name>CreateOnRamp</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>ab08fb8ea72ef1e9d7f77279f28fe6965</anchor>
+      <anchor>a113d288a4051675a3e3281aa048aa4d9</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; RoadNetworkWrapper &gt;</type>
       <name>CreateMalidriveFromXodr</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>ad23ea9e01da7d6762574589baae11b7f</anchor>
+      <anchor>ab824ee09b92e66244ae3b055b9f42772</anchor>
       <arglist>(const std::string &amp;name, const std::string &amp;file_path, double linear_tolerance=1e-3, double angular_tolerance=1e-3)</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; RoadNetworkWrapper &gt;</type>
       <name>CreateMalidriveRoadNetworkFromXodr</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>a62670d30382c616d719a706db10e3852</anchor>
+      <anchor>a0a812b1fb0259546fcde0d85c4897794</anchor>
       <arglist>(const std::string &amp;name, const std::string &amp;file_path, const std::string &amp;rule_registry_file_path=std::string(), const std::string &amp;road_rulebook_file_path=std::string(), const std::string &amp;traffic_light_book_path=std::string(), const std::string &amp;phase_ring_path=std::string(), const std::string &amp;intersection_book_path=std::string(), double linear_tolerance=1e-3, double angular_tolerance=1e-3)</arglist>
     </member>
   </compound>
@@ -2027,57 +2028,68 @@
     <name>road_builder.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/include/delphyne/roads/</path>
     <filename>road__builder_8h.html</filename>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">delphyne/macros.h</includes>
+    <includes id="road__network__wrapper_8h" name="road_network_wrapper.h" local="yes" imported="no">delphyne/roads/road_network_wrapper.h</includes>
     <namespace>delphyne</namespace>
     <namespace>delphyne::roads</namespace>
     <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; RoadNetworkWrapper &gt;</type>
       <name>CreateRoadNetwork</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>a64ec3dabf66ab724fc0b747d3c75fddd</anchor>
+      <anchor>a69351b3686c6afc1329721fdbd332ac2</anchor>
       <arglist>(const std::string &amp;road_network_plugin_name, const std::map&lt; std::string, std::string &gt; &amp;loader_parameters)</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; RoadNetworkWrapper &gt;</type>
       <name>CreateDragway</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>ae0ff0a7c4009db93da56a837d29268d9</anchor>
+      <anchor>aa498d146802591d6d82eef32a3397704</anchor>
       <arglist>(const std::string &amp;name, int num_lanes, double length, double lane_width, double shoulder_width, double maximum_height, double linear_tolerance=std::numeric_limits&lt; double &gt;::epsilon(), double angular_tolerance=std::numeric_limits&lt; double &gt;::epsilon())</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; RoadNetworkWrapper &gt;</type>
       <name>CreateMultilaneFromFile</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>acd9993fa0a6ee00a96ebdf7d955ba068</anchor>
+      <anchor>a55691fe76e62b8520cacf0707ab93d60</anchor>
       <arglist>(const std::string &amp;file_path)</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; RoadNetworkWrapper &gt;</type>
       <name>CreateMultilaneFromDescription</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>aa91d31fd414413685d3581966aac4b98</anchor>
+      <anchor>a060676e1a93b80c3969468230e161707</anchor>
       <arglist>(const std::string &amp;yaml_description)</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; RoadNetworkWrapper &gt;</type>
       <name>CreateMalidriveFromXodr</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>ad23ea9e01da7d6762574589baae11b7f</anchor>
+      <anchor>ab824ee09b92e66244ae3b055b9f42772</anchor>
       <arglist>(const std::string &amp;name, const std::string &amp;file_path, double linear_tolerance=1e-3, double angular_tolerance=1e-3)</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; RoadNetworkWrapper &gt;</type>
       <name>CreateMalidriveRoadNetworkFromXodr</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>a62670d30382c616d719a706db10e3852</anchor>
+      <anchor>a0a812b1fb0259546fcde0d85c4897794</anchor>
       <arglist>(const std::string &amp;name, const std::string &amp;file_path, const std::string &amp;rule_registry_file_path=std::string(), const std::string &amp;road_rulebook_file_path=std::string(), const std::string &amp;traffic_light_book_path=std::string(), const std::string &amp;phase_ring_path=std::string(), const std::string &amp;intersection_book_path=std::string(), double linear_tolerance=1e-3, double angular_tolerance=1e-3)</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; RoadNetworkWrapper &gt;</type>
       <name>CreateOnRamp</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>ab08fb8ea72ef1e9d7f77279f28fe6965</anchor>
+      <anchor>a113d288a4051675a3e3281aa048aa4d9</anchor>
       <arglist>()</arglist>
     </member>
+  </compound>
+  <compound kind="file">
+    <name>road_network_wrapper.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/include/delphyne/roads/</path>
+    <filename>road__network__wrapper_8h.html</filename>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">delphyne/macros.h</includes>
+    <class kind="class">delphyne::roads::RoadNetworkWrapper</class>
+    <namespace>delphyne</namespace>
+    <namespace>delphyne::roads</namespace>
   </compound>
   <compound kind="file">
     <name>road_odometry.h</name>
@@ -2108,6 +2120,7 @@
     <filename>roads_8cc.html</filename>
     <includes id="find__lane_8h" name="find_lane.h" local="yes" imported="no">delphyne/roads/find_lane.h</includes>
     <includes id="road__builder_8h" name="road_builder.h" local="yes" imported="no">delphyne/roads/road_builder.h</includes>
+    <includes id="road__network__wrapper_8h" name="road_network_wrapper.h" local="yes" imported="no">delphyne/roads/road_network_wrapper.h</includes>
   </compound>
   <compound kind="file">
     <name>roads.py</name>
@@ -2313,6 +2326,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne/python/delphyne/</path>
     <filename>simulation_8cc.html</filename>
     <includes id="agent__simulation_8h" name="agent_simulation.h" local="yes" imported="no">delphyne/mi6/agent_simulation.h</includes>
+    <includes id="road__network__wrapper_8h" name="road_network_wrapper.h" local="yes" imported="no">delphyne/roads/road_network_wrapper.h</includes>
     <includes id="agent__simulation__builder_8h" name="agent_simulation_builder.h" local="yes" imported="no">backend/agent_simulation_builder.h</includes>
     <includes id="interactive__simulation__stats_8h" name="interactive_simulation_stats.h" local="yes" imported="no">backend/interactive_simulation_stats.h</includes>
     <includes id="simulation__run__stats_8h" name="simulation_run_stats.h" local="yes" imported="no">backend/simulation_run_stats.h</includes>
@@ -3139,18 +3153,18 @@
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>const maliput::api::RoadNetwork *</type>
+      <type>const delphyne::roads::RoadNetworkWrapper *</type>
       <name>SetRoadNetwork</name>
       <anchorfile>classdelphyne_1_1_agent_simulation_base_builder.html</anchorfile>
-      <anchor>a167a342f1e068a7fccfad4aaf26e0051</anchor>
-      <arglist>(std::unique_ptr&lt; maliput::api::RoadNetwork &gt; road_network)</arglist>
+      <anchor>a0d3319db0906cd63a39b237657beb390</anchor>
+      <arglist>(std::unique_ptr&lt; delphyne::roads::RoadNetworkWrapper &gt; road_network)</arglist>
     </member>
     <member kind="function">
-      <type>const maliput::api::RoadNetwork *</type>
+      <type>const delphyne::roads::RoadNetworkWrapper *</type>
       <name>SetRoadNetwork</name>
       <anchorfile>classdelphyne_1_1_agent_simulation_base_builder.html</anchorfile>
-      <anchor>ab4f96270f6fc3ed27e97bb7990665dc2</anchor>
-      <arglist>(std::unique_ptr&lt; maliput::api::RoadNetwork &gt; road_network, const maliput::utility::ObjFeatures &amp;features)</arglist>
+      <anchor>a264e4087ae88c026a69ec5660c1fd5cd</anchor>
+      <arglist>(std::unique_ptr&lt; delphyne::roads::RoadNetworkWrapper &gt; road_network, const maliput::utility::ObjFeatures &amp;features)</arglist>
     </member>
     <member kind="function">
       <type>Blueprint *</type>
@@ -9738,6 +9752,38 @@
       <arglist></arglist>
     </member>
   </compound>
+  <compound kind="class">
+    <name>delphyne::roads::RoadNetworkWrapper</name>
+    <filename>classdelphyne_1_1roads_1_1_road_network_wrapper.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>RoadNetworkWrapper</name>
+      <anchorfile>classdelphyne_1_1roads_1_1_road_network_wrapper.html</anchorfile>
+      <anchor>a47ca83c6d9e8e188c1ea29242a52a19e</anchor>
+      <arglist>(std::unique_ptr&lt; maliput::api::RoadNetwork &gt; rn)</arglist>
+    </member>
+    <member kind="function">
+      <type>maliput::api::RoadNetwork *</type>
+      <name>release</name>
+      <anchorfile>classdelphyne_1_1roads_1_1_road_network_wrapper.html</anchorfile>
+      <anchor>a04e9f52e0dc861a5d7d09080930e7406</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>maliput::api::RoadNetwork *</type>
+      <name>operator-&gt;</name>
+      <anchorfile>classdelphyne_1_1roads_1_1_road_network_wrapper.html</anchorfile>
+      <anchor>a8d49e9bebfa513def2e461d09e326eeb</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>maliput::api::RoadNetwork &amp;</type>
+      <name>operator*</name>
+      <anchorfile>classdelphyne_1_1roads_1_1_road_network_wrapper.html</anchorfile>
+      <anchor>a152aecae39be325fbbe0c09db4f64f0b</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+  </compound>
   <compound kind="struct">
     <name>delphyne::RoadOdometry</name>
     <filename>structdelphyne_1_1_road_odometry.html</filename>
@@ -11511,38 +11557,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>delphyne::behaviours::agents::UnicycleCar</name>
-    <filename>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</filename>
-    <member kind="function">
-      <type>def</type>
-      <name>__init__</name>
-      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
-      <anchor>a13249fc1ace1d48056547d4e02c94fa8</anchor>
-      <arglist>(self, name=py_trees.common.Name.AUTO_GENERATED, initial_pose=(0., 0., 0.), speed=1.)</arglist>
-    </member>
-    <member kind="function">
-      <type>def</type>
-      <name>setup</name>
-      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
-      <anchor>a175e40d3f85f9743682b3ba44c60dc13</anchor>
-      <arglist>(self, *builder)</arglist>
-    </member>
-    <member kind="variable">
-      <type></type>
-      <name>initial_pose</name>
-      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
-      <anchor>a422636159fa92f54ca997246946f793c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type></type>
-      <name>speed</name>
-      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
-      <anchor>ab04a44aead88cfdbd44325ec2cf7a33a</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>delphyne::UnicycleCar</name>
     <filename>classdelphyne_1_1_unicycle_car.html</filename>
     <templarg></templarg>
@@ -11580,6 +11594,38 @@
       <anchorfile>classdelphyne_1_1_unicycle_car.html</anchorfile>
       <anchor>a738454715d868258a2f62ff4a1cc60f8</anchor>
       <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>delphyne::behaviours::agents::UnicycleCar</name>
+    <filename>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</filename>
+    <member kind="function">
+      <type>def</type>
+      <name>__init__</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
+      <anchor>a13249fc1ace1d48056547d4e02c94fa8</anchor>
+      <arglist>(self, name=py_trees.common.Name.AUTO_GENERATED, initial_pose=(0., 0., 0.), speed=1.)</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>setup</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
+      <anchor>a175e40d3f85f9743682b3ba44c60dc13</anchor>
+      <arglist>(self, *builder)</arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>initial_pose</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
+      <anchor>a422636159fa92f54ca997246946f793c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>speed</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
+      <anchor>ab04a44aead88cfdbd44325ec2cf7a33a</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -12528,6 +12574,7 @@
   <compound kind="namespace">
     <name>delphyne::roads</name>
     <filename>namespacedelphyne_1_1roads.html</filename>
+    <class kind="class">delphyne::roads::RoadNetworkWrapper</class>
     <member kind="function">
       <type>const maliput::api::Lane *</type>
       <name>FindLane</name>
@@ -12536,52 +12583,52 @@
       <arglist>(const maliput::api::LaneId &amp;lane_id, const maliput::api::RoadGeometry &amp;road_geometry)</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; RoadNetworkWrapper &gt;</type>
       <name>CreateRoadNetwork</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>a64ec3dabf66ab724fc0b747d3c75fddd</anchor>
+      <anchor>a69351b3686c6afc1329721fdbd332ac2</anchor>
       <arglist>(const std::string &amp;road_network_plugin_name, const std::map&lt; std::string, std::string &gt; &amp;loader_parameters)</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; RoadNetworkWrapper &gt;</type>
       <name>CreateDragway</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>ae0ff0a7c4009db93da56a837d29268d9</anchor>
+      <anchor>aa498d146802591d6d82eef32a3397704</anchor>
       <arglist>(const std::string &amp;name, int num_lanes, double length, double lane_width, double shoulder_width, double maximum_height, double linear_tolerance=std::numeric_limits&lt; double &gt;::epsilon(), double angular_tolerance=std::numeric_limits&lt; double &gt;::epsilon())</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; RoadNetworkWrapper &gt;</type>
       <name>CreateMultilaneFromFile</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>acd9993fa0a6ee00a96ebdf7d955ba068</anchor>
+      <anchor>a55691fe76e62b8520cacf0707ab93d60</anchor>
       <arglist>(const std::string &amp;file_path)</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; RoadNetworkWrapper &gt;</type>
       <name>CreateMultilaneFromDescription</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>aa91d31fd414413685d3581966aac4b98</anchor>
+      <anchor>a060676e1a93b80c3969468230e161707</anchor>
       <arglist>(const std::string &amp;yaml_description)</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; RoadNetworkWrapper &gt;</type>
       <name>CreateMalidriveFromXodr</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>ad23ea9e01da7d6762574589baae11b7f</anchor>
+      <anchor>ab824ee09b92e66244ae3b055b9f42772</anchor>
       <arglist>(const std::string &amp;name, const std::string &amp;file_path, double linear_tolerance=1e-3, double angular_tolerance=1e-3)</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; RoadNetworkWrapper &gt;</type>
       <name>CreateMalidriveRoadNetworkFromXodr</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>a62670d30382c616d719a706db10e3852</anchor>
+      <anchor>a0a812b1fb0259546fcde0d85c4897794</anchor>
       <arglist>(const std::string &amp;name, const std::string &amp;file_path, const std::string &amp;rule_registry_file_path=std::string(), const std::string &amp;road_rulebook_file_path=std::string(), const std::string &amp;traffic_light_book_path=std::string(), const std::string &amp;phase_ring_path=std::string(), const std::string &amp;intersection_book_path=std::string(), double linear_tolerance=1e-3, double angular_tolerance=1e-3)</arglist>
     </member>
     <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <type>std::unique_ptr&lt; RoadNetworkWrapper &gt;</type>
       <name>CreateOnRamp</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>ab08fb8ea72ef1e9d7f77279f28fe6965</anchor>
+      <anchor>a113d288a4051675a3e3281aa048aa4d9</anchor>
       <arglist>()</arglist>
     </member>
   </compound>

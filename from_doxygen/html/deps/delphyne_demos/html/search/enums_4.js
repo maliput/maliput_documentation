@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['scanstrategy_2767',['ScanStrategy',['../../../delphyne/html/namespacedelphyne.html#aaa81dbcb1a985b9b239777c0ac52f157',1,'delphyne']]]
+  ['scanstrategy_2778',['ScanStrategy',['../../../delphyne/html/namespacedelphyne.html#aaa81dbcb1a985b9b239777c0ac52f157',1,'delphyne']]]
 ];

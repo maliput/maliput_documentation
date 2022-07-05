@@ -158,6 +158,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "ResourceInspector", "classdelphyne_1_1utility_1_1_resource_inspector.html", null ],
+    [ "RoadNetworkWrapper", "classdelphyne_1_1roads_1_1_road_network_wrapper.html", null ],
     [ "RoadOdometry< T >", "structdelphyne_1_1_road_odometry.html", null ],
     [ "RoadPath< T >", "classdelphyne_1_1_road_path.html", null ],
     [ "Sequence", null, [

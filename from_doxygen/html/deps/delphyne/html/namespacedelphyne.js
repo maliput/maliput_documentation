@@ -4,6 +4,7 @@ var namespacedelphyne =
     [ "blackboard", "namespacedelphyne_1_1blackboard.html", "namespacedelphyne_1_1blackboard" ],
     [ "common", "namespacedelphyne_1_1common.html", "namespacedelphyne_1_1common" ],
     [ "detail", "namespacedelphyne_1_1detail.html", "namespacedelphyne_1_1detail" ],
+    [ "roads", "namespacedelphyne_1_1roads.html", "namespacedelphyne_1_1roads" ],
     [ "trees", "namespacedelphyne_1_1trees.html", "namespacedelphyne_1_1trees" ],
     [ "utility", "namespacedelphyne_1_1utility.html", "namespacedelphyne_1_1utility" ],
     [ "AgentBase", "classdelphyne_1_1_agent_base.html", "classdelphyne_1_1_agent_base" ],

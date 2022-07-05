@@ -65,8 +65,8 @@ var NAVTREEINDEX =
 "classdelphyne_1_1_ign_models_to_ids.html#a60eb85e04ee2c83efb707fd4aa7840fb",
 "classdelphyne_1_1_simple_car_params.html#a49bd0e88ee4fd07129de724ba69a4043",
 "classdelphyne_1_1blackboard_1_1providers_1_1_lane_location_provider.html#ad0c280923edc3f560c96529cd61964a3",
-"idm__planner__parameters_8h.html#a4661d7015bed9b34f658c1823c5c4c30",
-"structdelphyne_1_1_idm_planner_parameters_indices.html#accbd7ff0bcd7691ab2a7e52e7c551c0d"
+"idm__controller_8h.html",
+"structdelphyne_1_1_idm_planner_parameters_indices.html#a2ef75590b5043429842590c595a4baf0"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
