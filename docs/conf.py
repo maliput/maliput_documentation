@@ -6,26 +6,14 @@
 # full list see the documentation:
 # http://www.sphinx-doc.org/en/master/config
 
-import os
-import catkin_pkg.package
-
 # -- Project information -----------------------------------------------------
 
 # General information about the project.
 project = u'maliput'
-copyright = u'2020 Toyota Research Institute'
-author = u'Toyota Research Institute'
-
-catkin_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-catkin_package = catkin_pkg.package.parse_package(os.path.join(catkin_dir, catkin_pkg.package.PACKAGE_MANIFEST_FILENAME))
-version = catkin_package.version
-release = catkin_package.version
+copyright = u'2022 Woven Planet'
+author = u'Woven Planet'
 
 # -- General configuration ---------------------------------------------------
-
-# If your documentation needs a minimal Sphinx version, state it here.
-#
-# needs_sphinx = '1.0'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -56,44 +44,19 @@ language = 'en'
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
 
-# The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
-
-
 # -- Options for HTML output -------------------------------------------------
 
 # Title of the html page.
 html_title = "Maliput Documentation"
 
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-#
-html_theme = 'pyramid'
-
-html_extra_path = ['media/gallery/us2_single_lane.webm',
-                   'media/gallery/us3_arc_lane.webm',
-                   'media/gallery/us4_s_shape_road.webm',
-                   'media/gallery/us5_l_shape_road.webm',
-                   'media/gallery/us6_t_shape_road.webm',
-                   'media/gallery/us7_line_multiple_sections.webm',
-                   'media/gallery/us8_parking_garage_ramp.webm',
-                   'media/gallery/us9_s_shape_superelevated_road.webm',
-                   'media/gallery/us10_line_variable_width.webm',
-                   'media/gallery/us12_line_variable_offset.webm',
-                   'media/gallery/town05.webm',
-                   'media/gallery/town07.webm']
+html_extra_path = ['media',
+                   'from_doxygen']
 
 # Icon of the window.
-# html_favicon = 'm_icon_24x24.ico'
+html_favicon = 'logo.png'
 
 # Logo of the page. Logo will be put on top of the sidebar.
-# html_logo = 'm_logo.ico'
-
-# Theme options are theme-specific and customize the look and feel of a theme
-# further.  For a list of options available for each theme, see the
-# documentation.
-#
-# html_theme_options = {}
+html_logo = 'logo.png'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
