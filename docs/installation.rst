@@ -60,7 +60,7 @@ Binary Installation on Ubuntu
 Prerequisites
 -------------
 
-Add ROS2 repository to your source list(See `ROS2 Foxy setup process <https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#setup-sources>`_):
+Add ROS2 repository to your source list (see `ROS2 Foxy setup process <https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#setup-sources>`_):
 
 .. code-block:: sh
 
