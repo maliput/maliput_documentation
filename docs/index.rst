@@ -5,12 +5,13 @@ Welcome to maliput documentation!
    :maxdepth: 1
 
    maliput_overview
-   installation_quickstart
-   developer_guidelines
-   contributing
+   installation
    design
    tutorials
    gallery
    api_documentation
    roadmap
+   contributing
+   developer_guidelines
+   developer_setup
 

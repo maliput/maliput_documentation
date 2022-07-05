@@ -1,5 +1,7 @@
-Installation and Quickstart
-***************************
+.. _developer_setup_label:
+
+Developer Setup
+***************
 
 
 .. contents:: Table of Contents
@@ -32,7 +34,7 @@ Prerequisites
 
 .. code-block:: sh
 
-      git clone git@github.com:ToyotaResearchInstitute/maliput_infrastructure.git
+      git clone git@github.com:maliput/maliput_infrastructure.git
 
 
 * To pull private repositories, the current user default SSH keys will be used
@@ -46,7 +48,7 @@ Workspace creation
 
 The following assumes that you want to create a workspace containing all of Maliput's repositories, with a focus on
 Maliput and Malidrive development. As such, it uses a workspace directory named ``maliput_ws`` and pulls
-sources from `foxy/maliput.repos <https://github.com/ToyotaResearchInstitute/maliput_infrastructure/blob/main/repos_index/foxy/maliput.repos>`_.
+sources from `foxy/maliput.repos <https://github.com/maliput/maliput_infrastructure/blob/main/repos_index/foxy/maliput.repos>`_.
 
 The instructions also cover how to optionally add ``delphyne`` repositories into your
 workspace. These repositories include a simulator and visualizer useful when working with Maliput road networks.
