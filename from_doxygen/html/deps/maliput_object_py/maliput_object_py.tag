@@ -2,7 +2,7 @@
 <tagfile>
   <compound kind="file">
     <name>api_py.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object_py/src/bindings/</path>
+    <path>/home/franco/maliput_ws_focal/src/maliput_object_py/src/bindings/</path>
     <filename>api__py_8cc.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::object</namespace>
