@@ -1,3 +1,5 @@
+.. _maliput_overview_label:
+
 **********************************
 Maliput Overview
 **********************************
@@ -217,7 +219,7 @@ Maliput Plugin Architecture
 `maliput`'s clients may opt to use the plugin architecture to load at runtime specific backends.
 That simplifies and unifies the linkage process and reduces the number of compile time dependencies.
 
-For further information refer to `Maliput Plugin Architecture <from_doxygen/html/deps/maliput/html/maliput_plugin_architecture.html>`_ page.
+For further information refer to `Maliput Plugin Architecture <html/deps/maliput/html/maliput_plugin_architecture.html>`_ page.
 
 
 Maliput backends
@@ -225,9 +227,9 @@ Maliput backends
 
 Available concrete implementations of the abstract API:
 
-* `maliput_dragway <https://github.com/ToyotaResearchInstitute/maliput_dragway>`_ : `maliput_dragway is an implementation of `maliput`'s API that allows users to instantiate a multi-Lane dragway. All lanes in the dragway are straight, parallel, and in the same segment. The ends of each lane are connected together via a "magical loop" that results in vehicles traveling on the Dragway's lanes instantaneously teleporting from one end of the lane to the opposite end of the lane. The number of lanes and their lengths, widths, and shoulder widths are all user customizable.
+* `maliput_dragway <https://github.com/maliput/maliput_dragway>`_ : `maliput_dragway is an implementation of `maliput`'s API that allows users to instantiate a multi-Lane dragway. All lanes in the dragway are straight, parallel, and in the same segment. The ends of each lane are connected together via a "magical loop" that results in vehicles traveling on the Dragway's lanes instantaneously teleporting from one end of the lane to the opposite end of the lane. The number of lanes and their lengths, widths, and shoulder widths are all user customizable.
 
-* `maliput_multilane <https://github.com/ToyotaResearchInstitute/maliput_multilane>`_: `maliput_multilane` is an implementation of `maliput`'s API that allows users to instantiate a `RoadNetowork` with the following relevant characteristics:
+* `maliput_multilane <https://github.com/maliput/maliput_multilane>`_: `maliput_multilane` is an implementation of `maliput`'s API that allows users to instantiate a `RoadNetowork` with the following relevant characteristics:
 
   * Multiple Lanes are allowed per Segment.
   * Constant width Lanes.
@@ -238,7 +240,7 @@ Available concrete implementations of the abstract API:
   * Adjustable linear tolerance.
   * The number of lanes and their lengths, widths, and shoulder widths are all user specifiable.
 
-* `maliput_malidrive <https://github.com/ToyotaResearchInstitute/maliput_malidrive>`_ : `maliput_malidrive` is an implementation of `maliput`'s API that allows users to instantiate a `RoadNetwork` based on the `OpenDRIVE` specification which allows defining complex `RoadGeometry` as the standard guarantees.
+* `maliput_malidrive <https://github.com/maliput/maliput_malidrive>`_ : `maliput_malidrive` is an implementation of `maliput`'s API that allows users to instantiate a `RoadNetwork` based on the `OpenDRIVE` specification which allows defining complex `RoadGeometry` as the standard guarantees.
 
   * OpenDRIVE based map description.
   * Multiple Lanes per Segment.
@@ -255,7 +257,7 @@ TODO: Create diagram showing `maliput` as api and the backends.
 Maliput Python interface
 ===============================
 
-Python bindings are provided by `maliput_py <https://github.com/ToyotaResearchInstitute/maliput_py>`_ package. Only the API is covered.
+Python bindings are provided by `maliput_py <https://github.com/maliput/maliput_py>`_ package. Only the API is covered.
 
 
 Dependencies
