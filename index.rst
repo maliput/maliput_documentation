@@ -2,31 +2,15 @@ Welcome to maliput documentation!
 =================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    maliput_overview
-   gallery
-
-.. toctree::
-   :caption: First steps
-   :maxdepth: 3
-
    installation
-   getting_started
-
-.. toctree::
-   :caption: Documentation
-   :maxdepth: 2
-
-   tutorials
-   api_documentation
    design
+   tutorials
+   gallery
+   api_documentation
    roadmap
-
-.. toctree::
-   :caption: Miscellaneous
-   :maxdepth: 2
-
    contributing
    developer_guidelines
    developer_setup

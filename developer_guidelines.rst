@@ -1,5 +1,5 @@
 ********************
-Developer Guidelines
+Developer guidelines
 ********************
 
 .. contents:: Table of Contents
@@ -40,7 +40,7 @@ The following packages are provided:
 .. _maliput: https://github.com/maliput/maliput
 .. _maliput_py: https://github.com/maliput/maliput_py
 .. _maliput_object: https://github.com/maliput/maliput_object
-.. _maliput_object_py: https://github.com/maliput/maliput_object_py
+.. _maliput_object: https://github.com/maliput/maliput_object_py
 .. _ament_cmake_doxygen: https://github.com/ToyotaResearchInstitute/ament_cmake_doxygen
 .. _maliput_documentation: https://github.com/maliput/maliput_documentation
 .. _maliput_dragway: https://github.com/maliput/maliput_dragway
