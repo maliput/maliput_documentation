@@ -18,7 +18,7 @@ This page will help you out getting started with the library.
 As explained in the :ref:`maliput_overview_label` page, `maliput` package is an API which implementation is provided by a backend. At the moment there are three different implementations:
 `maliput_dragway <https://github.com/maliput/maliput_dragway>`_, `maliput_multilane <https://github.com/maliput/maliput_multilane>`_, `maliput_malidrive <https://github.com/maliput/maliput_malidrive>`_.
 
-The `maliput_malidrive` implementation is the one that provides more feature support, so we recommend to start with it.
+The `maliput_malidrive <https://github.com/maliput/maliput_malidrive>`_ implementation is the one that provides more feature support, so it is the recommended choice.
 
 
 The Basics
@@ -30,15 +30,26 @@ Loading a RoadNetwork
 The `maliput::api::RoadNetwork` is the main entry point to the library. It is used to load a road network from a backend.
 Once the it is loaded, you can access to the road network's element, such as:
 
-* `maliput::api::RoadGeometry`: It provides several geometry queries making focus on the road surface and semantic of lanes.
-* `maliput::api::rules::TrafficLightsBook`: Related to traffic lights in the road network.
-* `maliput::api::rules::RuleRegistry`: Related to types of rules that are registered for the road network.
-* `maliput::api::rules::RangeValueRules`: Related to rules indicating a range of validity for each rule's state.
-* `maliput::api::rules::DiscreteValueRules`: Related to rules indicating a discrete value for each rule's state.
-* `maliput::api::IntersectionBook`: Provides information about the intersections in the road network.
-* `maliput::api::rules::PhaseRingBook`: Provides information about the phases that participate, for example, in the intersections.
-* `maliput::api::rules::PhaseProvider`: Provides the current phase for each phase ring.
-* `maliput::api::rules::DiscreteValueRuleStateProvider` and `maliput::api::rules::RangeValueRuleStateProvider`: Provides the current state for a given rule.
+* `maliput::api::RoadGeometry`_: It provides several geometry queries making focus on the road surface and semantic of lanes.
+* `maliput::api::IntersectionBook`_: Provides information about the intersections in the road network.
+* `maliput::api::rules::TrafficLightBook`_: Related to traffic lights in the road network.
+* `maliput::api::rules::RuleRegistry`_: Related to types of rules that are registered for the road network.
+* `maliput::api::rules::RangeValueRule`_: Related to rules indicating a range of validity for each rule's state.
+* `maliput::api::rules::DiscreteValueRule`_: Related to rules indicating a discrete value for each rule's state.
+* `maliput::api::rules::PhaseRingBook`_: Provides information about the phases that participate, for example, in the intersections.
+* `maliput::api::rules::PhaseProvider`_: Provides the current phase for each phase ring.
+* `maliput::api::rules::DiscreteValueRuleStateProvider`_ and `maliput::api::rules::RangeValueRuleStateProvider`_: Provide the current state for a given rule.
+
+.. _maliput::api::RoadGeometry: html/deps/maliput/html/classmaliput_1_1api_1_1_road_geometry.html
+.. _maliput::api::IntersectionBook: html/deps/maliput/html/classmaliput_1_1api_1_1_intersection_book.html
+.. _maliput::api::rules::TrafficLightBook: html/deps/maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html
+.. _maliput::api::rules::RuleRegistry: html/deps/maliput/html/classmaliput_1_1api_1_1rules_1_1_rule_registry.html
+.. _maliput::api::rules::RangeValueRule: html/deps/maliput/html/classmaliput_1_1api_1_1rules_1_1_range_value_rule.html
+.. _maliput::api::rules::DiscreteValueRule: html/deps/maliput/html/classmaliput_1_1api_1_1rules_1_1_discrete_value_rule.html
+.. _maliput::api::rules::PhaseRingBook: html/deps/maliput/html/classmaliput_1_1api_1_1rules_1_1_phase_ring_book.html
+.. _maliput::api::rules::PhaseProvider: html/deps/maliput/html/classmaliput_1_1api_1_1rules_1_1_phase_provider.html
+.. _maliput::api::rules::DiscreteValueRuleStateProvider: html/deps/maliput/html/classmaliput_1_1api_1_1rules_1_1_discrete_value_rule_state_provider.html
+.. _maliput::api::rules::RangeValueRuleStateProvider: html/deps/maliput/html/classmaliput_1_1api_1_1rules_1_1_range_value_rule_state_provider.html
 
 
 There are two ways of loading a RoadNetwork:
