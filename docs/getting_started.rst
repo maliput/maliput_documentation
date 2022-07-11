@@ -16,7 +16,7 @@ This page will help you out getting started with the library.
 
 
 As explained in the :ref:`maliput_overview_label` page, `maliput` package is an API which implementation is provided by a backend. At the moment there are three different implementations:
-`maliput_dragway <https://github.com/maliput/maliput_dragway>`_, `maliput_multilane <https://github.com/maliput/maliput_multilane>`_, `maliput_malidrive <https://github.com/maliput/maliput_malidrive>`_.
+`maliput_dragway <https://github.com/maliput/maliput_dragway>`_, `maliput_multilane <https://github.com/maliput/maliput_multilane>`_, and `maliput_malidrive <https://github.com/maliput/maliput_malidrive>`_.
 
 The `maliput_malidrive <https://github.com/maliput/maliput_malidrive>`_ implementation is the one that provides more feature support, so it is the recommended choice.
 
@@ -28,14 +28,14 @@ Loading a RoadNetwork
 ---------------------
 
 The `maliput::api::RoadNetwork` is the main entry point to the library. It is used to load a road network from a backend.
-Once the it is loaded, you can access to the road network's element, such as:
+Once the it is loaded, you can access its elements:
 
-* `maliput::api::RoadGeometry`_: It provides several geometry queries making focus on the road surface and semantic of lanes.
+* `maliput::api::RoadGeometry`_: Provides several geometric queries making focus on the road surface and semantic of lanes.
 * `maliput::api::IntersectionBook`_: Provides information about the intersections in the road network.
 * `maliput::api::rules::TrafficLightBook`_: Related to traffic lights in the road network.
 * `maliput::api::rules::RuleRegistry`_: Related to types of rules that are registered for the road network.
-* `maliput::api::rules::RangeValueRule`_: Related to rules indicating a range of validity for each rule's state.
-* `maliput::api::rules::DiscreteValueRule`_: Related to rules indicating a discrete value for each rule's state.
+* `maliput::api::rules::RangeValueRule`_: Related to rules indicating continuous ranges for their possible states (e.g. allowed speed).
+* `maliput::api::rules::DiscreteValueRule`_: Related to rules indicating a discrete value for each rule's state (e.g. right of way).
 * `maliput::api::rules::PhaseRingBook`_: Provides information about the phases that participate, for example, in the intersections.
 * `maliput::api::rules::PhaseProvider`_: Provides the current phase for each phase ring.
 * `maliput::api::rules::DiscreteValueRuleStateProvider`_ and `maliput::api::rules::RangeValueRuleStateProvider`_: Provide the current state for a given rule.
@@ -86,7 +86,7 @@ And then we can call the `maliput_malidrive`'s loader
   road_network_configuration.emplace("opendrive_file", "<path_to_xodr_file>");
   auto road_network = malidrive::loader::Load<malidrive::builder::RoadNetworkBuilder>(road_network_configuration);
 
-There are several parameters that can be passed to the malidrive loader. In this case, `opendrive_file` parameters is suggested as the `maliput_malidrive` relies on the OpenDRIVE standard for describing road networks. You can check all the `maliput_malidrive`'s parameters at 
+There are several parameters that can be passed to the `maliput_malidrive` loader. In this case, `opendrive_file` parameters is suggested as the `maliput_malidrive` relies on the OpenDRIVE standard for describing road networks. You can check all the `maliput_malidrive`'s parameters at 
 `Road Network Configuration Builder keys <html/deps/maliput_malidrive/html/group__road__network__configuration__builder__keys.html>`_
 
 `maliput_malidrive` package provides several XODR files as resources and they available at `/opt/ros/<ROS_DISTRO>/share/maliput_malidrive/resources/odr`, for this case we could replace then
@@ -188,9 +188,4 @@ PhaseRingBook
 -------------
 
 TODO
-
-
-
-
-
 
