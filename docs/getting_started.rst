@@ -27,8 +27,8 @@ The Basics
 Loading a RoadNetwork
 ---------------------
 
-The `maliput::api::RoadNetwork` is the main entry point to the library. It is used to load a road network from a backend.
-Once the it is loaded, you can access its elements:
+The `maliput::api::RoadNetwork` is the main entity from a hierarchical point of view point. It aggregates everything pertaining to `Maliput`.
+Once a road network is loaded, you can access its elements:
 
 * `maliput::api::RoadGeometry`_: Provides several geometric queries making focus on the road surface and semantic of lanes.
 * `maliput::api::IntersectionBook`_: Provides information about the intersections in the road network.
@@ -61,40 +61,40 @@ Let's focus on the first way of loading a road network.
 Load a maliput_malidrive RoadNetwork
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-First of all make sure that targets are correctly linked.
+1. If you are using CMake, link to `maliput`'s libraries:
 
-.. code-block:: cmake
-  :linenos:
+  .. code-block:: cmake
+    :linenos:
 
-  find_package(maliput)
-  find_package(maliput_malidrive)
-  # ...
-  # ...
-  target_link_libraries(<your_target>
-    maliput::api
-    maliput_malidrive::loader
-  )
-
-
-And then we can call the `maliput_malidrive`'s loader
+    find_package(maliput)
+    find_package(maliput_malidrive)
+    # ...
+    # ...
+    target_link_libraries(<your_target>
+      maliput::api
+      maliput_malidrive::loader
+    )
 
 
-.. code-block:: cpp
-  :linenos:
+2. Relies on the `maliput_malidrive`'s loader for loading the `maliput::api::RoadNetwork`:
 
-  std::map<std::string, std::string> road_network_configuration;
-  road_network_configuration.emplace("opendrive_file", "<path_to_xodr_file>");
-  auto road_network = malidrive::loader::Load<malidrive::builder::RoadNetworkBuilder>(road_network_configuration);
 
-There are several parameters that can be passed to the `maliput_malidrive` loader. In this case, `opendrive_file` parameters is suggested as the `maliput_malidrive` relies on the OpenDRIVE standard for describing road networks. You can check all the `maliput_malidrive`'s parameters at 
-`Road Network Configuration Builder keys <html/deps/maliput_malidrive/html/group__road__network__configuration__builder__keys.html>`_
+  .. code-block:: cpp
+    :linenos:
 
-`maliput_malidrive` package provides several XODR files as resources and they available at `/opt/ros/<ROS_DISTRO>/share/maliput_malidrive/resources/odr`, for this case we could replace then
-<path_to_xodr_file> by  `/opt/ros/<ROS_DISTRO>/share/maliput_malidrive/resources/odr/TShapeRoad.xodr`
+    std::map<std::string, std::string> road_network_configuration;
+    road_network_configuration.emplace("opendrive_file", "<path_to_xodr_file>");
+    auto road_network = malidrive::loader::Load<malidrive::builder::RoadNetworkBuilder>(road_network_configuration);
 
-.. note::
+  There are several parameters that can be passed to the `maliput_malidrive` loader. In this case, `opendrive_file` parameters is suggested as the `maliput_malidrive` relies on the OpenDRIVE standard for describing road networks. You can check all the `maliput_malidrive`'s parameters at 
+  `Road Network Configuration Builder keys <html/deps/maliput_malidrive/html/group__road__network__configuration__builder__keys.html>`_
 
-  `maliput_malidrive` package adds a environment variable called `MALIPUT_MALIDRIVE_RESOURCE_ROOT` that points to `resources`'s root folder.
+  `maliput_malidrive` package provides several XODR files as resources and they available at `/opt/ros/<ROS_DISTRO>/share/maliput_malidrive/resources/odr`, for this case we could replace then
+  <path_to_xodr_file> by  `/opt/ros/<ROS_DISTRO>/share/maliput_malidrive/resources/odr/TShapeRoad.xodr`
+
+  .. note::
+
+    `maliput_malidrive` package adds a environment variable called `MALIPUT_MALIDRIVE_RESOURCE_ROOT` that points to `resources`'s root folder.
 
 
 Querying the RoadGeometry
@@ -133,7 +133,7 @@ For a complete maliput api reference please visit: `maliput::api <html/deps/mali
 Loading a RoadNetwork via Maliput Plugin Architecture
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TODO
+*TODO*: Via `maliput_documentation/issues/101 <https://github.com/maliput/maliput_documentation/issues/101>`_.
 
 See `Maliput Plugin Architecture <html/deps/maliput/html/maliput_plugin_architecture.html>`_
 
@@ -172,20 +172,17 @@ we are relying on the `maliput_py` package for the corresponding `maliput` bindi
 Advanced
 ========
 
-TODO
-
 Traffic Lights
 --------------
 
-TODO
+*TODO*: Via `maliput_documentation/issues/101 <https://github.com/maliput/maliput_documentation/issues/101>`_.
 
 Rules
 -----
 
-TODO
+*TODO*: Via `maliput_documentation/issues/101 <https://github.com/maliput/maliput_documentation/issues/101>`_.
 
 PhaseRingBook
 -------------
 
-TODO
-
+*TODO*: Via `maliput_documentation/issues/101 <https://github.com/maliput/maliput_documentation/issues/101>`_.
