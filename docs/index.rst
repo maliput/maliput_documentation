@@ -1,5 +1,5 @@
-Intro
-=====
+  Intro
+  =====
 
 .. include:: maliput_vision.rst
 
