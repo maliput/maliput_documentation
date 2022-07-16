@@ -2,13 +2,13 @@
 <tagfile>
   <compound kind="file">
     <name>__init__.py</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/delphyne_demos/demos/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/demos/</path>
     <filename>____init_____8py.html</filename>
     <namespace>demos</namespace>
   </compound>
   <compound kind="file">
     <name>city.py</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/delphyne_demos/demos/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/demos/</path>
     <filename>city_8py.html</filename>
     <namespace>demos::city</namespace>
     <member kind="function">
@@ -42,7 +42,7 @@
   </compound>
   <compound kind="file">
     <name>crash.py</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/delphyne_demos/demos/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/demos/</path>
     <filename>crash_8py.html</filename>
     <namespace>demos::crash</namespace>
     <member kind="function">
@@ -76,7 +76,7 @@
   </compound>
   <compound kind="file">
     <name>dragway.py</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/delphyne_demos/demos/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/demos/</path>
     <filename>dragway_8py.html</filename>
     <namespace>demos::dragway</namespace>
     <member kind="function">
@@ -103,7 +103,7 @@
   </compound>
   <compound kind="file">
     <name>gazoo.py</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/delphyne_demos/demos/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/demos/</path>
     <filename>gazoo_8py.html</filename>
     <namespace>demos::gazoo</namespace>
     <member kind="function">
@@ -130,7 +130,7 @@
   </compound>
   <compound kind="file">
     <name>helpers.py</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/delphyne_demos/demos/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/demos/</path>
     <filename>helpers_8py.html</filename>
     <namespace>demos::helpers</namespace>
     <member kind="function">
@@ -143,7 +143,7 @@
   </compound>
   <compound kind="file">
     <name>keyboard_handler.py</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/delphyne_demos/demos/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/demos/</path>
     <filename>keyboard__handler_8py.html</filename>
     <class kind="class">demos::keyboard_handler::KeyboardHandler</class>
     <class kind="class">demos::keyboard_handler::KeyboardStdIn</class>
@@ -159,7 +159,7 @@
   </compound>
   <compound kind="file">
     <name>keyop.py</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/delphyne_demos/demos/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/demos/</path>
     <filename>keyop_8py.html</filename>
     <namespace>demos::keyop</namespace>
     <member kind="function">
@@ -193,7 +193,7 @@
   </compound>
   <compound kind="file">
     <name>mali.py</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/delphyne_demos/demos/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/demos/</path>
     <filename>mali_8py.html</filename>
     <namespace>demos::mali</namespace>
     <member kind="function">
@@ -234,7 +234,7 @@
   </compound>
   <compound kind="file">
     <name>mobil_perf.py</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/delphyne_demos/demos/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/demos/</path>
     <filename>mobil__perf_8py.html</filename>
     <namespace>demos::mobil_perf</namespace>
     <member kind="function">
@@ -282,7 +282,7 @@
   </compound>
   <compound kind="file">
     <name>realtime.py</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/delphyne_demos/demos/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/demos/</path>
     <filename>realtime_8py.html</filename>
     <class kind="class">demos::realtime::RealtimeRateChanger</class>
     <namespace>demos::realtime</namespace>
@@ -310,7 +310,7 @@
   </compound>
   <compound kind="file">
     <name>roads.py</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/delphyne_demos/demos/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/demos/</path>
     <filename>roads_8py.html</filename>
     <namespace>demos::roads</namespace>
     <member kind="function">
@@ -330,7 +330,7 @@
   </compound>
   <compound kind="file">
     <name>scriptlets.py</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/delphyne_demos/demos/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/demos/</path>
     <filename>scriptlets_8py.html</filename>
     <class kind="class">demos::scriptlets::DelayedChangeSpeed</class>
     <class kind="class">demos::scriptlets::SimulationStats</class>
@@ -366,7 +366,7 @@
   </compound>
   <compound kind="file">
     <name>trip_integration.py</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/delphyne_demos/demos/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/demos/</path>
     <filename>trip__integration_8py.html</filename>
     <class kind="class">demos::trip_integration::KeyopAccelerateSteerUnicycleCar</class>
     <namespace>demos::trip_integration</namespace>

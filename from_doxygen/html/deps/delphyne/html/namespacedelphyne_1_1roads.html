@@ -89,55 +89,48 @@ $(document).ready(function(){initNavTree('namespacedelphyne_1_1roads.html',''); 
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">delphyne::roads Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1roads_1_1_road_network_wrapper.html">RoadNetworkWrapper</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper around a <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a>.  <a href="classdelphyne_1_1roads_1_1_road_network_wrapper.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aafa54213b58621b2ec914cb4113b133d"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedelphyne_1_1roads.html#aafa54213b58621b2ec914cb4113b133d">FindLane</a> (const <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">maliput::api::LaneId</a> &amp;lane_id, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> &amp;road_geometry)</td></tr>
 <tr class="memdesc:aafa54213b58621b2ec914cb4113b133d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the lane inside the specified road geometry by id.  <a href="namespacedelphyne_1_1roads.html#aafa54213b58621b2ec914cb4113b133d">More...</a><br /></td></tr>
 <tr class="separator:aafa54213b58621b2ec914cb4113b133d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69351b3686c6afc1329721fdbd332ac2"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classdelphyne_1_1roads_1_1_road_network_wrapper.html">RoadNetworkWrapper</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedelphyne_1_1roads.html#a69351b3686c6afc1329721fdbd332ac2">CreateRoadNetwork</a> (const std::string &amp;road_network_plugin_name, const std::map&lt; std::string, std::string &gt; &amp;loader_parameters)</td></tr>
-<tr class="memdesc:a69351b3686c6afc1329721fdbd332ac2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> based on an available <a class="elRef" href="../../maliput/html/classmaliput_1_1plugin_1_1_road_network_loader.html">maliput::plugin::RoadNetworkLoader</a> plugin implementation.  <a href="namespacedelphyne_1_1roads.html#a69351b3686c6afc1329721fdbd332ac2">More...</a><br /></td></tr>
-<tr class="separator:a69351b3686c6afc1329721fdbd332ac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa498d146802591d6d82eef32a3397704"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classdelphyne_1_1roads_1_1_road_network_wrapper.html">RoadNetworkWrapper</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedelphyne_1_1roads.html#aa498d146802591d6d82eef32a3397704">CreateDragway</a> (const std::string &amp;name, int num_lanes, double length, double lane_width, double shoulder_width, double maximum_height, double linear_tolerance=std::numeric_limits&lt; double &gt;::epsilon(), double angular_tolerance=std::numeric_limits&lt; double &gt;::epsilon())</td></tr>
-<tr class="memdesc:aa498d146802591d6d82eef32a3397704"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a dragway.  <a href="namespacedelphyne_1_1roads.html#aa498d146802591d6d82eef32a3397704">More...</a><br /></td></tr>
-<tr class="separator:aa498d146802591d6d82eef32a3397704"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55691fe76e62b8520cacf0707ab93d60"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classdelphyne_1_1roads_1_1_road_network_wrapper.html">RoadNetworkWrapper</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedelphyne_1_1roads.html#a55691fe76e62b8520cacf0707ab93d60">CreateMultilaneFromFile</a> (const std::string &amp;file_path)</td></tr>
-<tr class="memdesc:a55691fe76e62b8520cacf0707ab93d60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a multilane from yaml source.  <a href="namespacedelphyne_1_1roads.html#a55691fe76e62b8520cacf0707ab93d60">More...</a><br /></td></tr>
-<tr class="separator:a55691fe76e62b8520cacf0707ab93d60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a060676e1a93b80c3969468230e161707"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classdelphyne_1_1roads_1_1_road_network_wrapper.html">RoadNetworkWrapper</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedelphyne_1_1roads.html#a060676e1a93b80c3969468230e161707">CreateMultilaneFromDescription</a> (const std::string &amp;yaml_description)</td></tr>
-<tr class="memdesc:a060676e1a93b80c3969468230e161707"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a multilane from yaml description.  <a href="namespacedelphyne_1_1roads.html#a060676e1a93b80c3969468230e161707">More...</a><br /></td></tr>
-<tr class="separator:a060676e1a93b80c3969468230e161707"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab824ee09b92e66244ae3b055b9f42772"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classdelphyne_1_1roads_1_1_road_network_wrapper.html">RoadNetworkWrapper</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedelphyne_1_1roads.html#ab824ee09b92e66244ae3b055b9f42772">CreateMalidriveFromXodr</a> (const std::string &amp;name, const std::string &amp;file_path, double linear_tolerance=1e-3, double angular_tolerance=1e-3)</td></tr>
-<tr class="memdesc:ab824ee09b92e66244ae3b055b9f42772"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a malidrive from xodr source.  <a href="namespacedelphyne_1_1roads.html#ab824ee09b92e66244ae3b055b9f42772">More...</a><br /></td></tr>
-<tr class="separator:ab824ee09b92e66244ae3b055b9f42772"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a812b1fb0259546fcde0d85c4897794"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classdelphyne_1_1roads_1_1_road_network_wrapper.html">RoadNetworkWrapper</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedelphyne_1_1roads.html#a0a812b1fb0259546fcde0d85c4897794">CreateMalidriveRoadNetworkFromXodr</a> (const std::string &amp;name, const std::string &amp;file_path, const std::string &amp;rule_registry_file_path=std::string(), const std::string &amp;road_rulebook_file_path=std::string(), const std::string &amp;traffic_light_book_path=std::string(), const std::string &amp;phase_ring_path=std::string(), const std::string &amp;intersection_book_path=std::string(), double linear_tolerance=1e-3, double angular_tolerance=1e-3)</td></tr>
-<tr class="memdesc:a0a812b1fb0259546fcde0d85c4897794"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a malidrive from xodr source.  <a href="namespacedelphyne_1_1roads.html#a0a812b1fb0259546fcde0d85c4897794">More...</a><br /></td></tr>
-<tr class="separator:a0a812b1fb0259546fcde0d85c4897794"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a113d288a4051675a3e3281aa048aa4d9"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classdelphyne_1_1roads_1_1_road_network_wrapper.html">RoadNetworkWrapper</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedelphyne_1_1roads.html#a113d288a4051675a3e3281aa048aa4d9">CreateOnRamp</a> ()</td></tr>
-<tr class="memdesc:a113d288a4051675a3e3281aa048aa4d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a multilane on-ramp.  <a href="namespacedelphyne_1_1roads.html#a113d288a4051675a3e3281aa048aa4d9">More...</a><br /></td></tr>
-<tr class="separator:a113d288a4051675a3e3281aa048aa4d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64ec3dabf66ab724fc0b747d3c75fddd"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedelphyne_1_1roads.html#a64ec3dabf66ab724fc0b747d3c75fddd">CreateRoadNetwork</a> (const std::string &amp;road_network_plugin_name, const std::map&lt; std::string, std::string &gt; &amp;loader_parameters)</td></tr>
+<tr class="memdesc:a64ec3dabf66ab724fc0b747d3c75fddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> based on an available <a class="elRef" href="../../maliput/html/classmaliput_1_1plugin_1_1_road_network_loader.html">maliput::plugin::RoadNetworkLoader</a> plugin implementation.  <a href="namespacedelphyne_1_1roads.html#a64ec3dabf66ab724fc0b747d3c75fddd">More...</a><br /></td></tr>
+<tr class="separator:a64ec3dabf66ab724fc0b747d3c75fddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0ff0a7c4009db93da56a837d29268d9"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedelphyne_1_1roads.html#ae0ff0a7c4009db93da56a837d29268d9">CreateDragway</a> (const std::string &amp;name, int num_lanes, double length, double lane_width, double shoulder_width, double maximum_height, double linear_tolerance=std::numeric_limits&lt; double &gt;::epsilon(), double angular_tolerance=std::numeric_limits&lt; double &gt;::epsilon())</td></tr>
+<tr class="memdesc:ae0ff0a7c4009db93da56a837d29268d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a dragway.  <a href="namespacedelphyne_1_1roads.html#ae0ff0a7c4009db93da56a837d29268d9">More...</a><br /></td></tr>
+<tr class="separator:ae0ff0a7c4009db93da56a837d29268d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd9993fa0a6ee00a96ebdf7d955ba068"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedelphyne_1_1roads.html#acd9993fa0a6ee00a96ebdf7d955ba068">CreateMultilaneFromFile</a> (const std::string &amp;file_path)</td></tr>
+<tr class="memdesc:acd9993fa0a6ee00a96ebdf7d955ba068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a multilane from yaml source.  <a href="namespacedelphyne_1_1roads.html#acd9993fa0a6ee00a96ebdf7d955ba068">More...</a><br /></td></tr>
+<tr class="separator:acd9993fa0a6ee00a96ebdf7d955ba068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa91d31fd414413685d3581966aac4b98"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedelphyne_1_1roads.html#aa91d31fd414413685d3581966aac4b98">CreateMultilaneFromDescription</a> (const std::string &amp;yaml_description)</td></tr>
+<tr class="memdesc:aa91d31fd414413685d3581966aac4b98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a multilane from yaml description.  <a href="namespacedelphyne_1_1roads.html#aa91d31fd414413685d3581966aac4b98">More...</a><br /></td></tr>
+<tr class="separator:aa91d31fd414413685d3581966aac4b98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad23ea9e01da7d6762574589baae11b7f"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedelphyne_1_1roads.html#ad23ea9e01da7d6762574589baae11b7f">CreateMalidriveFromXodr</a> (const std::string &amp;name, const std::string &amp;file_path, double linear_tolerance=1e-3, double angular_tolerance=1e-3)</td></tr>
+<tr class="memdesc:ad23ea9e01da7d6762574589baae11b7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a malidrive from xodr source.  <a href="namespacedelphyne_1_1roads.html#ad23ea9e01da7d6762574589baae11b7f">More...</a><br /></td></tr>
+<tr class="separator:ad23ea9e01da7d6762574589baae11b7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62670d30382c616d719a706db10e3852"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedelphyne_1_1roads.html#a62670d30382c616d719a706db10e3852">CreateMalidriveRoadNetworkFromXodr</a> (const std::string &amp;name, const std::string &amp;file_path, const std::string &amp;rule_registry_file_path=std::string(), const std::string &amp;road_rulebook_file_path=std::string(), const std::string &amp;traffic_light_book_path=std::string(), const std::string &amp;phase_ring_path=std::string(), const std::string &amp;intersection_book_path=std::string(), double linear_tolerance=1e-3, double angular_tolerance=1e-3)</td></tr>
+<tr class="memdesc:a62670d30382c616d719a706db10e3852"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a malidrive from xodr source.  <a href="namespacedelphyne_1_1roads.html#a62670d30382c616d719a706db10e3852">More...</a><br /></td></tr>
+<tr class="separator:a62670d30382c616d719a706db10e3852"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab08fb8ea72ef1e9d7f77279f28fe6965"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedelphyne_1_1roads.html#ab08fb8ea72ef1e9d7f77279f28fe6965">CreateOnRamp</a> ()</td></tr>
+<tr class="memdesc:ab08fb8ea72ef1e9d7f77279f28fe6965"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a multilane on-ramp.  <a href="namespacedelphyne_1_1roads.html#ab08fb8ea72ef1e9d7f77279f28fe6965">More...</a><br /></td></tr>
+<tr class="separator:ab08fb8ea72ef1e9d7f77279f28fe6965"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="aa498d146802591d6d82eef32a3397704"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa498d146802591d6d82eef32a3397704">&#9670;&nbsp;</a></span>CreateDragway()</h2>
+<a id="ae0ff0a7c4009db93da56a837d29268d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0ff0a7c4009db93da56a837d29268d9">&#9670;&nbsp;</a></span>CreateDragway()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="classdelphyne_1_1roads_1_1_road_network_wrapper.html">RoadNetworkWrapper</a> &gt; CreateDragway </td>
+          <td class="memname">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> &gt; CreateDragway </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
@@ -209,14 +202,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab824ee09b92e66244ae3b055b9f42772"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab824ee09b92e66244ae3b055b9f42772">&#9670;&nbsp;</a></span>CreateMalidriveFromXodr()</h2>
+<a id="ad23ea9e01da7d6762574589baae11b7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad23ea9e01da7d6762574589baae11b7f">&#9670;&nbsp;</a></span>CreateMalidriveFromXodr()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="classdelphyne_1_1roads_1_1_road_network_wrapper.html">RoadNetworkWrapper</a> &gt; CreateMalidriveFromXodr </td>
+          <td class="memname">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> &gt; CreateMalidriveFromXodr </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
@@ -257,18 +250,18 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="classdelphyne_1_1roads_1_1_road_network_wrapper.html" title="Wrapper around a maliput::api::RoadNetwork.">RoadNetworkWrapper</a>. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a>. </dd></dl>
 
 </div>
 </div>
-<a id="a0a812b1fb0259546fcde0d85c4897794"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a812b1fb0259546fcde0d85c4897794">&#9670;&nbsp;</a></span>CreateMalidriveRoadNetworkFromXodr()</h2>
+<a id="a62670d30382c616d719a706db10e3852"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62670d30382c616d719a706db10e3852">&#9670;&nbsp;</a></span>CreateMalidriveRoadNetworkFromXodr()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="classdelphyne_1_1roads_1_1_road_network_wrapper.html">RoadNetworkWrapper</a> &gt; CreateMalidriveRoadNetworkFromXodr </td>
+          <td class="memname">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> &gt; CreateMalidriveRoadNetworkFromXodr </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
@@ -344,18 +337,18 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="classdelphyne_1_1roads_1_1_road_network_wrapper.html" title="Wrapper around a maliput::api::RoadNetwork.">RoadNetworkWrapper</a>. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a>. </dd></dl>
 
 </div>
 </div>
-<a id="a060676e1a93b80c3969468230e161707"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a060676e1a93b80c3969468230e161707">&#9670;&nbsp;</a></span>CreateMultilaneFromDescription()</h2>
+<a id="aa91d31fd414413685d3581966aac4b98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa91d31fd414413685d3581966aac4b98">&#9670;&nbsp;</a></span>CreateMultilaneFromDescription()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="classdelphyne_1_1roads_1_1_road_network_wrapper.html">RoadNetworkWrapper</a> &gt; CreateMultilaneFromDescription </td>
+          <td class="memname">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> &gt; CreateMultilaneFromDescription </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>yaml_description</em></td><td>)</td>
@@ -374,14 +367,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a55691fe76e62b8520cacf0707ab93d60"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55691fe76e62b8520cacf0707ab93d60">&#9670;&nbsp;</a></span>CreateMultilaneFromFile()</h2>
+<a id="acd9993fa0a6ee00a96ebdf7d955ba068"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd9993fa0a6ee00a96ebdf7d955ba068">&#9670;&nbsp;</a></span>CreateMultilaneFromFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="classdelphyne_1_1roads_1_1_road_network_wrapper.html">RoadNetworkWrapper</a> &gt; CreateMultilaneFromFile </td>
+          <td class="memname">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> &gt; CreateMultilaneFromFile </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>file_path</em></td><td>)</td>
@@ -400,14 +393,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a113d288a4051675a3e3281aa048aa4d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a113d288a4051675a3e3281aa048aa4d9">&#9670;&nbsp;</a></span>CreateOnRamp()</h2>
+<a id="ab08fb8ea72ef1e9d7f77279f28fe6965"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab08fb8ea72ef1e9d7f77279f28fe6965">&#9670;&nbsp;</a></span>CreateOnRamp()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="classdelphyne_1_1roads_1_1_road_network_wrapper.html">RoadNetworkWrapper</a> &gt; CreateOnRamp </td>
+          <td class="memname">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> &gt; CreateOnRamp </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -419,14 +412,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a69351b3686c6afc1329721fdbd332ac2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69351b3686c6afc1329721fdbd332ac2">&#9670;&nbsp;</a></span>CreateRoadNetwork()</h2>
+<a id="a64ec3dabf66ab724fc0b747d3c75fddd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64ec3dabf66ab724fc0b747d3c75fddd">&#9670;&nbsp;</a></span>CreateRoadNetwork()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="classdelphyne_1_1roads_1_1_road_network_wrapper.html">RoadNetworkWrapper</a> &gt; CreateRoadNetwork </td>
+          <td class="memname">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> &gt; CreateRoadNetwork </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>road_network_plugin_name</em>, </td>
@@ -448,7 +441,7 @@ Functions</h2></td></tr>
 <p>Creates a <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> based on an available <a class="elRef" href="../../maliput/html/classmaliput_1_1plugin_1_1_road_network_loader.html">maliput::plugin::RoadNetworkLoader</a> plugin implementation. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">road_network_plugin_name</td><td><a class="elRef" href="../../maliput/html/classmaliput_1_1plugin_1_1_road_network_loader.html">maliput::plugin::RoadNetworkLoader</a> plugin name to be used. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">road_network_plugin_name</td><td>maliput::plugin::RoadnetworkLoader plugin name to be used. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">loader_parameters</td><td>Parameters to be passed to the <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> builder.</td></tr>
   </table>
   </dd>

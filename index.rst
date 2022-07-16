@@ -1,5 +1,10 @@
-Welcome to maliput documentation!
-=================================
+  Intro
+  =====
+
+.. include:: maliput_vision.rst
+
+Contents
+========
 
 .. toctree::
    :maxdepth: 2
@@ -31,4 +36,3 @@ Welcome to maliput documentation!
    code_of_conduct
    developer_guidelines
    developer_setup
-
