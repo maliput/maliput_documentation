@@ -316,6 +316,8 @@ Loading a Rule Registry
 
 `maliput` provides a way to load the rule registry via a YAML file by using the `maliput::LoadRuleRegistryFromFile <html/deps/maliput/html/namespacemaliput.html#a03c4c176854c7d60524ec666c03f3ff4>`_ method.
 
+As example, we will use the `maliput_malidrive` backend.
+
 .. code-block:: cpp
     :linenos:
     :caption: C++
@@ -377,20 +379,82 @@ After loading the road network, the `RuleRegistry` is accessible from the `RoadN
 RoadRulebook
 ------------
 
-The road rulebook is used to validate the rules that are applied to the road network.
+The `maliput::api::rules::RoadRulebook`_ is an interface for querying the rules in given road network.
+This book is expected to gathered all the available rules. It provides an API for obtaining all the rules; obtaining the rules by id; or even
+obtaining the rules that apply to zone in particular.
+
+`maliput` provides a base implementation for loading the `RoadRulebook` with the rules.
+However, the most convenient way of populating this book is to load it via YAML file by using the `maliput::LoadRoadRuleBookFromFile <html/deps/maliput/html/namespacemaliput.html#accce2c90d0627fa85c6b11c9924c0609>`_ method.
+
+As example, we will use the `maliput_malidrive` backend.
+
+.. code-block:: cpp
+    :linenos:
+    :caption: C++
+
+    // ...
+    #include <maliput/api/lane_data.h>
+    #include <maliput/api/road_network.h>
+    #include <maliput/api/rules/traffic_lights.h>
+    #include <maliput/api/rules/traffic_light_book.h>
+    #include <maliput/api/rules/road_rulebook.h>
+    #include <maliput/plugin/create_road_network.h>
+
+    const std::string road_network_loader_id = "maliput_malidrive";
+    const std::string resources_path = std::string(std::getenv("MALIPUT_MALIDRIVE_RESOURCE_ROOT")) + "/resources/odr";
+    std::map<std::string, std::string> road_network_configuration;
+    road_network_configuration.emplace("opendrive_file", resources_path + "/LoopRoadPedestrianCrosswalk.xodr");
+    road_network_configuration.emplace("traffic_light_book", resources_path + "/LoopRoadPedestrianCrosswalk.yaml");
+    road_network_configuration.emplace("rule_registry", resources_path + "/LoopRoadPedestrianCrosswalk.yaml");
+    road_network_configuration.emplace("road_rule_book", resources_path + "/LoopRoadPedestrianCrosswalk.yaml");
+    auto road_network = maliput::plugin::CreateRoadNetwork(road_network_loader_id, road_network_configuration);
+
+.. code-block:: python
+    :linenos:
+    :caption: Python
+
+    import maliput.api
+    import maliput.plugin
+
+    import os
+
+    resources_path = os.getenv("MALIPUT_MALIDRIVE_RESOURCE_ROOT") + "/resources/odr";
+    configuration = {"opendrive_file" : resources_path + "/LoopRoadPedestrianCrosswalk.xodr",
+                      "traffic_light_book" : resources_path + "/LoopRoadPedestrianCrosswalk.yaml",
+                      "rule_registry" : resources_path + "/LoopRoadPedestrianCrosswalk.yaml",
+                      "road_rule_book" : resources_path + "/LoopRoadPedestrianCrosswalk.yaml"}
+    road_network = maliput.plugin.create_road_network("maliput_malidrive", configuration)
 
 
+In this example, `LoopRoadPedestrianCrosswalk.yaml`_ contains a `RoadRulebook` section where the rules types are defined.
 
-PhaseRingBook
--------------
+After loading the road network, the `RoadRulebook` is accessible from the `RoadNetwork`.
 
-*TODO*: Via `maliput_documentation/issues/101 <https://github.com/maliput/maliput_documentation/issues/101>`_.
+.. code-block:: cpp
+    :linenos:
 
-PhaseProvider
--------------
+    // ...
+    const maliput::api::rules::RoadRulebook* rulebook = road_network->rulebook();
+    // Obtains all the rules from the book.
+    auto rules = rulebook->Rules().size();
+    int number_of_discrete_rules = rules.discrete_value_rules.size();
+    // Obtains a discrete value rule by id.
+    maliput::api::rules::Rule::Id rule_id{"Right-Of-Way Rule Type/WestToEastSouth"};
+    auto discrete_rule = rulebook->GetDiscreteValueRule(rule_id);
 
-*TODO*: Via `maliput_documentation/issues/101 <https://github.com/maliput/maliput_documentation/issues/101>`_.
 
+.. code-block:: python
+    :linenos:
+    :caption: Python
+
+    # ...
+    rulebook = road_network.rulebook()
+    rules = rulebook.Rules()
+    print(len(rules.discrete_value_rules))
+    rule_id = maliput.api.rules.Rule.Id("Right-Of-Way Rule Type/WestToEastSouth")
+    discrete_rule = rulebook.GetDiscreteValueRule(rule_id)
+
+.. _maliput::api::rules::RoadRulebook: html/deps/maliput/html/classmaliput_1_1api_1_1rules_1_1_road_rulebook.html
 
 DiscreteValueRuleStateProvider
 ------------------------------
@@ -402,6 +466,19 @@ RangeValueRuleStateProvider
 ---------------------------
 
 *TODO*: Via `maliput_documentation/issues/101 <https://github.com/maliput/maliput_documentation/issues/101>`_.
+
+Phases
+------
+
+PhaseRingBook
+-------------
+
+
+PhaseProvider
+-------------
+
+*TODO*: Via `maliput_documentation/issues/101 <https://github.com/maliput/maliput_documentation/issues/101>`_.
+
 
 IntersectionBook
 ----------------
