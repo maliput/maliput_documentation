@@ -432,6 +432,7 @@ After loading the road network, the `RoadRulebook` is accessible from the `RoadN
 
 .. code-block:: cpp
     :linenos:
+    :caption: C++
 
     // ...
     const maliput::api::rules::RoadRulebook* rulebook = road_network->rulebook();
@@ -456,16 +457,65 @@ After loading the road network, the `RoadRulebook` is accessible from the `RoadN
 
 .. _maliput::api::rules::RoadRulebook: html/deps/maliput/html/classmaliput_1_1api_1_1rules_1_1_road_rulebook.html
 
+Rule State Providers
+--------------------
+
+As it was mentioned, `maliput`'s rule API lets the user to add rules that may contain as many states as needed.
+The current state of a rule may depend on certain condition. For instance, a rule state may vary on a time basis,
+as right-of-way rules in a intersection according to the traffic lights.
+
+`maliput` defines two interfaces for getting the current state of a rule depending of the nature of the rules: `DiscreteValueRuleStateProvider` or `RangeValueRuleStateProvider`
+
 DiscreteValueRuleStateProvider
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-*TODO*: Via `maliput_documentation/issues/101 <https://github.com/maliput/maliput_documentation/issues/101>`_.
+.. code-block:: cpp
+    :linenos:
+    :caption: C++
 
+    // ...
+    const maliput::api::rules::DiscreteValueRuleStateProvider* state_provider = road_network->discrete_value_rule_state_provider();
+    maliput::api::rules::Rule::Id rule_id{"Right-Of-Way Rule Type/WestToEastSouth"};
+    auto state_result = state_provider->GetState(rule_id);
+    auto discrete_value = state_result->state;
+    std::cout << discrete_value.value << std::endl;
+
+.. code-block:: python
+    :linenos:
+    :caption: Python
+
+    # ...
+    state_provider = road_network.discrete_value_rule_state_provider()
+    rule_id = maliput.api.rules.Rule.Id("Right-Of-Way Rule Type/WestToEastSouth")
+    state_result = state_provider.GetState(rule_id)
+    discrete_value = state_result.state
+    print(discrete_value.value)
 
 RangeValueRuleStateProvider
----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-*TODO*: Via `maliput_documentation/issues/101 <https://github.com/maliput/maliput_documentation/issues/101>`_.
+.. code-block:: cpp
+    :linenos:
+    :caption: C++
+
+    // ...
+    const maliput::api::rules::RangeValueRuleStateProvider* state_provider = road_network->range_value_rule_state_provider();
+    maliput::api::rules::Rule::Id rule_id{"Speed-Limit Rule Type/1_1_-1_1"};
+    auto state_result = state_provider->GetState(rule_id);
+    auto range_value = state_result->state;
+    std::cout << range_value.min << std::endl;
+    std::cout << range_value.max << std::endl;
+
+.. code-block:: python
+    :linenos:
+    :caption: Python
+
+    # ...
+    state_provider = road_network.range_value_rule_state_provider()
+    rule_id = maliput.api.rules.Rule.Id("Speed-Limit Rule Type/1_1_-1_1")
+    state_result = state_provider.GetState(rule_id)
+    range_value = state_result.state
+    print("Rule: {} --> Current State: min={}, max={}, units={}".format(rule_id, range_value.min, range_value.max, range_value.description))
 
 Phases
 ------
