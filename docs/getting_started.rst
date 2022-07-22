@@ -520,8 +520,120 @@ RangeValueRuleStateProvider
 Phases
 ------
 
+Maliput models the sequencing of rule states and traffic lights' bulbs as a ring of `maliput::api::rules::Phase`s. Each `Phase` holds a dictionary of rule IDs to rule states (`DiscreteValues`) and related bulb IDs (`UniqueBulbIds`) to the bulb state (`BulbState`).
+
+The `PhaseRing` acts as a container of all the related Phases in a sequence.
+A designer might query them by the `Phase::Id`` or the next Phases, but no strict order should be expected.
+Instead, `PhaseProvider`` offers an interface to obtain the current and next `Phase::Id`s for a `PhaseRing`.
+Custom time based or event driven behaviors could be implemented for this interface. Similarly to the rules, there are convenient "manual" implementations to exercise the interfaces in integration examples.
+
 PhaseRingBook
 -------------
+
+The PhaseRingBook is expected to contain all the `PhaseRing`s in the road network. It provides an interface for obtaining the PhaseRings in the road network and some convenient queries to retrieve the PhaseRing that governs a specific `Rule::Id`
+
+`maliput` provides a base implementation for loading the `PhaseRingBook` with the rules.
+However, the most convenient way of populating this book is to load it via YAML file by using the `maliput::LoadPhaseRingBookFromFile <html/deps/maliput/html/namespacemaliput.html#aa94a8bdc4b38fcc4d05e6637903f0f56>`_ method.
+
+As example, we will use the `maliput_malidrive` backend.
+
+.. code-block:: cpp
+    :linenos:
+    :caption: C++
+    :emphasize-lines: 17
+
+    // ...
+    #include <maliput/api/lane_data.h>
+    #include <maliput/api/road_network.h>
+    #include <maliput/api/rules/phase_ring_book.h>
+    #include <maliput/api/rules/traffic_lights.h>
+    #include <maliput/api/rules/traffic_light_book.h>
+    #include <maliput/api/rules/road_rulebook.h>
+    #include <maliput/plugin/create_road_network.h>
+
+    const std::string road_network_loader_id = "maliput_malidrive";
+    const std::string resources_path = std::string(std::getenv("MALIPUT_MALIDRIVE_RESOURCE_ROOT")) + "/resources/odr";
+    std::map<std::string, std::string> road_network_configuration;
+    road_network_configuration.emplace("opendrive_file", resources_path + "/LoopRoadPedestrianCrosswalk.xodr");
+    road_network_configuration.emplace("traffic_light_book", resources_path + "/LoopRoadPedestrianCrosswalk.yaml");
+    road_network_configuration.emplace("rule_registry", resources_path + "/LoopRoadPedestrianCrosswalk.yaml");
+    road_network_configuration.emplace("road_rule_book", resources_path + "/LoopRoadPedestrianCrosswalk.yaml");
+    road_network_configuration.emplace("phase_ring_book", resources_path + "/LoopRoadPedestrianCrosswalk.yaml");
+    auto road_network = maliput::plugin::CreateRoadNetwork(road_network_loader_id, road_network_configuration);
+
+.. code-block:: python
+    :linenos:
+    :caption: Python
+    :emphasize-lines: 11
+
+    import maliput.api
+    import maliput.plugin
+
+    import os
+
+    resources_path = os.getenv("MALIPUT_MALIDRIVE_RESOURCE_ROOT") + "/resources/odr";
+    configuration = {"opendrive_file" : resources_path + "/LoopRoadPedestrianCrosswalk.xodr",
+                      "traffic_light_book" : resources_path + "/LoopRoadPedestrianCrosswalk.yaml",
+                      "rule_registry" : resources_path + "/LoopRoadPedestrianCrosswalk.yaml",
+                      "road_rule_book" : resources_path + "/LoopRoadPedestrianCrosswalk.yaml",
+                      "phase_ring_book" : resources_path + "/LoopRoadPedestrianCrosswalk.yaml"}
+    road_network = maliput.plugin.create_road_network("maliput_malidrive", configuration)
+
+
+In this example, `LoopRoadPedestrianCrosswalk.yaml`_ contains a `PhaseRings` section where all the phase rings are defined.
+
+After loading the road network, the `PhaseRingBook` is accessible from the `RoadNetwork`.
+
+.. code-block:: cpp
+    :linenos:
+    :caption: C++
+
+    // ...
+    const maliput::api::rules::PhaseRingBook* phase_ring_book = road_network->phase_ring_book();
+    // Obtains all the phase rings from the book.
+    auto phase_rings = phase_ring_book->GetPhaseRings();
+    const int number_of_phase_rings = phase_rings.size();
+    // Obtains a phase ring containing the specified rule.
+    const maliput::api::rules::Rule::Id rule_id{"Right-Of-Way Rule Type/WestToEastSouth"};
+    auto phase_ring = phase_ring_book->FindPhaseRing(rule_id);
+    // Obtains a phase of that phase ring.
+    const maliput::api::rules::Phase::Id phase_id{"AllGoPhase"};
+    auto phase = phase_ring->GetPhase(phase_id);
+    // Obtains all the discrete value rule states from the phase.
+    auto discrete_value_rule_states = phase->discrete_value_rule_states();
+    // Obtains all the bulb states from the phase.
+    auto bulb_states = phase->bulb_states();
+
+
+.. code-block:: python
+    :linenos:
+    :caption: Python
+
+    # ...
+    phase_ring_book = road_network.phase_ring_book()
+    # Obtains all the phase rings from the book.
+    phase_rings = phase_ring_book.GetPhaseRings()
+    number_of_phase_rings = len(phase_rings)
+    # Obtains a phase ring containing the specified rule.
+    rule_id = maliput.api.rules.Rule.Id("Right-Of-Way Rule Type/WestToEastSouth")
+    phase_ring = phase_ring_book.FindPhaseRing(rule_id)
+    # Obtains a phase of that phase ring.
+    phase_id = maliput.api.rules.Phase.Id("AllGoPhase")
+    phase = phase_ring.GetPhase(phase_id)
+    # Obtains all the discrete value rule states from the phase.
+    discrete_value_rule_states = phase.discrete_value_rule_states()
+    # Obtains all the bulb states from the phase.
+    bulb_states = phase.bulb_states()
+
+    print(len(discrete_value_rule_states))
+    for key in discrete_value_rule_states.keys():
+      print(key)
+      print(discrete_value_rule_states[key].value)
+
+    print(len(bulb_states))
+    for key in bulb_states.keys():
+      print(key)
+      print(bulb_states[key])
 
 
 PhaseProvider
@@ -536,6 +648,10 @@ IntersectionBook
 *TODO*: Via `maliput_documentation/issues/101 <https://github.com/maliput/maliput_documentation/issues/101>`_.
 
 
+Further readings
+----------------
+
+`Maliput design <html/deps/maliput/html/maliput_design.html>`_ contains addition information about the API in case you are interested in the details.
 
 .. _LoopRoadPedestrianCrosswalk.xodr: https://github.com/maliput/maliput_malidrive/blob/main/resources/LoopRoadPedestrianCrosswalk.xodr
 .. _LoopRoadPedestrianCrosswalk.yaml: https://github.com/maliput/maliput_malidrive/blob/main/resources/LoopRoadPedestrianCrosswalk.yaml
