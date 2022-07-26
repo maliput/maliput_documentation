@@ -152,6 +152,40 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>create_road_network.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/plugin/</path>
+    <filename>create__road__network_8cc.html</filename>
+    <includes id="create__road__network_8h" name="create_road_network.h" local="yes" imported="no">maliput/plugin/create_road_network.h</includes>
+    <includes id="logger_8h" name="logger.h" local="yes" imported="no">maliput/common/logger.h</includes>
+    <includes id="maliput__plugin_8h" name="maliput_plugin.h" local="yes" imported="no">maliput/plugin/maliput_plugin.h</includes>
+    <includes id="maliput__plugin__manager_8h" name="maliput_plugin_manager.h" local="yes" imported="no">maliput/plugin/maliput_plugin_manager.h</includes>
+    <includes id="road__network__loader_8h" name="road_network_loader.h" local="yes" imported="no">maliput/plugin/road_network_loader.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::plugin</namespace>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <name>CreateRoadNetwork</name>
+      <anchorfile>namespacemaliput_1_1plugin.html</anchorfile>
+      <anchor>a995734bfcb7af87c6f7dc4fc81bbd11b</anchor>
+      <arglist>(const std::string &amp;road_network_loader_id, const std::map&lt; std::string, std::string &gt; &amp;properties)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>create_road_network.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/plugin/</path>
+    <filename>create__road__network_8h.html</filename>
+    <includes id="road__network_8h" name="road_network.h" local="yes" imported="no">maliput/api/road_network.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::plugin</namespace>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <name>CreateRoadNetwork</name>
+      <anchorfile>namespacemaliput_1_1plugin.html</anchorfile>
+      <anchor>a995734bfcb7af87c6f7dc4fc81bbd11b</anchor>
+      <arglist>(const std::string &amp;road_network_loader_id, const std::map&lt; std::string, std::string &gt; &amp;properties)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>derive_lane_s_routes.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/routing/</path>
     <filename>derive__lane__s__routes_8cc.html</filename>
@@ -16547,6 +16581,13 @@
       <anchorfile>namespacemaliput_1_1plugin.html</anchorfile>
       <anchor>a2afd58b120b90956eefe0e19727605d7a8adc28f8c40a859b0b10d73151f70794</anchor>
       <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <name>CreateRoadNetwork</name>
+      <anchorfile>namespacemaliput_1_1plugin.html</anchorfile>
+      <anchor>a995734bfcb7af87c6f7dc4fc81bbd11b</anchor>
+      <arglist>(const std::string &amp;road_network_loader_id, const std::map&lt; std::string, std::string &gt; &amp;properties)</arglist>
     </member>
   </compound>
   <compound kind="namespace">

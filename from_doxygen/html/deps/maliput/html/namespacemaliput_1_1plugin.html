@@ -91,7 +91,8 @@ $(document).ready(function(){initNavTree('namespacemaliput_1_1plugin.html',''); 
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">maliput::plugin Namespace Reference</div>  </div>
 </div><!--header-->
@@ -121,6 +122,12 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a2afd58b120b90956eefe0e19727605d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Types of maliput plugin.  <a href="namespacemaliput_1_1plugin.html#a2afd58b120b90956eefe0e19727605d7">More...</a><br /></td></tr>
 <tr class="separator:a2afd58b120b90956eefe0e19727605d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a995734bfcb7af87c6f7dc4fc81bbd11b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1plugin.html#a995734bfcb7af87c6f7dc4fc81bbd11b">CreateRoadNetwork</a> (const std::string &amp;road_network_loader_id, const std::map&lt; std::string, std::string &gt; &amp;properties)</td></tr>
+<tr class="memdesc:a995734bfcb7af87c6f7dc4fc81bbd11b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classmaliput_1_1api_1_1_road_network.html" title="A container that aggregates everything pertaining to Maliput.">maliput::api::RoadNetwork</a> via <a class="el" href="classmaliput_1_1plugin_1_1_road_network_loader.html" title="Interface class for creating a RoadNetwork loader functor.">RoadNetworkLoader</a> plugin.  <a href="namespacemaliput_1_1plugin.html#a995734bfcb7af87c6f7dc4fc81bbd11b">More...</a><br /></td></tr>
+<tr class="separator:a995734bfcb7af87c6f7dc4fc81bbd11b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="ab0a6280bfa379d2f6330517355866c5c"></a>
@@ -157,6 +164,53 @@ Enumerations</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2afd58b120b90956eefe0e19727605d7a8adc28f8c40a859b0b10d73151f70794"></a>kRoadNetworkLoader&#160;</td><td class="fielddoc"></td></tr>
 </table>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a995734bfcb7af87c6f7dc4fc81bbd11b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a995734bfcb7af87c6f7dc4fc81bbd11b">&#9670;&nbsp;</a></span>CreateRoadNetwork()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classmaliput_1_1api_1_1_road_network.html">maliput::api::RoadNetwork</a> &gt; CreateRoadNetwork </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>road_network_loader_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::map&lt; std::string, std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>properties</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a <a class="el" href="classmaliput_1_1api_1_1_road_network.html" title="A container that aggregates everything pertaining to Maliput.">maliput::api::RoadNetwork</a> via <a class="el" href="classmaliput_1_1plugin_1_1_road_network_loader.html" title="Interface class for creating a RoadNetwork loader functor.">RoadNetworkLoader</a> plugin. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">road_network_loader_id</td><td><a class="el" href="classmaliput_1_1plugin_1_1_road_network_loader.html" title="Interface class for creating a RoadNetwork loader functor.">RoadNetworkLoader</a> plugin id to be used. </td></tr>
+    <tr><td class="paramname">properties</td><td>A dictionary containing configuration parameters for the road network builder. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="classmaliput_1_1api_1_1_road_network.html" title="A container that aggregates everything pertaining to Maliput.">maliput::api::RoadNetwork</a>.</dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html" title="This is what MALIPUT_THROW_UNLESS throws.">maliput::common::assertion_error</a></td><td>When <code>road_network_loader_id</code> is not found. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html" title="This is what MALIPUT_THROW_UNLESS throws.">maliput::common::assertion_error</a></td><td>When the plugin isn't a <a class="el" href="classmaliput_1_1plugin_1_1_road_network_loader.html" title="Interface class for creating a RoadNetwork loader functor.">RoadNetworkLoader</a> plugin type. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html" title="This is what MALIPUT_THROW_UNLESS throws.">maliput::common::assertion_error</a></td><td>When the <code><a class="el" href="classmaliput_1_1api_1_1_road_network.html" title="A container that aggregates everything pertaining to Maliput.">maliput::api::RoadNetwork</a></code> can't be loaded. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

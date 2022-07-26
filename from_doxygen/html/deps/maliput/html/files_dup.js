@@ -16,6 +16,8 @@ var files_dup =
     [ "brute_force_find_road_positions_strategy.h", "brute__force__find__road__positions__strategy_8h.html", "brute__force__find__road__positions__strategy_8h" ],
     [ "check_id_indexing.cc", "check__id__indexing_8cc.html", "check__id__indexing_8cc" ],
     [ "check_id_indexing.h", "check__id__indexing_8h.html", "check__id__indexing_8h" ],
+    [ "create_road_network.cc", "create__road__network_8cc.html", "create__road__network_8cc" ],
+    [ "create_road_network.h", "create__road__network_8h.html", "create__road__network_8h" ],
     [ "derive_lane_s_routes.cc", "derive__lane__s__routes_8cc.html", "derive__lane__s__routes_8cc" ],
     [ "derive_lane_s_routes.h", "derive__lane__s__routes_8h.html", "derive__lane__s__routes_8h" ],
     [ "direction_usage_rule.cc", "direction__usage__rule_8cc.html", null ],
