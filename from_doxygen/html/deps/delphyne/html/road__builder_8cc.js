@@ -5,6 +5,5 @@ var road__builder_8cc =
     [ "CreateMalidriveRoadNetworkFromXodr", "road__builder_8cc.html#a62670d30382c616d719a706db10e3852", null ],
     [ "CreateMultilaneFromDescription", "road__builder_8cc.html#aa91d31fd414413685d3581966aac4b98", null ],
     [ "CreateMultilaneFromFile", "road__builder_8cc.html#acd9993fa0a6ee00a96ebdf7d955ba068", null ],
-    [ "CreateOnRamp", "road__builder_8cc.html#ab08fb8ea72ef1e9d7f77279f28fe6965", null ],
-    [ "CreateRoadNetwork", "road__builder_8cc.html#a64ec3dabf66ab724fc0b747d3c75fddd", null ]
+    [ "CreateOnRamp", "road__builder_8cc.html#ab08fb8ea72ef1e9d7f77279f28fe6965", null ]
 ];

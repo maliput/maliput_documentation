@@ -1980,13 +1980,6 @@
     <namespace>delphyne::roads</namespace>
     <member kind="function">
       <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
-      <name>CreateRoadNetwork</name>
-      <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>a64ec3dabf66ab724fc0b747d3c75fddd</anchor>
-      <arglist>(const std::string &amp;road_network_plugin_name, const std::map&lt; std::string, std::string &gt; &amp;loader_parameters)</arglist>
-    </member>
-    <member kind="function">
-      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>CreateDragway</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
       <anchor>ae0ff0a7c4009db93da56a837d29268d9</anchor>
@@ -2038,7 +2031,7 @@
       <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>CreateRoadNetwork</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>a64ec3dabf66ab724fc0b747d3c75fddd</anchor>
+      <anchor>ac4f7cc32c08c01f985bde6afed985822</anchor>
       <arglist>(const std::string &amp;road_network_plugin_name, const std::map&lt; std::string, std::string &gt; &amp;loader_parameters)</arglist>
     </member>
     <member kind="function">
@@ -12544,7 +12537,7 @@
       <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>CreateRoadNetwork</name>
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
-      <anchor>a64ec3dabf66ab724fc0b747d3c75fddd</anchor>
+      <anchor>ac4f7cc32c08c01f985bde6afed985822</anchor>
       <arglist>(const std::string &amp;road_network_plugin_name, const std::map&lt; std::string, std::string &gt; &amp;loader_parameters)</arglist>
     </member>
     <member kind="function">
