@@ -15,7 +15,7 @@ The standardized API decouples the agent behavior development from the road form
 Maliput Vision
 --------------
 
-The Maliput project has been actively developed by Open Robotics and TRI for the last 4 years.
+The Maliput project has been actively developed by Ekumen, Open Robotics, and TRI for the last 4 years.
 It’s actively used by the TRI/Woven team and has been developed using modern software engineering best practices including continuous integration, coverage testing, and clear developer rules.
 
 We expect to see adoption of Maliput, for example in programmatic simulated world generation.
