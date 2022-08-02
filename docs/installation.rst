@@ -84,6 +84,15 @@ Install the binaries of the packages:
 
   sudo apt install ros-foxy-<package_name>
 
+
+Use `maliput-full` package to install all the maliput packages:
+
+.. code-block:: sh
+
+  sudo apt install ros-foxy-maliput-full
+
+
+Or simple indicate the packages to install.
 For example to install `maliput_malidrive` package:
 
 .. code-block:: sh
