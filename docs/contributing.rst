@@ -152,6 +152,11 @@ Pull requests can be merged when:
 * They have at least 1 approval from a member of the core team
 * There are no unresolved comments
 * CI is passing
+* `Developer Certificate of Origin <https://developercertificate.org/>`_ (DCO) check is passing
+
+  * DCO is a declaration of ownership, basically saying that you created the contribution and that it is suitable to be covered under an open source license (not proprietary).
+  * All you have to do is end your commit message with Signed-off-by: Your Full Name <your.name@email.com>
+  * If your user.name and user.email configurations are set up in git, then you can simply run git commit -s to have your signature automatically appended.
 
 Merging strategy:
 
