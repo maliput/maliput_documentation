@@ -17,6 +17,13 @@ following list does not mean priority.
   * Build a visualizer to evaluate the connectivity graph and routing results.
 * ``maliput``
 
+  * Spacial queries
+    * Provide spacial queries convenient methods to query the underlying graph.
+
+  * Speed up maliput backend creation
+    * Provide a common interface for road network creation.
+    * Add support for road network creation from waypoints.
+
   * Routing API
 
     * Design and implementation.
