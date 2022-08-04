@@ -1,16 +1,18 @@
 var searchData=
 [
-  ['thread_5fpool_2ecc_2217',['thread_pool.cc',['../../../maliput/html/thread__pool_8cc.html.html',1,'']]],
-  ['thread_5fpool_2eh_2218',['thread_pool.h',['../../../maliput/html/thread__pool_8h.html.html',1,'']]],
-  ['tools_2ecc_2219',['tools.cc',['../tools_8cc.html',1,'']]],
-  ['tools_2eh_2220',['tools.h',['../tools_8h.html',1,'']]],
-  ['traffic_5flight_5fbook_2ecc_2221',['traffic_light_book.cc',['../../../maliput/html/traffic__light__book_8cc.html.html',1,'']]],
-  ['traffic_5flight_5fbook_5floader_2ecc_2222',['traffic_light_book_loader.cc',['../../../maliput/html/traffic__light__book__loader_8cc.html.html',1,'']]],
-  ['traffic_5flight_5fbook_5floader_2eh_2223',['traffic_light_book_loader.h',['../../../maliput/html/traffic__light__book__loader_8h.html.html',1,'']]],
-  ['traffic_5flights_2ecc_2224',['traffic_lights.cc',['../../../maliput/html/traffic__lights_8cc.html.html',1,'']]],
-  ['traffic_5flights_2eh_2225',['traffic_lights.h',['../../../maliput/html/traffic__lights_8h.html.html',1,'']]],
-  ['traffic_5flights_5fcompare_2ecc_2226',['traffic_lights_compare.cc',['../../../maliput/html/traffic__lights__compare_8cc.html.html',1,'']]],
-  ['traffic_5flights_5fcompare_2eh_2227',['traffic_lights_compare.h',['../../../maliput/html/traffic__lights__compare_8h.html.html',1,'']]],
-  ['tutorials_2emd_2228',['tutorials.md',['../tutorials_8md.html',1,'']]],
-  ['type_5fspecific_5fidentifier_2eh_2229',['type_specific_identifier.h',['../../../maliput/html/type__specific__identifier_8h.html.html',1,'']]]
+  ['saturate_2ecc_2215',['saturate.cc',['../../../maliput/html/saturate_8cc.html.html',1,'']]],
+  ['saturate_2eh_2216',['saturate.h',['../../../maliput/html/saturate_8h.html.html',1,'']]],
+  ['scaled_5fdomain_5ffunction_2eh_2217',['scaled_domain_function.h',['../scaled__domain__function_8h.html',1,'']]],
+  ['segment_2ecc_2218',['segment.cc',['../../../maliput/html/segment_8cc.html.html',1,'']]],
+  ['segment_2eh_2219',['segment.h',['../segment_8h.html',1,'']]],
+  ['segment_5fanalysis_2ecc_2220',['segment_analysis.cc',['../../../maliput/html/segment__analysis_8cc.html.html',1,'']]],
+  ['segment_5fanalysis_2eh_2221',['segment_analysis.h',['../../../maliput/html/segment__analysis_8h.html.html',1,'']]],
+  ['simple_5fphase_5fring_5fbook_2eh_2222',['simple_phase_ring_book.h',['../../../maliput/html/simple__phase__ring__book_8h.html.html',1,'']]],
+  ['simple_5frulebook_2eh_2223',['simple_rulebook.h',['../../../maliput/html/simple__rulebook_8h.html.html',1,'']]],
+  ['simplify_5fgeometries_2ecc_2224',['simplify_geometries.cc',['../simplify__geometries_8cc.html',1,'']]],
+  ['simplify_5fgeometries_2eh_2225',['simplify_geometries.h',['../simplify__geometries_8h.html',1,'']]],
+  ['speed_5flimit_5fbuilder_2ecc_2226',['speed_limit_builder.cc',['../speed__limit__builder_8cc.html',1,'']]],
+  ['speed_5flimit_5fbuilder_2eh_2227',['speed_limit_builder.h',['../speed__limit__builder_8h.html',1,'']]],
+  ['speed_5flimit_5frule_2eh_2228',['speed_limit_rule.h',['../../../maliput/html/speed__limit__rule_8h.html.html',1,'']]],
+  ['state_5fprovider_5fresult_2eh_2229',['state_provider_result.h',['../../../maliput/html/state__provider__result_8h.html.html',1,'']]]
 ];

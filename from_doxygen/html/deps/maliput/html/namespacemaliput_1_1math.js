@@ -1,5 +1,7 @@
 var namespacemaliput_1_1math =
 [
+    [ "details", "namespacemaliput_1_1math_1_1details.html", "namespacemaliput_1_1math_1_1details" ],
+    [ "KDTree", "classmaliput_1_1math_1_1_k_d_tree.html", "classmaliput_1_1math_1_1_k_d_tree" ],
     [ "Matrix", "classmaliput_1_1math_1_1_matrix.html", "classmaliput_1_1math_1_1_matrix" ],
     [ "Quaternion", "classmaliput_1_1math_1_1_quaternion.html", "classmaliput_1_1math_1_1_quaternion" ],
     [ "RollPitchYaw", "classmaliput_1_1math_1_1_roll_pitch_yaw.html", "classmaliput_1_1math_1_1_roll_pitch_yaw" ],

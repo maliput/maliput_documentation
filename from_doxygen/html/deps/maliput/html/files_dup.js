@@ -69,6 +69,7 @@ var files_dup =
     [ "geometry_base/junction.h", "geometry__base_2junction_8h.html", [
       [ "Junction", "classmaliput_1_1geometry__base_1_1_junction.html", "classmaliput_1_1geometry__base_1_1_junction" ]
     ] ],
+    [ "kd_tree.h", "kd__tree_8h.html", "kd__tree_8h" ],
     [ "api/lane.cc", "api_2lane_8cc.html", "api_2lane_8cc" ],
     [ "geometry_base/lane.cc", "geometry__base_2lane_8cc.html", null ],
     [ "api/lane.h", "api_2lane_8h.html", "api_2lane_8h" ],

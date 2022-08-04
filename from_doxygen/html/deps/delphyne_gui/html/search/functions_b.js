@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['keepcurrentbrake_3622',['KeepCurrentBrake',['../classdelphyne_1_1gui_1_1_teleop_plugin.html#a9cfb5cd3259427901e6df7c1ec7b67ea',1,'delphyne::gui::TeleopPlugin']]],
-  ['keepcurrentbrakechanged_3623',['KeepCurrentBrakeChanged',['../classdelphyne_1_1gui_1_1_teleop_plugin.html#ae0135bc937c42fb9358e45cc8aba6683',1,'delphyne::gui::TeleopPlugin']]],
-  ['keepcurrentthrottle_3624',['KeepCurrentThrottle',['../classdelphyne_1_1gui_1_1_teleop_plugin.html#a1265d47c08d809c89a389a04a3966292',1,'delphyne::gui::TeleopPlugin']]],
-  ['keepcurrentthrottlechanged_3625',['KeepCurrentThrottleChanged',['../classdelphyne_1_1gui_1_1_teleop_plugin.html#adf6cb4c59a87d14569de7911a3431e6d',1,'delphyne::gui::TeleopPlugin']]],
-  ['kill_3626',['kill',['../classlauncher_1_1_launcher.html#aee6f403547a8a3339bd61c5f56a5389a',1,'launcher::Launcher']]]
+  ['kdtree_3635',['KDTree',['../../../maliput/html/classmaliput_1_1math_1_1_k_d_tree.html#ab9e7968ccd497e55de6853bb72bfe7d6',1,'maliput::math::KDTree::KDTree(Iterator begin, Iterator end)'],['../../../maliput/html/classmaliput_1_1math_1_1_k_d_tree.html#a5c044659ab0ac54247bbf22f25f8f8e9',1,'maliput::math::KDTree::KDTree(Collection &amp;&amp;points)']]],
+  ['keepcurrentbrake_3636',['KeepCurrentBrake',['../classdelphyne_1_1gui_1_1_teleop_plugin.html#a9cfb5cd3259427901e6df7c1ec7b67ea',1,'delphyne::gui::TeleopPlugin']]],
+  ['keepcurrentbrakechanged_3637',['KeepCurrentBrakeChanged',['../classdelphyne_1_1gui_1_1_teleop_plugin.html#ae0135bc937c42fb9358e45cc8aba6683',1,'delphyne::gui::TeleopPlugin']]],
+  ['keepcurrentthrottle_3638',['KeepCurrentThrottle',['../classdelphyne_1_1gui_1_1_teleop_plugin.html#a1265d47c08d809c89a389a04a3966292',1,'delphyne::gui::TeleopPlugin']]],
+  ['keepcurrentthrottlechanged_3639',['KeepCurrentThrottleChanged',['../classdelphyne_1_1gui_1_1_teleop_plugin.html#adf6cb4c59a87d14569de7911a3431e6d',1,'delphyne::gui::TeleopPlugin']]],
+  ['kill_3640',['kill',['../classlauncher_1_1_launcher.html#aee6f403547a8a3339bd61c5f56a5389a',1,'launcher::Launcher']]]
 ];

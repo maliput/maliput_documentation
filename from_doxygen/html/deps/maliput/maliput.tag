@@ -864,6 +864,26 @@
     <namespace>maliput::geometry_base</namespace>
   </compound>
   <compound kind="file">
+    <name>kd_tree.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/math/</path>
+    <filename>kd__tree_8h.html</filename>
+    <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
+    <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
+    <class kind="struct">maliput::math::details::SquaredDistance</class>
+    <class kind="struct">maliput::math::details::NodeCmp</class>
+    <class kind="class">maliput::math::KDTree</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::math</namespace>
+    <namespace>maliput::math::details</namespace>
+    <member kind="function">
+      <type>Node *</type>
+      <name>MakeKdTree</name>
+      <anchorfile>namespacemaliput_1_1math_1_1details.html</anchorfile>
+      <anchor>a24b1dbed2e474a1ac1df591e550d82a9</anchor>
+      <arglist>(std::size_t begin, std::size_t end, std::size_t index, std::deque&lt; Node &gt; &amp;nodes)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>api/lane.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/</path>
     <filename>api_2lane_8cc.html</filename>
@@ -7314,6 +7334,42 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::math::KDTree</name>
+    <filename>classmaliput_1_1math_1_1_k_d_tree.html</filename>
+    <templarg></templarg>
+    <templarg>Dimension</templarg>
+    <templarg></templarg>
+    <templarg></templarg>
+    <member kind="function">
+      <type></type>
+      <name>KDTree</name>
+      <anchorfile>classmaliput_1_1math_1_1_k_d_tree.html</anchorfile>
+      <anchor>ab9e7968ccd497e55de6853bb72bfe7d6</anchor>
+      <arglist>(Iterator begin, Iterator end)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>KDTree</name>
+      <anchorfile>classmaliput_1_1math_1_1_k_d_tree.html</anchorfile>
+      <anchor>a5c044659ab0ac54247bbf22f25f8f8e9</anchor>
+      <arglist>(Collection &amp;&amp;points)</arglist>
+    </member>
+    <member kind="function">
+      <type>const Coordinate &amp;</type>
+      <name>Nearest</name>
+      <anchorfile>classmaliput_1_1math_1_1_k_d_tree.html</anchorfile>
+      <anchor>adb23ace98dfaf32916e893d0dca07b82</anchor>
+      <arglist>(const Coordinate &amp;point) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Coordinate &amp;</type>
+      <name>Nearest</name>
+      <anchorfile>classmaliput_1_1math_1_1_k_d_tree.html</anchorfile>
+      <anchor>af84375c9002ad6b1ec1c23c0e20f44fc</anchor>
+      <arglist>(const Coordinate &amp;point, double tolerance) const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::geometry_base::Lane</name>
     <filename>classmaliput_1_1geometry__base_1_1_lane.html</filename>
     <base>maliput::api::Lane</base>
@@ -8939,25 +8995,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::geometry_base::test::MockSegment</name>
-    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</filename>
-    <base>maliput::geometry_base::Segment</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
-      <anchor>a667227ded4ffb60bad6d5bf69e104a38</anchor>
-      <arglist>(MockSegment)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MockSegment</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
-      <anchor>a9384ed7a03ee84b8f965a5d156f4efee</anchor>
-      <arglist>(const api::SegmentId &amp;id)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>maliput::api::test::MockSegment</name>
     <filename>classmaliput_1_1api_1_1test_1_1_mock_segment.html</filename>
     <base>maliput::api::Segment</base>
@@ -8981,6 +9018,25 @@
       <anchorfile>classmaliput_1_1api_1_1test_1_1_mock_segment.html</anchorfile>
       <anchor>ab18c3ac1d55322f884de6d1313ee2888</anchor>
       <arglist>(std::unique_ptr&lt; MockLane &gt; lane)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::geometry_base::test::MockSegment</name>
+    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</filename>
+    <base>maliput::geometry_base::Segment</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
+      <anchor>a667227ded4ffb60bad6d5bf69e104a38</anchor>
+      <arglist>(MockSegment)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MockSegment</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
+      <anchor>a9384ed7a03ee84b8f965a5d156f4efee</anchor>
+      <arglist>(const api::SegmentId &amp;id)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -9049,6 +9105,32 @@
       <name>duration_until</name>
       <anchorfile>structmaliput_1_1api_1_1rules_1_1_phase_ring_1_1_next_phase.html</anchorfile>
       <anchor>a596139dc82c65d2da98dec065523b777</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput::math::details::NodeCmp</name>
+    <filename>structmaliput_1_1math_1_1details_1_1_node_cmp.html</filename>
+    <templarg>Dimension</templarg>
+    <member kind="function">
+      <type></type>
+      <name>NodeCmp</name>
+      <anchorfile>structmaliput_1_1math_1_1details_1_1_node_cmp.html</anchorfile>
+      <anchor>a1f5198164176746922a701048afc3641</anchor>
+      <arglist>(std::size_t index)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator()</name>
+      <anchorfile>structmaliput_1_1math_1_1details_1_1_node_cmp.html</anchorfile>
+      <anchor>a88947275eddb7251353c4654fc7ef6b4</anchor>
+      <arglist>(const Node &amp;lhs, const Node &amp;rhs) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>const std::size_t</type>
+      <name>index_</name>
+      <anchorfile>structmaliput_1_1math_1_1details_1_1_node_cmp.html</anchorfile>
+      <anchor>a0e8a5f796e28f6fb0f02a3393d3a2ebc</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -11388,6 +11470,52 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::api::Segment</name>
+    <filename>classmaliput_1_1api_1_1_segment.html</filename>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~Segment</name>
+      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
+      <anchor>ad62aab38a774d311fcd89d88a96681d0</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>SegmentId</type>
+      <name>id</name>
+      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
+      <anchor>acc1e5f359ad7f670ce73faa23be39d24</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Junction *</type>
+      <name>junction</name>
+      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
+      <anchor>ae7d45473b824832f3828103f350b8f72</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_lanes</name>
+      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
+      <anchor>a7fa67be7f6db7ed4c931a2491b0c51bb</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Lane *</type>
+      <name>lane</name>
+      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
+      <anchor>a6f4e1b5acc16f9d2f722f0a36db0a06f</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>Segment</name>
+      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
+      <anchor>a323d93e726913120d0c5ec89c64549fc</anchor>
+      <arglist>()=default</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::geometry_base::Segment</name>
     <filename>classmaliput_1_1geometry__base_1_1_segment.html</filename>
     <base>maliput::api::Segment</base>
@@ -11432,52 +11560,6 @@
       <anchorfile>classmaliput_1_1geometry__base_1_1_segment.html</anchorfile>
       <anchor>a84a537aa6336ab1b17e86fcc3d165979</anchor>
       <arglist>() override=default</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::api::Segment</name>
-    <filename>classmaliput_1_1api_1_1_segment.html</filename>
-    <member kind="function" virtualness="virtual">
-      <type>virtual</type>
-      <name>~Segment</name>
-      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
-      <anchor>ad62aab38a774d311fcd89d88a96681d0</anchor>
-      <arglist>()=default</arglist>
-    </member>
-    <member kind="function">
-      <type>SegmentId</type>
-      <name>id</name>
-      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
-      <anchor>acc1e5f359ad7f670ce73faa23be39d24</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>const Junction *</type>
-      <name>junction</name>
-      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
-      <anchor>ae7d45473b824832f3828103f350b8f72</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>num_lanes</name>
-      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
-      <anchor>a7fa67be7f6db7ed4c931a2491b0c51bb</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>const Lane *</type>
-      <name>lane</name>
-      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
-      <anchor>a6f4e1b5acc16f9d2f722f0a36db0a06f</anchor>
-      <arglist>(int index) const</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type></type>
-      <name>Segment</name>
-      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
-      <anchor>a323d93e726913120d0c5ec89c64549fc</anchor>
-      <arglist>()=default</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -11683,6 +11765,19 @@
       <anchorfile>classmaliput_1_1common_1_1_sink_base.html</anchorfile>
       <anchor>a50ab71f4bc571f6e246b20db4b3dd131</anchor>
       <arglist>()=0</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput::math::details::SquaredDistance</name>
+    <filename>structmaliput_1_1math_1_1details_1_1_squared_distance.html</filename>
+    <templarg></templarg>
+    <templarg>Dimension</templarg>
+    <member kind="function">
+      <type>double</type>
+      <name>operator()</name>
+      <anchorfile>structmaliput_1_1math_1_1details_1_1_squared_distance.html</anchorfile>
+      <anchor>af8a65106872ba0e68464d6fcb8276637</anchor>
+      <arglist>(const Coordinate &amp;lhs, const Coordinate &amp;rhs) const</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -16204,7 +16299,9 @@
   <compound kind="namespace">
     <name>maliput::math</name>
     <filename>namespacemaliput_1_1math.html</filename>
+    <namespace>maliput::math::details</namespace>
     <namespace>maliput::math::test</namespace>
+    <class kind="class">maliput::math::KDTree</class>
     <class kind="class">maliput::math::Matrix</class>
     <class kind="class">maliput::math::Quaternion</class>
     <class kind="class">maliput::math::RollPitchYaw</class>
@@ -16527,6 +16624,19 @@
       <anchorfile>namespacemaliput_1_1math.html</anchorfile>
       <anchor>a62d65b4338247ad0def225774ddcc0e7</anchor>
       <arglist>(std::ostream &amp;, const VectorBase&lt; 4, Vector4 &gt; &amp;)</arglist>
+    </member>
+  </compound>
+  <compound kind="namespace">
+    <name>maliput::math::details</name>
+    <filename>namespacemaliput_1_1math_1_1details.html</filename>
+    <class kind="struct">maliput::math::details::NodeCmp</class>
+    <class kind="struct">maliput::math::details::SquaredDistance</class>
+    <member kind="function">
+      <type>Node *</type>
+      <name>MakeKdTree</name>
+      <anchorfile>namespacemaliput_1_1math_1_1details.html</anchorfile>
+      <anchor>a24b1dbed2e474a1ac1df591e550d82a9</anchor>
+      <arglist>(std::size_t begin, std::size_t end, std::size_t index, std::deque&lt; Node &gt; &amp;nodes)</arglist>
     </member>
   </compound>
   <compound kind="namespace">
