@@ -9,6 +9,27 @@
     <namespace>maliput::common</namespace>
   </compound>
   <compound kind="file">
+    <name>axis_aligned_box.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/math/</path>
+    <filename>axis__aligned__box_8cc.html</filename>
+    <includes id="axis__aligned__box_8h" name="axis_aligned_box.h" local="yes" imported="no">maliput/math/axis_aligned_box.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::math</namespace>
+  </compound>
+  <compound kind="file">
+    <name>axis_aligned_box.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/math/</path>
+    <filename>axis__aligned__box_8h.html</filename>
+    <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
+    <includes id="bounding__region_8h" name="bounding_region.h" local="yes" imported="no">maliput/math/bounding_region.h</includes>
+    <includes id="overlapping__type_8h" name="overlapping_type.h" local="yes" imported="no">maliput/math/overlapping_type.h</includes>
+    <includes id="roll__pitch__yaw_8h" name="roll_pitch_yaw.h" local="yes" imported="no">maliput/math/roll_pitch_yaw.h</includes>
+    <includes id="vector_8h" name="vector.h" local="yes" imported="no">maliput/math/vector.h</includes>
+    <class kind="class">maliput::math::AxisAlignedBox</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::math</namespace>
+  </compound>
+  <compound kind="file">
     <name>basic_id_index.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/</path>
     <filename>basic__id__index_8cc.html</filename>
@@ -30,6 +51,37 @@
     <class kind="class">maliput::api::BasicIdIndex</class>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
+  </compound>
+  <compound kind="file">
+    <name>bounding_box.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/math/</path>
+    <filename>bounding__box_8cc.html</filename>
+    <includes id="bounding__box_8h" name="bounding_box.h" local="yes" imported="no">maliput/math/bounding_box.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::math</namespace>
+  </compound>
+  <compound kind="file">
+    <name>bounding_box.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/math/</path>
+    <filename>bounding__box_8h.html</filename>
+    <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
+    <includes id="bounding__region_8h" name="bounding_region.h" local="yes" imported="no">maliput/math/bounding_region.h</includes>
+    <includes id="overlapping__type_8h" name="overlapping_type.h" local="yes" imported="no">maliput/math/overlapping_type.h</includes>
+    <includes id="roll__pitch__yaw_8h" name="roll_pitch_yaw.h" local="yes" imported="no">maliput/math/roll_pitch_yaw.h</includes>
+    <includes id="vector_8h" name="vector.h" local="yes" imported="no">maliput/math/vector.h</includes>
+    <class kind="class">maliput::math::BoundingBox</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::math</namespace>
+  </compound>
+  <compound kind="file">
+    <name>bounding_region.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/math/</path>
+    <filename>bounding__region_8h.html</filename>
+    <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
+    <includes id="overlapping__type_8h" name="overlapping_type.h" local="yes" imported="no">maliput/math/overlapping_type.h</includes>
+    <class kind="class">maliput::math::BoundingRegion</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::math</namespace>
   </compound>
   <compound kind="file">
     <name>branch_point.cc</name>
@@ -3133,6 +3185,70 @@
     <namespace>maliput::geometry_base::test</namespace>
   </compound>
   <compound kind="file">
+    <name>mock_math.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/test_utilities/</path>
+    <filename>mock__math_8h.html</filename>
+    <includes id="bounding__box_8h" name="bounding_box.h" local="yes" imported="no">maliput/math/bounding_box.h</includes>
+    <includes id="overlapping__type_8h" name="overlapping_type.h" local="yes" imported="no">maliput/math/overlapping_type.h</includes>
+    <class kind="class">maliput::math::test::MockBoundingRegion</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::math</namespace>
+    <namespace>maliput::math::test</namespace>
+  </compound>
+  <compound kind="file">
+    <name>overlapping_type.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/math/</path>
+    <filename>overlapping__type_8cc.html</filename>
+    <includes id="overlapping__type_8h" name="overlapping_type.h" local="yes" imported="no">maliput/math/overlapping_type.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::math</namespace>
+    <member kind="function">
+      <type>OverlappingType</type>
+      <name>operator|</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>a83bfe484e76b37ad9cc57ed9bd714b79</anchor>
+      <arglist>(const OverlappingType &amp;first, const OverlappingType &amp;second)</arglist>
+    </member>
+    <member kind="function">
+      <type>OverlappingType</type>
+      <name>operator&amp;</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>a188960295ec6a52f2477c6e0bb5984b6</anchor>
+      <arglist>(const OverlappingType &amp;first, const OverlappingType &amp;second)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>overlapping_type.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/math/</path>
+    <filename>overlapping__type_8h.html</filename>
+    <namespace>maliput</namespace>
+    <namespace>maliput::math</namespace>
+    <member kind="enumeration">
+      <type></type>
+      <name>OverlappingType</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>af6022ec3177e3ba16073ae84ccfb5b61</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespacemaliput_1_1math.html" anchor="af6022ec3177e3ba16073ae84ccfb5b61a026931af6058f84edf6f23b727936e46">kDisjointed</enumvalue>
+      <enumvalue file="namespacemaliput_1_1math.html" anchor="af6022ec3177e3ba16073ae84ccfb5b61a8bf5940d983d36987f4a41691ea1d562">kIntersected</enumvalue>
+      <enumvalue file="namespacemaliput_1_1math.html" anchor="af6022ec3177e3ba16073ae84ccfb5b61a37909e88ded01d78663d301fa3454166">kContained</enumvalue>
+    </member>
+    <member kind="function">
+      <type>OverlappingType</type>
+      <name>operator|</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>a83bfe484e76b37ad9cc57ed9bd714b79</anchor>
+      <arglist>(const OverlappingType &amp;first, const OverlappingType &amp;second)</arglist>
+    </member>
+    <member kind="function">
+      <type>OverlappingType</type>
+      <name>operator&amp;</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>a188960295ec6a52f2477c6e0bb5984b6</anchor>
+      <arglist>(const OverlappingType &amp;first, const OverlappingType &amp;second)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>passkey.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/common/</path>
     <filename>passkey_8h.html</filename>
@@ -5691,6 +5807,74 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::math::AxisAlignedBox</name>
+    <filename>classmaliput_1_1math_1_1_axis_aligned_box.html</filename>
+    <base>BoundingRegion&lt; Vector3 &gt;</base>
+    <member kind="function">
+      <type></type>
+      <name>AxisAlignedBox</name>
+      <anchorfile>classmaliput_1_1math_1_1_axis_aligned_box.html</anchorfile>
+      <anchor>abdada45f3f971caf54ca01be23ffc1a1</anchor>
+      <arglist>(const Vector3 &amp;min_corner, const Vector3 &amp;max_corner)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>AxisAlignedBox</name>
+      <anchorfile>classmaliput_1_1math_1_1_axis_aligned_box.html</anchorfile>
+      <anchor>a01ba02231a32485db70b93573f62357e</anchor>
+      <arglist>(const Vector3 &amp;min_corner, const Vector3 &amp;max_corner, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~AxisAlignedBox</name>
+      <anchorfile>classmaliput_1_1math_1_1_axis_aligned_box.html</anchorfile>
+      <anchor>accdbb23e68e42720322515865b78b8af</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>const Vector3 &amp;</type>
+      <name>min_corner</name>
+      <anchorfile>classmaliput_1_1math_1_1_axis_aligned_box.html</anchorfile>
+      <anchor>a5bcdca826bf9d8c137f5ce0b081a68e6</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Vector3 &amp;</type>
+      <name>max_corner</name>
+      <anchorfile>classmaliput_1_1math_1_1_axis_aligned_box.html</anchorfile>
+      <anchor>a4a6a580a4698312af748ca14f5a7d7e5</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; Vector3 &gt;</type>
+      <name>get_vertices</name>
+      <anchorfile>classmaliput_1_1math_1_1_axis_aligned_box.html</anchorfile>
+      <anchor>aacf62a47a2705f2d2f4567a86b4ba1aa</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>IsBoxContained</name>
+      <anchorfile>classmaliput_1_1math_1_1_axis_aligned_box.html</anchorfile>
+      <anchor>a05ec125a77d4d4c9b45da7ee99f8ca91</anchor>
+      <arglist>(const AxisAlignedBox &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>IsBoxIntersected</name>
+      <anchorfile>classmaliput_1_1math_1_1_axis_aligned_box.html</anchorfile>
+      <anchor>a28e92b00103c876cea43df632154feab</anchor>
+      <arglist>(const AxisAlignedBox &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; AxisAlignedBox &gt;</type>
+      <name>GetIntersection</name>
+      <anchorfile>classmaliput_1_1math_1_1_axis_aligned_box.html</anchorfile>
+      <anchor>ab448402f889070fdea54e08874edc64e</anchor>
+      <arglist>(const AxisAlignedBox &amp;other) const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::api::BasicIdIndex</name>
     <filename>classmaliput_1_1api_1_1_basic_id_index.html</filename>
     <base>maliput::api::RoadGeometry::IdIndex</base>
@@ -5751,6 +5935,60 @@
       <arglist>(const RoadGeometry *road_geometry)</arglist>
     </member>
   </compound>
+  <compound kind="class">
+    <name>maliput::math::BoundingBox</name>
+    <filename>classmaliput_1_1math_1_1_bounding_box.html</filename>
+    <base>BoundingRegion&lt; Vector3 &gt;</base>
+    <member kind="function">
+      <type></type>
+      <name>BoundingBox</name>
+      <anchorfile>classmaliput_1_1math_1_1_bounding_box.html</anchorfile>
+      <anchor>a03514a4210ae04cee96b1df6d57afc5b</anchor>
+      <arglist>(const Vector3 &amp;position, const Vector3 &amp;box_size, const RollPitchYaw &amp;orientation, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~BoundingBox</name>
+      <anchorfile>classmaliput_1_1math_1_1_bounding_box.html</anchorfile>
+      <anchor>a15fb13660b3e79ef417c31551008120c</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; Vector3 &gt;</type>
+      <name>get_vertices</name>
+      <anchorfile>classmaliput_1_1math_1_1_bounding_box.html</anchorfile>
+      <anchor>aacf62a47a2705f2d2f4567a86b4ba1aa</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const RollPitchYaw &amp;</type>
+      <name>get_orientation</name>
+      <anchorfile>classmaliput_1_1math_1_1_bounding_box.html</anchorfile>
+      <anchor>a274a8c30bd60d86365431b4e131fc4a2</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Vector3 &amp;</type>
+      <name>box_size</name>
+      <anchorfile>classmaliput_1_1math_1_1_bounding_box.html</anchorfile>
+      <anchor>ab27dc5cdc983e80acb99d83cee2a51fe</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>IsBoxContained</name>
+      <anchorfile>classmaliput_1_1math_1_1_bounding_box.html</anchorfile>
+      <anchor>a75c8ec18202add84cf755a4c6f88a23b</anchor>
+      <arglist>(const BoundingBox &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>IsBoxIntersected</name>
+      <anchorfile>classmaliput_1_1math_1_1_bounding_box.html</anchorfile>
+      <anchor>a0c10b8796316c9f2e7ee7ac8cae9eef6</anchor>
+      <arglist>(const BoundingBox &amp;other) const</arglist>
+    </member>
+  </compound>
   <compound kind="struct">
     <name>maliput::api::rules::Bulb::BoundingBox</name>
     <filename>structmaliput_1_1api_1_1rules_1_1_bulb_1_1_bounding_box.html</filename>
@@ -5774,6 +6012,85 @@
       <anchorfile>structmaliput_1_1api_1_1rules_1_1_bulb_1_1_bounding_box.html</anchorfile>
       <anchor>a96efe3e4026d7d1974bdb6fac02d932a</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::math::BoundingRegion</name>
+    <filename>classmaliput_1_1math_1_1_bounding_region.html</filename>
+    <templarg></templarg>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~BoundingRegion</name>
+      <anchorfile>classmaliput_1_1math_1_1_bounding_region.html</anchorfile>
+      <anchor>a2b2ad1df9141d697a52832036573e4c3</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>const Coordinate &amp;</type>
+      <name>position</name>
+      <anchorfile>classmaliput_1_1math_1_1_bounding_region.html</anchorfile>
+      <anchor>a7ad7a9db80533649956d66851ae47a49</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>Contains</name>
+      <anchorfile>classmaliput_1_1math_1_1_bounding_region.html</anchorfile>
+      <anchor>aa3b634f7d0a9f72ae1b980ae759dcd1f</anchor>
+      <arglist>(const Coordinate &amp;position) const</arglist>
+    </member>
+    <member kind="function">
+      <type>OverlappingType</type>
+      <name>Overlaps</name>
+      <anchorfile>classmaliput_1_1math_1_1_bounding_region.html</anchorfile>
+      <anchor>a872c5712e03561862f663c1fe3f72756</anchor>
+      <arglist>(const BoundingRegion&lt; Coordinate &gt; &amp;other) const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>BoundingRegion</name>
+      <anchorfile>classmaliput_1_1math_1_1_bounding_region.html</anchorfile>
+      <anchor>a4724819589de4d9d8d0b0c523bf2626b</anchor>
+      <arglist>()=default</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>BoundingRegion&lt; Vector3 &gt;</name>
+    <filename>classmaliput_1_1math_1_1_bounding_region.html</filename>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~BoundingRegion</name>
+      <anchorfile>classmaliput_1_1math_1_1_bounding_region.html</anchorfile>
+      <anchor>a2b2ad1df9141d697a52832036573e4c3</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>const Vector3 &amp;</type>
+      <name>position</name>
+      <anchorfile>classmaliput_1_1math_1_1_bounding_region.html</anchorfile>
+      <anchor>a7ad7a9db80533649956d66851ae47a49</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>Contains</name>
+      <anchorfile>classmaliput_1_1math_1_1_bounding_region.html</anchorfile>
+      <anchor>aa3b634f7d0a9f72ae1b980ae759dcd1f</anchor>
+      <arglist>(const Vector3 &amp;position) const</arglist>
+    </member>
+    <member kind="function">
+      <type>OverlappingType</type>
+      <name>Overlaps</name>
+      <anchorfile>classmaliput_1_1math_1_1_bounding_region.html</anchorfile>
+      <anchor>a872c5712e03561862f663c1fe3f72756</anchor>
+      <arglist>(const BoundingRegion&lt; Vector3 &gt; &amp;other) const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>BoundingRegion</name>
+      <anchorfile>classmaliput_1_1math_1_1_bounding_region.html</anchorfile>
+      <anchor>a4724819589de4d9d8d0b0c523bf2626b</anchor>
+      <arglist>()=default</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -8679,6 +8996,32 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::math::test::MockBoundingRegion</name>
+    <filename>classmaliput_1_1math_1_1test_1_1_mock_bounding_region.html</filename>
+    <base>BoundingRegion&lt; Vector3 &gt;</base>
+    <member kind="function">
+      <type></type>
+      <name>MOCK_METHOD</name>
+      <anchorfile>classmaliput_1_1math_1_1test_1_1_mock_bounding_region.html</anchorfile>
+      <anchor>adab7f03d4a96f5b41e2ffbf086dbff81</anchor>
+      <arglist>((const Vector3 &amp;), do_position,(),(const, override))</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MOCK_METHOD</name>
+      <anchorfile>classmaliput_1_1math_1_1test_1_1_mock_bounding_region.html</anchorfile>
+      <anchor>a57d29c02cb122bcc9cd554a7ed461f45</anchor>
+      <arglist>((bool), DoContains,(const Vector3 &amp;),(const, override))</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MOCK_METHOD</name>
+      <anchorfile>classmaliput_1_1math_1_1test_1_1_mock_bounding_region.html</anchorfile>
+      <anchor>a38b321b0b4a36de9c9ee2da5f3a411ec</anchor>
+      <arglist>((OverlappingType), DoOverlaps,(const BoundingRegion&lt; Vector3 &gt; &amp;),(const, override))</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::api::test::MockBranchPoint</name>
     <filename>classmaliput_1_1api_1_1test_1_1_mock_branch_point.html</filename>
     <base>maliput::api::BranchPoint</base>
@@ -8778,6 +9121,25 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::geometry_base::test::MockJunction</name>
+    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</filename>
+    <base>maliput::geometry_base::Junction</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</anchorfile>
+      <anchor>a26723fde85c91fee88437db5f309cde9</anchor>
+      <arglist>(MockJunction)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MockJunction</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</anchorfile>
+      <anchor>aa61dda9241bb8ba6c3a802f6d30166de</anchor>
+      <arglist>(const api::JunctionId &amp;id)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::api::test::MockJunction</name>
     <filename>classmaliput_1_1api_1_1test_1_1_mock_junction.html</filename>
     <base>maliput::api::Junction</base>
@@ -8801,25 +9163,6 @@
       <anchorfile>classmaliput_1_1api_1_1test_1_1_mock_junction.html</anchorfile>
       <anchor>a198054bfe5b09d2e653ad8901a050509</anchor>
       <arglist>(std::unique_ptr&lt; MockSegment &gt; segment)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::geometry_base::test::MockJunction</name>
-    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</filename>
-    <base>maliput::geometry_base::Junction</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</anchorfile>
-      <anchor>a26723fde85c91fee88437db5f309cde9</anchor>
-      <arglist>(MockJunction)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MockJunction</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</anchorfile>
-      <anchor>aa61dda9241bb8ba6c3a802f6d30166de</anchor>
-      <arglist>(const api::JunctionId &amp;id)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -8995,6 +9338,25 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::geometry_base::test::MockSegment</name>
+    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</filename>
+    <base>maliput::geometry_base::Segment</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
+      <anchor>a667227ded4ffb60bad6d5bf69e104a38</anchor>
+      <arglist>(MockSegment)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MockSegment</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
+      <anchor>a9384ed7a03ee84b8f965a5d156f4efee</anchor>
+      <arglist>(const api::SegmentId &amp;id)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::api::test::MockSegment</name>
     <filename>classmaliput_1_1api_1_1test_1_1_mock_segment.html</filename>
     <base>maliput::api::Segment</base>
@@ -9018,25 +9380,6 @@
       <anchorfile>classmaliput_1_1api_1_1test_1_1_mock_segment.html</anchorfile>
       <anchor>ab18c3ac1d55322f884de6d1313ee2888</anchor>
       <arglist>(std::unique_ptr&lt; MockLane &gt; lane)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::geometry_base::test::MockSegment</name>
-    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</filename>
-    <base>maliput::geometry_base::Segment</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
-      <anchor>a667227ded4ffb60bad6d5bf69e104a38</anchor>
-      <arglist>(MockSegment)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MockSegment</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
-      <anchor>a9384ed7a03ee84b8f965a5d156f4efee</anchor>
-      <arglist>(const api::SegmentId &amp;id)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -16301,6 +16644,9 @@
     <filename>namespacemaliput_1_1math.html</filename>
     <namespace>maliput::math::details</namespace>
     <namespace>maliput::math::test</namespace>
+    <class kind="class">maliput::math::AxisAlignedBox</class>
+    <class kind="class">maliput::math::BoundingBox</class>
+    <class kind="class">maliput::math::BoundingRegion</class>
     <class kind="class">maliput::math::KDTree</class>
     <class kind="class">maliput::math::Matrix</class>
     <class kind="class">maliput::math::Quaternion</class>
@@ -16331,12 +16677,36 @@
       <anchor>a1d79dac56e52511791f446a46b160358</anchor>
       <arglist></arglist>
     </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>OverlappingType</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>af6022ec3177e3ba16073ae84ccfb5b61</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespacemaliput_1_1math.html" anchor="af6022ec3177e3ba16073ae84ccfb5b61a026931af6058f84edf6f23b727936e46">kDisjointed</enumvalue>
+      <enumvalue file="namespacemaliput_1_1math.html" anchor="af6022ec3177e3ba16073ae84ccfb5b61a8bf5940d983d36987f4a41691ea1d562">kIntersected</enumvalue>
+      <enumvalue file="namespacemaliput_1_1math.html" anchor="af6022ec3177e3ba16073ae84ccfb5b61a37909e88ded01d78663d301fa3454166">kContained</enumvalue>
+    </member>
     <member kind="function">
       <type>Derived</type>
       <name>operator*</name>
       <anchorfile>namespacemaliput_1_1math.html</anchorfile>
       <anchor>a4b9dbb2c9b19248a0c0cc41377fff759</anchor>
       <arglist>(const Matrix&lt; N &gt; &amp;matrix, const VectorBase&lt; N, Derived &gt; vector)</arglist>
+    </member>
+    <member kind="function">
+      <type>OverlappingType</type>
+      <name>operator|</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>a83bfe484e76b37ad9cc57ed9bd714b79</anchor>
+      <arglist>(const OverlappingType &amp;first, const OverlappingType &amp;second)</arglist>
+    </member>
+    <member kind="function">
+      <type>OverlappingType</type>
+      <name>operator&amp;</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>a188960295ec6a52f2477c6e0bb5984b6</anchor>
+      <arglist>(const OverlappingType &amp;first, const OverlappingType &amp;second)</arglist>
     </member>
     <member kind="function">
       <type>std::ostream &amp;</type>
@@ -16642,6 +17012,7 @@
   <compound kind="namespace">
     <name>maliput::math::test</name>
     <filename>namespacemaliput_1_1math_1_1test.html</filename>
+    <class kind="class">maliput::math::test::MockBoundingRegion</class>
     <member kind="enumeration">
       <type></type>
       <name>CompareType</name>

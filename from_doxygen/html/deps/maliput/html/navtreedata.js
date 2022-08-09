@@ -116,14 +116,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"classmaliput_1_1api_1_1_lane_s_range.html#a64a6eda0bf1e33c6878b4292f4c5df59",
-"classmaliput_1_1api_1_1rules_1_1_unique_bulb_id.html#a16c3e3a3deeacd47cce19bd1e934b87e",
-"classmaliput_1_1math_1_1_roll_pitch_yaw.html#a7159827d2b0d06ed4f3c4c19262d976a",
-"functions_y.html",
-"matrix_8cc.html#ab98da75bc6981cbd21c7eafbce227aa3",
-"namespacemembers_y.html",
-"structmaliput_1_1api_1_1rules_1_1_bulb_1_1_bounding_box.html#a1dea7b72431cc6891cefdb6020af2bd6",
-"vector_8cc.html#a2dd290ef0bec4e66539731b5fc90e15f"
+"classmaliput_1_1api_1_1_lane_position.html#a89aed38a97f1fda9ef1a61a92c3ca879",
+"classmaliput_1_1api_1_1rules_1_1_unique_bulb_group_id.html#a7c41a79157851fcbc769a422c8090b54",
+"classmaliput_1_1math_1_1_quaternion.html#a76099c1549db9c057693a2f2fe90b620",
+"functions_func_p.html",
+"maliput_plugin_architecture.html#maliput_plugin_manager",
+"namespacemembers_func_b.html",
+"structmaliput_1_1_rule_constants.html#af77d82cfaf3db0b3e32e8fb4b27be645",
+"traffic__lights_8h.html#a6e1f10a3be6871610a2558424fcd78ed"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -2,6 +2,12 @@ var hierarchy =
 [
     [ "AssertionResultCollector", "classmaliput_1_1api_1_1rules_1_1test_1_1_assertion_result_collector.html", null ],
     [ "Bulb::BoundingBox", "structmaliput_1_1api_1_1rules_1_1_bulb_1_1_bounding_box.html", null ],
+    [ "BoundingRegion< Coordinate >", "classmaliput_1_1math_1_1_bounding_region.html", null ],
+    [ "BoundingRegion< Vector3 >", "classmaliput_1_1math_1_1_bounding_region.html", [
+      [ "AxisAlignedBox", "classmaliput_1_1math_1_1_axis_aligned_box.html", null ],
+      [ "BoundingBox", "classmaliput_1_1math_1_1_bounding_box.html", null ],
+      [ "MockBoundingRegion", "classmaliput_1_1math_1_1test_1_1_mock_bounding_region.html", null ]
+    ] ],
     [ "BranchPoint", "classmaliput_1_1api_1_1_branch_point.html", [
       [ "MockBranchPoint", "classmaliput_1_1api_1_1test_1_1_mock_branch_point.html", null ],
       [ "BranchPoint", "classmaliput_1_1geometry__base_1_1_branch_point.html", [

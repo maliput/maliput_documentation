@@ -127,8 +127,11 @@ var searchData=
   ['autodiffagentsimulation_127',['AutoDiffAgentSimulation',['../namespacedelphyne.html#aa1aab4a786a65cd9f7f01646eae9e4d7',1,'delphyne']]],
   ['autodiffagentsimulationbuilder_128',['AutoDiffAgentSimulationBuilder',['../namespacedelphyne.html#af9d65cd21ff68ac8786bc84ce751027e',1,'delphyne']]],
   ['autodifftypedagentblueprint_129',['AutoDiffTypedAgentBlueprint',['../namespacedelphyne.html#a029aa512ce9244dbaa03f013209786dd',1,'delphyne']]],
-  ['simple_5fcar_2ecc_130',['simple_car.cc',['../agents_2simple__car_8cc.html',1,'']]],
-  ['simple_5fcar_2eh_131',['simple_car.h',['../agents_2simple__car_8h.html',1,'']]],
-  ['unicycle_5fcar_2ecc_132',['unicycle_car.cc',['../agents_2unicycle__car_8cc.html',1,'']]],
-  ['unicycle_5fcar_2eh_133',['unicycle_car.h',['../agents_2unicycle__car_8h.html',1,'']]]
+  ['axis_5faligned_5fbox_2ecc_130',['axis_aligned_box.cc',['../../../maliput/html/axis__aligned__box_8cc.html.html',1,'']]],
+  ['axis_5faligned_5fbox_2eh_131',['axis_aligned_box.h',['../../../maliput/html/axis__aligned__box_8h.html.html',1,'']]],
+  ['axisalignedbox_132',['AxisAlignedBox',['../../../maliput/html/classmaliput_1_1math_1_1_axis_aligned_box.html',1,'AxisAlignedBox'],['../../../maliput/html/classmaliput_1_1math_1_1_axis_aligned_box.html#abdada45f3f971caf54ca01be23ffc1a1',1,'maliput::math::AxisAlignedBox::AxisAlignedBox(const Vector3 &amp;min_corner, const Vector3 &amp;max_corner)'],['../../../maliput/html/classmaliput_1_1math_1_1_axis_aligned_box.html#a01ba02231a32485db70b93573f62357e',1,'maliput::math::AxisAlignedBox::AxisAlignedBox(const Vector3 &amp;min_corner, const Vector3 &amp;max_corner, double tolerance)']]],
+  ['simple_5fcar_2ecc_133',['simple_car.cc',['../agents_2simple__car_8cc.html',1,'']]],
+  ['simple_5fcar_2eh_134',['simple_car.h',['../agents_2simple__car_8h.html',1,'']]],
+  ['unicycle_5fcar_2ecc_135',['unicycle_car.cc',['../agents_2unicycle__car_8cc.html',1,'']]],
+  ['unicycle_5fcar_2eh_136',['unicycle_car.h',['../agents_2unicycle__car_8h.html',1,'']]]
 ];

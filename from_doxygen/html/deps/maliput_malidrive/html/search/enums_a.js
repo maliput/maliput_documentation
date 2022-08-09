@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['type_3427',['Type',['../structmalidrive_1_1builder_1_1_build_policy.html#a1d1cfd8ffb84e947f82999c682b666a7',1,'malidrive::builder::BuildPolicy::Type()'],['../structmalidrive_1_1xodr_1_1_connection.html#a1d1cfd8ffb84e947f82999c682b666a7',1,'malidrive::xodr::Connection::Type()'],['../structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7',1,'malidrive::xodr::Geometry::Type()'],['../structmalidrive_1_1xodr_1_1_junction.html#a1d1cfd8ffb84e947f82999c682b666a7',1,'malidrive::xodr::Junction::Type()'],['../structmalidrive_1_1xodr_1_1_lane.html#a1d1cfd8ffb84e947f82999c682b666a7',1,'malidrive::xodr::Lane::Type()'],['../structmalidrive_1_1xodr_1_1_road_type.html#a1d1cfd8ffb84e947f82999c682b666a7',1,'malidrive::xodr::RoadType::Type()']]]
+  ['simplificationpolicy_3482',['SimplificationPolicy',['../structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aba132f98ea1230f94d40497b60aa9df4',1,'malidrive::builder::RoadGeometryConfiguration']]],
+  ['standardstrictnesspolicy_3483',['StandardStrictnessPolicy',['../structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0',1,'malidrive::builder::RoadGeometryConfiguration']]]
 ];

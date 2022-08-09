@@ -92,6 +92,7 @@ $(document).ready(function(){initNavTree('namespacemaliput_1_1math.html',''); in
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">maliput::math Namespace Reference</div>  </div>
@@ -109,6 +110,15 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1_axis_aligned_box.html">AxisAlignedBox</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements <a class="el" href="classmaliput_1_1math_1_1_bounding_region.html" title="Abstract API for bounding description.">BoundingRegion</a> abstract class for axis-aligned-box-shaped bounding regions.  <a href="classmaliput_1_1math_1_1_axis_aligned_box.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1_bounding_box.html">BoundingBox</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements <a class="el" href="classmaliput_1_1math_1_1_bounding_region.html" title="Abstract API for bounding description.">BoundingRegion</a> abstract class for non-axis-aligned-box-shaped bounding regions.  <a href="classmaliput_1_1math_1_1_bounding_box.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1_bounding_region.html">BoundingRegion</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract API for bounding description.  <a href="classmaliput_1_1math_1_1_bounding_region.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1_k_d_tree.html">KDTree</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classmaliput_1_1math_1_1_k_d_tree.html" title="KDTree provides a space-partitioning data structure for organizing points in a k-dimensional space.">KDTree</a> provides a space-partitioning data structure for organizing points in a k-dimensional space.  <a href="classmaliput_1_1math_1_1_k_d_tree.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,12 +157,25 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a1d79dac56e52511791f446a46b160358"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1math.html#a1d79dac56e52511791f446a46b160358">Matrix4</a> = <a class="el" href="classmaliput_1_1math_1_1_matrix.html">Matrix</a>&lt; 4 &gt;</td></tr>
 <tr class="separator:a1d79dac56e52511791f446a46b160358"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:af6022ec3177e3ba16073ae84ccfb5b61"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61">OverlappingType</a> : unsigned int { <a class="el" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61a026931af6058f84edf6f23b727936e46">kDisjointed</a> = 0, 
+<a class="el" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61a8bf5940d983d36987f4a41691ea1d562">kIntersected</a> = 1, 
+<a class="el" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61a37909e88ded01d78663d301fa3454166">kContained</a> = 3
+ }</td></tr>
+<tr class="memdesc:af6022ec3177e3ba16073ae84ccfb5b61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds the possible overlapping types between regions.  <a href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61">More...</a><br /></td></tr>
+<tr class="separator:af6022ec3177e3ba16073ae84ccfb5b61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a4b9dbb2c9b19248a0c0cc41377fff759"><td class="memTemplParams" colspan="2">template&lt;std::size_t N, typename Derived &gt; </td></tr>
 <tr class="memitem:a4b9dbb2c9b19248a0c0cc41377fff759"><td class="memTemplItemLeft" align="right" valign="top">Derived&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1math.html#a4b9dbb2c9b19248a0c0cc41377fff759">operator*</a> (const <a class="el" href="classmaliput_1_1math_1_1_matrix.html">Matrix</a>&lt; N &gt; &amp;matrix, const <a class="el" href="classmaliput_1_1math_1_1_vector_base.html">VectorBase</a>&lt; N, Derived &gt; vector)</td></tr>
 <tr class="memdesc:a4b9dbb2c9b19248a0c0cc41377fff759"><td class="mdescLeft">&#160;</td><td class="mdescRight">Product operator overload between a Matrix&lt;N&gt; and a VectorBase&lt;N, Derived&gt;.  <a href="namespacemaliput_1_1math.html#a4b9dbb2c9b19248a0c0cc41377fff759">More...</a><br /></td></tr>
 <tr class="separator:a4b9dbb2c9b19248a0c0cc41377fff759"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83bfe484e76b37ad9cc57ed9bd714b79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61">OverlappingType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1math.html#a83bfe484e76b37ad9cc57ed9bd714b79">operator|</a> (const <a class="el" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61">OverlappingType</a> &amp;first, const <a class="el" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61">OverlappingType</a> &amp;second)</td></tr>
+<tr class="separator:a83bfe484e76b37ad9cc57ed9bd714b79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a188960295ec6a52f2477c6e0bb5984b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61">OverlappingType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1math.html#a188960295ec6a52f2477c6e0bb5984b6">operator&amp;</a> (const <a class="el" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61">OverlappingType</a> &amp;first, const <a class="el" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61">OverlappingType</a> &amp;second)</td></tr>
+<tr class="separator:a188960295ec6a52f2477c6e0bb5984b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2da180d301577cd15c3869079ae73256"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1math.html#a2da180d301577cd15c3869079ae73256">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classmaliput_1_1math_1_1_quaternion.html">Quaternion</a> &amp;q)</td></tr>
 <tr class="memdesc:a2da180d301577cd15c3869079ae73256"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialization operator overload.  <a href="namespacemaliput_1_1math.html#a2da180d301577cd15c3869079ae73256">More...</a><br /></td></tr>
 <tr class="separator:a2da180d301577cd15c3869079ae73256"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -289,7 +312,81 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="af6022ec3177e3ba16073ae84ccfb5b61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6022ec3177e3ba16073ae84ccfb5b61">&#9670;&nbsp;</a></span>OverlappingType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61">OverlappingType</a> : unsigned int</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Holds the possible overlapping types between regions. </p>
+<p>Given two sets <code>A</code> and <code>B</code> :</p><ul>
+<li><code>A</code> intersects <code>B</code> iff <code>A</code> and <code>B</code> have at least one point in common.</li>
+<li><code>A</code> contains <code>B</code> iff <code>A</code> contains all the points of <code>B</code>.</li>
+<li><code>A</code> disjoints <code>B</code> iff <code>A</code> and <code>B</code> have no points in common.<ul>
+<li>Example of use: <div class="fragment"><div class="line"><a class="code" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61">OverlappingType</a> MyMethod();</div>
+<div class="line">...</div>
+<div class="line">if(<a class="code" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61a8bf5940d983d36987f4a41691ea1d562">OverlappingType::kIntersected</a> &amp; MyMethod() == <a class="code" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61a8bf5940d983d36987f4a41691ea1d562">OverlappingType::kIntersected</a>) {</div>
+<div class="line"> <span class="comment">// Do something.</span></div>
+<div class="line">}</div>
+</div><!-- fragment --> </li>
+</ul>
+</li>
+</ul>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af6022ec3177e3ba16073ae84ccfb5b61a026931af6058f84edf6f23b727936e46"></a>kDisjointed&#160;</td><td class="fielddoc"><p>No overlapping between bounding regions. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af6022ec3177e3ba16073ae84ccfb5b61a8bf5940d983d36987f4a41691ea1d562"></a>kIntersected&#160;</td><td class="fielddoc"><p>Bounding regions are intersected. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af6022ec3177e3ba16073ae84ccfb5b61a37909e88ded01d78663d301fa3454166"></a>kContained&#160;</td><td class="fielddoc"><p>Bounding regions are contained. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a188960295ec6a52f2477c6e0bb5984b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a188960295ec6a52f2477c6e0bb5984b6">&#9670;&nbsp;</a></span>operator&amp;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61">OverlappingType</a> operator&amp; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61">OverlappingType</a> &amp;&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61">OverlappingType</a> &amp;&#160;</td>
+          <td class="paramname"><em>second</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab98da75bc6981cbd21c7eafbce227aa3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab98da75bc6981cbd21c7eafbce227aa3">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/28]</span></h2>
 
@@ -1450,6 +1547,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a83bfe484e76b37ad9cc57ed9bd714b79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83bfe484e76b37ad9cc57ed9bd714b79">&#9670;&nbsp;</a></span>operator|()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61">OverlappingType</a> operator| </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61">OverlappingType</a> &amp;&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61">OverlappingType</a> &amp;&#160;</td>
+          <td class="paramname"><em>second</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac8f73efa4810c92b9580ccbba3c76f45"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac8f73efa4810c92b9580ccbba3c76f45">&#9670;&nbsp;</a></span>saturate()</h2>
 
@@ -1495,6 +1620,8 @@ Functions</h2></td></tr>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="anamespacemaliput_1_1math_html_af6022ec3177e3ba16073ae84ccfb5b61a8bf5940d983d36987f4a41691ea1d562"><div class="ttname"><a href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61a8bf5940d983d36987f4a41691ea1d562">maliput::math::OverlappingType::kIntersected</a></div><div class="ttdeci">@ kIntersected</div><div class="ttdoc">Bounding regions are intersected.</div></div>
+<div class="ttc" id="anamespacemaliput_1_1math_html_af6022ec3177e3ba16073ae84ccfb5b61"><div class="ttname"><a href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61">maliput::math::OverlappingType</a></div><div class="ttdeci">OverlappingType</div><div class="ttdoc">Holds the possible overlapping types between regions.</div><div class="ttdef"><b>Definition:</b> overlapping_type.h:50</div></div>
 <!-- HTML footer for doxygen 1.8.15 -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

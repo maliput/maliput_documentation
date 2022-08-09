@@ -1,6 +1,10 @@
 var namespacemaliput_1_1math =
 [
     [ "details", "namespacemaliput_1_1math_1_1details.html", "namespacemaliput_1_1math_1_1details" ],
+    [ "test", "namespacemaliput_1_1math_1_1test.html", "namespacemaliput_1_1math_1_1test" ],
+    [ "AxisAlignedBox", "classmaliput_1_1math_1_1_axis_aligned_box.html", "classmaliput_1_1math_1_1_axis_aligned_box" ],
+    [ "BoundingBox", "classmaliput_1_1math_1_1_bounding_box.html", "classmaliput_1_1math_1_1_bounding_box" ],
+    [ "BoundingRegion", "classmaliput_1_1math_1_1_bounding_region.html", "classmaliput_1_1math_1_1_bounding_region" ],
     [ "KDTree", "classmaliput_1_1math_1_1_k_d_tree.html", "classmaliput_1_1math_1_1_k_d_tree" ],
     [ "Matrix", "classmaliput_1_1math_1_1_matrix.html", "classmaliput_1_1math_1_1_matrix" ],
     [ "Quaternion", "classmaliput_1_1math_1_1_quaternion.html", "classmaliput_1_1math_1_1_quaternion" ],

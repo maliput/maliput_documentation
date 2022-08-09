@@ -3,9 +3,20 @@ var files_dup =
     [ "assertion_error.h", "assertion__error_8h.html", [
       [ "assertion_error", "classmaliput_1_1common_1_1assertion__error.html", "classmaliput_1_1common_1_1assertion__error" ]
     ] ],
+    [ "axis_aligned_box.cc", "axis__aligned__box_8cc.html", null ],
+    [ "axis_aligned_box.h", "axis__aligned__box_8h.html", [
+      [ "AxisAlignedBox", "classmaliput_1_1math_1_1_axis_aligned_box.html", "classmaliput_1_1math_1_1_axis_aligned_box" ]
+    ] ],
     [ "basic_id_index.cc", "basic__id__index_8cc.html", null ],
     [ "basic_id_index.h", "basic__id__index_8h.html", [
       [ "BasicIdIndex", "classmaliput_1_1api_1_1_basic_id_index.html", "classmaliput_1_1api_1_1_basic_id_index" ]
+    ] ],
+    [ "bounding_box.cc", "bounding__box_8cc.html", null ],
+    [ "bounding_box.h", "bounding__box_8h.html", [
+      [ "BoundingBox", "classmaliput_1_1math_1_1_bounding_box.html", "classmaliput_1_1math_1_1_bounding_box" ]
+    ] ],
+    [ "bounding_region.h", "bounding__region_8h.html", [
+      [ "BoundingRegion", "classmaliput_1_1math_1_1_bounding_region.html", "classmaliput_1_1math_1_1_bounding_region" ]
     ] ],
     [ "branch_point.cc", "branch__point_8cc.html", null ],
     [ "api/branch_point.h", "api_2branch__point_8h.html", "api_2branch__point_8h" ],
@@ -157,6 +168,11 @@ var files_dup =
       [ "MockSegment", "classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html", "classmaliput_1_1geometry__base_1_1test_1_1_mock_segment" ],
       [ "MockLane", "classmaliput_1_1geometry__base_1_1test_1_1_mock_lane.html", "classmaliput_1_1geometry__base_1_1test_1_1_mock_lane" ]
     ] ],
+    [ "mock_math.h", "mock__math_8h.html", [
+      [ "MockBoundingRegion", "classmaliput_1_1math_1_1test_1_1_mock_bounding_region.html", "classmaliput_1_1math_1_1test_1_1_mock_bounding_region" ]
+    ] ],
+    [ "overlapping_type.cc", "overlapping__type_8cc.html", "overlapping__type_8cc" ],
+    [ "overlapping_type.h", "overlapping__type_8h.html", "overlapping__type_8h" ],
     [ "passkey.h", "passkey_8h.html", [
       [ "Passkey", "classmaliput_1_1common_1_1_passkey.html", null ]
     ] ],

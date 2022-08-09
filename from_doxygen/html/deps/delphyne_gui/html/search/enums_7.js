@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['scanstrategy_4748',['ScanStrategy',['../../../delphyne/html/namespacedelphyne.html#aaa81dbcb1a985b9b239777c0ac52f157',1,'delphyne']]]
+  ['roadpositionstrategy_4806',['RoadPositionStrategy',['../../../delphyne/html/namespacedelphyne.html#a80c24f02d40ad1d60da3a88a412b08c3',1,'delphyne']]],
+  ['ruletype_4807',['RuleType',['../../../maliput/html/namespacemaliput.html#a0da2be5e4963c00e7d90bea0c5d6e299',1,'maliput']]]
 ];

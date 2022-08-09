@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['which_2605',['Which',['../../../maliput/html/structmaliput_1_1api_1_1_lane_end.html#a76832237d5d837232469a6c46f1eeff2',1,'maliput::api::LaneEnd']]]
+  ['type_2665',['Type',['../classmaliput_1_1multilane_1_1_connection.html#a1d1cfd8ffb84e947f82999c682b666a7',1,'maliput::multilane::Connection']]]
 ];
