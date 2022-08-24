@@ -100,26 +100,39 @@ $(document).ready(function(){initNavTree('kd__tree_8h.html',''); initResizable()
 <code>#include &lt;cmath&gt;</code><br />
 <code>#include &lt;deque&gt;</code><br />
 <code>#include &lt;limits&gt;</code><br />
+<code>#include &lt;memory&gt;</code><br />
 <code>#include &lt;utility&gt;</code><br />
+<code>#include &quot;<a class="el" href="logger_8h.html">maliput/common/logger.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="maliput__copyable_8h.html">maliput/common/maliput_copyable.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="maliput__throw_8h.html">maliput/common/maliput_throw.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="axis__aligned__box_8h.html">maliput/math/axis_aligned_box.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="overlapping__type_8h.html">maliput/math/overlapping_type.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for kd_tree.h:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="kd__tree_8h__incl.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="kd__tree_8h__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1details_1_1_node.html">Node&lt; Coordinate, Region &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a node in a kd-tree data structure.  <a href="classmaliput_1_1math_1_1details_1_1_node.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1math_1_1details_1_1_squared_distance.html">SquaredDistance&lt; Coordinate, Dimension &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the squared distance between two points.  <a href="structmaliput_1_1math_1_1details_1_1_squared_distance.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1math_1_1details_1_1_node_cmp.html">NodeCmp&lt; Dimension &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functor for comparing points according to the given dimension being evaluated at that point.  <a href="structmaliput_1_1math_1_1details_1_1_node_cmp.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1_k_d_tree.html">KDTree&lt; Coordinate, Dimension, Distance, NodeCmp &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classmaliput_1_1math_1_1_k_d_tree.html" title="KDTree provides a space-partitioning data structure for organizing points in a k-dimensional space.">KDTree</a> provides a space-partitioning data structure for organizing points in a k-dimensional space.  <a href="classmaliput_1_1math_1_1_k_d_tree.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html">KDTreeBase&lt; CRTP, Coordinate, Dimension, Region, Distance, NodeCmp &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classmaliput_1_1math_1_1_k_d_tree.html" title="N-Dimension KDTree.">KDTree</a> provides a space-partitioning data structure for organizing points in a k-dimensional space.  <a href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1_k_d_tree.html">KDTree&lt; Coordinate, Dimension, Region, Distance, NodeCmp &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">N-Dimension <a class="el" href="classmaliput_1_1math_1_1_k_d_tree.html" title="N-Dimension KDTree.">KDTree</a>.  <a href="classmaliput_1_1math_1_1_k_d_tree.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1_k_d_tree3_d.html">KDTree3D&lt; Coordinate, Distance, NodeCmp &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">3-Dimensional <a class="el" href="classmaliput_1_1math_1_1_k_d_tree.html" title="N-Dimension KDTree.">KDTree</a>.  <a href="classmaliput_1_1math_1_1_k_d_tree3_d.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -137,7 +150,12 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a24b1dbed2e474a1ac1df591e550d82a9"><td class="memTemplParams" colspan="2">template&lt;std::size_t Dimension, typename Node , typename NodeCmp &gt; </td></tr>
 <tr class="memitem:a24b1dbed2e474a1ac1df591e550d82a9"><td class="memTemplItemLeft" align="right" valign="top">Node *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1math_1_1details.html#a24b1dbed2e474a1ac1df591e550d82a9">MakeKdTree</a> (std::size_t begin, std::size_t end, std::size_t index, std::deque&lt; Node &gt; &amp;nodes)</td></tr>
+<tr class="memdesc:a24b1dbed2e474a1ac1df591e550d82a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a balanced kd-tree from a range of points already loaded in a collection.  <a href="namespacemaliput_1_1math_1_1details.html#a24b1dbed2e474a1ac1df591e550d82a9">More...</a><br /></td></tr>
 <tr class="separator:a24b1dbed2e474a1ac1df591e550d82a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abedeb4d44105f736c5a90a959abc6a01"><td class="memTemplParams" colspan="2">template&lt;typename Node &gt; </td></tr>
+<tr class="memitem:abedeb4d44105f736c5a90a959abc6a01"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1math_1_1details.html#abedeb4d44105f736c5a90a959abc6a01">Initialize3dRegions</a> (bool left, Node *node)</td></tr>
+<tr class="memdesc:abedeb4d44105f736c5a90a959abc6a01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the regions corresponding to each node in a tree and stores them in the nodes.  <a href="namespacemaliput_1_1math_1_1details.html#abedeb4d44105f736c5a90a959abc6a01">More...</a><br /></td></tr>
+<tr class="separator:abedeb4d44105f736c5a90a959abc6a01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

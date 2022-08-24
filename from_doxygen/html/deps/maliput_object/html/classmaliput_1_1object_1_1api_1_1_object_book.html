@@ -124,9 +124,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2caa36686e7d71470bb042a26f983426"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classmaliput_1_1object_1_1api_1_1_object.html">Object</a>&lt; Coordinate &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1object_1_1api_1_1_object_book.html#a2caa36686e7d71470bb042a26f983426">FindByPredicate</a> (std::function&lt; bool(const <a class="el" href="classmaliput_1_1object_1_1api_1_1_object.html">Object</a>&lt; Coordinate &gt; *)&gt; predicate) const</td></tr>
 <tr class="memdesc:a2caa36686e7d71470bb042a26f983426"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the Objects that make <code>predicate</code> true.  <a href="classmaliput_1_1object_1_1api_1_1_object_book.html#a2caa36686e7d71470bb042a26f983426">More...</a><br /></td></tr>
 <tr class="separator:a2caa36686e7d71470bb042a26f983426"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f2290969b3b3bd3bcf5e57d728b2725"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classmaliput_1_1object_1_1api_1_1_object.html">Object</a>&lt; Coordinate &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1object_1_1api_1_1_object_book.html#a1f2290969b3b3bd3bcf5e57d728b2725">FindOverlappingIn</a> (const <a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html">BoundingRegion</a>&lt; Coordinate &gt; &amp;region, const <a class="el" href="namespacemaliput_1_1object_1_1api.html#af6022ec3177e3ba16073ae84ccfb5b61">OverlappingType</a> &amp;overlapping_type) const</td></tr>
-<tr class="memdesc:a1f2290969b3b3bd3bcf5e57d728b2725"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the Objects that intersect with a <code>region</code> according to certain <code>overlapping_type</code>.  <a href="classmaliput_1_1object_1_1api_1_1_object_book.html#a1f2290969b3b3bd3bcf5e57d728b2725">More...</a><br /></td></tr>
-<tr class="separator:a1f2290969b3b3bd3bcf5e57d728b2725"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76815b0f41f9280c85b3d4d339938af8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classmaliput_1_1object_1_1api_1_1_object.html">Object</a>&lt; Coordinate &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1object_1_1api_1_1_object_book.html#a76815b0f41f9280c85b3d4d339938af8">FindOverlappingIn</a> (const maliput::math::BoundingRegion&lt; Coordinate &gt; &amp;region, const maliput::math::OverlappingType &amp;overlapping_type) const</td></tr>
+<tr class="memdesc:a76815b0f41f9280c85b3d4d339938af8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the Objects that intersect with a <code>region</code> according to certain <code>overlapping_type</code>.  <a href="classmaliput_1_1object_1_1api_1_1_object_book.html#a76815b0f41f9280c85b3d4d339938af8">More...</a><br /></td></tr>
+<tr class="separator:a76815b0f41f9280c85b3d4d339938af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -238,8 +238,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1f2290969b3b3bd3bcf5e57d728b2725"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f2290969b3b3bd3bcf5e57d728b2725">&#9670;&nbsp;</a></span>FindOverlappingIn()</h2>
+<a id="a76815b0f41f9280c85b3d4d339938af8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76815b0f41f9280c85b3d4d339938af8">&#9670;&nbsp;</a></span>FindOverlappingIn()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -247,13 +247,13 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">std::vector&lt;<a class="el" href="classmaliput_1_1object_1_1api_1_1_object.html">Object</a>&lt;Coordinate&gt;*&gt; FindOverlappingIn </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classmaliput_1_1object_1_1api_1_1_bounding_region.html">BoundingRegion</a>&lt; Coordinate &gt; &amp;&#160;</td>
+          <td class="paramtype">const maliput::math::BoundingRegion&lt; Coordinate &gt; &amp;&#160;</td>
           <td class="paramname"><em>region</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespacemaliput_1_1object_1_1api.html#af6022ec3177e3ba16073ae84ccfb5b61">OverlappingType</a> &amp;&#160;</td>
+          <td class="paramtype">const maliput::math::OverlappingType &amp;&#160;</td>
           <td class="paramname"><em>overlapping_type</em>&#160;</td>
         </tr>
         <tr>
@@ -268,7 +268,7 @@ Protected Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">region</td><td>BoundaryRegion used for finding intersected Objects. </td></tr>
-    <tr><td class="paramname">overlapping_type</td><td>Indicates type of overlapping. See <a class="el" href="namespacemaliput_1_1object_1_1api.html#af6022ec3177e3ba16073ae84ccfb5b61" title="Holds the possible overlapping types between Objects&#39; region.">OverlappingType</a>. </td></tr>
+    <tr><td class="paramname">overlapping_type</td><td>Indicates type of overlapping. See #OverlappingType. </td></tr>
   </table>
   </dd>
 </dl>

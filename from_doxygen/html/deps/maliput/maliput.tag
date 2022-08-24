@@ -919,11 +919,17 @@
     <name>kd_tree.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/math/</path>
     <filename>kd__tree_8h.html</filename>
+    <includes id="logger_8h" name="logger.h" local="yes" imported="no">maliput/common/logger.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
+    <includes id="axis__aligned__box_8h" name="axis_aligned_box.h" local="yes" imported="no">maliput/math/axis_aligned_box.h</includes>
+    <includes id="overlapping__type_8h" name="overlapping_type.h" local="yes" imported="no">maliput/math/overlapping_type.h</includes>
+    <class kind="class">maliput::math::details::Node</class>
     <class kind="struct">maliput::math::details::SquaredDistance</class>
     <class kind="struct">maliput::math::details::NodeCmp</class>
+    <class kind="class">maliput::math::details::KDTreeBase</class>
     <class kind="class">maliput::math::KDTree</class>
+    <class kind="class">maliput::math::KDTree3D</class>
     <namespace>maliput</namespace>
     <namespace>maliput::math</namespace>
     <namespace>maliput::math::details</namespace>
@@ -933,6 +939,13 @@
       <anchorfile>namespacemaliput_1_1math_1_1details.html</anchorfile>
       <anchor>a24b1dbed2e474a1ac1df591e550d82a9</anchor>
       <arglist>(std::size_t begin, std::size_t end, std::size_t index, std::deque&lt; Node &gt; &amp;nodes)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>Initialize3dRegions</name>
+      <anchorfile>namespacemaliput_1_1math_1_1details.html</anchorfile>
+      <anchor>abedeb4d44105f736c5a90a959abc6a01</anchor>
+      <arglist>(bool left, Node *node)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -7657,6 +7670,8 @@
     <templarg>Dimension</templarg>
     <templarg></templarg>
     <templarg></templarg>
+    <templarg></templarg>
+    <base>KDTreeBase&lt; KDTree&lt; Coordinate, Dimension, BoundingRegion&lt; Coordinate &gt;, details::SquaredDistance&lt; Coordinate, Dimension &gt;, details::NodeCmp&lt; Dimension &gt; &gt;, Coordinate, Dimension, BoundingRegion&lt; Coordinate &gt;, details::SquaredDistance&lt; Coordinate, Dimension &gt;, details::NodeCmp&lt; Dimension &gt; &gt;</base>
     <member kind="function">
       <type></type>
       <name>KDTree</name>
@@ -7671,19 +7686,220 @@
       <anchor>a5c044659ab0ac54247bbf22f25f8f8e9</anchor>
       <arglist>(Collection &amp;&amp;points)</arglist>
     </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::math::KDTree3D</name>
+    <filename>classmaliput_1_1math_1_1_k_d_tree3_d.html</filename>
+    <templarg></templarg>
+    <templarg></templarg>
+    <templarg></templarg>
+    <base>KDTreeBase&lt; KDTree3D&lt; Coordinate, details::SquaredDistance&lt; Coordinate, 3 &gt;, details::NodeCmp&lt; 3 &gt; &gt;, Coordinate, 3, AxisAlignedBox, details::SquaredDistance&lt; Coordinate, 3 &gt;, details::NodeCmp&lt; 3 &gt; &gt;</base>
+    <member kind="function">
+      <type></type>
+      <name>KDTree3D</name>
+      <anchorfile>classmaliput_1_1math_1_1_k_d_tree3_d.html</anchorfile>
+      <anchor>ab5df4d41213346e18a761e1a2fd52227</anchor>
+      <arglist>(Iterator begin, Iterator end)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>KDTree3D</name>
+      <anchorfile>classmaliput_1_1math_1_1_k_d_tree3_d.html</anchorfile>
+      <anchor>add8720ef73018f0d93161f09de9ca547</anchor>
+      <arglist>(Collection &amp;&amp;points)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::deque&lt; const Coordinate * &gt;</type>
+      <name>RangeSearch</name>
+      <anchorfile>classmaliput_1_1math_1_1_k_d_tree3_d.html</anchorfile>
+      <anchor>ae7eba6bd1134f4e83e7068639aaaa60e</anchor>
+      <arglist>(const AxisAlignedBox &amp;region) const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::math::details::KDTreeBase</name>
+    <filename>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</filename>
+    <templarg></templarg>
+    <templarg></templarg>
+    <templarg>Dimension</templarg>
+    <templarg></templarg>
+    <templarg></templarg>
+    <templarg></templarg>
+    <member kind="function">
+      <type></type>
+      <name>KDTreeBase</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
+      <anchor>af7af2ef932ea65abff7173f764af211d</anchor>
+      <arglist>(Iterator begin, Iterator end)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>KDTreeBase</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
+      <anchor>a33e77e8fffc7d667752bcf71940ece47</anchor>
+      <arglist>(Collection &amp;&amp;points)</arglist>
+    </member>
     <member kind="function">
       <type>const Coordinate &amp;</type>
       <name>Nearest</name>
-      <anchorfile>classmaliput_1_1math_1_1_k_d_tree.html</anchorfile>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
       <anchor>adb23ace98dfaf32916e893d0dca07b82</anchor>
       <arglist>(const Coordinate &amp;point) const</arglist>
     </member>
     <member kind="function">
       <type>const Coordinate &amp;</type>
       <name>Nearest</name>
-      <anchorfile>classmaliput_1_1math_1_1_k_d_tree.html</anchorfile>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
       <anchor>af84375c9002ad6b1ec1c23c0e20f44fc</anchor>
       <arglist>(const Coordinate &amp;point, double tolerance) const</arglist>
+    </member>
+    <member kind="typedef" protection="protected">
+      <type>details::Node&lt; Coordinate, Region &gt;</type>
+      <name>Node</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
+      <anchor>a64cfc8f86af0ce137dc024c7371887c8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>Nearest</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
+      <anchor>ab2cc773414d5c3e42d7beec33e06f7a5</anchor>
+      <arglist>(const Node *node, const Coordinate &amp;point, std::size_t index, double tolerance, Node *&amp;nearest_neighbour_node, double *nearest_neighbour_distance) const</arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>Node *</type>
+      <name>root_</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
+      <anchor>a0eea8a17e55a35a137fd9628d5dc98d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>std::deque&lt; Node &gt;</type>
+      <name>nodes_</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
+      <anchor>a174e5434b9e00ee65033e2beaf74f22c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>KDTreeBase&lt; KDTree3D&lt; Coordinate, details::SquaredDistance&lt; Coordinate, 3 &gt;, details::NodeCmp&lt; 3 &gt; &gt;, Coordinate, 3, AxisAlignedBox, details::SquaredDistance&lt; Coordinate, 3 &gt;, details::NodeCmp&lt; 3 &gt; &gt;</name>
+    <filename>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>KDTreeBase</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
+      <anchor>af7af2ef932ea65abff7173f764af211d</anchor>
+      <arglist>(Iterator begin, Iterator end)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>KDTreeBase</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
+      <anchor>a33e77e8fffc7d667752bcf71940ece47</anchor>
+      <arglist>(Collection &amp;&amp;points)</arglist>
+    </member>
+    <member kind="function">
+      <type>const Coordinate &amp;</type>
+      <name>Nearest</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
+      <anchor>adb23ace98dfaf32916e893d0dca07b82</anchor>
+      <arglist>(const Coordinate &amp;point) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Coordinate &amp;</type>
+      <name>Nearest</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
+      <anchor>af84375c9002ad6b1ec1c23c0e20f44fc</anchor>
+      <arglist>(const Coordinate &amp;point, double tolerance) const</arglist>
+    </member>
+    <member kind="typedef" protection="protected">
+      <type>details::Node&lt; Coordinate, AxisAlignedBox &gt;</type>
+      <name>Node</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
+      <anchor>a64cfc8f86af0ce137dc024c7371887c8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>Nearest</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
+      <anchor>ab2cc773414d5c3e42d7beec33e06f7a5</anchor>
+      <arglist>(const Node *node, const Coordinate &amp;point, std::size_t index, double tolerance, Node *&amp;nearest_neighbour_node, double *nearest_neighbour_distance) const</arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>Node *</type>
+      <name>root_</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
+      <anchor>a0eea8a17e55a35a137fd9628d5dc98d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>std::deque&lt; Node &gt;</type>
+      <name>nodes_</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
+      <anchor>a174e5434b9e00ee65033e2beaf74f22c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>KDTreeBase&lt; KDTree&lt; Coordinate, Dimension, BoundingRegion&lt; Coordinate &gt;, details::SquaredDistance&lt; Coordinate, Dimension &gt;, details::NodeCmp&lt; Dimension &gt; &gt;, Coordinate, Dimension, BoundingRegion&lt; Coordinate &gt;, details::SquaredDistance&lt; Coordinate, Dimension &gt;, details::NodeCmp&lt; Dimension &gt; &gt;</name>
+    <filename>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>KDTreeBase</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
+      <anchor>af7af2ef932ea65abff7173f764af211d</anchor>
+      <arglist>(Iterator begin, Iterator end)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>KDTreeBase</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
+      <anchor>a33e77e8fffc7d667752bcf71940ece47</anchor>
+      <arglist>(Collection &amp;&amp;points)</arglist>
+    </member>
+    <member kind="function">
+      <type>const Coordinate &amp;</type>
+      <name>Nearest</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
+      <anchor>adb23ace98dfaf32916e893d0dca07b82</anchor>
+      <arglist>(const Coordinate &amp;point) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Coordinate &amp;</type>
+      <name>Nearest</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
+      <anchor>af84375c9002ad6b1ec1c23c0e20f44fc</anchor>
+      <arglist>(const Coordinate &amp;point, double tolerance) const</arglist>
+    </member>
+    <member kind="typedef" protection="protected">
+      <type>details::Node&lt; Coordinate, BoundingRegion&lt; Coordinate &gt; &gt;</type>
+      <name>Node</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
+      <anchor>a64cfc8f86af0ce137dc024c7371887c8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>Nearest</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
+      <anchor>ab2cc773414d5c3e42d7beec33e06f7a5</anchor>
+      <arglist>(const Node *node, const Coordinate &amp;point, std::size_t index, double tolerance, Node *&amp;nearest_neighbour_node, double *nearest_neighbour_distance) const</arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>Node *</type>
+      <name>root_</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
+      <anchor>a0eea8a17e55a35a137fd9628d5dc98d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>std::deque&lt; Node &gt;</type>
+      <name>nodes_</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html</anchorfile>
+      <anchor>a174e5434b9e00ee65033e2beaf74f22c</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -9121,25 +9337,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::geometry_base::test::MockJunction</name>
-    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</filename>
-    <base>maliput::geometry_base::Junction</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</anchorfile>
-      <anchor>a26723fde85c91fee88437db5f309cde9</anchor>
-      <arglist>(MockJunction)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MockJunction</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</anchorfile>
-      <anchor>aa61dda9241bb8ba6c3a802f6d30166de</anchor>
-      <arglist>(const api::JunctionId &amp;id)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>maliput::api::test::MockJunction</name>
     <filename>classmaliput_1_1api_1_1test_1_1_mock_junction.html</filename>
     <base>maliput::api::Junction</base>
@@ -9163,6 +9360,25 @@
       <anchorfile>classmaliput_1_1api_1_1test_1_1_mock_junction.html</anchorfile>
       <anchor>a198054bfe5b09d2e653ad8901a050509</anchor>
       <arglist>(std::unique_ptr&lt; MockSegment &gt; segment)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::geometry_base::test::MockJunction</name>
+    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</filename>
+    <base>maliput::geometry_base::Junction</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</anchorfile>
+      <anchor>a26723fde85c91fee88437db5f309cde9</anchor>
+      <arglist>(MockJunction)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MockJunction</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</anchorfile>
+      <anchor>aa61dda9241bb8ba6c3a802f6d30166de</anchor>
+      <arglist>(const api::JunctionId &amp;id)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -9338,25 +9554,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::geometry_base::test::MockSegment</name>
-    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</filename>
-    <base>maliput::geometry_base::Segment</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
-      <anchor>a667227ded4ffb60bad6d5bf69e104a38</anchor>
-      <arglist>(MockSegment)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MockSegment</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
-      <anchor>a9384ed7a03ee84b8f965a5d156f4efee</anchor>
-      <arglist>(const api::SegmentId &amp;id)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>maliput::api::test::MockSegment</name>
     <filename>classmaliput_1_1api_1_1test_1_1_mock_segment.html</filename>
     <base>maliput::api::Segment</base>
@@ -9380,6 +9577,25 @@
       <anchorfile>classmaliput_1_1api_1_1test_1_1_mock_segment.html</anchorfile>
       <anchor>ab18c3ac1d55322f884de6d1313ee2888</anchor>
       <arglist>(std::unique_ptr&lt; MockLane &gt; lane)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::geometry_base::test::MockSegment</name>
+    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</filename>
+    <base>maliput::geometry_base::Segment</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
+      <anchor>a667227ded4ffb60bad6d5bf69e104a38</anchor>
+      <arglist>(MockSegment)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MockSegment</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
+      <anchor>a9384ed7a03ee84b8f965a5d156f4efee</anchor>
+      <arglist>(const api::SegmentId &amp;id)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -9449,6 +9665,110 @@
       <anchorfile>structmaliput_1_1api_1_1rules_1_1_phase_ring_1_1_next_phase.html</anchorfile>
       <anchor>a596139dc82c65d2da98dec065523b777</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::math::details::Node</name>
+    <filename>classmaliput_1_1math_1_1details_1_1_node.html</filename>
+    <templarg></templarg>
+    <templarg></templarg>
+    <member kind="function">
+      <type></type>
+      <name>Node</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_node.html</anchorfile>
+      <anchor>a128744a2ec4908deec1ca0dafe0eac2f</anchor>
+      <arglist>(const Coordinate &amp;point)</arglist>
+    </member>
+    <member kind="function">
+      <type>const Coordinate &amp;</type>
+      <name>get_coordinate</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_node.html</anchorfile>
+      <anchor>a9b57233ff6888f8e567d67714ffe995f</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_left</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_node.html</anchorfile>
+      <anchor>af186eae9f9214e27e7c0c3520e93cb76</anchor>
+      <arglist>(Node *left)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_right</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_node.html</anchorfile>
+      <anchor>a5fa3a3bcd86e75b721fd7bdd2d60285f</anchor>
+      <arglist>(Node *right)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_parent</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_node.html</anchorfile>
+      <anchor>a5526072d27842a2df56e8b5e57511b12</anchor>
+      <arglist>(Node *parent)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_region</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_node.html</anchorfile>
+      <anchor>a945ff29f1772383d5da24436f0c34a4f</anchor>
+      <arglist>(std::unique_ptr&lt; Region &gt; region)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_index</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_node.html</anchorfile>
+      <anchor>a6a6f94b2e5d62a7db00ca99ad9fc1697</anchor>
+      <arglist>(std::size_t index)</arglist>
+    </member>
+    <member kind="function">
+      <type>Node *</type>
+      <name>get_left</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_node.html</anchorfile>
+      <anchor>aa6ee1f2a774d39d6fb5e509c7d1df1ce</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>Node *</type>
+      <name>get_right</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_node.html</anchorfile>
+      <anchor>aeeef72e2cc67837b776ca5b13e508a66</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>Node const  *</type>
+      <name>get_left</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_node.html</anchorfile>
+      <anchor>a4ec8fe4dc381ef6bacb953326088c28e</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>Node const  *</type>
+      <name>get_right</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_node.html</anchorfile>
+      <anchor>a22c121549190f0f618ab3e76f7c4886a</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Node *</type>
+      <name>get_parent</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_node.html</anchorfile>
+      <anchor>a442955304494214949a7afd491cc14ad</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Region &amp;</type>
+      <name>get_region</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_node.html</anchorfile>
+      <anchor>a7a49fe4e88b6937b648b1268d0de5b0f</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::size_t</type>
+      <name>get_index</name>
+      <anchorfile>classmaliput_1_1math_1_1details_1_1_node.html</anchorfile>
+      <anchor>aa5a7f001c6b9b9a6b13551bc85030a2a</anchor>
+      <arglist>() const</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -16648,6 +16968,7 @@
     <class kind="class">maliput::math::BoundingBox</class>
     <class kind="class">maliput::math::BoundingRegion</class>
     <class kind="class">maliput::math::KDTree</class>
+    <class kind="class">maliput::math::KDTree3D</class>
     <class kind="class">maliput::math::Matrix</class>
     <class kind="class">maliput::math::Quaternion</class>
     <class kind="class">maliput::math::RollPitchYaw</class>
@@ -16999,6 +17320,8 @@
   <compound kind="namespace">
     <name>maliput::math::details</name>
     <filename>namespacemaliput_1_1math_1_1details.html</filename>
+    <class kind="class">maliput::math::details::KDTreeBase</class>
+    <class kind="class">maliput::math::details::Node</class>
     <class kind="struct">maliput::math::details::NodeCmp</class>
     <class kind="struct">maliput::math::details::SquaredDistance</class>
     <member kind="function">
@@ -17007,6 +17330,13 @@
       <anchorfile>namespacemaliput_1_1math_1_1details.html</anchorfile>
       <anchor>a24b1dbed2e474a1ac1df591e550d82a9</anchor>
       <arglist>(std::size_t begin, std::size_t end, std::size_t index, std::deque&lt; Node &gt; &amp;nodes)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>Initialize3dRegions</name>
+      <anchorfile>namespacemaliput_1_1math_1_1details.html</anchorfile>
+      <anchor>abedeb4d44105f736c5a90a959abc6a01</anchor>
+      <arglist>(bool left, Node *node)</arglist>
     </member>
   </compound>
   <compound kind="namespace">

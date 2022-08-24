@@ -1,12 +1,15 @@
 var searchData=
 [
-  ['segmentid_4330',['SegmentId',['../../../maliput/html/namespacemaliput_1_1api.html#a405b9288d31a542db4352153419edba1',1,'maliput::api']]],
-  ['stateresult_4331',['StateResult',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_discrete_value_rule_state_provider.html#a1188b99948ffd2a79b923ed2c564c9a5',1,'maliput::api::rules::DiscreteValueRuleStateProvider::StateResult()'],['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_range_value_rule_state_provider.html#ad95f1bcea095ba0edcdfb39ee5e39eec',1,'maliput::api::rules::RangeValueRuleStateProvider::StateResult()']]],
-  ['symbolic_4332',['Symbolic',['../namespacedelphyne.html#aefd89fab73f950c4cd4ace67d45530e5',1,'delphyne']]],
-  ['symbolicagent_4333',['SymbolicAgent',['../namespacedelphyne.html#ae1b2c3cc7bf290ea376fc5908c799dec',1,'delphyne']]],
-  ['symbolicagentblueprint_4334',['SymbolicAgentBlueprint',['../namespacedelphyne.html#a3c252416f06e45385733f8719e95dffa',1,'delphyne']]],
-  ['symbolicagentcollision_4335',['SymbolicAgentCollision',['../namespacedelphyne.html#a7f01c8aa2dc411cb4eb61a7e37638ec0',1,'delphyne']]],
-  ['symbolicagentsimulation_4336',['SymbolicAgentSimulation',['../namespacedelphyne.html#aa497a6288ecbd9d15d96228c219bba91',1,'delphyne']]],
-  ['symbolicagentsimulationbuilder_4337',['SymbolicAgentSimulationBuilder',['../namespacedelphyne.html#a632dd3ce68e42c1b4d8c2a5542711033',1,'delphyne']]],
-  ['symbolictypedagentblueprint_4338',['SymbolicTypedAgentBlueprint',['../namespacedelphyne.html#ad7cc08c3d9459dbdbcbf5af5e8ae412e',1,'delphyne']]]
+  ['ranges_4362',['Ranges',['../../../maliput/html/structmaliput_1_1api_1_1rules_1_1_rule_registry_1_1_query_result.html#a64e663f1e0d1ead90a3a121ab26c92d9',1,'maliput::api::rules::RuleRegistry::QueryResult']]],
+  ['rangevaluerulefilter_4363',['RangeValueRuleFilter',['../../../maliput/html/namespacemaliput.html#ab010f6124960691793181deddb8302e3',1,'maliput']]],
+  ['rangevalueruletypeandvalues_4364',['RangeValueRuleTypeAndValues',['../../../maliput/html/namespacemaliput_1_1api_1_1rules.html#a2cc52403baadc577433abb54894abe15',1,'maliput::api::rules']]],
+  ['realtimeclock_4365',['RealtimeClock',['../namespacedelphyne.html#a0730e76ac4eea9e271512bc4f242209c',1,'delphyne']]],
+  ['relatedrules_4366',['RelatedRules',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_rule.html#ad20a20f4cf3ad282b0f5ea0a716896ed',1,'maliput::api::rules::Rule']]],
+  ['relateduniqueids_4367',['RelatedUniqueIds',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_rule.html#aae244f337e8af36a083d06ab2de5d250',1,'maliput::api::rules::Rule']]],
+  ['resourcesubtype_4368',['ResourceSubtype',['../namespacedelphyne_1_1utility.html#a0655ff33135179f5b8f73208f890b768',1,'delphyne::utility']]],
+  ['resourcetype_4369',['ResourceType',['../namespacedelphyne_1_1utility.html#a97aeb7921d5248902cbd402f32415260',1,'delphyne::utility']]],
+  ['result_4370',['Result',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_phase_provider.html#a819817caf867decf849b9e7be94171e2',1,'maliput::api::rules::PhaseProvider']]],
+  ['result_5ftype_4371',['result_type',['../../../maliput/html/classmaliput_1_1common_1_1internal_1_1_f_n_v1a_hasher.html#a21330be45898b798e0b31bbf6e17f13c',1,'maliput::common::internal::FNV1aHasher::result_type()'],['../../../maliput/html/structmaliput_1_1common_1_1uhash.html#aec09227295d6a2c005ec578d42120039',1,'maliput::common::uhash::result_type()']]],
+  ['roadgeometryid_4372',['RoadGeometryId',['../../../maliput/html/namespacemaliput_1_1api.html#a38fc077ab1aedc28346df61bf12c96a7',1,'maliput::api']]],
+  ['roadnetworkloaderptr_4373',['RoadNetworkLoaderPtr',['../../../maliput/html/namespacemaliput_1_1plugin.html#ab0a6280bfa379d2f6330517355866c5c',1,'maliput::plugin']]]
 ];

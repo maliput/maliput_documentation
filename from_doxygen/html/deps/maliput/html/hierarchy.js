@@ -61,7 +61,13 @@ var hierarchy =
         [ "MockJunction", "classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html", null ]
       ] ]
     ] ],
-    [ "KDTree< Coordinate, Dimension, Distance, NodeCmp >", "classmaliput_1_1math_1_1_k_d_tree.html", null ],
+    [ "KDTreeBase< CRTP, Coordinate, Dimension, Region, Distance, NodeCmp >", "classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html", null ],
+    [ "KDTreeBase< KDTree3D< Coordinate, details::SquaredDistance< Coordinate, 3 >, details::NodeCmp< 3 > >, Coordinate, 3, AxisAlignedBox, details::SquaredDistance< Coordinate, 3 >, details::NodeCmp< 3 > >", "classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html", [
+      [ "KDTree3D< Coordinate, Distance, NodeCmp >", "classmaliput_1_1math_1_1_k_d_tree3_d.html", null ]
+    ] ],
+    [ "KDTreeBase< KDTree< Coordinate, Dimension, BoundingRegion< Coordinate >, details::SquaredDistance< Coordinate, Dimension >, details::NodeCmp< Dimension > >, Coordinate, Dimension, BoundingRegion< Coordinate >, details::SquaredDistance< Coordinate, Dimension >, details::NodeCmp< Dimension > >", "classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html", [
+      [ "KDTree< Coordinate, Dimension, Region, Distance, NodeCmp >", "classmaliput_1_1math_1_1_k_d_tree.html", null ]
+    ] ],
     [ "Lane", "classmaliput_1_1api_1_1_lane.html", [
       [ "MockLane", "classmaliput_1_1api_1_1test_1_1_mock_lane.html", null ],
       [ "Lane", "classmaliput_1_1geometry__base_1_1_lane.html", [
@@ -89,6 +95,7 @@ var hierarchy =
     [ "never_destroyed< T >", "classmaliput_1_1common_1_1never__destroyed.html", null ],
     [ "StateProviderResult< T >::Next", "structmaliput_1_1api_1_1rules_1_1_state_provider_result_1_1_next.html", null ],
     [ "PhaseRing::NextPhase", "structmaliput_1_1api_1_1rules_1_1_phase_ring_1_1_next_phase.html", null ],
+    [ "Node< Coordinate, Region >", "classmaliput_1_1math_1_1details_1_1_node.html", null ],
     [ "NodeCmp< Dimension >", "structmaliput_1_1math_1_1details_1_1_node_cmp.html", null ],
     [ "ObjFeatures", "structmaliput_1_1utility_1_1_obj_features.html", null ],
     [ "Passkey< T >", "classmaliput_1_1common_1_1_passkey.html", null ],

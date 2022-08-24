@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['simple_5fobject_5fquery_2ecc_65',['simple_object_query.cc',['../../../maliput_object/html/simple__object__query_8cc.html.html',1,'']]],
-  ['simple_5fobject_5fquery_2eh_66',['simple_object_query.h',['../../../maliput_object/html/simple__object__query_8h.html.html',1,'']]],
-  ['simpleobjectquery_67',['SimpleObjectQuery',['../../../maliput_object/html/classmaliput_1_1object_1_1_simple_object_query.html',1,'SimpleObjectQuery'],['../../../maliput_object/html/classmaliput_1_1object_1_1_simple_object_query.html#a520ceb31a631e52d815e797219c7d1af',1,'maliput::object::SimpleObjectQuery::SimpleObjectQuery()']]]
+  ['_7emanualobjectbook_47',['~ManualObjectBook',['../../../maliput_object/html/classmaliput_1_1object_1_1_manual_object_book.html#a94e5a1eb5638ffafab7ff3b9a1ce0407',1,'maliput::object::ManualObjectBook']]],
+  ['_7eobject_48',['~Object',['../../../maliput_object/html/classmaliput_1_1object_1_1api_1_1_object.html#af4372c84535f8c280f50fa2dcdfbcdfb',1,'maliput::object::api::Object']]],
+  ['_7eobjectbook_49',['~ObjectBook',['../../../maliput_object/html/classmaliput_1_1object_1_1api_1_1_object_book.html#acfd285c43ff3c2f606088040b7e4f87d',1,'maliput::object::api::ObjectBook::~ObjectBook()'],['../../../maliput_object/html/classmaliput_1_1object_1_1api_1_1_object_book.html#acfd285c43ff3c2f606088040b7e4f87d',1,'ObjectBook&lt; maliput::math::Vector3 &gt;::~ObjectBook()']]],
+  ['_7eobjectquery_50',['~ObjectQuery',['../../../maliput_object/html/classmaliput_1_1object_1_1api_1_1_object_query.html#ad9e34c5b3aeac20d919128e2140e3f3a',1,'maliput::object::api::ObjectQuery']]],
+  ['_7esimpleobjectquery_51',['~SimpleObjectQuery',['../../../maliput_object/html/classmaliput_1_1object_1_1_simple_object_query.html#af57eaf805efc7938c901e2ec071020c3',1,'maliput::object::SimpleObjectQuery']]]
 ];

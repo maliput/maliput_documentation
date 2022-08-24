@@ -6,6 +6,7 @@ var namespacemaliput_1_1math =
     [ "BoundingBox", "classmaliput_1_1math_1_1_bounding_box.html", "classmaliput_1_1math_1_1_bounding_box" ],
     [ "BoundingRegion", "classmaliput_1_1math_1_1_bounding_region.html", "classmaliput_1_1math_1_1_bounding_region" ],
     [ "KDTree", "classmaliput_1_1math_1_1_k_d_tree.html", "classmaliput_1_1math_1_1_k_d_tree" ],
+    [ "KDTree3D", "classmaliput_1_1math_1_1_k_d_tree3_d.html", "classmaliput_1_1math_1_1_k_d_tree3_d" ],
     [ "Matrix", "classmaliput_1_1math_1_1_matrix.html", "classmaliput_1_1math_1_1_matrix" ],
     [ "Quaternion", "classmaliput_1_1math_1_1_quaternion.html", "classmaliput_1_1math_1_1_quaternion" ],
     [ "RollPitchYaw", "classmaliput_1_1math_1_1_roll_pitch_yaw.html", "classmaliput_1_1math_1_1_roll_pitch_yaw" ],

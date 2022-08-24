@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['typeid_4092',['TypeId',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_rule.html#a4a4b94bba0865a112a84d2b4a054b6b1',1,'maliput::api::rules::Rule']]]
+  ['segmentid_4132',['SegmentId',['../../../maliput/html/namespacemaliput_1_1api.html#a405b9288d31a542db4352153419edba1',1,'maliput::api']]],
+  ['stateresult_4133',['StateResult',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_discrete_value_rule_state_provider.html#a1188b99948ffd2a79b923ed2c564c9a5',1,'maliput::api::rules::DiscreteValueRuleStateProvider::StateResult()'],['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_range_value_rule_state_provider.html#ad95f1bcea095ba0edcdfb39ee5e39eec',1,'maliput::api::rules::RangeValueRuleStateProvider::StateResult()']]]
 ];

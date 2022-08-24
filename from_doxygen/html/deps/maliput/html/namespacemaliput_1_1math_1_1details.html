@@ -98,6 +98,12 @@ $(document).ready(function(){initNavTree('namespacemaliput_1_1math_1_1details.ht
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html">KDTreeBase</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classmaliput_1_1math_1_1_k_d_tree.html" title="N-Dimension KDTree.">KDTree</a> provides a space-partitioning data structure for organizing points in a k-dimensional space.  <a href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1details_1_1_node.html">Node</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a node in a kd-tree data structure.  <a href="classmaliput_1_1math_1_1details_1_1_node.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1math_1_1details_1_1_node_cmp.html">NodeCmp</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functor for comparing points according to the given dimension being evaluated at that point.  <a href="structmaliput_1_1math_1_1details_1_1_node_cmp.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -108,10 +114,65 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a24b1dbed2e474a1ac1df591e550d82a9"><td class="memTemplParams" colspan="2">template&lt;std::size_t Dimension, typename Node , typename NodeCmp &gt; </td></tr>
-<tr class="memitem:a24b1dbed2e474a1ac1df591e550d82a9"><td class="memTemplItemLeft" align="right" valign="top">Node *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1math_1_1details.html#a24b1dbed2e474a1ac1df591e550d82a9">MakeKdTree</a> (std::size_t begin, std::size_t end, std::size_t index, std::deque&lt; Node &gt; &amp;nodes)</td></tr>
+<tr class="memitem:a24b1dbed2e474a1ac1df591e550d82a9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classmaliput_1_1math_1_1details_1_1_node.html">Node</a> *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1math_1_1details.html#a24b1dbed2e474a1ac1df591e550d82a9">MakeKdTree</a> (std::size_t begin, std::size_t end, std::size_t index, std::deque&lt; <a class="el" href="classmaliput_1_1math_1_1details_1_1_node.html">Node</a> &gt; &amp;nodes)</td></tr>
+<tr class="memdesc:a24b1dbed2e474a1ac1df591e550d82a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a balanced kd-tree from a range of points already loaded in a collection.  <a href="namespacemaliput_1_1math_1_1details.html#a24b1dbed2e474a1ac1df591e550d82a9">More...</a><br /></td></tr>
 <tr class="separator:a24b1dbed2e474a1ac1df591e550d82a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abedeb4d44105f736c5a90a959abc6a01"><td class="memTemplParams" colspan="2">template&lt;typename Node &gt; </td></tr>
+<tr class="memitem:abedeb4d44105f736c5a90a959abc6a01"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1math_1_1details.html#abedeb4d44105f736c5a90a959abc6a01">Initialize3dRegions</a> (bool left, <a class="el" href="classmaliput_1_1math_1_1details_1_1_node.html">Node</a> *node)</td></tr>
+<tr class="memdesc:abedeb4d44105f736c5a90a959abc6a01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the regions corresponding to each node in a tree and stores them in the nodes.  <a href="namespacemaliput_1_1math_1_1details.html#abedeb4d44105f736c5a90a959abc6a01">More...</a><br /></td></tr>
+<tr class="separator:abedeb4d44105f736c5a90a959abc6a01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="abedeb4d44105f736c5a90a959abc6a01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abedeb4d44105f736c5a90a959abc6a01">&#9670;&nbsp;</a></span>Initialize3dRegions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void maliput::math::details::Initialize3dRegions </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmaliput_1_1math_1_1details_1_1_node.html">Node</a> *&#160;</td>
+          <td class="paramname"><em>node</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes the regions corresponding to each node in a tree and stores them in the nodes. </p>
+<p>The region corresponding to the left child(<code>lc</code>) of a node <code>v</code> at even depth can be computed as follows: </p><pre class="fragment">region(lc(v)) = region(v) ∩ sp(v)^left
+</pre><p>where <code>sp(v)</code> is the splitting plane stored at <code>v</code>, and <code>sp(v)^left</code> is the half-space to the left of and including <code>sp(v)</code>. For the right child the computation is analogous. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname"><a class="el" href="classmaliput_1_1math_1_1details_1_1_node.html" title="Represents a node in a kd-tree data structure.">Node</a></td><td>A node in a tree. It must have the following methods:<ul>
+<li>get_coordinate(): For getting the underlying point.</li>
+<li>get_parent(): For getting the parent of the node.</li>
+<li>get_left(): For getting the left sub-node.</li>
+<li>get_right(): For getting the right sub-node. </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">left</td><td>True if the node is the left child of its parent. </td></tr>
+    <tr><td class="paramname">node</td><td>The node to compute the region for. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a24b1dbed2e474a1ac1df591e550d82a9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a24b1dbed2e474a1ac1df591e550d82a9">&#9670;&nbsp;</a></span>MakeKdTree()</h2>
 
@@ -119,7 +180,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Node* maliput::math::details::MakeKdTree </td>
+          <td class="memname"><a class="el" href="classmaliput_1_1math_1_1details_1_1_node.html">Node</a>* maliput::math::details::MakeKdTree </td>
           <td>(</td>
           <td class="paramtype">std::size_t&#160;</td>
           <td class="paramname"><em>begin</em>, </td>
@@ -139,7 +200,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::deque&lt; Node &gt; &amp;&#160;</td>
+          <td class="paramtype">std::deque&lt; <a class="el" href="classmaliput_1_1math_1_1details_1_1_node.html">Node</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>nodes</em>&#160;</td>
         </tr>
         <tr>
@@ -149,6 +210,37 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Makes a balanced kd-tree from a range of points already loaded in a collection. </p>
+<p>This method is called recursively for building the subtrees.</p>
+<p>The <code>nodes</code> will be configured via their API for representing a kd-tree.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Dimension</td><td>Dimensions of the tree. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classmaliput_1_1math_1_1details_1_1_node.html" title="Represents a node in a kd-tree data structure.">Node</a></td><td>A node in a tree. It must have the following methods:<ul>
+<li>get_coordinate(): For getting the underlying point.</li>
+<li>set_left(Node*): For setting the left sub-node.</li>
+<li>set_right(Node*): For setting the right sub-node. </li>
+</ul>
+</td></tr>
+    <tr><td class="paramname"><a class="el" href="structmaliput_1_1math_1_1details_1_1_node_cmp.html" title="Functor for comparing points according to the given dimension being evaluated at that point.">NodeCmp</a></td><td>A functor for comparing two nodes at certain index/dimension:<ul>
+<li>NodeCmp::NodeCmp(int index) Constructor.</li>
+<li>NodeCmp::operator()(Node* a, Node* b) Comparison operator.</li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">begin</td><td>Is the start of range. </td></tr>
+    <tr><td class="paramname">end</td><td>Is the end of range. </td></tr>
+    <tr><td class="paramname">index</td><td>Is the dimension being evaluated. </td></tr>
+    <tr><td class="paramname">nodes</td><td>Is a list of non-connected nodes to be sorted and configured. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the root node of the tree. </dd></dl>
 
 </div>
 </div>

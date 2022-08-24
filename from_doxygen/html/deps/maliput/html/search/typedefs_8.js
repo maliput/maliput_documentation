@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['queryresults_2222',['QueryResults',['../namespacemaliput.html#a3fa6b098ad1261c86b7a71c1cb1a558b',1,'maliput']]]
+  ['node_2265',['Node',['../classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html#a64cfc8f86af0ce137dc024c7371887c8',1,'maliput::math::details::KDTreeBase']]]
 ];

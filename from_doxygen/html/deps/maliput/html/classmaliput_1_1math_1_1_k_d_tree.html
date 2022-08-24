@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>maliput: KDTree&lt; Coordinate, Dimension, Distance, NodeCmp &gt; Class Template Reference</title>
+<title>maliput: KDTree&lt; Coordinate, Dimension, Region, Distance, NodeCmp &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -89,51 +89,63 @@ $(document).ready(function(){initNavTree('classmaliput_1_1math_1_1_k_d_tree.html
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classmaliput_1_1math_1_1_k_d_tree-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">KDTree&lt; Coordinate, Dimension, Distance, NodeCmp &gt; Class Template Reference</div>  </div>
+<div class="title">KDTree&lt; Coordinate, Dimension, Region, Distance, NodeCmp &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename Coordinate, std::size_t Dimension, typename Distance = details::SquaredDistance&lt;Coordinate, Dimension&gt;, typename NodeCmp = details::NodeCmp&lt;Dimension&gt;&gt;<br />
-class maliput::math::KDTree&lt; Coordinate, Dimension, Distance, NodeCmp &gt;</h3>
+<div class="textblock"><h3>template&lt;typename Coordinate, ::std::size_t Dimension, typename Region = BoundingRegion&lt;Coordinate&gt;, typename Distance = details::SquaredDistance&lt;Coordinate, Dimension&gt;, typename NodeCmp = details::NodeCmp&lt;Dimension&gt;&gt;<br />
+class maliput::math::KDTree&lt; Coordinate, Dimension, Region, Distance, NodeCmp &gt;</h3>
 
-<p><a class="el" href="classmaliput_1_1math_1_1_k_d_tree.html" title="KDTree provides a space-partitioning data structure for organizing points in a k-dimensional space.">KDTree</a> provides a space-partitioning data structure for organizing points in a k-dimensional space. </p>
-<p>The tree is built from a set of points, where each point is a vector of length k. The tree is built balanced, to guarantee an average of O(log(n)) time for nearest-neighbor queries.</p>
-<p>Inspired on <a href="https://rosettacode.org/wiki/K-d_tree">https://rosettacode.org/wiki/K-d_tree</a>.</p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">Coordinate</td><td>Data type being used, must have:<ul>
-<li>operator[] for accessing the value in each dimension. </li>
-</ul>
-</td></tr>
-    <tr><td class="paramname">Dimension</td><td>Dimension of the KD-tree. </td></tr>
-    <tr><td class="paramname">Distance</td><td>A functor used for getting the distance between two coordinates. By default, <a class="el" href="structmaliput_1_1math_1_1details_1_1_squared_distance.html" title="Calculates the squared distance between two points.">details::SquaredDistance</a> is used. </td></tr>
-    <tr><td class="paramname">NodeCmp</td><td>A functor used for comparing two nodes at certain index/dimension. By default, <a class="el" href="structmaliput_1_1math_1_1details_1_1_node_cmp.html" title="Functor for comparing points according to the given dimension being evaluated at that point.">details::NodeCmp</a> is used. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>N-Dimension <a class="el" href="classmaliput_1_1math_1_1_k_d_tree.html" title="N-Dimension KDTree.">KDTree</a>. </p>
+<p>See KDTreeBase for details. </p>
 </div>
 <p><code>#include &lt;include/maliput/math/kd_tree.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for KDTree&lt; Coordinate, Dimension, Region, Distance, NodeCmp &gt;:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmaliput_1_1math_1_1_k_d_tree__inherit__graph.svg" width="580" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab9e7968ccd497e55de6853bb72bfe7d6"><td class="memTemplParams" colspan="2">template&lt;typename Iterator &gt; </td></tr>
 <tr class="memitem:ab9e7968ccd497e55de6853bb72bfe7d6"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1_k_d_tree.html#ab9e7968ccd497e55de6853bb72bfe7d6">KDTree</a> (Iterator begin, Iterator end)</td></tr>
-<tr class="memdesc:ab9e7968ccd497e55de6853bb72bfe7d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmaliput_1_1math_1_1_k_d_tree.html" title="KDTree provides a space-partitioning data structure for organizing points in a k-dimensional space.">KDTree</a> taking a pair of iterators.  <a href="classmaliput_1_1math_1_1_k_d_tree.html#ab9e7968ccd497e55de6853bb72bfe7d6">More...</a><br /></td></tr>
 <tr class="separator:ab9e7968ccd497e55de6853bb72bfe7d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c044659ab0ac54247bbf22f25f8f8e9"><td class="memTemplParams" colspan="2">template&lt;typename Collection &gt; </td></tr>
 <tr class="memitem:a5c044659ab0ac54247bbf22f25f8f8e9"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1_k_d_tree.html#a5c044659ab0ac54247bbf22f25f8f8e9">KDTree</a> (Collection &amp;&amp;points)</td></tr>
-<tr class="memdesc:a5c044659ab0ac54247bbf22f25f8f8e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmaliput_1_1math_1_1_k_d_tree.html" title="KDTree provides a space-partitioning data structure for organizing points in a k-dimensional space.">KDTree</a> taking a vector of points.  <a href="classmaliput_1_1math_1_1_k_d_tree.html#a5c044659ab0ac54247bbf22f25f8f8e9">More...</a><br /></td></tr>
+<tr class="memdesc:a5c044659ab0ac54247bbf22f25f8f8e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a KDTreeBase taking a vector of points.  <a href="classmaliput_1_1math_1_1_k_d_tree.html#a5c044659ab0ac54247bbf22f25f8f8e9">More...</a><br /></td></tr>
 <tr class="separator:a5c044659ab0ac54247bbf22f25f8f8e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb23ace98dfaf32916e893d0dca07b82"><td class="memItemLeft" align="right" valign="top">const Coordinate &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1_k_d_tree.html#adb23ace98dfaf32916e893d0dca07b82">Nearest</a> (const Coordinate &amp;point) const</td></tr>
-<tr class="memdesc:adb23ace98dfaf32916e893d0dca07b82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the nearest point in the tree to the given point.  <a href="classmaliput_1_1math_1_1_k_d_tree.html#adb23ace98dfaf32916e893d0dca07b82">More...</a><br /></td></tr>
-<tr class="separator:adb23ace98dfaf32916e893d0dca07b82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af84375c9002ad6b1ec1c23c0e20f44fc"><td class="memItemLeft" align="right" valign="top">const Coordinate &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1_k_d_tree.html#af84375c9002ad6b1ec1c23c0e20f44fc">Nearest</a> (const Coordinate &amp;point, <a class="el" href="classdouble.html">double</a> tolerance) const</td></tr>
-<tr class="memdesc:af84375c9002ad6b1ec1c23c0e20f44fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the nearest point in the tree to the given point.  <a href="classmaliput_1_1math_1_1_k_d_tree.html#af84375c9002ad6b1ec1c23c0e20f44fc">More...</a><br /></td></tr>
-<tr class="separator:af84375c9002ad6b1ec1c23c0e20f44fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classmaliput_1_1math_1_1details_1_1_k_d_tree_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html">KDTreeBase&lt; KDTree&lt; Coordinate, Dimension, BoundingRegion&lt; Coordinate &gt;, details::SquaredDistance&lt; Coordinate, Dimension &gt;, details::NodeCmp&lt; Dimension &gt; &gt;, Coordinate, Dimension, BoundingRegion&lt; Coordinate &gt;, details::SquaredDistance&lt; Coordinate, Dimension &gt;, details::NodeCmp&lt; Dimension &gt; &gt;</a></td></tr>
+<tr class="memitem:af7af2ef932ea65abff7173f764af211d inherit pub_methods_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html#af7af2ef932ea65abff7173f764af211d">KDTreeBase</a> (Iterator begin, Iterator end)</td></tr>
+<tr class="memdesc:af7af2ef932ea65abff7173f764af211d inherit pub_methods_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a KDTreeBase taking a pair of iterators.  <a href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html#af7af2ef932ea65abff7173f764af211d">More...</a><br /></td></tr>
+<tr class="separator:af7af2ef932ea65abff7173f764af211d inherit pub_methods_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33e77e8fffc7d667752bcf71940ece47 inherit pub_methods_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html#a33e77e8fffc7d667752bcf71940ece47">KDTreeBase</a> (Collection &amp;&amp;points)</td></tr>
+<tr class="memdesc:a33e77e8fffc7d667752bcf71940ece47 inherit pub_methods_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a KDTreeBase taking a vector of points.  <a href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html#a33e77e8fffc7d667752bcf71940ece47">More...</a><br /></td></tr>
+<tr class="separator:a33e77e8fffc7d667752bcf71940ece47 inherit pub_methods_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb23ace98dfaf32916e893d0dca07b82 inherit pub_methods_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td class="memItemLeft" align="right" valign="top">const Coordinate &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html#adb23ace98dfaf32916e893d0dca07b82">Nearest</a> (const Coordinate &amp;point) const</td></tr>
+<tr class="memdesc:adb23ace98dfaf32916e893d0dca07b82 inherit pub_methods_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the nearest point in the tree to the given point.  <a href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html#adb23ace98dfaf32916e893d0dca07b82">More...</a><br /></td></tr>
+<tr class="separator:adb23ace98dfaf32916e893d0dca07b82 inherit pub_methods_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af84375c9002ad6b1ec1c23c0e20f44fc inherit pub_methods_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td class="memItemLeft" align="right" valign="top">const Coordinate &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html#af84375c9002ad6b1ec1c23c0e20f44fc">Nearest</a> (const Coordinate &amp;point, <a class="el" href="classdouble.html">double</a> tolerance) const</td></tr>
+<tr class="memdesc:af84375c9002ad6b1ec1c23c0e20f44fc inherit pub_methods_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the nearest point in the tree to the given point.  <a href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html#af84375c9002ad6b1ec1c23c0e20f44fc">More...</a><br /></td></tr>
+<tr class="separator:af84375c9002ad6b1ec1c23c0e20f44fc inherit pub_methods_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_types_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td colspan="2" onclick="javascript:toggleInherit('pro_types_classmaliput_1_1math_1_1details_1_1_k_d_tree_base')"><img src="closed.png" alt="-"/>&#160;Protected Types inherited from <a class="el" href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html">KDTreeBase&lt; KDTree&lt; Coordinate, Dimension, BoundingRegion&lt; Coordinate &gt;, details::SquaredDistance&lt; Coordinate, Dimension &gt;, details::NodeCmp&lt; Dimension &gt; &gt;, Coordinate, Dimension, BoundingRegion&lt; Coordinate &gt;, details::SquaredDistance&lt; Coordinate, Dimension &gt;, details::NodeCmp&lt; Dimension &gt; &gt;</a></td></tr>
+<tr class="memitem:a64cfc8f86af0ce137dc024c7371887c8 inherit pro_types_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html#a64cfc8f86af0ce137dc024c7371887c8">Node</a> = <a class="el" href="classmaliput_1_1math_1_1details_1_1_node.html">details::Node</a>&lt; Coordinate, <a class="el" href="classmaliput_1_1math_1_1_bounding_region.html">BoundingRegion</a>&lt; Coordinate &gt; &gt;</td></tr>
+<tr class="separator:a64cfc8f86af0ce137dc024c7371887c8 inherit pro_types_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classmaliput_1_1math_1_1details_1_1_k_d_tree_base')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html">KDTreeBase&lt; KDTree&lt; Coordinate, Dimension, BoundingRegion&lt; Coordinate &gt;, details::SquaredDistance&lt; Coordinate, Dimension &gt;, details::NodeCmp&lt; Dimension &gt; &gt;, Coordinate, Dimension, BoundingRegion&lt; Coordinate &gt;, details::SquaredDistance&lt; Coordinate, Dimension &gt;, details::NodeCmp&lt; Dimension &gt; &gt;</a></td></tr>
+<tr class="memitem:ab2cc773414d5c3e42d7beec33e06f7a5 inherit pro_methods_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html#ab2cc773414d5c3e42d7beec33e06f7a5">Nearest</a> (const <a class="el" href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html#a64cfc8f86af0ce137dc024c7371887c8">Node</a> *node, const Coordinate &amp;point, std::size_t index, <a class="el" href="classdouble.html">double</a> tolerance, <a class="el" href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html#a64cfc8f86af0ce137dc024c7371887c8">Node</a> *&amp;nearest_neighbour_node, <a class="el" href="classdouble.html">double</a> *nearest_neighbour_distance) const</td></tr>
+<tr class="separator:ab2cc773414d5c3e42d7beec33e06f7a5 inherit pro_methods_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classmaliput_1_1math_1_1details_1_1_k_d_tree_base')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html">KDTreeBase&lt; KDTree&lt; Coordinate, Dimension, BoundingRegion&lt; Coordinate &gt;, details::SquaredDistance&lt; Coordinate, Dimension &gt;, details::NodeCmp&lt; Dimension &gt; &gt;, Coordinate, Dimension, BoundingRegion&lt; Coordinate &gt;, details::SquaredDistance&lt; Coordinate, Dimension &gt;, details::NodeCmp&lt; Dimension &gt; &gt;</a></td></tr>
+<tr class="memitem:a0eea8a17e55a35a137fd9628d5dc98d8 inherit pro_attribs_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html#a64cfc8f86af0ce137dc024c7371887c8">Node</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html#a0eea8a17e55a35a137fd9628d5dc98d8">root_</a></td></tr>
+<tr class="separator:a0eea8a17e55a35a137fd9628d5dc98d8 inherit pro_attribs_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a174e5434b9e00ee65033e2beaf74f22c inherit pro_attribs_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td class="memItemLeft" align="right" valign="top">std::deque&lt; <a class="el" href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html#a64cfc8f86af0ce137dc024c7371887c8">Node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html#a174e5434b9e00ee65033e2beaf74f22c">nodes_</a></td></tr>
+<tr class="separator:a174e5434b9e00ee65033e2beaf74f22c inherit pro_attribs_classmaliput_1_1math_1_1details_1_1_k_d_tree_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab9e7968ccd497e55de6853bb72bfe7d6"></a>
@@ -162,28 +174,6 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructs a <a class="el" href="classmaliput_1_1math_1_1_k_d_tree.html" title="KDTree provides a space-partitioning data structure for organizing points in a k-dimensional space.">KDTree</a> taking a pair of iterators. </p>
-<p>Adds each point in the range [begin, end) to the tree.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">begin</td><td>start of range </td></tr>
-    <tr><td class="paramname">end</td><td>end of range </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">Iterator</td><td>type of the iterator. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html" title="This is what MALIPUT_THROW_UNLESS throws.">maliput::common::assertion_error</a></td><td>When the range is empty. </td></tr>
-  </table>
-  </dd>
-</dl>
-
 </div>
 </div>
 <a id="a5c044659ab0ac54247bbf22f25f8f8e9"></a>
@@ -202,7 +192,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructs a <a class="el" href="classmaliput_1_1math_1_1_k_d_tree.html" title="KDTree provides a space-partitioning data structure for organizing points in a k-dimensional space.">KDTree</a> taking a vector of points. </p>
+<p>Constructs a KDTreeBase taking a vector of points. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">points</td><td><a class="el" href="classmaliput_1_1math_1_1_vector.html" title="A N-dimensional vector.">Vector</a> of points </td></tr>
@@ -218,79 +208,6 @@ Public Member Functions</h2></td></tr>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html" title="This is what MALIPUT_THROW_UNLESS throws.">maliput::common::assertion_error</a></td><td>When the range is empty. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="adb23ace98dfaf32916e893d0dca07b82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb23ace98dfaf32916e893d0dca07b82">&#9670;&nbsp;</a></span>Nearest() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const Coordinate&amp; Nearest </td>
-          <td>(</td>
-          <td class="paramtype">const Coordinate &amp;&#160;</td>
-          <td class="paramname"><em>point</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Finds the nearest point in the tree to the given point. </p>
-<p>(Nearest Neighbour (NN)) Tolerance being used is std::numeric_limits&lt;double&gt;::min(). It is not valid to call this function if the tree is empty. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">point</td><td>a point. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>the nearest point in the tree to the given point </dd></dl>
-
-</div>
-</div>
-<a id="af84375c9002ad6b1ec1c23c0e20f44fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af84375c9002ad6b1ec1c23c0e20f44fc">&#9670;&nbsp;</a></span>Nearest() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const Coordinate&amp; Nearest </td>
-          <td>(</td>
-          <td class="paramtype">const Coordinate &amp;&#160;</td>
-          <td class="paramname"><em>point</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classdouble.html">double</a>&#160;</td>
-          <td class="paramname"><em>tolerance</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Finds the nearest point in the tree to the given point. </p>
-<p>(Nearest Neighbour (NN)) It is not valid to call this function if the tree is empty. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">point</td><td>a point. </td></tr>
-    <tr><td class="paramname">tolerance</td><td>the maximum distance to the nearest neighbour to be considered a match. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>the nearest point in the tree to the given point </dd></dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html" title="This is what MALIPUT_THROW_UNLESS throws.">maliput::common::assertion_error</a></td><td>When tree is empty. </td></tr>
-    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html" title="This is what MALIPUT_THROW_UNLESS throws.">maliput::common::assertion_error</a></td><td>When tolerance is negative. </td></tr>
   </table>
   </dd>
 </dl>

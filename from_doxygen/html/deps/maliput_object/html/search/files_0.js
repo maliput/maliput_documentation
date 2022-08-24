@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['bounding_5fbox_2ecc_91',['bounding_box.cc',['../bounding__box_8cc.html',1,'']]],
-  ['bounding_5fbox_2eh_92',['bounding_box.h',['../bounding__box_8h.html',1,'']]],
-  ['bounding_5fregion_2eh_93',['bounding_region.h',['../bounding__region_8h.html',1,'']]]
+  ['loader_2ecc_63',['loader.cc',['../loader_8cc.html',1,'']]],
+  ['loader_2eh_64',['loader.h',['../loader_8h.html',1,'']]]
 ];

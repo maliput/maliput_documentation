@@ -1,10 +1,5 @@
 var hierarchy =
 [
-    [ "BoundingRegion< Coordinate >", "classmaliput_1_1object_1_1api_1_1_bounding_region.html", null ],
-    [ "BoundingRegion< maliput::math::Vector3 >", "classmaliput_1_1object_1_1api_1_1_bounding_region.html", [
-      [ "BoundingBox", "classmaliput_1_1object_1_1_bounding_box.html", null ],
-      [ "MockBoundingRegion", "classmaliput_1_1object_1_1test__utilities_1_1_mock_bounding_region.html", null ]
-    ] ],
     [ "Object< Coordinate >", "classmaliput_1_1object_1_1api_1_1_object.html", null ],
     [ "ObjectBook< Coordinate >", "classmaliput_1_1object_1_1api_1_1_object_book.html", [
       [ "ManualObjectBook< Coordinate >", "classmaliput_1_1object_1_1_manual_object_book.html", null ],
