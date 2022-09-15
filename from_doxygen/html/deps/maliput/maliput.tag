@@ -8051,6 +8051,13 @@
       <arglist>(const InertialPosition &amp;inertial_pos) const</arglist>
     </member>
     <member kind="function">
+      <type>LanePositionResult</type>
+      <name>ToSegmentPosition</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane.html</anchorfile>
+      <anchor>a1c2d12c4d8d739db16f2da6aeaa37bcb</anchor>
+      <arglist>(const InertialPosition &amp;inertial_pos) const</arglist>
+    </member>
+    <member kind="function">
       <type>Rotation</type>
       <name>GetOrientation</name>
       <anchorfile>classmaliput_1_1api_1_1_lane.html</anchorfile>

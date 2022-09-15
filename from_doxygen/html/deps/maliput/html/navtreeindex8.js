@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"structmaliput_1_1utility_1_1mesh_1_1_index_face_1_1_vertex.html#aa325f0fc7bcf9d11383638170851f851":[4,0,0,5,0,7,0,1],
 "structstd_1_1hash_3_01maliput_1_1api_1_1_type_specific_identifier_3_01_t_01_4_01_4.html":[4,0,1,2],
 "structstd_1_1hash_3_01maliput_1_1api_1_1_unique_id_01_4.html":[4,0,1,3],
 "structstd_1_1hash_3_01maliput_1_1api_1_1rules_1_1_unique_bulb_group_id_01_4.html":[4,0,1,0],

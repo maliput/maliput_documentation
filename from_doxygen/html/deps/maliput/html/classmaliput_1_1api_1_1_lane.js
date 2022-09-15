@@ -19,5 +19,6 @@ var classmaliput_1_1api_1_1_lane =
     [ "to_left", "classmaliput_1_1api_1_1_lane.html#a024ef71a2056f8163c029a77de7847a9", null ],
     [ "to_right", "classmaliput_1_1api_1_1_lane.html#ab501636a78a79970214b42a0c4d0a0e2", null ],
     [ "ToInertialPosition", "classmaliput_1_1api_1_1_lane.html#ac2b4153a3a9bf55d07255331bf0223c2", null ],
-    [ "ToLanePosition", "classmaliput_1_1api_1_1_lane.html#acda224f66653385e297534edc3e98395", null ]
+    [ "ToLanePosition", "classmaliput_1_1api_1_1_lane.html#acda224f66653385e297534edc3e98395", null ],
+    [ "ToSegmentPosition", "classmaliput_1_1api_1_1_lane.html#a1c2d12c4d8d739db16f2da6aeaa37bcb", null ]
 ];

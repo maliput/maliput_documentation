@@ -146,6 +146,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acda224f66653385e297534edc3e98395"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmaliput_1_1api_1_1_lane_position_result.html">LanePositionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_lane.html#acda224f66653385e297534edc3e98395">ToLanePosition</a> (const <a class="el" href="classmaliput_1_1api_1_1_inertial_position.html">InertialPosition</a> &amp;inertial_pos) const</td></tr>
 <tr class="memdesc:acda224f66653385e297534edc3e98395"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the <a class="el" href="classmaliput_1_1api_1_1_lane_position.html" title="A 3-dimensional position in a Lane-frame, consisting of three components:">LanePosition</a> corresponding to <a class="el" href="classmaliput_1_1api_1_1_inertial_position.html" title="A position in 3-dimensional geographical Cartesian space, i.e., in the Inertial-frame,...">InertialPosition</a> <code>inertial_pos</code>.  <a href="classmaliput_1_1api_1_1_lane.html#acda224f66653385e297534edc3e98395">More...</a><br /></td></tr>
 <tr class="separator:acda224f66653385e297534edc3e98395"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c2d12c4d8d739db16f2da6aeaa37bcb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmaliput_1_1api_1_1_lane_position_result.html">LanePositionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_lane.html#a1c2d12c4d8d739db16f2da6aeaa37bcb">ToSegmentPosition</a> (const <a class="el" href="classmaliput_1_1api_1_1_inertial_position.html">InertialPosition</a> &amp;inertial_pos) const</td></tr>
+<tr class="memdesc:a1c2d12c4d8d739db16f2da6aeaa37bcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the <a class="el" href="classmaliput_1_1api_1_1_lane_position.html" title="A 3-dimensional position in a Lane-frame, consisting of three components:">LanePosition</a> corresponding to <a class="el" href="classmaliput_1_1api_1_1_inertial_position.html" title="A position in 3-dimensional geographical Cartesian space, i.e., in the Inertial-frame,...">InertialPosition</a> <code>inertial_pos</code>.  <a href="classmaliput_1_1api_1_1_lane.html#a1c2d12c4d8d739db16f2da6aeaa37bcb">More...</a><br /></td></tr>
+<tr class="separator:a1c2d12c4d8d739db16f2da6aeaa37bcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a906c4381f7140717da253134fcb07c50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput_1_1api_1_1_rotation.html">Rotation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_lane.html#a906c4381f7140717da253134fcb07c50">GetOrientation</a> (const <a class="el" href="classmaliput_1_1api_1_1_lane_position.html">LanePosition</a> &amp;lane_pos) const</td></tr>
 <tr class="memdesc:a906c4381f7140717da253134fcb07c50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the rotation which expresses the orientation of the <code><a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">Lane</a></code>-frame basis at <code>lane_pos</code> with respect to the <code>Inertial</code>-frame basis.  <a href="classmaliput_1_1api_1_1_lane.html#a906c4381f7140717da253134fcb07c50">More...</a><br /></td></tr>
 <tr class="separator:a906c4381f7140717da253134fcb07c50"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -616,6 +619,29 @@ The r component of <code>lane_pos</code> must be in domain [Rmin, Rmax] derived 
 </div><div class="memdoc">
 
 <p>Determines the <a class="el" href="classmaliput_1_1api_1_1_lane_position.html" title="A 3-dimensional position in a Lane-frame, consisting of three components:">LanePosition</a> corresponding to <a class="el" href="classmaliput_1_1api_1_1_inertial_position.html" title="A position in 3-dimensional geographical Cartesian space, i.e., in the Inertial-frame,...">InertialPosition</a> <code>inertial_pos</code>. </p>
+<p>The <a class="el" href="classmaliput_1_1api_1_1_lane_position.html" title="A 3-dimensional position in a Lane-frame, consisting of three components:">LanePosition</a> is expected to be contained within the lane's boundaries. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classmaliput_1_1api_1_1_lane.html#a1c2d12c4d8d739db16f2da6aeaa37bcb" title="Determines the LanePosition corresponding to InertialPosition inertial_pos.">ToSegmentPosition</a> method.</dd></dl>
+<p>This method guarantees that its result satisfies the condition that <code>ToInertialPosition(result.lane_position)</code> is within <code>linear_tolerance()</code> of <code>result.nearest_position</code>. </p>
+
+</div>
+</div>
+<a id="a1c2d12c4d8d739db16f2da6aeaa37bcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c2d12c4d8d739db16f2da6aeaa37bcb">&#9670;&nbsp;</a></span>ToSegmentPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structmaliput_1_1api_1_1_lane_position_result.html">LanePositionResult</a> ToSegmentPosition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmaliput_1_1api_1_1_inertial_position.html">InertialPosition</a> &amp;&#160;</td>
+          <td class="paramname"><em>inertial_pos</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Determines the <a class="el" href="classmaliput_1_1api_1_1_lane_position.html" title="A 3-dimensional position in a Lane-frame, consisting of three components:">LanePosition</a> corresponding to <a class="el" href="classmaliput_1_1api_1_1_inertial_position.html" title="A position in 3-dimensional geographical Cartesian space, i.e., in the Inertial-frame,...">InertialPosition</a> <code>inertial_pos</code>. </p>
+<p>The <a class="el" href="classmaliput_1_1api_1_1_lane_position.html" title="A 3-dimensional position in a Lane-frame, consisting of three components:">LanePosition</a> is expected to be contained within the segment's boundaries. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classmaliput_1_1api_1_1_lane.html#acda224f66653385e297534edc3e98395" title="Determines the LanePosition corresponding to InertialPosition inertial_pos.">ToLanePosition</a> method.</dd></dl>
 <p>This method guarantees that its result satisfies the condition that <code>ToInertialPosition(result.lane_position)</code> is within <code>linear_tolerance()</code> of <code>result.nearest_position</code>. </p>
 
 </div>

@@ -200,7 +200,7 @@ var searchData=
   ['simplify_5fmesh_5fthreshold_1917',['simplify_mesh_threshold',['../../../maliput/html/structmaliput_1_1utility_1_1_obj_features.html#ac2330d38902bbab705a5846786e9f71f',1,'maliput::utility::ObjFeatures']]],
   ['simplifymeshfaces_1918',['SimplifyMeshFaces',['../../../maliput/html/namespacemaliput_1_1utility_1_1mesh.html#a1a072cc288bb47405029aed3f5e95134',1,'maliput::utility::mesh']]],
   ['simplifymeshfacescontour_1919',['SimplifyMeshFacesContour',['../../../maliput/html/namespacemaliput_1_1utility_1_1mesh.html#aaa02ac8a38e63f82760f2bb81113cdc5',1,'maliput::utility::mesh']]],
-  ['simtime_1920',['simTime',['../classdelphyne_1_1gui_1_1_playback_plugin.html#acca0eb7b7734e0a58fe735ce79aa7242',1,'delphyne::gui::PlaybackPlugin::simTime()'],['../classdelphyne_1_1gui_1_1_playback_plugin.html#a8d1e889f1d8237616d75d8748564dcdc',1,'delphyne::gui::PlaybackPlugin::SimTime() const']]],
+  ['simtime_1920',['SimTime',['../classdelphyne_1_1gui_1_1_playback_plugin.html#a8d1e889f1d8237616d75d8748564dcdc',1,'delphyne::gui::PlaybackPlugin::SimTime() const'],['../classdelphyne_1_1gui_1_1_playback_plugin.html#acca0eb7b7734e0a58fe735ce79aa7242',1,'delphyne::gui::PlaybackPlugin::simTime()']]],
   ['simtimechanged_1921',['SimTimeChanged',['../classdelphyne_1_1gui_1_1_playback_plugin.html#a45ccaf18a5d3151fe64a5a50aee88e67',1,'delphyne::gui::PlaybackPlugin']]],
   ['simulation_2ecc_1922',['simulation.cc',['../../../delphyne/html/simulation_8cc.html.html',1,'']]],
   ['simulation_5frun_5fstats_2ecc_1923',['simulation_run_stats.cc',['../../../delphyne/html/simulation__run__stats_8cc.html.html',1,'']]],
