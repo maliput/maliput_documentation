@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('maliput_query_app.html',''); initResiz
 <div class="fragment"><div class="line">maliput_query -- &lt;command&gt; &lt;arg1&gt; &lt;arg2&gt; ... &lt;argN&gt;</div>
 </div><!-- fragment --><p>The application helps you to obtain information of the <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> trough queries like: </p><div class="fragment"><div class="line">GetLaneBounds &lt;lane_id&gt; &lt;s&gt;: To obtains the segment and lane bounds of lane_id at s position.</div>
 <div class="line"> </div>
-<div class="line">LaneToInertialPosition &lt;lane_id&gt; &lt;s&gt; &lt;r&gt; &lt;h&gt;: To obtain the InertialPosition for an (s, r, h) LanePosition in a Lane, identified by lane_id.</div>
+<div class="line">ToInertialPosition &lt;lane_id&gt; &lt;s&gt; &lt;r&gt; &lt;h&gt;: To obtain the InertialPosition for an (s, r, h) LanePosition in a Lane, identified by lane_id.</div>
 <div class="line"> </div>
 <div class="line">ToLanePosition &lt;lane_id&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt;: To obtains the LanePosition in a Lane, identified by lane_id, that is closest, in the world frame, to an (x, y, z) InertialPosition.</div>
 </div><!-- fragment --><p><b>The full list of available commands can be obtained by running:</b> <code>maliput_query --help</code></p>
@@ -108,9 +108,9 @@ $(document).ready(function(){initNavTree('maliput_query_app.html',''); initResiz
 </ul>
 <h2>Lane position to Inertial position.</h2>
 <p>Using <code>maliput_query</code> we can obtain information about the <code>Inertial</code>-Frame coordinate that matches a given <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_lane_position.html">maliput::api::LanePosition</a>.</p>
-<div class="fragment"><div class="line">maliput_query -- LaneToInertialPosition &lt;lane_id&gt; &lt;s&gt; &lt;r&gt; &lt;h&gt;</div>
+<div class="fragment"><div class="line">maliput_query -- ToInertialPosition &lt;lane_id&gt; &lt;s&gt; &lt;r&gt; &lt;h&gt;</div>
 </div><!-- fragment --><h3>Using maliput_malidrive backend</h3>
-<div class="fragment"><div class="line">$ maliput_query --maliput_backend=malidrive --xodr_file_path=TShapeRoad.xodr --linear_tolerance=0.05 -- LaneToInertialPosition 1_0_1 5 0 0</div>
+<div class="fragment"><div class="line">$ maliput_query --maliput_backend=malidrive --xodr_file_path=TShapeRoad.xodr --linear_tolerance=0.05 -- ToInertialPosition 1_0_1 5 0 0</div>
 </div><!-- fragment --><p>Output: </p><div class="fragment"><div class="line">[INFO] Loading road network using malidrive backend implementation...</div>
 <div class="line">[INFO] RoadNetwork loaded successfully.</div>
 <div class="line">Geometry Loaded</div>
@@ -122,7 +122,7 @@ $(document).ready(function(){initNavTree('maliput_query_app.html',''); initResiz
 </div><!-- fragment --><p><em>Note: To increase verbosity the log level could be adjusted to <code>TRACE</code> by adding the <code>--log_level=trace</code> flag.</em></p>
 <h3>Using maliput_multilane backend</h3>
 <p>Similarly, <code>maliput_multilane</code> can be used.</p>
-<div class="fragment"><div class="line">$  maliput_query --maliput_backend=multilane --yaml_file=2x2_intersection.yaml -- LaneToInertialPosition l:ew_intersection_segment_0 0 0 0</div>
+<div class="fragment"><div class="line">$  maliput_query --maliput_backend=multilane --yaml_file=2x2_intersection.yaml -- ToInertialPosition l:ew_intersection_segment_0 0 0 0</div>
 </div><!-- fragment --><p>Output: </p><div class="fragment"><div class="line">[INFO] Loading road network using multilane backend implementation...</div>
 <div class="line">[INFO] RoadNetwork loaded successfully.</div>
 <div class="line">Geometry Loaded</div>
@@ -133,7 +133,7 @@ $(document).ready(function(){initNavTree('maliput_query_app.html',''); initResiz
 <div class="line">Elapsed Query Time: 2.331e-06 s</div>
 </div><!-- fragment --><h3>Using maliput_dragway backend</h3>
 <p>Similarly, <code>maliput_dragway</code> can be used.</p>
-<div class="fragment"><div class="line">$ maliput_query --maliput_backend=dragway --num_lanes=3 --length=5 --lane_width=3 --shoulder_width=0.5 --maximum_height=4 -- LaneToInertialPosition Dragway_Lane_0 5 0 0</div>
+<div class="fragment"><div class="line">$ maliput_query --maliput_backend=dragway --num_lanes=3 --length=5 --lane_width=3 --shoulder_width=0.5 --maximum_height=4 -- ToInertialPosition Dragway_Lane_0 5 0 0</div>
 </div><!-- fragment --><p>Output: </p><div class="fragment"><div class="line">[INFO] Loading road network using dragway backend implementation...</div>
 <div class="line">[INFO] RoadNetwork loaded successfully.</div>
 <div class="line">Geometry Loaded</div>

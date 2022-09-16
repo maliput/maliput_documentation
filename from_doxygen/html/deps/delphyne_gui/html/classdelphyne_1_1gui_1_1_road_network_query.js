@@ -10,6 +10,6 @@ var classdelphyne_1_1gui_1_1_road_network_query =
     [ "GetRightOfWay", "classdelphyne_1_1gui_1_1_road_network_query.html#a1ef319a35d98e52534f975fddd082092", null ],
     [ "GetState", "classdelphyne_1_1gui_1_1_road_network_query.html#a17ba459e95cb5e49678d7f6ecc9edbbc", null ],
     [ "ToInertialPosition", "classdelphyne_1_1gui_1_1_road_network_query.html#a15212389820c7e43682f4ce8b3959a7e", null ],
-    [ "ToLanePosition", "classdelphyne_1_1gui_1_1_road_network_query.html#a525f871842f014a552801ad5aa5ebc9b", null ],
-    [ "ToRoadPosition", "classdelphyne_1_1gui_1_1_road_network_query.html#acc5561d8f4020dabafe13bd9f3465f44", null ]
+    [ "ToRoadPosition", "classdelphyne_1_1gui_1_1_road_network_query.html#acc5561d8f4020dabafe13bd9f3465f44", null ],
+    [ "ToSegmentPosition", "classdelphyne_1_1gui_1_1_road_network_query.html#a79a3001aeaba73039d9f9a638220606c", null ]
 ];

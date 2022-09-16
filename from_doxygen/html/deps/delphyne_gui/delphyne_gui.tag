@@ -1610,9 +1610,9 @@
     </member>
     <member kind="function">
       <type>void</type>
-      <name>ToLanePosition</name>
+      <name>ToSegmentPosition</name>
       <anchorfile>classdelphyne_1_1gui_1_1_road_network_query.html</anchorfile>
-      <anchor>a525f871842f014a552801ad5aa5ebc9b</anchor>
+      <anchor>a79a3001aeaba73039d9f9a638220606c</anchor>
       <arglist>(const maliput::api::LaneId &amp;lane_id, const maliput::api::InertialPosition &amp;inertial_position)</arglist>
     </member>
     <member kind="function">

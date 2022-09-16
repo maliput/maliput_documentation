@@ -111,9 +111,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a15212389820c7e43682f4ce8b3959a7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1gui_1_1_road_network_query.html#a15212389820c7e43682f4ce8b3959a7e">ToInertialPosition</a> (const <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">maliput::api::LaneId</a> &amp;lane_id, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_lane_position.html">maliput::api::LanePosition</a> &amp;lane_position)</td></tr>
 <tr class="memdesc:a15212389820c7e43682f4ce8b3959a7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Redirects <code>lane_position</code> to <code>lane_id</code>'s Lane::ToInertialPosition().  <a href="classdelphyne_1_1gui_1_1_road_network_query.html#a15212389820c7e43682f4ce8b3959a7e">More...</a><br /></td></tr>
 <tr class="separator:a15212389820c7e43682f4ce8b3959a7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a525f871842f014a552801ad5aa5ebc9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1gui_1_1_road_network_query.html#a525f871842f014a552801ad5aa5ebc9b">ToLanePosition</a> (const <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">maliput::api::LaneId</a> &amp;lane_id, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_inertial_position.html">maliput::api::InertialPosition</a> &amp;inertial_position)</td></tr>
-<tr class="memdesc:a525f871842f014a552801ad5aa5ebc9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Redirects <code>inertial_position</code> to <code>lane_id</code>'s Lane::ToLanePosition().  <a href="classdelphyne_1_1gui_1_1_road_network_query.html#a525f871842f014a552801ad5aa5ebc9b">More...</a><br /></td></tr>
-<tr class="separator:a525f871842f014a552801ad5aa5ebc9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79a3001aeaba73039d9f9a638220606c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1gui_1_1_road_network_query.html#a79a3001aeaba73039d9f9a638220606c">ToSegmentPosition</a> (const <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">maliput::api::LaneId</a> &amp;lane_id, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_inertial_position.html">maliput::api::InertialPosition</a> &amp;inertial_position)</td></tr>
+<tr class="memdesc:a79a3001aeaba73039d9f9a638220606c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Redirects <code>inertial_position</code> to <code>lane_id</code>'s Lane::ToSegmentPosition().  <a href="classdelphyne_1_1gui_1_1_road_network_query.html#a79a3001aeaba73039d9f9a638220606c">More...</a><br /></td></tr>
+<tr class="separator:a79a3001aeaba73039d9f9a638220606c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc5561d8f4020dabafe13bd9f3465f44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1gui_1_1_road_network_query.html#acc5561d8f4020dabafe13bd9f3465f44">ToRoadPosition</a> (const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_inertial_position.html">maliput::api::InertialPosition</a> &amp;inertial_position)</td></tr>
 <tr class="memdesc:acc5561d8f4020dabafe13bd9f3465f44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Redirects <code>inertial_position</code> to RoadGeometry::ToRoadPosition().  <a href="classdelphyne_1_1gui_1_1_road_network_query.html#acc5561d8f4020dabafe13bd9f3465f44">More...</a><br /></td></tr>
 <tr class="separator:acc5561d8f4020dabafe13bd9f3465f44"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -394,14 +394,34 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a525f871842f014a552801ad5aa5ebc9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a525f871842f014a552801ad5aa5ebc9b">&#9670;&nbsp;</a></span>ToLanePosition()</h2>
+<a id="acc5561d8f4020dabafe13bd9f3465f44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc5561d8f4020dabafe13bd9f3465f44">&#9670;&nbsp;</a></span>ToRoadPosition()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ToLanePosition </td>
+          <td class="memname">void ToRoadPosition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_inertial_position.html">maliput::api::InertialPosition</a> &amp;&#160;</td>
+          <td class="paramname"><em>inertial_position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Redirects <code>inertial_position</code> to RoadGeometry::ToRoadPosition(). </p>
+
+</div>
+</div>
+<a id="a79a3001aeaba73039d9f9a638220606c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79a3001aeaba73039d9f9a638220606c">&#9670;&nbsp;</a></span>ToSegmentPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ToSegmentPosition </td>
           <td>(</td>
           <td class="paramtype">const <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">maliput::api::LaneId</a> &amp;&#160;</td>
           <td class="paramname"><em>lane_id</em>, </td>
@@ -420,27 +440,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Redirects <code>inertial_position</code> to <code>lane_id</code>'s Lane::ToLanePosition(). </p>
-
-</div>
-</div>
-<a id="acc5561d8f4020dabafe13bd9f3465f44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc5561d8f4020dabafe13bd9f3465f44">&#9670;&nbsp;</a></span>ToRoadPosition()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ToRoadPosition </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_inertial_position.html">maliput::api::InertialPosition</a> &amp;&#160;</td>
-          <td class="paramname"><em>inertial_position</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Redirects <code>inertial_position</code> to RoadGeometry::ToRoadPosition(). </p>
+<p>Redirects <code>inertial_position</code> to <code>lane_id</code>'s Lane::ToSegmentPosition(). </p>
 
 </div>
 </div>
