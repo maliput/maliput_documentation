@@ -17,6 +17,7 @@ maliput
 
  * maliput::api::Lane::ToLanePosition behavior has changed to return a position within the lane boundaries. (`#521 <https://github.com/maliput/maliput/issues/521>`_)
     * maliput::api::Lane::ToSegmentPosition was added to return a position within the lane segment boundaries, replacing the previous behavior of `ToLanePosition`.
+ * Fixes FindRoadPosition behavior for correctly returning road position that are only located within look-up radius. `#496 <https://github.com/maliput/maliput/issues/494>`_
 
 
 1.0.6 (2022-08-16)
