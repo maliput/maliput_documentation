@@ -14,6 +14,8 @@ Versioning
 ``maliput`` packages adhere to `semantic versioning <https://semver.org/>`_ and
 will follow as much as possible the `ROS2 Versioning guidelines <https://docs.ros.org/en/foxy/Contributing/Developer-Guide.html#versioning>`_ .
 
+**IMPORTANT:** ``maliput`` **is still under actively development for so semantic versioning is not yet strictly followed for the** `1.X.Y` **versions.**
+
 
 Branches and tags for releases
 ------------------------------
@@ -47,9 +49,7 @@ Every new major release will provide:
 - Updated ``maliput_rolling.repos`` file when appropriate (new major release,
   update to latest minor release or patch release).
 - New ``maliput_<name>.repos`` file.
-- Updated tarball in S3 bucket with the following name pattern: ``maliput_ws_<name>_YYYYMMDD_focal.tar.gz``
-  where ``name`` is the release name and ``YYYYMMDD`` is the release date (see
-  :ref:`create-a-named-release-tarball` ).
+- Binaries distributed via ROS Build Farm.
 
 
 How to release?
@@ -71,8 +71,7 @@ Make a new major ``maliput`` workspace release
   under the appropriate ROS2 distro folder.
 * Create a new ``maliput_<name>.repos`` file in `repos_index <https://github.com/maliput/maliput_infrastructure/tree/main/repos_index>`_
   under the appropriate ROS2 distro folder.
-* Create a binary tarball of the workspace (see :ref:`create-a-named-release-tarball`).
-* Upload the binary tarball to Amazon S3 bucket.
+* Rely on `bloom <https://wiki.ros.org/bloom/Tutorials/FirstTimeRelease>`_ tools for the releasing process.
 
 Create a new package major release
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -98,6 +97,7 @@ Create a new package major release
 * Create a PR to `repos_index <https://github.com/maliput/maliput_infrastructure/tree/main/repos_index>`_
   and update ``maliput_rolling.repos`` to indicate the branch name
   ``release/major.minor.x`` as the latest package version.
+* Rely on `bloom <https://wiki.ros.org/bloom/Tutorials/FirstTimeRelease>`_ tools for the releasing process.
 
 Create a new package minor release
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -123,6 +123,7 @@ Create a new package minor release
   and update ``maliput_rolling.repos`` to indicate the branch name
   ``release/major.minor.x`` as the latest package version.
 * Consider updating the affected named  ``maliput`` workspace releases.
+* Rely on `bloom <https://wiki.ros.org/bloom/Tutorials/FirstTimeRelease>`_ tools for the releasing process.
 
 Create a new package patch release
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -141,20 +142,4 @@ Create a new package patch release
 * Make a tag with the appropriate version number: ``release/major.minor.patch``.
 * Push the tag.
 * Consider updating the affected named ``maliput`` workspace release.
-
-
-.. _create-a-named-release-tarball:
-
-Create a named release tarball
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-To generate the tarball:
-
-.. code-block:: sh
-
-    cd /path/to/maliput_ws
-    export BUNDLE_NAME=maliput_ws_name
-    mv install ${BUNDLE_NAME};
-    CURRENT_BUNDLE_TARBALL_NAME="${BUNDLE_NAME}_$(date +%Y%m%d)_focal.tar.gz"
-    tar -czvf ${CURRENT_BUNDLE_TARBALL_NAME} ${BUNDLE_NAME}
-
+* Rely on `bloom <https://wiki.ros.org/bloom/Tutorials/FirstTimeRelease>`_ tools for the releasing process.
