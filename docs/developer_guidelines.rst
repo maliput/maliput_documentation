@@ -33,7 +33,6 @@ The following packages are provided:
     * `maliput_drake`_
 * Utility packages:
     * `drake_vendor`_
-    * `pybind11`_
 * Delphyne:
     * `delphyne`_
     * `delphyne_gui`_
@@ -52,7 +51,6 @@ The following packages are provided:
 .. _maliput_integration_tests: https://github.com/maliput/maliput_integration_tests
 .. _maliput_drake: https://github.com/maliput/maliput_drake
 .. _drake_vendor: https://github.com/maliput/drake_vendor
-.. _pybind11: https://github.com/RobotLocomotion/pybind11
 .. _delphyne: https://github.com/maliput/delphyne
 .. _delphyne_gui: https://github.com/maliput/delphyne_gui
 .. _delphyne_demos: https://github.com/maliput/delphyne_demos
@@ -69,13 +67,19 @@ following circumstances:
 
 * On a push event: the last commit of branch compiles and runs the package
   tests with ``gcc`` and ``ld``.
-* On a pull request event: ``gcc`` build and tests will be executed. ``clang``
-  build, sanitizers and static analyzer will be triggered using specific labels
+* On a pull request event:
+
+  * ``gcc`` build and tests will be executed:
+     For this workflow, `action-ros-ci <https://github.com/ros-tooling/action-ros-ci>`_ is used, in an attempt to be as standard as possible with ros packages.
+     This action supports having interdependent pull request, see `here <https://github.com/ros-tooling/action-ros-ci#interdependent-pull-requests-or-merge-requests>`_.
+     This may be useful when your PR depends on PRs/MRs/branches from other repos for it to work or be properly tested.
+
+  * ``clang`` build, sanitizers and static analyzer will be triggered using specific labels
   in the pull request:
 
-  * ``do-clang-test`` executes ``clang`` build and test, ``asan``, ``ubsan``
-    and ``tsan`` (when enabled) build and test.
-  * ``do-static-analyzer-test`` executes ``scan-build`` in the project.
+    * ``do-clang-test`` executes ``clang`` build and test, ``asan``, ``ubsan``
+      and ``tsan`` (when enabled) build and test.
+    * ``do-static-analyzer-test`` executes ``scan-build`` in the project.
 * Scheduled job: there are two types of scheduled jobs. One that runs every
   night and executes a full build and test of the entire workspace with
   ``gcc``. Another weekly event runs also the sanitizers and static analyzer.
@@ -298,7 +302,7 @@ Building the documentation
 
 The page is built upon `Sphinx <https://www.sphinx-doc.org/en/master/>`_ framework, while the docstring's code is converted to `html` by `Doxygen <https://www.doxygen.nl/index.html>`_.
 
-The documentation is finally served via GitHub Pages.
+The documentation is finally served via `Read the Docs <https://readthedocs.org/>`_.
 
 
 In order to build the documentation, the cmake flag `-DBUILD_DOCS=On` should be added:
@@ -306,6 +310,3 @@ In order to build the documentation, the cmake flag `-DBUILD_DOCS=On` should be 
 .. code-block:: sh
 
   colcon build --packages-up-to maliput_documentation --cmake-args "-DBUILD_DOCS=On"
-
-
-Note: `maliput` repository has a particularity and for that reason the flag works as `opt-in` whilst in the rest of the repositories it is a `opt-out`. For further information refer to `issue <https://github.com/ToyotaResearchInstitute/maliput_documentation/issues/81>`_.
