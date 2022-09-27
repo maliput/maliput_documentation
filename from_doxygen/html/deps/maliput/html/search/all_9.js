@@ -43,12 +43,13 @@ var searchData=
   ['isincluded_436',['IsIncluded',['../namespacemaliput_1_1api.html#a3da5b0c5446a7ad1183d09f99fbd2e61',1,'maliput::api']]],
   ['isinertialpositionclose_437',['IsInertialPositionClose',['../namespacemaliput_1_1api_1_1test.html#ad75f1beb16c03ecd00f80ce63daf02a1',1,'maliput::api::test']]],
   ['islanepositionclose_438',['IsLanePositionClose',['../namespacemaliput_1_1api_1_1test.html#ab9ad5cb8b2c36172fa72538ccdef0c7d',1,'maliput::api::test']]],
-  ['ismeshfacecoplanarwithplane_439',['IsMeshFaceCoplanarWithPlane',['../namespacemaliput_1_1utility_1_1mesh.html#aaf8c31be76386a45724fb375e38a890b',1,'maliput::utility::mesh']]],
-  ['ismeshfaceplanar_440',['IsMeshFacePlanar',['../namespacemaliput_1_1utility_1_1mesh.html#a3c9b3b4c9e5c0a0679b51b2a6c752f88',1,'maliput::utility::mesh']]],
-  ['isolanevelocity_441',['IsoLaneVelocity',['../structmaliput_1_1api_1_1_iso_lane_velocity.html',1,'IsoLaneVelocity'],['../structmaliput_1_1api_1_1_iso_lane_velocity.html#a10f42953901acfdedb9cabafc069a6f4',1,'maliput::api::IsoLaneVelocity::IsoLaneVelocity()=default'],['../structmaliput_1_1api_1_1_iso_lane_velocity.html#a445a6260255bb5e14482e2eaa8689a80',1,'maliput::api::IsoLaneVelocity::IsoLaneVelocity(double _sigma_v, double _rho_v, double _eta_v)']]],
-  ['israngevalue_442',['IsRangeValue',['../namespacemaliput.html#a939fda7aa16deb30b6226ffea2396632',1,'maliput']]],
-  ['isrboundsclose_443',['IsRBoundsClose',['../namespacemaliput_1_1api_1_1test.html#a604e2d7a228c8cedfa589540747e25f1',1,'maliput::api::test']]],
-  ['isrotationclose_444',['IsRotationClose',['../namespacemaliput_1_1api_1_1test.html#a4f915921ea7a17ff176e2f78a1389f81',1,'maliput::api::test']]],
-  ['isvalidstate_445',['IsValidState',['../classmaliput_1_1api_1_1rules_1_1_bulb.html#ab608ef2efb5fa1e8cb00719a0161f7b3',1,'maliput::api::rules::Bulb']]],
-  ['iswithinrange_446',['IsWithinRange',['../namespacemaliput_1_1api.html#a29a78270572a2d5f384ea15f3fe23541',1,'maliput::api']]]
+  ['islanepositionresultclose_439',['IsLanePositionResultClose',['../namespacemaliput_1_1api_1_1test.html#ab0d59df7ce188decf48935abbbabfec9',1,'maliput::api::test']]],
+  ['ismeshfacecoplanarwithplane_440',['IsMeshFaceCoplanarWithPlane',['../namespacemaliput_1_1utility_1_1mesh.html#aaf8c31be76386a45724fb375e38a890b',1,'maliput::utility::mesh']]],
+  ['ismeshfaceplanar_441',['IsMeshFacePlanar',['../namespacemaliput_1_1utility_1_1mesh.html#a3c9b3b4c9e5c0a0679b51b2a6c752f88',1,'maliput::utility::mesh']]],
+  ['isolanevelocity_442',['IsoLaneVelocity',['../structmaliput_1_1api_1_1_iso_lane_velocity.html',1,'IsoLaneVelocity'],['../structmaliput_1_1api_1_1_iso_lane_velocity.html#a10f42953901acfdedb9cabafc069a6f4',1,'maliput::api::IsoLaneVelocity::IsoLaneVelocity()=default'],['../structmaliput_1_1api_1_1_iso_lane_velocity.html#a445a6260255bb5e14482e2eaa8689a80',1,'maliput::api::IsoLaneVelocity::IsoLaneVelocity(double _sigma_v, double _rho_v, double _eta_v)']]],
+  ['israngevalue_443',['IsRangeValue',['../namespacemaliput.html#a939fda7aa16deb30b6226ffea2396632',1,'maliput']]],
+  ['isrboundsclose_444',['IsRBoundsClose',['../namespacemaliput_1_1api_1_1test.html#a604e2d7a228c8cedfa589540747e25f1',1,'maliput::api::test']]],
+  ['isrotationclose_445',['IsRotationClose',['../namespacemaliput_1_1api_1_1test.html#a4f915921ea7a17ff176e2f78a1389f81',1,'maliput::api::test']]],
+  ['isvalidstate_446',['IsValidState',['../classmaliput_1_1api_1_1rules_1_1_bulb.html#ab608ef2efb5fa1e8cb00719a0161f7b3',1,'maliput::api::rules::Bulb']]],
+  ['iswithinrange_447',['IsWithinRange',['../namespacemaliput_1_1api.html#a29a78270572a2d5f384ea15f3fe23541',1,'maliput::api']]]
 ];

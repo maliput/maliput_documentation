@@ -120,10 +120,10 @@ var NAVTREEINDEX =
 "classmaliput_1_1api_1_1rules_1_1_unique_bulb_group_id.html#a6b56866308db0ffd3a10ad1c217bbdba",
 "classmaliput_1_1math_1_1_quaternion.html#a65ed15cc19af958b5933b5c522f10e66",
 "find__lane__sequences_8h.html",
-"maliput_design.html#geometry_model",
-"namespacemaliput_1_1geometry__base_1_1test.html",
-"segment__analysis_8h.html#a477f4cdef136a1c784cd6a639b6c52b0",
-"structmaliput_1_1utility_1_1mesh_1_1_index_face_1_1_vertex.html#aa325f0fc7bcf9d11383638170851f851"
+"maliput_design.html#common_region_entities",
+"namespacemaliput_1_1geometry__base.html",
+"segment__analysis_8h.html",
+"structmaliput_1_1utility_1_1mesh_1_1_index_face_1_1_vertex.html#a9ae457d1b6caa08add101f7a86d4686d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

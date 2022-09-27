@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"namespacemaliput_1_1geometry__base.html":[4,0,0,2],
+"namespacemaliput_1_1geometry__base.html":[3,0,0,2],
 "namespacemaliput_1_1geometry__base_1_1test.html":[3,0,0,2,0],
 "namespacemaliput_1_1geometry__base_1_1test.html":[4,0,0,2,0],
 "namespacemaliput_1_1math.html":[3,0,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "segment_8cc.html":[5,0,168],
 "segment__analysis_8cc.html":[5,0,171],
 "segment__analysis_8cc.html#a407ac8e9552f10055497d8676432e300":[5,0,171,1],
-"segment__analysis_8cc.html#a477f4cdef136a1c784cd6a639b6c52b0":[5,0,171,0],
-"segment__analysis_8h.html":[5,0,172],
-"segment__analysis_8h.html#a407ac8e9552f10055497d8676432e300":[5,0,172,1]
+"segment__analysis_8cc.html#a477f4cdef136a1c784cd6a639b6c52b0":[5,0,171,0]
 };

@@ -1715,6 +1715,13 @@
       <anchor>a07a29591c901e0f22f51706a1cc2ee84</anchor>
       <arglist>(const HBounds &amp;hbounds1, const HBounds &amp;hbounds2, double tolerance)</arglist>
     </member>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>IsLanePositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
+      <anchor>ab0d59df7ce188decf48935abbbabfec9</anchor>
+      <arglist>(const LanePositionResult &amp;lpr_a, const LanePositionResult &amp;lpr_b, double tolerance)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>maliput_types_compare.h</name>
@@ -1724,6 +1731,13 @@
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
     <namespace>maliput::api::test</namespace>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>IsLanePositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
+      <anchor>ab0d59df7ce188decf48935abbbabfec9</anchor>
+      <arglist>(const LanePositionResult &amp;lpr_a, const LanePositionResult &amp;lpr_b, double tolerance)</arglist>
+    </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>
       <name>IsInertialPositionClose</name>
@@ -16254,6 +16268,13 @@
       <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
       <anchor>a7a4f81af920cae075af5641d1893e3a9</anchor>
       <arglist>(const RoadGeometry *road_geometry)</arglist>
+    </member>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>IsLanePositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
+      <anchor>ab0d59df7ce188decf48935abbbabfec9</anchor>
+      <arglist>(const LanePositionResult &amp;lpr_a, const LanePositionResult &amp;lpr_b, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>

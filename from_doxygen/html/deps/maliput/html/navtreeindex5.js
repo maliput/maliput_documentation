@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"maliput_design.html#common_region_entities":[0,2,0,1],
+"maliput_design.html#deprecated_rule_api":[0,2,0,3],
 "maliput_design.html#geometry_model":[0,1,0],
 "maliput_design.html#inertial_frame_versus_lane_frame":[0,1,0,2],
 "maliput_design.html#intersecting_segments_grouped_into_junctions":[0,1,0,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "namespacemaliput_1_1common.html":[3,0,0,1],
 "namespacemaliput_1_1common_1_1internal.html":[4,0,0,1,0],
 "namespacemaliput_1_1common_1_1internal.html":[3,0,0,1,0],
-"namespacemaliput_1_1common_1_1logger.html":[3,0,0,1,1],
-"namespacemaliput_1_1geometry__base.html":[4,0,0,2],
-"namespacemaliput_1_1geometry__base.html":[3,0,0,2]
+"namespacemaliput_1_1common_1_1logger.html":[3,0,0,1,1]
 };
