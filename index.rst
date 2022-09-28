@@ -27,6 +27,7 @@ Contents
    api_documentation
    design
    roadmap
+   changelog
 
 .. toctree::
    :caption: Miscellaneous
