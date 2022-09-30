@@ -37,3 +37,4 @@ Contents
    code_of_conduct
    developer_guidelines
    developer_setup
+   releases
