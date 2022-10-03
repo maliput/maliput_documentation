@@ -240,7 +240,7 @@ If you are using nvidia-docker2 add the ``--nvidia`` option.
   ``run.sh --help`` for more options:
 
     #. ``-i`` ``--image_name`` Name of the image to be run (default maliput_ws_ubuntu_focal).
-    #. ``-c`` ``--container_name`` Name of the container(default maliput_ws_focal).
+    #. ``-c`` ``--container_name`` Name of the container (default maliput_ws_focal).
     #. ``-w`` ``--workspace``  Relative or absolute path to the workspace you want to bind (default to location of maliput_infrastructure folder).
 
 .. _install-dependencies:
