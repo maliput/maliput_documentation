@@ -38,7 +38,9 @@ if(BUILD_DOCS)
       maliput_integration_tests
       maliput_object
       maliput_object_py
+      maliput_osm
       maliput_py
+      maliput_sparse
       delphyne
       delphyne_demos
       delphyne_gui
