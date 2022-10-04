@@ -6,8 +6,8 @@ Contributing to Maliput
 =======================
 
 The following is a set of guidelines for contributing to Maliput
-and its components, which are hosted in the [Maliput
-Organization](https://github.com/maliput) on GitHub. These
+and its components, which are hosted in the `Maliput
+Organization <https://github.com/maliput/>`_ on GitHub. These
 are mostly guidelines, not rules. Use your best judgment, and feel free to
 propose changes to this document in a pull request.
 
