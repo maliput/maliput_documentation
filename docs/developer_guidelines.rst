@@ -20,12 +20,15 @@ The following packages are provided:
     * `maliput_py`_
     * `maliput_object`_
     * `maliput_object_py`_
+    * `maliput_sparse`_
+    * `maliput_viz`_
     * `ament_cmake_doxygen`_
     * `maliput_documentation`_
 * Backend implementations:
     * `maliput_dragway`_
     * `maliput_malidrive`_
     * `maliput_multilane`_
+    * `maliput_osm`_
 * Integration packages:
     * `maliput_integration`_
     * `maliput_integration_tests`_
@@ -47,6 +50,8 @@ The following packages are provided:
 .. _maliput_dragway: https://github.com/maliput/maliput_dragway
 .. _maliput_malidrive: https://github.com/maliput/maliput_malidrive
 .. _maliput_multilane: https://github.com/maliput/maliput_multilane
+.. _maliput_osm: https://github.com/maliput/maliput_osm
+.. _maliput_sparse: https://github.com/maliput/maliput_sparse
 .. _maliput_integration: https://github.com/maliput/maliput_integration
 .. _maliput_integration_tests: https://github.com/maliput/maliput_integration_tests
 .. _maliput_drake: https://github.com/maliput/maliput_drake

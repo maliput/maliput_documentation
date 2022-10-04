@@ -40,6 +40,12 @@ Packages
      - ros-foxy-maliput-multilane
    * - `maliput_malidrive <https://github.com/maliput/maliput_malidrive>`_
      - ros-foxy-maliput-malidrive
+   * - `maliput_sparse <https://github.com/maliput/maliput_sparse>`_
+     - ros-foxy-maliput-sparse
+   * - `maliput_osm <https://github.com/maliput/maliput_osm>`_
+     - ros-foxy-maliput-osm
+   * - `maliput_viz <https://github.com/maliput/maliput_viz>`_
+     - ros-foxy-maliput-viz
    * - `maliput_integration <https://github.com/maliput/maliput_integration>`_
      - ros-foxy-maliput-integration
    * - `drake_vendor <https://github.com/maliput/drake_vendor>`_

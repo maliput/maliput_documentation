@@ -35,6 +35,16 @@ Maliput Py
 
 * `Maliput Python Interface <html/deps/maliput_py/html/maliput_python_interface.html>`_
 
+Maliput Sparse
+==============
+
+* `Maliput Sparse C++ namespace <html/deps/maliput_sparse/html/namespacesparse.html>`_
+
+Maliput Osm
+===========
+
+* `Maliput Osm C++ namespace <html/deps/maliput_osm/html/namespaceosm.html>`_
+
 Multilane
 =========
 
