@@ -127,7 +127,7 @@ get acquainted with this development process.
    take place in your fork.
    - An important thing to do is create a remote pointing to the `upstream remote repository <https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork>`_ . This way, you can always check for modifications on the original repository and **always** keep your fork repository up to date.
 
-#. **Work out of a new branch** , one that is not
+#. **Work out of a new branch**, one that is not
    a release / main branch. This is a good habit to get in, and will make
    your life easier.
 
