@@ -1,5 +1,9 @@
 var NAVTREEINDEX6 =
 {
+"namespacemaliput_1_1common.html":[3,0,0,1],
+"namespacemaliput_1_1common_1_1internal.html":[4,0,0,1,0],
+"namespacemaliput_1_1common_1_1internal.html":[3,0,0,1,0],
+"namespacemaliput_1_1common_1_1logger.html":[3,0,0,1,1],
 "namespacemaliput_1_1geometry__base.html":[4,0,0,2],
 "namespacemaliput_1_1geometry__base.html":[3,0,0,2],
 "namespacemaliput_1_1geometry__base_1_1test.html":[3,0,0,2,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX6 =
 "saturate_8cc.html":[5,0,166],
 "saturate_8cc.html#ac8f73efa4810c92b9580ccbba3c76f45":[5,0,166,0],
 "saturate_8h.html":[5,0,167],
-"saturate_8h.html#ac8f73efa4810c92b9580ccbba3c76f45":[5,0,167,0],
-"segment_8cc.html":[5,0,168],
-"segment__analysis_8cc.html":[5,0,171],
-"segment__analysis_8cc.html#a407ac8e9552f10055497d8676432e300":[5,0,171,1],
-"segment__analysis_8cc.html#a477f4cdef136a1c784cd6a639b6c52b0":[5,0,171,0]
+"saturate_8h.html#ac8f73efa4810c92b9580ccbba3c76f45":[5,0,167,0]
 };

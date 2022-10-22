@@ -261,6 +261,7 @@ var files_dup =
       [ "Dragway", "classdelphyne_1_1behaviours_1_1roads_1_1_dragway.html", "classdelphyne_1_1behaviours_1_1roads_1_1_dragway" ],
       [ "Multilane", "classdelphyne_1_1behaviours_1_1roads_1_1_multilane.html", "classdelphyne_1_1behaviours_1_1roads_1_1_multilane" ],
       [ "Malidrive", "classdelphyne_1_1behaviours_1_1roads_1_1_malidrive.html", "classdelphyne_1_1behaviours_1_1roads_1_1_malidrive" ],
+      [ "MaliputOSM", "classdelphyne_1_1behaviours_1_1roads_1_1_maliput_o_s_m.html", "classdelphyne_1_1behaviours_1_1roads_1_1_maliput_o_s_m" ],
       [ "OnRamp", "classdelphyne_1_1behaviours_1_1roads_1_1_on_ramp.html", "classdelphyne_1_1behaviours_1_1roads_1_1_on_ramp" ]
     ] ],
     [ "rule_rail_car.cc", "rule__rail__car_8cc.html", null ],

@@ -1722,6 +1722,20 @@
       <anchor>ab0d59df7ce188decf48935abbbabfec9</anchor>
       <arglist>(const LanePositionResult &amp;lpr_a, const LanePositionResult &amp;lpr_b, double tolerance)</arglist>
     </member>
+    <member kind="function">
+      <type>testing::AssertionResult</type>
+      <name>IsRoadPositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
+      <anchor>a950f33f9be84000419605fccd0e4d5cd</anchor>
+      <arglist>(const maliput::api::RoadPositionResult &amp;rpr_a, const maliput::api::RoadPositionResult &amp;rpr_b, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>IsLaneEndEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
+      <anchor>ab6e024949cc30d5c19fb642cedc4d951</anchor>
+      <arglist>(const LaneEnd &amp;lane_end1, const LaneEnd &amp;lane_end2)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>maliput_types_compare.h</name>
@@ -1737,6 +1751,13 @@
       <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
       <anchor>ab0d59df7ce188decf48935abbbabfec9</anchor>
       <arglist>(const LanePositionResult &amp;lpr_a, const LanePositionResult &amp;lpr_b, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>testing::AssertionResult</type>
+      <name>IsRoadPositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
+      <anchor>a950f33f9be84000419605fccd0e4d5cd</anchor>
+      <arglist>(const maliput::api::RoadPositionResult &amp;rpr_a, const maliput::api::RoadPositionResult &amp;rpr_b, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>::testing::AssertionResult</type>
@@ -1772,6 +1793,13 @@
       <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
       <anchor>a07a29591c901e0f22f51706a1cc2ee84</anchor>
       <arglist>(const HBounds &amp;hbounds1, const HBounds &amp;hbounds2, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>IsLaneEndEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
+      <anchor>ab6e024949cc30d5c19fb642cedc4d951</anchor>
+      <arglist>(const LaneEnd &amp;lane_end1, const LaneEnd &amp;lane_end2)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -16277,6 +16305,13 @@
       <arglist>(const LanePositionResult &amp;lpr_a, const LanePositionResult &amp;lpr_b, double tolerance)</arglist>
     </member>
     <member kind="function">
+      <type>testing::AssertionResult</type>
+      <name>IsRoadPositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
+      <anchor>a950f33f9be84000419605fccd0e4d5cd</anchor>
+      <arglist>(const maliput::api::RoadPositionResult &amp;rpr_a, const maliput::api::RoadPositionResult &amp;rpr_b, double tolerance)</arglist>
+    </member>
+    <member kind="function">
       <type>::testing::AssertionResult</type>
       <name>IsInertialPositionClose</name>
       <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
@@ -16310,6 +16345,13 @@
       <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
       <anchor>a07a29591c901e0f22f51706a1cc2ee84</anchor>
       <arglist>(const HBounds &amp;hbounds1, const HBounds &amp;hbounds2, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>IsLaneEndEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
+      <anchor>ab6e024949cc30d5c19fb642cedc4d951</anchor>
+      <arglist>(const LaneEnd &amp;lane_end1, const LaneEnd &amp;lane_end2)</arglist>
     </member>
     <member kind="function">
       <type>LaneSRoute</type>

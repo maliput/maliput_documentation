@@ -1,5 +1,9 @@
 var NAVTREEINDEX5 =
 {
+"maliput_design.html#abstract_geometry_api_roadgeometry":[0,1,1],
+"maliput_design.html#adjacent_lanes_grouped_into_segments":[0,1,0,5],
+"maliput_design.html#basic_types":[0,1,1,0],
+"maliput_design.html#branchpoints":[0,1,1,5],
 "maliput_design.html#common_region_entities":[0,2,0,1],
 "maliput_design.html#deprecated_rule_api":[0,2,0,3],
 "maliput_design.html#geometry_model":[0,1,0],
@@ -239,15 +243,11 @@ var NAVTREEINDEX5 =
 "namespacemaliput.html":[4,0,0],
 "namespacemaliput_1_1api.html":[3,0,0,0],
 "namespacemaliput_1_1api.html":[4,0,0,0],
-"namespacemaliput_1_1api_1_1rules.html":[3,0,0,0,0],
 "namespacemaliput_1_1api_1_1rules.html":[4,0,0,0,0],
+"namespacemaliput_1_1api_1_1rules.html":[3,0,0,0,0],
 "namespacemaliput_1_1api_1_1rules_1_1test.html":[3,0,0,0,0,0],
 "namespacemaliput_1_1api_1_1rules_1_1test.html":[4,0,0,0,0,0],
-"namespacemaliput_1_1api_1_1test.html":[4,0,0,0,1],
 "namespacemaliput_1_1api_1_1test.html":[3,0,0,0,1],
-"namespacemaliput_1_1common.html":[4,0,0,1],
-"namespacemaliput_1_1common.html":[3,0,0,1],
-"namespacemaliput_1_1common_1_1internal.html":[4,0,0,1,0],
-"namespacemaliput_1_1common_1_1internal.html":[3,0,0,1,0],
-"namespacemaliput_1_1common_1_1logger.html":[3,0,0,1,1]
+"namespacemaliput_1_1api_1_1test.html":[4,0,0,0,1],
+"namespacemaliput_1_1common.html":[4,0,0,1]
 };

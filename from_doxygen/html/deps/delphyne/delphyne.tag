@@ -2020,6 +2020,13 @@
       <anchor>a62670d30382c616d719a706db10e3852</anchor>
       <arglist>(const std::string &amp;name, const std::string &amp;file_path, const std::string &amp;rule_registry_file_path=std::string(), const std::string &amp;road_rulebook_file_path=std::string(), const std::string &amp;traffic_light_book_path=std::string(), const std::string &amp;phase_ring_path=std::string(), const std::string &amp;intersection_book_path=std::string(), double linear_tolerance=1e-3, double angular_tolerance=1e-3)</arglist>
     </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <name>CreateMaliputOSMRoadNetwork</name>
+      <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
+      <anchor>a325b6986242f0fe09c7165859a8f7150</anchor>
+      <arglist>(const std::string &amp;name, const std::string &amp;file_path, const std::string &amp;origin=std::string(), const std::string &amp;rule_registry_file_path=std::string(), const std::string &amp;road_rulebook_file_path=std::string(), const std::string &amp;traffic_light_book_path=std::string(), const std::string &amp;phase_ring_path=std::string(), const std::string &amp;intersection_book_path=std::string(), double linear_tolerance=1e-3, double angular_tolerance=1e-3)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>road_builder.h</name>
@@ -2076,6 +2083,13 @@
       <anchor>ab08fb8ea72ef1e9d7f77279f28fe6965</anchor>
       <arglist>()</arglist>
     </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <name>CreateMaliputOSMRoadNetwork</name>
+      <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
+      <anchor>a325b6986242f0fe09c7165859a8f7150</anchor>
+      <arglist>(const std::string &amp;name, const std::string &amp;file_path, const std::string &amp;origin=std::string(), const std::string &amp;rule_registry_file_path=std::string(), const std::string &amp;road_rulebook_file_path=std::string(), const std::string &amp;traffic_light_book_path=std::string(), const std::string &amp;phase_ring_path=std::string(), const std::string &amp;intersection_book_path=std::string(), double linear_tolerance=1e-3, double angular_tolerance=1e-3)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>road_odometry.h</name>
@@ -2115,6 +2129,7 @@
     <class kind="class">delphyne::behaviours::roads::Dragway</class>
     <class kind="class">delphyne::behaviours::roads::Multilane</class>
     <class kind="class">delphyne::behaviours::roads::Malidrive</class>
+    <class kind="class">delphyne::behaviours::roads::MaliputOSM</class>
     <class kind="class">delphyne::behaviours::roads::OnRamp</class>
     <namespace>delphyne::behaviours::roads</namespace>
   </compound>
@@ -7760,6 +7775,116 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>delphyne::behaviours::roads::MaliputOSM</name>
+    <filename>classdelphyne_1_1behaviours_1_1roads_1_1_maliput_o_s_m.html</filename>
+    <base>delphyne::behaviours::roads::Road</base>
+    <member kind="function">
+      <type>def</type>
+      <name>__init__</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_maliput_o_s_m.html</anchorfile>
+      <anchor>add7f8be2966ba0a5047400aa65cea1ce</anchor>
+      <arglist>(self, name=py_trees.common.Name.AUTO_GENERATED, file_path=&quot;&quot;, origin=&quot;&quot;, rule_registry_file_path=&quot;&quot;, road_rulebook_file_path=&quot;&quot;, traffic_light_book_path=&quot;&quot;, phase_ring_path=&quot;&quot;, intersection_book_path=&quot;&quot;, linear_tolerance=1e-3, angular_tolerance=1e-3, features=delphyne.roads.ObjFeatures())</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>setup</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_maliput_o_s_m.html</anchorfile>
+      <anchor>a175e40d3f85f9743682b3ba44c60dc13</anchor>
+      <arglist>(self, *builder)</arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>road_network</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_maliput_o_s_m.html</anchorfile>
+      <anchor>aa221c318dee7b4b7c34572f3f80d28cf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>name</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_maliput_o_s_m.html</anchorfile>
+      <anchor>ab74e6bf80237ddc4109968cedc58c151</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>file_path</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_maliput_o_s_m.html</anchorfile>
+      <anchor>a8aa55c8aa2346c2358ce68869a197088</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>origin</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_maliput_o_s_m.html</anchorfile>
+      <anchor>a06dbc3a3eb5aaab80edf32ea607f1ef3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>rule_registry_file_path</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_maliput_o_s_m.html</anchorfile>
+      <anchor>adfbe2d2bb3dbf2fc495f481aaa4e14ae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>road_rulebook_file_path</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_maliput_o_s_m.html</anchorfile>
+      <anchor>a1a6b06bb9c1aa48143e106882f1d75f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>traffic_light_book_path</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_maliput_o_s_m.html</anchorfile>
+      <anchor>a0650d9a7af4d0875175f84b95cd6aae2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>phase_ring_path</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_maliput_o_s_m.html</anchorfile>
+      <anchor>a3eef7b9346af9b705c75d2d0c4f2578a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>intersection_book_path</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_maliput_o_s_m.html</anchorfile>
+      <anchor>af26852842457d222f0ea9db1b44ad0fc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>linear_tolerance</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_maliput_o_s_m.html</anchorfile>
+      <anchor>a79e5f14543d4c4c00dda0b5b7eef500d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>angular_tolerance</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_maliput_o_s_m.html</anchorfile>
+      <anchor>a9e8fd8c0575c8b83fc4483838b469128</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>features</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_maliput_o_s_m.html</anchorfile>
+      <anchor>a6b54c7d82e1d89ae7994a88ce0c6889b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>road_geometry</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_maliput_o_s_m.html</anchorfile>
+      <anchor>af5b940043d6b72938ec32a95c639d1b9</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>delphyne::MaliputRailcarState</name>
     <filename>classdelphyne_1_1_maliput_railcar_state.html</filename>
     <templarg></templarg>
@@ -11509,38 +11634,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>delphyne::behaviours::agents::UnicycleCar</name>
-    <filename>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</filename>
-    <member kind="function">
-      <type>def</type>
-      <name>__init__</name>
-      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
-      <anchor>a13249fc1ace1d48056547d4e02c94fa8</anchor>
-      <arglist>(self, name=py_trees.common.Name.AUTO_GENERATED, initial_pose=(0., 0., 0.), speed=1.)</arglist>
-    </member>
-    <member kind="function">
-      <type>def</type>
-      <name>setup</name>
-      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
-      <anchor>a175e40d3f85f9743682b3ba44c60dc13</anchor>
-      <arglist>(self, *builder)</arglist>
-    </member>
-    <member kind="variable">
-      <type></type>
-      <name>initial_pose</name>
-      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
-      <anchor>a422636159fa92f54ca997246946f793c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type></type>
-      <name>speed</name>
-      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
-      <anchor>ab04a44aead88cfdbd44325ec2cf7a33a</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>delphyne::UnicycleCar</name>
     <filename>classdelphyne_1_1_unicycle_car.html</filename>
     <templarg></templarg>
@@ -11578,6 +11671,38 @@
       <anchorfile>classdelphyne_1_1_unicycle_car.html</anchorfile>
       <anchor>a738454715d868258a2f62ff4a1cc60f8</anchor>
       <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>delphyne::behaviours::agents::UnicycleCar</name>
+    <filename>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</filename>
+    <member kind="function">
+      <type>def</type>
+      <name>__init__</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
+      <anchor>a13249fc1ace1d48056547d4e02c94fa8</anchor>
+      <arglist>(self, name=py_trees.common.Name.AUTO_GENERATED, initial_pose=(0., 0., 0.), speed=1.)</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>setup</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
+      <anchor>a175e40d3f85f9743682b3ba44c60dc13</anchor>
+      <arglist>(self, *builder)</arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>initial_pose</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
+      <anchor>a422636159fa92f54ca997246946f793c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>speed</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
+      <anchor>ab04a44aead88cfdbd44325ec2cf7a33a</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -12372,6 +12497,7 @@
     <filename>namespacedelphyne_1_1behaviours_1_1roads.html</filename>
     <class kind="class">delphyne::behaviours::roads::Dragway</class>
     <class kind="class">delphyne::behaviours::roads::Malidrive</class>
+    <class kind="class">delphyne::behaviours::roads::MaliputOSM</class>
     <class kind="class">delphyne::behaviours::roads::Multilane</class>
     <class kind="class">delphyne::behaviours::roads::OnRamp</class>
     <class kind="class">delphyne::behaviours::roads::Road</class>
@@ -12581,6 +12707,13 @@
       <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
       <anchor>ab08fb8ea72ef1e9d7f77279f28fe6965</anchor>
       <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <name>CreateMaliputOSMRoadNetwork</name>
+      <anchorfile>namespacedelphyne_1_1roads.html</anchorfile>
+      <anchor>a325b6986242f0fe09c7165859a8f7150</anchor>
+      <arglist>(const std::string &amp;name, const std::string &amp;file_path, const std::string &amp;origin=std::string(), const std::string &amp;rule_registry_file_path=std::string(), const std::string &amp;road_rulebook_file_path=std::string(), const std::string &amp;traffic_light_book_path=std::string(), const std::string &amp;phase_ring_path=std::string(), const std::string &amp;intersection_book_path=std::string(), double linear_tolerance=1e-3, double angular_tolerance=1e-3)</arglist>
     </member>
   </compound>
   <compound kind="namespace">

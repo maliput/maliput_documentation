@@ -9,6 +9,7 @@ var files_dup =
     [ "keyboard_handler.py", "keyboard__handler_8py.html", "keyboard__handler_8py" ],
     [ "keyop.py", "keyop_8py.html", "keyop_8py" ],
     [ "mali.py", "mali_8py.html", "mali_8py" ],
+    [ "mali_osm.py", "mali__osm_8py.html", "mali__osm_8py" ],
     [ "mobil_perf.py", "mobil__perf_8py.html", "mobil__perf_8py" ],
     [ "realtime.py", "realtime_8py.html", "realtime_8py" ],
     [ "roads.py", "roads_8py.html", "roads_8py" ],

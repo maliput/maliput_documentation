@@ -233,6 +233,54 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>mali_osm.py</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/demos/</path>
+    <filename>mali__osm_8py.html</filename>
+    <namespace>demos::mali_osm</namespace>
+    <member kind="function">
+      <type>def</type>
+      <name>parse_arguments</name>
+      <anchorfile>namespacedemos_1_1mali__osm.html</anchorfile>
+      <anchor>a56ff873a0f4d78c64484312d19563ca0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>get_maliput_osm_resource</name>
+      <anchorfile>namespacedemos_1_1mali__osm.html</anchorfile>
+      <anchor>a153390d59b12ef3f88a03a79c7557ac7</anchor>
+      <arglist>(path)</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>create_mali_scenario_subtree</name>
+      <anchorfile>namespacedemos_1_1mali__osm.html</anchorfile>
+      <anchor>af1de664f70720ce3b49125f844f0e7b9</anchor>
+      <arglist>(file_path, origin, yaml_file_path, features, lane_position, agent_type, direction_of_travel, lane_id, linear_tolerance, angular_tolerance=1e-3)</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>get_road_configuration</name>
+      <anchorfile>namespacedemos_1_1mali__osm.html</anchorfile>
+      <anchor>aebc19875699db623a85fcc0fdb47068a</anchor>
+      <arglist>(args)</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>main</name>
+      <anchorfile>namespacedemos_1_1mali__osm.html</anchorfile>
+      <anchor>aed0c3f68bcb6a22dfa6f09c396ef30f7</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <type>dictionary</type>
+      <name>KNOWN_ROADS</name>
+      <anchorfile>namespacedemos_1_1mali__osm.html</anchorfile>
+      <anchor>a43d11b09a1dc73878776f09b1dc91526</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>mobil_perf.py</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/demos/</path>
     <filename>mobil__perf_8py.html</filename>
@@ -708,6 +756,7 @@
     <namespace>demos::keyboard_handler</namespace>
     <namespace>demos::keyop</namespace>
     <namespace>demos::mali</namespace>
+    <namespace>demos::mali_osm</namespace>
     <namespace>demos::mobil_perf</namespace>
     <namespace>demos::realtime</namespace>
     <namespace>demos::roads</namespace>
@@ -920,6 +969,52 @@
       <type>dictionary</type>
       <name>KNOWN_ROADS</name>
       <anchorfile>namespacedemos_1_1mali.html</anchorfile>
+      <anchor>a43d11b09a1dc73878776f09b1dc91526</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="namespace">
+    <name>demos::mali_osm</name>
+    <filename>namespacedemos_1_1mali__osm.html</filename>
+    <member kind="function">
+      <type>def</type>
+      <name>parse_arguments</name>
+      <anchorfile>namespacedemos_1_1mali__osm.html</anchorfile>
+      <anchor>a56ff873a0f4d78c64484312d19563ca0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>get_maliput_osm_resource</name>
+      <anchorfile>namespacedemos_1_1mali__osm.html</anchorfile>
+      <anchor>a153390d59b12ef3f88a03a79c7557ac7</anchor>
+      <arglist>(path)</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>create_mali_scenario_subtree</name>
+      <anchorfile>namespacedemos_1_1mali__osm.html</anchorfile>
+      <anchor>af1de664f70720ce3b49125f844f0e7b9</anchor>
+      <arglist>(file_path, origin, yaml_file_path, features, lane_position, agent_type, direction_of_travel, lane_id, linear_tolerance, angular_tolerance=1e-3)</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>get_road_configuration</name>
+      <anchorfile>namespacedemos_1_1mali__osm.html</anchorfile>
+      <anchor>aebc19875699db623a85fcc0fdb47068a</anchor>
+      <arglist>(args)</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>main</name>
+      <anchorfile>namespacedemos_1_1mali__osm.html</anchorfile>
+      <anchor>aed0c3f68bcb6a22dfa6f09c396ef30f7</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <type>dictionary</type>
+      <name>KNOWN_ROADS</name>
+      <anchorfile>namespacedemos_1_1mali__osm.html</anchorfile>
       <anchor>a43d11b09a1dc73878776f09b1dc91526</anchor>
       <arglist></arglist>
     </member>

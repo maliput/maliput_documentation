@@ -1,5 +1,9 @@
 var NAVTREEINDEX8 =
 {
+"structmaliput_1_1utility_1_1mesh_1_1_geo_normal_1_1_equiv.html#ab9ec50cf649a244595032a030685165d":[4,0,0,5,0,5,0,0],
+"structmaliput_1_1utility_1_1mesh_1_1_geo_vertex_1_1_equiv.html":[4,0,0,5,0,6,0],
+"structmaliput_1_1utility_1_1mesh_1_1_geo_vertex_1_1_equiv.html#aa20749a63ed2c77f495b32fe4118b5ac":[4,0,0,5,0,6,0,0],
+"structmaliput_1_1utility_1_1mesh_1_1_index_face_1_1_vertex.html":[4,0,0,5,0,7,0],
 "structmaliput_1_1utility_1_1mesh_1_1_index_face_1_1_vertex.html#a9ae457d1b6caa08add101f7a86d4686d":[4,0,0,5,0,7,0,2],
 "structmaliput_1_1utility_1_1mesh_1_1_index_face_1_1_vertex.html#a9b0f16e1f9b88668f9f7125b81f3f8d0":[4,0,0,5,0,7,0,0],
 "structmaliput_1_1utility_1_1mesh_1_1_index_face_1_1_vertex.html#aa325f0fc7bcf9d11383638170851f851":[4,0,0,5,0,7,0,1],

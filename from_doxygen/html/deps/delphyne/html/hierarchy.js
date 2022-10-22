@@ -164,6 +164,7 @@ var hierarchy =
       [ "Road", "classdelphyne_1_1behaviours_1_1roads_1_1_road.html", [
         [ "Dragway", "classdelphyne_1_1behaviours_1_1roads_1_1_dragway.html", null ],
         [ "Malidrive", "classdelphyne_1_1behaviours_1_1roads_1_1_malidrive.html", null ],
+        [ "MaliputOSM", "classdelphyne_1_1behaviours_1_1roads_1_1_maliput_o_s_m.html", null ],
         [ "Multilane", "classdelphyne_1_1behaviours_1_1roads_1_1_multilane.html", null ],
         [ "OnRamp", "classdelphyne_1_1behaviours_1_1roads_1_1_on_ramp.html", null ]
       ] ]
