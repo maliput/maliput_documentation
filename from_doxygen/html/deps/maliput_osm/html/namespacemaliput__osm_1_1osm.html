@@ -122,9 +122,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a2dd9e2f6463a9b96470f9ecc6f8a2b4a"><td class="memItemLeft" align="right" valign="top">LineString3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__osm_1_1osm.html#a2dd9e2f6463a9b96470f9ecc6f8a2b4a">ToMaliput</a> (const lanelet::ConstLineString3d &amp;line_string)</td></tr>
 <tr class="memdesc:a2dd9e2f6463a9b96470f9ecc6f8a2b4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a lanelet::ConstLineString3d to a maliput_sparse::geometry::LineString3d.  <a href="namespacemaliput__osm_1_1osm.html#a2dd9e2f6463a9b96470f9ecc6f8a2b4a">More...</a><br /></td></tr>
 <tr class="separator:a2dd9e2f6463a9b96470f9ecc6f8a2b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cfc52a9fc41d714f42f0d08c4e73d4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmaliput__osm_1_1osm_1_1_lane.html">Lane</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__osm_1_1osm.html#a8cfc52a9fc41d714f42f0d08c4e73d4d">ToMaliput</a> (const lanelet::Lanelet &amp;lanelet)</td></tr>
-<tr class="memdesc:a8cfc52a9fc41d714f42f0d08c4e73d4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a lanelet::Lanelet to a <a class="el" href="structmaliput__osm_1_1osm_1_1_lane.html" title="A lane in an Lanelet2-OSM road.">maliput_osm::osm::Lane</a>.  <a href="namespacemaliput__osm_1_1osm.html#a8cfc52a9fc41d714f42f0d08c4e73d4d">More...</a><br /></td></tr>
-<tr class="separator:a8cfc52a9fc41d714f42f0d08c4e73d4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6f9860a4e2a7d86e640fe6ef9e8faf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmaliput__osm_1_1osm_1_1_lane.html">Lane</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__osm_1_1osm.html#ad6f9860a4e2a7d86e640fe6ef9e8faf6">ToMaliput</a> (const lanelet::Lanelet &amp;lanelet, const lanelet::LaneletLayer &amp;map_layer)</td></tr>
+<tr class="memdesc:ad6f9860a4e2a7d86e640fe6ef9e8faf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a lanelet::Lanelet to a <a class="el" href="structmaliput__osm_1_1osm_1_1_lane.html" title="A lane in an Lanelet2-OSM road.">maliput_osm::osm::Lane</a>.  <a href="namespacemaliput__osm_1_1osm.html#ad6f9860a4e2a7d86e640fe6ef9e8faf6">More...</a><br /></td></tr>
+<tr class="separator:ad6f9860a4e2a7d86e640fe6ef9e8faf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a2dd9e2f6463a9b96470f9ecc6f8a2b4a"></a>
@@ -154,8 +154,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8cfc52a9fc41d714f42f0d08c4e73d4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cfc52a9fc41d714f42f0d08c4e73d4d">&#9670;&nbsp;</a></span>ToMaliput() <span class="overload">[2/2]</span></h2>
+<a id="ad6f9860a4e2a7d86e640fe6ef9e8faf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6f9860a4e2a7d86e640fe6ef9e8faf6">&#9670;&nbsp;</a></span>ToMaliput() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -164,17 +164,28 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="structmaliput__osm_1_1osm_1_1_lane.html">Lane</a> ToMaliput </td>
           <td>(</td>
           <td class="paramtype">const lanelet::Lanelet &amp;&#160;</td>
-          <td class="paramname"><em>lanelet</em></td><td>)</td>
+          <td class="paramname"><em>lanelet</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const lanelet::LaneletLayer &amp;&#160;</td>
+          <td class="paramname"><em>map_layer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Converts a lanelet::Lanelet to a <a class="el" href="structmaliput__osm_1_1osm_1_1_lane.html" title="A lane in an Lanelet2-OSM road.">maliput_osm::osm::Lane</a>. </p>
-<p><a class="el" href="structmaliput__osm_1_1osm_1_1_lane.html" title="A lane in an Lanelet2-OSM road.">maliput_osm::osm::Lane</a> is an struct with several fields. This method only populates the id, left and right fields.</p>
+<p><a class="el" href="structmaliput__osm_1_1osm_1_1_lane.html" title="A lane in an Lanelet2-OSM road.">maliput_osm::osm::Lane</a> is an struct with several fields.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">lanelet</td><td>The lanelet::Lanelet to convert. </td></tr>
+    <tr><td class="paramname">map_layer</td><td>lanelet::LaneletLayer for finding adjacent lanelets. </td></tr>
   </table>
   </dd>
 </dl>

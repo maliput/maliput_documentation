@@ -97,10 +97,12 @@ $(document).ready(function(){initNavTree('conversions_8cc.html',''); initResizab
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="conversions_8h.html">maliput_osm/osm/conversions.h</a>&quot;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;optional&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for conversions.cc:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="conversions_8cc__incl.svg" width="631" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="conversions_8cc__incl.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -116,9 +118,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a2dd9e2f6463a9b96470f9ecc6f8a2b4a"><td class="memItemLeft" align="right" valign="top">LineString3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__osm_1_1osm.html#a2dd9e2f6463a9b96470f9ecc6f8a2b4a">ToMaliput</a> (const lanelet::ConstLineString3d &amp;line_string)</td></tr>
 <tr class="memdesc:a2dd9e2f6463a9b96470f9ecc6f8a2b4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a lanelet::ConstLineString3d to a maliput_sparse::geometry::LineString3d.  <a href="namespacemaliput__osm_1_1osm.html#a2dd9e2f6463a9b96470f9ecc6f8a2b4a">More...</a><br /></td></tr>
 <tr class="separator:a2dd9e2f6463a9b96470f9ecc6f8a2b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cfc52a9fc41d714f42f0d08c4e73d4d"><td class="memItemLeft" align="right" valign="top">Lane&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__osm_1_1osm.html#a8cfc52a9fc41d714f42f0d08c4e73d4d">ToMaliput</a> (const lanelet::Lanelet &amp;lanelet)</td></tr>
-<tr class="memdesc:a8cfc52a9fc41d714f42f0d08c4e73d4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a lanelet::Lanelet to a <a class="el" href="structmaliput__osm_1_1osm_1_1_lane.html" title="A lane in an Lanelet2-OSM road.">maliput_osm::osm::Lane</a>.  <a href="namespacemaliput__osm_1_1osm.html#a8cfc52a9fc41d714f42f0d08c4e73d4d">More...</a><br /></td></tr>
-<tr class="separator:a8cfc52a9fc41d714f42f0d08c4e73d4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6f9860a4e2a7d86e640fe6ef9e8faf6"><td class="memItemLeft" align="right" valign="top">Lane&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__osm_1_1osm.html#ad6f9860a4e2a7d86e640fe6ef9e8faf6">ToMaliput</a> (const lanelet::Lanelet &amp;lanelet, const lanelet::LaneletLayer &amp;map_layer)</td></tr>
+<tr class="memdesc:ad6f9860a4e2a7d86e640fe6ef9e8faf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a lanelet::Lanelet to a <a class="el" href="structmaliput__osm_1_1osm_1_1_lane.html" title="A lane in an Lanelet2-OSM road.">maliput_osm::osm::Lane</a>.  <a href="namespacemaliput__osm_1_1osm.html#ad6f9860a4e2a7d86e640fe6ef9e8faf6">More...</a><br /></td></tr>
+<tr class="separator:ad6f9860a4e2a7d86e640fe6ef9e8faf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

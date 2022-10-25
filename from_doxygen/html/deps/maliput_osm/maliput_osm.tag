@@ -66,8 +66,8 @@
       <type>Lane</type>
       <name>ToMaliput</name>
       <anchorfile>namespacemaliput__osm_1_1osm.html</anchorfile>
-      <anchor>a8cfc52a9fc41d714f42f0d08c4e73d4d</anchor>
-      <arglist>(const lanelet::Lanelet &amp;lanelet)</arglist>
+      <anchor>ad6f9860a4e2a7d86e640fe6ef9e8faf6</anchor>
+      <arglist>(const lanelet::Lanelet &amp;lanelet, const lanelet::LaneletLayer &amp;map_layer)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -88,8 +88,8 @@
       <type>Lane</type>
       <name>ToMaliput</name>
       <anchorfile>namespacemaliput__osm_1_1osm.html</anchorfile>
-      <anchor>a8cfc52a9fc41d714f42f0d08c4e73d4d</anchor>
-      <arglist>(const lanelet::Lanelet &amp;lanelet)</arglist>
+      <anchor>ad6f9860a4e2a7d86e640fe6ef9e8faf6</anchor>
+      <arglist>(const lanelet::Lanelet &amp;lanelet, const lanelet::LaneletLayer &amp;map_layer)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -707,8 +707,8 @@
       <type>Lane</type>
       <name>ToMaliput</name>
       <anchorfile>namespacemaliput__osm_1_1osm.html</anchorfile>
-      <anchor>a8cfc52a9fc41d714f42f0d08c4e73d4d</anchor>
-      <arglist>(const lanelet::Lanelet &amp;lanelet)</arglist>
+      <anchor>ad6f9860a4e2a7d86e640fe6ef9e8faf6</anchor>
+      <arglist>(const lanelet::Lanelet &amp;lanelet, const lanelet::LaneletLayer &amp;map_layer)</arglist>
     </member>
   </compound>
   <compound kind="namespace">
