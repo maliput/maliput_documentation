@@ -93,6 +93,13 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>id_gen.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_osm/src/utilities/</path>
+    <filename>id__gen_8h.html</filename>
+    <class kind="class">utilities::IdGen</class>
+    <namespace>utilities</namespace>
+  </compound>
+  <compound kind="file">
     <name>lane.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_osm/src/maliput_osm/osm/</path>
     <filename>lane_8h.html</filename>
@@ -113,7 +120,9 @@
     <name>osm_manager.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_osm/src/maliput_osm/osm/</path>
     <filename>osm__manager_8h.html</filename>
+    <includes id="lane_8h" name="lane.h" local="yes" imported="no">maliput_osm/osm/lane.h</includes>
     <includes id="segment_8h" name="segment.h" local="yes" imported="no">maliput_osm/osm/segment.h</includes>
+    <includes id="id__gen_8h" name="id_gen.h" local="yes" imported="no">utilities/id_gen.h</includes>
     <class kind="struct">maliput_osm::osm::ParserConfig</class>
     <class kind="class">maliput_osm::osm::OSMManager</class>
     <namespace>maliput_osm</namespace>
@@ -404,6 +413,43 @@
       <anchorfile>structmaliput__osm_1_1builder_1_1_builder_configuration.html</anchorfile>
       <anchor>a4e2d2a2119b6d3bff5f1ed7d08c4336e</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>utilities::IdGen</name>
+    <filename>classutilities_1_1_id_gen.html</filename>
+    <templarg></templarg>
+    <member kind="function">
+      <type></type>
+      <name>IdGen</name>
+      <anchorfile>classutilities_1_1_id_gen.html</anchorfile>
+      <anchor>ab02db39756a61e04952db148722acbb5</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>T</type>
+      <name>operator()</name>
+      <anchorfile>classutilities_1_1_id_gen.html</anchorfile>
+      <anchor>aaba2db6079c528211c6b095cdb08fcf6</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>IdGen&lt; Segment::Id &gt;</name>
+    <filename>classutilities_1_1_id_gen.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>IdGen</name>
+      <anchorfile>classutilities_1_1_id_gen.html</anchorfile>
+      <anchor>ab02db39756a61e04952db148722acbb5</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>Segment::Id</type>
+      <name>operator()</name>
+      <anchorfile>classutilities_1_1_id_gen.html</anchorfile>
+      <anchor>aaba2db6079c528211c6b095cdb08fcf6</anchor>
+      <arglist>()</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -754,6 +800,7 @@
   <compound kind="namespace">
     <name>utilities</name>
     <filename>namespaceutilities.html</filename>
+    <class kind="class">utilities::IdGen</class>
     <member kind="function">
       <type>std::string</type>
       <name>FindOSMResource</name>

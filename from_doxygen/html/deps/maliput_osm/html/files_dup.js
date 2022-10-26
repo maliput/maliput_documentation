@@ -8,6 +8,9 @@ var files_dup =
     [ "builder_configuration_for_osm.h", "builder__configuration__for__osm_8h.html", "builder__configuration__for__osm_8h" ],
     [ "conversions.cc", "conversions_8cc.html", "conversions_8cc" ],
     [ "conversions.h", "conversions_8h.html", "conversions_8h" ],
+    [ "id_gen.h", "id__gen_8h.html", [
+      [ "IdGen", "classutilities_1_1_id_gen.html", "classutilities_1_1_id_gen" ]
+    ] ],
     [ "lane.h", "lane_8h.html", [
       [ "Lane", "structmaliput__osm_1_1osm_1_1_lane.html", "structmaliput__osm_1_1osm_1_1_lane" ]
     ] ],

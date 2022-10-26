@@ -6,6 +6,7 @@ var classmaliput__sparse_1_1geometry_1_1_lane_geometry =
       [ "kRightBoundary", "classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#aacfcda58737708a1259e8728ef82c18ca68cc1cb97b5fb6bb171b7a0899c05a81", null ]
     ] ],
     [ "LaneGeometry", "classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#adc5cb4ec728393309ac4252f18bd2a69", null ],
+    [ "LaneGeometry", "classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#a011c5df478ebc49713037964dcbc9f5f", null ],
     [ "~LaneGeometry", "classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#a5cc9a9eb9630f04b271c6ef59881b70f", null ],
     [ "ArcLength", "classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#a4adca4736168e442abbadf0840c04712", null ],
     [ "centerline", "classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#abb2a5ba4484b9f4df2c9ae50a0bf691d", null ],
@@ -18,6 +19,7 @@ var classmaliput__sparse_1_1geometry_1_1_lane_geometry =
     [ "p1", "classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#a4f07ac9d9bda6a50715b59b3c53c356f", null ],
     [ "RBounds", "classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#ab2b00384155d0f6a39fae4931d44f22a", null ],
     [ "scale_length", "classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#a4f2b663d219f340450721354e4903c48", null ],
+    [ "ToLateralPos", "classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#a56fe678aad14275c97c653a48092bc3a", null ],
     [ "W", "classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#a305e76b9da27e04d3f15f25bb6477d70", null ],
     [ "WDot", "classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#aac451cc1c812c306f3d0c9d2ddd9fe58", null ],
     [ "WDot", "classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#a3d2a002c947072be1ea0d5e81e337a42", null ],

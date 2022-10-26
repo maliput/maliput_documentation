@@ -670,6 +670,13 @@
     </member>
     <member kind="function">
       <type></type>
+      <name>LaneGeometry</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_lane_geometry.html</anchorfile>
+      <anchor>a011c5df478ebc49713037964dcbc9f5f</anchor>
+      <arglist>(const LineString3d &amp;center, const LineString3d &amp;left, const LineString3d &amp;right, double linear_tolerance, double scale_length)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
       <name>~LaneGeometry</name>
       <anchorfile>classmaliput__sparse_1_1geometry_1_1_lane_geometry.html</anchorfile>
       <anchor>a5cc9a9eb9630f04b271c6ef59881b70f</anchor>
@@ -773,6 +780,13 @@
       <anchor>a4a20b647dee5c8da6decbf879d8c0606</anchor>
       <arglist>(const LineStringType &amp;line_string_type, double p) const</arglist>
     </member>
+    <member kind="function">
+      <type>maliput::math::Vector3</type>
+      <name>ToLateralPos</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_lane_geometry.html</anchorfile>
+      <anchor>a56fe678aad14275c97c653a48092bc3a</anchor>
+      <arglist>(const LineStringType &amp;line_string_type, double p) const</arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>maliput_sparse::builder::LaneGeometryBuilder</name>
@@ -798,6 +812,13 @@
       <anchorfile>classmaliput__sparse_1_1builder_1_1_lane_geometry_builder.html</anchorfile>
       <anchor>af2541b8f1eac83ace94a9928427512ae</anchor>
       <arglist>(const maliput_sparse::geometry::LineString3d &amp;right_line_string)</arglist>
+    </member>
+    <member kind="function">
+      <type>LaneGeometryBuilder &amp;</type>
+      <name>CenterLineString</name>
+      <anchorfile>classmaliput__sparse_1_1builder_1_1_lane_geometry_builder.html</anchorfile>
+      <anchor>ac6fc040c20efff4a838de649c90caba4</anchor>
+      <arglist>(const maliput_sparse::geometry::LineString3d &amp;center_line_string)</arglist>
     </member>
     <member kind="function">
       <type>LaneBuilder &amp;</type>

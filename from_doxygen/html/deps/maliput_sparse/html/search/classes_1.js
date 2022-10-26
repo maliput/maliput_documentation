@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['closestpointresult_133',['ClosestPointResult',['../structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html',1,'maliput_sparse::geometry::utility']]]
+  ['closestpointresult_135',['ClosestPointResult',['../structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html',1,'maliput_sparse::geometry::utility']]]
 ];
