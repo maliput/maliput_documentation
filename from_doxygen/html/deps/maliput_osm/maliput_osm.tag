@@ -66,8 +66,8 @@
       <type>Lane</type>
       <name>ToMaliput</name>
       <anchorfile>namespacemaliput__osm_1_1osm.html</anchorfile>
-      <anchor>ad6f9860a4e2a7d86e640fe6ef9e8faf6</anchor>
-      <arglist>(const lanelet::Lanelet &amp;lanelet, const lanelet::LaneletLayer &amp;map_layer)</arglist>
+      <anchor>ad9e6ae7e2ea5b2d18b9564cfe80bf289</anchor>
+      <arglist>(const lanelet::Lanelet &amp;lanelet, const lanelet::LaneletMapPtr &amp;map)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -88,8 +88,8 @@
       <type>Lane</type>
       <name>ToMaliput</name>
       <anchorfile>namespacemaliput__osm_1_1osm.html</anchorfile>
-      <anchor>ad6f9860a4e2a7d86e640fe6ef9e8faf6</anchor>
-      <arglist>(const lanelet::Lanelet &amp;lanelet, const lanelet::LaneletLayer &amp;map_layer)</arglist>
+      <anchor>ad9e6ae7e2ea5b2d18b9564cfe80bf289</anchor>
+      <arglist>(const lanelet::Lanelet &amp;lanelet, const lanelet::LaneletMapPtr &amp;map)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -505,17 +505,17 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>std::unordered_set&lt; Id &gt;</type>
+      <type>std::unordered_map&lt; Id, maliput::api::LaneEnd::Which &gt;</type>
       <name>successors</name>
       <anchorfile>structmaliput__osm_1_1osm_1_1_lane.html</anchorfile>
-      <anchor>a68de60c018cd602a17726d8cf2821bc0</anchor>
+      <anchor>a3fda6ec28db5cbf931651d820496ec3f</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>std::unordered_set&lt; Id &gt;</type>
+      <type>std::unordered_map&lt; Id, maliput::api::LaneEnd::Which &gt;</type>
       <name>predecessors</name>
       <anchorfile>structmaliput__osm_1_1osm_1_1_lane.html</anchorfile>
-      <anchor>abba8d397dd3d480365ffcf355c60f1bc</anchor>
+      <anchor>abc6f8833cdf4e68ad42358b87fe5d4c3</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -753,8 +753,8 @@
       <type>Lane</type>
       <name>ToMaliput</name>
       <anchorfile>namespacemaliput__osm_1_1osm.html</anchorfile>
-      <anchor>ad6f9860a4e2a7d86e640fe6ef9e8faf6</anchor>
-      <arglist>(const lanelet::Lanelet &amp;lanelet, const lanelet::LaneletLayer &amp;map_layer)</arglist>
+      <anchor>ad9e6ae7e2ea5b2d18b9564cfe80bf289</anchor>
+      <arglist>(const lanelet::Lanelet &amp;lanelet, const lanelet::LaneletMapPtr &amp;map)</arglist>
     </member>
   </compound>
   <compound kind="namespace">
