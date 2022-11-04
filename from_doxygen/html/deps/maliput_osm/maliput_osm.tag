@@ -414,6 +414,41 @@
       <anchor>a4e2d2a2119b6d3bff5f1ed7d08c4336e</anchor>
       <arglist></arglist>
     </member>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>rule_registry</name>
+      <anchorfile>structmaliput__osm_1_1builder_1_1_builder_configuration.html</anchorfile>
+      <anchor>a84d5aaac8f3a92928a1af39bc73ee8b7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>road_rule_book</name>
+      <anchorfile>structmaliput__osm_1_1builder_1_1_builder_configuration.html</anchorfile>
+      <anchor>a127efa8b04191c300170ff5f1a109672</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>traffic_light_book</name>
+      <anchorfile>structmaliput__osm_1_1builder_1_1_builder_configuration.html</anchorfile>
+      <anchor>a8a514e58c74e866584a8b842b6fb96a1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>phase_ring_book</name>
+      <anchorfile>structmaliput__osm_1_1builder_1_1_builder_configuration.html</anchorfile>
+      <anchor>afeae0ebf01539011ff5bc82919390063</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>intersection_book</name>
+      <anchorfile>structmaliput__osm_1_1builder_1_1_builder_configuration.html</anchorfile>
+      <anchor>a8d9c027b5448b0ee9060b1012fc8716a</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>utilities::IdGen</name>
