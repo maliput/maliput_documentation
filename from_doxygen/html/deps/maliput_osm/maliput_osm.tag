@@ -49,6 +49,23 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>connection.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_osm/src/maliput_osm/osm/</path>
+    <filename>connection_8cc.html</filename>
+    <includes id="connection_8h" name="connection.h" local="yes" imported="no">maliput_osm/osm/connection.h</includes>
+    <namespace>maliput_osm</namespace>
+    <namespace>maliput_osm::osm</namespace>
+  </compound>
+  <compound kind="file">
+    <name>connection.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_osm/src/maliput_osm/osm/</path>
+    <filename>connection_8h.html</filename>
+    <includes id="lane_8h" name="lane.h" local="yes" imported="no">maliput_osm/osm/lane.h</includes>
+    <class kind="struct">maliput_osm::osm::Connection</class>
+    <namespace>maliput_osm</namespace>
+    <namespace>maliput_osm::osm</namespace>
+  </compound>
+  <compound kind="file">
     <name>conversions.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_osm/src/maliput_osm/osm/</path>
     <filename>conversions_8cc.html</filename>
@@ -100,9 +117,18 @@
     <namespace>utilities</namespace>
   </compound>
   <compound kind="file">
+    <name>lane.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_osm/src/maliput_osm/osm/</path>
+    <filename>lane_8cc.html</filename>
+    <includes id="lane_8h" name="lane.h" local="yes" imported="no">maliput_osm/osm/lane.h</includes>
+    <namespace>maliput_osm</namespace>
+    <namespace>maliput_osm::osm</namespace>
+  </compound>
+  <compound kind="file">
     <name>lane.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_osm/src/maliput_osm/osm/</path>
     <filename>lane_8h.html</filename>
+    <class kind="struct">maliput_osm::osm::LaneEnd</class>
     <class kind="struct">maliput_osm::osm::Lane</class>
     <namespace>maliput_osm</namespace>
     <namespace>maliput_osm::osm</namespace>
@@ -120,6 +146,7 @@
     <name>osm_manager.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_osm/src/maliput_osm/osm/</path>
     <filename>osm__manager_8h.html</filename>
+    <includes id="connection_8h" name="connection.h" local="yes" imported="no">maliput_osm/osm/connection.h</includes>
     <includes id="lane_8h" name="lane.h" local="yes" imported="no">maliput_osm/osm/lane.h</includes>
     <includes id="segment_8h" name="segment.h" local="yes" imported="no">maliput_osm/osm/segment.h</includes>
     <includes id="id__gen_8h" name="id_gen.h" local="yes" imported="no">utilities/id_gen.h</includes>
@@ -450,6 +477,31 @@
       <arglist></arglist>
     </member>
   </compound>
+  <compound kind="struct">
+    <name>maliput_osm::osm::Connection</name>
+    <filename>structmaliput__osm_1_1osm_1_1_connection.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmaliput__osm_1_1osm_1_1_connection.html</anchorfile>
+      <anchor>a833f93a7f77825683a32f4399b4f6cb5</anchor>
+      <arglist>(const Connection &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>LaneEnd</type>
+      <name>from</name>
+      <anchorfile>structmaliput__osm_1_1osm_1_1_connection.html</anchorfile>
+      <anchor>ad2c221b879232ecb3f760f348d1ca6dd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>LaneEnd</type>
+      <name>to</name>
+      <anchorfile>structmaliput__osm_1_1osm_1_1_connection.html</anchorfile>
+      <anchor>a44fd5bce16a808b2b8c1e01282850450</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
   <compound kind="class">
     <name>utilities::IdGen</name>
     <filename>classutilities_1_1_id_gen.html</filename>
@@ -481,6 +533,24 @@
     </member>
     <member kind="function">
       <type>Segment::Id</type>
+      <name>operator()</name>
+      <anchorfile>classutilities_1_1_id_gen.html</anchorfile>
+      <anchor>aaba2db6079c528211c6b095cdb08fcf6</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>IdGen&lt; std::string &gt;</name>
+    <filename>classutilities_1_1_id_gen.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>IdGen</name>
+      <anchorfile>classutilities_1_1_id_gen.html</anchorfile>
+      <anchor>ab02db39756a61e04952db148722acbb5</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
       <name>operator()</name>
       <anchorfile>classutilities_1_1_id_gen.html</anchorfile>
       <anchor>aaba2db6079c528211c6b095cdb08fcf6</anchor>
@@ -540,17 +610,51 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>std::unordered_map&lt; Id, maliput::api::LaneEnd::Which &gt;</type>
+      <type>std::unordered_map&lt; Id, LaneEnd &gt;</type>
       <name>successors</name>
       <anchorfile>structmaliput__osm_1_1osm_1_1_lane.html</anchorfile>
-      <anchor>a3fda6ec28db5cbf931651d820496ec3f</anchor>
+      <anchor>a1b09c03ad7c8835db86f139a2b1340b4</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>std::unordered_map&lt; Id, maliput::api::LaneEnd::Which &gt;</type>
+      <type>std::unordered_map&lt; Id, LaneEnd &gt;</type>
       <name>predecessors</name>
       <anchorfile>structmaliput__osm_1_1osm_1_1_lane.html</anchorfile>
-      <anchor>abc6f8833cdf4e68ad42358b87fe5d4c3</anchor>
+      <anchor>aa8ff3c5de499ebd7f64a55e4f5509a73</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput_osm::osm::LaneEnd</name>
+    <filename>structmaliput__osm_1_1osm_1_1_lane_end.html</filename>
+    <member kind="enumeration">
+      <type></type>
+      <name>Which</name>
+      <anchorfile>structmaliput__osm_1_1osm_1_1_lane_end.html</anchorfile>
+      <anchor>a76832237d5d837232469a6c46f1eeff2</anchor>
+      <arglist></arglist>
+      <enumvalue file="structmaliput__osm_1_1osm_1_1_lane_end.html" anchor="a76832237d5d837232469a6c46f1eeff2a127f8e8149d57253ad94c9d2c752113d">kStart</enumvalue>
+      <enumvalue file="structmaliput__osm_1_1osm_1_1_lane_end.html" anchor="a76832237d5d837232469a6c46f1eeff2a8941714ff8251a03708025c060c46556">kFinish</enumvalue>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmaliput__osm_1_1osm_1_1_lane_end.html</anchorfile>
+      <anchor>a92225ee3cd7b5d5fbd10c7dd8916cc2d</anchor>
+      <arglist>(const LaneEnd &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>lane_id</name>
+      <anchorfile>structmaliput__osm_1_1osm_1_1_lane_end.html</anchorfile>
+      <anchor>afe960e19331a9f98adb8ac049563162f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Which</type>
+      <name>end</name>
+      <anchorfile>structmaliput__osm_1_1osm_1_1_lane_end.html</anchorfile>
+      <anchor>a23aa4c5b3ea898434ccf593ca47c56b1</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -576,6 +680,13 @@
       <name>GetOSMSegments</name>
       <anchorfile>classmaliput__osm_1_1osm_1_1_o_s_m_manager.html</anchorfile>
       <anchor>ab6d85e0b1b4ad4631b8a538badfd730a</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::vector&lt; osm::Connection &gt; &amp;</type>
+      <name>GetOSMConnections</name>
+      <anchorfile>classmaliput__osm_1_1osm_1_1_o_s_m_manager.html</anchorfile>
+      <anchor>a97060f1d35fb7b53de47afb9ae38c04f</anchor>
       <arglist>() const</arglist>
     </member>
   </compound>
@@ -773,7 +884,9 @@
     <name>maliput_osm::osm</name>
     <filename>namespacemaliput__osm_1_1osm.html</filename>
     <namespace>maliput_osm::osm::test</namespace>
+    <class kind="struct">maliput_osm::osm::Connection</class>
     <class kind="struct">maliput_osm::osm::Lane</class>
+    <class kind="struct">maliput_osm::osm::LaneEnd</class>
     <class kind="class">maliput_osm::osm::OSMManager</class>
     <class kind="struct">maliput_osm::osm::ParserConfig</class>
     <class kind="struct">maliput_osm::osm::Segment</class>

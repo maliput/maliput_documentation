@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['_7eosmmanager_81',['~OSMManager',['../classmaliput__osm_1_1osm_1_1_o_s_m_manager.html#abe1e81a5618d733fb1f91f3921fe6188',1,'maliput_osm::osm::OSMManager']]]
+  ['utilities_91',['utilities',['../namespaceutilities.html',1,'']]],
+  ['utilities_2ecc_92',['utilities.cc',['../utilities_8cc.html',1,'']]],
+  ['utilities_2eh_93',['utilities.h',['../utilities_8h.html',1,'']]]
 ];

@@ -6,12 +6,18 @@ var files_dup =
     ] ],
     [ "builder_configuration_for_osm.cc", "builder__configuration__for__osm_8cc.html", "builder__configuration__for__osm_8cc" ],
     [ "builder_configuration_for_osm.h", "builder__configuration__for__osm_8h.html", "builder__configuration__for__osm_8h" ],
+    [ "connection.cc", "connection_8cc.html", null ],
+    [ "connection.h", "connection_8h.html", [
+      [ "Connection", "structmaliput__osm_1_1osm_1_1_connection.html", "structmaliput__osm_1_1osm_1_1_connection" ]
+    ] ],
     [ "conversions.cc", "conversions_8cc.html", "conversions_8cc" ],
     [ "conversions.h", "conversions_8h.html", "conversions_8h" ],
     [ "id_gen.h", "id__gen_8h.html", [
       [ "IdGen", "classutilities_1_1_id_gen.html", "classutilities_1_1_id_gen" ]
     ] ],
+    [ "lane.cc", "lane_8cc.html", null ],
     [ "lane.h", "lane_8h.html", [
+      [ "LaneEnd", "structmaliput__osm_1_1osm_1_1_lane_end.html", "structmaliput__osm_1_1osm_1_1_lane_end" ],
       [ "Lane", "structmaliput__osm_1_1osm_1_1_lane.html", "structmaliput__osm_1_1osm_1_1_lane" ]
     ] ],
     [ "osm_manager.cc", "osm__manager_8cc.html", null ],

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['idgen_83',['IdGen',['../classutilities_1_1_id_gen.html',1,'utilities']]],
-  ['idgen_3c_20segment_3a_3aid_20_3e_84',['IdGen&lt; Segment::Id &gt;',['../classutilities_1_1_id_gen.html',1,'utilities']]]
+  ['connection_97',['Connection',['../structmaliput__osm_1_1osm_1_1_connection.html',1,'maliput_osm::osm']]]
 ];

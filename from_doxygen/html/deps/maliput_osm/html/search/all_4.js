@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['getbuilderconfigurationfor_12',['GetBuilderConfigurationFor',['../namespacemaliput__osm_1_1test.html#a920ce3a168a48b551f0633183d644b36',1,'maliput_osm::test']]],
-  ['getosmsegments_13',['GetOSMSegments',['../classmaliput__osm_1_1osm_1_1_o_s_m_manager.html#ab6d85e0b1b4ad4631b8a538badfd730a',1,'maliput_osm::osm::OSMManager']]]
+  ['findosmresource_14',['FindOSMResource',['../namespaceutilities.html#a9bb580d9df1363ffd23feaa21d15ca30',1,'utilities']]],
+  ['from_15',['from',['../structmaliput__osm_1_1osm_1_1_connection.html#ad2c221b879232ecb3f760f348d1ca6dd',1,'maliput_osm::osm::Connection']]],
+  ['frommap_16',['FromMap',['../structmaliput__osm_1_1builder_1_1_builder_configuration.html#a5f21ab98e69b449616f5741f2afd98fe',1,'maliput_osm::builder::BuilderConfiguration']]]
 ];
