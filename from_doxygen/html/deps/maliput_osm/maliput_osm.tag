@@ -73,6 +73,13 @@
     <namespace>maliput_osm</namespace>
     <namespace>maliput_osm::osm</namespace>
     <member kind="function">
+      <type>std::unordered_map&lt; Lane::Id, LaneEnd &gt;</type>
+      <name>FilterOutByDirection</name>
+      <anchorfile>namespacemaliput__osm_1_1osm.html</anchorfile>
+      <anchor>a06367aa18533c92595ef407e3664d023</anchor>
+      <arglist>(const lanelet::Lanelet &amp;lanelet, const LaneEnd::Which &amp;lane_end_which, const std::unordered_map&lt; Lane::Id, LaneEnd &gt; &amp;connections, const lanelet::LaneletLayer &amp;lanelet_layer)</arglist>
+    </member>
+    <member kind="function">
       <type>LineString3d</type>
       <name>ToMaliput</name>
       <anchorfile>namespacemaliput__osm_1_1osm.html</anchorfile>
@@ -890,6 +897,13 @@
     <class kind="class">maliput_osm::osm::OSMManager</class>
     <class kind="struct">maliput_osm::osm::ParserConfig</class>
     <class kind="struct">maliput_osm::osm::Segment</class>
+    <member kind="function">
+      <type>std::unordered_map&lt; Lane::Id, LaneEnd &gt;</type>
+      <name>FilterOutByDirection</name>
+      <anchorfile>namespacemaliput__osm_1_1osm.html</anchorfile>
+      <anchor>a06367aa18533c92595ef407e3664d023</anchor>
+      <arglist>(const lanelet::Lanelet &amp;lanelet, const LaneEnd::Which &amp;lane_end_which, const std::unordered_map&lt; Lane::Id, LaneEnd &gt; &amp;connections, const lanelet::LaneletLayer &amp;lanelet_layer)</arglist>
+    </member>
     <member kind="function">
       <type>LineString3d</type>
       <name>ToMaliput</name>
