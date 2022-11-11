@@ -8,6 +8,7 @@ var namespacemaliput_1_1common =
     [ "never_destroyed", "classmaliput_1_1common_1_1never__destroyed.html", "classmaliput_1_1common_1_1never__destroyed" ],
     [ "Passkey", "classmaliput_1_1common_1_1_passkey.html", null ],
     [ "Path", "classmaliput_1_1common_1_1_path.html", "classmaliput_1_1common_1_1_path" ],
+    [ "RangeValidator", "classmaliput_1_1common_1_1_range_validator.html", "classmaliput_1_1common_1_1_range_validator" ],
     [ "Serialize", "structmaliput_1_1common_1_1_serialize.html", "structmaliput_1_1common_1_1_serialize" ],
     [ "Sink", "classmaliput_1_1common_1_1_sink.html", "classmaliput_1_1common_1_1_sink" ],
     [ "SinkBase", "classmaliput_1_1common_1_1_sink_base.html", "classmaliput_1_1common_1_1_sink_base" ],

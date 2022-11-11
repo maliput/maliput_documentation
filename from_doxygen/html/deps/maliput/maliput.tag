@@ -1664,6 +1664,13 @@
       <anchor>a875fe3f91e3799f84dfd8f924014f323</anchor>
       <arglist>(pred, message)</arglist>
     </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_IS_IN_RANGE</name>
+      <anchorfile>maliput__throw_8h.html</anchorfile>
+      <anchor>a9246072f48581aeadb3330267e3e7516</anchor>
+      <arglist>(value, min_value, max_value)</arglist>
+    </member>
     <member kind="function">
       <type></type>
       <name>__attribute__</name>
@@ -3700,6 +3707,25 @@
       <anchor>a2da180d301577cd15c3869079ae73256</anchor>
       <arglist>(std::ostream &amp;os, const Quaternion &amp;q)</arglist>
     </member>
+  </compound>
+  <compound kind="file">
+    <name>range_validator.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/common/</path>
+    <filename>range__validator_8cc.html</filename>
+    <includes id="range__validator_8h" name="range_validator.h" local="yes" imported="no">maliput/common/range_validator.h</includes>
+    <includes id="assertion__error_8h" name="assertion_error.h" local="yes" imported="no">maliput/common/assertion_error.h</includes>
+    <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::common</namespace>
+  </compound>
+  <compound kind="file">
+    <name>range_validator.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/common/</path>
+    <filename>range__validator_8h.html</filename>
+    <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
+    <class kind="class">maliput::common::RangeValidator</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::common</namespace>
   </compound>
   <compound kind="file">
     <name>range_value_rule.cc</name>
@@ -9523,6 +9549,25 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::geometry_base::test::MockRoadGeometry</name>
+    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</filename>
+    <base>maliput::geometry_base::RoadGeometry</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</anchorfile>
+      <anchor>a630175fce2ba52f711f6ddd5f90fa0b2</anchor>
+      <arglist>(MockRoadGeometry)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MockRoadGeometry</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</anchorfile>
+      <anchor>a9a058c56a78887a7f2bb09b6db059369</anchor>
+      <arglist>(const api::RoadGeometryId &amp;id, double linear_tolerance, double angular_tolerance, double scale_length, const math::Vector3 &amp;inertial_to_backend_frame_translation)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::api::test::MockRoadGeometry</name>
     <filename>classmaliput_1_1api_1_1test_1_1_mock_road_geometry.html</filename>
     <base>maliput::api::RoadGeometry</base>
@@ -9581,25 +9626,6 @@
       <anchorfile>classmaliput_1_1api_1_1test_1_1_mock_road_geometry.html</anchorfile>
       <anchor>a6beb8686ee08aa396826e1bee33e0d70</anchor>
       <arglist>()</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::geometry_base::test::MockRoadGeometry</name>
-    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</filename>
-    <base>maliput::geometry_base::RoadGeometry</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</anchorfile>
-      <anchor>a630175fce2ba52f711f6ddd5f90fa0b2</anchor>
-      <arglist>(MockRoadGeometry)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MockRoadGeometry</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</anchorfile>
-      <anchor>a9a058c56a78887a7f2bb09b6db059369</anchor>
-      <arglist>(const api::RoadGeometryId &amp;id, double linear_tolerance, double angular_tolerance, double scale_length, const math::Vector3 &amp;inertial_to_backend_frame_translation)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -10726,6 +10752,38 @@
       <anchorfile>structmaliput_1_1api_1_1rules_1_1_range_value_rule_1_1_range.html</anchorfile>
       <anchor>a0b0ede69e8156eb97acc579b88e883de</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::common::RangeValidator</name>
+    <filename>classmaliput_1_1common_1_1_range_validator.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>RangeValidator</name>
+      <anchorfile>classmaliput_1_1common_1_1_range_validator.html</anchorfile>
+      <anchor>af6518bded703b00a831452218b94e3b8</anchor>
+      <arglist>()=delete</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>operator()</name>
+      <anchorfile>classmaliput_1_1common_1_1_range_validator.html</anchorfile>
+      <anchor>ae7adaac6a97bdb9af82a723393093ebc</anchor>
+      <arglist>(double s) const</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static RangeValidator</type>
+      <name>GetRelativeEpsilonValidator</name>
+      <anchorfile>classmaliput_1_1common_1_1_range_validator.html</anchorfile>
+      <anchor>a1f9f5663c5b393eecf9acaf81e520c55</anchor>
+      <arglist>(double min, double max, double tolerance, double epsilon)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static RangeValidator</type>
+      <name>GetAbsoluteEpsilonValidator</name>
+      <anchorfile>classmaliput_1_1common_1_1_range_validator.html</anchorfile>
+      <anchor>aaacd0bacdb4158753d2ccc310dd39b0e</anchor>
+      <arglist>(double min, double max, double tolerance, double epsilon)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -16758,6 +16816,7 @@
     <class kind="class">maliput::common::never_destroyed</class>
     <class kind="class">maliput::common::Passkey</class>
     <class kind="class">maliput::common::Path</class>
+    <class kind="class">maliput::common::RangeValidator</class>
     <class kind="struct">maliput::common::Serialize</class>
     <class kind="class">maliput::common::Sink</class>
     <class kind="class">maliput::common::SinkBase</class>

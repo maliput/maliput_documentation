@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['osmmanager_104',['OSMManager',['../classmaliput__osm_1_1osm_1_1_o_s_m_manager.html',1,'maliput_osm::osm']]]
+  ['lane_104',['Lane',['../structmaliput__osm_1_1osm_1_1_lane.html',1,'maliput_osm::osm']]],
+  ['laneend_105',['LaneEnd',['../structmaliput__osm_1_1osm_1_1_lane_end.html',1,'maliput_osm::osm']]]
 ];

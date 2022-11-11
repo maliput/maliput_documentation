@@ -9,7 +9,6 @@ var hierarchy =
     [ "LaneEnd", "structmaliput__sparse_1_1builder_1_1_lane_end.html", null ],
     [ "LaneGeometry", "classmaliput__sparse_1_1geometry_1_1_lane_geometry.html", null ],
     [ "LineString< CoordinateT, DistanceFunction >", "classmaliput__sparse_1_1geometry_1_1_line_string.html", null ],
-    [ "LineString< maliput::math::Vector3 >", "classmaliput__sparse_1_1geometry_1_1_line_string.html", null ],
     [ "NestedBuilder< ParentT >", "classmaliput__sparse_1_1builder_1_1details_1_1_nested_builder.html", null ],
     [ "NestedBuilder< JunctionBuilder >", "classmaliput__sparse_1_1builder_1_1details_1_1_nested_builder.html", [
       [ "SegmentBuilder", "classmaliput__sparse_1_1builder_1_1_segment_builder.html", null ]

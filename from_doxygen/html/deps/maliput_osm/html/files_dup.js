@@ -15,6 +15,9 @@ var files_dup =
     [ "id_gen.h", "id__gen_8h.html", [
       [ "IdGen", "classutilities_1_1_id_gen.html", "classutilities_1_1_id_gen" ]
     ] ],
+    [ "junction.h", "junction_8h.html", [
+      [ "Junction", "structmaliput__osm_1_1osm_1_1_junction.html", "structmaliput__osm_1_1osm_1_1_junction" ]
+    ] ],
     [ "lane.cc", "lane_8cc.html", null ],
     [ "lane.h", "lane_8h.html", [
       [ "LaneEnd", "structmaliput__osm_1_1osm_1_1_lane_end.html", "structmaliput__osm_1_1osm_1_1_lane_end" ],

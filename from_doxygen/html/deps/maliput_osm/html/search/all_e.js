@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['to_88',['to',['../structmaliput__osm_1_1osm_1_1_connection.html#a44fd5bce16a808b2b8c1e01282850450',1,'maliput_osm::osm::Connection']]],
-  ['tomaliput_89',['ToMaliput',['../namespacemaliput__osm_1_1osm.html#a2dd9e2f6463a9b96470f9ecc6f8a2b4a',1,'maliput_osm::osm::ToMaliput(const lanelet::ConstLineString3d &amp;line_string)'],['../namespacemaliput__osm_1_1osm.html#ad9e6ae7e2ea5b2d18b9564cfe80bf289',1,'maliput_osm::osm::ToMaliput(const lanelet::Lanelet &amp;lanelet, const lanelet::LaneletMapPtr &amp;map)']]],
-  ['tostringmap_90',['ToStringMap',['../structmaliput__osm_1_1builder_1_1_builder_configuration.html#ad9d7e276b16ed7a92b69859f2a00eacb',1,'maliput_osm::builder::BuilderConfiguration']]],
-  ['traffic_5flight_5fbook_91',['traffic_light_book',['../structmaliput__osm_1_1builder_1_1_builder_configuration.html#a8a514e58c74e866584a8b842b6fb96a1',1,'maliput_osm::builder::BuilderConfiguration']]]
+  ['scale_5flength_85',['scale_length',['../structmaliput__osm_1_1builder_1_1_builder_configuration.html#a0568514282864f36cccdacdbd14d57eb',1,'maliput_osm::builder::BuilderConfiguration']]],
+  ['segment_86',['Segment',['../structmaliput__osm_1_1osm_1_1_segment.html',1,'maliput_osm::osm']]],
+  ['segment_2eh_87',['segment.h',['../segment_8h.html',1,'']]],
+  ['segments_88',['segments',['../structmaliput__osm_1_1osm_1_1_junction.html#a72f5cca62aaa685110d4c51359116417',1,'maliput_osm::osm::Junction']]],
+  ['successors_89',['successors',['../structmaliput__osm_1_1osm_1_1_lane.html#a1b09c03ad7c8835db86f139a2b1340b4',1,'maliput_osm::osm::Lane']]]
 ];

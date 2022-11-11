@@ -1,5 +1,6 @@
 var maliput__throw_8h =
 [
+    [ "MALIPUT_IS_IN_RANGE", "maliput__throw_8h.html#a9246072f48581aeadb3330267e3e7516", null ],
     [ "MALIPUT_THROW_MESSAGE", "maliput__throw_8h.html#a9af2ab72834eff200a35d0543a16b383", null ],
     [ "MALIPUT_THROW_UNLESS", "maliput__throw_8h.html#a56a32f4447ccff45c6563d1302cc27ac", null ],
     [ "MALIPUT_VALIDATE", "maliput__throw_8h.html#a875fe3f91e3799f84dfd8f924014f323", null ],

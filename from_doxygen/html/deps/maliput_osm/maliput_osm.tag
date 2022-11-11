@@ -124,6 +124,15 @@
     <namespace>utilities</namespace>
   </compound>
   <compound kind="file">
+    <name>junction.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_osm/src/maliput_osm/osm/</path>
+    <filename>junction_8h.html</filename>
+    <includes id="segment_8h" name="segment.h" local="yes" imported="no">maliput_osm/osm/segment.h</includes>
+    <class kind="struct">maliput_osm::osm::Junction</class>
+    <namespace>maliput_osm</namespace>
+    <namespace>maliput_osm::osm</namespace>
+  </compound>
+  <compound kind="file">
     <name>lane.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_osm/src/maliput_osm/osm/</path>
     <filename>lane_8cc.html</filename>
@@ -154,6 +163,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_osm/src/maliput_osm/osm/</path>
     <filename>osm__manager_8h.html</filename>
     <includes id="connection_8h" name="connection.h" local="yes" imported="no">maliput_osm/osm/connection.h</includes>
+    <includes id="junction_8h" name="junction.h" local="yes" imported="no">maliput_osm/osm/junction.h</includes>
     <includes id="lane_8h" name="lane.h" local="yes" imported="no">maliput_osm/osm/lane.h</includes>
     <includes id="segment_8h" name="segment.h" local="yes" imported="no">maliput_osm/osm/segment.h</includes>
     <includes id="id__gen_8h" name="id_gen.h" local="yes" imported="no">utilities/id_gen.h</includes>
@@ -546,22 +556,36 @@
       <arglist>()</arglist>
     </member>
   </compound>
-  <compound kind="class">
-    <name>IdGen&lt; std::string &gt;</name>
-    <filename>classutilities_1_1_id_gen.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>IdGen</name>
-      <anchorfile>classutilities_1_1_id_gen.html</anchorfile>
-      <anchor>ab02db39756a61e04952db148722acbb5</anchor>
-      <arglist>()=default</arglist>
+  <compound kind="struct">
+    <name>maliput_osm::osm::Junction</name>
+    <filename>structmaliput__osm_1_1osm_1_1_junction.html</filename>
+    <member kind="typedef">
+      <type>std::string</type>
+      <name>Id</name>
+      <anchorfile>structmaliput__osm_1_1osm_1_1_junction.html</anchorfile>
+      <anchor>a1bd314c1e2831d74056207533d890511</anchor>
+      <arglist></arglist>
     </member>
     <member kind="function">
-      <type>std::string</type>
-      <name>operator()</name>
-      <anchorfile>classutilities_1_1_id_gen.html</anchorfile>
-      <anchor>aaba2db6079c528211c6b095cdb08fcf6</anchor>
-      <arglist>()</arglist>
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmaliput__osm_1_1osm_1_1_junction.html</anchorfile>
+      <anchor>a9e429d3c6b26c984bb6b19f9e9976939</anchor>
+      <arglist>(const Junction &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>Id</type>
+      <name>id</name>
+      <anchorfile>structmaliput__osm_1_1osm_1_1_junction.html</anchorfile>
+      <anchor>a150a709e86e7134d17cd063de6810b6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::unordered_map&lt; Segment::Id, Segment &gt;</type>
+      <name>segments</name>
+      <anchorfile>structmaliput__osm_1_1osm_1_1_junction.html</anchorfile>
+      <anchor>a72f5cca62aaa685110d4c51359116417</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -683,10 +707,10 @@
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>const std::unordered_map&lt; Segment::Id, Segment &gt; &amp;</type>
-      <name>GetOSMSegments</name>
+      <type>const std::unordered_map&lt; Junction::Id, Junction &gt; &amp;</type>
+      <name>GetOSMJunctions</name>
       <anchorfile>classmaliput__osm_1_1osm_1_1_o_s_m_manager.html</anchorfile>
-      <anchor>ab6d85e0b1b4ad4631b8a538badfd730a</anchor>
+      <anchor>ac709b7a356521879e87cc3e79e23a63d</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -892,6 +916,7 @@
     <filename>namespacemaliput__osm_1_1osm.html</filename>
     <namespace>maliput_osm::osm::test</namespace>
     <class kind="struct">maliput_osm::osm::Connection</class>
+    <class kind="struct">maliput_osm::osm::Junction</class>
     <class kind="struct">maliput_osm::osm::Lane</class>
     <class kind="struct">maliput_osm::osm::LaneEnd</class>
     <class kind="class">maliput_osm::osm::OSMManager</class>

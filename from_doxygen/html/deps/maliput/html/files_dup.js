@@ -202,6 +202,10 @@ var files_dup =
     [ "phases_compare.h", "phases__compare_8h.html", "phases__compare_8h" ],
     [ "quaternion.cc", "quaternion_8cc.html", "quaternion_8cc" ],
     [ "quaternion.h", "quaternion_8h.html", "quaternion_8h" ],
+    [ "range_validator.cc", "range__validator_8cc.html", null ],
+    [ "range_validator.h", "range__validator_8h.html", [
+      [ "RangeValidator", "classmaliput_1_1common_1_1_range_validator.html", "classmaliput_1_1common_1_1_range_validator" ]
+    ] ],
     [ "range_value_rule.cc", "range__value__rule_8cc.html", null ],
     [ "range_value_rule.h", "range__value__rule_8h.html", [
       [ "RangeValueRule", "classmaliput_1_1api_1_1rules_1_1_range_value_rule.html", "classmaliput_1_1api_1_1rules_1_1_range_value_rule" ],

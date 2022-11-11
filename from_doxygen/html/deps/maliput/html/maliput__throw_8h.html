@@ -130,6 +130,8 @@ Macros</h2></td></tr>
 <tr class="separator:a9af2ab72834eff200a35d0543a16b383"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a875fe3f91e3799f84dfd8f924014f323"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__throw_8h.html#a875fe3f91e3799f84dfd8f924014f323">MALIPUT_VALIDATE</a>(pred,  message)</td></tr>
 <tr class="separator:a875fe3f91e3799f84dfd8f924014f323"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9246072f48581aeadb3330267e3e7516"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__throw_8h.html#a9246072f48581aeadb3330267e3e7516">MALIPUT_IS_IN_RANGE</a>(value,  min_value,  max_value)</td></tr>
+<tr class="separator:a9246072f48581aeadb3330267e3e7516"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -137,6 +139,45 @@ Functions</h2></td></tr>
 <tr class="separator:a997f9f257b92b1ff8d991dc50da1e040"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a9246072f48581aeadb3330267e3e7516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9246072f48581aeadb3330267e3e7516">&#9670;&nbsp;</a></span>MALIPUT_IS_IN_RANGE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MALIPUT_IS_IN_RANGE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">value, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">min_value, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">max_value&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                                                             \</div>
+<div class="line">    MALIPUT_VALIDATE(value &gt;= min_value, std::to_string(value) + <span class="stringliteral">&quot; is less than &quot;</span> + std::to_string(min_value));    \</div>
+<div class="line">    MALIPUT_VALIDATE(value &lt;= max_value, std::to_string(value) + <span class="stringliteral">&quot; is greater than &quot;</span> + std::to_string(max_value)); \</div>
+<div class="line">  } <span class="keywordflow">while</span> (0)</div>
+</div><!-- fragment --><p>Throws if <code>value</code> is within [<code>min_value</code>; <code>max_value</code>]. It forwards the call to <a class="el" href="maliput__throw_8h.html#a875fe3f91e3799f84dfd8f924014f323">MALIPUT_VALIDATE()</a> with a customized string stating the error. </p>
+
+</div>
+</div>
 <a id="a9af2ab72834eff200a35d0543a16b383"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9af2ab72834eff200a35d0543a16b383">&#9670;&nbsp;</a></span>MALIPUT_THROW_MESSAGE</h2>
 
