@@ -95,7 +95,56 @@ $(document).ready(function(){initNavTree('builder_8h.html',''); initResizable();
 <div class="title">builder.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;cstddef&gt;</code><br />
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Builder API to construct a maliput::api::RoadGeometry.</p>
+<p>It allows simple construction of nested nodes in the maliput::api::RoadGeometry graph. The geometry details are expected to be computed / loaded outside this method to allow parallelization of that process. The graph construction is a synchronous operation though and requires that the geometry information is available when building maliput::api::Lanes.</p>
+<p>A super simple 2-lane dragway could be constructed as follows:</p>
+<div class="fragment"><div class="line"><span class="keyword">const</span> maliput::math:Vector3 start_left_lane_1{0., 0., 0.};</div>
+<div class="line"><span class="keyword">const</span> maliput::math:Vector3 end_left_lane_1{100., 0., 0.};</div>
+<div class="line"><span class="keyword">const</span> maliput::math:Vector3 start_right_lane_1{0., 5., 0.};</div>
+<div class="line"><span class="keyword">const</span> maliput::math:Vector3 end_right_lane_1{100., 5., 0.};</div>
+<div class="line"><span class="keyword">const</span> maliput::math:Vector3 start_left_lane_2 = start_right_lane_1;</div>
+<div class="line"><span class="keyword">const</span> maliput::math:Vector3 end_left_lane_2 = end_right_lane_1;</div>
+<div class="line"><span class="keyword">const</span> maliput::math:Vector3 start_right_lane_2{0., 10., 0.};</div>
+<div class="line"><span class="keyword">const</span> maliput::math:Vector3 end_right_lane_2{100., 10., 0.};</div>
+<div class="line"><span class="keyword">const</span> maliput::api::HBounds hbounds_l1{0., 5.};</div>
+<div class="line"><span class="keyword">const</span> maliput::api::HBounds hbounds_l2{0., 10.};</div>
+<div class="line"> </div>
+<div class="line"><a class="code" href="namespacemaliput__sparse_1_1geometry.html#accac056a7e29520263437aa7688469b1">LineString3d</a> left_line_string_1{start_left_lane_1, end_left_lane_1};</div>
+<div class="line"><a class="code" href="namespacemaliput__sparse_1_1geometry.html#accac056a7e29520263437aa7688469b1">LineString3d</a> right_line_string_1{start_right_lane_1, end_right_lane_1};</div>
+<div class="line"><a class="code" href="namespacemaliput__sparse_1_1geometry.html#accac056a7e29520263437aa7688469b1">LineString3d</a> left_line_string_2{start_left_lane_2, end_left_lane_2};</div>
+<div class="line"><a class="code" href="namespacemaliput__sparse_1_1geometry.html#accac056a7e29520263437aa7688469b1">LineString3d</a> right_line_string_2{start_right_lane_2, end_right_lane_2};</div>
+<div class="line"> </div>
+<div class="line">RoadGeometryBuilder rg_builder;</div>
+<div class="line">std::unique_ptr&lt;RoadGeometry&gt; road_geometry = RoadGeometryBuilder()</div>
+<div class="line">  .Id(<span class="stringliteral">&quot;two_lane_dragway&quot;</span>)</div>
+<div class="line">  .StartJunction()</div>
+<div class="line">    .Id(<span class="stringliteral">&quot;j0&quot;</span>)</div>
+<div class="line">    .StartSegment()</div>
+<div class="line">      .Id(<span class="stringliteral">&quot;j0_s0&quot;</span>)</div>
+<div class="line">      .StartLane()</div>
+<div class="line">        .Id(<span class="stringliteral">&quot;j0_s0_l1&quot;</span>)</div>
+<div class="line">        .HeightBounds(hbounds_l1)</div>
+<div class="line">        .StartLaneGeometry()</div>
+<div class="line">          .LeftLineString(left_line_string_1)</div>
+<div class="line">          .RightLineString(right_line_string_1)</div>
+<div class="line">        .EndLaneGeometry()</div>
+<div class="line">      .EndLane()</div>
+<div class="line">      .StartLane()</div>
+<div class="line">        .Id(<span class="stringliteral">&quot;j0_s0_l2&quot;</span>)</div>
+<div class="line">        .HeightBounds(hbounds_l2)</div>
+<div class="line">        .StartLaneGeometry()</div>
+<div class="line">          .LeftLineString(left_line_string_2)</div>
+<div class="line">          .RightLineString(right_line_string_2)</div>
+<div class="line">        .EndLaneGeometry()</div>
+<div class="line">      .EndLane()</div>
+<div class="line">    .EndSegment()</div>
+<div class="line">  .EndJunction()</div>
+<div class="line">  .StartBranchPoints()</div>
+<div class="line">  .EndBranchPoints()</div>
+<div class="line">  .Build();</div>
+</div><!-- fragment --><p>{cpp} </p>
+</div><div class="textblock"><code>#include &lt;cstddef&gt;</code><br />
 <code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;map&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
@@ -167,6 +216,7 @@ Namespaces</h2></td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="anamespacemaliput__sparse_1_1geometry_html_accac056a7e29520263437aa7688469b1"><div class="ttname"><a href="namespacemaliput__sparse_1_1geometry.html#accac056a7e29520263437aa7688469b1">maliput_sparse::geometry::LineString3d</a></div><div class="ttdeci">LineString&lt; maliput::math::Vector3 &gt; LineString3d</div><div class="ttdef"><b>Definition:</b> line_string.h:157</div></div>
 <!-- HTML footer for doxygen 1.8.15 -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

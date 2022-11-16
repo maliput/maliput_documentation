@@ -8505,8 +8505,8 @@
       <type>def</type>
       <name>__init__</name>
       <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_multilane.html</anchorfile>
-      <anchor>a32c3c4ead85530b1aefbb5e61f1d50fb</anchor>
-      <arglist>(self, file_path, name=py_trees.common.Name.AUTO_GENERATED)</arglist>
+      <anchor>a766a82d59d6655a17d8f9ab96f0c5e94</anchor>
+      <arglist>(self, file_path, name=py_trees.common.Name.AUTO_GENERATED, features=delphyne.roads.ObjFeatures())</arglist>
     </member>
     <member kind="function">
       <type>def</type>
@@ -8520,6 +8520,13 @@
       <name>file_path</name>
       <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_multilane.html</anchorfile>
       <anchor>a8aa55c8aa2346c2358ce68869a197088</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>features</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1roads_1_1_multilane.html</anchorfile>
+      <anchor>a6b54c7d82e1d89ae7994a88ce0c6889b</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
