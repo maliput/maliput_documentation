@@ -14,7 +14,6 @@
     <filename>arc__ground__curve_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="ground__curve_8h" name="ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/ground_curve.h</includes>
-    <includes id="open__range__validator_8h" name="open_range_validator.h" local="yes" imported="no">maliput_malidrive/road_curve/open_range_validator.h</includes>
     <class kind="class">malidrive::road_curve::ArcGroundCurve</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::road_curve</namespace>
@@ -409,7 +408,6 @@
     <filename>cubic__polynomial_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="function_8h" name="function.h" local="yes" imported="no">maliput_malidrive/road_curve/function.h</includes>
-    <includes id="open__range__validator_8h" name="open_range_validator.h" local="yes" imported="no">maliput_malidrive/road_curve/open_range_validator.h</includes>
     <class kind="class">malidrive::road_curve::CubicPolynomial</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::road_curve</namespace>
@@ -914,7 +912,6 @@
     <filename>base_2lane_8cc.html</filename>
     <includes id="base_2lane_8h" name="base/lane.h" local="yes" imported="no">maliput_malidrive/base/lane.h</includes>
     <includes id="road__geometry_8h" name="road_geometry.h" local="yes" imported="no">maliput_malidrive/base/road_geometry.h</includes>
-    <includes id="open__range__validator_8h" name="open_range_validator.h" local="yes" imported="no">maliput_malidrive/road_curve/open_range_validator.h</includes>
     <namespace>malidrive</namespace>
   </compound>
   <compound kind="file">
@@ -980,7 +977,6 @@
     <filename>road__curve_2lane__offset_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="function_8h" name="function.h" local="yes" imported="no">maliput_malidrive/road_curve/function.h</includes>
-    <includes id="open__range__validator_8h" name="open_range_validator.h" local="yes" imported="no">maliput_malidrive/road_curve/open_range_validator.h</includes>
     <class kind="class">malidrive::road_curve::LaneOffset</class>
     <class kind="struct">malidrive::road_curve::LaneOffset::AdjacentLaneFunctions</class>
     <namespace>malidrive</namespace>
@@ -1077,7 +1073,6 @@
     <filename>line__ground__curve_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="ground__curve_8h" name="ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/ground_curve.h</includes>
-    <includes id="open__range__validator_8h" name="open_range_validator.h" local="yes" imported="no">maliput_malidrive/road_curve/open_range_validator.h</includes>
     <class kind="class">malidrive::road_curve::LineGroundCurve</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::road_curve</namespace>
@@ -1208,23 +1203,6 @@
       <anchor>a037ca52fe8f091ab8e60d8adbec2f659</anchor>
       <arglist>(msg)</arglist>
     </member>
-  </compound>
-  <compound kind="file">
-    <name>open_range_validator.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
-    <filename>open__range__validator_8cc.html</filename>
-    <includes id="open__range__validator_8h" name="open_range_validator.h" local="yes" imported="no">maliput_malidrive/road_curve/open_range_validator.h</includes>
-    <namespace>malidrive</namespace>
-    <namespace>malidrive::road_curve</namespace>
-  </compound>
-  <compound kind="file">
-    <name>open_range_validator.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
-    <filename>open__range__validator_8h.html</filename>
-    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
-    <class kind="class">malidrive::road_curve::OpenRangeValidator</class>
-    <namespace>malidrive</namespace>
-    <namespace>malidrive::road_curve</namespace>
   </compound>
   <compound kind="file">
     <name>params.h</name>
@@ -1448,7 +1426,6 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
     <filename>piecewise__function_8cc.html</filename>
     <includes id="piecewise__function_8h" name="piecewise_function.h" local="yes" imported="no">maliput_malidrive/road_curve/piecewise_function.h</includes>
-    <includes id="open__range__validator_8h" name="open_range_validator.h" local="yes" imported="no">maliput_malidrive/road_curve/open_range_validator.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::road_curve</namespace>
     <member kind="variable">
@@ -1481,7 +1458,6 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
     <filename>piecewise__ground__curve_8cc.html</filename>
     <includes id="piecewise__ground__curve_8h" name="piecewise_ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/piecewise_ground_curve.h</includes>
-    <includes id="open__range__validator_8h" name="open_range_validator.h" local="yes" imported="no">maliput_malidrive/road_curve/open_range_validator.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::road_curve</namespace>
     <member kind="variable">
@@ -2068,7 +2044,6 @@
     <filename>scaled__domain__function_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="function_8h" name="function.h" local="yes" imported="no">maliput_malidrive/road_curve/function.h</includes>
-    <includes id="open__range__validator_8h" name="open_range_validator.h" local="yes" imported="no">maliput_malidrive/road_curve/open_range_validator.h</includes>
     <class kind="class">malidrive::road_curve::ScaledDomainFunction</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::road_curve</namespace>
@@ -5046,38 +5021,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>malidrive::road_curve::OpenRangeValidator</name>
-    <filename>classmalidrive_1_1road__curve_1_1_open_range_validator.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>OpenRangeValidator</name>
-      <anchorfile>classmalidrive_1_1road__curve_1_1_open_range_validator.html</anchorfile>
-      <anchor>adcaa8d6398b619bc941374a5fb8cdf85</anchor>
-      <arglist>()=delete</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>operator()</name>
-      <anchorfile>classmalidrive_1_1road__curve_1_1_open_range_validator.html</anchorfile>
-      <anchor>ae7adaac6a97bdb9af82a723393093ebc</anchor>
-      <arglist>(double s) const</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static OpenRangeValidator</type>
-      <name>GetRelativeEpsilonValidator</name>
-      <anchorfile>classmalidrive_1_1road__curve_1_1_open_range_validator.html</anchorfile>
-      <anchor>afa20ff65e2cff6df1786f618d5db91bc</anchor>
-      <arglist>(double min, double max, double tolerance, double epsilon)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static OpenRangeValidator</type>
-      <name>GetAbsoluteEpsilonValidator</name>
-      <anchorfile>classmalidrive_1_1road__curve_1_1_open_range_validator.html</anchorfile>
-      <anchor>a6cf93ee0579e4ab064f60d10a0ea4699</anchor>
-      <arglist>(double min, double max, double tolerance, double epsilon)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>malidrive::xodr::ParserBase</name>
     <filename>classmalidrive_1_1xodr_1_1_parser_base.html</filename>
     <member kind="function">
@@ -7734,7 +7677,6 @@
     <class kind="class">malidrive::road_curve::GroundCurve</class>
     <class kind="class">malidrive::road_curve::LaneOffset</class>
     <class kind="class">malidrive::road_curve::LineGroundCurve</class>
-    <class kind="class">malidrive::road_curve::OpenRangeValidator</class>
     <class kind="class">malidrive::road_curve::PiecewiseFunction</class>
     <class kind="class">malidrive::road_curve::PiecewiseGroundCurve</class>
     <class kind="class">malidrive::road_curve::RoadCurve</class>
