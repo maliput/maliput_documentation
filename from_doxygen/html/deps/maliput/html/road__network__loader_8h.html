@@ -97,7 +97,8 @@ $(document).ready(function(){initNavTree('road__network__loader_8h.html',''); in
 <div class="title">road_network_loader.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;string&gt;</code><br />
+<div class="textblock"><code>#include &lt;map&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
 <code>#include &quot;<a class="el" href="road__network_8h.html">maliput/api/road_network.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="maliput__plugin__type_8h.html">maliput/plugin/maliput_plugin_type.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -109,7 +110,7 @@ Include dependency graph for road_network_loader.h:</div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="road__network__loader_8h__dep__incl.svg" width="188" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="road__network__loader_8h__dep__incl.svg" width="188" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -168,8 +169,8 @@ Typedefs</h2></td></tr>
 <div class="line">  extern <span class="stringliteral">&quot;C&quot;</span> <a class="code" href="namespacemaliput_1_1plugin.html#a2afd58b120b90956eefe0e19727605d7">maliput::plugin::MaliputPluginType</a> GetMaliputPluginType() {        \</div>
 <div class="line">    return <a class="code" href="namespacemaliput_1_1plugin.html#a2afd58b120b90956eefe0e19727605d7a8adc28f8c40a859b0b10d73151f70794">maliput::plugin::MaliputPluginType::kRoadNetworkLoader</a>;              \</div>
 <div class="line">  }                                                                             \</div>
-<div class="line">  extern <span class="stringliteral">&quot;C&quot;</span> <a class="code" href="namespacemaliput_1_1plugin.html#ab0a6280bfa379d2f6330517355866c5c">maliput::plugin::RoadNetworkLoaderPtr</a> MakeRoadNetworkLoader() { <span class="keywordflow">return</span> <span class="keyword">new</span> RoadNetworkLoaderClass(); }</div>
-</div><!-- fragment --><p>Macro for automating the creation of the correspondant functions for the correct implementation of a RoadNetworkLoader plugin.</p>
+<div class="line">  extern <span class="stringliteral">&quot;C&quot;</span> <a class="code" href="namespacemaliput_1_1plugin.html#ab0a6280bfa379d2f6330517355866c5c">maliput::plugin::RoadNetworkLoaderPtr</a> <a class="code" href="namespacemaliput_1_1plugin.html#a4d44dfc15ed8c612a7a803b0033b6a80">MakeRoadNetworkLoader</a>() { <span class="keywordflow">return</span> <span class="keyword">new</span> RoadNetworkLoaderClass(); }</div>
+</div><!-- fragment --><p>Macro for automating the creation of the correspondent functions for the correct implementation of a RoadNetworkLoader plugin.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">PluginName</td><td>Is the name of the plugin and must be unique among all the plugins. </td></tr>
@@ -183,8 +184,9 @@ Typedefs</h2></td></tr>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="anamespacemaliput_1_1plugin_html_a2afd58b120b90956eefe0e19727605d7"><div class="ttname"><a href="namespacemaliput_1_1plugin.html#a2afd58b120b90956eefe0e19727605d7">maliput::plugin::MaliputPluginType</a></div><div class="ttdeci">MaliputPluginType</div><div class="ttdoc">Types of maliput plugin.</div><div class="ttdef"><b>Definition:</b> maliput_plugin_type.h:39</div></div>
-<div class="ttc" id="anamespacemaliput_1_1plugin_html_ab0a6280bfa379d2f6330517355866c5c"><div class="ttname"><a href="namespacemaliput_1_1plugin.html#ab0a6280bfa379d2f6330517355866c5c">maliput::plugin::RoadNetworkLoaderPtr</a></div><div class="ttdeci">void * RoadNetworkLoaderPtr</div><div class="ttdoc">Additional name for the MakeRoadNetworkLoader method's return type.</div><div class="ttdef"><b>Definition:</b> road_network_loader.h:52</div></div>
+<div class="ttc" id="anamespacemaliput_1_1plugin_html_ab0a6280bfa379d2f6330517355866c5c"><div class="ttname"><a href="namespacemaliput_1_1plugin.html#ab0a6280bfa379d2f6330517355866c5c">maliput::plugin::RoadNetworkLoaderPtr</a></div><div class="ttdeci">void * RoadNetworkLoaderPtr</div><div class="ttdoc">Additional name for the MakeRoadNetworkLoader method's return type.</div><div class="ttdef"><b>Definition:</b> road_network_loader.h:53</div></div>
 <div class="ttc" id="anamespacemaliput_1_1plugin_html_a2afd58b120b90956eefe0e19727605d7a8adc28f8c40a859b0b10d73151f70794"><div class="ttname"><a href="namespacemaliput_1_1plugin.html#a2afd58b120b90956eefe0e19727605d7a8adc28f8c40a859b0b10d73151f70794">maliput::plugin::kRoadNetworkLoader</a></div><div class="ttdeci">@ kRoadNetworkLoader</div><div class="ttdef"><b>Definition:</b> maliput_plugin_type.h:40</div></div>
+<div class="ttc" id="anamespacemaliput_1_1plugin_html_a4d44dfc15ed8c612a7a803b0033b6a80"><div class="ttname"><a href="namespacemaliput_1_1plugin.html#a4d44dfc15ed8c612a7a803b0033b6a80">maliput::plugin::MakeRoadNetworkLoader</a></div><div class="ttdeci">std::unique_ptr&lt; maliput::plugin::RoadNetworkLoader &gt; MakeRoadNetworkLoader(const std::string &amp;road_network_loader_id)</div><div class="ttdoc">Creates a maliput::plugin::RoadNetworkLoader using the specified plugin id.</div><div class="ttdef"><b>Definition:</b> create_road_network.cc:38</div></div>
 <!-- HTML footer for doxygen 1.8.15 -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

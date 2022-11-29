@@ -1,5 +1,6 @@
 var namespacedemos =
 [
+    [ "gazoo", "namespacedemos_1_1gazoo.html", "namespacedemos_1_1gazoo" ],
     [ "keyboard_handler", "namespacedemos_1_1keyboard__handler.html", "namespacedemos_1_1keyboard__handler" ],
     [ "realtime", "namespacedemos_1_1realtime.html", "namespacedemos_1_1realtime" ],
     [ "scriptlets", "namespacedemos_1_1scriptlets.html", "namespacedemos_1_1scriptlets" ],

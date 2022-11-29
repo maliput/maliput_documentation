@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('classmaliput_1_1_manual_phase_provider
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classmaliput_1_1_manual_phase_provider-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ManualPhaseProvider Class Reference</div>  </div>
@@ -128,6 +129,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a61a656ce95c9191c1fdddc042ef9400d inherit pub_methods_classmaliput_1_1api_1_1rules_1_1_phase_provider"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_provider.html#a819817caf867decf849b9e7be94171e2">Result</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_provider.html#a61a656ce95c9191c1fdddc042ef9400d">GetPhase</a> (const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring.html#ab0106b35b56a5f162860159a7a84c142">PhaseRing::Id</a> &amp;id) const</td></tr>
 <tr class="memdesc:a61a656ce95c9191c1fdddc042ef9400d inherit pub_methods_classmaliput_1_1api_1_1rules_1_1_phase_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the phase within a specified <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring.html" title="A set of mutually exclusive phases, e.g., that comprise the signaling cycle for an intersection.">PhaseRing</a>.  <a href="classmaliput_1_1api_1_1rules_1_1_phase_provider.html#a61a656ce95c9191c1fdddc042ef9400d">More...</a><br /></td></tr>
 <tr class="separator:a61a656ce95c9191c1fdddc042ef9400d inherit pub_methods_classmaliput_1_1api_1_1rules_1_1_phase_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a39f0bf9c67ba5ac2ad1fbe60e275a047"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classmaliput_1_1_manual_phase_provider.html">ManualPhaseProvider</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1_manual_phase_provider.html#a39f0bf9c67ba5ac2ad1fbe60e275a047">GetDefaultPopulatedManualPhaseProvider</a> (const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring_book.html">maliput::api::rules::PhaseRingBook</a> *phase_ring_book)</td></tr>
+<tr class="memdesc:a39f0bf9c67ba5ac2ad1fbe60e275a047"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmaliput_1_1_manual_phase_provider.html" title="A concrete implementation of the api::rules::PhaseProvider abstract interface that allows the current...">ManualPhaseProvider</a> populated from a given PhaseRingBook.  <a href="classmaliput_1_1_manual_phase_provider.html#a39f0bf9c67ba5ac2ad1fbe60e275a047">More...</a><br /></td></tr>
+<tr class="separator:a39f0bf9c67ba5ac2ad1fbe60e275a047"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -225,6 +232,47 @@ Additional Inherited Members</h2></td></tr>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">std::exception</td><td>if a PhaseRing with an ID of <code>id</code> already exists in this provider, or if <code>initial_duration_until</code> is defined when <code>next_phase</code> is undefined </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a39f0bf9c67ba5ac2ad1fbe60e275a047"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39f0bf9c67ba5ac2ad1fbe60e275a047">&#9670;&nbsp;</a></span>GetDefaultPopulatedManualPhaseProvider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classmaliput_1_1_manual_phase_provider.html">ManualPhaseProvider</a> &gt; GetDefaultPopulatedManualPhaseProvider </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring_book.html">maliput::api::rules::PhaseRingBook</a> *&#160;</td>
+          <td class="paramname"><em>phase_ring_book</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs a <a class="el" href="classmaliput_1_1_manual_phase_provider.html" title="A concrete implementation of the api::rules::PhaseProvider abstract interface that allows the current...">ManualPhaseProvider</a> populated from a given PhaseRingBook. </p>
+<p>The initial phase for each ring is the arbitrarily chosen.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">phase_ring_book</td><td>The PhaseRingBook to use. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html" title="This is what MALIPUT_THROW_UNLESS throws.">maliput::common::assertion_error</a></td><td>When phase_ring_book is nullptr. </td></tr>
   </table>
   </dd>
 </dl>

@@ -8,10 +8,14 @@ var hierarchy =
       [ "RealtimeRateChanger", "classdemos_1_1realtime_1_1_realtime_rate_changer.html", null ],
       [ "SimulationStats", "classdemos_1_1scriptlets_1_1_simulation_stats.html", null ]
     ] ],
+    [ "ScenarioSubtreeConfig", "classdemos_1_1gazoo_1_1_scenario_subtree_config.html", null ],
     [ "ABC", null, [
       [ "KeyboardHandler", "classdemos_1_1keyboard__handler_1_1_keyboard_handler.html", [
         [ "KeyboardStdIn", "classdemos_1_1keyboard__handler_1_1_keyboard_std_in.html", null ],
         [ "KeyboardStub", "classdemos_1_1keyboard__handler_1_1_keyboard_stub.html", null ]
       ] ]
+    ] ],
+    [ "Enum", null, [
+      [ "MaliputBackend", "classdemos_1_1gazoo_1_1_maliput_backend.html", null ]
     ] ]
 ];

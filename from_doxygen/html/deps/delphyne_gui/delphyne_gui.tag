@@ -100,6 +100,25 @@
     <namespace>launcher</namespace>
   </compound>
   <compound kind="file">
+    <name>maliput_backend_selection.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_gui/visualizer/maliput_viewer_plugin/</path>
+    <filename>maliput__backend__selection_8cc.html</filename>
+    <includes id="maliput__backend__selection_8hh" name="maliput_backend_selection.hh" local="yes" imported="no">maliput_backend_selection.hh</includes>
+    <namespace>delphyne</namespace>
+    <namespace>delphyne::gui</namespace>
+  </compound>
+  <compound kind="file">
+    <name>maliput_backend_selection.hh</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_gui/visualizer/maliput_viewer_plugin/</path>
+    <filename>maliput__backend__selection_8hh.html</filename>
+    <includes id="maliput__viewer__model_8hh" name="maliput_viewer_model.hh" local="yes" imported="no">maliput_viewer_model.hh</includes>
+    <class kind="struct">delphyne::gui::Parameter</class>
+    <class kind="class">delphyne::gui::ParameterTableModel</class>
+    <class kind="class">delphyne::gui::MaliputBackendSelection</class>
+    <namespace>delphyne</namespace>
+    <namespace>delphyne::gui</namespace>
+  </compound>
+  <compound kind="file">
     <name>maliput_mesh_converter.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_gui/visualizer/maliput_viewer_plugin/</path>
     <filename>maliput__mesh__converter_8cc.html</filename>
@@ -302,7 +321,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_gui/visualizer/maliput_viewer_plugin/</path>
     <filename>maliput__viewer__plugin_8hh.html</filename>
     <includes id="arrow__mesh_8hh" name="arrow_mesh.hh" local="yes" imported="no">arrow_mesh.hh</includes>
-    <includes id="maliput__viewer__model_8hh" name="maliput_viewer_model.hh" local="yes" imported="no">maliput_viewer_model.hh</includes>
+    <includes id="maliput__backend__selection_8hh" name="maliput_backend_selection.hh" local="yes" imported="no">maliput_backend_selection.hh</includes>
     <includes id="selector_8hh" name="selector.hh" local="yes" imported="no">selector.hh</includes>
     <includes id="traffic__light__manager_8hh" name="traffic_light_manager.hh" local="yes" imported="no">traffic_light_manager.hh</includes>
     <class kind="class">delphyne::gui::PhaseTreeModel</class>
@@ -775,6 +794,39 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>delphyne::gui::MaliputBackendSelection</name>
+    <filename>classdelphyne_1_1gui_1_1_maliput_backend_selection.html</filename>
+    <base>QObject</base>
+    <member kind="function">
+      <type></type>
+      <name>MaliputBackendSelection</name>
+      <anchorfile>classdelphyne_1_1gui_1_1_maliput_backend_selection.html</anchorfile>
+      <anchor>a87ab6543689d77679c3e9a2559f247b3</anchor>
+      <arglist>(QObject *parent)</arglist>
+    </member>
+    <member kind="function">
+      <type>MaliputViewerModel *</type>
+      <name>GetMaliputModel</name>
+      <anchorfile>classdelphyne_1_1gui_1_1_maliput_backend_selection.html</anchorfile>
+      <anchor>a8af2830d7e3373dac74eb961c4a8ffea</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="slot" protection="protected">
+      <type>void</type>
+      <name>OnLoadButtonPressed</name>
+      <anchorfile>classdelphyne_1_1gui_1_1_maliput_backend_selection.html</anchorfile>
+      <anchor>ac07bd1086cc66ec6f678e35afa573d57</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="slot" protection="protected">
+      <type>void</type>
+      <name>OnBackendSelected</name>
+      <anchorfile>classdelphyne_1_1gui_1_1_maliput_backend_selection.html</anchorfile>
+      <anchor>a445db5e0a7645a925031d4029803c72b</anchor>
+      <arglist>(const QString &amp;_backendName)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>delphyne::gui::MaliputLabel</name>
     <filename>classdelphyne_1_1gui_1_1_maliput_label.html</filename>
     <member kind="variable">
@@ -852,8 +904,8 @@
       <type></type>
       <name>MaliputViewerModel</name>
       <anchorfile>classdelphyne_1_1gui_1_1_maliput_viewer_model.html</anchorfile>
-      <anchor>ac2395f0edd2e0f0cf9b00741c1a611a9</anchor>
-      <arglist>()=default</arglist>
+      <anchor>a309bdbd3de25b44548464928423bc811</anchor>
+      <arglist>(std::unique_ptr&lt; maliput::api::RoadNetwork &gt; _roadNetwork)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -861,20 +913,6 @@
       <anchorfile>classdelphyne_1_1gui_1_1_maliput_viewer_model.html</anchorfile>
       <anchor>a562c3a95ededfd33b3811af220655001</anchor>
       <arglist>()=default</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>Load</name>
-      <anchorfile>classdelphyne_1_1gui_1_1_maliput_viewer_model.html</anchorfile>
-      <anchor>ac8562d6e2b31a934661e97275f1305fd</anchor>
-      <arglist>(const std::string &amp;_maliputFilePath, const std::string &amp;_ruleRegistryFilePath=std::string(), const std::string &amp;_roadRulebookFilePath=std::string(), const std::string &amp;_trafficLightBook=std::string(), const std::string &amp;_phaseRingFilePath=std::string(), const std::string &amp;_intersectionBookFilePath=std::string())</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>IsInitialized</name>
-      <anchorfile>classdelphyne_1_1gui_1_1_maliput_viewer_model.html</anchorfile>
-      <anchor>a475d2bd8072f3c9df7b37581c4f1eca4</anchor>
-      <arglist>() const</arglist>
     </member>
     <member kind="function">
       <type>const std::map&lt; std::string, std::unique_ptr&lt; MaliputMesh &gt; &gt; &amp;</type>
@@ -1074,8 +1112,8 @@
       <type>void</type>
       <name>OnNewRoadNetwork</name>
       <anchorfile>classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html</anchorfile>
-      <anchor>ad23b3c21bf7f9d3ee4ee7a6db934b39a</anchor>
-      <arglist>(const QString &amp;_mapFile, const QString &amp;_ruleRegistryFile, const QString &amp;_roadRulebookFile, const QString &amp;_trafficLightBookFile, const QString &amp;_phaseRingBookFile, const QString &amp;_intersectionBookFile)</arglist>
+      <anchor>a32ecc66111987b6013836ad3153d2c29</anchor>
+      <arglist>()</arglist>
     </member>
     <member kind="slot" protection="protected">
       <type>void</type>
@@ -1326,6 +1364,106 @@
       <anchorfile>classdelphyne_1_1gui_1_1_origin_display.html</anchorfile>
       <anchor>aae9f12cd583e4b31fe3c766cd1263642</anchor>
       <arglist>(bool _isVisible)</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>delphyne::gui::Parameter</name>
+    <filename>structdelphyne_1_1gui_1_1_parameter.html</filename>
+    <member kind="variable">
+      <type>QString</type>
+      <name>parameterName</name>
+      <anchorfile>structdelphyne_1_1gui_1_1_parameter.html</anchorfile>
+      <anchor>a6f5818b5738bc971a27ed249da299201</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>QString</type>
+      <name>parameterValue</name>
+      <anchorfile>structdelphyne_1_1gui_1_1_parameter.html</anchorfile>
+      <anchor>afd057eb7bc7f30c7b465a7b63956c5d1</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>delphyne::gui::ParameterTableModel</name>
+    <filename>classdelphyne_1_1gui_1_1_parameter_table_model.html</filename>
+    <base>QAbstractTableModel</base>
+    <member kind="function">
+      <type></type>
+      <name>ParameterTableModel</name>
+      <anchorfile>classdelphyne_1_1gui_1_1_parameter_table_model.html</anchorfile>
+      <anchor>ae2451cc2e49d6eeecc46db720ea5f931</anchor>
+      <arglist>(QObject *parent=nullptr)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::map&lt; std::string, std::string &gt;</type>
+      <name>GetMapFromParameters</name>
+      <anchorfile>classdelphyne_1_1gui_1_1_parameter_table_model.html</anchorfile>
+      <anchor>aa14c45c04c403517a8dc85242f8ceb11</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>Q_INVOKABLE void</type>
+      <name>AddParameter</name>
+      <anchorfile>classdelphyne_1_1gui_1_1_parameter_table_model.html</anchorfile>
+      <anchor>a9c22aac997b8a53cf539cb885da52419</anchor>
+      <arglist>(const QString &amp;_parameterName, const QString &amp;_parameterValue)</arglist>
+    </member>
+    <member kind="function">
+      <type>Q_INVOKABLE void</type>
+      <name>DeleteParameter</name>
+      <anchorfile>classdelphyne_1_1gui_1_1_parameter_table_model.html</anchorfile>
+      <anchor>a1da3c2e3178df1f0e3fea1da548241c0</anchor>
+      <arglist>(const QString &amp;_parameterName)</arglist>
+    </member>
+    <member kind="function">
+      <type>Q_INVOKABLE void</type>
+      <name>ClearParameters</name>
+      <anchorfile>classdelphyne_1_1gui_1_1_parameter_table_model.html</anchorfile>
+      <anchor>a3b385803bf9b96933df13b2ab00e3186</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr int</type>
+      <name>kParameterRole</name>
+      <anchorfile>classdelphyne_1_1gui_1_1_parameter_table_model.html</anchorfile>
+      <anchor>a6aa1a7e8c682e68a948c274aca7209c3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr int</type>
+      <name>kValueRole</name>
+      <anchorfile>classdelphyne_1_1gui_1_1_parameter_table_model.html</anchorfile>
+      <anchor>ad3120f45b2d7ae7dc62f3caf72a14485</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>Q_INVOKABLE int</type>
+      <name>rowCount</name>
+      <anchorfile>classdelphyne_1_1gui_1_1_parameter_table_model.html</anchorfile>
+      <anchor>a51dd94ef911c8f4c6495093a1561b45a</anchor>
+      <arglist>(const QModelIndex &amp;parent=QModelIndex()) const override</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>Q_INVOKABLE int</type>
+      <name>columnCount</name>
+      <anchorfile>classdelphyne_1_1gui_1_1_parameter_table_model.html</anchorfile>
+      <anchor>acf7711fc384ef290b7520e39a16dfb2d</anchor>
+      <arglist>(const QModelIndex &amp;parent=QModelIndex()) const override</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>Q_INVOKABLE QVariant</type>
+      <name>data</name>
+      <anchorfile>classdelphyne_1_1gui_1_1_parameter_table_model.html</anchorfile>
+      <anchor>aa06564528ca791fce5d559b298edbb18</anchor>
+      <arglist>(const QModelIndex &amp;index, int role=Qt::DisplayRole) const override</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>Q_INVOKABLE QHash&lt; int, QByteArray &gt;</type>
+      <name>roleNames</name>
+      <anchorfile>classdelphyne_1_1gui_1_1_parameter_table_model.html</anchorfile>
+      <anchor>a0ec0e31df18472075967b0410ee4b3be</anchor>
+      <arglist>() const override</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -1579,6 +1717,14 @@
   <compound kind="class">
     <name>ignition::gui::Plugin</name>
     <filename>classignition_1_1gui_1_1_plugin.html</filename>
+  </compound>
+  <compound kind="class">
+    <name>QAbstractTableModel</name>
+    <filename>class_q_abstract_table_model.html</filename>
+  </compound>
+  <compound kind="class">
+    <name>QObject</name>
+    <filename>class_q_object.html</filename>
   </compound>
   <compound kind="class">
     <name>QStandardItemModel</name>
@@ -2330,12 +2476,15 @@
     <class kind="class">delphyne::gui::AgentInfoDisplay</class>
     <class kind="class">delphyne::gui::ArrowMesh</class>
     <class kind="class">delphyne::gui::GlobalAttributes</class>
+    <class kind="class">delphyne::gui::MaliputBackendSelection</class>
     <class kind="class">delphyne::gui::MaliputLabel</class>
     <class kind="class">delphyne::gui::MaliputMesh</class>
     <class kind="class">delphyne::gui::MaliputViewerModel</class>
     <class kind="class">delphyne::gui::MaliputViewerPlugin</class>
     <class kind="class">delphyne::gui::MessageModel</class>
     <class kind="class">delphyne::gui::OriginDisplay</class>
+    <class kind="struct">delphyne::gui::Parameter</class>
+    <class kind="class">delphyne::gui::ParameterTableModel</class>
     <class kind="class">delphyne::gui::PhaseTreeModel</class>
     <class kind="class">delphyne::gui::PlaybackPlugin</class>
     <class kind="class">delphyne::gui::RoadNetworkQuery</class>

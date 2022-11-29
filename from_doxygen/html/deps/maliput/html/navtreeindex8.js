@@ -1,5 +1,11 @@
 var NAVTREEINDEX8 =
 {
+"structmaliput_1_1utility_1_1_road_geometry_mesh.html#a983434e58ff0e561ce6fb9f8bc32bf88":[4,0,0,5,4,4],
+"structmaliput_1_1utility_1_1_road_geometry_mesh.html#abedb154db5753bdd1818ca4786f95dd1":[4,0,0,5,4,2],
+"structmaliput_1_1utility_1_1_road_geometry_mesh.html#ae6870991c38fd172238394d77d7fbdda":[4,0,0,5,4,6],
+"structmaliput_1_1utility_1_1mesh_1_1_directed_edge_index.html":[4,0,0,5,0,0],
+"structmaliput_1_1utility_1_1mesh_1_1_directed_edge_index.html#a5e9d00e29785422a08bcd94d6ca3095a":[4,0,0,5,0,0,2],
+"structmaliput_1_1utility_1_1mesh_1_1_directed_edge_index.html#a91cb3fd7500ab5e16dc74300cd67a4c6":[4,0,0,5,0,0,0],
 "structmaliput_1_1utility_1_1mesh_1_1_directed_edge_index.html#ac069a2a74d72b5eac9ab70301084f7c2":[4,0,0,5,0,0,1],
 "structmaliput_1_1utility_1_1mesh_1_1_face_edge_index.html":[4,0,0,5,0,1],
 "structmaliput_1_1utility_1_1mesh_1_1_face_edge_index.html#a17306652175cc5f61e86f203b86bd9e4":[4,0,0,5,0,1,1],

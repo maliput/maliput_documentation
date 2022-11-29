@@ -241,6 +241,7 @@
     <name>road_network.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_osm/src/plugin/</path>
     <filename>road__network_8cc.html</filename>
+    <includes id="builder__configuration_8h" name="builder_configuration.h" local="yes" imported="no">maliput_osm/builder/builder_configuration.h</includes>
     <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_osm/builder/road_network_builder.h</includes>
     <namespace>maliput_osm</namespace>
     <namespace>maliput_osm::plugin</namespace>

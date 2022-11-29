@@ -11,6 +11,7 @@ var hierarchy =
       [ "Launcher", "classlauncher_1_1_launcher.html", null ],
       [ "TrackedProcess", "classlauncher_1_1_tracked_process.html", null ]
     ] ],
+    [ "Parameter", "structdelphyne_1_1gui_1_1_parameter.html", null ],
     [ "Plugin", "classignition_1_1gui_1_1_plugin.html", [
       [ "AgentInfoDisplay", "classdelphyne_1_1gui_1_1_agent_info_display.html", null ],
       [ "MaliputViewerPlugin", "classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html", null ],
@@ -19,6 +20,12 @@ var hierarchy =
       [ "TeleopPlugin", "classdelphyne_1_1gui_1_1_teleop_plugin.html", null ],
       [ "TopicInterfacePlugin", "classdelphyne_1_1gui_1_1_topic_interface_plugin.html", null ],
       [ "TopicsStats", "classdelphyne_1_1gui_1_1_topics_stats.html", null ]
+    ] ],
+    [ "QAbstractTableModel", "class_q_abstract_table_model.html", [
+      [ "ParameterTableModel", "classdelphyne_1_1gui_1_1_parameter_table_model.html", null ]
+    ] ],
+    [ "QObject", "class_q_object.html", [
+      [ "MaliputBackendSelection", "classdelphyne_1_1gui_1_1_maliput_backend_selection.html", null ]
     ] ],
     [ "QStandardItemModel", "class_q_standard_item_model.html", [
       [ "MessageModel", "classdelphyne_1_1gui_1_1_message_model.html", null ],

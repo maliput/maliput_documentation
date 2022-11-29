@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('classmaliput_1_1_phased_discrete_rule_
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classmaliput_1_1_phased_discrete_rule_state_provider-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">PhasedDiscreteRuleStateProvider Class Reference<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
@@ -146,6 +147,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4de3b8f0f5aded483fdd3e0a110abf34 inherit pub_methods_classmaliput_1_1api_1_1rules_1_1_discrete_value_rule_state_provider"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classmaliput_1_1api_1_1rules_1_1_discrete_value_rule_state_provider.html#a1188b99948ffd2a79b923ed2c564c9a5">StateResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_discrete_value_rule_state_provider.html#a4de3b8f0f5aded483fdd3e0a110abf34">GetState</a> (const <a class="el" href="structmaliput_1_1api_1_1_road_position.html">RoadPosition</a> &amp;road_position, const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_rule.html#a4a4b94bba0865a112a84d2b4a054b6b1">Rule::TypeId</a> &amp;rule_type, <a class="el" href="classdouble.html">double</a> tolerance) const</td></tr>
 <tr class="memdesc:a4de3b8f0f5aded483fdd3e0a110abf34 inherit pub_methods_classmaliput_1_1api_1_1rules_1_1_discrete_value_rule_state_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the state of the <a class="el" href="classmaliput_1_1api_1_1rules_1_1_discrete_value_rule.html" title="Describes a discrete value rule.">DiscreteValueRule</a> that matches provided <code>road_position</code> and <code>rule_type</code> values according to certain <code>tolerance</code>.  <a href="classmaliput_1_1api_1_1rules_1_1_discrete_value_rule_state_provider.html#a4de3b8f0f5aded483fdd3e0a110abf34">More...</a><br /></td></tr>
 <tr class="separator:a4de3b8f0f5aded483fdd3e0a110abf34 inherit pub_methods_classmaliput_1_1api_1_1rules_1_1_discrete_value_rule_state_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ab52d68e81707f7071956f2f6e5ad92d3"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classmaliput_1_1_phased_discrete_rule_state_provider.html">PhasedDiscreteRuleStateProvider</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1_phased_discrete_rule_state_provider.html#ab52d68e81707f7071956f2f6e5ad92d3">GetDefaultPhasedDiscreteRuleStateProvider</a> (const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html">maliput::api::rules::RoadRulebook</a> *rulebook, const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring_book.html">maliput::api::rules::PhaseRingBook</a> *<a class="el" href="classmaliput_1_1_phased_discrete_rule_state_provider.html#afde30b154df0caf6a8c85fa29721f783">phase_ring_book</a>, const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_provider.html">maliput::api::rules::PhaseProvider</a> *<a class="el" href="classmaliput_1_1_phased_discrete_rule_state_provider.html#afed31264b8838b06457bf5a3faa96976">phase_provider</a>)</td></tr>
+<tr class="memdesc:ab52d68e81707f7071956f2f6e5ad92d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmaliput_1_1_phased_discrete_rule_state_provider.html" title="Provides the state of Right-Of-Way api::rules::DiscreteValueRule instances based on the current api::...">PhasedDiscreteRuleStateProvider</a> with the default states populated to be used when rules are not parte of a phase.  <a href="classmaliput_1_1_phased_discrete_rule_state_provider.html#ab52d68e81707f7071956f2f6e5ad92d3">More...</a><br /></td></tr>
+<tr class="separator:ab52d68e81707f7071956f2f6e5ad92d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -235,6 +242,64 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab52d68e81707f7071956f2f6e5ad92d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab52d68e81707f7071956f2f6e5ad92d3">&#9670;&nbsp;</a></span>GetDefaultPhasedDiscreteRuleStateProvider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classmaliput_1_1_phased_discrete_rule_state_provider.html">PhasedDiscreteRuleStateProvider</a> &gt; GetDefaultPhasedDiscreteRuleStateProvider </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_road_rulebook.html">maliput::api::rules::RoadRulebook</a> *&#160;</td>
+          <td class="paramname"><em>rulebook</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_ring_book.html">maliput::api::rules::PhaseRingBook</a> *&#160;</td>
+          <td class="paramname"><em>phase_ring_book</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_phase_provider.html">maliput::api::rules::PhaseProvider</a> *&#160;</td>
+          <td class="paramname"><em>phase_provider</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs a <a class="el" href="classmaliput_1_1_phased_discrete_rule_state_provider.html" title="Provides the state of Right-Of-Way api::rules::DiscreteValueRule instances based on the current api::...">PhasedDiscreteRuleStateProvider</a> with the default states populated to be used when rules are not parte of a phase. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rulebook</td><td>The RoadRulebook to use. </td></tr>
+    <tr><td class="paramname">phase_ring_book</td><td>The PhaseRingBook to use. </td></tr>
+    <tr><td class="paramname">phase_provider</td><td>The PhaseProvider to use. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html" title="This is what MALIPUT_THROW_UNLESS throws.">maliput::common::assertion_error</a></td><td>When phase_ring_book is nullptr. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="afed31264b8838b06457bf5a3faa96976"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afed31264b8838b06457bf5a3faa96976">&#9670;&nbsp;</a></span>phase_provider()</h2>
 

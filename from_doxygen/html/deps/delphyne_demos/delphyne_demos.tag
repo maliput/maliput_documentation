@@ -105,7 +105,30 @@
     <name>gazoo.py</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/delphyne_demos/demos/</path>
     <filename>gazoo_8py.html</filename>
+    <class kind="class">demos::gazoo::MaliputBackend</class>
+    <class kind="class">demos::gazoo::ScenarioSubtreeConfig</class>
     <namespace>demos::gazoo</namespace>
+    <member kind="function">
+      <type>def</type>
+      <name>get_maliput_osm_circuit</name>
+      <anchorfile>namespacedemos_1_1gazoo.html</anchorfile>
+      <anchor>a242260248f5d6ae262904c855b9daefc</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>get_delphyne_gui_circuit</name>
+      <anchorfile>namespacedemos_1_1gazoo.html</anchorfile>
+      <anchor>ae2f0688a9ec2c2d586a10d8d503c5819</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>get_scenario_subtree_config</name>
+      <anchorfile>namespacedemos_1_1gazoo.html</anchorfile>
+      <anchor>ae3e2501fcfdab87e689782b48aa006a4</anchor>
+      <arglist>(backend)</arglist>
+    </member>
     <member kind="function">
       <type>def</type>
       <name>parse_arguments</name>
@@ -115,10 +138,17 @@
     </member>
     <member kind="function">
       <type>def</type>
+      <name>add_agents_to_scenario</name>
+      <anchorfile>namespacedemos_1_1gazoo.html</anchorfile>
+      <anchor>a667493c1b1b1a10a07adbda32f64addc</anchor>
+      <arglist>(scenario_subtree, mobil_cars_num, lanes)</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
       <name>create_gazoo_scenario_subtree</name>
       <anchorfile>namespacedemos_1_1gazoo.html</anchorfile>
-      <anchor>a53ae0ab2b3891afd7b92f1c2d535afb1</anchor>
-      <arglist>(filename, mobil_cars_num)</arglist>
+      <anchor>aecaa3f9b7f34d77f0b50d12f51a20836</anchor>
+      <arglist>(backend, mobil_cars_num)</arglist>
     </member>
     <member kind="function">
       <type>def</type>
@@ -680,6 +710,24 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>demos::gazoo::MaliputBackend</name>
+    <filename>classdemos_1_1gazoo_1_1_maliput_backend.html</filename>
+    <member kind="variable" static="yes">
+      <type>string</type>
+      <name>MALIPUT_MULTILANE</name>
+      <anchorfile>classdemos_1_1gazoo_1_1_maliput_backend.html</anchorfile>
+      <anchor>a965e4ff3e51f1a00ab5624e30b8afb85</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>string</type>
+      <name>MALIPUT_OSM</name>
+      <anchorfile>classdemos_1_1gazoo_1_1_maliput_backend.html</anchorfile>
+      <anchor>a449471a314276d1e5cf946740cfcdef0</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>demos::realtime::RealtimeRateChanger</name>
     <filename>classdemos_1_1realtime_1_1_realtime_rate_changer.html</filename>
     <base>object</base>
@@ -696,6 +744,17 @@
       <anchorfile>classdemos_1_1realtime_1_1_realtime_rate_changer.html</anchorfile>
       <anchor>a3cb34e3f71b612166dc5fe31b1640744</anchor>
       <arglist>(self, behaviour_tree)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>demos::gazoo::ScenarioSubtreeConfig</name>
+    <filename>classdemos_1_1gazoo_1_1_scenario_subtree_config.html</filename>
+    <member kind="variable" static="yes">
+      <type></type>
+      <name>str</name>
+      <anchorfile>classdemos_1_1gazoo_1_1_scenario_subtree_config.html</anchorfile>
+      <anchor>a4b99ff73a8a869319570237b5c57ab03</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -855,6 +914,29 @@
   <compound kind="namespace">
     <name>demos::gazoo</name>
     <filename>namespacedemos_1_1gazoo.html</filename>
+    <class kind="class">demos::gazoo::MaliputBackend</class>
+    <class kind="class">demos::gazoo::ScenarioSubtreeConfig</class>
+    <member kind="function">
+      <type>def</type>
+      <name>get_maliput_osm_circuit</name>
+      <anchorfile>namespacedemos_1_1gazoo.html</anchorfile>
+      <anchor>a242260248f5d6ae262904c855b9daefc</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>get_delphyne_gui_circuit</name>
+      <anchorfile>namespacedemos_1_1gazoo.html</anchorfile>
+      <anchor>ae2f0688a9ec2c2d586a10d8d503c5819</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>get_scenario_subtree_config</name>
+      <anchorfile>namespacedemos_1_1gazoo.html</anchorfile>
+      <anchor>ae3e2501fcfdab87e689782b48aa006a4</anchor>
+      <arglist>(backend)</arglist>
+    </member>
     <member kind="function">
       <type>def</type>
       <name>parse_arguments</name>
@@ -864,10 +946,17 @@
     </member>
     <member kind="function">
       <type>def</type>
+      <name>add_agents_to_scenario</name>
+      <anchorfile>namespacedemos_1_1gazoo.html</anchorfile>
+      <anchor>a667493c1b1b1a10a07adbda32f64addc</anchor>
+      <arglist>(scenario_subtree, mobil_cars_num, lanes)</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
       <name>create_gazoo_scenario_subtree</name>
       <anchorfile>namespacedemos_1_1gazoo.html</anchorfile>
-      <anchor>a53ae0ab2b3891afd7b92f1c2d535afb1</anchor>
-      <arglist>(filename, mobil_cars_num)</arglist>
+      <anchor>aecaa3f9b7f34d77f0b50d12f51a20836</anchor>
+      <arglist>(backend, mobil_cars_num)</arglist>
     </member>
     <member kind="function">
       <type>def</type>

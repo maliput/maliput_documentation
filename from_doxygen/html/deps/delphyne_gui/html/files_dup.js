@@ -18,6 +18,12 @@ var files_dup =
       [ "TrackedProcess", "classlauncher_1_1_tracked_process.html", "classlauncher_1_1_tracked_process" ],
       [ "Launcher", "classlauncher_1_1_launcher.html", "classlauncher_1_1_launcher" ]
     ] ],
+    [ "maliput_backend_selection.cc", "maliput__backend__selection_8cc.html", null ],
+    [ "maliput_backend_selection.hh", "maliput__backend__selection_8hh.html", [
+      [ "Parameter", "structdelphyne_1_1gui_1_1_parameter.html", "structdelphyne_1_1gui_1_1_parameter" ],
+      [ "ParameterTableModel", "classdelphyne_1_1gui_1_1_parameter_table_model.html", "classdelphyne_1_1gui_1_1_parameter_table_model" ],
+      [ "MaliputBackendSelection", "classdelphyne_1_1gui_1_1_maliput_backend_selection.html", "classdelphyne_1_1gui_1_1_maliput_backend_selection" ]
+    ] ],
     [ "maliput_mesh_converter.cc", "maliput__mesh__converter_8cc.html", "maliput__mesh__converter_8cc" ],
     [ "maliput_mesh_converter.hh", "maliput__mesh__converter_8hh.html", "maliput__mesh__converter_8hh" ],
     [ "maliput_viewer_model.cc", "maliput__viewer__model_8cc.html", "maliput__viewer__model_8cc" ],

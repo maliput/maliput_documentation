@@ -211,9 +211,15 @@
     <includes id="logger_8h" name="logger.h" local="yes" imported="no">maliput/common/logger.h</includes>
     <includes id="maliput__plugin_8h" name="maliput_plugin.h" local="yes" imported="no">maliput/plugin/maliput_plugin.h</includes>
     <includes id="maliput__plugin__manager_8h" name="maliput_plugin_manager.h" local="yes" imported="no">maliput/plugin/maliput_plugin_manager.h</includes>
-    <includes id="road__network__loader_8h" name="road_network_loader.h" local="yes" imported="no">maliput/plugin/road_network_loader.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::plugin</namespace>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::plugin::RoadNetworkLoader &gt;</type>
+      <name>MakeRoadNetworkLoader</name>
+      <anchorfile>namespacemaliput_1_1plugin.html</anchorfile>
+      <anchor>a4d44dfc15ed8c612a7a803b0033b6a80</anchor>
+      <arglist>(const std::string &amp;road_network_loader_id)</arglist>
+    </member>
     <member kind="function">
       <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>CreateRoadNetwork</name>
@@ -227,6 +233,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/plugin/</path>
     <filename>create__road__network_8h.html</filename>
     <includes id="road__network_8h" name="road_network.h" local="yes" imported="no">maliput/api/road_network.h</includes>
+    <includes id="road__network__loader_8h" name="road_network_loader.h" local="yes" imported="no">maliput/plugin/road_network_loader.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::plugin</namespace>
     <member kind="function">
@@ -235,6 +242,13 @@
       <anchorfile>namespacemaliput_1_1plugin.html</anchorfile>
       <anchor>a995734bfcb7af87c6f7dc4fc81bbd11b</anchor>
       <arglist>(const std::string &amp;road_network_loader_id, const std::map&lt; std::string, std::string &gt; &amp;properties)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::plugin::RoadNetworkLoader &gt;</type>
+      <name>MakeRoadNetworkLoader</name>
+      <anchorfile>namespacemaliput_1_1plugin.html</anchorfile>
+      <anchor>a4d44dfc15ed8c612a7a803b0033b6a80</anchor>
+      <arglist>(const std::string &amp;road_network_loader_id)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -1861,6 +1875,7 @@
     <includes id="phase_8h" name="phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
     <includes id="phase__provider_8h" name="phase_provider.h" local="yes" imported="no">maliput/api/rules/phase_provider.h</includes>
     <includes id="phase__ring_8h" name="phase_ring.h" local="yes" imported="no">maliput/api/rules/phase_ring.h</includes>
+    <includes id="phase__ring__book_8h" name="phase_ring_book.h" local="yes" imported="no">maliput/api/rules/phase_ring_book.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
     <class kind="class">maliput::ManualPhaseProvider</class>
     <namespace>maliput</namespace>
@@ -8741,11 +8756,11 @@
       <arglist>(const std::string &amp;path_to_plugin)</arglist>
     </member>
     <member kind="function">
-      <type>std::vector&lt; MaliputPlugin::Id &gt;</type>
+      <type>std::unordered_map&lt; MaliputPlugin::Id, MaliputPluginType &gt;</type>
       <name>ListPlugins</name>
       <anchorfile>classmaliput_1_1plugin_1_1_maliput_plugin_manager.html</anchorfile>
-      <anchor>a62d591930843730d9e1860f481fe6ae4</anchor>
-      <arglist>()</arglist>
+      <anchor>a16e60659b3f114ba258a7adae8284287</anchor>
+      <arglist>() const</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -8841,6 +8856,13 @@
       <anchor>aa1035bf78001490a6d3313dea38206ee</anchor>
       <arglist>(const api::rules::PhaseRing::Id &amp;id, const api::rules::Phase::Id &amp;phase, const std::optional&lt; api::rules::Phase::Id &gt; &amp;next_phase=std::nullopt, const std::optional&lt; double &gt; &amp;duration_until=std::nullopt)</arglist>
     </member>
+    <member kind="function" static="yes">
+      <type>static std::unique_ptr&lt; ManualPhaseProvider &gt;</type>
+      <name>GetDefaultPopulatedManualPhaseProvider</name>
+      <anchorfile>classmaliput_1_1_manual_phase_provider.html</anchorfile>
+      <anchor>a39f0bf9c67ba5ac2ad1fbe60e275a047</anchor>
+      <arglist>(const maliput::api::rules::PhaseRingBook *phase_ring_book)</arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>maliput::ManualPhaseRingBook</name>
@@ -8899,6 +8921,13 @@
       <anchorfile>classmaliput_1_1_manual_range_value_rule_state_provider.html</anchorfile>
       <anchor>a09978bdd4cf8a3db1c26a7c772183f75</anchor>
       <arglist>(const api::rules::Rule::Id &amp;id, const api::rules::RangeValueRule::Range &amp;state, const std::optional&lt; api::rules::RangeValueRule::Range &gt; &amp;next_state, const std::optional&lt; double &gt; &amp;duration_until)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static std::unique_ptr&lt; ManualRangeValueRuleStateProvider &gt;</type>
+      <name>GetDefaultManualRangeValueRuleStateProvider</name>
+      <anchorfile>classmaliput_1_1_manual_range_value_rule_state_provider.html</anchorfile>
+      <anchor>a3036c427c1a94da91db14c4444ef90d8</anchor>
+      <arglist>(const maliput::api::rules::RoadRulebook *rulebook)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -10191,6 +10220,13 @@
       <anchor>afed31264b8838b06457bf5a3faa96976</anchor>
       <arglist>() const</arglist>
     </member>
+    <member kind="function" static="yes">
+      <type>static std::unique_ptr&lt; PhasedDiscreteRuleStateProvider &gt;</type>
+      <name>GetDefaultPhasedDiscreteRuleStateProvider</name>
+      <anchorfile>classmaliput_1_1_phased_discrete_rule_state_provider.html</anchorfile>
+      <anchor>ab52d68e81707f7071956f2f6e5ad92d3</anchor>
+      <arglist>(const maliput::api::rules::RoadRulebook *rulebook, const maliput::api::rules::PhaseRingBook *phase_ring_book, const maliput::api::rules::PhaseProvider *phase_provider)</arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>maliput::api::rules::PhaseProvider</name>
@@ -11434,6 +11470,13 @@
   <compound kind="class">
     <name>maliput::plugin::RoadNetworkLoader</name>
     <filename>classmaliput_1_1plugin_1_1_road_network_loader.html</filename>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~RoadNetworkLoader</name>
+      <anchorfile>classmaliput_1_1plugin_1_1_road_network_loader.html</anchorfile>
+      <anchor>aaed0de0f4e11705c9f8b44e4fd07a615</anchor>
+      <arglist>()=default</arglist>
+    </member>
     <member kind="function" virtualness="pure">
       <type>virtual std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
       <name>operator()</name>
@@ -11442,11 +11485,11 @@
       <arglist>(const std::map&lt; std::string, std::string &gt; &amp;properties) const =0</arglist>
     </member>
     <member kind="function" virtualness="virtual">
-      <type>virtual</type>
-      <name>~RoadNetworkLoader</name>
+      <type>virtual std::map&lt; std::string, std::string &gt;</type>
+      <name>GetDefaultParameters</name>
       <anchorfile>classmaliput_1_1plugin_1_1_road_network_loader.html</anchorfile>
-      <anchor>aaed0de0f4e11705c9f8b44e4fd07a615</anchor>
-      <arglist>()=default</arglist>
+      <anchor>acd6af8c846b24b6f592920507a3f05ea</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static std::string</type>
@@ -17528,6 +17571,13 @@
       <anchorfile>namespacemaliput_1_1plugin.html</anchorfile>
       <anchor>a995734bfcb7af87c6f7dc4fc81bbd11b</anchor>
       <arglist>(const std::string &amp;road_network_loader_id, const std::map&lt; std::string, std::string &gt; &amp;properties)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::plugin::RoadNetworkLoader &gt;</type>
+      <name>MakeRoadNetworkLoader</name>
+      <anchorfile>namespacemaliput_1_1plugin.html</anchorfile>
+      <anchor>a4d44dfc15ed8c612a7a803b0033b6a80</anchor>
+      <arglist>(const std::string &amp;road_network_loader_id)</arglist>
     </member>
   </compound>
   <compound kind="namespace">
