@@ -1846,6 +1846,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/plugin/</path>
     <filename>road__network_8cc.html</filename>
     <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_malidrive/builder/road_network_builder.h</includes>
+    <includes id="road__network__configuration_8h" name="road_network_configuration.h" local="yes" imported="no">maliput_malidrive/builder/road_network_configuration.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::plugin</namespace>
     <member kind="function">
