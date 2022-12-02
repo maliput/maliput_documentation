@@ -52,6 +52,7 @@ The following packages are provided:
 .. _maliput_multilane: https://github.com/maliput/maliput_multilane
 .. _maliput_osm: https://github.com/maliput/maliput_osm
 .. _maliput_sparse: https://github.com/maliput/maliput_sparse
+.. _maliput_viz: https://github.com/maliput/maliput_viz
 .. _maliput_integration: https://github.com/maliput/maliput_integration
 .. _maliput_integration_tests: https://github.com/maliput/maliput_integration_tests
 .. _maliput_drake: https://github.com/maliput/maliput_drake
@@ -79,8 +80,7 @@ following circumstances:
      This action supports having interdependent pull request, see `here <https://github.com/ros-tooling/action-ros-ci#interdependent-pull-requests-or-merge-requests>`_.
      This may be useful when your PR depends on PRs/MRs/branches from other repos for it to work or be properly tested.
 
-  * ``clang`` build, sanitizers and static analyzer will be triggered using specific labels
-  in the pull request:
+  * ``clang`` build, sanitizers and static analyzer will be triggered using specific labels in the pull request:
 
     * ``do-clang-test`` executes ``clang`` build and test, ``asan``, ``ubsan``
       and ``tsan`` (when enabled) build and test.
