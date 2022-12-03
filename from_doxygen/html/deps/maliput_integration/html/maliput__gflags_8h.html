@@ -118,10 +118,38 @@ Macros</h2></td></tr>
 <tr class="separator:a849b013b06abcf2c037d09e3dfe66e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a950d17b0d8d5dd2649a071ed06db51e8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__gflags_8h.html#a950d17b0d8d5dd2649a071ed06db51e8">MULTILANE_PROPERTIES_FLAGS</a>()&#160;&#160;&#160;<a class="el" href="maliput__to__string__with__plugin_8cc.html#ad399aae1ce01b010e46a9c0244305898">DEFINE_string</a>(yaml_file, &quot;&quot;, &quot;yaml input <a class="elRef" href="../../maliput/html/namespacemaliput_1_1common_1_1internal.html#a88cdae8c33f1a7c9d1032870876961e2">file</a> defining a multilane road geometry&quot;);</td></tr>
 <tr class="separator:a950d17b0d8d5dd2649a071ed06db51e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9166f7a1ceb9b8ed6d20360c382b8ec1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__gflags_8h.html#a9166f7a1ceb9b8ed6d20360c382b8ec1">COMMON_PROPERTIES_FLAGS</a>()</td></tr>
+<tr class="separator:a9166f7a1ceb9b8ed6d20360c382b8ec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae025976c22eedc7b1678999a39fa5dae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__gflags_8h.html#ae025976c22eedc7b1678999a39fa5dae">MALIDRIVE_PROPERTIES_FLAGS</a>()</td></tr>
 <tr class="separator:ae025976c22eedc7b1678999a39fa5dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70506b50a0f49c875796c21a95f8ec73"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__gflags_8h.html#a70506b50a0f49c875796c21a95f8ec73">MALIPUT_OSM_PROPERTIES_FLAGS</a>()</td></tr>
+<tr class="separator:a70506b50a0f49c875796c21a95f8ec73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a9166f7a1ceb9b8ed6d20360c382b8ec1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9166f7a1ceb9b8ed6d20360c382b8ec1">&#9670;&nbsp;</a></span>COMMON_PROPERTIES_FLAGS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define COMMON_PROPERTIES_FLAGS</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">  <a class="code" href="maliput__derive__lane__s__routes_8cc.html#afafbb1bdb19e6374207946daaed0c5f2">DEFINE_double</a>(linear_tolerance, 5e-2, <span class="stringliteral">&quot;Linear tolerance used to load the map.&quot;</span>);                \</div>
+<div class="line">  DEFINE_double(angular_tolerance, 1e-3, <span class="stringliteral">&quot;Angular tolerance used to load the map.&quot;</span>);              \</div>
+<div class="line">  DEFINE_string(rule_registry_file, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;YAML file defining a Maliput rule registry&quot;</span>);            \</div>
+<div class="line">  DEFINE_string(road_rule_book_file, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;YAML file defining a Maliput road rule book&quot;</span>);          \</div>
+<div class="line">  DEFINE_string(traffic_light_book_file, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;YAML file defining a Maliput traffic lights book&quot;</span>); \</div>
+<div class="line">  DEFINE_string(phase_ring_book_file, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;YAML file defining a Maliput phase ring book&quot;</span>);        \</div>
+<div class="line">  DEFINE_string(intersection_book_file, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;YAML file defining a Maliput intersection book&quot;</span>);</div>
+</div><!-- fragment -->
+</div>
+</div>
 <a id="a849b013b06abcf2c037d09e3dfe66e87"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a849b013b06abcf2c037d09e3dfe66e87">&#9670;&nbsp;</a></span>DRAGWAY_PROPERTIES_FLAGS</h2>
 
@@ -159,7 +187,6 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">  <a class="code" href="maliput__derive__lane__s__routes_8cc.html#a949c8bd574e134aee1fbf51ddb0d2c3c">DEFINE_string</a>(xodr_file_path, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;XODR file path.&quot;</span>);                                                                \</div>
-<div class="line">  DEFINE_double(linear_tolerance, 5e-2, <span class="stringliteral">&quot;Linear tolerance used to load the map.&quot;</span>);                                     \</div>
 <div class="line">  DEFINE_double(max_linear_tolerance, -1., <span class="stringliteral">&quot;Maximum linear tolerance used to load the map.&quot;</span>);                          \</div>
 <div class="line">  DEFINE_string(build_policy, <span class="stringliteral">&quot;sequential&quot;</span>, <span class="stringliteral">&quot;Build policy, it could be `sequential` or `parallel`.&quot;</span>);                  \</div>
 <div class="line">  DEFINE_int32(num_threads, 0, <span class="stringliteral">&quot;Number of threads to create the Road Geometry.&quot;</span>);                                      \</div>
@@ -169,11 +196,6 @@ Macros</h2></td></tr>
 <div class="line">      <span class="stringliteral">&quot;OpenDrive standard strictness, it could be `permissive`, `allow_schema_errors`, `allow_semantic_errors` or &quot;</span>    \</div>
 <div class="line">      <span class="stringliteral">&quot;`strict`. Union of policies are also allowed: &#39;allow_schema_errors|allow_semantic_errors&#39;&quot;</span>);                    \</div>
 <div class="line">  DEFINE_bool(omit_nondrivable_lanes, <span class="keyword">false</span>, <span class="stringliteral">&quot;If true, builder omits non-drivable lanes when building.&quot;</span>);              \</div>
-<div class="line">  DEFINE_string(rule_registry_file, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;YAML file defining a Maliput rule registry&quot;</span>);                                 \</div>
-<div class="line">  DEFINE_string(road_rule_book_file, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;YAML file defining a Maliput road rule book&quot;</span>);                               \</div>
-<div class="line">  DEFINE_string(traffic_light_book_file, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;YAML file defining a Maliput traffic lights book&quot;</span>);                      \</div>
-<div class="line">  DEFINE_string(phase_ring_book_file, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;YAML file defining a Maliput phase ring book&quot;</span>);                             \</div>
-<div class="line">  DEFINE_string(intersection_book_file, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;YAML file defining a Maliput intersection book&quot;</span>);                         \</div>
 <div class="line">  std::optional&lt;double&gt; GetLinearToleranceFlag() {                                                                     \</div>
 <div class="line">    return gflags::GetCommandLineFlagInfoOrDie(<span class="stringliteral">&quot;linear_tolerance&quot;</span>).is_default                                          \</div>
 <div class="line">               ? std::nullopt                                                                                          \</div>
@@ -216,6 +238,25 @@ Macros</h2></td></tr>
 
 </div>
 </div>
+<a id="a70506b50a0f49c875796c21a95f8ec73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70506b50a0f49c875796c21a95f8ec73">&#9670;&nbsp;</a></span>MALIPUT_OSM_PROPERTIES_FLAGS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MALIPUT_OSM_PROPERTIES_FLAGS</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">  <a class="code" href="maliput__derive__lane__s__routes_8cc.html#a949c8bd574e134aee1fbf51ddb0d2c3c">DEFINE_string</a>(osm_file, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;OSM file path.&quot;</span>); \</div>
+<div class="line">  DEFINE_string(origin, <span class="stringliteral">&quot;{0., 0.}&quot;</span>, <span class="stringliteral">&quot;OSM map&#39;s origin lat/long coordinate.&quot;</span>);</div>
+</div><!-- fragment -->
+</div>
+</div>
 <a id="a950d17b0d8d5dd2649a071ed06db51e8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a950d17b0d8d5dd2649a071ed06db51e8">&#9670;&nbsp;</a></span>MULTILANE_PROPERTIES_FLAGS</h2>
 
@@ -236,6 +277,7 @@ Macros</h2></td></tr>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="amaliput__derive__lane__s__routes_8cc_html_a949c8bd574e134aee1fbf51ddb0d2c3c"><div class="ttname"><a href="maliput__derive__lane__s__routes_8cc.html#a949c8bd574e134aee1fbf51ddb0d2c3c">DEFINE_string</a></div><div class="ttdeci">DEFINE_string(maliput_backend, &quot;malidrive&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt; or &lt;malidrive&gt;. Default is malidrive.&quot;)</div></div>
+<div class="ttc" id="amaliput__derive__lane__s__routes_8cc_html_afafbb1bdb19e6374207946daaed0c5f2"><div class="ttname"><a href="maliput__derive__lane__s__routes_8cc.html#afafbb1bdb19e6374207946daaed0c5f2">DEFINE_double</a></div><div class="ttdeci">DEFINE_double(max_length, 1000, &quot;Maximum length of the intermediate lanes between start and end waypoints.[m]&quot;)</div></div>
 <!-- HTML footer for doxygen 1.8.15 -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

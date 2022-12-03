@@ -161,7 +161,7 @@ var searchData=
   ['createmalidrivefromxodr_451',['CreateMalidriveFromXodr',['.././deps/delphyne/html/namespacedelphyne_1_1roads.html#ad23ea9e01da7d6762574589baae11b7f',1,'delphyne::roads']]],
   ['createmalidriveroadnetwork_452',['CreateMalidriveRoadNetwork',['.././deps/maliput_integration/html/namespacemaliput_1_1integration.html#abfc734558160f9a1ce5767cee19611ea',1,'maliput::integration']]],
   ['createmalidriveroadnetworkfromxodr_453',['CreateMalidriveRoadNetworkFromXodr',['.././deps/delphyne/html/namespacedelphyne_1_1roads.html#a62670d30382c616d719a706db10e3852',1,'delphyne::roads']]],
-  ['createmaliputosmroadnetwork_454',['CreateMaliputOSMRoadNetwork',['.././deps/delphyne/html/namespacedelphyne_1_1roads.html#a325b6986242f0fe09c7165859a8f7150',1,'delphyne::roads']]],
+  ['createmaliputosmroadnetwork_454',['CreateMaliputOsmRoadNetwork',['.././deps/maliput_integration/html/namespacemaliput_1_1integration.html#ae16ac37507691f62c41fd7770218fc3c',1,'maliput::integration::CreateMaliputOsmRoadNetwork()'],['.././deps/delphyne/html/namespacedelphyne_1_1roads.html#a325b6986242f0fe09c7165859a8f7150',1,'delphyne::roads::CreateMaliputOSMRoadNetwork()']]],
   ['createmockcontiguousroadgeometry_455',['CreateMockContiguousRoadGeometry',['.././deps/maliput/html/namespacemaliput_1_1api_1_1test.html#a86df4889faa77e29796faedd939b9872',1,'maliput::api::test']]],
   ['createmockcontiguousroadrulebook_456',['CreateMockContiguousRoadRulebook',['.././deps/maliput/html/namespacemaliput_1_1api_1_1test.html#a229f81180182fd2d2847e4effa5758ee',1,'maliput::api::test']]],
   ['createmultilanefromdescription_457',['CreateMultilaneFromDescription',['.././deps/delphyne/html/namespacedelphyne_1_1roads.html#aa91d31fd414413685d3581966aac4b98',1,'delphyne::roads']]],

@@ -118,6 +118,13 @@
     <namespace>maliput::integration</namespace>
     <member kind="function">
       <type></type>
+      <name>COMMON_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__derive__lane__s__routes_8cc.html</anchorfile>
+      <anchor>a687212d4f3d028a13dd49dde8bef4bfb</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
       <name>MULTILANE_PROPERTIES_FLAGS</name>
       <anchorfile>maliput__derive__lane__s__routes_8cc.html</anchorfile>
       <anchor>a5fb948470c06be1e929407cbdc062b5c</anchor>
@@ -135,6 +142,13 @@
       <name>MALIDRIVE_PROPERTIES_FLAGS</name>
       <anchorfile>maliput__derive__lane__s__routes_8cc.html</anchorfile>
       <anchor>abbeda97de754ea81e05b3d0e463a83f6</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_OSM_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__derive__lane__s__routes_8cc.html</anchorfile>
+      <anchor>ac6b9499f0a9ff27db4d8008c8dd16be2</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -206,6 +220,13 @@
     <namespace>maliput::integration</namespace>
     <member kind="function">
       <type></type>
+      <name>COMMON_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__dynamic__environment_8cc.html</anchorfile>
+      <anchor>a687212d4f3d028a13dd49dde8bef4bfb</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
       <name>MULTILANE_PROPERTIES_FLAGS</name>
       <anchorfile>maliput__dynamic__environment_8cc.html</anchorfile>
       <anchor>a5fb948470c06be1e929407cbdc062b5c</anchor>
@@ -223,6 +244,13 @@
       <name>MALIDRIVE_PROPERTIES_FLAGS</name>
       <anchorfile>maliput__dynamic__environment_8cc.html</anchorfile>
       <anchor>abbeda97de754ea81e05b3d0e463a83f6</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_OSM_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__dynamic__environment_8cc.html</anchorfile>
+      <anchor>ac6b9499f0a9ff27db4d8008c8dd16be2</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -293,9 +321,23 @@
     </member>
     <member kind="define">
       <type>#define</type>
+      <name>COMMON_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__gflags_8h.html</anchorfile>
+      <anchor>a9166f7a1ceb9b8ed6d20360c382b8ec1</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>MALIDRIVE_PROPERTIES_FLAGS</name>
       <anchorfile>maliput__gflags_8h.html</anchorfile>
       <anchor>ae025976c22eedc7b1678999a39fa5dae</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_OSM_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__gflags_8h.html</anchorfile>
+      <anchor>a70506b50a0f49c875796c21a95f8ec73</anchor>
       <arglist>()</arglist>
     </member>
   </compound>
@@ -330,6 +372,13 @@
     <namespace>maliput::integration</namespace>
     <member kind="function">
       <type></type>
+      <name>COMMON_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__query_8cc.html</anchorfile>
+      <anchor>a687212d4f3d028a13dd49dde8bef4bfb</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
       <name>MULTILANE_PROPERTIES_FLAGS</name>
       <anchorfile>maliput__query_8cc.html</anchorfile>
       <anchor>a5fb948470c06be1e929407cbdc062b5c</anchor>
@@ -347,6 +396,13 @@
       <name>MALIDRIVE_PROPERTIES_FLAGS</name>
       <anchorfile>maliput__query_8cc.html</anchorfile>
       <anchor>abbeda97de754ea81e05b3d0e463a83f6</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_OSM_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__query_8cc.html</anchorfile>
+      <anchor>ac6b9499f0a9ff27db4d8008c8dd16be2</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -414,6 +470,13 @@
     <namespace>maliput::integration</namespace>
     <member kind="function">
       <type></type>
+      <name>COMMON_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__to__obj_8cc.html</anchorfile>
+      <anchor>a687212d4f3d028a13dd49dde8bef4bfb</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
       <name>MULTILANE_PROPERTIES_FLAGS</name>
       <anchorfile>maliput__to__obj_8cc.html</anchorfile>
       <anchor>a5fb948470c06be1e929407cbdc062b5c</anchor>
@@ -431,6 +494,13 @@
       <name>MALIDRIVE_PROPERTIES_FLAGS</name>
       <anchorfile>maliput__to__obj_8cc.html</anchorfile>
       <anchor>abbeda97de754ea81e05b3d0e463a83f6</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_OSM_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__to__obj_8cc.html</anchorfile>
+      <anchor>ac6b9499f0a9ff27db4d8008c8dd16be2</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -519,6 +589,13 @@
     <namespace>maliput::integration</namespace>
     <member kind="function">
       <type></type>
+      <name>COMMON_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__to__string_8cc.html</anchorfile>
+      <anchor>a687212d4f3d028a13dd49dde8bef4bfb</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
       <name>MULTILANE_PROPERTIES_FLAGS</name>
       <anchorfile>maliput__to__string_8cc.html</anchorfile>
       <anchor>a5fb948470c06be1e929407cbdc062b5c</anchor>
@@ -536,6 +613,13 @@
       <name>MALIDRIVE_PROPERTIES_FLAGS</name>
       <anchorfile>maliput__to__string_8cc.html</anchorfile>
       <anchor>abbeda97de754ea81e05b3d0e463a83f6</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_OSM_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__to__string_8cc.html</anchorfile>
+      <anchor>ac6b9499f0a9ff27db4d8008c8dd16be2</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -814,10 +898,17 @@
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
+      <name>CreateMaliputOsmRoadNetwork</name>
+      <anchorfile>namespacemaliput_1_1integration.html</anchorfile>
+      <anchor>ae16ac37507691f62c41fd7770218fc3c</anchor>
+      <arglist>(const MaliputOsmBuildProperties &amp;build_properties)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
       <name>LoadRoadNetwork</name>
       <anchorfile>namespacemaliput_1_1integration.html</anchorfile>
-      <anchor>aba2a84485c4b79268ccb50791e61fb3c</anchor>
-      <arglist>(MaliputImplementation maliput_implementation, const DragwayBuildProperties &amp;dragway_build_properties, const MultilaneBuildProperties &amp;multilane_build_properties, const MalidriveBuildProperties &amp;malidrive_build_properties)</arglist>
+      <anchor>abe2dff71ac0209b8e26efde14803b117</anchor>
+      <arglist>(MaliputImplementation maliput_implementation, const DragwayBuildProperties &amp;dragway_build_properties, const MultilaneBuildProperties &amp;multilane_build_properties, const MalidriveBuildProperties &amp;malidrive_build_properties, const MaliputOsmBuildProperties &amp;maliput_osm_build_properties)</arglist>
     </member>
     <member kind="function">
       <type>std::string</type>
@@ -834,6 +925,7 @@
     <class kind="struct">maliput::integration::DragwayBuildProperties</class>
     <class kind="struct">maliput::integration::MultilaneBuildProperties</class>
     <class kind="struct">maliput::integration::MalidriveBuildProperties</class>
+    <class kind="struct">maliput::integration::MaliputOsmBuildProperties</class>
     <namespace>maliput</namespace>
     <namespace>maliput::integration</namespace>
     <member kind="enumeration">
@@ -845,6 +937,7 @@
       <enumvalue file="namespacemaliput_1_1integration.html" anchor="a78ee0565a11069e8c15b544bb43dd841a0ff04816cf074f8a18ed2c9b9bbaf92d">kMalidrive</enumvalue>
       <enumvalue file="namespacemaliput_1_1integration.html" anchor="a78ee0565a11069e8c15b544bb43dd841a93a6717df2fc5fb5a3fd2f5ff99ab8de">kDragway</enumvalue>
       <enumvalue file="namespacemaliput_1_1integration.html" anchor="a78ee0565a11069e8c15b544bb43dd841af07fc794fa3b63102404f98850c55570">kMultilane</enumvalue>
+      <enumvalue file="namespacemaliput_1_1integration.html" anchor="a78ee0565a11069e8c15b544bb43dd841a2bf92d22da9e8a764d4b99174bd4a53a">kOsm</enumvalue>
     </member>
     <member kind="function">
       <type>std::string</type>
@@ -883,10 +976,17 @@
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
+      <name>CreateMaliputOsmRoadNetwork</name>
+      <anchorfile>namespacemaliput_1_1integration.html</anchorfile>
+      <anchor>ae16ac37507691f62c41fd7770218fc3c</anchor>
+      <arglist>(const MaliputOsmBuildProperties &amp;build_properties)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
       <name>LoadRoadNetwork</name>
       <anchorfile>namespacemaliput_1_1integration.html</anchorfile>
-      <anchor>aba2a84485c4b79268ccb50791e61fb3c</anchor>
-      <arglist>(MaliputImplementation maliput_implementation, const DragwayBuildProperties &amp;dragway_build_properties, const MultilaneBuildProperties &amp;multilane_build_properties, const MalidriveBuildProperties &amp;malidrive_build_properties)</arglist>
+      <anchor>abe2dff71ac0209b8e26efde14803b117</anchor>
+      <arglist>(MaliputImplementation maliput_implementation, const DragwayBuildProperties &amp;dragway_build_properties, const MultilaneBuildProperties &amp;multilane_build_properties, const MalidriveBuildProperties &amp;malidrive_build_properties, const MaliputOsmBuildProperties &amp;maliput_osm_build_properties)</arglist>
     </member>
     <member kind="function">
       <type>std::string</type>
@@ -1134,6 +1234,73 @@
     </member>
   </compound>
   <compound kind="struct">
+    <name>maliput::integration::MaliputOsmBuildProperties</name>
+    <filename>structmaliput_1_1integration_1_1_maliput_osm_build_properties.html</filename>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>osm_file</name>
+      <anchorfile>structmaliput_1_1integration_1_1_maliput_osm_build_properties.html</anchorfile>
+      <anchor>afc81bd27608b576d94abc5ecf4d4feb7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>linear_tolerance</name>
+      <anchorfile>structmaliput_1_1integration_1_1_maliput_osm_build_properties.html</anchorfile>
+      <anchor>a6a6b7ad51a19a2fcf7e454c1d7892300</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>angular_tolerance</name>
+      <anchorfile>structmaliput_1_1integration_1_1_maliput_osm_build_properties.html</anchorfile>
+      <anchor>a81d132d0efbdf9cb0535607abd868c07</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>maliput::math::Vector2</type>
+      <name>origin</name>
+      <anchorfile>structmaliput_1_1integration_1_1_maliput_osm_build_properties.html</anchorfile>
+      <anchor>a2b2e1784e96c6238ec9ea959b6bce50c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>rule_registry_file</name>
+      <anchorfile>structmaliput_1_1integration_1_1_maliput_osm_build_properties.html</anchorfile>
+      <anchor>a1fa543054f365f30fdabafcdf631a6d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>road_rule_book_file</name>
+      <anchorfile>structmaliput_1_1integration_1_1_maliput_osm_build_properties.html</anchorfile>
+      <anchor>a5cb73e690547d614a13aa9e4fd7e3937</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>traffic_light_book_file</name>
+      <anchorfile>structmaliput_1_1integration_1_1_maliput_osm_build_properties.html</anchorfile>
+      <anchor>a9d6794d569d56eccfebb3a8b07ea67de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>phase_ring_book_file</name>
+      <anchorfile>structmaliput_1_1integration_1_1_maliput_osm_build_properties.html</anchorfile>
+      <anchor>ad105672ddb983c1bbfc3b6a1f4bf81bf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>intersection_book_file</name>
+      <anchorfile>structmaliput_1_1integration_1_1_maliput_osm_build_properties.html</anchorfile>
+      <anchor>aba56e5052165aed5fce1c53ffc9ebdd9</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
     <name>maliput::integration::MultilaneBuildProperties</name>
     <filename>structmaliput_1_1integration_1_1_multilane_build_properties.html</filename>
     <member kind="variable">
@@ -1189,6 +1356,7 @@
     <class kind="class">maliput::integration::DynamicEnvironmentHandler</class>
     <class kind="class">maliput::integration::FixedPhaseIterationHandler</class>
     <class kind="struct">maliput::integration::MalidriveBuildProperties</class>
+    <class kind="struct">maliput::integration::MaliputOsmBuildProperties</class>
     <class kind="struct">maliput::integration::MultilaneBuildProperties</class>
     <class kind="class">maliput::integration::Timer</class>
     <member kind="enumeration">
@@ -1216,6 +1384,7 @@
       <enumvalue file="namespacemaliput_1_1integration.html" anchor="a78ee0565a11069e8c15b544bb43dd841a0ff04816cf074f8a18ed2c9b9bbaf92d">kMalidrive</enumvalue>
       <enumvalue file="namespacemaliput_1_1integration.html" anchor="a78ee0565a11069e8c15b544bb43dd841a93a6717df2fc5fb5a3fd2f5ff99ab8de">kDragway</enumvalue>
       <enumvalue file="namespacemaliput_1_1integration.html" anchor="a78ee0565a11069e8c15b544bb43dd841af07fc794fa3b63102404f98850c55570">kMultilane</enumvalue>
+      <enumvalue file="namespacemaliput_1_1integration.html" anchor="a78ee0565a11069e8c15b544bb43dd841a2bf92d22da9e8a764d4b99174bd4a53a">kOsm</enumvalue>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; DynamicEnvironmentHandler &gt;</type>
@@ -1268,10 +1437,17 @@
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
+      <name>CreateMaliputOsmRoadNetwork</name>
+      <anchorfile>namespacemaliput_1_1integration.html</anchorfile>
+      <anchor>ae16ac37507691f62c41fd7770218fc3c</anchor>
+      <arglist>(const MaliputOsmBuildProperties &amp;build_properties)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
       <name>LoadRoadNetwork</name>
       <anchorfile>namespacemaliput_1_1integration.html</anchorfile>
-      <anchor>aba2a84485c4b79268ccb50791e61fb3c</anchor>
-      <arglist>(MaliputImplementation maliput_implementation, const DragwayBuildProperties &amp;dragway_build_properties, const MultilaneBuildProperties &amp;multilane_build_properties, const MalidriveBuildProperties &amp;malidrive_build_properties)</arglist>
+      <anchor>abe2dff71ac0209b8e26efde14803b117</anchor>
+      <arglist>(MaliputImplementation maliput_implementation, const DragwayBuildProperties &amp;dragway_build_properties, const MultilaneBuildProperties &amp;multilane_build_properties, const MalidriveBuildProperties &amp;malidrive_build_properties, const MaliputOsmBuildProperties &amp;maliput_osm_build_properties)</arglist>
     </member>
     <member kind="function">
       <type>std::string</type>

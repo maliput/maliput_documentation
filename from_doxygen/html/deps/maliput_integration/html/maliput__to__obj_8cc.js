@@ -1,5 +1,6 @@
 var maliput__to__obj_8cc =
 [
+    [ "COMMON_PROPERTIES_FLAGS", "maliput__to__obj_8cc.html#a687212d4f3d028a13dd49dde8bef4bfb", null ],
     [ "DEFINE_bool", "maliput__to__obj_8cc.html#a5d8b399ddbd722195a82403f094dce10", null ],
     [ "DEFINE_bool", "maliput__to__obj_8cc.html#a607a58114ce535065a9d8525d0bc92e8", null ],
     [ "DEFINE_double", "maliput__to__obj_8cc.html#a816d04266026cd954ba46a9bced93474", null ],
@@ -12,5 +13,6 @@ var maliput__to__obj_8cc =
     [ "main", "maliput__to__obj_8cc.html#a0ddf1224851353fc92bfbff6f499fa97", null ],
     [ "MALIDRIVE_PROPERTIES_FLAGS", "maliput__to__obj_8cc.html#abbeda97de754ea81e05b3d0e463a83f6", null ],
     [ "MALIPUT_APPLICATION_DEFINE_LOG_LEVEL_FLAG", "maliput__to__obj_8cc.html#a279f8265bbb629f711000ea1f804572d", null ],
+    [ "MALIPUT_OSM_PROPERTIES_FLAGS", "maliput__to__obj_8cc.html#ac6b9499f0a9ff27db4d8008c8dd16be2", null ],
     [ "MULTILANE_PROPERTIES_FLAGS", "maliput__to__obj_8cc.html#a5fb948470c06be1e929407cbdc062b5c", null ]
 ];
