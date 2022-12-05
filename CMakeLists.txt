@@ -41,6 +41,7 @@ if(BUILD_DOCS)
       maliput_osm
       maliput_py
       maliput_sparse
+      maliput_viz
       delphyne
       delphyne_demos
       delphyne_gui

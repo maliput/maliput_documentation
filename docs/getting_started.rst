@@ -204,7 +204,7 @@ right-of-way rules.
 Loading a TrafficLightBook
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-`maliput`_ provides a base implementation of the `maliput::api::rules::TrafficLightBook`_, which can be used for adding `TrafficLight`s to the book.
+`maliput`_ provides a base implementation of the `maliput::api::rules::TrafficLightBook`_, which can be used for adding `maliput::api::rules::TrafficLight`_ s to the book.
 However, the most convenient way of populating this book is to load it via YAML file by using the `maliput::LoadTrafficLightBookFromFile`_ method.
 
 As example, we will use the `maliput_malidrive`_ backend, which fully supports `maliput`_'s API.
@@ -671,9 +671,9 @@ IntersectionBook
 ----------------
 
 The `maliput::api::IntersectionBook`_ is an interface for querying for the intersection in a given road network.
-This book is expected to gather all the available `Intersection`s. The API allows you to find intersections by `maliput::api::Intersection`_, `maliput::api::rules::TrafficLight`_ or `maliput::api::rules::DiscretValueRule` ID and even by inertial position.
+This book is expected to gather all the available `maliput::api::Intersection`_ s. The API allows you to find intersections by `maliput::api::Intersection`_, `maliput::api::rules::TrafficLight`_ or `maliput::api::rules::DiscretValueRule` ID and even by inertial position.
 
-`maliput`_ provides a base implementation for loading the `Intersection`s.
+`maliput`_ provides a base implementation for loading the `maliput::api::Intersection`_ s.
 However, the most convenient way of populating this book is to load it via YAML file by using the `maliput::LoadIntersectionBookFromFile`_ method.
 
 As example, we will use the `maliput_malidrive`_ backend.
