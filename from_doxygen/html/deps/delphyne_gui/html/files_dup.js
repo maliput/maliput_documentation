@@ -5,10 +5,6 @@ var files_dup =
     [ "agent_info_display.hh", "agent__info__display_8hh.html", [
       [ "AgentInfoDisplay", "classdelphyne_1_1gui_1_1_agent_info_display.html", "classdelphyne_1_1gui_1_1_agent_info_display" ]
     ] ],
-    [ "arrow_mesh.cc", "arrow__mesh_8cc.html", null ],
-    [ "arrow_mesh.hh", "arrow__mesh_8hh.html", [
-      [ "ArrowMesh", "classdelphyne_1_1gui_1_1_arrow_mesh.html", "classdelphyne_1_1gui_1_1_arrow_mesh" ]
-    ] ],
     [ "global_attributes.cc", "global__attributes_8cc.html", null ],
     [ "global_attributes.hh", "global__attributes_8hh.html", [
       [ "GlobalAttributes", "classdelphyne_1_1gui_1_1_global_attributes.html", "classdelphyne_1_1gui_1_1_global_attributes" ]
@@ -17,21 +13,6 @@ var files_dup =
     [ "launcher.py", "launcher_8py.html", [
       [ "TrackedProcess", "classlauncher_1_1_tracked_process.html", "classlauncher_1_1_tracked_process" ],
       [ "Launcher", "classlauncher_1_1_launcher.html", "classlauncher_1_1_launcher" ]
-    ] ],
-    [ "maliput_backend_selection.cc", "maliput__backend__selection_8cc.html", null ],
-    [ "maliput_backend_selection.hh", "maliput__backend__selection_8hh.html", [
-      [ "Parameter", "structdelphyne_1_1gui_1_1_parameter.html", "structdelphyne_1_1gui_1_1_parameter" ],
-      [ "ParameterTableModel", "classdelphyne_1_1gui_1_1_parameter_table_model.html", "classdelphyne_1_1gui_1_1_parameter_table_model" ],
-      [ "MaliputBackendSelection", "classdelphyne_1_1gui_1_1_maliput_backend_selection.html", "classdelphyne_1_1gui_1_1_maliput_backend_selection" ]
-    ] ],
-    [ "maliput_mesh_converter.cc", "maliput__mesh__converter_8cc.html", "maliput__mesh__converter_8cc" ],
-    [ "maliput_mesh_converter.hh", "maliput__mesh__converter_8hh.html", "maliput__mesh__converter_8hh" ],
-    [ "maliput_viewer_model.cc", "maliput__viewer__model_8cc.html", "maliput__viewer__model_8cc" ],
-    [ "maliput_viewer_model.hh", "maliput__viewer__model_8hh.html", "maliput__viewer__model_8hh" ],
-    [ "maliput_viewer_plugin.cc", "maliput__viewer__plugin_8cc.html", null ],
-    [ "maliput_viewer_plugin.hh", "maliput__viewer__plugin_8hh.html", [
-      [ "PhaseTreeModel", "classdelphyne_1_1gui_1_1_phase_tree_model.html", "classdelphyne_1_1gui_1_1_phase_tree_model" ],
-      [ "MaliputViewerPlugin", "classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html", "classdelphyne_1_1gui_1_1_maliput_viewer_plugin" ]
     ] ],
     [ "message.cc", "message_8cc.html", null ],
     [ "message.h", "message_8h.html", [
@@ -47,10 +28,6 @@ var files_dup =
       [ "PlaybackPlugin", "classdelphyne_1_1gui_1_1_playback_plugin.html", "classdelphyne_1_1gui_1_1_playback_plugin" ]
     ] ],
     [ "replay.py", "replay_8py.html", "replay_8py" ],
-    [ "selector.cc", "selector_8cc.html", null ],
-    [ "selector.hh", "selector_8hh.html", [
-      [ "Selector", "classdelphyne_1_1gui_1_1_selector.html", "classdelphyne_1_1gui_1_1_selector" ]
-    ] ],
     [ "teleop_plugin.cc", "teleop__plugin_8cc.html", null ],
     [ "teleop_plugin.h", "teleop__plugin_8h.html", [
       [ "TeleopPlugin", "classdelphyne_1_1gui_1_1_teleop_plugin.html", "classdelphyne_1_1gui_1_1_teleop_plugin" ]
@@ -63,10 +40,6 @@ var files_dup =
     [ "topics_stats.cc", "topics__stats_8cc.html", null ],
     [ "topics_stats.hh", "topics__stats_8hh.html", [
       [ "TopicsStats", "classdelphyne_1_1gui_1_1_topics_stats.html", "classdelphyne_1_1gui_1_1_topics_stats" ]
-    ] ],
-    [ "traffic_light_manager.cc", "traffic__light__manager_8cc.html", null ],
-    [ "traffic_light_manager.hh", "traffic__light__manager_8hh.html", [
-      [ "TrafficLightManager", "classdelphyne_1_1gui_1_1_traffic_light_manager.html", "classdelphyne_1_1gui_1_1_traffic_light_manager" ]
     ] ],
     [ "utilities.py", "utilities_8py.html", "utilities_8py" ],
     [ "visualizer.cc", "visualizer_8cc.html", "visualizer_8cc" ]

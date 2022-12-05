@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['ruleslist_4981',['rulesList',['../classdelphyne_1_1gui_1_1_maliput_viewer_plugin.html#a73886dd817a5fc277ac977eb3a0d721f',1,'delphyne::gui::MaliputViewerPlugin']]]
+  ['throttlekeypressed_4759',['throttleKeyPressed',['../classdelphyne_1_1gui_1_1_teleop_plugin.html#af5f01d0b5b7792ba0639daac86fce203',1,'delphyne::gui::TeleopPlugin']]],
+  ['throttlevalue_4760',['throttleValue',['../classdelphyne_1_1gui_1_1_teleop_plugin.html#a74e20bae6d787e91181ff65ed9a1669c',1,'delphyne::gui::TeleopPlugin']]]
 ];

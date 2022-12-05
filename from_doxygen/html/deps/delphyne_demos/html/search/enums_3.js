@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['roadpositionstrategy_2840',['RoadPositionStrategy',['../../../delphyne/html/namespacedelphyne.html#a80c24f02d40ad1d60da3a88a412b08c3',1,'delphyne']]]
+  ['scanstrategy_2610',['ScanStrategy',['../../../delphyne/html/namespacedelphyne.html#aaa81dbcb1a985b9b239777c0ac52f157',1,'delphyne']]]
 ];

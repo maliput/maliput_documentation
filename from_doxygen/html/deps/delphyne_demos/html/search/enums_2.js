@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['maliputlabeltype_2839',['MaliputLabelType',['../../../delphyne_gui/html/namespacedelphyne_1_1gui.html#af8acfde096ebc9fc2534ddd6b445783c',1,'delphyne::gui']]]
+  ['roadpositionstrategy_2609',['RoadPositionStrategy',['../../../delphyne/html/namespacedelphyne.html#a80c24f02d40ad1d60da3a88a412b08c3',1,'delphyne']]]
 ];

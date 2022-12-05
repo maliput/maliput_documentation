@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['green_2653',['GREEN',['../../../delphyne/html/namespacedelphyne_1_1console.html#ae64c262ce1094f21457d2f78dd45a8fc',1,'delphyne::console']]]
+  ['has_5fcolours_2433',['HAS_COLOURS',['../../../delphyne/html/namespacedelphyne_1_1console.html#aa6e8661a667034dc063dc5e2c436960d',1,'delphyne::console']]],
+  ['headings_2434',['headings',['../../../delphyne/html/classdelphyne_1_1behaviours_1_1agents_1_1_trajectory_agent.html#a98f4f000ff730554db84d6b3f7c23138',1,'delphyne::behaviours::agents::TrajectoryAgent']]]
 ];

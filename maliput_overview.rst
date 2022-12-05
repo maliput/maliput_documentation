@@ -251,7 +251,26 @@ Available concrete implementations of the abstract API:
   * Varying lane width.
   * Adjustable linear tolerance.
 
-TODO: Create diagram showing `maliput` as api and the backends.
+* `maliput_osm <https://github.com/maliput/maliput_osm>`_ : `maliput_osm` is an implementation of `maliput`'s API that allows users to instantiate a `RoadNetwork` based on the `Lanelet2-OSM` specification.
+
+  * Lanelet2 based map description.
+  * Multiple Lanes per Segment.
+  * Geometries defined by discrete points.
+
+Maliput Sparse
+==============
+
+`maliput_sparse <https://github.com/maliput/maliput_sparse>`_ `maliput_sparse` is a convenient package that provides several helpers for creating a maliput backend that is expected to be built on top of waypoints without any analytical model of the surface.
+
+The mathematical model is solved under the hood so the user doesn't have to dive into complex geometric calculations.
+
+`maliput_osm <https://github.com/maliput/maliput_osm>`_ is built on top of the `maliput_sparse` package.
+
+
+Maliput Vizualizer
+==================
+
+`maliput_viz <https://github.com/maliput/maliput_viz>`_ is a `maliput`'s visualization tool. It allows users to visualize `maliput`'s `RoadNetwork` in a 3D scene.
 
 
 Maliput Python interface
