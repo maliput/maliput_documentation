@@ -270,7 +270,7 @@ The mathematical model is solved under the hood so the user doesn't have to dive
 Maliput Vizualizer
 ==================
 
-`maliput_viz <https://github.com/maliput/maliput_viz>`_ is a `maliput`'s visualization tool. It allows users to visualize `maliput`'s `RoadNetwork` in a 3D environment.
+`maliput_viz <https://github.com/maliput/maliput_viz>`_ is a `maliput`'s visualization tool. It allows users to visualize `maliput`'s `RoadNetwork` in a 3D scene.
 
 
 Maliput Python interface
