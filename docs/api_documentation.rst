@@ -38,12 +38,12 @@ Maliput Py
 Maliput Sparse
 ==============
 
-* `Maliput Sparse C++ namespace <html/deps/maliput_sparse/html/namespacesparse.html>`_
+* `Maliput Sparse C++ namespace <html/deps/maliput_sparse/html/namespacemaliput__sparse.html>`_
 
 Maliput Osm
 ===========
 
-* `Maliput Osm C++ namespace <html/deps/maliput_osm/html/namespaceosm.html>`_
+* `Maliput Osm C++ namespace <html/deps/maliput_osm/html/namespacemaliput__osm.html>`_
 
 Multilane
 =========
