@@ -1,5 +1,7 @@
 var structmaliput_1_1dragway_1_1_road_geometry_configuration =
 [
+    [ "FromMap", "structmaliput_1_1dragway_1_1_road_geometry_configuration.html#a0cbe02d22618d7a6de6fc2e2982bdb39", null ],
+    [ "ToStringMap", "structmaliput_1_1dragway_1_1_road_geometry_configuration.html#ad9d7e276b16ed7a92b69859f2a00eacb", null ],
     [ "inertial_to_backend_frame_translation", "structmaliput_1_1dragway_1_1_road_geometry_configuration.html#a6610f582dce14e8bf53720a9d33198bb", null ],
     [ "lane_width", "structmaliput_1_1dragway_1_1_road_geometry_configuration.html#ae237cba32922355b9dd7d7c479aa6df1", null ],
     [ "length", "structmaliput_1_1dragway_1_1_road_geometry_configuration.html#a928b11f5716331f0b89abe7d8d4124b4", null ],

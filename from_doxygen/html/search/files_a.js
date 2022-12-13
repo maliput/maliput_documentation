@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['junction_2ecc_4276',['junction.cc',['.././deps/maliput/html/junction_8cc.html.html',1,'(Global Namespace)'],['.././deps/maliput_dragway/html/junction_8cc.html.html',1,'(Global Namespace)'],['.././deps/maliput_malidrive/html/junction_8cc.html.html',1,'(Global Namespace)'],['.././deps/maliput_multilane/html/junction_8cc.html.html',1,'(Global Namespace)']]],
-  ['junction_2eh_4277',['junction.h',['.././deps/maliput_dragway/html/junction_8h.html.html',1,'(Global Namespace)'],['.././deps/maliput_malidrive/html/junction_8h.html.html',1,'(Global Namespace)'],['.././deps/maliput_multilane/html/junction_8h.html.html',1,'(Global Namespace)'],['.././deps/maliput_osm/html/junction_8h.html.html',1,'(Global Namespace)']]]
+  ['junction_2ecc_4296',['junction.cc',['.././deps/maliput/html/junction_8cc.html.html',1,'(Global Namespace)'],['.././deps/maliput_dragway/html/junction_8cc.html.html',1,'(Global Namespace)'],['.././deps/maliput_malidrive/html/junction_8cc.html.html',1,'(Global Namespace)'],['.././deps/maliput_multilane/html/junction_8cc.html.html',1,'(Global Namespace)']]],
+  ['junction_2eh_4297',['junction.h',['.././deps/maliput_dragway/html/junction_8h.html.html',1,'(Global Namespace)'],['.././deps/maliput_malidrive/html/junction_8h.html.html',1,'(Global Namespace)'],['.././deps/maliput_multilane/html/junction_8h.html.html',1,'(Global Namespace)'],['.././deps/maliput_osm/html/junction_8h.html.html',1,'(Global Namespace)'],['.././deps/maliput_sparse/html/junction_8h.html.html',1,'(Global Namespace)']]]
 ];

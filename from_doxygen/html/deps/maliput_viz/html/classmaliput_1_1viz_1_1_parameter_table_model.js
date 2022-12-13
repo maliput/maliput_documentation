@@ -6,6 +6,7 @@ var classmaliput_1_1viz_1_1_parameter_table_model =
     [ "columnCount", "classmaliput_1_1viz_1_1_parameter_table_model.html#acf7711fc384ef290b7520e39a16dfb2d", null ],
     [ "data", "classmaliput_1_1viz_1_1_parameter_table_model.html#aa06564528ca791fce5d559b298edbb18", null ],
     [ "DeleteParameter", "classmaliput_1_1viz_1_1_parameter_table_model.html#a1da3c2e3178df1f0e3fea1da548241c0", null ],
+    [ "GetData", "classmaliput_1_1viz_1_1_parameter_table_model.html#ae48dd6c1a7181bb7ed54b7539822c73f", null ],
     [ "GetMapFromParameters", "classmaliput_1_1viz_1_1_parameter_table_model.html#aa14c45c04c403517a8dc85242f8ceb11", null ],
     [ "roleNames", "classmaliput_1_1viz_1_1_parameter_table_model.html#a0ec0e31df18472075967b0410ee4b3be", null ],
     [ "rowCount", "classmaliput_1_1viz_1_1_parameter_table_model.html#a51dd94ef911c8f4c6495093a1561b45a", null ],

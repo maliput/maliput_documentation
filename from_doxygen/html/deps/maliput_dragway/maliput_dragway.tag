@@ -156,6 +156,48 @@
       <anchor>a2b197af66db83551d143d7caf5bd4bd1</anchor>
       <arglist>(const RoadGeometryConfiguration &amp;road_geometry_configuration)</arglist>
     </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kNumLanes</name>
+      <anchorfile>group__road__geometry__configuration__keys.html</anchorfile>
+      <anchor>ga609a453145a842d8b6131d770b12348f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kLength</name>
+      <anchorfile>group__road__geometry__configuration__keys.html</anchorfile>
+      <anchor>ga8a502ee7db3e0bc55eba2a7192ccfdc9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kLaneWidth</name>
+      <anchorfile>group__road__geometry__configuration__keys.html</anchorfile>
+      <anchor>ga9460b256034f4e324123b2339e11b70f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kShoulderWidth</name>
+      <anchorfile>group__road__geometry__configuration__keys.html</anchorfile>
+      <anchor>gaaa98da0a08c9097a1d625d09fb30daf8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kMaximumHeight</name>
+      <anchorfile>group__road__geometry__configuration__keys.html</anchorfile>
+      <anchor>ga086aadb88481ac9d8911d40e35c15e65</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kInertialToBackendFrameTranslation</name>
+      <anchorfile>group__road__geometry__configuration__keys.html</anchorfile>
+      <anchor>ga94c21e622feaf27c90c695b3c81206ff</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>segment.cc</name>
@@ -390,6 +432,20 @@
   <compound kind="struct">
     <name>maliput::dragway::RoadGeometryConfiguration</name>
     <filename>structmaliput_1_1dragway_1_1_road_geometry_configuration.html</filename>
+    <member kind="function">
+      <type>std::map&lt; std::string, std::string &gt;</type>
+      <name>ToStringMap</name>
+      <anchorfile>structmaliput_1_1dragway_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>ad9d7e276b16ed7a92b69859f2a00eacb</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static maliput::dragway::RoadGeometryConfiguration</type>
+      <name>FromMap</name>
+      <anchorfile>structmaliput_1_1dragway_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a0cbe02d22618d7a6de6fc2e2982bdb39</anchor>
+      <arglist>(const std::map&lt; std::string, std::string &gt; &amp;parameters)</arglist>
+    </member>
     <member kind="variable">
       <type>int</type>
       <name>num_lanes</name>
@@ -477,6 +533,48 @@
       <anchor>a2b197af66db83551d143d7caf5bd4bd1</anchor>
       <arglist>(const RoadGeometryConfiguration &amp;road_geometry_configuration)</arglist>
     </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kNumLanes</name>
+      <anchorfile>group__road__geometry__configuration__keys.html</anchorfile>
+      <anchor>ga609a453145a842d8b6131d770b12348f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kLength</name>
+      <anchorfile>group__road__geometry__configuration__keys.html</anchorfile>
+      <anchor>ga8a502ee7db3e0bc55eba2a7192ccfdc9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kLaneWidth</name>
+      <anchorfile>group__road__geometry__configuration__keys.html</anchorfile>
+      <anchor>ga9460b256034f4e324123b2339e11b70f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kShoulderWidth</name>
+      <anchorfile>group__road__geometry__configuration__keys.html</anchorfile>
+      <anchor>gaaa98da0a08c9097a1d625d09fb30daf8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kMaximumHeight</name>
+      <anchorfile>group__road__geometry__configuration__keys.html</anchorfile>
+      <anchor>ga086aadb88481ac9d8911d40e35c15e65</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kInertialToBackendFrameTranslation</name>
+      <anchorfile>group__road__geometry__configuration__keys.html</anchorfile>
+      <anchor>ga94c21e622feaf27c90c695b3c81206ff</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="namespace">
     <name>maliput::dragway::bindings</name>
@@ -498,6 +596,53 @@
       <anchorfile>namespacemaliput_1_1dragway_1_1plugin.html</anchorfile>
       <anchor>afd53859dd69a251e990349471d69f00e</anchor>
       <arglist>(&quot;maliput_dragway&quot;, RoadNetworkLoader)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>road_geometry_configuration_keys</name>
+    <title>RoadGeometry configuration builder keys</title>
+    <filename>group__road__geometry__configuration__keys.html</filename>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kNumLanes</name>
+      <anchorfile>group__road__geometry__configuration__keys.html</anchorfile>
+      <anchor>ga609a453145a842d8b6131d770b12348f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kLength</name>
+      <anchorfile>group__road__geometry__configuration__keys.html</anchorfile>
+      <anchor>ga8a502ee7db3e0bc55eba2a7192ccfdc9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kLaneWidth</name>
+      <anchorfile>group__road__geometry__configuration__keys.html</anchorfile>
+      <anchor>ga9460b256034f4e324123b2339e11b70f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kShoulderWidth</name>
+      <anchorfile>group__road__geometry__configuration__keys.html</anchorfile>
+      <anchor>gaaa98da0a08c9097a1d625d09fb30daf8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kMaximumHeight</name>
+      <anchorfile>group__road__geometry__configuration__keys.html</anchorfile>
+      <anchor>ga086aadb88481ac9d8911d40e35c15e65</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kInertialToBackendFrameTranslation</name>
+      <anchorfile>group__road__geometry__configuration__keys.html</anchorfile>
+      <anchor>ga94c21e622feaf27c90c695b3c81206ff</anchor>
+      <arglist></arglist>
     </member>
   </compound>
 </tagfile>

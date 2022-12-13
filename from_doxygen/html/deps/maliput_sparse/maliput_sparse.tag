@@ -5,7 +5,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/src/builder/</path>
     <filename>builder_8cc.html</filename>
     <includes id="builder_8h" name="builder.h" local="yes" imported="no">maliput_sparse/builder/builder.h</includes>
-    <includes id="lane_8h" name="lane.h" local="yes" imported="no">base/lane.h</includes>
+    <includes id="src_2base_2lane_8h" name="src/base/lane.h" local="yes" imported="no">base/lane.h</includes>
     <includes id="road__geometry_8h" name="road_geometry.h" local="yes" imported="no">base/road_geometry.h</includes>
     <namespace>maliput_sparse</namespace>
     <namespace>maliput_sparse::builder</namespace>
@@ -55,6 +55,118 @@
     <namespace>maliput_sparse</namespace>
     <namespace>maliput_sparse::builder</namespace>
     <namespace>maliput_sparse::builder::details</namespace>
+  </compound>
+  <compound kind="file">
+    <name>builder_configuration.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/src/loader/</path>
+    <filename>builder__configuration_8cc.html</filename>
+    <includes id="builder__configuration_8h" name="builder_configuration.h" local="yes" imported="no">maliput_sparse/loader/builder_configuration.h</includes>
+    <includes id="config_8h" name="config.h" local="yes" imported="no">maliput_sparse/loader/config.h</includes>
+    <namespace>maliput_sparse</namespace>
+    <namespace>maliput_sparse::loader</namespace>
+  </compound>
+  <compound kind="file">
+    <name>builder_configuration.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/include/maliput_sparse/loader/</path>
+    <filename>builder__configuration_8h.html</filename>
+    <class kind="struct">maliput_sparse::loader::BuilderConfiguration</class>
+    <namespace>maliput_sparse</namespace>
+    <namespace>maliput_sparse::loader</namespace>
+  </compound>
+  <compound kind="file">
+    <name>config.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/include/maliput_sparse/loader/</path>
+    <filename>config_8h.html</filename>
+    <namespace>maliput_sparse</namespace>
+    <namespace>maliput_sparse::loader</namespace>
+    <namespace>maliput_sparse::loader::config</namespace>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kRoadGeometryId</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>ga65640ac01adf58486da1ff6f92d44c3f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kLinearTolerance</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>gac6e403db72f1c6cea48836ea7754e3de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kAngularTolerance</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>ga0e97f7f471a134224c1ce20a25da877d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kScaleLength</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>ga10cc3dafe29eccb96fcbd1843f97acab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kInertialToBackendFrameTranslation</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>ga94c21e622feaf27c90c695b3c81206ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kRoadRuleBook</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>ga413e2136aa512c92d58bf633b25e72af</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kRuleRegistry</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>gad98da37a0819c38a07a700edc8f2ec88</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kTrafficLightBook</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>gaa52290b1f18b24e3f00bd1dc5db5eb53</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kPhaseRingBook</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>gabab6ea6289a9d6a997ea3623df2981e7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kIntersectionBook</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>gabb49a593032b6e55d43c4b69b342c09b</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>connection.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/src/parser/</path>
+    <filename>connection_8cc.html</filename>
+    <includes id="connection_8h" name="connection.h" local="yes" imported="no">maliput_sparse/parser/connection.h</includes>
+    <namespace>maliput_sparse</namespace>
+    <namespace>maliput_sparse::parser</namespace>
+  </compound>
+  <compound kind="file">
+    <name>connection.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/include/maliput_sparse/parser/</path>
+    <filename>connection_8h.html</filename>
+    <includes id="include_2maliput__sparse_2parser_2lane_8h" name="include/maliput_sparse/parser/lane.h" local="yes" imported="no">maliput_sparse/parser/lane.h</includes>
+    <class kind="struct">maliput_sparse::parser::Connection</class>
+    <namespace>maliput_sparse</namespace>
+    <namespace>maliput_sparse::parser</namespace>
   </compound>
   <compound kind="file">
     <name>geometry.cc</name>
@@ -238,16 +350,43 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>lane.cc</name>
+    <name>junction.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/include/maliput_sparse/parser/</path>
+    <filename>junction_8h.html</filename>
+    <includes id="segment_8h" name="segment.h" local="yes" imported="no">maliput_sparse/parser/segment.h</includes>
+    <class kind="struct">maliput_sparse::parser::Junction</class>
+    <namespace>maliput_sparse</namespace>
+    <namespace>maliput_sparse::parser</namespace>
+  </compound>
+  <compound kind="file">
+    <name>base/lane.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/src/base/</path>
-    <filename>lane_8cc.html</filename>
-    <includes id="lane_8h" name="lane.h" local="yes" imported="no">base/lane.h</includes>
+    <filename>base_2lane_8cc.html</filename>
+    <includes id="src_2base_2lane_8h" name="src/base/lane.h" local="yes" imported="no">base/lane.h</includes>
     <namespace>maliput_sparse</namespace>
   </compound>
   <compound kind="file">
-    <name>lane.h</name>
+    <name>parser/lane.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/src/parser/</path>
+    <filename>parser_2lane_8cc.html</filename>
+    <includes id="include_2maliput__sparse_2parser_2lane_8h" name="include/maliput_sparse/parser/lane.h" local="yes" imported="no">maliput_sparse/parser/lane.h</includes>
+    <namespace>maliput_sparse</namespace>
+    <namespace>maliput_sparse::parser</namespace>
+  </compound>
+  <compound kind="file">
+    <name>include/maliput_sparse/parser/lane.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/include/maliput_sparse/parser/</path>
+    <filename>include_2maliput__sparse_2parser_2lane_8h.html</filename>
+    <includes id="line__string_8h" name="line_string.h" local="yes" imported="no">maliput_sparse/geometry/line_string.h</includes>
+    <class kind="struct">maliput_sparse::parser::LaneEnd</class>
+    <class kind="struct">maliput_sparse::parser::Lane</class>
+    <namespace>maliput_sparse</namespace>
+    <namespace>maliput_sparse::parser</namespace>
+  </compound>
+  <compound kind="file">
+    <name>src/base/lane.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/src/base/</path>
-    <filename>lane_8h.html</filename>
+    <filename>src_2base_2lane_8h.html</filename>
     <includes id="lane__geometry_8h" name="lane_geometry.h" local="yes" imported="no">maliput_sparse/geometry/lane_geometry.h</includes>
     <class kind="class">maliput_sparse::Lane</class>
     <namespace>maliput_sparse</namespace>
@@ -333,6 +472,16 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>parser.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/include/maliput_sparse/parser/</path>
+    <filename>parser_8h.html</filename>
+    <includes id="connection_8h" name="connection.h" local="yes" imported="no">maliput_sparse/parser/connection.h</includes>
+    <includes id="junction_8h" name="junction.h" local="yes" imported="no">maliput_sparse/parser/junction.h</includes>
+    <class kind="class">maliput_sparse::parser::Parser</class>
+    <namespace>maliput_sparse</namespace>
+    <namespace>maliput_sparse::parser</namespace>
+  </compound>
+  <compound kind="file">
     <name>road_geometry.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/src/base/</path>
     <filename>road__geometry_8cc.html</filename>
@@ -345,6 +494,54 @@
     <filename>road__geometry_8h.html</filename>
     <class kind="class">maliput_sparse::RoadGeometry</class>
     <namespace>maliput_sparse</namespace>
+  </compound>
+  <compound kind="file">
+    <name>road_geometry_loader.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/src/loader/</path>
+    <filename>road__geometry__loader_8cc.html</filename>
+    <includes id="road__geometry__loader_8h" name="road_geometry_loader.h" local="yes" imported="no">maliput_sparse/loader/road_geometry_loader.h</includes>
+    <includes id="builder_8h" name="builder.h" local="yes" imported="no">maliput_sparse/builder/builder.h</includes>
+    <namespace>maliput_sparse</namespace>
+    <namespace>maliput_sparse::loader</namespace>
+  </compound>
+  <compound kind="file">
+    <name>road_geometry_loader.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/include/maliput_sparse/loader/</path>
+    <filename>road__geometry__loader_8h.html</filename>
+    <includes id="builder__configuration_8h" name="builder_configuration.h" local="yes" imported="no">maliput_sparse/loader/builder_configuration.h</includes>
+    <includes id="parser_8h" name="parser.h" local="yes" imported="no">maliput_sparse/parser/parser.h</includes>
+    <class kind="class">maliput_sparse::loader::RoadGeometryLoader</class>
+    <namespace>maliput_sparse</namespace>
+    <namespace>maliput_sparse::loader</namespace>
+  </compound>
+  <compound kind="file">
+    <name>road_network_loader.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/src/loader/</path>
+    <filename>road__network__loader_8cc.html</filename>
+    <includes id="road__network__loader_8h" name="road_network_loader.h" local="yes" imported="no">maliput_sparse/loader/road_network_loader.h</includes>
+    <namespace>maliput_sparse</namespace>
+    <namespace>maliput_sparse::loader</namespace>
+  </compound>
+  <compound kind="file">
+    <name>road_network_loader.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/include/maliput_sparse/loader/</path>
+    <filename>road__network__loader_8h.html</filename>
+    <includes id="builder__configuration_8h" name="builder_configuration.h" local="yes" imported="no">maliput_sparse/loader/builder_configuration.h</includes>
+    <includes id="road__geometry__loader_8h" name="road_geometry_loader.h" local="yes" imported="no">maliput_sparse/loader/road_geometry_loader.h</includes>
+    <includes id="parser_8h" name="parser.h" local="yes" imported="no">maliput_sparse/parser/parser.h</includes>
+    <class kind="class">maliput_sparse::loader::RoadNetworkLoader</class>
+    <namespace>maliput_sparse</namespace>
+    <namespace>maliput_sparse::loader</namespace>
+  </compound>
+  <compound kind="file">
+    <name>segment.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/include/maliput_sparse/parser/</path>
+    <filename>segment_8h.html</filename>
+    <includes id="line__string_8h" name="line_string.h" local="yes" imported="no">maliput_sparse/geometry/line_string.h</includes>
+    <includes id="include_2maliput__sparse_2parser_2lane_8h" name="include/maliput_sparse/parser/lane.h" local="yes" imported="no">maliput_sparse/parser/lane.h</includes>
+    <class kind="struct">maliput_sparse::parser::Segment</class>
+    <namespace>maliput_sparse</namespace>
+    <namespace>maliput_sparse::parser</namespace>
   </compound>
   <compound kind="struct">
     <name>maliput_sparse::geometry::utility::BoundPointsResult</name>
@@ -405,6 +602,94 @@
     </member>
   </compound>
   <compound kind="struct">
+    <name>maliput_sparse::loader::BuilderConfiguration</name>
+    <filename>structmaliput__sparse_1_1loader_1_1_builder_configuration.html</filename>
+    <member kind="function">
+      <type>std::map&lt; std::string, std::string &gt;</type>
+      <name>ToStringMap</name>
+      <anchorfile>structmaliput__sparse_1_1loader_1_1_builder_configuration.html</anchorfile>
+      <anchor>ad9d7e276b16ed7a92b69859f2a00eacb</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static BuilderConfiguration</type>
+      <name>FromMap</name>
+      <anchorfile>structmaliput__sparse_1_1loader_1_1_builder_configuration.html</anchorfile>
+      <anchor>a5f21ab98e69b449616f5741f2afd98fe</anchor>
+      <arglist>(const std::map&lt; std::string, std::string &gt; &amp;config)</arglist>
+    </member>
+    <member kind="variable">
+      <type>maliput::api::RoadGeometryId</type>
+      <name>road_geometry_id</name>
+      <anchorfile>structmaliput__sparse_1_1loader_1_1_builder_configuration.html</anchorfile>
+      <anchor>af1d1f08dd1f52f4045ddb64b5261a6f3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>linear_tolerance</name>
+      <anchorfile>structmaliput__sparse_1_1loader_1_1_builder_configuration.html</anchorfile>
+      <anchor>a6a6b7ad51a19a2fcf7e454c1d7892300</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>angular_tolerance</name>
+      <anchorfile>structmaliput__sparse_1_1loader_1_1_builder_configuration.html</anchorfile>
+      <anchor>a81d132d0efbdf9cb0535607abd868c07</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>scale_length</name>
+      <anchorfile>structmaliput__sparse_1_1loader_1_1_builder_configuration.html</anchorfile>
+      <anchor>a0568514282864f36cccdacdbd14d57eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>maliput::math::Vector3</type>
+      <name>inertial_to_backend_frame_translation</name>
+      <anchorfile>structmaliput__sparse_1_1loader_1_1_builder_configuration.html</anchorfile>
+      <anchor>a4e2d2a2119b6d3bff5f1ed7d08c4336e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>rule_registry</name>
+      <anchorfile>structmaliput__sparse_1_1loader_1_1_builder_configuration.html</anchorfile>
+      <anchor>a84d5aaac8f3a92928a1af39bc73ee8b7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>road_rule_book</name>
+      <anchorfile>structmaliput__sparse_1_1loader_1_1_builder_configuration.html</anchorfile>
+      <anchor>a127efa8b04191c300170ff5f1a109672</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>traffic_light_book</name>
+      <anchorfile>structmaliput__sparse_1_1loader_1_1_builder_configuration.html</anchorfile>
+      <anchor>a8a514e58c74e866584a8b842b6fb96a1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>phase_ring_book</name>
+      <anchorfile>structmaliput__sparse_1_1loader_1_1_builder_configuration.html</anchorfile>
+      <anchor>afeae0ebf01539011ff5bc82919390063</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>intersection_book</name>
+      <anchorfile>structmaliput__sparse_1_1loader_1_1_builder_configuration.html</anchorfile>
+      <anchor>a8d9c027b5448b0ee9060b1012fc8716a</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
     <name>maliput_sparse::geometry::utility::ClosestPointResult</name>
     <filename>structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html</filename>
     <member kind="variable">
@@ -430,6 +715,31 @@
     </member>
   </compound>
   <compound kind="struct">
+    <name>maliput_sparse::parser::Connection</name>
+    <filename>structmaliput__sparse_1_1parser_1_1_connection.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_connection.html</anchorfile>
+      <anchor>a833f93a7f77825683a32f4399b4f6cb5</anchor>
+      <arglist>(const Connection &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>LaneEnd</type>
+      <name>from</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_connection.html</anchorfile>
+      <anchor>ad2c221b879232ecb3f760f348d1ca6dd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>LaneEnd</type>
+      <name>to</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_connection.html</anchorfile>
+      <anchor>a44fd5bce16a808b2b8c1e01282850450</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
     <name>maliput_sparse::geometry::details::EuclideanDistance</name>
     <filename>structmaliput__sparse_1_1geometry_1_1details_1_1_euclidean_distance.html</filename>
     <templarg></templarg>
@@ -439,6 +749,38 @@
       <anchorfile>structmaliput__sparse_1_1geometry_1_1details_1_1_euclidean_distance.html</anchorfile>
       <anchor>a67f2afe91c841909454c337960d23ea9</anchor>
       <arglist>(const CoordinateT &amp;lhs, const CoordinateT &amp;rhs) const</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput_sparse::parser::Junction</name>
+    <filename>structmaliput__sparse_1_1parser_1_1_junction.html</filename>
+    <member kind="typedef">
+      <type>std::string</type>
+      <name>Id</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_junction.html</anchorfile>
+      <anchor>a1bd314c1e2831d74056207533d890511</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_junction.html</anchorfile>
+      <anchor>a9e429d3c6b26c984bb6b19f9e9976939</anchor>
+      <arglist>(const Junction &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>Id</type>
+      <name>id</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_junction.html</anchorfile>
+      <anchor>a150a709e86e7134d17cd063de6810b6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::unordered_map&lt; Segment::Id, Segment &gt;</type>
+      <name>segments</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_junction.html</anchorfile>
+      <anchor>a72f5cca62aaa685110d4c51359116417</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -479,6 +821,73 @@
       <anchorfile>classmaliput__sparse_1_1builder_1_1_junction_builder.html</anchorfile>
       <anchor>a8c819258d583ca93a5a7e11370e28c0c</anchor>
       <arglist>(maliput::common::Passkey&lt; SegmentBuilder &gt;, std::unique_ptr&lt; maliput::geometry_base::Segment &gt; segment)</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput_sparse::parser::Lane</name>
+    <filename>structmaliput__sparse_1_1parser_1_1_lane.html</filename>
+    <member kind="typedef">
+      <type>std::string</type>
+      <name>Id</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane.html</anchorfile>
+      <anchor>a1bd314c1e2831d74056207533d890511</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane.html</anchorfile>
+      <anchor>ad0e021a77876a95270b3353962c9fa5e</anchor>
+      <arglist>(const Lane &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>Id</type>
+      <name>id</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane.html</anchorfile>
+      <anchor>a150a709e86e7134d17cd063de6810b6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>geometry::LineString3d</type>
+      <name>left</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane.html</anchorfile>
+      <anchor>a4489e45dd81c4b358f735bfe53d759d8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>geometry::LineString3d</type>
+      <name>right</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane.html</anchorfile>
+      <anchor>ac1ce511d5553abd2efb6f729d8d48fec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; Id &gt;</type>
+      <name>left_lane_id</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane.html</anchorfile>
+      <anchor>a0a8d9725ff0aace01b8e492242abbfc2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; Id &gt;</type>
+      <name>right_lane_id</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane.html</anchorfile>
+      <anchor>a16f9f224f1bfcfd64fe10cd3a1614e1f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::unordered_map&lt; Id, LaneEnd &gt;</type>
+      <name>successors</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane.html</anchorfile>
+      <anchor>a1b09c03ad7c8835db86f139a2b1340b4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::unordered_map&lt; Id, LaneEnd &gt;</type>
+      <name>predecessors</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane.html</anchorfile>
+      <anchor>aa8ff3c5de499ebd7f64a55e4f5509a73</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -572,6 +981,40 @@
       <anchorfile>classmaliput__sparse_1_1builder_1_1_lane_builder.html</anchorfile>
       <anchor>a226b86bd74f892ba8b83231fcb9e4dc2</anchor>
       <arglist>(maliput::common::Passkey&lt; LaneGeometryBuilder &gt;, std::unique_ptr&lt; maliput_sparse::geometry::LaneGeometry &gt; lane_geometry)</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput_sparse::parser::LaneEnd</name>
+    <filename>structmaliput__sparse_1_1parser_1_1_lane_end.html</filename>
+    <member kind="enumeration">
+      <type></type>
+      <name>Which</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_end.html</anchorfile>
+      <anchor>a76832237d5d837232469a6c46f1eeff2</anchor>
+      <arglist></arglist>
+      <enumvalue file="structmaliput__sparse_1_1parser_1_1_lane_end.html" anchor="a76832237d5d837232469a6c46f1eeff2a127f8e8149d57253ad94c9d2c752113d">kStart</enumvalue>
+      <enumvalue file="structmaliput__sparse_1_1parser_1_1_lane_end.html" anchor="a76832237d5d837232469a6c46f1eeff2a8941714ff8251a03708025c060c46556">kFinish</enumvalue>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_end.html</anchorfile>
+      <anchor>a92225ee3cd7b5d5fbd10c7dd8916cc2d</anchor>
+      <arglist>(const LaneEnd &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>lane_id</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_end.html</anchorfile>
+      <anchor>afe960e19331a9f98adb8ac049563162f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Which</type>
+      <name>end</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_end.html</anchorfile>
+      <anchor>a23aa4c5b3ea898434ccf593ca47c56b1</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -1115,6 +1558,38 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput_sparse::parser::Parser</name>
+    <filename>classmaliput__sparse_1_1parser_1_1_parser.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>Parser</name>
+      <anchorfile>classmaliput__sparse_1_1parser_1_1_parser.html</anchorfile>
+      <anchor>a4fb6c48eb8714d188c78f891adf803fb</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~Parser</name>
+      <anchorfile>classmaliput__sparse_1_1parser_1_1_parser.html</anchorfile>
+      <anchor>a7beb386e47902b5990e7c5d834c53d87</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::unordered_map&lt; Junction::Id, Junction &gt; &amp;</type>
+      <name>GetJunctions</name>
+      <anchorfile>classmaliput__sparse_1_1parser_1_1_parser.html</anchorfile>
+      <anchor>ad14fbaab8820df6bda3e837d6e6a958a</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::vector&lt; Connection &gt; &amp;</type>
+      <name>GetConnections</name>
+      <anchorfile>classmaliput__sparse_1_1parser_1_1_parser.html</anchorfile>
+      <anchor>ae6ec0b6860c4580c1d7e257c5dc59bcf</anchor>
+      <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput_sparse::RoadGeometry</name>
     <filename>classmaliput__sparse_1_1_road_geometry.html</filename>
     <member kind="function">
@@ -1228,6 +1703,74 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput_sparse::loader::RoadGeometryLoader</name>
+    <filename>classmaliput__sparse_1_1loader_1_1_road_geometry_loader.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>RoadGeometryLoader</name>
+      <anchorfile>classmaliput__sparse_1_1loader_1_1_road_geometry_loader.html</anchorfile>
+      <anchor>a365cc45832eb96e585f8e6f4fd350e87</anchor>
+      <arglist>(std::unique_ptr&lt; parser::Parser &gt; parser, const BuilderConfiguration &amp;builder_configuration)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; const maliput::api::RoadGeometry &gt;</type>
+      <name>operator()</name>
+      <anchorfile>classmaliput__sparse_1_1loader_1_1_road_geometry_loader.html</anchorfile>
+      <anchor>a3371c7155aac3d3e975b827f6e418cf1</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput_sparse::loader::RoadNetworkLoader</name>
+    <filename>classmaliput__sparse_1_1loader_1_1_road_network_loader.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>RoadNetworkLoader</name>
+      <anchorfile>classmaliput__sparse_1_1loader_1_1_road_network_loader.html</anchorfile>
+      <anchor>acda50308601df136fa10991422a9de94</anchor>
+      <arglist>(std::unique_ptr&lt; parser::Parser &gt; parser, const BuilderConfiguration &amp;builder_configuration)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::api::RoadNetwork &gt;</type>
+      <name>operator()</name>
+      <anchorfile>classmaliput__sparse_1_1loader_1_1_road_network_loader.html</anchorfile>
+      <anchor>a5568b5ce90b8d158f588240690298b35</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput_sparse::parser::Segment</name>
+    <filename>structmaliput__sparse_1_1parser_1_1_segment.html</filename>
+    <member kind="typedef">
+      <type>std::string</type>
+      <name>Id</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_segment.html</anchorfile>
+      <anchor>a1bd314c1e2831d74056207533d890511</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_segment.html</anchorfile>
+      <anchor>a364c65681a8247179b33897cd283e12d</anchor>
+      <arglist>(const Segment &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>Id</type>
+      <name>id</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_segment.html</anchorfile>
+      <anchor>a150a709e86e7134d17cd063de6810b6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; Lane &gt;</type>
+      <name>lanes</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_segment.html</anchorfile>
+      <anchor>a5064c5e2a63fddce1e8abc423ecfe570</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput_sparse::builder::SegmentBuilder</name>
     <filename>classmaliput__sparse_1_1builder_1_1_segment_builder.html</filename>
     <base>NestedBuilder&lt; JunctionBuilder &gt;</base>
@@ -1272,6 +1815,8 @@
     <filename>namespacemaliput__sparse.html</filename>
     <namespace>maliput_sparse::builder</namespace>
     <namespace>maliput_sparse::geometry</namespace>
+    <namespace>maliput_sparse::loader</namespace>
+    <namespace>maliput_sparse::parser</namespace>
     <namespace>maliput_sparse::test</namespace>
     <class kind="class">maliput_sparse::Lane</class>
     <class kind="class">maliput_sparse::RoadGeometry</class>
@@ -1432,6 +1977,98 @@
     </member>
   </compound>
   <compound kind="namespace">
+    <name>maliput_sparse::loader</name>
+    <filename>namespacemaliput__sparse_1_1loader.html</filename>
+    <namespace>maliput_sparse::loader::config</namespace>
+    <class kind="struct">maliput_sparse::loader::BuilderConfiguration</class>
+    <class kind="class">maliput_sparse::loader::RoadGeometryLoader</class>
+    <class kind="class">maliput_sparse::loader::RoadNetworkLoader</class>
+  </compound>
+  <compound kind="namespace">
+    <name>maliput_sparse::loader::config</name>
+    <filename>namespacemaliput__sparse_1_1loader_1_1config.html</filename>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kRoadGeometryId</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>ga65640ac01adf58486da1ff6f92d44c3f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kLinearTolerance</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>gac6e403db72f1c6cea48836ea7754e3de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kAngularTolerance</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>ga0e97f7f471a134224c1ce20a25da877d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kScaleLength</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>ga10cc3dafe29eccb96fcbd1843f97acab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kInertialToBackendFrameTranslation</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>ga94c21e622feaf27c90c695b3c81206ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kRoadRuleBook</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>ga413e2136aa512c92d58bf633b25e72af</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kRuleRegistry</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>gad98da37a0819c38a07a700edc8f2ec88</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kTrafficLightBook</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>gaa52290b1f18b24e3f00bd1dc5db5eb53</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kPhaseRingBook</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>gabab6ea6289a9d6a997ea3623df2981e7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kIntersectionBook</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>gabb49a593032b6e55d43c4b69b342c09b</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="namespace">
+    <name>maliput_sparse::parser</name>
+    <filename>namespacemaliput__sparse_1_1parser.html</filename>
+    <class kind="struct">maliput_sparse::parser::Connection</class>
+    <class kind="struct">maliput_sparse::parser::Junction</class>
+    <class kind="struct">maliput_sparse::parser::Lane</class>
+    <class kind="struct">maliput_sparse::parser::LaneEnd</class>
+    <class kind="class">maliput_sparse::parser::Parser</class>
+    <class kind="struct">maliput_sparse::parser::Segment</class>
+  </compound>
+  <compound kind="namespace">
     <name>maliput_sparse::test</name>
     <filename>namespacemaliput__sparse_1_1test.html</filename>
     <member kind="function">
@@ -1440,6 +2077,81 @@
       <anchorfile>namespacemaliput__sparse_1_1test.html</anchorfile>
       <anchor>aacbacda5eebbb7e3f6ea2c512220de73</anchor>
       <arglist>(const maliput_sparse::geometry::LineString3d &amp;lhs, const maliput_sparse::geometry::LineString3d &amp;rhs, double tolerance)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>builder_configuration_keys</name>
+    <title>RoadNetwork configuration builder keys</title>
+    <filename>group__builder__configuration__keys.html</filename>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kRoadGeometryId</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>ga65640ac01adf58486da1ff6f92d44c3f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kLinearTolerance</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>gac6e403db72f1c6cea48836ea7754e3de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kAngularTolerance</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>ga0e97f7f471a134224c1ce20a25da877d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kScaleLength</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>ga10cc3dafe29eccb96fcbd1843f97acab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kInertialToBackendFrameTranslation</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>ga94c21e622feaf27c90c695b3c81206ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kRoadRuleBook</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>ga413e2136aa512c92d58bf633b25e72af</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kRuleRegistry</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>gad98da37a0819c38a07a700edc8f2ec88</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kTrafficLightBook</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>gaa52290b1f18b24e3f00bd1dc5db5eb53</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kPhaseRingBook</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>gabab6ea6289a9d6a997ea3623df2981e7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kIntersectionBook</name>
+      <anchorfile>group__builder__configuration__keys.html</anchorfile>
+      <anchor>gabb49a593032b6e55d43c4b69b342c09b</anchor>
+      <arglist></arglist>
     </member>
   </compound>
 </tagfile>

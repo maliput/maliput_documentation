@@ -1,8 +1,20 @@
 var searchData=
 [
-  ['kcenterline_44',['kCenterLine',['../classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#aacfcda58737708a1259e8728ef82c18cac533a62c8963e7e10dcf44e7c6bb5f71',1,'maliput_sparse::geometry::LaneGeometry']]],
-  ['kleft_45',['kLeft',['../namespacemaliput__sparse_1_1geometry_1_1utility.html#a8d32a0d7090129e6ce4d96fffa1d3661',1,'maliput_sparse::geometry::utility']]],
-  ['kleftboundary_46',['kLeftBoundary',['../classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#aacfcda58737708a1259e8728ef82c18cac2c9d90091c868b20d72e690eff80728',1,'maliput_sparse::geometry::LaneGeometry']]],
-  ['kright_47',['kRight',['../namespacemaliput__sparse_1_1geometry_1_1utility.html#aec3577b8e1b09eee5273e450dc480162',1,'maliput_sparse::geometry::utility']]],
-  ['krightboundary_48',['kRightBoundary',['../classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#aacfcda58737708a1259e8728ef82c18ca68cc1cb97b5fb6bb171b7a0899c05a81',1,'maliput_sparse::geometry::LaneGeometry']]]
+  ['kangulartolerance_62',['kAngularTolerance',['../group__builder__configuration__keys.html#ga0e97f7f471a134224c1ce20a25da877d',1,'maliput_sparse::loader::config']]],
+  ['kcenterline_63',['kCenterLine',['../classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#aacfcda58737708a1259e8728ef82c18cac533a62c8963e7e10dcf44e7c6bb5f71',1,'maliput_sparse::geometry::LaneGeometry']]],
+  ['kfinish_64',['kFinish',['../structmaliput__sparse_1_1parser_1_1_lane_end.html#a76832237d5d837232469a6c46f1eeff2a8941714ff8251a03708025c060c46556',1,'maliput_sparse::parser::LaneEnd']]],
+  ['kinertialtobackendframetranslation_65',['kInertialToBackendFrameTranslation',['../group__builder__configuration__keys.html#ga94c21e622feaf27c90c695b3c81206ff',1,'maliput_sparse::loader::config']]],
+  ['kintersectionbook_66',['kIntersectionBook',['../group__builder__configuration__keys.html#gabb49a593032b6e55d43c4b69b342c09b',1,'maliput_sparse::loader::config']]],
+  ['kleft_67',['kLeft',['../namespacemaliput__sparse_1_1geometry_1_1utility.html#a8d32a0d7090129e6ce4d96fffa1d3661',1,'maliput_sparse::geometry::utility']]],
+  ['kleftboundary_68',['kLeftBoundary',['../classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#aacfcda58737708a1259e8728ef82c18cac2c9d90091c868b20d72e690eff80728',1,'maliput_sparse::geometry::LaneGeometry']]],
+  ['klineartolerance_69',['kLinearTolerance',['../group__builder__configuration__keys.html#gac6e403db72f1c6cea48836ea7754e3de',1,'maliput_sparse::loader::config']]],
+  ['kphaseringbook_70',['kPhaseRingBook',['../group__builder__configuration__keys.html#gabab6ea6289a9d6a997ea3623df2981e7',1,'maliput_sparse::loader::config']]],
+  ['kright_71',['kRight',['../namespacemaliput__sparse_1_1geometry_1_1utility.html#aec3577b8e1b09eee5273e450dc480162',1,'maliput_sparse::geometry::utility']]],
+  ['krightboundary_72',['kRightBoundary',['../classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#aacfcda58737708a1259e8728ef82c18ca68cc1cb97b5fb6bb171b7a0899c05a81',1,'maliput_sparse::geometry::LaneGeometry']]],
+  ['kroadgeometryid_73',['kRoadGeometryId',['../group__builder__configuration__keys.html#ga65640ac01adf58486da1ff6f92d44c3f',1,'maliput_sparse::loader::config']]],
+  ['kroadrulebook_74',['kRoadRuleBook',['../group__builder__configuration__keys.html#ga413e2136aa512c92d58bf633b25e72af',1,'maliput_sparse::loader::config']]],
+  ['kruleregistry_75',['kRuleRegistry',['../group__builder__configuration__keys.html#gad98da37a0819c38a07a700edc8f2ec88',1,'maliput_sparse::loader::config']]],
+  ['kscalelength_76',['kScaleLength',['../group__builder__configuration__keys.html#ga10cc3dafe29eccb96fcbd1843f97acab',1,'maliput_sparse::loader::config']]],
+  ['kstart_77',['kStart',['../structmaliput__sparse_1_1parser_1_1_lane_end.html#a76832237d5d837232469a6c46f1eeff2a127f8e8149d57253ad94c9d2c752113d',1,'maliput_sparse::parser::LaneEnd']]],
+  ['ktrafficlightbook_78',['kTrafficLightBook',['../group__builder__configuration__keys.html#gaa52290b1f18b24e3f00bd1dc5db5eb53',1,'maliput_sparse::loader::config']]]
 ];

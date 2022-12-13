@@ -788,6 +788,13 @@
       <anchor>a3b385803bf9b96933df13b2ab00e3186</anchor>
       <arglist>()</arglist>
     </member>
+    <member kind="function">
+      <type>Q_INVOKABLE QString</type>
+      <name>GetData</name>
+      <anchorfile>classmaliput_1_1viz_1_1_parameter_table_model.html</anchorfile>
+      <anchor>ae48dd6c1a7181bb7ed54b7539822c73f</anchor>
+      <arglist>(int row, int role) const</arglist>
+    </member>
     <member kind="variable" static="yes">
       <type>static constexpr int</type>
       <name>kParameterRole</name>
