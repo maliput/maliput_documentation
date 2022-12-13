@@ -17,6 +17,121 @@
     <namespace>maliput::viz</namespace>
   </compound>
   <compound kind="file">
+    <name>gflags.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_viz/src/maliput_viz/flags/</path>
+    <filename>gflags_8cc.html</filename>
+    <includes id="gflags_8h" name="gflags.h" local="yes" imported="no">maliput_viz/flags/gflags.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::viz</namespace>
+    <namespace>maliput::viz::flags</namespace>
+    <member kind="function">
+      <type></type>
+      <name>DEFINE_int32</name>
+      <anchorfile>gflags_8cc.html</anchorfile>
+      <anchor>a036da9a0e655351dc492a7fefd10f329</anchor>
+      <arglist>(verbosity, 3, &quot;Verbosity is set within a range between [0-4]&quot;)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>DEFINE_string</name>
+      <anchorfile>gflags_8cc.html</anchorfile>
+      <anchor>a280d5cab8bc2b9ee25517c399f22d066</anchor>
+      <arglist>(yaml_file_path, &quot;&quot;, &quot;Path to the configuration YAML file&quot;)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>ValidateVerbosity</name>
+      <anchorfile>gflags_8cc.html</anchorfile>
+      <anchor>abd5cbb02f71b46355a1f9ea7d168169b</anchor>
+      <arglist>(const char *flagname, int32_t value)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>ValidateConfigFilePath</name>
+      <anchorfile>gflags_8cc.html</anchorfile>
+      <anchor>a01a315782396f3da4020d6cce385486d</anchor>
+      <arglist>(const char *flagname, const std::string &amp;value)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>DEFINE_validator</name>
+      <anchorfile>gflags_8cc.html</anchorfile>
+      <anchor>a6849687b1d497587fb58c5ddebc6a7f6</anchor>
+      <arglist>(verbosity, &amp;ValidateVerbosity)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>DEFINE_validator</name>
+      <anchorfile>gflags_8cc.html</anchorfile>
+      <anchor>abf50795f21f013af048bfcc124a15412</anchor>
+      <arglist>(yaml_file_path, &amp;ValidateConfigFilePath)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>ParseCommandLineFlags</name>
+      <anchorfile>namespacemaliput_1_1viz_1_1flags.html</anchorfile>
+      <anchor>a10d4f9da0811e0e950f55fafc03aaea0</anchor>
+      <arglist>(int argc, char **argv, bool remove_flags)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetUsageMessage</name>
+      <anchorfile>namespacemaliput_1_1viz_1_1flags.html</anchorfile>
+      <anchor>ac2b826a202e7706ec362a442614afdad</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>GetVerbosity</name>
+      <anchorfile>namespacemaliput_1_1viz_1_1flags.html</anchorfile>
+      <anchor>a8448875076815be04cc91eefebb795be</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>GetYamlFilePath</name>
+      <anchorfile>namespacemaliput_1_1viz_1_1flags.html</anchorfile>
+      <anchor>a6f699a3f0a4968b01f631ffb0dd88937</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>gflags.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_viz/src/maliput_viz/flags/</path>
+    <filename>gflags_8h.html</filename>
+    <namespace>maliput</namespace>
+    <namespace>maliput::viz</namespace>
+    <namespace>maliput::viz::flags</namespace>
+    <member kind="function">
+      <type>void</type>
+      <name>ParseCommandLineFlags</name>
+      <anchorfile>namespacemaliput_1_1viz_1_1flags.html</anchorfile>
+      <anchor>a10d4f9da0811e0e950f55fafc03aaea0</anchor>
+      <arglist>(int argc, char **argv, bool remove_flags)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetUsageMessage</name>
+      <anchorfile>namespacemaliput_1_1viz_1_1flags.html</anchorfile>
+      <anchor>ac2b826a202e7706ec362a442614afdad</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>GetVerbosity</name>
+      <anchorfile>namespacemaliput_1_1viz_1_1flags.html</anchorfile>
+      <anchor>a8448875076815be04cc91eefebb795be</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>GetYamlFilePath</name>
+      <anchorfile>namespacemaliput_1_1viz_1_1flags.html</anchorfile>
+      <anchor>a6f699a3f0a4968b01f631ffb0dd88937</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>maliput_backend_selection.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_viz/src/maliput_viz/plugins/</path>
     <filename>maliput__backend__selection_8cc.html</filename>
@@ -231,6 +346,8 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_viz/src/maliput_viz/plugins/</path>
     <filename>maliput__viewer__plugin_8cc.html</filename>
     <includes id="maliput__viewer__plugin_8hh" name="maliput_viewer_plugin.hh" local="yes" imported="no">maliput_viewer_plugin.hh</includes>
+    <includes id="gflags_8h" name="gflags.h" local="yes" imported="no">maliput_viz/flags/gflags.h</includes>
+    <includes id="yaml__parser_8h" name="yaml_parser.h" local="yes" imported="no">maliput_viz/tools/yaml_parser.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::viz</namespace>
   </compound>
@@ -251,6 +368,7 @@
     <name>maliput_viz.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_viz/src/maliput_viz/application/</path>
     <filename>maliput__viz_8cc.html</filename>
+    <includes id="gflags_8h" name="gflags.h" local="yes" imported="no">maliput_viz/flags/gflags.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::viz</namespace>
     <member kind="function">
@@ -292,6 +410,38 @@
     <class kind="class">maliput::viz::TrafficLightManager</class>
     <namespace>maliput</namespace>
     <namespace>maliput::viz</namespace>
+  </compound>
+  <compound kind="file">
+    <name>yaml_parser.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_viz/src/maliput_viz/tools/</path>
+    <filename>yaml__parser_8cc.html</filename>
+    <includes id="yaml__parser_8h" name="yaml_parser.h" local="yes" imported="no">maliput_viz/tools/yaml_parser.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::viz</namespace>
+    <namespace>maliput::viz::tools</namespace>
+    <member kind="function">
+      <type>MaliputVizConfig</type>
+      <name>LoadYamlConfigFile</name>
+      <anchorfile>namespacemaliput_1_1viz_1_1tools.html</anchorfile>
+      <anchor>a6f3bcf01f400fbdf627a1731e054643b</anchor>
+      <arglist>(const std::string &amp;file_path)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>yaml_parser.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_viz/src/maliput_viz/tools/</path>
+    <filename>yaml__parser_8h.html</filename>
+    <class kind="struct">maliput::viz::tools::MaliputVizConfig</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::viz</namespace>
+    <namespace>maliput::viz::tools</namespace>
+    <member kind="function">
+      <type>MaliputVizConfig</type>
+      <name>LoadYamlConfigFile</name>
+      <anchorfile>namespacemaliput_1_1viz_1_1tools.html</anchorfile>
+      <anchor>a6f3bcf01f400fbdf627a1731e054643b</anchor>
+      <arglist>(const std::string &amp;file_path)</arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>maliput::viz::ArrowMesh</name>
@@ -349,6 +499,13 @@
       <anchorfile>classmaliput_1_1viz_1_1_maliput_backend_selection.html</anchorfile>
       <anchor>a8af2830d7e3373dac74eb961c4a8ffea</anchor>
       <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>LoadBackendByDemand</name>
+      <anchorfile>classmaliput_1_1viz_1_1_maliput_backend_selection.html</anchorfile>
+      <anchor>ad1df9dd0f685fda7551ec78ae6edfda9</anchor>
+      <arglist>(const std::string &amp;_backendName, const std::map&lt; std::string, std::string &gt; &amp;_parameters)</arglist>
     </member>
     <member kind="slot" protection="protected">
       <type>void</type>
@@ -732,6 +889,24 @@
     </member>
   </compound>
   <compound kind="struct">
+    <name>maliput::viz::tools::MaliputVizConfig</name>
+    <filename>structmaliput_1_1viz_1_1tools_1_1_maliput_viz_config.html</filename>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>backend_name</name>
+      <anchorfile>structmaliput_1_1viz_1_1tools_1_1_maliput_viz_config.html</anchorfile>
+      <anchor>aa3294214b03f46f4da203702cb0ea400</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::map&lt; std::string, std::string &gt;</type>
+      <name>backend_parameters</name>
+      <anchorfile>structmaliput_1_1viz_1_1tools_1_1_maliput_viz_config.html</anchorfile>
+      <anchor>a316c02cfaa134ef79f03ab35df6fb7d3</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
     <name>maliput::viz::Parameter</name>
     <filename>structmaliput_1_1viz_1_1_parameter.html</filename>
     <member kind="variable">
@@ -1106,7 +1281,9 @@
   <compound kind="namespace">
     <name>maliput::viz</name>
     <filename>namespacemaliput_1_1viz.html</filename>
+    <namespace>maliput::viz::flags</namespace>
     <namespace>maliput::viz::mesh</namespace>
+    <namespace>maliput::viz::tools</namespace>
     <class kind="class">maliput::viz::ArrowMesh</class>
     <class kind="class">maliput::viz::MaliputBackendSelection</class>
     <class kind="class">maliput::viz::MaliputLabel</class>
@@ -1137,6 +1314,38 @@
     </member>
   </compound>
   <compound kind="namespace">
+    <name>maliput::viz::flags</name>
+    <filename>namespacemaliput_1_1viz_1_1flags.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>ParseCommandLineFlags</name>
+      <anchorfile>namespacemaliput_1_1viz_1_1flags.html</anchorfile>
+      <anchor>a10d4f9da0811e0e950f55fafc03aaea0</anchor>
+      <arglist>(int argc, char **argv, bool remove_flags)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetUsageMessage</name>
+      <anchorfile>namespacemaliput_1_1viz_1_1flags.html</anchorfile>
+      <anchor>ac2b826a202e7706ec362a442614afdad</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>GetVerbosity</name>
+      <anchorfile>namespacemaliput_1_1viz_1_1flags.html</anchorfile>
+      <anchor>a8448875076815be04cc91eefebb795be</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>GetYamlFilePath</name>
+      <anchorfile>namespacemaliput_1_1viz_1_1flags.html</anchorfile>
+      <anchor>a6f699a3f0a4968b01f631ffb0dd88937</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="namespace">
     <name>maliput::viz::mesh</name>
     <filename>namespacemaliput_1_1viz_1_1mesh.html</filename>
     <member kind="function">
@@ -1152,6 +1361,18 @@
       <anchorfile>namespacemaliput_1_1viz_1_1mesh.html</anchorfile>
       <anchor>a76fe0aa65f5c02ae3ae861eda90a5346</anchor>
       <arglist>(const std::string &amp;name, const maliput::utility::mesh::GeoMesh &amp;geo_mesh)</arglist>
+    </member>
+  </compound>
+  <compound kind="namespace">
+    <name>maliput::viz::tools</name>
+    <filename>namespacemaliput_1_1viz_1_1tools.html</filename>
+    <class kind="struct">maliput::viz::tools::MaliputVizConfig</class>
+    <member kind="function">
+      <type>MaliputVizConfig</type>
+      <name>LoadYamlConfigFile</name>
+      <anchorfile>namespacemaliput_1_1viz_1_1tools.html</anchorfile>
+      <anchor>a6f3bcf01f400fbdf627a1731e054643b</anchor>
+      <arglist>(const std::string &amp;file_path)</arglist>
     </member>
   </compound>
 </tagfile>

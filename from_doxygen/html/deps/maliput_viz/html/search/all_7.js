@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['kbranchpoint_43',['kBranchPoint',['../namespacemaliput_1_1viz.html#af8acfde096ebc9fc2534ddd6b445783ca1f1b2b832cb863667390b499731278b8',1,'maliput::viz']]],
-  ['klane_44',['kLane',['../namespacemaliput_1_1viz.html#af8acfde096ebc9fc2534ddd6b445783ca0c7155b6f3e3c3c1b233d52d118d46b8',1,'maliput::viz']]],
-  ['kparameterrole_45',['kParameterRole',['../classmaliput_1_1viz_1_1_parameter_table_model.html#a6aa1a7e8c682e68a948c274aca7209c3',1,'maliput::viz::ParameterTableModel']]],
-  ['kvaluerole_46',['kValueRole',['../classmaliput_1_1viz_1_1_parameter_table_model.html#ad3120f45b2d7ae7dc62f3caf72a14485',1,'maliput::viz::ParameterTableModel']]]
+  ['isphaseitem_49',['IsPhaseItem',['../classmaliput_1_1viz_1_1_phase_tree_model.html#a650a96eda1a6fb6dc065811a09c7ceec',1,'maliput::viz::PhaseTreeModel']]],
+  ['isphaseringitem_50',['IsPhaseRingItem',['../classmaliput_1_1viz_1_1_phase_tree_model.html#a6910f735d9d6d84c06b9f41ecbd82857',1,'maliput::viz::PhaseTreeModel']]],
+  ['isselected_51',['IsSelected',['../classmaliput_1_1viz_1_1_selector.html#a6b74d20866501e5989ac0a433a862187',1,'maliput::viz::Selector::IsSelected(const maliput::api::Lane *_lane)'],['../classmaliput_1_1viz_1_1_selector.html#a42167c8c7b0ab4a7a23ea330359022e5',1,'maliput::viz::Selector::IsSelected(const std::string &amp;_id)']]]
 ];

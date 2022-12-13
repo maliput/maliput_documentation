@@ -1,5 +1,6 @@
 var namespacemaliput_1_1viz =
 [
+    [ "tools", "namespacemaliput_1_1viz_1_1tools.html", "namespacemaliput_1_1viz_1_1tools" ],
     [ "ArrowMesh", "classmaliput_1_1viz_1_1_arrow_mesh.html", "classmaliput_1_1viz_1_1_arrow_mesh" ],
     [ "MaliputBackendSelection", "classmaliput_1_1viz_1_1_maliput_backend_selection.html", "classmaliput_1_1viz_1_1_maliput_backend_selection" ],
     [ "MaliputLabel", "classmaliput_1_1viz_1_1_maliput_label.html", "classmaliput_1_1viz_1_1_maliput_label" ],

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['parametername_254',['parameterName',['../structmaliput_1_1viz_1_1_parameter.html#a6f5818b5738bc971a27ed249da299201',1,'maliput::viz::Parameter']]],
-  ['parametervalue_255',['parameterValue',['../structmaliput_1_1viz_1_1_parameter.html#afd057eb7bc7f30c7b465a7b63956c5d1',1,'maliput::viz::Parameter']]],
-  ['position_256',['position',['../classmaliput_1_1viz_1_1_maliput_label.html#a9b8fbf4ab6b31fd25b3bcf2da8c9df39',1,'maliput::viz::MaliputLabel']]]
+  ['material_292',['material',['../classmaliput_1_1viz_1_1_maliput_mesh.html#abc74fa9de1e85aba9a99bded30a54f5d',1,'maliput::viz::MaliputMesh']]],
+  ['mesh_293',['mesh',['../classmaliput_1_1viz_1_1_maliput_mesh.html#ae614d3d32f81eb1fe536234886445ad0',1,'maliput::viz::MaliputMesh']]]
 ];

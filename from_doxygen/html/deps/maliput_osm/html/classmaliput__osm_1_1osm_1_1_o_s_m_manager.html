@@ -99,6 +99,12 @@ $(document).ready(function(){initNavTree('classmaliput__osm_1_1osm_1_1_o_s_m_man
 <div class="textblock"><p><a class="el" href="classmaliput__osm_1_1osm_1_1_o_s_m_manager.html" title="OSMManager is in charge of loading a Lanelet2-OSM map, parsing it, and providing accessors to get the...">OSMManager</a> is in charge of loading a Lanelet2-OSM map, parsing it, and providing accessors to get the map's important data. </p>
 </div>
 <p><code>#include &lt;src/maliput_osm/osm/osm_manager.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for OSMManager:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmaliput__osm_1_1osm_1_1_o_s_m_manager__inherit__graph.svg" width="120" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -107,12 +113,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a32a31001ad133aadeb7ec8b93bc8dd4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe1e81a5618d733fb1f91f3921fe6188"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__osm_1_1osm_1_1_o_s_m_manager.html#abe1e81a5618d733fb1f91f3921fe6188">~OSMManager</a> ()</td></tr>
 <tr class="separator:abe1e81a5618d733fb1f91f3921fe6188"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac709b7a356521879e87cc3e79e23a63d"><td class="memItemLeft" align="right" valign="top">const std::unordered_map&lt; <a class="el" href="structmaliput__osm_1_1osm_1_1_junction.html#a1bd314c1e2831d74056207533d890511">Junction::Id</a>, <a class="el" href="structmaliput__osm_1_1osm_1_1_junction.html">Junction</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__osm_1_1osm_1_1_o_s_m_manager.html#ac709b7a356521879e87cc3e79e23a63d">GetOSMJunctions</a> () const</td></tr>
-<tr class="memdesc:ac709b7a356521879e87cc3e79e23a63d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the map's junctions.  <a href="classmaliput__osm_1_1osm_1_1_o_s_m_manager.html#ac709b7a356521879e87cc3e79e23a63d">More...</a><br /></td></tr>
-<tr class="separator:ac709b7a356521879e87cc3e79e23a63d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97060f1d35fb7b53de47afb9ae38c04f"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="structmaliput__osm_1_1osm_1_1_connection.html">osm::Connection</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__osm_1_1osm_1_1_o_s_m_manager.html#a97060f1d35fb7b53de47afb9ae38c04f">GetOSMConnections</a> () const</td></tr>
-<tr class="memdesc:a97060f1d35fb7b53de47afb9ae38c04f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets connections between the map's lanes.  <a href="classmaliput__osm_1_1osm_1_1_o_s_m_manager.html#a97060f1d35fb7b53de47afb9ae38c04f">More...</a><br /></td></tr>
-<tr class="separator:a97060f1d35fb7b53de47afb9ae38c04f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a32a31001ad133aadeb7ec8b93bc8dd4a"></a>
@@ -174,46 +174,6 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a97060f1d35fb7b53de47afb9ae38c04f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97060f1d35fb7b53de47afb9ae38c04f">&#9670;&nbsp;</a></span>GetOSMConnections()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt; <a class="el" href="structmaliput__osm_1_1osm_1_1_connection.html">osm::Connection</a> &gt; &amp; GetOSMConnections </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Gets connections between the map's lanes. </p>
-
-</div>
-</div>
-<a id="ac709b7a356521879e87cc3e79e23a63d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac709b7a356521879e87cc3e79e23a63d">&#9670;&nbsp;</a></span>GetOSMJunctions()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::unordered_map&lt; <a class="el" href="structmaliput__osm_1_1osm_1_1_junction.html#a1bd314c1e2831d74056207533d890511">Junction::Id</a>, <a class="el" href="structmaliput__osm_1_1osm_1_1_junction.html">Junction</a> &gt; &amp; GetOSMJunctions </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Gets the map's junctions. </p>
-<p><a class="el" href="structmaliput__osm_1_1osm_1_1_junction.html" title="Convenient abstraction for grouping segments.">Junction</a>'s ids are generated as combination of the contained segment's ids connected by a "_" </p>
 
 </div>
 </div>

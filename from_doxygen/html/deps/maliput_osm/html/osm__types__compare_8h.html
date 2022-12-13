@@ -97,12 +97,12 @@ $(document).ready(function(){initNavTree('osm__types__compare_8h.html',''); init
 <div class="contents">
 <div class="textblock"><code>#include &lt;gtest/gtest.h&gt;</code><br />
 <code>#include &lt;maliput_sparse/geometry/line_string.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="lane_8h.html">maliput_osm/osm/lane.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="segment_8h.html">maliput_osm/osm/segment.h</a>&quot;</code><br />
+<code>#include &lt;maliput_sparse/parser/lane.h&gt;</code><br />
+<code>#include &lt;maliput_sparse/parser/segment.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for osm_types_compare.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="osm__types__compare_8h__incl.svg" width="527" height="276"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="osm__types__compare_8h__incl.svg" width="100%" height="395"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -123,12 +123,12 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a02f4aa22e988277c80dadcc6228eaa75"><td class="memItemLeft" align="right" valign="top">::testing::AssertionResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__osm_1_1osm_1_1test.html#a02f4aa22e988277c80dadcc6228eaa75">CompareOSMLane</a> (const Lane &amp;lhs, const Lane &amp;rhs, double tolerance)</td></tr>
-<tr class="memdesc:a02f4aa22e988277c80dadcc6228eaa75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two <a class="el" href="structmaliput__osm_1_1osm_1_1_lane.html" title="A lane in an Lanelet2-OSM road.">osm::Lane</a> objects.  <a href="namespacemaliput__osm_1_1osm_1_1test.html#a02f4aa22e988277c80dadcc6228eaa75">More...</a><br /></td></tr>
-<tr class="separator:a02f4aa22e988277c80dadcc6228eaa75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a147428a998e09f52cc4c8137366bfebd"><td class="memItemLeft" align="right" valign="top">::testing::AssertionResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__osm_1_1osm_1_1test.html#a147428a998e09f52cc4c8137366bfebd">CompareOSMSegment</a> (const Segment &amp;lhs, const Segment &amp;rhs, double tolerance)</td></tr>
-<tr class="memdesc:a147428a998e09f52cc4c8137366bfebd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two <a class="el" href="structmaliput__osm_1_1osm_1_1_segment.html" title="Abstraction for a road segment obtained from a osm map.">osm::Segment</a> objects.  <a href="namespacemaliput__osm_1_1osm_1_1test.html#a147428a998e09f52cc4c8137366bfebd">More...</a><br /></td></tr>
-<tr class="separator:a147428a998e09f52cc4c8137366bfebd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac15c9d64addf396344e22d1355efc227"><td class="memItemLeft" align="right" valign="top">::testing::AssertionResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__osm_1_1osm_1_1test.html#ac15c9d64addf396344e22d1355efc227">CompareOSMLane</a> (const maliput_sparse::parser::Lane &amp;lhs, const maliput_sparse::parser::Lane &amp;rhs, double tolerance)</td></tr>
+<tr class="memdesc:ac15c9d64addf396344e22d1355efc227"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two osm::Lane objects.  <a href="namespacemaliput__osm_1_1osm_1_1test.html#ac15c9d64addf396344e22d1355efc227">More...</a><br /></td></tr>
+<tr class="separator:ac15c9d64addf396344e22d1355efc227"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a921ca7b8c2970e93d73eddd1ff59e2f7"><td class="memItemLeft" align="right" valign="top">::testing::AssertionResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__osm_1_1osm_1_1test.html#a921ca7b8c2970e93d73eddd1ff59e2f7">CompareOSMSegment</a> (const maliput_sparse::parser::Segment &amp;lhs, const maliput_sparse::parser::Segment &amp;rhs, double tolerance)</td></tr>
+<tr class="memdesc:a921ca7b8c2970e93d73eddd1ff59e2f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two osm::Segment objects.  <a href="namespacemaliput__osm_1_1osm_1_1test.html#a921ca7b8c2970e93d73eddd1ff59e2f7">More...</a><br /></td></tr>
+<tr class="separator:a921ca7b8c2970e93d73eddd1ff59e2f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

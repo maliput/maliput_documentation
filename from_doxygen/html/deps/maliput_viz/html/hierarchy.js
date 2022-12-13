@@ -4,6 +4,7 @@ var hierarchy =
     [ "MaliputLabel", "classmaliput_1_1viz_1_1_maliput_label.html", null ],
     [ "MaliputMesh", "classmaliput_1_1viz_1_1_maliput_mesh.html", null ],
     [ "MaliputViewerModel", "classmaliput_1_1viz_1_1_maliput_viewer_model.html", null ],
+    [ "MaliputVizConfig", "structmaliput_1_1viz_1_1tools_1_1_maliput_viz_config.html", null ],
     [ "Parameter", "structmaliput_1_1viz_1_1_parameter.html", null ],
     [ "Plugin", null, [
       [ "MaliputViewerPlugin", "classmaliput_1_1viz_1_1_maliput_viewer_plugin.html", null ]

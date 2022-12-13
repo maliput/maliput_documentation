@@ -4,6 +4,8 @@ var files_dup =
     [ "arrow_mesh.hh", "arrow__mesh_8hh.html", [
       [ "ArrowMesh", "classmaliput_1_1viz_1_1_arrow_mesh.html", "classmaliput_1_1viz_1_1_arrow_mesh" ]
     ] ],
+    [ "gflags.cc", "gflags_8cc.html", "gflags_8cc" ],
+    [ "gflags.h", "gflags_8h.html", "gflags_8h" ],
     [ "maliput_backend_selection.cc", "maliput__backend__selection_8cc.html", null ],
     [ "maliput_backend_selection.hh", "maliput__backend__selection_8hh.html", [
       [ "Parameter", "structmaliput_1_1viz_1_1_parameter.html", "structmaliput_1_1viz_1_1_parameter" ],
@@ -27,5 +29,7 @@ var files_dup =
     [ "traffic_light_manager.cc", "traffic__light__manager_8cc.html", null ],
     [ "traffic_light_manager.hh", "traffic__light__manager_8hh.html", [
       [ "TrafficLightManager", "classmaliput_1_1viz_1_1_traffic_light_manager.html", "classmaliput_1_1viz_1_1_traffic_light_manager" ]
-    ] ]
+    ] ],
+    [ "yaml_parser.cc", "yaml__parser_8cc.html", "yaml__parser_8cc" ],
+    [ "yaml_parser.h", "yaml__parser_8h.html", "yaml__parser_8h" ]
 ];

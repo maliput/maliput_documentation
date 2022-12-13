@@ -1,5 +1,5 @@
 var osm__types__compare_8h =
 [
-    [ "CompareOSMLane", "osm__types__compare_8h.html#a02f4aa22e988277c80dadcc6228eaa75", null ],
-    [ "CompareOSMSegment", "osm__types__compare_8h.html#a147428a998e09f52cc4c8137366bfebd", null ]
+    [ "CompareOSMLane", "osm__types__compare_8h.html#ac15c9d64addf396344e22d1355efc227", null ],
+    [ "CompareOSMSegment", "osm__types__compare_8h.html#a921ca7b8c2970e93d73eddd1ff59e2f7", null ]
 ];

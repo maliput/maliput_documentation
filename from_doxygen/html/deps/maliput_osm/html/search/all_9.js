@@ -1,12 +1,9 @@
 var searchData=
 [
-  ['lane_43',['Lane',['../structmaliput__osm_1_1osm_1_1_lane.html',1,'maliput_osm::osm']]],
-  ['lane_2ecc_44',['lane.cc',['../lane_8cc.html',1,'']]],
-  ['lane_2eh_45',['lane.h',['../lane_8h.html',1,'']]],
-  ['lane_5fid_46',['lane_id',['../structmaliput__osm_1_1osm_1_1_lane_end.html#afe960e19331a9f98adb8ac049563162f',1,'maliput_osm::osm::LaneEnd']]],
-  ['laneend_47',['LaneEnd',['../structmaliput__osm_1_1osm_1_1_lane_end.html',1,'maliput_osm::osm']]],
-  ['lanes_48',['lanes',['../structmaliput__osm_1_1osm_1_1_segment.html#a5064c5e2a63fddce1e8abc423ecfe570',1,'maliput_osm::osm::Segment']]],
-  ['left_49',['left',['../structmaliput__osm_1_1osm_1_1_lane.html#af9c5598aed1b4732b46a549684edafa6',1,'maliput_osm::osm::Lane']]],
-  ['left_5flane_5fid_50',['left_lane_id',['../structmaliput__osm_1_1osm_1_1_lane.html#a0a8d9725ff0aace01b8e492242abbfc2',1,'maliput_osm::osm::Lane']]],
-  ['linear_5ftolerance_51',['linear_tolerance',['../structmaliput__osm_1_1builder_1_1_builder_configuration.html#a6a6b7ad51a19a2fcf7e454c1d7892300',1,'maliput_osm::builder::BuilderConfiguration']]]
+  ['roadnetwork_20configuration_20builder_20keys_44',['RoadNetwork configuration builder keys',['../group__builder__configuration__keys.html',1,'']]],
+  ['register_5froad_5fnetwork_5floader_5fplugin_45',['REGISTER_ROAD_NETWORK_LOADER_PLUGIN',['../namespacemaliput__osm_1_1plugin.html#a04ff4e681b187096b21f0c697cab2d3b',1,'maliput_osm::plugin']]],
+  ['road_5fnetwork_2ecc_46',['road_network.cc',['../road__network_8cc.html',1,'']]],
+  ['road_5fnetwork_5fbuilder_2ecc_47',['road_network_builder.cc',['../road__network__builder_8cc.html',1,'']]],
+  ['road_5fnetwork_5fbuilder_2eh_48',['road_network_builder.h',['../road__network__builder_8h.html',1,'']]],
+  ['roadnetworkbuilder_49',['RoadNetworkBuilder',['../classmaliput__osm_1_1builder_1_1_road_network_builder.html',1,'RoadNetworkBuilder'],['../classmaliput__osm_1_1builder_1_1_road_network_builder.html#aa1aca5e617005d096adbdc00e116dd9f',1,'maliput_osm::builder::RoadNetworkBuilder::RoadNetworkBuilder()']]]
 ];
