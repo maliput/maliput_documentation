@@ -15,8 +15,8 @@ This page will help you out getting started with the library.
   Please go to the :ref:`installation_label` page before you start.
 
 
-As explained in the :ref:`maliput_overview_label` page, `maliput`_ package is an API which implementation is provided by a backend. At the moment there are three different implementations:
-`maliput_dragway`_, `maliput_multilane`_, and `maliput_malidrive`_.
+As explained in the :ref:`maliput_overview_label` page, `maliput`_ package is an API which implementation is provided by a backend. At the moment there are four different implementations:
+`maliput_dragway`_, `maliput_multilane`_, `maliput_malidrive`_ and `maliput_osm`_.
 
 The `maliput_malidrive`_ implementation is the one that provides more feature support, so it is the recommended choice.
 
@@ -184,6 +184,41 @@ we are relying on the `maliput_py`_ package for the corresponding `maliput`_ bin
   configuration = {"opendrive_file" : os.getenv("MALIPUT_MALIDRIVE_RESOURCE_ROOT") + "/resources/odr/TShapeRoad.xodr"}
   road_network = maliput.plugin.create_road_network("maliput_malidrive", configuration)
   print(road_network.road_geometry().id())
+
+Maliput Visualizer
+------------------
+
+`maliput_viz`_ package provides a visualizer for `maliput`_ RoadNetworks. Via its GUI it is possible to select which maliput backend to use and what are the parameters
+to be passed to the loader of the particular backend.
+
+Several aspects of the road network can be visualized:
+ - Lane info: Information about the selected lane.
+ - Rules: Information about rules applying to the selected lane.
+ - Traffic Lights: Traffic lights are shown in the visualizer.
+ - Phases: When PhaseRings are loaded in the visualizer, the current phase can be selected.
+
+To run the visualizer simply execute:
+
+.. code-block:: bash
+
+  maliput_viz
+
+
+.. raw:: html
+
+    <video controls width="600" autoplay loop>
+        <source src="getting_started/maliput_viz.webm" type="video/webm">
+
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+
+.. note::
+
+  It is possible to load the visualizer with a specific backend and configuration. Execute `maliput_viz --help` for further information about the available options.
+
+The backend discovery is achieved via the plugin architecture. (See `Maliput Plugin Architecture`_ for further information).
+In a way that the users can create their own backend and load it via the visualizer GUI.
+
 
 Advanced
 ========
@@ -814,7 +849,9 @@ Further readings
 .. _maliput_integration: https://github.com/maliput/maliput_integration
 .. _maliput_malidrive: https://github.com/maliput/maliput_malidrive
 .. _maliput_multilane: https://github.com/maliput/maliput_multilane
+.. _maliput_osm: https://github.com/maliput/maliput_osm
 .. _maliput_py: https://github.com/maliput/maliput_py
+.. _maliput_viz: https://github.com/maliput/maliput_viz
 
 .. _Maliput Design: html/deps/maliput/html/maliput_design.html
 .. _Maliput Plugin Architecture: html/deps/maliput/html/maliput_plugin_architecture.html
