@@ -32,6 +32,11 @@ Creating a maliput backend
        const std::vector<Connection>& DoGetConnections() const override {
          return connections_;
        }
+
+       // Collection of junctions.
+       std::unordered_map<maliput_sparse::parser::Junction::Id, maliput_sparse::parser::Junction> junctions_{};
+       // Collection of connections;
+       std::vector<maliput_sparse::parser::Connection> connections_{};
       };
 
   As example: Take a look at the `maliput_osm`'s parser implementation: `maliput_osm::osm::OSMManager`_.
