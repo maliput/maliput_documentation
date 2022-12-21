@@ -18,6 +18,7 @@ var files_dup =
     [ "lane.h", "lane_8h.html", [
       [ "Lane", "classmaliput_1_1dragway_1_1_lane.html", "classmaliput_1_1dragway_1_1_lane" ]
     ] ],
+    [ "params.h", "params_8h.html", "params_8h" ],
     [ "road_geometry.cc", "road__geometry_8cc.html", null ],
     [ "road_geometry.h", "road__geometry_8h.html", [
       [ "RoadGeometry", "classmaliput_1_1dragway_1_1_road_geometry.html", "classmaliput_1_1dragway_1_1_road_geometry" ]

@@ -97,12 +97,15 @@ $(document).ready(function(){initNavTree('group__road__geometry__configuration__
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Parameters used during the <a class="el" href="classmaliput_1_1dragway_1_1_road_geometry.html" title="Dragway&#39;s implementation of api::RoadGeometry.">RoadGeometry</a> building process. </p>
 <p>When parameters are omitted the default value will be used.</p>
-<p>Example of use: </p><div class="fragment"><div class="line"><span class="keyword">const</span> std::map&lt;std::string, std::string&gt; builder_configuration {</div>
-<div class="line">  {<span class="stringliteral">&quot;maliput::dragway::kNumLanes&quot;</span>, <span class="stringliteral">&quot;4&quot;</span>},</div>
-<div class="line">  {<span class="stringliteral">&quot;maliput::dragway::kLength&quot;</span>, <span class="stringliteral">&quot;150&quot;</span>},</div>
-<div class="line">  {<span class="stringliteral">&quot;maliput::dragway::kLaneWidth&quot;</span>, <span class="stringliteral">&quot;3&quot;</span>},</div>
+<p>Example of use: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="params_8h.html">maliput_dragway/params.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="code" href="road__network__builder_8h.html">maliput_dragway/road_network_builder.h</a>&gt;</span></div>
+<div class="line"><span class="comment">// ...</span></div>
+<div class="line"><span class="keyword">const</span> std::map&lt;std::string, std::string&gt; builder_configuration {</div>
+<div class="line">  {<a class="code" href="group__road__geometry__configuration__keys.html#ga609a453145a842d8b6131d770b12348f">maliput::dragway::params::kNumLanes</a>, <span class="stringliteral">&quot;4&quot;</span>},</div>
+<div class="line">  {<a class="code" href="group__road__geometry__configuration__keys.html#ga8a502ee7db3e0bc55eba2a7192ccfdc9">maliput::dragway::params::kLength</a>, <span class="stringliteral">&quot;150&quot;</span>},</div>
+<div class="line">  {<a class="code" href="group__road__geometry__configuration__keys.html#ga9460b256034f4e324123b2339e11b70f">maliput::dragway::params::kLaneWidth</a>, <span class="stringliteral">&quot;3&quot;</span>},</div>
 <div class="line">};</div>
-<div class="line"><span class="keyword">auto</span> road_network = <a class="code" href="namespacemaliput_1_1dragway.html#a2b197af66db83551d143d7caf5bd4bd1">maliput::dragway::BuildRoadNetwork</a>::(builder_configuration)();</div>
+<div class="line"><span class="keyword">auto</span> road_network = <a class="code" href="namespacemaliput_1_1dragway.html#a2b197af66db83551d143d7caf5bd4bd1">maliput::dragway::BuildRoadNetwork</a>(builder_configuration)();</div>
 </div><!-- fragment --> <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -290,7 +293,12 @@ Variables</h2></td></tr>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="anamespacemaliput_1_1dragway_html_a2b197af66db83551d143d7caf5bd4bd1"><div class="ttname"><a href="namespacemaliput_1_1dragway.html#a2b197af66db83551d143d7caf5bd4bd1">maliput::dragway::BuildRoadNetwork</a></div><div class="ttdeci">std::unique_ptr&lt; api::RoadNetwork &gt; BuildRoadNetwork(const RoadGeometryConfiguration &amp;road_geometry_configuration)</div><div class="ttdoc">Builds an api::RoadNetwork based on Dragway implementation.</div><div class="ttdef"><b>Definition:</b> road_network_builder.cc:95</div></div>
+<div class="ttc" id="agroup__road__geometry__configuration__keys_html_ga609a453145a842d8b6131d770b12348f"><div class="ttname"><a href="group__road__geometry__configuration__keys.html#ga609a453145a842d8b6131d770b12348f">maliput::dragway::params::kNumLanes</a></div><div class="ttdeci">static constexpr char const  * kNumLanes</div><div class="ttdoc">Number of lanes.</div><div class="ttdef"><b>Definition:</b> params.h:60</div></div>
+<div class="ttc" id="aroad__network__builder_8h_html"><div class="ttname"><a href="road__network__builder_8h.html">road_network_builder.h</a></div></div>
+<div class="ttc" id="agroup__road__geometry__configuration__keys_html_ga9460b256034f4e324123b2339e11b70f"><div class="ttname"><a href="group__road__geometry__configuration__keys.html#ga9460b256034f4e324123b2339e11b70f">maliput::dragway::params::kLaneWidth</a></div><div class="ttdeci">static constexpr char const  * kLaneWidth</div><div class="ttdoc">Width of the lanes.</div><div class="ttdef"><b>Definition:</b> params.h:66</div></div>
+<div class="ttc" id="agroup__road__geometry__configuration__keys_html_ga8a502ee7db3e0bc55eba2a7192ccfdc9"><div class="ttname"><a href="group__road__geometry__configuration__keys.html#ga8a502ee7db3e0bc55eba2a7192ccfdc9">maliput::dragway::params::kLength</a></div><div class="ttdeci">static constexpr char const  * kLength</div><div class="ttdoc">Length of the dragway.</div><div class="ttdef"><b>Definition:</b> params.h:63</div></div>
+<div class="ttc" id="aparams_8h_html"><div class="ttname"><a href="params_8h.html">params.h</a></div></div>
+<div class="ttc" id="anamespacemaliput_1_1dragway_html_a2b197af66db83551d143d7caf5bd4bd1"><div class="ttname"><a href="namespacemaliput_1_1dragway.html#a2b197af66db83551d143d7caf5bd4bd1">maliput::dragway::BuildRoadNetwork</a></div><div class="ttdeci">std::unique_ptr&lt; api::RoadNetwork &gt; BuildRoadNetwork(const RoadGeometryConfiguration &amp;road_geometry_configuration)</div><div class="ttdoc">Builds an api::RoadNetwork based on Dragway implementation.</div><div class="ttdef"><b>Definition:</b> road_network_builder.cc:96</div></div>
 <!-- HTML footer for doxygen 1.8.15 -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

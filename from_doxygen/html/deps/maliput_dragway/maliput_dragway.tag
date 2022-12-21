@@ -91,71 +91,12 @@
     <namespace>maliput::dragway</namespace>
   </compound>
   <compound kind="file">
-    <name>road_geometry.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/src/maliput_dragway/</path>
-    <filename>road__geometry_8cc.html</filename>
-    <includes id="road__geometry_8h" name="road_geometry.h" local="yes" imported="no">maliput_dragway/road_geometry.h</includes>
-    <includes id="branch__point_8h" name="branch_point.h" local="yes" imported="no">maliput_dragway/branch_point.h</includes>
-    <includes id="junction_8h" name="junction.h" local="yes" imported="no">maliput_dragway/junction.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::dragway</namespace>
-  </compound>
-  <compound kind="file">
-    <name>road_geometry.h</name>
+    <name>params.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/include/maliput_dragway/</path>
-    <filename>road__geometry_8h.html</filename>
-    <includes id="branch__point_8h" name="branch_point.h" local="yes" imported="no">maliput_dragway/branch_point.h</includes>
-    <includes id="junction_8h" name="junction.h" local="yes" imported="no">maliput_dragway/junction.h</includes>
-    <class kind="class">maliput::dragway::RoadGeometry</class>
+    <filename>params_8h.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::dragway</namespace>
-  </compound>
-  <compound kind="file">
-    <name>road_network.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/src/plugin/</path>
-    <filename>road__network_8cc.html</filename>
-    <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_dragway/road_network_builder.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::dragway</namespace>
-    <namespace>maliput::dragway::plugin</namespace>
-    <member kind="function">
-      <type></type>
-      <name>REGISTER_ROAD_NETWORK_LOADER_PLUGIN</name>
-      <anchorfile>namespacemaliput_1_1dragway_1_1plugin.html</anchorfile>
-      <anchor>afd53859dd69a251e990349471d69f00e</anchor>
-      <arglist>(&quot;maliput_dragway&quot;, RoadNetworkLoader)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>road_network_builder.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/src/maliput_dragway/</path>
-    <filename>road__network__builder_8cc.html</filename>
-    <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_dragway/road_network_builder.h</includes>
-    <includes id="road__geometry_8h" name="road_geometry.h" local="yes" imported="no">maliput_dragway/road_geometry.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::dragway</namespace>
-    <member kind="function">
-      <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
-      <name>BuildRoadNetwork</name>
-      <anchorfile>namespacemaliput_1_1dragway.html</anchorfile>
-      <anchor>a2b197af66db83551d143d7caf5bd4bd1</anchor>
-      <arglist>(const RoadGeometryConfiguration &amp;road_geometry_configuration)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>road_network_builder.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/include/maliput_dragway/</path>
-    <filename>road__network__builder_8h.html</filename>
-    <class kind="struct">maliput::dragway::RoadGeometryConfiguration</class>
-    <namespace>maliput</namespace>
-    <namespace>maliput::dragway</namespace>
-    <member kind="function">
-      <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
-      <name>BuildRoadNetwork</name>
-      <anchorfile>namespacemaliput_1_1dragway.html</anchorfile>
-      <anchor>a2b197af66db83551d143d7caf5bd4bd1</anchor>
-      <arglist>(const RoadGeometryConfiguration &amp;road_geometry_configuration)</arglist>
-    </member>
+    <namespace>maliput::dragway::params</namespace>
     <member kind="variable" static="yes">
       <type>static constexpr char const  *</type>
       <name>kNumLanes</name>
@@ -197,6 +138,74 @@
       <anchorfile>group__road__geometry__configuration__keys.html</anchorfile>
       <anchor>ga94c21e622feaf27c90c695b3c81206ff</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>road_geometry.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/src/maliput_dragway/</path>
+    <filename>road__geometry_8cc.html</filename>
+    <includes id="road__geometry_8h" name="road_geometry.h" local="yes" imported="no">maliput_dragway/road_geometry.h</includes>
+    <includes id="branch__point_8h" name="branch_point.h" local="yes" imported="no">maliput_dragway/branch_point.h</includes>
+    <includes id="junction_8h" name="junction.h" local="yes" imported="no">maliput_dragway/junction.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::dragway</namespace>
+  </compound>
+  <compound kind="file">
+    <name>road_geometry.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/include/maliput_dragway/</path>
+    <filename>road__geometry_8h.html</filename>
+    <includes id="branch__point_8h" name="branch_point.h" local="yes" imported="no">maliput_dragway/branch_point.h</includes>
+    <includes id="junction_8h" name="junction.h" local="yes" imported="no">maliput_dragway/junction.h</includes>
+    <class kind="class">maliput::dragway::RoadGeometry</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::dragway</namespace>
+  </compound>
+  <compound kind="file">
+    <name>road_network.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/src/plugin/</path>
+    <filename>road__network_8cc.html</filename>
+    <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_dragway/road_network_builder.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::dragway</namespace>
+    <namespace>maliput::dragway::plugin</namespace>
+    <member kind="function">
+      <type></type>
+      <name>REGISTER_ROAD_NETWORK_LOADER_PLUGIN</name>
+      <anchorfile>namespacemaliput_1_1dragway_1_1plugin.html</anchorfile>
+      <anchor>afd53859dd69a251e990349471d69f00e</anchor>
+      <arglist>(&quot;maliput_dragway&quot;, RoadNetworkLoader)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>road_network_builder.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/src/maliput_dragway/</path>
+    <filename>road__network__builder_8cc.html</filename>
+    <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_dragway/road_network_builder.h</includes>
+    <includes id="params_8h" name="params.h" local="yes" imported="no">maliput_dragway/params.h</includes>
+    <includes id="road__geometry_8h" name="road_geometry.h" local="yes" imported="no">maliput_dragway/road_geometry.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::dragway</namespace>
+    <member kind="function">
+      <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
+      <name>BuildRoadNetwork</name>
+      <anchorfile>namespacemaliput_1_1dragway.html</anchorfile>
+      <anchor>a2b197af66db83551d143d7caf5bd4bd1</anchor>
+      <arglist>(const RoadGeometryConfiguration &amp;road_geometry_configuration)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>road_network_builder.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_dragway/include/maliput_dragway/</path>
+    <filename>road__network__builder_8h.html</filename>
+    <class kind="struct">maliput::dragway::RoadGeometryConfiguration</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::dragway</namespace>
+    <member kind="function">
+      <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
+      <name>BuildRoadNetwork</name>
+      <anchorfile>namespacemaliput_1_1dragway.html</anchorfile>
+      <anchor>a2b197af66db83551d143d7caf5bd4bd1</anchor>
+      <arglist>(const RoadGeometryConfiguration &amp;road_geometry_configuration)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -517,6 +526,7 @@
     <name>maliput::dragway</name>
     <filename>namespacemaliput_1_1dragway.html</filename>
     <namespace>maliput::dragway::bindings</namespace>
+    <namespace>maliput::dragway::params</namespace>
     <namespace>maliput::dragway::plugin</namespace>
     <class kind="class">maliput::dragway::BranchPoint</class>
     <class kind="class">maliput::dragway::DragwayBasedTest</class>
@@ -533,6 +543,21 @@
       <anchor>a2b197af66db83551d143d7caf5bd4bd1</anchor>
       <arglist>(const RoadGeometryConfiguration &amp;road_geometry_configuration)</arglist>
     </member>
+  </compound>
+  <compound kind="namespace">
+    <name>maliput::dragway::bindings</name>
+    <filename>namespacemaliput_1_1dragway_1_1bindings.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>PYBIND11_MODULE</name>
+      <anchorfile>namespacemaliput_1_1dragway_1_1bindings.html</anchorfile>
+      <anchor>a630481fe1cbca199a9af6324fbe4a102</anchor>
+      <arglist>(dragway, m)</arglist>
+    </member>
+  </compound>
+  <compound kind="namespace">
+    <name>maliput::dragway::params</name>
+    <filename>namespacemaliput_1_1dragway_1_1params.html</filename>
     <member kind="variable" static="yes">
       <type>static constexpr char const  *</type>
       <name>kNumLanes</name>
@@ -574,17 +599,6 @@
       <anchorfile>group__road__geometry__configuration__keys.html</anchorfile>
       <anchor>ga94c21e622feaf27c90c695b3c81206ff</anchor>
       <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="namespace">
-    <name>maliput::dragway::bindings</name>
-    <filename>namespacemaliput_1_1dragway_1_1bindings.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>PYBIND11_MODULE</name>
-      <anchorfile>namespacemaliput_1_1dragway_1_1bindings.html</anchorfile>
-      <anchor>a630481fe1cbca199a9af6324fbe4a102</anchor>
-      <arglist>(dragway, m)</arglist>
     </member>
   </compound>
   <compound kind="namespace">
