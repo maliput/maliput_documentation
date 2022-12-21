@@ -13,8 +13,8 @@ Creating a maliput backend
 --------------------------
 
 
-1. Implement a `maliput_sparse::parser::Parser`_: This pure virtual class is responsible for parsing an user-defined underlying road description format and serve the parsed data.
-   During the parsing process, the user will have to fill some data structures about the parsed lanes and connections between lanes, that will be used by the `maliput_sparse`_'s builder to create the maliput backend.
+1. Implement a `maliput_sparse::parser::Parser`_: This abstract class is responsible for parsing an user-defined underlying road description format and serve the parsed data.
+   During the parsing process, the user will have to fill some data structures about the parsed lanes and connections between them, that will be used by the `maliput_sparse`_'s builder to create the maliput backend.
 
   .. code-block:: cpp
     :linenos:
@@ -54,7 +54,7 @@ Creating a maliput backend
   As example: Take a look at the `maliput_osm`'s road network loader: `maliput_osm::builder::RoadNetworkBuilder`_.
 
 
-3. Finally, it is recommended to provide a maliput::plugin::RoadNetworkLoader implementation with this new backend, in a way that it can be loaded in runtime to be used by packages like `maliput_viz`.
+3. Finally, it is recommended to provide a `maliput::plugin::RoadNetworkLoader` implementation with this new backend, in a way that it can be loaded in runtime to be used by packages like `maliput_viz`.
 
   .. code-block:: cpp
     :linenos:
