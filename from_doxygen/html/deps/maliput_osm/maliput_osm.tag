@@ -5,7 +5,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_osm/src/maliput_osm/builder/</path>
     <filename>builder__configuration_8cc.html</filename>
     <includes id="builder__configuration_8h" name="builder_configuration.h" local="yes" imported="no">maliput_osm/builder/builder_configuration.h</includes>
-    <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_osm/builder/road_network_builder.h</includes>
+    <includes id="params_8h" name="params.h" local="yes" imported="no">maliput_osm/builder/params.h</includes>
     <namespace>maliput_osm</namespace>
     <namespace>maliput_osm::builder</namespace>
   </compound>
@@ -170,39 +170,12 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>road_network.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_osm/src/plugin/</path>
-    <filename>road__network_8cc.html</filename>
-    <includes id="builder__configuration_8h" name="builder_configuration.h" local="yes" imported="no">maliput_osm/builder/builder_configuration.h</includes>
-    <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_osm/builder/road_network_builder.h</includes>
-    <namespace>maliput_osm</namespace>
-    <namespace>maliput_osm::plugin</namespace>
-    <member kind="function">
-      <type></type>
-      <name>REGISTER_ROAD_NETWORK_LOADER_PLUGIN</name>
-      <anchorfile>namespacemaliput__osm_1_1plugin.html</anchorfile>
-      <anchor>a04ff4e681b187096b21f0c697cab2d3b</anchor>
-      <arglist>(&quot;maliput_osm&quot;, RoadNetworkLoader)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>road_network_builder.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_osm/src/maliput_osm/builder/</path>
-    <filename>road__network__builder_8cc.html</filename>
-    <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_osm/builder/road_network_builder.h</includes>
-    <includes id="builder__configuration_8h" name="builder_configuration.h" local="yes" imported="no">maliput_osm/builder/builder_configuration.h</includes>
-    <includes id="osm__manager_8h" name="osm_manager.h" local="yes" imported="no">maliput_osm/osm/osm_manager.h</includes>
-    <namespace>maliput_osm</namespace>
-    <namespace>maliput_osm::builder</namespace>
-  </compound>
-  <compound kind="file">
-    <name>road_network_builder.h</name>
+    <name>params.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_osm/include/maliput_osm/builder/</path>
-    <filename>road__network__builder_8h.html</filename>
-    <class kind="class">maliput_osm::builder::RoadNetworkBuilder</class>
+    <filename>params_8h.html</filename>
     <namespace>maliput_osm</namespace>
     <namespace>maliput_osm::builder</namespace>
-    <namespace>maliput_osm::builder::config</namespace>
+    <namespace>maliput_osm::builder::params</namespace>
     <member kind="variable" static="yes">
       <type>static constexpr char const  *</type>
       <name>kRoadGeometryId</name>
@@ -287,6 +260,40 @@
       <anchor>gabb49a593032b6e55d43c4b69b342c09b</anchor>
       <arglist></arglist>
     </member>
+  </compound>
+  <compound kind="file">
+    <name>road_network.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_osm/src/plugin/</path>
+    <filename>road__network_8cc.html</filename>
+    <includes id="builder__configuration_8h" name="builder_configuration.h" local="yes" imported="no">maliput_osm/builder/builder_configuration.h</includes>
+    <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_osm/builder/road_network_builder.h</includes>
+    <namespace>maliput_osm</namespace>
+    <namespace>maliput_osm::plugin</namespace>
+    <member kind="function">
+      <type></type>
+      <name>REGISTER_ROAD_NETWORK_LOADER_PLUGIN</name>
+      <anchorfile>namespacemaliput__osm_1_1plugin.html</anchorfile>
+      <anchor>a04ff4e681b187096b21f0c697cab2d3b</anchor>
+      <arglist>(&quot;maliput_osm&quot;, RoadNetworkLoader)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>road_network_builder.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_osm/src/maliput_osm/builder/</path>
+    <filename>road__network__builder_8cc.html</filename>
+    <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_osm/builder/road_network_builder.h</includes>
+    <includes id="builder__configuration_8h" name="builder_configuration.h" local="yes" imported="no">maliput_osm/builder/builder_configuration.h</includes>
+    <includes id="osm__manager_8h" name="osm_manager.h" local="yes" imported="no">maliput_osm/osm/osm_manager.h</includes>
+    <namespace>maliput_osm</namespace>
+    <namespace>maliput_osm::builder</namespace>
+  </compound>
+  <compound kind="file">
+    <name>road_network_builder.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_osm/include/maliput_osm/builder/</path>
+    <filename>road__network__builder_8h.html</filename>
+    <class kind="class">maliput_osm::builder::RoadNetworkBuilder</class>
+    <namespace>maliput_osm</namespace>
+    <namespace>maliput_osm::builder</namespace>
   </compound>
   <compound kind="file">
     <name>utilities.cc</name>
@@ -456,13 +463,13 @@
   <compound kind="namespace">
     <name>maliput_osm::builder</name>
     <filename>namespacemaliput__osm_1_1builder.html</filename>
-    <namespace>maliput_osm::builder::config</namespace>
+    <namespace>maliput_osm::builder::params</namespace>
     <class kind="struct">maliput_osm::builder::BuilderConfiguration</class>
     <class kind="class">maliput_osm::builder::RoadNetworkBuilder</class>
   </compound>
   <compound kind="namespace">
-    <name>maliput_osm::builder::config</name>
-    <filename>namespacemaliput__osm_1_1builder_1_1config.html</filename>
+    <name>maliput_osm::builder::params</name>
+    <filename>namespacemaliput__osm_1_1builder_1_1params.html</filename>
     <member kind="variable" static="yes">
       <type>static constexpr char const  *</type>
       <name>kRoadGeometryId</name>

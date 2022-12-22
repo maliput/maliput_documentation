@@ -18,9 +18,12 @@ var files_dup =
     ] ],
     [ "osm_types_compare.cc", "osm__types__compare_8cc.html", "osm__types__compare_8cc" ],
     [ "osm_types_compare.h", "osm__types__compare_8h.html", "osm__types__compare_8h" ],
+    [ "params.h", "params_8h.html", "params_8h" ],
     [ "road_network.cc", "road__network_8cc.html", "road__network_8cc" ],
     [ "road_network_builder.cc", "road__network__builder_8cc.html", null ],
-    [ "road_network_builder.h", "road__network__builder_8h.html", "road__network__builder_8h" ],
+    [ "road_network_builder.h", "road__network__builder_8h.html", [
+      [ "RoadNetworkBuilder", "classmaliput__osm_1_1builder_1_1_road_network_builder.html", "classmaliput__osm_1_1builder_1_1_road_network_builder" ]
+    ] ],
     [ "utilities.cc", "utilities_8cc.html", "utilities_8cc" ],
     [ "utilities.h", "utilities_8h.html", "utilities_8h" ]
 ];

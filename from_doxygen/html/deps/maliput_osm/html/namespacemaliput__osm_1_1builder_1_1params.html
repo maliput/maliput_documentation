@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>maliput_osm: RoadNetwork configuration builder keys</title>
+<title>maliput_osm: maliput_osm::builder::params Namespace Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -69,7 +69,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('group__builder__configuration__keys.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('namespacemaliput__osm_1_1builder_1_1params.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,21 +91,10 @@ $(document).ready(function(){initNavTree('group__builder__configuration__keys.ht
   <div class="summary">
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">RoadNetwork configuration builder keys</div>  </div>
+<div class="title">maliput_osm::builder::params Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>Parameters used during the RoadNetwork building process. </p>
-<p>When parameters are omitted the default value will be used.</p>
-<p>Example of use: </p><div class="fragment"><div class="line"><span class="keyword">const</span> std::map&lt;std::string, std::string&gt; builder_configuration {</div>
-<div class="line">  {<span class="stringliteral">&quot;maliput_osm::builder::kRoadGeometryId&quot;</span>, <span class="stringliteral">&quot;appian_way_road_geometry&quot;</span>},</div>
-<div class="line">  {<span class="stringliteral">&quot;maliput_osm::builder::kOsmPath&quot;</span>, <span class="stringliteral">&quot;appian_way.osm&quot;</span>},</div>
-<div class="line">  {<span class="stringliteral">&quot;maliput_osm::builder::kOrigin&quot;</span>, <span class="stringliteral">&quot;{34., 58.}&quot;</span>},</div>
-<div class="line">  {<span class="stringliteral">&quot;maliput_osm::builder::kLinearTolerance&quot;</span>, <span class="stringliteral">&quot;1e-3&quot;</span>},</div>
-<div class="line">  {<span class="stringliteral">&quot;maliput_osm::builder::kAngularTolerance&quot;</span>, <span class="stringliteral">&quot;1e-3&quot;</span>},</div>
-<div class="line">};</div>
-<div class="line"><span class="keyword">auto</span> road_network = <a class="code" href="classmaliput__osm_1_1builder_1_1_road_network_builder.html">maliput_osm::builder::RoadNetworkBuilder</a>(builder_configuration)();</div>
-</div><!-- fragment --> <table class="memberdecls">
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:ga65640ac01adf58486da1ff6f92d44c3f"><td class="memItemLeft" align="right" valign="top">static constexpr char const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__builder__configuration__keys.html#ga65640ac01adf58486da1ff6f92d44c3f">kRoadGeometryId</a> {maliput_sparse::loader::config::kRoadGeometryId}</td></tr>
@@ -145,341 +134,13 @@ Variables</h2></td></tr>
 <tr class="memdesc:gabb49a593032b6e55d43c4b69b342c09b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path to the configuration file to load a IntersectionBook.  <a href="group__builder__configuration__keys.html#gabb49a593032b6e55d43c4b69b342c09b">More...</a><br /></td></tr>
 <tr class="separator:gabb49a593032b6e55d43c4b69b342c09b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="ga0e97f7f471a134224c1ce20a25da877d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0e97f7f471a134224c1ce20a25da877d">&#9670;&nbsp;</a></span>kAngularTolerance</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr char const* kAngularTolerance {maliput_sparse::loader::config::kAngularTolerance}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>RoadGeometry's angular tolerance. </p>
-<ul>
-<li>Default: <em>"1e-3"</em> </li>
-</ul>
-
-</div>
-</div>
-<a id="ga94c21e622feaf27c90c695b3c81206ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga94c21e622feaf27c90c695b3c81206ff">&#9670;&nbsp;</a></span>kInertialToBackendFrameTranslation</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr char const* kInertialToBackendFrameTranslation</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">{</div>
-<div class="line">    <a class="code" href="group__builder__configuration__keys.html#ga94c21e622feaf27c90c695b3c81206ff">maliput_sparse::loader::config::kInertialToBackendFrameTranslation</a>}</div>
-</div><!-- fragment -->
-<p>Translation from maliput to <a class="el" href="namespacemaliput__osm.html">maliput_osm</a> inertial frame. </p>
-<p>The format of the 3-dimensional vector that is expected to be passed should be {X, Y, Z}. Same format as maliput::math::Vector3 is serialized.</p><ul>
-<li>Default: <em>"{0., 0., 0.}"</em> </li>
-</ul>
-
-</div>
-</div>
-<a id="gabb49a593032b6e55d43c4b69b342c09b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabb49a593032b6e55d43c4b69b342c09b">&#9670;&nbsp;</a></span>kIntersectionBook</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr char const* kIntersectionBook {maliput_sparse::loader::config::kIntersectionBook}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Path to the configuration file to load a IntersectionBook. </p>
-<ul>
-<li>Default: "" </li>
-</ul>
-
-</div>
-</div>
-<a id="gac6e403db72f1c6cea48836ea7754e3de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac6e403db72f1c6cea48836ea7754e3de">&#9670;&nbsp;</a></span>kLinearTolerance</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr char const* kLinearTolerance {maliput_sparse::loader::config::kLinearTolerance}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>RoadGeometry's linear tolerance. </p>
-<ul>
-<li>Default: <em>"5e-2"</em> </li>
-</ul>
-
-</div>
-</div>
-<a id="ga1e375d4b32b1e66c08665a2d1fa58445"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1e375d4b32b1e66c08665a2d1fa58445">&#9670;&nbsp;</a></span>kOrigin</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr char const* kOrigin {&quot;origin&quot;}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Lat/lon coordinate of the origin of the OSM file. </p>
-<p>The format of the 2-dimensional vector that is expected to be passed should be {X, Y}. Same format as maliput::math::Vector2 is serialized.</p><ul>
-<li>Default: <em>"{0., 0.}"</em> </li>
-</ul>
-
-</div>
-</div>
-<a id="gab93036116a39f293367679f1fd794000"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab93036116a39f293367679f1fd794000">&#9670;&nbsp;</a></span>kOsmFile</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr char const* kOsmFile {&quot;osm_file&quot;}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Path to the OSM file to be loaded. </p>
-<ul>
-<li>Default: "" </li>
-</ul>
-
-</div>
-</div>
-<a id="gabab6ea6289a9d6a997ea3623df2981e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabab6ea6289a9d6a997ea3623df2981e7">&#9670;&nbsp;</a></span>kPhaseRingBook</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr char const* kPhaseRingBook {maliput_sparse::loader::config::kPhaseRingBook}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Path to the configuration file to load a PhaseRingBook. </p>
-<ul>
-<li>Default: "" </li>
-</ul>
-
-</div>
-</div>
-<a id="ga65640ac01adf58486da1ff6f92d44c3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga65640ac01adf58486da1ff6f92d44c3f">&#9670;&nbsp;</a></span>kRoadGeometryId</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr char const* kRoadGeometryId {maliput_sparse::loader::config::kRoadGeometryId}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>A string that works as ID of the RoadGeometry. </p>
-<ul>
-<li>Default: <em>"maliput"</em> </li>
-</ul>
-
-</div>
-</div>
-<a id="ga413e2136aa512c92d58bf633b25e72af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga413e2136aa512c92d58bf633b25e72af">&#9670;&nbsp;</a></span>kRoadRuleBook</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr char const* kRoadRuleBook {maliput_sparse::loader::config::kRoadRuleBook}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Path to the configuration file to load a RoadRulebook. </p>
-<ul>
-<li>Default: "" </li>
-</ul>
-
-</div>
-</div>
-<a id="gad98da37a0819c38a07a700edc8f2ec88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad98da37a0819c38a07a700edc8f2ec88">&#9670;&nbsp;</a></span>kRuleRegistry</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr char const* kRuleRegistry {maliput_sparse::loader::config::kRuleRegistry}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Path to the configuration file to load a RoadRulebook. </p>
-<ul>
-<li>Default: "" </li>
-</ul>
-
-</div>
-</div>
-<a id="ga10cc3dafe29eccb96fcbd1843f97acab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga10cc3dafe29eccb96fcbd1843f97acab">&#9670;&nbsp;</a></span>kScaleLength</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr char const* kScaleLength {maliput_sparse::loader::config::kScaleLength}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>RoadGeometry's scale length. </p>
-<ul>
-<li>Default: <em>"1.0"</em> </li>
-</ul>
-
-</div>
-</div>
-<a id="gaa52290b1f18b24e3f00bd1dc5db5eb53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa52290b1f18b24e3f00bd1dc5db5eb53">&#9670;&nbsp;</a></span>kTrafficLightBook</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr char const* kTrafficLightBook {maliput_sparse::loader::config::kTrafficLightBook}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Path to the configuration file to load a TrafficLightBook. </p>
-<ul>
-<li>Default: "" </li>
-</ul>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aclassmaliput__osm_1_1builder_1_1_road_network_builder_html"><div class="ttname"><a href="classmaliput__osm_1_1builder_1_1_road_network_builder.html">maliput_osm::builder::RoadNetworkBuilder</a></div><div class="ttdef"><b>Definition:</b> road_network_builder.h:42</div></div>
-<div class="ttc" id="agroup__builder__configuration__keys_html_ga94c21e622feaf27c90c695b3c81206ff"><div class="ttname"><a href="group__builder__configuration__keys.html#ga94c21e622feaf27c90c695b3c81206ff">maliput_osm::builder::params::kInertialToBackendFrameTranslation</a></div><div class="ttdeci">static constexpr char const  * kInertialToBackendFrameTranslation</div><div class="ttdoc">Translation from maliput to maliput_osm inertial frame.</div><div class="ttdef"><b>Definition:</b> params.h:90</div></div>
 <!-- HTML footer for doxygen 1.8.15 -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="namespacemaliput__osm.html">maliput_osm</a></li><li class="navelem"><a class="el" href="namespacemaliput__osm_1_1builder.html">builder</a></li><li class="navelem"><a class="el" href="namespacemaliput__osm_1_1builder_1_1params.html">params</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.nl/">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a></li>
