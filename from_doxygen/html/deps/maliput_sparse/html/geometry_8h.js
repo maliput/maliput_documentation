@@ -3,6 +3,7 @@ var geometry_8h =
     [ "BoundPointsResult", "structmaliput__sparse_1_1geometry_1_1utility_1_1_bound_points_result.html", "structmaliput__sparse_1_1geometry_1_1utility_1_1_bound_points_result" ],
     [ "ClosestPointResult", "structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html", "structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result" ],
     [ "ComputeCenterline3d", "geometry_8h.html#aed86a7fbbd82012334c4deb4860d8047", null ],
+    [ "ComputeDistance", "geometry_8h.html#ae67bb8047406054823734d9e9389abef", null ],
     [ "Get2DHeadingAtP", "geometry_8h.html#aca5fda2a9c4b54a10ea68980071d608d", null ],
     [ "Get2DTangentAtP", "geometry_8h.html#aff11eeb8cf07dd47ec8474d73693e32b", null ],
     [ "GetBoundPointsAtP", "geometry_8h.html#a87ca282e942390028c64a7df387acc06", null ],

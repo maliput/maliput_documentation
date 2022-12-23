@@ -4,6 +4,7 @@ var hierarchy =
     [ "BuilderConfiguration", "structmaliput__sparse_1_1loader_1_1_builder_configuration.html", null ],
     [ "ClosestPointResult", "structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html", null ],
     [ "Connection", "structmaliput__sparse_1_1parser_1_1_connection.html", null ],
+    [ "Validator::Error", "structmaliput__sparse_1_1parser_1_1_validator_1_1_error.html", null ],
     [ "EuclideanDistance< CoordinateT >", "structmaliput__sparse_1_1geometry_1_1details_1_1_euclidean_distance.html", null ],
     [ "Junction", "structmaliput__sparse_1_1parser_1_1_junction.html", null ],
     [ "Lane", null, [
@@ -35,5 +36,7 @@ var hierarchy =
     [ "RoadGeometryBuilder", "classmaliput__sparse_1_1builder_1_1_road_geometry_builder.html", null ],
     [ "RoadGeometryLoader", "classmaliput__sparse_1_1loader_1_1_road_geometry_loader.html", null ],
     [ "RoadNetworkLoader", "classmaliput__sparse_1_1loader_1_1_road_network_loader.html", null ],
-    [ "Segment", "structmaliput__sparse_1_1parser_1_1_segment.html", null ]
+    [ "Segment", "structmaliput__sparse_1_1parser_1_1_segment.html", null ],
+    [ "Validator", "classmaliput__sparse_1_1parser_1_1_validator.html", null ],
+    [ "ValidatorConfig", "structmaliput__sparse_1_1parser_1_1_validator_config.html", null ]
 ];

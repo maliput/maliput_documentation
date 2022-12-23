@@ -1,5 +1,11 @@
+.. _creating_maliput_backend_label:
+
 Creating a maliput backend using maliput_sparse
 ===============================================
+
+.. contents:: Contents
+   :depth: 2
+   :local:
 
 Context
 -------

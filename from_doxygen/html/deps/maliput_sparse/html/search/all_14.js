@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['_7elanegeometry_190',['~LaneGeometry',['../classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#a5cc9a9eb9630f04b271c6ef59881b70f',1,'maliput_sparse::geometry::LaneGeometry']]],
-  ['_7enestedbuilder_191',['~NestedBuilder',['../classmaliput__sparse_1_1builder_1_1details_1_1_nested_builder.html#a180000d7dc402f12fa9d061738d90dae',1,'maliput_sparse::builder::details::NestedBuilder']]],
-  ['_7eparser_192',['~Parser',['../classmaliput__sparse_1_1parser_1_1_parser.html#a7beb386e47902b5990e7c5d834c53d87',1,'maliput_sparse::parser::Parser']]]
+  ['w_203',['W',['../classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#a305e76b9da27e04d3f15f25bb6477d70',1,'maliput_sparse::geometry::LaneGeometry']]],
+  ['wdot_204',['WDot',['../classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#aac451cc1c812c306f3d0c9d2ddd9fe58',1,'maliput_sparse::geometry::LaneGeometry::WDot(const maliput::math::Vector3 &amp;prh) const'],['../classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#a3d2a002c947072be1ea0d5e81e337a42',1,'maliput_sparse::geometry::LaneGeometry::WDot(double p) const']]],
+  ['which_205',['Which',['../structmaliput__sparse_1_1parser_1_1_lane_end.html#a76832237d5d837232469a6c46f1eeff2',1,'maliput_sparse::parser::LaneEnd']]],
+  ['winverse_206',['WInverse',['../classmaliput__sparse_1_1geometry_1_1_lane_geometry.html#a5593d74c249ebf8c1c196caeebd189b2',1,'maliput_sparse::geometry::LaneGeometry']]]
 ];

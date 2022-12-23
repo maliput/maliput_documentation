@@ -4,6 +4,7 @@ var geometry_8cc =
     [ "Segment2d", "geometry_8cc.html#a4cc3a12047ae86f747c82ef49eb844fc", null ],
     [ "Segment3d", "geometry_8cc.html#a7687d9ec93ab5b257ae36fdd925df410", null ],
     [ "ComputeCenterline3d", "geometry_8cc.html#aed86a7fbbd82012334c4deb4860d8047", null ],
+    [ "ComputeDistance", "geometry_8cc.html#ae67bb8047406054823734d9e9389abef", null ],
     [ "Get2DHeadingAtP", "geometry_8cc.html#aca5fda2a9c4b54a10ea68980071d608d", null ],
     [ "Get2DTangentAtP", "geometry_8cc.html#aff11eeb8cf07dd47ec8474d73693e32b", null ],
     [ "GetBoundPointsAtP", "geometry_8cc.html#a87ca282e942390028c64a7df387acc06", null ],

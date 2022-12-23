@@ -145,6 +145,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a0acb47c623c08074e0636c246eaa8110"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html">ClosestPointResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a0acb47c623c08074e0636c246eaa8110">GetClosestPoint</a> (const <a class="el" href="namespacemaliput__sparse_1_1geometry.html#accac056a7e29520263437aa7688469b1">LineString3d</a> &amp;line_string, const maliput::math::Vector3 &amp;xyz)</td></tr>
 <tr class="memdesc:a0acb47c623c08074e0636c246eaa8110"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the closest point in the <code>line_string</code> to the given <code>xyz</code> point.  <a href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a0acb47c623c08074e0636c246eaa8110">More...</a><br /></td></tr>
 <tr class="separator:a0acb47c623c08074e0636c246eaa8110"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae67bb8047406054823734d9e9389abef"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#ae67bb8047406054823734d9e9389abef">ComputeDistance</a> (const <a class="el" href="namespacemaliput__sparse_1_1geometry.html#accac056a7e29520263437aa7688469b1">LineString3d</a> &amp;lhs, const <a class="el" href="namespacemaliput__sparse_1_1geometry.html#accac056a7e29520263437aa7688469b1">LineString3d</a> &amp;rhs)</td></tr>
+<tr class="memdesc:ae67bb8047406054823734d9e9389abef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the distance between two LineString3d.  <a href="namespacemaliput__sparse_1_1geometry_1_1utility.html#ae67bb8047406054823734d9e9389abef">More...</a><br /></td></tr>
+<tr class="separator:ae67bb8047406054823734d9e9389abef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac48de18fa14c8aba0eae9b4a578ee153"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html">ClosestPointResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#ac48de18fa14c8aba0eae9b4a578ee153">GetClosestPoint</a> (const <a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a7687d9ec93ab5b257ae36fdd925df410">Segment3d</a> &amp;segment, const maliput::math::Vector3 &amp;xyz)</td></tr>
 <tr class="separator:ac48de18fa14c8aba0eae9b4a578ee153"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -235,6 +238,47 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The centerline. </dd></dl>
+
+</div>
+</div>
+<a id="ae67bb8047406054823734d9e9389abef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae67bb8047406054823734d9e9389abef">&#9670;&nbsp;</a></span>ComputeDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double ComputeDistance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacemaliput__sparse_1_1geometry.html#accac056a7e29520263437aa7688469b1">LineString3d</a> &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacemaliput__sparse_1_1geometry.html#accac056a7e29520263437aa7688469b1">LineString3d</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes the distance between two LineString3d. </p>
+<p>The distance is calculated as the sum of distances between corresponding points between both line strings divided by the number of points. Some notes: 1 - The evaluation points to be used are the ones from the line string with more points. 2 - If the line strings have the same number of points, the evaluation points are the ones from the first line string. 3 - The closest point is calculated for each point in the line string with less points using #ref GetClosestPoint method.</p>
+<p>This algorithm is not the most precise one, but it is the most intuitive one and for the expected use cases it is good enough.</p>
+<p>TODO(#CreateIssue): Use Frechet distance algorithm instead.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lhs</td><td>A LineString3d. </td></tr>
+    <tr><td class="paramname">rhs</td><td>A LineString3d. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The distance between the two line strings defined as above. </dd></dl>
 
 </div>
 </div>

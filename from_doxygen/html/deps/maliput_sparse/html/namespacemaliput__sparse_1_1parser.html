@@ -89,7 +89,8 @@ $(document).ready(function(){initNavTree('namespacemaliput__sparse_1_1parser.htm
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">maliput_sparse::parser Namespace Reference</div>  </div>
 </div><!--header-->
@@ -114,7 +115,98 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1parser_1_1_segment.html">Segment</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A segment is a collection of lanes added with a strict order, from right to left, similarly to maliput::api::Segment abstraction.  <a href="structmaliput__sparse_1_1parser_1_1_segment.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1parser_1_1_validator.html">Validator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">After parsing a road network, the <a class="el" href="classmaliput__sparse_1_1parser_1_1_validator.html" title="After parsing a road network, the Validator can be used to check for errors before creating a maliput...">Validator</a> can be used to check for errors before creating a maliput::api::RoadNetwork via the <a class="el" href="classmaliput__sparse_1_1loader_1_1_road_network_loader.html" title="Loads a RoadNetwork based on a maliput_sparse::parser::Parser implementation.">maliput_sparse::loader::RoadNetworkLoader</a>.  <a href="classmaliput__sparse_1_1parser_1_1_validator.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1parser_1_1_validator_config.html">ValidatorConfig</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structmaliput__sparse_1_1parser_1_1_validator_config.html" title="ValidatorConfig struct that contains the configuration for the Validator.">ValidatorConfig</a> struct that contains the configuration for the <a class="el" href="classmaliput__sparse_1_1parser_1_1_validator.html" title="After parsing a road network, the Validator can be used to check for errors before creating a maliput...">Validator</a>.  <a href="structmaliput__sparse_1_1parser_1_1_validator_config.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a95d2c2d580103b4a12935f09ab0ac993"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__sparse_1_1parser.html#a95d2c2d580103b4a12935f09ab0ac993">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classmaliput__sparse_1_1parser_1_1_validator.html#a1d1cfd8ffb84e947f82999c682b666a7">Validator::Type</a> &amp;type)</td></tr>
+<tr class="memdesc:a95d2c2d580103b4a12935f09ab0ac993"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize <a class="el" href="classmaliput__sparse_1_1parser_1_1_validator.html#a1d1cfd8ffb84e947f82999c682b666a7" title="The type of validation.">Validator::Type</a> to ostream.  <a href="namespacemaliput__sparse_1_1parser.html#a95d2c2d580103b4a12935f09ab0ac993">More...</a><br /></td></tr>
+<tr class="separator:a95d2c2d580103b4a12935f09ab0ac993"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9dbe2a881342fd563bceb18846f2c90"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structmaliput__sparse_1_1parser_1_1_validator_1_1_error.html">Validator::Error</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__sparse_1_1parser.html#ab9dbe2a881342fd563bceb18846f2c90">ValidateLaneAdjacency</a> (const <a class="el" href="classmaliput__sparse_1_1parser_1_1_parser.html">Parser</a> *parser, bool validate_geometric_adjacency, const <a class="el" href="structmaliput__sparse_1_1parser_1_1_validator_config.html">ValidatorConfig</a> &amp;config)</td></tr>
+<tr class="memdesc:ab9dbe2a881342fd563bceb18846f2c90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validates lane adjacency.  <a href="namespacemaliput__sparse_1_1parser.html#ab9dbe2a881342fd563bceb18846f2c90">More...</a><br /></td></tr>
+<tr class="separator:ab9dbe2a881342fd563bceb18846f2c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a95d2c2d580103b4a12935f09ab0ac993"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95d2c2d580103b4a12935f09ab0ac993">&#9670;&nbsp;</a></span>operator&lt;&lt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classmaliput__sparse_1_1parser_1_1_validator.html#a1d1cfd8ffb84e947f82999c682b666a7">Validator::Type</a> &amp;&#160;</td>
+          <td class="paramname"><em>type</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Serialize <a class="el" href="classmaliput__sparse_1_1parser_1_1_validator.html#a1d1cfd8ffb84e947f82999c682b666a7" title="The type of validation.">Validator::Type</a> to ostream. </p>
+
+</div>
+</div>
+<a id="ab9dbe2a881342fd563bceb18846f2c90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9dbe2a881342fd563bceb18846f2c90">&#9670;&nbsp;</a></span>ValidateLaneAdjacency()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="structmaliput__sparse_1_1parser_1_1_validator_1_1_error.html">Validator::Error</a> &gt; ValidateLaneAdjacency </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmaliput__sparse_1_1parser_1_1_parser.html">Parser</a> *&#160;</td>
+          <td class="paramname"><em>parser</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>validate_geometric_adjacency</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structmaliput__sparse_1_1parser_1_1_validator_config.html">ValidatorConfig</a> &amp;&#160;</td>
+          <td class="paramname"><em>config</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Validates lane adjacency. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parser</td><td>The <a class="el" href="classmaliput__sparse_1_1parser_1_1_parser.html" title="Pure virtual parser API class to be inherited by a specific parser class.">maliput_sparse::parser::Parser</a> instance to validate. </td></tr>
+    <tr><td class="paramname">validate_geometric_adjacency</td><td>Whether to validate geometric adjacency. </td></tr>
+    <tr><td class="paramname">config</td><td>The <a class="el" href="structmaliput__sparse_1_1parser_1_1_validator_config.html" title="ValidatorConfig struct that contains the configuration for the Validator.">maliput_sparse::parser::ValidatorConfig</a> to use. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A vector of <a class="el" href="structmaliput__sparse_1_1parser_1_1_validator_1_1_error.html" title="Error struct that contains the error message, type, and severity.">maliput_sparse::parser::Validator::Error</a>. </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.15 -->

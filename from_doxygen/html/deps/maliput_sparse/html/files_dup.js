@@ -59,5 +59,8 @@ var files_dup =
     ] ],
     [ "segment.h", "segment_8h.html", [
       [ "Segment", "structmaliput__sparse_1_1parser_1_1_segment.html", "structmaliput__sparse_1_1parser_1_1_segment" ]
-    ] ]
+    ] ],
+    [ "validation_methods.h", "validation__methods_8h.html", "validation__methods_8h" ],
+    [ "validator.cc", "validator_8cc.html", "validator_8cc" ],
+    [ "validator.h", "validator_8h.html", "validator_8h" ]
 ];

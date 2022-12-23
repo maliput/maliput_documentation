@@ -260,6 +260,13 @@
       <anchor>a0acb47c623c08074e0636c246eaa8110</anchor>
       <arglist>(const LineString3d &amp;line_string, const maliput::math::Vector3 &amp;xyz)</arglist>
     </member>
+    <member kind="function">
+      <type>double</type>
+      <name>ComputeDistance</name>
+      <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
+      <anchor>ae67bb8047406054823734d9e9389abef</anchor>
+      <arglist>(const LineString3d &amp;lhs, const LineString3d &amp;rhs)</arglist>
+    </member>
     <member kind="variable" static="yes">
       <type>static constexpr bool</type>
       <name>kLeft</name>
@@ -347,6 +354,13 @@
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
       <anchor>a0acb47c623c08074e0636c246eaa8110</anchor>
       <arglist>(const LineString3d &amp;line_string, const maliput::math::Vector3 &amp;xyz)</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>ComputeDistance</name>
+      <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
+      <anchor>ae67bb8047406054823734d9e9389abef</anchor>
+      <arglist>(const LineString3d &amp;lhs, const LineString3d &amp;rhs)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -501,6 +515,7 @@
     <filename>road__geometry__loader_8cc.html</filename>
     <includes id="road__geometry__loader_8h" name="road_geometry_loader.h" local="yes" imported="no">maliput_sparse/loader/road_geometry_loader.h</includes>
     <includes id="builder_8h" name="builder.h" local="yes" imported="no">maliput_sparse/builder/builder.h</includes>
+    <includes id="validator_8h" name="validator.h" local="yes" imported="no">maliput_sparse/parser/validator.h</includes>
     <namespace>maliput_sparse</namespace>
     <namespace>maliput_sparse::loader</namespace>
   </compound>
@@ -542,6 +557,67 @@
     <class kind="struct">maliput_sparse::parser::Segment</class>
     <namespace>maliput_sparse</namespace>
     <namespace>maliput_sparse::parser</namespace>
+  </compound>
+  <compound kind="file">
+    <name>validation_methods.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/src/parser/</path>
+    <filename>validation__methods_8h.html</filename>
+    <includes id="parser_8h" name="parser.h" local="yes" imported="no">maliput_sparse/parser/parser.h</includes>
+    <includes id="validator_8h" name="validator.h" local="yes" imported="no">maliput_sparse/parser/validator.h</includes>
+    <namespace>maliput_sparse</namespace>
+    <namespace>maliput_sparse::parser</namespace>
+    <member kind="function">
+      <type>std::vector&lt; Validator::Error &gt;</type>
+      <name>ValidateLaneAdjacency</name>
+      <anchorfile>namespacemaliput__sparse_1_1parser.html</anchorfile>
+      <anchor>ab9dbe2a881342fd563bceb18846f2c90</anchor>
+      <arglist>(const Parser *parser, bool validate_geometric_adjacency, const ValidatorConfig &amp;config)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>validator.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/src/parser/</path>
+    <filename>validator_8cc.html</filename>
+    <includes id="validator_8h" name="validator.h" local="yes" imported="no">maliput_sparse/parser/validator.h</includes>
+    <includes id="geometry_8h" name="geometry.h" local="yes" imported="no">maliput_sparse/geometry/utility/geometry.h</includes>
+    <includes id="junction_8h" name="junction.h" local="yes" imported="no">maliput_sparse/parser/junction.h</includes>
+    <includes id="include_2maliput__sparse_2parser_2lane_8h" name="include/maliput_sparse/parser/lane.h" local="yes" imported="no">maliput_sparse/parser/lane.h</includes>
+    <includes id="segment_8h" name="segment.h" local="yes" imported="no">maliput_sparse/parser/segment.h</includes>
+    <includes id="validation__methods_8h" name="validation_methods.h" local="yes" imported="no">parser/validation_methods.h</includes>
+    <namespace>maliput_sparse</namespace>
+    <namespace>maliput_sparse::parser</namespace>
+    <member kind="function">
+      <type>std::vector&lt; Validator::Error &gt;</type>
+      <name>ValidateLaneAdjacency</name>
+      <anchorfile>namespacemaliput__sparse_1_1parser.html</anchorfile>
+      <anchor>ab9dbe2a881342fd563bceb18846f2c90</anchor>
+      <arglist>(const Parser *parser, bool validate_geometric_adjacency, const ValidatorConfig &amp;config)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::ostream &amp;</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacemaliput__sparse_1_1parser.html</anchorfile>
+      <anchor>a95d2c2d580103b4a12935f09ab0ac993</anchor>
+      <arglist>(std::ostream &amp;os, const Validator::Type &amp;type)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>validator.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/include/maliput_sparse/parser/</path>
+    <filename>validator_8h.html</filename>
+    <includes id="parser_8h" name="parser.h" local="yes" imported="no">maliput_sparse/parser/parser.h</includes>
+    <class kind="struct">maliput_sparse::parser::ValidatorConfig</class>
+    <class kind="class">maliput_sparse::parser::Validator</class>
+    <class kind="struct">maliput_sparse::parser::Validator::Error</class>
+    <namespace>maliput_sparse</namespace>
+    <namespace>maliput_sparse::parser</namespace>
+    <member kind="function">
+      <type>std::ostream &amp;</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacemaliput__sparse_1_1parser.html</anchorfile>
+      <anchor>a95d2c2d580103b4a12935f09ab0ac993</anchor>
+      <arglist>(std::ostream &amp;os, const Validator::Type &amp;type)</arglist>
+    </member>
   </compound>
   <compound kind="struct">
     <name>maliput_sparse::geometry::utility::BoundPointsResult</name>
@@ -740,6 +816,54 @@
     </member>
   </compound>
   <compound kind="struct">
+    <name>maliput_sparse::parser::Validator::Error</name>
+    <filename>structmaliput__sparse_1_1parser_1_1_validator_1_1_error.html</filename>
+    <member kind="enumeration">
+      <type></type>
+      <name>Severity</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_validator_1_1_error.html</anchorfile>
+      <anchor>a11717da96dc4e4a5f79371318448f82b</anchor>
+      <arglist></arglist>
+      <enumvalue file="structmaliput__sparse_1_1parser_1_1_validator_1_1_error.html" anchor="a11717da96dc4e4a5f79371318448f82baec0da41f4e48b52c362303eb27ed5dee">kWarning</enumvalue>
+      <enumvalue file="structmaliput__sparse_1_1parser_1_1_validator_1_1_error.html" anchor="a11717da96dc4e4a5f79371318448f82bae3587c730cc1aa530fa4ddc9c4204e97">kError</enumvalue>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_validator_1_1_error.html</anchorfile>
+      <anchor>add6bb21ff71d3c81939896848286a26a</anchor>
+      <arglist>(const Error &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_validator_1_1_error.html</anchorfile>
+      <anchor>a2803fa3347cb43182d9f80509e3b7cb7</anchor>
+      <arglist>(const Error &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>message</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_validator_1_1_error.html</anchorfile>
+      <anchor>a36bd74109f547f7f8198faf5a12d2879</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Validator::Type</type>
+      <name>type</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_validator_1_1_error.html</anchorfile>
+      <anchor>a8aa216951ffaed2bc65e924378a86910</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Severity</type>
+      <name>severity</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_validator_1_1_error.html</anchorfile>
+      <anchor>a20b732c69851d79bee2f5fca3371704a</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
     <name>maliput_sparse::geometry::details::EuclideanDistance</name>
     <filename>structmaliput__sparse_1_1geometry_1_1details_1_1_euclidean_distance.html</filename>
     <templarg></templarg>
@@ -823,6 +947,52 @@
       <arglist>(maliput::common::Passkey&lt; SegmentBuilder &gt;, std::unique_ptr&lt; maliput::geometry_base::Segment &gt; segment)</arglist>
     </member>
   </compound>
+  <compound kind="class">
+    <name>maliput_sparse::Lane</name>
+    <filename>classmaliput__sparse_1_1_lane.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
+      <anchor>a99b7649e8342fe7c216553e0a8476d77</anchor>
+      <arglist>(Lane)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Lane</name>
+      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
+      <anchor>a1db6f2c351a9a0ad0e20cc1c7e889676</anchor>
+      <arglist>(const maliput::api::LaneId &amp;id, const maliput::api::HBounds &amp;elevation_bounds, std::unique_ptr&lt; geometry::LaneGeometry &gt; lane_geometry)</arglist>
+    </member>
+    <member kind="function">
+      <type>maliput::math::Vector3</type>
+      <name>ToBackendPosition</name>
+      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
+      <anchor>a9acb8c60c4af9a1293bac003a25acee6</anchor>
+      <arglist>(const maliput::api::LanePosition &amp;lane_pos) const</arglist>
+    </member>
+    <member kind="function">
+      <type>maliput::api::LanePositionResult</type>
+      <name>ToLanePositionBackend</name>
+      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
+      <anchor>a1e4fc945e4485af4132fb34e5a66e73f</anchor>
+      <arglist>(const maliput::api::InertialPosition &amp;backend_pos) const</arglist>
+    </member>
+    <member kind="function">
+      <type>maliput::api::LanePositionResult</type>
+      <name>ToSegmentPositionBackend</name>
+      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
+      <anchor>ad83a5e987a6672efaf8763f4731c3c6f</anchor>
+      <arglist>(const maliput::api::InertialPosition &amp;backend_pos) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const geometry::LaneGeometry *</type>
+      <name>lane_geometry</name>
+      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
+      <anchor>a8a10cd9aabcb28f54d31646e2aebd015</anchor>
+      <arglist>() const</arglist>
+    </member>
+  </compound>
   <compound kind="struct">
     <name>maliput_sparse::parser::Lane</name>
     <filename>structmaliput__sparse_1_1parser_1_1_lane.html</filename>
@@ -888,52 +1058,6 @@
       <anchorfile>structmaliput__sparse_1_1parser_1_1_lane.html</anchorfile>
       <anchor>aa8ff3c5de499ebd7f64a55e4f5509a73</anchor>
       <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput_sparse::Lane</name>
-    <filename>classmaliput__sparse_1_1_lane.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
-      <anchor>a99b7649e8342fe7c216553e0a8476d77</anchor>
-      <arglist>(Lane)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>Lane</name>
-      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
-      <anchor>a1db6f2c351a9a0ad0e20cc1c7e889676</anchor>
-      <arglist>(const maliput::api::LaneId &amp;id, const maliput::api::HBounds &amp;elevation_bounds, std::unique_ptr&lt; geometry::LaneGeometry &gt; lane_geometry)</arglist>
-    </member>
-    <member kind="function">
-      <type>maliput::math::Vector3</type>
-      <name>ToBackendPosition</name>
-      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
-      <anchor>a9acb8c60c4af9a1293bac003a25acee6</anchor>
-      <arglist>(const maliput::api::LanePosition &amp;lane_pos) const</arglist>
-    </member>
-    <member kind="function">
-      <type>maliput::api::LanePositionResult</type>
-      <name>ToLanePositionBackend</name>
-      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
-      <anchor>a1e4fc945e4485af4132fb34e5a66e73f</anchor>
-      <arglist>(const maliput::api::InertialPosition &amp;backend_pos) const</arglist>
-    </member>
-    <member kind="function">
-      <type>maliput::api::LanePositionResult</type>
-      <name>ToSegmentPositionBackend</name>
-      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
-      <anchor>ad83a5e987a6672efaf8763f4731c3c6f</anchor>
-      <arglist>(const maliput::api::InertialPosition &amp;backend_pos) const</arglist>
-    </member>
-    <member kind="function">
-      <type>const geometry::LaneGeometry *</type>
-      <name>lane_geometry</name>
-      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
-      <anchor>a8a10cd9aabcb28f54d31646e2aebd015</anchor>
-      <arglist>() const</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -1810,6 +1934,52 @@
       <arglist>(maliput::common::Passkey&lt; LaneBuilder &gt;, std::unique_ptr&lt; maliput::geometry_base::Lane &gt; lane)</arglist>
     </member>
   </compound>
+  <compound kind="class">
+    <name>maliput_sparse::parser::Validator</name>
+    <filename>classmaliput__sparse_1_1parser_1_1_validator.html</filename>
+    <class kind="struct">maliput_sparse::parser::Validator::Error</class>
+    <member kind="enumeration">
+      <type></type>
+      <name>Type</name>
+      <anchorfile>classmaliput__sparse_1_1parser_1_1_validator.html</anchorfile>
+      <anchor>a1d1cfd8ffb84e947f82999c682b666a7</anchor>
+      <arglist></arglist>
+      <enumvalue file="classmaliput__sparse_1_1parser_1_1_validator.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7aa15428354498a8e10d8a437d9e2bae29">kLogicalLaneAdjacency</enumvalue>
+      <enumvalue file="classmaliput__sparse_1_1parser_1_1_validator.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a2480e7a5e328336b2977f22ee4297b55">kGeometricalLaneAdjacency</enumvalue>
+    </member>
+    <member kind="typedef">
+      <type>std::unordered_set&lt; Validator::Type &gt;</type>
+      <name>Types</name>
+      <anchorfile>classmaliput__sparse_1_1parser_1_1_validator.html</anchorfile>
+      <anchor>ad2c587c41a7e2a894a1ce8df92b9debf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Validator</name>
+      <anchorfile>classmaliput__sparse_1_1parser_1_1_validator.html</anchorfile>
+      <anchor>a794b884698634e052d6419277e58778e</anchor>
+      <arglist>(const Parser *parser, const Types &amp;types, const ValidatorConfig &amp;config)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; Error &gt;</type>
+      <name>operator()</name>
+      <anchorfile>classmaliput__sparse_1_1parser_1_1_validator.html</anchorfile>
+      <anchor>a4dee68b228ac75f3160274bd83880274</anchor>
+      <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput_sparse::parser::ValidatorConfig</name>
+    <filename>structmaliput__sparse_1_1parser_1_1_validator_config.html</filename>
+    <member kind="variable">
+      <type>double</type>
+      <name>linear_tolerance</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_validator_config.html</anchorfile>
+      <anchor>a6a6b7ad51a19a2fcf7e454c1d7892300</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
   <compound kind="namespace">
     <name>maliput_sparse</name>
     <filename>namespacemaliput__sparse.html</filename>
@@ -1955,6 +2125,13 @@
       <arglist>(const LineString3d &amp;line_string, const maliput::math::Vector3 &amp;xyz)</arglist>
     </member>
     <member kind="function">
+      <type>double</type>
+      <name>ComputeDistance</name>
+      <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
+      <anchor>ae67bb8047406054823734d9e9389abef</anchor>
+      <arglist>(const LineString3d &amp;lhs, const LineString3d &amp;rhs)</arglist>
+    </member>
+    <member kind="function">
       <type>ClosestPointResult</type>
       <name>GetClosestPoint</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
@@ -2067,6 +2244,22 @@
     <class kind="struct">maliput_sparse::parser::LaneEnd</class>
     <class kind="class">maliput_sparse::parser::Parser</class>
     <class kind="struct">maliput_sparse::parser::Segment</class>
+    <class kind="class">maliput_sparse::parser::Validator</class>
+    <class kind="struct">maliput_sparse::parser::ValidatorConfig</class>
+    <member kind="function">
+      <type>std::ostream &amp;</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacemaliput__sparse_1_1parser.html</anchorfile>
+      <anchor>a95d2c2d580103b4a12935f09ab0ac993</anchor>
+      <arglist>(std::ostream &amp;os, const Validator::Type &amp;type)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; Validator::Error &gt;</type>
+      <name>ValidateLaneAdjacency</name>
+      <anchorfile>namespacemaliput__sparse_1_1parser.html</anchorfile>
+      <anchor>ab9dbe2a881342fd563bceb18846f2c90</anchor>
+      <arglist>(const Parser *parser, bool validate_geometric_adjacency, const ValidatorConfig &amp;config)</arglist>
+    </member>
   </compound>
   <compound kind="namespace">
     <name>maliput_sparse::test</name>
