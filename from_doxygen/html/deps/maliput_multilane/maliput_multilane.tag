@@ -516,6 +516,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/src/maliput_multilane/</path>
     <filename>multilane__onramp__merge_8cc.html</filename>
     <includes id="multilane__onramp__merge_8h" name="multilane_onramp_merge.h" local="yes" imported="no">maliput_multilane/multilane_onramp_merge.h</includes>
+    <includes id="params_8h" name="params.h" local="yes" imported="no">maliput_multilane/params.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::multilane</namespace>
   </compound>
@@ -726,6 +727,80 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>on_ramp_road_network.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/src/plugin/</path>
+    <filename>on__ramp__road__network_8cc.html</filename>
+    <includes id="multilane__onramp__merge_8h" name="multilane_onramp_merge.h" local="yes" imported="no">maliput_multilane/multilane_onramp_merge.h</includes>
+    <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_multilane/road_network_builder.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::multilane</namespace>
+    <namespace>maliput::multilane::plugin</namespace>
+    <member kind="function">
+      <type></type>
+      <name>REGISTER_ROAD_NETWORK_LOADER_PLUGIN</name>
+      <anchorfile>namespacemaliput_1_1multilane_1_1plugin.html</anchorfile>
+      <anchor>a9efca30f6e71e5f0298a8ebf97a355cd</anchor>
+      <arglist>(&quot;maliput_multilane_on_ramp&quot;, RoadNetworkLoader)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>params.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/include/maliput_multilane/</path>
+    <filename>params_8h.html</filename>
+    <namespace>maliput</namespace>
+    <namespace>maliput::multilane</namespace>
+    <namespace>maliput::multilane::params</namespace>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kYamlFile</name>
+      <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
+      <anchor>gad7f1edb4fe3baa777ec4ca2d8775fad3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kYamlDescription</name>
+      <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
+      <anchor>gacb3e0702d3261a1e524b9c18f2942e62</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kLaneWidth</name>
+      <anchorfile>group__on__ramp__configuration__keys.html</anchorfile>
+      <anchor>ga9460b256034f4e324123b2339e11b70f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kLeftShoulder</name>
+      <anchorfile>group__on__ramp__configuration__keys.html</anchorfile>
+      <anchor>gabada2a44e53b6a52264ac95f321490fd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kRightShoulder</name>
+      <anchorfile>group__on__ramp__configuration__keys.html</anchorfile>
+      <anchor>gaf8cdaf84d9d220d80f7bdea528a5badb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kLaneNumber</name>
+      <anchorfile>group__on__ramp__configuration__keys.html</anchorfile>
+      <anchor>gab037a01236e03fc26f685341035c2de4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kElevationBounds</name>
+      <anchorfile>group__on__ramp__configuration__keys.html</anchorfile>
+      <anchor>ga2d79364e39c672ecda95da78936f1b9c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>road_curve.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/src/maliput_multilane/</path>
     <filename>road__curve_8cc.html</filename>
@@ -766,7 +841,6 @@
     <name>road_network.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_multilane/src/plugin/</path>
     <filename>road__network_8cc.html</filename>
-    <includes id="multilane__onramp__merge_8h" name="multilane_onramp_merge.h" local="yes" imported="no">maliput_multilane/multilane_onramp_merge.h</includes>
     <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_multilane/road_network_builder.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::multilane</namespace>
@@ -786,6 +860,7 @@
     <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_multilane/road_network_builder.h</includes>
     <includes id="builder_8h" name="builder.h" local="yes" imported="no">maliput_multilane/builder.h</includes>
     <includes id="loader_8h" name="loader.h" local="yes" imported="no">maliput_multilane/loader.h</includes>
+    <includes id="params_8h" name="params.h" local="yes" imported="no">maliput_multilane/params.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::multilane</namespace>
     <member kind="function">
@@ -2405,52 +2480,52 @@
     <name>maliput::multilane::MultilaneRoadCharacteristics</name>
     <filename>structmaliput_1_1multilane_1_1_multilane_road_characteristics.html</filename>
     <member kind="function">
-      <type></type>
-      <name>MultilaneRoadCharacteristics</name>
+      <type>std::map&lt; std::string, std::string &gt;</type>
+      <name>ToStringMap</name>
       <anchorfile>structmaliput_1_1multilane_1_1_multilane_road_characteristics.html</anchorfile>
-      <anchor>a974c8f31861cedc563e089090013f13e</anchor>
-      <arglist>()=default</arglist>
+      <anchor>ad9d7e276b16ed7a92b69859f2a00eacb</anchor>
+      <arglist>() const</arglist>
     </member>
-    <member kind="function">
-      <type></type>
-      <name>MultilaneRoadCharacteristics</name>
+    <member kind="function" static="yes">
+      <type>static MultilaneRoadCharacteristics</type>
+      <name>FromMap</name>
       <anchorfile>structmaliput_1_1multilane_1_1_multilane_road_characteristics.html</anchorfile>
-      <anchor>a5d91204d49dd87e1fa51bc77eb01a71c</anchor>
-      <arglist>(double lw, double lshoulder, double rshoulder, int lnumber)</arglist>
+      <anchor>aaa5951fd2106fc3364f6a9297b4618a6</anchor>
+      <arglist>(const std::map&lt; std::string, std::string &gt; &amp;road_characteristics)</arglist>
     </member>
     <member kind="variable">
-      <type>const double</type>
+      <type>double</type>
       <name>lane_width</name>
       <anchorfile>structmaliput_1_1multilane_1_1_multilane_road_characteristics.html</anchorfile>
-      <anchor>a3ba36d607f8466806982613ad82e91a3</anchor>
+      <anchor>ae237cba32922355b9dd7d7c479aa6df1</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>const double</type>
+      <type>double</type>
       <name>left_shoulder</name>
       <anchorfile>structmaliput_1_1multilane_1_1_multilane_road_characteristics.html</anchorfile>
-      <anchor>a2d59d6d6a115fc4ad7cfa74bbcb3cd30</anchor>
+      <anchor>aa7d1c33aa763c3908977a5d46a892f53</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>const double</type>
+      <type>double</type>
       <name>right_shoulder</name>
       <anchorfile>structmaliput_1_1multilane_1_1_multilane_road_characteristics.html</anchorfile>
-      <anchor>a46794bb9f646930adc287390e434f98b</anchor>
+      <anchor>a3dcc15484978d4bf455a1c7434e3649e</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>const int</type>
+      <type>int</type>
       <name>lane_number</name>
       <anchorfile>structmaliput_1_1multilane_1_1_multilane_road_characteristics.html</anchorfile>
-      <anchor>a43eae01431a70feb52995efdb80d7728</anchor>
+      <anchor>a5707c4860de571daa787f6b1c39e3898</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>const maliput::api::HBounds</type>
+      <type>maliput::api::HBounds</type>
       <name>elevation_bounds</name>
       <anchorfile>structmaliput_1_1multilane_1_1_multilane_road_characteristics.html</anchorfile>
-      <anchor>a0b7af3d2134345d6b2a69c048a6dfa19</anchor>
+      <anchor>a983168d03e7d64f8789c1bb1e63835f9</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -2655,6 +2730,20 @@
   <compound kind="struct">
     <name>maliput::multilane::RoadNetworkConfiguration</name>
     <filename>structmaliput_1_1multilane_1_1_road_network_configuration.html</filename>
+    <member kind="function">
+      <type>std::map&lt; std::string, std::string &gt;</type>
+      <name>ToStringMap</name>
+      <anchorfile>structmaliput_1_1multilane_1_1_road_network_configuration.html</anchorfile>
+      <anchor>ad9d7e276b16ed7a92b69859f2a00eacb</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static RoadNetworkConfiguration</type>
+      <name>FromMap</name>
+      <anchorfile>structmaliput_1_1multilane_1_1_road_network_configuration.html</anchorfile>
+      <anchor>a2c8af5b057c48d2662e560053800dbd0</anchor>
+      <arglist>(const std::map&lt; std::string, std::string &gt; &amp;road_network_configuration)</arglist>
+    </member>
     <member kind="variable">
       <type>std::string</type>
       <name>yaml_file</name>
@@ -2743,20 +2832,20 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::multilane::EndReference::Spec</name>
-    <filename>classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html</filename>
+    <name>maliput::multilane::StartReference::Spec</name>
+    <filename>classmaliput_1_1multilane_1_1_start_reference_1_1_spec.html</filename>
     <member kind="function">
-      <type>const EndpointZ &amp;</type>
-      <name>endpoint_z</name>
-      <anchorfile>classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html</anchorfile>
-      <anchor>a89bcd61b576c966787e3d1356f15726f</anchor>
+      <type>const Endpoint &amp;</type>
+      <name>endpoint</name>
+      <anchorfile>classmaliput_1_1multilane_1_1_start_reference_1_1_spec.html</anchorfile>
+      <anchor>aeb7fead247e94c226026c5b57cff7beb</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="friend" protection="private">
       <type>friend class</type>
-      <name>EndReference</name>
-      <anchorfile>classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html</anchorfile>
-      <anchor>abe8003e20fdfec393e76c5edb3fbd649</anchor>
+      <name>StartReference</name>
+      <anchorfile>classmaliput_1_1multilane_1_1_start_reference_1_1_spec.html</anchorfile>
+      <anchor>aa09c69c32d0d5ada4e63443664c2f607</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -2786,24 +2875,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::multilane::StartReference::Spec</name>
-    <filename>classmaliput_1_1multilane_1_1_start_reference_1_1_spec.html</filename>
-    <member kind="function">
-      <type>const Endpoint &amp;</type>
-      <name>endpoint</name>
-      <anchorfile>classmaliput_1_1multilane_1_1_start_reference_1_1_spec.html</anchorfile>
-      <anchor>aeb7fead247e94c226026c5b57cff7beb</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="friend" protection="private">
-      <type>friend class</type>
-      <name>StartReference</name>
-      <anchorfile>classmaliput_1_1multilane_1_1_start_reference_1_1_spec.html</anchorfile>
-      <anchor>aa09c69c32d0d5ada4e63443664c2f607</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>maliput::multilane::StartLane::Spec</name>
     <filename>classmaliput_1_1multilane_1_1_start_lane_1_1_spec.html</filename>
     <member kind="function">
@@ -2825,6 +2896,24 @@
       <name>StartLane</name>
       <anchorfile>classmaliput_1_1multilane_1_1_start_lane_1_1_spec.html</anchorfile>
       <anchor>a2fd39bbe745bea0cbc68b341090be3bd</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::multilane::EndReference::Spec</name>
+    <filename>classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html</filename>
+    <member kind="function">
+      <type>const EndpointZ &amp;</type>
+      <name>endpoint_z</name>
+      <anchorfile>classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html</anchorfile>
+      <anchor>a89bcd61b576c966787e3d1356f15726f</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="friend" protection="private">
+      <type>friend class</type>
+      <name>EndReference</name>
+      <anchorfile>classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html</anchorfile>
+      <anchor>abe8003e20fdfec393e76c5edb3fbd649</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -2952,6 +3041,7 @@
   <compound kind="namespace">
     <name>maliput::multilane</name>
     <filename>namespacemaliput_1_1multilane.html</filename>
+    <namespace>maliput::multilane::params</namespace>
     <namespace>maliput::multilane::plugin</namespace>
     <namespace>maliput::multilane::test</namespace>
     <class kind="class">maliput::multilane::ArcOffset</class>
@@ -3128,8 +3218,68 @@
     </member>
   </compound>
   <compound kind="namespace">
+    <name>maliput::multilane::params</name>
+    <filename>namespacemaliput_1_1multilane_1_1params.html</filename>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kYamlFile</name>
+      <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
+      <anchor>gad7f1edb4fe3baa777ec4ca2d8775fad3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kYamlDescription</name>
+      <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
+      <anchor>gacb3e0702d3261a1e524b9c18f2942e62</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kLaneWidth</name>
+      <anchorfile>group__on__ramp__configuration__keys.html</anchorfile>
+      <anchor>ga9460b256034f4e324123b2339e11b70f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kLeftShoulder</name>
+      <anchorfile>group__on__ramp__configuration__keys.html</anchorfile>
+      <anchor>gabada2a44e53b6a52264ac95f321490fd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kRightShoulder</name>
+      <anchorfile>group__on__ramp__configuration__keys.html</anchorfile>
+      <anchor>gaf8cdaf84d9d220d80f7bdea528a5badb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kLaneNumber</name>
+      <anchorfile>group__on__ramp__configuration__keys.html</anchorfile>
+      <anchor>gab037a01236e03fc26f685341035c2de4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kElevationBounds</name>
+      <anchorfile>group__on__ramp__configuration__keys.html</anchorfile>
+      <anchor>ga2d79364e39c672ecda95da78936f1b9c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="namespace">
     <name>maliput::multilane::plugin</name>
     <filename>namespacemaliput_1_1multilane_1_1plugin.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>REGISTER_ROAD_NETWORK_LOADER_PLUGIN</name>
+      <anchorfile>namespacemaliput_1_1multilane_1_1plugin.html</anchorfile>
+      <anchor>a9efca30f6e71e5f0298a8ebf97a355cd</anchor>
+      <arglist>(&quot;maliput_multilane_on_ramp&quot;, RoadNetworkLoader)</arglist>
+    </member>
     <member kind="function">
       <type></type>
       <name>REGISTER_ROAD_NETWORK_LOADER_PLUGIN</name>
@@ -3232,6 +3382,65 @@
       <anchorfile>namespacemaliput_1_1multilane_1_1test.html</anchorfile>
       <anchor>a62a3787c5e324ba0921712b1fd596447</anchor>
       <arglist>(const EndLane::Spec &amp;end_lane, double linear_tolerance, double angular_tolerance)</arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>road_network_configuration_builder_keys</name>
+    <title>RoadNetwork configuration builder keys</title>
+    <filename>group__road__network__configuration__builder__keys.html</filename>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kYamlFile</name>
+      <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
+      <anchor>gad7f1edb4fe3baa777ec4ca2d8775fad3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kYamlDescription</name>
+      <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
+      <anchor>gacb3e0702d3261a1e524b9c18f2942e62</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="group">
+    <name>on_ramp_configuration_keys</name>
+    <title>On-Ramp RoadNetwork configuration builder keys</title>
+    <filename>group__on__ramp__configuration__keys.html</filename>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kLaneWidth</name>
+      <anchorfile>group__on__ramp__configuration__keys.html</anchorfile>
+      <anchor>ga9460b256034f4e324123b2339e11b70f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kLeftShoulder</name>
+      <anchorfile>group__on__ramp__configuration__keys.html</anchorfile>
+      <anchor>gabada2a44e53b6a52264ac95f321490fd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kRightShoulder</name>
+      <anchorfile>group__on__ramp__configuration__keys.html</anchorfile>
+      <anchor>gaf8cdaf84d9d220d80f7bdea528a5badb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kLaneNumber</name>
+      <anchorfile>group__on__ramp__configuration__keys.html</anchorfile>
+      <anchor>gab037a01236e03fc26f685341035c2de4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kElevationBounds</name>
+      <anchorfile>group__on__ramp__configuration__keys.html</anchorfile>
+      <anchor>ga2d79364e39c672ecda95da78936f1b9c</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="page">

@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('structmaliput_1_1multilane_1_1_multila
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structmaliput_1_1multilane_1_1_multilane_road_characteristics-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -104,29 +105,31 @@ $(document).ready(function(){initNavTree('structmaliput_1_1multilane_1_1_multila
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a974c8f31861cedc563e089090013f13e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html#a974c8f31861cedc563e089090013f13e">MultilaneRoadCharacteristics</a> ()=default</td></tr>
-<tr class="memdesc:a974c8f31861cedc563e089090013f13e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for using default road geometries.  <a href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html#a974c8f31861cedc563e089090013f13e">More...</a><br /></td></tr>
-<tr class="separator:a974c8f31861cedc563e089090013f13e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d91204d49dd87e1fa51bc77eb01a71c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html#a5d91204d49dd87e1fa51bc77eb01a71c">MultilaneRoadCharacteristics</a> (double lw, double lshoulder, double rshoulder, int lnumber)</td></tr>
-<tr class="memdesc:a5d91204d49dd87e1fa51bc77eb01a71c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for custom road geometries.  <a href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html#a5d91204d49dd87e1fa51bc77eb01a71c">More...</a><br /></td></tr>
-<tr class="separator:a5d91204d49dd87e1fa51bc77eb01a71c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9d7e276b16ed7a92b69859f2a00eacb"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html#ad9d7e276b16ed7a92b69859f2a00eacb">ToStringMap</a> () const</td></tr>
+<tr class="separator:ad9d7e276b16ed7a92b69859f2a00eacb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:aaa5951fd2106fc3364f6a9297b4618a6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html">MultilaneRoadCharacteristics</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html#aaa5951fd2106fc3364f6a9297b4618a6">FromMap</a> (const std::map&lt; std::string, std::string &gt; &amp;road_characteristics)</td></tr>
+<tr class="memdesc:aaa5951fd2106fc3364f6a9297b4618a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html" title="MultilaneRoadCharacteristics computes and stores characteristics of a multilane road network; i....">MultilaneRoadCharacteristics</a> out of a string dictionary.  <a href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html#aaa5951fd2106fc3364f6a9297b4618a6">More...</a><br /></td></tr>
+<tr class="separator:aaa5951fd2106fc3364f6a9297b4618a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a3ba36d607f8466806982613ad82e91a3"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html#a3ba36d607f8466806982613ad82e91a3">lane_width</a> {4.}</td></tr>
-<tr class="separator:a3ba36d607f8466806982613ad82e91a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d59d6d6a115fc4ad7cfa74bbcb3cd30"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html#a2d59d6d6a115fc4ad7cfa74bbcb3cd30">left_shoulder</a> {2.}</td></tr>
-<tr class="separator:a2d59d6d6a115fc4ad7cfa74bbcb3cd30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46794bb9f646930adc287390e434f98b"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html#a46794bb9f646930adc287390e434f98b">right_shoulder</a> {2.}</td></tr>
-<tr class="separator:a46794bb9f646930adc287390e434f98b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43eae01431a70feb52995efdb80d7728"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html#a43eae01431a70feb52995efdb80d7728">lane_number</a> {1}</td></tr>
-<tr class="separator:a43eae01431a70feb52995efdb80d7728"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b7af3d2134345d6b2a69c048a6dfa19"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_h_bounds.html">maliput::api::HBounds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html#a0b7af3d2134345d6b2a69c048a6dfa19">elevation_bounds</a> {0., 5.2}</td></tr>
-<tr class="separator:a0b7af3d2134345d6b2a69c048a6dfa19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae237cba32922355b9dd7d7c479aa6df1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html#ae237cba32922355b9dd7d7c479aa6df1">lane_width</a> {4.}</td></tr>
+<tr class="separator:ae237cba32922355b9dd7d7c479aa6df1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7d1c33aa763c3908977a5d46a892f53"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html#aa7d1c33aa763c3908977a5d46a892f53">left_shoulder</a> {2.}</td></tr>
+<tr class="separator:aa7d1c33aa763c3908977a5d46a892f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dcc15484978d4bf455a1c7434e3649e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html#a3dcc15484978d4bf455a1c7434e3649e">right_shoulder</a> {2.}</td></tr>
+<tr class="separator:a3dcc15484978d4bf455a1c7434e3649e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5707c4860de571daa787f6b1c39e3898"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html#a5707c4860de571daa787f6b1c39e3898">lane_number</a> {1}</td></tr>
+<tr class="separator:a5707c4860de571daa787f6b1c39e3898"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a983168d03e7d64f8789c1bb1e63835f9"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_h_bounds.html">maliput::api::HBounds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html#a983168d03e7d64f8789c1bb1e63835f9">elevation_bounds</a> {0., 5.2}</td></tr>
+<tr class="separator:a983168d03e7d64f8789c1bb1e63835f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a974c8f31861cedc563e089090013f13e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a974c8f31861cedc563e089090013f13e">&#9670;&nbsp;</a></span>MultilaneRoadCharacteristics() <span class="overload">[1/2]</span></h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aaa5951fd2106fc3364f6a9297b4618a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa5951fd2106fc3364f6a9297b4618a6">&#9670;&nbsp;</a></span>FromMap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -135,147 +138,122 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html">MultilaneRoadCharacteristics</a> </td>
+          <td class="memname"><a class="el" href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html">MultilaneRoadCharacteristics</a> FromMap </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const std::map&lt; std::string, std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>road_characteristics</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructor for using default road geometries. </p>
-
-</div>
-</div>
-<a id="a5d91204d49dd87e1fa51bc77eb01a71c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d91204d49dd87e1fa51bc77eb01a71c">&#9670;&nbsp;</a></span>MultilaneRoadCharacteristics() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html">MultilaneRoadCharacteristics</a> </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>lw</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>lshoulder</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>rshoulder</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>lnumber</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Constructor for custom road geometries. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Creates a <a class="el" href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html" title="MultilaneRoadCharacteristics computes and stores characteristics of a multilane road network; i....">MultilaneRoadCharacteristics</a> out of a string dictionary. </p>
+<p>The keys of the map are listed at <a class="el" href="group__on__ramp__configuration__keys.html">On-Ramp RoadNetwork configuration builder keys</a>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">lw</td><td><a class="el" href="classmaliput_1_1multilane_1_1_lane.html" title="Base class for the multilane implementation of api::Lane.">Lane</a>'s width. </td></tr>
-    <tr><td class="paramname">lshoulder</td><td>The left shoulder width. </td></tr>
-    <tr><td class="paramname">rshoulder</td><td>The right shoulder width. </td></tr>
-    <tr><td class="paramname">lnumber</td><td>The number of lanes. </td></tr>
+    <tr><td class="paramname">road_characteristics</td><td>A string-string map containing the configuration for the builder. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
+<a id="ad9d7e276b16ed7a92b69859f2a00eacb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9d7e276b16ed7a92b69859f2a00eacb">&#9670;&nbsp;</a></span>ToStringMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt; std::string, std::string &gt; ToStringMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The keys of the map are listed at <a class="el" href="group__on__ramp__configuration__keys.html">On-Ramp RoadNetwork configuration builder keys</a>. </p><dl class="section return"><dt>Returns</dt><dd>A string-string map containing the <a class="el" href="structmaliput_1_1multilane_1_1_multilane_road_characteristics.html" title="MultilaneRoadCharacteristics computes and stores characteristics of a multilane road network; i....">MultilaneRoadCharacteristics</a> configuration. </dd></dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a0b7af3d2134345d6b2a69c048a6dfa19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b7af3d2134345d6b2a69c048a6dfa19">&#9670;&nbsp;</a></span>elevation_bounds</h2>
+<a id="a983168d03e7d64f8789c1bb1e63835f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a983168d03e7d64f8789c1bb1e63835f9">&#9670;&nbsp;</a></span>elevation_bounds</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_h_bounds.html">maliput::api::HBounds</a> elevation_bounds {0., 5.2}</td>
+          <td class="memname"><a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_h_bounds.html">maliput::api::HBounds</a> elevation_bounds {0., 5.2}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a43eae01431a70feb52995efdb80d7728"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43eae01431a70feb52995efdb80d7728">&#9670;&nbsp;</a></span>lane_number</h2>
+<a id="a5707c4860de571daa787f6b1c39e3898"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5707c4860de571daa787f6b1c39e3898">&#9670;&nbsp;</a></span>lane_number</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int lane_number {1}</td>
+          <td class="memname">int lane_number {1}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a3ba36d607f8466806982613ad82e91a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ba36d607f8466806982613ad82e91a3">&#9670;&nbsp;</a></span>lane_width</h2>
+<a id="ae237cba32922355b9dd7d7c479aa6df1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae237cba32922355b9dd7d7c479aa6df1">&#9670;&nbsp;</a></span>lane_width</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const double lane_width {4.}</td>
+          <td class="memname">double lane_width {4.}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a2d59d6d6a115fc4ad7cfa74bbcb3cd30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d59d6d6a115fc4ad7cfa74bbcb3cd30">&#9670;&nbsp;</a></span>left_shoulder</h2>
+<a id="aa7d1c33aa763c3908977a5d46a892f53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7d1c33aa763c3908977a5d46a892f53">&#9670;&nbsp;</a></span>left_shoulder</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const double left_shoulder {2.}</td>
+          <td class="memname">double left_shoulder {2.}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a46794bb9f646930adc287390e434f98b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46794bb9f646930adc287390e434f98b">&#9670;&nbsp;</a></span>right_shoulder</h2>
+<a id="a3dcc15484978d4bf455a1c7434e3649e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dcc15484978d4bf455a1c7434e3649e">&#9670;&nbsp;</a></span>right_shoulder</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const double right_shoulder {2.}</td>
+          <td class="memname">double right_shoulder {2.}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<hr/>The documentation for this struct was generated from the following files:<ul>
 <li><a class="el" href="multilane__onramp__merge_8h.html">multilane_onramp_merge.h</a></li>
+<li><a class="el" href="multilane__onramp__merge_8cc.html">multilane_onramp_merge.cc</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

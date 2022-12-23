@@ -36,6 +36,7 @@ var NAVTREE =
         ] ]
       ] ]
     ] ],
+    [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -72,7 +73,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classmaliput_1_1multilane_1_1_road_curve.html#a92b29fff38bb4dfea6fdef1bfc989f07",
-"structmaliput_1_1multilane_1_1_multilane_road_characteristics.html#a2d59d6d6a115fc4ad7cfa74bbcb3cd30"
+"namespacemembers_vars.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

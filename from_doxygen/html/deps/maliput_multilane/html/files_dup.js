@@ -46,6 +46,8 @@ var files_dup =
     ] ],
     [ "multilane_types_compare.cc", "multilane__types__compare_8cc.html", "multilane__types__compare_8cc" ],
     [ "multilane_types_compare.h", "multilane__types__compare_8h.html", "multilane__types__compare_8h" ],
+    [ "on_ramp_road_network.cc", "on__ramp__road__network_8cc.html", "on__ramp__road__network_8cc" ],
+    [ "params.h", "params_8h.html", "params_8h" ],
     [ "road_curve.cc", "road__curve_8cc.html", "road__curve_8cc" ],
     [ "road_curve.h", "road__curve_8h.html", [
       [ "Rot3", "classmaliput_1_1multilane_1_1_rot3.html", "classmaliput_1_1multilane_1_1_rot3" ],
