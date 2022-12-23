@@ -87,15 +87,15 @@ Creating a maliput backend
     REGISTER_ROAD_NETWORK_LOADER_PLUGIN("my_maliput_backend", RoadNetworkLoader);
 
 
-  See also `Maliput Python Interface <../html/deps/maliput_py/html/maliput_python_interface.html>`_ for general information about the maliput python interface.
+  See also `Maliput Python Interface <../../html/deps/maliput_py/html/maliput_python_interface.html>`_ for general information about the maliput python interface.
 
   As example take a look at the `plugin` namespace in any of the provided backends (e.g: `maliput_osm`_).
 
 
-.. _builder API: ../html/deps/maliput_sparse/html/builder_8h.html
-.. _maliput_osm: https://github.com/maliput/maliput_sparse
-.. _maliput_osm::osm::OSMManager:  ../html/deps/maliput_osm/html/classmaliput__osm_1_1osm_1_1_o_s_m_manager.html
-.. _maliput_osm::builder::RoadNetworkBuilder: ../html/deps/maliput_osm/html/classmaliput__osm_1_1builder_1_1_road_network_builder.html
+.. _builder API: ../../html/deps/maliput_sparse/html/builder_8h.html
+.. _maliput_osm: https://github.com/maliput/maliput_osm
+.. _maliput_osm::osm::OSMManager:  ../../html/deps/maliput_osm/html/classmaliput__osm_1_1osm_1_1_o_s_m_manager.html
+.. _maliput_osm::builder::RoadNetworkBuilder: ../../html/deps/maliput_osm/html/classmaliput__osm_1_1builder_1_1_road_network_builder.html
 .. _maliput_sparse: https://github.com/maliput/maliput_sparse
-.. _maliput_sparse::loader::RoadNetworkLoader: ../html/deps/maliput_sparse/html/classmaliput__sparse_1_1loader_1_1_road_network_loader.html
-.. _maliput_sparse::parser::Parser: ../html/deps/maliput_sparse/html/classmaliput__sparse_1_1parser_1_1_parser.html
+.. _maliput_sparse::loader::RoadNetworkLoader: ../../html/deps/maliput_sparse/html/classmaliput__sparse_1_1loader_1_1_road_network_loader.html
+.. _maliput_sparse::parser::Parser: ../../html/deps/maliput_sparse/html/classmaliput__sparse_1_1parser_1_1_parser.html
