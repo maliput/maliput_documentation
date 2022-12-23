@@ -1,3 +1,8 @@
+.. _tutorial_maliput_sparse_label:
+
+maliput_sparse
+==============
+
 .. toctree::
    :maxdepth: 1
 
