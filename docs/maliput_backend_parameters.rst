@@ -114,5 +114,5 @@ B. `maliput_query`_ application(provided by `maliput_integration`_ package) can 
   `maliput_query` is a command line application that can be used to query maliput backends for information. See `maliput_query`_ for more information. Under the hood, it uses the plugin interface to obtain the information.
 
 .. _Maliput Plugin Architecture: html/deps/maliput/html/maliput_plugin_architecture.html
-.. _maliput_query: <html/deps/maliput_integration/html/maliput_query_app.html>
+.. _maliput_query: html/deps/maliput_integration/html/maliput_query_app.html
 .. _maliput_integration: https://github.com/maliput/maliput_integration
