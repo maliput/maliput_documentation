@@ -416,8 +416,8 @@
       <type></type>
       <name>DEFINE_string</name>
       <anchorfile>maliput__query_8cc.html</anchorfile>
-      <anchor>a949c8bd574e134aee1fbf51ddb0d2c3c</anchor>
-      <arglist>(maliput_backend, &quot;malidrive&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt; or &lt;malidrive&gt;. Default is malidrive.&quot;)</arglist>
+      <anchor>a07dfdab8d1954bad6b99e25e1c7ac62f</anchor>
+      <arglist>(maliput_backend, &quot;malidrive&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt; or &lt;malidrive&gt; maliput backend.&quot;)</arglist>
     </member>
     <member kind="function">
       <type>int</type>

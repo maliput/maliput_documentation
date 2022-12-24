@@ -121,6 +121,8 @@ $(document).ready(function(){initNavTree('maliput__query_8cc.html',''); initResi
 <code>#include &lt;<a class="elRef" href="../../maliput/html/maliput__abort_8h.html">maliput/common/maliput_abort.h</a>&gt;</code><br />
 <code>#include &lt;<a class="elRef" href="../../maliput/html/bounding__box_8h.html">maliput/math/bounding_box.h</a>&gt;</code><br />
 <code>#include &lt;<a class="elRef" href="../../maliput/html/overlapping__type_8h.html">maliput/math/overlapping_type.h</a>&gt;</code><br />
+<code>#include &lt;<a class="elRef" href="../../maliput/html/create__road__network_8h.html">maliput/plugin/create_road_network.h</a>&gt;</code><br />
+<code>#include &lt;<a class="elRef" href="../../maliput/html/maliput__plugin__manager_8h.html">maliput/plugin/maliput_plugin_manager.h</a>&gt;</code><br />
 <code>#include &lt;<a class="elRef" href="../../maliput_malidrive/html/constants_8h.html">maliput_malidrive/constants.h</a>&gt;</code><br />
 <code>#include &lt;maliput_malidrive/utility/file_tools.h&gt;</code><br />
 <code>#include &lt;<a class="elRef" href="../../maliput_object/html/object_8h.html">maliput_object/api/object.h</a>&gt;</code><br />
@@ -156,8 +158,8 @@ Functions</h2></td></tr>
 <tr class="separator:ac6b9499f0a9ff27db4d8008c8dd16be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a279f8265bbb629f711000ea1f804572d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__query_8cc.html#a279f8265bbb629f711000ea1f804572d">MALIPUT_APPLICATION_DEFINE_LOG_LEVEL_FLAG</a> ()</td></tr>
 <tr class="separator:a279f8265bbb629f711000ea1f804572d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a949c8bd574e134aee1fbf51ddb0d2c3c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__query_8cc.html#a949c8bd574e134aee1fbf51ddb0d2c3c">DEFINE_string</a> (maliput_backend, &quot;malidrive&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt; or &lt;malidrive&gt;. Default is malidrive.&quot;)</td></tr>
-<tr class="separator:a949c8bd574e134aee1fbf51ddb0d2c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07dfdab8d1954bad6b99e25e1c7ac62f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__query_8cc.html#a07dfdab8d1954bad6b99e25e1c7ac62f">DEFINE_string</a> (maliput_backend, &quot;malidrive&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt; or &lt;malidrive&gt; maliput backend.&quot;)</td></tr>
+<tr class="separator:a07dfdab8d1954bad6b99e25e1c7ac62f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__query_8cc.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
 <tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -179,8 +181,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a949c8bd574e134aee1fbf51ddb0d2c3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a949c8bd574e134aee1fbf51ddb0d2c3c">&#9670;&nbsp;</a></span>DEFINE_string()</h2>
+<a id="a07dfdab8d1954bad6b99e25e1c7ac62f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07dfdab8d1954bad6b99e25e1c7ac62f">&#9670;&nbsp;</a></span>DEFINE_string()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206,7 +208,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">&lt; multilane &gt; or&lt; malidrive &gt;. Default is malidrive.&quot;&#160;</td>
+          <td class="paramtype">&lt; multilane &gt; or&lt; malidrive &gt; maliput backend.&quot;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
