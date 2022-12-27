@@ -21,10 +21,11 @@ Contents
 
 .. toctree::
    :caption: Documentation
-   :maxdepth: 2
+   :maxdepth: 3
 
    tutorials
    api_documentation
+   maliput_backend_parameters
    design
    roadmap
    changelog
