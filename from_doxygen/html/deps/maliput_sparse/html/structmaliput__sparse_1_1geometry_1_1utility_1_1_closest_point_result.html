@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>maliput_sparse: ClosestPointResult Struct Reference</title>
+<title>maliput_sparse: ClosestPointResult&lt; CoordinateT &gt; Struct Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -92,11 +92,20 @@ $(document).ready(function(){initNavTree('structmaliput__sparse_1_1geometry_1_1u
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ClosestPointResult Struct Reference</div>  </div>
+<div class="title">ClosestPointResult&lt; CoordinateT &gt; Struct Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Holds the result of <a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a19081cf41dc5d07eb6c9153b5bd0274b" title="Gets the closest point in the segment to the given xyz point.">GetClosestPoint</a> method. </p>
+<div class="textblock"><h3>template&lt;typename CoordinateT&gt;<br />
+struct maliput_sparse::geometry::utility::ClosestPointResult&lt; CoordinateT &gt;</h3>
+
+<p>Holds the result of <a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#ad8213ed88ed3e328a631947831ee8d90" title="Gets the closest point in the line_string to the given xyz point.">GetClosestPoint</a> method. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">CoordinateT</td><td>The coordinate type. </td></tr>
+  </table>
+  </dd>
+</dl>
 </div>
 <p><code>#include &lt;include/maliput_sparse/geometry/utility/geometry.h&gt;</code></p>
 <table class="memberdecls">
@@ -105,9 +114,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aace2d484b0e3651abd108f04803d316c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html#aace2d484b0e3651abd108f04803d316c">p</a></td></tr>
 <tr class="memdesc:aace2d484b0e3651abd108f04803d316c"><td class="mdescLeft">&#160;</td><td class="mdescRight">P coordinate in the line string matching the closest point.  <a href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html#aace2d484b0e3651abd108f04803d316c">More...</a><br /></td></tr>
 <tr class="separator:aace2d484b0e3651abd108f04803d316c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ce3da24eee58f6f55b44a93554b6ed8"><td class="memItemLeft" align="right" valign="top">maliput::math::Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html#a2ce3da24eee58f6f55b44a93554b6ed8">point</a></td></tr>
-<tr class="memdesc:a2ce3da24eee58f6f55b44a93554b6ed8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closest point.  <a href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html#a2ce3da24eee58f6f55b44a93554b6ed8">More...</a><br /></td></tr>
-<tr class="separator:a2ce3da24eee58f6f55b44a93554b6ed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafafc3937994ea12fa4ceb11d47ff94c"><td class="memItemLeft" align="right" valign="top">CoordinateT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html#aafafc3937994ea12fa4ceb11d47ff94c">point</a></td></tr>
+<tr class="memdesc:aafafc3937994ea12fa4ceb11d47ff94c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closest point.  <a href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html#aafafc3937994ea12fa4ceb11d47ff94c">More...</a><br /></td></tr>
+<tr class="separator:aafafc3937994ea12fa4ceb11d47ff94c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79b8e036dca6911e3295a47d99f21f43"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html#a79b8e036dca6911e3295a47d99f21f43">distance</a></td></tr>
 <tr class="memdesc:a79b8e036dca6911e3295a47d99f21f43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance between the closest point and the given point.  <a href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html#a79b8e036dca6911e3295a47d99f21f43">More...</a><br /></td></tr>
 <tr class="separator:a79b8e036dca6911e3295a47d99f21f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,14 +154,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2ce3da24eee58f6f55b44a93554b6ed8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ce3da24eee58f6f55b44a93554b6ed8">&#9670;&nbsp;</a></span>point</h2>
+<a id="aafafc3937994ea12fa4ceb11d47ff94c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafafc3937994ea12fa4ceb11d47ff94c">&#9670;&nbsp;</a></span>point</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">maliput::math::Vector3 point</td>
+          <td class="memname">CoordinateT point</td>
         </tr>
       </table>
 </div><div class="memdoc">

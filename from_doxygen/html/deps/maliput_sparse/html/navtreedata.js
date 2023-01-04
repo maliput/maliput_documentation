@@ -58,7 +58,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"structmaliput__sparse_1_1builder_1_1_lane_end.html#a7d9b47e34db2f10d00a567ee14695379"
+"road__geometry__loader_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

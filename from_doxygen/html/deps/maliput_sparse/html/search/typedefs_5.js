@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['types_430',['Types',['../classmaliput__sparse_1_1parser_1_1_validator.html#ad2c587c41a7e2a894a1ce8df92b9debf',1,'maliput_sparse::parser::Validator']]]
+  ['segment2d_442',['Segment2d',['../namespacemaliput__sparse_1_1geometry_1_1utility.html#a4cc3a12047ae86f747c82ef49eb844fc',1,'maliput_sparse::geometry::utility']]],
+  ['segment3d_443',['Segment3d',['../namespacemaliput__sparse_1_1geometry_1_1utility.html#a7687d9ec93ab5b257ae36fdd925df410',1,'maliput_sparse::geometry::utility']]]
 ];
