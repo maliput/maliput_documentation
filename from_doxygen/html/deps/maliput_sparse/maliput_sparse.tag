@@ -208,99 +208,99 @@
       <type>CoordinateT</type>
       <name>InterpolatedPointAtP</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>a03204eca2456435a2310f5b0c1d243fa</anchor>
-      <arglist>(const LineString&lt; CoordinateT &gt; &amp;line_string, double p)</arglist>
+      <anchor>a24f0f3049b0fe65184b8eb8a34015f13</anchor>
+      <arglist>(const LineString&lt; CoordinateT &gt; &amp;line_string, double p, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>double</type>
       <name>GetSlopeAtP</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>a653f17f7c0223bc4b9f1c81e7821ad3a</anchor>
-      <arglist>(const LineString3d &amp;line_string, double p)</arglist>
+      <anchor>a23309583c42376b86092fa7689fbb0c6</anchor>
+      <arglist>(const LineString3d &amp;line_string, double p, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>BoundPointsResult&lt; CoordinateT &gt;</type>
       <name>GetBoundPointsAtP</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>a1254aa129bb3c46e553971a6f2d9f062</anchor>
-      <arglist>(const LineString&lt; CoordinateT &gt; &amp;line_string, double p)</arglist>
+      <anchor>a10c5233c208c6e69b7eeddb36cd53dc7</anchor>
+      <arglist>(const LineString&lt; CoordinateT &gt; &amp;line_string, double p, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>double</type>
       <name>Get2DHeadingAtP</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>aca5fda2a9c4b54a10ea68980071d608d</anchor>
-      <arglist>(const LineString3d &amp;line_string, double p)</arglist>
+      <anchor>a1efc046f4d7fe66f72b8833c53b5b455</anchor>
+      <arglist>(const LineString3d &amp;line_string, double p, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>maliput::math::Vector2</type>
       <name>Get2DTangentAtP</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>aff11eeb8cf07dd47ec8474d73693e32b</anchor>
-      <arglist>(const LineString3d &amp;line_string, double p)</arglist>
+      <anchor>a0f40bf6dfc081c86e5fd64a3134ad89b</anchor>
+      <arglist>(const LineString3d &amp;line_string, double p, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>maliput::math::Vector3</type>
       <name>GetTangentAtP</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>aa4d91797e39e96b0bad3956b269f5dd9</anchor>
-      <arglist>(const LineString3d &amp;line_string, double p)</arglist>
+      <anchor>a0f7101329bb24b343ed62893921245b9</anchor>
+      <arglist>(const LineString3d &amp;line_string, double p, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>ClosestPointResult&lt; CoordinateT &gt;</type>
       <name>GetClosestPointToSegment</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>a16bf3a76e083f302888a0dbba52bb001</anchor>
-      <arglist>(const std::pair&lt; CoordinateT, CoordinateT &gt; &amp;segment, const CoordinateT &amp;coordinate)</arglist>
+      <anchor>abcc13ee6f3bdb65c699f74a2a39618f6</anchor>
+      <arglist>(const std::pair&lt; CoordinateT, CoordinateT &gt; &amp;segment, const CoordinateT &amp;coordinate, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>ClosestPointResult3d</type>
       <name>GetClosestPoint</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>ad8213ed88ed3e328a631947831ee8d90</anchor>
-      <arglist>(const LineString3d &amp;line_string, const maliput::math::Vector3 &amp;xyz)</arglist>
+      <anchor>af141c67b9d30111679c4d64d4f14cb5b</anchor>
+      <arglist>(const LineString3d &amp;line_string, const maliput::math::Vector3 &amp;xyz, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>ClosestPointResult3d</type>
       <name>GetClosestPointUsing2dProjection</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>a1790cf08e856df48076a91e55850874c</anchor>
-      <arglist>(const LineString3d &amp;line_string, const maliput::math::Vector3 &amp;xyz)</arglist>
+      <anchor>a4f537bccc41af1aa8393eadead686088</anchor>
+      <arglist>(const LineString3d &amp;line_string, const maliput::math::Vector3 &amp;xyz, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>double</type>
       <name>ComputeDistance</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>ae67bb8047406054823734d9e9389abef</anchor>
-      <arglist>(const LineString3d &amp;lhs, const LineString3d &amp;rhs)</arglist>
+      <anchor>a30cfe17fda3006c85ecc7213ca18b9b4</anchor>
+      <arglist>(const LineString3d &amp;lhs, const LineString3d &amp;rhs, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>template BoundPointsResult3d</type>
       <name>GetBoundPointsAtP</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>ab85bd4e754626e7497aeeff00754ba9f</anchor>
-      <arglist>(const LineString3d &amp;, double)</arglist>
+      <anchor>ad874c05d05c7b02bce54a547a28223b3</anchor>
+      <arglist>(const LineString3d &amp;, double, double)</arglist>
     </member>
     <member kind="function">
       <type>template maliput::math::Vector3</type>
       <name>InterpolatedPointAtP</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>a96ebc75a80d885a0c647c5600563fc93</anchor>
-      <arglist>(const LineString3d &amp;, double)</arglist>
+      <anchor>a12d72eae73a5cbc94376e545e5d7cd9b</anchor>
+      <arglist>(const LineString3d &amp;, double, double)</arglist>
     </member>
     <member kind="function">
       <type>template ClosestPointResult3d</type>
       <name>GetClosestPointToSegment</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>ab6d0d51f4a72433e3aad1c4c789765aa</anchor>
-      <arglist>(const Segment3d &amp;, const maliput::math::Vector3 &amp;)</arglist>
+      <anchor>adc7a3d0a030199f5e4ae0d5b55c57f6f</anchor>
+      <arglist>(const Segment3d &amp;, const maliput::math::Vector3 &amp;, double)</arglist>
     </member>
     <member kind="function">
       <type>template ClosestPointResult2d</type>
       <name>GetClosestPointToSegment</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>a7729756d8d75a434a2cc5211f6c99fe1</anchor>
-      <arglist>(const Segment2d &amp;, const maliput::math::Vector2 &amp;)</arglist>
+      <anchor>af60ca678de39b3688d4d658fad8f7eda</anchor>
+      <arglist>(const Segment2d &amp;, const maliput::math::Vector2 &amp;, double)</arglist>
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr bool</type>
@@ -314,6 +314,13 @@
       <name>kRight</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
       <anchor>aec3577b8e1b09eee5273e450dc480162</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr double</type>
+      <name>kEpsilon</name>
+      <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
+      <anchor>a2df379b283a801aa08771af3f657b7f5</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -366,71 +373,71 @@
       <type>CoordinateT</type>
       <name>InterpolatedPointAtP</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>a03204eca2456435a2310f5b0c1d243fa</anchor>
-      <arglist>(const LineString&lt; CoordinateT &gt; &amp;line_string, double p)</arglist>
+      <anchor>a24f0f3049b0fe65184b8eb8a34015f13</anchor>
+      <arglist>(const LineString&lt; CoordinateT &gt; &amp;line_string, double p, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>double</type>
       <name>GetSlopeAtP</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>a653f17f7c0223bc4b9f1c81e7821ad3a</anchor>
-      <arglist>(const LineString3d &amp;line_string, double p)</arglist>
+      <anchor>a23309583c42376b86092fa7689fbb0c6</anchor>
+      <arglist>(const LineString3d &amp;line_string, double p, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>BoundPointsResult&lt; CoordinateT &gt;</type>
       <name>GetBoundPointsAtP</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>a1254aa129bb3c46e553971a6f2d9f062</anchor>
-      <arglist>(const LineString&lt; CoordinateT &gt; &amp;line_string, double p)</arglist>
+      <anchor>a10c5233c208c6e69b7eeddb36cd53dc7</anchor>
+      <arglist>(const LineString&lt; CoordinateT &gt; &amp;line_string, double p, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>double</type>
       <name>Get2DHeadingAtP</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>aca5fda2a9c4b54a10ea68980071d608d</anchor>
-      <arglist>(const LineString3d &amp;line_string, double p)</arglist>
+      <anchor>a1efc046f4d7fe66f72b8833c53b5b455</anchor>
+      <arglist>(const LineString3d &amp;line_string, double p, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>maliput::math::Vector2</type>
       <name>Get2DTangentAtP</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>aff11eeb8cf07dd47ec8474d73693e32b</anchor>
-      <arglist>(const LineString3d &amp;line_string, double p)</arglist>
+      <anchor>a0f40bf6dfc081c86e5fd64a3134ad89b</anchor>
+      <arglist>(const LineString3d &amp;line_string, double p, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>maliput::math::Vector3</type>
       <name>GetTangentAtP</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>aa4d91797e39e96b0bad3956b269f5dd9</anchor>
-      <arglist>(const LineString3d &amp;line_string, double p)</arglist>
+      <anchor>a0f7101329bb24b343ed62893921245b9</anchor>
+      <arglist>(const LineString3d &amp;line_string, double p, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>ClosestPointResult&lt; CoordinateT &gt;</type>
       <name>GetClosestPointToSegment</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>a16bf3a76e083f302888a0dbba52bb001</anchor>
-      <arglist>(const std::pair&lt; CoordinateT, CoordinateT &gt; &amp;segment, const CoordinateT &amp;coordinate)</arglist>
+      <anchor>abcc13ee6f3bdb65c699f74a2a39618f6</anchor>
+      <arglist>(const std::pair&lt; CoordinateT, CoordinateT &gt; &amp;segment, const CoordinateT &amp;coordinate, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>ClosestPointResult3d</type>
       <name>GetClosestPoint</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>ad8213ed88ed3e328a631947831ee8d90</anchor>
-      <arglist>(const LineString3d &amp;line_string, const maliput::math::Vector3 &amp;xyz)</arglist>
+      <anchor>af141c67b9d30111679c4d64d4f14cb5b</anchor>
+      <arglist>(const LineString3d &amp;line_string, const maliput::math::Vector3 &amp;xyz, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>ClosestPointResult3d</type>
       <name>GetClosestPointUsing2dProjection</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>a1790cf08e856df48076a91e55850874c</anchor>
-      <arglist>(const LineString3d &amp;line_string, const maliput::math::Vector3 &amp;xyz)</arglist>
+      <anchor>a4f537bccc41af1aa8393eadead686088</anchor>
+      <arglist>(const LineString3d &amp;line_string, const maliput::math::Vector3 &amp;xyz, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>double</type>
       <name>ComputeDistance</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>ae67bb8047406054823734d9e9389abef</anchor>
-      <arglist>(const LineString3d &amp;lhs, const LineString3d &amp;rhs)</arglist>
+      <anchor>a30cfe17fda3006c85ecc7213ca18b9b4</anchor>
+      <arglist>(const LineString3d &amp;lhs, const LineString3d &amp;rhs, double tolerance)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -2295,99 +2302,99 @@
       <type>CoordinateT</type>
       <name>InterpolatedPointAtP</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>a03204eca2456435a2310f5b0c1d243fa</anchor>
-      <arglist>(const LineString&lt; CoordinateT &gt; &amp;line_string, double p)</arglist>
+      <anchor>a24f0f3049b0fe65184b8eb8a34015f13</anchor>
+      <arglist>(const LineString&lt; CoordinateT &gt; &amp;line_string, double p, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>double</type>
       <name>GetSlopeAtP</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>a653f17f7c0223bc4b9f1c81e7821ad3a</anchor>
-      <arglist>(const LineString3d &amp;line_string, double p)</arglist>
+      <anchor>a23309583c42376b86092fa7689fbb0c6</anchor>
+      <arglist>(const LineString3d &amp;line_string, double p, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>BoundPointsResult&lt; CoordinateT &gt;</type>
       <name>GetBoundPointsAtP</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>a1254aa129bb3c46e553971a6f2d9f062</anchor>
-      <arglist>(const LineString&lt; CoordinateT &gt; &amp;line_string, double p)</arglist>
+      <anchor>a10c5233c208c6e69b7eeddb36cd53dc7</anchor>
+      <arglist>(const LineString&lt; CoordinateT &gt; &amp;line_string, double p, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>double</type>
       <name>Get2DHeadingAtP</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>aca5fda2a9c4b54a10ea68980071d608d</anchor>
-      <arglist>(const LineString3d &amp;line_string, double p)</arglist>
+      <anchor>a1efc046f4d7fe66f72b8833c53b5b455</anchor>
+      <arglist>(const LineString3d &amp;line_string, double p, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>maliput::math::Vector2</type>
       <name>Get2DTangentAtP</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>aff11eeb8cf07dd47ec8474d73693e32b</anchor>
-      <arglist>(const LineString3d &amp;line_string, double p)</arglist>
+      <anchor>a0f40bf6dfc081c86e5fd64a3134ad89b</anchor>
+      <arglist>(const LineString3d &amp;line_string, double p, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>maliput::math::Vector3</type>
       <name>GetTangentAtP</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>aa4d91797e39e96b0bad3956b269f5dd9</anchor>
-      <arglist>(const LineString3d &amp;line_string, double p)</arglist>
+      <anchor>a0f7101329bb24b343ed62893921245b9</anchor>
+      <arglist>(const LineString3d &amp;line_string, double p, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>ClosestPointResult&lt; CoordinateT &gt;</type>
       <name>GetClosestPointToSegment</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>a16bf3a76e083f302888a0dbba52bb001</anchor>
-      <arglist>(const std::pair&lt; CoordinateT, CoordinateT &gt; &amp;segment, const CoordinateT &amp;coordinate)</arglist>
+      <anchor>abcc13ee6f3bdb65c699f74a2a39618f6</anchor>
+      <arglist>(const std::pair&lt; CoordinateT, CoordinateT &gt; &amp;segment, const CoordinateT &amp;coordinate, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>ClosestPointResult3d</type>
       <name>GetClosestPoint</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>ad8213ed88ed3e328a631947831ee8d90</anchor>
-      <arglist>(const LineString3d &amp;line_string, const maliput::math::Vector3 &amp;xyz)</arglist>
+      <anchor>af141c67b9d30111679c4d64d4f14cb5b</anchor>
+      <arglist>(const LineString3d &amp;line_string, const maliput::math::Vector3 &amp;xyz, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>ClosestPointResult3d</type>
       <name>GetClosestPointUsing2dProjection</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>a1790cf08e856df48076a91e55850874c</anchor>
-      <arglist>(const LineString3d &amp;line_string, const maliput::math::Vector3 &amp;xyz)</arglist>
+      <anchor>a4f537bccc41af1aa8393eadead686088</anchor>
+      <arglist>(const LineString3d &amp;line_string, const maliput::math::Vector3 &amp;xyz, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>double</type>
       <name>ComputeDistance</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>ae67bb8047406054823734d9e9389abef</anchor>
-      <arglist>(const LineString3d &amp;lhs, const LineString3d &amp;rhs)</arglist>
+      <anchor>a30cfe17fda3006c85ecc7213ca18b9b4</anchor>
+      <arglist>(const LineString3d &amp;lhs, const LineString3d &amp;rhs, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>template BoundPointsResult3d</type>
       <name>GetBoundPointsAtP</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>ab85bd4e754626e7497aeeff00754ba9f</anchor>
-      <arglist>(const LineString3d &amp;, double)</arglist>
+      <anchor>ad874c05d05c7b02bce54a547a28223b3</anchor>
+      <arglist>(const LineString3d &amp;, double, double)</arglist>
     </member>
     <member kind="function">
       <type>template maliput::math::Vector3</type>
       <name>InterpolatedPointAtP</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>a96ebc75a80d885a0c647c5600563fc93</anchor>
-      <arglist>(const LineString3d &amp;, double)</arglist>
+      <anchor>a12d72eae73a5cbc94376e545e5d7cd9b</anchor>
+      <arglist>(const LineString3d &amp;, double, double)</arglist>
     </member>
     <member kind="function">
       <type>template ClosestPointResult3d</type>
       <name>GetClosestPointToSegment</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>ab6d0d51f4a72433e3aad1c4c789765aa</anchor>
-      <arglist>(const Segment3d &amp;, const maliput::math::Vector3 &amp;)</arglist>
+      <anchor>adc7a3d0a030199f5e4ae0d5b55c57f6f</anchor>
+      <arglist>(const Segment3d &amp;, const maliput::math::Vector3 &amp;, double)</arglist>
     </member>
     <member kind="function">
       <type>template ClosestPointResult2d</type>
       <name>GetClosestPointToSegment</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>a7729756d8d75a434a2cc5211f6c99fe1</anchor>
-      <arglist>(const Segment2d &amp;, const maliput::math::Vector2 &amp;)</arglist>
+      <anchor>af60ca678de39b3688d4d658fad8f7eda</anchor>
+      <arglist>(const Segment2d &amp;, const maliput::math::Vector2 &amp;, double)</arglist>
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr bool</type>
@@ -2401,6 +2408,13 @@
       <name>kRight</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
       <anchor>aec3577b8e1b09eee5273e450dc480162</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr double</type>
+      <name>kEpsilon</name>
+      <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
+      <anchor>a2df379b283a801aa08771af3f657b7f5</anchor>
       <arglist></arglist>
     </member>
   </compound>

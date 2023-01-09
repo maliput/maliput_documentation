@@ -59,8 +59,8 @@
       <type>std::unordered_map&lt; Lane::Id, LaneEnd &gt;</type>
       <name>FilterOutByDirection</name>
       <anchorfile>namespacemaliput__osm_1_1osm.html</anchorfile>
-      <anchor>a06367aa18533c92595ef407e3664d023</anchor>
-      <arglist>(const lanelet::Lanelet &amp;lanelet, const LaneEnd::Which &amp;lane_end_which, const std::unordered_map&lt; Lane::Id, LaneEnd &gt; &amp;connections, const lanelet::LaneletLayer &amp;lanelet_layer)</arglist>
+      <anchor>aed53a13da4d013348d7ee38f54d51b98</anchor>
+      <arglist>(const lanelet::Lanelet &amp;lanelet, const LaneEnd::Which &amp;lane_end_which, const std::unordered_map&lt; Lane::Id, LaneEnd &gt; &amp;connections, const lanelet::LaneletLayer &amp;lanelet_layer, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>LineString3d</type>
@@ -565,8 +565,8 @@
       <type>std::unordered_map&lt; Lane::Id, LaneEnd &gt;</type>
       <name>FilterOutByDirection</name>
       <anchorfile>namespacemaliput__osm_1_1osm.html</anchorfile>
-      <anchor>a06367aa18533c92595ef407e3664d023</anchor>
-      <arglist>(const lanelet::Lanelet &amp;lanelet, const LaneEnd::Which &amp;lane_end_which, const std::unordered_map&lt; Lane::Id, LaneEnd &gt; &amp;connections, const lanelet::LaneletLayer &amp;lanelet_layer)</arglist>
+      <anchor>aed53a13da4d013348d7ee38f54d51b98</anchor>
+      <arglist>(const lanelet::Lanelet &amp;lanelet, const LaneEnd::Which &amp;lane_end_which, const std::unordered_map&lt; Lane::Id, LaneEnd &gt; &amp;connections, const lanelet::LaneletLayer &amp;lanelet_layer, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>LineString3d</type>

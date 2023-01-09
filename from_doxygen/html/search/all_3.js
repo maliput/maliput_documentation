@@ -87,7 +87,7 @@ var searchData=
   ['computation_5fpolicy_2eh_381',['computation_policy.h',['.././deps/maliput_multilane/html/computation__policy_8h.html.html',1,'']]],
   ['computationpolicy_382',['ComputationPolicy',['.././deps/maliput_multilane/html/namespacemaliput_1_1multilane.html#a9f1bdafa1bee33c155f083a58b0a82f0',1,'maliput::multilane']]],
   ['computecenterline3d_383',['ComputeCenterline3d',['.././deps/maliput_sparse/html/namespacemaliput__sparse_1_1geometry_1_1utility.html#aed86a7fbbd82012334c4deb4860d8047',1,'maliput_sparse::geometry::utility']]],
-  ['computedistance_384',['ComputeDistance',['.././deps/maliput_sparse/html/namespacemaliput__sparse_1_1geometry_1_1utility.html#ae67bb8047406054823734d9e9389abef',1,'maliput_sparse::geometry::utility']]],
+  ['computedistance_384',['ComputeDistance',['.././deps/maliput_sparse/html/namespacemaliput__sparse_1_1geometry_1_1utility.html#a30cfe17fda3006c85ecc7213ca18b9b4',1,'maliput_sparse::geometry::utility']]],
   ['computeendpointwithnewlength_385',['ComputeEndpointWithNewLength',['.././deps/maliput_malidrive/html/namespacemalidrive_1_1xodr.html#acb89785d22fee0a2f12e7b60a2e5793c',1,'malidrive::xodr']]],
   ['computefaceadjacencymap_386',['ComputeFaceAdjacencyMap',['.././deps/maliput/html/namespacemaliput_1_1utility_1_1mesh.html#a78c154886288f7baff88baaa6db62187',1,'maliput::utility::mesh']]],
   ['computegoalpoint_387',['ComputeGoalPoint',['.././deps/delphyne/html/classdelphyne_1_1_pure_pursuit.html#ac5787bf43474baec4c83057651dce4d2',1,'delphyne::PurePursuit']]],

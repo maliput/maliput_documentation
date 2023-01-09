@@ -11350,6 +11350,13 @@
       <anchor>ab189469ea1faa37694797dba23fd50a4</anchor>
       <arglist>(std::unique_ptr&lt; const RoadGeometry &gt; road_geometry, std::unique_ptr&lt; const rules::RoadRulebook &gt; rulebook, std::unique_ptr&lt; const rules::TrafficLightBook &gt; traffic_light_book, std::unique_ptr&lt; IntersectionBook &gt; intersection_book, std::unique_ptr&lt; rules::PhaseRingBook &gt; phase_ring_book, std::unique_ptr&lt; rules::RightOfWayRuleStateProvider &gt; right_of_way_rule_state_provider, std::unique_ptr&lt; rules::PhaseProvider &gt; phase_provider, std::unique_ptr&lt; rules::RuleRegistry &gt; rule_registry, std::unique_ptr&lt; rules::DiscreteValueRuleStateProvider &gt; discrete_value_rule_state_provider, std::unique_ptr&lt; rules::RangeValueRuleStateProvider &gt; range_value_rule_state_provider)</arglist>
     </member>
+    <member kind="function">
+      <type></type>
+      <name>RoadNetwork</name>
+      <anchorfile>classmaliput_1_1api_1_1_road_network.html</anchorfile>
+      <anchor>ad89b2d0d5b573d63c2883fbfdd3c8ae8</anchor>
+      <arglist>(std::unique_ptr&lt; const RoadGeometry &gt; road_geometry, std::unique_ptr&lt; const rules::RoadRulebook &gt; rulebook, std::unique_ptr&lt; const rules::TrafficLightBook &gt; traffic_light_book, std::unique_ptr&lt; IntersectionBook &gt; intersection_book, std::unique_ptr&lt; rules::PhaseRingBook &gt; phase_ring_book, std::unique_ptr&lt; rules::PhaseProvider &gt; phase_provider, std::unique_ptr&lt; rules::RuleRegistry &gt; rule_registry, std::unique_ptr&lt; rules::DiscreteValueRuleStateProvider &gt; discrete_value_rule_state_provider, std::unique_ptr&lt; rules::RangeValueRuleStateProvider &gt; range_value_rule_state_provider)</arglist>
+    </member>
     <member kind="function" virtualness="virtual">
       <type>virtual</type>
       <name>~RoadNetwork</name>

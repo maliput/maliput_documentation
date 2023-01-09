@@ -1,6 +1,7 @@
 var classmaliput_1_1api_1_1_road_network =
 [
     [ "RoadNetwork", "classmaliput_1_1api_1_1_road_network.html#ab189469ea1faa37694797dba23fd50a4", null ],
+    [ "RoadNetwork", "classmaliput_1_1api_1_1_road_network.html#ad89b2d0d5b573d63c2883fbfdd3c8ae8", null ],
     [ "~RoadNetwork", "classmaliput_1_1api_1_1_road_network.html#a3b92986feb884330f6502d877529417d", null ],
     [ "Contains", "classmaliput_1_1api_1_1_road_network.html#a676f090e349fcc28908575aa491468b6", null ],
     [ "Contains", "classmaliput_1_1api_1_1_road_network.html#a5c7941c0700d1b75757ce0eba59726a9", null ],

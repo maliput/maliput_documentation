@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"classmaliput_1_1math_1_1_quaternion.html#a39bc7c94129ac594bb53d207fa7c00ec":[4,0,0,3,8,8],
 "classmaliput_1_1math_1_1_quaternion.html#a3b195b867437acf8de45f48c83e81932":[4,0,0,3,8,31],
 "classmaliput_1_1math_1_1_quaternion.html#a409f0fc00f5231042c95ccf5fe8fda5f":[4,0,0,3,8,37],
 "classmaliput_1_1math_1_1_quaternion.html#a45b5e33ccc03f4a050cc76b060e9c7d7":[4,0,0,3,8,20],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "file__utils_8cc.html#a0886cacf31715fe4689f330fb5d75193":[5,0,24,2],
 "file__utils_8cc.html#a4f2a167d0c041b88c9f17711d862c12e":[5,0,24,0],
 "file__utils_8cc.html#ab4e1ac100d64634cdc0b7b371e78f81c":[5,0,24,1],
-"file__utils_8h.html":[5,0,25],
-"file__utils_8h.html#a0886cacf31715fe4689f330fb5d75193":[5,0,25,2]
+"file__utils_8h.html":[5,0,25]
 };
