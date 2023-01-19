@@ -25,6 +25,10 @@ var files_dup =
     ] ],
     [ "brute_force_find_road_positions_strategy.cc", "brute__force__find__road__positions__strategy_8cc.html", "brute__force__find__road__positions__strategy_8cc" ],
     [ "brute_force_find_road_positions_strategy.h", "brute__force__find__road__positions__strategy_8h.html", "brute__force__find__road__positions__strategy_8h" ],
+    [ "brute_force_strategy.cc", "brute__force__strategy_8cc.html", null ],
+    [ "brute_force_strategy.h", "brute__force__strategy_8h.html", [
+      [ "BruteForceStrategy", "classmaliput_1_1geometry__base_1_1_brute_force_strategy.html", "classmaliput_1_1geometry__base_1_1_brute_force_strategy" ]
+    ] ],
     [ "check_id_indexing.cc", "check__id__indexing_8cc.html", "check__id__indexing_8cc" ],
     [ "check_id_indexing.h", "check__id__indexing_8h.html", "check__id__indexing_8h" ],
     [ "create_road_network.cc", "create__road__network_8cc.html", "create__road__network_8cc" ],
@@ -81,6 +85,10 @@ var files_dup =
       [ "Junction", "classmaliput_1_1geometry__base_1_1_junction.html", "classmaliput_1_1geometry__base_1_1_junction" ]
     ] ],
     [ "kd_tree.h", "kd__tree_8h.html", "kd__tree_8h" ],
+    [ "kd_tree_strategy.cc", "kd__tree__strategy_8cc.html", null ],
+    [ "kd_tree_strategy.h", "kd__tree__strategy_8h.html", [
+      [ "KDTreeStrategy", "classmaliput_1_1geometry__base_1_1_k_d_tree_strategy.html", "classmaliput_1_1geometry__base_1_1_k_d_tree_strategy" ]
+    ] ],
     [ "api/lane.cc", "api_2lane_8cc.html", "api_2lane_8cc" ],
     [ "geometry_base/lane.cc", "geometry__base_2lane_8cc.html", null ],
     [ "api/lane.h", "api_2lane_8h.html", "api_2lane_8h" ],
@@ -287,6 +295,8 @@ var files_dup =
       [ "StateProviderResult", "structmaliput_1_1api_1_1rules_1_1_state_provider_result.html", "structmaliput_1_1api_1_1rules_1_1_state_provider_result" ],
       [ "Next", "structmaliput_1_1api_1_1rules_1_1_state_provider_result_1_1_next.html", "structmaliput_1_1api_1_1rules_1_1_state_provider_result_1_1_next" ]
     ] ],
+    [ "strategy_base.cc", "strategy__base_8cc.html", "strategy__base_8cc" ],
+    [ "strategy_base.h", "strategy__base_8h.html", "strategy__base_8h" ],
     [ "thread_pool.cc", "thread__pool_8cc.html", null ],
     [ "thread_pool.h", "thread__pool_8h.html", [
       [ "ThreadPool", "classmaliput_1_1utility_1_1_thread_pool.html", "classmaliput_1_1utility_1_1_thread_pool" ]

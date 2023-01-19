@@ -65,6 +65,9 @@ var hierarchy =
     [ "KDTreeBase< KDTree3D< Coordinate, details::SquaredDistance< Coordinate, 3 >, details::NodeCmp< 3 > >, Coordinate, 3, AxisAlignedBox, details::SquaredDistance< Coordinate, 3 >, details::NodeCmp< 3 > >", "classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html", [
       [ "KDTree3D< Coordinate, Distance, NodeCmp >", "classmaliput_1_1math_1_1_k_d_tree3_d.html", null ]
     ] ],
+    [ "KDTreeBase< KDTree3D< MaliputPoint, details::SquaredDistance< MaliputPoint, 3 >, details::NodeCmp< 3 > >, MaliputPoint, 3, AxisAlignedBox, details::SquaredDistance< MaliputPoint, 3 >, details::NodeCmp< 3 > >", "classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html", [
+      [ "KDTree3D< MaliputPoint >", "classmaliput_1_1math_1_1_k_d_tree3_d.html", null ]
+    ] ],
     [ "KDTreeBase< KDTree< Coordinate, Dimension, BoundingRegion< Coordinate >, details::SquaredDistance< Coordinate, Dimension >, details::NodeCmp< Dimension > >, Coordinate, Dimension, BoundingRegion< Coordinate >, details::SquaredDistance< Coordinate, Dimension >, details::NodeCmp< Dimension > >", "classmaliput_1_1math_1_1details_1_1_k_d_tree_base.html", [
       [ "KDTree< Coordinate, Dimension, Region, Distance, NodeCmp >", "classmaliput_1_1math_1_1_k_d_tree.html", null ]
     ] ],
@@ -172,6 +175,10 @@ var hierarchy =
       [ "RangeValueRule::Range", "structmaliput_1_1api_1_1rules_1_1_range_value_rule_1_1_range.html", null ]
     ] ],
     [ "StateProviderResult< T >", "structmaliput_1_1api_1_1rules_1_1_state_provider_result.html", null ],
+    [ "StrategyBase", "classmaliput_1_1geometry__base_1_1_strategy_base.html", [
+      [ "BruteForceStrategy", "classmaliput_1_1geometry__base_1_1_brute_force_strategy.html", null ],
+      [ "KDTreeStrategy", "classmaliput_1_1geometry__base_1_1_k_d_tree_strategy.html", null ]
+    ] ],
     [ "LaneEnd::StrictOrder", "structmaliput_1_1api_1_1_lane_end_1_1_strict_order.html", null ],
     [ "ThreadPool", "classmaliput_1_1utility_1_1_thread_pool.html", null ],
     [ "TrafficLight", "classmaliput_1_1api_1_1rules_1_1_traffic_light.html", null ],

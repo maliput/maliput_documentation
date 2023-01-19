@@ -107,8 +107,14 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1geometry__base_1_1_branch_point.html">BranchPoint</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespacemaliput_1_1geometry__base.html">geometry_base</a>'s implementation of <a class="el" href="classmaliput_1_1api_1_1_branch_point.html" title="A BranchPoint is a node in the network of a RoadGeometry at which Lanes connect to one another.">api::BranchPoint</a>.  <a href="classmaliput_1_1geometry__base_1_1_branch_point.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1geometry__base_1_1_brute_force_strategy.html">BruteForceStrategy</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements <a class="el" href="classmaliput_1_1geometry__base_1_1_strategy_base.html" title="Provides a base interface for defining strategies that will affect the behavior of the queries RoadGe...">StrategyBase</a> using a brute force algorithm for resolving the <a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#a23c5fa878accede196eb856f9024dbf4" title="Determines the RoadPosition corresponding to InertialPosition inertial_position.">maliput::api::RoadGeometry::ToRoadPosition()</a> and <a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#a32224cbda17b2065c40e5f573292313e" title="Obtains all RoadPositions within radius of inertial_position.">maliput::api::RoadGeometry::FindRoadPositions()</a> methods.  <a href="classmaliput_1_1geometry__base_1_1_brute_force_strategy.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1geometry__base_1_1_junction.html">Junction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespacemaliput_1_1geometry__base.html">geometry_base</a>'s implementation of <a class="el" href="classmaliput_1_1api_1_1_junction.html" title="A Junction is a closed set of Segments which have physically coplanar road surfaces,...">api::Junction</a>.  <a href="classmaliput_1_1geometry__base_1_1_junction.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1geometry__base_1_1_k_d_tree_strategy.html">KDTreeStrategy</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements <a class="el" href="classmaliput_1_1geometry__base_1_1_strategy_base.html" title="Provides a base interface for defining strategies that will affect the behavior of the queries RoadGe...">StrategyBase</a> by reorganizing the <a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">maliput::api::Lane</a> space into a kd-tree for achieving significantly more performant queries than <a class="el" href="classmaliput_1_1geometry__base_1_1_brute_force_strategy.html" title="Implements StrategyBase using a brute force algorithm for resolving the maliput::api::RoadGeometry::T...">BruteForceStrategy</a>.  <a href="classmaliput_1_1geometry__base_1_1_k_d_tree_strategy.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1geometry__base_1_1_lane.html">Lane</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespacemaliput_1_1geometry__base.html">geometry_base</a>'s implementation of <a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">api::Lane</a>.  <a href="classmaliput_1_1geometry__base_1_1_lane.html#details">More...</a><br /></td></tr>
@@ -122,6 +128,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1geometry__base_1_1_segment.html">Segment</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespacemaliput_1_1geometry__base.html">geometry_base</a>'s implementation of <a class="el" href="classmaliput_1_1api_1_1_segment.html" title="A Segment represents a bundle of adjacent Lanes which share a continuously traversable road surface.">api::Segment</a>.  <a href="classmaliput_1_1geometry__base_1_1_segment.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1geometry__base_1_1_strategy_base.html">StrategyBase</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a base interface for defining strategies that will affect the behavior of the queries RoadGeomoetry::ToRoadPosition and RoadGeomoetry::FindRoadPositions.  <a href="classmaliput_1_1geometry__base_1_1_strategy_base.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -130,6 +139,9 @@ Functions</h2></td></tr>
 <tr class="separator:ab608c7a16c9d4364c164504cd1fe00e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6526fab630ce68db4883df8c4f8afe9e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structmaliput_1_1api_1_1_road_position_result.html">api::RoadPositionResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1geometry__base.html#a6526fab630ce68db4883df8c4f8afe9e">FilterRoadPositionResults</a> (const std::vector&lt; <a class="el" href="structmaliput_1_1api_1_1_road_position_result.html">api::RoadPositionResult</a> &gt; &amp;road_position_results, const std::function&lt; bool(const <a class="el" href="structmaliput_1_1api_1_1_road_position_result.html">api::RoadPositionResult</a> &amp;)&gt; &amp;filter)</td></tr>
 <tr class="separator:a6526fab630ce68db4883df8c4f8afe9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a099609a21db549b19f38eb51ff83cdda"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1geometry__base.html#a099609a21db549b19f38eb51ff83cdda">IsNewRoadPositionResultCloser</a> (const <a class="el" href="structmaliput_1_1api_1_1_road_position_result.html">maliput::api::RoadPositionResult</a> &amp;new_road_position_result, const <a class="el" href="structmaliput_1_1api_1_1_road_position_result.html">maliput::api::RoadPositionResult</a> &amp;road_position_result)</td></tr>
+<tr class="memdesc:a099609a21db549b19f38eb51ff83cdda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two maliput::api::RoadPositionResults and determines whether <code>new_road_position_result</code> is closer to <code>road_position_result</code>.  <a href="namespacemaliput_1_1geometry__base.html#a099609a21db549b19f38eb51ff83cdda">More...</a><br /></td></tr>
+<tr class="separator:a099609a21db549b19f38eb51ff83cdda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ab608c7a16c9d4364c164504cd1fe00e9"></a>
@@ -218,6 +230,45 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a099609a21db549b19f38eb51ff83cdda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a099609a21db549b19f38eb51ff83cdda">&#9670;&nbsp;</a></span>IsNewRoadPositionResultCloser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IsNewRoadPositionResultCloser </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmaliput_1_1api_1_1_road_position_result.html">maliput::api::RoadPositionResult</a> &amp;&#160;</td>
+          <td class="paramname"><em>new_road_position_result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structmaliput_1_1api_1_1_road_position_result.html">maliput::api::RoadPositionResult</a> &amp;&#160;</td>
+          <td class="paramname"><em>road_position_result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compares two maliput::api::RoadPositionResults and determines whether <code>new_road_position_result</code> is closer to <code>road_position_result</code>. </p>
+<dl class="section see"><dt>See also</dt><dd>maliput::api::RoadPosition::ToRoadPosition() for a clear definition of how the comparison must be performed. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">new_road_position_result</td><td>A <a class="el" href="structmaliput_1_1api_1_1_road_position_result.html" title="Included in the return result of RoadGeometry::FindRoadPositions() and RoadGeometry::ToRoadPosition()...">maliput::api::RoadPositionResult</a> to compare. </td></tr>
+    <tr><td class="paramname">road_position_result</td><td>The reference <a class="el" href="structmaliput_1_1api_1_1_road_position_result.html" title="Included in the return result of RoadGeometry::FindRoadPositions() and RoadGeometry::ToRoadPosition()...">maliput::api::RoadPositionResult</a> to compare. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true When <code>new_road_position_result</code> is closer than <code>road_position_result</code>. </dd></dl>
 
 </div>
 </div>
