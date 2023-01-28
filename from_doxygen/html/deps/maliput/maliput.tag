@@ -281,6 +281,7 @@
     <includes id="api_2branch__point_8h" name="api/branch_point.h" local="yes" imported="no">maliput/api/branch_point.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
     <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
+    <includes id="profiler_8h" name="profiler.h" local="yes" imported="no">maliput/common/profiler.h</includes>
     <includes id="find__lane__sequences_8h" name="find_lane_sequences.h" local="yes" imported="no">maliput/routing/find_lane_sequences.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::routing</namespace>
@@ -486,6 +487,7 @@
     <includes id="find__lane__sequences_8h" name="find_lane_sequences.h" local="yes" imported="no">maliput/routing/find_lane_sequences.h</includes>
     <includes id="api_2branch__point_8h" name="api/branch_point.h" local="yes" imported="no">maliput/api/branch_point.h</includes>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
+    <includes id="profiler_8h" name="profiler.h" local="yes" imported="no">maliput/common/profiler.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::routing</namespace>
     <member kind="function">
@@ -523,6 +525,7 @@
     <includes id="api_2segment_8h" name="api/segment.h" local="yes" imported="no">maliput/api/segment.h</includes>
     <includes id="logger_8h" name="logger.h" local="yes" imported="no">maliput/common/logger.h</includes>
     <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
+    <includes id="profiler_8h" name="profiler.h" local="yes" imported="no">maliput/common/profiler.h</includes>
     <includes id="vector_8h" name="vector.h" local="yes" imported="no">maliput/math/vector.h</includes>
     <includes id="mesh_8h" name="mesh.h" local="yes" imported="no">maliput/utility/mesh.h</includes>
     <includes id="mesh__simplification_8h" name="mesh_simplification.h" local="yes" imported="no">maliput/utility/mesh_simplification.h</includes>
@@ -1011,15 +1014,9 @@
     <includes id="api_2junction_8h" name="api/junction.h" local="yes" imported="no">maliput/api/junction.h</includes>
     <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
     <includes id="api_2segment_8h" name="api/segment.h" local="yes" imported="no">maliput/api/segment.h</includes>
+    <includes id="profiler_8h" name="profiler.h" local="yes" imported="no">maliput/common/profiler.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
-    <member kind="function">
-      <type>bool</type>
-      <name>IsWithinRange</name>
-      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
-      <anchor>a29a78270572a2d5f384ea15f3fe23541</anchor>
-      <arglist>(double x, double min, double max, double tolerance)</arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>geometry_base/lane.cc</name>
@@ -3733,6 +3730,81 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>profiler.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/common/</path>
+    <filename>profiler_8h.html</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_PROFILER_ENABLE</name>
+      <anchorfile>profiler_8h.html</anchorfile>
+      <anchor>a885e4f93bfdc2e620412135609a01951</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_PROFILE_THREAD_NAME</name>
+      <anchorfile>profiler_8h.html</anchorfile>
+      <anchor>a801ba63d48f2260e69bc2b6311a48541</anchor>
+      <arglist>(name)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_PROFILE_LOG_TEXT</name>
+      <anchorfile>profiler_8h.html</anchorfile>
+      <anchor>a43bae8cf84e0e51dbd31ae0fade67406</anchor>
+      <arglist>(name)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_PROFILE_BEGIN</name>
+      <anchorfile>profiler_8h.html</anchorfile>
+      <anchor>a3fe345af6145fd1a0c94fa2735381339</anchor>
+      <arglist>(name)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_PROFILE_END</name>
+      <anchorfile>profiler_8h.html</anchorfile>
+      <anchor>a08acc0c0561e8facc7c1e90f820b289b</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_PROFILE_L</name>
+      <anchorfile>profiler_8h.html</anchorfile>
+      <anchor>a20742de6cdc4c4123fa2a300250b27b2</anchor>
+      <arglist>(name, line)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_PROFILE</name>
+      <anchorfile>profiler_8h.html</anchorfile>
+      <anchor>a99b3d2dae97aeddcc14517e103f4ce7e</anchor>
+      <arglist>(name)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_PROFILE_FUNC</name>
+      <anchorfile>profiler_8h.html</anchorfile>
+      <anchor>a2d8d88995e78251bf6f538eb217f753a</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_PROFILE_PRETTY_FUNC</name>
+      <anchorfile>profiler_8h.html</anchorfile>
+      <anchor>a3e6adf628ea5fe8bc148ce522353f6da</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_PROFILER_VALID</name>
+      <anchorfile>profiler_8h.html</anchorfile>
+      <anchor>a3c7981d523e3fa5d98b075adfe4e4a2d</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>quaternion.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/math/</path>
     <filename>quaternion_8cc.html</filename>
@@ -3970,6 +4042,7 @@
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="api_2segment_8h" name="api/segment.h" local="yes" imported="no">maliput/api/segment.h</includes>
     <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
+    <includes id="profiler_8h" name="profiler.h" local="yes" imported="no">maliput/common/profiler.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
   </compound>
@@ -7273,35 +7346,35 @@
       <type>const Lane *</type>
       <name>GetLane</name>
       <anchorfile>classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html</anchorfile>
-      <anchor>a1a9205920b2630d788bff51c7ce336d2</anchor>
+      <anchor>aa2de7296fba895a18b91321e7c2463ec</anchor>
       <arglist>(const LaneId &amp;id) const</arglist>
     </member>
     <member kind="function">
       <type>const std::unordered_map&lt; LaneId, const Lane * &gt; &amp;</type>
       <name>GetLanes</name>
       <anchorfile>classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html</anchorfile>
-      <anchor>a5c334734ab6cb35e95e69feca5e4f88c</anchor>
+      <anchor>adfa0ae7e84918a458235a61d8d2328fc</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
       <type>const Segment *</type>
       <name>GetSegment</name>
       <anchorfile>classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html</anchorfile>
-      <anchor>a0cba00d40d570f39474e551f3f151624</anchor>
+      <anchor>ab5c1017f270fffd0d9a8cae5ce523e50</anchor>
       <arglist>(const SegmentId &amp;id) const</arglist>
     </member>
     <member kind="function">
       <type>const Junction *</type>
       <name>GetJunction</name>
       <anchorfile>classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html</anchorfile>
-      <anchor>ac50e53c261a00f25a270c37d1ebe7fe9</anchor>
+      <anchor>aaac92efabd328b903465f66fdb4494b1</anchor>
       <arglist>(const JunctionId &amp;id) const</arglist>
     </member>
     <member kind="function">
       <type>const BranchPoint *</type>
       <name>GetBranchPoint</name>
       <anchorfile>classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html</anchorfile>
-      <anchor>a9261eefa0e4f258cb77ae457a6cb1932</anchor>
+      <anchor>ae218634cfe9138f854272c0d0ddbe04b</anchor>
       <arglist>(const BranchPointId &amp;id) const</arglist>
     </member>
     <member kind="function" protection="protected">
@@ -8268,7 +8341,7 @@
       <type>const Segment *</type>
       <name>segment</name>
       <anchorfile>classmaliput_1_1api_1_1_lane.html</anchorfile>
-      <anchor>a16156009351b2021d960b0d27a29187a</anchor>
+      <anchor>ad8845fec4e26bcdd1b82a171355725db</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -8282,14 +8355,14 @@
       <type>const Lane *</type>
       <name>to_left</name>
       <anchorfile>classmaliput_1_1api_1_1_lane.html</anchorfile>
-      <anchor>a024ef71a2056f8163c029a77de7847a9</anchor>
+      <anchor>af65f9709a7bfb2d8d93cf8b3725a7e52</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
       <type>const Lane *</type>
       <name>to_right</name>
       <anchorfile>classmaliput_1_1api_1_1_lane.html</anchorfile>
-      <anchor>ab501636a78a79970214b42a0c4d0a0e2</anchor>
+      <anchor>ad7163836bd1e363c44eec492fcdf90a3</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -8359,28 +8432,28 @@
       <type>const BranchPoint *</type>
       <name>GetBranchPoint</name>
       <anchorfile>classmaliput_1_1api_1_1_lane.html</anchorfile>
-      <anchor>a212e437be7afb3c44b31ef840e473f55</anchor>
+      <anchor>ad92730c3ece74174d55717f09a2e3e71</anchor>
       <arglist>(const LaneEnd::Which which_end) const</arglist>
     </member>
     <member kind="function">
       <type>const LaneEndSet *</type>
       <name>GetConfluentBranches</name>
       <anchorfile>classmaliput_1_1api_1_1_lane.html</anchorfile>
-      <anchor>ac891c8c23e72a4006f56dcbb64f1df74</anchor>
+      <anchor>ac18dfa3a3eca308f4ba87c10f4212bcf</anchor>
       <arglist>(const LaneEnd::Which which_end) const</arglist>
     </member>
     <member kind="function">
       <type>const LaneEndSet *</type>
       <name>GetOngoingBranches</name>
       <anchorfile>classmaliput_1_1api_1_1_lane.html</anchorfile>
-      <anchor>a2d5305dac44d902977716e5c8ecf5cfb</anchor>
+      <anchor>afa33b67de468a61c9986b427fc6ae3c6</anchor>
       <arglist>(const LaneEnd::Which which_end) const</arglist>
     </member>
     <member kind="function">
       <type>std::optional&lt; LaneEnd &gt;</type>
       <name>GetDefaultBranch</name>
       <anchorfile>classmaliput_1_1api_1_1_lane.html</anchorfile>
-      <anchor>ad2e0a69d9c54c24b25f34794c4769dbe</anchor>
+      <anchor>a7777f97ac80666f157d04c35edf911ce</anchor>
       <arglist>(const LaneEnd::Which which_end) const</arglist>
     </member>
     <member kind="function">
@@ -11304,7 +11377,7 @@
       <type>std::vector&lt; RoadPositionResult &gt;</type>
       <name>FindRoadPositions</name>
       <anchorfile>classmaliput_1_1api_1_1_road_geometry.html</anchorfile>
-      <anchor>a32224cbda17b2065c40e5f573292313e</anchor>
+      <anchor>aab94cb47c604ce24df64a948d43b4b1d</anchor>
       <arglist>(const InertialPosition &amp;inertial_position, double radius) const</arglist>
     </member>
     <member kind="function">
@@ -11339,7 +11412,7 @@
       <type>std::vector&lt; InertialPosition &gt;</type>
       <name>SampleAheadWaypoints</name>
       <anchorfile>classmaliput_1_1api_1_1_road_geometry.html</anchorfile>
-      <anchor>a9d802b46391575eb382ee041bc7347f0</anchor>
+      <anchor>af0f48addc835003870e382c3bb44e11e</anchor>
       <arglist>(const LaneSRoute &amp;lane_s_route, double path_length_sampling_rate) const</arglist>
     </member>
     <member kind="function">
@@ -16152,13 +16225,6 @@
       <anchorfile>namespacemaliput_1_1api.html</anchorfile>
       <anchor>a7adf7645912f0c98f92ad236bfd919be</anchor>
       <arglist>(const RoadNetwork &amp;road_network, const RoadNetworkValidatorOptions &amp;options)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>IsWithinRange</name>
-      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
-      <anchor>a29a78270572a2d5f384ea15f3fe23541</anchor>
-      <arglist>(double x, double min, double max, double tolerance)</arglist>
     </member>
   </compound>
   <compound kind="namespace">

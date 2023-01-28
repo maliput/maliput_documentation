@@ -168,7 +168,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A position in the road network, consisting of a pointer to a specific <a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">Lane</a> and a <code><a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">Lane</a></code>-frame position in that <a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">Lane</a>.  <a href="structmaliput_1_1api_1_1_road_position.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1api_1_1_road_position_result.html">RoadPositionResult</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Included in the return result of <a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#a32224cbda17b2065c40e5f573292313e" title="Obtains all RoadPositions within radius of inertial_position.">RoadGeometry::FindRoadPositions()</a> and <a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#a23c5fa878accede196eb856f9024dbf4" title="Determines the RoadPosition corresponding to InertialPosition inertial_position.">RoadGeometry::ToRoadPosition()</a>.  <a href="structmaliput_1_1api_1_1_road_position_result.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Included in the return result of <a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#aab94cb47c604ce24df64a948d43b4b1d" title="Obtains all RoadPositions within radius of inertial_position.">RoadGeometry::FindRoadPositions()</a> and <a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#a23c5fa878accede196eb856f9024dbf4" title="Determines the RoadPosition corresponding to InertialPosition inertial_position.">RoadGeometry::ToRoadPosition()</a>.  <a href="structmaliput_1_1api_1_1_road_position_result.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_rotation.html">Rotation</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A 3-dimensional rotation.  <a href="classmaliput_1_1api_1_1_rotation.html#details">More...</a><br /></td></tr>
@@ -226,8 +226,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a7adf7645912f0c98f92ad236bfd919be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api.html#a7adf7645912f0c98f92ad236bfd919be">ValidateRoadNetwork</a> (const <a class="el" href="classmaliput_1_1api_1_1_road_network.html">RoadNetwork</a> &amp;road_network, const <a class="el" href="structmaliput_1_1api_1_1_road_network_validator_options.html">RoadNetworkValidatorOptions</a> &amp;options)</td></tr>
 <tr class="memdesc:a7adf7645912f0c98f92ad236bfd919be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validates a <a class="el" href="classmaliput_1_1api_1_1_road_network.html" title="A container that aggregates everything pertaining to Maliput.">RoadNetwork</a>.  <a href="namespacemaliput_1_1api.html#a7adf7645912f0c98f92ad236bfd919be">More...</a><br /></td></tr>
 <tr class="separator:a7adf7645912f0c98f92ad236bfd919be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29a78270572a2d5f384ea15f3fe23541"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api.html#a29a78270572a2d5f384ea15f3fe23541">IsWithinRange</a> (<a class="el" href="classdouble.html">double</a> x, <a class="el" href="classdouble.html">double</a> min, <a class="el" href="classdouble.html">double</a> max, <a class="el" href="classdouble.html">double</a> tolerance)</td></tr>
-<tr class="separator:a29a78270572a2d5f384ea15f3fe23541"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="af58adb58c809af6076770134bdb68e2f"></a>
@@ -411,46 +409,6 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a29a78270572a2d5f384ea15f3fe23541"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29a78270572a2d5f384ea15f3fe23541">&#9670;&nbsp;</a></span>IsWithinRange()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool maliput::api::IsWithinRange </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classdouble.html">double</a>&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classdouble.html">double</a>&#160;</td>
-          <td class="paramname"><em>min</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classdouble.html">double</a>&#160;</td>
-          <td class="paramname"><em>max</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classdouble.html">double</a>&#160;</td>
-          <td class="paramname"><em>tolerance</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

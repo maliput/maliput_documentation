@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"derive__lane__s__routes_8cc.html":[5,0,19],
 "derive__lane__s__routes_8cc.html#a50450cdc6c1aefc360378b2dd8e7cafd":[5,0,19,0],
 "derive__lane__s__routes_8h.html":[5,0,20],
 "derive__lane__s__routes_8h.html#a50450cdc6c1aefc360378b2dd8e7cafd":[5,0,20,0],
@@ -136,9 +135,9 @@ var NAVTREEINDEX4 =
 "geometry__base_2junction_8h.html":[5,0,51],
 "geometry__base_2lane_8cc.html":[5,0,56],
 "geometry__base_2lane_8h.html":[5,0,58],
-"geometry__base_2road__geometry_8cc.html":[5,0,137],
-"geometry__base_2road__geometry_8h.html":[5,0,139],
-"geometry__base_2segment_8h.html":[5,0,176],
+"geometry__base_2road__geometry_8cc.html":[5,0,138],
+"geometry__base_2road__geometry_8h.html":[5,0,140],
+"geometry__base_2segment_8h.html":[5,0,177],
 "globals.html":[5,1,0],
 "globals_defs.html":[5,1,2],
 "globals_vars.html":[5,1,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX4 =
 "maliput__plugin_8h.html":[5,0,74],
 "maliput__plugin__architecture_8h.html":[5,0,75],
 "maliput__plugin__manager_8cc.html":[5,0,76],
-"maliput__plugin__manager_8h.html":[5,0,77]
+"maliput__plugin__manager_8h.html":[5,0,77],
+"maliput__plugin__type_8h.html":[5,0,78]
 };

@@ -89,7 +89,7 @@ var files_dup =
     [ "kd_tree_strategy.h", "kd__tree__strategy_8h.html", [
       [ "KDTreeStrategy", "classmaliput_1_1geometry__base_1_1_k_d_tree_strategy.html", "classmaliput_1_1geometry__base_1_1_k_d_tree_strategy" ]
     ] ],
-    [ "api/lane.cc", "api_2lane_8cc.html", "api_2lane_8cc" ],
+    [ "api/lane.cc", "api_2lane_8cc.html", null ],
     [ "geometry_base/lane.cc", "geometry__base_2lane_8cc.html", null ],
     [ "api/lane.h", "api_2lane_8h.html", "api_2lane_8h" ],
     [ "geometry_base/lane.h", "geometry__base_2lane_8h.html", [
@@ -208,6 +208,7 @@ var files_dup =
     ] ],
     [ "phases_compare.cc", "phases__compare_8cc.html", "phases__compare_8cc" ],
     [ "phases_compare.h", "phases__compare_8h.html", "phases__compare_8h" ],
+    [ "profiler.h", "profiler_8h.html", "profiler_8h" ],
     [ "quaternion.cc", "quaternion_8cc.html", "quaternion_8cc" ],
     [ "quaternion.h", "quaternion_8h.html", "quaternion_8h" ],
     [ "range_validator.cc", "range__validator_8cc.html", null ],

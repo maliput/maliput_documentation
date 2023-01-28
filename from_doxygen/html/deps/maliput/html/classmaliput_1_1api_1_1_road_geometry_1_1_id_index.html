@@ -111,20 +111,20 @@ Inheritance diagram for RoadGeometry::IdIndex:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad1e50c1a4d6e6a9880c624d371abb09e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html#ad1e50c1a4d6e6a9880c624d371abb09e">~IdIndex</a> ()=default</td></tr>
 <tr class="separator:ad1e50c1a4d6e6a9880c624d371abb09e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a9205920b2630d788bff51c7ce336d2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmaliput_1_1api_1_1_lane.html">Lane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html#a1a9205920b2630d788bff51c7ce336d2">GetLane</a> (const <a class="el" href="namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">LaneId</a> &amp;<a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#aa2dced80efb58b0fbb5f5562bc902d13">id</a>) const</td></tr>
-<tr class="memdesc:a1a9205920b2630d788bff51c7ce336d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">Lane</a> identified by <code>id</code>, or <code>nullptr</code> if <code>id</code> is unknown.  <a href="classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html#a1a9205920b2630d788bff51c7ce336d2">More...</a><br /></td></tr>
-<tr class="separator:a1a9205920b2630d788bff51c7ce336d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c334734ab6cb35e95e69feca5e4f88c"><td class="memItemLeft" align="right" valign="top">const std::unordered_map&lt; <a class="el" href="namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">LaneId</a>, const <a class="el" href="classmaliput_1_1api_1_1_lane.html">Lane</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html#a5c334734ab6cb35e95e69feca5e4f88c">GetLanes</a> () const</td></tr>
-<tr class="separator:a5c334734ab6cb35e95e69feca5e4f88c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cba00d40d570f39474e551f3f151624"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmaliput_1_1api_1_1_segment.html">Segment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html#a0cba00d40d570f39474e551f3f151624">GetSegment</a> (const <a class="el" href="namespacemaliput_1_1api.html#a405b9288d31a542db4352153419edba1">SegmentId</a> &amp;<a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#aa2dced80efb58b0fbb5f5562bc902d13">id</a>) const</td></tr>
-<tr class="memdesc:a0cba00d40d570f39474e551f3f151624"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classmaliput_1_1api_1_1_segment.html" title="A Segment represents a bundle of adjacent Lanes which share a continuously traversable road surface.">Segment</a> identified by <code>id</code>, or <code>nullptr</code> if <code>id</code> is unknown.  <a href="classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html#a0cba00d40d570f39474e551f3f151624">More...</a><br /></td></tr>
-<tr class="separator:a0cba00d40d570f39474e551f3f151624"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac50e53c261a00f25a270c37d1ebe7fe9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmaliput_1_1api_1_1_junction.html">Junction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html#ac50e53c261a00f25a270c37d1ebe7fe9">GetJunction</a> (const <a class="el" href="namespacemaliput_1_1api.html#ab025537d8f29dd0709b9c53bf2e3afd5">JunctionId</a> &amp;<a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#aa2dced80efb58b0fbb5f5562bc902d13">id</a>) const</td></tr>
-<tr class="memdesc:ac50e53c261a00f25a270c37d1ebe7fe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classmaliput_1_1api_1_1_junction.html" title="A Junction is a closed set of Segments which have physically coplanar road surfaces,...">Junction</a> identified by <code>id</code>, or <code>nullptr</code> if <code>id</code> is unknown.  <a href="classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html#ac50e53c261a00f25a270c37d1ebe7fe9">More...</a><br /></td></tr>
-<tr class="separator:ac50e53c261a00f25a270c37d1ebe7fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9261eefa0e4f258cb77ae457a6cb1932"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmaliput_1_1api_1_1_branch_point.html">BranchPoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html#a9261eefa0e4f258cb77ae457a6cb1932">GetBranchPoint</a> (const <a class="el" href="namespacemaliput_1_1api.html#af58adb58c809af6076770134bdb68e2f">BranchPointId</a> &amp;<a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#aa2dced80efb58b0fbb5f5562bc902d13">id</a>) const</td></tr>
-<tr class="memdesc:a9261eefa0e4f258cb77ae457a6cb1932"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classmaliput_1_1api_1_1_branch_point.html" title="A BranchPoint is a node in the network of a RoadGeometry at which Lanes connect to one another.">BranchPoint</a> identified by <code>id</code>, or <code>nullptr</code> if <code>id</code> is unknown.  <a href="classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html#a9261eefa0e4f258cb77ae457a6cb1932">More...</a><br /></td></tr>
-<tr class="separator:a9261eefa0e4f258cb77ae457a6cb1932"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2de7296fba895a18b91321e7c2463ec"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmaliput_1_1api_1_1_lane.html">Lane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html#aa2de7296fba895a18b91321e7c2463ec">GetLane</a> (const <a class="el" href="namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">LaneId</a> &amp;<a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#aa2dced80efb58b0fbb5f5562bc902d13">id</a>) const</td></tr>
+<tr class="memdesc:aa2de7296fba895a18b91321e7c2463ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">Lane</a> identified by <code>id</code>, or <code>nullptr</code> if <code>id</code> is unknown.  <a href="classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html#aa2de7296fba895a18b91321e7c2463ec">More...</a><br /></td></tr>
+<tr class="separator:aa2de7296fba895a18b91321e7c2463ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfa0ae7e84918a458235a61d8d2328fc"><td class="memItemLeft" align="right" valign="top">const std::unordered_map&lt; <a class="el" href="namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">LaneId</a>, const <a class="el" href="classmaliput_1_1api_1_1_lane.html">Lane</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html#adfa0ae7e84918a458235a61d8d2328fc">GetLanes</a> () const</td></tr>
+<tr class="separator:adfa0ae7e84918a458235a61d8d2328fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5c1017f270fffd0d9a8cae5ce523e50"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmaliput_1_1api_1_1_segment.html">Segment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html#ab5c1017f270fffd0d9a8cae5ce523e50">GetSegment</a> (const <a class="el" href="namespacemaliput_1_1api.html#a405b9288d31a542db4352153419edba1">SegmentId</a> &amp;<a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#aa2dced80efb58b0fbb5f5562bc902d13">id</a>) const</td></tr>
+<tr class="memdesc:ab5c1017f270fffd0d9a8cae5ce523e50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classmaliput_1_1api_1_1_segment.html" title="A Segment represents a bundle of adjacent Lanes which share a continuously traversable road surface.">Segment</a> identified by <code>id</code>, or <code>nullptr</code> if <code>id</code> is unknown.  <a href="classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html#ab5c1017f270fffd0d9a8cae5ce523e50">More...</a><br /></td></tr>
+<tr class="separator:ab5c1017f270fffd0d9a8cae5ce523e50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaac92efabd328b903465f66fdb4494b1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmaliput_1_1api_1_1_junction.html">Junction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html#aaac92efabd328b903465f66fdb4494b1">GetJunction</a> (const <a class="el" href="namespacemaliput_1_1api.html#ab025537d8f29dd0709b9c53bf2e3afd5">JunctionId</a> &amp;<a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#aa2dced80efb58b0fbb5f5562bc902d13">id</a>) const</td></tr>
+<tr class="memdesc:aaac92efabd328b903465f66fdb4494b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classmaliput_1_1api_1_1_junction.html" title="A Junction is a closed set of Segments which have physically coplanar road surfaces,...">Junction</a> identified by <code>id</code>, or <code>nullptr</code> if <code>id</code> is unknown.  <a href="classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html#aaac92efabd328b903465f66fdb4494b1">More...</a><br /></td></tr>
+<tr class="separator:aaac92efabd328b903465f66fdb4494b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae218634cfe9138f854272c0d0ddbe04b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmaliput_1_1api_1_1_branch_point.html">BranchPoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html#ae218634cfe9138f854272c0d0ddbe04b">GetBranchPoint</a> (const <a class="el" href="namespacemaliput_1_1api.html#af58adb58c809af6076770134bdb68e2f">BranchPointId</a> &amp;<a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#aa2dced80efb58b0fbb5f5562bc902d13">id</a>) const</td></tr>
+<tr class="memdesc:ae218634cfe9138f854272c0d0ddbe04b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classmaliput_1_1api_1_1_branch_point.html" title="A BranchPoint is a node in the network of a RoadGeometry at which Lanes connect to one another.">BranchPoint</a> identified by <code>id</code>, or <code>nullptr</code> if <code>id</code> is unknown.  <a href="classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html#ae218634cfe9138f854272c0d0ddbe04b">More...</a><br /></td></tr>
+<tr class="separator:ae218634cfe9138f854272c0d0ddbe04b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -183,14 +183,14 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a9261eefa0e4f258cb77ae457a6cb1932"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9261eefa0e4f258cb77ae457a6cb1932">&#9670;&nbsp;</a></span>GetBranchPoint()</h2>
+<a id="ae218634cfe9138f854272c0d0ddbe04b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae218634cfe9138f854272c0d0ddbe04b">&#9670;&nbsp;</a></span>GetBranchPoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classmaliput_1_1api_1_1_branch_point.html">BranchPoint</a>* GetBranchPoint </td>
+          <td class="memname">const <a class="el" href="classmaliput_1_1api_1_1_branch_point.html">BranchPoint</a> * GetBranchPoint </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespacemaliput_1_1api.html#af58adb58c809af6076770134bdb68e2f">BranchPointId</a> &amp;&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
@@ -203,14 +203,14 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac50e53c261a00f25a270c37d1ebe7fe9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac50e53c261a00f25a270c37d1ebe7fe9">&#9670;&nbsp;</a></span>GetJunction()</h2>
+<a id="aaac92efabd328b903465f66fdb4494b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaac92efabd328b903465f66fdb4494b1">&#9670;&nbsp;</a></span>GetJunction()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classmaliput_1_1api_1_1_junction.html">Junction</a>* GetJunction </td>
+          <td class="memname">const <a class="el" href="classmaliput_1_1api_1_1_junction.html">Junction</a> * GetJunction </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespacemaliput_1_1api.html#ab025537d8f29dd0709b9c53bf2e3afd5">JunctionId</a> &amp;&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
@@ -223,14 +223,14 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1a9205920b2630d788bff51c7ce336d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a9205920b2630d788bff51c7ce336d2">&#9670;&nbsp;</a></span>GetLane()</h2>
+<a id="aa2de7296fba895a18b91321e7c2463ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2de7296fba895a18b91321e7c2463ec">&#9670;&nbsp;</a></span>GetLane()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classmaliput_1_1api_1_1_lane.html">Lane</a>* GetLane </td>
+          <td class="memname">const <a class="el" href="classmaliput_1_1api_1_1_lane.html">Lane</a> * GetLane </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">LaneId</a> &amp;&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
@@ -243,14 +243,14 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5c334734ab6cb35e95e69feca5e4f88c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c334734ab6cb35e95e69feca5e4f88c">&#9670;&nbsp;</a></span>GetLanes()</h2>
+<a id="adfa0ae7e84918a458235a61d8d2328fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfa0ae7e84918a458235a61d8d2328fc">&#9670;&nbsp;</a></span>GetLanes()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const std::unordered_map&lt;<a class="el" href="namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">LaneId</a>, const <a class="el" href="classmaliput_1_1api_1_1_lane.html">Lane</a>*&gt;&amp; GetLanes </td>
+          <td class="memname">const std::unordered_map&lt; <a class="el" href="namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">LaneId</a>, const <a class="el" href="classmaliput_1_1api_1_1_lane.html">Lane</a> * &gt; &amp; GetLanes </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -260,14 +260,14 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0cba00d40d570f39474e551f3f151624"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cba00d40d570f39474e551f3f151624">&#9670;&nbsp;</a></span>GetSegment()</h2>
+<a id="ab5c1017f270fffd0d9a8cae5ce523e50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5c1017f270fffd0d9a8cae5ce523e50">&#9670;&nbsp;</a></span>GetSegment()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classmaliput_1_1api_1_1_segment.html">Segment</a>* GetSegment </td>
+          <td class="memname">const <a class="el" href="classmaliput_1_1api_1_1_segment.html">Segment</a> * GetSegment </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespacemaliput_1_1api.html#a405b9288d31a542db4352153419edba1">SegmentId</a> &amp;&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
@@ -280,8 +280,9 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="api_2road__geometry_8h.html">api/road_geometry.h</a></li>
+<li><a class="el" href="api_2road__geometry_8cc.html">api/road_geometry.cc</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

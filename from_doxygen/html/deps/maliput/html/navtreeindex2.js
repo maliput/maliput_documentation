@@ -1,6 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html#abcc08c5751a8d7e9ffcf5e7e27e1e611":[4,0,0,0,0,16,3],
 "classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html#af6732393db10e43a27efd4eb21b79aa1":[4,0,0,0,0,16,2],
 "classmaliput_1_1api_1_1rules_1_1_unique_bulb_group_id.html":[4,0,0,0,0,17],
 "classmaliput_1_1api_1_1rules_1_1_unique_bulb_group_id.html#a19726ac5ec776c8990fdd97e7f03ff6e":[4,0,0,0,0,17,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX2 =
 "classmaliput_1_1math_1_1_matrix.html#aadef92d2d5848ae57f768b605132420b":[4,0,0,3,7,16],
 "classmaliput_1_1math_1_1_matrix.html#ab28e50dbac30b03960d848b4fd73f60e":[4,0,0,3,7,27],
 "classmaliput_1_1math_1_1_matrix.html#abbe6f68b1c1d4da0ea8100ebf5a93e65":[4,0,0,3,7,23],
-"classmaliput_1_1math_1_1_matrix.html#ac1055218626ef565ead9b43661beba99":[4,0,0,3,7,19]
+"classmaliput_1_1math_1_1_matrix.html#ac1055218626ef565ead9b43661beba99":[4,0,0,3,7,19],
+"classmaliput_1_1math_1_1_matrix.html#ad6a05ee82dc3386c0b24f7e74df8bd9a":[4,0,0,3,7,22]
 };

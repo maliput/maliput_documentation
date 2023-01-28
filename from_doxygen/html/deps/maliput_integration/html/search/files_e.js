@@ -27,5 +27,6 @@ var searchData=
   ['piecewise_5fground_5fcurve_2ecc_2656',['piecewise_ground_curve.cc',['../../../maliput_malidrive/html/piecewise__ground__curve_8cc.html.html',1,'']]],
   ['piecewise_5fground_5fcurve_2eh_2657',['piecewise_ground_curve.h',['../../../maliput_malidrive/html/piecewise__ground__curve_8h.html.html',1,'']]],
   ['plan_5fview_2eh_2658',['plan_view.h',['../../../maliput_malidrive/html/plan__view_8h.html.html',1,'']]],
-  ['plugin_5fpy_2ecc_2659',['plugin_py.cc',['../../../maliput_py/html/plugin__py_8cc.html.html',1,'']]]
+  ['plugin_5fpy_2ecc_2659',['plugin_py.cc',['../../../maliput_py/html/plugin__py_8cc.html.html',1,'']]],
+  ['profiler_2eh_2660',['profiler.h',['../../../maliput/html/profiler_8h.html.html',1,'']]]
 ];

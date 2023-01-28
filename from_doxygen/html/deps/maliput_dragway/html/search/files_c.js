@@ -16,5 +16,6 @@ var searchData=
   ['phased_5fdiscrete_5frule_5fstate_5fprovider_2ecc_1522',['phased_discrete_rule_state_provider.cc',['../../../maliput/html/phased__discrete__rule__state__provider_8cc.html.html',1,'']]],
   ['phased_5fdiscrete_5frule_5fstate_5fprovider_2eh_1523',['phased_discrete_rule_state_provider.h',['../../../maliput/html/phased__discrete__rule__state__provider_8h.html.html',1,'']]],
   ['phases_5fcompare_2ecc_1524',['phases_compare.cc',['../../../maliput/html/phases__compare_8cc.html.html',1,'']]],
-  ['phases_5fcompare_2eh_1525',['phases_compare.h',['../../../maliput/html/phases__compare_8h.html.html',1,'']]]
+  ['phases_5fcompare_2eh_1525',['phases_compare.h',['../../../maliput/html/phases__compare_8h.html.html',1,'']]],
+  ['profiler_2eh_1526',['profiler.h',['../../../maliput/html/profiler_8h.html.html',1,'']]]
 ];

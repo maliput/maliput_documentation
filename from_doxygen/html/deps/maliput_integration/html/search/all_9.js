@@ -67,6 +67,5 @@ var searchData=
   ['isroadpositionresultclose_734',['IsRoadPositionResultClose',['../../../maliput/html/namespacemaliput_1_1api_1_1test.html#a950f33f9be84000419605fccd0e4d5cd',1,'maliput::api::test']]],
   ['isrotationclose_735',['IsRotationClose',['../../../maliput/html/namespacemaliput_1_1api_1_1test.html#a4f915921ea7a17ff176e2f78a1389f81',1,'maliput::api::test']]],
   ['isvalid_736',['IsValid',['../../../maliput_multilane/html/classmaliput_1_1multilane_1_1_arc_road_curve.html#aceda0009a11a51e625cc19c602d728bc',1,'maliput::multilane::ArcRoadCurve::IsValid()'],['../../../maliput_multilane/html/classmaliput_1_1multilane_1_1_line_road_curve.html#aceda0009a11a51e625cc19c602d728bc',1,'maliput::multilane::LineRoadCurve::IsValid()'],['../../../maliput_multilane/html/classmaliput_1_1multilane_1_1_road_curve.html#a76150d92c52c1262a76b28602c8ab13a',1,'maliput::multilane::RoadCurve::IsValid()']]],
-  ['isvalidstate_737',['IsValidState',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_bulb.html#ab608ef2efb5fa1e8cb00719a0161f7b3',1,'maliput::api::rules::Bulb']]],
-  ['iswithinrange_738',['IsWithinRange',['../../../maliput/html/namespacemaliput_1_1api.html#a29a78270572a2d5f384ea15f3fe23541',1,'maliput::api']]]
+  ['isvalidstate_737',['IsValidState',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_bulb.html#ab608ef2efb5fa1e8cb00719a0161f7b3',1,'maliput::api::rules::Bulb']]]
 ];

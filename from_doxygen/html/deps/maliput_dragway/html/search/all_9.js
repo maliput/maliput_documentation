@@ -54,6 +54,5 @@ var searchData=
   ['isrboundsclose_466',['IsRBoundsClose',['../../../maliput/html/namespacemaliput_1_1api_1_1test.html#a604e2d7a228c8cedfa589540747e25f1',1,'maliput::api::test']]],
   ['isroadpositionresultclose_467',['IsRoadPositionResultClose',['../../../maliput/html/namespacemaliput_1_1api_1_1test.html#a950f33f9be84000419605fccd0e4d5cd',1,'maliput::api::test']]],
   ['isrotationclose_468',['IsRotationClose',['../../../maliput/html/namespacemaliput_1_1api_1_1test.html#a4f915921ea7a17ff176e2f78a1389f81',1,'maliput::api::test']]],
-  ['isvalidstate_469',['IsValidState',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_bulb.html#ab608ef2efb5fa1e8cb00719a0161f7b3',1,'maliput::api::rules::Bulb']]],
-  ['iswithinrange_470',['IsWithinRange',['../../../maliput/html/namespacemaliput_1_1api.html#a29a78270572a2d5f384ea15f3fe23541',1,'maliput::api']]]
+  ['isvalidstate_469',['IsValidState',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_bulb.html#ab608ef2efb5fa1e8cb00719a0161f7b3',1,'maliput::api::rules::Bulb']]]
 ];
