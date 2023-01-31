@@ -1206,12 +1206,6 @@
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <name>off</name>
-      <anchorfile>namespacemaliput_1_1common_1_1logger.html</anchorfile>
-      <anchor>afde8e18a788ccc92fc61cab298bca7e3a53ace14c115e45153a1c9105accceb4c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
       <name>trace</name>
       <anchorfile>namespacemaliput_1_1common_1_1logger.html</anchorfile>
       <anchor>afde8e18a788ccc92fc61cab298bca7e3a36a3b17acbfb35380a47b3d88c9b8942</anchor>
@@ -1245,6 +1239,12 @@
       <name>critical</name>
       <anchorfile>namespacemaliput_1_1common_1_1logger.html</anchorfile>
       <anchor>afde8e18a788ccc92fc61cab298bca7e3a5fe0ea375791d13455a34f3d40dc9c7d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>off</name>
+      <anchorfile>namespacemaliput_1_1common_1_1logger.html</anchorfile>
+      <anchor>afde8e18a788ccc92fc61cab298bca7e3a53ace14c115e45153a1c9105accceb4c</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
@@ -17348,12 +17348,6 @@
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
-      <name>off</name>
-      <anchorfile>namespacemaliput_1_1common_1_1logger.html</anchorfile>
-      <anchor>afde8e18a788ccc92fc61cab298bca7e3a53ace14c115e45153a1c9105accceb4c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="enumvalue">
       <name>trace</name>
       <anchorfile>namespacemaliput_1_1common_1_1logger.html</anchorfile>
       <anchor>afde8e18a788ccc92fc61cab298bca7e3a36a3b17acbfb35380a47b3d88c9b8942</anchor>
@@ -17387,6 +17381,12 @@
       <name>critical</name>
       <anchorfile>namespacemaliput_1_1common_1_1logger.html</anchorfile>
       <anchor>afde8e18a788ccc92fc61cab298bca7e3a5fe0ea375791d13455a34f3d40dc9c7d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>off</name>
+      <anchorfile>namespacemaliput_1_1common_1_1logger.html</anchorfile>
+      <anchor>afde8e18a788ccc92fc61cab298bca7e3a53ace14c115e45153a1c9105accceb4c</anchor>
       <arglist></arglist>
     </member>
     <member kind="enumvalue">
