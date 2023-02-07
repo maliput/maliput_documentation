@@ -14911,6 +14911,13 @@
       <anchor>a306392c895dce3965dd925a36a71391c</anchor>
       <arglist>(const std::string &amp;vector_str)</arglist>
     </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr std::size_t</type>
+      <name>kDimension</name>
+      <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
+      <anchor>ad84b87a816f6adc156f7d09cbd2894ad</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="variable" protection="protected">
       <type>std::array&lt; double, N &gt;</type>
       <name>values_</name>
@@ -15117,6 +15124,13 @@
       <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
       <anchor>a306392c895dce3965dd925a36a71391c</anchor>
       <arglist>(const std::string &amp;vector_str)</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr std::size_t</type>
+      <name>kDimension</name>
+      <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
+      <anchor>ad84b87a816f6adc156f7d09cbd2894ad</anchor>
+      <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
       <type>std::array&lt; double, N &gt;</type>
@@ -15325,6 +15339,13 @@
       <anchor>a306392c895dce3965dd925a36a71391c</anchor>
       <arglist>(const std::string &amp;vector_str)</arglist>
     </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr std::size_t</type>
+      <name>kDimension</name>
+      <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
+      <anchor>ad84b87a816f6adc156f7d09cbd2894ad</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="variable" protection="protected">
       <type>std::array&lt; double, N &gt;</type>
       <name>values_</name>
@@ -15532,6 +15553,13 @@
       <anchor>a306392c895dce3965dd925a36a71391c</anchor>
       <arglist>(const std::string &amp;vector_str)</arglist>
     </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr std::size_t</type>
+      <name>kDimension</name>
+      <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
+      <anchor>ad84b87a816f6adc156f7d09cbd2894ad</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="variable" protection="protected">
       <type>std::array&lt; double, N &gt;</type>
       <name>values_</name>
@@ -15738,6 +15766,13 @@
       <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
       <anchor>a306392c895dce3965dd925a36a71391c</anchor>
       <arglist>(const std::string &amp;vector_str)</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr std::size_t</type>
+      <name>kDimension</name>
+      <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
+      <anchor>ad84b87a816f6adc156f7d09cbd2894ad</anchor>
+      <arglist></arglist>
     </member>
     <member kind="variable" protection="protected">
       <type>std::array&lt; double, N &gt;</type>

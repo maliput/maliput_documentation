@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"maliput__plugin__type_8h.html":[5,0,78],
 "maliput__plugin__type_8h.html#a2afd58b120b90956eefe0e19727605d7":[5,0,78,0],
 "maliput__plugin__type_8h.html#a2afd58b120b90956eefe0e19727605d7a8adc28f8c40a859b0b10d73151f70794":[5,0,78,0,0],
 "maliput__throw_8h.html":[5,0,79],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "mock_8h.html#ab721bf86f7c6a95fb347209649e92d86":[5,0,102,66],
 "mock_8h.html#abc28ca8174569877ffb51fc033b4892a":[5,0,102,63],
 "mock_8h.html#abf5240b6d7d293372814907b54a984f4":[5,0,102,25],
-"mock_8h.html#aca2601f4483c573870038c4147109fbc":[5,0,102,36],
-"mock_8h.html#acb299c39196e6da912e40ff5b01e9771":[5,0,102,37]
+"mock_8h.html#aca2601f4483c573870038c4147109fbc":[5,0,102,36]
 };

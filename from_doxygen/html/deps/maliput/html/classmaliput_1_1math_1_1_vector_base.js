@@ -28,5 +28,6 @@ var classmaliput_1_1math_1_1_vector_base =
     [ "operator*", "classmaliput_1_1math_1_1_vector_base.html#a6477d4f1a51a0c5c3ec47a60fdb4203e", null ],
     [ "operator*", "classmaliput_1_1math_1_1_vector_base.html#a26eff520ddd8f75a8b3b747455e756e5", null ],
     [ "operator<<", "classmaliput_1_1math_1_1_vector_base.html#abb7e8f7ce1f48418814ff28063f31567", null ],
+    [ "kDimension", "classmaliput_1_1math_1_1_vector_base.html#ad84b87a816f6adc156f7d09cbd2894ad", null ],
     [ "values_", "classmaliput_1_1math_1_1_vector_base.html#a965e041a57d285d60d2abce184306e77", null ]
 ];

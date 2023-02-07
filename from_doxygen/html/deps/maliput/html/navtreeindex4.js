@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"derive__lane__s__routes_8cc.html":[5,0,19],
 "derive__lane__s__routes_8cc.html#a50450cdc6c1aefc360378b2dd8e7cafd":[5,0,19,0],
 "derive__lane__s__routes_8h.html":[5,0,20],
 "derive__lane__s__routes_8h.html#a50450cdc6c1aefc360378b2dd8e7cafd":[5,0,20,0],
@@ -149,8 +150,8 @@ var NAVTREEINDEX4 =
 "group__levelmethods.html#ga899f1968fcde75e69f00e0053e8a9e9d":[4,0,0,1,4,3],
 "group__levelmethods.html#gaad76e8446fb03a2f45e502092d96a376":[2,0,4],
 "group__levelmethods.html#gaad76e8446fb03a2f45e502092d96a376":[4,0,0,1,4,9],
-"group__levelmethods.html#gaca46af6ad7e486edceb7ad7752f02d6a":[4,0,0,1,4,5],
 "group__levelmethods.html#gaca46af6ad7e486edceb7ad7752f02d6a":[2,0,3],
+"group__levelmethods.html#gaca46af6ad7e486edceb7ad7752f02d6a":[4,0,0,1,4,5],
 "group__levelmethods.html#gad70e2d016bdb487c04f8299fe395d42e":[2,0,5],
 "group__levelmethods.html#gad70e2d016bdb487c04f8299fe395d42e":[4,0,0,1,4,10],
 "group__levelmethods.html#gae99b323afab58fbf83f92c6d679e1276":[2,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "maliput__plugin_8h.html":[5,0,74],
 "maliput__plugin__architecture_8h.html":[5,0,75],
 "maliput__plugin__manager_8cc.html":[5,0,76],
-"maliput__plugin__manager_8h.html":[5,0,77],
-"maliput__plugin__type_8h.html":[5,0,78]
+"maliput__plugin__manager_8h.html":[5,0,77]
 };

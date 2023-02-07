@@ -134,7 +134,7 @@ var NAVTREEINDEX3 =
 "classmaliput_1_1math_1_1_vector_base.html#a6477d4f1a51a0c5c3ec47a60fdb4203e":[4,0,0,3,14,25],
 "classmaliput_1_1math_1_1_vector_base.html#a7157eb0f3e4314a1d621f0bed374ea97":[4,0,0,3,14,23],
 "classmaliput_1_1math_1_1_vector_base.html#a905fbcc816baf4c94415fb4548602a50":[4,0,0,3,14,16],
-"classmaliput_1_1math_1_1_vector_base.html#a965e041a57d285d60d2abce184306e77":[4,0,0,3,14,28],
+"classmaliput_1_1math_1_1_vector_base.html#a965e041a57d285d60d2abce184306e77":[4,0,0,3,14,29],
 "classmaliput_1_1math_1_1_vector_base.html#a96e7df0569658f4bd1a5226a905c93d0":[4,0,0,3,14,10],
 "classmaliput_1_1math_1_1_vector_base.html#aace65438ca391d3f70e60557ebdceb07":[4,0,0,3,14,5],
 "classmaliput_1_1math_1_1_vector_base.html#ab1a8588a6efb4f64c89636b3f6833613":[4,0,0,3,14,17],
@@ -142,6 +142,7 @@ var NAVTREEINDEX3 =
 "classmaliput_1_1math_1_1_vector_base.html#abb7e8f7ce1f48418814ff28063f31567":[4,0,0,3,14,27],
 "classmaliput_1_1math_1_1_vector_base.html#acd0de676568888d848beb97dcc53ae47":[4,0,0,3,14,8],
 "classmaliput_1_1math_1_1_vector_base.html#ad19e5b6f903f6f52869e9b8f7176021b":[4,0,0,3,14,12],
+"classmaliput_1_1math_1_1_vector_base.html#ad84b87a816f6adc156f7d09cbd2894ad":[4,0,0,3,14,28],
 "classmaliput_1_1math_1_1_vector_base.html#adbeac4b406b78e64460863820679c14f":[4,0,0,3,14,7],
 "classmaliput_1_1math_1_1_vector_base.html#ade1601ccf1fa3bcf050867f0852ca4e5":[4,0,0,3,14,21],
 "classmaliput_1_1math_1_1_vector_base.html#ae2a5052de7fa1c770923eba33f700a33":[4,0,0,3,14,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "create__road__network_8cc.html#a995734bfcb7af87c6f7dc4fc81bbd11b":[5,0,17,0],
 "create__road__network_8h.html":[5,0,18],
 "create__road__network_8h.html#a4d44dfc15ed8c612a7a803b0033b6a80":[5,0,18,1],
-"create__road__network_8h.html#a995734bfcb7af87c6f7dc4fc81bbd11b":[5,0,18,0],
-"derive__lane__s__routes_8cc.html":[5,0,19]
+"create__road__network_8h.html#a995734bfcb7af87c6f7dc4fc81bbd11b":[5,0,18,0]
 };
