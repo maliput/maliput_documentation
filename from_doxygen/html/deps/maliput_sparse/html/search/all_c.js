@@ -9,8 +9,10 @@ var searchData=
   ['maliput_5fsparse_124',['maliput_sparse',['../namespacemaliput__sparse.html',1,'']]],
   ['maliput_5fsparse_5ftypes_5fcompare_2ecc_125',['maliput_sparse_types_compare.cc',['../maliput__sparse__types__compare_8cc.html',1,'']]],
   ['maliput_5fsparse_5ftypes_5fcompare_2eh_126',['maliput_sparse_types_compare.h',['../maliput__sparse__types__compare_8h.html',1,'']]],
-  ['message_127',['message',['../structmaliput__sparse_1_1parser_1_1_validator_1_1_error.html#a36bd74109f547f7f8198faf5a12d2879',1,'maliput_sparse::parser::Validator::Error']]],
-  ['parser_128',['parser',['../namespacemaliput__sparse_1_1parser.html',1,'maliput_sparse']]],
-  ['test_129',['test',['../namespacemaliput__sparse_1_1test.html',1,'maliput_sparse']]],
-  ['utility_130',['utility',['../namespacemaliput__sparse_1_1geometry_1_1utility.html',1,'maliput_sparse::geometry']]]
+  ['max_127',['max',['../structmaliput__sparse_1_1geometry_1_1_line_string_1_1_segment_1_1_interval.html#a0b0ede69e8156eb97acc579b88e883de',1,'maliput_sparse::geometry::LineString::Segment::Interval']]],
+  ['message_128',['message',['../structmaliput__sparse_1_1parser_1_1_validator_1_1_error.html#a36bd74109f547f7f8198faf5a12d2879',1,'maliput_sparse::parser::Validator::Error']]],
+  ['min_129',['min',['../structmaliput__sparse_1_1geometry_1_1_line_string_1_1_segment_1_1_interval.html#aad36546e8175d2922bee165fe028fedc',1,'maliput_sparse::geometry::LineString::Segment::Interval']]],
+  ['parser_130',['parser',['../namespacemaliput__sparse_1_1parser.html',1,'maliput_sparse']]],
+  ['test_131',['test',['../namespacemaliput__sparse_1_1test.html',1,'maliput_sparse']]],
+  ['utility_132',['utility',['../namespacemaliput__sparse_1_1geometry_1_1utility.html',1,'maliput_sparse::geometry']]]
 ];

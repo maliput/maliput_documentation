@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['nestedbuilder_234',['NestedBuilder',['../classmaliput__sparse_1_1builder_1_1details_1_1_nested_builder.html',1,'maliput_sparse::builder::details']]],
-  ['nestedbuilder_3c_20junctionbuilder_20_3e_235',['NestedBuilder&lt; JunctionBuilder &gt;',['../classmaliput__sparse_1_1builder_1_1details_1_1_nested_builder.html',1,'maliput_sparse::builder::details']]],
-  ['nestedbuilder_3c_20lanebuilder_20_3e_236',['NestedBuilder&lt; LaneBuilder &gt;',['../classmaliput__sparse_1_1builder_1_1details_1_1_nested_builder.html',1,'maliput_sparse::builder::details']]],
-  ['nestedbuilder_3c_20roadgeometrybuilder_20_3e_237',['NestedBuilder&lt; RoadGeometryBuilder &gt;',['../classmaliput__sparse_1_1builder_1_1details_1_1_nested_builder.html',1,'maliput_sparse::builder::details']]],
-  ['nestedbuilder_3c_20segmentbuilder_20_3e_238',['NestedBuilder&lt; SegmentBuilder &gt;',['../classmaliput__sparse_1_1builder_1_1details_1_1_nested_builder.html',1,'maliput_sparse::builder::details']]]
+  ['lane_230',['Lane',['../classmaliput__sparse_1_1_lane.html',1,'Lane'],['../structmaliput__sparse_1_1parser_1_1_lane.html',1,'Lane']]],
+  ['lanebuilder_231',['LaneBuilder',['../classmaliput__sparse_1_1builder_1_1_lane_builder.html',1,'maliput_sparse::builder']]],
+  ['laneend_232',['LaneEnd',['../structmaliput__sparse_1_1parser_1_1_lane_end.html',1,'LaneEnd'],['../structmaliput__sparse_1_1builder_1_1_lane_end.html',1,'LaneEnd']]],
+  ['lanegeometry_233',['LaneGeometry',['../classmaliput__sparse_1_1geometry_1_1_lane_geometry.html',1,'maliput_sparse::geometry']]],
+  ['lanegeometrybuilder_234',['LaneGeometryBuilder',['../classmaliput__sparse_1_1builder_1_1_lane_geometry_builder.html',1,'maliput_sparse::builder']]],
+  ['linestring_235',['LineString',['../classmaliput__sparse_1_1geometry_1_1_line_string.html',1,'maliput_sparse::geometry']]]
 ];

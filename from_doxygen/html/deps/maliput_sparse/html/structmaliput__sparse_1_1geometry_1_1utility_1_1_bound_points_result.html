@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>maliput_sparse: BoundPointsResult&lt; CoordinateT &gt; Struct Template Reference</title>
+<title>maliput_sparse: BoundPointsResult Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -92,41 +92,46 @@ $(document).ready(function(){initNavTree('structmaliput__sparse_1_1geometry_1_1u
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structmaliput__sparse_1_1geometry_1_1utility_1_1_bound_points_result-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">BoundPointsResult&lt; CoordinateT &gt; Struct Template Reference</div>  </div>
+<div class="title">BoundPointsResult Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename CoordinateT&gt;<br />
-struct maliput_sparse::geometry::utility::BoundPointsResult&lt; CoordinateT &gt;</h3>
-
-<p>Holds the result of <a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a10c5233c208c6e69b7eeddb36cd53dc7" title="Obtains the points that confines p in the line_string .">GetBoundPointsAtP</a> method. </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">CoordinateT</td><td>The coordinate type. </td></tr>
-  </table>
-  </dd>
-</dl>
+<div class="textblock"><p>Holds the result of <a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a8793078fea1db974c72cab3d9d2987f9" title="Obtains the points that confines p in the line_string .">GetBoundPointsAtP</a> method. </p>
 </div>
 <p><code>#include &lt;include/maliput_sparse/geometry/utility/geometry.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:afc8f7af192f9e2603e9061013175d75b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html">LineString</a>&lt; CoordinateT &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_bound_points_result.html#afc8f7af192f9e2603e9061013175d75b">first</a></td></tr>
-<tr class="separator:afc8f7af192f9e2603e9061013175d75b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a367b853c494de6d62cc2edb939988a83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html">LineString</a>&lt; CoordinateT &gt;::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_bound_points_result.html#a367b853c494de6d62cc2edb939988a83">second</a></td></tr>
-<tr class="separator:a367b853c494de6d62cc2edb939988a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d8519c66f59f74caeff31cc214eed27"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_bound_points_result.html#a4d8519c66f59f74caeff31cc214eed27">idx_start</a></td></tr>
+<tr class="separator:a4d8519c66f59f74caeff31cc214eed27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00db262394471710e93a6a750a053533"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_bound_points_result.html#a00db262394471710e93a6a750a053533">idx_end</a></td></tr>
+<tr class="separator:a00db262394471710e93a6a750a053533"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a928b11f5716331f0b89abe7d8d4124b4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_bound_points_result.html#a928b11f5716331f0b89abe7d8d4124b4">length</a></td></tr>
 <tr class="separator:a928b11f5716331f0b89abe7d8d4124b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="afc8f7af192f9e2603e9061013175d75b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc8f7af192f9e2603e9061013175d75b">&#9670;&nbsp;</a></span>first</h2>
+<a id="a00db262394471710e93a6a750a053533"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00db262394471710e93a6a750a053533">&#9670;&nbsp;</a></span>idx_end</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html">LineString</a>&lt;CoordinateT&gt;::const_iterator first</td>
+          <td class="memname">std::size_t idx_end</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d8519c66f59f74caeff31cc214eed27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d8519c66f59f74caeff31cc214eed27">&#9670;&nbsp;</a></span>idx_start</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t idx_start</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -141,20 +146,6 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">double length</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a367b853c494de6d62cc2edb939988a83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a367b853c494de6d62cc2edb939988a83">&#9670;&nbsp;</a></span>second</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html">LineString</a>&lt;CoordinateT&gt;::const_iterator second</td>
         </tr>
       </table>
 </div><div class="memdoc">

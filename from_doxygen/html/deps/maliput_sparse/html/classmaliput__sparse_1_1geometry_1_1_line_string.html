@@ -89,6 +89,7 @@ $(document).ready(function(){initNavTree('classmaliput__sparse_1_1geometry_1_1_l
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classmaliput__sparse_1_1geometry_1_1_line_string-members.html">List of all members</a>  </div>
@@ -111,12 +112,20 @@ class maliput_sparse::geometry::LineString&lt; CoordinateT, DistanceFunction &gt
 </div>
 <p><code>#include &lt;include/maliput_sparse/geometry/line_string.h&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1geometry_1_1_line_string_1_1_segment.html">Segment</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A segment of a <a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html" title="Defines a polyline in the CoordinateT domain composed of at least 2 points.">LineString</a>.  <a href="structmaliput__sparse_1_1geometry_1_1_line_string_1_1_segment.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:afbce7d7378a6ee19f67898522dbedf2a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#afbce7d7378a6ee19f67898522dbedf2a">iterator</a> = typename std::vector&lt; CoordinateT &gt;::<a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#afbce7d7378a6ee19f67898522dbedf2a">iterator</a></td></tr>
 <tr class="separator:afbce7d7378a6ee19f67898522dbedf2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a496c6236489e58faaf02fd4750427d92"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a496c6236489e58faaf02fd4750427d92">const_iterator</a> = typename std::vector&lt; CoordinateT &gt;::<a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a496c6236489e58faaf02fd4750427d92">const_iterator</a></td></tr>
 <tr class="separator:a496c6236489e58faaf02fd4750427d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14fa0c2eed9e4242a1b267c726d2e18b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a14fa0c2eed9e4242a1b267c726d2e18b">Segments</a> = std::map&lt; typename <a class="el" href="structmaliput__sparse_1_1geometry_1_1_line_string_1_1_segment_1_1_interval.html">Segment::Interval</a>, <a class="el" href="structmaliput__sparse_1_1geometry_1_1_line_string_1_1_segment.html">Segment</a> &gt;</td></tr>
+<tr class="separator:a14fa0c2eed9e4242a1b267c726d2e18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -140,6 +149,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a259cb5a711406a8c3e5d937eb9350cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80401d480f15e1418a3274a2b2b51649"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a80401d480f15e1418a3274a2b2b51649">length</a> () const</td></tr>
 <tr class="separator:a80401d480f15e1418a3274a2b2b51649"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a46416f1b1d538fae4c1414a95ffab0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a14fa0c2eed9e4242a1b267c726d2e18b">Segments</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a9a46416f1b1d538fae4c1414a95ffab0">segments</a> () const</td></tr>
+<tr class="memdesc:a9a46416f1b1d538fae4c1414a95ffab0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the segments of this <a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html" title="Defines a polyline in the CoordinateT domain composed of at least 2 points.">LineString</a>.  <a href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a9a46416f1b1d538fae4c1414a95ffab0">More...</a><br /></td></tr>
+<tr class="separator:a9a46416f1b1d538fae4c1414a95ffab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad69bd11391be1a1dba5c8202259664f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#afbce7d7378a6ee19f67898522dbedf2a">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#ad69bd11391be1a1dba5c8202259664f8">begin</a> ()</td></tr>
 <tr class="separator:ad69bd11391be1a1dba5c8202259664f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29305669b60ca1680752e2fc3592ba99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a496c6236489e58faaf02fd4750427d92">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a29305669b60ca1680752e2fc3592ba99">begin</a> () const</td></tr>
@@ -179,6 +191,20 @@ Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#afbce7d7378a6ee19f67898522dbedf2a">iterator</a> =  typename std::vector&lt;CoordinateT&gt;::<a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#afbce7d7378a6ee19f67898522dbedf2a">iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14fa0c2eed9e4242a1b267c726d2e18b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14fa0c2eed9e4242a1b267c726d2e18b">&#9670;&nbsp;</a></span>Segments</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a14fa0c2eed9e4242a1b267c726d2e18b">Segments</a> =  std::map&lt;typename <a class="el" href="structmaliput__sparse_1_1geometry_1_1_line_string_1_1_segment_1_1_interval.html">Segment::Interval</a>, <a class="el" href="structmaliput__sparse_1_1geometry_1_1_line_string_1_1_segment.html">Segment</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -511,6 +537,26 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a46416f1b1d538fae4c1414a95ffab0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a46416f1b1d538fae4c1414a95ffab0">&#9670;&nbsp;</a></span>segments()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a14fa0c2eed9e4242a1b267c726d2e18b">Segments</a>&amp; segments </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the segments of this <a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html" title="Defines a polyline in the CoordinateT domain composed of at least 2 points.">LineString</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>A vector of segments. </dd></dl>
 
 </div>
 </div>

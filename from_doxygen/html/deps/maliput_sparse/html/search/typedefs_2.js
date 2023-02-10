@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['id_438',['Id',['../structmaliput__sparse_1_1parser_1_1_junction.html#a1bd314c1e2831d74056207533d890511',1,'maliput_sparse::parser::Junction::Id()'],['../structmaliput__sparse_1_1parser_1_1_lane.html#a1bd314c1e2831d74056207533d890511',1,'maliput_sparse::parser::Lane::Id()'],['../structmaliput__sparse_1_1parser_1_1_segment.html#a1bd314c1e2831d74056207533d890511',1,'maliput_sparse::parser::Segment::Id()']]],
-  ['iterator_439',['iterator',['../classmaliput__sparse_1_1geometry_1_1_line_string.html#afbce7d7378a6ee19f67898522dbedf2a',1,'maliput_sparse::geometry::LineString']]]
+  ['laneendsmultimap_445',['LaneEndsMultimap',['../classmaliput__sparse_1_1builder_1_1_branch_point_builder.html#ada176c98e774943bf058151e7eb8ff4d',1,'maliput_sparse::builder::BranchPointBuilder']]],
+  ['linestring2d_446',['LineString2d',['../namespacemaliput__sparse_1_1geometry.html#a42b67b57385345efba74c3a13914078f',1,'maliput_sparse::geometry']]],
+  ['linestring3d_447',['LineString3d',['../namespacemaliput__sparse_1_1geometry.html#accac056a7e29520263437aa7688469b1',1,'maliput_sparse::geometry']]]
 ];

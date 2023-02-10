@@ -1,7 +1,9 @@
 var classmaliput__sparse_1_1geometry_1_1_line_string =
 [
+    [ "Segment", "structmaliput__sparse_1_1geometry_1_1_line_string_1_1_segment.html", "structmaliput__sparse_1_1geometry_1_1_line_string_1_1_segment" ],
     [ "const_iterator", "classmaliput__sparse_1_1geometry_1_1_line_string.html#a496c6236489e58faaf02fd4750427d92", null ],
     [ "iterator", "classmaliput__sparse_1_1geometry_1_1_line_string.html#afbce7d7378a6ee19f67898522dbedf2a", null ],
+    [ "Segments", "classmaliput__sparse_1_1geometry_1_1_line_string.html#a14fa0c2eed9e4242a1b267c726d2e18b", null ],
     [ "LineString", "classmaliput__sparse_1_1geometry_1_1_line_string.html#a45eca4113d07c23537f9b1bfcf8814fa", null ],
     [ "LineString", "classmaliput__sparse_1_1geometry_1_1_line_string.html#aeada8ead7e6058f2c2d484f6f57b9b73", null ],
     [ "LineString", "classmaliput__sparse_1_1geometry_1_1_line_string.html#ae202c382c3033a294889b3dd009f9e27", null ],
@@ -16,5 +18,6 @@ var classmaliput__sparse_1_1geometry_1_1_line_string =
     [ "operator==", "classmaliput__sparse_1_1geometry_1_1_line_string.html#a57c7bdf1cea337e7b5340a6a73d4c298", null ],
     [ "operator[]", "classmaliput__sparse_1_1geometry_1_1_line_string.html#a4785081f64915e963a2cab80e13fe9a5", null ],
     [ "operator[]", "classmaliput__sparse_1_1geometry_1_1_line_string.html#a8b9cae5e7f545e8bc7601de40939bb4f", null ],
+    [ "segments", "classmaliput__sparse_1_1geometry_1_1_line_string.html#a9a46416f1b1d538fae4c1414a95ffab0", null ],
     [ "size", "classmaliput__sparse_1_1geometry_1_1_line_string.html#a259cb5a711406a8c3e5d937eb9350cca", null ]
 ];

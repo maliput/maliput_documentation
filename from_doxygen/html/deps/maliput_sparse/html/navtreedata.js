@@ -58,7 +58,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"road__geometry__loader_8cc.html"
+"road__geometry__loader_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

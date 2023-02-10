@@ -1,10 +1,5 @@
 var searchData=
 [
-  ['lane_227',['Lane',['../classmaliput__sparse_1_1_lane.html',1,'Lane'],['../structmaliput__sparse_1_1parser_1_1_lane.html',1,'Lane']]],
-  ['lanebuilder_228',['LaneBuilder',['../classmaliput__sparse_1_1builder_1_1_lane_builder.html',1,'maliput_sparse::builder']]],
-  ['laneend_229',['LaneEnd',['../structmaliput__sparse_1_1parser_1_1_lane_end.html',1,'LaneEnd'],['../structmaliput__sparse_1_1builder_1_1_lane_end.html',1,'LaneEnd']]],
-  ['lanegeometry_230',['LaneGeometry',['../classmaliput__sparse_1_1geometry_1_1_lane_geometry.html',1,'maliput_sparse::geometry']]],
-  ['lanegeometrybuilder_231',['LaneGeometryBuilder',['../classmaliput__sparse_1_1builder_1_1_lane_geometry_builder.html',1,'maliput_sparse::builder']]],
-  ['linestring_232',['LineString',['../classmaliput__sparse_1_1geometry_1_1_line_string.html',1,'maliput_sparse::geometry']]],
-  ['linestring_3c_20coordinatet_20_3e_233',['LineString&lt; CoordinateT &gt;',['../classmaliput__sparse_1_1geometry_1_1_line_string.html',1,'maliput_sparse::geometry']]]
+  ['junction_228',['Junction',['../structmaliput__sparse_1_1parser_1_1_junction.html',1,'maliput_sparse::parser']]],
+  ['junctionbuilder_229',['JunctionBuilder',['../classmaliput__sparse_1_1builder_1_1_junction_builder.html',1,'maliput_sparse::builder']]]
 ];
