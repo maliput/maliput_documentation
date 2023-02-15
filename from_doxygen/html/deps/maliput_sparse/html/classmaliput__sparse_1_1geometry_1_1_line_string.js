@@ -1,8 +1,10 @@
 var classmaliput__sparse_1_1geometry_1_1_line_string =
 [
+    [ "Point", "classmaliput__sparse_1_1geometry_1_1_line_string_1_1_point.html", "classmaliput__sparse_1_1geometry_1_1_line_string_1_1_point" ],
     [ "Segment", "structmaliput__sparse_1_1geometry_1_1_line_string_1_1_segment.html", "structmaliput__sparse_1_1geometry_1_1_line_string_1_1_segment" ],
     [ "const_iterator", "classmaliput__sparse_1_1geometry_1_1_line_string.html#a496c6236489e58faaf02fd4750427d92", null ],
     [ "iterator", "classmaliput__sparse_1_1geometry_1_1_line_string.html#afbce7d7378a6ee19f67898522dbedf2a", null ],
+    [ "KDTree", "classmaliput__sparse_1_1geometry_1_1_line_string.html#a518046add5766230945d996e50ba1cbe", null ],
     [ "Segments", "classmaliput__sparse_1_1geometry_1_1_line_string.html#a14fa0c2eed9e4242a1b267c726d2e18b", null ],
     [ "LineString", "classmaliput__sparse_1_1geometry_1_1_line_string.html#a45eca4113d07c23537f9b1bfcf8814fa", null ],
     [ "LineString", "classmaliput__sparse_1_1geometry_1_1_line_string.html#aeada8ead7e6058f2c2d484f6f57b9b73", null ],
@@ -13,11 +15,13 @@ var classmaliput__sparse_1_1geometry_1_1_line_string =
     [ "end", "classmaliput__sparse_1_1geometry_1_1_line_string.html#acad38d52497a975bfb6f2f6acd76631f", null ],
     [ "end", "classmaliput__sparse_1_1geometry_1_1_line_string.html#accf9a4bd0c34d4a5f6a7dab66ea10cdc", null ],
     [ "first", "classmaliput__sparse_1_1geometry_1_1_line_string.html#a296f65dc27a7bac807d49793377b63e1", null ],
+    [ "kd_tree", "classmaliput__sparse_1_1geometry_1_1_line_string.html#a40d74145ba56af650273c279afe32589", null ],
     [ "last", "classmaliput__sparse_1_1geometry_1_1_line_string.html#aa02b39e4d3683acbe8de957727c22034", null ],
     [ "length", "classmaliput__sparse_1_1geometry_1_1_line_string.html#a80401d480f15e1418a3274a2b2b51649", null ],
     [ "operator==", "classmaliput__sparse_1_1geometry_1_1_line_string.html#a57c7bdf1cea337e7b5340a6a73d4c298", null ],
     [ "operator[]", "classmaliput__sparse_1_1geometry_1_1_line_string.html#a4785081f64915e963a2cab80e13fe9a5", null ],
     [ "operator[]", "classmaliput__sparse_1_1geometry_1_1_line_string.html#a8b9cae5e7f545e8bc7601de40939bb4f", null ],
+    [ "points", "classmaliput__sparse_1_1geometry_1_1_line_string.html#ae4a22d234079b9eaa54a97c766fede1b", null ],
     [ "segments", "classmaliput__sparse_1_1geometry_1_1_line_string.html#a9a46416f1b1d538fae4c1414a95ffab0", null ],
     [ "size", "classmaliput__sparse_1_1geometry_1_1_line_string.html#a259cb5a711406a8c3e5d937eb9350cca", null ]
 ];

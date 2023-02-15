@@ -106,6 +106,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html">ClosestPointResult</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds the result of <a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#af141c67b9d30111679c4d64d4f14cb5b" title="Gets the closest point in the line_string to the given xyz point.">GetClosestPoint</a> method.  <a href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_to_segment_result.html">ClosestPointToSegmentResult</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds the result of <a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a6a690986d7ced4f91654191cb717c439" title="Gets the closest point in the segment to the given xyz point.">GetClosestPointToSegment</a> method.  <a href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_to_segment_result.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -113,6 +116,10 @@ Typedefs</h2></td></tr>
 <tr class="separator:a1ba18009ef7f68d745d3203879ebe828"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0acb39f69d4f184f1794f5a4f368e00"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#ae0acb39f69d4f184f1794f5a4f368e00">ClosestPointResult2d</a> = <a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html">ClosestPointResult</a>&lt; maliput::math::Vector2 &gt;</td></tr>
 <tr class="separator:ae0acb39f69d4f184f1794f5a4f368e00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af971157fea6bc7daee77abe516e392cd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#af971157fea6bc7daee77abe516e392cd">ClosestPointToSegmentResult3d</a> = <a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_to_segment_result.html">ClosestPointToSegmentResult</a>&lt; maliput::math::Vector3 &gt;</td></tr>
+<tr class="separator:af971157fea6bc7daee77abe516e392cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22f0aa9dd121d5c6e4b1e41108f1ea44"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a22f0aa9dd121d5c6e4b1e41108f1ea44">ClosestPointToSegmentResult2d</a> = <a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_to_segment_result.html">ClosestPointToSegmentResult</a>&lt; maliput::math::Vector2 &gt;</td></tr>
+<tr class="separator:a22f0aa9dd121d5c6e4b1e41108f1ea44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a335b94718b7836751153396bc6a2a6b4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a335b94718b7836751153396bc6a2a6b4">OptDistance</a> = std::optional&lt; double &gt;</td></tr>
 <tr class="separator:a335b94718b7836751153396bc6a2a6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7687d9ec93ab5b257ae36fdd925df410"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a7687d9ec93ab5b257ae36fdd925df410">Segment3d</a> = std::pair&lt; Vector3, Vector3 &gt;</td></tr>
@@ -145,10 +152,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a0f7101329bb24b343ed62893921245b9"><td class="memItemLeft" align="right" valign="top">maliput::math::Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a0f7101329bb24b343ed62893921245b9">GetTangentAtP</a> (const <a class="el" href="namespacemaliput__sparse_1_1geometry.html#accac056a7e29520263437aa7688469b1">LineString3d</a> &amp;line_string, double p, double tolerance)</td></tr>
 <tr class="memdesc:a0f7101329bb24b343ed62893921245b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the 3d-tangent of a <code>line_string</code> for a given <code>p</code> .  <a href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a0f7101329bb24b343ed62893921245b9">More...</a><br /></td></tr>
 <tr class="separator:a0f7101329bb24b343ed62893921245b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcc13ee6f3bdb65c699f74a2a39618f6"><td class="memTemplParams" colspan="2">template&lt;typename CoordinateT  = maliput::math::Vector3&gt; </td></tr>
-<tr class="memitem:abcc13ee6f3bdb65c699f74a2a39618f6"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html">ClosestPointResult</a>&lt; CoordinateT &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#abcc13ee6f3bdb65c699f74a2a39618f6">GetClosestPointToSegment</a> (const std::pair&lt; CoordinateT, CoordinateT &gt; &amp;segment, const CoordinateT &amp;coordinate, double tolerance)</td></tr>
-<tr class="memdesc:abcc13ee6f3bdb65c699f74a2a39618f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the closest point in the <code>segment</code> to the given <code>xyz</code> point.  <a href="namespacemaliput__sparse_1_1geometry_1_1utility.html#abcc13ee6f3bdb65c699f74a2a39618f6">More...</a><br /></td></tr>
-<tr class="separator:abcc13ee6f3bdb65c699f74a2a39618f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a690986d7ced4f91654191cb717c439"><td class="memTemplParams" colspan="2">template&lt;typename CoordinateT  = maliput::math::Vector3&gt; </td></tr>
+<tr class="memitem:a6a690986d7ced4f91654191cb717c439"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_to_segment_result.html">ClosestPointToSegmentResult</a>&lt; CoordinateT &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a6a690986d7ced4f91654191cb717c439">GetClosestPointToSegment</a> (const CoordinateT &amp;start_segment_point, const CoordinateT &amp;end_segment_point, const CoordinateT &amp;coordinate, double tolerance)</td></tr>
+<tr class="memdesc:a6a690986d7ced4f91654191cb717c439"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the closest point in the <code>segment</code> to the given <code>xyz</code> point.  <a href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a6a690986d7ced4f91654191cb717c439">More...</a><br /></td></tr>
+<tr class="separator:a6a690986d7ced4f91654191cb717c439"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af141c67b9d30111679c4d64d4f14cb5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a1ba18009ef7f68d745d3203879ebe828">ClosestPointResult3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#af141c67b9d30111679c4d64d4f14cb5b">GetClosestPoint</a> (const <a class="el" href="namespacemaliput__sparse_1_1geometry.html#accac056a7e29520263437aa7688469b1">LineString3d</a> &amp;line_string, const maliput::math::Vector3 &amp;xyz, double tolerance)</td></tr>
 <tr class="memdesc:af141c67b9d30111679c4d64d4f14cb5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the closest point in the <code>line_string</code> to the given <code>xyz</code> point.  <a href="namespacemaliput__sparse_1_1geometry_1_1utility.html#af141c67b9d30111679c4d64d4f14cb5b">More...</a><br /></td></tr>
 <tr class="separator:af141c67b9d30111679c4d64d4f14cb5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,10 +167,10 @@ Functions</h2></td></tr>
 <tr class="separator:a30cfe17fda3006c85ecc7213ca18b9b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12d72eae73a5cbc94376e545e5d7cd9b"><td class="memItemLeft" align="right" valign="top">template maliput::math::Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a12d72eae73a5cbc94376e545e5d7cd9b">InterpolatedPointAtP</a> (const <a class="el" href="namespacemaliput__sparse_1_1geometry.html#accac056a7e29520263437aa7688469b1">LineString3d</a> &amp;, double, double)</td></tr>
 <tr class="separator:a12d72eae73a5cbc94376e545e5d7cd9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc7a3d0a030199f5e4ae0d5b55c57f6f"><td class="memItemLeft" align="right" valign="top">template <a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a1ba18009ef7f68d745d3203879ebe828">ClosestPointResult3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#adc7a3d0a030199f5e4ae0d5b55c57f6f">GetClosestPointToSegment</a> (const <a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a7687d9ec93ab5b257ae36fdd925df410">Segment3d</a> &amp;, const maliput::math::Vector3 &amp;, double)</td></tr>
-<tr class="separator:adc7a3d0a030199f5e4ae0d5b55c57f6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af60ca678de39b3688d4d658fad8f7eda"><td class="memItemLeft" align="right" valign="top">template <a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#ae0acb39f69d4f184f1794f5a4f368e00">ClosestPointResult2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#af60ca678de39b3688d4d658fad8f7eda">GetClosestPointToSegment</a> (const <a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a4cc3a12047ae86f747c82ef49eb844fc">Segment2d</a> &amp;, const maliput::math::Vector2 &amp;, double)</td></tr>
-<tr class="separator:af60ca678de39b3688d4d658fad8f7eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af78dac3503ecc5e0b5a3f1997a072e17"><td class="memItemLeft" align="right" valign="top">template <a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#af971157fea6bc7daee77abe516e392cd">ClosestPointToSegmentResult3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#af78dac3503ecc5e0b5a3f1997a072e17">GetClosestPointToSegment</a> (const maliput::math::Vector3 &amp;, const maliput::math::Vector3 &amp;, const maliput::math::Vector3 &amp;, double)</td></tr>
+<tr class="separator:af78dac3503ecc5e0b5a3f1997a072e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9275255af177da2664eee30d56a8f5eb"><td class="memItemLeft" align="right" valign="top">template <a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a22f0aa9dd121d5c6e4b1e41108f1ea44">ClosestPointToSegmentResult2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a9275255af177da2664eee30d56a8f5eb">GetClosestPointToSegment</a> (const maliput::math::Vector2 &amp;, const maliput::math::Vector2 &amp;, const maliput::math::Vector2 &amp;, double)</td></tr>
+<tr class="separator:a9275255af177da2664eee30d56a8f5eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -197,6 +204,34 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a1ba18009ef7f68d745d3203879ebe828">ClosestPointResult3d</a> =  <a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html">ClosestPointResult</a>&lt;maliput::math::Vector3&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a22f0aa9dd121d5c6e4b1e41108f1ea44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22f0aa9dd121d5c6e4b1e41108f1ea44">&#9670;&nbsp;</a></span>ClosestPointToSegmentResult2d</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a22f0aa9dd121d5c6e4b1e41108f1ea44">ClosestPointToSegmentResult2d</a> =  <a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_to_segment_result.html">ClosestPointToSegmentResult</a>&lt;maliput::math::Vector2&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af971157fea6bc7daee77abe516e392cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af971157fea6bc7daee77abe516e392cd">&#9670;&nbsp;</a></span>ClosestPointToSegmentResult3d</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#af971157fea6bc7daee77abe516e392cd">ClosestPointToSegmentResult3d</a> =  <a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_to_segment_result.html">ClosestPointToSegmentResult</a>&lt;maliput::math::Vector3&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -534,85 +569,23 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="af60ca678de39b3688d4d658fad8f7eda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af60ca678de39b3688d4d658fad8f7eda">&#9670;&nbsp;</a></span>GetClosestPointToSegment() <span class="overload">[1/3]</span></h2>
+<a id="a6a690986d7ced4f91654191cb717c439"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a690986d7ced4f91654191cb717c439">&#9670;&nbsp;</a></span>GetClosestPointToSegment() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">template <a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#ae0acb39f69d4f184f1794f5a4f368e00">ClosestPointResult2d</a> maliput_sparse::geometry::utility::GetClosestPointToSegment </td>
+          <td class="memname"><a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_to_segment_result.html">ClosestPointToSegmentResult</a>&lt; CoordinateT &gt; GetClosestPointToSegment </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a4cc3a12047ae86f747c82ef49eb844fc">Segment2d</a> &amp;&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype">const CoordinateT &amp;&#160;</td>
+          <td class="paramname"><em>start_segment_point</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const maliput::math::Vector2 &amp;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="adc7a3d0a030199f5e4ae0d5b55c57f6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc7a3d0a030199f5e4ae0d5b55c57f6f">&#9670;&nbsp;</a></span>GetClosestPointToSegment() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">template <a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a1ba18009ef7f68d745d3203879ebe828">ClosestPointResult3d</a> maliput_sparse::geometry::utility::GetClosestPointToSegment </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a7687d9ec93ab5b257ae36fdd925df410">Segment3d</a> &amp;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const maliput::math::Vector3 &amp;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abcc13ee6f3bdb65c699f74a2a39618f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcc13ee6f3bdb65c699f74a2a39618f6">&#9670;&nbsp;</a></span>GetClosestPointToSegment() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html">ClosestPointResult</a>&lt; CoordinateT &gt; GetClosestPointToSegment </td>
-          <td>(</td>
-          <td class="paramtype">const std::pair&lt; CoordinateT, CoordinateT &gt; &amp;&#160;</td>
-          <td class="paramname"><em>segment</em>, </td>
+          <td class="paramtype">const CoordinateT &amp;&#160;</td>
+          <td class="paramname"><em>end_segment_point</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -643,13 +616,94 @@ Variables</h2></td></tr>
 </dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">segment</td><td>Segment to be computed the closest point from. </td></tr>
+    <tr><td class="paramname">start_segment_point</td><td>Start point of the segment. </td></tr>
+    <tr><td class="paramname">end_segment_point</td><td>End point of the segment. </td></tr>
     <tr><td class="paramname">coordinate</td><td>Point to be computed the closest point to. </td></tr>
     <tr><td class="paramname">tolerance</td><td>tolerance. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html" title="Holds the result of GetClosestPoint method.">ClosestPointResult</a> struct containing the closest point, the distance between the closest point and <code>xyz</code> and the p coordinate in the segment matching the closest point. </dd></dl>
+
+</div>
+</div>
+<a id="a9275255af177da2664eee30d56a8f5eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9275255af177da2664eee30d56a8f5eb">&#9670;&nbsp;</a></span>GetClosestPointToSegment() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">template <a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#a22f0aa9dd121d5c6e4b1e41108f1ea44">ClosestPointToSegmentResult2d</a> maliput_sparse::geometry::utility::GetClosestPointToSegment </td>
+          <td>(</td>
+          <td class="paramtype">const maliput::math::Vector2 &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const maliput::math::Vector2 &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const maliput::math::Vector2 &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af78dac3503ecc5e0b5a3f1997a072e17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af78dac3503ecc5e0b5a3f1997a072e17">&#9670;&nbsp;</a></span>GetClosestPointToSegment() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">template <a class="el" href="namespacemaliput__sparse_1_1geometry_1_1utility.html#af971157fea6bc7daee77abe516e392cd">ClosestPointToSegmentResult3d</a> maliput_sparse::geometry::utility::GetClosestPointToSegment </td>
+          <td>(</td>
+          <td class="paramtype">const maliput::math::Vector3 &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const maliput::math::Vector3 &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const maliput::math::Vector3 &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

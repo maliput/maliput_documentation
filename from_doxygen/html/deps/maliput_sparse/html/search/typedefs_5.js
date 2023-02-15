@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['types_452',['Types',['../classmaliput__sparse_1_1parser_1_1_validator.html#ad2c587c41a7e2a894a1ce8df92b9debf',1,'maliput_sparse::parser::Validator']]]
+  ['segment2d_471',['Segment2d',['../namespacemaliput__sparse_1_1geometry_1_1utility.html#a4cc3a12047ae86f747c82ef49eb844fc',1,'maliput_sparse::geometry::utility']]],
+  ['segment3d_472',['Segment3d',['../namespacemaliput__sparse_1_1geometry_1_1utility.html#a7687d9ec93ab5b257ae36fdd925df410',1,'maliput_sparse::geometry::utility']]],
+  ['segments_473',['Segments',['../classmaliput__sparse_1_1geometry_1_1_line_string.html#a14fa0c2eed9e4242a1b267c726d2e18b',1,'maliput_sparse::geometry::LineString']]]
 ];

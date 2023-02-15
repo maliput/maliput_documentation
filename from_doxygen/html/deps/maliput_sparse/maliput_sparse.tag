@@ -247,11 +247,11 @@
       <arglist>(const LineString3d &amp;line_string, double p, double tolerance)</arglist>
     </member>
     <member kind="function">
-      <type>ClosestPointResult&lt; CoordinateT &gt;</type>
+      <type>ClosestPointToSegmentResult&lt; CoordinateT &gt;</type>
       <name>GetClosestPointToSegment</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>abcc13ee6f3bdb65c699f74a2a39618f6</anchor>
-      <arglist>(const std::pair&lt; CoordinateT, CoordinateT &gt; &amp;segment, const CoordinateT &amp;coordinate, double tolerance)</arglist>
+      <anchor>a6a690986d7ced4f91654191cb717c439</anchor>
+      <arglist>(const CoordinateT &amp;start_segment_point, const CoordinateT &amp;end_segment_point, const CoordinateT &amp;coordinate, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>ClosestPointResult3d</type>
@@ -282,18 +282,18 @@
       <arglist>(const LineString3d &amp;, double, double)</arglist>
     </member>
     <member kind="function">
-      <type>template ClosestPointResult3d</type>
+      <type>template ClosestPointToSegmentResult3d</type>
       <name>GetClosestPointToSegment</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>adc7a3d0a030199f5e4ae0d5b55c57f6f</anchor>
-      <arglist>(const Segment3d &amp;, const maliput::math::Vector3 &amp;, double)</arglist>
+      <anchor>af78dac3503ecc5e0b5a3f1997a072e17</anchor>
+      <arglist>(const maliput::math::Vector3 &amp;, const maliput::math::Vector3 &amp;, const maliput::math::Vector3 &amp;, double)</arglist>
     </member>
     <member kind="function">
-      <type>template ClosestPointResult2d</type>
+      <type>template ClosestPointToSegmentResult2d</type>
       <name>GetClosestPointToSegment</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>af60ca678de39b3688d4d658fad8f7eda</anchor>
-      <arglist>(const Segment2d &amp;, const maliput::math::Vector2 &amp;, double)</arglist>
+      <anchor>a9275255af177da2664eee30d56a8f5eb</anchor>
+      <arglist>(const maliput::math::Vector2 &amp;, const maliput::math::Vector2 &amp;, const maliput::math::Vector2 &amp;, double)</arglist>
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr bool</type>
@@ -323,6 +323,7 @@
     <filename>geometry_8h.html</filename>
     <includes id="line__string_8h" name="line_string.h" local="yes" imported="no">maliput_sparse/geometry/line_string.h</includes>
     <class kind="struct">maliput_sparse::geometry::utility::BoundPointsResult</class>
+    <class kind="struct">maliput_sparse::geometry::utility::ClosestPointToSegmentResult</class>
     <class kind="struct">maliput_sparse::geometry::utility::ClosestPointResult</class>
     <namespace>maliput_sparse</namespace>
     <namespace>maliput_sparse::geometry</namespace>
@@ -339,6 +340,20 @@
       <name>ClosestPointResult2d</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
       <anchor>ae0acb39f69d4f184f1794f5a4f368e00</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>ClosestPointToSegmentResult&lt; maliput::math::Vector3 &gt;</type>
+      <name>ClosestPointToSegmentResult3d</name>
+      <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
+      <anchor>af971157fea6bc7daee77abe516e392cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>ClosestPointToSegmentResult&lt; maliput::math::Vector2 &gt;</type>
+      <name>ClosestPointToSegmentResult2d</name>
+      <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
+      <anchor>a22f0aa9dd121d5c6e4b1e41108f1ea44</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -391,11 +406,11 @@
       <arglist>(const LineString3d &amp;line_string, double p, double tolerance)</arglist>
     </member>
     <member kind="function">
-      <type>ClosestPointResult&lt; CoordinateT &gt;</type>
+      <type>ClosestPointToSegmentResult&lt; CoordinateT &gt;</type>
       <name>GetClosestPointToSegment</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>abcc13ee6f3bdb65c699f74a2a39618f6</anchor>
-      <arglist>(const std::pair&lt; CoordinateT, CoordinateT &gt; &amp;segment, const CoordinateT &amp;coordinate, double tolerance)</arglist>
+      <anchor>a6a690986d7ced4f91654191cb717c439</anchor>
+      <arglist>(const CoordinateT &amp;start_segment_point, const CoordinateT &amp;end_segment_point, const CoordinateT &amp;coordinate, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>ClosestPointResult3d</type>
@@ -495,6 +510,7 @@
     <class kind="class">maliput_sparse::geometry::LineString</class>
     <class kind="struct">maliput_sparse::geometry::LineString::Segment</class>
     <class kind="struct">maliput_sparse::geometry::LineString::Segment::Interval</class>
+    <class kind="class">maliput_sparse::geometry::LineString::Point</class>
     <namespace>maliput_sparse</namespace>
     <namespace>maliput_sparse::geometry</namespace>
     <namespace>maliput_sparse::geometry::details</namespace>
@@ -845,6 +861,39 @@
       <type>double</type>
       <name>distance</name>
       <anchorfile>structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html</anchorfile>
+      <anchor>a79b8e036dca6911e3295a47d99f21f43</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>LineString&lt; CoordinateT &gt;::Segment</type>
+      <name>segment</name>
+      <anchorfile>structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html</anchorfile>
+      <anchor>a34d605f540099eea78e72831a826d4e0</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput_sparse::geometry::utility::ClosestPointToSegmentResult</name>
+    <filename>structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_to_segment_result.html</filename>
+    <templarg></templarg>
+    <member kind="variable">
+      <type>double</type>
+      <name>p</name>
+      <anchorfile>structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_to_segment_result.html</anchorfile>
+      <anchor>aace2d484b0e3651abd108f04803d316c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>CoordinateT</type>
+      <name>point</name>
+      <anchorfile>structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_to_segment_result.html</anchorfile>
+      <anchor>aafafc3937994ea12fa4ceb11d47ff94c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>distance</name>
+      <anchorfile>structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_to_segment_result.html</anchorfile>
       <anchor>a79b8e036dca6911e3295a47d99f21f43</anchor>
       <arglist></arglist>
     </member>
@@ -1206,40 +1255,6 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>maliput_sparse::parser::LaneEnd</name>
-    <filename>structmaliput__sparse_1_1parser_1_1_lane_end.html</filename>
-    <member kind="enumeration">
-      <type></type>
-      <name>Which</name>
-      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_end.html</anchorfile>
-      <anchor>a76832237d5d837232469a6c46f1eeff2</anchor>
-      <arglist></arglist>
-      <enumvalue file="structmaliput__sparse_1_1parser_1_1_lane_end.html" anchor="a76832237d5d837232469a6c46f1eeff2a127f8e8149d57253ad94c9d2c752113d">kStart</enumvalue>
-      <enumvalue file="structmaliput__sparse_1_1parser_1_1_lane_end.html" anchor="a76832237d5d837232469a6c46f1eeff2a8941714ff8251a03708025c060c46556">kFinish</enumvalue>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_end.html</anchorfile>
-      <anchor>a92225ee3cd7b5d5fbd10c7dd8916cc2d</anchor>
-      <arglist>(const LaneEnd &amp;other) const</arglist>
-    </member>
-    <member kind="variable">
-      <type>std::string</type>
-      <name>lane_id</name>
-      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_end.html</anchorfile>
-      <anchor>afe960e19331a9f98adb8ac049563162f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>Which</type>
-      <name>end</name>
-      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_end.html</anchorfile>
-      <anchor>a23aa4c5b3ea898434ccf593ca47c56b1</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
     <name>maliput_sparse::builder::LaneEnd</name>
     <filename>structmaliput__sparse_1_1builder_1_1_lane_end.html</filename>
     <member kind="function">
@@ -1303,6 +1318,40 @@
       <name>end</name>
       <anchorfile>structmaliput__sparse_1_1builder_1_1_lane_end.html</anchorfile>
       <anchor>a16006ff6ae959c535e70bcbf309ad7fd</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput_sparse::parser::LaneEnd</name>
+    <filename>structmaliput__sparse_1_1parser_1_1_lane_end.html</filename>
+    <member kind="enumeration">
+      <type></type>
+      <name>Which</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_end.html</anchorfile>
+      <anchor>a76832237d5d837232469a6c46f1eeff2</anchor>
+      <arglist></arglist>
+      <enumvalue file="structmaliput__sparse_1_1parser_1_1_lane_end.html" anchor="a76832237d5d837232469a6c46f1eeff2a127f8e8149d57253ad94c9d2c752113d">kStart</enumvalue>
+      <enumvalue file="structmaliput__sparse_1_1parser_1_1_lane_end.html" anchor="a76832237d5d837232469a6c46f1eeff2a8941714ff8251a03708025c060c46556">kFinish</enumvalue>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_end.html</anchorfile>
+      <anchor>a92225ee3cd7b5d5fbd10c7dd8916cc2d</anchor>
+      <arglist>(const LaneEnd &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>lane_id</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_end.html</anchorfile>
+      <anchor>afe960e19331a9f98adb8ac049563162f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Which</type>
+      <name>end</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_end.html</anchorfile>
+      <anchor>a23aa4c5b3ea898434ccf593ca47c56b1</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -1498,6 +1547,7 @@
     <filename>classmaliput__sparse_1_1geometry_1_1_line_string.html</filename>
     <templarg></templarg>
     <templarg></templarg>
+    <class kind="class">maliput_sparse::geometry::LineString::Point</class>
     <class kind="struct">maliput_sparse::geometry::LineString::Segment</class>
     <member kind="typedef">
       <type>typename std::vector&lt; CoordinateT &gt;::iterator</type>
@@ -1518,6 +1568,13 @@
       <name>Segments</name>
       <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
       <anchor>a14fa0c2eed9e4242a1b267c726d2e18b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>maliput::math::KDTree&lt; Point, CoordinateT::kDimension &gt;</type>
+      <name>KDTree</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>a518046add5766230945d996e50ba1cbe</anchor>
       <arglist></arglist>
     </member>
     <member kind="function">
@@ -1584,6 +1641,20 @@
       <arglist>() const</arglist>
     </member>
     <member kind="function">
+      <type>const std::vector&lt; Point &gt; &amp;</type>
+      <name>points</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>ae4a22d234079b9eaa54a97c766fede1b</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const KDTree *</type>
+      <name>kd_tree</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>a40d74145ba56af650273c279afe32589</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
       <type>iterator</type>
       <name>begin</name>
       <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
@@ -1631,6 +1702,164 @@
       <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
       <anchor>a57c7bdf1cea337e7b5340a6a73d4c298</anchor>
       <arglist>(const LineString&lt; CoordinateT, DistanceFunction &gt; &amp;other) const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>LineString&lt; CoordinateT &gt;</name>
+    <filename>classmaliput__sparse_1_1geometry_1_1_line_string.html</filename>
+    <member kind="typedef">
+      <type>typename std::vector&lt; CoordinateT &gt;::iterator</type>
+      <name>iterator</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>afbce7d7378a6ee19f67898522dbedf2a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>typename std::vector&lt; CoordinateT &gt;::const_iterator</type>
+      <name>const_iterator</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>a496c6236489e58faaf02fd4750427d92</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>std::map&lt; typename Segment::Interval, Segment &gt;</type>
+      <name>Segments</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>a14fa0c2eed9e4242a1b267c726d2e18b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>maliput::math::KDTree&lt; Point, CoordinateT::kDimension &gt;</type>
+      <name>KDTree</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>a518046add5766230945d996e50ba1cbe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>LineString</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>a45eca4113d07c23537f9b1bfcf8814fa</anchor>
+      <arglist>(const std::vector&lt; CoordinateT &gt; &amp;coordinates)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>LineString</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>aeada8ead7e6058f2c2d484f6f57b9b73</anchor>
+      <arglist>(std::initializer_list&lt; CoordinateT &gt; coordinates)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>LineString</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>ae202c382c3033a294889b3dd009f9e27</anchor>
+      <arglist>(Iterator begin, Iterator end)</arglist>
+    </member>
+    <member kind="function">
+      <type>const CoordinateT &amp;</type>
+      <name>first</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>a296f65dc27a7bac807d49793377b63e1</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const CoordinateT &amp;</type>
+      <name>last</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>aa02b39e4d3683acbe8de957727c22034</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const CoordinateT &amp;</type>
+      <name>at</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>a828665f2ef487a405107b04676756589</anchor>
+      <arglist>(size_t i) const</arglist>
+    </member>
+    <member kind="function">
+      <type>size_t</type>
+      <name>size</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>a259cb5a711406a8c3e5d937eb9350cca</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>length</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>a80401d480f15e1418a3274a2b2b51649</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Segments &amp;</type>
+      <name>segments</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>a9a46416f1b1d538fae4c1414a95ffab0</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::vector&lt; Point &gt; &amp;</type>
+      <name>points</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>ae4a22d234079b9eaa54a97c766fede1b</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const KDTree *</type>
+      <name>kd_tree</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>a40d74145ba56af650273c279afe32589</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>iterator</type>
+      <name>begin</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>ad69bd11391be1a1dba5c8202259664f8</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>const_iterator</type>
+      <name>begin</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>a29305669b60ca1680752e2fc3592ba99</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>iterator</type>
+      <name>end</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>acad38d52497a975bfb6f2f6acd76631f</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>const_iterator</type>
+      <name>end</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>accf9a4bd0c34d4a5f6a7dab66ea10cdc</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const CoordinateT &amp;</type>
+      <name>operator[]</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>a8b9cae5e7f545e8bc7601de40939bb4f</anchor>
+      <arglist>(std::size_t index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>CoordinateT &amp;</type>
+      <name>operator[]</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>a4785081f64915e963a2cab80e13fe9a5</anchor>
+      <arglist>(std::size_t index)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string.html</anchorfile>
+      <anchor>a57c7bdf1cea337e7b5340a6a73d4c298</anchor>
+      <arglist>(const LineString&lt; CoordinateT, details::EuclideanDistance&lt; CoordinateT &gt; &gt; &amp;other) const</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -1823,6 +2052,52 @@
       <name>GetConnections</name>
       <anchorfile>classmaliput__sparse_1_1parser_1_1_parser.html</anchorfile>
       <anchor>ae6ec0b6860c4580c1d7e257c5dc59bcf</anchor>
+      <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput_sparse::geometry::LineString::Point</name>
+    <filename>classmaliput__sparse_1_1geometry_1_1_line_string_1_1_point.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>Point</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string_1_1_point.html</anchorfile>
+      <anchor>a0db8c7c52080e46d8625e40735704bef</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Point</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string_1_1_point.html</anchorfile>
+      <anchor>a8368c3385ebbb49cdb58464887744ca1</anchor>
+      <arglist>(const CoordinateT &amp;coordinate, std::size_t idx, double p)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Point</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string_1_1_point.html</anchorfile>
+      <anchor>acea4b700b31e900823682b2d127e4f73</anchor>
+      <arglist>(const CoordinateT &amp;coordinate)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; std::size_t &gt;</type>
+      <name>idx</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string_1_1_point.html</anchorfile>
+      <anchor>a12a72dd2081ae25f2c72bf15dafd784f</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; double &gt;</type>
+      <name>p</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string_1_1_point.html</anchorfile>
+      <anchor>a9958e394ff78a20d3222fa7a7b6c407d</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const CoordinateT *</type>
+      <name>coordinate</name>
+      <anchorfile>classmaliput__sparse_1_1geometry_1_1_line_string_1_1_point.html</anchorfile>
+      <anchor>a0f755d5a031b8d618be58671b0b39663</anchor>
       <arglist>() const</arglist>
     </member>
   </compound>
@@ -2179,6 +2454,7 @@
     <filename>namespacemaliput__sparse_1_1geometry_1_1utility.html</filename>
     <class kind="struct">maliput_sparse::geometry::utility::BoundPointsResult</class>
     <class kind="struct">maliput_sparse::geometry::utility::ClosestPointResult</class>
+    <class kind="struct">maliput_sparse::geometry::utility::ClosestPointToSegmentResult</class>
     <member kind="typedef">
       <type>ClosestPointResult&lt; maliput::math::Vector3 &gt;</type>
       <name>ClosestPointResult3d</name>
@@ -2191,6 +2467,20 @@
       <name>ClosestPointResult2d</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
       <anchor>ae0acb39f69d4f184f1794f5a4f368e00</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>ClosestPointToSegmentResult&lt; maliput::math::Vector3 &gt;</type>
+      <name>ClosestPointToSegmentResult3d</name>
+      <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
+      <anchor>af971157fea6bc7daee77abe516e392cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>ClosestPointToSegmentResult&lt; maliput::math::Vector2 &gt;</type>
+      <name>ClosestPointToSegmentResult2d</name>
+      <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
+      <anchor>a22f0aa9dd121d5c6e4b1e41108f1ea44</anchor>
       <arglist></arglist>
     </member>
     <member kind="typedef">
@@ -2264,11 +2554,11 @@
       <arglist>(const LineString3d &amp;line_string, double p, double tolerance)</arglist>
     </member>
     <member kind="function">
-      <type>ClosestPointResult&lt; CoordinateT &gt;</type>
+      <type>ClosestPointToSegmentResult&lt; CoordinateT &gt;</type>
       <name>GetClosestPointToSegment</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>abcc13ee6f3bdb65c699f74a2a39618f6</anchor>
-      <arglist>(const std::pair&lt; CoordinateT, CoordinateT &gt; &amp;segment, const CoordinateT &amp;coordinate, double tolerance)</arglist>
+      <anchor>a6a690986d7ced4f91654191cb717c439</anchor>
+      <arglist>(const CoordinateT &amp;start_segment_point, const CoordinateT &amp;end_segment_point, const CoordinateT &amp;coordinate, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>ClosestPointResult3d</type>
@@ -2299,18 +2589,18 @@
       <arglist>(const LineString3d &amp;, double, double)</arglist>
     </member>
     <member kind="function">
-      <type>template ClosestPointResult3d</type>
+      <type>template ClosestPointToSegmentResult3d</type>
       <name>GetClosestPointToSegment</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>adc7a3d0a030199f5e4ae0d5b55c57f6f</anchor>
-      <arglist>(const Segment3d &amp;, const maliput::math::Vector3 &amp;, double)</arglist>
+      <anchor>af78dac3503ecc5e0b5a3f1997a072e17</anchor>
+      <arglist>(const maliput::math::Vector3 &amp;, const maliput::math::Vector3 &amp;, const maliput::math::Vector3 &amp;, double)</arglist>
     </member>
     <member kind="function">
-      <type>template ClosestPointResult2d</type>
+      <type>template ClosestPointToSegmentResult2d</type>
       <name>GetClosestPointToSegment</name>
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
-      <anchor>af60ca678de39b3688d4d658fad8f7eda</anchor>
-      <arglist>(const Segment2d &amp;, const maliput::math::Vector2 &amp;, double)</arglist>
+      <anchor>a9275255af177da2664eee30d56a8f5eb</anchor>
+      <arglist>(const maliput::math::Vector2 &amp;, const maliput::math::Vector2 &amp;, const maliput::math::Vector2 &amp;, double)</arglist>
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr bool</type>

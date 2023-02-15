@@ -114,6 +114,9 @@ class maliput_sparse::geometry::LineString&lt; CoordinateT, DistanceFunction &gt
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string_1_1_point.html">Point</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extends the CoordinateT class with information about the index of the coordinate in the <a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html" title="Defines a polyline in the CoordinateT domain composed of at least 2 points.">LineString</a> and the \( p \) value up-to the coordinate in the parametrized <a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html" title="Defines a polyline in the CoordinateT domain composed of at least 2 points.">LineString</a>.  <a href="classmaliput__sparse_1_1geometry_1_1_line_string_1_1_point.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1geometry_1_1_line_string_1_1_segment.html">Segment</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A segment of a <a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html" title="Defines a polyline in the CoordinateT domain composed of at least 2 points.">LineString</a>.  <a href="structmaliput__sparse_1_1geometry_1_1_line_string_1_1_segment.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,6 +129,8 @@ Public Types</h2></td></tr>
 <tr class="separator:a496c6236489e58faaf02fd4750427d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14fa0c2eed9e4242a1b267c726d2e18b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a14fa0c2eed9e4242a1b267c726d2e18b">Segments</a> = std::map&lt; typename <a class="el" href="structmaliput__sparse_1_1geometry_1_1_line_string_1_1_segment_1_1_interval.html">Segment::Interval</a>, <a class="el" href="structmaliput__sparse_1_1geometry_1_1_line_string_1_1_segment.html">Segment</a> &gt;</td></tr>
 <tr class="separator:a14fa0c2eed9e4242a1b267c726d2e18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a518046add5766230945d996e50ba1cbe"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a518046add5766230945d996e50ba1cbe">KDTree</a> = maliput::math::KDTree&lt; <a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string_1_1_point.html">Point</a>, CoordinateT::kDimension &gt;</td></tr>
+<tr class="separator:a518046add5766230945d996e50ba1cbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -152,6 +157,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9a46416f1b1d538fae4c1414a95ffab0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a14fa0c2eed9e4242a1b267c726d2e18b">Segments</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a9a46416f1b1d538fae4c1414a95ffab0">segments</a> () const</td></tr>
 <tr class="memdesc:a9a46416f1b1d538fae4c1414a95ffab0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the segments of this <a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html" title="Defines a polyline in the CoordinateT domain composed of at least 2 points.">LineString</a>.  <a href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a9a46416f1b1d538fae4c1414a95ffab0">More...</a><br /></td></tr>
 <tr class="separator:a9a46416f1b1d538fae4c1414a95ffab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4a22d234079b9eaa54a97c766fede1b"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string_1_1_point.html">Point</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#ae4a22d234079b9eaa54a97c766fede1b">points</a> () const</td></tr>
+<tr class="memdesc:ae4a22d234079b9eaa54a97c766fede1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the points of this <a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html" title="Defines a polyline in the CoordinateT domain composed of at least 2 points.">LineString</a>.  <a href="classmaliput__sparse_1_1geometry_1_1_line_string.html#ae4a22d234079b9eaa54a97c766fede1b">More...</a><br /></td></tr>
+<tr class="separator:ae4a22d234079b9eaa54a97c766fede1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40d74145ba56af650273c279afe32589"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a518046add5766230945d996e50ba1cbe">KDTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a40d74145ba56af650273c279afe32589">kd_tree</a> () const</td></tr>
+<tr class="memdesc:a40d74145ba56af650273c279afe32589"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get KD Tree of the <a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html" title="Defines a polyline in the CoordinateT domain composed of at least 2 points.">LineString</a>.  <a href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a40d74145ba56af650273c279afe32589">More...</a><br /></td></tr>
+<tr class="separator:a40d74145ba56af650273c279afe32589"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad69bd11391be1a1dba5c8202259664f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#afbce7d7378a6ee19f67898522dbedf2a">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#ad69bd11391be1a1dba5c8202259664f8">begin</a> ()</td></tr>
 <tr class="separator:ad69bd11391be1a1dba5c8202259664f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29305669b60ca1680752e2fc3592ba99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a496c6236489e58faaf02fd4750427d92">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a29305669b60ca1680752e2fc3592ba99">begin</a> () const</td></tr>
@@ -191,6 +202,20 @@ Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#afbce7d7378a6ee19f67898522dbedf2a">iterator</a> =  typename std::vector&lt;CoordinateT&gt;::<a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#afbce7d7378a6ee19f67898522dbedf2a">iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a518046add5766230945d996e50ba1cbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a518046add5766230945d996e50ba1cbe">&#9670;&nbsp;</a></span>KDTree</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a518046add5766230945d996e50ba1cbe">KDTree</a> =  maliput::math::KDTree&lt;<a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string_1_1_point.html">Point</a>, CoordinateT::kDimension&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -448,6 +473,25 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a40d74145ba56af650273c279afe32589"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40d74145ba56af650273c279afe32589">&#9670;&nbsp;</a></span>kd_tree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html#a518046add5766230945d996e50ba1cbe">KDTree</a>* kd_tree </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get KD Tree of the <a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html" title="Defines a polyline in the CoordinateT domain composed of at least 2 points.">LineString</a>. </p>
+
+</div>
+</div>
 <a id="aa02b39e4d3683acbe8de957727c22034"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa02b39e4d3683acbe8de957727c22034">&#9670;&nbsp;</a></span>last()</h2>
 
@@ -537,6 +581,25 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae4a22d234079b9eaa54a97c766fede1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4a22d234079b9eaa54a97c766fede1b">&#9670;&nbsp;</a></span>points()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt;<a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string_1_1_point.html">Point</a>&gt;&amp; points </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the points of this <a class="el" href="classmaliput__sparse_1_1geometry_1_1_line_string.html" title="Defines a polyline in the CoordinateT domain composed of at least 2 points.">LineString</a>. </p>
 
 </div>
 </div>
