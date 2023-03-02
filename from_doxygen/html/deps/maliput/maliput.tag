@@ -8751,6 +8751,13 @@
       <anchor>a64a6eda0bf1e33c6878b4292f4c5df59</anchor>
       <arglist>(const LaneSRange &amp;lane_s_range, double tolerance) const</arglist>
     </member>
+    <member kind="function">
+      <type>std::optional&lt; LaneSRange &gt;</type>
+      <name>GetIntersection</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane_s_range.html</anchorfile>
+      <anchor>a98915143fa057cb66d860e2ccef77d7c</anchor>
+      <arglist>(const LaneSRange &amp;lane_s_range, double tolerance) const</arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>maliput::api::LaneSRoute</name>

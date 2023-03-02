@@ -10,11 +10,12 @@ var NAVTREEINDEX1 =
 "classmaliput_1_1api_1_1_lane_position.html#aaee1a7019059c8a9ae11e24ec5879824":[4,0,0,0,13,3],
 "classmaliput_1_1api_1_1_lane_position.html#ab3e396cc050a90c33ebfc7b64e41d02d":[4,0,0,0,13,0],
 "classmaliput_1_1api_1_1_lane_s_range.html":[4,0,0,0,15],
-"classmaliput_1_1api_1_1_lane_s_range.html#a64a6eda0bf1e33c6878b4292f4c5df59":[4,0,0,0,15,1],
-"classmaliput_1_1api_1_1_lane_s_range.html#a69989159f96da76c75d8776062cf621d":[4,0,0,0,15,5],
-"classmaliput_1_1api_1_1_lane_s_range.html#a80401d480f15e1418a3274a2b2b51649":[4,0,0,0,15,3],
-"classmaliput_1_1api_1_1_lane_s_range.html#a8046bb4eba332bff92b0a9eb64df06a6":[4,0,0,0,15,2],
-"classmaliput_1_1api_1_1_lane_s_range.html#a9c9b8baeee9779c04bc24317d0d1a17a":[4,0,0,0,15,4],
+"classmaliput_1_1api_1_1_lane_s_range.html#a64a6eda0bf1e33c6878b4292f4c5df59":[4,0,0,0,15,2],
+"classmaliput_1_1api_1_1_lane_s_range.html#a69989159f96da76c75d8776062cf621d":[4,0,0,0,15,6],
+"classmaliput_1_1api_1_1_lane_s_range.html#a80401d480f15e1418a3274a2b2b51649":[4,0,0,0,15,4],
+"classmaliput_1_1api_1_1_lane_s_range.html#a8046bb4eba332bff92b0a9eb64df06a6":[4,0,0,0,15,3],
+"classmaliput_1_1api_1_1_lane_s_range.html#a98915143fa057cb66d860e2ccef77d7c":[4,0,0,0,15,1],
+"classmaliput_1_1api_1_1_lane_s_range.html#a9c9b8baeee9779c04bc24317d0d1a17a":[4,0,0,0,15,5],
 "classmaliput_1_1api_1_1_lane_s_range.html#aec52774419b9ca27ee95239ecf59e2b5":[4,0,0,0,15,0],
 "classmaliput_1_1api_1_1_lane_s_route.html":[4,0,0,0,16],
 "classmaliput_1_1api_1_1_lane_s_route.html#a4908ce0d69f0d51c82a72260d99364f2":[4,0,0,0,16,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html":[4,0,0,0,0,16],
 "classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html#a047c977e446c27ecdadcc648b408f37f":[4,0,0,0,0,16,4],
 "classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html#a050a1e9e217785773eedeff40a95f39b":[4,0,0,0,0,16,1],
-"classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html#a14bb0d04101a52c43ba47d129b835554":[4,0,0,0,0,16,0],
-"classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html#abcc08c5751a8d7e9ffcf5e7e27e1e611":[4,0,0,0,0,16,3]
+"classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html#a14bb0d04101a52c43ba47d129b835554":[4,0,0,0,0,16,0]
 };

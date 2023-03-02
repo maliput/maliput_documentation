@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"structmaliput_1_1utility_1_1_material.html":[4,0,0,5,2],
 "structmaliput_1_1utility_1_1_material.html#a694b293a8a0b0490aeff2942fde8ff98":[4,0,0,5,2,3],
 "structmaliput_1_1utility_1_1_material.html#a6e13658c7ae2d13d60422898faaabda5":[4,0,0,5,2,0],
 "structmaliput_1_1utility_1_1_material.html#a6fc41bf11a1cdec39aabf44a7defb391":[4,0,0,5,2,5],

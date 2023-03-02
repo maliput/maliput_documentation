@@ -118,6 +118,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a64a6eda0bf1e33c6878b4292f4c5df59"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html#a64a6eda0bf1e33c6878b4292f4c5df59">Intersects</a> (const <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html">LaneSRange</a> &amp;lane_s_range, <a class="el" href="classdouble.html">double</a> tolerance) const</td></tr>
 <tr class="memdesc:a64a6eda0bf1e33c6878b4292f4c5df59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether this <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a> intersects with <code>lane_s_range</code>.  <a href="classmaliput_1_1api_1_1_lane_s_range.html#a64a6eda0bf1e33c6878b4292f4c5df59">More...</a><br /></td></tr>
 <tr class="separator:a64a6eda0bf1e33c6878b4292f4c5df59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98915143fa057cb66d860e2ccef77d7c"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html">LaneSRange</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html#a98915143fa057cb66d860e2ccef77d7c">GetIntersection</a> (const <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html">LaneSRange</a> &amp;lane_s_range, <a class="el" href="classdouble.html">double</a> tolerance) const</td></tr>
+<tr class="memdesc:a98915143fa057cb66d860e2ccef77d7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a std::optional&lt;LaneSRange&gt; bearing the intersected <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a> that results overlapping this <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a> with <code>lane_s_range</code>.  <a href="classmaliput_1_1api_1_1_lane_s_range.html#a98915143fa057cb66d860e2ccef77d7c">More...</a><br /></td></tr>
+<tr class="separator:a98915143fa057cb66d860e2ccef77d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aec52774419b9ca27ee95239ecf59e2b5"></a>
@@ -151,6 +154,37 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a98915143fa057cb66d860e2ccef77d7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98915143fa057cb66d860e2ccef77d7c">&#9670;&nbsp;</a></span>GetIntersection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html">LaneSRange</a> &gt; GetIntersection </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html">LaneSRange</a> &amp;&#160;</td>
+          <td class="paramname"><em>lane_s_range</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdouble.html">double</a>&#160;</td>
+          <td class="paramname"><em>tolerance</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a std::optional&lt;LaneSRange&gt; bearing the intersected <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a> that results overlapping this <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a> with <code>lane_s_range</code>. </p>
+<p>When there is no common area, std::nullopt is returned. </p>
+
+</div>
+</div>
 <a id="a64a6eda0bf1e33c6878b4292f4c5df59"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a64a6eda0bf1e33c6878b4292f4c5df59">&#9670;&nbsp;</a></span>Intersects()</h2>
 
