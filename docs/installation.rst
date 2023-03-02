@@ -11,7 +11,7 @@ Introduction
 ============
 
 This page aims to provide a quick overview of the installation process of maliput repositories.
-The maliput ecosystem is compound by several packages, both core packages and utility packages.
+The maliput ecosystem is composed of several packages including both core packages and utility packages.
 
 
 Packages
