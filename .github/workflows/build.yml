@@ -76,7 +76,7 @@ jobs:
       working-directory: ${{ env.ROS_WS }}
       run: |
         rm -rf src/${{ env.PACKAGE_NAME }}/*
-        cp -r install/maliput_documentation/share/docs/* src/${{ env.PACKAGE_NAME }}/
+        cp -r install/maliput_documentation/share/docs/ src/${{ env.PACKAGE_NAME }}/
         echo $(date) > src/${{ env.PACKAGE_NAME }}/build_stamp
         cd src/${{ env.PACKAGE_NAME }}
         git config --local user.email 'github-actions[bot]@users.noreply.github.com'
