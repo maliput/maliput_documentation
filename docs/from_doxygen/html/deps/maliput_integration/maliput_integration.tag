@@ -567,6 +567,34 @@
       <arglist>(simplify_mesh_threshold, maliput::utility::ObjFeatures().simplify_mesh_threshold, &quot;Optional tolerance for mesh simplification, in meters. Make it &quot; &quot;equal to the road linear tolerance to get a mesh size reduction &quot; &quot;while keeping geometrical fidelity.&quot;)</arglist>
     </member>
     <member kind="function">
+      <type></type>
+      <name>DEFINE_bool</name>
+      <anchorfile>maliput__to__obj_8cc.html</anchorfile>
+      <anchor>a2353c6812c87c2f22163b33ee186fe02</anchor>
+      <arglist>(draw_arrows, maliput::utility::ObjFeatures().draw_arrows, &quot;Whether to draw arrows for indicating the direction of the road &quot;)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>DEFINE_bool</name>
+      <anchorfile>maliput__to__obj_8cc.html</anchorfile>
+      <anchor>a4e083040d06644597cfed22777b2ec47</anchor>
+      <arglist>(draw_branch_points, maliput::utility::ObjFeatures().draw_branch_points, &quot;Whether to draw the branch points of the road&quot;)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>DEFINE_bool</name>
+      <anchorfile>maliput__to__obj_8cc.html</anchorfile>
+      <anchor>a058816e149dddefd5c032cdcd9025976</anchor>
+      <arglist>(draw_stripes, maliput::utility::ObjFeatures().draw_stripes, &quot;Whether to draw stripes along boundaries of each lane&quot;)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>DEFINE_bool</name>
+      <anchorfile>maliput__to__obj_8cc.html</anchorfile>
+      <anchor>ac0fabc9080bf942a3ef253dbd6f3a6bc</anchor>
+      <arglist>(draw_lane_haze, maliput::utility::ObjFeatures().draw_lane_haze, &quot;Whether to draw the highlighting swath with boundaries of each lane&quot;)</arglist>
+    </member>
+    <member kind="function">
       <type>int</type>
       <name>main</name>
       <anchorfile>maliput__to__obj_8cc.html</anchorfile>

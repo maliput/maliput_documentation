@@ -1,7 +1,11 @@
 var maliput__to__obj_8cc =
 [
     [ "COMMON_PROPERTIES_FLAGS", "maliput__to__obj_8cc.html#a687212d4f3d028a13dd49dde8bef4bfb", null ],
+    [ "DEFINE_bool", "maliput__to__obj_8cc.html#a2353c6812c87c2f22163b33ee186fe02", null ],
+    [ "DEFINE_bool", "maliput__to__obj_8cc.html#a4e083040d06644597cfed22777b2ec47", null ],
     [ "DEFINE_bool", "maliput__to__obj_8cc.html#a5d8b399ddbd722195a82403f094dce10", null ],
+    [ "DEFINE_bool", "maliput__to__obj_8cc.html#ac0fabc9080bf942a3ef253dbd6f3a6bc", null ],
+    [ "DEFINE_bool", "maliput__to__obj_8cc.html#a058816e149dddefd5c032cdcd9025976", null ],
     [ "DEFINE_bool", "maliput__to__obj_8cc.html#a607a58114ce535065a9d8525d0bc92e8", null ],
     [ "DEFINE_double", "maliput__to__obj_8cc.html#a816d04266026cd954ba46a9bced93474", null ],
     [ "DEFINE_double", "maliput__to__obj_8cc.html#aefb90d97e99c4de9088b23237a258edf", null ],
