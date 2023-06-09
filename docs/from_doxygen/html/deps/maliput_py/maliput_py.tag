@@ -79,6 +79,20 @@
       <arglist>(plugin, m)</arglist>
     </member>
   </compound>
+  <compound kind="file">
+    <name>utility_py.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_py/src/bindings/</path>
+    <filename>utility__py_8cc.html</filename>
+    <namespace>maliput</namespace>
+    <namespace>maliput::bindings</namespace>
+    <member kind="function">
+      <type></type>
+      <name>PYBIND11_MODULE</name>
+      <anchorfile>namespacemaliput_1_1bindings.html</anchorfile>
+      <anchor>a586f3cc4825a1c1e4db03259f6f3df95</anchor>
+      <arglist>(utility, m)</arglist>
+    </member>
+  </compound>
   <compound kind="namespace">
     <name>maliput</name>
     <filename>namespacemaliput.html</filename>
@@ -131,6 +145,13 @@
       <anchorfile>namespacemaliput_1_1bindings.html</anchorfile>
       <anchor>a5581f34f868d6a5302f4e84a568fc957</anchor>
       <arglist>(plugin, m)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>PYBIND11_MODULE</name>
+      <anchorfile>namespacemaliput_1_1bindings.html</anchorfile>
+      <anchor>a586f3cc4825a1c1e4db03259f6f3df95</anchor>
+      <arglist>(utility, m)</arglist>
     </member>
   </compound>
   <compound kind="page">
