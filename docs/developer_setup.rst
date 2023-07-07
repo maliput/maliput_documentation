@@ -146,7 +146,7 @@ Install dependencies via ``rosdep``
 
 .. code-block:: sh
 
-    rosdep update
+    rosdep update --include-eol-distros
     rosdep install -i -y --rosdistro $ROS_DISTRO --skip-keys "pybind11" --from-paths src
 
 
@@ -577,7 +577,7 @@ Install all underlay packages' dependencies
 .. code-block:: sh
 
     export ROS_DISTRO=foxy
-    rosdep update
+    rosdep update --include-eol-distros
     rosdep install -i -y --rosdistro $ROS_DISTRO --skip-keys "pybind11" --from-paths /opt/dsim-desktop/*
 
 
