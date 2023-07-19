@@ -100,6 +100,7 @@ var files_dup =
     [ "lane_end_set.h", "lane__end__set_8h.html", [
       [ "LaneEndSet", "classmaliput_1_1geometry__base_1_1_lane_end_set.html", "classmaliput_1_1geometry__base_1_1_lane_end_set" ]
     ] ],
+    [ "lane_s_range_relation.h", "lane__s__range__relation_8h.html", "lane__s__range__relation_8h" ],
     [ "logger.cc", "logger_8cc.html", "logger_8cc" ],
     [ "logger.h", "logger_8h.html", "logger_8h" ],
     [ "maliput_abort.h", "maliput__abort_8h.html", "maliput__abort_8h" ],
@@ -185,7 +186,10 @@ var files_dup =
       [ "Passkey", "classmaliput_1_1common_1_1_passkey.html", null ]
     ] ],
     [ "phase.cc", "phase_8cc.html", null ],
-    [ "phase.h", "phase_8h.html", "phase_8h" ],
+    [ "api/rules/phase.h", "api_2rules_2phase_8h.html", "api_2rules_2phase_8h" ],
+    [ "routing/phase.h", "routing_2phase_8h.html", [
+      [ "Phase", "classmaliput_1_1routing_1_1_phase.html", "classmaliput_1_1routing_1_1_phase" ]
+    ] ],
     [ "phase_based_right_of_way_rule_state_provider.cc", "phase__based__right__of__way__rule__state__provider_8cc.html", null ],
     [ "phase_based_right_of_way_rule_state_provider.h", "phase__based__right__of__way__rule__state__provider_8h.html", null ],
     [ "phase_provider.h", "phase__provider_8h.html", [
@@ -252,6 +256,17 @@ var files_dup =
     [ "roll_pitch_yaw.h", "roll__pitch__yaw_8h.html", [
       [ "RollPitchYaw", "classmaliput_1_1math_1_1_roll_pitch_yaw.html", "classmaliput_1_1math_1_1_roll_pitch_yaw" ]
     ] ],
+    [ "route.h", "route_8h.html", [
+      [ "Route", "classmaliput_1_1routing_1_1_route.html", "classmaliput_1_1routing_1_1_route" ]
+    ] ],
+    [ "route_position_result.h", "route__position__result_8h.html", [
+      [ "PhasePositionResult", "structmaliput_1_1routing_1_1_phase_position_result.html", "structmaliput_1_1routing_1_1_phase_position_result" ],
+      [ "RoutePositionResult", "structmaliput_1_1routing_1_1_route_position_result.html", "structmaliput_1_1routing_1_1_route_position_result" ]
+    ] ],
+    [ "router.h", "router_8h.html", [
+      [ "Router", "classmaliput_1_1routing_1_1_router.html", "classmaliput_1_1routing_1_1_router" ]
+    ] ],
+    [ "routing_constraints.h", "routing__constraints_8h.html", "routing__constraints_8h" ],
     [ "rule.cc", "rule_8cc.html", null ],
     [ "rule.h", "rule_8h.html", [
       [ "Rule", "classmaliput_1_1api_1_1rules_1_1_rule.html", "classmaliput_1_1api_1_1rules_1_1_rule" ],

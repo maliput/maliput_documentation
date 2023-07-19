@@ -89,12 +89,57 @@ $(document).ready(function(){initNavTree('namespacemaliput_1_1routing.html','');
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">maliput::routing Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1routing_1_1_phase.html">Phase</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manages a phase in a <a class="el" href="classmaliput_1_1routing_1_1_route.html" title="Describes the sequence of paths that go from one api::RoadPosition to another.">Route</a>, towards its end.  <a href="classmaliput_1_1routing_1_1_phase.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1routing_1_1_phase_position_result.html">PhasePositionResult</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The result of a position query on a <a class="el" href="classmaliput_1_1routing_1_1_phase.html" title="Manages a phase in a Route, towards its end.">Phase</a>.  <a href="structmaliput_1_1routing_1_1_phase_position_result.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1routing_1_1_route.html">Route</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Describes the sequence of paths that go from one <a class="el" href="structmaliput_1_1api_1_1_road_position.html" title="A position in the road network, consisting of a pointer to a specific Lane and a Lane-frame position ...">api::RoadPosition</a> to another.  <a href="classmaliput_1_1routing_1_1_route.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1routing_1_1_route_position_result.html">RoutePositionResult</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The result of a position query on a <a class="el" href="classmaliput_1_1routing_1_1_route.html" title="Describes the sequence of paths that go from one api::RoadPosition to another.">Route</a>.  <a href="structmaliput_1_1routing_1_1_route_position_result.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1routing_1_1_router.html">Router</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes Routes within an <a class="el" href="classmaliput_1_1api_1_1_road_network.html" title="A container that aggregates everything pertaining to Maliput.">api::RoadNetwork</a>.  <a href="classmaliput_1_1routing_1_1_router.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1routing_1_1_routing_constraints.html">RoutingConstraints</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds the constraints that can be applied to the <a class="el" href="classmaliput_1_1routing_1_1_router.html" title="Computes Routes within an api::RoadNetwork.">Router</a> when computing a <a class="el" href="classmaliput_1_1routing_1_1_route.html" title="Describes the sequence of paths that go from one api::RoadPosition to another.">Route</a>.  <a href="structmaliput_1_1routing_1_1_routing_constraints.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a931f81ae3bf7bb2ac7b8924345c23487"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487">LaneSRangeRelation</a> { <br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a8127ca1af560889a3ac6d157536c0260">kAdjacentLeft</a>, 
+<a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a2873b3a4083e3b17116552c3fc59339d">kAdjacentRight</a>, 
+<a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a2d5fde1d924910a2a01ecd8e70a87c28">kLeft</a>, 
+<a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a2dd2b017192f8a09367d48c7648213c9">kRight</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a70676032033802d83400fd58143a0150">kSucceedingStraight</a>, 
+<a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487afb05f716bf1f96c5934650f7bcf5bf6d">kSucceedingLeft</a>, 
+<a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a33e3c4bfa5ec00700febf00173f8dbe2">kSucceedingRight</a>, 
+<a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a4d8f12238683b00b95720e5bb005f441">kPreceedingStraight</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487aebdee03e4e3c279ee9cc77c219ea9681">kPreceedingLeft</a>, 
+<a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a64b34efaab13831e11d205386a98b819">kPreceedingRight</a>, 
+<a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a9556e04cf8f24d118180ebc0615fbf83">kUnrelated</a>, 
+<a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a25c2dc47991b3df171ed5192bcf70390">kUnknown</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:a931f81ae3bf7bb2ac7b8924345c23487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the possible relationships the routing API can interpret between two api::LaneSRanges within a Route.  <a href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487">More...</a><br /></td></tr>
+<tr class="separator:a931f81ae3bf7bb2ac7b8924345c23487"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a50450cdc6c1aefc360378b2dd8e7cafd"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html">api::LaneSRoute</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#a50450cdc6c1aefc360378b2dd8e7cafd">DeriveLaneSRoutes</a> (const <a class="el" href="structmaliput_1_1api_1_1_road_position.html">api::RoadPosition</a> &amp;start, const <a class="el" href="structmaliput_1_1api_1_1_road_position.html">api::RoadPosition</a> &amp;end, <a class="el" href="classdouble.html">double</a> max_length_m)</td></tr>
@@ -103,7 +148,77 @@ Functions</h2></td></tr>
 <tr class="memitem:ae879accab23fdc7d64d39657fd67025c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; const <a class="el" href="classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#ae879accab23fdc7d64d39657fd67025c">FindLaneSequences</a> (const <a class="el" href="classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> *start, const <a class="el" href="classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> *end, <a class="el" href="classdouble.html">double</a> max_length_m)</td></tr>
 <tr class="memdesc:ae879accab23fdc7d64d39657fd67025c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds and returns sequences of lanes that go from a specified start lane to a specified end lane.  <a href="namespacemaliput_1_1routing.html#ae879accab23fdc7d64d39657fd67025c">More...</a><br /></td></tr>
 <tr class="separator:ae879accab23fdc7d64d39657fd67025c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ff489426594d0e27de889f6cf0d93b4"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487">LaneSRangeRelation</a>, const char * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#a2ff489426594d0e27de889f6cf0d93b4">LaneSRangeRelationMapper</a> ()</td></tr>
+<tr class="separator:a2ff489426594d0e27de889f6cf0d93b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7203627c4fa2cac6b579928ec5d20404"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#a7203627c4fa2cac6b579928ec5d20404">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487">LaneSRangeRelation</a> &amp;relation)</td></tr>
+<tr class="memdesc:a7203627c4fa2cac6b579928ec5d20404"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenient overload to serialize as string a LaneSRangeRelation.  <a href="namespacemaliput_1_1routing.html#a7203627c4fa2cac6b579928ec5d20404">More...</a><br /></td></tr>
+<tr class="separator:a7203627c4fa2cac6b579928ec5d20404"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a682ebd95096408013aeb9b1542848120"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#a682ebd95096408013aeb9b1542848120">ValidateRoutingConstraints</a> (const <a class="el" href="structmaliput_1_1routing_1_1_routing_constraints.html">RoutingConstraints</a> &amp;routing_constraints)</td></tr>
+<tr class="memdesc:a682ebd95096408013aeb9b1542848120"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validates the constraints of each parameter of <code>routing_constraints</code>.  <a href="namespacemaliput_1_1routing.html#a682ebd95096408013aeb9b1542848120">More...</a><br /></td></tr>
+<tr class="separator:a682ebd95096408013aeb9b1542848120"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a931f81ae3bf7bb2ac7b8924345c23487"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a931f81ae3bf7bb2ac7b8924345c23487">&#9670;&nbsp;</a></span>LaneSRangeRelation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487">LaneSRangeRelation</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Defines the possible relationships the routing API can interpret between two api::LaneSRanges within a <a class="el" href="classmaliput_1_1routing_1_1_route.html" title="Describes the sequence of paths that go from one api::RoadPosition to another.">Route</a>. </p>
+<p>Relations described in this enum must be mutually exclusive. The following ASCII art helps to understand the relative relations described below.</p>
+<pre></pre><pre> x------A&gt;-------x
+ x------B&gt;-------x------E&gt;-------x------H&gt;-------x
+ x------C&gt;-------x------F&gt;-------x------I&gt;-------x
+ x------D&gt;-------x------G&gt;-------x</pre><pre></pre><p>In the diagram above:</p><ul>
+<li><code>x</code> indicates the beginning or the end of a <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">api::LaneSRange</a>.</li>
+<li><code>&gt;</code> indicates the direction of travel of the route.</li>
+<li>The letters name the api::LaneSRanges in the <a class="el" href="classmaliput_1_1routing_1_1_route.html" title="Describes the sequence of paths that go from one api::RoadPosition to another.">Route</a>.</li>
+</ul>
+<p>Thus,</p><ul>
+<li><code>A</code> is <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a8127ca1af560889a3ac6d157536c0260">LaneSRangeRelation::kAdjacentLeft</a> of <code>B</code>.</li>
+<li><code>B</code> is <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a2873b3a4083e3b17116552c3fc59339d">LaneSRangeRelation::kAdjacentRight</a> of <code>A</code>.</li>
+<li><code>A</code> is <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a2d5fde1d924910a2a01ecd8e70a87c28">LaneSRangeRelation::kLeft</a> of <code>D</code>.</li>
+<li><code>D</code> is <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a2dd2b017192f8a09367d48c7648213c9">LaneSRangeRelation::kRight</a> of <code>A</code>.</li>
+<li><code>F</code> is <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a70676032033802d83400fd58143a0150">LaneSRangeRelation::kSucceedingStraight</a> of <code>C</code>.</li>
+<li><code>E</code> and <code>F</code> are <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487afb05f716bf1f96c5934650f7bcf5bf6d">LaneSRangeRelation::kSucceedingLeft</a> of <code>D</code>.</li>
+<li><code>F</code> and <code>G</code> are <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a33e3c4bfa5ec00700febf00173f8dbe2">LaneSRangeRelation::kSucceedingRight</a> of <code>B</code>.</li>
+<li><code>E</code> is <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a4d8f12238683b00b95720e5bb005f441">LaneSRangeRelation::kPreceedingStraight</a> of <code>H</code>.</li>
+<li><code>E</code> is <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487aebdee03e4e3c279ee9cc77c219ea9681">LaneSRangeRelation::kPreceedingLeft</a> of <code>I</code>.</li>
+<li><code>F</code> and <code>G</code> are <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a64b34efaab13831e11d205386a98b819">LaneSRangeRelation::kPreceedingRight</a> of <code>H</code>.</li>
+<li><code>A</code> is <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a9556e04cf8f24d118180ebc0615fbf83">LaneSRangeRelation::kUnrelated</a> to <code>H</code>.</li>
+</ul>
+<p><a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a25c2dc47991b3df171ed5192bcf70390">LaneSRangeRelation::kUnknown</a> represents the case when any of the api::LaneSRanges is not found in the <a class="el" href="classmaliput_1_1routing_1_1_route.html" title="Describes the sequence of paths that go from one api::RoadPosition to another.">Route</a>. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a931f81ae3bf7bb2ac7b8924345c23487a8127ca1af560889a3ac6d157536c0260"></a>kAdjacentLeft&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a931f81ae3bf7bb2ac7b8924345c23487a2873b3a4083e3b17116552c3fc59339d"></a>kAdjacentRight&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a931f81ae3bf7bb2ac7b8924345c23487a2d5fde1d924910a2a01ecd8e70a87c28"></a>kLeft&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a931f81ae3bf7bb2ac7b8924345c23487a2dd2b017192f8a09367d48c7648213c9"></a>kRight&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a931f81ae3bf7bb2ac7b8924345c23487a70676032033802d83400fd58143a0150"></a>kSucceedingStraight&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a931f81ae3bf7bb2ac7b8924345c23487afb05f716bf1f96c5934650f7bcf5bf6d"></a>kSucceedingLeft&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a931f81ae3bf7bb2ac7b8924345c23487a33e3c4bfa5ec00700febf00173f8dbe2"></a>kSucceedingRight&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a931f81ae3bf7bb2ac7b8924345c23487a4d8f12238683b00b95720e5bb005f441"></a>kPreceedingStraight&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a931f81ae3bf7bb2ac7b8924345c23487aebdee03e4e3c279ee9cc77c219ea9681"></a>kPreceedingLeft&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a931f81ae3bf7bb2ac7b8924345c23487a64b34efaab13831e11d205386a98b819"></a>kPreceedingRight&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a931f81ae3bf7bb2ac7b8924345c23487a9556e04cf8f24d118180ebc0615fbf83"></a>kUnrelated&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a931f81ae3bf7bb2ac7b8924345c23487a25c2dc47991b3df171ed5192bcf70390"></a>kUnknown&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a50450cdc6c1aefc360378b2dd8e7cafd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a50450cdc6c1aefc360378b2dd8e7cafd">&#9670;&nbsp;</a></span>DeriveLaneSRoutes()</h2>
@@ -185,6 +300,94 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector of lane sequences in which the first lane is <code>start</code> and the last lane is <code>end</code>. An empty vector is returned if no sequences are found. </dd></dl>
+
+</div>
+</div>
+<a id="a2ff489426594d0e27de889f6cf0d93b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ff489426594d0e27de889f6cf0d93b4">&#9670;&nbsp;</a></span>LaneSRangeRelationMapper()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;<a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487">LaneSRangeRelation</a>, const char*&gt; maliput::routing::LaneSRangeRelationMapper </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>A convenient dictionary that maps LaneSRangeRelation to a const char *. </dd></dl>
+
+</div>
+</div>
+<a id="a7203627c4fa2cac6b579928ec5d20404"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7203627c4fa2cac6b579928ec5d20404">&#9670;&nbsp;</a></span>operator&lt;&lt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; maliput::routing::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487">LaneSRangeRelation</a> &amp;&#160;</td>
+          <td class="paramname"><em>relation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convenient overload to serialize as string a LaneSRangeRelation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">os</td><td>A mutable reference to a std::ostream. </td></tr>
+    <tr><td class="paramname">relation</td><td>The LaneSRangeRelation to serialize. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>os</code> with <code>relation</code> serialized. </dd></dl>
+
+</div>
+</div>
+<a id="a682ebd95096408013aeb9b1542848120"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a682ebd95096408013aeb9b1542848120">&#9670;&nbsp;</a></span>ValidateRoutingConstraints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void maliput::routing::ValidateRoutingConstraints </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmaliput_1_1routing_1_1_routing_constraints.html">RoutingConstraints</a> &amp;&#160;</td>
+          <td class="paramname"><em>routing_constraints</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Validates the constraints of each parameter of <code>routing_constraints</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">routing_constraints</td><td>A <a class="el" href="structmaliput_1_1routing_1_1_routing_constraints.html" title="Holds the constraints that can be applied to the Router when computing a Route.">RoutingConstraints</a> to validate. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html" title="This is what MALIPUT_THROW_UNLESS throws.">common::assertion_error</a></td><td>When one of the preconditions of <code>routing_constraints</code> are violated. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

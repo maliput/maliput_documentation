@@ -5,6 +5,7 @@ var namespacemaliput =
     [ "geometry_base", "namespacemaliput_1_1geometry__base.html", "namespacemaliput_1_1geometry__base" ],
     [ "math", "namespacemaliput_1_1math.html", "namespacemaliput_1_1math" ],
     [ "plugin", "namespacemaliput_1_1plugin.html", "namespacemaliput_1_1plugin" ],
+    [ "routing", "namespacemaliput_1_1routing.html", "namespacemaliput_1_1routing" ],
     [ "utility", "namespacemaliput_1_1utility.html", "namespacemaliput_1_1utility" ],
     [ "DiscreteValueRuleConstants", "structmaliput_1_1_discrete_value_rule_constants.html", "structmaliput_1_1_discrete_value_rule_constants" ],
     [ "Intersection", "classmaliput_1_1_intersection.html", "classmaliput_1_1_intersection" ],

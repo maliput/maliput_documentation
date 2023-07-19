@@ -26,12 +26,12 @@ var hierarchy =
     ] ],
     [ "Header", "structmalidrive_1_1xodr_1_1_header.html", null ],
     [ "Junction", "structmalidrive_1_1xodr_1_1_junction.html", null ],
+    [ "Lane", "structmalidrive_1_1xodr_1_1_lane.html", null ],
     [ "Lane", "../../maliput/html/classmaliput_1_1api_1_1_lane.html", [
       [ "Lane", "../../maliput/html/classmaliput_1_1geometry__base_1_1_lane.html", [
         [ "Lane", "classmalidrive_1_1_lane.html", null ]
       ] ]
     ] ],
-    [ "Lane", "structmalidrive_1_1xodr_1_1_lane.html", null ],
     [ "Connection::LaneLink", "structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html", null ],
     [ "LaneLink", "structmalidrive_1_1xodr_1_1_lane_link.html", null ],
     [ "LaneOffset", "structmalidrive_1_1xodr_1_1_lane_offset.html", null ],

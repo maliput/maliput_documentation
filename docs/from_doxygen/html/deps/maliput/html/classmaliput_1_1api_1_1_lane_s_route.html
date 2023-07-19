@@ -96,8 +96,8 @@ $(document).ready(function(){initNavTree('classmaliput_1_1api_1_1_lane_s_route.h
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A longitudinal route, possibly spanning multiple (end-to-end) lanes. </p>
-<p>The sequence of LaneSRanges should be contiguous. (In other words, taken as a Lane-space path with r=0 and h=0, it should present a G1-continuous curve.) </p>
+<div class="textblock"><p>A route, possibly spanning multiple (end-to-end) lanes. </p>
+<p>The sequence of LaneSRanges should be contiguous by either presenting laterally adjacent LaneSRanges, or consecutive LaneSRanges. (In other words, taken as a Lane-space path with r=0 and h=0, it should present a G1-continuous curve.) </p>
 </div>
 <p><code>#include &lt;include/maliput/api/regions.h&gt;</code></p>
 <table class="memberdecls">
@@ -109,15 +109,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:addd94d3e02ab6babff7bf151851b4b88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor: constructs an empty route.  <a href="classmaliput_1_1api_1_1_lane_s_route.html#addd94d3e02ab6babff7bf151851b4b88">More...</a><br /></td></tr>
 <tr class="separator:addd94d3e02ab6babff7bf151851b4b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d53ecfca9f1278e533cc2356ddc0752"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html#a8d53ecfca9f1278e533cc2356ddc0752">LaneSRoute</a> (const std::vector&lt; <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html">LaneSRange</a> &gt; &amp;<a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html#a4908ce0d69f0d51c82a72260d99364f2">ranges</a>)</td></tr>
-<tr class="memdesc:a8d53ecfca9f1278e533cc2356ddc0752"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html" title="A longitudinal route, possibly spanning multiple (end-to-end) lanes.">LaneSRoute</a> from the given sequence of LaneSRanges.  <a href="classmaliput_1_1api_1_1_lane_s_route.html#a8d53ecfca9f1278e533cc2356ddc0752">More...</a><br /></td></tr>
+<tr class="memdesc:a8d53ecfca9f1278e533cc2356ddc0752"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html" title="A route, possibly spanning multiple (end-to-end) lanes.">LaneSRoute</a> from the given sequence of LaneSRanges.  <a href="classmaliput_1_1api_1_1_lane_s_route.html#a8d53ecfca9f1278e533cc2356ddc0752">More...</a><br /></td></tr>
 <tr class="separator:a8d53ecfca9f1278e533cc2356ddc0752"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4908ce0d69f0d51c82a72260d99364f2"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html">LaneSRange</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html#a4908ce0d69f0d51c82a72260d99364f2">ranges</a> () const</td></tr>
 <tr class="memdesc:a4908ce0d69f0d51c82a72260d99364f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sequence of LaneSRanges.  <a href="classmaliput_1_1api_1_1_lane_s_route.html#a4908ce0d69f0d51c82a72260d99364f2">More...</a><br /></td></tr>
 <tr class="separator:a4908ce0d69f0d51c82a72260d99364f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80401d480f15e1418a3274a2b2b51649"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdouble.html">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html#a80401d480f15e1418a3274a2b2b51649">length</a> () const</td></tr>
+<tr class="memdesc:a80401d480f15e1418a3274a2b2b51649"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the accumulated length of all LaneSRanges.  <a href="classmaliput_1_1api_1_1_lane_s_route.html#a80401d480f15e1418a3274a2b2b51649">More...</a><br /></td></tr>
 <tr class="separator:a80401d480f15e1418a3274a2b2b51649"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7e305537794b3a91523b5bce58e6252"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html#ab7e305537794b3a91523b5bce58e6252">Intersects</a> (const <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html">LaneSRoute</a> &amp;lane_s_route, <a class="el" href="classdouble.html">double</a> tolerance) const</td></tr>
-<tr class="memdesc:ab7e305537794b3a91523b5bce58e6252"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether this <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html" title="A longitudinal route, possibly spanning multiple (end-to-end) lanes.">LaneSRoute</a> intersects with <code>lane_s_route</code>.  <a href="classmaliput_1_1api_1_1_lane_s_route.html#ab7e305537794b3a91523b5bce58e6252">More...</a><br /></td></tr>
+<tr class="memdesc:ab7e305537794b3a91523b5bce58e6252"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether this <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html" title="A route, possibly spanning multiple (end-to-end) lanes.">LaneSRoute</a> intersects with <code>lane_s_route</code>.  <a href="classmaliput_1_1api_1_1_lane_s_route.html#ab7e305537794b3a91523b5bce58e6252">More...</a><br /></td></tr>
 <tr class="separator:ab7e305537794b3a91523b5bce58e6252"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -172,7 +173,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructs a <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html" title="A longitudinal route, possibly spanning multiple (end-to-end) lanes.">LaneSRoute</a> from the given sequence of LaneSRanges. </p>
+<p>Constructs a <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html" title="A route, possibly spanning multiple (end-to-end) lanes.">LaneSRoute</a> from the given sequence of LaneSRanges. </p>
 
 </div>
 </div>
@@ -203,9 +204,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Determines whether this <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html" title="A longitudinal route, possibly spanning multiple (end-to-end) lanes.">LaneSRoute</a> intersects with <code>lane_s_route</code>. </p>
+<p>Determines whether this <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html" title="A route, possibly spanning multiple (end-to-end) lanes.">LaneSRoute</a> intersects with <code>lane_s_route</code>. </p>
 <p>LaneSRoutes intersection is evaluated first by <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a>'s LaneId coincidence, then <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html#a64a6eda0bf1e33c6878b4292f4c5df59" title="Determines whether this LaneSRange intersects with lane_s_range.">LaneSRange::Intersects()</a> is used.</p>
-<p><code>tolerance</code> will modify this <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html" title="A longitudinal route, possibly spanning multiple (end-to-end) lanes.">LaneSRoute</a>'s ranges and <code>lane_s_route</code>'s ranges by increasing the maximum tolerance and reducing the minimum each range. When <code>tolerance</code> is negative, it shrinks both ranges. </p>
+<p><code>tolerance</code> will modify this <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html" title="A route, possibly spanning multiple (end-to-end) lanes.">LaneSRoute</a>'s ranges and <code>lane_s_route</code>'s ranges by increasing the maximum tolerance and reducing the minimum each range. When <code>tolerance</code> is negative, it shrinks both ranges. </p>
 
 </div>
 </div>
@@ -223,6 +224,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns the accumulated length of all LaneSRanges. </p>
 
 </div>
 </div>

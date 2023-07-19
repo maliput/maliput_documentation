@@ -103,8 +103,10 @@ var hierarchy =
     [ "ObjFeatures", "structmaliput_1_1utility_1_1_obj_features.html", null ],
     [ "Passkey< T >", "classmaliput_1_1common_1_1_passkey.html", null ],
     [ "Path", "classmaliput_1_1common_1_1_path.html", null ],
+    [ "Phase", "classmaliput_1_1routing_1_1_phase.html", null ],
     [ "Phase", "classmaliput_1_1api_1_1rules_1_1_phase.html", null ],
     [ "PhaseBuildFlags", "structmaliput_1_1api_1_1test_1_1_phase_build_flags.html", null ],
+    [ "PhasePositionResult", "structmaliput_1_1routing_1_1_phase_position_result.html", null ],
     [ "PhaseProvider", "classmaliput_1_1api_1_1rules_1_1_phase_provider.html", [
       [ "ManualPhaseProvider", "classmaliput_1_1_manual_phase_provider.html", null ]
     ] ],
@@ -150,6 +152,10 @@ var hierarchy =
     [ "RoadRulebookRelatedRulesBuildFlags", "structmaliput_1_1api_1_1test_1_1_road_rulebook_related_rules_build_flags.html", null ],
     [ "RollPitchYaw", "classmaliput_1_1math_1_1_roll_pitch_yaw.html", null ],
     [ "Rotation", "classmaliput_1_1api_1_1_rotation.html", null ],
+    [ "Route", "classmaliput_1_1routing_1_1_route.html", null ],
+    [ "RoutePositionResult", "structmaliput_1_1routing_1_1_route_position_result.html", null ],
+    [ "Router", "classmaliput_1_1routing_1_1_router.html", null ],
+    [ "RoutingConstraints", "structmaliput_1_1routing_1_1_routing_constraints.html", null ],
     [ "Rule", "classmaliput_1_1api_1_1rules_1_1_rule.html", [
       [ "DiscreteValueRule", "classmaliput_1_1api_1_1rules_1_1_discrete_value_rule.html", null ],
       [ "RangeValueRule", "classmaliput_1_1api_1_1rules_1_1_range_value_rule.html", null ]

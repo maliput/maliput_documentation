@@ -3982,67 +3982,6 @@
       <arglist></arglist>
     </member>
   </compound>
-  <compound kind="class">
-    <name>malidrive::Lane</name>
-    <filename>classmalidrive_1_1_lane.html</filename>
-    <base>maliput::geometry_base::Lane</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIDRIVE_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>a6140ac583e6e71304fb7a4b0252baa98</anchor>
-      <arglist>(Lane)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>Lane</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>a754b56e8bb63742dca82aa187cf79c09</anchor>
-      <arglist>(const maliput::api::LaneId &amp;id, int xodr_track, int xodr_lane_id, const maliput::api::HBounds &amp;elevation_bounds, const road_curve::RoadCurve *road_curve, std::unique_ptr&lt; road_curve::Function &gt; lane_width, std::unique_ptr&lt; road_curve::Function &gt; lane_offset, double p0, double p1)</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>get_track</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>a9c9c3b577525a5b421fc0ccdb0eb1cb4</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>get_lane_id</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>a6fd8fd747aec8546c67c75f8ed0bc6a0</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>get_track_s_start</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>a15dc832908c773b3f1e1bf2615ea74f2</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>get_track_s_end</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>ab1773002f837cbef4ea41d923cdb3041</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>TrackSFromLaneS</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>afeab73b6ebae3c8fce8b52699a32fc99</anchor>
-      <arglist>(double lane_s) const</arglist>
-    </member>
-    <member kind="function">
-      <type>double</type>
-      <name>LaneSFromTrackS</name>
-      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>ad17b08b4477d4e2f3d348ea8f47f20bf</anchor>
-      <arglist>(double track_s) const</arglist>
-    </member>
-  </compound>
   <compound kind="struct">
     <name>malidrive::xodr::Lane</name>
     <filename>structmalidrive_1_1xodr_1_1_lane.html</filename>
@@ -4199,6 +4138,67 @@
       <anchorfile>structmalidrive_1_1xodr_1_1_lane.html</anchorfile>
       <anchor>a72fc73aa5da78d2ef3b4b81ce2fb094c</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>malidrive::Lane</name>
+    <filename>classmalidrive_1_1_lane.html</filename>
+    <base>maliput::geometry_base::Lane</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIDRIVE_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>a6140ac583e6e71304fb7a4b0252baa98</anchor>
+      <arglist>(Lane)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Lane</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>a754b56e8bb63742dca82aa187cf79c09</anchor>
+      <arglist>(const maliput::api::LaneId &amp;id, int xodr_track, int xodr_lane_id, const maliput::api::HBounds &amp;elevation_bounds, const road_curve::RoadCurve *road_curve, std::unique_ptr&lt; road_curve::Function &gt; lane_width, std::unique_ptr&lt; road_curve::Function &gt; lane_offset, double p0, double p1)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>get_track</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>a9c9c3b577525a5b421fc0ccdb0eb1cb4</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>get_lane_id</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>a6fd8fd747aec8546c67c75f8ed0bc6a0</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>get_track_s_start</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>a15dc832908c773b3f1e1bf2615ea74f2</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>get_track_s_end</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>ab1773002f837cbef4ea41d923cdb3041</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>TrackSFromLaneS</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>afeab73b6ebae3c8fce8b52699a32fc99</anchor>
+      <arglist>(double lane_s) const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>LaneSFromTrackS</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>ad17b08b4477d4e2f3d348ea8f47f20bf</anchor>
+      <arglist>(double track_s) const</arglist>
     </member>
   </compound>
   <compound kind="struct">
