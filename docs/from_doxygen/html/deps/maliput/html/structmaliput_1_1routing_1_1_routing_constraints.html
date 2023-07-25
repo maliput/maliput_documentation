@@ -142,7 +142,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Defines the maximum cost of a <a class="el" href="classmaliput_1_1routing_1_1_phase.html" title="Manages a phase in a Route, towards its end.">Phase</a>. </p>
-<p>Cost is a router implementation detail and is thus unitless. When set, it must be positive. When both <code>max_route_cost</code> and this parameter are set, <code>max_route_cost &gt;= max_phase_cost</code>. </p>
+<p>Cost is a router implementation detail and is thus unitless. When set, it must not be negative. When both <code>max_route_cost</code> and this parameter are set, <code>max_route_cost &gt;= max_phase_cost</code>. </p>
 
 </div>
 </div>
@@ -159,7 +159,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Defines the maximim cost of a <a class="el" href="classmaliput_1_1routing_1_1_route.html" title="Describes the sequence of paths that go from one api::RoadPosition to another.">Route</a>. </p>
-<p>Cost is a router implementation detail and is thus unitless. When set, it must be positive. When both <code>max_phase_cost</code> and this parameter are set, <code>max_route_cost &gt;= max_phase_cost</code>. </p>
+<p>Cost is a router implementation detail and is thus unitless. When set, it must not be negative. When both <code>max_phase_cost</code> and this parameter are set, <code>max_route_cost &gt;= max_phase_cost</code>. </p>
 
 </div>
 </div>

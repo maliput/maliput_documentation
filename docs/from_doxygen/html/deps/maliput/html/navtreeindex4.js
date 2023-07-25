@@ -169,7 +169,7 @@ var NAVTREEINDEX4 =
 "geometry__base_2lane_8h.html":[5,0,58],
 "geometry__base_2road__geometry_8cc.html":[5,0,140],
 "geometry__base_2road__geometry_8h.html":[5,0,142],
-"geometry__base_2segment_8h.html":[5,0,183],
+"geometry__base_2segment_8h.html":[5,0,184],
 "globals.html":[5,1,0],
 "globals_defs.html":[5,1,2],
 "globals_vars.html":[5,1,1],

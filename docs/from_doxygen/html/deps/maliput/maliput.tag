@@ -4427,6 +4427,22 @@
     <namespace>maliput::routing</namespace>
   </compound>
   <compound kind="file">
+    <name>routing_constraints.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/routing/</path>
+    <filename>routing__constraints_8cc.html</filename>
+    <includes id="routing__constraints_8h" name="routing_constraints.h" local="yes" imported="no">maliput/routing/routing_constraints.h</includes>
+    <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::routing</namespace>
+    <member kind="function">
+      <type>void</type>
+      <name>ValidateRoutingConstraints</name>
+      <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
+      <anchor>a3604feb52a6ed523000b97c0033d6c5e</anchor>
+      <arglist>(const RoutingConstraints &amp;routing_constraints)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>routing_constraints.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/routing/</path>
     <filename>routing__constraints_8h.html</filename>
@@ -4437,7 +4453,7 @@
       <type>void</type>
       <name>ValidateRoutingConstraints</name>
       <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
-      <anchor>a682ebd95096408013aeb9b1542848120</anchor>
+      <anchor>a3604feb52a6ed523000b97c0033d6c5e</anchor>
       <arglist>(const RoutingConstraints &amp;routing_constraints)</arglist>
     </member>
   </compound>
@@ -18368,7 +18384,7 @@
       <type>void</type>
       <name>ValidateRoutingConstraints</name>
       <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
-      <anchor>a682ebd95096408013aeb9b1542848120</anchor>
+      <anchor>a3604feb52a6ed523000b97c0033d6c5e</anchor>
       <arglist>(const RoutingConstraints &amp;routing_constraints)</arglist>
     </member>
   </compound>

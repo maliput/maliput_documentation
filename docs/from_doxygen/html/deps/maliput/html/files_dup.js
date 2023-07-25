@@ -266,6 +266,7 @@ var files_dup =
     [ "router.h", "router_8h.html", [
       [ "Router", "classmaliput_1_1routing_1_1_router.html", "classmaliput_1_1routing_1_1_router" ]
     ] ],
+    [ "routing_constraints.cc", "routing__constraints_8cc.html", "routing__constraints_8cc" ],
     [ "routing_constraints.h", "routing__constraints_8h.html", "routing__constraints_8h" ],
     [ "rule.cc", "rule_8cc.html", null ],
     [ "rule.h", "rule_8h.html", [
