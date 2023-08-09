@@ -185,7 +185,8 @@ var files_dup =
     [ "passkey.h", "passkey_8h.html", [
       [ "Passkey", "classmaliput_1_1common_1_1_passkey.html", null ]
     ] ],
-    [ "phase.cc", "phase_8cc.html", null ],
+    [ "api/rules/phase.cc", "api_2rules_2phase_8cc.html", null ],
+    [ "routing/phase.cc", "routing_2phase_8cc.html", null ],
     [ "api/rules/phase.h", "api_2rules_2phase_8h.html", "api_2rules_2phase_8h" ],
     [ "routing/phase.h", "routing_2phase_8h.html", [
       [ "Phase", "classmaliput_1_1routing_1_1_phase.html", "classmaliput_1_1routing_1_1_phase" ]

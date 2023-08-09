@@ -71,11 +71,12 @@ var searchData=
   ['junction_2eh_69',['junction.h',['../api_2junction_8h.html',1,'']]],
   ['lane_2ecc_70',['lane.cc',['../api_2lane_8cc.html',1,'']]],
   ['lane_2eh_71',['lane.h',['../api_2lane_8h.html',1,'']]],
-  ['phase_2eh_72',['phase.h',['../api_2rules_2phase_8h.html',1,'']]],
-  ['road_5fgeometry_2ecc_73',['road_geometry.cc',['../api_2road__geometry_8cc.html',1,'']]],
-  ['road_5fgeometry_2eh_74',['road_geometry.h',['../api_2road__geometry_8h.html',1,'']]],
-  ['rule_5fregistry_2ecc_75',['rule_registry.cc',['../api_2rules_2rule__registry_8cc.html',1,'']]],
-  ['rule_5fregistry_2eh_76',['rule_registry.h',['../api_2rules_2rule__registry_8h.html',1,'']]],
-  ['segment_2eh_77',['segment.h',['../api_2segment_8h.html',1,'']]],
-  ['traffic_5flight_5fbook_2eh_78',['traffic_light_book.h',['../api_2rules_2traffic__light__book_8h.html',1,'']]]
+  ['phase_2ecc_72',['phase.cc',['../api_2rules_2phase_8cc.html',1,'']]],
+  ['phase_2eh_73',['phase.h',['../api_2rules_2phase_8h.html',1,'']]],
+  ['road_5fgeometry_2ecc_74',['road_geometry.cc',['../api_2road__geometry_8cc.html',1,'']]],
+  ['road_5fgeometry_2eh_75',['road_geometry.h',['../api_2road__geometry_8h.html',1,'']]],
+  ['rule_5fregistry_2ecc_76',['rule_registry.cc',['../api_2rules_2rule__registry_8cc.html',1,'']]],
+  ['rule_5fregistry_2eh_77',['rule_registry.h',['../api_2rules_2rule__registry_8h.html',1,'']]],
+  ['segment_2eh_78',['segment.h',['../api_2segment_8h.html',1,'']]],
+  ['traffic_5flight_5fbook_2eh_79',['traffic_light_book.h',['../api_2rules_2traffic__light__book_8h.html',1,'']]]
 ];

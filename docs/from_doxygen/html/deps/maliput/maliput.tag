@@ -3413,13 +3413,25 @@
     <namespace>maliput::common</namespace>
   </compound>
   <compound kind="file">
-    <name>phase.cc</name>
+    <name>api/rules/phase.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/rules/</path>
-    <filename>phase_8cc.html</filename>
+    <filename>api_2rules_2phase_8cc.html</filename>
     <includes id="api_2rules_2phase_8h" name="api/rules/phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
     <namespace>maliput::api::rules</namespace>
+  </compound>
+  <compound kind="file">
+    <name>routing/phase.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/routing/</path>
+    <filename>routing_2phase_8cc.html</filename>
+    <includes id="routing_2phase_8h" name="routing/phase.h" local="yes" imported="no">maliput/routing/phase.h</includes>
+    <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
+    <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
+    <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
+    <includes id="strategy__base_8h" name="strategy_base.h" local="yes" imported="no">maliput/geometry_base/strategy_base.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::routing</namespace>
   </compound>
   <compound kind="file">
     <name>api/rules/phase.h</name>
@@ -3466,7 +3478,6 @@
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="road__network_8h" name="road_network.h" local="yes" imported="no">maliput/api/road_network.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
-    <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <includes id="route__position__result_8h" name="route_position_result.h" local="yes" imported="no">maliput/routing/route_position_result.h</includes>
     <class kind="class">maliput::routing::Phase</class>
     <namespace>maliput</namespace>

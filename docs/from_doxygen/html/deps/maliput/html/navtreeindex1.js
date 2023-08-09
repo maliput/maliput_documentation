@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"classmaliput_1_1api_1_1_lane_end_set.html#ad30d4a5fc72d62e1309a5f24c63e799a":[4,0,0,0,12,1],
 "classmaliput_1_1api_1_1_lane_end_set.html#af9593d4a5ff4274efaf429cb4f9e57cc":[4,0,0,0,12,3],
 "classmaliput_1_1api_1_1_lane_position.html":[4,0,0,0,13],
 "classmaliput_1_1api_1_1_lane_position.html#a0cc6f01bceaf0ccbfadc11c67e936a13":[4,0,0,0,13,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "classmaliput_1_1api_1_1rules_1_1_traffic_light.html#a9ad32001c047b97b3fc0f4b0dc182fcc":[4,0,0,0,0,15,3],
 "classmaliput_1_1api_1_1rules_1_1_traffic_light.html#a9b101cd2eb8d2e39f53c7ffeb93af33a":[4,0,0,0,0,15,6],
 "classmaliput_1_1api_1_1rules_1_1_traffic_light.html#ad158f2067d781a34df2de96c61b2ba48":[4,0,0,0,0,15,2],
-"classmaliput_1_1api_1_1rules_1_1_traffic_light.html#ad86da4631941ff862e4b86de5ee16747":[4,0,0,0,0,15,7],
-"classmaliput_1_1api_1_1rules_1_1_traffic_light.html#af7e0ad54f29a7c2093923bbc6dc88d4c":[4,0,0,0,0,15,5]
+"classmaliput_1_1api_1_1rules_1_1_traffic_light.html#ad86da4631941ff862e4b86de5ee16747":[4,0,0,0,0,15,7]
 };

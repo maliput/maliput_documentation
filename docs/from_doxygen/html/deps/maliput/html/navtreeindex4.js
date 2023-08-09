@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"classmaliput_1_1utility_1_1mesh_1_1_geo_mesh.html#a6ff895726c11e55f82f0f441a45668bd":[4,0,0,6,0,4,4],
 "classmaliput_1_1utility_1_1mesh_1_1_geo_mesh.html#a74207a21080d6aa13e8ce38df74aa5b4":[4,0,0,6,0,4,6],
 "classmaliput_1_1utility_1_1mesh_1_1_geo_mesh.html#a8d003c56a06c15c1c20624f716035086":[4,0,0,6,0,4,5],
 "classmaliput_1_1utility_1_1mesh_1_1_geo_mesh.html#ac224f0d3a0fe0b0889bdaa12c0f18a46":[4,0,0,6,0,4,0],
@@ -167,9 +168,9 @@ var NAVTREEINDEX4 =
 "geometry__base_2junction_8h.html":[5,0,51],
 "geometry__base_2lane_8cc.html":[5,0,56],
 "geometry__base_2lane_8h.html":[5,0,58],
-"geometry__base_2road__geometry_8cc.html":[5,0,140],
-"geometry__base_2road__geometry_8h.html":[5,0,142],
-"geometry__base_2segment_8h.html":[5,0,184],
+"geometry__base_2road__geometry_8cc.html":[5,0,141],
+"geometry__base_2road__geometry_8h.html":[5,0,143],
+"geometry__base_2segment_8h.html":[5,0,185],
 "globals.html":[5,1,0],
 "globals_defs.html":[5,1,2],
 "globals_vars.html":[5,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "logger_8h.html#afde8e18a788ccc92fc61cab298bca7e3ad606e435413ea0944dd00d49e901e4ed":[5,0,64,4,4],
 "maliput__abort_8h.html":[5,0,65],
 "maliput__abort_8h.html#a1a63baa421186d858d40d4baf283b591":[5,0,65,3],
-"maliput__abort_8h.html#a42ff6d48d03489dd3a8ee0f1ff63bb45":[5,0,65,6],
-"maliput__abort_8h.html#a65f9110fb0415b21949804d97dbb14dc":[5,0,65,1]
+"maliput__abort_8h.html#a42ff6d48d03489dd3a8ee0f1ff63bb45":[5,0,65,6]
 };
