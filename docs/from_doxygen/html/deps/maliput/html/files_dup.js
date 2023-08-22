@@ -124,6 +124,8 @@ var files_dup =
       [ "MaliputPluginManager", "classmaliput_1_1plugin_1_1_maliput_plugin_manager.html", "classmaliput_1_1plugin_1_1_maliput_plugin_manager" ]
     ] ],
     [ "maliput_plugin_type.h", "maliput__plugin__type_8h.html", "maliput__plugin__type_8h" ],
+    [ "maliput_routing_position_compare.cc", "maliput__routing__position__compare_8cc.html", "maliput__routing__position__compare_8cc" ],
+    [ "maliput_routing_position_compare.h", "maliput__routing__position__compare_8h.html", "maliput__routing__position__compare_8h" ],
     [ "maliput_throw.h", "maliput__throw_8h.html", "maliput__throw_8h" ],
     [ "maliput_types_compare.cc", "maliput__types__compare_8cc.html", "maliput__types__compare_8cc" ],
     [ "maliput_types_compare.h", "maliput__types__compare_8h.html", "maliput__types__compare_8h" ],
@@ -186,11 +188,9 @@ var files_dup =
       [ "Passkey", "classmaliput_1_1common_1_1_passkey.html", null ]
     ] ],
     [ "api/rules/phase.cc", "api_2rules_2phase_8cc.html", null ],
-    [ "routing/phase.cc", "routing_2phase_8cc.html", null ],
+    [ "routing/phase.cc", "routing_2phase_8cc.html", "routing_2phase_8cc" ],
     [ "api/rules/phase.h", "api_2rules_2phase_8h.html", "api_2rules_2phase_8h" ],
-    [ "routing/phase.h", "routing_2phase_8h.html", [
-      [ "Phase", "classmaliput_1_1routing_1_1_phase.html", "classmaliput_1_1routing_1_1_phase" ]
-    ] ],
+    [ "routing/phase.h", "routing_2phase_8h.html", "routing_2phase_8h" ],
     [ "phase_based_right_of_way_rule_state_provider.cc", "phase__based__right__of__way__rule__state__provider_8cc.html", null ],
     [ "phase_based_right_of_way_rule_state_provider.h", "phase__based__right__of__way__rule__state__provider_8h.html", null ],
     [ "phase_provider.h", "phase__provider_8h.html", [
@@ -257,6 +257,7 @@ var files_dup =
     [ "roll_pitch_yaw.h", "roll__pitch__yaw_8h.html", [
       [ "RollPitchYaw", "classmaliput_1_1math_1_1_roll_pitch_yaw.html", "classmaliput_1_1math_1_1_roll_pitch_yaw" ]
     ] ],
+    [ "route.cc", "route_8cc.html", null ],
     [ "route.h", "route_8h.html", [
       [ "Route", "classmaliput_1_1routing_1_1_route.html", "classmaliput_1_1routing_1_1_route" ]
     ] ],

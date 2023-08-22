@@ -51,9 +51,11 @@ var searchData=
   ['ismeshfaceplanar_463',['IsMeshFacePlanar',['../namespacemaliput_1_1utility_1_1mesh.html#a3c9b3b4c9e5c0a0679b51b2a6c752f88',1,'maliput::utility::mesh']]],
   ['isnewroadpositionresultcloser_464',['IsNewRoadPositionResultCloser',['../namespacemaliput_1_1geometry__base.html#a099609a21db549b19f38eb51ff83cdda',1,'maliput::geometry_base']]],
   ['isolanevelocity_465',['IsoLaneVelocity',['../structmaliput_1_1api_1_1_iso_lane_velocity.html',1,'IsoLaneVelocity'],['../structmaliput_1_1api_1_1_iso_lane_velocity.html#a10f42953901acfdedb9cabafc069a6f4',1,'maliput::api::IsoLaneVelocity::IsoLaneVelocity()=default'],['../structmaliput_1_1api_1_1_iso_lane_velocity.html#a445a6260255bb5e14482e2eaa8689a80',1,'maliput::api::IsoLaneVelocity::IsoLaneVelocity(double _sigma_v, double _rho_v, double _eta_v)']]],
-  ['israngevalue_466',['IsRangeValue',['../namespacemaliput.html#a939fda7aa16deb30b6226ffea2396632',1,'maliput']]],
-  ['isrboundsclose_467',['IsRBoundsClose',['../namespacemaliput_1_1api_1_1test.html#a604e2d7a228c8cedfa589540747e25f1',1,'maliput::api::test']]],
-  ['isroadpositionresultclose_468',['IsRoadPositionResultClose',['../namespacemaliput_1_1api_1_1test.html#a950f33f9be84000419605fccd0e4d5cd',1,'maliput::api::test']]],
-  ['isrotationclose_469',['IsRotationClose',['../namespacemaliput_1_1api_1_1test.html#a4f915921ea7a17ff176e2f78a1389f81',1,'maliput::api::test']]],
-  ['isvalidstate_470',['IsValidState',['../classmaliput_1_1api_1_1rules_1_1_bulb.html#ab608ef2efb5fa1e8cb00719a0161f7b3',1,'maliput::api::rules::Bulb']]]
+  ['isphasepositionresultclose_466',['IsPhasePositionResultClose',['../namespacemaliput_1_1routing_1_1test.html#a99d4756f5531cc783657f0ddf548ebff',1,'maliput::routing::test']]],
+  ['israngevalue_467',['IsRangeValue',['../namespacemaliput.html#a939fda7aa16deb30b6226ffea2396632',1,'maliput']]],
+  ['isrboundsclose_468',['IsRBoundsClose',['../namespacemaliput_1_1api_1_1test.html#a604e2d7a228c8cedfa589540747e25f1',1,'maliput::api::test']]],
+  ['isroadpositionresultclose_469',['IsRoadPositionResultClose',['../namespacemaliput_1_1api_1_1test.html#a950f33f9be84000419605fccd0e4d5cd',1,'maliput::api::test']]],
+  ['isrotationclose_470',['IsRotationClose',['../namespacemaliput_1_1api_1_1test.html#a4f915921ea7a17ff176e2f78a1389f81',1,'maliput::api::test']]],
+  ['isroutepositionresultclose_471',['IsRoutePositionResultClose',['../namespacemaliput_1_1routing_1_1test.html#a79d378f74c878ad888fc2a0d1317da2f',1,'maliput::routing::test']]],
+  ['isvalidstate_472',['IsValidState',['../classmaliput_1_1api_1_1rules_1_1_bulb.html#ab608ef2efb5fa1e8cb00719a0161f7b3',1,'maliput::api::rules::Bulb']]]
 ];

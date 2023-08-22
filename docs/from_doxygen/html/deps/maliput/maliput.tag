@@ -1729,6 +1729,53 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>maliput_routing_position_compare.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/test_utilities/</path>
+    <filename>maliput__routing__position__compare_8cc.html</filename>
+    <includes id="maliput__routing__position__compare_8h" name="maliput_routing_position_compare.h" local="yes" imported="no">maliput/test_utilities/maliput_routing_position_compare.h</includes>
+    <includes id="maliput__types__compare_8h" name="maliput_types_compare.h" local="yes" imported="no">maliput/test_utilities/maliput_types_compare.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::routing</namespace>
+    <namespace>maliput::routing::test</namespace>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>IsPhasePositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1routing_1_1test.html</anchorfile>
+      <anchor>a99d4756f5531cc783657f0ddf548ebff</anchor>
+      <arglist>(const PhasePositionResult &amp;ppr_a, const PhasePositionResult &amp;ppr_b, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>IsRoutePositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1routing_1_1test.html</anchorfile>
+      <anchor>a79d378f74c878ad888fc2a0d1317da2f</anchor>
+      <arglist>(const RoutePositionResult &amp;rpr_a, const RoutePositionResult &amp;rpr_b, double tolerance)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>maliput_routing_position_compare.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/test_utilities/</path>
+    <filename>maliput__routing__position__compare_8h.html</filename>
+    <includes id="route__position__result_8h" name="route_position_result.h" local="yes" imported="no">maliput/routing/route_position_result.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::routing</namespace>
+    <namespace>maliput::routing::test</namespace>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>IsPhasePositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1routing_1_1test.html</anchorfile>
+      <anchor>a99d4756f5531cc783657f0ddf548ebff</anchor>
+      <arglist>(const PhasePositionResult &amp;ppr_a, const PhasePositionResult &amp;ppr_b, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>IsRoutePositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1routing_1_1test.html</anchorfile>
+      <anchor>a79d378f74c878ad888fc2a0d1317da2f</anchor>
+      <arglist>(const RoutePositionResult &amp;rpr_a, const RoutePositionResult &amp;rpr_b, double tolerance)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>maliput_throw.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/common/</path>
     <filename>maliput__throw_8h.html</filename>
@@ -3432,6 +3479,13 @@
     <includes id="strategy__base_8h" name="strategy_base.h" local="yes" imported="no">maliput/geometry_base/strategy_base.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::routing</namespace>
+    <member kind="function">
+      <type>bool</type>
+      <name>ValidatePositionIsInLaneSRanges</name>
+      <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
+      <anchor>acb6529f573444cfd3ee09f9340d5cfb3</anchor>
+      <arglist>(const maliput::api::RoadPosition &amp;position, const std::vector&lt; api::LaneSRange &gt; &amp;lane_s_ranges, double tolerance)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>api/rules/phase.h</name>
@@ -3482,6 +3536,13 @@
     <class kind="class">maliput::routing::Phase</class>
     <namespace>maliput</namespace>
     <namespace>maliput::routing</namespace>
+    <member kind="function">
+      <type>bool</type>
+      <name>ValidatePositionIsInLaneSRanges</name>
+      <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
+      <anchor>acb6529f573444cfd3ee09f9340d5cfb3</anchor>
+      <arglist>(const maliput::api::RoadPosition &amp;position, const std::vector&lt; api::LaneSRange &gt; &amp;lane_s_ranges, double tolerance)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>phase_based_right_of_way_rule_state_provider.cc</name>
@@ -4397,6 +4458,15 @@
     <class kind="class">maliput::math::RollPitchYaw</class>
     <namespace>maliput</namespace>
     <namespace>maliput::math</namespace>
+  </compound>
+  <compound kind="file">
+    <name>route.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/routing/</path>
+    <filename>route_8cc.html</filename>
+    <includes id="route_8h" name="route.h" local="yes" imported="no">maliput/routing/route.h</includes>
+    <includes id="strategy__base_8h" name="strategy_base.h" local="yes" imported="no">maliput/geometry_base/strategy_base.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::routing</namespace>
   </compound>
   <compound kind="file">
     <name>route.h</name>
@@ -10551,6 +10621,13 @@
       <arglist>() const</arglist>
     </member>
     <member kind="function">
+      <type>double</type>
+      <name>lane_s_range_tolerance</name>
+      <anchorfile>classmaliput_1_1routing_1_1_phase.html</anchorfile>
+      <anchor>abc2d9d0242072ee958c930f8a7b84bee</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
       <type>const std::vector&lt; api::RoadPosition &gt; &amp;</type>
       <name>start_positions</name>
       <anchorfile>classmaliput_1_1routing_1_1_phase.html</anchorfile>
@@ -12609,16 +12686,16 @@
     </member>
     <member kind="function">
       <type>RoutePositionResult</type>
-      <name>FindRoutePositionBy</name>
+      <name>FindRoutePosition</name>
       <anchorfile>classmaliput_1_1routing_1_1_route.html</anchorfile>
-      <anchor>a2a51f31df0c41136d9827c5140e61de8</anchor>
+      <anchor>a443f00106d371b26bf116259f82d4bff</anchor>
       <arglist>(const api::InertialPosition &amp;inertial_position) const</arglist>
     </member>
     <member kind="function">
       <type>RoutePositionResult</type>
-      <name>FindRoutePositionBy</name>
+      <name>FindRoutePosition</name>
       <anchorfile>classmaliput_1_1routing_1_1_route.html</anchorfile>
-      <anchor>ab7b6df97db487dff3bdd1edb70a166c9</anchor>
+      <anchor>a6564ea1dddc685463e80ec61728fe8ea</anchor>
       <arglist>(const api::RoadPosition &amp;road_position) const</arglist>
     </member>
     <member kind="function">
@@ -18338,6 +18415,7 @@
   <compound kind="namespace">
     <name>maliput::routing</name>
     <filename>namespacemaliput_1_1routing.html</filename>
+    <namespace>maliput::routing::test</namespace>
     <class kind="class">maliput::routing::Phase</class>
     <class kind="struct">maliput::routing::PhasePositionResult</class>
     <class kind="class">maliput::routing::Route</class>
@@ -18392,11 +18470,36 @@
       <arglist>(std::ostream &amp;os, const LaneSRangeRelation &amp;relation)</arglist>
     </member>
     <member kind="function">
+      <type>bool</type>
+      <name>ValidatePositionIsInLaneSRanges</name>
+      <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
+      <anchor>acb6529f573444cfd3ee09f9340d5cfb3</anchor>
+      <arglist>(const maliput::api::RoadPosition &amp;position, const std::vector&lt; api::LaneSRange &gt; &amp;lane_s_ranges, double tolerance)</arglist>
+    </member>
+    <member kind="function">
       <type>void</type>
       <name>ValidateRoutingConstraints</name>
       <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
       <anchor>a3604feb52a6ed523000b97c0033d6c5e</anchor>
       <arglist>(const RoutingConstraints &amp;routing_constraints)</arglist>
+    </member>
+  </compound>
+  <compound kind="namespace">
+    <name>maliput::routing::test</name>
+    <filename>namespacemaliput_1_1routing_1_1test.html</filename>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>IsPhasePositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1routing_1_1test.html</anchorfile>
+      <anchor>a99d4756f5531cc783657f0ddf548ebff</anchor>
+      <arglist>(const PhasePositionResult &amp;ppr_a, const PhasePositionResult &amp;ppr_b, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>IsRoutePositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1routing_1_1test.html</anchorfile>
+      <anchor>a79d378f74c878ad888fc2a0d1317da2f</anchor>
+      <arglist>(const RoutePositionResult &amp;rpr_a, const RoutePositionResult &amp;rpr_b, double tolerance)</arglist>
     </member>
   </compound>
   <compound kind="namespace">
