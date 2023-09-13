@@ -1184,6 +1184,7 @@
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a4d8f12238683b00b95720e5bb005f441">kPreceedingStraight</enumvalue>
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487aebdee03e4e3c279ee9cc77c219ea9681">kPreceedingLeft</enumvalue>
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a64b34efaab13831e11d205386a98b819">kPreceedingRight</enumvalue>
+      <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a8bd83ac691f94854afe5a9d6c578aa15">kCoincident</enumvalue>
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a9556e04cf8f24d118180ebc0615fbf83">kUnrelated</enumvalue>
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
     </member>
@@ -4473,6 +4474,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/routing/</path>
     <filename>route_8h.html</filename>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
+    <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="road__network_8h" name="road_network.h" local="yes" imported="no">maliput/api/road_network.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -12700,9 +12702,9 @@
     </member>
     <member kind="function">
       <type>LaneSRangeRelation</type>
-      <name>LaneSRangeRelationFor</name>
+      <name>ComputeLaneSRangeRelation</name>
       <anchorfile>classmaliput_1_1routing_1_1_route.html</anchorfile>
-      <anchor>a92417c958a74c0ed9a88e12a374f9faa</anchor>
+      <anchor>abe4034c0a7a206ea10189fda71315da2</anchor>
       <arglist>(const api::LaneSRange &amp;lane_s_range_a, const api::LaneSRange &amp;lane_s_range_b) const</arglist>
     </member>
     <member kind="function">
@@ -18438,6 +18440,7 @@
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a4d8f12238683b00b95720e5bb005f441">kPreceedingStraight</enumvalue>
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487aebdee03e4e3c279ee9cc77c219ea9681">kPreceedingLeft</enumvalue>
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a64b34efaab13831e11d205386a98b819">kPreceedingRight</enumvalue>
+      <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a8bd83ac691f94854afe5a9d6c578aa15">kCoincident</enumvalue>
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a9556e04cf8f24d118180ebc0615fbf83">kUnrelated</enumvalue>
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
     </member>

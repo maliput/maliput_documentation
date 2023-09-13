@@ -171,9 +171,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6564ea1dddc685463e80ec61728fe8ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmaliput_1_1routing_1_1_route_position_result.html">RoutePositionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1routing_1_1_route.html#a6564ea1dddc685463e80ec61728fe8ea">FindRoutePosition</a> (const <a class="el" href="structmaliput_1_1api_1_1_road_position.html">api::RoadPosition</a> &amp;road_position) const</td></tr>
 <tr class="memdesc:a6564ea1dddc685463e80ec61728fe8ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the <a class="el" href="structmaliput_1_1routing_1_1_route_position_result.html" title="The result of a position query on a Route.">RoutePositionResult</a> which <code>road_position</code> best fits.  <a href="classmaliput_1_1routing_1_1_route.html#a6564ea1dddc685463e80ec61728fe8ea">More...</a><br /></td></tr>
 <tr class="separator:a6564ea1dddc685463e80ec61728fe8ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92417c958a74c0ed9a88e12a374f9faa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487">LaneSRangeRelation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1routing_1_1_route.html#a92417c958a74c0ed9a88e12a374f9faa">LaneSRangeRelationFor</a> (const <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html">api::LaneSRange</a> &amp;lane_s_range_a, const <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html">api::LaneSRange</a> &amp;lane_s_range_b) const</td></tr>
-<tr class="memdesc:a92417c958a74c0ed9a88e12a374f9faa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the relation between <code>lane_s_range_b</code> with respect to <code>lane_s_range_a</code>.  <a href="classmaliput_1_1routing_1_1_route.html#a92417c958a74c0ed9a88e12a374f9faa">More...</a><br /></td></tr>
-<tr class="separator:a92417c958a74c0ed9a88e12a374f9faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe4034c0a7a206ea10189fda71315da2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487">LaneSRangeRelation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1routing_1_1_route.html#abe4034c0a7a206ea10189fda71315da2">ComputeLaneSRangeRelation</a> (const <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html">api::LaneSRange</a> &amp;lane_s_range_a, const <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html">api::LaneSRange</a> &amp;lane_s_range_b) const</td></tr>
+<tr class="memdesc:abe4034c0a7a206ea10189fda71315da2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the relation between <code>lane_s_range_b</code> with respect to <code>lane_s_range_a</code>.  <a href="classmaliput_1_1routing_1_1_route.html#abe4034c0a7a206ea10189fda71315da2">More...</a><br /></td></tr>
+<tr class="separator:abe4034c0a7a206ea10189fda71315da2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab049bb134a649785b5c7a05e332cde32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html">api::LaneSRoute</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1routing_1_1_route.html#ab049bb134a649785b5c7a05e332cde32">ComputeLaneSRoute</a> (const <a class="el" href="structmaliput_1_1api_1_1_road_position.html">api::RoadPosition</a> &amp;start_position) const</td></tr>
 <tr class="memdesc:ab049bb134a649785b5c7a05e332cde32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes an <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html" title="A route, possibly spanning multiple (end-to-end) lanes.">api::LaneSRoute</a> that connects <code>start_position</code> with <a class="el" href="classmaliput_1_1routing_1_1_route.html#af27ddb0de9f5543debea81c74d7a3d37" title="Returns the end of this Route.">end_route_position()</a>.  <a href="classmaliput_1_1routing_1_1_route.html#ab049bb134a649785b5c7a05e332cde32">More...</a><br /></td></tr>
 <tr class="separator:ab049bb134a649785b5c7a05e332cde32"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -251,6 +251,44 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="abe4034c0a7a206ea10189fda71315da2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe4034c0a7a206ea10189fda71315da2">&#9670;&nbsp;</a></span>ComputeLaneSRangeRelation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487">LaneSRangeRelation</a> ComputeLaneSRangeRelation </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html">api::LaneSRange</a> &amp;&#160;</td>
+          <td class="paramname"><em>lane_s_range_a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html">api::LaneSRange</a> &amp;&#160;</td>
+          <td class="paramname"><em>lane_s_range_b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes the relation between <code>lane_s_range_b</code> with respect to <code>lane_s_range_a</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lane_s_range_a</td><td>An <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">api::LaneSRange</a>. </td></tr>
+    <tr><td class="paramname">lane_s_range_b</td><td>An <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">api::LaneSRange</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The LaneSRangeRelation between <code>lane_s_range_b</code> with respect to <code>lane_s_range_a</code>. </dd></dl>
+
+</div>
+</div>
 <a id="ab049bb134a649785b5c7a05e332cde32"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab049bb134a649785b5c7a05e332cde32">&#9670;&nbsp;</a></span>ComputeLaneSRoute()</h2>
 
@@ -397,44 +435,6 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a92417c958a74c0ed9a88e12a374f9faa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92417c958a74c0ed9a88e12a374f9faa">&#9670;&nbsp;</a></span>LaneSRangeRelationFor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487">LaneSRangeRelation</a> LaneSRangeRelationFor </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html">api::LaneSRange</a> &amp;&#160;</td>
-          <td class="paramname"><em>lane_s_range_a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html">api::LaneSRange</a> &amp;&#160;</td>
-          <td class="paramname"><em>lane_s_range_b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Finds the relation between <code>lane_s_range_b</code> with respect to <code>lane_s_range_a</code>. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">lane_s_range_a</td><td>An <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">api::LaneSRange</a>. </td></tr>
-    <tr><td class="paramname">lane_s_range_b</td><td>An <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">api::LaneSRange</a>. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The LaneSRangeRelation between <code>lane_s_range_b</code> with respect to <code>lane_s_range_a</code>. </dd></dl>
 
 </div>
 </div>

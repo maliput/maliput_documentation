@@ -139,8 +139,10 @@ Enumerations</h2></td></tr>
 <br />
 &#160;&#160;<a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487aebdee03e4e3c279ee9cc77c219ea9681">kPreceedingLeft</a>, 
 <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a64b34efaab13831e11d205386a98b819">kPreceedingRight</a>, 
+<a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a8bd83ac691f94854afe5a9d6c578aa15">kCoincident</a>, 
 <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a9556e04cf8f24d118180ebc0615fbf83">kUnrelated</a>, 
-<a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a25c2dc47991b3df171ed5192bcf70390">kUnknown</a>
+<br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a25c2dc47991b3df171ed5192bcf70390">kUnknown</a>
 <br />
  }</td></tr>
 <tr class="memdesc:a931f81ae3bf7bb2ac7b8924345c23487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the possible relationships the routing API can interpret between two api::LaneSRanges within a Route.  <a href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487">More...</a><br /></td></tr>
@@ -188,7 +190,8 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Defines the possible relationships the routing API can interpret between two api::LaneSRanges within a <a class="el" href="classmaliput_1_1routing_1_1_route.html" title="Describes the sequence of paths that go from one api::RoadPosition to another.">Route</a>. </p>
-<p>Relations described in this enum must be mutually exclusive. The following ASCII art helps to understand the relative relations described below.</p>
+<p>Relations described in this enum must be mutually exclusive and comprehensive, i.e., exactly one relation will apply for any given pair of <code>LaneSRange</code> objects.</p>
+<p>The following ASCII art helps to understand the relative relations described below.</p>
 <pre></pre><pre> x------A&gt;-------x
  x------B&gt;-------x------E&gt;-------x------H&gt;-------x
  x------C&gt;-------x------F&gt;-------x------I&gt;-------x
@@ -198,6 +201,7 @@ Functions</h2></td></tr>
 <li>The letters name the api::LaneSRanges in the <a class="el" href="classmaliput_1_1routing_1_1_route.html" title="Describes the sequence of paths that go from one api::RoadPosition to another.">Route</a>.</li>
 </ul>
 <p>Thus,</p><ul>
+<li><code>A</code> is <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a8bd83ac691f94854afe5a9d6c578aa15">LaneSRangeRelation::kCoincident</a> with <code>A</code>.</li>
 <li><code>A</code> is <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a8127ca1af560889a3ac6d157536c0260">LaneSRangeRelation::kAdjacentLeft</a> of <code>B</code>.</li>
 <li><code>B</code> is <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a2873b3a4083e3b17116552c3fc59339d">LaneSRangeRelation::kAdjacentRight</a> of <code>A</code>.</li>
 <li><code>A</code> is <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487a2d5fde1d924910a2a01ecd8e70a87c28">LaneSRangeRelation::kLeft</a> of <code>D</code>.</li>
@@ -222,6 +226,7 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a931f81ae3bf7bb2ac7b8924345c23487a4d8f12238683b00b95720e5bb005f441"></a>kPreceedingStraight&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a931f81ae3bf7bb2ac7b8924345c23487aebdee03e4e3c279ee9cc77c219ea9681"></a>kPreceedingLeft&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a931f81ae3bf7bb2ac7b8924345c23487a64b34efaab13831e11d205386a98b819"></a>kPreceedingRight&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a931f81ae3bf7bb2ac7b8924345c23487a8bd83ac691f94854afe5a9d6c578aa15"></a>kCoincident&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a931f81ae3bf7bb2ac7b8924345c23487a9556e04cf8f24d118180ebc0615fbf83"></a>kUnrelated&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a931f81ae3bf7bb2ac7b8924345c23487a25c2dc47991b3df171ed5192bcf70390"></a>kUnknown&#160;</td><td class="fielddoc"></td></tr>
 </table>
