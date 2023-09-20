@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['logging_20level_20methods_2e_2546',['Logging Level Methods.',['../group__levelmethods.html',1,'']]]
+  ['default_20scalars_5375',['Default Scalars',['../group__default__scalars.html',1,'']]],
+  ['discrete_20systems_5376',['Discrete Systems',['../group__discrete__systems.html',1,'']]]
 ];

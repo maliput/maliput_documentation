@@ -100,7 +100,7 @@ $(document).ready(function(){initNavTree('logger_8h.html',''); initResizable(); 
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>To log with <code><a class="el" href="namespacemaliput_1_1common_1_1logger.html">maliput::common::logger</a></code>, you should:</p>
 <pre>
-  <a class="el" href="namespacemaliput.html#a8d79f56feceef38ffe51eb5e0a1e1b03">maliput::log()</a>-&gt;trace("Trace message: {} {}", something, some_other);
+  <a class="el" href="namespacemaliput.html#a8d79f56feceef38ffe51eb5e0a1e1b03">maliput::log()</a>-&gt;trace("The approximate value is ", 3.14159);
 </pre><p>Similarly, it provides:</p>
 <pre>
   <a class="el" href="namespacemaliput.html#a8d79f56feceef38ffe51eb5e0a1e1b03">maliput::log()</a>-&gt;trace(...);
@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('logger_8h.html',''); initResizable(); 
   <a class="el" href="namespacemaliput.html#a8d79f56feceef38ffe51eb5e0a1e1b03">maliput::log()</a>-&gt;warn(...);
   <a class="el" href="namespacemaliput.html#a8d79f56feceef38ffe51eb5e0a1e1b03">maliput::log()</a>-&gt;error(...);
   <a class="el" href="namespacemaliput.html#a8d79f56feceef38ffe51eb5e0a1e1b03">maliput::log()</a>-&gt;critical(...);
-</pre><p>The format string syntax is fmtlib; see <a href="http://fmtlib.net/5.3.0/syntax.html">http://fmtlib.net/5.3.0/syntax.html</a>. In particular, any class that overloads <code>operator&lt;&lt;</code> for <code>ostream</code> can be printed without any special handling. </p>
+</pre><p>Any class that overloads <code>operator&lt;&lt;</code> for <code>ostream</code> can be printed without any special handling. </p>
 </div><div class="textblock"><code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;map&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />

@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['mutable_20coefficient_20getters_20of_20quaternion_2e_3074',['Mutable coefficient getters of Quaternion.',['../../../maliput/html/group__mutablecoeffgettersquaternion.html',1,'']]]
+  ['estimators_5872',['Estimators',['../../../maliput/html/group__estimator__systems.html',1,'']]],
+  ['event_20callbacks_5873',['Event Callbacks',['../../../maliput/html/group__event__callbacks.html',1,'']]],
+  ['examples_5874',['Examples',['../../../maliput/html/group__example__systems.html',1,'']]]
 ];

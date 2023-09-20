@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['overlappingtype_2549',['OverlappingType',['../../../maliput/html/namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61',1,'maliput::math']]]
+  ['maliputplugintype_5299',['MaliputPluginType',['../../../maliput/html/namespacemaliput_1_1plugin.html#a2afd58b120b90956eefe0e19727605d7',1,'maliput::plugin']]],
+  ['materialtype_5300',['MaterialType',['../../../maliput/html/namespacemaliput_1_1utility.html#ace55764233310da429c994a8c334b32a',1,'maliput::utility']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['xodrconnectiontype_4336',['XodrConnectionType',['../../../maliput_malidrive/html/namespacemalidrive_1_1builder.html#aa05c22b45e1642b62091723d3e86fc4f',1,'malidrive::builder']]]
+  ['unit_7082',['Unit',['../../../maliput_malidrive/html/namespacemalidrive_1_1xodr.html#abceb2331ad056e3c5ad27894199a49ed',1,'malidrive::xodr']]]
 ];

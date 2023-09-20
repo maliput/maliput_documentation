@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['operator_2a_2513',['operator*',['../classmaliput_1_1api_1_1_inertial_position.html#a9f75f59c7af52fce3725194d8ccd2201',1,'maliput::api::InertialPosition::operator*()'],['../classmaliput_1_1math_1_1_matrix.html#a775e46d64758a994a1ecfa7a7a590c9e',1,'maliput::math::Matrix::operator*()'],['../classmaliput_1_1math_1_1_matrix.html#ae7876c148054511cb9cc10bf9bb64424',1,'maliput::math::Matrix::operator*()'],['../classmaliput_1_1math_1_1_vector_base.html#a6477d4f1a51a0c5c3ec47a60fdb4203e',1,'maliput::math::VectorBase::operator*()'],['../classmaliput_1_1math_1_1_vector_base.html#a26eff520ddd8f75a8b3b747455e756e5',1,'maliput::math::VectorBase::operator*()']]],
-  ['operator_3c_3c_2514',['operator&lt;&lt;',['../classmaliput_1_1math_1_1_matrix.html#aed2210a0b4ebd59a78b6e7a74166161c',1,'maliput::math::Matrix::operator&lt;&lt;()'],['../classmaliput_1_1math_1_1_vector_base.html#abb7e8f7ce1f48418814ff28063f31567',1,'maliput::math::VectorBase::operator&lt;&lt;()']]],
-  ['operator_3d_3d_2515',['operator==',['../structmaliput_1_1utility_1_1_material.html#a6e13658c7ae2d13d60422898faaabda5',1,'maliput::utility::Material::operator==()'],['../structmaliput_1_1utility_1_1_material.html#afbc1ae63f9cb20e6407155269306162b',1,'maliput::utility::Material::operator==()']]]
+  ['cache_5307',['Cache',['../classmaliput_1_1drake_1_1systems_1_1_cache_entry_value.html#ac9d22b110b724211d946d911ecacdf64',1,'maliput::drake::systems::CacheEntryValue']]],
+  ['contextbase_5308',['ContextBase',['../classmaliput_1_1drake_1_1systems_1_1_cache.html#a37e381833649e68b36c7c146d7984f8f',1,'maliput::drake::systems::Cache']]],
+  ['copyable_5funique_5fptr_3c_20cacheentryvalue_20_3e_5309',['copyable_unique_ptr&lt; CacheEntryValue &gt;',['../classmaliput_1_1drake_1_1systems_1_1_cache_entry_value.html#a598ca03fb10c04b0cbe60b81fd9e0085',1,'maliput::drake::systems::CacheEntryValue']]],
+  ['copyable_5funique_5fptr_3c_20fixedinputportvalue_20_3e_5310',['copyable_unique_ptr&lt; FixedInputPortValue &gt;',['../classmaliput_1_1drake_1_1systems_1_1_fixed_input_port_value.html#a9e24d4c4c6dcaa145e2421e0ba44007c',1,'maliput::drake::systems::FixedInputPortValue']]]
 ];

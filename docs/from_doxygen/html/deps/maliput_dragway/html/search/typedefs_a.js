@@ -1,12 +1,14 @@
 var searchData=
 [
-  ['ranges_2529',['Ranges',['../../../maliput/html/structmaliput_1_1api_1_1rules_1_1_rule_registry_1_1_query_result.html#a64e663f1e0d1ead90a3a121ab26c92d9',1,'maliput::api::rules::RuleRegistry::QueryResult']]],
-  ['rangevaluerulefilter_2530',['RangeValueRuleFilter',['../../../maliput/html/namespacemaliput.html#ab010f6124960691793181deddb8302e3',1,'maliput']]],
-  ['rangevalueruletypeandvalues_2531',['RangeValueRuleTypeAndValues',['../../../maliput/html/namespacemaliput_1_1api_1_1rules.html#a2cc52403baadc577433abb54894abe15',1,'maliput::api::rules']]],
-  ['relatedrules_2532',['RelatedRules',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_rule.html#ad20a20f4cf3ad282b0f5ea0a716896ed',1,'maliput::api::rules::Rule']]],
-  ['relateduniqueids_2533',['RelatedUniqueIds',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_rule.html#aae244f337e8af36a083d06ab2de5d250',1,'maliput::api::rules::Rule']]],
-  ['result_2534',['Result',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_phase_provider.html#a819817caf867decf849b9e7be94171e2',1,'maliput::api::rules::PhaseProvider']]],
-  ['result_5ftype_2535',['result_type',['../../../maliput/html/classmaliput_1_1common_1_1internal_1_1_f_n_v1a_hasher.html#a21330be45898b798e0b31bbf6e17f13c',1,'maliput::common::internal::FNV1aHasher::result_type()'],['../../../maliput/html/structmaliput_1_1common_1_1uhash.html#aec09227295d6a2c005ec578d42120039',1,'maliput::common::uhash::result_type()']]],
-  ['roadgeometryid_2536',['RoadGeometryId',['../../../maliput/html/namespacemaliput_1_1api.html#a38fc077ab1aedc28346df61bf12c96a7',1,'maliput::api']]],
-  ['roadnetworkloaderptr_2537',['RoadNetworkLoaderPtr',['../../../maliput/html/namespacemaliput_1_1plugin.html#ab0a6280bfa379d2f6330517355866c5c',1,'maliput::plugin']]]
+  ['matrix2_5211',['Matrix2',['../../../maliput/html/namespacemaliput_1_1drake.html#a06406a5da633da84f911e2979aa48549',1,'maliput::drake::Matrix2()'],['../../../maliput/html/namespacemaliput_1_1math.html#ac6bd2b15c356618c3c5ccba30dacfffd',1,'maliput::math::Matrix2()']]],
+  ['matrix2x_5212',['Matrix2X',['../../../maliput/html/namespacemaliput_1_1drake.html#af13883859324817e6310d04a6d2fe206',1,'maliput::drake']]],
+  ['matrix3_5213',['Matrix3',['../../../maliput/html/namespacemaliput_1_1drake.html#a3922cc0c6264e8ff225a6aa0dd993667',1,'maliput::drake::Matrix3()'],['../../../maliput/html/namespacemaliput_1_1math.html#a817bdcb2b7e2c17fc4781e72ba6abe37',1,'maliput::math::Matrix3()']]],
+  ['matrix3x_5214',['Matrix3X',['../../../maliput/html/namespacemaliput_1_1drake.html#acfe2dee57bc492bfbd96fe078b65ab00',1,'maliput::drake']]],
+  ['matrix4_5215',['Matrix4',['../../../maliput/html/namespacemaliput_1_1drake.html#ae74155a11dfcdaad0adc0349f0956148',1,'maliput::drake::Matrix4()'],['../../../maliput/html/namespacemaliput_1_1math.html#a1d79dac56e52511791f446a46b160358',1,'maliput::math::Matrix4()']]],
+  ['matrix4x_5216',['Matrix4X',['../../../maliput/html/namespacemaliput_1_1drake.html#a585f047d94502e00bfb163347abbc771',1,'maliput::drake']]],
+  ['matrix6_5217',['Matrix6',['../../../maliput/html/namespacemaliput_1_1drake.html#a11f9aa896d31437a219ed19fa944fe20',1,'maliput::drake']]],
+  ['matrix6x_5218',['Matrix6X',['../../../maliput/html/namespacemaliput_1_1drake.html#a668e1152f8b876967b9093ae4d95298b',1,'maliput::drake']]],
+  ['matrix6xupto6_5219',['Matrix6xUpTo6',['../../../maliput/html/namespacemaliput_1_1drake.html#ae2b0be18a912f9cacfec6d0a0a6d873c',1,'maliput::drake']]],
+  ['matrixupto6_5220',['MatrixUpTo6',['../../../maliput/html/namespacemaliput_1_1drake.html#abc0efed85a04025fda487f0d59b71d5d',1,'maliput::drake']]],
+  ['matrixx_5221',['MatrixX',['../../../maliput/html/namespacemaliput_1_1drake.html#a28c58d881c60e96f48a7a4e32a699b95',1,'maliput::drake']]]
 ];

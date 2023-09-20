@@ -83,9 +83,9 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classmalidrive_1_1xodr_1_1_attribute_parser.html#a65db3d2dd69b1488855d06f49bcfb8ad",
-"malidrive_road_curve_design.html",
-"structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html#a4e60ff57325f35bec47336e16415aff3",
-"structmalidrive_1_1xodr_1_1_parser_configuration.html#a3d6f641abbebd505c65c7bfde4d4cb89"
+"id__providers_8cc.html#a7852d314735fa4439f1c33fc717328fc",
+"structmalidrive_1_1builder_1_1_road_network_configuration.html#a0e9c582d9f1e689479e4b3707f9afe93",
+"structmalidrive_1_1xodr_1_1_lane_section.html#a2e80cafab6761fdfee1e2169ccd82122"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -2,6 +2,7 @@ var namespacemaliput =
 [
     [ "api", "namespacemaliput_1_1api.html", "namespacemaliput_1_1api" ],
     [ "common", "namespacemaliput_1_1common.html", "namespacemaliput_1_1common" ],
+    [ "drake", "namespacemaliput_1_1drake.html", "namespacemaliput_1_1drake" ],
     [ "geometry_base", "namespacemaliput_1_1geometry__base.html", "namespacemaliput_1_1geometry__base" ],
     [ "math", "namespacemaliput_1_1math.html", "namespacemaliput_1_1math" ],
     [ "plugin", "namespacemaliput_1_1plugin.html", "namespacemaliput_1_1plugin" ],

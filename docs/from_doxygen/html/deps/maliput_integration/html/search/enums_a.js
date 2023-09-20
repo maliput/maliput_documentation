@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['simplificationpolicy_4330',['SimplificationPolicy',['../../../maliput_malidrive/html/structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aba132f98ea1230f94d40497b60aa9df4',1,'malidrive::builder::RoadGeometryConfiguration']]],
-  ['standardstrictnesspolicy_4331',['StandardStrictnessPolicy',['../../../maliput_malidrive/html/structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0',1,'malidrive::builder::RoadGeometryConfiguration']]]
+  ['portdatatype_7070',['PortDataType',['../../../maliput/html/namespacemaliput_1_1drake_1_1systems.html#ae516fceb67f15f61c7a232b9cc483fbe',1,'maliput::drake::systems']]]
 ];

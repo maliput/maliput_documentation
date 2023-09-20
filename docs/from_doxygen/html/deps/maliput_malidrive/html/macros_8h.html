@@ -323,9 +323,9 @@ class Foo {
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                                 \</div>
-<div class="line">    const std::string message(msg);                                                    \</div>
-<div class="line">    maliput::log()-&gt;trace(<span class="stringliteral">&quot;[\&quot;{}\&quot;:{}:{}] {}&quot;</span>, __FILE__, __LINE__, __func__, message); \</div>
+<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                                         \</div>
+<div class="line">    const std::string message(msg);                                                            \</div>
+<div class="line">    maliput::log()-&gt;trace(<span class="stringliteral">&quot;[\&quot;&quot;</span>, __FILE__, <span class="stringliteral">&quot;\&quot;:&quot;</span>, __LINE__, <span class="stringliteral">&quot;:&quot;</span>, __func__, <span class="stringliteral">&quot;] &quot;</span>, message, <span class="stringliteral">&quot;&quot;</span>); \</div>
 <div class="line">  } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment --><p>Rely on <a class="elRef" href="../../maliput/html/namespacemaliput.html#a8d79f56feceef38ffe51eb5e0a1e1b03">maliput::log</a>-&gt;<a class="elRef" href="../../maliput/html/group__levelmethods.html#gaad76e8446fb03a2f45e502092d96a376">trace()</a>. Used to trace log <code>msg</code> and add information of file, line and function. </p>
 

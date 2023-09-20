@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['matrix2_7334',['Matrix2',['.././deps/maliput/html/namespacemaliput_1_1math.html#ac6bd2b15c356618c3c5ccba30dacfffd',1,'maliput::math']]],
-  ['matrix3_7335',['Matrix3',['.././deps/maliput/html/namespacemaliput_1_1math.html#a817bdcb2b7e2c17fc4781e72ba6abe37',1,'maliput::math']]],
-  ['matrix4_7336',['Matrix4',['.././deps/maliput/html/namespacemaliput_1_1math.html#a1d79dac56e52511791f446a46b160358',1,'maliput::math']]]
+  ['laneendsmultimap_9959',['LaneEndsMultimap',['.././deps/maliput_sparse/html/classmaliput__sparse_1_1builder_1_1_branch_point_builder.html#ada176c98e774943bf058151e7eb8ff4d',1,'maliput_sparse::builder::BranchPointBuilder']]],
+  ['laneid_9960',['LaneId',['.././deps/maliput/html/namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561',1,'maliput::api']]],
+  ['linestring2d_9961',['LineString2d',['.././deps/maliput_sparse/html/namespacemaliput__sparse_1_1geometry.html#a42b67b57385345efba74c3a13914078f',1,'maliput_sparse::geometry']]],
+  ['linestring3d_9962',['LineString3d',['.././deps/maliput_sparse/html/namespacemaliput__sparse_1_1geometry.html#accac056a7e29520263437aa7688469b1',1,'maliput_sparse::geometry']]],
+  ['logger_9963',['logger',['.././deps/maliput/html/namespacemaliput_1_1drake_1_1logging.html#a9cae370466ffb304c10aebea42eca26b',1,'maliput::drake::logging']]]
 ];

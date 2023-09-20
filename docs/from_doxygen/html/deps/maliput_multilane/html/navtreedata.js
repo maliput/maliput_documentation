@@ -72,8 +72,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classmaliput_1_1multilane_1_1_road_curve.html#a92b29fff38bb4dfea6fdef1bfc989f07",
-"namespacemembers_vars.html"
+"classmaliput_1_1multilane_1_1_line_road_curve.html#a50e1b20f35a5ea0408b221c4f569c77c",
+"modules.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

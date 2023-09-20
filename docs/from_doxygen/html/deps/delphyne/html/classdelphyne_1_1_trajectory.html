@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('classdelphyne_1_1_trajectory.html','')
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class that wraps a piecewise trajectory instantiated from pose data. </p>
-<p>The underlying pose data is represented internally as a configurable PiecewisePolynomial for translation and a PiecewiseQuaternionSlerp for the rotation. The rotational/translational velocity of the pose is then computed from time-differentiation of the PiecewisePolynomial and an angular velocity conversion within PiecewiseQuaternionSlerp (see piecewise_polynomial.h and piecewise_quaternion.h for details). A <a class="el" href="classdelphyne_1_1_pose_velocity.html" title="Wraps the raw data contained in a trajectory expressed in terms of pose and velocity values.">PoseVelocity</a> instance is therefore well-defined when evaluated at a given time and, additionally, the translaton and rotation components of PoseVector match the input pose data exactly. </p>
+<p>The underlying pose data is represented internally as a configurable PiecewisePolynomial for translation and a PiecewiseQuaternionSlerp for the rotation. The rotational/translational velocity of the pose is then computed from time-differentiation of the PiecewisePolynomial and an angular velocity conversion within PiecewiseQuaternionSlerp (see <a class="elRef" href="../../maliput/html/piecewise__polynomial_8h.html">piecewise_polynomial.h</a> and piecewise_quaternion.h for details). A <a class="el" href="classdelphyne_1_1_pose_velocity.html" title="Wraps the raw data contained in a trajectory expressed in terms of pose and velocity values.">PoseVelocity</a> instance is therefore well-defined when evaluated at a given time and, additionally, the translaton and rotation components of PoseVector match the input pose data exactly. </p>
 </div>
 <p><code>#include &lt;src/systems/trajectory.h&gt;</code></p>
 <table class="memberdecls">
@@ -120,13 +120,13 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a989bcbe6ae9db754a7114c271cf8e99b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classdelphyne_1_1_trajectory.html">Trajectory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1_trajectory.html#a989bcbe6ae9db754a7114c271cf8e99b">Make</a> (const std::vector&lt; double &gt; &amp;times, const std::vector&lt; Eigen::Quaternion&lt; double &gt;&gt; &amp;knots_rotation, const std::vector&lt; Eigen::Vector3d &gt; &amp;knots_translation, const <a class="el" href="classdelphyne_1_1_trajectory.html#a8472f01c511d77bbfb981a46618ea1ea">InterpolationType</a> &amp;interp_type=<a class="el" href="classdelphyne_1_1_trajectory.html#a8472f01c511d77bbfb981a46618ea1eaa63ff71641c125f5e6f142d84678cbc04">InterpolationType::kFirstOrderHold</a>)</td></tr>
+<tr class="memitem:a989bcbe6ae9db754a7114c271cf8e99b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classdelphyne_1_1_trajectory.html">Trajectory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1_trajectory.html#a989bcbe6ae9db754a7114c271cf8e99b">Make</a> (const std::vector&lt; double &gt; &amp;times, const std::vector&lt; <a class="elRef" href="../../maliput/html/namespacemaliput_1_1drake.html#a4156bf453a5b323356d7cc784dfdf084">Eigen::Quaternion</a>&lt; double &gt;&gt; &amp;knots_rotation, const std::vector&lt; Eigen::Vector3d &gt; &amp;knots_translation, const <a class="el" href="classdelphyne_1_1_trajectory.html#a8472f01c511d77bbfb981a46618ea1ea">InterpolationType</a> &amp;interp_type=<a class="el" href="classdelphyne_1_1_trajectory.html#a8472f01c511d77bbfb981a46618ea1eaa63ff71641c125f5e6f142d84678cbc04">InterpolationType::kFirstOrderHold</a>)</td></tr>
 <tr class="memdesc:a989bcbe6ae9db754a7114c271cf8e99b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a <a class="el" href="classdelphyne_1_1_trajectory.html" title="A class that wraps a piecewise trajectory instantiated from pose data.">Trajectory</a> from a discrete set of time-indexed pose data under the specified interpolation scheme.  <a href="classdelphyne_1_1_trajectory.html#a989bcbe6ae9db754a7114c271cf8e99b">More...</a><br /></td></tr>
 <tr class="separator:a989bcbe6ae9db754a7114c271cf8e99b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63c3c26efcc079f96540af5af80b52d0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classdelphyne_1_1_trajectory.html">Trajectory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1_trajectory.html#a63c3c26efcc079f96540af5af80b52d0">MakeCubicFromWaypoints</a> (const std::vector&lt; Eigen::Quaternion&lt; double &gt;&gt; &amp;waypoints_rotation, const std::vector&lt; Eigen::Vector3d &gt; &amp;waypoints_translation, const std::vector&lt; double &gt; &amp;speeds)</td></tr>
+<tr class="memitem:a63c3c26efcc079f96540af5af80b52d0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classdelphyne_1_1_trajectory.html">Trajectory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1_trajectory.html#a63c3c26efcc079f96540af5af80b52d0">MakeCubicFromWaypoints</a> (const std::vector&lt; <a class="elRef" href="../../maliput/html/namespacemaliput_1_1drake.html#a4156bf453a5b323356d7cc784dfdf084">Eigen::Quaternion</a>&lt; double &gt;&gt; &amp;waypoints_rotation, const std::vector&lt; Eigen::Vector3d &gt; &amp;waypoints_translation, const std::vector&lt; double &gt; &amp;speeds)</td></tr>
 <tr class="memdesc:a63c3c26efcc079f96540af5af80b52d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a <a class="el" href="classdelphyne_1_1_trajectory.html" title="A class that wraps a piecewise trajectory instantiated from pose data.">Trajectory</a> from a discrete set of (time-independent) waypoints and a vector of speeds.  <a href="classdelphyne_1_1_trajectory.html#a63c3c26efcc079f96540af5af80b52d0">More...</a><br /></td></tr>
 <tr class="separator:a63c3c26efcc079f96540af5af80b52d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89b8cfccd84d5e07363a3eccda3d3a52"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classdelphyne_1_1_trajectory.html">Trajectory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1_trajectory.html#a89b8cfccd84d5e07363a3eccda3d3a52">MakeCubicFromWaypoints</a> (const std::vector&lt; Eigen::Quaternion&lt; double &gt;&gt; &amp;waypoints_rotation, const std::vector&lt; Eigen::Vector3d &gt; &amp;waypoints_translation, double speed)</td></tr>
+<tr class="memitem:a89b8cfccd84d5e07363a3eccda3d3a52"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classdelphyne_1_1_trajectory.html">Trajectory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdelphyne_1_1_trajectory.html#a89b8cfccd84d5e07363a3eccda3d3a52">MakeCubicFromWaypoints</a> (const std::vector&lt; <a class="elRef" href="../../maliput/html/namespacemaliput_1_1drake.html#a4156bf453a5b323356d7cc784dfdf084">Eigen::Quaternion</a>&lt; double &gt;&gt; &amp;waypoints_rotation, const std::vector&lt; Eigen::Vector3d &gt; &amp;waypoints_translation, double speed)</td></tr>
 <tr class="memdesc:a89b8cfccd84d5e07363a3eccda3d3a52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a <a class="el" href="classdelphyne_1_1_trajectory.html" title="A class that wraps a piecewise trajectory instantiated from pose data.">Trajectory</a> from a discrete set of (time-independent) waypoints, based on a constant speed, using cubic-polynomial interpolation.  <a href="classdelphyne_1_1_trajectory.html#a89b8cfccd84d5e07363a3eccda3d3a52">More...</a><br /></td></tr>
 <tr class="separator:a89b8cfccd84d5e07363a3eccda3d3a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -152,7 +152,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>An identifier for the type of valid types of interpolation used in evaluating the translational component of a <a class="el" href="classdelphyne_1_1_trajectory.html" title="A class that wraps a piecewise trajectory instantiated from pose data.">Trajectory</a>. </p>
-<p>These types mirror the associated constructors for PiecewisePolynomial (see common/trajectories/piecewise_polynomial.h for further details). </p>
+<p>These types mirror the associated constructors for PiecewisePolynomial (see <a class="elRef" href="../../maliput/html/piecewise__polynomial_8h.html">common/trajectories/piecewise_polynomial.h</a> for further details). </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8472f01c511d77bbfb981a46618ea1eaa63ff71641c125f5e6f142d84678cbc04"></a>kFirstOrderHold&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a8472f01c511d77bbfb981a46618ea1eaa619f9f4e8a88cbb914ba5abbcc356d79"></a>kCubic&#160;</td><td class="fielddoc"></td></tr>
@@ -180,7 +180,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; Eigen::Quaternion&lt; double &gt;&gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="elRef" href="../../maliput/html/namespacemaliput_1_1drake.html#a4156bf453a5b323356d7cc784dfdf084">Eigen::Quaternion</a>&lt; double &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>knots_rotation</em>, </td>
         </tr>
         <tr>
@@ -221,7 +221,7 @@ Static Public Member Functions</h2></td></tr>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">std::logic_error</td><td>if <code>interp_type</code> is not supported. </td></tr>
-    <tr><td class="paramname">std::runtime_error</td><td>if <code>times</code> and <code>knots</code> have different lengths, <code>times</code> is not strictly increasing, and the inputs are otherwise inconsistent with the given <code>interp_type</code> (see piecewise_polynomial.h). </td></tr>
+    <tr><td class="paramname">std::runtime_error</td><td>if <code>times</code> and <code>knots</code> have different lengths, <code>times</code> is not strictly increasing, and the inputs are otherwise inconsistent with the given <code>interp_type</code> (see <a class="elRef" href="../../maliput/html/piecewise__polynomial_8h.html">piecewise_polynomial.h</a>). </td></tr>
   </table>
   </dd>
 </dl>
@@ -240,7 +240,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classdelphyne_1_1_trajectory.html">Trajectory</a> MakeCubicFromWaypoints </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; Eigen::Quaternion&lt; double &gt;&gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="elRef" href="../../maliput/html/namespacemaliput_1_1drake.html#a4156bf453a5b323356d7cc784dfdf084">Eigen::Quaternion</a>&lt; double &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>waypoints_rotation</em>, </td>
         </tr>
         <tr>
@@ -299,7 +299,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classdelphyne_1_1_trajectory.html">Trajectory</a> MakeCubicFromWaypoints </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; Eigen::Quaternion&lt; double &gt;&gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="elRef" href="../../maliput/html/namespacemaliput_1_1drake.html#a4156bf453a5b323356d7cc784dfdf084">Eigen::Quaternion</a>&lt; double &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>waypoints_rotation</em>, </td>
         </tr>
         <tr>

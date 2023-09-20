@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['logging_20level_20methods_2e_3805',['Logging Level Methods.',['../../../maliput/html/group__levelmethods.html',1,'']]]
+  ['default_20scalars_6601',['Default Scalars',['../../../maliput/html/group__default__scalars.html',1,'']]],
+  ['discrete_20systems_6602',['Discrete Systems',['../../../maliput/html/group__discrete__systems.html',1,'']]]
 ];

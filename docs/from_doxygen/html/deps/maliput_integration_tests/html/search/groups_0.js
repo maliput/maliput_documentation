@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['constant_20coefficient_20getters_20of_20quaternion_2e_3072',['Constant coefficient getters of Quaternion.',['../../../maliput/html/group__constcoeffgettersquaternion.html',1,'']]]
+  ['constant_20coefficient_20getters_20of_20quaternion_2e_5868',['Constant coefficient getters of Quaternion.',['../../../maliput/html/group__constcoeffgettersquaternion.html',1,'']]],
+  ['controllers_5869',['Controllers',['../../../maliput/html/group__control__systems.html',1,'']]]
 ];

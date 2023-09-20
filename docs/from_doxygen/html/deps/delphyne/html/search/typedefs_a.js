@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['matrix2_4522',['Matrix2',['../../../maliput/html/namespacemaliput_1_1math.html#ac6bd2b15c356618c3c5ccba30dacfffd',1,'maliput::math']]],
-  ['matrix3_4523',['Matrix3',['../../../maliput/html/namespacemaliput_1_1math.html#a817bdcb2b7e2c17fc4781e72ba6abe37',1,'maliput::math']]],
-  ['matrix4_4524',['Matrix4',['../../../maliput/html/namespacemaliput_1_1math.html#a1d79dac56e52511791f446a46b160358',1,'maliput::math']]]
+  ['laneid_7163',['LaneId',['../../../maliput/html/namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561',1,'maliput::api']]],
+  ['logger_7164',['logger',['../../../maliput/html/namespacemaliput_1_1drake_1_1logging.html#a9cae370466ffb304c10aebea42eca26b',1,'maliput::drake::logging']]]
 ];

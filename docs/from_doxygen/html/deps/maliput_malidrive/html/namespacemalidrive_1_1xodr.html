@@ -194,9 +194,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a59322d533f4b0f08bca667b87942df3d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1xodr.html#a59322d533f4b0f08bca667b87942df3d">ConvertXMLNodeToText</a> (tinyxml2::XMLElement *element)</td></tr>
 <tr class="memdesc:a59322d533f4b0f08bca667b87942df3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert all the content of the XML node into text.  <a href="namespacemalidrive_1_1xodr.html#a59322d533f4b0f08bca667b87942df3d">More...</a><br /></td></tr>
 <tr class="separator:a59322d533f4b0f08bca667b87942df3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a101364e5ab2e49ba099fd2cc94387b4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1xodr.html#a101364e5ab2e49ba099fd2cc94387b4b">DuplicateCurlyBracesForFmtLogging</a> (std::string *text)</td></tr>
-<tr class="memdesc:a101364e5ab2e49ba099fd2cc94387b4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifies <code>text</code> to adapt the message to be compatible with <a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1_logger.html">maliput::common::Logger</a>.  <a href="namespacemalidrive_1_1xodr.html#a101364e5ab2e49ba099fd2cc94387b4b">More...</a><br /></td></tr>
-<tr class="separator:a101364e5ab2e49ba099fd2cc94387b4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6c3fe5792f91c2936137357a61ee117"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1xodr.html#ac6c3fe5792f91c2936137357a61ee117">operator&lt;&lt;</a> (std::ostream &amp;out, const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html">RoadHeader</a> &amp;road_header)</td></tr>
 <tr class="memdesc:ac6c3fe5792f91c2936137357a61ee117"><td class="mdescLeft">&#160;</td><td class="mdescRight">Streams a string representation of <code>road_header</code> into <code>out</code>.  <a href="namespacemalidrive_1_1xodr.html#ac6c3fe5792f91c2936137357a61ee117">More...</a><br /></td></tr>
 <tr class="separator:ac6c3fe5792f91c2936137357a61ee117"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -374,38 +371,6 @@ Functions</h2></td></tr>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When element is nullptr. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a101364e5ab2e49ba099fd2cc94387b4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a101364e5ab2e49ba099fd2cc94387b4b">&#9670;&nbsp;</a></span>DuplicateCurlyBracesForFmtLogging()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DuplicateCurlyBracesForFmtLogging </td>
-          <td>(</td>
-          <td class="paramtype">std::string *&#160;</td>
-          <td class="paramname"><em>text</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Modifies <code>text</code> to adapt the message to be compatible with <a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1_logger.html">maliput::common::Logger</a>. </p>
-<p>Escapes formatting when having curly braces in the text that aren't meant to be formatted as arguments. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">text</td><td>Text to be adapted. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When text is nullptr. </td></tr>
   </table>
   </dd>
 </dl>
