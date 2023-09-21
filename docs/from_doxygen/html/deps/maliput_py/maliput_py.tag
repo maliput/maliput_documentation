@@ -2,7 +2,7 @@
 <tagfile>
   <compound kind="file">
     <name>api_py.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_py/src/bindings/</path>
+    <path>/home/franco/maliput_ws/src/maliput_py/src/bindings/</path>
     <filename>api__py_8cc.html</filename>
     <includes id="api__rules__py_8h" name="api_rules_py.h" local="yes" imported="no">bindings/api_rules_py.h</includes>
     <namespace>maliput</namespace>
@@ -17,7 +17,7 @@
   </compound>
   <compound kind="file">
     <name>api_rules_py.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_py/src/bindings/</path>
+    <path>/home/franco/maliput_ws/src/maliput_py/src/bindings/</path>
     <filename>api__rules__py_8cc.html</filename>
     <includes id="api__rules__py_8h" name="api_rules_py.h" local="yes" imported="no">bindings/api_rules_py.h</includes>
     <namespace>maliput</namespace>
@@ -33,7 +33,7 @@
   </compound>
   <compound kind="file">
     <name>api_rules_py.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_py/src/bindings/</path>
+    <path>/home/franco/maliput_ws/src/maliput_py/src/bindings/</path>
     <filename>api__rules__py_8h.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
@@ -48,12 +48,12 @@
   </compound>
   <compound kind="file">
     <name>maliput_python_interface.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_py/src/bindings/</path>
+    <path>/home/franco/maliput_ws/src/maliput_py/src/bindings/</path>
     <filename>maliput__python__interface_8h.html</filename>
   </compound>
   <compound kind="file">
     <name>math_py.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_py/src/bindings/</path>
+    <path>/home/franco/maliput_ws/src/maliput_py/src/bindings/</path>
     <filename>math__py_8cc.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::bindings</namespace>
@@ -67,7 +67,7 @@
   </compound>
   <compound kind="file">
     <name>plugin_py.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_py/src/bindings/</path>
+    <path>/home/franco/maliput_ws/src/maliput_py/src/bindings/</path>
     <filename>plugin__py_8cc.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::bindings</namespace>
@@ -81,7 +81,7 @@
   </compound>
   <compound kind="file">
     <name>utility_py.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_py/src/bindings/</path>
+    <path>/home/franco/maliput_ws/src/maliput_py/src/bindings/</path>
     <filename>utility__py_8cc.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::bindings</namespace>
