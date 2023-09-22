@@ -50,6 +50,10 @@ This will prepare and install the files required to later on be built using `sph
 
 ### Build Sphinx docs
 
+First install requirements needed for the sphinx-build command.
+
+`pip install -r install//maliput_documentation/share/docs/requirements.txt`
+
 Run `sphinx-build` command:
 ```sh
 sphinx-build install/maliput_documentation/share/docs output
