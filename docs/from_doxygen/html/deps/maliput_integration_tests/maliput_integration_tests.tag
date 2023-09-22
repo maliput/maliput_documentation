@@ -2,7 +2,7 @@
 <tagfile>
   <compound kind="file">
     <name>derive_lane_s_routes_test.cc</name>
-    <path>/home/franco/maliput_ws/src/maliput_integration_tests/test/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
     <filename>derive__lane__s__routes__test_8cc.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::routing</namespace>
@@ -65,7 +65,7 @@
   </compound>
   <compound kind="file">
     <name>find_lane_sequences_test.cc</name>
-    <path>/home/franco/maliput_ws/src/maliput_integration_tests/test/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
     <filename>find__lane__sequences__test_8cc.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::routing</namespace>
@@ -156,7 +156,7 @@
   </compound>
   <compound kind="file">
     <name>generate_obj_test.cc</name>
-    <path>/home/franco/maliput_ws/src/maliput_integration_tests/test/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
     <filename>generate__obj__test_8cc.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::utility</namespace>
@@ -226,7 +226,7 @@
   </compound>
   <compound kind="file">
     <name>generate_string_test.cc</name>
-    <path>/home/franco/maliput_ws/src/maliput_integration_tests/test/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
     <filename>generate__string__test_8cc.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::utility</namespace>
@@ -296,7 +296,7 @@
   </compound>
   <compound kind="file">
     <name>generate_urdf_test.cc</name>
-    <path>/home/franco/maliput_ws/src/maliput_integration_tests/test/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
     <filename>generate__urdf__test_8cc.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::utility</namespace>
@@ -310,7 +310,7 @@
   </compound>
   <compound kind="file">
     <name>intersection_book_loader_test.cc</name>
-    <path>/home/franco/maliput_ws/src/maliput_integration_tests/test/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
     <filename>intersection__book__loader__test_8cc.html</filename>
     <namespace>maliput</namespace>
     <member kind="variable" protection="protected">
@@ -351,7 +351,7 @@
   </compound>
   <compound kind="file">
     <name>object_query_test.cc</name>
-    <path>/home/franco/maliput_ws/src/maliput_integration_tests/test/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
     <filename>object__query__test_8cc.html</filename>
     <namespace>maliput</namespace>
     <member kind="define">
@@ -497,7 +497,7 @@
   </compound>
   <compound kind="file">
     <name>phase_ring_book_loader_test.cc</name>
-    <path>/home/franco/maliput_ws/src/maliput_integration_tests/test/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
     <filename>phase__ring__book__loader__test_8cc.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::test</namespace>
@@ -546,7 +546,7 @@
   </compound>
   <compound kind="file">
     <name>road_rulebook_loader_test.cc</name>
-    <path>/home/franco/maliput_ws/src/maliput_integration_tests/test/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
     <filename>road__rulebook__loader__test_8cc.html</filename>
     <namespace>maliput</namespace>
     <member kind="variable" protection="protected">
@@ -587,14 +587,14 @@
   </compound>
   <compound kind="file">
     <name>segment_analysis_test.cc</name>
-    <path>/home/franco/maliput_ws/src/maliput_integration_tests/test/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
     <filename>segment__analysis__test_8cc.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::utility</namespace>
   </compound>
   <compound kind="file">
     <name>traffic_light_book_loader_test.cc</name>
-    <path>/home/franco/maliput_ws/src/maliput_integration_tests/test/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
     <filename>traffic__light__book__loader__test_8cc.html</filename>
     <namespace>maliput</namespace>
     <member kind="variable" protection="protected">
@@ -614,7 +614,7 @@
   </compound>
   <compound kind="file">
     <name>waypoints_test.cc</name>
-    <path>/home/franco/maliput_ws/src/maliput_integration_tests/test/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
     <filename>waypoints__test_8cc.html</filename>
     <namespace>maliput</namespace>
   </compound>
