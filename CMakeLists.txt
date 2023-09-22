@@ -54,6 +54,13 @@ if(BUILD_DOCS)
       share
   )
 
+  install(
+    FILES
+      .readthedocs.yaml
+    DESTINATION
+      share
+  )
+
 else()
   message(STATUS "Documentation build - Disabled")
 endif()
