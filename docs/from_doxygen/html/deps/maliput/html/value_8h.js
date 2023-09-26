@@ -23,7 +23,6 @@ var value_8h =
     [ "ReportUseOfTypeHash< T, 0 >", "structmaliput_1_1drake_1_1internal_1_1_report_use_of_type_hash_3_01_t_00_010_01_4.html", "structmaliput_1_1drake_1_1internal_1_1_report_use_of_type_hash_3_01_t_00_010_01_4" ],
     [ "ValueTraitsImpl< T, true >", "structmaliput_1_1drake_1_1internal_1_1_value_traits_impl_3_01_t_00_01true_01_4.html", "structmaliput_1_1drake_1_1internal_1_1_value_traits_impl_3_01_t_00_01true_01_4" ],
     [ "ValueTraitsImpl< T, false >", "structmaliput_1_1drake_1_1internal_1_1_value_traits_impl_3_01_t_00_01false_01_4.html", "structmaliput_1_1drake_1_1internal_1_1_value_traits_impl_3_01_t_00_01false_01_4" ],
-    [ "MALIPUT_USED", "value_8h.html#ad99a9ff1a3a7b9b2afff35daecbd60df", null ],
     [ "remove_cvref_t", "value_8h.html#addc190dd01303fdccea2e97490e5d800", null ],
     [ "typehasher_void_t", "value_8h.html#a48e25365483f81f6b6942815475a0e56", null ],
     [ "ValueForwardingCtorEnabled", "value_8h.html#a6eb8034ac947af2e08653116c0f945b4", null ],

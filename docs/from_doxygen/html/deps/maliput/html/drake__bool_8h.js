@@ -1,7 +1,6 @@
 var drake__bool_8h =
 [
     [ "scalar_predicate", "structmaliput_1_1drake_1_1scalar__predicate.html", "structmaliput_1_1drake_1_1scalar__predicate" ],
-    [ "MALIPUT_USED", "drake__bool_8h.html#ad99a9ff1a3a7b9b2afff35daecbd60df", null ],
     [ "boolean", "drake__bool_8h.html#a1f1c657c4d2cf400649123a7c2573d5b", null ],
     [ "all", "drake__bool_8h.html#a18197d6999dda546d996d5b8dfccd53a", null ],
     [ "all_of", "drake__bool_8h.html#aea88dde6d4dd05c07a631ac8b94ef5e7", null ],

@@ -6,7 +6,6 @@ var framework__common_8h =
     [ "ContextMessageInterface", "classmaliput_1_1drake_1_1systems_1_1internal_1_1_context_message_interface.html", "classmaliput_1_1drake_1_1systems_1_1internal_1_1_context_message_interface" ],
     [ "SystemParentServiceInterface", "classmaliput_1_1drake_1_1systems_1_1internal_1_1_system_parent_service_interface.html", "classmaliput_1_1drake_1_1systems_1_1internal_1_1_system_parent_service_interface" ],
     [ "OutputPortPrerequisite", "structmaliput_1_1drake_1_1systems_1_1internal_1_1_output_port_prerequisite.html", "structmaliput_1_1drake_1_1systems_1_1internal_1_1_output_port_prerequisite" ],
-    [ "MALIPUT_USED", "framework__common_8h.html#ad99a9ff1a3a7b9b2afff35daecbd60df", null ],
     [ "AbstractParameterIndex", "framework__common_8h.html#a86b350169906f6d5e07e9db46e36d57a", null ],
     [ "AbstractStateIndex", "framework__common_8h.html#a8c3a27f43e356726f770159944adb929", null ],
     [ "CacheIndex", "framework__common_8h.html#a06ac9ad764b14ccff79b6feb393be498", null ],

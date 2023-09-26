@@ -9,7 +9,6 @@ var eigen__types_8h =
     [ "is_eigen_vector_of", "structmaliput_1_1drake_1_1is__eigen__vector__of.html", null ],
     [ "is_eigen_nonvector_of", "structmaliput_1_1drake_1_1is__eigen__nonvector__of.html", null ],
     [ "EigenPtr", "classmaliput_1_1drake_1_1_eigen_ptr.html", "classmaliput_1_1drake_1_1_eigen_ptr" ],
-    [ "MALIPUT_USED", "eigen__types_8h.html#ad99a9ff1a3a7b9b2afff35daecbd60df", null ],
     [ "AngleAxis", "eigen__types_8h.html#a90d91e75997a81a48adea1e83caddde4", null ],
     [ "Isometry3", "eigen__types_8h.html#a9eb383d64a842ca9002f66b2e10254aa", null ],
     [ "Matrix2", "eigen__types_8h.html#a06406a5da633da84f911e2979aa48549", null ],

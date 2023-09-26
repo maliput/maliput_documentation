@@ -22,13 +22,6 @@
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
     <namespace>maliput::drake::systems::internal</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>abstract__value__cloner_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>abstract_values.cc</name>
@@ -51,26 +44,12 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>abstract__values_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>antiderivative_function.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/analysis/</path>
     <filename>antiderivative__function_8cc.html</filename>
     <includes id="antiderivative__function_8h" name="antiderivative_function.h" local="yes" imported="no">maliput/drake/systems/analysis/antiderivative_function.h</includes>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>antiderivative__function_8cc.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>antiderivative_function.h</name>
@@ -87,13 +66,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>antiderivative__function_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>assertion_error.h</name>
@@ -166,13 +138,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>basic__vector_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>bounding_box.cc</name>
@@ -488,13 +453,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>context_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="function">
       <type>std::ostream &amp;</type>
       <name>operator&lt;&lt;</name>
@@ -529,13 +487,6 @@
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
     <namespace>maliput::drake::systems::internal</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>context__base_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>continuous_state.cc</name>
@@ -563,13 +514,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>continuous__state_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>copyable_unique_ptr.h</name>
@@ -632,13 +576,6 @@
     <name>default_scalars.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
     <filename>default__scalars_8h.html</filename>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>default__scalars_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="define">
       <type>#define</type>
       <name>DRAKE_DEFINE_CLASS_TEMPLATE_INSTANTIATIONS_ON_DEFAULT_SCALARS</name>
@@ -741,13 +678,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>dense__output_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>dependency_tracker.cc</name>
@@ -907,13 +837,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>discrete__values_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>drake_assert.h</name>
@@ -924,13 +847,6 @@
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::internal</namespace>
     <namespace>maliput::drake::assert</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>drake__assert_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="define">
       <type>#define</type>
       <name>MALIPUT_DRAKE_ASSERT_IS_ARMED</name>
@@ -1051,13 +967,6 @@
     <class kind="struct">maliput::drake::scalar_predicate</class>
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>drake__bool_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="typedef">
       <type>typename scalar_predicate&lt; T &gt;::type</type>
       <name>boolean</name>
@@ -1114,13 +1023,6 @@
     <filename>drake__copyable_8h.html</filename>
     <member kind="define">
       <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>drake__copyable_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>DRAKE_NO_COPY_NO_MOVE_NO_ASSIGN</name>
       <anchorfile>drake__copyable_8h.html</anchorfile>
       <anchor>a3ee22789c29a46dddd6a7fd2b982731c</anchor>
@@ -1140,13 +1042,6 @@
     <filename>drake__deprecated_8h.html</filename>
     <member kind="define">
       <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>drake__deprecated_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
       <name>DRAKE_DEPRECATED</name>
       <anchorfile>drake__deprecated_8h.html</anchorfile>
       <anchor>a847d827d084f28e4ae1788a0ae75be96</anchor>
@@ -1161,13 +1056,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::internal</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>drake__throw_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="define">
       <type>#define</type>
       <name>MALIPUT_DRAKE_THROW_UNLESS</name>
@@ -1252,13 +1140,6 @@
     <class kind="class">maliput::drake::EigenPtr</class>
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>eigen__types_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="typedef">
       <type>Eigen::Matrix&lt; Scalar, 0, 1 &gt;</type>
       <name>Vector0</name>
@@ -1606,13 +1487,6 @@
     <includes id="nice__type__name_8h" name="nice_type_name.h" local="yes" imported="no">maliput/drake/common/nice_type_name.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>extract__double_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="function">
       <type></type>
       <name>DRAKE_DEPRECATED</name>
@@ -1820,13 +1694,6 @@
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
     <namespace>maliput::drake::systems::internal</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>framework__common_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="typedef">
       <type>TypeSafeIndex&lt; class DependencyTag &gt;</type>
       <name>DependencyTicket</name>
@@ -2524,13 +2391,6 @@
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
     <namespace>maliput::drake::systems::internal</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>hermitian__dense__output_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="function">
       <type>std::vector&lt; double &gt;</type>
       <name>ExtractDoublesOrThrow</name>
@@ -2578,13 +2438,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>initial__value__problem_8cc.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>initial_value_problem.h</name>
@@ -2602,13 +2455,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>initial__value__problem_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>input_port.cc</name>
@@ -2684,13 +2530,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>integrator__base_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>api/intersection.cc</name>
@@ -3175,13 +3014,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>leaf__output__port_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>leaf_system.cc</name>
@@ -3229,13 +3061,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>leaf__system_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>logger.cc</name>
@@ -5457,13 +5282,6 @@
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
     <namespace>maliput::drake::systems::internal</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>model__values_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>never_destroyed.h</name>
@@ -5492,13 +5310,6 @@
     <class kind="class">maliput::drake::NiceTypeName</class>
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>nice__type__name_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>nice_type_name_override.cc</name>
@@ -5675,13 +5486,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>parameters_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>passkey.h</name>
@@ -6118,13 +5922,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::trajectories</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>piecewise__polynomial_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>piecewise_trajectory.cc</name>
@@ -7827,13 +7624,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>runge__kutta3__integrator_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>saturate.cc</name>
@@ -7883,13 +7673,6 @@
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
     <namespace>maliput::drake::systems::scalar_conversion</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>scalar__conversion__traits_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>scalar_dense_output.cc</name>
@@ -7908,13 +7691,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>scalar__dense__output_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>scalar_initial_value_problem.cc</name>
@@ -7936,13 +7712,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>scalar__initial__value__problem_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>scalar_view_dense_output.cc</name>
@@ -7962,13 +7731,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>scalar__view__dense__output_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>segment.cc</name>
@@ -8124,13 +7886,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>state_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>state_provider_result.h</name>
@@ -8159,13 +7914,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>stepwise__dense__output_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>stochastic_systems.h</name>
@@ -8295,13 +8043,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>system_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>system_base.cc</name>
@@ -8366,13 +8107,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>system__constraint_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="typedef">
       <type>std::function&lt; void(const Context&lt; T &gt; &amp;, VectorX&lt; T &gt; *value)&gt;</type>
       <name>ContextConstraintCalc</name>
@@ -8418,13 +8152,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>system__output_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>system_scalar_conversion_doxygen.h</name>
@@ -8466,13 +8193,6 @@
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
     <namespace>maliput::drake::systems::system_scalar_converter_internal</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>system__scalar__converter_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="function">
       <type>void</type>
       <name>ThrowConversionMismatch</name>
@@ -8553,13 +8273,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::logging</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>text__logging_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="define">
       <type>#define</type>
       <name>SPDLOG_ACTIVE_LEVEL</name>
@@ -9112,13 +8825,6 @@
     <filename>unused_8h.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>unused_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="function">
       <type>void</type>
       <name>unused</name>
@@ -9179,13 +8885,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::internal</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>value_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="typedef">
       <type>ValueTraitsImpl&lt; T, std::is_copy_constructible_v&lt; T &gt; &gt;</type>
       <name>ValueTraits</name>
@@ -9278,13 +8977,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>value__producer_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>value_to_abstract_value.h</name>
@@ -9533,13 +9225,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_USED</name>
-      <anchorfile>vector__base_8h.html</anchorfile>
-      <anchor>ad99a9ff1a3a7b9b2afff35daecbd60df</anchor>
-      <arglist></arglist>
-    </member>
     <member kind="function">
       <type>std::ostream &amp;</type>
       <name>operator&lt;&lt;</name>
