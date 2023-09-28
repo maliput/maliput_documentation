@@ -32,8 +32,6 @@ The following packages are provided:
 * Integration packages:
     * `maliput_integration`_
     * `maliput_integration_tests`_
-* Mathematical support:
-    * `maliput_drake`_
 * Utility packages:
     * `drake_vendor`_
 * Delphyne:
@@ -55,7 +53,6 @@ The following packages are provided:
 .. _maliput_viz: https://github.com/maliput/maliput_viz
 .. _maliput_integration: https://github.com/maliput/maliput_integration
 .. _maliput_integration_tests: https://github.com/maliput/maliput_integration_tests
-.. _maliput_drake: https://github.com/maliput/maliput_drake
 .. _drake_vendor: https://github.com/maliput/drake_vendor
 .. _delphyne: https://github.com/maliput/delphyne
 .. _delphyne_gui: https://github.com/maliput/delphyne_gui
