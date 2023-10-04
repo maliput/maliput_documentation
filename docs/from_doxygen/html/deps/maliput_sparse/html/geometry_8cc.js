@@ -8,6 +8,7 @@ var geometry_8cc =
     [ "Get2DHeadingAtP", "geometry_8cc.html#a1efc046f4d7fe66f72b8833c53b5b455", null ],
     [ "Get2DTangentAtP", "geometry_8cc.html#a0f40bf6dfc081c86e5fd64a3134ad89b", null ],
     [ "GetBoundPointsAtP", "geometry_8cc.html#a8793078fea1db974c72cab3d9d2987f9", null ],
+    [ "GetBoundPointsAtP< maliput::math::Vector3 >", "geometry_8cc.html#ab331042a43a470b3f39df8f77ca11158", null ],
     [ "GetClosestPoint", "geometry_8cc.html#af141c67b9d30111679c4d64d4f14cb5b", null ],
     [ "GetClosestPointToSegment", "geometry_8cc.html#a6a690986d7ced4f91654191cb717c439", null ],
     [ "GetClosestPointToSegment", "geometry_8cc.html#a9275255af177da2664eee30d56a8f5eb", null ],

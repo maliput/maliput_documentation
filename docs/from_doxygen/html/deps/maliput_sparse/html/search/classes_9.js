@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['segment_258',['Segment',['../structmaliput__sparse_1_1geometry_1_1_line_string_1_1_segment.html',1,'LineString&lt; CoordinateT, DistanceFunction &gt;::Segment'],['../structmaliput__sparse_1_1parser_1_1_segment.html',1,'Segment']]],
-  ['segmentbuilder_259',['SegmentBuilder',['../classmaliput__sparse_1_1builder_1_1_segment_builder.html',1,'maliput_sparse::builder']]]
+  ['segment_259',['Segment',['../structmaliput__sparse_1_1geometry_1_1_line_string_1_1_segment.html',1,'LineString&lt; CoordinateT, DistanceFunction &gt;::Segment'],['../structmaliput__sparse_1_1parser_1_1_segment.html',1,'Segment']]],
+  ['segmentbuilder_260',['SegmentBuilder',['../classmaliput__sparse_1_1builder_1_1_segment_builder.html',1,'maliput_sparse::builder']]]
 ];

@@ -295,6 +295,13 @@
       <anchor>a9275255af177da2664eee30d56a8f5eb</anchor>
       <arglist>(const maliput::math::Vector2 &amp;, const maliput::math::Vector2 &amp;, const maliput::math::Vector2 &amp;, double)</arglist>
     </member>
+    <member kind="function">
+      <type>template BoundPointsResult</type>
+      <name>GetBoundPointsAtP&lt; maliput::math::Vector3 &gt;</name>
+      <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
+      <anchor>ab331042a43a470b3f39df8f77ca11158</anchor>
+      <arglist>(const LineString3d &amp;, double, double)</arglist>
+    </member>
     <member kind="variable" static="yes">
       <type>static constexpr bool</type>
       <name>kLeft</name>
@@ -2601,6 +2608,13 @@
       <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
       <anchor>a9275255af177da2664eee30d56a8f5eb</anchor>
       <arglist>(const maliput::math::Vector2 &amp;, const maliput::math::Vector2 &amp;, const maliput::math::Vector2 &amp;, double)</arglist>
+    </member>
+    <member kind="function">
+      <type>template BoundPointsResult</type>
+      <name>GetBoundPointsAtP&lt; maliput::math::Vector3 &gt;</name>
+      <anchorfile>namespacemaliput__sparse_1_1geometry_1_1utility.html</anchorfile>
+      <anchor>ab331042a43a470b3f39df8f77ca11158</anchor>
+      <arglist>(const LineString3d &amp;, double, double)</arglist>
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr bool</type>
