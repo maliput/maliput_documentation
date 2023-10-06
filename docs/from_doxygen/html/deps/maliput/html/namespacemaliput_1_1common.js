@@ -2,6 +2,7 @@ var namespacemaliput_1_1common =
 [
     [ "internal", "namespacemaliput_1_1common_1_1internal.html", "namespacemaliput_1_1common_1_1internal" ],
     [ "assertion_error", "classmaliput_1_1common_1_1assertion__error.html", "classmaliput_1_1common_1_1assertion__error" ],
+    [ "ComparisonResult", "structmaliput_1_1common_1_1_comparison_result.html", "structmaliput_1_1common_1_1_comparison_result" ],
     [ "DelegatingHasher", "structmaliput_1_1common_1_1_delegating_hasher.html", "structmaliput_1_1common_1_1_delegating_hasher" ],
     [ "Filesystem", "classmaliput_1_1common_1_1_filesystem.html", "classmaliput_1_1common_1_1_filesystem" ],
     [ "Logger", "classmaliput_1_1common_1_1_logger.html", "classmaliput_1_1common_1_1_logger" ],

@@ -27,6 +27,7 @@ var classmaliput_1_1math_1_1_matrix =
     [ "operator[]", "classmaliput_1_1math_1_1_matrix.html#a98a95e3c21af2046b01f22e584392efd", null ],
     [ "reduce", "classmaliput_1_1math_1_1_matrix.html#a87216d382038685b5e5c7706e41718fe", null ],
     [ "row", "classmaliput_1_1math_1_1_matrix.html#aa3043c3ab9fca14042496b301cf32b96", null ],
+    [ "to_str", "classmaliput_1_1math_1_1_matrix.html#a7157eb0f3e4314a1d621f0bed374ea97", null ],
     [ "transpose", "classmaliput_1_1math_1_1_matrix.html#ab28e50dbac30b03960d848b4fd73f60e", null ],
     [ "operator*", "classmaliput_1_1math_1_1_matrix.html#a775e46d64758a994a1ecfa7a7a590c9e", null ],
     [ "operator*", "classmaliput_1_1math_1_1_matrix.html#ae7876c148054511cb9cc10bf9bb64424", null ],

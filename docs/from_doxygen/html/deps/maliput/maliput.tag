@@ -68,6 +68,21 @@
     <namespace>maliput::drake::systems</namespace>
   </compound>
   <compound kind="file">
+    <name>assert_compare.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/test_utilities/</path>
+    <filename>assert__compare_8h.html</filename>
+    <includes id="common_2compare_8h" name="common/compare.h" local="yes" imported="no">maliput/common/compare.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::test</namespace>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>AssertCompare</name>
+      <anchorfile>namespacemaliput_1_1test.html</anchorfile>
+      <anchor>a11285c5634ebabe2d352ca4961114b6b</anchor>
+      <arglist>(const common::ComparisonResult&lt; T &gt; &amp;res)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>assertion_error.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/common/</path>
     <filename>assertion__error_8h.html</filename>
@@ -369,6 +384,198 @@
       <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
       <anchor>a7a4f81af920cae075af5641d1893e3a9</anchor>
       <arglist>(const RoadGeometry *road_geometry)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>api/compare.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/</path>
+    <filename>api_2compare_8cc.html</filename>
+    <includes id="api_2compare_8h" name="api/compare.h" local="yes" imported="no">maliput/api/compare.h</includes>
+    <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::api</namespace>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; InertialPosition &gt;</type>
+      <name>IsInertialPositionClose</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a5257d7064e7c5f3d9e8b543b18737ece</anchor>
+      <arglist>(const InertialPosition &amp;pos1, const InertialPosition &amp;pos2, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; LanePosition &gt;</type>
+      <name>IsLanePositionClose</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>aab04b7759b264bea5aa98a8c5d0ba92f</anchor>
+      <arglist>(const LanePosition &amp;pos1, const LanePosition &amp;pos2, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Rotation &gt;</type>
+      <name>IsRotationClose</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>ab614274503f66904453dbe7df1418872</anchor>
+      <arglist>(const Rotation &amp;rot1, const Rotation &amp;rot2, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RBounds &gt;</type>
+      <name>IsRBoundsClose</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>aae0d5876f143bae90467aab92f4c4799</anchor>
+      <arglist>(const RBounds &amp;rbounds1, const RBounds &amp;rbounds2, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; HBounds &gt;</type>
+      <name>IsHBoundsClose</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a9ab2f16b53bbe8119b92f357c9e4007a</anchor>
+      <arglist>(const HBounds &amp;hbounds1, const HBounds &amp;hbounds2, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; LanePositionResult &gt;</type>
+      <name>IsLanePositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a189db2b6c069d74f1643e510b2ba3f9f</anchor>
+      <arglist>(const LanePositionResult &amp;lpr_a, const LanePositionResult &amp;lpr_b, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RoadPositionResult &gt;</type>
+      <name>IsRoadPositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>adc4737b8e01dd40ef4b03ae668f78357</anchor>
+      <arglist>(const maliput::api::RoadPositionResult &amp;rpr_a, const maliput::api::RoadPositionResult &amp;rpr_b, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; LaneEnd &gt;</type>
+      <name>IsLaneEndEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a4d3dd63ef50b18662dbfecbad3ab4222</anchor>
+      <arglist>(const LaneEnd &amp;lane_end1, const LaneEnd &amp;lane_end2)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>math/compare.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/math/</path>
+    <filename>math_2compare_8cc.html</filename>
+    <includes id="math_2compare_8h" name="math/compare.h" local="yes" imported="no">maliput/math/compare.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::math</namespace>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; math::VectorBase&lt; N, Derived &gt; &gt;</type>
+      <name>CompareVectors</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>a47b0c922c564c1155b1d36e5b7f7b9d3</anchor>
+      <arglist>(const math::VectorBase&lt; N, Derived &gt; &amp;v1, const math::VectorBase&lt; N, Derived &gt; &amp;v2, double tolerance=0.0, CompareType compare_type=CompareType::kAbsolute)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; math::Matrix&lt; N &gt; &gt;</type>
+      <name>CompareMatrices</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>a656c890f9af05404d925f2fd52324beb</anchor>
+      <arglist>(const math::Matrix&lt; N &gt; &amp;m1, const math::Matrix&lt; N &gt; &amp;m2, double tolerance=0.0, CompareType compare_type=CompareType::kAbsolute)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>api/compare.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/api/</path>
+    <filename>api_2compare_8h.html</filename>
+    <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
+    <includes id="common_2compare_8h" name="common/compare.h" local="yes" imported="no">maliput/common/compare.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::api</namespace>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; LanePositionResult &gt;</type>
+      <name>IsLanePositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a189db2b6c069d74f1643e510b2ba3f9f</anchor>
+      <arglist>(const LanePositionResult &amp;lpr_a, const LanePositionResult &amp;lpr_b, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RoadPositionResult &gt;</type>
+      <name>IsRoadPositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>adc4737b8e01dd40ef4b03ae668f78357</anchor>
+      <arglist>(const maliput::api::RoadPositionResult &amp;rpr_a, const maliput::api::RoadPositionResult &amp;rpr_b, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; InertialPosition &gt;</type>
+      <name>IsInertialPositionClose</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a5257d7064e7c5f3d9e8b543b18737ece</anchor>
+      <arglist>(const InertialPosition &amp;pos1, const InertialPosition &amp;pos2, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; LanePosition &gt;</type>
+      <name>IsLanePositionClose</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>aab04b7759b264bea5aa98a8c5d0ba92f</anchor>
+      <arglist>(const LanePosition &amp;pos1, const LanePosition &amp;pos2, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Rotation &gt;</type>
+      <name>IsRotationClose</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>ab614274503f66904453dbe7df1418872</anchor>
+      <arglist>(const Rotation &amp;rot1, const Rotation &amp;rot2, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RBounds &gt;</type>
+      <name>IsRBoundsClose</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>aae0d5876f143bae90467aab92f4c4799</anchor>
+      <arglist>(const RBounds &amp;rbounds1, const RBounds &amp;rbounds2, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; HBounds &gt;</type>
+      <name>IsHBoundsClose</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a9ab2f16b53bbe8119b92f357c9e4007a</anchor>
+      <arglist>(const HBounds &amp;hbounds1, const HBounds &amp;hbounds2, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; LaneEnd &gt;</type>
+      <name>IsLaneEndEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a4d3dd63ef50b18662dbfecbad3ab4222</anchor>
+      <arglist>(const LaneEnd &amp;lane_end1, const LaneEnd &amp;lane_end2)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>common/compare.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/common/</path>
+    <filename>common_2compare_8h.html</filename>
+    <class kind="struct">maliput::common::ComparisonResult</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::common</namespace>
+  </compound>
+  <compound kind="file">
+    <name>math/compare.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/math/</path>
+    <filename>math_2compare_8h.html</filename>
+    <includes id="common_2compare_8h" name="common/compare.h" local="yes" imported="no">maliput/common/compare.h</includes>
+    <includes id="matrix_8h" name="matrix.h" local="yes" imported="no">maliput/math/matrix.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::math</namespace>
+    <member kind="enumeration">
+      <type></type>
+      <name>CompareType</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>afbc5396d9a88c41d6aeb522b9f06f426</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespacemaliput_1_1math.html" anchor="afbc5396d9a88c41d6aeb522b9f06f426abab0767e88027de9944aa55c24c8387a">kAbsolute</enumvalue>
+      <enumvalue file="namespacemaliput_1_1math.html" anchor="afbc5396d9a88c41d6aeb522b9f06f426af460a96ab20647996c15854794763384">kRelative</enumvalue>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; math::VectorBase&lt; N, Derived &gt; &gt;</type>
+      <name>CompareVectors</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>a47b0c922c564c1155b1d36e5b7f7b9d3</anchor>
+      <arglist>(const math::VectorBase&lt; N, Derived &gt; &amp;v1, const math::VectorBase&lt; N, Derived &gt; &amp;v2, double tolerance=0.0, CompareType compare_type=CompareType::kAbsolute)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; math::Matrix&lt; N &gt; &gt;</type>
+      <name>CompareMatrices</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>a656c890f9af05404d925f2fd52324beb</anchor>
+      <arglist>(const math::Matrix&lt; N &gt; &amp;m1, const math::Matrix&lt; N &gt; &amp;m2, double tolerance=0.0, CompareType compare_type=CompareType::kAbsolute)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -3593,7 +3800,8 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/test_utilities/</path>
     <filename>maliput__routing__position__compare_8cc.html</filename>
     <includes id="maliput__routing__position__compare_8h" name="maliput_routing_position_compare.h" local="yes" imported="no">maliput/test_utilities/maliput_routing_position_compare.h</includes>
-    <includes id="maliput__types__compare_8h" name="maliput_types_compare.h" local="yes" imported="no">maliput/test_utilities/maliput_types_compare.h</includes>
+    <includes id="api_2compare_8h" name="api/compare.h" local="yes" imported="no">maliput/api/compare.h</includes>
+    <includes id="assert__compare_8h" name="assert_compare.h" local="yes" imported="no">test_utilities/assert_compare.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::routing</namespace>
     <namespace>maliput::routing::test</namespace>
@@ -11221,6 +11429,18 @@
       <anchorfile>classmaliput_1_1drake_1_1systems_1_1_cache_entry_value.html</anchorfile>
       <anchor>a8a7c138de6aea82b3c916775f1774c6b</anchor>
       <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput::common::ComparisonResult</name>
+    <filename>structmaliput_1_1common_1_1_comparison_result.html</filename>
+    <templarg></templarg>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>message</name>
+      <anchorfile>structmaliput_1_1common_1_1_comparison_result.html</anchorfile>
+      <anchor>a8cc032668976d50d4dbfe01ea9c15d5a</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -22710,6 +22930,13 @@
       <arglist>() const</arglist>
     </member>
     <member kind="function">
+      <type>std::string</type>
+      <name>to_str</name>
+      <anchorfile>classmaliput_1_1math_1_1_matrix.html</anchorfile>
+      <anchor>a7157eb0f3e4314a1d621f0bed374ea97</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
       <type>Matrix&lt; N &gt; &amp;</type>
       <name>operator=</name>
       <anchorfile>classmaliput_1_1math_1_1_matrix.html</anchorfile>
@@ -23085,25 +23312,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::geometry_base::test::MockRoadGeometry</name>
-    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</filename>
-    <base>maliput::geometry_base::RoadGeometry</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</anchorfile>
-      <anchor>a630175fce2ba52f711f6ddd5f90fa0b2</anchor>
-      <arglist>(MockRoadGeometry)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MockRoadGeometry</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</anchorfile>
-      <anchor>a9a058c56a78887a7f2bb09b6db059369</anchor>
-      <arglist>(const api::RoadGeometryId &amp;id, double linear_tolerance, double angular_tolerance, double scale_length, const math::Vector3 &amp;inertial_to_backend_frame_translation)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>maliput::api::test::MockRoadGeometry</name>
     <filename>classmaliput_1_1api_1_1test_1_1_mock_road_geometry.html</filename>
     <base>maliput::api::RoadGeometry</base>
@@ -23162,6 +23370,25 @@
       <anchorfile>classmaliput_1_1api_1_1test_1_1_mock_road_geometry.html</anchorfile>
       <anchor>a6beb8686ee08aa396826e1bee33e0d70</anchor>
       <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::geometry_base::test::MockRoadGeometry</name>
+    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</filename>
+    <base>maliput::geometry_base::RoadGeometry</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</anchorfile>
+      <anchor>a630175fce2ba52f711f6ddd5f90fa0b2</anchor>
+      <arglist>(MockRoadGeometry)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MockRoadGeometry</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</anchorfile>
+      <anchor>a9a058c56a78887a7f2bb09b6db059369</anchor>
+      <arglist>(const api::RoadGeometryId &amp;id, double linear_tolerance, double angular_tolerance, double scale_length, const math::Vector3 &amp;inertial_to_backend_frame_translation)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -23350,39 +23577,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::drake::never_destroyed</name>
-    <filename>classmaliput_1_1drake_1_1never__destroyed.html</filename>
-    <templarg></templarg>
-    <member kind="function">
-      <type></type>
-      <name>never_destroyed</name>
-      <anchorfile>classmaliput_1_1drake_1_1never__destroyed.html</anchorfile>
-      <anchor>a75b0a6d92982429933c36cc5a6c52986</anchor>
-      <arglist>(Args &amp;&amp;... args)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~never_destroyed</name>
-      <anchorfile>classmaliput_1_1drake_1_1never__destroyed.html</anchorfile>
-      <anchor>a27fa859355b10542c0cdbf991a8c3a66</anchor>
-      <arglist>()=default</arglist>
-    </member>
-    <member kind="function">
-      <type>T &amp;</type>
-      <name>access</name>
-      <anchorfile>classmaliput_1_1drake_1_1never__destroyed.html</anchorfile>
-      <anchor>ac6feb692ac7476f12889dddc877097fc</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>const T &amp;</type>
-      <name>access</name>
-      <anchorfile>classmaliput_1_1drake_1_1never__destroyed.html</anchorfile>
-      <anchor>a54c5e5d1a51055269e08e00e806dc694</anchor>
-      <arglist>() const</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>maliput::common::never_destroyed</name>
     <filename>classmaliput_1_1common_1_1never__destroyed.html</filename>
     <templarg></templarg>
@@ -23411,6 +23605,39 @@
       <type>const T &amp;</type>
       <name>access</name>
       <anchorfile>classmaliput_1_1common_1_1never__destroyed.html</anchorfile>
+      <anchor>a54c5e5d1a51055269e08e00e806dc694</anchor>
+      <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::drake::never_destroyed</name>
+    <filename>classmaliput_1_1drake_1_1never__destroyed.html</filename>
+    <templarg></templarg>
+    <member kind="function">
+      <type></type>
+      <name>never_destroyed</name>
+      <anchorfile>classmaliput_1_1drake_1_1never__destroyed.html</anchorfile>
+      <anchor>a75b0a6d92982429933c36cc5a6c52986</anchor>
+      <arglist>(Args &amp;&amp;... args)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~never_destroyed</name>
+      <anchorfile>classmaliput_1_1drake_1_1never__destroyed.html</anchorfile>
+      <anchor>a27fa859355b10542c0cdbf991a8c3a66</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>T &amp;</type>
+      <name>access</name>
+      <anchorfile>classmaliput_1_1drake_1_1never__destroyed.html</anchorfile>
+      <anchor>ac6feb692ac7476f12889dddc877097fc</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>const T &amp;</type>
+      <name>access</name>
+      <anchorfile>classmaliput_1_1drake_1_1never__destroyed.html</anchorfile>
       <anchor>a54c5e5d1a51055269e08e00e806dc694</anchor>
       <arglist>() const</arglist>
     </member>
@@ -33412,39 +33639,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::TrafficLightBook</name>
-    <filename>classmaliput_1_1_traffic_light_book.html</filename>
-    <base>maliput::api::rules::TrafficLightBook</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
-      <anchor>abcc08c5751a8d7e9ffcf5e7e27e1e611</anchor>
-      <arglist>(TrafficLightBook)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>TrafficLightBook</name>
-      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
-      <anchor>ac6252aac70ee58246aaa76909c91dad8</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~TrafficLightBook</name>
-      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
-      <anchor>a73564dc67d24d37a28f9699229eb6707</anchor>
-      <arglist>() override</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AddTrafficLight</name>
-      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
-      <anchor>af7b16aaf63fff8a971cd59fd74347f96</anchor>
-      <arglist>(std::unique_ptr&lt; const api::rules::TrafficLight &gt; traffic_light)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>maliput::api::rules::TrafficLightBook</name>
     <filename>classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html</filename>
     <member kind="function">
@@ -33481,6 +33675,39 @@
       <anchorfile>classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html</anchorfile>
       <anchor>a050a1e9e217785773eedeff40a95f39b</anchor>
       <arglist>()=default</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::TrafficLightBook</name>
+    <filename>classmaliput_1_1_traffic_light_book.html</filename>
+    <base>maliput::api::rules::TrafficLightBook</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
+      <anchor>abcc08c5751a8d7e9ffcf5e7e27e1e611</anchor>
+      <arglist>(TrafficLightBook)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>TrafficLightBook</name>
+      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
+      <anchor>ac6252aac70ee58246aaa76909c91dad8</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~TrafficLightBook</name>
+      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
+      <anchor>a73564dc67d24d37a28f9699229eb6707</anchor>
+      <arglist>() override</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AddTrafficLight</name>
+      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
+      <anchor>af7b16aaf63fff8a971cd59fd74347f96</anchor>
+      <arglist>(std::unique_ptr&lt; const api::rules::TrafficLight &gt; traffic_light)</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -37466,6 +37693,193 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::drake::systems::VectorBase</name>
+    <filename>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</filename>
+    <templarg></templarg>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~VectorBase</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>abc19c2584a73f03bd1e31277d11315b4</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual int</type>
+      <name>size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a36b716289158c33f86a8cf30219be68c</anchor>
+      <arglist>() const =0</arglist>
+    </member>
+    <member kind="function">
+      <type>T &amp;</type>
+      <name>operator[]</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a2d4b36a43041d6505f82836a6aeccd52</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>const T &amp;</type>
+      <name>operator[]</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>ab3f0073680dabba9d2778d9a6f35aed7</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const T &amp;</type>
+      <name>GetAtIndex</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>ae79ea848ba1a3e2a87da1777b3f399cc</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>T &amp;</type>
+      <name>GetAtIndex</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>aef7a4ff282156d6974f47912756265b4</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetAtIndex</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a5c5902bbfda44607fda562f0c3956520</anchor>
+      <arglist>(int index, const T &amp;value)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>SetFrom</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a3a8364f71b762045df41bfcb58927fe5</anchor>
+      <arglist>(const VectorBase&lt; T &gt; &amp;value)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>SetFromVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>aea9d9b7396dccc9374d87a9be04a2597</anchor>
+      <arglist>(const Eigen::Ref&lt; const VectorX&lt; T &gt;&gt; &amp;value)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>SetZero</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a04797332f4fa1889d462e5c7aacf1400</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual VectorX&lt; T &gt;</type>
+      <name>CopyToVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a23751ea78ff51179a9b3ed90317c922d</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>CopyToPreSizedVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a9f65de06c90fe4b0a0cd427032313218</anchor>
+      <arglist>(EigenPtr&lt; VectorX&lt; T &gt;&gt; vec) const</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>ScaleAndAddToVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>abe595692eca6a4b16cd0344195d54599</anchor>
+      <arglist>(const T &amp;scale, EigenPtr&lt; VectorX&lt; T &gt;&gt; vec) const</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase &amp;</type>
+      <name>PlusEqScaled</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>aecb348d2ee8136278c64e180f4af21b7</anchor>
+      <arglist>(const T &amp;scale, const VectorBase&lt; T &gt; &amp;rhs)</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase &amp;</type>
+      <name>PlusEqScaled</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a32def866adfc4d6ce3dfe3255881651c</anchor>
+      <arglist>(const std::initializer_list&lt; std::pair&lt; T, const VectorBase&lt; T &gt; &amp; &gt;&gt; &amp;rhs_scale)</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase &amp;</type>
+      <name>operator+=</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>accc86d5305584bc7cb96971f60220125</anchor>
+      <arglist>(const VectorBase&lt; T &gt; &amp;rhs)</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase &amp;</type>
+      <name>operator-=</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>acb91f3ae2b66473a274073f56c5fbec0</anchor>
+      <arglist>(const VectorBase&lt; T &gt; &amp;rhs)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>GetElementBounds</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>afcd23700f1c0e51cb736750eb3fafa51</anchor>
+      <arglist>(Eigen::VectorXd *lower, Eigen::VectorXd *upper) const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>VectorBase</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a146b52fc4bf3790ed55a6c097ca3e76b</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual const T &amp;</type>
+      <name>DoGetAtIndexUnchecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>afd5f03561f8acae4788b65a50f1f3976</anchor>
+      <arglist>(int index) const =0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual T &amp;</type>
+      <name>DoGetAtIndexUnchecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a97deb44c7757ee934f32bef2afed9a2b</anchor>
+      <arglist>(int index)=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual const T &amp;</type>
+      <name>DoGetAtIndexChecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>ab8b65615b7a17723177ea016cd5521a0</anchor>
+      <arglist>(int index) const =0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual T &amp;</type>
+      <name>DoGetAtIndexChecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a487b2857071e5fefee941a9b9f39a5bb</anchor>
+      <arglist>(int index)=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoPlusEqScaled</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a2fe79641d14373b863f2bb2a6bf40d14</anchor>
+      <arglist>(const std::initializer_list&lt; std::pair&lt; T, const VectorBase&lt; T &gt; &amp; &gt;&gt; &amp;rhs_scale)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>ThrowOutOfRange</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>abdd4d55ace1242d8a8deac5d5edcb8bd</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>ThrowMismatchedSize</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>acfa12ab9f75a241f10fe4554da824957</anchor>
+      <arglist>(int other_size) const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::math::VectorBase</name>
     <filename>classmaliput_1_1math_1_1_vector_base.html</filename>
     <templarg>N</templarg>
@@ -37679,193 +38093,6 @@
       <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
       <anchor>abb7e8f7ce1f48418814ff28063f31567</anchor>
       <arglist>(std::ostream &amp;os, const VectorBase&lt; N_, Derived_ &gt; &amp;vector)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::drake::systems::VectorBase</name>
-    <filename>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</filename>
-    <templarg></templarg>
-    <member kind="function" virtualness="virtual">
-      <type>virtual</type>
-      <name>~VectorBase</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>abc19c2584a73f03bd1e31277d11315b4</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function" virtualness="pure">
-      <type>virtual int</type>
-      <name>size</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a36b716289158c33f86a8cf30219be68c</anchor>
-      <arglist>() const =0</arglist>
-    </member>
-    <member kind="function">
-      <type>T &amp;</type>
-      <name>operator[]</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a2d4b36a43041d6505f82836a6aeccd52</anchor>
-      <arglist>(int index)</arglist>
-    </member>
-    <member kind="function">
-      <type>const T &amp;</type>
-      <name>operator[]</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>ab3f0073680dabba9d2778d9a6f35aed7</anchor>
-      <arglist>(int index) const</arglist>
-    </member>
-    <member kind="function">
-      <type>const T &amp;</type>
-      <name>GetAtIndex</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>ae79ea848ba1a3e2a87da1777b3f399cc</anchor>
-      <arglist>(int index) const</arglist>
-    </member>
-    <member kind="function">
-      <type>T &amp;</type>
-      <name>GetAtIndex</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>aef7a4ff282156d6974f47912756265b4</anchor>
-      <arglist>(int index)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>SetAtIndex</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a5c5902bbfda44607fda562f0c3956520</anchor>
-      <arglist>(int index, const T &amp;value)</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>SetFrom</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a3a8364f71b762045df41bfcb58927fe5</anchor>
-      <arglist>(const VectorBase&lt; T &gt; &amp;value)</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>SetFromVector</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>aea9d9b7396dccc9374d87a9be04a2597</anchor>
-      <arglist>(const Eigen::Ref&lt; const VectorX&lt; T &gt;&gt; &amp;value)</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>SetZero</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a04797332f4fa1889d462e5c7aacf1400</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual VectorX&lt; T &gt;</type>
-      <name>CopyToVector</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a23751ea78ff51179a9b3ed90317c922d</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>CopyToPreSizedVector</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a9f65de06c90fe4b0a0cd427032313218</anchor>
-      <arglist>(EigenPtr&lt; VectorX&lt; T &gt;&gt; vec) const</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>ScaleAndAddToVector</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>abe595692eca6a4b16cd0344195d54599</anchor>
-      <arglist>(const T &amp;scale, EigenPtr&lt; VectorX&lt; T &gt;&gt; vec) const</arglist>
-    </member>
-    <member kind="function">
-      <type>VectorBase &amp;</type>
-      <name>PlusEqScaled</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>aecb348d2ee8136278c64e180f4af21b7</anchor>
-      <arglist>(const T &amp;scale, const VectorBase&lt; T &gt; &amp;rhs)</arglist>
-    </member>
-    <member kind="function">
-      <type>VectorBase &amp;</type>
-      <name>PlusEqScaled</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a32def866adfc4d6ce3dfe3255881651c</anchor>
-      <arglist>(const std::initializer_list&lt; std::pair&lt; T, const VectorBase&lt; T &gt; &amp; &gt;&gt; &amp;rhs_scale)</arglist>
-    </member>
-    <member kind="function">
-      <type>VectorBase &amp;</type>
-      <name>operator+=</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>accc86d5305584bc7cb96971f60220125</anchor>
-      <arglist>(const VectorBase&lt; T &gt; &amp;rhs)</arglist>
-    </member>
-    <member kind="function">
-      <type>VectorBase &amp;</type>
-      <name>operator-=</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>acb91f3ae2b66473a274073f56c5fbec0</anchor>
-      <arglist>(const VectorBase&lt; T &gt; &amp;rhs)</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>GetElementBounds</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>afcd23700f1c0e51cb736750eb3fafa51</anchor>
-      <arglist>(Eigen::VectorXd *lower, Eigen::VectorXd *upper) const</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type></type>
-      <name>VectorBase</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a146b52fc4bf3790ed55a6c097ca3e76b</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual const T &amp;</type>
-      <name>DoGetAtIndexUnchecked</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>afd5f03561f8acae4788b65a50f1f3976</anchor>
-      <arglist>(int index) const =0</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual T &amp;</type>
-      <name>DoGetAtIndexUnchecked</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a97deb44c7757ee934f32bef2afed9a2b</anchor>
-      <arglist>(int index)=0</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual const T &amp;</type>
-      <name>DoGetAtIndexChecked</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>ab8b65615b7a17723177ea016cd5521a0</anchor>
-      <arglist>(int index) const =0</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual T &amp;</type>
-      <name>DoGetAtIndexChecked</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a487b2857071e5fefee941a9b9f39a5bb</anchor>
-      <arglist>(int index)=0</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="virtual">
-      <type>virtual void</type>
-      <name>DoPlusEqScaled</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a2fe79641d14373b863f2bb2a6bf40d14</anchor>
-      <arglist>(const std::initializer_list&lt; std::pair&lt; T, const VectorBase&lt; T &gt; &amp; &gt;&gt; &amp;rhs_scale)</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type>void</type>
-      <name>ThrowOutOfRange</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>abdd4d55ace1242d8a8deac5d5edcb8bd</anchor>
-      <arglist>(int index) const</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type>void</type>
-      <name>ThrowMismatchedSize</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>acfa12ab9f75a241f10fe4554da824957</anchor>
-      <arglist>(int other_size) const</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -38946,6 +39173,7 @@
     <namespace>maliput::math</namespace>
     <namespace>maliput::plugin</namespace>
     <namespace>maliput::routing</namespace>
+    <namespace>maliput::test</namespace>
     <namespace>maliput::utility</namespace>
     <class kind="struct">maliput::DiscreteValueRuleConstants</class>
     <class kind="class">maliput::Intersection</class>
@@ -39320,6 +39548,62 @@
       <anchorfile>namespacemaliput_1_1api.html</anchorfile>
       <anchor>a405b9288d31a542db4352153419edba1</anchor>
       <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; LanePositionResult &gt;</type>
+      <name>IsLanePositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a189db2b6c069d74f1643e510b2ba3f9f</anchor>
+      <arglist>(const LanePositionResult &amp;lpr_a, const LanePositionResult &amp;lpr_b, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RoadPositionResult &gt;</type>
+      <name>IsRoadPositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>adc4737b8e01dd40ef4b03ae668f78357</anchor>
+      <arglist>(const maliput::api::RoadPositionResult &amp;rpr_a, const maliput::api::RoadPositionResult &amp;rpr_b, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; InertialPosition &gt;</type>
+      <name>IsInertialPositionClose</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a5257d7064e7c5f3d9e8b543b18737ece</anchor>
+      <arglist>(const InertialPosition &amp;pos1, const InertialPosition &amp;pos2, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; LanePosition &gt;</type>
+      <name>IsLanePositionClose</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>aab04b7759b264bea5aa98a8c5d0ba92f</anchor>
+      <arglist>(const LanePosition &amp;pos1, const LanePosition &amp;pos2, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Rotation &gt;</type>
+      <name>IsRotationClose</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>ab614274503f66904453dbe7df1418872</anchor>
+      <arglist>(const Rotation &amp;rot1, const Rotation &amp;rot2, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RBounds &gt;</type>
+      <name>IsRBoundsClose</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>aae0d5876f143bae90467aab92f4c4799</anchor>
+      <arglist>(const RBounds &amp;rbounds1, const RBounds &amp;rbounds2, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; HBounds &gt;</type>
+      <name>IsHBoundsClose</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a9ab2f16b53bbe8119b92f357c9e4007a</anchor>
+      <arglist>(const HBounds &amp;hbounds1, const HBounds &amp;hbounds2, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; LaneEnd &gt;</type>
+      <name>IsLaneEndEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a4d3dd63ef50b18662dbfecbad3ab4222</anchor>
+      <arglist>(const LaneEnd &amp;lane_end1, const LaneEnd &amp;lane_end2)</arglist>
     </member>
     <member kind="function">
       <type>std::ostream &amp;</type>
@@ -40317,6 +40601,7 @@
     <namespace>maliput::common::internal</namespace>
     <namespace>maliput::common::logger</namespace>
     <class kind="class">maliput::common::assertion_error</class>
+    <class kind="struct">maliput::common::ComparisonResult</class>
     <class kind="struct">maliput::common::DelegatingHasher</class>
     <class kind="class">maliput::common::Filesystem</class>
     <class kind="class">maliput::common::Logger</class>
@@ -42081,6 +42366,15 @@
     </member>
     <member kind="enumeration">
       <type></type>
+      <name>CompareType</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>afbc5396d9a88c41d6aeb522b9f06f426</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespacemaliput_1_1math.html" anchor="afbc5396d9a88c41d6aeb522b9f06f426abab0767e88027de9944aa55c24c8387a">kAbsolute</enumvalue>
+      <enumvalue file="namespacemaliput_1_1math.html" anchor="afbc5396d9a88c41d6aeb522b9f06f426af460a96ab20647996c15854794763384">kRelative</enumvalue>
+    </member>
+    <member kind="enumeration">
+      <type></type>
       <name>OverlappingType</name>
       <anchorfile>namespacemaliput_1_1math.html</anchorfile>
       <anchor>af6022ec3177e3ba16073ae84ccfb5b61</anchor>
@@ -42088,6 +42382,20 @@
       <enumvalue file="namespacemaliput_1_1math.html" anchor="af6022ec3177e3ba16073ae84ccfb5b61a026931af6058f84edf6f23b727936e46">kDisjointed</enumvalue>
       <enumvalue file="namespacemaliput_1_1math.html" anchor="af6022ec3177e3ba16073ae84ccfb5b61a8bf5940d983d36987f4a41691ea1d562">kIntersected</enumvalue>
       <enumvalue file="namespacemaliput_1_1math.html" anchor="af6022ec3177e3ba16073ae84ccfb5b61a37909e88ded01d78663d301fa3454166">kContained</enumvalue>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; math::VectorBase&lt; N, Derived &gt; &gt;</type>
+      <name>CompareVectors</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>a47b0c922c564c1155b1d36e5b7f7b9d3</anchor>
+      <arglist>(const math::VectorBase&lt; N, Derived &gt; &amp;v1, const math::VectorBase&lt; N, Derived &gt; &amp;v2, double tolerance=0.0, CompareType compare_type=CompareType::kAbsolute)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; math::Matrix&lt; N &gt; &gt;</type>
+      <name>CompareMatrices</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>a656c890f9af05404d925f2fd52324beb</anchor>
+      <arglist>(const math::Matrix&lt; N &gt; &amp;m1, const math::Matrix&lt; N &gt; &amp;m2, double tolerance=0.0, CompareType compare_type=CompareType::kAbsolute)</arglist>
     </member>
     <member kind="function">
       <type>Derived</type>
@@ -42578,6 +42886,17 @@
       <anchorfile>namespacemaliput_1_1routing_1_1test.html</anchorfile>
       <anchor>a79d378f74c878ad888fc2a0d1317da2f</anchor>
       <arglist>(const RoutePositionResult &amp;rpr_a, const RoutePositionResult &amp;rpr_b, double tolerance)</arglist>
+    </member>
+  </compound>
+  <compound kind="namespace">
+    <name>maliput::test</name>
+    <filename>namespacemaliput_1_1test.html</filename>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>AssertCompare</name>
+      <anchorfile>namespacemaliput_1_1test.html</anchorfile>
+      <anchor>a11285c5634ebabe2d352ca4961114b6b</anchor>
+      <arglist>(const common::ComparisonResult&lt; T &gt; &amp;res)</arglist>
     </member>
   </compound>
   <compound kind="namespace">

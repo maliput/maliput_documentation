@@ -162,6 +162,10 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
+<tr class="memitem:afbc5396d9a88c41d6aeb522b9f06f426"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1math.html#afbc5396d9a88c41d6aeb522b9f06f426">CompareType</a> { <a class="el" href="namespacemaliput_1_1math.html#afbc5396d9a88c41d6aeb522b9f06f426abab0767e88027de9944aa55c24c8387a">kAbsolute</a>, 
+<a class="el" href="namespacemaliput_1_1math.html#afbc5396d9a88c41d6aeb522b9f06f426af460a96ab20647996c15854794763384">kRelative</a>
+ }</td></tr>
+<tr class="separator:afbc5396d9a88c41d6aeb522b9f06f426"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6022ec3177e3ba16073ae84ccfb5b61"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61">OverlappingType</a> : unsigned int { <a class="el" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61a026931af6058f84edf6f23b727936e46">kDisjointed</a> = 0, 
 <a class="el" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61a8bf5940d983d36987f4a41691ea1d562">kIntersected</a> = 1, 
 <a class="el" href="namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61a37909e88ded01d78663d301fa3454166">kContained</a> = 3
@@ -171,6 +175,14 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a47b0c922c564c1155b1d36e5b7f7b9d3"><td class="memTemplParams" colspan="2">template&lt;std::size_t N, typename Derived &gt; </td></tr>
+<tr class="memitem:a47b0c922c564c1155b1d36e5b7f7b9d3"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structmaliput_1_1common_1_1_comparison_result.html">common::ComparisonResult</a>&lt; <a class="el" href="classmaliput_1_1math_1_1_vector_base.html">math::VectorBase</a>&lt; N, Derived &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1math.html#a47b0c922c564c1155b1d36e5b7f7b9d3">CompareVectors</a> (const <a class="el" href="classmaliput_1_1math_1_1_vector_base.html">math::VectorBase</a>&lt; N, Derived &gt; &amp;v1, const <a class="el" href="classmaliput_1_1math_1_1_vector_base.html">math::VectorBase</a>&lt; N, Derived &gt; &amp;v2, <a class="el" href="classdouble.html">double</a> tolerance=0.0, <a class="el" href="namespacemaliput_1_1math.html#afbc5396d9a88c41d6aeb522b9f06f426">CompareType</a> compare_type=<a class="el" href="namespacemaliput_1_1math.html#afbc5396d9a88c41d6aeb522b9f06f426abab0767e88027de9944aa55c24c8387a">CompareType::kAbsolute</a>)</td></tr>
+<tr class="memdesc:a47b0c922c564c1155b1d36e5b7f7b9d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate that two vectors <code>v1</code> and <code>v2</code> are equal down to a certain <code>tolerance</code>.  <a href="namespacemaliput_1_1math.html#a47b0c922c564c1155b1d36e5b7f7b9d3">More...</a><br /></td></tr>
+<tr class="separator:a47b0c922c564c1155b1d36e5b7f7b9d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a656c890f9af05404d925f2fd52324beb"><td class="memTemplParams" colspan="2">template&lt;std::size_t N&gt; </td></tr>
+<tr class="memitem:a656c890f9af05404d925f2fd52324beb"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structmaliput_1_1common_1_1_comparison_result.html">common::ComparisonResult</a>&lt; <a class="el" href="classmaliput_1_1math_1_1_matrix.html">math::Matrix</a>&lt; N &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1math.html#a656c890f9af05404d925f2fd52324beb">CompareMatrices</a> (const <a class="el" href="classmaliput_1_1math_1_1_matrix.html">math::Matrix</a>&lt; N &gt; &amp;m1, const <a class="el" href="classmaliput_1_1math_1_1_matrix.html">math::Matrix</a>&lt; N &gt; &amp;m2, <a class="el" href="classdouble.html">double</a> tolerance=0.0, <a class="el" href="namespacemaliput_1_1math.html#afbc5396d9a88c41d6aeb522b9f06f426">CompareType</a> compare_type=<a class="el" href="namespacemaliput_1_1math.html#afbc5396d9a88c41d6aeb522b9f06f426abab0767e88027de9944aa55c24c8387a">CompareType::kAbsolute</a>)</td></tr>
+<tr class="memdesc:a656c890f9af05404d925f2fd52324beb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate that two matrices <code>m1</code> and <code>m2</code> are equal down to a certain <code>tolerance</code>.  <a href="namespacemaliput_1_1math.html#a656c890f9af05404d925f2fd52324beb">More...</a><br /></td></tr>
+<tr class="separator:a656c890f9af05404d925f2fd52324beb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b9dbb2c9b19248a0c0cc41377fff759"><td class="memTemplParams" colspan="2">template&lt;std::size_t N, typename Derived &gt; </td></tr>
 <tr class="memitem:a4b9dbb2c9b19248a0c0cc41377fff759"><td class="memTemplItemLeft" align="right" valign="top">Derived&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1math.html#a4b9dbb2c9b19248a0c0cc41377fff759">operator*</a> (const <a class="el" href="classmaliput_1_1math_1_1_matrix.html">Matrix</a>&lt; N &gt; &amp;matrix, const <a class="el" href="classmaliput_1_1math_1_1_vector_base.html">VectorBase</a>&lt; N, Derived &gt; vector)</td></tr>
 <tr class="memdesc:a4b9dbb2c9b19248a0c0cc41377fff759"><td class="mdescLeft">&#160;</td><td class="mdescRight">Product operator overload between a Matrix&lt;N&gt; and a VectorBase&lt;N, Derived&gt;.  <a href="namespacemaliput_1_1math.html#a4b9dbb2c9b19248a0c0cc41377fff759">More...</a><br /></td></tr>
@@ -316,6 +328,32 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="afbc5396d9a88c41d6aeb522b9f06f426"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbc5396d9a88c41d6aeb522b9f06f426">&#9670;&nbsp;</a></span>CompareType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacemaliput_1_1math.html#afbc5396d9a88c41d6aeb522b9f06f426">CompareType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afbc5396d9a88c41d6aeb522b9f06f426abab0767e88027de9944aa55c24c8387a"></a>kAbsolute&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afbc5396d9a88c41d6aeb522b9f06f426af460a96ab20647996c15854794763384"></a>kRelative&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="af6022ec3177e3ba16073ae84ccfb5b61"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af6022ec3177e3ba16073ae84ccfb5b61">&#9670;&nbsp;</a></span>OverlappingType</h2>
 
@@ -362,6 +400,112 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a656c890f9af05404d925f2fd52324beb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a656c890f9af05404d925f2fd52324beb">&#9670;&nbsp;</a></span>CompareMatrices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structmaliput_1_1common_1_1_comparison_result.html">common::ComparisonResult</a>&lt; <a class="el" href="classmaliput_1_1math_1_1_matrix.html">math::Matrix</a>&lt; N &gt; &gt; CompareMatrices </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmaliput_1_1math_1_1_matrix.html">math::Matrix</a>&lt; N &gt; &amp;&#160;</td>
+          <td class="paramname"><em>m1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classmaliput_1_1math_1_1_matrix.html">math::Matrix</a>&lt; N &gt; &amp;&#160;</td>
+          <td class="paramname"><em>m2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdouble.html">double</a>&#160;</td>
+          <td class="paramname"><em>tolerance</em> = <code>0.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacemaliput_1_1math.html#afbc5396d9a88c41d6aeb522b9f06f426">CompareType</a>&#160;</td>
+          <td class="paramname"><em>compare_type</em> = <code><a class="el" href="namespacemaliput_1_1math.html#afbc5396d9a88c41d6aeb522b9f06f426abab0767e88027de9944aa55c24c8387a">CompareType::kAbsolute</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Evaluate that two matrices <code>m1</code> and <code>m2</code> are equal down to a certain <code>tolerance</code>. </p>
+<p>Instantiations for comparing Matrix2, Matrix3 and Matrix4 are provided.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">m1</td><td>The first matrix to compare. </td></tr>
+    <tr><td class="paramname">m2</td><td>The second matrix to compare. </td></tr>
+    <tr><td class="paramname">tolerance</td><td>The tolerance for determining equivalence. </td></tr>
+    <tr><td class="paramname">compare_type</td><td>Whether the tolerance is absolute or relative. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A ComparisonResult&lt;Matrix&lt;N&gt;&gt; object. </dd></dl>
+
+</div>
+</div>
+<a id="a47b0c922c564c1155b1d36e5b7f7b9d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47b0c922c564c1155b1d36e5b7f7b9d3">&#9670;&nbsp;</a></span>CompareVectors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structmaliput_1_1common_1_1_comparison_result.html">common::ComparisonResult</a>&lt; <a class="el" href="classmaliput_1_1math_1_1_vector_base.html">math::VectorBase</a>&lt; N, Derived &gt; &gt; CompareVectors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmaliput_1_1math_1_1_vector_base.html">math::VectorBase</a>&lt; N, Derived &gt; &amp;&#160;</td>
+          <td class="paramname"><em>v1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classmaliput_1_1math_1_1_vector_base.html">math::VectorBase</a>&lt; N, Derived &gt; &amp;&#160;</td>
+          <td class="paramname"><em>v2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdouble.html">double</a>&#160;</td>
+          <td class="paramname"><em>tolerance</em> = <code>0.0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacemaliput_1_1math.html#afbc5396d9a88c41d6aeb522b9f06f426">CompareType</a>&#160;</td>
+          <td class="paramname"><em>compare_type</em> = <code><a class="el" href="namespacemaliput_1_1math.html#afbc5396d9a88c41d6aeb522b9f06f426abab0767e88027de9944aa55c24c8387a">CompareType::kAbsolute</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Evaluate that two vectors <code>v1</code> and <code>v2</code> are equal down to a certain <code>tolerance</code>. </p>
+<p>Instantiations for comparing <a class="el" href="classmaliput_1_1math_1_1_vector2.html" title="A 2-dimensional vector.">Vector2</a>, <a class="el" href="classmaliput_1_1math_1_1_vector3.html" title="A 3-dimensional vector.">Vector3</a> and <a class="el" href="classmaliput_1_1math_1_1_vector4.html" title="A 4-dimensional vector.">Vector4</a> are provided.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v1</td><td>The first vector to compare. </td></tr>
+    <tr><td class="paramname">v2</td><td>The second vector to compare. </td></tr>
+    <tr><td class="paramname">tolerance</td><td>The tolerance for determining equivalence. </td></tr>
+    <tr><td class="paramname">compare_type</td><td>Whether the tolerance is absolute or relative. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A ComparisonResult&lt;VectorBase&lt;N, Derived&gt;&gt; object. </dd></dl>
+
+</div>
+</div>
 <a id="a188960295ec6a52f2477c6e0bb5984b6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a188960295ec6a52f2477c6e0bb5984b6">&#9670;&nbsp;</a></span>operator&amp;()</h2>
 

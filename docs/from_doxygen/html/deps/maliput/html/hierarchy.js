@@ -29,6 +29,7 @@ var hierarchy =
     [ "Cache", "classmaliput_1_1drake_1_1systems_1_1_cache.html", null ],
     [ "CacheEntry", "classmaliput_1_1drake_1_1systems_1_1_cache_entry.html", null ],
     [ "CacheEntryValue", "classmaliput_1_1drake_1_1systems_1_1_cache_entry_value.html", null ],
+    [ "ComparisonResult< T >", "structmaliput_1_1common_1_1_comparison_result.html", null ],
     [ "CompositeEventCollection< T >", "classmaliput_1_1drake_1_1systems_1_1_composite_event_collection.html", [
       [ "DiagramCompositeEventCollection< T >", "classmaliput_1_1drake_1_1systems_1_1_diagram_composite_event_collection.html", null ]
     ] ],
@@ -181,8 +182,8 @@ var hierarchy =
     [ "ModelValues", "classmaliput_1_1drake_1_1systems_1_1internal_1_1_model_values.html", null ],
     [ "Polynomial< T >::Monomial", "classmaliput_1_1drake_1_1_polynomial_1_1_monomial.html", null ],
     [ "MultiplyEigenSizes< a, b >", "structmaliput_1_1drake_1_1_multiply_eigen_sizes.html", null ],
-    [ "never_destroyed< T >", "classmaliput_1_1drake_1_1never__destroyed.html", null ],
     [ "never_destroyed< T >", "classmaliput_1_1common_1_1never__destroyed.html", null ],
+    [ "never_destroyed< T >", "classmaliput_1_1drake_1_1never__destroyed.html", null ],
     [ "StateProviderResult< T >::Next", "structmaliput_1_1api_1_1rules_1_1_state_provider_result_1_1_next.html", null ],
     [ "PhaseRing::NextPhase", "structmaliput_1_1api_1_1rules_1_1_phase_ring_1_1_next_phase.html", null ],
     [ "NiceTypeName", "classmaliput_1_1drake_1_1_nice_type_name.html", null ],
@@ -397,11 +398,11 @@ var hierarchy =
     [ "ValueTraitsImpl< T, use_copy >", "structmaliput_1_1drake_1_1internal_1_1_value_traits_impl.html", null ],
     [ "ValueTraitsImpl< T, false >", "structmaliput_1_1drake_1_1internal_1_1_value_traits_impl_3_01_t_00_01false_01_4.html", null ],
     [ "ValueTraitsImpl< T, true >", "structmaliput_1_1drake_1_1internal_1_1_value_traits_impl_3_01_t_00_01true_01_4.html", null ],
-    [ "VectorBase< N, Derived >", "classmaliput_1_1math_1_1_vector_base.html", null ],
     [ "VectorBase< T >", "classmaliput_1_1drake_1_1systems_1_1_vector_base.html", [
       [ "BasicVector< T >", "classmaliput_1_1drake_1_1systems_1_1_basic_vector.html", null ],
       [ "Subvector< T >", "classmaliput_1_1drake_1_1systems_1_1_subvector.html", null ]
     ] ],
+    [ "VectorBase< N, Derived >", "classmaliput_1_1math_1_1_vector_base.html", null ],
     [ "VectorBase< 2, Vector2 >", "classmaliput_1_1math_1_1_vector_base.html", [
       [ "Vector2", "classmaliput_1_1math_1_1_vector2.html", null ]
     ] ],

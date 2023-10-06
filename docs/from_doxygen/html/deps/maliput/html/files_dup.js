@@ -13,6 +13,7 @@ var files_dup =
       [ "AntiderivativeFunction", "classmaliput_1_1drake_1_1systems_1_1_antiderivative_function.html", "classmaliput_1_1drake_1_1systems_1_1_antiderivative_function" ],
       [ "IntegrableFunctionContext", "structmaliput_1_1drake_1_1systems_1_1_antiderivative_function_1_1_integrable_function_context.html", "structmaliput_1_1drake_1_1systems_1_1_antiderivative_function_1_1_integrable_function_context" ]
     ] ],
+    [ "assert_compare.h", "assert__compare_8h.html", "assert__compare_8h" ],
     [ "assertion_error.h", "assertion__error_8h.html", [
       [ "assertion_error", "classmaliput_1_1common_1_1assertion__error.html", "classmaliput_1_1common_1_1assertion__error" ]
     ] ],
@@ -58,6 +59,13 @@ var files_dup =
     ] ],
     [ "check_id_indexing.cc", "check__id__indexing_8cc.html", "check__id__indexing_8cc" ],
     [ "check_id_indexing.h", "check__id__indexing_8h.html", "check__id__indexing_8h" ],
+    [ "api/compare.cc", "api_2compare_8cc.html", "api_2compare_8cc" ],
+    [ "math/compare.cc", "math_2compare_8cc.html", "math_2compare_8cc" ],
+    [ "api/compare.h", "api_2compare_8h.html", "api_2compare_8h" ],
+    [ "common/compare.h", "common_2compare_8h.html", [
+      [ "ComparisonResult", "structmaliput_1_1common_1_1_comparison_result.html", "structmaliput_1_1common_1_1_comparison_result" ]
+    ] ],
+    [ "math/compare.h", "math_2compare_8h.html", "math_2compare_8h" ],
     [ "constants.h", "constants_8h.html", "constants_8h" ],
     [ "context.cc", "context_8cc.html", null ],
     [ "context.h", "context_8h.html", "context_8h" ],

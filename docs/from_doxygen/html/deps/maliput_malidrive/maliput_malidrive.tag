@@ -4823,38 +4823,6 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>malidrive::xodr::LaneLink::LinkAttributes</name>
-    <filename>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</filename>
-    <member kind="typedef">
-      <type>maliput::api::TypeSpecificIdentifier&lt; struct LinkAttributes &gt;</type>
-      <name>Id</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
-      <anchor>a3bb8422d7a63555382fc951aba09a378</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
-      <anchor>a45f90c3c161b89572f9b3b9c359b0e61</anchor>
-      <arglist>(const LinkAttributes &amp;other) const</arglist>
-    </member>
-    <member kind="variable">
-      <type>Id</type>
-      <name>id</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
-      <anchor>a150a709e86e7134d17cd063de6810b6c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kId</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
-      <anchor>a9f36bf43428315b6dfd91de20f6854c2</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
     <name>malidrive::xodr::RoadLink::LinkAttributes</name>
     <filename>structmalidrive_1_1xodr_1_1_road_link_1_1_link_attributes.html</filename>
     <member kind="typedef">
@@ -4911,6 +4879,38 @@
       <name>kContactPoint</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_road_link_1_1_link_attributes.html</anchorfile>
       <anchor>a1bed5005c8e0e948be03e115eca00137</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::LaneLink::LinkAttributes</name>
+    <filename>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</filename>
+    <member kind="typedef">
+      <type>maliput::api::TypeSpecificIdentifier&lt; struct LinkAttributes &gt;</type>
+      <name>Id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
+      <anchor>a3bb8422d7a63555382fc951aba09a378</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
+      <anchor>a45f90c3c161b89572f9b3b9c359b0e61</anchor>
+      <arglist>(const LinkAttributes &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>Id</type>
+      <name>id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
+      <anchor>a150a709e86e7134d17cd063de6810b6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kId</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
+      <anchor>a9f36bf43428315b6dfd91de20f6854c2</anchor>
       <arglist></arglist>
     </member>
   </compound>

@@ -41,8 +41,8 @@ var hierarchy =
     [ "LaneWidth", "structmalidrive_1_1xodr_1_1_lane_width.html", null ],
     [ "LateralProfile", "structmalidrive_1_1xodr_1_1_lateral_profile.html", null ],
     [ "Geometry::Line", "structmalidrive_1_1xodr_1_1_geometry_1_1_line.html", null ],
-    [ "LaneLink::LinkAttributes", "structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html", null ],
     [ "RoadLink::LinkAttributes", "structmalidrive_1_1xodr_1_1_road_link_1_1_link_attributes.html", null ],
+    [ "LaneLink::LinkAttributes", "structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html", null ],
     [ "MalidriveXodrLaneProperties", "structmalidrive_1_1builder_1_1_malidrive_xodr_lane_properties.html", null ],
     [ "ParserBase", "classmalidrive_1_1xodr_1_1_parser_base.html", [
       [ "AttributeParser", "classmalidrive_1_1xodr_1_1_attribute_parser.html", null ],
