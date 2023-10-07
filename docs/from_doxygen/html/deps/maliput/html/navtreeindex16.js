@@ -1,7 +1,13 @@
 var NAVTREEINDEX16 =
 {
-"string__format_8h.html":[5,0,312],
-"string__format_8h.html#a1b9b7a9a7488d5d4addde728fa4ac82d":[5,0,312,0],
+"strategy__base_8cc.html":[5,0,311],
+"strategy__base_8cc.html#a099609a21db549b19f38eb51ff83cdda":[5,0,311,0],
+"strategy__base_8h.html":[5,0,312],
+"strategy__base_8h.html#a099609a21db549b19f38eb51ff83cdda":[5,0,312,1],
+"string__format_8cc.html":[5,0,313],
+"string__format_8cc.html#a1b9b7a9a7488d5d4addde728fa4ac82d":[5,0,313,0],
+"string__format_8h.html":[5,0,314],
+"string__format_8h.html#a1b9b7a9a7488d5d4addde728fa4ac82d":[5,0,314,0],
 "struct_y_a_m_l_1_1convert_3_01maliput_1_1api_1_1_s_range_01_4.html":[4,0,2,0],
 "struct_y_a_m_l_1_1convert_3_01maliput_1_1api_1_1_s_range_01_4.html#a78646e352877dacb3e820e23d5c3a6af":[4,0,2,0,0],
 "struct_y_a_m_l_1_1convert_3_01maliput_1_1api_1_1_s_range_01_4.html#a9bae7bd86b1c6c3a5df0e69b2924e09b":[4,0,2,0,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX16 =
 "structmaliput_1_1drake_1_1internal_1_1_value_traits_impl_3_01_t_00_01false_01_4.html#adcc7e4648489180d92d5dac20071fb53":[4,0,0,2,1,20,1],
 "structmaliput_1_1drake_1_1internal_1_1_value_traits_impl_3_01_t_00_01true_01_4.html":[4,0,0,2,1,21],
 "structmaliput_1_1drake_1_1internal_1_1_value_traits_impl_3_01_t_00_01true_01_4.html#a26fb0e7f1686be8a2219dc058233876f":[4,0,0,2,1,21,3],
-"structmaliput_1_1drake_1_1internal_1_1_value_traits_impl_3_01_t_00_01true_01_4.html#a36df0bdf42dd660aebf339fe47656776":[4,0,0,2,1,21,5],
-"structmaliput_1_1drake_1_1internal_1_1_value_traits_impl_3_01_t_00_01true_01_4.html#a3cacef7a26c89843e25e67457106c2d1":[4,0,0,2,1,21,0],
-"structmaliput_1_1drake_1_1internal_1_1_value_traits_impl_3_01_t_00_01true_01_4.html#aabb9583e18ff740b617514db6723d741":[4,0,0,2,1,21,4],
-"structmaliput_1_1drake_1_1internal_1_1_value_traits_impl_3_01_t_00_01true_01_4.html#ac99d9168e2007df7ca4cadac6f012b74":[4,0,0,2,1,21,2],
-"structmaliput_1_1drake_1_1internal_1_1_value_traits_impl_3_01_t_00_01true_01_4.html#adcc7e4648489180d92d5dac20071fb53":[4,0,0,2,1,21,1],
-"structmaliput_1_1drake_1_1internal_1_1type__erased__ptr.html":[4,0,0,2,1,10],
-"structmaliput_1_1drake_1_1internal_1_1type__erased__ptr.html#a2ca7df1dcbbe6ebf3189b004e4390617":[4,0,0,2,1,10,1]
+"structmaliput_1_1drake_1_1internal_1_1_value_traits_impl_3_01_t_00_01true_01_4.html#a36df0bdf42dd660aebf339fe47656776":[4,0,0,2,1,21,5]
 };

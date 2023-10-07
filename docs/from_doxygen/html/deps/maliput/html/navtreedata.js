@@ -131,9 +131,9 @@ var NAVTREEINDEX =
 "lane__s__range__relation_8h.html#a931f81ae3bf7bb2ac7b8924345c23487a8127ca1af560889a3ac6d157536c0260",
 "mock_8cc.html#a229f81180182fd2d2847e4effa5758ee",
 "phase__provider_8h.html",
-"string__format_8h.html",
-"structmaliput_1_1drake_1_1internal_1_1type__erased__ptr.html#a83584e5da185d8c19b02ef8e4967dbb6",
-"type__safe__index_8h.html#ab6f5d094c05d975c3fb1eb735d7e0428"
+"strategy__base_8cc.html",
+"structmaliput_1_1drake_1_1internal_1_1_value_traits_impl_3_01_t_00_01true_01_4.html#a3cacef7a26c89843e25e67457106c2d1",
+"trajectory_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

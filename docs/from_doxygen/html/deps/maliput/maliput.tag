@@ -474,6 +474,29 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>routing/compare.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/routing/</path>
+    <filename>routing_2compare_8cc.html</filename>
+    <includes id="routing_2compare_8h" name="routing/compare.h" local="yes" imported="no">maliput/routing/compare.h</includes>
+    <includes id="api_2compare_8h" name="api/compare.h" local="yes" imported="no">maliput/api/compare.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::routing</namespace>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; PhasePositionResult &gt;</type>
+      <name>IsPhasePositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
+      <anchor>aa8d966c064b4aa0db718eb9b30eba3b7</anchor>
+      <arglist>(const PhasePositionResult &amp;ppr_a, const PhasePositionResult &amp;ppr_b, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RoutePositionResult &gt;</type>
+      <name>IsRoutePositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
+      <anchor>a6f39ff2a2a1cc054cd36b637f5db86b2</anchor>
+      <arglist>(const RoutePositionResult &amp;rpr_a, const RoutePositionResult &amp;rpr_b, double tolerance)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>api/compare.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/api/</path>
     <filename>api_2compare_8h.html</filename>
@@ -576,6 +599,29 @@
       <anchorfile>namespacemaliput_1_1math.html</anchorfile>
       <anchor>a656c890f9af05404d925f2fd52324beb</anchor>
       <arglist>(const math::Matrix&lt; N &gt; &amp;m1, const math::Matrix&lt; N &gt; &amp;m2, double tolerance=0.0, CompareType compare_type=CompareType::kAbsolute)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>routing/compare.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/routing/</path>
+    <filename>routing_2compare_8h.html</filename>
+    <includes id="common_2compare_8h" name="common/compare.h" local="yes" imported="no">maliput/common/compare.h</includes>
+    <includes id="route__position__result_8h" name="route_position_result.h" local="yes" imported="no">maliput/routing/route_position_result.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::routing</namespace>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; PhasePositionResult &gt;</type>
+      <name>IsPhasePositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
+      <anchor>aa8d966c064b4aa0db718eb9b30eba3b7</anchor>
+      <arglist>(const PhasePositionResult &amp;ppr_a, const PhasePositionResult &amp;ppr_b, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RoutePositionResult &gt;</type>
+      <name>IsRoutePositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
+      <anchor>a6f39ff2a2a1cc054cd36b637f5db86b2</anchor>
+      <arglist>(const RoutePositionResult &amp;rpr_a, const RoutePositionResult &amp;rpr_b, double tolerance)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -42826,6 +42872,20 @@
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a8bd83ac691f94854afe5a9d6c578aa15">kCoincident</enumvalue>
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a9556e04cf8f24d118180ebc0615fbf83">kUnrelated</enumvalue>
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; PhasePositionResult &gt;</type>
+      <name>IsPhasePositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
+      <anchor>aa8d966c064b4aa0db718eb9b30eba3b7</anchor>
+      <arglist>(const PhasePositionResult &amp;ppr_a, const PhasePositionResult &amp;ppr_b, double tolerance)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RoutePositionResult &gt;</type>
+      <name>IsRoutePositionResultClose</name>
+      <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
+      <anchor>a6f39ff2a2a1cc054cd36b637f5db86b2</anchor>
+      <arglist>(const RoutePositionResult &amp;rpr_a, const RoutePositionResult &amp;rpr_b, double tolerance)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; api::LaneSRoute &gt;</type>

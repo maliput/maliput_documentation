@@ -150,6 +150,12 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:aa8d966c064b4aa0db718eb9b30eba3b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmaliput_1_1common_1_1_comparison_result.html">common::ComparisonResult</a>&lt; <a class="el" href="structmaliput_1_1routing_1_1_phase_position_result.html">PhasePositionResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#aa8d966c064b4aa0db718eb9b30eba3b7">IsPhasePositionResultClose</a> (const <a class="el" href="structmaliput_1_1routing_1_1_phase_position_result.html">PhasePositionResult</a> &amp;ppr_a, const <a class="el" href="structmaliput_1_1routing_1_1_phase_position_result.html">PhasePositionResult</a> &amp;ppr_b, <a class="el" href="classdouble.html">double</a> tolerance)</td></tr>
+<tr class="memdesc:aa8d966c064b4aa0db718eb9b30eba3b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares equality within <code>tolerance</code> deviation of the <a class="el" href="structmaliput_1_1routing_1_1_phase_position_result.html" title="The result of a position query on a Phase.">PhasePositionResult</a> <code>ppr_a</code> and <code>ppr_b</code>.  <a href="namespacemaliput_1_1routing.html#aa8d966c064b4aa0db718eb9b30eba3b7">More...</a><br /></td></tr>
+<tr class="separator:aa8d966c064b4aa0db718eb9b30eba3b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f39ff2a2a1cc054cd36b637f5db86b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmaliput_1_1common_1_1_comparison_result.html">common::ComparisonResult</a>&lt; <a class="el" href="structmaliput_1_1routing_1_1_route_position_result.html">RoutePositionResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#a6f39ff2a2a1cc054cd36b637f5db86b2">IsRoutePositionResultClose</a> (const <a class="el" href="structmaliput_1_1routing_1_1_route_position_result.html">RoutePositionResult</a> &amp;rpr_a, const <a class="el" href="structmaliput_1_1routing_1_1_route_position_result.html">RoutePositionResult</a> &amp;rpr_b, <a class="el" href="classdouble.html">double</a> tolerance)</td></tr>
+<tr class="memdesc:a6f39ff2a2a1cc054cd36b637f5db86b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares equality within <code>tolerance</code> deviation of the <a class="el" href="structmaliput_1_1routing_1_1_route_position_result.html" title="The result of a position query on a Route.">RoutePositionResult</a> <code>rpr_a</code> and <code>rpr_b</code>.  <a href="namespacemaliput_1_1routing.html#a6f39ff2a2a1cc054cd36b637f5db86b2">More...</a><br /></td></tr>
+<tr class="separator:a6f39ff2a2a1cc054cd36b637f5db86b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50450cdc6c1aefc360378b2dd8e7cafd"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html">api::LaneSRoute</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#a50450cdc6c1aefc360378b2dd8e7cafd">DeriveLaneSRoutes</a> (const <a class="el" href="structmaliput_1_1api_1_1_road_position.html">api::RoadPosition</a> &amp;start, const <a class="el" href="structmaliput_1_1api_1_1_road_position.html">api::RoadPosition</a> &amp;end, <a class="el" href="classdouble.html">double</a> max_length_m)</td></tr>
 <tr class="memdesc:a50450cdc6c1aefc360378b2dd8e7cafd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derives and returns a set of LaneSRoute objects that go from <code>start</code> to <code>end</code>.  <a href="namespacemaliput_1_1routing.html#a50450cdc6c1aefc360378b2dd8e7cafd">More...</a><br /></td></tr>
 <tr class="separator:a50450cdc6c1aefc360378b2dd8e7cafd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -314,6 +320,96 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector of lane sequences in which the first lane is <code>start</code> and the last lane is <code>end</code>. An empty vector is returned if no sequences are found. </dd></dl>
+
+</div>
+</div>
+<a id="aa8d966c064b4aa0db718eb9b30eba3b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8d966c064b4aa0db718eb9b30eba3b7">&#9670;&nbsp;</a></span>IsPhasePositionResultClose()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structmaliput_1_1common_1_1_comparison_result.html">common::ComparisonResult</a>&lt; <a class="el" href="structmaliput_1_1routing_1_1_phase_position_result.html">PhasePositionResult</a> &gt; IsPhasePositionResultClose </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmaliput_1_1routing_1_1_phase_position_result.html">PhasePositionResult</a> &amp;&#160;</td>
+          <td class="paramname"><em>ppr_a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structmaliput_1_1routing_1_1_phase_position_result.html">PhasePositionResult</a> &amp;&#160;</td>
+          <td class="paramname"><em>ppr_b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdouble.html">double</a>&#160;</td>
+          <td class="paramname"><em>tolerance</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compares equality within <code>tolerance</code> deviation of the <a class="el" href="structmaliput_1_1routing_1_1_phase_position_result.html" title="The result of a position query on a Phase.">PhasePositionResult</a> <code>ppr_a</code> and <code>ppr_b</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ppr_a</td><td>The first <a class="el" href="structmaliput_1_1routing_1_1_phase_position_result.html" title="The result of a position query on a Phase.">PhasePositionResult</a> to compare. </td></tr>
+    <tr><td class="paramname">ppr_b</td><td>The second <a class="el" href="structmaliput_1_1routing_1_1_phase_position_result.html" title="The result of a position query on a Phase.">PhasePositionResult</a> to compare. </td></tr>
+    <tr><td class="paramname">tolerance</td><td>The tolerance to use for the comparison. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A ComparisonResult indicating whether the two PhasePositionResults are the equivalent within the tolerance. </dd></dl>
+
+</div>
+</div>
+<a id="a6f39ff2a2a1cc054cd36b637f5db86b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f39ff2a2a1cc054cd36b637f5db86b2">&#9670;&nbsp;</a></span>IsRoutePositionResultClose()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structmaliput_1_1common_1_1_comparison_result.html">common::ComparisonResult</a>&lt; <a class="el" href="structmaliput_1_1routing_1_1_route_position_result.html">RoutePositionResult</a> &gt; IsRoutePositionResultClose </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmaliput_1_1routing_1_1_route_position_result.html">RoutePositionResult</a> &amp;&#160;</td>
+          <td class="paramname"><em>rpr_a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structmaliput_1_1routing_1_1_route_position_result.html">RoutePositionResult</a> &amp;&#160;</td>
+          <td class="paramname"><em>rpr_b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdouble.html">double</a>&#160;</td>
+          <td class="paramname"><em>tolerance</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compares equality within <code>tolerance</code> deviation of the <a class="el" href="structmaliput_1_1routing_1_1_route_position_result.html" title="The result of a position query on a Route.">RoutePositionResult</a> <code>rpr_a</code> and <code>rpr_b</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rpr_a</td><td>The first <a class="el" href="structmaliput_1_1routing_1_1_route_position_result.html" title="The result of a position query on a Route.">RoutePositionResult</a> to compare. </td></tr>
+    <tr><td class="paramname">rpr_b</td><td>The second <a class="el" href="structmaliput_1_1routing_1_1_route_position_result.html" title="The result of a position query on a Route.">RoutePositionResult</a> to compare. </td></tr>
+    <tr><td class="paramname">tolerance</td><td>The tolerance to use for the comparison. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A ComparisonResult indicating whether the two RoutePositionResults are the equivalent within the tolerance. </dd></dl>
 
 </div>
 </div>
