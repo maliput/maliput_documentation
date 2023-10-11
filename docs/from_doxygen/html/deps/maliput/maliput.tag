@@ -450,6 +450,380 @@
       <anchor>a4d3dd63ef50b18662dbfecbad3ab4222</anchor>
       <arglist>(const LaneEnd &amp;lane_end1, const LaneEnd &amp;lane_end2)</arglist>
     </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; bool &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a875dc08f7e6920a937b74e8f6277bfdb</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, bool a, bool b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; double &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>adc0698791787e063312963e3ddbbb0e1</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, double a, double b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::size_t &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>ab90f768fcf35f41cc11e991e1b56070e</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, std::size_t a, std::size_t b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; SRange &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a54a377f86e3fe9bdba070ad995ea9c43</anchor>
+      <arglist>(const SRange &amp;s_range_1, const SRange &amp;s_range_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; LaneSRange &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>aa2149e3694b14710b9532dd46d942c9d</anchor>
+      <arglist>(const LaneSRange &amp;lane_s_range_1, const LaneSRange &amp;lane_s_range_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::vector&lt; LaneSRange &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a655a6daa38d963ca4d5c891e1a954462</anchor>
+      <arglist>(const std::vector&lt; LaneSRange &gt; &amp;lane_s_ranges_1, const std::vector&lt; LaneSRange &gt; &amp;lane_s_ranges_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; LaneSRoute &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a3989128857764f83815fb37b7908ae38</anchor>
+      <arglist>(const LaneSRoute &amp;lane_s_route_1, const LaneSRoute &amp;lane_s_route_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Junction &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a14c009382ff3ec884ffbdbbe9c77e53e</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const Junction *a, const Junction *b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Segment &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>aebd496c20514127f152a58234d5f2e46</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const Segment *a, const Segment *b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Lane &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a92104863cc85fffe8cf24d730d90c3d5</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const Lane *a, const Lane *b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; BranchPoint &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>ad839c893606e35b71870c973735f2388</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const BranchPoint *a, const BranchPoint *b)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>CheckIdIndexing</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a3a6309cbd7aad2179ccd00c1d00c4722</anchor>
+      <arglist>(const RoadGeometry *road_geometry)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; InertialPosition &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a9f413a2a34bdae4caea6741672077217</anchor>
+      <arglist>(const InertialPosition &amp;inertial_position_1, const InertialPosition &amp;inertial_position_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Rotation &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a718452968e53dc8ac4a02d12b6702d4a</anchor>
+      <arglist>(const Rotation &amp;rotation_1, const Rotation &amp;rotation_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; LaneEnd::Which &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a20369172b027ed8a4154e2a2af78514f</anchor>
+      <arglist>(const LaneEnd::Which &amp;which_1, const LaneEnd::Which &amp;which_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; LaneEnd &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>aaa5fa369b98544a98a81ccda4684c393</anchor>
+      <arglist>(const LaneEnd &amp;lane_end_1, const LaneEnd &amp;lane_end_2)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>api/rules/compare.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/rules/</path>
+    <filename>api_2rules_2compare_8cc.html</filename>
+    <includes id="api_2rules_2compare_8h" name="api/rules/compare.h" local="yes" imported="no">maliput/api/rules/compare.h</includes>
+    <includes id="api_2compare_8h" name="api/compare.h" local="yes" imported="no">maliput/api/compare.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::api</namespace>
+    <namespace>maliput::api::rules</namespace>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RuleStates &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a0cfb3eca710e367eab908684ddfdf980</anchor>
+      <arglist>(const RuleStates &amp;a, const RuleStates &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; DiscreteValueRule::DiscreteValue &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a5c14748b1ad34975cf9468c177feade9</anchor>
+      <arglist>(const DiscreteValueRule::DiscreteValue &amp;a, const DiscreteValueRule::DiscreteValue &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::unordered_map&lt; Rule::Id, DiscreteValueRule::DiscreteValue &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a527d13d667c2731c3644b7935b309009</anchor>
+      <arglist>(const std::unordered_map&lt; Rule::Id, DiscreteValueRule::DiscreteValue &gt; &amp;a, const std::unordered_map&lt; Rule::Id, DiscreteValueRule::DiscreteValue &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Phase &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a9f1f6e26d3f3580677fd5a03d18cfe1e</anchor>
+      <arglist>(const Phase &amp;a, const Phase &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; PhaseRing::NextPhase &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>ac2feceb2c2c7e833f1513f2e7980589b</anchor>
+      <arglist>(const PhaseRing::NextPhase &amp;a, const PhaseRing::NextPhase &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::vector&lt; PhaseRing::NextPhase &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a8ec97e6a1eb755eec1dd3a46be0e663b</anchor>
+      <arglist>(const std::vector&lt; PhaseRing::NextPhase &gt; &amp;a, const std::vector&lt; PhaseRing::NextPhase &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RangeValueRule::Range &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>ac1ae78bac143112dfa38fa8cb2663009</anchor>
+      <arglist>(const RangeValueRule::Range &amp;a, const RangeValueRule::Range &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::vector&lt; RangeValueRule::Range &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>ad63b2658fb261295617e5d87976b4f07</anchor>
+      <arglist>(const std::vector&lt; RangeValueRule::Range &gt; &amp;a, const std::vector&lt; RangeValueRule::Range &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RangeValueRule &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a10d499f1d9aeb43c5510733d2fdee2b5</anchor>
+      <arglist>(const RangeValueRule &amp;a, const RangeValueRule &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; DiscreteValueRule &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a827bc3bbcdcc4f84fa63c6406017d1d8</anchor>
+      <arglist>(const DiscreteValueRule &amp;a, const DiscreteValueRule &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::vector&lt; DiscreteValueRule::DiscreteValue &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>aac2491d5f89fa9757adcd961b115d2e1</anchor>
+      <arglist>(const std::vector&lt; DiscreteValueRule::DiscreteValue &gt; &amp;a, const std::vector&lt; DiscreteValueRule::DiscreteValue &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; DirectionUsageRule::State::Type &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>aca0215ac78c560613fb4f6cf9b7bf5f4</anchor>
+      <arglist>(DirectionUsageRule::State::Type a, DirectionUsageRule::State::Type b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; DirectionUsageRule::State::Severity &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a4bf0ba6a1cd5f9e7609330b9781476f3</anchor>
+      <arglist>(DirectionUsageRule::State::Severity a, DirectionUsageRule::State::Severity b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; DirectionUsageRule::State &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>abebeeaa7e17710a0cbd1ac8b13ca3c3c</anchor>
+      <arglist>(const DirectionUsageRule::State &amp;a, const DirectionUsageRule::State &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::unordered_map&lt; DirectionUsageRule::State::Id, DirectionUsageRule::State &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a602ca78a52ab4edd78cf3f6bd1b19d1e</anchor>
+      <arglist>(const std::unordered_map&lt; DirectionUsageRule::State::Id, DirectionUsageRule::State &gt; &amp;a, const std::unordered_map&lt; DirectionUsageRule::State::Id, DirectionUsageRule::State &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; DirectionUsageRule &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a9b0c2979c735e8f7ad4f362e3294f0cf</anchor>
+      <arglist>(const DirectionUsageRule &amp;a, const DirectionUsageRule &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; rules::RightOfWayRule::ZoneType &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>aaedba4d6b9f741b9f611879f2bd56128</anchor>
+      <arglist>(rules::RightOfWayRule::ZoneType a, rules::RightOfWayRule::ZoneType b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; rules::RightOfWayRule::State::Type &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a4910894724f5c5d708348a2d3d947d73</anchor>
+      <arglist>(rules::RightOfWayRule::State::Type a, rules::RightOfWayRule::State::Type b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::vector&lt; rules::RightOfWayRule::Id &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a1693b9b252363302b27bf839605d46ae</anchor>
+      <arglist>(const std::vector&lt; rules::RightOfWayRule::Id &gt; &amp;a, const std::vector&lt; rules::RightOfWayRule::Id &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; rules::RightOfWayRule::State &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a3555a18aa26fb32d21b15c3b05815701</anchor>
+      <arglist>(const rules::RightOfWayRule::State &amp;a, const rules::RightOfWayRule::State &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::unordered_map&lt; rules::RightOfWayRule::State::Id, rules::RightOfWayRule::State &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a6e43dd8a2c8b7adce4accf28287439cb</anchor>
+      <arglist>(const std::unordered_map&lt; rules::RightOfWayRule::State::Id, rules::RightOfWayRule::State &gt; &amp;a, const std::unordered_map&lt; rules::RightOfWayRule::State::Id, rules::RightOfWayRule::State &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RightOfWayRule &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a965aabd181e7f30267d069dfbefead6a</anchor>
+      <arglist>(const RightOfWayRule &amp;a, const RightOfWayRule &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; rules::RightOfWayRuleStateProvider::RightOfWayResult &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>ad8fe47aec69e25617f657dcfa704b98d</anchor>
+      <arglist>(const rules::RightOfWayRuleStateProvider::RightOfWayResult &amp;a, const rules::RightOfWayRuleStateProvider::RightOfWayResult &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; rules::SpeedLimitRule::Severity &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>ad800885b472aa22fb68ca2715749bad6</anchor>
+      <arglist>(rules::SpeedLimitRule::Severity a, rules::SpeedLimitRule::Severity b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; rules::SpeedLimitRule &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a29519b9edca82b00edbcca667d7ab888</anchor>
+      <arglist>(const rules::SpeedLimitRule &amp;a, const rules::SpeedLimitRule &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::unordered_map&lt; TrafficLight::Id, std::vector&lt; BulbGroup::Id &gt; &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>af8e58c672542d2e4d423897401aab24e</anchor>
+      <arglist>(const std::unordered_map&lt; TrafficLight::Id, std::vector&lt; BulbGroup::Id &gt;&gt; &amp;a, const std::unordered_map&lt; TrafficLight::Id, std::vector&lt; BulbGroup::Id &gt;&gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; BulbColor &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>acea4e4a30df6f586298a64b73300b4a6</anchor>
+      <arglist>(const BulbColor &amp;a, const BulbColor &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; BulbType &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a917a3bcc37f446034d075b2faa0a6b6e</anchor>
+      <arglist>(const BulbType &amp;a, const BulbType &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; BulbState &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a06c24e637236f751f36dcdae579f74d3</anchor>
+      <arglist>(const BulbState &amp;a, const BulbState &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::optional&lt; BulbStates &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>abc5fd5d8ecab29d55de671979a19e9a8</anchor>
+      <arglist>(const std::optional&lt; BulbStates &gt; &amp;a, const std::optional&lt; BulbStates &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::optional&lt; double &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>aaed7bb4434dbd9ceb45ccb63face03af</anchor>
+      <arglist>(const std::optional&lt; double &gt; &amp;a, const std::optional&lt; double &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Bulb::BoundingBox &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a009baf985ccd9faaad716f3ffbde8818</anchor>
+      <arglist>(const Bulb::BoundingBox &amp;a, const Bulb::BoundingBox &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Bulb &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a964b62ec16aad58eadaac5bd2874cd5c</anchor>
+      <arglist>(const Bulb *a, const Bulb *b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::vector&lt; const Bulb * &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a218a821205187039ebbdc17e9472a0e3</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; const Bulb * &gt; &amp;a, const std::vector&lt; const Bulb * &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; BulbGroup &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>ac89bb07221b67b33f53850b7c9e9838a</anchor>
+      <arglist>(const BulbGroup *a, const BulbGroup *b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; TrafficLight &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>ada0b3d3130a0150d03f22411e9ec2bfc</anchor>
+      <arglist>(const TrafficLight *a, const TrafficLight *b)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>math/compare.cc</name>
@@ -500,7 +874,12 @@
     <name>api/compare.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/api/</path>
     <filename>api_2compare_8h.html</filename>
+    <includes id="api_2branch__point_8h" name="api/branch_point.h" local="yes" imported="no">maliput/api/branch_point.h</includes>
+    <includes id="api_2junction_8h" name="api/junction.h" local="yes" imported="no">maliput/api/junction.h</includes>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
+    <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
+    <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
+    <includes id="api_2segment_8h" name="api/segment.h" local="yes" imported="no">maliput/api/segment.h</includes>
     <includes id="common_2compare_8h" name="common/compare.h" local="yes" imported="no">maliput/common/compare.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
@@ -560,14 +939,411 @@
       <anchor>a4d3dd63ef50b18662dbfecbad3ab4222</anchor>
       <arglist>(const LaneEnd &amp;lane_end1, const LaneEnd &amp;lane_end2)</arglist>
     </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Junction &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a14c009382ff3ec884ffbdbbe9c77e53e</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const Junction *a, const Junction *b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Segment &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>aebd496c20514127f152a58234d5f2e46</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const Segment *a, const Segment *b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Lane &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a92104863cc85fffe8cf24d730d90c3d5</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const Lane *a, const Lane *b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; BranchPoint &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>ad839c893606e35b71870c973735f2388</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const BranchPoint *a, const BranchPoint *b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; bool &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a875dc08f7e6920a937b74e8f6277bfdb</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, bool a, bool b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; double &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>adc0698791787e063312963e3ddbbb0e1</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, double a, double b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::size_t &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>ab90f768fcf35f41cc11e991e1b56070e</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, std::size_t a, std::size_t b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; TypeSpecificIdentifier&lt; T &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>ad3b047c6def3cb9a61471fd97a7ca185</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const TypeSpecificIdentifier&lt; T &gt; &amp;a, const TypeSpecificIdentifier&lt; T &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; SRange &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a54a377f86e3fe9bdba070ad995ea9c43</anchor>
+      <arglist>(const SRange &amp;s_range_1, const SRange &amp;s_range_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; LaneSRange &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>aa2149e3694b14710b9532dd46d942c9d</anchor>
+      <arglist>(const LaneSRange &amp;lane_s_range_1, const LaneSRange &amp;lane_s_range_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::vector&lt; LaneSRange &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a655a6daa38d963ca4d5c891e1a954462</anchor>
+      <arglist>(const std::vector&lt; LaneSRange &gt; &amp;lane_s_ranges_1, const std::vector&lt; LaneSRange &gt; &amp;lane_s_ranges_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; LaneSRoute &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a3989128857764f83815fb37b7908ae38</anchor>
+      <arglist>(const LaneSRoute &amp;lane_s_route_1, const LaneSRoute &amp;lane_s_route_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; InertialPosition &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a9f413a2a34bdae4caea6741672077217</anchor>
+      <arglist>(const InertialPosition &amp;inertial_position_1, const InertialPosition &amp;inertial_position_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Rotation &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a718452968e53dc8ac4a02d12b6702d4a</anchor>
+      <arglist>(const Rotation &amp;rotation_1, const Rotation &amp;rotation_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; LaneEnd::Which &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a20369172b027ed8a4154e2a2af78514f</anchor>
+      <arglist>(const LaneEnd::Which &amp;which_1, const LaneEnd::Which &amp;which_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; LaneEnd &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>aaa5fa369b98544a98a81ccda4684c393</anchor>
+      <arglist>(const LaneEnd &amp;lane_end_1, const LaneEnd &amp;lane_end_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>CheckIdIndexing</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a3a6309cbd7aad2179ccd00c1d00c4722</anchor>
+      <arglist>(const RoadGeometry *road_geometry)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>api/rules/compare.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/api/rules/</path>
+    <filename>api_2rules_2compare_8h.html</filename>
+    <includes id="direction__usage__rule_8h" name="direction_usage_rule.h" local="yes" imported="no">maliput/api/rules/direction_usage_rule.h</includes>
+    <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
+    <includes id="api_2rules_2phase_8h" name="api/rules/phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
+    <includes id="phase__ring_8h" name="phase_ring.h" local="yes" imported="no">maliput/api/rules/phase_ring.h</includes>
+    <includes id="range__value__rule_8h" name="range_value_rule.h" local="yes" imported="no">maliput/api/rules/range_value_rule.h</includes>
+    <includes id="right__of__way__rule_8h" name="right_of_way_rule.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule.h</includes>
+    <includes id="right__of__way__rule__state__provider_8h" name="right_of_way_rule_state_provider.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule_state_provider.h</includes>
+    <includes id="speed__limit__rule_8h" name="speed_limit_rule.h" local="yes" imported="no">maliput/api/rules/speed_limit_rule.h</includes>
+    <includes id="traffic__lights_8h" name="traffic_lights.h" local="yes" imported="no">maliput/api/rules/traffic_lights.h</includes>
+    <includes id="common_2compare_8h" name="common/compare.h" local="yes" imported="no">maliput/common/compare.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::api</namespace>
+    <namespace>maliput::api::rules</namespace>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RuleStates &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a0cfb3eca710e367eab908684ddfdf980</anchor>
+      <arglist>(const RuleStates &amp;a, const RuleStates &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Phase &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a9f1f6e26d3f3580677fd5a03d18cfe1e</anchor>
+      <arglist>(const Phase &amp;a, const Phase &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; PhaseRing::NextPhase &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>ac2feceb2c2c7e833f1513f2e7980589b</anchor>
+      <arglist>(const PhaseRing::NextPhase &amp;a, const PhaseRing::NextPhase &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::vector&lt; PhaseRing::NextPhase &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a8ec97e6a1eb755eec1dd3a46be0e663b</anchor>
+      <arglist>(const std::vector&lt; PhaseRing::NextPhase &gt; &amp;a, const std::vector&lt; PhaseRing::NextPhase &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RangeValueRule::Range &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>ac1ae78bac143112dfa38fa8cb2663009</anchor>
+      <arglist>(const RangeValueRule::Range &amp;a, const RangeValueRule::Range &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RangeValueRule &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a10d499f1d9aeb43c5510733d2fdee2b5</anchor>
+      <arglist>(const RangeValueRule &amp;a, const RangeValueRule &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::vector&lt; RangeValueRule::Range &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>ad63b2658fb261295617e5d87976b4f07</anchor>
+      <arglist>(const std::vector&lt; RangeValueRule::Range &gt; &amp;a, const std::vector&lt; RangeValueRule::Range &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; DiscreteValueRule::DiscreteValue &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a5c14748b1ad34975cf9468c177feade9</anchor>
+      <arglist>(const DiscreteValueRule::DiscreteValue &amp;a, const DiscreteValueRule::DiscreteValue &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; DiscreteValueRule &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a827bc3bbcdcc4f84fa63c6406017d1d8</anchor>
+      <arglist>(const DiscreteValueRule &amp;a, const DiscreteValueRule &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::vector&lt; DiscreteValueRule::DiscreteValue &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>aac2491d5f89fa9757adcd961b115d2e1</anchor>
+      <arglist>(const std::vector&lt; DiscreteValueRule::DiscreteValue &gt; &amp;a, const std::vector&lt; DiscreteValueRule::DiscreteValue &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::unordered_map&lt; Rule::Id, DiscreteValueRule::DiscreteValue &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a527d13d667c2731c3644b7935b309009</anchor>
+      <arglist>(const std::unordered_map&lt; Rule::Id, DiscreteValueRule::DiscreteValue &gt; &amp;a, const std::unordered_map&lt; Rule::Id, DiscreteValueRule::DiscreteValue &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; DirectionUsageRule::State::Type &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>aca0215ac78c560613fb4f6cf9b7bf5f4</anchor>
+      <arglist>(DirectionUsageRule::State::Type a, DirectionUsageRule::State::Type b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; DirectionUsageRule::State::Severity &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a4bf0ba6a1cd5f9e7609330b9781476f3</anchor>
+      <arglist>(DirectionUsageRule::State::Severity a, DirectionUsageRule::State::Severity b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; DirectionUsageRule::State &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>abebeeaa7e17710a0cbd1ac8b13ca3c3c</anchor>
+      <arglist>(const DirectionUsageRule::State &amp;a, const DirectionUsageRule::State &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::unordered_map&lt; DirectionUsageRule::State::Id, DirectionUsageRule::State &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a602ca78a52ab4edd78cf3f6bd1b19d1e</anchor>
+      <arglist>(const std::unordered_map&lt; DirectionUsageRule::State::Id, DirectionUsageRule::State &gt; &amp;a, const std::unordered_map&lt; DirectionUsageRule::State::Id, DirectionUsageRule::State &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; DirectionUsageRule &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a9b0c2979c735e8f7ad4f362e3294f0cf</anchor>
+      <arglist>(const DirectionUsageRule &amp;a, const DirectionUsageRule &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RightOfWayRule::ZoneType &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>ae4cb55f9970dbbd07a67a3c61eadef75</anchor>
+      <arglist>(RightOfWayRule::ZoneType a, RightOfWayRule::ZoneType b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RightOfWayRule::State::Type &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a5b736599074667b726bf341d361cf0c0</anchor>
+      <arglist>(RightOfWayRule::State::Type a, RightOfWayRule::State::Type b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::vector&lt; RightOfWayRule::Id &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a571a9b0c909d02cbfcdb8dcf9564dad2</anchor>
+      <arglist>(const std::vector&lt; RightOfWayRule::Id &gt; &amp;a, const std::vector&lt; RightOfWayRule::Id &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RightOfWayRule::State &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>aafb6336b4ee5dad06762b2a95da4f231</anchor>
+      <arglist>(const RightOfWayRule::State &amp;a, const RightOfWayRule::State &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::unordered_map&lt; RightOfWayRule::State::Id, RightOfWayRule::State &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a6c76877f16e32e3111d1d99870329f58</anchor>
+      <arglist>(const std::unordered_map&lt; RightOfWayRule::State::Id, RightOfWayRule::State &gt; &amp;a, const std::unordered_map&lt; RightOfWayRule::State::Id, RightOfWayRule::State &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RightOfWayRule &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a965aabd181e7f30267d069dfbefead6a</anchor>
+      <arglist>(const RightOfWayRule &amp;a, const RightOfWayRule &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RightOfWayRuleStateProvider::RightOfWayResult &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>aabbeb1c527d15b5c6f74830c9827dd62</anchor>
+      <arglist>(const RightOfWayRuleStateProvider::RightOfWayResult &amp;a, const RightOfWayRuleStateProvider::RightOfWayResult &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; SpeedLimitRule::Severity &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a6cbac4e690784344f88131948f936080</anchor>
+      <arglist>(SpeedLimitRule::Severity a, SpeedLimitRule::Severity b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; SpeedLimitRule &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>af5fd6917a97424ba3652c748b2e14023</anchor>
+      <arglist>(const SpeedLimitRule &amp;a, const SpeedLimitRule &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::unordered_map&lt; TrafficLight::Id, std::vector&lt; BulbGroup::Id &gt; &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>af8e58c672542d2e4d423897401aab24e</anchor>
+      <arglist>(const std::unordered_map&lt; TrafficLight::Id, std::vector&lt; BulbGroup::Id &gt;&gt; &amp;a, const std::unordered_map&lt; TrafficLight::Id, std::vector&lt; BulbGroup::Id &gt;&gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; BulbColor &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>acea4e4a30df6f586298a64b73300b4a6</anchor>
+      <arglist>(const BulbColor &amp;a, const BulbColor &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; BulbType &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a917a3bcc37f446034d075b2faa0a6b6e</anchor>
+      <arglist>(const BulbType &amp;a, const BulbType &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; BulbState &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a06c24e637236f751f36dcdae579f74d3</anchor>
+      <arglist>(const BulbState &amp;a, const BulbState &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::optional&lt; BulbStates &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>abc5fd5d8ecab29d55de671979a19e9a8</anchor>
+      <arglist>(const std::optional&lt; BulbStates &gt; &amp;a, const std::optional&lt; BulbStates &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::optional&lt; double &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>aaed7bb4434dbd9ceb45ccb63face03af</anchor>
+      <arglist>(const std::optional&lt; double &gt; &amp;a, const std::optional&lt; double &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Bulb::BoundingBox &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a009baf985ccd9faaad716f3ffbde8818</anchor>
+      <arglist>(const Bulb::BoundingBox &amp;a, const Bulb::BoundingBox &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Bulb &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a964b62ec16aad58eadaac5bd2874cd5c</anchor>
+      <arglist>(const Bulb *a, const Bulb *b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::vector&lt; const Bulb * &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a218a821205187039ebbdc17e9472a0e3</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; const Bulb * &gt; &amp;a, const std::vector&lt; const Bulb * &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; BulbGroup &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>ac89bb07221b67b33f53850b7c9e9838a</anchor>
+      <arglist>(const BulbGroup *a, const BulbGroup *b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; TrafficLight &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>ada0b3d3130a0150d03f22411e9ec2bfc</anchor>
+      <arglist>(const TrafficLight *a, const TrafficLight *b)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>common/compare.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/common/</path>
     <filename>common_2compare_8h.html</filename>
     <class kind="struct">maliput::common::ComparisonResult</class>
+    <class kind="class">maliput::common::ComparisonResultCollector</class>
     <namespace>maliput</namespace>
     <namespace>maliput::common</namespace>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_ADD_RESULT</name>
+      <anchorfile>common_2compare_8h.html</anchorfile>
+      <anchor>a4c8aad0ea6a1093783ef9174c9231b63</anchor>
+      <arglist>(collector, result)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>math/compare.h</name>
@@ -11490,6 +12266,45 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::common::ComparisonResultCollector</name>
+    <filename>classmaliput_1_1common_1_1_comparison_result_collector.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>ComparisonResultCollector</name>
+      <anchorfile>classmaliput_1_1common_1_1_comparison_result_collector.html</anchorfile>
+      <anchor>aedd2185503f5f5b383fac196a641ee30</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AddResult</name>
+      <anchorfile>classmaliput_1_1common_1_1_comparison_result_collector.html</anchorfile>
+      <anchor>a64d18587a8f54f3a8dae911928d90b40</anchor>
+      <arglist>(const char *filename, int line, const char *expression, ComparisonResult&lt; T &gt; result)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>result</name>
+      <anchorfile>classmaliput_1_1common_1_1_comparison_result_collector.html</anchorfile>
+      <anchor>a5a299cf768e6b270dabb1a29e3ef2325</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>count</name>
+      <anchorfile>classmaliput_1_1common_1_1_comparison_result_collector.html</anchorfile>
+      <anchor>a0e2c15c517007b91c37b2aa68bf2484a</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>failed</name>
+      <anchorfile>classmaliput_1_1common_1_1_comparison_result_collector.html</anchorfile>
+      <anchor>aa1e9f07e547f38d788c2ef88ef6f95b1</anchor>
+      <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::drake::systems::CompositeEventCollection</name>
     <filename>classmaliput_1_1drake_1_1systems_1_1_composite_event_collection.html</filename>
     <templarg></templarg>
@@ -16779,17 +17594,6 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>maliput::utility::mesh::GeoVertex::Equiv</name>
-    <filename>structmaliput_1_1utility_1_1mesh_1_1_geo_vertex_1_1_equiv.html</filename>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator()</name>
-      <anchorfile>structmaliput_1_1utility_1_1mesh_1_1_geo_vertex_1_1_equiv.html</anchorfile>
-      <anchor>aa20749a63ed2c77f495b32fe4118b5ac</anchor>
-      <arglist>(const GeoVertex &amp;lhs, const GeoVertex &amp;rhs) const</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
     <name>maliput::utility::mesh::GeoNormal::Equiv</name>
     <filename>structmaliput_1_1utility_1_1mesh_1_1_geo_normal_1_1_equiv.html</filename>
     <member kind="function">
@@ -16798,6 +17602,17 @@
       <anchorfile>structmaliput_1_1utility_1_1mesh_1_1_geo_normal_1_1_equiv.html</anchorfile>
       <anchor>ab9ec50cf649a244595032a030685165d</anchor>
       <arglist>(const GeoNormal &amp;lhs, const GeoNormal &amp;rhs) const</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput::utility::mesh::GeoVertex::Equiv</name>
+    <filename>structmaliput_1_1utility_1_1mesh_1_1_geo_vertex_1_1_equiv.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator()</name>
+      <anchorfile>structmaliput_1_1utility_1_1mesh_1_1_geo_vertex_1_1_equiv.html</anchorfile>
+      <anchor>aa20749a63ed2c77f495b32fe4118b5ac</anchor>
+      <arglist>(const GeoVertex &amp;lhs, const GeoVertex &amp;rhs) const</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -23358,6 +24173,25 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::geometry_base::test::MockRoadGeometry</name>
+    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</filename>
+    <base>maliput::geometry_base::RoadGeometry</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</anchorfile>
+      <anchor>a630175fce2ba52f711f6ddd5f90fa0b2</anchor>
+      <arglist>(MockRoadGeometry)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MockRoadGeometry</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</anchorfile>
+      <anchor>a9a058c56a78887a7f2bb09b6db059369</anchor>
+      <arglist>(const api::RoadGeometryId &amp;id, double linear_tolerance, double angular_tolerance, double scale_length, const math::Vector3 &amp;inertial_to_backend_frame_translation)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::api::test::MockRoadGeometry</name>
     <filename>classmaliput_1_1api_1_1test_1_1_mock_road_geometry.html</filename>
     <base>maliput::api::RoadGeometry</base>
@@ -23419,44 +24253,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::geometry_base::test::MockRoadGeometry</name>
-    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</filename>
-    <base>maliput::geometry_base::RoadGeometry</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</anchorfile>
-      <anchor>a630175fce2ba52f711f6ddd5f90fa0b2</anchor>
-      <arglist>(MockRoadGeometry)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MockRoadGeometry</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</anchorfile>
-      <anchor>a9a058c56a78887a7f2bb09b6db059369</anchor>
-      <arglist>(const api::RoadGeometryId &amp;id, double linear_tolerance, double angular_tolerance, double scale_length, const math::Vector3 &amp;inertial_to_backend_frame_translation)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::geometry_base::test::MockSegment</name>
-    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</filename>
-    <base>maliput::geometry_base::Segment</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
-      <anchor>a667227ded4ffb60bad6d5bf69e104a38</anchor>
-      <arglist>(MockSegment)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MockSegment</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
-      <anchor>a9384ed7a03ee84b8f965a5d156f4efee</anchor>
-      <arglist>(const api::SegmentId &amp;id)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>maliput::api::test::MockSegment</name>
     <filename>classmaliput_1_1api_1_1test_1_1_mock_segment.html</filename>
     <base>maliput::api::Segment</base>
@@ -23480,6 +24276,25 @@
       <anchorfile>classmaliput_1_1api_1_1test_1_1_mock_segment.html</anchorfile>
       <anchor>ab18c3ac1d55322f884de6d1313ee2888</anchor>
       <arglist>(std::unique_ptr&lt; MockLane &gt; lane)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::geometry_base::test::MockSegment</name>
+    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</filename>
+    <base>maliput::geometry_base::Segment</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
+      <anchor>a667227ded4ffb60bad6d5bf69e104a38</anchor>
+      <arglist>(MockSegment)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MockSegment</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
+      <anchor>a9384ed7a03ee84b8f965a5d156f4efee</anchor>
+      <arglist>(const api::SegmentId &amp;id)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -33685,6 +34500,39 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::TrafficLightBook</name>
+    <filename>classmaliput_1_1_traffic_light_book.html</filename>
+    <base>maliput::api::rules::TrafficLightBook</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
+      <anchor>abcc08c5751a8d7e9ffcf5e7e27e1e611</anchor>
+      <arglist>(TrafficLightBook)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>TrafficLightBook</name>
+      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
+      <anchor>ac6252aac70ee58246aaa76909c91dad8</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~TrafficLightBook</name>
+      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
+      <anchor>a73564dc67d24d37a28f9699229eb6707</anchor>
+      <arglist>() override</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AddTrafficLight</name>
+      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
+      <anchor>af7b16aaf63fff8a971cd59fd74347f96</anchor>
+      <arglist>(std::unique_ptr&lt; const api::rules::TrafficLight &gt; traffic_light)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::api::rules::TrafficLightBook</name>
     <filename>classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html</filename>
     <member kind="function">
@@ -33721,39 +34569,6 @@
       <anchorfile>classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html</anchorfile>
       <anchor>a050a1e9e217785773eedeff40a95f39b</anchor>
       <arglist>()=default</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::TrafficLightBook</name>
-    <filename>classmaliput_1_1_traffic_light_book.html</filename>
-    <base>maliput::api::rules::TrafficLightBook</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
-      <anchor>abcc08c5751a8d7e9ffcf5e7e27e1e611</anchor>
-      <arglist>(TrafficLightBook)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>TrafficLightBook</name>
-      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
-      <anchor>ac6252aac70ee58246aaa76909c91dad8</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~TrafficLightBook</name>
-      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
-      <anchor>a73564dc67d24d37a28f9699229eb6707</anchor>
-      <arglist>() override</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AddTrafficLight</name>
-      <anchorfile>classmaliput_1_1_traffic_light_book.html</anchorfile>
-      <anchor>af7b16aaf63fff8a971cd59fd74347f96</anchor>
-      <arglist>(std::unique_ptr&lt; const api::rules::TrafficLight &gt; traffic_light)</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -39652,6 +40467,125 @@
       <arglist>(const LaneEnd &amp;lane_end1, const LaneEnd &amp;lane_end2)</arglist>
     </member>
     <member kind="function">
+      <type>common::ComparisonResult&lt; Junction &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a14c009382ff3ec884ffbdbbe9c77e53e</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const Junction *a, const Junction *b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Segment &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>aebd496c20514127f152a58234d5f2e46</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const Segment *a, const Segment *b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Lane &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a92104863cc85fffe8cf24d730d90c3d5</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const Lane *a, const Lane *b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; BranchPoint &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>ad839c893606e35b71870c973735f2388</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const BranchPoint *a, const BranchPoint *b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; bool &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a875dc08f7e6920a937b74e8f6277bfdb</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, bool a, bool b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; double &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>adc0698791787e063312963e3ddbbb0e1</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, double a, double b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::size_t &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>ab90f768fcf35f41cc11e991e1b56070e</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, std::size_t a, std::size_t b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; TypeSpecificIdentifier&lt; T &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>ad3b047c6def3cb9a61471fd97a7ca185</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const TypeSpecificIdentifier&lt; T &gt; &amp;a, const TypeSpecificIdentifier&lt; T &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; SRange &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a54a377f86e3fe9bdba070ad995ea9c43</anchor>
+      <arglist>(const SRange &amp;s_range_1, const SRange &amp;s_range_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; LaneSRange &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>aa2149e3694b14710b9532dd46d942c9d</anchor>
+      <arglist>(const LaneSRange &amp;lane_s_range_1, const LaneSRange &amp;lane_s_range_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::vector&lt; LaneSRange &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a655a6daa38d963ca4d5c891e1a954462</anchor>
+      <arglist>(const std::vector&lt; LaneSRange &gt; &amp;lane_s_ranges_1, const std::vector&lt; LaneSRange &gt; &amp;lane_s_ranges_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; LaneSRoute &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a3989128857764f83815fb37b7908ae38</anchor>
+      <arglist>(const LaneSRoute &amp;lane_s_route_1, const LaneSRoute &amp;lane_s_route_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; InertialPosition &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a9f413a2a34bdae4caea6741672077217</anchor>
+      <arglist>(const InertialPosition &amp;inertial_position_1, const InertialPosition &amp;inertial_position_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Rotation &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a718452968e53dc8ac4a02d12b6702d4a</anchor>
+      <arglist>(const Rotation &amp;rotation_1, const Rotation &amp;rotation_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; LaneEnd::Which &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a20369172b027ed8a4154e2a2af78514f</anchor>
+      <arglist>(const LaneEnd::Which &amp;which_1, const LaneEnd::Which &amp;which_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; LaneEnd &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>aaa5fa369b98544a98a81ccda4684c393</anchor>
+      <arglist>(const LaneEnd &amp;lane_end_1, const LaneEnd &amp;lane_end_2)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>CheckIdIndexing</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a3a6309cbd7aad2179ccd00c1d00c4722</anchor>
+      <arglist>(const RoadGeometry *road_geometry)</arglist>
+    </member>
+    <member kind="function">
       <type>std::ostream &amp;</type>
       <name>operator&lt;&lt;</name>
       <anchorfile>namespacemaliput_1_1api.html</anchorfile>
@@ -39788,6 +40722,258 @@
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="a8e3cc9f879a0ac1d7bd47eb69bba5b34a52932182c1d638e198dc39077e8da180">kBlinking</enumvalue>
     </member>
     <member kind="function">
+      <type>common::ComparisonResult&lt; RuleStates &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a0cfb3eca710e367eab908684ddfdf980</anchor>
+      <arglist>(const RuleStates &amp;a, const RuleStates &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Phase &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a9f1f6e26d3f3580677fd5a03d18cfe1e</anchor>
+      <arglist>(const Phase &amp;a, const Phase &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; PhaseRing::NextPhase &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>ac2feceb2c2c7e833f1513f2e7980589b</anchor>
+      <arglist>(const PhaseRing::NextPhase &amp;a, const PhaseRing::NextPhase &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::vector&lt; PhaseRing::NextPhase &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a8ec97e6a1eb755eec1dd3a46be0e663b</anchor>
+      <arglist>(const std::vector&lt; PhaseRing::NextPhase &gt; &amp;a, const std::vector&lt; PhaseRing::NextPhase &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RangeValueRule::Range &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>ac1ae78bac143112dfa38fa8cb2663009</anchor>
+      <arglist>(const RangeValueRule::Range &amp;a, const RangeValueRule::Range &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RangeValueRule &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a10d499f1d9aeb43c5510733d2fdee2b5</anchor>
+      <arglist>(const RangeValueRule &amp;a, const RangeValueRule &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::vector&lt; RangeValueRule::Range &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>ad63b2658fb261295617e5d87976b4f07</anchor>
+      <arglist>(const std::vector&lt; RangeValueRule::Range &gt; &amp;a, const std::vector&lt; RangeValueRule::Range &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; DiscreteValueRule::DiscreteValue &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a5c14748b1ad34975cf9468c177feade9</anchor>
+      <arglist>(const DiscreteValueRule::DiscreteValue &amp;a, const DiscreteValueRule::DiscreteValue &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; DiscreteValueRule &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a827bc3bbcdcc4f84fa63c6406017d1d8</anchor>
+      <arglist>(const DiscreteValueRule &amp;a, const DiscreteValueRule &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::vector&lt; DiscreteValueRule::DiscreteValue &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>aac2491d5f89fa9757adcd961b115d2e1</anchor>
+      <arglist>(const std::vector&lt; DiscreteValueRule::DiscreteValue &gt; &amp;a, const std::vector&lt; DiscreteValueRule::DiscreteValue &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::unordered_map&lt; Rule::Id, DiscreteValueRule::DiscreteValue &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a527d13d667c2731c3644b7935b309009</anchor>
+      <arglist>(const std::unordered_map&lt; Rule::Id, DiscreteValueRule::DiscreteValue &gt; &amp;a, const std::unordered_map&lt; Rule::Id, DiscreteValueRule::DiscreteValue &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; DirectionUsageRule::State::Type &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>aca0215ac78c560613fb4f6cf9b7bf5f4</anchor>
+      <arglist>(DirectionUsageRule::State::Type a, DirectionUsageRule::State::Type b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; DirectionUsageRule::State::Severity &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a4bf0ba6a1cd5f9e7609330b9781476f3</anchor>
+      <arglist>(DirectionUsageRule::State::Severity a, DirectionUsageRule::State::Severity b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; DirectionUsageRule::State &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>abebeeaa7e17710a0cbd1ac8b13ca3c3c</anchor>
+      <arglist>(const DirectionUsageRule::State &amp;a, const DirectionUsageRule::State &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::unordered_map&lt; DirectionUsageRule::State::Id, DirectionUsageRule::State &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a602ca78a52ab4edd78cf3f6bd1b19d1e</anchor>
+      <arglist>(const std::unordered_map&lt; DirectionUsageRule::State::Id, DirectionUsageRule::State &gt; &amp;a, const std::unordered_map&lt; DirectionUsageRule::State::Id, DirectionUsageRule::State &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; DirectionUsageRule &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a9b0c2979c735e8f7ad4f362e3294f0cf</anchor>
+      <arglist>(const DirectionUsageRule &amp;a, const DirectionUsageRule &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RightOfWayRule::ZoneType &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>ae4cb55f9970dbbd07a67a3c61eadef75</anchor>
+      <arglist>(RightOfWayRule::ZoneType a, RightOfWayRule::ZoneType b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RightOfWayRule::State::Type &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a5b736599074667b726bf341d361cf0c0</anchor>
+      <arglist>(RightOfWayRule::State::Type a, RightOfWayRule::State::Type b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::vector&lt; RightOfWayRule::Id &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a571a9b0c909d02cbfcdb8dcf9564dad2</anchor>
+      <arglist>(const std::vector&lt; RightOfWayRule::Id &gt; &amp;a, const std::vector&lt; RightOfWayRule::Id &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RightOfWayRule::State &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>aafb6336b4ee5dad06762b2a95da4f231</anchor>
+      <arglist>(const RightOfWayRule::State &amp;a, const RightOfWayRule::State &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::unordered_map&lt; RightOfWayRule::State::Id, RightOfWayRule::State &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a6c76877f16e32e3111d1d99870329f58</anchor>
+      <arglist>(const std::unordered_map&lt; RightOfWayRule::State::Id, RightOfWayRule::State &gt; &amp;a, const std::unordered_map&lt; RightOfWayRule::State::Id, RightOfWayRule::State &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RightOfWayRule &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a965aabd181e7f30267d069dfbefead6a</anchor>
+      <arglist>(const RightOfWayRule &amp;a, const RightOfWayRule &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; RightOfWayRuleStateProvider::RightOfWayResult &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>aabbeb1c527d15b5c6f74830c9827dd62</anchor>
+      <arglist>(const RightOfWayRuleStateProvider::RightOfWayResult &amp;a, const RightOfWayRuleStateProvider::RightOfWayResult &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; SpeedLimitRule::Severity &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a6cbac4e690784344f88131948f936080</anchor>
+      <arglist>(SpeedLimitRule::Severity a, SpeedLimitRule::Severity b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; SpeedLimitRule &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>af5fd6917a97424ba3652c748b2e14023</anchor>
+      <arglist>(const SpeedLimitRule &amp;a, const SpeedLimitRule &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::unordered_map&lt; TrafficLight::Id, std::vector&lt; BulbGroup::Id &gt; &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>af8e58c672542d2e4d423897401aab24e</anchor>
+      <arglist>(const std::unordered_map&lt; TrafficLight::Id, std::vector&lt; BulbGroup::Id &gt;&gt; &amp;a, const std::unordered_map&lt; TrafficLight::Id, std::vector&lt; BulbGroup::Id &gt;&gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; BulbColor &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>acea4e4a30df6f586298a64b73300b4a6</anchor>
+      <arglist>(const BulbColor &amp;a, const BulbColor &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; BulbType &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a917a3bcc37f446034d075b2faa0a6b6e</anchor>
+      <arglist>(const BulbType &amp;a, const BulbType &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; BulbState &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a06c24e637236f751f36dcdae579f74d3</anchor>
+      <arglist>(const BulbState &amp;a, const BulbState &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::optional&lt; BulbStates &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>abc5fd5d8ecab29d55de671979a19e9a8</anchor>
+      <arglist>(const std::optional&lt; BulbStates &gt; &amp;a, const std::optional&lt; BulbStates &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::optional&lt; double &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>aaed7bb4434dbd9ceb45ccb63face03af</anchor>
+      <arglist>(const std::optional&lt; double &gt; &amp;a, const std::optional&lt; double &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Bulb::BoundingBox &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a009baf985ccd9faaad716f3ffbde8818</anchor>
+      <arglist>(const Bulb::BoundingBox &amp;a, const Bulb::BoundingBox &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; Bulb &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a964b62ec16aad58eadaac5bd2874cd5c</anchor>
+      <arglist>(const Bulb *a, const Bulb *b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::vector&lt; const Bulb * &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a218a821205187039ebbdc17e9472a0e3</anchor>
+      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; const Bulb * &gt; &amp;a, const std::vector&lt; const Bulb * &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; BulbGroup &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>ac89bb07221b67b33f53850b7c9e9838a</anchor>
+      <arglist>(const BulbGroup *a, const BulbGroup *b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; TrafficLight &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>ada0b3d3130a0150d03f22411e9ec2bfc</anchor>
+      <arglist>(const TrafficLight *a, const TrafficLight *b)</arglist>
+    </member>
+    <member kind="function">
       <type>class</type>
       <name>MALIPUT_DEPRECATED</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
@@ -39835,6 +41021,62 @@
       <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
       <anchor>ab2af2bdbf1550cd1e87d177254662692</anchor>
       <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; rules::RightOfWayRule::ZoneType &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>aaedba4d6b9f741b9f611879f2bd56128</anchor>
+      <arglist>(rules::RightOfWayRule::ZoneType a, rules::RightOfWayRule::ZoneType b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; rules::RightOfWayRule::State::Type &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a4910894724f5c5d708348a2d3d947d73</anchor>
+      <arglist>(rules::RightOfWayRule::State::Type a, rules::RightOfWayRule::State::Type b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::vector&lt; rules::RightOfWayRule::Id &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a1693b9b252363302b27bf839605d46ae</anchor>
+      <arglist>(const std::vector&lt; rules::RightOfWayRule::Id &gt; &amp;a, const std::vector&lt; rules::RightOfWayRule::Id &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; rules::RightOfWayRule::State &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a3555a18aa26fb32d21b15c3b05815701</anchor>
+      <arglist>(const rules::RightOfWayRule::State &amp;a, const rules::RightOfWayRule::State &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; std::unordered_map&lt; rules::RightOfWayRule::State::Id, rules::RightOfWayRule::State &gt; &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a6e43dd8a2c8b7adce4accf28287439cb</anchor>
+      <arglist>(const std::unordered_map&lt; rules::RightOfWayRule::State::Id, rules::RightOfWayRule::State &gt; &amp;a, const std::unordered_map&lt; rules::RightOfWayRule::State::Id, rules::RightOfWayRule::State &gt; &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; rules::RightOfWayRuleStateProvider::RightOfWayResult &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>ad8fe47aec69e25617f657dcfa704b98d</anchor>
+      <arglist>(const rules::RightOfWayRuleStateProvider::RightOfWayResult &amp;a, const rules::RightOfWayRuleStateProvider::RightOfWayResult &amp;b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; rules::SpeedLimitRule::Severity &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>ad800885b472aa22fb68ca2715749bad6</anchor>
+      <arglist>(rules::SpeedLimitRule::Severity a, rules::SpeedLimitRule::Severity b)</arglist>
+    </member>
+    <member kind="function">
+      <type>common::ComparisonResult&lt; rules::SpeedLimitRule &gt;</type>
+      <name>IsEqual</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a29519b9edca82b00edbcca667d7ab888</anchor>
+      <arglist>(const rules::SpeedLimitRule &amp;a, const rules::SpeedLimitRule &amp;b)</arglist>
     </member>
   </compound>
   <compound kind="namespace">
@@ -40648,6 +41890,7 @@
     <namespace>maliput::common::logger</namespace>
     <class kind="class">maliput::common::assertion_error</class>
     <class kind="struct">maliput::common::ComparisonResult</class>
+    <class kind="class">maliput::common::ComparisonResultCollector</class>
     <class kind="struct">maliput::common::DelegatingHasher</class>
     <class kind="class">maliput::common::Filesystem</class>
     <class kind="class">maliput::common::Logger</class>

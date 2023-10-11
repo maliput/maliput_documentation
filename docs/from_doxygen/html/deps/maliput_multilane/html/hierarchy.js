@@ -57,9 +57,9 @@ var hierarchy =
       [ "Segment", "classmaliput_1_1multilane_1_1_segment.html", null ]
     ] ],
     [ "StartReference::Spec", "classmaliput_1_1multilane_1_1_start_reference_1_1_spec.html", null ],
+    [ "EndLane::Spec", "classmaliput_1_1multilane_1_1_end_lane_1_1_spec.html", null ],
     [ "EndReference::Spec", "classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html", null ],
     [ "StartLane::Spec", "classmaliput_1_1multilane_1_1_start_lane_1_1_spec.html", null ],
-    [ "EndLane::Spec", "classmaliput_1_1multilane_1_1_end_lane_1_1_spec.html", null ],
     [ "StartLane", "classmaliput_1_1multilane_1_1_start_lane.html", null ],
     [ "StartReference", "classmaliput_1_1multilane_1_1_start_reference.html", null ],
     [ "Test", null, [

@@ -60,12 +60,12 @@ var files_dup =
     [ "check_id_indexing.cc", "check__id__indexing_8cc.html", "check__id__indexing_8cc" ],
     [ "check_id_indexing.h", "check__id__indexing_8h.html", "check__id__indexing_8h" ],
     [ "api/compare.cc", "api_2compare_8cc.html", "api_2compare_8cc" ],
+    [ "api/rules/compare.cc", "api_2rules_2compare_8cc.html", "api_2rules_2compare_8cc" ],
     [ "math/compare.cc", "math_2compare_8cc.html", "math_2compare_8cc" ],
     [ "routing/compare.cc", "routing_2compare_8cc.html", "routing_2compare_8cc" ],
     [ "api/compare.h", "api_2compare_8h.html", "api_2compare_8h" ],
-    [ "common/compare.h", "common_2compare_8h.html", [
-      [ "ComparisonResult", "structmaliput_1_1common_1_1_comparison_result.html", "structmaliput_1_1common_1_1_comparison_result" ]
-    ] ],
+    [ "api/rules/compare.h", "api_2rules_2compare_8h.html", "api_2rules_2compare_8h" ],
+    [ "common/compare.h", "common_2compare_8h.html", "common_2compare_8h" ],
     [ "math/compare.h", "math_2compare_8h.html", "math_2compare_8h" ],
     [ "routing/compare.h", "routing_2compare_8h.html", "routing_2compare_8h" ],
     [ "constants.h", "constants_8h.html", "constants_8h" ],
