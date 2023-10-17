@@ -81,6 +81,15 @@
     <namespace>maliput::object::test_utilities</namespace>
   </compound>
   <compound kind="file">
+    <name>mock_math.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/include/maliput_object/test_utilities/</path>
+    <filename>mock__math_8h.html</filename>
+    <class kind="class">maliput::object::test_utilities::MockBoundingRegion</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::object</namespace>
+    <namespace>maliput::object::test_utilities</namespace>
+  </compound>
+  <compound kind="file">
     <name>object.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_object/src/api/</path>
     <filename>object_8cc.html</filename>
@@ -170,6 +179,31 @@
       <anchorfile>classmaliput_1_1object_1_1_manual_object_book.html</anchorfile>
       <anchor>a18d651843dfe270351af98956a52b17c</anchor>
       <arglist>(const typename api::Object&lt; Coordinate &gt;::Id &amp;object)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::object::test_utilities::MockBoundingRegion</name>
+    <filename>classmaliput_1_1object_1_1test__utilities_1_1_mock_bounding_region.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>MOCK_METHOD</name>
+      <anchorfile>classmaliput_1_1object_1_1test__utilities_1_1_mock_bounding_region.html</anchorfile>
+      <anchor>aa9c46ddf1e5154c2cad354069b20f08e</anchor>
+      <arglist>((const math::Vector3 &amp;), do_position,(),(const, override))</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MOCK_METHOD</name>
+      <anchorfile>classmaliput_1_1object_1_1test__utilities_1_1_mock_bounding_region.html</anchorfile>
+      <anchor>a9327e379ceea83998505cdd67090b0b9</anchor>
+      <arglist>((bool), DoContains,(const math::Vector3 &amp;),(const, override))</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MOCK_METHOD</name>
+      <anchorfile>classmaliput_1_1object_1_1test__utilities_1_1_mock_bounding_region.html</anchorfile>
+      <anchor>a467ec81794377cde6d9cc49d75c9795d</anchor>
+      <arglist>((math::OverlappingType), DoOverlaps,(const BoundingRegion&lt; math::Vector3 &gt; &amp;),(const, override))</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -521,6 +555,7 @@
   <compound kind="namespace">
     <name>maliput::object::test_utilities</name>
     <filename>namespacemaliput_1_1object_1_1test__utilities.html</filename>
+    <class kind="class">maliput::object::test_utilities::MockBoundingRegion</class>
     <class kind="class">maliput::object::test_utilities::MockObjectBook</class>
     <class kind="class">maliput::object::test_utilities::MockObjectQuery</class>
   </compound>

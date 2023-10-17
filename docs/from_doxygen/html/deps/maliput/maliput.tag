@@ -68,21 +68,6 @@
     <namespace>maliput::drake::systems</namespace>
   </compound>
   <compound kind="file">
-    <name>assert_compare.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/test_utilities/</path>
-    <filename>assert__compare_8h.html</filename>
-    <includes id="common_2compare_8h" name="common/compare.h" local="yes" imported="no">maliput/common/compare.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::test</namespace>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>AssertCompare</name>
-      <anchorfile>namespacemaliput_1_1test.html</anchorfile>
-      <anchor>a11285c5634ebabe2d352ca4961114b6b</anchor>
-      <arglist>(const common::ComparisonResult&lt; T &gt; &amp;res)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
     <name>assertion_error.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/common/</path>
     <filename>assertion__error_8h.html</filename>
@@ -343,48 +328,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
     <namespace>maliput::drake::systems</namespace>
-  </compound>
-  <compound kind="file">
-    <name>check_id_indexing.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/test_utilities/</path>
-    <filename>check__id__indexing_8cc.html</filename>
-    <includes id="check__id__indexing_8h" name="check_id_indexing.h" local="yes" imported="no">maliput/test_utilities/check_id_indexing.h</includes>
-    <includes id="rules__test__utilities_8h" name="rules_test_utilities.h" local="yes" imported="no">maliput/test_utilities/rules_test_utilities.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::api</namespace>
-    <namespace>maliput::api::rules</namespace>
-    <namespace>maliput::api::rules::test</namespace>
-    <namespace>maliput::api::test</namespace>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a20a66b220a5b178a2b0e73a4dfe75b66</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const T *a, const T *b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>CheckIdIndexing</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>a7a4f81af920cae075af5641d1893e3a9</anchor>
-      <arglist>(const RoadGeometry *road_geometry)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>check_id_indexing.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/test_utilities/</path>
-    <filename>check__id__indexing_8h.html</filename>
-    <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::api</namespace>
-    <namespace>maliput::api::test</namespace>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>CheckIdIndexing</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>a7a4f81af920cae075af5641d1893e3a9</anchor>
-      <arglist>(const RoadGeometry *road_geometry)</arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>api/compare.cc</name>
@@ -4489,61 +4432,6 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>maliput_math_compare.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/test_utilities/</path>
-    <filename>maliput__math__compare_8cc.html</filename>
-    <includes id="maliput__math__compare_8h" name="maliput_math_compare.h" local="yes" imported="no">maliput/test_utilities/maliput_math_compare.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::math</namespace>
-    <namespace>maliput::math::test</namespace>
-    <member kind="function">
-      <type>testing::AssertionResult</type>
-      <name>CompareVectors</name>
-      <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>a01c88aed5bc87c60290e8bf68222d5e8</anchor>
-      <arglist>(const math::VectorBase&lt; N, Derived &gt; &amp;v1, const math::VectorBase&lt; N, Derived &gt; &amp;v2, double tolerance=0.0, CompareType compare_type=CompareType::kAbsolute)</arglist>
-    </member>
-    <member kind="function">
-      <type>testing::AssertionResult</type>
-      <name>CompareMatrices</name>
-      <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>ade5f658726dea18b7e094ac499ece140</anchor>
-      <arglist>(const math::Matrix&lt; N &gt; &amp;m1, const math::Matrix&lt; N &gt; &amp;m2, double tolerance=0.0, CompareType compare_type=CompareType::kAbsolute)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>maliput_math_compare.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/test_utilities/</path>
-    <filename>maliput__math__compare_8h.html</filename>
-    <includes id="matrix_8h" name="matrix.h" local="yes" imported="no">maliput/math/matrix.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::math</namespace>
-    <namespace>maliput::math::test</namespace>
-    <member kind="enumeration">
-      <type></type>
-      <name>CompareType</name>
-      <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>afbc5396d9a88c41d6aeb522b9f06f426</anchor>
-      <arglist></arglist>
-      <enumvalue file="namespacemaliput_1_1math_1_1test.html" anchor="afbc5396d9a88c41d6aeb522b9f06f426abab0767e88027de9944aa55c24c8387a">kAbsolute</enumvalue>
-      <enumvalue file="namespacemaliput_1_1math_1_1test.html" anchor="afbc5396d9a88c41d6aeb522b9f06f426af460a96ab20647996c15854794763384">kRelative</enumvalue>
-    </member>
-    <member kind="function">
-      <type>testing::AssertionResult</type>
-      <name>CompareVectors</name>
-      <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>a01c88aed5bc87c60290e8bf68222d5e8</anchor>
-      <arglist>(const math::VectorBase&lt; N, Derived &gt; &amp;v1, const math::VectorBase&lt; N, Derived &gt; &amp;v2, double tolerance=0.0, CompareType compare_type=CompareType::kAbsolute)</arglist>
-    </member>
-    <member kind="function">
-      <type>testing::AssertionResult</type>
-      <name>CompareMatrices</name>
-      <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>ade5f658726dea18b7e094ac499ece140</anchor>
-      <arglist>(const math::Matrix&lt; N &gt; &amp;m1, const math::Matrix&lt; N &gt; &amp;m2, double tolerance=0.0, CompareType compare_type=CompareType::kAbsolute)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
     <name>maliput_never_destroyed.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/common/</path>
     <filename>maliput__never__destroyed_8h.html</filename>
@@ -4618,54 +4506,6 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>maliput_routing_position_compare.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/test_utilities/</path>
-    <filename>maliput__routing__position__compare_8cc.html</filename>
-    <includes id="maliput__routing__position__compare_8h" name="maliput_routing_position_compare.h" local="yes" imported="no">maliput/test_utilities/maliput_routing_position_compare.h</includes>
-    <includes id="api_2compare_8h" name="api/compare.h" local="yes" imported="no">maliput/api/compare.h</includes>
-    <includes id="assert__compare_8h" name="assert_compare.h" local="yes" imported="no">test_utilities/assert_compare.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::routing</namespace>
-    <namespace>maliput::routing::test</namespace>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsPhasePositionResultClose</name>
-      <anchorfile>namespacemaliput_1_1routing_1_1test.html</anchorfile>
-      <anchor>a99d4756f5531cc783657f0ddf548ebff</anchor>
-      <arglist>(const PhasePositionResult &amp;ppr_a, const PhasePositionResult &amp;ppr_b, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsRoutePositionResultClose</name>
-      <anchorfile>namespacemaliput_1_1routing_1_1test.html</anchorfile>
-      <anchor>a79d378f74c878ad888fc2a0d1317da2f</anchor>
-      <arglist>(const RoutePositionResult &amp;rpr_a, const RoutePositionResult &amp;rpr_b, double tolerance)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>maliput_routing_position_compare.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/test_utilities/</path>
-    <filename>maliput__routing__position__compare_8h.html</filename>
-    <includes id="route__position__result_8h" name="route_position_result.h" local="yes" imported="no">maliput/routing/route_position_result.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::routing</namespace>
-    <namespace>maliput::routing::test</namespace>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsPhasePositionResultClose</name>
-      <anchorfile>namespacemaliput_1_1routing_1_1test.html</anchorfile>
-      <anchor>a99d4756f5531cc783657f0ddf548ebff</anchor>
-      <arglist>(const PhasePositionResult &amp;ppr_a, const PhasePositionResult &amp;ppr_b, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsRoutePositionResultClose</name>
-      <anchorfile>namespacemaliput_1_1routing_1_1test.html</anchorfile>
-      <anchor>a79d378f74c878ad888fc2a0d1317da2f</anchor>
-      <arglist>(const RoutePositionResult &amp;rpr_a, const RoutePositionResult &amp;rpr_b, double tolerance)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
     <name>maliput_throw.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/common/</path>
     <filename>maliput__throw_8h.html</filename>
@@ -4706,136 +4546,6 @@
       <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
       <anchor>a997f9f257b92b1ff8d991dc50da1e040</anchor>
       <arglist>((noreturn)) void Abort(const char *condition</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>maliput_types_compare.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/test_utilities/</path>
-    <filename>maliput__types__compare_8cc.html</filename>
-    <includes id="maliput__types__compare_8h" name="maliput_types_compare.h" local="yes" imported="no">maliput/test_utilities/maliput_types_compare.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::api</namespace>
-    <namespace>maliput::api::test</namespace>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsInertialPositionClose</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>ad75f1beb16c03ecd00f80ce63daf02a1</anchor>
-      <arglist>(const InertialPosition &amp;pos1, const InertialPosition &amp;pos2, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsLanePositionClose</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>ab9ad5cb8b2c36172fa72538ccdef0c7d</anchor>
-      <arglist>(const LanePosition &amp;pos1, const LanePosition &amp;pos2, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsRotationClose</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>a4f915921ea7a17ff176e2f78a1389f81</anchor>
-      <arglist>(const Rotation &amp;rot1, const Rotation &amp;rot2, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsRBoundsClose</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>a604e2d7a228c8cedfa589540747e25f1</anchor>
-      <arglist>(const RBounds &amp;rbounds1, const RBounds &amp;rbounds2, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsHBoundsClose</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>a07a29591c901e0f22f51706a1cc2ee84</anchor>
-      <arglist>(const HBounds &amp;hbounds1, const HBounds &amp;hbounds2, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsLanePositionResultClose</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>ab0d59df7ce188decf48935abbbabfec9</anchor>
-      <arglist>(const LanePositionResult &amp;lpr_a, const LanePositionResult &amp;lpr_b, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>testing::AssertionResult</type>
-      <name>IsRoadPositionResultClose</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>a950f33f9be84000419605fccd0e4d5cd</anchor>
-      <arglist>(const maliput::api::RoadPositionResult &amp;rpr_a, const maliput::api::RoadPositionResult &amp;rpr_b, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsLaneEndEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>ab6e024949cc30d5c19fb642cedc4d951</anchor>
-      <arglist>(const LaneEnd &amp;lane_end1, const LaneEnd &amp;lane_end2)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>maliput_types_compare.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/test_utilities/</path>
-    <filename>maliput__types__compare_8h.html</filename>
-    <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::api</namespace>
-    <namespace>maliput::api::test</namespace>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsLanePositionResultClose</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>ab0d59df7ce188decf48935abbbabfec9</anchor>
-      <arglist>(const LanePositionResult &amp;lpr_a, const LanePositionResult &amp;lpr_b, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>testing::AssertionResult</type>
-      <name>IsRoadPositionResultClose</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>a950f33f9be84000419605fccd0e4d5cd</anchor>
-      <arglist>(const maliput::api::RoadPositionResult &amp;rpr_a, const maliput::api::RoadPositionResult &amp;rpr_b, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsInertialPositionClose</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>ad75f1beb16c03ecd00f80ce63daf02a1</anchor>
-      <arglist>(const InertialPosition &amp;pos1, const InertialPosition &amp;pos2, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsLanePositionClose</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>ab9ad5cb8b2c36172fa72538ccdef0c7d</anchor>
-      <arglist>(const LanePosition &amp;pos1, const LanePosition &amp;pos2, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsRotationClose</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>a4f915921ea7a17ff176e2f78a1389f81</anchor>
-      <arglist>(const Rotation &amp;rot1, const Rotation &amp;rot2, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsRBoundsClose</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>a604e2d7a228c8cedfa589540747e25f1</anchor>
-      <arglist>(const RBounds &amp;rbounds1, const RBounds &amp;rbounds2, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsHBoundsClose</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>a07a29591c901e0f22f51706a1cc2ee84</anchor>
-      <arglist>(const HBounds &amp;hbounds1, const HBounds &amp;hbounds2, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsLaneEndEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>ab6e024949cc30d5c19fb642cedc4d951</anchor>
-      <arglist>(const LaneEnd &amp;lane_end1, const LaneEnd &amp;lane_end2)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -6279,17 +5989,6 @@
     <namespace>maliput::geometry_base::test</namespace>
   </compound>
   <compound kind="file">
-    <name>mock_math.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/test_utilities/</path>
-    <filename>mock__math_8h.html</filename>
-    <includes id="bounding__box_8h" name="bounding_box.h" local="yes" imported="no">maliput/math/bounding_box.h</includes>
-    <includes id="overlapping__type_8h" name="overlapping_type.h" local="yes" imported="no">maliput/math/overlapping_type.h</includes>
-    <class kind="class">maliput::math::test::MockBoundingRegion</class>
-    <namespace>maliput</namespace>
-    <namespace>maliput::math</namespace>
-    <namespace>maliput::math::test</namespace>
-  </compound>
-  <compound kind="file">
     <name>model_values.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
     <filename>model__values_8cc.html</filename>
@@ -6812,116 +6511,6 @@
     <namespace>maliput</namespace>
   </compound>
   <compound kind="file">
-    <name>phases_compare.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/test_utilities/</path>
-    <filename>phases__compare_8cc.html</filename>
-    <includes id="phases__compare_8h" name="phases_compare.h" local="yes" imported="no">maliput/test_utilities/phases_compare.h</includes>
-    <includes id="maliput__unused_8h" name="maliput_unused.h" local="yes" imported="no">maliput/common/maliput_unused.h</includes>
-    <includes id="rules__compare_8h" name="rules_compare.h" local="yes" imported="no">maliput/test_utilities/rules_compare.h</includes>
-    <includes id="rules__test__utilities_8h" name="rules_test_utilities.h" local="yes" imported="no">maliput/test_utilities/rules_test_utilities.h</includes>
-    <includes id="traffic__lights__compare_8h" name="traffic_lights_compare.h" local="yes" imported="no">maliput/test_utilities/traffic_lights_compare.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::api</namespace>
-    <namespace>maliput::api::rules</namespace>
-    <namespace>maliput::api::rules::test</namespace>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ae0b5f4db42632abd9627bbe9b7cf47dd</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const RuleStates &amp;a, const RuleStates &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a10225f2e24c3fe2c949532f7976a92ba</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; Rule::Id, DiscreteValueRule::DiscreteValue &gt; &amp;a, const std::unordered_map&lt; Rule::Id, DiscreteValueRule::DiscreteValue &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a9e0da5c969777a22258174c72ab212ac</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::optional&lt; BulbStates &gt; &amp;a, const std::optional&lt; BulbStates &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a98d1f1081b50cc521c37339bd6cadfb7</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const Phase &amp;a, const Phase &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>acfbff0e31229730b2d8e598b538b4287</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const PhaseRing::NextPhase &amp;a, const PhaseRing::NextPhase &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>acbfd30cb7ffacc8c0fe9e85967e1ed48</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; PhaseRing::NextPhase &gt; &amp;a, const std::vector&lt; PhaseRing::NextPhase &gt; &amp;b)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>phases_compare.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/test_utilities/</path>
-    <filename>phases__compare_8h.html</filename>
-    <includes id="api_2rules_2phase_8h" name="api/rules/phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
-    <includes id="phase__ring_8h" name="phase_ring.h" local="yes" imported="no">maliput/api/rules/phase_ring.h</includes>
-    <includes id="traffic__lights_8h" name="traffic_lights.h" local="yes" imported="no">maliput/api/rules/traffic_lights.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::api</namespace>
-    <namespace>maliput::api::rules</namespace>
-    <namespace>maliput::api::rules::test</namespace>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ae0b5f4db42632abd9627bbe9b7cf47dd</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const RuleStates &amp;a, const RuleStates &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a10225f2e24c3fe2c949532f7976a92ba</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; Rule::Id, DiscreteValueRule::DiscreteValue &gt; &amp;a, const std::unordered_map&lt; Rule::Id, DiscreteValueRule::DiscreteValue &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a9e0da5c969777a22258174c72ab212ac</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::optional&lt; BulbStates &gt; &amp;a, const std::optional&lt; BulbStates &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a98d1f1081b50cc521c37339bd6cadfb7</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const Phase &amp;a, const Phase &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>acfbff0e31229730b2d8e598b538b4287</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const PhaseRing::NextPhase &amp;a, const PhaseRing::NextPhase &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>acbfd30cb7ffacc8c0fe9e85967e1ed48</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; PhaseRing::NextPhase &gt; &amp;a, const std::vector&lt; PhaseRing::NextPhase &gt; &amp;b)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
     <name>piecewise_polynomial.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/common/trajectories/</path>
     <filename>piecewise__polynomial_8cc.html</filename>
@@ -7377,52 +6966,6 @@
       <anchorfile>namespacemaliput_1_1api.html</anchorfile>
       <anchor>a3da5b0c5446a7ad1183d09f99fbd2e61</anchor>
       <arglist>(const InertialPosition &amp;inertial_position, const std::vector&lt; LaneSRange &gt; &amp;lane_s_ranges, const RoadGeometry *road_geometry)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>regions_test_utilities.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/test_utilities/</path>
-    <filename>regions__test__utilities_8h.html</filename>
-    <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
-    <includes id="maliput__unused_8h" name="maliput_unused.h" local="yes" imported="no">maliput/common/maliput_unused.h</includes>
-    <includes id="rules__test__utilities_8h" name="rules_test_utilities.h" local="yes" imported="no">maliput/test_utilities/rules_test_utilities.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::api</namespace>
-    <namespace>maliput::api::test</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_REGIONS_IS_EQUAL</name>
-      <anchorfile>regions__test__utilities_8h.html</anchorfile>
-      <anchor>afdb3861f11f9281c4cb0c5487c422696</anchor>
-      <arglist>(e1, e2)</arglist>
-    </member>
-    <member kind="function">
-      <type>inline ::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>a10c00bb5277f56b63c89a8e1c355308c</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const SRange &amp;a, const SRange &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>inline ::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>a3e8f79a73402bc9818b3bbc2b441ee23</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const LaneSRange &amp;a, const LaneSRange &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>inline ::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>aff0677cb391b10e92949867d10a3d919</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; LaneSRange &gt; &amp;a, const std::vector&lt; LaneSRange &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>inline ::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>a911cc5af9a42b9fd9d03626b3d18dfcf</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const LaneSRoute &amp;a, const LaneSRoute &amp;b)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -8203,435 +7746,6 @@
       <anchorfile>namespacemaliput.html</anchorfile>
       <anchor>a07de48c35e49e183caf5ad6580b4d0d5</anchor>
       <arglist>(const maliput::api::rules::DiscreteValueRule &amp;discrete_value_rule, const maliput::api::rules::DiscreteValueRuleStateProvider *state_provider)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>rules_compare.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/test_utilities/</path>
-    <filename>rules__compare_8cc.html</filename>
-    <includes id="rules__compare_8h" name="rules_compare.h" local="yes" imported="no">maliput/test_utilities/rules_compare.h</includes>
-    <includes id="maliput__unused_8h" name="maliput_unused.h" local="yes" imported="no">maliput/common/maliput_unused.h</includes>
-    <includes id="regions__test__utilities_8h" name="regions_test_utilities.h" local="yes" imported="no">maliput/test_utilities/regions_test_utilities.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::api</namespace>
-    <namespace>maliput::api::rules</namespace>
-    <namespace>maliput::api::rules::test</namespace>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a9942bf3fdbe3da50eaa477fbdaf929dc</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const DiscreteValueRule::DiscreteValue &amp;a, const DiscreteValueRule::DiscreteValue &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>aff6860634429ec555d539ff969203d58</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; DiscreteValueRule::DiscreteValue &gt; &amp;a, const std::vector&lt; DiscreteValueRule::DiscreteValue &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>af015f0e2d04fbb7a07d8bcc000fa613e</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::DiscreteValueRule &amp;a, const rules::DiscreteValueRule &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a694ce6d60749ebf84f308c1c816556a6</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::RangeValueRule::Range &amp;a, const rules::RangeValueRule::Range &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>aac495c9d9e141daa589256fe58850897</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; rules::RangeValueRule::Range &gt; &amp;a, const std::vector&lt; rules::RangeValueRule::Range &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ae3c8ba7e5bcf7ee368be6311e2f88b48</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::RangeValueRule &amp;a, const rules::RangeValueRule &amp;b)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>rules_compare.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/test_utilities/</path>
-    <filename>rules__compare_8h.html</filename>
-    <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
-    <includes id="range__value__rule_8h" name="range_value_rule.h" local="yes" imported="no">maliput/api/rules/range_value_rule.h</includes>
-    <includes id="rules__test__utilities_8h" name="rules_test_utilities.h" local="yes" imported="no">maliput/test_utilities/rules_test_utilities.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::api</namespace>
-    <namespace>maliput::api::rules</namespace>
-    <namespace>maliput::api::rules::test</namespace>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a694ce6d60749ebf84f308c1c816556a6</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::RangeValueRule::Range &amp;a, const rules::RangeValueRule::Range &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>aac495c9d9e141daa589256fe58850897</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; rules::RangeValueRule::Range &gt; &amp;a, const std::vector&lt; rules::RangeValueRule::Range &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ae3c8ba7e5bcf7ee368be6311e2f88b48</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::RangeValueRule &amp;a, const rules::RangeValueRule &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a9942bf3fdbe3da50eaa477fbdaf929dc</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const DiscreteValueRule::DiscreteValue &amp;a, const DiscreteValueRule::DiscreteValue &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>aff6860634429ec555d539ff969203d58</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; DiscreteValueRule::DiscreteValue &gt; &amp;a, const std::vector&lt; DiscreteValueRule::DiscreteValue &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>af015f0e2d04fbb7a07d8bcc000fa613e</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::DiscreteValueRule &amp;a, const rules::DiscreteValueRule &amp;b)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>rules_direction_usage_compare.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/test_utilities/</path>
-    <filename>rules__direction__usage__compare_8cc.html</filename>
-    <includes id="rules__direction__usage__compare_8h" name="rules_direction_usage_compare.h" local="yes" imported="no">maliput/test_utilities/rules_direction_usage_compare.h</includes>
-    <includes id="maliput__unused_8h" name="maliput_unused.h" local="yes" imported="no">maliput/common/maliput_unused.h</includes>
-    <includes id="regions__test__utilities_8h" name="regions_test_utilities.h" local="yes" imported="no">maliput/test_utilities/regions_test_utilities.h</includes>
-    <includes id="rules__test__utilities_8h" name="rules_test_utilities.h" local="yes" imported="no">maliput/test_utilities/rules_test_utilities.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::api</namespace>
-    <namespace>maliput::api::rules</namespace>
-    <namespace>maliput::api::rules::test</namespace>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a93f203fb41200ab9e61603d99918ce5d</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, rules::DirectionUsageRule::State::Type a, rules::DirectionUsageRule::State::Type b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a17ef20aa79556f0e8baa9f92e047bf2b</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, rules::DirectionUsageRule::State::Severity a, rules::DirectionUsageRule::State::Severity b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>aa2dfb3db9c1f188cbe3c8fa97a4287a7</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::DirectionUsageRule::State &amp;a, const rules::DirectionUsageRule::State &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a1b72495a43f496c01170d26002c97cbf</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; rules::DirectionUsageRule::State::Id, rules::DirectionUsageRule::State &gt; &amp;a, const std::unordered_map&lt; rules::DirectionUsageRule::State::Id, rules::DirectionUsageRule::State &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a6689b29590181c982058bea99d2c69d4</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::DirectionUsageRule &amp;a, const rules::DirectionUsageRule &amp;b)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>rules_direction_usage_compare.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/test_utilities/</path>
-    <filename>rules__direction__usage__compare_8h.html</filename>
-    <includes id="direction__usage__rule_8h" name="direction_usage_rule.h" local="yes" imported="no">maliput/api/rules/direction_usage_rule.h</includes>
-    <includes id="rules__test__utilities_8h" name="rules_test_utilities.h" local="yes" imported="no">maliput/test_utilities/rules_test_utilities.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::api</namespace>
-    <namespace>maliput::api::rules</namespace>
-    <namespace>maliput::api::rules::test</namespace>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a9293324947038dd9ba5d6a121b3d00ed</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, DirectionUsageRule::State::Type a, DirectionUsageRule::State::Type b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>aa7aeeadd885568951bbf9a612ae5abd9</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, DirectionUsageRule::State::Severity a, DirectionUsageRule::State::Severity b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a50f4bbed6271b6ce869186b6bc5d8f4e</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const DirectionUsageRule::State &amp;a, const DirectionUsageRule::State &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>aad8c9ac0766d9fb9b17873506d0cdc99</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; DirectionUsageRule::State::Id, DirectionUsageRule::State &gt; &amp;a, const std::unordered_map&lt; DirectionUsageRule::State::Id, DirectionUsageRule::State &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ad69b644674595f247dd119d12253ce41</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const DirectionUsageRule &amp;a, const DirectionUsageRule &amp;b)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>rules_right_of_way_compare.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/test_utilities/</path>
-    <filename>rules__right__of__way__compare_8cc.html</filename>
-    <includes id="rules__right__of__way__compare_8h" name="rules_right_of_way_compare.h" local="yes" imported="no">maliput/test_utilities/rules_right_of_way_compare.h</includes>
-    <includes id="maliput__unused_8h" name="maliput_unused.h" local="yes" imported="no">maliput/common/maliput_unused.h</includes>
-    <includes id="regions__test__utilities_8h" name="regions_test_utilities.h" local="yes" imported="no">maliput/test_utilities/regions_test_utilities.h</includes>
-    <includes id="rules__test__utilities_8h" name="rules_test_utilities.h" local="yes" imported="no">maliput/test_utilities/rules_test_utilities.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::api</namespace>
-    <namespace>maliput::api::rules</namespace>
-    <namespace>maliput::api::rules::test</namespace>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a173b4628a2328cc86660cf9033860ded</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, rules::RightOfWayRule::ZoneType a, rules::RightOfWayRule::ZoneType b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a3f47005018c7db3e94b777004a705792</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, rules::RightOfWayRule::State::Type a, rules::RightOfWayRule::State::Type b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a914fdbc555b96a2ddf32319d92959232</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; rules::RightOfWayRule::Id &gt; &amp;a, const std::vector&lt; rules::RightOfWayRule::Id &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a2d300c7ba8e56cf43df127a48a46be58</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::RightOfWayRule::State &amp;a, const rules::RightOfWayRule::State &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a40bc2c0a1aa5d79b22099481a39a5db9</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; rules::RightOfWayRule::State::Id, rules::RightOfWayRule::State &gt; &amp;a, const std::unordered_map&lt; rules::RightOfWayRule::State::Id, rules::RightOfWayRule::State &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>aef9bf12902571cf1ba34c35a362d71ef</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; TrafficLight::Id, std::vector&lt; BulbGroup::Id &gt;&gt; &amp;a, const std::unordered_map&lt; TrafficLight::Id, std::vector&lt; BulbGroup::Id &gt;&gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ad1c40e4b02fe810e0428f5e5925f2cd7</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::RightOfWayRule &amp;a, const rules::RightOfWayRule &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a639a003094b7b94c72d5ecfdfc3b657f</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::RightOfWayRuleStateProvider::RightOfWayResult &amp;a, const rules::RightOfWayRuleStateProvider::RightOfWayResult &amp;b)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>rules_right_of_way_compare.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/test_utilities/</path>
-    <filename>rules__right__of__way__compare_8h.html</filename>
-    <includes id="right__of__way__rule_8h" name="right_of_way_rule.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule.h</includes>
-    <includes id="right__of__way__rule__state__provider_8h" name="right_of_way_rule_state_provider.h" local="yes" imported="no">maliput/api/rules/right_of_way_rule_state_provider.h</includes>
-    <includes id="rules__test__utilities_8h" name="rules_test_utilities.h" local="yes" imported="no">maliput/test_utilities/rules_test_utilities.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::api</namespace>
-    <namespace>maliput::api::rules</namespace>
-    <namespace>maliput::api::rules::test</namespace>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a173b4628a2328cc86660cf9033860ded</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, rules::RightOfWayRule::ZoneType a, rules::RightOfWayRule::ZoneType b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a3f47005018c7db3e94b777004a705792</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, rules::RightOfWayRule::State::Type a, rules::RightOfWayRule::State::Type b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a2d300c7ba8e56cf43df127a48a46be58</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::RightOfWayRule::State &amp;a, const rules::RightOfWayRule::State &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>aef9bf12902571cf1ba34c35a362d71ef</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; TrafficLight::Id, std::vector&lt; BulbGroup::Id &gt;&gt; &amp;a, const std::unordered_map&lt; TrafficLight::Id, std::vector&lt; BulbGroup::Id &gt;&gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ad1c40e4b02fe810e0428f5e5925f2cd7</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::RightOfWayRule &amp;a, const rules::RightOfWayRule &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a639a003094b7b94c72d5ecfdfc3b657f</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::RightOfWayRuleStateProvider::RightOfWayResult &amp;a, const rules::RightOfWayRuleStateProvider::RightOfWayResult &amp;b)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>rules_speed_limit_compare.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/test_utilities/</path>
-    <filename>rules__speed__limit__compare_8cc.html</filename>
-    <includes id="rules__speed__limit__compare_8h" name="rules_speed_limit_compare.h" local="yes" imported="no">maliput/test_utilities/rules_speed_limit_compare.h</includes>
-    <includes id="maliput__unused_8h" name="maliput_unused.h" local="yes" imported="no">maliput/common/maliput_unused.h</includes>
-    <includes id="regions__test__utilities_8h" name="regions_test_utilities.h" local="yes" imported="no">maliput/test_utilities/regions_test_utilities.h</includes>
-    <includes id="rules__test__utilities_8h" name="rules_test_utilities.h" local="yes" imported="no">maliput/test_utilities/rules_test_utilities.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::api</namespace>
-    <namespace>maliput::api::rules</namespace>
-    <namespace>maliput::api::rules::test</namespace>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a5c3336e9404a2083a28bafa002176972</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, rules::SpeedLimitRule::Severity a, rules::SpeedLimitRule::Severity b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>aa31442b348dd384a3169184171d4f65c</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::SpeedLimitRule &amp;a, const rules::SpeedLimitRule &amp;b)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>rules_speed_limit_compare.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/test_utilities/</path>
-    <filename>rules__speed__limit__compare_8h.html</filename>
-    <includes id="speed__limit__rule_8h" name="speed_limit_rule.h" local="yes" imported="no">maliput/api/rules/speed_limit_rule.h</includes>
-    <includes id="rules__test__utilities_8h" name="rules_test_utilities.h" local="yes" imported="no">maliput/test_utilities/rules_test_utilities.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::api</namespace>
-    <namespace>maliput::api::rules</namespace>
-    <namespace>maliput::api::rules::test</namespace>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a5c3336e9404a2083a28bafa002176972</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, rules::SpeedLimitRule::Severity a, rules::SpeedLimitRule::Severity b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>aa31442b348dd384a3169184171d4f65c</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::SpeedLimitRule &amp;a, const rules::SpeedLimitRule &amp;b)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>rules_test_utilities.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/test_utilities/</path>
-    <filename>rules__test__utilities_8h.html</filename>
-    <class kind="class">maliput::api::rules::test::AssertionResultCollector</class>
-    <namespace>maliput</namespace>
-    <namespace>maliput::api</namespace>
-    <namespace>maliput::api::rules</namespace>
-    <namespace>maliput::api::rules::test</namespace>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_ADD_RESULT</name>
-      <anchorfile>rules__test__utilities_8h.html</anchorfile>
-      <anchor>a4c8aad0ea6a1093783ef9174c9231b63</anchor>
-      <arglist>(collector, result)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_IS_EQUAL</name>
-      <anchorfile>rules__test__utilities_8h.html</anchorfile>
-      <anchor>ae4648d2bda657b20301a26ba78e1ec21</anchor>
-      <arglist>(e1, e2)</arglist>
-    </member>
-    <member kind="function">
-      <type>inline ::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ada17989e3f6c7d5d61841e06f0ad8501</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const double &amp;a, const double &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>inline ::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a15566664032d5d698406705545919afe</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const TypeSpecificIdentifier&lt; T &gt; &amp;a, const TypeSpecificIdentifier&lt; T &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>inline ::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a1137b3fab4b4d49023a5106467757224</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const InertialPosition &amp;a, const InertialPosition &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>inline ::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a43658c05e205d0351fb8a48a61693fa1</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const Rotation &amp;a, const Rotation &amp;b)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -9592,154 +8706,6 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>traffic_lights_compare.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/test_utilities/</path>
-    <filename>traffic__lights__compare_8cc.html</filename>
-    <includes id="traffic__lights__compare_8h" name="traffic_lights_compare.h" local="yes" imported="no">maliput/test_utilities/traffic_lights_compare.h</includes>
-    <includes id="maliput__unused_8h" name="maliput_unused.h" local="yes" imported="no">maliput/common/maliput_unused.h</includes>
-    <includes id="rules__test__utilities_8h" name="rules_test_utilities.h" local="yes" imported="no">maliput/test_utilities/rules_test_utilities.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::api</namespace>
-    <namespace>maliput::api::rules</namespace>
-    <namespace>maliput::api::rules::test</namespace>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a089610aca46476265341a0a509f10363</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const BulbColor &amp;a, const BulbColor &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ad245148f099679c99edf657edbda9550</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const BulbType &amp;a, const BulbType &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ac9027bfbb0776243111cf23f5b85332a</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const BulbState &amp;a, const BulbState &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>af8135f720dab102ce2dcfb3fd96db38b</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::optional&lt; double &gt; &amp;a, const std::optional&lt; double &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a1af34431b57d0e4537e3a7cd0240d219</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const Bulb::BoundingBox &amp;a, const Bulb::BoundingBox &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>abf4ea573629a953745db7955fe11dcff</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const Bulb *a, const Bulb *b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a4560fca9b6f2d4fe9f7ee489c0849504</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; const Bulb * &gt; &amp;a, const std::vector&lt; const Bulb * &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a20280b181803546e349d18c30578ca6c</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const BulbGroup *a, const BulbGroup *b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>aab4fb0526fe8cd64e5df47a40963f93e</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const TrafficLight *a, const TrafficLight *b)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>traffic_lights_compare.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/test_utilities/</path>
-    <filename>traffic__lights__compare_8h.html</filename>
-    <includes id="traffic__lights_8h" name="traffic_lights.h" local="yes" imported="no">maliput/api/rules/traffic_lights.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::api</namespace>
-    <namespace>maliput::api::rules</namespace>
-    <namespace>maliput::api::rules::test</namespace>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a089610aca46476265341a0a509f10363</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const BulbColor &amp;a, const BulbColor &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ad245148f099679c99edf657edbda9550</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const BulbType &amp;a, const BulbType &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ac9027bfbb0776243111cf23f5b85332a</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const BulbState &amp;a, const BulbState &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>af8135f720dab102ce2dcfb3fd96db38b</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::optional&lt; double &gt; &amp;a, const std::optional&lt; double &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a1af34431b57d0e4537e3a7cd0240d219</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const Bulb::BoundingBox &amp;a, const Bulb::BoundingBox &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>abf4ea573629a953745db7955fe11dcff</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const Bulb *a, const Bulb *b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a4560fca9b6f2d4fe9f7ee489c0849504</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; const Bulb * &gt; &amp;a, const std::vector&lt; const Bulb * &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a20280b181803546e349d18c30578ca6c</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const BulbGroup *a, const BulbGroup *b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>aab4fb0526fe8cd64e5df47a40963f93e</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const TrafficLight *a, const TrafficLight *b)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
     <name>trajectory.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/common/trajectories/</path>
     <filename>trajectory_8cc.html</filename>
@@ -10694,45 +9660,6 @@
       <anchorfile>classmaliput_1_1drake_1_1internal_1_1assertion__error.html</anchorfile>
       <anchor>af0792e36977188b6a3000f3160b0d71a</anchor>
       <arglist>(const std::string &amp;what_arg)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::api::rules::test::AssertionResultCollector</name>
-    <filename>classmaliput_1_1api_1_1rules_1_1test_1_1_assertion_result_collector.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>AssertionResultCollector</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1test_1_1_assertion_result_collector.html</anchorfile>
-      <anchor>ad745dfe8113cdbd22c65a7216551d3cf</anchor>
-      <arglist>()=default</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AddResult</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1test_1_1_assertion_result_collector.html</anchorfile>
-      <anchor>a5aa7c8c90c7633b749f6fbbb045ec962</anchor>
-      <arglist>(const char *filename, int line, const char *expression, ::testing::AssertionResult result)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>result</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1test_1_1_assertion_result_collector.html</anchorfile>
-      <anchor>ac91e20428359698df7e1e18ea2dfa758</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>count</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1test_1_1_assertion_result_collector.html</anchorfile>
-      <anchor>a0e2c15c517007b91c37b2aa68bf2484a</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>failed</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1test_1_1_assertion_result_collector.html</anchorfile>
-      <anchor>aa1e9f07e547f38d788c2ef88ef6f95b1</anchor>
-      <arglist>() const</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -17594,17 +16521,6 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>maliput::utility::mesh::GeoNormal::Equiv</name>
-    <filename>structmaliput_1_1utility_1_1mesh_1_1_geo_normal_1_1_equiv.html</filename>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator()</name>
-      <anchorfile>structmaliput_1_1utility_1_1mesh_1_1_geo_normal_1_1_equiv.html</anchorfile>
-      <anchor>ab9ec50cf649a244595032a030685165d</anchor>
-      <arglist>(const GeoNormal &amp;lhs, const GeoNormal &amp;rhs) const</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
     <name>maliput::utility::mesh::GeoVertex::Equiv</name>
     <filename>structmaliput_1_1utility_1_1mesh_1_1_geo_vertex_1_1_equiv.html</filename>
     <member kind="function">
@@ -17613,6 +16529,17 @@
       <anchorfile>structmaliput_1_1utility_1_1mesh_1_1_geo_vertex_1_1_equiv.html</anchorfile>
       <anchor>aa20749a63ed2c77f495b32fe4118b5ac</anchor>
       <arglist>(const GeoVertex &amp;lhs, const GeoVertex &amp;rhs) const</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput::utility::mesh::GeoNormal::Equiv</name>
+    <filename>structmaliput_1_1utility_1_1mesh_1_1_geo_normal_1_1_equiv.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator()</name>
+      <anchorfile>structmaliput_1_1utility_1_1mesh_1_1_geo_normal_1_1_equiv.html</anchorfile>
+      <anchor>ab9ec50cf649a244595032a030685165d</anchor>
+      <arglist>(const GeoNormal &amp;lhs, const GeoNormal &amp;rhs) const</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -23908,32 +22835,6 @@
       <anchorfile>classmaliput_1_1math_1_1_matrix.html</anchorfile>
       <anchor>aed2210a0b4ebd59a78b6e7a74166161c</anchor>
       <arglist>(std::ostream &amp;os, const Matrix&lt; N_ &gt; &amp;matrix)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::math::test::MockBoundingRegion</name>
-    <filename>classmaliput_1_1math_1_1test_1_1_mock_bounding_region.html</filename>
-    <base>BoundingRegion&lt; Vector3 &gt;</base>
-    <member kind="function">
-      <type></type>
-      <name>MOCK_METHOD</name>
-      <anchorfile>classmaliput_1_1math_1_1test_1_1_mock_bounding_region.html</anchorfile>
-      <anchor>adab7f03d4a96f5b41e2ffbf086dbff81</anchor>
-      <arglist>((const Vector3 &amp;), do_position,(),(const, override))</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MOCK_METHOD</name>
-      <anchorfile>classmaliput_1_1math_1_1test_1_1_mock_bounding_region.html</anchorfile>
-      <anchor>a57d29c02cb122bcc9cd554a7ed461f45</anchor>
-      <arglist>((bool), DoContains,(const Vector3 &amp;),(const, override))</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MOCK_METHOD</name>
-      <anchorfile>classmaliput_1_1math_1_1test_1_1_mock_bounding_region.html</anchorfile>
-      <anchor>a38b321b0b4a36de9c9ee2da5f3a411ec</anchor>
-      <arglist>((OverlappingType), DoOverlaps,(const BoundingRegion&lt; Vector3 &gt; &amp;),(const, override))</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -30793,6 +29694,94 @@
       <arglist>(const api::Lane *lane) const</arglist>
     </member>
   </compound>
+  <compound kind="struct">
+    <name>maliput::api::rules::Rule::State</name>
+    <filename>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a8099d9c527beab7a18bdcf3c3ef34eb1</anchor>
+      <arglist>(State)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>State</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a7662f55909d581100da5f988e7ea2456</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>State</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>aab4deb190b9e4be395e15fb3010ba37e</anchor>
+      <arglist>(int severity, RelatedRules related_rules, RelatedUniqueIds related_unique_ids)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a43ebf34661d7d17c4e53b5ccce1ffa73</anchor>
+      <arglist>(const State &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a6320a38f2831ff6cf9e1fae30ffffafb</anchor>
+      <arglist>(const State &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>int</type>
+      <name>severity</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a118a118c0d99574666955efdf97068b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>RelatedRules</type>
+      <name>related_rules</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a8d16d861c6500bfa36e16435c7e0c51f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>RelatedUniqueIds</type>
+      <name>related_unique_ids</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a3225914ff640ebeb69cb7e57ed7fb2c4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr int</type>
+      <name>kStrict</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>ae723a76a2f38404bb7341f2c1ffd890a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr int</type>
+      <name>kBestEffort</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a7f1130b023df6bd64569f4bd8af34f5d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr int</type>
+      <name>kStrict</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>ae723a76a2f38404bb7341f2c1ffd890a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr int</type>
+      <name>kBestEffort</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a7f1130b023df6bd64569f4bd8af34f5d</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
   <compound kind="class">
     <name>maliput::drake::systems::State</name>
     <filename>classmaliput_1_1drake_1_1systems_1_1_state.html</filename>
@@ -30922,94 +29911,6 @@
       <anchorfile>classmaliput_1_1drake_1_1systems_1_1_state.html</anchorfile>
       <anchor>a3965cbaa8df39799338ac0838f8306a7</anchor>
       <arglist>(internal::SystemId id)</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>maliput::api::rules::Rule::State</name>
-    <filename>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a8099d9c527beab7a18bdcf3c3ef34eb1</anchor>
-      <arglist>(State)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>State</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a7662f55909d581100da5f988e7ea2456</anchor>
-      <arglist>()=default</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>State</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>aab4deb190b9e4be395e15fb3010ba37e</anchor>
-      <arglist>(int severity, RelatedRules related_rules, RelatedUniqueIds related_unique_ids)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a43ebf34661d7d17c4e53b5ccce1ffa73</anchor>
-      <arglist>(const State &amp;other) const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator!=</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a6320a38f2831ff6cf9e1fae30ffffafb</anchor>
-      <arglist>(const State &amp;other) const</arglist>
-    </member>
-    <member kind="variable">
-      <type>int</type>
-      <name>severity</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a118a118c0d99574666955efdf97068b0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>RelatedRules</type>
-      <name>related_rules</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a8d16d861c6500bfa36e16435c7e0c51f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>RelatedUniqueIds</type>
-      <name>related_unique_ids</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a3225914ff640ebeb69cb7e57ed7fb2c4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr int</type>
-      <name>kStrict</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>ae723a76a2f38404bb7341f2c1ffd890a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr int</type>
-      <name>kBestEffort</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a7f1130b023df6bd64569f4bd8af34f5d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr int</type>
-      <name>kStrict</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>ae723a76a2f38404bb7341f2c1ffd890a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr int</type>
-      <name>kBestEffort</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a7f1130b023df6bd64569f4bd8af34f5d</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -40034,7 +38935,6 @@
     <namespace>maliput::math</namespace>
     <namespace>maliput::plugin</namespace>
     <namespace>maliput::routing</namespace>
-    <namespace>maliput::test</namespace>
     <namespace>maliput::utility</namespace>
     <class kind="struct">maliput::DiscreteValueRuleConstants</class>
     <class kind="class">maliput::Intersection</class>
@@ -40638,7 +39538,6 @@
   <compound kind="namespace">
     <name>maliput::api::rules</name>
     <filename>namespacemaliput_1_1api_1_1rules.html</filename>
-    <namespace>maliput::api::rules::test</namespace>
     <class kind="class">maliput::api::rules::Bulb</class>
     <class kind="class">maliput::api::rules::BulbGroup</class>
     <class kind="class">maliput::api::rules::DiscreteValueRule</class>
@@ -41080,333 +39979,6 @@
     </member>
   </compound>
   <compound kind="namespace">
-    <name>maliput::api::rules::test</name>
-    <filename>namespacemaliput_1_1api_1_1rules_1_1test.html</filename>
-    <class kind="class">maliput::api::rules::test::AssertionResultCollector</class>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ae0b5f4db42632abd9627bbe9b7cf47dd</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const RuleStates &amp;a, const RuleStates &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a10225f2e24c3fe2c949532f7976a92ba</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; Rule::Id, DiscreteValueRule::DiscreteValue &gt; &amp;a, const std::unordered_map&lt; Rule::Id, DiscreteValueRule::DiscreteValue &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a9e0da5c969777a22258174c72ab212ac</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::optional&lt; BulbStates &gt; &amp;a, const std::optional&lt; BulbStates &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a98d1f1081b50cc521c37339bd6cadfb7</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const Phase &amp;a, const Phase &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>acfbff0e31229730b2d8e598b538b4287</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const PhaseRing::NextPhase &amp;a, const PhaseRing::NextPhase &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>acbfd30cb7ffacc8c0fe9e85967e1ed48</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; PhaseRing::NextPhase &gt; &amp;a, const std::vector&lt; PhaseRing::NextPhase &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a694ce6d60749ebf84f308c1c816556a6</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::RangeValueRule::Range &amp;a, const rules::RangeValueRule::Range &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>aac495c9d9e141daa589256fe58850897</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; rules::RangeValueRule::Range &gt; &amp;a, const std::vector&lt; rules::RangeValueRule::Range &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ae3c8ba7e5bcf7ee368be6311e2f88b48</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::RangeValueRule &amp;a, const rules::RangeValueRule &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a9942bf3fdbe3da50eaa477fbdaf929dc</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const DiscreteValueRule::DiscreteValue &amp;a, const DiscreteValueRule::DiscreteValue &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>aff6860634429ec555d539ff969203d58</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; DiscreteValueRule::DiscreteValue &gt; &amp;a, const std::vector&lt; DiscreteValueRule::DiscreteValue &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>af015f0e2d04fbb7a07d8bcc000fa613e</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::DiscreteValueRule &amp;a, const rules::DiscreteValueRule &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a9293324947038dd9ba5d6a121b3d00ed</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, DirectionUsageRule::State::Type a, DirectionUsageRule::State::Type b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>aa7aeeadd885568951bbf9a612ae5abd9</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, DirectionUsageRule::State::Severity a, DirectionUsageRule::State::Severity b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a50f4bbed6271b6ce869186b6bc5d8f4e</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const DirectionUsageRule::State &amp;a, const DirectionUsageRule::State &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>aad8c9ac0766d9fb9b17873506d0cdc99</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; DirectionUsageRule::State::Id, DirectionUsageRule::State &gt; &amp;a, const std::unordered_map&lt; DirectionUsageRule::State::Id, DirectionUsageRule::State &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ad69b644674595f247dd119d12253ce41</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const DirectionUsageRule &amp;a, const DirectionUsageRule &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a173b4628a2328cc86660cf9033860ded</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, rules::RightOfWayRule::ZoneType a, rules::RightOfWayRule::ZoneType b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a3f47005018c7db3e94b777004a705792</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, rules::RightOfWayRule::State::Type a, rules::RightOfWayRule::State::Type b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a2d300c7ba8e56cf43df127a48a46be58</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::RightOfWayRule::State &amp;a, const rules::RightOfWayRule::State &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>aef9bf12902571cf1ba34c35a362d71ef</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; TrafficLight::Id, std::vector&lt; BulbGroup::Id &gt;&gt; &amp;a, const std::unordered_map&lt; TrafficLight::Id, std::vector&lt; BulbGroup::Id &gt;&gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ad1c40e4b02fe810e0428f5e5925f2cd7</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::RightOfWayRule &amp;a, const rules::RightOfWayRule &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a639a003094b7b94c72d5ecfdfc3b657f</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::RightOfWayRuleStateProvider::RightOfWayResult &amp;a, const rules::RightOfWayRuleStateProvider::RightOfWayResult &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a5c3336e9404a2083a28bafa002176972</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, rules::SpeedLimitRule::Severity a, rules::SpeedLimitRule::Severity b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>aa31442b348dd384a3169184171d4f65c</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::SpeedLimitRule &amp;a, const rules::SpeedLimitRule &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>inline ::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ada17989e3f6c7d5d61841e06f0ad8501</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const double &amp;a, const double &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>inline ::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a15566664032d5d698406705545919afe</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const TypeSpecificIdentifier&lt; T &gt; &amp;a, const TypeSpecificIdentifier&lt; T &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>inline ::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a1137b3fab4b4d49023a5106467757224</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const InertialPosition &amp;a, const InertialPosition &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>inline ::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a43658c05e205d0351fb8a48a61693fa1</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const Rotation &amp;a, const Rotation &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a089610aca46476265341a0a509f10363</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const BulbColor &amp;a, const BulbColor &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ad245148f099679c99edf657edbda9550</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const BulbType &amp;a, const BulbType &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>ac9027bfbb0776243111cf23f5b85332a</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const BulbState &amp;a, const BulbState &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>af8135f720dab102ce2dcfb3fd96db38b</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::optional&lt; double &gt; &amp;a, const std::optional&lt; double &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a1af34431b57d0e4537e3a7cd0240d219</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const Bulb::BoundingBox &amp;a, const Bulb::BoundingBox &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>abf4ea573629a953745db7955fe11dcff</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const Bulb *a, const Bulb *b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a4560fca9b6f2d4fe9f7ee489c0849504</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; const Bulb * &gt; &amp;a, const std::vector&lt; const Bulb * &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a20280b181803546e349d18c30578ca6c</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const BulbGroup *a, const BulbGroup *b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>aab4fb0526fe8cd64e5df47a40963f93e</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const TrafficLight *a, const TrafficLight *b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a20a66b220a5b178a2b0e73a4dfe75b66</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const T *a, const T *b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a93f203fb41200ab9e61603d99918ce5d</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, rules::DirectionUsageRule::State::Type a, rules::DirectionUsageRule::State::Type b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a17ef20aa79556f0e8baa9f92e047bf2b</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, rules::DirectionUsageRule::State::Severity a, rules::DirectionUsageRule::State::Severity b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>aa2dfb3db9c1f188cbe3c8fa97a4287a7</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::DirectionUsageRule::State &amp;a, const rules::DirectionUsageRule::State &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a1b72495a43f496c01170d26002c97cbf</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; rules::DirectionUsageRule::State::Id, rules::DirectionUsageRule::State &gt; &amp;a, const std::unordered_map&lt; rules::DirectionUsageRule::State::Id, rules::DirectionUsageRule::State &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a6689b29590181c982058bea99d2c69d4</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const rules::DirectionUsageRule &amp;a, const rules::DirectionUsageRule &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a914fdbc555b96a2ddf32319d92959232</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; rules::RightOfWayRule::Id &gt; &amp;a, const std::vector&lt; rules::RightOfWayRule::Id &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1rules_1_1test.html</anchorfile>
-      <anchor>a40bc2c0a1aa5d79b22099481a39a5db9</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::unordered_map&lt; rules::RightOfWayRule::State::Id, rules::RightOfWayRule::State &gt; &amp;a, const std::unordered_map&lt; rules::RightOfWayRule::State::Id, rules::RightOfWayRule::State &gt; &amp;b)</arglist>
-    </member>
-  </compound>
-  <compound kind="namespace">
     <name>maliput::api::test</name>
     <filename>namespacemaliput_1_1api_1_1test.html</filename>
     <class kind="class">maliput::api::test::MockBranchPoint</class>
@@ -41427,69 +39999,6 @@
     <class kind="struct">maliput::api::test::RoadRulebookRelatedRulesBuildFlags</class>
     <class kind="struct">maliput::api::test::TrafficLightBookBuildFlags</class>
     <class kind="struct">maliput::api::test::TrafficLightBuildFlags</class>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>CheckIdIndexing</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>a7a4f81af920cae075af5641d1893e3a9</anchor>
-      <arglist>(const RoadGeometry *road_geometry)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsLanePositionResultClose</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>ab0d59df7ce188decf48935abbbabfec9</anchor>
-      <arglist>(const LanePositionResult &amp;lpr_a, const LanePositionResult &amp;lpr_b, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>testing::AssertionResult</type>
-      <name>IsRoadPositionResultClose</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>a950f33f9be84000419605fccd0e4d5cd</anchor>
-      <arglist>(const maliput::api::RoadPositionResult &amp;rpr_a, const maliput::api::RoadPositionResult &amp;rpr_b, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsInertialPositionClose</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>ad75f1beb16c03ecd00f80ce63daf02a1</anchor>
-      <arglist>(const InertialPosition &amp;pos1, const InertialPosition &amp;pos2, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsLanePositionClose</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>ab9ad5cb8b2c36172fa72538ccdef0c7d</anchor>
-      <arglist>(const LanePosition &amp;pos1, const LanePosition &amp;pos2, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsRotationClose</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>a4f915921ea7a17ff176e2f78a1389f81</anchor>
-      <arglist>(const Rotation &amp;rot1, const Rotation &amp;rot2, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsRBoundsClose</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>a604e2d7a228c8cedfa589540747e25f1</anchor>
-      <arglist>(const RBounds &amp;rbounds1, const RBounds &amp;rbounds2, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsHBoundsClose</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>a07a29591c901e0f22f51706a1cc2ee84</anchor>
-      <arglist>(const HBounds &amp;hbounds1, const HBounds &amp;hbounds2, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsLaneEndEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>ab6e024949cc30d5c19fb642cedc4d951</anchor>
-      <arglist>(const LaneEnd &amp;lane_end1, const LaneEnd &amp;lane_end2)</arglist>
-    </member>
     <member kind="function">
       <type>LaneSRoute</type>
       <name>CreateLaneSRoute</name>
@@ -41832,34 +40341,6 @@
       <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
       <anchor>aadea518f62326e52e4db3968cdb2398f</anchor>
       <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>inline ::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>a10c00bb5277f56b63c89a8e1c355308c</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const SRange &amp;a, const SRange &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>inline ::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>a3e8f79a73402bc9818b3bbc2b441ee23</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const LaneSRange &amp;a, const LaneSRange &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>inline ::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>aff0677cb391b10e92949867d10a3d919</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const std::vector&lt; LaneSRange &gt; &amp;a, const std::vector&lt; LaneSRange &gt; &amp;b)</arglist>
-    </member>
-    <member kind="function">
-      <type>inline ::testing::AssertionResult</type>
-      <name>IsEqual</name>
-      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
-      <anchor>a911cc5af9a42b9fd9d03626b3d18dfcf</anchor>
-      <arglist>(const char *a_expression, const char *b_expression, const LaneSRoute &amp;a, const LaneSRoute &amp;b)</arglist>
     </member>
     <member kind="function">
       <type>DiscreteValueRule</type>
@@ -43618,7 +42099,6 @@
     <name>maliput::math</name>
     <filename>namespacemaliput_1_1math.html</filename>
     <namespace>maliput::math::details</namespace>
-    <namespace>maliput::math::test</namespace>
     <class kind="class">maliput::math::AxisAlignedBox</class>
     <class kind="class">maliput::math::BoundingBox</class>
     <class kind="class">maliput::math::BoundingRegion</class>
@@ -44018,34 +42498,6 @@
     </member>
   </compound>
   <compound kind="namespace">
-    <name>maliput::math::test</name>
-    <filename>namespacemaliput_1_1math_1_1test.html</filename>
-    <class kind="class">maliput::math::test::MockBoundingRegion</class>
-    <member kind="enumeration">
-      <type></type>
-      <name>CompareType</name>
-      <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>afbc5396d9a88c41d6aeb522b9f06f426</anchor>
-      <arglist></arglist>
-      <enumvalue file="namespacemaliput_1_1math_1_1test.html" anchor="afbc5396d9a88c41d6aeb522b9f06f426abab0767e88027de9944aa55c24c8387a">kAbsolute</enumvalue>
-      <enumvalue file="namespacemaliput_1_1math_1_1test.html" anchor="afbc5396d9a88c41d6aeb522b9f06f426af460a96ab20647996c15854794763384">kRelative</enumvalue>
-    </member>
-    <member kind="function">
-      <type>testing::AssertionResult</type>
-      <name>CompareVectors</name>
-      <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>a01c88aed5bc87c60290e8bf68222d5e8</anchor>
-      <arglist>(const math::VectorBase&lt; N, Derived &gt; &amp;v1, const math::VectorBase&lt; N, Derived &gt; &amp;v2, double tolerance=0.0, CompareType compare_type=CompareType::kAbsolute)</arglist>
-    </member>
-    <member kind="function">
-      <type>testing::AssertionResult</type>
-      <name>CompareMatrices</name>
-      <anchorfile>namespacemaliput_1_1math_1_1test.html</anchorfile>
-      <anchor>ade5f658726dea18b7e094ac499ece140</anchor>
-      <arglist>(const math::Matrix&lt; N &gt; &amp;m1, const math::Matrix&lt; N &gt; &amp;m2, double tolerance=0.0, CompareType compare_type=CompareType::kAbsolute)</arglist>
-    </member>
-  </compound>
-  <compound kind="namespace">
     <name>maliput::plugin</name>
     <filename>namespacemaliput_1_1plugin.html</filename>
     <class kind="class">maliput::plugin::MaliputPlugin</class>
@@ -44089,7 +42541,6 @@
   <compound kind="namespace">
     <name>maliput::routing</name>
     <filename>namespacemaliput_1_1routing.html</filename>
-    <namespace>maliput::routing::test</namespace>
     <class kind="class">maliput::routing::Phase</class>
     <class kind="struct">maliput::routing::PhasePositionResult</class>
     <class kind="class">maliput::routing::Route</class>
@@ -44171,35 +42622,6 @@
       <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
       <anchor>a3604feb52a6ed523000b97c0033d6c5e</anchor>
       <arglist>(const RoutingConstraints &amp;routing_constraints)</arglist>
-    </member>
-  </compound>
-  <compound kind="namespace">
-    <name>maliput::routing::test</name>
-    <filename>namespacemaliput_1_1routing_1_1test.html</filename>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsPhasePositionResultClose</name>
-      <anchorfile>namespacemaliput_1_1routing_1_1test.html</anchorfile>
-      <anchor>a99d4756f5531cc783657f0ddf548ebff</anchor>
-      <arglist>(const PhasePositionResult &amp;ppr_a, const PhasePositionResult &amp;ppr_b, double tolerance)</arglist>
-    </member>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>IsRoutePositionResultClose</name>
-      <anchorfile>namespacemaliput_1_1routing_1_1test.html</anchorfile>
-      <anchor>a79d378f74c878ad888fc2a0d1317da2f</anchor>
-      <arglist>(const RoutePositionResult &amp;rpr_a, const RoutePositionResult &amp;rpr_b, double tolerance)</arglist>
-    </member>
-  </compound>
-  <compound kind="namespace">
-    <name>maliput::test</name>
-    <filename>namespacemaliput_1_1test.html</filename>
-    <member kind="function">
-      <type>::testing::AssertionResult</type>
-      <name>AssertCompare</name>
-      <anchorfile>namespacemaliput_1_1test.html</anchorfile>
-      <anchor>a11285c5634ebabe2d352ca4961114b6b</anchor>
-      <arglist>(const common::ComparisonResult&lt; T &gt; &amp;res)</arglist>
     </member>
   </compound>
   <compound kind="namespace">

@@ -1,6 +1,20 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
 <tagfile>
   <compound kind="file">
+    <name>assert_compare.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
+    <filename>assert__compare_8h.html</filename>
+    <namespace>maliput</namespace>
+    <namespace>maliput::test</namespace>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>AssertCompare</name>
+      <anchorfile>namespacemaliput_1_1test.html</anchorfile>
+      <anchor>a476f2889c19864c5aaf9852ee5b4e586</anchor>
+      <arglist>(const maliput::common::ComparisonResult&lt; T &gt; &amp;res)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>derive_lane_s_routes_test.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
     <filename>derive__lane__s__routes__test_8cc.html</filename>
@@ -499,6 +513,7 @@
     <name>phase_ring_book_loader_test.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
     <filename>phase__ring__book__loader__test_8cc.html</filename>
+    <includes id="assert__compare_8h" name="assert_compare.h" local="yes" imported="no">assert_compare.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::test</namespace>
     <member kind="variable" protection="protected">
@@ -548,6 +563,7 @@
     <name>road_rulebook_loader_test.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
     <filename>road__rulebook__loader__test_8cc.html</filename>
+    <includes id="assert__compare_8h" name="assert_compare.h" local="yes" imported="no">assert_compare.h</includes>
     <namespace>maliput</namespace>
     <member kind="variable" protection="protected">
       <type>const std::string</type>
@@ -596,6 +612,7 @@
     <name>traffic_light_book_loader_test.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
     <filename>traffic__light__book__loader__test_8cc.html</filename>
+    <includes id="assert__compare_8h" name="assert_compare.h" local="yes" imported="no">assert_compare.h</includes>
     <namespace>maliput</namespace>
     <member kind="variable" protection="protected">
       <type>const std::string</type>
@@ -616,6 +633,7 @@
     <name>waypoints_test.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
     <filename>waypoints__test_8cc.html</filename>
+    <includes id="assert__compare_8h" name="assert_compare.h" local="yes" imported="no">assert_compare.h</includes>
     <namespace>maliput</namespace>
   </compound>
   <compound kind="namespace">
@@ -772,6 +790,13 @@
   <compound kind="namespace">
     <name>maliput::test</name>
     <filename>namespacemaliput_1_1test.html</filename>
+    <member kind="function">
+      <type>::testing::AssertionResult</type>
+      <name>AssertCompare</name>
+      <anchorfile>namespacemaliput_1_1test.html</anchorfile>
+      <anchor>a476f2889c19864c5aaf9852ee5b4e586</anchor>
+      <arglist>(const maliput::common::ComparisonResult&lt; T &gt; &amp;res)</arglist>
+    </member>
   </compound>
   <compound kind="namespace">
     <name>maliput::utility</name>

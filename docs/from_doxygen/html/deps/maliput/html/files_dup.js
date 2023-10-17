@@ -13,7 +13,6 @@ var files_dup =
       [ "AntiderivativeFunction", "classmaliput_1_1drake_1_1systems_1_1_antiderivative_function.html", "classmaliput_1_1drake_1_1systems_1_1_antiderivative_function" ],
       [ "IntegrableFunctionContext", "structmaliput_1_1drake_1_1systems_1_1_antiderivative_function_1_1_integrable_function_context.html", "structmaliput_1_1drake_1_1systems_1_1_antiderivative_function_1_1_integrable_function_context" ]
     ] ],
-    [ "assert_compare.h", "assert__compare_8h.html", "assert__compare_8h" ],
     [ "assertion_error.h", "assertion__error_8h.html", [
       [ "assertion_error", "classmaliput_1_1common_1_1assertion__error.html", "classmaliput_1_1common_1_1assertion__error" ]
     ] ],
@@ -57,8 +56,6 @@ var files_dup =
     [ "cache_entry.h", "cache__entry_8h.html", [
       [ "CacheEntry", "classmaliput_1_1drake_1_1systems_1_1_cache_entry.html", "classmaliput_1_1drake_1_1systems_1_1_cache_entry" ]
     ] ],
-    [ "check_id_indexing.cc", "check__id__indexing_8cc.html", "check__id__indexing_8cc" ],
-    [ "check_id_indexing.h", "check__id__indexing_8h.html", "check__id__indexing_8h" ],
     [ "api/compare.cc", "api_2compare_8cc.html", "api_2compare_8cc" ],
     [ "api/rules/compare.cc", "api_2rules_2compare_8cc.html", "api_2rules_2compare_8cc" ],
     [ "math/compare.cc", "math_2compare_8cc.html", "math_2compare_8cc" ],
@@ -245,8 +242,6 @@ var files_dup =
     [ "maliput_deprecated.h", "maliput__deprecated_8h.html", "maliput__deprecated_8h" ],
     [ "maliput_design.h", "maliput__design_8h.html", null ],
     [ "maliput_hash.h", "maliput__hash_8h.html", "maliput__hash_8h" ],
-    [ "maliput_math_compare.cc", "maliput__math__compare_8cc.html", "maliput__math__compare_8cc" ],
-    [ "maliput_math_compare.h", "maliput__math__compare_8h.html", "maliput__math__compare_8h" ],
     [ "maliput_never_destroyed.h", "maliput__never__destroyed_8h.html", [
       [ "never_destroyed", "classmaliput_1_1common_1_1never__destroyed.html", "classmaliput_1_1common_1_1never__destroyed" ]
     ] ],
@@ -260,11 +255,7 @@ var files_dup =
       [ "MaliputPluginManager", "classmaliput_1_1plugin_1_1_maliput_plugin_manager.html", "classmaliput_1_1plugin_1_1_maliput_plugin_manager" ]
     ] ],
     [ "maliput_plugin_type.h", "maliput__plugin__type_8h.html", "maliput__plugin__type_8h" ],
-    [ "maliput_routing_position_compare.cc", "maliput__routing__position__compare_8cc.html", "maliput__routing__position__compare_8cc" ],
-    [ "maliput_routing_position_compare.h", "maliput__routing__position__compare_8h.html", "maliput__routing__position__compare_8h" ],
     [ "maliput_throw.h", "maliput__throw_8h.html", "maliput__throw_8h" ],
-    [ "maliput_types_compare.cc", "maliput__types__compare_8cc.html", "maliput__types__compare_8cc" ],
-    [ "maliput_types_compare.h", "maliput__types__compare_8h.html", "maliput__types__compare_8h" ],
     [ "maliput_unused.h", "maliput__unused_8h.html", "maliput__unused_8h" ],
     [ "manual_discrete_value_rule_state_provider.cc", "manual__discrete__value__rule__state__provider_8cc.html", null ],
     [ "manual_discrete_value_rule_state_provider.h", "manual__discrete__value__rule__state__provider_8h.html", [
@@ -314,9 +305,6 @@ var files_dup =
       [ "MockJunction", "classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html", "classmaliput_1_1geometry__base_1_1test_1_1_mock_junction" ],
       [ "MockSegment", "classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html", "classmaliput_1_1geometry__base_1_1test_1_1_mock_segment" ],
       [ "MockLane", "classmaliput_1_1geometry__base_1_1test_1_1_mock_lane.html", "classmaliput_1_1geometry__base_1_1test_1_1_mock_lane" ]
-    ] ],
-    [ "mock_math.h", "mock__math_8h.html", [
-      [ "MockBoundingRegion", "classmaliput_1_1math_1_1test_1_1_mock_bounding_region.html", "classmaliput_1_1math_1_1test_1_1_mock_bounding_region" ]
     ] ],
     [ "model_values.cc", "model__values_8cc.html", null ],
     [ "model_values.h", "model__values_8h.html", [
@@ -373,8 +361,6 @@ var files_dup =
     [ "phased_discrete_rule_state_provider.h", "phased__discrete__rule__state__provider_8h.html", [
       [ "PhasedDiscreteRuleStateProvider", "classmaliput_1_1_phased_discrete_rule_state_provider.html", "classmaliput_1_1_phased_discrete_rule_state_provider" ]
     ] ],
-    [ "phases_compare.cc", "phases__compare_8cc.html", "phases__compare_8cc" ],
-    [ "phases_compare.h", "phases__compare_8h.html", "phases__compare_8h" ],
     [ "piecewise_polynomial.cc", "piecewise__polynomial_8cc.html", "piecewise__polynomial_8cc" ],
     [ "piecewise_polynomial.h", "piecewise__polynomial_8h.html", [
       [ "PiecewisePolynomial", "classmaliput_1_1drake_1_1trajectories_1_1_piecewise_polynomial.html", "classmaliput_1_1drake_1_1trajectories_1_1_piecewise_polynomial" ]
@@ -410,7 +396,6 @@ var files_dup =
     ] ],
     [ "regions.cc", "regions_8cc.html", "regions_8cc" ],
     [ "regions.h", "regions_8h.html", "regions_8h" ],
-    [ "regions_test_utilities.h", "regions__test__utilities_8h.html", "regions__test__utilities_8h" ],
     [ "reset_on_copy.h", "reset__on__copy_8h.html", [
       [ "reset_on_copy", "classmaliput_1_1drake_1_1reset__on__copy.html", "classmaliput_1_1drake_1_1reset__on__copy" ]
     ] ],
@@ -468,15 +453,6 @@ var files_dup =
     [ "rule_registry_loader.h", "rule__registry__loader_8h.html", "rule__registry__loader_8h" ],
     [ "rule_tools.cc", "rule__tools_8cc.html", "rule__tools_8cc" ],
     [ "rule_tools.h", "rule__tools_8h.html", "rule__tools_8h" ],
-    [ "rules_compare.cc", "rules__compare_8cc.html", "rules__compare_8cc" ],
-    [ "rules_compare.h", "rules__compare_8h.html", "rules__compare_8h" ],
-    [ "rules_direction_usage_compare.cc", "rules__direction__usage__compare_8cc.html", "rules__direction__usage__compare_8cc" ],
-    [ "rules_direction_usage_compare.h", "rules__direction__usage__compare_8h.html", "rules__direction__usage__compare_8h" ],
-    [ "rules_right_of_way_compare.cc", "rules__right__of__way__compare_8cc.html", "rules__right__of__way__compare_8cc" ],
-    [ "rules_right_of_way_compare.h", "rules__right__of__way__compare_8h.html", "rules__right__of__way__compare_8h" ],
-    [ "rules_speed_limit_compare.cc", "rules__speed__limit__compare_8cc.html", "rules__speed__limit__compare_8cc" ],
-    [ "rules_speed_limit_compare.h", "rules__speed__limit__compare_8h.html", "rules__speed__limit__compare_8h" ],
-    [ "rules_test_utilities.h", "rules__test__utilities_8h.html", "rules__test__utilities_8h" ],
     [ "runge_kutta3_integrator.cc", "runge__kutta3__integrator_8cc.html", null ],
     [ "runge_kutta3_integrator.h", "runge__kutta3__integrator_8h.html", null ],
     [ "saturate.cc", "saturate_8cc.html", "saturate_8cc" ],
@@ -585,8 +561,6 @@ var files_dup =
     [ "traffic_light_book_loader.h", "traffic__light__book__loader_8h.html", "traffic__light__book__loader_8h" ],
     [ "traffic_lights.cc", "traffic__lights_8cc.html", "traffic__lights_8cc" ],
     [ "traffic_lights.h", "traffic__lights_8h.html", "traffic__lights_8h" ],
-    [ "traffic_lights_compare.cc", "traffic__lights__compare_8cc.html", "traffic__lights__compare_8cc" ],
-    [ "traffic_lights_compare.h", "traffic__lights__compare_8h.html", "traffic__lights__compare_8h" ],
     [ "trajectory.cc", "trajectory_8cc.html", null ],
     [ "trajectory.h", "trajectory_8h.html", [
       [ "Trajectory", "classmaliput_1_1drake_1_1trajectories_1_1_trajectory.html", "classmaliput_1_1drake_1_1trajectories_1_1_trajectory" ]

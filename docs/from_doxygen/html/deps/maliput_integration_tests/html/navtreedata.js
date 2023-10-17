@@ -44,7 +44,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"derive__lane__s__routes__test_8cc.html"
+"assert__compare_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

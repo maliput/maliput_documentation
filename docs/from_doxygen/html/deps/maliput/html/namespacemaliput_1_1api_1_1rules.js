@@ -1,6 +1,5 @@
 var namespacemaliput_1_1api_1_1rules =
 [
-    [ "test", "namespacemaliput_1_1api_1_1rules_1_1test.html", "namespacemaliput_1_1api_1_1rules_1_1test" ],
     [ "Bulb", "classmaliput_1_1api_1_1rules_1_1_bulb.html", "classmaliput_1_1api_1_1rules_1_1_bulb" ],
     [ "BulbGroup", "classmaliput_1_1api_1_1rules_1_1_bulb_group.html", "classmaliput_1_1api_1_1rules_1_1_bulb_group" ],
     [ "DiscreteValueRule", "classmaliput_1_1api_1_1rules_1_1_discrete_value_rule.html", "classmaliput_1_1api_1_1rules_1_1_discrete_value_rule" ],

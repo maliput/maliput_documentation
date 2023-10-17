@@ -4,7 +4,6 @@ var hierarchy =
     [ "AbstractValueCloner", "classmaliput_1_1drake_1_1systems_1_1internal_1_1_abstract_value_cloner.html", null ],
     [ "AbstractValues", "classmaliput_1_1drake_1_1systems_1_1_abstract_values.html", null ],
     [ "AntiderivativeFunction< T >", "classmaliput_1_1drake_1_1systems_1_1_antiderivative_function.html", null ],
-    [ "AssertionResultCollector", "classmaliput_1_1api_1_1rules_1_1test_1_1_assertion_result_collector.html", null ],
     [ "bool_constant", null, [
       [ "is_eigen_nonvector_of< Derived, Scalar >", "structmaliput_1_1drake_1_1is__eigen__nonvector__of.html", null ],
       [ "is_eigen_scalar_same< Derived, Scalar >", "structmaliput_1_1drake_1_1is__eigen__scalar__same.html", null ],
@@ -15,8 +14,7 @@ var hierarchy =
     [ "BoundingRegion< Coordinate >", "classmaliput_1_1math_1_1_bounding_region.html", null ],
     [ "BoundingRegion< Vector3 >", "classmaliput_1_1math_1_1_bounding_region.html", [
       [ "AxisAlignedBox", "classmaliput_1_1math_1_1_axis_aligned_box.html", null ],
-      [ "BoundingBox", "classmaliput_1_1math_1_1_bounding_box.html", null ],
-      [ "MockBoundingRegion", "classmaliput_1_1math_1_1test_1_1_mock_bounding_region.html", null ]
+      [ "BoundingBox", "classmaliput_1_1math_1_1_bounding_box.html", null ]
     ] ],
     [ "BranchPoint", "classmaliput_1_1api_1_1_branch_point.html", [
       [ "MockBranchPoint", "classmaliput_1_1api_1_1test_1_1_mock_branch_point.html", null ],
@@ -72,8 +70,8 @@ var hierarchy =
     [ "EigenPtr< PlainObjectType >", "classmaliput_1_1drake_1_1_eigen_ptr.html", null ],
     [ "EigenSizeMinPreferDynamic< a, b >", "structmaliput_1_1drake_1_1_eigen_size_min_prefer_dynamic.html", null ],
     [ "EigenSizeMinPreferFixed< a, b >", "structmaliput_1_1drake_1_1_eigen_size_min_prefer_fixed.html", null ],
-    [ "GeoNormal::Equiv", "structmaliput_1_1utility_1_1mesh_1_1_geo_normal_1_1_equiv.html", null ],
     [ "GeoVertex::Equiv", "structmaliput_1_1utility_1_1mesh_1_1_geo_vertex_1_1_equiv.html", null ],
+    [ "GeoNormal::Equiv", "structmaliput_1_1utility_1_1mesh_1_1_geo_normal_1_1_equiv.html", null ],
     [ "Event< T >", "classmaliput_1_1drake_1_1systems_1_1_event.html", [
       [ "DiscreteUpdateEvent< T >", "classmaliput_1_1drake_1_1systems_1_1_discrete_update_event.html", null ],
       [ "PublishEvent< T >", "classmaliput_1_1drake_1_1systems_1_1_publish_event.html", null ],
@@ -294,11 +292,11 @@ var hierarchy =
     [ "SquaredDistance< Coordinate, Dimension >", "structmaliput_1_1math_1_1details_1_1_squared_distance.html", null ],
     [ "SRange", "classmaliput_1_1api_1_1_s_range.html", null ],
     [ "SrhFace", "classmaliput_1_1utility_1_1mesh_1_1_srh_face.html", null ],
-    [ "State< T >", "classmaliput_1_1drake_1_1systems_1_1_state.html", null ],
     [ "Rule::State", "structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html", [
       [ "DiscreteValueRule::DiscreteValue", "structmaliput_1_1api_1_1rules_1_1_discrete_value_rule_1_1_discrete_value.html", null ],
       [ "RangeValueRule::Range", "structmaliput_1_1api_1_1rules_1_1_range_value_rule_1_1_range.html", null ]
     ] ],
+    [ "State< T >", "classmaliput_1_1drake_1_1systems_1_1_state.html", null ],
     [ "StateProviderResult< T >", "structmaliput_1_1api_1_1rules_1_1_state_provider_result.html", null ],
     [ "StrategyBase", "classmaliput_1_1geometry__base_1_1_strategy_base.html", [
       [ "BruteForceStrategy", "classmaliput_1_1geometry__base_1_1_brute_force_strategy.html", null ],

@@ -1,12 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"classmaliput_1_1_manual_rulebook.html#a810b02894807cf754134a879ae6b1fe5":[4,0,0,15,7],
-"classmaliput_1_1_manual_rulebook.html#a832973c7b7df1da07f706af5e4916a3f":[4,0,0,15,11],
-"classmaliput_1_1_manual_rulebook.html#a9aa9f847832ca5467851014a0d73e9bc":[4,0,0,15,8],
-"classmaliput_1_1_manual_rulebook.html#aa8be6299ec5d8a57e3a4c6a296786892":[4,0,0,15,5],
-"classmaliput_1_1_manual_rulebook.html#ad2ce757d42ec1f39b86892a821209c8a":[4,0,0,15,12],
-"classmaliput_1_1_manual_rulebook.html#ae788774a127f05e8682b9dda2362a9a7":[4,0,0,15,1],
-"classmaliput_1_1_manual_rulebook.html#af8757469d83d042543509882636762e6":[4,0,0,15,9],
 "classmaliput_1_1_manual_rulebook.html#afe4bc1baa86ce48e29c740d48d88d4d2":[4,0,0,15,3],
 "classmaliput_1_1_phased_discrete_rule_state_provider.html":[4,0,0,16],
 "classmaliput_1_1_phased_discrete_rule_state_provider.html#a6709342389dca266f5d49928fd1696df":[4,0,0,16,0],
@@ -249,5 +242,12 @@ var NAVTREEINDEX1 =
 "classmaliput_1_1api_1_1_segment.html#a6f4e1b5acc16f9d2f722f0a36db0a06f":[4,0,0,0,24,4],
 "classmaliput_1_1api_1_1_segment.html#a7fa67be7f6db7ed4c931a2491b0c51bb":[4,0,0,0,24,5],
 "classmaliput_1_1api_1_1_segment.html#acc1e5f359ad7f670ce73faa23be39d24":[4,0,0,0,24,2],
-"classmaliput_1_1api_1_1_segment.html#ad62aab38a774d311fcd89d88a96681d0":[4,0,0,0,24,0]
+"classmaliput_1_1api_1_1_segment.html#ad62aab38a774d311fcd89d88a96681d0":[4,0,0,0,24,0],
+"classmaliput_1_1api_1_1_segment.html#ae7d45473b824832f3828103f350b8f72":[4,0,0,0,24,3],
+"classmaliput_1_1api_1_1_type_specific_identifier.html":[4,0,0,0,26],
+"classmaliput_1_1api_1_1_type_specific_identifier.html#a40a8386e472aff3f49ddaa53197b6746":[4,0,0,0,26,3],
+"classmaliput_1_1api_1_1_type_specific_identifier.html#a4b1b321bba77194abdc265fc952ea158":[4,0,0,0,26,6],
+"classmaliput_1_1api_1_1_type_specific_identifier.html#a7314f49a51859d46439cfeddb9ea06ec":[4,0,0,0,26,5],
+"classmaliput_1_1api_1_1_type_specific_identifier.html#ab135a123a2ff98cdd1d23b6df15eb9ab":[4,0,0,0,26,4],
+"classmaliput_1_1api_1_1_type_specific_identifier.html#ae1c90c9eff1dfe4d052c9a012f813fca":[4,0,0,0,26,2]
 };
