@@ -41,27 +41,56 @@ Once a road network is loaded, you can access its elements:
 * `maliput::api::rules::DiscreteValueRuleStateProvider`_ and `maliput::api::rules::RangeValueRuleStateProvider`_: Provide the current state for a given rule.
 
 There are two ways of loading a RoadNetwork:
-- Using the maliput backend's entry point for loading a RoadNetwork.
-- Using the `Maliput Plugin Architecture`_ where the maliput backends/implementations are loaded in runtime.
+ - Using the maliput backend's entry point for loading a RoadNetwork.
+    - e.g `maliput_malidrive`_'s `malidrive::loader::Load`_ method.
+ - Using the `Maliput Plugin Architecture`_ where the maliput backends/implementations are loaded in runtime.
 
 Let's focus on the first way of loading a road network.
 
 Load a maliput_malidrive RoadNetwork
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. If you are using CMake, link to `maliput`_'s libraries:
+1. Configure your project to correctly link to `maliput`_'s libraries, whether your are using `CMake` or `Bazel`:
 
-  .. code-block:: cmake
-    :linenos:
+.. tabs::
 
-    find_package(maliput)
-    find_package(maliput_malidrive)
-    # ...
-    # ...
-    target_link_libraries(<your_target>
-      maliput::api
-      maliput_malidrive::loader
-    )
+  .. group-tab:: CMake
+
+    .. code-block:: cmake
+      :linenos:
+
+      find_package(maliput)
+      find_package(maliput_malidrive)
+      # ...
+      # ...
+      target_link_libraries(<your_target>
+        maliput::api
+        maliput_malidrive::loader
+      )
+
+  .. group-tab:: Bazel
+
+    .. code-block:: go
+      :linenos:
+
+      // Add them as dependency to your project.
+      //
+      // bazel_dep(name = "maliput", version = "1.1.1")
+      // bazel_dep(name = "maliput_malidrive", version = "0.1.4")
+
+
+      cc_binary(
+          name = "my_app",
+          srcs = ["my_app.cc"],
+          // ...
+          // ...
+          deps = [
+              "@maliput//:api",
+              "@maliput_malidrive//:builder",
+              "@maliput_malidrive//:loader"
+          ],
+      )
+
 
 
 2. Relies on the `maliput_malidrive`_'s loader for loading the `maliput::api::RoadNetwork`_:
@@ -135,6 +164,7 @@ Loading a RoadNetwork via Maliput Plugin Architecture
 
   We link against `maliput::api` and `maliput::plugin` for using the plugin interface.
   Note that we aren't linking against any maliput backend(`maliput_malidrive` in this case).
+  The plugin architecture is in charge of loading the backend in runtime.
 
 2. Use `maliput::plugin`'s convenient method for loading a maliput::api::RoadNetwork instance.
 
@@ -163,14 +193,14 @@ Maliput Python Interface
 Load a maliput_malidrive RoadNetwork
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-As the intention is to use the python interface, it is expected that `maliput_py`_ and `maliput_malidrive`_ packages are installed.
+As the intention is to use the python interface, it is expected that `maliput`_ and `maliput_malidrive`_ packages are installed.
 
 .. note::
 
-  Check :ref:`installation_label` for setting up the ROS2 repositories and installing the packages via binaries.
+  Check :ref:`installation_label` for installing the packages via binaries.
 
-Once the dependencies are installed we can load a road network using the python interface. For doing so
-we are relying on the `maliput_py`_ package for the corresponding `maliput`_ bindings and the `maliput_malidrive`_ package as a `maliput`_ implementation.
+
+Whether it was installed via binaries (via ROS 2 or PyPI) or from source code, the python interface is available to be used.
 
 
 .. code-block:: python
@@ -184,6 +214,7 @@ we are relying on the `maliput_py`_ package for the corresponding `maliput`_ bin
   configuration = {"opendrive_file" : os.getenv("MALIPUT_MALIDRIVE_RESOURCE_ROOT") + "/resources/odr/TShapeRoad.xodr"}
   road_network = maliput.plugin.create_road_network("maliput_malidrive", configuration)
   print(road_network.road_geometry().id())
+
 
 Maliput Visualizer
 ------------------
@@ -843,6 +874,8 @@ Further readings
 .. _maliput::LoadRoadRuleBookFromFile: html/deps/maliput/html/namespacemaliput.html#accce2c90d0627fa85c6b11c9924c0609
 .. _maliput::LoadRuleRegistryFromFile: html/deps/maliput/html/namespacemaliput.html#a03c4c176854c7d60524ec666c03f3ff4
 .. _maliput::LoadTrafficLightBookFromFile: html/deps/maliput/html/namespacemaliput.html#a748a7535cbc24118299c3bcbef33a20d
+
+.. _malidrive::loader::Load: html/deps/maliput_malidrive/html/namespacemalidrive_1_1loader.html
 
 .. _maliput: https://github.com/maliput/maliput
 .. _maliput_dragway: https://github.com/maliput/maliput_dragway
