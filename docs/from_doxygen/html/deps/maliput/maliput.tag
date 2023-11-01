@@ -43208,46 +43208,6 @@
     <filename>group__mutablecoeffgettersquaternion.html</filename>
   </compound>
   <compound kind="page">
-    <name>maliput_design</name>
-    <title>Maliput Design</title>
-    <filename>maliput_design</filename>
-    <docanchor file="maliput_design.html" title="Modeling Road Networks for Simulation">modeling_road_networks_for_simulation</docanchor>
-    <docanchor file="maliput_design.html" title="Objectives">objectives</docanchor>
-    <docanchor file="maliput_design.html" title="Road Network Geometry">road_network_goemetry</docanchor>
-    <docanchor file="maliput_design.html" title="Geometry Model">geometry_model</docanchor>
-    <docanchor file="maliput_design.html" title="Overview">overview</docanchor>
-    <docanchor file="maliput_design.html" title="Scale Length and Tolerances">scale_length_and_tolerances</docanchor>
-    <docanchor file="maliput_design.html" title="Inertial-frame versus Lane-frame">inertial_frame_versus_lane_frame</docanchor>
-    <docanchor file="maliput_design.html" title="Lanes as Lanes">lanes_as_lanes</docanchor>
-    <docanchor file="maliput_design.html" title="Lanes Joined End-to-End via BranchPoints">lanes_joined_via_branchpoints</docanchor>
-    <docanchor file="maliput_design.html" title="Adjacent Lanes Grouped into Segments">adjacent_lanes_grouped_into_segments</docanchor>
-    <docanchor file="maliput_design.html" title="Intersecting Segments Grouped into Junction">intersecting_segments_grouped_into_junctions</docanchor>
-    <docanchor file="maliput_design.html" title="Abstract Geometry API: RoadGeometry">abstract_geometry_api_roadgeometry</docanchor>
-    <docanchor file="maliput_design.html" title="Basic Types">basic_types</docanchor>
-    <docanchor file="maliput_design.html" title="RoadGeometry">roadgeometry</docanchor>
-    <docanchor file="maliput_design.html" title="Junction">junction</docanchor>
-    <docanchor file="maliput_design.html" title="Segment">segment</docanchor>
-    <docanchor file="maliput_design.html" title="Lane">lane</docanchor>
-    <docanchor file="maliput_design.html" title="BranchPoints">branchpoints</docanchor>
-    <docanchor file="maliput_design.html" title="Rules and Features Databases">rules_and_features_databases</docanchor>
-    <docanchor file="maliput_design.html" title="Rules of the Road: RoadRulebook">rules_of_the_road</docanchor>
-    <docanchor file="maliput_design.html">road-rulebook-outline_img</docanchor>
-    <docanchor file="maliput_design.html" title="New Rule API description">new_rules_types</docanchor>
-    <docanchor file="maliput_design.html" title="Common rule types and their implementations">new_rule_common_types</docanchor>
-    <docanchor file="maliput_design.html" title="Common Region Entities">common_region_entities</docanchor>
-    <docanchor file="maliput_design.html" title="Queries to the &lt;tt&gt;RoadRulebook&lt;/tt&gt;">roadrulebook_queries</docanchor>
-    <docanchor file="maliput_design.html" title="[DEPRECATED] Old rule API">deprecated_rule_api</docanchor>
-    <docanchor file="maliput_design.html" title="SpeedLimitRule: Speed Limits">speed_limit_rules</docanchor>
-    <docanchor file="maliput_design.html" title="RightOfWayRule: Stopping and Yielding">right_of_way_rule</docanchor>
-    <docanchor file="maliput_design.html">RoWR-lone-crosswalk</docanchor>
-    <docanchor file="maliput_design.html">RoWR-one-way-to-two-way</docanchor>
-    <docanchor file="maliput_design.html">RoWR-protected-left</docanchor>
-    <docanchor file="maliput_design.html">RoWR-freeway-merge</docanchor>
-    <docanchor file="maliput_design.html" title="&lt;tt&gt;Phase&lt;/tt&gt; dynamics: how to handle the rule state changes">phase_dynamics</docanchor>
-    <docanchor file="maliput_design.html" title="&lt;tt&gt;TafficLight&lt;/tt&gt; modelling and databases">traffic_lights</docanchor>
-    <docanchor file="maliput_design.html" title="&lt;tt&gt;Intersections&lt;/tt&gt; to aggregate multiple related entities">intersections_aggregation</docanchor>
-  </compound>
-  <compound kind="page">
     <name>maliput_plugin_architecture</name>
     <title>Maliput Plugin Architecture</title>
     <filename>maliput_plugin_architecture</filename>

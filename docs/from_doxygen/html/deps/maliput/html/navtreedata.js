@@ -23,45 +23,6 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "maliput", "index.html", [
-    [ "Maliput Design", "maliput_design.html", [
-      [ "Modeling Road Networks for Simulation", "maliput_design.html#modeling_road_networks_for_simulation", [
-        [ "Objectives", "maliput_design.html#objectives", null ]
-      ] ],
-      [ "Road Network Geometry", "maliput_design.html#road_network_goemetry", [
-        [ "Geometry Model", "maliput_design.html#geometry_model", [
-          [ "Overview", "maliput_design.html#overview", null ],
-          [ "Scale Length and Tolerances", "maliput_design.html#scale_length_and_tolerances", null ],
-          [ "Inertial-frame versus Lane-frame", "maliput_design.html#inertial_frame_versus_lane_frame", null ],
-          [ "Lanes as Lanes", "maliput_design.html#lanes_as_lanes", null ],
-          [ "Lanes Joined End-to-End via BranchPoints", "maliput_design.html#lanes_joined_via_branchpoints", null ],
-          [ "Adjacent Lanes Grouped into Segments", "maliput_design.html#adjacent_lanes_grouped_into_segments", null ],
-          [ "Intersecting Segments Grouped into Junction", "maliput_design.html#intersecting_segments_grouped_into_junctions", null ]
-        ] ],
-        [ "Abstract Geometry API: RoadGeometry", "maliput_design.html#abstract_geometry_api_roadgeometry", [
-          [ "Basic Types", "maliput_design.html#basic_types", null ],
-          [ "RoadGeometry", "maliput_design.html#roadgeometry", null ],
-          [ "Junction", "maliput_design.html#junction", null ],
-          [ "Segment", "maliput_design.html#segment", null ],
-          [ "Lane", "maliput_design.html#lane", null ],
-          [ "BranchPoints", "maliput_design.html#branchpoints", null ]
-        ] ]
-      ] ],
-      [ "Rules and Features Databases", "maliput_design.html#rules_and_features_databases", [
-        [ "Rules of the Road: RoadRulebook", "maliput_design.html#rules_of_the_road", [
-          [ "New Rule API description", "maliput_design.html#new_rules_types", [
-            [ "Common rule types and their implementations", "maliput_design.html#new_rule_common_types", null ]
-          ] ],
-          [ "Common Region Entities", "maliput_design.html#common_region_entities", null ],
-          [ "Queries to the <tt>RoadRulebook</tt>", "maliput_design.html#roadrulebook_queries", null ],
-          [ "[DEPRECATED] Old rule API", "maliput_design.html#deprecated_rule_api", null ],
-          [ "SpeedLimitRule: Speed Limits", "maliput_design.html#speed_limit_rules", null ],
-          [ "RightOfWayRule: Stopping and Yielding", "maliput_design.html#right_of_way_rule", null ]
-        ] ],
-        [ "<tt>Phase</tt> dynamics: how to handle the rule state changes", "maliput_design.html#phase_dynamics", null ],
-        [ "<tt>TafficLight</tt> modelling and databases", "maliput_design.html#traffic_lights", null ],
-        [ "<tt>Intersections</tt> to aggregate multiple related entities", "maliput_design.html#intersections_aggregation", null ]
-      ] ]
-    ] ],
     [ "Maliput Plugin Architecture", "maliput_plugin_architecture.html", [
       [ "Maliput Plugin Architecture", "maliput_plugin_architecture.html#maliput_plugin_architecture_section", [
         [ "Overview", "maliput_plugin_architecture.html#plugin_architecture_overview", null ],
@@ -129,11 +90,11 @@ var NAVTREEINDEX =
 "classmaliput_1_1math_1_1_vector_base.html#a6477d4f1a51a0c5c3ec47a60fdb4203e",
 "eigen__types_8h.html#af30fe85a821bd0e0ab46f2e165c8e480",
 "group__example__systems.html",
-"matrix_8cc.html#a589ca39b935f419ebca26a66c0375964",
-"namespacemembers_func_r.html",
-"structmaliput_1_1_related_rules_keys.html",
-"structmaliput_1_1drake_1_1systems_1_1_antiderivative_function_1_1_integrable_function_context.html#a4ea421bf7af0092fa62093e57aa8ef0c",
-"vector_8cc.html#a1114542e4ad020b7388d55bd0c806c53"
+"mesh__simplification_8cc.html#af68da2fa1cf69840d3ab532a2eaca6ab",
+"nice__type__name__override_8cc.html#a1212619fa4d8bca81de1e180172adc39",
+"structmaliput_1_1api_1_1_lane_end_1_1_strict_order.html",
+"structmaliput_1_1drake_1_1systems_1_1_use_default_name.html",
+"yaml__conversion_8cc.html#a733eb44f957c784b58ea15b0cb54687e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
