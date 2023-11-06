@@ -16,6 +16,7 @@ Contents
 
    installation
    getting_started
+   examples
 
 .. toctree::
    :caption: Documentation
