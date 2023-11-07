@@ -131,7 +131,7 @@ Loading a RoadNetwork via Maliput Plugin Architecture
 
   We link against `maliput::api` and `maliput::plugin` for using the plugin interface.
   Note that we aren't linking against any maliput backend(`maliput_malidrive` in this case).
-  The plugin architecture is in charge of loading the backend in runtime.
+  The plugin architecture is in charge of loading the backend at runtime.
 
 2. Use `maliput::plugin`'s convenient method for loading a maliput::api::RoadNetwork instance.
 
@@ -169,7 +169,7 @@ Querying the RoadGeometry
   :linenos:
 
   const maliput::api::RoadGeometry* road_geometry = road_network->road_geometry();
-  maliput::api::RoadPositionResult road_position_result = road_geometry->ToRoadPosition(maliput::api::InertialPosition{10.0, 0.0, 0.0});;
+  const maliput::api::RoadPositionResult road_position_result = road_geometry->ToRoadPosition(maliput::api::InertialPosition{10.0, 0.0, 0.0});;
   const maliput::api::Lane* lane = road_poisition_result.road_position.lane;
 
 * `maliput::api::Lane::ToInertialPosition`_: Obtains a inertial position from a road position.
@@ -191,14 +191,12 @@ Maliput Python Interface
 Load a maliput_malidrive RoadNetwork
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-As the intention is to use the python interface, it is expected that `maliput`_ and `maliput_malidrive`_ packages are installed.
+It is required to have `maliput`_ and at least one backend installed, e.g. `maliput_malidrive`_ , to use the python interface. It is possible to install them via ROS 2 Repositories or PyPI.
+
 
 .. note::
 
-  Check :ref:`installation_label` for installing the packages via binaries.
-
-
-Whether it was installed via binaries (via ROS 2 or PyPI) or from source code, the python interface is available to be used.
+  Please refer to :ref:`installation_label` for installing the packages via binaries.
 
 
 .. code-block:: python
