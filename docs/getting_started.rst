@@ -114,39 +114,6 @@ Load a maliput_malidrive RoadNetwork
     `maliput_malidrive`_ package adds an environment variable called `MALIPUT_MALIDRIVE_RESOURCE_ROOT` that points to `resources <https://github.com/maliput/maliput_malidrive/tree/main/resources>`_'s root folder.
 
 
-Querying the RoadGeometry
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-* `maliput::api::RoadGeometry::ById`_: Obtains lane, segment, junction and branch point information via `maliput::api::RoadGeometry::IdIndex`_.
-
-.. code-block:: cpp
-  :linenos:
-
-  const maliput::api::RoadGeometry* road_geometry = road_network->road_geometry();
-  const maliput::api::Lane* lane = road_geometry->ById.GetLane(maliput::api::LaneId{"1_0_1"});
-
-* `maliput::api::RoadGeometry::ToRoadPosition`_: Convert a inertial position to a road position.
-
-.. code-block:: cpp
-  :linenos:
-
-  const maliput::api::RoadGeometry* road_geometry = road_network->road_geometry();
-  maliput::api::RoadPositionResult road_position_result = road_geometry->ToRoadPosition(maliput::api::InertialPosition{10.0, 0.0, 0.0});;
-  const maliput::api::Lane* lane = road_poisition_result.road_position.lane;
-
-* `maliput::api::Lane::ToInertialPosition`_: Obtains a inertial position from a road position.
-
-.. code-block:: cpp
-  :linenos:
-
-  const maliput::api::RoadGeometry* road_geometry = road_network->road_geometry();
-  maliput::api::InertialPosition inertial_position = lane->ToInertialPosition(maliput::api::LanePosition{0.0, 0.0, 0.0});
-
-
-For a complete maliput api reference please visit: `maliput::api <html/deps/maliput/html/namespacemaliput_1_1api.html>`_
-
-
-
 Loading a RoadNetwork via Maliput Plugin Architecture
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -184,6 +151,37 @@ Loading a RoadNetwork via Maliput Plugin Architecture
   The maliput's implementation, `maliput_malidrive` in this case, is loaded in runtime. Therefore, no need to link to `maliput_malidrive` library.
 
   See `Maliput Plugin Architecture`_ for further information.
+
+Querying the RoadGeometry
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* `maliput::api::RoadGeometry::ById`_: Obtains lane, segment, junction and branch point information via `maliput::api::RoadGeometry::IdIndex`_.
+
+.. code-block:: cpp
+  :linenos:
+
+  const maliput::api::RoadGeometry* road_geometry = road_network->road_geometry();
+  const maliput::api::Lane* lane = road_geometry->ById.GetLane(maliput::api::LaneId{"1_0_1"});
+
+* `maliput::api::RoadGeometry::ToRoadPosition`_: Convert a inertial position to a road position.
+
+.. code-block:: cpp
+  :linenos:
+
+  const maliput::api::RoadGeometry* road_geometry = road_network->road_geometry();
+  maliput::api::RoadPositionResult road_position_result = road_geometry->ToRoadPosition(maliput::api::InertialPosition{10.0, 0.0, 0.0});;
+  const maliput::api::Lane* lane = road_poisition_result.road_position.lane;
+
+* `maliput::api::Lane::ToInertialPosition`_: Obtains a inertial position from a road position.
+
+.. code-block:: cpp
+  :linenos:
+
+  const maliput::api::RoadGeometry* road_geometry = road_network->road_geometry();
+  maliput::api::InertialPosition inertial_position = lane->ToInertialPosition(maliput::api::LanePosition{0.0, 0.0, 0.0});
+
+
+For a complete maliput api reference please visit: `maliput::api <html/deps/maliput/html/namespacemaliput_1_1api.html>`_
 
 Maliput Python Interface
 ------------------------
