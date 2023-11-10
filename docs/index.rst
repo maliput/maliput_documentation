@@ -38,3 +38,4 @@ Contents
    developer_guidelines
    developer_setup
    releases
+   maliput_wheels_pypy_index
