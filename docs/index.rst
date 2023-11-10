@@ -1,5 +1,3 @@
-  Intro
-  =====
 
 .. include:: maliput_vision.rst
 
@@ -18,6 +16,7 @@ Contents
 
    installation
    getting_started
+   examples
 
 .. toctree::
    :caption: Documentation
@@ -39,3 +38,4 @@ Contents
    developer_guidelines
    developer_setup
    releases
+   maliput_wheels_pypy_index
