@@ -12,4 +12,3 @@ It is recommended to visit :ref:`getting_started_label` page before diving into 
 
    tutorials/maliput_malidrive
    tutorials/maliput_integration
-   tutorials/maliput_sparse

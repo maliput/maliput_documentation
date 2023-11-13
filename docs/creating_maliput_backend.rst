@@ -1,7 +1,7 @@
 .. _creating_maliput_backend_label:
 
-Creating a maliput backend using maliput_sparse
-===============================================
+Use maliput_sparse for backend creation
+=======================================
 
 .. contents:: Contents
    :depth: 2
