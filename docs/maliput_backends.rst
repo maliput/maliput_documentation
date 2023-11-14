@@ -33,8 +33,8 @@ The following backends are currently available:
 maliput_malidrive
 -----------------
 
-`maliput_malidrive <https://github.com/maliput/maliput_malidrive>`_ is a backend that implements the `maliput` API on top of the `OpenDRIVE` road format.
-The package provides several OpenDRIVE maps (`maliput_malidrive/resources <https://github.com/maliput/maliput_malidrive/tree/main/resources>`_) as example however any other OpenDRIVE map can be used.
+`maliput_malidrive <https://github.com/maliput/maliput_malidrive>`_ is a backend that implements the `maliput` API for road networks which are described by the `OpenDRIVE` specification.
+The package provides several OpenDRIVE maps (`maliput_malidrive/resources <https://github.com/maliput/maliput_malidrive/tree/main/resources>`_) as example, however any other OpenDRIVE map can be used.
 
 The `XODR parser <src/maliput_malidrive/xodr/README.md>`_ is a standalone library that is used by `maliput_malidrive` to parse OpenDRIVE maps.
 For more information about the XODR parser, see the `XODR parser README <src/maliput_malidrive/xodr/README.md>`_.
@@ -64,9 +64,9 @@ Used map: `Town07.xodr <https://github.com/maliput/maliput_malidrive/blob/main/r
 maliput_osm
 -----------
 
-`maliput_osm <https://github.com/maliput/maliput_osm>`_ is a backend that implements the `maliput` API on top of the `Lanelet2` road format. This format is also 
+`maliput_osm <https://github.com/maliput/maliput_osm>`_ is a backend that implements the `maliput` API for the `Lanelet2` specification. This format is also
 based on OpenStreetMap (OSM) data.
-The package provides several OSM maps (`maliput_osm/resources <https://github.com/maliput/maliput_osm/tree/main/resources/osm>`_) as example however any other OSM map can be used.
+The package provides several OSM maps (`maliput_osm/resources <https://github.com/maliput/maliput_osm/tree/main/resources/osm>`_) as example, however any other OSM map can be used.
 
 Some characteristics:
   * Supports a large subset of the OSM specification.
@@ -91,13 +91,10 @@ Some characteristics:
 maliput_dragway
 ---------------
 
-`maliput_dragway <https://github.com/maliput/maliput_multilane>`_ is a backend that implements the minimal of the `maliput` API.
+`maliput_dragway <https://github.com/maliput/maliput_multilane>`_ is a backend that implements the `maliput` API with the most simple geometry: a flat straight surface on the ground.
 It is used for testing purposes only and it is an example of how to implement a backend.
 
 Some characteristics:
   * Geometries:
      * Straight roads with N lanes
   * Cannot handle intersections
-
-
-
