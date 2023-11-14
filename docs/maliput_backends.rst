@@ -36,11 +36,11 @@ maliput_malidrive
 `maliput_malidrive <https://github.com/maliput/maliput_malidrive>`_ is a backend that implements the `maliput` API for road networks which are described by the `OpenDRIVE` specification.
 The package provides several OpenDRIVE maps (`maliput_malidrive/resources <https://github.com/maliput/maliput_malidrive/tree/main/resources>`_) as example, however any other OpenDRIVE map can be used.
 
-The `XODR parser <src/maliput_malidrive/xodr/README.md>`_ is a standalone library that is used by `maliput_malidrive` to parse OpenDRIVE maps.
-For more information about the XODR parser, see the `XODR parser README <src/maliput_malidrive/xodr/README.md>`_.
+The `XODR parser <https://github.com/maliput/maliput_malidrive/blob/main/src/maliput_malidrive/xodr/README.md>`_ is a standalone library that is used by `maliput_malidrive` to parse OpenDRIVE maps.
+For more information about the XODR parser, see the `XODR parser README <https://github.com/maliput/maliput_malidrive/blob/main/src/maliput_malidrive/xodr/README.md>`_.
 
 Some characteristics:
-  * Supports a large subset of the OpenDRIVE(v1.5) specification.
+  * Supports a `large subset <https://github.com/maliput/maliput_malidrive/blob/main/src/maliput_malidrive/xodr/README.md>`_ of the OpenDRIVE(v1.5) specification.
   * Lane Geometry can compose:
       * Ground geometry: line and constant curvature arc.
           * Supports piecewise defined geometries.
