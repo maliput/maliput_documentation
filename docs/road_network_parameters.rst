@@ -1,7 +1,7 @@
-.. _maliput_backend_parameters_label:
+.. _road_network_parameters_label:
 
-Maliput Backend Parameters
-**************************
+Road Network Parameters
+***********************
 
 
 .. contents:: Table of Contents
@@ -19,8 +19,8 @@ Some of these parameters may be optional, but some others are mandatory, therefo
 
   For more information about the plugin interface see `Getting Started:Maliput Python Interface <getting_started.html#maliput-python-interface>`_ and `Maliput Plugin Architecture`_ .
 
-Parameters of maliput backends
-==============================
+Parameters for each maliput backend
+===================================
 
 `maliput` doesn't impose any restriction on the parameters that a maliput backend may request, however it is expected that the parameters are passed as a string dictionary of key-value pairs to the backend loader.
 For documentation purposes, it is desirable that the keys are documented somewhere so that the users of the backend can know what parameters can be used and how.
@@ -46,8 +46,8 @@ It is recommended to follow this pattern when documenting the parameters of a ma
      - `parameters <html/deps/maliput_osm/html/group__builder__configuration__keys.html>`__
 
 
-Using maliput plugin architecture to load maliput backends
-==========================================================
+Using maliput plugin architecture to load a Road Network
+========================================================
 
 After a maliput backend is installed, it can be loaded using the plugin interface. The plugin interface provides a way to discover the maliput backends that are available in the system and to load them.
 

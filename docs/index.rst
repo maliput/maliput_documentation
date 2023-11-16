@@ -17,14 +17,16 @@ Contents
    installation
    getting_started
    examples
+   maliput_backends
+   road_network_parameters
 
 .. toctree::
    :caption: Documentation
    :maxdepth: 3
 
+   creating_maliput_backend
    tutorials
    api_documentation
-   maliput_backend_parameters
    design
    roadmap
    changelog
