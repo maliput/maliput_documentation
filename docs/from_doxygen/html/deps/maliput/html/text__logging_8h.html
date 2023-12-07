@@ -209,7 +209,7 @@ Variables</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                                                  \</div>
 <div class="line">    <span class="comment">/* Capture the maliput::drake::log() in a temporary, using a relatively unique */</span>                   \</div>
 <div class="line">    <span class="comment">/* variable name to avoid potential variable name shadowing warnings. */</span>                            \</div>
-<div class="line">    <a class="code" href="namespacemaliput_1_1drake_1_1logging.html#a9cae370466ffb304c10aebea42eca26b">::maliput::drake::logging::logger</a>* <span class="keyword">const</span> drake_spdlog_macro_logger_alias = <a class="code" href="namespacemaliput_1_1drake.html#aa157c1d75c2e52df3370e5f458022ee9">::maliput::drake::log</a>(); \</div>
+<div class="line">    <a class="code" href="namespacemaliput_1_1drake_1_1logging.html#a9cae370466ffb304c10aebea42eca26b">::maliput::drake::logging::logger</a>* <span class="keyword">const</span> drake_spdlog_macro_logger_alias = <a class="code" href="namespacemaliput.html#a8d79f56feceef38ffe51eb5e0a1e1b03">::maliput::drake::log</a>(); \</div>
 <div class="line">    if (drake_spdlog_macro_logger_alias-&gt;level() &lt;= <a class="code" href="namespacemaliput_1_1common_1_1logger.html#afde8e18a788ccc92fc61cab298bca7e3a5be0fd270d9cbf6a0b7445db855089da">spdlog::level::debug</a>) {                             \</div>
 <div class="line">      SPDLOG_LOGGER_DEBUG(drake_spdlog_macro_logger_alias, __VA_ARGS__);                                \</div>
 <div class="line">    }                                                                                                   \</div>
@@ -235,7 +235,7 @@ Variables</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                                                  \</div>
 <div class="line">    <span class="comment">/* Capture the maliput::drake::log() in a temporary, using a relatively unique */</span>                   \</div>
 <div class="line">    <span class="comment">/* variable name to avoid potential variable name shadowing warnings. */</span>                            \</div>
-<div class="line">    <a class="code" href="namespacemaliput_1_1drake_1_1logging.html#a9cae370466ffb304c10aebea42eca26b">::maliput::drake::logging::logger</a>* <span class="keyword">const</span> drake_spdlog_macro_logger_alias = <a class="code" href="namespacemaliput_1_1drake.html#aa157c1d75c2e52df3370e5f458022ee9">::maliput::drake::log</a>(); \</div>
+<div class="line">    <a class="code" href="namespacemaliput_1_1drake_1_1logging.html#a9cae370466ffb304c10aebea42eca26b">::maliput::drake::logging::logger</a>* <span class="keyword">const</span> drake_spdlog_macro_logger_alias = <a class="code" href="namespacemaliput.html#a8d79f56feceef38ffe51eb5e0a1e1b03">::maliput::drake::log</a>(); \</div>
 <div class="line">    if (drake_spdlog_macro_logger_alias-&gt;level() &lt;= <a class="code" href="namespacemaliput_1_1common_1_1logger.html#afde8e18a788ccc92fc61cab298bca7e3a36a3b17acbfb35380a47b3d88c9b8942">spdlog::level::trace</a>) {                             \</div>
 <div class="line">      SPDLOG_LOGGER_TRACE(drake_spdlog_macro_logger_alias, __VA_ARGS__);                                \</div>
 <div class="line">    }                                                                                                   \</div>
@@ -259,15 +259,15 @@ Variables</h2></td></tr>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="anamespacemaliput_1_1drake_html_aa157c1d75c2e52df3370e5f458022ee9"><div class="ttname"><a href="namespacemaliput_1_1drake.html#aa157c1d75c2e52df3370e5f458022ee9">maliput::drake::log</a></div><div class="ttdeci">logging::logger * log()</div><div class="ttdoc">Retrieve an instance of a logger to use for logging; for example:</div><div class="ttdef"><b>Definition:</b> text_logging.cc:40</div></div>
 <div class="ttc" id="anamespacemaliput_1_1common_1_1logger_html_afde8e18a788ccc92fc61cab298bca7e3a36a3b17acbfb35380a47b3d88c9b8942"><div class="ttname"><a href="namespacemaliput_1_1common_1_1logger.html#afde8e18a788ccc92fc61cab298bca7e3a36a3b17acbfb35380a47b3d88c9b8942">maliput::common::logger::trace</a></div><div class="ttdeci">@ trace</div><div class="ttdef"><b>Definition:</b> logger.h:79</div></div>
+<div class="ttc" id="anamespacemaliput_html_a8d79f56feceef38ffe51eb5e0a1e1b03"><div class="ttname"><a href="namespacemaliput.html#a8d79f56feceef38ffe51eb5e0a1e1b03">maliput::log</a></div><div class="ttdeci">common::Logger * log()</div><div class="ttdef"><b>Definition:</b> logger.cc:111</div></div>
 <div class="ttc" id="anamespacemaliput_1_1drake_1_1logging_html_a9cae370466ffb304c10aebea42eca26b"><div class="ttname"><a href="namespacemaliput_1_1drake_1_1logging.html#a9cae370466ffb304c10aebea42eca26b">maliput::drake::logging::logger</a></div><div class="ttdeci">spdlog::logger logger</div><div class="ttdoc">The maliput::drake::logging::logger class provides text logging methods.</div><div class="ttdef"><b>Definition:</b> text_logging.h:94</div></div>
 <div class="ttc" id="anamespacemaliput_1_1common_1_1logger_html_afde8e18a788ccc92fc61cab298bca7e3a5be0fd270d9cbf6a0b7445db855089da"><div class="ttname"><a href="namespacemaliput_1_1common_1_1logger.html#afde8e18a788ccc92fc61cab298bca7e3a5be0fd270d9cbf6a0b7445db855089da">maliput::common::logger::debug</a></div><div class="ttdeci">@ debug</div><div class="ttdef"><b>Definition:</b> logger.h:80</div></div>
 <!-- HTML footer for doxygen 1.8.15 -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_3a9e9a7cbac7463b19223206dfc8a5c3.html">maliput</a></li><li class="navelem"><a class="el" href="dir_4b0d349cd8b993e22d802e7ace67c4df.html">drake</a></li><li class="navelem"><a class="el" href="dir_9498f088ae4cd42dccc688c291f36a17.html">common</a></li><li class="navelem"><a class="el" href="text__logging_8h.html">text_logging.h</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_e459d5246ea0b4dda1940e0884f34519.html">maliput</a></li><li class="navelem"><a class="el" href="dir_e3ac129b6d8713fb05fb96b528d64b3c.html">drake</a></li><li class="navelem"><a class="el" href="dir_70a347fb1a5f4cbb6c1a79402b805762.html">common</a></li><li class="navelem"><a class="el" href="text__logging_8h.html">text_logging.h</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.nl/">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a></li>

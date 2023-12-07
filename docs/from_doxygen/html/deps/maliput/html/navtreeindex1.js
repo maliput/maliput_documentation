@@ -1,5 +1,8 @@
 var NAVTREEINDEX1 =
 {
+"classmaliput_1_1_manual_rulebook.html#ad2ce757d42ec1f39b86892a821209c8a":[3,0,0,15,12],
+"classmaliput_1_1_manual_rulebook.html#ae788774a127f05e8682b9dda2362a9a7":[3,0,0,15,1],
+"classmaliput_1_1_manual_rulebook.html#af8757469d83d042543509882636762e6":[3,0,0,15,9],
 "classmaliput_1_1_manual_rulebook.html#afe4bc1baa86ce48e29c740d48d88d4d2":[3,0,0,15,3],
 "classmaliput_1_1_phased_discrete_rule_state_provider.html":[3,0,0,16],
 "classmaliput_1_1_phased_discrete_rule_state_provider.html#a6709342389dca266f5d49928fd1696df":[3,0,0,16,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX1 =
 "classmaliput_1_1api_1_1_segment.html#ae7d45473b824832f3828103f350b8f72":[3,0,0,0,24,3],
 "classmaliput_1_1api_1_1_type_specific_identifier.html":[3,0,0,0,26],
 "classmaliput_1_1api_1_1_type_specific_identifier.html#a40a8386e472aff3f49ddaa53197b6746":[3,0,0,0,26,3],
-"classmaliput_1_1api_1_1_type_specific_identifier.html#a4b1b321bba77194abdc265fc952ea158":[3,0,0,0,26,6],
-"classmaliput_1_1api_1_1_type_specific_identifier.html#a7314f49a51859d46439cfeddb9ea06ec":[3,0,0,0,26,5],
-"classmaliput_1_1api_1_1_type_specific_identifier.html#ab135a123a2ff98cdd1d23b6df15eb9ab":[3,0,0,0,26,4],
-"classmaliput_1_1api_1_1_type_specific_identifier.html#ae1c90c9eff1dfe4d052c9a012f813fca":[3,0,0,0,26,2]
+"classmaliput_1_1api_1_1_type_specific_identifier.html#a4b1b321bba77194abdc265fc952ea158":[3,0,0,0,26,6]
 };

@@ -2,7 +2,7 @@
 <tagfile>
   <compound kind="file">
     <name>abstract_value_cloner.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>abstract__value__cloner_8cc.html</filename>
     <includes id="abstract__value__cloner_8h" name="abstract_value_cloner.h" local="yes" imported="no">maliput/drake/systems/framework/abstract_value_cloner.h</includes>
     <namespace>maliput</namespace>
@@ -12,7 +12,7 @@
   </compound>
   <compound kind="file">
     <name>abstract_value_cloner.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>abstract__value__cloner_8h.html</filename>
     <includes id="copyable__unique__ptr_8h" name="copyable_unique_ptr.h" local="yes" imported="no">maliput/drake/common/copyable_unique_ptr.h</includes>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
@@ -25,7 +25,7 @@
   </compound>
   <compound kind="file">
     <name>abstract_values.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>abstract__values_8cc.html</filename>
     <includes id="abstract__values_8h" name="abstract_values.h" local="yes" imported="no">maliput/drake/systems/framework/abstract_values.h</includes>
     <namespace>maliput</namespace>
@@ -34,7 +34,7 @@
   </compound>
   <compound kind="file">
     <name>abstract_values.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>abstract__values_8h.html</filename>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
@@ -47,13 +47,13 @@
   </compound>
   <compound kind="file">
     <name>antiderivative_function.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/analysis/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/analysis/</path>
     <filename>antiderivative__function_8cc.html</filename>
     <includes id="antiderivative__function_8h" name="antiderivative_function.h" local="yes" imported="no">maliput/drake/systems/analysis/antiderivative_function.h</includes>
   </compound>
   <compound kind="file">
     <name>antiderivative_function.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/analysis/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/analysis/</path>
     <filename>antiderivative__function_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
@@ -68,6 +68,38 @@
     <namespace>maliput::drake::systems</namespace>
   </compound>
   <compound kind="file">
+    <name>arc_length_integrator.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/</path>
+    <filename>arc__length__integrator_8cc.html</filename>
+    <includes id="arc__length__integrator_8h" name="arc_length_integrator.h" local="yes" imported="no">maliput/drake/arc_length_integrator.h</includes>
+    <includes id="logger_8h" name="logger.h" local="no" imported="no">maliput/common/logger.h</includes>
+    <includes id="maliput__throw_8h" name="maliput_throw.h" local="no" imported="no">maliput/common/maliput_throw.h</includes>
+    <includes id="eigen__types_8h" name="eigen_types.h" local="no" imported="no">maliput/drake/common/eigen_types.h</includes>
+    <includes id="antiderivative__function_8h" name="antiderivative_function.h" local="no" imported="no">maliput/drake/systems/analysis/antiderivative_function.h</includes>
+    <includes id="integrator__base_8h" name="integrator_base.h" local="no" imported="no">maliput/drake/systems/analysis/integrator_base.h</includes>
+    <includes id="saturate_8h" name="saturate.h" local="no" imported="no">maliput/math/saturate.h</includes>
+    <includes id="vector_8h" name="vector.h" local="no" imported="no">maliput/math/vector.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::drake</namespace>
+    <member kind="variable">
+      <type>std::function&lt; double(double, const math::Vector2 &amp;)&gt;</type>
+      <name>f</name>
+      <anchorfile>arc__length__integrator_8cc.html</anchorfile>
+      <anchor>afedf9fdd3296c941d215a2dfc4b61c46</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>arc_length_integrator.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/</path>
+    <filename>arc__length__integrator_8h.html</filename>
+    <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
+    <includes id="integrator__configuration_8h" name="integrator_configuration.h" local="yes" imported="no">maliput/drake/integrator_configuration.h</includes>
+    <class kind="class">maliput::drake::ArcLengthIntegrator</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::drake</namespace>
+  </compound>
+  <compound kind="file">
     <name>assertion_error.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/common/</path>
     <filename>assertion__error_8h.html</filename>
@@ -77,7 +109,7 @@
   </compound>
   <compound kind="file">
     <name>axis_aligned_box.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/math/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/math/</path>
     <filename>axis__aligned__box_8cc.html</filename>
     <includes id="axis__aligned__box_8h" name="axis_aligned_box.h" local="yes" imported="no">maliput/math/axis_aligned_box.h</includes>
     <namespace>maliput</namespace>
@@ -98,7 +130,7 @@
   </compound>
   <compound kind="file">
     <name>basic_id_index.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/api/</path>
     <filename>basic__id__index_8cc.html</filename>
     <includes id="basic__id__index_8h" name="basic_id_index.h" local="yes" imported="no">maliput/api/basic_id_index.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -121,13 +153,13 @@
   </compound>
   <compound kind="file">
     <name>basic_vector.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>basic__vector_8cc.html</filename>
     <includes id="basic__vector_8h" name="basic_vector.h" local="yes" imported="no">maliput/drake/systems/framework/basic_vector.h</includes>
   </compound>
   <compound kind="file">
     <name>basic_vector.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>basic__vector_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__throw_8h" name="drake_throw.h" local="yes" imported="no">maliput/drake/common/drake_throw.h</includes>
@@ -141,7 +173,7 @@
   </compound>
   <compound kind="file">
     <name>bounding_box.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/math/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/math/</path>
     <filename>bounding__box_8cc.html</filename>
     <includes id="bounding__box_8h" name="bounding_box.h" local="yes" imported="no">maliput/math/bounding_box.h</includes>
     <namespace>maliput</namespace>
@@ -172,7 +204,7 @@
   </compound>
   <compound kind="file">
     <name>branch_point.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/geometry_base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/geometry_base/</path>
     <filename>branch__point_8cc.html</filename>
     <includes id="geometry__base_2branch__point_8h" name="geometry_base/branch_point.h" local="yes" imported="no">maliput/geometry_base/branch_point.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -215,7 +247,7 @@
   </compound>
   <compound kind="file">
     <name>brute_force_find_road_positions_strategy.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/geometry_base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/geometry_base/</path>
     <filename>brute__force__find__road__positions__strategy_8cc.html</filename>
     <includes id="brute__force__find__road__positions__strategy_8h" name="brute_force_find_road_positions_strategy.h" local="yes" imported="no">maliput/geometry_base/brute_force_find_road_positions_strategy.h</includes>
     <includes id="api_2junction_8h" name="api/junction.h" local="yes" imported="no">maliput/api/junction.h</includes>
@@ -250,7 +282,7 @@
   </compound>
   <compound kind="file">
     <name>brute_force_strategy.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/geometry_base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/geometry_base/</path>
     <filename>brute__force__strategy_8cc.html</filename>
     <includes id="brute__force__strategy_8h" name="brute_force_strategy.h" local="yes" imported="no">maliput/geometry_base/brute_force_strategy.h</includes>
     <includes id="filter__positions_8h" name="filter_positions.h" local="no" imported="no">maliput/geometry_base/filter_positions.h</includes>
@@ -272,7 +304,7 @@
   </compound>
   <compound kind="file">
     <name>cache.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>cache_8cc.html</filename>
     <includes id="cache_8h" name="cache.h" local="yes" imported="no">maliput/drake/systems/framework/cache.h</includes>
     <includes id="dependency__tracker_8h" name="dependency_tracker.h" local="yes" imported="no">maliput/drake/systems/framework/dependency_tracker.h</includes>
@@ -282,7 +314,7 @@
   </compound>
   <compound kind="file">
     <name>cache.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>cache_8h.html</filename>
     <includes id="copyable__unique__ptr_8h" name="copyable_unique_ptr.h" local="yes" imported="no">maliput/drake/common/copyable_unique_ptr.h</includes>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
@@ -298,7 +330,7 @@
   </compound>
   <compound kind="file">
     <name>cache_doxygen.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>cache__doxygen_8h.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
@@ -306,7 +338,7 @@
   </compound>
   <compound kind="file">
     <name>cache_entry.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>cache__entry_8cc.html</filename>
     <includes id="cache__entry_8h" name="cache_entry.h" local="yes" imported="no">maliput/drake/systems/framework/cache_entry.h</includes>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
@@ -317,7 +349,7 @@
   </compound>
   <compound kind="file">
     <name>cache_entry.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>cache__entry_8h.html</filename>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
     <includes id="value_8h" name="value.h" local="yes" imported="no">maliput/drake/common/value.h</includes>
@@ -331,7 +363,7 @@
   </compound>
   <compound kind="file">
     <name>api/compare.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/api/</path>
     <filename>api_2compare_8cc.html</filename>
     <includes id="api_2compare_8h" name="api/compare.h" local="yes" imported="no">maliput/api/compare.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
@@ -508,7 +540,7 @@
   </compound>
   <compound kind="file">
     <name>api/rules/compare.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/rules/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/api/rules/</path>
     <filename>api_2rules_2compare_8cc.html</filename>
     <includes id="api_2rules_2compare_8h" name="api/rules/compare.h" local="yes" imported="no">maliput/api/rules/compare.h</includes>
     <includes id="api_2compare_8h" name="api/compare.h" local="yes" imported="no">maliput/api/compare.h</includes>
@@ -770,7 +802,7 @@
   </compound>
   <compound kind="file">
     <name>math/compare.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/math/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/math/</path>
     <filename>math_2compare_8cc.html</filename>
     <includes id="math_2compare_8h" name="math/compare.h" local="yes" imported="no">maliput/math/compare.h</includes>
     <namespace>maliput</namespace>
@@ -792,7 +824,7 @@
   </compound>
   <compound kind="file">
     <name>routing/compare.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/routing/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/routing/</path>
     <filename>routing_2compare_8cc.html</filename>
     <includes id="routing_2compare_8h" name="routing/compare.h" local="yes" imported="no">maliput/routing/compare.h</includes>
     <includes id="api_2compare_8h" name="api/compare.h" local="yes" imported="no">maliput/api/compare.h</includes>
@@ -1345,7 +1377,7 @@
   </compound>
   <compound kind="file">
     <name>constants.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>constants_8h.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
@@ -1403,7 +1435,7 @@
   </compound>
   <compound kind="file">
     <name>context.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>context_8cc.html</filename>
     <includes id="context_8h" name="context.h" local="yes" imported="no">maliput/drake/systems/framework/context.h</includes>
     <includes id="pointer__cast_8h" name="pointer_cast.h" local="yes" imported="no">maliput/drake/common/pointer_cast.h</includes>
@@ -1413,7 +1445,7 @@
   </compound>
   <compound kind="file">
     <name>context.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>context_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__throw_8h" name="drake_throw.h" local="yes" imported="no">maliput/drake/common/drake_throw.h</includes>
@@ -1435,7 +1467,7 @@
   </compound>
   <compound kind="file">
     <name>context_base.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>context__base_8cc.html</filename>
     <includes id="context__base_8h" name="context_base.h" local="yes" imported="no">maliput/drake/systems/framework/context_base.h</includes>
     <includes id="unused_8h" name="unused.h" local="yes" imported="no">maliput/drake/common/unused.h</includes>
@@ -1445,7 +1477,7 @@
   </compound>
   <compound kind="file">
     <name>context_base.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>context__base_8h.html</filename>
     <includes id="reset__on__copy_8h" name="reset_on_copy.h" local="yes" imported="no">maliput/drake/common/reset_on_copy.h</includes>
     <includes id="unused_8h" name="unused.h" local="yes" imported="no">maliput/drake/common/unused.h</includes>
@@ -1462,7 +1494,7 @@
   </compound>
   <compound kind="file">
     <name>continuous_state.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>continuous__state_8cc.html</filename>
     <includes id="continuous__state_8h" name="continuous_state.h" local="yes" imported="no">maliput/drake/systems/framework/continuous_state.h</includes>
     <includes id="basic__vector_8h" name="basic_vector.h" local="yes" imported="no">maliput/drake/systems/framework/basic_vector.h</includes>
@@ -1473,7 +1505,7 @@
   </compound>
   <compound kind="file">
     <name>continuous_state.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>continuous__state_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
@@ -1489,7 +1521,7 @@
   </compound>
   <compound kind="file">
     <name>copyable_unique_ptr.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>copyable__unique__ptr_8h.html</filename>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
     <class kind="class">maliput::drake::copyable_unique_ptr</class>
@@ -1498,7 +1530,7 @@
   </compound>
   <compound kind="file">
     <name>create_road_network.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/plugin/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/plugin/</path>
     <filename>create__road__network_8cc.html</filename>
     <includes id="create__road__network_8h" name="create_road_network.h" local="yes" imported="no">maliput/plugin/create_road_network.h</includes>
     <includes id="logger_8h" name="logger.h" local="yes" imported="no">maliput/common/logger.h</includes>
@@ -1546,7 +1578,7 @@
   </compound>
   <compound kind="file">
     <name>default_scalars.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>default__scalars_8h.html</filename>
     <member kind="define">
       <type>#define</type>
@@ -1635,13 +1667,13 @@
   </compound>
   <compound kind="file">
     <name>dense_output.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/analysis/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/analysis/</path>
     <filename>dense__output_8cc.html</filename>
     <includes id="dense__output_8h" name="dense_output.h" local="yes" imported="no">maliput/drake/systems/analysis/dense_output.h</includes>
   </compound>
   <compound kind="file">
     <name>dense_output.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/analysis/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/analysis/</path>
     <filename>dense__output_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
@@ -1653,7 +1685,7 @@
   </compound>
   <compound kind="file">
     <name>dependency_tracker.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>dependency__tracker_8cc.html</filename>
     <includes id="dependency__tracker_8h" name="dependency_tracker.h" local="yes" imported="no">maliput/drake/systems/framework/dependency_tracker.h</includes>
     <includes id="unused_8h" name="unused.h" local="yes" imported="no">maliput/drake/common/unused.h</includes>
@@ -1663,7 +1695,7 @@
   </compound>
   <compound kind="file">
     <name>dependency_tracker.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>dependency__tracker_8h.html</filename>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
@@ -1678,7 +1710,7 @@
   </compound>
   <compound kind="file">
     <name>derive_lane_s_routes.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/routing/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/routing/</path>
     <filename>derive__lane__s__routes_8cc.html</filename>
     <includes id="derive__lane__s__routes_8h" name="derive_lane_s_routes.h" local="yes" imported="no">maliput/routing/derive_lane_s_routes.h</includes>
     <includes id="api_2branch__point_8h" name="api/branch_point.h" local="yes" imported="no">maliput/api/branch_point.h</includes>
@@ -1714,7 +1746,7 @@
   </compound>
   <compound kind="file">
     <name>direction_usage_rule.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/rules/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/api/rules/</path>
     <filename>direction__usage__rule_8cc.html</filename>
     <includes id="direction__usage__rule_8h" name="direction_usage_rule.h" local="yes" imported="no">maliput/api/rules/direction_usage_rule.h</includes>
     <namespace>maliput</namespace>
@@ -1742,16 +1774,8 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>discrete_systems.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/</path>
-    <filename>discrete__systems_8h.html</filename>
-    <namespace>maliput</namespace>
-    <namespace>maliput::drake</namespace>
-    <namespace>maliput::drake::systems</namespace>
-  </compound>
-  <compound kind="file">
     <name>discrete_value_rule.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/rules/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/api/rules/</path>
     <filename>discrete__value__rule_8cc.html</filename>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -1788,13 +1812,13 @@
   </compound>
   <compound kind="file">
     <name>discrete_values.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>discrete__values_8cc.html</filename>
     <includes id="discrete__values_8h" name="discrete_values.h" local="yes" imported="no">maliput/drake/systems/framework/discrete_values.h</includes>
   </compound>
   <compound kind="file">
     <name>discrete_values.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>discrete__values_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
@@ -1812,7 +1836,7 @@
   </compound>
   <compound kind="file">
     <name>drake_assert.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>drake__assert_8h.html</filename>
     <class kind="struct">maliput::drake::assert::ConditionTraits</class>
     <namespace>maliput</namespace>
@@ -1885,7 +1909,7 @@
   </compound>
   <compound kind="file">
     <name>drake_assert_and_throw.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>drake__assert__and__throw_8cc.html</filename>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
     <includes id="drake__throw_8h" name="drake_throw.h" local="yes" imported="no">maliput/drake/common/drake_throw.h</includes>
@@ -1925,7 +1949,7 @@
   </compound>
   <compound kind="file">
     <name>drake_assertion_error.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>drake__assertion__error_8h.html</filename>
     <class kind="class">maliput::drake::internal::assertion_error</class>
     <namespace>maliput</namespace>
@@ -1934,7 +1958,7 @@
   </compound>
   <compound kind="file">
     <name>drake_bool.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>drake__bool_8h.html</filename>
     <class kind="struct">maliput::drake::scalar_predicate</class>
     <namespace>maliput</namespace>
@@ -1991,7 +2015,7 @@
   </compound>
   <compound kind="file">
     <name>drake_copyable.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>drake__copyable_8h.html</filename>
     <member kind="define">
       <type>#define</type>
@@ -2010,7 +2034,7 @@
   </compound>
   <compound kind="file">
     <name>drake_deprecated.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>drake__deprecated_8h.html</filename>
     <member kind="define">
       <type>#define</type>
@@ -2022,7 +2046,7 @@
   </compound>
   <compound kind="file">
     <name>drake_throw.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>drake__throw_8h.html</filename>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
     <namespace>maliput</namespace>
@@ -2059,7 +2083,7 @@
   </compound>
   <compound kind="file">
     <name>dummy_value.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>dummy__value_8h.html</filename>
     <class kind="struct">maliput::drake::dummy_value</class>
     <class kind="struct">maliput::drake::dummy_value&lt; int &gt;</class>
@@ -2068,7 +2092,7 @@
   </compound>
   <compound kind="file">
     <name>eigen_stl_types.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>eigen__stl__types_8h.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
@@ -2096,7 +2120,7 @@
   </compound>
   <compound kind="file">
     <name>eigen_types.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>eigen__types_8h.html</filename>
     <includes id="constants_8h" name="constants.h" local="yes" imported="no">maliput/drake/common/constants.h</includes>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
@@ -2367,7 +2391,7 @@
   </compound>
   <compound kind="file">
     <name>event.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>event_8h.html</filename>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
     <includes id="value_8h" name="value.h" local="yes" imported="no">maliput/drake/common/value.h</includes>
@@ -2415,13 +2439,13 @@
   </compound>
   <compound kind="file">
     <name>event_collection.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>event__collection_8cc.html</filename>
     <includes id="event__collection_8h" name="event_collection.h" local="yes" imported="no">maliput/drake/systems/framework/event_collection.h</includes>
   </compound>
   <compound kind="file">
     <name>event_collection.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>event__collection_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
@@ -2441,7 +2465,7 @@
   </compound>
   <compound kind="file">
     <name>event_status.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>event__status_8h.html</filename>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
@@ -2452,7 +2476,7 @@
   </compound>
   <compound kind="file">
     <name>extract_double.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>extract__double_8h.html</filename>
     <includes id="drake__deprecated_8h" name="drake_deprecated.h" local="yes" imported="no">maliput/drake/common/drake_deprecated.h</includes>
     <includes id="eigen__types_8h" name="eigen_types.h" local="yes" imported="no">maliput/drake/common/eigen_types.h</includes>
@@ -2483,7 +2507,7 @@
   </compound>
   <compound kind="file">
     <name>file_utils.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/utility/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/utility/</path>
     <filename>file__utils_8cc.html</filename>
     <includes id="file__utils_8h" name="file_utils.h" local="yes" imported="no">maliput/utility/file_utils.h</includes>
     <includes id="logger_8h" name="logger.h" local="yes" imported="no">maliput/common/logger.h</includes>
@@ -2541,7 +2565,7 @@
   </compound>
   <compound kind="file">
     <name>filesystem.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/common/</path>
     <filename>filesystem_8cc.html</filename>
     <includes id="filesystem_8h" name="filesystem.h" local="yes" imported="no">maliput/common/filesystem.h</includes>
     <namespace>maliput</namespace>
@@ -2558,7 +2582,7 @@
   </compound>
   <compound kind="file">
     <name>filter_positions.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/geometry_base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/geometry_base/</path>
     <filename>filter__positions_8cc.html</filename>
     <includes id="filter__positions_8h" name="filter_positions.h" local="yes" imported="no">maliput/geometry_base/filter_positions.h</includes>
     <namespace>maliput</namespace>
@@ -2588,7 +2612,7 @@
   </compound>
   <compound kind="file">
     <name>find_lane_sequences.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/routing/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/routing/</path>
     <filename>find__lane__sequences_8cc.html</filename>
     <includes id="find__lane__sequences_8h" name="find_lane_sequences.h" local="yes" imported="no">maliput/routing/find_lane_sequences.h</includes>
     <includes id="api_2branch__point_8h" name="api/branch_point.h" local="yes" imported="no">maliput/api/branch_point.h</includes>
@@ -2621,7 +2645,7 @@
   </compound>
   <compound kind="file">
     <name>fixed_input_port_value.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>fixed__input__port__value_8cc.html</filename>
     <includes id="fixed__input__port__value_8h" name="fixed_input_port_value.h" local="yes" imported="no">maliput/drake/systems/framework/fixed_input_port_value.h</includes>
     <includes id="context__base_8h" name="context_base.h" local="yes" imported="no">maliput/drake/systems/framework/context_base.h</includes>
@@ -2631,7 +2655,7 @@
   </compound>
   <compound kind="file">
     <name>fixed_input_port_value.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>fixed__input__port__value_8h.html</filename>
     <includes id="copyable__unique__ptr_8h" name="copyable_unique_ptr.h" local="yes" imported="no">maliput/drake/common/copyable_unique_ptr.h</includes>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
@@ -2649,7 +2673,7 @@
   </compound>
   <compound kind="file">
     <name>framework_common.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>framework__common_8h.html</filename>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
     <includes id="drake__deprecated_8h" name="drake_deprecated.h" local="yes" imported="no">maliput/drake/common/drake_deprecated.h</includes>
@@ -2975,7 +2999,7 @@
   </compound>
   <compound kind="file">
     <name>generate_obj.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/utility/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/utility/</path>
     <filename>generate__obj_8cc.html</filename>
     <includes id="generate__obj_8h" name="generate_obj.h" local="yes" imported="no">maliput/utility/generate_obj.h</includes>
     <includes id="api_2branch__point_8h" name="api/branch_point.h" local="yes" imported="no">maliput/api/branch_point.h</includes>
@@ -3158,7 +3182,7 @@
   </compound>
   <compound kind="file">
     <name>generate_string.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/utility/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/utility/</path>
     <filename>generate__string_8cc.html</filename>
     <includes id="generate__string_8h" name="generate_string.h" local="yes" imported="no">maliput/utility/generate_string.h</includes>
     <includes id="api_2junction_8h" name="api/junction.h" local="yes" imported="no">maliput/api/junction.h</includes>
@@ -3214,7 +3238,7 @@
   </compound>
   <compound kind="file">
     <name>generate_urdf.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/utility/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/utility/</path>
     <filename>generate__urdf_8cc.html</filename>
     <includes id="generate__urdf_8h" name="generate_urdf.h" local="yes" imported="no">maliput/utility/generate_urdf.h</includes>
     <includes id="generate__obj_8h" name="generate_obj.h" local="yes" imported="no">maliput/utility/generate_obj.h</includes>
@@ -3246,13 +3270,13 @@
   </compound>
   <compound kind="file">
     <name>hash.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>hash_8cc.html</filename>
     <includes id="hash_8h" name="hash.h" local="yes" imported="no">maliput/drake/common/hash.h</includes>
   </compound>
   <compound kind="file">
     <name>hash.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>hash_8h.html</filename>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
     <includes id="drake__throw_8h" name="drake_throw.h" local="yes" imported="no">maliput/drake/common/drake_throw.h</includes>
@@ -3342,13 +3366,13 @@
   </compound>
   <compound kind="file">
     <name>hermitian_dense_output.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/analysis/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/analysis/</path>
     <filename>hermitian__dense__output_8cc.html</filename>
     <includes id="hermitian__dense__output_8h" name="hermitian_dense_output.h" local="yes" imported="no">maliput/drake/systems/analysis/hermitian_dense_output.h</includes>
   </compound>
   <compound kind="file">
     <name>hermitian_dense_output.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/analysis/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/analysis/</path>
     <filename>hermitian__dense__output_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__bool_8h" name="drake_bool.h" local="yes" imported="no">maliput/drake/common/drake_bool.h</includes>
@@ -3380,7 +3404,7 @@
   </compound>
   <compound kind="file">
     <name>identifier.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>identifier_8h.html</filename>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
     <includes id="drake__throw_8h" name="drake_throw.h" local="yes" imported="no">maliput/drake/common/drake_throw.h</includes>
@@ -3400,7 +3424,7 @@
   </compound>
   <compound kind="file">
     <name>initial_value_problem.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/analysis/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/analysis/</path>
     <filename>initial__value__problem_8cc.html</filename>
     <includes id="initial__value__problem_8h" name="initial_value_problem.h" local="yes" imported="no">maliput/drake/systems/analysis/initial_value_problem.h</includes>
     <includes id="hermitian__dense__output_8h" name="hermitian_dense_output.h" local="yes" imported="no">maliput/drake/systems/analysis/hermitian_dense_output.h</includes>
@@ -3413,7 +3437,7 @@
   </compound>
   <compound kind="file">
     <name>initial_value_problem.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/analysis/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/analysis/</path>
     <filename>initial__value__problem_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
@@ -3430,13 +3454,13 @@
   </compound>
   <compound kind="file">
     <name>input_port.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>input__port_8cc.html</filename>
     <includes id="input__port_8h" name="input_port.h" local="yes" imported="no">maliput/drake/systems/framework/input_port.h</includes>
   </compound>
   <compound kind="file">
     <name>input_port.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>input__port_8h.html</filename>
     <includes id="constants_8h" name="constants.h" local="yes" imported="no">maliput/drake/common/constants.h</includes>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
@@ -3455,7 +3479,7 @@
   </compound>
   <compound kind="file">
     <name>input_port_base.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>input__port__base_8cc.html</filename>
     <includes id="input__port__base_8h" name="input_port_base.h" local="yes" imported="no">maliput/drake/systems/framework/input_port_base.h</includes>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
@@ -3465,7 +3489,7 @@
   </compound>
   <compound kind="file">
     <name>input_port_base.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>input__port__base_8h.html</filename>
     <includes id="random_8h" name="random.h" local="yes" imported="no">maliput/drake/common/random.h</includes>
     <includes id="context__base_8h" name="context_base.h" local="yes" imported="no">maliput/drake/systems/framework/context_base.h</includes>
@@ -3478,7 +3502,7 @@
   </compound>
   <compound kind="file">
     <name>integrator_base.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/analysis/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/analysis/</path>
     <filename>integrator__base_8cc.html</filename>
     <includes id="integrator__base_8h" name="integrator_base.h" local="yes" imported="no">maliput/drake/systems/analysis/integrator_base.h</includes>
     <namespace>maliput</namespace>
@@ -3487,7 +3511,7 @@
   </compound>
   <compound kind="file">
     <name>integrator_base.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/analysis/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/analysis/</path>
     <filename>integrator__base_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
@@ -3504,8 +3528,17 @@
     <namespace>maliput::drake::systems</namespace>
   </compound>
   <compound kind="file">
+    <name>integrator_configuration.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/</path>
+    <filename>integrator__configuration_8h.html</filename>
+    <includes id="vector_8h" name="vector.h" local="yes" imported="no">maliput/math/vector.h</includes>
+    <class kind="struct">maliput::drake::IntegratorConfiguration</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::drake</namespace>
+  </compound>
+  <compound kind="file">
     <name>api/intersection.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/api/</path>
     <filename>api_2intersection_8cc.html</filename>
     <includes id="api_2intersection_8h" name="api/intersection.h" local="yes" imported="no">maliput/api/intersection.h</includes>
     <namespace>maliput</namespace>
@@ -3513,7 +3546,7 @@
   </compound>
   <compound kind="file">
     <name>base/intersection.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
     <filename>base_2intersection_8cc.html</filename>
     <includes id="base_2intersection_8h" name="base/intersection.h" local="yes" imported="no">maliput/base/intersection.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -3549,7 +3582,7 @@
   </compound>
   <compound kind="file">
     <name>intersection_book.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
     <filename>intersection__book_8cc.html</filename>
     <includes id="base_2intersection__book_8h" name="base/intersection_book.h" local="yes" imported="no">maliput/base/intersection_book.h</includes>
     <includes id="api_2rules_2phase_8h" name="api/rules/phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
@@ -3581,7 +3614,7 @@
   </compound>
   <compound kind="file">
     <name>intersection_book_loader.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
     <filename>intersection__book__loader_8cc.html</filename>
     <includes id="intersection__book__loader_8h" name="intersection_book_loader.h" local="yes" imported="no">maliput/base/intersection_book_loader.h</includes>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
@@ -3635,8 +3668,41 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>inverse_arc_length_integrator.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/</path>
+    <filename>inverse__arc__length__integrator_8cc.html</filename>
+    <includes id="inverse__arc__length__integrator_8h" name="inverse_arc_length_integrator.h" local="yes" imported="no">maliput/drake/inverse_arc_length_integrator.h</includes>
+    <includes id="logger_8h" name="logger.h" local="no" imported="no">maliput/common/logger.h</includes>
+    <includes id="maliput__throw_8h" name="maliput_throw.h" local="no" imported="no">maliput/common/maliput_throw.h</includes>
+    <includes id="eigen__types_8h" name="eigen_types.h" local="no" imported="no">maliput/drake/common/eigen_types.h</includes>
+    <includes id="integrator__base_8h" name="integrator_base.h" local="no" imported="no">maliput/drake/systems/analysis/integrator_base.h</includes>
+    <includes id="scalar__dense__output_8h" name="scalar_dense_output.h" local="no" imported="no">maliput/drake/systems/analysis/scalar_dense_output.h</includes>
+    <includes id="scalar__initial__value__problem_8h" name="scalar_initial_value_problem.h" local="no" imported="no">maliput/drake/systems/analysis/scalar_initial_value_problem.h</includes>
+    <includes id="saturate_8h" name="saturate.h" local="no" imported="no">maliput/math/saturate.h</includes>
+    <includes id="vector_8h" name="vector.h" local="no" imported="no">maliput/math/vector.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::drake</namespace>
+    <member kind="variable">
+      <type>InverseArcLengthIntegrator::ScalarOdeFunction</type>
+      <name>f</name>
+      <anchorfile>inverse__arc__length__integrator_8cc.html</anchorfile>
+      <anchor>a8d825c56ac2958f03aa41017c9d97b56</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>inverse_arc_length_integrator.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/</path>
+    <filename>inverse__arc__length__integrator_8h.html</filename>
+    <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
+    <includes id="integrator__configuration_8h" name="integrator_configuration.h" local="yes" imported="no">maliput/drake/integrator_configuration.h</includes>
+    <class kind="class">maliput::drake::InverseArcLengthIntegrator</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::drake</namespace>
+  </compound>
+  <compound kind="file">
     <name>is_cloneable.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>is__cloneable_8h.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
@@ -3651,7 +3717,7 @@
   </compound>
   <compound kind="file">
     <name>junction.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/geometry_base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/geometry_base/</path>
     <filename>junction_8cc.html</filename>
     <includes id="geometry__base_2junction_8h" name="geometry_base/junction.h" local="yes" imported="no">maliput/geometry_base/junction.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -3724,7 +3790,7 @@
   </compound>
   <compound kind="file">
     <name>kd_tree_strategy.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/geometry_base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/geometry_base/</path>
     <filename>kd__tree__strategy_8cc.html</filename>
     <includes id="kd__tree__strategy_8h" name="kd_tree_strategy.h" local="yes" imported="no">maliput/geometry_base/kd_tree_strategy.h</includes>
     <includes id="kd__tree_8h" name="kd_tree.h" local="yes" imported="no">maliput/math/kd_tree.h</includes>
@@ -3743,7 +3809,7 @@
   </compound>
   <compound kind="file">
     <name>api/lane.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/api/</path>
     <filename>api_2lane_8cc.html</filename>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
     <includes id="api_2junction_8h" name="api/junction.h" local="yes" imported="no">maliput/api/junction.h</includes>
@@ -3755,7 +3821,7 @@
   </compound>
   <compound kind="file">
     <name>geometry_base/lane.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/geometry_base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/geometry_base/</path>
     <filename>geometry__base_2lane_8cc.html</filename>
     <includes id="geometry__base_2lane_8h" name="geometry_base/lane.h" local="yes" imported="no">maliput/geometry_base/lane.h</includes>
     <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
@@ -3799,7 +3865,7 @@
   </compound>
   <compound kind="file">
     <name>lane_data.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/api/</path>
     <filename>lane__data_8cc.html</filename>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
@@ -3940,7 +4006,7 @@
   </compound>
   <compound kind="file">
     <name>leaf_context.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>leaf__context_8cc.html</filename>
     <includes id="leaf__context_8h" name="leaf_context.h" local="yes" imported="no">maliput/drake/systems/framework/leaf_context.h</includes>
     <includes id="basic__vector_8h" name="basic_vector.h" local="yes" imported="no">maliput/drake/systems/framework/basic_vector.h</includes>
@@ -3951,7 +4017,7 @@
   </compound>
   <compound kind="file">
     <name>leaf_context.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>leaf__context_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="context_8h" name="context.h" local="yes" imported="no">maliput/drake/systems/framework/context.h</includes>
@@ -3962,7 +4028,7 @@
   </compound>
   <compound kind="file">
     <name>leaf_output_port.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>leaf__output__port_8cc.html</filename>
     <includes id="leaf__output__port_8h" name="leaf_output_port.h" local="yes" imported="no">maliput/drake/systems/framework/leaf_output_port.h</includes>
     <namespace>maliput</namespace>
@@ -3971,7 +4037,7 @@
   </compound>
   <compound kind="file">
     <name>leaf_output_port.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>leaf__output__port_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
@@ -3989,7 +4055,7 @@
   </compound>
   <compound kind="file">
     <name>leaf_system.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>leaf__system_8cc.html</filename>
     <includes id="leaf__system_8h" name="leaf_system.h" local="yes" imported="no">maliput/drake/systems/framework/leaf_system.h</includes>
     <includes id="pointer__cast_8h" name="pointer_cast.h" local="yes" imported="no">maliput/drake/common/pointer_cast.h</includes>
@@ -4007,7 +4073,7 @@
   </compound>
   <compound kind="file">
     <name>leaf_system.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>leaf__system_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
@@ -4036,7 +4102,7 @@
   </compound>
   <compound kind="file">
     <name>logger.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/common/</path>
     <filename>logger_8cc.html</filename>
     <includes id="logger_8h" name="logger.h" local="yes" imported="no">maliput/common/logger.h</includes>
     <includes id="maliput__never__destroyed_8h" name="maliput_never_destroyed.h" local="yes" imported="no">maliput/common/maliput_never_destroyed.h</includes>
@@ -4206,7 +4272,7 @@
   </compound>
   <compound kind="file">
     <name>maliput_abort_and_throw.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/common/</path>
     <filename>maliput__abort__and__throw_8cc.html</filename>
     <includes id="assertion__error_8h" name="assertion_error.h" local="yes" imported="no">maliput/common/assertion_error.h</includes>
     <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
@@ -4442,7 +4508,7 @@
   </compound>
   <compound kind="file">
     <name>maliput_plugin.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/plugin/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/plugin/</path>
     <filename>maliput__plugin_8cc.html</filename>
     <includes id="maliput__plugin_8h" name="maliput_plugin.h" local="yes" imported="no">maliput/plugin/maliput_plugin.h</includes>
     <namespace>maliput</namespace>
@@ -4466,7 +4532,7 @@
   </compound>
   <compound kind="file">
     <name>maliput_plugin_manager.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/plugin/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/plugin/</path>
     <filename>maliput__plugin__manager_8cc.html</filename>
     <includes id="maliput__plugin__manager_8h" name="maliput_plugin_manager.h" local="yes" imported="no">maliput/plugin/maliput_plugin_manager.h</includes>
     <includes id="filesystem_8h" name="filesystem.h" local="yes" imported="no">maliput/common/filesystem.h</includes>
@@ -4564,7 +4630,7 @@
   </compound>
   <compound kind="file">
     <name>manual_discrete_value_rule_state_provider.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
     <filename>manual__discrete__value__rule__state__provider_8cc.html</filename>
     <includes id="manual__discrete__value__rule__state__provider_8h" name="manual_discrete_value_rule_state_provider.h" local="yes" imported="no">maliput/base/manual_discrete_value_rule_state_provider.h</includes>
     <includes id="rule__filter_8h" name="rule_filter.h" local="yes" imported="no">maliput/base/rule_filter.h</includes>
@@ -4587,7 +4653,7 @@
   </compound>
   <compound kind="file">
     <name>manual_phase_provider.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
     <filename>manual__phase__provider_8cc.html</filename>
     <includes id="manual__phase__provider_8h" name="manual_phase_provider.h" local="yes" imported="no">maliput/base/manual_phase_provider.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -4607,7 +4673,7 @@
   </compound>
   <compound kind="file">
     <name>manual_phase_ring_book.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
     <filename>manual__phase__ring__book_8cc.html</filename>
     <includes id="manual__phase__ring__book_8h" name="manual_phase_ring_book.h" local="yes" imported="no">maliput/base/manual_phase_ring_book.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -4627,7 +4693,7 @@
   </compound>
   <compound kind="file">
     <name>manual_range_value_rule_state_provider.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
     <filename>manual__range__value__rule__state__provider_8cc.html</filename>
     <includes id="manual__range__value__rule__state__provider_8h" name="manual_range_value_rule_state_provider.h" local="yes" imported="no">maliput/base/manual_range_value_rule_state_provider.h</includes>
     <includes id="rule__filter_8h" name="rule_filter.h" local="yes" imported="no">maliput/base/rule_filter.h</includes>
@@ -4649,7 +4715,7 @@
   </compound>
   <compound kind="file">
     <name>manual_right_of_way_rule_state_provider.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
     <filename>manual__right__of__way__rule__state__provider_8cc.html</filename>
     <includes id="manual__right__of__way__rule__state__provider_8h" name="manual_right_of_way_rule_state_provider.h" local="yes" imported="no">maliput/base/manual_right_of_way_rule_state_provider.h</includes>
     <namespace>maliput</namespace>
@@ -4666,7 +4732,7 @@
   </compound>
   <compound kind="file">
     <name>manual_rulebook.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
     <filename>manual__rulebook_8cc.html</filename>
     <includes id="manual__rulebook_8h" name="manual_rulebook.h" local="yes" imported="no">maliput/base/manual_rulebook.h</includes>
     <includes id="rule_8h" name="rule.h" local="yes" imported="no">maliput/api/rules/rule.h</includes>
@@ -4712,7 +4778,7 @@
   </compound>
   <compound kind="file">
     <name>matrix.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/math/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/math/</path>
     <filename>matrix_8cc.html</filename>
     <includes id="matrix_8h" name="matrix.h" local="yes" imported="no">maliput/math/matrix.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -4892,7 +4958,7 @@
   </compound>
   <compound kind="file">
     <name>mesh_simplification.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/utility/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/utility/</path>
     <filename>mesh__simplification_8cc.html</filename>
     <includes id="mesh__simplification_8h" name="mesh_simplification.h" local="yes" imported="no">maliput/utility/mesh_simplification.h</includes>
     <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
@@ -5189,7 +5255,7 @@
   </compound>
   <compound kind="file">
     <name>mock.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/test_utilities/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/test_utilities/</path>
     <filename>mock_8cc.html</filename>
     <includes id="mock_8h" name="mock.h" local="yes" imported="no">maliput/test_utilities/mock.h</includes>
     <includes id="api_2branch__point_8h" name="api/branch_point.h" local="yes" imported="no">maliput/api/branch_point.h</includes>
@@ -5957,7 +6023,7 @@
   </compound>
   <compound kind="file">
     <name>mock_geometry.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/test_utilities/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/test_utilities/</path>
     <filename>mock__geometry_8cc.html</filename>
     <includes id="mock__geometry_8h" name="mock_geometry.h" local="yes" imported="no">maliput/test_utilities/mock_geometry.h</includes>
     <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
@@ -5990,7 +6056,7 @@
   </compound>
   <compound kind="file">
     <name>model_values.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>model__values_8cc.html</filename>
     <includes id="model__values_8h" name="model_values.h" local="yes" imported="no">maliput/drake/systems/framework/model_values.h</includes>
     <namespace>maliput</namespace>
@@ -6000,7 +6066,7 @@
   </compound>
   <compound kind="file">
     <name>model_values.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>model__values_8h.html</filename>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
@@ -6014,7 +6080,7 @@
   </compound>
   <compound kind="file">
     <name>never_destroyed.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>never__destroyed_8h.html</filename>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
     <class kind="class">maliput::drake::never_destroyed</class>
@@ -6023,7 +6089,7 @@
   </compound>
   <compound kind="file">
     <name>nice_type_name.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>nice__type__name_8cc.html</filename>
     <includes id="nice__type__name_8h" name="nice_type_name.h" local="yes" imported="no">maliput/drake/common/nice_type_name.h</includes>
     <includes id="never__destroyed_8h" name="never_destroyed.h" local="yes" imported="no">maliput/drake/common/never_destroyed.h</includes>
@@ -6033,7 +6099,7 @@
   </compound>
   <compound kind="file">
     <name>nice_type_name.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>nice__type__name_8h.html</filename>
     <includes id="never__destroyed_8h" name="never_destroyed.h" local="yes" imported="no">maliput/drake/common/never_destroyed.h</includes>
     <class kind="class">maliput::drake::NiceTypeName</class>
@@ -6042,7 +6108,7 @@
   </compound>
   <compound kind="file">
     <name>nice_type_name_override.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>nice__type__name__override_8cc.html</filename>
     <includes id="nice__type__name__override_8h" name="nice_type_name_override.h" local="yes" imported="no">maliput/drake/common/nice_type_name_override.h</includes>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
@@ -6067,7 +6133,7 @@
   </compound>
   <compound kind="file">
     <name>nice_type_name_override.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>nice__type__name__override_8h.html</filename>
     <class kind="struct">maliput::drake::internal::type_erased_ptr</class>
     <namespace>maliput</namespace>
@@ -6097,7 +6163,7 @@
   </compound>
   <compound kind="file">
     <name>output_port.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>output__port_8cc.html</filename>
     <includes id="output__port_8h" name="output_port.h" local="yes" imported="no">maliput/drake/systems/framework/output_port.h</includes>
     <namespace>maliput</namespace>
@@ -6106,7 +6172,7 @@
   </compound>
   <compound kind="file">
     <name>output_port.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>output__port_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
@@ -6126,7 +6192,7 @@
   </compound>
   <compound kind="file">
     <name>output_port_base.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>output__port__base_8cc.html</filename>
     <includes id="output__port__base_8h" name="output_port_base.h" local="yes" imported="no">maliput/drake/systems/framework/output_port_base.h</includes>
     <namespace>maliput</namespace>
@@ -6135,7 +6201,7 @@
   </compound>
   <compound kind="file">
     <name>output_port_base.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>output__port__base_8h.html</filename>
     <includes id="framework__common_8h" name="framework_common.h" local="yes" imported="no">maliput/drake/systems/framework/framework_common.h</includes>
     <includes id="port__base_8h" name="port_base.h" local="yes" imported="no">maliput/drake/systems/framework/port_base.h</includes>
@@ -6146,7 +6212,7 @@
   </compound>
   <compound kind="file">
     <name>overlapping_type.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/math/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/math/</path>
     <filename>overlapping__type_8cc.html</filename>
     <includes id="overlapping__type_8h" name="overlapping_type.h" local="yes" imported="no">maliput/math/overlapping_type.h</includes>
     <namespace>maliput</namespace>
@@ -6199,13 +6265,13 @@
   </compound>
   <compound kind="file">
     <name>parameters.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>parameters_8cc.html</filename>
     <includes id="parameters_8h" name="parameters.h" local="yes" imported="no">maliput/drake/systems/framework/parameters.h</includes>
   </compound>
   <compound kind="file">
     <name>parameters.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>parameters_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
@@ -6226,7 +6292,7 @@
   </compound>
   <compound kind="file">
     <name>api/rules/phase.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/rules/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/api/rules/</path>
     <filename>api_2rules_2phase_8cc.html</filename>
     <includes id="api_2rules_2phase_8h" name="api/rules/phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
     <namespace>maliput</namespace>
@@ -6235,7 +6301,7 @@
   </compound>
   <compound kind="file">
     <name>routing/phase.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/routing/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/routing/</path>
     <filename>routing_2phase_8cc.html</filename>
     <includes id="routing_2phase_8h" name="routing/phase.h" local="yes" imported="no">maliput/routing/phase.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
@@ -6311,7 +6377,7 @@
   </compound>
   <compound kind="file">
     <name>phase_based_right_of_way_rule_state_provider.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
     <filename>phase__based__right__of__way__rule__state__provider_8cc.html</filename>
     <includes id="phase__based__right__of__way__rule__state__provider_8h" name="phase_based_right_of_way_rule_state_provider.h" local="yes" imported="no">maliput/base/phase_based_right_of_way_rule_state_provider.h</includes>
     <includes id="api_2rules_2phase_8h" name="api/rules/phase.h" local="yes" imported="no">maliput/api/rules/phase.h</includes>
@@ -6346,7 +6412,7 @@
   </compound>
   <compound kind="file">
     <name>phase_ring.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/rules/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/api/rules/</path>
     <filename>phase__ring_8cc.html</filename>
     <includes id="phase__ring_8h" name="phase_ring.h" local="yes" imported="no">maliput/api/rules/phase_ring.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -6383,7 +6449,7 @@
   </compound>
   <compound kind="file">
     <name>phase_ring_book_loader.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
     <filename>phase__ring__book__loader_8cc.html</filename>
     <includes id="phase__ring__book__loader_8h" name="phase_ring_book_loader.h" local="yes" imported="no">maliput/base/phase_ring_book_loader.h</includes>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
@@ -6452,7 +6518,7 @@
   </compound>
   <compound kind="file">
     <name>phase_ring_book_loader_old_rules.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
     <filename>phase__ring__book__loader__old__rules_8cc.html</filename>
     <includes id="phase__ring__book__loader_8h" name="phase_ring_book_loader.h" local="yes" imported="no">maliput/base/phase_ring_book_loader.h</includes>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
@@ -6485,7 +6551,7 @@
   </compound>
   <compound kind="file">
     <name>phased_discrete_rule_state_provider.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
     <filename>phased__discrete__rule__state__provider_8cc.html</filename>
     <includes id="phased__discrete__rule__state__provider_8h" name="phased_discrete_rule_state_provider.h" local="yes" imported="no">maliput/base/phased_discrete_rule_state_provider.h</includes>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
@@ -6512,7 +6578,7 @@
   </compound>
   <compound kind="file">
     <name>piecewise_polynomial.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/common/trajectories/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/trajectories/</path>
     <filename>piecewise__polynomial_8cc.html</filename>
     <includes id="piecewise__polynomial_8h" name="piecewise_polynomial.h" local="yes" imported="no">maliput/drake/common/trajectories/piecewise_polynomial.h</includes>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
@@ -6530,7 +6596,7 @@
   </compound>
   <compound kind="file">
     <name>piecewise_polynomial.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/trajectories/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/trajectories/</path>
     <filename>piecewise__polynomial_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
@@ -6544,7 +6610,7 @@
   </compound>
   <compound kind="file">
     <name>piecewise_trajectory.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/common/trajectories/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/trajectories/</path>
     <filename>piecewise__trajectory_8cc.html</filename>
     <includes id="piecewise__trajectory_8h" name="piecewise_trajectory.h" local="yes" imported="no">maliput/drake/common/trajectories/piecewise_trajectory.h</includes>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
@@ -6554,7 +6620,7 @@
   </compound>
   <compound kind="file">
     <name>piecewise_trajectory.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/trajectories/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/trajectories/</path>
     <filename>piecewise__trajectory_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__bool_8h" name="drake_bool.h" local="yes" imported="no">maliput/drake/common/drake_bool.h</includes>
@@ -6566,13 +6632,13 @@
   </compound>
   <compound kind="file">
     <name>pointer_cast.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>pointer__cast_8cc.html</filename>
     <includes id="pointer__cast_8h" name="pointer_cast.h" local="yes" imported="no">maliput/drake/common/pointer_cast.h</includes>
   </compound>
   <compound kind="file">
     <name>pointer_cast.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>pointer__cast_8h.html</filename>
     <includes id="nice__type__name_8h" name="nice_type_name.h" local="yes" imported="no">maliput/drake/common/nice_type_name.h</includes>
     <namespace>maliput</namespace>
@@ -6601,7 +6667,7 @@
   </compound>
   <compound kind="file">
     <name>polynomial.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>polynomial_8cc.html</filename>
     <includes id="polynomial_8h" name="polynomial.h" local="yes" imported="no">maliput/drake/common/polynomial.h</includes>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
@@ -6639,7 +6705,7 @@
   </compound>
   <compound kind="file">
     <name>polynomial.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>polynomial_8h.html</filename>
     <includes id="constants_8h" name="constants.h" local="yes" imported="no">maliput/drake/common/constants.h</includes>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
@@ -6683,7 +6749,7 @@
   </compound>
   <compound kind="file">
     <name>port_base.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>port__base_8cc.html</filename>
     <includes id="port__base_8h" name="port_base.h" local="yes" imported="no">maliput/drake/systems/framework/port_base.h</includes>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
@@ -6694,7 +6760,7 @@
   </compound>
   <compound kind="file">
     <name>port_base.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>port__base_8h.html</filename>
     <includes id="basic__vector_8h" name="basic_vector.h" local="yes" imported="no">maliput/drake/systems/framework/basic_vector.h</includes>
     <includes id="framework__common_8h" name="framework_common.h" local="yes" imported="no">maliput/drake/systems/framework/framework_common.h</includes>
@@ -6780,7 +6846,7 @@
   </compound>
   <compound kind="file">
     <name>quaternion.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/math/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/math/</path>
     <filename>quaternion_8cc.html</filename>
     <includes id="quaternion_8h" name="quaternion.h" local="yes" imported="no">maliput/math/quaternion.h</includes>
     <namespace>maliput</namespace>
@@ -6813,7 +6879,7 @@
   </compound>
   <compound kind="file">
     <name>random.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>random_8cc.html</filename>
     <includes id="random_8h" name="random.h" local="yes" imported="no">maliput/drake/common/random.h</includes>
     <namespace>maliput</namespace>
@@ -6835,7 +6901,7 @@
   </compound>
   <compound kind="file">
     <name>random.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>random_8h.html</filename>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
     <includes id="eigen__types_8h" name="eigen_types.h" local="yes" imported="no">maliput/drake/common/eigen_types.h</includes>
@@ -6863,7 +6929,7 @@
   </compound>
   <compound kind="file">
     <name>range_validator.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/common/</path>
     <filename>range__validator_8cc.html</filename>
     <includes id="range__validator_8h" name="range_validator.h" local="yes" imported="no">maliput/common/range_validator.h</includes>
     <includes id="assertion__error_8h" name="assertion_error.h" local="yes" imported="no">maliput/common/assertion_error.h</includes>
@@ -6882,7 +6948,7 @@
   </compound>
   <compound kind="file">
     <name>range_value_rule.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/rules/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/api/rules/</path>
     <filename>range__value__rule_8cc.html</filename>
     <includes id="range__value__rule_8h" name="range_value_rule.h" local="yes" imported="no">maliput/api/rules/range_value_rule.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -6918,7 +6984,7 @@
   </compound>
   <compound kind="file">
     <name>regions.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/api/</path>
     <filename>regions_8cc.html</filename>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
@@ -6970,7 +7036,7 @@
   </compound>
   <compound kind="file">
     <name>reset_on_copy.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>reset__on__copy_8h.html</filename>
     <class kind="class">maliput::drake::reset_on_copy</class>
     <namespace>maliput</namespace>
@@ -7018,7 +7084,7 @@
   </compound>
   <compound kind="file">
     <name>api/road_geometry.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/api/</path>
     <filename>api_2road__geometry_8cc.html</filename>
     <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
     <includes id="api_2branch__point_8h" name="api/branch_point.h" local="yes" imported="no">maliput/api/branch_point.h</includes>
@@ -7034,7 +7100,7 @@
   </compound>
   <compound kind="file">
     <name>geometry_base/road_geometry.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/geometry_base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/geometry_base/</path>
     <filename>geometry__base_2road__geometry_8cc.html</filename>
     <includes id="geometry__base_2road__geometry_8h" name="geometry_base/road_geometry.h" local="yes" imported="no">maliput/geometry_base/road_geometry.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
@@ -7091,7 +7157,7 @@
   </compound>
   <compound kind="file">
     <name>road_network.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/api/</path>
     <filename>road__network_8cc.html</filename>
     <includes id="road__network_8h" name="road_network.h" local="yes" imported="no">maliput/api/road_network.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
@@ -7147,7 +7213,7 @@
   </compound>
   <compound kind="file">
     <name>road_network_validator.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/api/</path>
     <filename>road__network__validator_8cc.html</filename>
     <includes id="road__network__validator_8h" name="road_network_validator.h" local="yes" imported="no">maliput/api/road_network_validator.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
@@ -7201,7 +7267,7 @@
   </compound>
   <compound kind="file">
     <name>road_rulebook_loader.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
     <filename>road__rulebook__loader_8cc.html</filename>
     <includes id="road__rulebook__loader_8h" name="road_rulebook_loader.h" local="yes" imported="no">maliput/base/road_rulebook_loader.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
@@ -7270,7 +7336,7 @@
   </compound>
   <compound kind="file">
     <name>road_rulebook_loader_using_rule_registry.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
     <filename>road__rulebook__loader__using__rule__registry_8cc.html</filename>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
@@ -7300,7 +7366,7 @@
   </compound>
   <compound kind="file">
     <name>roll_pitch_yaw.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/math/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/math/</path>
     <filename>roll__pitch__yaw_8cc.html</filename>
     <includes id="roll__pitch__yaw_8h" name="roll_pitch_yaw.h" local="yes" imported="no">maliput/math/roll_pitch_yaw.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -7321,7 +7387,7 @@
   </compound>
   <compound kind="file">
     <name>route.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/routing/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/routing/</path>
     <filename>route_8cc.html</filename>
     <includes id="route_8h" name="route.h" local="yes" imported="no">maliput/routing/route.h</includes>
     <includes id="strategy__base_8h" name="strategy_base.h" local="yes" imported="no">maliput/geometry_base/strategy_base.h</includes>
@@ -7370,7 +7436,7 @@
   </compound>
   <compound kind="file">
     <name>routing_constraints.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/routing/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/routing/</path>
     <filename>routing__constraints_8cc.html</filename>
     <includes id="routing__constraints_8h" name="routing_constraints.h" local="yes" imported="no">maliput/routing/routing_constraints.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -7401,7 +7467,7 @@
   </compound>
   <compound kind="file">
     <name>rule.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/rules/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/api/rules/</path>
     <filename>rule_8cc.html</filename>
     <includes id="rule_8h" name="rule.h" local="yes" imported="no">maliput/api/rules/rule.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -7425,7 +7491,7 @@
   </compound>
   <compound kind="file">
     <name>rule_filter.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
     <filename>rule__filter_8cc.html</filename>
     <includes id="rule__filter_8h" name="rule_filter.h" local="yes" imported="no">maliput/base/rule_filter.h</includes>
     <namespace>maliput</namespace>
@@ -7470,7 +7536,7 @@
   </compound>
   <compound kind="file">
     <name>api/rules/rule_registry.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/rules/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/api/rules/</path>
     <filename>api_2rules_2rule__registry_8cc.html</filename>
     <includes id="api_2rules_2rule__registry_8h" name="api/rules/rule_registry.h" local="yes" imported="no">maliput/api/rules/rule_registry.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -7480,7 +7546,7 @@
   </compound>
   <compound kind="file">
     <name>base/rule_registry.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
     <filename>base_2rule__registry_8cc.html</filename>
     <includes id="base_2rule__registry_8h" name="base/rule_registry.h" local="yes" imported="no">maliput/base/rule_registry.h</includes>
     <includes id="direction__usage__rule_8h" name="direction_usage_rule.h" local="yes" imported="no">maliput/api/rules/direction_usage_rule.h</includes>
@@ -7627,7 +7693,7 @@
   </compound>
   <compound kind="file">
     <name>rule_registry_loader.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
     <filename>rule__registry__loader_8cc.html</filename>
     <includes id="rule__registry__loader_8h" name="rule_registry_loader.h" local="yes" imported="no">maliput/base/rule_registry_loader.h</includes>
     <includes id="discrete__value__rule_8h" name="discrete_value_rule.h" local="yes" imported="no">maliput/api/rules/discrete_value_rule.h</includes>
@@ -7674,7 +7740,7 @@
   </compound>
   <compound kind="file">
     <name>rule_tools.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
     <filename>rule__tools_8cc.html</filename>
     <includes id="rule__tools_8h" name="rule_tools.h" local="yes" imported="no">maliput/base/rule_tools.h</includes>
     <includes id="state__provider__result_8h" name="state_provider_result.h" local="yes" imported="no">maliput/api/rules/state_provider_result.h</includes>
@@ -7750,7 +7816,7 @@
   </compound>
   <compound kind="file">
     <name>runge_kutta3_integrator.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/analysis/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/analysis/</path>
     <filename>runge__kutta3__integrator_8cc.html</filename>
     <includes id="runge__kutta3__integrator_8h" name="runge_kutta3_integrator.h" local="yes" imported="no">maliput/drake/systems/analysis/runge_kutta3_integrator.h</includes>
     <namespace>maliput</namespace>
@@ -7759,7 +7825,7 @@
   </compound>
   <compound kind="file">
     <name>runge_kutta3_integrator.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/analysis/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/analysis/</path>
     <filename>runge__kutta3__integrator_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
@@ -7771,7 +7837,7 @@
   </compound>
   <compound kind="file">
     <name>saturate.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/math/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/math/</path>
     <filename>saturate_8cc.html</filename>
     <includes id="saturate_8h" name="saturate.h" local="yes" imported="no">maliput/math/saturate.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -7801,13 +7867,13 @@
   </compound>
   <compound kind="file">
     <name>scalar_conversion_traits.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>scalar__conversion__traits_8cc.html</filename>
     <includes id="scalar__conversion__traits_8h" name="scalar_conversion_traits.h" local="yes" imported="no">maliput/drake/systems/framework/scalar_conversion_traits.h</includes>
   </compound>
   <compound kind="file">
     <name>scalar_conversion_traits.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>scalar__conversion__traits_8h.html</filename>
     <class kind="struct">maliput::drake::systems::scalar_conversion::Traits</class>
     <class kind="struct">maliput::drake::systems::scalar_conversion::FromDoubleTraits</class>
@@ -7820,13 +7886,13 @@
   </compound>
   <compound kind="file">
     <name>scalar_dense_output.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/analysis/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/analysis/</path>
     <filename>scalar__dense__output_8cc.html</filename>
     <includes id="scalar__dense__output_8h" name="scalar_dense_output.h" local="yes" imported="no">maliput/drake/systems/analysis/scalar_dense_output.h</includes>
   </compound>
   <compound kind="file">
     <name>scalar_dense_output.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/analysis/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/analysis/</path>
     <filename>scalar__dense__output_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
@@ -7838,13 +7904,13 @@
   </compound>
   <compound kind="file">
     <name>scalar_initial_value_problem.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/analysis/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/analysis/</path>
     <filename>scalar__initial__value__problem_8cc.html</filename>
     <includes id="scalar__initial__value__problem_8h" name="scalar_initial_value_problem.h" local="yes" imported="no">maliput/drake/systems/analysis/scalar_initial_value_problem.h</includes>
   </compound>
   <compound kind="file">
     <name>scalar_initial_value_problem.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/analysis/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/analysis/</path>
     <filename>scalar__initial__value__problem_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
@@ -7859,13 +7925,13 @@
   </compound>
   <compound kind="file">
     <name>scalar_view_dense_output.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/analysis/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/analysis/</path>
     <filename>scalar__view__dense__output_8cc.html</filename>
     <includes id="scalar__view__dense__output_8h" name="scalar_view_dense_output.h" local="yes" imported="no">maliput/drake/systems/analysis/scalar_view_dense_output.h</includes>
   </compound>
   <compound kind="file">
     <name>scalar_view_dense_output.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/analysis/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/analysis/</path>
     <filename>scalar__view__dense__output_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
@@ -7878,7 +7944,7 @@
   </compound>
   <compound kind="file">
     <name>segment.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/geometry_base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/geometry_base/</path>
     <filename>segment_8cc.html</filename>
     <includes id="geometry__base_2segment_8h" name="geometry_base/segment.h" local="yes" imported="no">maliput/geometry_base/segment.h</includes>
     <namespace>maliput</namespace>
@@ -7918,7 +7984,7 @@
   </compound>
   <compound kind="file">
     <name>segment_analysis.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/utility/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/utility/</path>
     <filename>segment__analysis_8cc.html</filename>
     <includes id="segment__analysis_8h" name="segment_analysis.h" local="yes" imported="no">maliput/utility/segment_analysis.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
@@ -8009,7 +8075,7 @@
   </compound>
   <compound kind="file">
     <name>state.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>state_8cc.html</filename>
     <includes id="state_8h" name="state.h" local="yes" imported="no">maliput/drake/systems/framework/state.h</includes>
     <namespace>maliput</namespace>
@@ -8018,7 +8084,7 @@
   </compound>
   <compound kind="file">
     <name>state.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>state_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
@@ -8043,13 +8109,13 @@
   </compound>
   <compound kind="file">
     <name>stepwise_dense_output.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/analysis/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/analysis/</path>
     <filename>stepwise__dense__output_8cc.html</filename>
     <includes id="stepwise__dense__output_8h" name="stepwise_dense_output.h" local="yes" imported="no">maliput/drake/systems/analysis/stepwise_dense_output.h</includes>
   </compound>
   <compound kind="file">
     <name>stepwise_dense_output.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/analysis/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/analysis/</path>
     <filename>stepwise__dense__output_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
@@ -8060,16 +8126,8 @@
     <namespace>maliput::drake::systems</namespace>
   </compound>
   <compound kind="file">
-    <name>stochastic_systems.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/</path>
-    <filename>stochastic__systems_8h.html</filename>
-    <namespace>maliput</namespace>
-    <namespace>maliput::drake</namespace>
-    <namespace>maliput::drake::systems</namespace>
-  </compound>
-  <compound kind="file">
     <name>strategy_base.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/geometry_base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/geometry_base/</path>
     <filename>strategy__base_8cc.html</filename>
     <includes id="strategy__base_8h" name="strategy_base.h" local="yes" imported="no">maliput/geometry_base/strategy_base.h</includes>
     <namespace>maliput</namespace>
@@ -8101,7 +8159,7 @@
   </compound>
   <compound kind="file">
     <name>string_format.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/utility/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/utility/</path>
     <filename>string__format_8cc.html</filename>
     <includes id="string__format_8h" name="string_format.h" local="yes" imported="no">maliput/utility/string_format.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
@@ -8131,13 +8189,13 @@
   </compound>
   <compound kind="file">
     <name>subvector.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>subvector_8cc.html</filename>
     <includes id="subvector_8h" name="subvector.h" local="yes" imported="no">maliput/drake/systems/framework/subvector.h</includes>
   </compound>
   <compound kind="file">
     <name>subvector.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>subvector_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
@@ -8151,7 +8209,7 @@
   </compound>
   <compound kind="file">
     <name>system.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>system_8cc.html</filename>
     <includes id="system_8h" name="system.h" local="yes" imported="no">maliput/drake/systems/framework/system.h</includes>
     <includes id="unused_8h" name="unused.h" local="yes" imported="no">maliput/drake/common/unused.h</includes>
@@ -8162,7 +8220,7 @@
   </compound>
   <compound kind="file">
     <name>system.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>system_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
@@ -8190,7 +8248,7 @@
   </compound>
   <compound kind="file">
     <name>system_base.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>system__base_8cc.html</filename>
     <includes id="system__base_8h" name="system_base.h" local="yes" imported="no">maliput/drake/systems/framework/system_base.h</includes>
     <includes id="fixed__input__port__value_8h" name="fixed_input_port_value.h" local="yes" imported="no">maliput/drake/systems/framework/fixed_input_port_value.h</includes>
@@ -8200,7 +8258,7 @@
   </compound>
   <compound kind="file">
     <name>system_base.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>system__base_8h.html</filename>
     <includes id="drake__deprecated_8h" name="drake_deprecated.h" local="yes" imported="no">maliput/drake/common/drake_deprecated.h</includes>
     <includes id="drake__throw_8h" name="drake_throw.h" local="yes" imported="no">maliput/drake/common/drake_throw.h</includes>
@@ -8219,12 +8277,12 @@
   </compound>
   <compound kind="file">
     <name>system_compatibility_doxygen.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>system__compatibility__doxygen_8h.html</filename>
   </compound>
   <compound kind="file">
     <name>system_constraint.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>system__constraint_8cc.html</filename>
     <includes id="system__constraint_8h" name="system_constraint.h" local="yes" imported="no">maliput/drake/systems/framework/system_constraint.h</includes>
     <namespace>maliput</namespace>
@@ -8233,7 +8291,7 @@
   </compound>
   <compound kind="file">
     <name>system_constraint.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>system__constraint_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
@@ -8277,13 +8335,13 @@
   </compound>
   <compound kind="file">
     <name>system_output.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>system__output_8cc.html</filename>
     <includes id="system__output_8h" name="system_output.h" local="yes" imported="no">maliput/drake/systems/framework/system_output.h</includes>
   </compound>
   <compound kind="file">
     <name>system_output.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>system__output_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
@@ -8299,12 +8357,12 @@
   </compound>
   <compound kind="file">
     <name>system_scalar_conversion_doxygen.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>system__scalar__conversion__doxygen_8h.html</filename>
   </compound>
   <compound kind="file">
     <name>system_scalar_converter.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>system__scalar__converter_8cc.html</filename>
     <includes id="system__scalar__converter_8h" name="system_scalar_converter.h" local="yes" imported="no">maliput/drake/systems/framework/system_scalar_converter.h</includes>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
@@ -8324,7 +8382,7 @@
   </compound>
   <compound kind="file">
     <name>system_scalar_converter.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>system__scalar__converter_8h.html</filename>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
@@ -8354,13 +8412,13 @@
   </compound>
   <compound kind="file">
     <name>system_type_tag.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>system__type__tag_8cc.html</filename>
     <includes id="system__type__tag_8h" name="system_type_tag.h" local="yes" imported="no">maliput/drake/systems/framework/system_type_tag.h</includes>
   </compound>
   <compound kind="file">
     <name>system_type_tag.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>system__type__tag_8h.html</filename>
     <class kind="class">maliput::drake::systems::System</class>
     <class kind="struct">maliput::drake::systems::SystemTypeTag</class>
@@ -8370,13 +8428,13 @@
   </compound>
   <compound kind="file">
     <name>system_visitor.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>system__visitor_8cc.html</filename>
     <includes id="system__visitor_8h" name="system_visitor.h" local="yes" imported="no">maliput/drake/systems/framework/system_visitor.h</includes>
   </compound>
   <compound kind="file">
     <name>system_visitor.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>system__visitor_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
@@ -8388,13 +8446,8 @@
     <namespace>maliput::drake::systems</namespace>
   </compound>
   <compound kind="file">
-    <name>systems.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/</path>
-    <filename>systems_8h.html</filename>
-  </compound>
-  <compound kind="file">
     <name>text_logging.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>text__logging_8cc.html</filename>
     <includes id="text__logging_8h" name="text_logging.h" local="yes" imported="no">maliput/drake/common/text_logging.h</includes>
     <includes id="never__destroyed_8h" name="never_destroyed.h" local="yes" imported="no">maliput/drake/common/never_destroyed.h</includes>
@@ -8410,7 +8463,7 @@
   </compound>
   <compound kind="file">
     <name>text_logging.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>text__logging_8h.html</filename>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
     <class kind="struct">maliput::drake::logging::Warn</class>
@@ -8504,7 +8557,7 @@
   </compound>
   <compound kind="file">
     <name>thread_pool.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/utility/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/utility/</path>
     <filename>thread__pool_8cc.html</filename>
     <includes id="thread__pool_8h" name="thread_pool.h" local="yes" imported="no">maliput/utility/thread_pool.h</includes>
     <namespace>maliput</namespace>
@@ -8522,7 +8575,7 @@
   </compound>
   <compound kind="file">
     <name>traffic_light_book.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
     <filename>traffic__light__book_8cc.html</filename>
     <includes id="base_2traffic__light__book_8h" name="base/traffic_light_book.h" local="yes" imported="no">maliput/base/traffic_light_book.h</includes>
     <namespace>maliput</namespace>
@@ -8550,7 +8603,7 @@
   </compound>
   <compound kind="file">
     <name>traffic_light_book_loader.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
     <filename>traffic__light__book__loader_8cc.html</filename>
     <includes id="traffic__light__book__loader_8h" name="traffic_light_book_loader.h" local="yes" imported="no">maliput/base/traffic_light_book_loader.h</includes>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
@@ -8600,7 +8653,7 @@
   </compound>
   <compound kind="file">
     <name>traffic_lights.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/api/rules/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/api/rules/</path>
     <filename>traffic__lights_8cc.html</filename>
     <includes id="traffic__lights_8h" name="traffic_lights.h" local="yes" imported="no">maliput/api/rules/traffic_lights.h</includes>
     <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
@@ -8707,7 +8760,7 @@
   </compound>
   <compound kind="file">
     <name>trajectory.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/common/trajectories/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/trajectories/</path>
     <filename>trajectory_8cc.html</filename>
     <includes id="trajectory_8h" name="trajectory.h" local="yes" imported="no">maliput/drake/common/trajectories/trajectory.h</includes>
     <includes id="unused_8h" name="unused.h" local="yes" imported="no">maliput/drake/common/unused.h</includes>
@@ -8717,7 +8770,7 @@
   </compound>
   <compound kind="file">
     <name>trajectory.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/trajectories/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/trajectories/</path>
     <filename>trajectory_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
@@ -8729,7 +8782,7 @@
   </compound>
   <compound kind="file">
     <name>type_safe_index.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>type__safe__index_8h.html</filename>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
     <includes id="drake__throw_8h" name="drake_throw.h" local="yes" imported="no">maliput/drake/common/drake_throw.h</includes>
@@ -8817,7 +8870,7 @@
   </compound>
   <compound kind="file">
     <name>unused.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>unused_8h.html</filename>
     <namespace>maliput</namespace>
     <namespace>maliput::drake</namespace>
@@ -8831,7 +8884,7 @@
   </compound>
   <compound kind="file">
     <name>value.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>value_8cc.html</filename>
     <includes id="value_8h" name="value.h" local="yes" imported="no">maliput/drake/common/value.h</includes>
     <includes id="text__logging_8h" name="text_logging.h" local="yes" imported="no">maliput/drake/common/text_logging.h</includes>
@@ -8848,7 +8901,7 @@
   </compound>
   <compound kind="file">
     <name>value.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/common/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/common/</path>
     <filename>value_8h.html</filename>
     <includes id="copyable__unique__ptr_8h" name="copyable_unique_ptr.h" local="yes" imported="no">maliput/drake/common/copyable_unique_ptr.h</includes>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
@@ -8926,7 +8979,7 @@
   </compound>
   <compound kind="file">
     <name>value_checker.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>value__checker_8h.html</filename>
     <includes id="drake__throw_8h" name="drake_throw.h" local="yes" imported="no">maliput/drake/common/drake_throw.h</includes>
     <includes id="nice__type__name_8h" name="nice_type_name.h" local="yes" imported="no">maliput/drake/common/nice_type_name.h</includes>
@@ -8953,7 +9006,7 @@
   </compound>
   <compound kind="file">
     <name>value_producer.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>value__producer_8cc.html</filename>
     <includes id="value__producer_8h" name="value_producer.h" local="yes" imported="no">maliput/drake/systems/framework/value_producer.h</includes>
     <includes id="nice__type__name_8h" name="nice_type_name.h" local="yes" imported="no">maliput/drake/common/nice_type_name.h</includes>
@@ -8963,7 +9016,7 @@
   </compound>
   <compound kind="file">
     <name>value_producer.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>value__producer_8h.html</filename>
     <includes id="drake__copyable_8h" name="drake_copyable.h" local="yes" imported="no">maliput/drake/common/drake_copyable.h</includes>
     <includes id="value_8h" name="value.h" local="yes" imported="no">maliput/drake/common/value.h</includes>
@@ -8976,7 +9029,7 @@
   </compound>
   <compound kind="file">
     <name>value_to_abstract_value.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>value__to__abstract__value_8h.html</filename>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
     <includes id="eigen__types_8h" name="eigen_types.h" local="yes" imported="no">maliput/drake/common/eigen_types.h</includes>
@@ -9013,7 +9066,7 @@
   </compound>
   <compound kind="file">
     <name>vector.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/math/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/math/</path>
     <filename>vector_8cc.html</filename>
     <includes id="vector_8h" name="vector.h" local="yes" imported="no">maliput/math/vector.h</includes>
     <namespace>maliput</namespace>
@@ -9202,13 +9255,13 @@
   </compound>
   <compound kind="file">
     <name>vector_base.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>vector__base_8cc.html</filename>
     <includes id="vector__base_8h" name="vector_base.h" local="yes" imported="no">maliput/drake/systems/framework/vector_base.h</includes>
   </compound>
   <compound kind="file">
     <name>vector_base.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>vector__base_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__assert_8h" name="drake_assert.h" local="yes" imported="no">maliput/drake/common/drake_assert.h</includes>
@@ -9231,13 +9284,13 @@
   </compound>
   <compound kind="file">
     <name>witness_function.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>witness__function_8cc.html</filename>
     <includes id="witness__function_8h" name="witness_function.h" local="yes" imported="no">maliput/drake/systems/framework/witness_function.h</includes>
   </compound>
   <compound kind="file">
     <name>witness_function.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/drake/systems/framework/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>witness__function_8h.html</filename>
     <includes id="default__scalars_8h" name="default_scalars.h" local="yes" imported="no">maliput/drake/common/default_scalars.h</includes>
     <includes id="drake__bool_8h" name="drake_bool.h" local="yes" imported="no">maliput/drake/common/drake_bool.h</includes>
@@ -9263,7 +9316,7 @@
   </compound>
   <compound kind="file">
     <name>yaml_conversion.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/base/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
     <filename>yaml__conversion_8cc.html</filename>
     <includes id="yaml__conversion_8h" name="yaml_conversion.h" local="yes" imported="no">maliput/base/yaml_conversion.h</includes>
     <includes id="rule_8h" name="rule.h" local="yes" imported="no">maliput/api/rules/rule.h</includes>
@@ -9641,6 +9694,112 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>AntiderivativeFunction&lt; double &gt;</name>
+    <filename>classmaliput_1_1drake_1_1systems_1_1_antiderivative_function.html</filename>
+    <member kind="typedef">
+      <type>std::function&lt; double(const double &amp;x, const VectorX&lt; double &gt; &amp;k)&gt;</type>
+      <name>IntegrableFunction</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_antiderivative_function.html</anchorfile>
+      <anchor>aa77b1a0ffd8ec53e3327d467726e08ba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>DRAKE_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_antiderivative_function.html</anchorfile>
+      <anchor>acf2bad0aed098a317d02e8b2973148d6</anchor>
+      <arglist>(AntiderivativeFunction)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>AntiderivativeFunction</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_antiderivative_function.html</anchorfile>
+      <anchor>a984b74ad0b4cff1411afaf336193af55</anchor>
+      <arglist>(const IntegrableFunction &amp;integrable_function, const IntegrableFunctionContext &amp;default_values={})</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>Evaluate</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_antiderivative_function.html</anchorfile>
+      <anchor>a08c5a8f5ac05051bee1eee5b53db3b59</anchor>
+      <arglist>(const double &amp;u, const IntegrableFunctionContext &amp;values={}) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; ScalarDenseOutput&lt; double &gt; &gt;</type>
+      <name>MakeDenseEvalFunction</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_antiderivative_function.html</anchorfile>
+      <anchor>a540031be4e8e7c18bd30b3a2f72a77e1</anchor>
+      <arglist>(const double &amp;w, const IntegrableFunctionContext &amp;values={}) const</arglist>
+    </member>
+    <member kind="function">
+      <type>Integrator *</type>
+      <name>reset_integrator</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_antiderivative_function.html</anchorfile>
+      <anchor>aaf92f89ed3fb6ea7acde795d33645a3c</anchor>
+      <arglist>(Args &amp;&amp;... args)</arglist>
+    </member>
+    <member kind="function">
+      <type>const IntegratorBase&lt; double &gt; &amp;</type>
+      <name>get_integrator</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_antiderivative_function.html</anchorfile>
+      <anchor>adbc3bf152afe75736c6b8b3ecf8cd65e</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>IntegratorBase&lt; double &gt; &amp;</type>
+      <name>get_mutable_integrator</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_antiderivative_function.html</anchorfile>
+      <anchor>af7c4ee8378a24e575a176dfb7d308ae9</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::drake::ArcLengthIntegrator</name>
+    <filename>classmaliput_1_1drake_1_1_arc_length_integrator.html</filename>
+    <member kind="typedef">
+      <type>std::function&lt; double(const double &amp;p, const math::Vector2 &amp;k)&gt;</type>
+      <name>IntegrableFunction</name>
+      <anchorfile>classmaliput_1_1drake_1_1_arc_length_integrator.html</anchorfile>
+      <anchor>a1cf0be75c6003e5b4628b755ebfb1ae5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1drake_1_1_arc_length_integrator.html</anchorfile>
+      <anchor>a7554bfb85238ba25aadc26380eb3f858</anchor>
+      <arglist>(ArcLengthIntegrator)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>ArcLengthIntegrator</name>
+      <anchorfile>classmaliput_1_1drake_1_1_arc_length_integrator.html</anchorfile>
+      <anchor>a6a4945350fbde7988e7e5961101b032f</anchor>
+      <arglist>(const IntegrableFunction &amp;function, const IntegratorConfiguration &amp;config)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~ArcLengthIntegrator</name>
+      <anchorfile>classmaliput_1_1drake_1_1_arc_length_integrator.html</anchorfile>
+      <anchor>aa31cb93836ec4e6a63c08abd28b3759a</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>Evaluate</name>
+      <anchorfile>classmaliput_1_1drake_1_1_arc_length_integrator.html</anchorfile>
+      <anchor>a00ae65c01ba0a08bb1cd9915964880f6</anchor>
+      <arglist>(double p, const math::Vector2 &amp;k) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::function&lt; double(double)&gt;</type>
+      <name>IntegralFunction</name>
+      <anchorfile>classmaliput_1_1drake_1_1_arc_length_integrator.html</anchorfile>
+      <anchor>a87b5d2e7fedb39f25636423f08f312a8</anchor>
+      <arglist>(double p0, double p1, const math::Vector2 &amp;k, double tolerance) const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::common::assertion_error</name>
     <filename>classmaliput_1_1common_1_1assertion__error.html</filename>
     <member kind="function">
@@ -9966,6 +10125,179 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>BasicVector&lt; double &gt;</name>
+    <filename>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</filename>
+    <base>VectorBase&lt; double &gt;</base>
+    <member kind="function">
+      <type></type>
+      <name>BasicVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>a507b47abedbb153bf6181e04f74fbb2f</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>BasicVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>aa57f612223d19eff9d2b523b5895f5d9</anchor>
+      <arglist>(int size)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>BasicVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>a4d5c1dbf38d4dbac58fa767531c56f3c</anchor>
+      <arglist>(VectorX&lt; double &gt; vec)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>BasicVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>ac43b67aeccccdf32a43e66474cb65a0a</anchor>
+      <arglist>(const std::initializer_list&lt; double &gt; &amp;init)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>a00f794bc20ca26b81a247bcee7c7f6a4</anchor>
+      <arglist>() const final</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_value</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>a95cee47ba175ab6b8fd8f7cb2f82ab96</anchor>
+      <arglist>(const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;value)</arglist>
+    </member>
+    <member kind="function">
+      <type>Eigen::VectorBlock&lt; const VectorX&lt; double &gt; &gt;</type>
+      <name>get_value</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>a4d33aecde019e5f62d662aa2ef142b34</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>Eigen::VectorBlock&lt; VectorX&lt; double &gt; &gt;</type>
+      <name>get_mutable_value</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>a1b0db2779927764099fa8878ccaea85e</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetFromVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>a0a9c44911481db46e0c8c8ee8708ae70</anchor>
+      <arglist>(const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;value) final</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorX&lt; double &gt;</type>
+      <name>CopyToVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>a02900660573acdccd6d1e4b711a1e5e0</anchor>
+      <arglist>() const final</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>ScaleAndAddToVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>a343fa4902e5cfcf181706fd72abdf5d0</anchor>
+      <arglist>(const double &amp;scale, EigenPtr&lt; VectorX&lt; double &gt;&gt; vec) const final</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetZero</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>a15f4b55a146f2033a2a1d44054829f3f</anchor>
+      <arglist>() final</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; BasicVector&lt; double &gt; &gt;</type>
+      <name>Clone</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>ad8578f2ad77a7caa79d07ff13625e029</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static std::unique_ptr&lt; BasicVector&lt; double &gt; &gt;</type>
+      <name>Make</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>af03087c0283bcc486873e7870881d2cd</anchor>
+      <arglist>(const std::initializer_list&lt; double &gt; &amp;init)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static std::unique_ptr&lt; BasicVector&lt; double &gt; &gt;</type>
+      <name>Make</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>a853b29d4ee4164ddca9a50f6307f9301</anchor>
+      <arglist>(Fargs &amp;&amp;... args)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>const double &amp;</type>
+      <name>DoGetAtIndexUnchecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>ac2c19d7f23c9a1b94e52ebba1559a498</anchor>
+      <arglist>(int index) const final</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>double &amp;</type>
+      <name>DoGetAtIndexUnchecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>adde7e8b36d83e491ad99d514e5e2d01a</anchor>
+      <arglist>(int index) final</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>const double &amp;</type>
+      <name>DoGetAtIndexChecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>a231bafed6568f8fc83a4ae79e3ea3f90</anchor>
+      <arglist>(int index) const final</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>double &amp;</type>
+      <name>DoGetAtIndexChecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>afde9e3e5646700550315ebaa3a789e9c</anchor>
+      <arglist>(int index) final</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual BasicVector&lt; double &gt; *</type>
+      <name>DoClone</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>a3af2a9627832a75b332069b2b4d3ed0b</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>const VectorX&lt; double &gt; &amp;</type>
+      <name>values</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>a1054df427ab86f0c7b1de898f26acca4</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>VectorX&lt; double &gt; &amp;</type>
+      <name>values</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>adbc9deb6f6763e26cb2b9e352f3cce2a</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected" static="yes">
+      <type>static void</type>
+      <name>MakeRecursive</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>aec21da26d184ce4b88c6182e1b4c66cf</anchor>
+      <arglist>(BasicVector&lt; double &gt; *data, int index, F constructor_arg, Fargs &amp;&amp;... recursive_args)</arglist>
+    </member>
+    <member kind="function" protection="protected" static="yes">
+      <type>static void</type>
+      <name>MakeRecursive</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_basic_vector.html</anchorfile>
+      <anchor>a80e395d80129f9b68a6b4aa76e962db4</anchor>
+      <arglist>(BasicVector&lt; double &gt; *data, int index, F constructor_arg)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::math::BoundingBox</name>
     <filename>classmaliput_1_1math_1_1_bounding_box.html</filename>
     <base>BoundingRegion&lt; Vector3 &gt;</base>
@@ -10124,6 +10456,60 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::geometry_base::BranchPoint</name>
+    <filename>classmaliput_1_1geometry__base_1_1_branch_point.html</filename>
+    <base>maliput::api::BranchPoint</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
+      <anchor>a017026ff821c528031c6ead313fe4533</anchor>
+      <arglist>(BranchPoint)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>BranchPoint</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
+      <anchor>a8988c43da6cb399c2e6cf9aeb27d68a6</anchor>
+      <arglist>(const api::BranchPointId &amp;id)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AddABranch</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
+      <anchor>ae2ed0a9107a888faaf582a8c4ecda9af</anchor>
+      <arglist>(Lane *lane, api::LaneEnd::Which end)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AddBBranch</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
+      <anchor>af2d605e876e24aec4b985d1f448e6195</anchor>
+      <arglist>(Lane *lane, api::LaneEnd::Which end)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetDefault</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
+      <anchor>a9b6a7f3d4f44cbf8b5ae1fed437607b3</anchor>
+      <arglist>(const api::LaneEnd &amp;lane_end, const api::LaneEnd &amp;default_branch)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~BranchPoint</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
+      <anchor>a5f015c5068d0077bec7e3f5b586c497c</anchor>
+      <arglist>() override=default</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AttachToRoadGeometry</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
+      <anchor>a92ac9da3dc898c058e2af06e87a8828e</anchor>
+      <arglist>(common::Passkey&lt; RoadGeometry &gt;, const api::RoadGeometry *road_geometry)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::api::BranchPoint</name>
     <filename>classmaliput_1_1api_1_1_branch_point.html</filename>
     <member kind="function" virtualness="virtual">
@@ -10188,60 +10574,6 @@
       <anchorfile>classmaliput_1_1api_1_1_branch_point.html</anchorfile>
       <anchor>af0b256382bcd91d863d978c388656825</anchor>
       <arglist>()=default</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::geometry_base::BranchPoint</name>
-    <filename>classmaliput_1_1geometry__base_1_1_branch_point.html</filename>
-    <base>maliput::api::BranchPoint</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
-      <anchor>a017026ff821c528031c6ead313fe4533</anchor>
-      <arglist>(BranchPoint)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>BranchPoint</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
-      <anchor>a8988c43da6cb399c2e6cf9aeb27d68a6</anchor>
-      <arglist>(const api::BranchPointId &amp;id)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AddABranch</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
-      <anchor>ae2ed0a9107a888faaf582a8c4ecda9af</anchor>
-      <arglist>(Lane *lane, api::LaneEnd::Which end)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AddBBranch</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
-      <anchor>af2d605e876e24aec4b985d1f448e6195</anchor>
-      <arglist>(Lane *lane, api::LaneEnd::Which end)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>SetDefault</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
-      <anchor>a9b6a7f3d4f44cbf8b5ae1fed437607b3</anchor>
-      <arglist>(const api::LaneEnd &amp;lane_end, const api::LaneEnd &amp;default_branch)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~BranchPoint</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
-      <anchor>a5f015c5068d0077bec7e3f5b586c497c</anchor>
-      <arglist>() override=default</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AttachToRoadGeometry</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_branch_point.html</anchorfile>
-      <anchor>a92ac9da3dc898c058e2af06e87a8828e</anchor>
-      <arglist>(common::Passkey&lt; RoadGeometry &gt;, const api::RoadGeometry *road_geometry)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -12291,6 +12623,879 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>Context&lt; double &gt;</name>
+    <filename>classmaliput_1_1drake_1_1systems_1_1_context.html</filename>
+    <base>maliput::drake::systems::ContextBase</base>
+    <member kind="function">
+      <type></type>
+      <name>Context</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>af604646963810d23d1f0df08f3acc548</anchor>
+      <arglist>(Context &amp;&amp;)=delete</arglist>
+    </member>
+    <member kind="function">
+      <type>Context &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a3fa4f30a98766cf904f92a0b162f7c2a</anchor>
+      <arglist>(const Context &amp;)=delete</arglist>
+    </member>
+    <member kind="function">
+      <type>Context &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a672d928d4013a833b2848e2dfbaf20a9</anchor>
+      <arglist>(Context &amp;&amp;)=delete</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>get_time</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a9fa7f7dbc373945737eb4fb7b594d6a6</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const State&lt; double &gt; &amp;</type>
+      <name>get_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a7d61c4076aa4c0a64f16d1a6fe864be1</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>is_stateless</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a8d113a6e523b45e5ddc1ddb88ed4dc24</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>has_only_continuous_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a981ad14596e6b40c746478fb63f1c2d9</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>has_only_discrete_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a5afefab824732ae355ba9ae8090f53ed</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_total_states</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>ac544f3f782615e62cb59a3423fbbe812</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_continuous_states</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>aa568c26e18ea55bb339893881cff3e73</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const ContinuousState&lt; double &gt; &amp;</type>
+      <name>get_continuous_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a7a1544a1499821caca5625f00f8ed593</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const VectorBase&lt; double &gt; &amp;</type>
+      <name>get_continuous_state_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a8c7762cc235ff15d35752ec55888a9b5</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_discrete_state_groups</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a1a03d2d5e70020145bd659eba780f967</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const DiscreteValues&lt; double &gt; &amp;</type>
+      <name>get_discrete_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a4734a73a697822adab6651601f0ede89</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const BasicVector&lt; double &gt; &amp;</type>
+      <name>get_discrete_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a923ddf26eb35c376ea23f672520a9229</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const BasicVector&lt; double &gt; &amp;</type>
+      <name>get_discrete_state_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a1ef8d0cb14f4759833db259e2d7a177f</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_abstract_states</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>ad2c71c7988b370b4e93ea1c33a2a0e9b</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const AbstractValues &amp;</type>
+      <name>get_abstract_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a49a3cc1ba02268cb11c8af904336af01</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const U &amp;</type>
+      <name>get_abstract_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a6e953da59a69f25bd342bf8885d218d6</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::optional&lt; double &gt; &amp;</type>
+      <name>get_accuracy</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>afa3b4965d611f8ff7d7fb719c96ddfca</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Parameters&lt; double &gt; &amp;</type>
+      <name>get_parameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a3dae6b46eab2a5a117b89fd6461a9181</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_numeric_parameter_groups</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>aff6508ca0ff8f5e886e63fb9c830e36a</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const BasicVector&lt; double &gt; &amp;</type>
+      <name>get_numeric_parameter</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a1882d7ad5c503e04bd2aab9de4d196e3</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_abstract_parameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a0232523ac7f8337a392b321ffd282187</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const AbstractValue &amp;</type>
+      <name>get_abstract_parameter</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>afbcc55465229ce053092fb250908c0e0</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetTime</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a3d5dddf9b2bb3283f9cd74c7a77517fc</anchor>
+      <arglist>(const double &amp;time_sec)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetContinuousState</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a0b9308e812da39661dce265468b6f90c</anchor>
+      <arglist>(const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;xc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetTimeAndContinuousState</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a9ce8807a2a969b40a480e3cc3c6ab2db</anchor>
+      <arglist>(const double &amp;time_sec, const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;xc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetDiscreteState</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>ab6b22de379384d8336968f13e6480f1a</anchor>
+      <arglist>(const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;xd)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetDiscreteState</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a576f417e8e9d3076660b325153f7b348</anchor>
+      <arglist>(int group_index, const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;xd)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetAbstractState</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a7ca085977869dd3df37ca2a162273226</anchor>
+      <arglist>(int index, const ValueType &amp;value)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetStateAndParametersFrom</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a17e6fd1b67831eabcf93c80f346d0216</anchor>
+      <arglist>(const Context&lt; U &gt; &amp;source)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetTimeStateAndParametersFrom</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>ae55845b172939052d02ea437df63cfbc</anchor>
+      <arglist>(const Context&lt; U &gt; &amp;source)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetAccuracy</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a82e68f81f3284c08aa1c9acbfabbe1f5</anchor>
+      <arglist>(const std::optional&lt; double &gt; &amp;accuracy)</arglist>
+    </member>
+    <member kind="function">
+      <type>FixedInputPortValue &amp;</type>
+      <name>FixInputPort</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a7ff73df73c8c83229e8aff5b7068fe2a</anchor>
+      <arglist>(int index, const AbstractValue &amp;value)</arglist>
+    </member>
+    <member kind="function">
+      <type>State&lt; double &gt; &amp;</type>
+      <name>get_mutable_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a82d273792ee73d3ad431a356dc5030af</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>ContinuousState&lt; double &gt; &amp;</type>
+      <name>get_mutable_continuous_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>aebac8d5dbb6477ca0c90e9928621c8ee</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase&lt; double &gt; &amp;</type>
+      <name>get_mutable_continuous_state_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>accae935e18c9526d9521c8be6b2e4e3d</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>DiscreteValues&lt; double &gt; &amp;</type>
+      <name>get_mutable_discrete_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>ae70b09f6a7cbb48a1138262aa291fb0e</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>BasicVector&lt; double &gt; &amp;</type>
+      <name>get_mutable_discrete_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>af792a48ad2c93163065743e8a53c0fd4</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>BasicVector&lt; double &gt; &amp;</type>
+      <name>get_mutable_discrete_state_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a73d73dbf23c2c036bbe1331a46571625</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>AbstractValues &amp;</type>
+      <name>get_mutable_abstract_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a2a373393e97aa9f2a3d5083b2f6995d4</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>U &amp;</type>
+      <name>get_mutable_abstract_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>acdeb8df5c64ce2494984c9e08b74eb9d</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>Parameters&lt; double &gt; &amp;</type>
+      <name>get_mutable_parameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a8f69a925217316e2ad0b23bc83b07437</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>BasicVector&lt; double &gt; &amp;</type>
+      <name>get_mutable_numeric_parameter</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>ae7ccc75f3d6be6aa73aec86ad2a76e67</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>AbstractValue &amp;</type>
+      <name>get_mutable_abstract_parameter</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a064262a130edac83f75ea6f8e3940b86</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase&lt; double &gt; &amp;</type>
+      <name>SetTimeAndGetMutableContinuousStateVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a1a4512beab2809a8102c3622a085a356</anchor>
+      <arglist>(const double &amp;time_sec)</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase&lt; double &gt; &amp;</type>
+      <name>SetTimeAndGetMutableQVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a98436b2af64e8f01a9c8bf51977936e8</anchor>
+      <arglist>(const double &amp;time_sec)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::pair&lt; VectorBase&lt; double &gt; *, VectorBase&lt; double &gt; * &gt;</type>
+      <name>GetMutableVZVectors</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>abb21407fcbb1a95da06a0449a15ad923</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetTimeAndNoteContinuousStateChange</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>ab31d44149a81eabee915dd1ed330e524</anchor>
+      <arglist>(const double &amp;time_sec)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>NoteContinuousStateChange</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>ab2b2b3f5ac625c5db5b0edd40c1f999e</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; Context&lt; double &gt; &gt;</type>
+      <name>Clone</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a64dbc7bf95d582c5accdd26acc7b67e0</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; State&lt; double &gt; &gt;</type>
+      <name>CloneState</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a766f58b7ba606cc7c8a9e5a1a722b8eb</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>to_string</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>aac993ecccd3d88aafefb6b8e3caa1dee</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>PerturbTime</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a6b08788afd1900599be632be08b6d56a</anchor>
+      <arglist>(const double &amp;time, const double &amp;true_time)</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::optional&lt; double &gt; &amp;</type>
+      <name>get_true_time</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a291aada73dd09ed96663ba0c1043392b</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>Context</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a7540648fc201ffee17e0cdea0888a6f7</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>Context</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a52a9655097488a7f2c00bf4a6b94c2f9</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;)</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual const State&lt; double &gt; &amp;</type>
+      <name>do_access_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>ad162d70edd8d477b1f26713f0863b6c2</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual State&lt; double &gt; &amp;</type>
+      <name>do_access_mutable_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a6df6d9750a22eb89b2836996c68e0f0a</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual std::unique_ptr&lt; State&lt; double &gt; &gt;</type>
+      <name>DoCloneState</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>ae239621a8ee72ec26db2430cbf1b4541</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual std::string</type>
+      <name>do_to_string</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a7109f29ebaaa3e8c63e158df763d1c1c</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoPropagateTimeChange</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>aee17830b884bef7b5b182cbf7e9602fb</anchor>
+      <arglist>(const double &amp;time_sec, const std::optional&lt; double &gt; &amp;true_time, int64_t change_event)</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoPropagateAccuracyChange</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a2e45b7db5db1cf0ba916b4d2f9338fc9</anchor>
+      <arglist>(const std::optional&lt; double &gt; &amp;accuracy, int64_t change_event)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>init_continuous_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>aba0aa60909af0c24f7791a2c83876ffa</anchor>
+      <arglist>(std::unique_ptr&lt; ContinuousState&lt; double &gt;&gt; xc)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>init_discrete_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a24eb6cfcac34ddd216f99168aab071e8</anchor>
+      <arglist>(std::unique_ptr&lt; DiscreteValues&lt; double &gt;&gt; xd)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>init_abstract_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a3080ffa1b4c412986990e9c64e87d90c</anchor>
+      <arglist>(std::unique_ptr&lt; AbstractValues &gt; xa)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>init_parameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a571d9b7fa01ad6db23cb6585ebbbffcd</anchor>
+      <arglist>(std::unique_ptr&lt; Parameters&lt; double &gt;&gt; params)</arglist>
+    </member>
+    <member kind="function" protection="protected" static="yes">
+      <type>static void</type>
+      <name>PropagateTimeChange</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a2272aee65c71a06f1bf3f46a535b48f4</anchor>
+      <arglist>(Context&lt; double &gt; *context, const double &amp;time, const std::optional&lt; double &gt; &amp;true_time, int64_t change_event)</arglist>
+    </member>
+    <member kind="function" protection="protected" static="yes">
+      <type>static void</type>
+      <name>PropagateAccuracyChange</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>aa275664dd983d1ec010918ed28115a7f</anchor>
+      <arglist>(Context&lt; double &gt; *context, const std::optional&lt; double &gt; &amp;accuracy, int64_t change_event)</arglist>
+    </member>
+    <member kind="function" protection="protected" static="yes">
+      <type>static Parameters&lt; double &gt; &amp;</type>
+      <name>access_mutable_parameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a3ab8cefcf37fad3a0fefb3864b55be62</anchor>
+      <arglist>(Context&lt; double &gt; *context)</arglist>
+    </member>
+    <member kind="function" protection="protected" static="yes">
+      <type>static State&lt; double &gt; &amp;</type>
+      <name>access_mutable_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a4353316f10988bcc6415af805e31f45e</anchor>
+      <arglist>(Context&lt; double &gt; *context)</arglist>
+    </member>
+    <member kind="function" protection="protected" static="yes">
+      <type>static std::unique_ptr&lt; Context&lt; double &gt; &gt;</type>
+      <name>CloneWithoutPointers</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a4ec5eac8b16b142c2c33f28526c77072</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;source)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Context</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>af604646963810d23d1f0df08f3acc548</anchor>
+      <arglist>(Context &amp;&amp;)=delete</arglist>
+    </member>
+    <member kind="function">
+      <type>Context &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a3fa4f30a98766cf904f92a0b162f7c2a</anchor>
+      <arglist>(const Context &amp;)=delete</arglist>
+    </member>
+    <member kind="function">
+      <type>Context &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a672d928d4013a833b2848e2dfbaf20a9</anchor>
+      <arglist>(Context &amp;&amp;)=delete</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>get_time</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a9fa7f7dbc373945737eb4fb7b594d6a6</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const State&lt; double &gt; &amp;</type>
+      <name>get_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a7d61c4076aa4c0a64f16d1a6fe864be1</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>is_stateless</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a8d113a6e523b45e5ddc1ddb88ed4dc24</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>has_only_continuous_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a981ad14596e6b40c746478fb63f1c2d9</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>has_only_discrete_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a5afefab824732ae355ba9ae8090f53ed</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_total_states</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>ac544f3f782615e62cb59a3423fbbe812</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_continuous_states</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>aa568c26e18ea55bb339893881cff3e73</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const ContinuousState&lt; double &gt; &amp;</type>
+      <name>get_continuous_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a7a1544a1499821caca5625f00f8ed593</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const VectorBase&lt; double &gt; &amp;</type>
+      <name>get_continuous_state_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a8c7762cc235ff15d35752ec55888a9b5</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_discrete_state_groups</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a1a03d2d5e70020145bd659eba780f967</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const DiscreteValues&lt; double &gt; &amp;</type>
+      <name>get_discrete_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a4734a73a697822adab6651601f0ede89</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const BasicVector&lt; double &gt; &amp;</type>
+      <name>get_discrete_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a923ddf26eb35c376ea23f672520a9229</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const BasicVector&lt; double &gt; &amp;</type>
+      <name>get_discrete_state_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a1ef8d0cb14f4759833db259e2d7a177f</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_abstract_states</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>ad2c71c7988b370b4e93ea1c33a2a0e9b</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const AbstractValues &amp;</type>
+      <name>get_abstract_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a49a3cc1ba02268cb11c8af904336af01</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const U &amp;</type>
+      <name>get_abstract_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a6e953da59a69f25bd342bf8885d218d6</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::optional&lt; double &gt; &amp;</type>
+      <name>get_accuracy</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>afa3b4965d611f8ff7d7fb719c96ddfca</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Parameters&lt; double &gt; &amp;</type>
+      <name>get_parameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a3dae6b46eab2a5a117b89fd6461a9181</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_numeric_parameter_groups</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>aff6508ca0ff8f5e886e63fb9c830e36a</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const BasicVector&lt; double &gt; &amp;</type>
+      <name>get_numeric_parameter</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a1882d7ad5c503e04bd2aab9de4d196e3</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_abstract_parameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a0232523ac7f8337a392b321ffd282187</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const AbstractValue &amp;</type>
+      <name>get_abstract_parameter</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>afbcc55465229ce053092fb250908c0e0</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetTime</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a3d5dddf9b2bb3283f9cd74c7a77517fc</anchor>
+      <arglist>(const double &amp;time_sec)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetContinuousState</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a0b9308e812da39661dce265468b6f90c</anchor>
+      <arglist>(const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;xc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetTimeAndContinuousState</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a9ce8807a2a969b40a480e3cc3c6ab2db</anchor>
+      <arglist>(const double &amp;time_sec, const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;xc)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetDiscreteState</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>ab6b22de379384d8336968f13e6480f1a</anchor>
+      <arglist>(const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;xd)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetDiscreteState</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a576f417e8e9d3076660b325153f7b348</anchor>
+      <arglist>(int group_index, const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;xd)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetAbstractState</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a7ca085977869dd3df37ca2a162273226</anchor>
+      <arglist>(int index, const ValueType &amp;value)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetStateAndParametersFrom</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a17e6fd1b67831eabcf93c80f346d0216</anchor>
+      <arglist>(const Context&lt; U &gt; &amp;source)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetTimeStateAndParametersFrom</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>ae55845b172939052d02ea437df63cfbc</anchor>
+      <arglist>(const Context&lt; U &gt; &amp;source)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetAccuracy</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a82e68f81f3284c08aa1c9acbfabbe1f5</anchor>
+      <arglist>(const std::optional&lt; double &gt; &amp;accuracy)</arglist>
+    </member>
+    <member kind="function">
+      <type>FixedInputPortValue &amp;</type>
+      <name>FixInputPort</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a7ff73df73c8c83229e8aff5b7068fe2a</anchor>
+      <arglist>(int index, const AbstractValue &amp;value)</arglist>
+    </member>
+    <member kind="function">
+      <type>State&lt; double &gt; &amp;</type>
+      <name>get_mutable_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a82d273792ee73d3ad431a356dc5030af</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>ContinuousState&lt; double &gt; &amp;</type>
+      <name>get_mutable_continuous_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>aebac8d5dbb6477ca0c90e9928621c8ee</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase&lt; double &gt; &amp;</type>
+      <name>get_mutable_continuous_state_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>accae935e18c9526d9521c8be6b2e4e3d</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>DiscreteValues&lt; double &gt; &amp;</type>
+      <name>get_mutable_discrete_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>ae70b09f6a7cbb48a1138262aa291fb0e</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>BasicVector&lt; double &gt; &amp;</type>
+      <name>get_mutable_discrete_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>af792a48ad2c93163065743e8a53c0fd4</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>BasicVector&lt; double &gt; &amp;</type>
+      <name>get_mutable_discrete_state_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a73d73dbf23c2c036bbe1331a46571625</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>AbstractValues &amp;</type>
+      <name>get_mutable_abstract_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a2a373393e97aa9f2a3d5083b2f6995d4</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>U &amp;</type>
+      <name>get_mutable_abstract_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>acdeb8df5c64ce2494984c9e08b74eb9d</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>Parameters&lt; double &gt; &amp;</type>
+      <name>get_mutable_parameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a8f69a925217316e2ad0b23bc83b07437</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>BasicVector&lt; double &gt; &amp;</type>
+      <name>get_mutable_numeric_parameter</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>ae7ccc75f3d6be6aa73aec86ad2a76e67</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>AbstractValue &amp;</type>
+      <name>get_mutable_abstract_parameter</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a064262a130edac83f75ea6f8e3940b86</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase&lt; double &gt; &amp;</type>
+      <name>SetTimeAndGetMutableContinuousStateVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a1a4512beab2809a8102c3622a085a356</anchor>
+      <arglist>(const double &amp;time_sec)</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase&lt; double &gt; &amp;</type>
+      <name>SetTimeAndGetMutableQVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>a98436b2af64e8f01a9c8bf51977936e8</anchor>
+      <arglist>(const double &amp;time_sec)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::pair&lt; VectorBase&lt; double &gt; *, VectorBase&lt; double &gt; * &gt;</type>
+      <name>GetMutableVZVectors</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>abb21407fcbb1a95da06a0449a15ad923</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetTimeAndNoteContinuousStateChange</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>ab31d44149a81eabee915dd1ed330e524</anchor>
+      <arglist>(const double &amp;time_sec)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>NoteContinuousStateChange</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_context.html</anchorfile>
+      <anchor>ab2b2b3f5ac625c5db5b0edd40c1f999e</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::drake::systems::ContextBase</name>
     <filename>classmaliput_1_1drake_1_1systems_1_1_context_base.html</filename>
     <base>maliput::drake::systems::internal::ContextMessageInterface</base>
@@ -13115,6 +14320,192 @@
       <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
       <anchor>a73f25319dea21e5c40dc00f527ca1512</anchor>
       <arglist>(std::unique_ptr&lt; VectorBase&lt; T &gt;&gt; state, std::unique_ptr&lt; VectorBase&lt; T &gt;&gt; q, std::unique_ptr&lt; VectorBase&lt; T &gt;&gt; v, std::unique_ptr&lt; VectorBase&lt; T &gt;&gt; z)</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual std::unique_ptr&lt; ContinuousState &gt;</type>
+      <name>DoClone</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>a2a3dca8370bdf98b270346ec4c7daafb</anchor>
+      <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>ContinuousState&lt; double &gt;</name>
+    <filename>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>ContinuousState</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>a9bdb59cf7f9cb2a45839c39a952552d2</anchor>
+      <arglist>(std::unique_ptr&lt; VectorBase&lt; double &gt;&gt; state)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>ContinuousState</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>ac39b3348257262124904dfe95fff8221</anchor>
+      <arglist>(std::unique_ptr&lt; VectorBase&lt; double &gt;&gt; state, int num_q, int num_v, int num_z)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>ContinuousState</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>a1b02f4d387b6990120df659d275f057b</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~ContinuousState</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>acbe21f0decea98f6f13ff2db1198e44b</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; ContinuousState&lt; double &gt; &gt;</type>
+      <name>Clone</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>ac8ab391c412fd16dae2d4256cd679a20</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>af9593d4a5ff4274efaf429cb4f9e57cc</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_q</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>a575fa54c71cca89670060ff2ba3a8d96</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_v</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>a7fdb5bd011e4102cc42131db6434c1b7</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_z</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>a34166e2e6bf4ab12e2daec57b96b7c17</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double &amp;</type>
+      <name>operator[]</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>a544681f87243cb9f80715bb1aa9c0a99</anchor>
+      <arglist>(std::size_t idx)</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>operator[]</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>a99150adfc55ef9056b7feddc006d8878</anchor>
+      <arglist>(std::size_t idx) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const VectorBase&lt; double &gt; &amp;</type>
+      <name>get_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>aac8a3aad57388d77300bbebad3de1ff6</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase&lt; double &gt; &amp;</type>
+      <name>get_mutable_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>a20607d17e81da7f065cc95d9ca40d9a4</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>const VectorBase&lt; double &gt; &amp;</type>
+      <name>get_generalized_position</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>a3ae371f7ac91c26ef9cac4f27f3210f8</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase&lt; double &gt; &amp;</type>
+      <name>get_mutable_generalized_position</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>a3ce38597399d648e27f32550031a3a79</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>const VectorBase&lt; double &gt; &amp;</type>
+      <name>get_generalized_velocity</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>a8120a62d813139e3777f32de9b1e9041</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase&lt; double &gt; &amp;</type>
+      <name>get_mutable_generalized_velocity</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>adbd6c1818e0783a3a173a6e1d81e5f3e</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>const VectorBase&lt; double &gt; &amp;</type>
+      <name>get_misc_continuous_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>a82b6637e316ee41cd356a46efece8f46</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase&lt; double &gt; &amp;</type>
+      <name>get_mutable_misc_continuous_state</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>aa7eb2e24e194284af170d923c9017729</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetFrom</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>afada8502efc681e7f62ff5d47fee1724</anchor>
+      <arglist>(const ContinuousState&lt; U &gt; &amp;other)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetFromVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>acf42544d45810d7c74083ba2b00bb9d0</anchor>
+      <arglist>(const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;value)</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorX&lt; double &gt;</type>
+      <name>CopyToVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>ac9268f6e13f208019d9131cbe98dde0d</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>internal::SystemId</type>
+      <name>get_system_id</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>a1b3f9382208d13e11984a54afa711577</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_system_id</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>a3965cbaa8df39799338ac0838f8306a7</anchor>
+      <arglist>(internal::SystemId id)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>ContinuousState</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_continuous_state.html</anchorfile>
+      <anchor>a73f25319dea21e5c40dc00f527ca1512</anchor>
+      <arglist>(std::unique_ptr&lt; VectorBase&lt; double &gt;&gt; state, std::unique_ptr&lt; VectorBase&lt; double &gt;&gt; q, std::unique_ptr&lt; VectorBase&lt; double &gt;&gt; v, std::unique_ptr&lt; VectorBase&lt; double &gt;&gt; z)</arglist>
     </member>
     <member kind="function" protection="protected" virtualness="virtual">
       <type>virtual std::unique_ptr&lt; ContinuousState &gt;</type>
@@ -14809,6 +16200,339 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>copyable_unique_ptr&lt; maliput::drake::systems::Parameters&lt; double &gt; &gt;</name>
+    <filename>classmaliput_1_1drake_1_1copyable__unique__ptr.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>copyable_unique_ptr</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a38cdcb23181ad1c554ef0209a29cd768</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>copyable_unique_ptr</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>ac67cae08914b16290d64a748fb64d6dc</anchor>
+      <arglist>(maliput::drake::systems::Parameters&lt; double &gt; *ptr) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>copyable_unique_ptr</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>ad454f66aaeaf4bff4953937c55634298</anchor>
+      <arglist>(const maliput::drake::systems::Parameters&lt; double &gt; &amp;value)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>copyable_unique_ptr</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a9efa09fdc8aad69db06b649c447d9806</anchor>
+      <arglist>(const copyable_unique_ptr &amp;cu_ptr)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>copyable_unique_ptr</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a1774b97188ce9c5a5cd47c5c4ff63fc0</anchor>
+      <arglist>(const std::unique_ptr&lt; U &gt; &amp;u_ptr)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>copyable_unique_ptr</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>ac60d2d174b5ce39e94bf59719c997250</anchor>
+      <arglist>(copyable_unique_ptr &amp;&amp;cu_ptr) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>copyable_unique_ptr</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a5a34341a71b340b3af3ee3d18e9d09bc</anchor>
+      <arglist>(std::unique_ptr&lt; maliput::drake::systems::Parameters&lt; double &gt; &gt; &amp;&amp;u_ptr) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>copyable_unique_ptr</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>ad0b538a9c4ca822d4212226ba51dc0aa</anchor>
+      <arglist>(std::unique_ptr&lt; U &gt; &amp;&amp;u_ptr) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>copyable_unique_ptr &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>aabb236eef6e850a09b441591f0812747</anchor>
+      <arglist>(maliput::drake::systems::Parameters&lt; double &gt; *ptr) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>copyable_unique_ptr &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a4d4078720893b915d022bd734f6eb5e9</anchor>
+      <arglist>(const maliput::drake::systems::Parameters&lt; double &gt; &amp;ref)</arglist>
+    </member>
+    <member kind="function">
+      <type>copyable_unique_ptr &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a35881f6551d81d4ba11f23bdc695dbf5</anchor>
+      <arglist>(const copyable_unique_ptr &amp;cu_ptr)</arglist>
+    </member>
+    <member kind="function">
+      <type>copyable_unique_ptr &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a5d014005bde7838a248d7129023b999c</anchor>
+      <arglist>(const copyable_unique_ptr&lt; U &gt; &amp;cu_ptr)</arglist>
+    </member>
+    <member kind="function">
+      <type>copyable_unique_ptr &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a241aa7fdb2e242c6965006831d9e62dd</anchor>
+      <arglist>(const std::unique_ptr&lt; maliput::drake::systems::Parameters&lt; double &gt; &gt; &amp;src)</arglist>
+    </member>
+    <member kind="function">
+      <type>copyable_unique_ptr &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a67bca368e89b4408972a3f54c09eaab3</anchor>
+      <arglist>(const std::unique_ptr&lt; U &gt; &amp;u_ptr)</arglist>
+    </member>
+    <member kind="function">
+      <type>copyable_unique_ptr &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>af2693139bff4ad445212aa4bb73284ad</anchor>
+      <arglist>(copyable_unique_ptr &amp;&amp;cu_ptr) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>copyable_unique_ptr &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a60fa4971dcefe82f931084653b196a55</anchor>
+      <arglist>(copyable_unique_ptr&lt; U &gt; &amp;&amp;cu_ptr) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>copyable_unique_ptr &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a53f1739bcedb13183285a9995d3b9daf</anchor>
+      <arglist>(std::unique_ptr&lt; maliput::drake::systems::Parameters&lt; double &gt; &gt; &amp;&amp;u_ptr) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>copyable_unique_ptr &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>abf98f86aa60c05f0a546ca78c2a2e857</anchor>
+      <arglist>(std::unique_ptr&lt; U &gt; &amp;&amp;u_ptr) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>empty</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a3f6fc5de06a318920d84f3c3742db07f</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>const maliput::drake::systems::Parameters&lt; double &gt; *</type>
+      <name>get</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a76c791981969a90b67778f87036b032e</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>maliput::drake::systems::Parameters&lt; double &gt; *</type>
+      <name>get_mutable</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>ac684d04fadf2a6b636c98e38aabf7ccb</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>const maliput::drake::systems::Parameters&lt; double &gt; &amp;</type>
+      <name>operator*</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a540e5588dffde890174a282451f73fb9</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>maliput::drake::systems::Parameters&lt; double &gt; &amp;</type>
+      <name>operator*</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>af7f8c6b921dca2b94f6e7ee14e762770</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::basic_ostream&lt; charT, traits &gt; &amp;</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>ab5373c9f8caa95d0cdf8d4b7d1066cb3</anchor>
+      <arglist>(std::basic_ostream&lt; charT, traits &gt; &amp;os, const copyable_unique_ptr&lt; maliput::drake::systems::Parameters&lt; double &gt; &gt; &amp;cu_ptr)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>copyable_unique_ptr</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a38cdcb23181ad1c554ef0209a29cd768</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>copyable_unique_ptr</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>ac67cae08914b16290d64a748fb64d6dc</anchor>
+      <arglist>(maliput::drake::systems::Parameters&lt; double &gt; *ptr) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>copyable_unique_ptr</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>ad454f66aaeaf4bff4953937c55634298</anchor>
+      <arglist>(const maliput::drake::systems::Parameters&lt; double &gt; &amp;value)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>copyable_unique_ptr</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a9efa09fdc8aad69db06b649c447d9806</anchor>
+      <arglist>(const copyable_unique_ptr &amp;cu_ptr)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>copyable_unique_ptr</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a1774b97188ce9c5a5cd47c5c4ff63fc0</anchor>
+      <arglist>(const std::unique_ptr&lt; U &gt; &amp;u_ptr)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>copyable_unique_ptr</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>ac60d2d174b5ce39e94bf59719c997250</anchor>
+      <arglist>(copyable_unique_ptr &amp;&amp;cu_ptr) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>copyable_unique_ptr</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a5a34341a71b340b3af3ee3d18e9d09bc</anchor>
+      <arglist>(std::unique_ptr&lt; maliput::drake::systems::Parameters&lt; double &gt; &gt; &amp;&amp;u_ptr) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>copyable_unique_ptr</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>ad0b538a9c4ca822d4212226ba51dc0aa</anchor>
+      <arglist>(std::unique_ptr&lt; U &gt; &amp;&amp;u_ptr) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>copyable_unique_ptr &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>aabb236eef6e850a09b441591f0812747</anchor>
+      <arglist>(maliput::drake::systems::Parameters&lt; double &gt; *ptr) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>copyable_unique_ptr &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a4d4078720893b915d022bd734f6eb5e9</anchor>
+      <arglist>(const maliput::drake::systems::Parameters&lt; double &gt; &amp;ref)</arglist>
+    </member>
+    <member kind="function">
+      <type>copyable_unique_ptr &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a35881f6551d81d4ba11f23bdc695dbf5</anchor>
+      <arglist>(const copyable_unique_ptr &amp;cu_ptr)</arglist>
+    </member>
+    <member kind="function">
+      <type>copyable_unique_ptr &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a5d014005bde7838a248d7129023b999c</anchor>
+      <arglist>(const copyable_unique_ptr&lt; U &gt; &amp;cu_ptr)</arglist>
+    </member>
+    <member kind="function">
+      <type>copyable_unique_ptr &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a241aa7fdb2e242c6965006831d9e62dd</anchor>
+      <arglist>(const std::unique_ptr&lt; maliput::drake::systems::Parameters&lt; double &gt; &gt; &amp;src)</arglist>
+    </member>
+    <member kind="function">
+      <type>copyable_unique_ptr &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a67bca368e89b4408972a3f54c09eaab3</anchor>
+      <arglist>(const std::unique_ptr&lt; U &gt; &amp;u_ptr)</arglist>
+    </member>
+    <member kind="function">
+      <type>copyable_unique_ptr &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>af2693139bff4ad445212aa4bb73284ad</anchor>
+      <arglist>(copyable_unique_ptr &amp;&amp;cu_ptr) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>copyable_unique_ptr &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a60fa4971dcefe82f931084653b196a55</anchor>
+      <arglist>(copyable_unique_ptr&lt; U &gt; &amp;&amp;cu_ptr) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>copyable_unique_ptr &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a53f1739bcedb13183285a9995d3b9daf</anchor>
+      <arglist>(std::unique_ptr&lt; maliput::drake::systems::Parameters&lt; double &gt; &gt; &amp;&amp;u_ptr) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>copyable_unique_ptr &amp;</type>
+      <name>operator=</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>abf98f86aa60c05f0a546ca78c2a2e857</anchor>
+      <arglist>(std::unique_ptr&lt; U &gt; &amp;&amp;u_ptr) noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>empty</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a3f6fc5de06a318920d84f3c3742db07f</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>const maliput::drake::systems::Parameters&lt; double &gt; *</type>
+      <name>get</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a76c791981969a90b67778f87036b032e</anchor>
+      <arglist>() const noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>maliput::drake::systems::Parameters&lt; double &gt; *</type>
+      <name>get_mutable</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>ac684d04fadf2a6b636c98e38aabf7ccb</anchor>
+      <arglist>() noexcept</arglist>
+    </member>
+    <member kind="function">
+      <type>const maliput::drake::systems::Parameters&lt; double &gt; &amp;</type>
+      <name>operator*</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>a540e5588dffde890174a282451f73fb9</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>maliput::drake::systems::Parameters&lt; double &gt; &amp;</type>
+      <name>operator*</name>
+      <anchorfile>classmaliput_1_1drake_1_1copyable__unique__ptr.html</anchorfile>
+      <anchor>af7f8c6b921dca2b94f6e7ee14e762770</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>copyable_unique_ptr&lt; maliput::drake::systems::Parameters&lt; T &gt; &gt;</name>
     <filename>classmaliput_1_1drake_1_1copyable__unique__ptr.html</filename>
     <member kind="function">
@@ -16375,6 +18099,290 @@
       <arglist>(internal::SystemId id)</arglist>
     </member>
   </compound>
+  <compound kind="class">
+    <name>DiscreteValues&lt; double &gt;</name>
+    <filename>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>DiscreteValues</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a3e55061c1a2d3227fa98fde06050a14a</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>DiscreteValues</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a9dcc98282589e6fffa4bb6b81975647b</anchor>
+      <arglist>(const std::vector&lt; BasicVector&lt; double &gt; * &gt; &amp;data)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>DiscreteValues</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>ad04735d45d83dfd2fa387fee8ef39dc1</anchor>
+      <arglist>(std::vector&lt; std::unique_ptr&lt; BasicVector&lt; double &gt;&gt;&gt; &amp;&amp;data)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>DiscreteValues</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a31dd84e8f6b18b629ce9b878af683029</anchor>
+      <arglist>(std::unique_ptr&lt; BasicVector&lt; double &gt;&gt; datum)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>AppendGroup</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a1921190f40a3b6421e6a7b4311b03623</anchor>
+      <arglist>(std::unique_ptr&lt; BasicVector&lt; double &gt;&gt; datum)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~DiscreteValues</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a19a5e68e383564f5c571d9bb11e57930</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_groups</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>ae3d6aafba237b9251e8fabd0dbe76528</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::vector&lt; BasicVector&lt; double &gt; * &gt; &amp;</type>
+      <name>get_data</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>ad35e39bbc1f872f51b88bc0b53da8dde</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>af9593d4a5ff4274efaf429cb4f9e57cc</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double &amp;</type>
+      <name>operator[]</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a544681f87243cb9f80715bb1aa9c0a99</anchor>
+      <arglist>(std::size_t idx)</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>operator[]</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a99150adfc55ef9056b7feddc006d8878</anchor>
+      <arglist>(std::size_t idx) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const BasicVector&lt; double &gt; &amp;</type>
+      <name>get_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a781b532f24d827486a4ab324df7f1f92</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const BasicVector&lt; double &gt; &amp;</type>
+      <name>get_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a139e5f74414ae8f87153451814f162ae</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>BasicVector&lt; double &gt; &amp;</type>
+      <name>get_mutable_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>aae86dd78ddf0ff1f879ae4b6d42e026b</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>BasicVector&lt; double &gt; &amp;</type>
+      <name>get_mutable_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a808120e3bb3ff14125effe132ea4b954</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_value</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a95cee47ba175ab6b8fd8f7cb2f82ab96</anchor>
+      <arglist>(const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;value)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_value</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a2bfa3897316b313139081b8cf8487576</anchor>
+      <arglist>(int index, const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;value)</arglist>
+    </member>
+    <member kind="function">
+      <type>Eigen::VectorBlock&lt; const VectorX&lt; double &gt; &gt;</type>
+      <name>get_value</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a4d33aecde019e5f62d662aa2ef142b34</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>Eigen::VectorBlock&lt; const VectorX&lt; double &gt; &gt;</type>
+      <name>get_value</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>abaf7c6a1b4908c67e28bf45cfc58965a</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>Eigen::VectorBlock&lt; VectorX&lt; double &gt; &gt;</type>
+      <name>get_mutable_value</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a1b0db2779927764099fa8878ccaea85e</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>Eigen::VectorBlock&lt; VectorX&lt; double &gt; &gt;</type>
+      <name>get_mutable_value</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>aa4080d4c479eb0baf14cec74d44374b8</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetFrom</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a04f99bc8d40ae24884981b17f4801866</anchor>
+      <arglist>(const DiscreteValues&lt; U &gt; &amp;other)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; DiscreteValues&lt; double &gt; &gt;</type>
+      <name>Clone</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a4af818ddd91ebbee04c8354fe32df917</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>internal::SystemId</type>
+      <name>get_system_id</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a1b3f9382208d13e11984a54afa711577</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_system_id</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a3965cbaa8df39799338ac0838f8306a7</anchor>
+      <arglist>(internal::SystemId id)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>af9593d4a5ff4274efaf429cb4f9e57cc</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double &amp;</type>
+      <name>operator[]</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a544681f87243cb9f80715bb1aa9c0a99</anchor>
+      <arglist>(std::size_t idx)</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>operator[]</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a99150adfc55ef9056b7feddc006d8878</anchor>
+      <arglist>(std::size_t idx) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const BasicVector&lt; double &gt; &amp;</type>
+      <name>get_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a781b532f24d827486a4ab324df7f1f92</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const BasicVector&lt; double &gt; &amp;</type>
+      <name>get_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a139e5f74414ae8f87153451814f162ae</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>BasicVector&lt; double &gt; &amp;</type>
+      <name>get_mutable_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>aae86dd78ddf0ff1f879ae4b6d42e026b</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>BasicVector&lt; double &gt; &amp;</type>
+      <name>get_mutable_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a808120e3bb3ff14125effe132ea4b954</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_value</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a95cee47ba175ab6b8fd8f7cb2f82ab96</anchor>
+      <arglist>(const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;value)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_value</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a2bfa3897316b313139081b8cf8487576</anchor>
+      <arglist>(int index, const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;value)</arglist>
+    </member>
+    <member kind="function">
+      <type>Eigen::VectorBlock&lt; const VectorX&lt; double &gt; &gt;</type>
+      <name>get_value</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a4d33aecde019e5f62d662aa2ef142b34</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>Eigen::VectorBlock&lt; const VectorX&lt; double &gt; &gt;</type>
+      <name>get_value</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>abaf7c6a1b4908c67e28bf45cfc58965a</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>Eigen::VectorBlock&lt; VectorX&lt; double &gt; &gt;</type>
+      <name>get_mutable_value</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a1b0db2779927764099fa8878ccaea85e</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>Eigen::VectorBlock&lt; VectorX&lt; double &gt; &gt;</type>
+      <name>get_mutable_value</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>aa4080d4c479eb0baf14cec74d44374b8</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetFrom</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a04f99bc8d40ae24884981b17f4801866</anchor>
+      <arglist>(const DiscreteValues&lt; U &gt; &amp;other)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; DiscreteValues&lt; double &gt; &gt;</type>
+      <name>Clone</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_discrete_values.html</anchorfile>
+      <anchor>a4af818ddd91ebbee04c8354fe32df917</anchor>
+      <arglist>() const</arglist>
+    </member>
+  </compound>
   <compound kind="struct">
     <name>maliput::drake::dummy_value</name>
     <filename>structmaliput_1_1drake_1_1dummy__value.html</filename>
@@ -16735,6 +18743,73 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>EventCollection&lt; maliput::drake::systems::DiscreteUpdateEvent&lt; double &gt; &gt;</name>
+    <filename>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</filename>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~EventCollection</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>a8a7bb86bd2c430815cd89f0216d707e3</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetFrom</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>a9ce0ab57962f71dd5a55eb801142203d</anchor>
+      <arglist>(const EventCollection&lt; maliput::drake::systems::DiscreteUpdateEvent&lt; double &gt; &gt; &amp;other)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AddToEnd</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>a231b56ed21a687d8c8e72fb63b4f9d23</anchor>
+      <arglist>(const EventCollection&lt; maliput::drake::systems::DiscreteUpdateEvent&lt; double &gt; &gt; &amp;other)</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>Clear</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>aa5b31c976cc6734003d9950e731dfed3</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual bool</type>
+      <name>HasEvents</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>af025a9d6b00f00183fde53dd4f31662c</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>add_event</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>a441779b587accb79f832dd172ddb3285</anchor>
+      <arglist>(std::unique_ptr&lt; maliput::drake::systems::DiscreteUpdateEvent&lt; double &gt; &gt; event)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>AddEvent</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>a962bb5c9418bc0c72fdca0a12484446a</anchor>
+      <arglist>(maliput::drake::systems::DiscreteUpdateEvent&lt; double &gt; event)=0</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>EventCollection</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>a3e0f03f4733d4061bd5f98f3ba10735c</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual void</type>
+      <name>DoAddToEnd</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>acc00fb518bea279685c8c0af09cef984</anchor>
+      <arglist>(const EventCollection&lt; maliput::drake::systems::DiscreteUpdateEvent&lt; double &gt; &gt; &amp;other)=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>EventCollection&lt; maliput::drake::systems::DiscreteUpdateEvent&lt; T &gt; &gt;</name>
     <filename>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</filename>
     <member kind="function" virtualness="virtual">
@@ -16802,6 +18877,73 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>EventCollection&lt; maliput::drake::systems::PublishEvent&lt; double &gt; &gt;</name>
+    <filename>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</filename>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~EventCollection</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>a8a7bb86bd2c430815cd89f0216d707e3</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetFrom</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>a9ce0ab57962f71dd5a55eb801142203d</anchor>
+      <arglist>(const EventCollection&lt; maliput::drake::systems::PublishEvent&lt; double &gt; &gt; &amp;other)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AddToEnd</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>a231b56ed21a687d8c8e72fb63b4f9d23</anchor>
+      <arglist>(const EventCollection&lt; maliput::drake::systems::PublishEvent&lt; double &gt; &gt; &amp;other)</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>Clear</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>aa5b31c976cc6734003d9950e731dfed3</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual bool</type>
+      <name>HasEvents</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>af025a9d6b00f00183fde53dd4f31662c</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>add_event</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>a441779b587accb79f832dd172ddb3285</anchor>
+      <arglist>(std::unique_ptr&lt; maliput::drake::systems::PublishEvent&lt; double &gt; &gt; event)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>AddEvent</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>a962bb5c9418bc0c72fdca0a12484446a</anchor>
+      <arglist>(maliput::drake::systems::PublishEvent&lt; double &gt; event)=0</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>EventCollection</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>a3e0f03f4733d4061bd5f98f3ba10735c</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual void</type>
+      <name>DoAddToEnd</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>acc00fb518bea279685c8c0af09cef984</anchor>
+      <arglist>(const EventCollection&lt; maliput::drake::systems::PublishEvent&lt; double &gt; &gt; &amp;other)=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>EventCollection&lt; maliput::drake::systems::PublishEvent&lt; T &gt; &gt;</name>
     <filename>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</filename>
     <member kind="function" virtualness="virtual">
@@ -16866,6 +19008,73 @@
       <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
       <anchor>acc00fb518bea279685c8c0af09cef984</anchor>
       <arglist>(const EventCollection&lt; maliput::drake::systems::PublishEvent&lt; T &gt; &gt; &amp;other)=0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>EventCollection&lt; maliput::drake::systems::UnrestrictedUpdateEvent&lt; double &gt; &gt;</name>
+    <filename>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</filename>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~EventCollection</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>a8a7bb86bd2c430815cd89f0216d707e3</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetFrom</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>a9ce0ab57962f71dd5a55eb801142203d</anchor>
+      <arglist>(const EventCollection&lt; maliput::drake::systems::UnrestrictedUpdateEvent&lt; double &gt; &gt; &amp;other)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AddToEnd</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>a231b56ed21a687d8c8e72fb63b4f9d23</anchor>
+      <arglist>(const EventCollection&lt; maliput::drake::systems::UnrestrictedUpdateEvent&lt; double &gt; &gt; &amp;other)</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>Clear</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>aa5b31c976cc6734003d9950e731dfed3</anchor>
+      <arglist>()=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual bool</type>
+      <name>HasEvents</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>af025a9d6b00f00183fde53dd4f31662c</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>add_event</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>a441779b587accb79f832dd172ddb3285</anchor>
+      <arglist>(std::unique_ptr&lt; maliput::drake::systems::UnrestrictedUpdateEvent&lt; double &gt; &gt; event)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>AddEvent</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>a962bb5c9418bc0c72fdca0a12484446a</anchor>
+      <arglist>(maliput::drake::systems::UnrestrictedUpdateEvent&lt; double &gt; event)=0</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>EventCollection</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>a3e0f03f4733d4061bd5f98f3ba10735c</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual void</type>
+      <name>DoAddToEnd</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_event_collection.html</anchorfile>
+      <anchor>acc00fb518bea279685c8c0af09cef984</anchor>
+      <arglist>(const EventCollection&lt; maliput::drake::systems::UnrestrictedUpdateEvent&lt; double &gt; &gt; &amp;other)=0</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -18320,6 +20529,87 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>InitialValueProblem&lt; double &gt;</name>
+    <filename>classmaliput_1_1drake_1_1systems_1_1_initial_value_problem.html</filename>
+    <member kind="typedef">
+      <type>std::function&lt; VectorX&lt; double &gt;(const double &amp;t, const VectorX&lt; double &gt; &amp;x, const VectorX&lt; double &gt; &amp;k)&gt;</type>
+      <name>OdeFunction</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_initial_value_problem.html</anchorfile>
+      <anchor>afb82099555a08ddfc85d8565f7d2b434</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>DRAKE_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_initial_value_problem.html</anchorfile>
+      <anchor>a53c93436e2449017ba5a65ce50373500</anchor>
+      <arglist>(InitialValueProblem)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>InitialValueProblem</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_initial_value_problem.html</anchorfile>
+      <anchor>a1eade0b0488e3a077f74007ee7b8700e</anchor>
+      <arglist>(const OdeFunction &amp;ode_function, const OdeContext &amp;default_values)</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorX&lt; double &gt;</type>
+      <name>Solve</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_initial_value_problem.html</anchorfile>
+      <anchor>a70e2432f9f994e36a37932968eebe09a</anchor>
+      <arglist>(const double &amp;tf, const OdeContext &amp;values={}) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; DenseOutput&lt; double &gt; &gt;</type>
+      <name>DenseSolve</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_initial_value_problem.html</anchorfile>
+      <anchor>a083c20900ef4e361970a0e3ce1f609b3</anchor>
+      <arglist>(const double &amp;tf, const OdeContext &amp;values={}) const</arglist>
+    </member>
+    <member kind="function">
+      <type>Integrator *</type>
+      <name>reset_integrator</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_initial_value_problem.html</anchorfile>
+      <anchor>aaf92f89ed3fb6ea7acde795d33645a3c</anchor>
+      <arglist>(Args &amp;&amp;... args)</arglist>
+    </member>
+    <member kind="function">
+      <type>const IntegratorBase&lt; double &gt; &amp;</type>
+      <name>get_integrator</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_initial_value_problem.html</anchorfile>
+      <anchor>adbc3bf152afe75736c6b8b3ecf8cd65e</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>IntegratorBase&lt; double &gt; &amp;</type>
+      <name>get_mutable_integrator</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_initial_value_problem.html</anchorfile>
+      <anchor>af7c4ee8378a24e575a176dfb7d308ae9</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const double</type>
+      <name>kDefaultAccuracy</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_initial_value_problem.html</anchorfile>
+      <anchor>a35ff185e17772e89c9353aa86ef63c83</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const double</type>
+      <name>kInitialStepSize</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_initial_value_problem.html</anchorfile>
+      <anchor>a65a1dfc9f24c0d2e21e9cfcdf3565ee5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const double</type>
+      <name>kMaxStepSize</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_initial_value_problem.html</anchorfile>
+      <anchor>a3ca174f651b0bd1cabc94d7245114aba</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::drake::systems::InputPort</name>
     <filename>classmaliput_1_1drake_1_1systems_1_1_input_port.html</filename>
     <templarg></templarg>
@@ -19473,6 +21763,848 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>IntegratorBase&lt; double &gt;</name>
+    <filename>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</filename>
+    <member kind="enumeration">
+      <type></type>
+      <name>StepResult</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a95ae527571e3f25c4415b93d12cb0ad9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>kReachedPublishTime</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a95ae527571e3f25c4415b93d12cb0ad9a1eb5c205e3572ba9946f3c86f093c845</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>kReachedZeroCrossing</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a95ae527571e3f25c4415b93d12cb0ad9a1d1f7136371fa0489571cddeb08084e8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>kReachedUpdateTime</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a95ae527571e3f25c4415b93d12cb0ad9a804060ac669eb47e5d384d3800e59d9c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>kTimeHasAdvanced</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a95ae527571e3f25c4415b93d12cb0ad9a8d552f806d347dcd4031fbce86195737</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>kReachedBoundaryTime</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a95ae527571e3f25c4415b93d12cb0ad9ab50d451e0bcc5385a4bdfd6b3bf5482c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="enumvalue">
+      <name>kReachedStepLimit</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a95ae527571e3f25c4415b93d12cb0ad9a7ea4dacf674c208f87e90fa976d0829f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>IntegratorBase</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a447030379c5091a36af0c158a0945c6e</anchor>
+      <arglist>(const System&lt; double &gt; &amp;system, Context&lt; double &gt; *context=nullptr)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~IntegratorBase</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>af88b1b96e061ad4e07a71561bf95fad4</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_target_accuracy</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a6dbb07017a30541d06b2b597d1e4f30f</anchor>
+      <arglist>(double accuracy)</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>get_target_accuracy</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a630ba1d30cec20bb83e5a678945ffaa2</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>get_accuracy_in_use</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a4ecfd0a8cbb76b7f43921e284b2a6980</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual bool</type>
+      <name>supports_error_estimation</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a5fa66573f5abb1dc153098d2920c32b7</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual int</type>
+      <name>get_error_estimate_order</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>ab09a2cc2db0a776ca7bb11c8d8fe4831</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+    <member kind="function">
+      <type>const ContinuousState&lt; double &gt; *</type>
+      <name>get_error_estimate</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a91c0da3a86a705e44833ec423e513971</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>get_ideal_next_step_size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>aa06585bb16e4b92bb3c8f3c005fb6071</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_fixed_step_mode</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a53f8dced020f4fa9c3ccfc2eb6982a86</anchor>
+      <arglist>(bool flag)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>get_fixed_step_mode</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>ae35b01e013bbfa64d9cdccfa01f034fe</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Eigen::VectorXd &amp;</type>
+      <name>get_generalized_state_weight_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a1286e54624e71a19fa28e3564d2d9c75</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>Eigen::VectorBlock&lt; Eigen::VectorXd &gt;</type>
+      <name>get_mutable_generalized_state_weight_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a1a94ee74ec3449ce6a3e4601d7459e4e</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>const Eigen::VectorXd &amp;</type>
+      <name>get_misc_state_weight_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>ac3ccdda880715d682c035e1264441303</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>Eigen::VectorBlock&lt; Eigen::VectorXd &gt;</type>
+      <name>get_mutable_misc_state_weight_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a80ee60f8a8a649e684340a9d19133098</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>request_initial_step_size_target</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>aaa818a52a133131208f51b1c0a3a906c</anchor>
+      <arglist>(const double &amp;step_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>get_initial_step_size_target</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>ac19919024e6d4d17453e610f57e53eba</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_maximum_step_size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>ae878ce4cdab7a01165423d8a902df452</anchor>
+      <arglist>(const double &amp;max_step_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>get_maximum_step_size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a0dafbc057f2a5a4828813e7ea5e3f99e</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>get_stretch_factor</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>ab693dd7dd1da02154fc0f0ff6ef20692</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_requested_minimum_step_size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a0f186af10e0fc1fc8f32fafa4fed7ba7</anchor>
+      <arglist>(const double &amp;min_step_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>get_requested_minimum_step_size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a59add268d553fd546ffb04eca70b693b</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_throw_on_minimum_step_size_violation</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a78773e63a07381351e18380040f5fc13</anchor>
+      <arglist>(bool throws)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>get_throw_on_minimum_step_size_violation</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a5b89a6384ec3f94a33c8fd2f4c384369</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>get_working_minimum_step_size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a47399e48a6a661ce1b8252d86a305b54</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>Reset</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a372de693ad40b3f42839c8ec6ac845f4</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>Initialize</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a98b1050f09da390896f964fb7a892391</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>StepResult</type>
+      <name>IntegrateNoFurtherThanTime</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a454bf331ab3d5134a0e119ccc8f0e5ce</anchor>
+      <arglist>(const double &amp;publish_time, const double &amp;update_time, const double &amp;boundary_time)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>IntegrateWithMultipleStepsToTime</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>acb2ebec0fff763d592464afb49bffe13</anchor>
+      <arglist>(const double &amp;t_final)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>IntegrateWithSingleFixedStepToTime</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a33ee182a7a34894a888a3bcd3dfd5674</anchor>
+      <arglist>(const double &amp;t_target)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>ResetStatistics</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a64a01ac56f8a0086cc6ed335ee9e5caa</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>int64_t</type>
+      <name>get_num_substep_failures</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>afa1597c69b7f633624a3693142ad3f04</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int64_t</type>
+      <name>get_num_step_shrinkages_from_substep_failures</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a64333e8ed51bb6a29af25c2c4da153aa</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int64_t</type>
+      <name>get_num_step_shrinkages_from_error_control</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a2b588edb71f956edad8a88d5c8b86479</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int64_t</type>
+      <name>get_num_derivative_evaluations</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>ac3152b858f89491817273d05fa518289</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>get_actual_initial_step_size_taken</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a0ada2c620af585fefd269bbf0a7ff1e9</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>get_smallest_adapted_step_size_taken</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a245008509fc19d0282b2dfe9171740f1</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>get_largest_step_size_taken</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a4d2e467101cf8c82f53ee1688227cf16</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int64_t</type>
+      <name>get_num_steps_taken</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a215741958afe19af17a62470f883878b</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>add_derivative_evaluations</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a644f18faa19a24bd106100bd575e1934</anchor>
+      <arglist>(double evals)</arglist>
+    </member>
+    <member kind="function">
+      <type>const Context&lt; double &gt; &amp;</type>
+      <name>get_context</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a0ca73e48fb4c24fcf1893459f57eb86a</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>Context&lt; double &gt; *</type>
+      <name>get_mutable_context</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a2d03f8fbbd6a4bce39d8fed752a5d446</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>reset_context</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>ae9ec42d998ad39014c3dc64c50cfbc4d</anchor>
+      <arglist>(Context&lt; double &gt; *context)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>StartDenseIntegration</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a0cdd4796b7f98a09da058b9764f13b86</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>const trajectories::PiecewisePolynomial&lt; double &gt; *</type>
+      <name>get_dense_output</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a3c547286e5a0cbdbc3684b590638361d</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; trajectories::PiecewisePolynomial&lt; double &gt; &gt;</type>
+      <name>StopDenseIntegration</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>af5801cb8f02c7ae4aaffff94972ad324</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>const System&lt; double &gt; &amp;</type>
+      <name>get_system</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a5c403016877fd5f6291208aeb9a8063c</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>is_initialized</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a7a2108348656c73efe1d72702c96d5c5</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>get_previous_integration_step_size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a9442cfd0320da3227579970a3ea0b506</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoResetStatistics</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>ac5f5259be2ac9352879b53f559cbd567</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>const ContinuousState&lt; double &gt; &amp;</type>
+      <name>EvalTimeDerivatives</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a7eb69a2e22eecf59ffc281d1075710b7</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>const ContinuousState&lt; U &gt; &amp;</type>
+      <name>EvalTimeDerivatives</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>ac1c7b89b9ff697cfe9b208a56c98abb1</anchor>
+      <arglist>(const System&lt; U &gt; &amp;system, const Context&lt; U &gt; &amp;context)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>set_accuracy_in_use</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a5296d2467ea109300a687233eb159a46</anchor>
+      <arglist>(double accuracy)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>bool</type>
+      <name>StepOnceErrorControlledAtMost</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a818099c976f6b62d04c9c5d525556a9d</anchor>
+      <arglist>(const double &amp;h_max)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>double</type>
+      <name>CalcStateChangeNorm</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a251c75be3ec4f5b14aeaf5ca2467416f</anchor>
+      <arglist>(const ContinuousState&lt; double &gt; &amp;dx_state) const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>std::pair&lt; bool, double &gt;</type>
+      <name>CalcAdjustedStepSize</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a673eb33420503190006ca91d01ec779e</anchor>
+      <arglist>(const double &amp;err, const double &amp;attempted_step_size, bool *at_minimum_step_size) const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoInitialize</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>ae1949ad54a9dc1dc95f632a066aa12e6</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoReset</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a22d9215849b8b5dfbdfce1cf00ce3221</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>trajectories::PiecewisePolynomial&lt; double &gt; *</type>
+      <name>get_mutable_dense_output</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a4bd52deed03b4782ed01dd96f8acca6c</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual bool</type>
+      <name>DoStep</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a896ef63038c6eb979ed9b5e3fbc4a16f</anchor>
+      <arglist>(const double &amp;h)=0</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>bool</type>
+      <name>DoDenseStep</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>ad197f82788b0f33f15e71ec5a261be99</anchor>
+      <arglist>(const double &amp;h)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>ContinuousState&lt; double &gt; *</type>
+      <name>get_mutable_error_estimate</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a95119340ec2f55ffe46e52252ef45855</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>set_actual_initial_step_size_taken</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>afa5f6af023ede03e36fd44a079f7440d</anchor>
+      <arglist>(const double &amp;h)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>set_smallest_adapted_step_size_taken</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a2cd5795eec65555263f9b804260b6dcd</anchor>
+      <arglist>(const double &amp;h)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>set_largest_step_size_taken</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>ab0fd2440d87169f64766fee57612d577</anchor>
+      <arglist>(const double &amp;h)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>set_ideal_next_step_size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>ac04da433607f913e10ee9d485d675fb1</anchor>
+      <arglist>(const double &amp;h)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_target_accuracy</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a6dbb07017a30541d06b2b597d1e4f30f</anchor>
+      <arglist>(double accuracy)</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>get_target_accuracy</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a630ba1d30cec20bb83e5a678945ffaa2</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>get_accuracy_in_use</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a4ecfd0a8cbb76b7f43921e284b2a6980</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual bool</type>
+      <name>supports_error_estimation</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a5fa66573f5abb1dc153098d2920c32b7</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual int</type>
+      <name>get_error_estimate_order</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>ab09a2cc2db0a776ca7bb11c8d8fe4831</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+    <member kind="function">
+      <type>const ContinuousState&lt; double &gt; *</type>
+      <name>get_error_estimate</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a91c0da3a86a705e44833ec423e513971</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>get_ideal_next_step_size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>aa06585bb16e4b92bb3c8f3c005fb6071</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_fixed_step_mode</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a53f8dced020f4fa9c3ccfc2eb6982a86</anchor>
+      <arglist>(bool flag)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>get_fixed_step_mode</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>ae35b01e013bbfa64d9cdccfa01f034fe</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Eigen::VectorXd &amp;</type>
+      <name>get_generalized_state_weight_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a1286e54624e71a19fa28e3564d2d9c75</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>Eigen::VectorBlock&lt; Eigen::VectorXd &gt;</type>
+      <name>get_mutable_generalized_state_weight_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a1a94ee74ec3449ce6a3e4601d7459e4e</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>const Eigen::VectorXd &amp;</type>
+      <name>get_misc_state_weight_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>ac3ccdda880715d682c035e1264441303</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>Eigen::VectorBlock&lt; Eigen::VectorXd &gt;</type>
+      <name>get_mutable_misc_state_weight_vector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a80ee60f8a8a649e684340a9d19133098</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>request_initial_step_size_target</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>aaa818a52a133131208f51b1c0a3a906c</anchor>
+      <arglist>(const double &amp;step_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>get_initial_step_size_target</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>ac19919024e6d4d17453e610f57e53eba</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_maximum_step_size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>ae878ce4cdab7a01165423d8a902df452</anchor>
+      <arglist>(const double &amp;max_step_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>get_maximum_step_size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a0dafbc057f2a5a4828813e7ea5e3f99e</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>get_stretch_factor</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>ab693dd7dd1da02154fc0f0ff6ef20692</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_requested_minimum_step_size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a0f186af10e0fc1fc8f32fafa4fed7ba7</anchor>
+      <arglist>(const double &amp;min_step_size)</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>get_requested_minimum_step_size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a59add268d553fd546ffb04eca70b693b</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_throw_on_minimum_step_size_violation</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a78773e63a07381351e18380040f5fc13</anchor>
+      <arglist>(bool throws)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>get_throw_on_minimum_step_size_violation</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a5b89a6384ec3f94a33c8fd2f4c384369</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>get_working_minimum_step_size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a47399e48a6a661ce1b8252d86a305b54</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>Reset</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a372de693ad40b3f42839c8ec6ac845f4</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>Initialize</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a98b1050f09da390896f964fb7a892391</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>StepResult</type>
+      <name>IntegrateNoFurtherThanTime</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a454bf331ab3d5134a0e119ccc8f0e5ce</anchor>
+      <arglist>(const double &amp;publish_time, const double &amp;update_time, const double &amp;boundary_time)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>IntegrateWithMultipleStepsToTime</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>acb2ebec0fff763d592464afb49bffe13</anchor>
+      <arglist>(const double &amp;t_final)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>IntegrateWithSingleFixedStepToTime</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a33ee182a7a34894a888a3bcd3dfd5674</anchor>
+      <arglist>(const double &amp;t_target)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>ResetStatistics</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a64a01ac56f8a0086cc6ed335ee9e5caa</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>int64_t</type>
+      <name>get_num_substep_failures</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>afa1597c69b7f633624a3693142ad3f04</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int64_t</type>
+      <name>get_num_step_shrinkages_from_substep_failures</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a64333e8ed51bb6a29af25c2c4da153aa</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int64_t</type>
+      <name>get_num_step_shrinkages_from_error_control</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a2b588edb71f956edad8a88d5c8b86479</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int64_t</type>
+      <name>get_num_derivative_evaluations</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>ac3152b858f89491817273d05fa518289</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>get_actual_initial_step_size_taken</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a0ada2c620af585fefd269bbf0a7ff1e9</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>get_smallest_adapted_step_size_taken</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a245008509fc19d0282b2dfe9171740f1</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>get_largest_step_size_taken</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a4d2e467101cf8c82f53ee1688227cf16</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int64_t</type>
+      <name>get_num_steps_taken</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a215741958afe19af17a62470f883878b</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>add_derivative_evaluations</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a644f18faa19a24bd106100bd575e1934</anchor>
+      <arglist>(double evals)</arglist>
+    </member>
+    <member kind="function">
+      <type>const Context&lt; double &gt; &amp;</type>
+      <name>get_context</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a0ca73e48fb4c24fcf1893459f57eb86a</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>Context&lt; double &gt; *</type>
+      <name>get_mutable_context</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>a2d03f8fbbd6a4bce39d8fed752a5d446</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>reset_context</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_integrator_base.html</anchorfile>
+      <anchor>ae9ec42d998ad39014c3dc64c50cfbc4d</anchor>
+      <arglist>(Context&lt; double &gt; *context)</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput::drake::IntegratorConfiguration</name>
+    <filename>structmaliput_1_1drake_1_1_integrator_configuration.html</filename>
+    <member kind="variable">
+      <type>double</type>
+      <name>parameter_lower_bound</name>
+      <anchorfile>structmaliput_1_1drake_1_1_integrator_configuration.html</anchorfile>
+      <anchor>ab1648d97257179891e6a7b7c8ef3c485</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>image_lower_bound</name>
+      <anchorfile>structmaliput_1_1drake_1_1_integrator_configuration.html</anchorfile>
+      <anchor>ad65938ee77e9fcb5a78b5dd486653242</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>math::Vector2</type>
+      <name>k</name>
+      <anchorfile>structmaliput_1_1drake_1_1_integrator_configuration.html</anchorfile>
+      <anchor>ab5997144372b8808f3a8320a3e166a76</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>initial_step_size_target</name>
+      <anchorfile>structmaliput_1_1drake_1_1_integrator_configuration.html</anchorfile>
+      <anchor>a317a173057c5466b002e2df2ece727a8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>maximum_step_size</name>
+      <anchorfile>structmaliput_1_1drake_1_1_integrator_configuration.html</anchorfile>
+      <anchor>ac2f1ad1d7fe17e62c73bc85df7fcd00e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>target_accuracy</name>
+      <anchorfile>structmaliput_1_1drake_1_1_integrator_configuration.html</anchorfile>
+      <anchor>a1065b80911c2b9af8ec03d926ba8fff8</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::Intersection</name>
     <filename>classmaliput_1_1_intersection.html</filename>
     <base>maliput::api::Intersection</base>
@@ -19750,6 +22882,52 @@
       <arglist>(FNV1aHasher *)</arglist>
     </member>
   </compound>
+  <compound kind="class">
+    <name>maliput::drake::InverseArcLengthIntegrator</name>
+    <filename>classmaliput_1_1drake_1_1_inverse_arc_length_integrator.html</filename>
+    <member kind="typedef">
+      <type>std::function&lt; double(const double &amp;s, const double &amp;p, const math::Vector2 &amp;k)&gt;</type>
+      <name>ScalarOdeFunction</name>
+      <anchorfile>classmaliput_1_1drake_1_1_inverse_arc_length_integrator.html</anchorfile>
+      <anchor>a6ad9760e82b1c5c799d31287fd0da097</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1drake_1_1_inverse_arc_length_integrator.html</anchorfile>
+      <anchor>a9a7d8dd849a776fdc2d7b342c62de874</anchor>
+      <arglist>(InverseArcLengthIntegrator)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>InverseArcLengthIntegrator</name>
+      <anchorfile>classmaliput_1_1drake_1_1_inverse_arc_length_integrator.html</anchorfile>
+      <anchor>a1be1e8588b644fcbd39d84e450333224</anchor>
+      <arglist>(const ScalarOdeFunction &amp;function, const IntegratorConfiguration &amp;config)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~InverseArcLengthIntegrator</name>
+      <anchorfile>classmaliput_1_1drake_1_1_inverse_arc_length_integrator.html</anchorfile>
+      <anchor>a045e22cdefac6e0c396ccefc56d1acf1</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>Evaluate</name>
+      <anchorfile>classmaliput_1_1drake_1_1_inverse_arc_length_integrator.html</anchorfile>
+      <anchor>a241dc46341299458b4069a3ca67f5b96</anchor>
+      <arglist>(double s, const math::Vector2 &amp;k) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::function&lt; double(double)&gt;</type>
+      <name>InverseFunction</name>
+      <anchorfile>classmaliput_1_1drake_1_1_inverse_arc_length_integrator.html</anchorfile>
+      <anchor>a58ec7bb53f16ba961d0c5359a23bddec</anchor>
+      <arglist>(double s0, double s1, const math::Vector2 &amp;k, double tolerance, double epsilon=0.0) const</arglist>
+    </member>
+  </compound>
   <compound kind="struct">
     <name>maliput::drake::is_eigen_nonvector_of</name>
     <filename>structmaliput_1_1drake_1_1is__eigen__nonvector__of.html</filename>
@@ -19818,6 +22996,46 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::geometry_base::Junction</name>
+    <filename>classmaliput_1_1geometry__base_1_1_junction.html</filename>
+    <base>maliput::api::Junction</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
+      <anchor>afaf6c0ab8777693eaf810ec9f9850fb7</anchor>
+      <arglist>(Junction)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Junction</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
+      <anchor>aacb3cda5e3884118837090ff47e7bf5e</anchor>
+      <arglist>(const api::JunctionId &amp;id)</arglist>
+    </member>
+    <member kind="function">
+      <type>T *</type>
+      <name>AddSegment</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
+      <anchor>ac3f4ccab5e6fddc051fbfb87cae3bcb0</anchor>
+      <arglist>(std::unique_ptr&lt; T &gt; segment)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~Junction</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
+      <anchor>a74b00113cc0a0e9c085c7744177fc623</anchor>
+      <arglist>() override=default</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AttachToRoadGeometry</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
+      <anchor>abb4fb610362528afc7a6c771d6bb361f</anchor>
+      <arglist>(common::Passkey&lt; RoadGeometry &gt;, const api::RoadGeometry *road_geometry, const std::function&lt; void(const api::Segment *)&gt; &amp;segment_indexing_callback, const std::function&lt; void(const api::Lane *)&gt; &amp;lane_indexing_callback)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::api::Junction</name>
     <filename>classmaliput_1_1api_1_1_junction.html</filename>
     <member kind="function" virtualness="virtual">
@@ -19861,46 +23079,6 @@
       <anchorfile>classmaliput_1_1api_1_1_junction.html</anchorfile>
       <anchor>acaad14416565fb4fe2f822422f9ee231</anchor>
       <arglist>()=default</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::geometry_base::Junction</name>
-    <filename>classmaliput_1_1geometry__base_1_1_junction.html</filename>
-    <base>maliput::api::Junction</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
-      <anchor>afaf6c0ab8777693eaf810ec9f9850fb7</anchor>
-      <arglist>(Junction)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>Junction</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
-      <anchor>aacb3cda5e3884118837090ff47e7bf5e</anchor>
-      <arglist>(const api::JunctionId &amp;id)</arglist>
-    </member>
-    <member kind="function">
-      <type>T *</type>
-      <name>AddSegment</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
-      <anchor>ac3f4ccab5e6fddc051fbfb87cae3bcb0</anchor>
-      <arglist>(std::unique_ptr&lt; T &gt; segment)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~Junction</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
-      <anchor>a74b00113cc0a0e9c085c7744177fc623</anchor>
-      <arglist>() override=default</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AttachToRoadGeometry</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
-      <anchor>abb4fb610362528afc7a6c771d6bb361f</anchor>
-      <arglist>(common::Passkey&lt; RoadGeometry &gt;, const api::RoadGeometry *road_geometry, const std::function&lt; void(const api::Segment *)&gt; &amp;segment_indexing_callback, const std::function&lt; void(const api::Lane *)&gt; &amp;lane_indexing_callback)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -20248,6 +23426,67 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::geometry_base::Lane</name>
+    <filename>classmaliput_1_1geometry__base_1_1_lane.html</filename>
+    <base>maliput::api::Lane</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
+      <anchor>a99b7649e8342fe7c216553e0a8476d77</anchor>
+      <arglist>(Lane)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Lane</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
+      <anchor>a1aad8d7166ca6dc56865ee932ebcfee6</anchor>
+      <arglist>(const api::LaneId &amp;id)</arglist>
+    </member>
+    <member kind="function">
+      <type>BranchPoint *</type>
+      <name>mutable_start_branch_point</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
+      <anchor>a31184adf29283175d1a907f4a67269cb</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>BranchPoint *</type>
+      <name>mutable_finish_branch_point</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
+      <anchor>a44b25a4e31d8cd8dcd48bf1ab1c49364</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AttachToSegment</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
+      <anchor>a641be6120d87c39a1713d8d2a2f7cdf0</anchor>
+      <arglist>(common::Passkey&lt; Segment &gt;, const api::Segment *segment, int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetStartBranchPoint</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
+      <anchor>a6d68eac612ca85e7bdf7c1068778ee92</anchor>
+      <arglist>(common::Passkey&lt; BranchPoint &gt;, BranchPoint *branch_point)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetFinishBranchPoint</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
+      <anchor>a2959547e5d8983e00e1b88ff19aa2ec1</anchor>
+      <arglist>(common::Passkey&lt; BranchPoint &gt;, BranchPoint *branch_point)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~Lane</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
+      <anchor>a0f0303065df0aa69138d691204a97f90</anchor>
+      <arglist>() override=default</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::api::Lane</name>
     <filename>classmaliput_1_1api_1_1_lane.html</filename>
     <member kind="function" virtualness="virtual">
@@ -20398,67 +23637,6 @@
       <arglist>()=default</arglist>
     </member>
   </compound>
-  <compound kind="class">
-    <name>maliput::geometry_base::Lane</name>
-    <filename>classmaliput_1_1geometry__base_1_1_lane.html</filename>
-    <base>maliput::api::Lane</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
-      <anchor>a99b7649e8342fe7c216553e0a8476d77</anchor>
-      <arglist>(Lane)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>Lane</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
-      <anchor>a1aad8d7166ca6dc56865ee932ebcfee6</anchor>
-      <arglist>(const api::LaneId &amp;id)</arglist>
-    </member>
-    <member kind="function">
-      <type>BranchPoint *</type>
-      <name>mutable_start_branch_point</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
-      <anchor>a31184adf29283175d1a907f4a67269cb</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>BranchPoint *</type>
-      <name>mutable_finish_branch_point</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
-      <anchor>a44b25a4e31d8cd8dcd48bf1ab1c49364</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AttachToSegment</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
-      <anchor>a641be6120d87c39a1713d8d2a2f7cdf0</anchor>
-      <arglist>(common::Passkey&lt; Segment &gt;, const api::Segment *segment, int index)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>SetStartBranchPoint</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
-      <anchor>a6d68eac612ca85e7bdf7c1068778ee92</anchor>
-      <arglist>(common::Passkey&lt; BranchPoint &gt;, BranchPoint *branch_point)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>SetFinishBranchPoint</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
-      <anchor>a2959547e5d8983e00e1b88ff19aa2ec1</anchor>
-      <arglist>(common::Passkey&lt; BranchPoint &gt;, BranchPoint *branch_point)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~Lane</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
-      <anchor>a0f0303065df0aa69138d691204a97f90</anchor>
-      <arglist>() override=default</arglist>
-    </member>
-  </compound>
   <compound kind="struct">
     <name>maliput::api::LaneEnd</name>
     <filename>structmaliput_1_1api_1_1_lane_end.html</filename>
@@ -20524,38 +23702,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::api::LaneEndSet</name>
-    <filename>classmaliput_1_1api_1_1_lane_end_set.html</filename>
-    <member kind="function" virtualness="virtual">
-      <type>virtual</type>
-      <name>~LaneEndSet</name>
-      <anchorfile>classmaliput_1_1api_1_1_lane_end_set.html</anchorfile>
-      <anchor>a46fc620a2191a9f54fe174ce817ff881</anchor>
-      <arglist>()=default</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>size</name>
-      <anchorfile>classmaliput_1_1api_1_1_lane_end_set.html</anchorfile>
-      <anchor>af9593d4a5ff4274efaf429cb4f9e57cc</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>const LaneEnd &amp;</type>
-      <name>get</name>
-      <anchorfile>classmaliput_1_1api_1_1_lane_end_set.html</anchorfile>
-      <anchor>a5ec189215248174c2f97eab42f685796</anchor>
-      <arglist>(int index) const</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type></type>
-      <name>LaneEndSet</name>
-      <anchorfile>classmaliput_1_1api_1_1_lane_end_set.html</anchorfile>
-      <anchor>ad30d4a5fc72d62e1309a5f24c63e799a</anchor>
-      <arglist>()=default</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>maliput::geometry_base::LaneEndSet</name>
     <filename>classmaliput_1_1geometry__base_1_1_lane_end_set.html</filename>
     <base>maliput::api::LaneEndSet</base>
@@ -20586,6 +23732,38 @@
       <anchorfile>classmaliput_1_1geometry__base_1_1_lane_end_set.html</anchorfile>
       <anchor>a3eea0aa0c1e1e523c3d1b42d1e56b44b</anchor>
       <arglist>() override=default</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::api::LaneEndSet</name>
+    <filename>classmaliput_1_1api_1_1_lane_end_set.html</filename>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~LaneEndSet</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane_end_set.html</anchorfile>
+      <anchor>a46fc620a2191a9f54fe174ce817ff881</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>size</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane_end_set.html</anchorfile>
+      <anchor>af9593d4a5ff4274efaf429cb4f9e57cc</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const LaneEnd &amp;</type>
+      <name>get</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane_end_set.html</anchorfile>
+      <anchor>a5ec189215248174c2f97eab42f685796</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>LaneEndSet</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane_end_set.html</anchorfile>
+      <anchor>ad30d4a5fc72d62e1309a5f24c63e799a</anchor>
+      <arglist>()=default</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -23074,25 +26252,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::geometry_base::test::MockRoadGeometry</name>
-    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</filename>
-    <base>maliput::geometry_base::RoadGeometry</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</anchorfile>
-      <anchor>a630175fce2ba52f711f6ddd5f90fa0b2</anchor>
-      <arglist>(MockRoadGeometry)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MockRoadGeometry</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</anchorfile>
-      <anchor>a9a058c56a78887a7f2bb09b6db059369</anchor>
-      <arglist>(const api::RoadGeometryId &amp;id, double linear_tolerance, double angular_tolerance, double scale_length, const math::Vector3 &amp;inertial_to_backend_frame_translation)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>maliput::api::test::MockRoadGeometry</name>
     <filename>classmaliput_1_1api_1_1test_1_1_mock_road_geometry.html</filename>
     <base>maliput::api::RoadGeometry</base>
@@ -23151,6 +26310,25 @@
       <anchorfile>classmaliput_1_1api_1_1test_1_1_mock_road_geometry.html</anchorfile>
       <anchor>a6beb8686ee08aa396826e1bee33e0d70</anchor>
       <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::geometry_base::test::MockRoadGeometry</name>
+    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</filename>
+    <base>maliput::geometry_base::RoadGeometry</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</anchorfile>
+      <anchor>a630175fce2ba52f711f6ddd5f90fa0b2</anchor>
+      <arglist>(MockRoadGeometry)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MockRoadGeometry</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html</anchorfile>
+      <anchor>a9a058c56a78887a7f2bb09b6db059369</anchor>
+      <arglist>(const api::RoadGeometryId &amp;id, double linear_tolerance, double angular_tolerance, double scale_length, const math::Vector3 &amp;inertial_to_backend_frame_translation)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -24234,6 +27412,171 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>Parameters&lt; double &gt;</name>
+    <filename>classmaliput_1_1drake_1_1systems_1_1_parameters.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>Parameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>a061bbedbf4fbd963871a388f5e8ebb61</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Parameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>a0f869921ebcf1bdcb7169bd99deae04c</anchor>
+      <arglist>(std::vector&lt; std::unique_ptr&lt; BasicVector&lt; double &gt;&gt;&gt; &amp;&amp;numeric, std::vector&lt; std::unique_ptr&lt; AbstractValue &gt;&gt; &amp;&amp;abstract)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Parameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>a0aef53111700ad4beb2bbcf1febc570a</anchor>
+      <arglist>(std::vector&lt; std::unique_ptr&lt; BasicVector&lt; double &gt;&gt;&gt; &amp;&amp;numeric)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Parameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>abf077f669abb1db1af1d4fb97578b428</anchor>
+      <arglist>(std::vector&lt; std::unique_ptr&lt; AbstractValue &gt;&gt; &amp;&amp;abstract)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Parameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>ac8a4cb36781e0348e23ba4775d510a34</anchor>
+      <arglist>(std::unique_ptr&lt; BasicVector&lt; double &gt;&gt; vec)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Parameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>aee608e5f1010dac893bc59a1eea45b75</anchor>
+      <arglist>(std::unique_ptr&lt; AbstractValue &gt; value)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~Parameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>af9a0e10c79d830769cf1231999f59df0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_numeric_parameter_groups</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>aff6508ca0ff8f5e886e63fb9c830e36a</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_abstract_parameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>a0232523ac7f8337a392b321ffd282187</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const BasicVector&lt; double &gt; &amp;</type>
+      <name>get_numeric_parameter</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>a1882d7ad5c503e04bd2aab9de4d196e3</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>BasicVector&lt; double &gt; &amp;</type>
+      <name>get_mutable_numeric_parameter</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>acaf28140c1221d5a0a6e3bbd44b62787</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>const DiscreteValues&lt; double &gt; &amp;</type>
+      <name>get_numeric_parameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>a93b9608b1b54533ea48f96f50af98969</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_numeric_parameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>ae647e3639684ddfb3492e5d8c7cb009e</anchor>
+      <arglist>(std::unique_ptr&lt; DiscreteValues&lt; double &gt;&gt; numeric_params)</arglist>
+    </member>
+    <member kind="function">
+      <type>const AbstractValue &amp;</type>
+      <name>get_abstract_parameter</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>afbcc55465229ce053092fb250908c0e0</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const V &amp;</type>
+      <name>get_abstract_parameter</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>ae1ce888b0dc7484007362c8462822909</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>AbstractValue &amp;</type>
+      <name>get_mutable_abstract_parameter</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>aa82761db1d11f414fcd44e529eefd736</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>V &amp;</type>
+      <name>get_mutable_abstract_parameter</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>aefa6b590138fb81f0d5ed66c7cf1ae95</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>const AbstractValues &amp;</type>
+      <name>get_abstract_parameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>a393cd9fac1a86715537ce5bc3d00d95f</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_abstract_parameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>af307c1548f6335a967ff1828af6b5f05</anchor>
+      <arglist>(std::unique_ptr&lt; AbstractValues &gt; abstract_params)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; Parameters&lt; double &gt; &gt;</type>
+      <name>Clone</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>ae99dbe4930cb71a5cf842f03ecfc00b2</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetFrom</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>a071f6f8fa672e8180460bf636d7e2a10</anchor>
+      <arglist>(const Parameters&lt; U &gt; &amp;other)</arglist>
+    </member>
+    <member kind="function">
+      <type>internal::SystemId</type>
+      <name>get_system_id</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>a1b3f9382208d13e11984a54afa711577</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_system_id</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_parameters.html</anchorfile>
+      <anchor>a3965cbaa8df39799338ac0838f8306a7</anchor>
+      <arglist>(internal::SystemId id)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::common::Passkey</name>
     <filename>classmaliput_1_1common_1_1_passkey.html</filename>
     <templarg></templarg>
@@ -24371,59 +27714,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::api::rules::Phase</name>
-    <filename>classmaliput_1_1api_1_1rules_1_1_phase.html</filename>
-    <member kind="typedef">
-      <type>TypeSpecificIdentifier&lt; Phase &gt;</type>
-      <name>Id</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_phase.html</anchorfile>
-      <anchor>a28884c4f9c4ef1b0eef097e0144d53f3</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_phase.html</anchorfile>
-      <anchor>a2169556a6fa6eb4b471e4dff30d1b2b8</anchor>
-      <arglist>(Phase)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>Phase</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_phase.html</anchorfile>
-      <anchor>acfe980c69a18093d583084dd7bf3d245</anchor>
-      <arglist>(const Id &amp;id, const RuleStates &amp;rule_states, const DiscreteValueRuleStates &amp;discrete_value_rule_states, std::optional&lt; BulbStates &gt; bulb_states=std::nullopt)</arglist>
-    </member>
-    <member kind="function">
-      <type>const Id &amp;</type>
-      <name>id</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_phase.html</anchorfile>
-      <anchor>a3e9b36985fa40131c908fffb29f45c75</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>const RuleStates &amp;</type>
-      <name>rule_states</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_phase.html</anchorfile>
-      <anchor>a3060071c9ab5a7ee795c8265b3995d07</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>const DiscreteValueRuleStates &amp;</type>
-      <name>discrete_value_rule_states</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_phase.html</anchorfile>
-      <anchor>a19ef473ac8d7c8c07173f5a6d49189b2</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>const std::optional&lt; BulbStates &gt; &amp;</type>
-      <name>bulb_states</name>
-      <anchorfile>classmaliput_1_1api_1_1rules_1_1_phase.html</anchorfile>
-      <anchor>af0069101d3faeadec6ee406dfb87e069</anchor>
-      <arglist>() const</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>maliput::routing::Phase</name>
     <filename>classmaliput_1_1routing_1_1_phase.html</filename>
     <member kind="function">
@@ -24495,6 +27785,59 @@
       <anchorfile>classmaliput_1_1routing_1_1_phase.html</anchorfile>
       <anchor>a765ae934c9763d73fc6e7e049c2d3f52</anchor>
       <arglist>(const api::RoadPosition &amp;road_position) const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::api::rules::Phase</name>
+    <filename>classmaliput_1_1api_1_1rules_1_1_phase.html</filename>
+    <member kind="typedef">
+      <type>TypeSpecificIdentifier&lt; Phase &gt;</type>
+      <name>Id</name>
+      <anchorfile>classmaliput_1_1api_1_1rules_1_1_phase.html</anchorfile>
+      <anchor>a28884c4f9c4ef1b0eef097e0144d53f3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</name>
+      <anchorfile>classmaliput_1_1api_1_1rules_1_1_phase.html</anchorfile>
+      <anchor>a2169556a6fa6eb4b471e4dff30d1b2b8</anchor>
+      <arglist>(Phase)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Phase</name>
+      <anchorfile>classmaliput_1_1api_1_1rules_1_1_phase.html</anchorfile>
+      <anchor>acfe980c69a18093d583084dd7bf3d245</anchor>
+      <arglist>(const Id &amp;id, const RuleStates &amp;rule_states, const DiscreteValueRuleStates &amp;discrete_value_rule_states, std::optional&lt; BulbStates &gt; bulb_states=std::nullopt)</arglist>
+    </member>
+    <member kind="function">
+      <type>const Id &amp;</type>
+      <name>id</name>
+      <anchorfile>classmaliput_1_1api_1_1rules_1_1_phase.html</anchorfile>
+      <anchor>a3e9b36985fa40131c908fffb29f45c75</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const RuleStates &amp;</type>
+      <name>rule_states</name>
+      <anchorfile>classmaliput_1_1api_1_1rules_1_1_phase.html</anchorfile>
+      <anchor>a3060071c9ab5a7ee795c8265b3995d07</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const DiscreteValueRuleStates &amp;</type>
+      <name>discrete_value_rule_states</name>
+      <anchorfile>classmaliput_1_1api_1_1rules_1_1_phase.html</anchorfile>
+      <anchor>a19ef473ac8d7c8c07173f5a6d49189b2</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::optional&lt; BulbStates &gt; &amp;</type>
+      <name>bulb_states</name>
+      <anchorfile>classmaliput_1_1api_1_1rules_1_1_phase.html</anchorfile>
+      <anchor>af0069101d3faeadec6ee406dfb87e069</anchor>
+      <arglist>() const</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -29183,6 +32526,66 @@
       <arglist>()</arglist>
     </member>
   </compound>
+  <compound kind="class">
+    <name>ScalarInitialValueProblem&lt; double &gt;</name>
+    <filename>classmaliput_1_1drake_1_1systems_1_1_scalar_initial_value_problem.html</filename>
+    <member kind="typedef">
+      <type>std::function&lt; double(const double &amp;t, const double &amp;x, const VectorX&lt; double &gt; &amp;k)&gt;</type>
+      <name>ScalarOdeFunction</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_scalar_initial_value_problem.html</anchorfile>
+      <anchor>a677a34d51ed872e958deb90ce676eec5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>DRAKE_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_scalar_initial_value_problem.html</anchorfile>
+      <anchor>a874f2676e2aca2fb0f3d93b589e421dd</anchor>
+      <arglist>(ScalarInitialValueProblem)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>ScalarInitialValueProblem</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_scalar_initial_value_problem.html</anchorfile>
+      <anchor>ac7affee024d4f08300eda60f2a60f0d2</anchor>
+      <arglist>(const ScalarOdeFunction &amp;scalar_ode_function, const ScalarOdeContext &amp;default_values)</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>Solve</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_scalar_initial_value_problem.html</anchorfile>
+      <anchor>a96bb7ace98119838841607ca5d803730</anchor>
+      <arglist>(const double &amp;tf, const ScalarOdeContext &amp;values={}) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; ScalarDenseOutput&lt; double &gt; &gt;</type>
+      <name>DenseSolve</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_scalar_initial_value_problem.html</anchorfile>
+      <anchor>a072b01e07598a528f9ad9ec7d4daeebf</anchor>
+      <arglist>(const double &amp;tf, const ScalarOdeContext &amp;values={}) const</arglist>
+    </member>
+    <member kind="function">
+      <type>Integrator *</type>
+      <name>reset_integrator</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_scalar_initial_value_problem.html</anchorfile>
+      <anchor>aaf92f89ed3fb6ea7acde795d33645a3c</anchor>
+      <arglist>(Args &amp;&amp;... args)</arglist>
+    </member>
+    <member kind="function">
+      <type>const IntegratorBase&lt; double &gt; &amp;</type>
+      <name>get_integrator</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_scalar_initial_value_problem.html</anchorfile>
+      <anchor>adbc3bf152afe75736c6b8b3ecf8cd65e</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>IntegratorBase&lt; double &gt; &amp;</type>
+      <name>get_mutable_integrator</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_scalar_initial_value_problem.html</anchorfile>
+      <anchor>af7c4ee8378a24e575a176dfb7d308ae9</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
   <compound kind="struct">
     <name>maliput::drake::systems::ScalarInitialValueProblem::ScalarOdeContext</name>
     <filename>structmaliput_1_1drake_1_1systems_1_1_scalar_initial_value_problem_1_1_scalar_ode_context.html</filename>
@@ -29694,94 +33097,6 @@
       <arglist>(const api::Lane *lane) const</arglist>
     </member>
   </compound>
-  <compound kind="struct">
-    <name>maliput::api::rules::Rule::State</name>
-    <filename>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a8099d9c527beab7a18bdcf3c3ef34eb1</anchor>
-      <arglist>(State)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>State</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a7662f55909d581100da5f988e7ea2456</anchor>
-      <arglist>()=default</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>State</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>aab4deb190b9e4be395e15fb3010ba37e</anchor>
-      <arglist>(int severity, RelatedRules related_rules, RelatedUniqueIds related_unique_ids)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a43ebf34661d7d17c4e53b5ccce1ffa73</anchor>
-      <arglist>(const State &amp;other) const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator!=</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a6320a38f2831ff6cf9e1fae30ffffafb</anchor>
-      <arglist>(const State &amp;other) const</arglist>
-    </member>
-    <member kind="variable">
-      <type>int</type>
-      <name>severity</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a118a118c0d99574666955efdf97068b0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>RelatedRules</type>
-      <name>related_rules</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a8d16d861c6500bfa36e16435c7e0c51f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>RelatedUniqueIds</type>
-      <name>related_unique_ids</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a3225914ff640ebeb69cb7e57ed7fb2c4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr int</type>
-      <name>kStrict</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>ae723a76a2f38404bb7341f2c1ffd890a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr int</type>
-      <name>kBestEffort</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a7f1130b023df6bd64569f4bd8af34f5d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr int</type>
-      <name>kStrict</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>ae723a76a2f38404bb7341f2c1ffd890a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr int</type>
-      <name>kBestEffort</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a7f1130b023df6bd64569f4bd8af34f5d</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
   <compound kind="class">
     <name>maliput::drake::systems::State</name>
     <filename>classmaliput_1_1drake_1_1systems_1_1_state.html</filename>
@@ -29911,6 +33226,94 @@
       <anchorfile>classmaliput_1_1drake_1_1systems_1_1_state.html</anchorfile>
       <anchor>a3965cbaa8df39799338ac0838f8306a7</anchor>
       <arglist>(internal::SystemId id)</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput::api::rules::Rule::State</name>
+    <filename>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a8099d9c527beab7a18bdcf3c3ef34eb1</anchor>
+      <arglist>(State)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>State</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a7662f55909d581100da5f988e7ea2456</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>State</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>aab4deb190b9e4be395e15fb3010ba37e</anchor>
+      <arglist>(int severity, RelatedRules related_rules, RelatedUniqueIds related_unique_ids)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a43ebf34661d7d17c4e53b5ccce1ffa73</anchor>
+      <arglist>(const State &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a6320a38f2831ff6cf9e1fae30ffffafb</anchor>
+      <arglist>(const State &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>int</type>
+      <name>severity</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a118a118c0d99574666955efdf97068b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>RelatedRules</type>
+      <name>related_rules</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a8d16d861c6500bfa36e16435c7e0c51f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>RelatedUniqueIds</type>
+      <name>related_unique_ids</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a3225914ff640ebeb69cb7e57ed7fb2c4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr int</type>
+      <name>kStrict</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>ae723a76a2f38404bb7341f2c1ffd890a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr int</type>
+      <name>kBestEffort</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a7f1130b023df6bd64569f4bd8af34f5d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr int</type>
+      <name>kStrict</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>ae723a76a2f38404bb7341f2c1ffd890a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr int</type>
+      <name>kBestEffort</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a7f1130b023df6bd64569f4bd8af34f5d</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -31912,6 +35315,1879 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>System&lt; double &gt;</name>
+    <filename>classmaliput_1_1drake_1_1systems_1_1_system.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>~System</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>abfc527f890d8846b751645ab81a67bb1</anchor>
+      <arglist>() override</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>Accept</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ac204d99f901bdec9ffb0a12e7fe2973a</anchor>
+      <arglist>(SystemVisitor&lt; double &gt; *v) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; Context&lt; double &gt; &gt;</type>
+      <name>AllocateContext</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a78fda6d982dc968061c5d92e32173629</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; CompositeEventCollection&lt; double &gt; &gt;</type>
+      <name>AllocateCompositeEventCollection</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a6cc7dd6cf032c4b3137de55349d8e99b</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; BasicVector&lt; double &gt; &gt;</type>
+      <name>AllocateInputVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ab7ce7f3c3ed819de001d4ab977ee65bf</anchor>
+      <arglist>(const InputPort&lt; double &gt; &amp;input_port) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; AbstractValue &gt;</type>
+      <name>AllocateInputAbstract</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a69db7d7d92345c74487bc38c5d136a07</anchor>
+      <arglist>(const InputPort&lt; double &gt; &amp;input_port) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; SystemOutput&lt; double &gt; &gt;</type>
+      <name>AllocateOutput</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>af46c35210719be2e1035e14ea9a11299</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual std::unique_ptr&lt; ContinuousState&lt; double &gt; &gt;</type>
+      <name>AllocateTimeDerivatives</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ab543fa724bbe93efd19a42f5e9e65c72</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorX&lt; double &gt;</type>
+      <name>AllocateImplicitTimeDerivativesResidual</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>acdb947655d5d8156013bfdfd6ec90521</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual std::unique_ptr&lt; DiscreteValues&lt; double &gt; &gt;</type>
+      <name>AllocateDiscreteVariables</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a975677491aa00a7677181b12311d7c10</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; Context&lt; double &gt; &gt;</type>
+      <name>CreateDefaultContext</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aa036f873464a74c03fab943bbace8942</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>SetDefaultState</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a909935648b14e55b07263264616ace3c</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, State&lt; double &gt; *state) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>SetDefaultParameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>abb9c4edaf95ef26f1ec419f32446e042</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, Parameters&lt; double &gt; *parameters) const=0</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetDefaultContext</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ab4e6ee413f4f47a20f6dcc2cbd831b88</anchor>
+      <arglist>(Context&lt; double &gt; *context) const</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>SetRandomState</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a3516fe581eeed54e8718b52410a310dd</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, State&lt; double &gt; *state, RandomGenerator *generator) const</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>SetRandomParameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a082c64234f6d3d49e4648a1b5b6e3eae</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, Parameters&lt; double &gt; *parameters, RandomGenerator *generator) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetRandomContext</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a6a5a403983483dda39f8196a241225f2</anchor>
+      <arglist>(Context&lt; double &gt; *context, RandomGenerator *generator) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AllocateFixedInputs</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a47ec86445724fd77391af7874bfc4848</anchor>
+      <arglist>(Context&lt; double &gt; *context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>HasAnyDirectFeedthrough</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a037dd9c0afe6e059e67edb4c9c01eeb3</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>HasDirectFeedthrough</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a51acfa17df1bc87ce8eaa0e1556f6d46</anchor>
+      <arglist>(int output_port) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>HasDirectFeedthrough</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a8dd5092dc2aa2c8f38e0d6336437012d</anchor>
+      <arglist>(int input_port, int output_port) const</arglist>
+    </member>
+    <member kind="function">
+      <type>virtual std::multimap&lt; int, int &gt;</type>
+      <name>GetDirectFeedthroughs</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ad7f0ac4b8f2b65f013e88c56ccccd9e6</anchor>
+      <arglist>() const =0</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>Publish</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a31898e0276f6bbc4edf7111f809afb01</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const EventCollection&lt; PublishEvent&lt; double &gt;&gt; &amp;events) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>Publish</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aafa5fa6fa51aaa8f987abb101e341739</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const ContinuousState&lt; double &gt; &amp;</type>
+      <name>EvalTimeDerivatives</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ae38625e953699a0433249142972eef52</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const CacheEntry &amp;</type>
+      <name>get_time_derivatives_cache_entry</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a028e42d4ecb1d2902ed839a8a9d2afaa</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>EvalPotentialEnergy</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a97c1ac3506af8f2c386ba74b5fbc1e48</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>EvalKineticEnergy</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>abfc345ff50df77ad2ae727e6d3a9b939</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>EvalConservativePower</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a94bf4d9472a96aad5d65e47375cf035f</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>EvalNonConservativePower</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a08ed6bf23e134cbc50d073e81ffc247f</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Vec&lt; double &gt; *</type>
+      <name>EvalVectorInput</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aa184508e6a0494c1b8214dab77e34ce3</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, int port_index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>Eigen::VectorBlock&lt; const VectorX&lt; double &gt; &gt;</type>
+      <name>EvalEigenVectorInput</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a4cd99b363ba22035de7689f48702e89b</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, int port_index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>SystemConstraintIndex</type>
+      <name>AddExternalConstraint</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ad97e05bf6c16c4bbf058d3cd4978f696</anchor>
+      <arglist>(ExternalSystemConstraint constraint)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>CalcTimeDerivatives</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>af2677f8773e90a538483eedd80a81a9f</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, ContinuousState&lt; double &gt; *derivatives) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>CalcImplicitTimeDerivativesResidual</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a2bb4c1e3572a8009863b5a342fcb5c49</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const ContinuousState&lt; double &gt; &amp;proposed_derivatives, EigenPtr&lt; VectorX&lt; double &gt;&gt; residual) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>CalcDiscreteVariableUpdates</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a2b4b5edfcccb98a87f958bc9b6b626bd</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const EventCollection&lt; DiscreteUpdateEvent&lt; double &gt;&gt; &amp;events, DiscreteValues&lt; double &gt; *discrete_state) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>CalcDiscreteVariableUpdates</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a054ef0e9e578c5abc57fd4dc8b12bd84</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, DiscreteValues&lt; double &gt; *discrete_state) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>ApplyDiscreteVariableUpdate</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a3873890578a88001255c795f20f01e3f</anchor>
+      <arglist>(const EventCollection&lt; DiscreteUpdateEvent&lt; double &gt;&gt; &amp;events, DiscreteValues&lt; double &gt; *discrete_state, Context&lt; double &gt; *context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>CalcUnrestrictedUpdate</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ad195518c9c6d2c9421e6e2b222514d89</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const EventCollection&lt; UnrestrictedUpdateEvent&lt; double &gt;&gt; &amp;events, State&lt; double &gt; *state) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>CalcUnrestrictedUpdate</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a25f04e429745ae7a16600c4dfda0f931</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, State&lt; double &gt; *state) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>ApplyUnrestrictedUpdate</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a1bc3701622107a616b3e45f9f0735233</anchor>
+      <arglist>(const EventCollection&lt; UnrestrictedUpdateEvent&lt; double &gt;&gt; &amp;events, State&lt; double &gt; *state, Context&lt; double &gt; *context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>CalcNextUpdateTime</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a164afe3c1db737b93696b8808bb2c942</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, CompositeEventCollection&lt; double &gt; *events) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>GetPerStepEvents</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ad8a24b8f910f9d990db8e59bf2bae6d0</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, CompositeEventCollection&lt; double &gt; *events) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>GetInitializationEvents</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ae6f84e649d76754f38ea7420a21a1a04</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, CompositeEventCollection&lt; double &gt; *events) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; PeriodicEventData &gt;</type>
+      <name>GetUniquePeriodicDiscreteUpdateAttribute</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a0e7bc22bdd95c7c611e859c12dfef3e1</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>IsDifferenceEquationSystem</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aeb5016cfee3ccd384e0a0ba62b4da5bc</anchor>
+      <arglist>(double *time_period=nullptr) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::map&lt; PeriodicEventData, std::vector&lt; const Event&lt; double &gt; * &gt;, PeriodicEventDataComparator &gt;</type>
+      <name>GetPeriodicEvents</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a68ec8dd139ab0f99c1fe908e4098a974</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>CalcOutput</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a574467e50cf5c242f665557daca33111</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, SystemOutput&lt; double &gt; *outputs) const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>CalcPotentialEnergy</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a3d5eb1d2630aab1938230257554d1f43</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>CalcKineticEnergy</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aad01402fef0de79310989d7d22dfde92</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>CalcConservativePower</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a5674ae416c2808c939dffc117b209f23</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>CalcNonConservativePower</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a23fe133b70153e382d7f50c38b96bf1f</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>MapVelocityToQDot</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a05cc5df6d0d0fe4ea54b522ae776ca39</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const VectorBase&lt; double &gt; &amp;generalized_velocity, VectorBase&lt; double &gt; *qdot) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>MapVelocityToQDot</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a3d05cfdce7f2dbae7c9f18babfc827e8</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;generalized_velocity, VectorBase&lt; double &gt; *qdot) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>MapQDotToVelocity</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a10eba167739bfe8e7e419b5c8ae41537</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const VectorBase&lt; double &gt; &amp;qdot, VectorBase&lt; double &gt; *generalized_velocity) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>MapQDotToVelocity</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a9914457357091af1a9932863f2b396a4</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;qdot, VectorBase&lt; double &gt; *generalized_velocity) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Context&lt; double &gt; &amp;</type>
+      <name>GetSubsystemContext</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aaaa7a04bd169a920b4ae90d4e1db4fe5</anchor>
+      <arglist>(const System&lt; double &gt; &amp;subsystem, const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>Context&lt; double &gt; &amp;</type>
+      <name>GetMutableSubsystemContext</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a95ce57e23ae030c0ef224b0d0b7cc70c</anchor>
+      <arglist>(const System&lt; double &gt; &amp;subsystem, Context&lt; double &gt; *context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Context&lt; double &gt; &amp;</type>
+      <name>GetMyContextFromRoot</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>accf801fb0529fd09f9a2c3e9ae941147</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;root_context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>Context&lt; double &gt; &amp;</type>
+      <name>GetMyMutableContextFromRoot</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>abb6f679178e8c8864dfb7d65a3198ee3</anchor>
+      <arglist>(Context&lt; double &gt; *root_context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>GetMemoryObjectName</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a9714aaf76aca9169da6de7fbcb8339fb</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const InputPort&lt; double &gt; &amp;</type>
+      <name>get_input_port</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a39b7b9f7723ad69fca8766e6590ef681</anchor>
+      <arglist>(int port_index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const InputPort&lt; double &gt; &amp;</type>
+      <name>get_input_port</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>abcfc22af164f8b6ee671b0d598fd2466</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const InputPort&lt; double &gt; *</type>
+      <name>get_input_port_selection</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ada70a32e95cd84cd4fe02c1d25be437d</anchor>
+      <arglist>(std::variant&lt; InputPortSelection, InputPortIndex &gt; port_index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const InputPort&lt; double &gt; &amp;</type>
+      <name>GetInputPort</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a0b235f5342408f469d02b5b5d2dfb555</anchor>
+      <arglist>(const std::string &amp;port_name) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>HasInputPort</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a2de14ac72441c44be8dec6cc6719dd1e</anchor>
+      <arglist>(const std::string &amp;port_name) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const OutputPort&lt; double &gt; &amp;</type>
+      <name>get_output_port</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a9d32474ac975155d1289d564016a8a13</anchor>
+      <arglist>(int port_index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const OutputPort&lt; double &gt; &amp;</type>
+      <name>get_output_port</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a08e2c5bab385f7c5e1069d61c45600c3</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const OutputPort&lt; double &gt; *</type>
+      <name>get_output_port_selection</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a991e02715eef0ca58a3ee6dda24a3395</anchor>
+      <arglist>(std::variant&lt; OutputPortSelection, OutputPortIndex &gt; port_index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const OutputPort&lt; double &gt; &amp;</type>
+      <name>GetOutputPort</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>af900e8c1b8e91219a8771c54f1d130ab</anchor>
+      <arglist>(const std::string &amp;port_name) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>HasOutputPort</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a70946c955bb9100cc8e9dc1f5df5c8bc</anchor>
+      <arglist>(const std::string &amp;port_name) const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_constraints</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a23f1475b0c301d9d78814fce265fd6ea</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const SystemConstraint&lt; double &gt; &amp;</type>
+      <name>get_constraint</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ac72d50dd5540d7a303b1bb8135df5a80</anchor>
+      <arglist>(SystemConstraintIndex constraint_index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>boolean&lt; double &gt;</type>
+      <name>CheckSystemConstraintsSatisfied</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a75fef66587073b52e0e69c84a736bd72</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, double tol) const</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorX&lt; double &gt;</type>
+      <name>CopyContinuousStateVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a46b662b8346e6250f8c4340c18658084</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_input_ports</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a94a6d73c74c7268734792b3703e8600d</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_output_ports</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a7ceec1b22b6b1b25fc675234e78e71be</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>GetGraphvizString</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a588e4f7454694f04b4b654d154f170f3</anchor>
+      <arglist>(int max_depth=std::numeric_limits&lt; int &gt;::max()) const</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>GetGraphvizFragment</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a0732c676190d17645ea9103bbfb0ca78</anchor>
+      <arglist>(int max_depth, std::stringstream *dot) const</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>GetGraphvizInputPortToken</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a350ddfa07205d6ae68e8f01c12cfc053</anchor>
+      <arglist>(const InputPort&lt; double &gt; &amp;port, int max_depth, std::stringstream *dot) const</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>GetGraphvizOutputPortToken</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a1c4224423eafc6245ff15cbe2c270ce0</anchor>
+      <arglist>(const OutputPort&lt; double &gt; &amp;port, int max_depth, std::stringstream *dot) const</arglist>
+    </member>
+    <member kind="function">
+      <type>int64_t</type>
+      <name>GetGraphvizId</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aa1fac664a1c120c425bc522d7ecb435c</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>FixInputPortsFrom</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a601fb2c6cf565d954253d25725ae9d6b</anchor>
+      <arglist>(const System&lt; double &gt; &amp;other_system, const Context&lt; double &gt; &amp;other_context, Context&lt; double &gt; *target_context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const SystemScalarConverter &amp;</type>
+      <name>get_system_scalar_converter</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a4f520e00ddac3d41f7e2df922de46da4</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>System</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aa1b849c60d9ec6bbfeac42dc3c075a02</anchor>
+      <arglist>(SystemScalarConverter converter)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>InputPort&lt; double &gt; &amp;</type>
+      <name>DeclareInputPort</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>af0b57e4cacf2beba4ef87c87f824aba8</anchor>
+      <arglist>(std::variant&lt; std::string, UseDefaultName &gt; name, PortDataType type, int size, std::optional&lt; RandomDistribution &gt; random_type=std::nullopt)</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual void</type>
+      <name>DispatchPublishHandler</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a84fe4f2e8e6d8a61dfae06f64fb6d5ce</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const EventCollection&lt; PublishEvent&lt; double &gt;&gt; &amp;events) const=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual void</type>
+      <name>DispatchDiscreteVariableUpdateHandler</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a921d9a050e25d0f2c55de265477c26f5</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const EventCollection&lt; DiscreteUpdateEvent&lt; double &gt;&gt; &amp;events, DiscreteValues&lt; double &gt; *discrete_state) const=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual void</type>
+      <name>DoApplyDiscreteVariableUpdate</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ace4dcdf94807bb6d449aadbd4deb67c9</anchor>
+      <arglist>(const EventCollection&lt; DiscreteUpdateEvent&lt; double &gt;&gt; &amp;events, DiscreteValues&lt; double &gt; *discrete_state, Context&lt; double &gt; *context) const=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual void</type>
+      <name>DispatchUnrestrictedUpdateHandler</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>affb56df9a1e83ab8cef21c9b122d6346</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const EventCollection&lt; UnrestrictedUpdateEvent&lt; double &gt;&gt; &amp;events, State&lt; double &gt; *state) const=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual void</type>
+      <name>DoApplyUnrestrictedUpdate</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a8cc318dbe5bed1302294f6d28ae0bbbc</anchor>
+      <arglist>(const EventCollection&lt; UnrestrictedUpdateEvent&lt; double &gt;&gt; &amp;events, State&lt; double &gt; *state, Context&lt; double &gt; *context) const=0</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>InputPort&lt; double &gt; &amp;</type>
+      <name>DeclareInputPort</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>abe346b9e2e3014575fcb225e80d97a65</anchor>
+      <arglist>(PortDataType type, int size, std::optional&lt; RandomDistribution &gt; random_type=std::nullopt)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>SystemConstraintIndex</type>
+      <name>AddConstraint</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ac9fbf92ac77db4d805a5a5cf980de130</anchor>
+      <arglist>(std::unique_ptr&lt; SystemConstraint&lt; double &gt;&gt; constraint)</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoCalcTimeDerivatives</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aed8b3a6c3f9d024e15d98cb808dbbc17</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, ContinuousState&lt; double &gt; *derivatives) const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoCalcImplicitTimeDerivativesResidual</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aacbe5f9cc83f774ffcaa87a5c1278446</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const ContinuousState&lt; double &gt; &amp;proposed_derivatives, EigenPtr&lt; VectorX&lt; double &gt;&gt; residual) const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoCalcNextUpdateTime</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a710d1532ace6bf692305d2ebce4a06c4</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, CompositeEventCollection&lt; double &gt; *events, double *time) const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual std::map&lt; PeriodicEventData, std::vector&lt; const Event&lt; double &gt; * &gt;, PeriodicEventDataComparator &gt;</type>
+      <name>DoGetPeriodicEvents</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>abb36a8c15587e340c460d261f3786a03</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoGetPerStepEvents</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aa158a2b4a85c8be94bc78b0c646b7eb4</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, CompositeEventCollection&lt; double &gt; *events) const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoGetInitializationEvents</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a67c5737dc468f5b94ffca61792e4dfc5</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, CompositeEventCollection&lt; double &gt; *events) const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual double</type>
+      <name>DoCalcPotentialEnergy</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a57c349e8e8aed5454a6293c356a29a92</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual double</type>
+      <name>DoCalcKineticEnergy</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a94c7b978ca681f773dcc13cc82bd834b</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual double</type>
+      <name>DoCalcConservativePower</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>adb639ec6f0b87551136907abbe377cb0</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual double</type>
+      <name>DoCalcNonConservativePower</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a0fbb9bf04beb39962554f61b99862da0</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoMapQDotToVelocity</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a433601e16c81b891db313d5356b46de5</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;qdot, VectorBase&lt; double &gt; *generalized_velocity) const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoMapVelocityToQDot</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a0910a65b46512bbe7a2657a593d35c4c</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;generalized_velocity, VectorBase&lt; double &gt; *qdot) const</arglist>
+    </member>
+    <member kind="friend" protection="private">
+      <type>friend class</type>
+      <name>System</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a70a6f9e15c48813e173ebd6d48770fa1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>Eigen::VectorBlock&lt; VectorX&lt; double &gt; &gt;</type>
+      <name>GetMutableOutputVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a6278437ceb2dce5a6c8f70f19285319a</anchor>
+      <arglist>(SystemOutput&lt; double &gt; *output, int port_index) const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>bool</type>
+      <name>forced_publish_events_exist</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ad8812e3795d6c187c6f21fb441a717db</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>bool</type>
+      <name>forced_discrete_update_events_exist</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a582cbe45eeaf9fe74b7143a1b71ff958</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>bool</type>
+      <name>forced_unrestricted_update_events_exist</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a06f70983cdba078821ed784fcf2f775f</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>EventCollection&lt; PublishEvent&lt; double &gt; &gt; &amp;</type>
+      <name>get_mutable_forced_publish_events</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ac7af4df5b72b50d255dc99cddb67e4a6</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>EventCollection&lt; DiscreteUpdateEvent&lt; double &gt; &gt; &amp;</type>
+      <name>get_mutable_forced_discrete_update_events</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>afed229e14777bd82382dc3ed6e715bd3</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>EventCollection&lt; UnrestrictedUpdateEvent&lt; double &gt; &gt; &amp;</type>
+      <name>get_mutable_forced_unrestricted_update_events</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ad856b6c5b4d66151f1f28d8645bf215c</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>const EventCollection&lt; PublishEvent&lt; double &gt; &gt; &amp;</type>
+      <name>get_forced_publish_events</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aa532bcdc29e8be25c20b40968bb95b66</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>const EventCollection&lt; DiscreteUpdateEvent&lt; double &gt; &gt; &amp;</type>
+      <name>get_forced_discrete_update_events</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a3137d050d040e4beb9ef60cd004ac112</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>const EventCollection&lt; UnrestrictedUpdateEvent&lt; double &gt; &gt; &amp;</type>
+      <name>get_forced_unrestricted_update_events</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aac53f82a39ea0c5e3240a9bab52b1415</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>set_forced_publish_events</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ac7240490688324a9f15132fee98e52ce</anchor>
+      <arglist>(std::unique_ptr&lt; EventCollection&lt; PublishEvent&lt; double &gt;&gt;&gt; forced)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>set_forced_discrete_update_events</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>afd0aacb96a01eb38099ac6cd4d12037b</anchor>
+      <arglist>(std::unique_ptr&lt; EventCollection&lt; DiscreteUpdateEvent&lt; double &gt;&gt;&gt; forced)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>set_forced_unrestricted_update_events</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a75c5ab861b2f08ff5a29066458747b9a</anchor>
+      <arglist>(std::unique_ptr&lt; EventCollection&lt; UnrestrictedUpdateEvent&lt; double &gt;&gt;&gt; forced)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>SystemScalarConverter &amp;</type>
+      <name>get_mutable_system_scalar_converter</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a86649644cbbb5db1a63f2ef6dde59edd</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>ValidateChildOfContext</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a88d780ac96e83eadd765f5c2fd1abbb4</anchor>
+      <arglist>(const Clazz&lt; double &gt; *object) const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>System</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aa1b849c60d9ec6bbfeac42dc3c075a02</anchor>
+      <arglist>(SystemScalarConverter converter)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>InputPort&lt; double &gt; &amp;</type>
+      <name>DeclareInputPort</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>af0b57e4cacf2beba4ef87c87f824aba8</anchor>
+      <arglist>(std::variant&lt; std::string, UseDefaultName &gt; name, PortDataType type, int size, std::optional&lt; RandomDistribution &gt; random_type=std::nullopt)</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual double</type>
+      <name>DoCalcWitnessValue</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a9440f6840ccb22a989d50ff8a7e65760</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const WitnessFunction&lt; double &gt; &amp;witness_func) const=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoGetWitnessFunctions</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a0b9d6f71af96840edfe44f5d242156a8</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;, std::vector&lt; const WitnessFunction&lt; double &gt; * &gt; *) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; System&lt; U &gt; &gt;</type>
+      <name>ToScalarType</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a30b43a0d81534db447de5166505716df</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; System&lt; U &gt; &gt;</type>
+      <name>ToScalarTypeMaybe</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a7e275d69ab53de1f9fe3b91c43236d30</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>GetWitnessFunctions</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ab9f777bd94a7d9188a905ac6ecfff577</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, std::vector&lt; const WitnessFunction&lt; double &gt; * &gt; *w) const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>CalcWitnessValue</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a2949deb61db7903dae4c0b7cb9633fac</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const WitnessFunction&lt; double &gt; &amp;witness_func) const</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>AddTriggeredWitnessFunctionToCompositeEventCollection</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a838b32b3b596aae6c11fa9c19e655407</anchor>
+      <arglist>(Event&lt; double &gt; *event, CompositeEventCollection&lt; double &gt; *events) const=0</arglist>
+    </member>
+    <member kind="function">
+      <type>CacheEntry &amp;</type>
+      <name>DeclareCacheEntry</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>af58ff2c0e75003f66e5c196c61538f1f</anchor>
+      <arglist>(std::string description, ValueProducer value_producer, std::set&lt; DependencyTicket &gt; prerequisites_of_calc={all_sources_ticket()})</arglist>
+    </member>
+    <member kind="function">
+      <type>CacheEntry &amp;</type>
+      <name>DeclareCacheEntry</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>af8522153f26cb7620bd669b288b91c26</anchor>
+      <arglist>(std::string description, std::function&lt; std::unique_ptr&lt; AbstractValue &gt;()&gt; alloc_function, std::function&lt; void(const ContextBase &amp;, AbstractValue *)&gt; calc_function, std::set&lt; DependencyTicket &gt; prerequisites_of_calc={all_sources_ticket()})</arglist>
+    </member>
+    <member kind="function">
+      <type>CacheEntry &amp;</type>
+      <name>DeclareCacheEntry</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a376502958f63c619086e6cd89f091fdb</anchor>
+      <arglist>(std::string description, const ValueType &amp;model_value, void(MySystem::*calc)(const MyContext &amp;, ValueType *) const, std::set&lt; DependencyTicket &gt; prerequisites_of_calc={all_sources_ticket()})</arglist>
+    </member>
+    <member kind="function">
+      <type>CacheEntry &amp;</type>
+      <name>DeclareCacheEntry</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ad5d2a9a7af14845f76fbfa627020887e</anchor>
+      <arglist>(std::string description, void(MySystem::*calc)(const MyContext &amp;, ValueType *) const, std::set&lt; DependencyTicket &gt; prerequisites_of_calc={all_sources_ticket()})</arglist>
+    </member>
+    <member kind="function">
+      <type>CacheEntry &amp;</type>
+      <name>DeclareCacheEntry</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a9d6169e37fb10a5b25a6fe347ff161e9</anchor>
+      <arglist>(std::string description, ValueType(MySystem::*make)() const, void(MySystem::*calc)(const MyContext &amp;, ValueType *) const, std::set&lt; DependencyTicket &gt; prerequisites_of_calc)</arglist>
+    </member>
+    <member kind="function">
+      <type>CacheEntry &amp;</type>
+      <name>DeclareCacheEntry</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ae547d10ddbc3b5c837e0ae70520f5c4c</anchor>
+      <arglist>(std::string description, const ValueType &amp;model_value, ValueType(MySystem::*calc)(const MyContext &amp;) const, std::set&lt; DependencyTicket &gt; prerequisites_of_calc)</arglist>
+    </member>
+    <member kind="function">
+      <type>CacheEntry &amp;</type>
+      <name>DeclareCacheEntry</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a42eb6c61e9ced41f9b46296327f5db47</anchor>
+      <arglist>(std::string description, ValueType(MySystem::*calc)(const MyContext &amp;) const, std::set&lt; DependencyTicket &gt; prerequisites_of_calc)</arglist>
+    </member>
+    <member kind="function">
+      <type>DependencyTicket</type>
+      <name>abstract_parameter_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a1a4ef0e0e633c6f722ee518308d7cb5a</anchor>
+      <arglist>(AbstractParameterIndex index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>DependencyTicket</type>
+      <name>abstract_state_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a4a8d4f32034a610ea30a283699040708</anchor>
+      <arglist>(AbstractStateIndex index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>DependencyTicket</type>
+      <name>cache_entry_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a7e92c6f01c04b3591d642d27a467b093</anchor>
+      <arglist>(CacheIndex index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>DependencyTicket</type>
+      <name>discrete_state_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>adf86073429b07d388b0157956bfdbac6</anchor>
+      <arglist>(DiscreteStateIndex index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>DependencyTicket</type>
+      <name>input_port_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a191b7cb5dcbfee51a62fa042ec14561f</anchor>
+      <arglist>(InputPortIndex index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>DependencyTicket</type>
+      <name>numeric_parameter_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a45e0bf1fd3096bff3df2587ec4f02285</anchor>
+      <arglist>(NumericParameterIndex index) const</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static std::unique_ptr&lt; S&lt; U &gt; &gt;</type>
+      <name>ToScalarType</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a864d167dd193cc0e71b45db451beda38</anchor>
+      <arglist>(const S&lt; double &gt; &amp;from)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static DependencyTicket</type>
+      <name>accuracy_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ad649083fc3bcb645671be3fad577d2ab</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static DependencyTicket</type>
+      <name>all_input_ports_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a6d7c526102c09a75195c57ebf5f54a11</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static DependencyTicket</type>
+      <name>all_parameters_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ad6b63a1cb8922051fb1a7fe4b56092bf</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static DependencyTicket</type>
+      <name>all_sources_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>af0b9bc9f93181e042bdb2c36f4dbea10</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static DependencyTicket</type>
+      <name>all_state_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a2789768c5d75378c081683a8016f0784</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static DependencyTicket</type>
+      <name>configuration_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a28830dced98dcdc1f498d8d250db0ae4</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static DependencyTicket</type>
+      <name>ke_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a66e1d9af27119011a497b78df6907b1a</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static DependencyTicket</type>
+      <name>kinematics_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a1291b5091aa55dbd03c9b5944dbced09</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static DependencyTicket</type>
+      <name>nothing_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a6fe75ddbd79ab1d862df9a50b3c8a624</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static DependencyTicket</type>
+      <name>pa_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>af3c65473a41f73091c600eaead714fe2</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static DependencyTicket</type>
+      <name>pc_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>afdc60bc4c201f17bd35bf40c13a183b3</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static DependencyTicket</type>
+      <name>pe_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a49f1689b1ae9f05b6e2f194db873927b</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static DependencyTicket</type>
+      <name>pn_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aaeae092662e78f50416eb6dc01ad3ddb</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static DependencyTicket</type>
+      <name>pnc_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a0afc9712c887706c12039e871476f30c</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static DependencyTicket</type>
+      <name>q_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a41d3cdadf7d6b62b055993148b82df19</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static DependencyTicket</type>
+      <name>time_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a68516072b2dc51a601f2de699691f1c3</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static DependencyTicket</type>
+      <name>v_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ab858ddb6f259d65f760c2032b3bd5164</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static DependencyTicket</type>
+      <name>xa_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a19842775d11b50e5ae56abcc6d38ccc4</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static DependencyTicket</type>
+      <name>xc_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a385e0d5605b81db0fbfc6bdd57affb5e</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static DependencyTicket</type>
+      <name>xcdot_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ab42cd3bff14253894eb0a29edf843b3f</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static DependencyTicket</type>
+      <name>xd_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a64938d044107c8eedc97f89aaf0e4a32</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static DependencyTicket</type>
+      <name>z_ticket</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a340a9b088fc407f703a9e21ed9dee32e</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual void</type>
+      <name>DispatchPublishHandler</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a84fe4f2e8e6d8a61dfae06f64fb6d5ce</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const EventCollection&lt; PublishEvent&lt; double &gt;&gt; &amp;events) const=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual void</type>
+      <name>DispatchDiscreteVariableUpdateHandler</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a921d9a050e25d0f2c55de265477c26f5</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const EventCollection&lt; DiscreteUpdateEvent&lt; double &gt;&gt; &amp;events, DiscreteValues&lt; double &gt; *discrete_state) const=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual void</type>
+      <name>DoApplyDiscreteVariableUpdate</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ace4dcdf94807bb6d449aadbd4deb67c9</anchor>
+      <arglist>(const EventCollection&lt; DiscreteUpdateEvent&lt; double &gt;&gt; &amp;events, DiscreteValues&lt; double &gt; *discrete_state, Context&lt; double &gt; *context) const=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual void</type>
+      <name>DispatchUnrestrictedUpdateHandler</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>affb56df9a1e83ab8cef21c9b122d6346</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const EventCollection&lt; UnrestrictedUpdateEvent&lt; double &gt;&gt; &amp;events, State&lt; double &gt; *state) const=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual void</type>
+      <name>DoApplyUnrestrictedUpdate</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a8cc318dbe5bed1302294f6d28ae0bbbc</anchor>
+      <arglist>(const EventCollection&lt; UnrestrictedUpdateEvent&lt; double &gt;&gt; &amp;events, State&lt; double &gt; *state, Context&lt; double &gt; *context) const=0</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>InputPort&lt; double &gt; &amp;</type>
+      <name>DeclareInputPort</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>abe346b9e2e3014575fcb225e80d97a65</anchor>
+      <arglist>(PortDataType type, int size, std::optional&lt; RandomDistribution &gt; random_type=std::nullopt)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>SystemConstraintIndex</type>
+      <name>AddConstraint</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ac9fbf92ac77db4d805a5a5cf980de130</anchor>
+      <arglist>(std::unique_ptr&lt; SystemConstraint&lt; double &gt;&gt; constraint)</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoCalcTimeDerivatives</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aed8b3a6c3f9d024e15d98cb808dbbc17</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, ContinuousState&lt; double &gt; *derivatives) const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoCalcImplicitTimeDerivativesResidual</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aacbe5f9cc83f774ffcaa87a5c1278446</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const ContinuousState&lt; double &gt; &amp;proposed_derivatives, EigenPtr&lt; VectorX&lt; double &gt;&gt; residual) const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoCalcNextUpdateTime</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a710d1532ace6bf692305d2ebce4a06c4</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, CompositeEventCollection&lt; double &gt; *events, double *time) const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual std::map&lt; PeriodicEventData, std::vector&lt; const Event&lt; double &gt; * &gt;, PeriodicEventDataComparator &gt;</type>
+      <name>DoGetPeriodicEvents</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>abb36a8c15587e340c460d261f3786a03</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoGetPerStepEvents</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aa158a2b4a85c8be94bc78b0c646b7eb4</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, CompositeEventCollection&lt; double &gt; *events) const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoGetInitializationEvents</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a67c5737dc468f5b94ffca61792e4dfc5</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, CompositeEventCollection&lt; double &gt; *events) const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual double</type>
+      <name>DoCalcPotentialEnergy</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a57c349e8e8aed5454a6293c356a29a92</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual double</type>
+      <name>DoCalcKineticEnergy</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a94c7b978ca681f773dcc13cc82bd834b</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual double</type>
+      <name>DoCalcConservativePower</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>adb639ec6f0b87551136907abbe377cb0</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual double</type>
+      <name>DoCalcNonConservativePower</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a0fbb9bf04beb39962554f61b99862da0</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoMapQDotToVelocity</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a433601e16c81b891db313d5356b46de5</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;qdot, VectorBase&lt; double &gt; *generalized_velocity) const</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoMapVelocityToQDot</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a0910a65b46512bbe7a2657a593d35c4c</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;generalized_velocity, VectorBase&lt; double &gt; *qdot) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; Context&lt; double &gt; &gt;</type>
+      <name>AllocateContext</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a78fda6d982dc968061c5d92e32173629</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; CompositeEventCollection&lt; double &gt; &gt;</type>
+      <name>AllocateCompositeEventCollection</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a6cc7dd6cf032c4b3137de55349d8e99b</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; BasicVector&lt; double &gt; &gt;</type>
+      <name>AllocateInputVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ab7ce7f3c3ed819de001d4ab977ee65bf</anchor>
+      <arglist>(const InputPort&lt; double &gt; &amp;input_port) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; AbstractValue &gt;</type>
+      <name>AllocateInputAbstract</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a69db7d7d92345c74487bc38c5d136a07</anchor>
+      <arglist>(const InputPort&lt; double &gt; &amp;input_port) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; SystemOutput&lt; double &gt; &gt;</type>
+      <name>AllocateOutput</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>af46c35210719be2e1035e14ea9a11299</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual std::unique_ptr&lt; ContinuousState&lt; double &gt; &gt;</type>
+      <name>AllocateTimeDerivatives</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ab543fa724bbe93efd19a42f5e9e65c72</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorX&lt; double &gt;</type>
+      <name>AllocateImplicitTimeDerivativesResidual</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>acdb947655d5d8156013bfdfd6ec90521</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual std::unique_ptr&lt; DiscreteValues&lt; double &gt; &gt;</type>
+      <name>AllocateDiscreteVariables</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a975677491aa00a7677181b12311d7c10</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; Context&lt; double &gt; &gt;</type>
+      <name>CreateDefaultContext</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aa036f873464a74c03fab943bbace8942</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>SetDefaultState</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a909935648b14e55b07263264616ace3c</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, State&lt; double &gt; *state) const=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>SetDefaultParameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>abb9c4edaf95ef26f1ec419f32446e042</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, Parameters&lt; double &gt; *parameters) const=0</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetDefaultContext</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ab4e6ee413f4f47a20f6dcc2cbd831b88</anchor>
+      <arglist>(Context&lt; double &gt; *context) const</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>SetRandomState</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a3516fe581eeed54e8718b52410a310dd</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, State&lt; double &gt; *state, RandomGenerator *generator) const</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>SetRandomParameters</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a082c64234f6d3d49e4648a1b5b6e3eae</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, Parameters&lt; double &gt; *parameters, RandomGenerator *generator) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetRandomContext</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a6a5a403983483dda39f8196a241225f2</anchor>
+      <arglist>(Context&lt; double &gt; *context, RandomGenerator *generator) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AllocateFixedInputs</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a47ec86445724fd77391af7874bfc4848</anchor>
+      <arglist>(Context&lt; double &gt; *context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>HasAnyDirectFeedthrough</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a037dd9c0afe6e059e67edb4c9c01eeb3</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>HasDirectFeedthrough</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a51acfa17df1bc87ce8eaa0e1556f6d46</anchor>
+      <arglist>(int output_port) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>HasDirectFeedthrough</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a8dd5092dc2aa2c8f38e0d6336437012d</anchor>
+      <arglist>(int input_port, int output_port) const</arglist>
+    </member>
+    <member kind="function">
+      <type>virtual std::multimap&lt; int, int &gt;</type>
+      <name>GetDirectFeedthroughs</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ad7f0ac4b8f2b65f013e88c56ccccd9e6</anchor>
+      <arglist>() const =0</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>Publish</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a31898e0276f6bbc4edf7111f809afb01</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const EventCollection&lt; PublishEvent&lt; double &gt;&gt; &amp;events) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>Publish</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aafa5fa6fa51aaa8f987abb101e341739</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const ContinuousState&lt; double &gt; &amp;</type>
+      <name>EvalTimeDerivatives</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ae38625e953699a0433249142972eef52</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const CacheEntry &amp;</type>
+      <name>get_time_derivatives_cache_entry</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a028e42d4ecb1d2902ed839a8a9d2afaa</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>EvalPotentialEnergy</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a97c1ac3506af8f2c386ba74b5fbc1e48</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>EvalKineticEnergy</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>abfc345ff50df77ad2ae727e6d3a9b939</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>EvalConservativePower</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a94bf4d9472a96aad5d65e47375cf035f</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>EvalNonConservativePower</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a08ed6bf23e134cbc50d073e81ffc247f</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Vec&lt; double &gt; *</type>
+      <name>EvalVectorInput</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aa184508e6a0494c1b8214dab77e34ce3</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, int port_index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>Eigen::VectorBlock&lt; const VectorX&lt; double &gt; &gt;</type>
+      <name>EvalEigenVectorInput</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a4cd99b363ba22035de7689f48702e89b</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, int port_index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>SystemConstraintIndex</type>
+      <name>AddExternalConstraint</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ad97e05bf6c16c4bbf058d3cd4978f696</anchor>
+      <arglist>(ExternalSystemConstraint constraint)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>CalcTimeDerivatives</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>af2677f8773e90a538483eedd80a81a9f</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, ContinuousState&lt; double &gt; *derivatives) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>CalcImplicitTimeDerivativesResidual</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a2bb4c1e3572a8009863b5a342fcb5c49</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const ContinuousState&lt; double &gt; &amp;proposed_derivatives, EigenPtr&lt; VectorX&lt; double &gt;&gt; residual) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>CalcDiscreteVariableUpdates</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a2b4b5edfcccb98a87f958bc9b6b626bd</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const EventCollection&lt; DiscreteUpdateEvent&lt; double &gt;&gt; &amp;events, DiscreteValues&lt; double &gt; *discrete_state) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>CalcDiscreteVariableUpdates</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a054ef0e9e578c5abc57fd4dc8b12bd84</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, DiscreteValues&lt; double &gt; *discrete_state) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>ApplyDiscreteVariableUpdate</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a3873890578a88001255c795f20f01e3f</anchor>
+      <arglist>(const EventCollection&lt; DiscreteUpdateEvent&lt; double &gt;&gt; &amp;events, DiscreteValues&lt; double &gt; *discrete_state, Context&lt; double &gt; *context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>CalcUnrestrictedUpdate</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ad195518c9c6d2c9421e6e2b222514d89</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const EventCollection&lt; UnrestrictedUpdateEvent&lt; double &gt;&gt; &amp;events, State&lt; double &gt; *state) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>CalcUnrestrictedUpdate</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a25f04e429745ae7a16600c4dfda0f931</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, State&lt; double &gt; *state) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>ApplyUnrestrictedUpdate</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a1bc3701622107a616b3e45f9f0735233</anchor>
+      <arglist>(const EventCollection&lt; UnrestrictedUpdateEvent&lt; double &gt;&gt; &amp;events, State&lt; double &gt; *state, Context&lt; double &gt; *context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>CalcNextUpdateTime</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a164afe3c1db737b93696b8808bb2c942</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, CompositeEventCollection&lt; double &gt; *events) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>GetPerStepEvents</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ad8a24b8f910f9d990db8e59bf2bae6d0</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, CompositeEventCollection&lt; double &gt; *events) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>GetInitializationEvents</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ae6f84e649d76754f38ea7420a21a1a04</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, CompositeEventCollection&lt; double &gt; *events) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; PeriodicEventData &gt;</type>
+      <name>GetUniquePeriodicDiscreteUpdateAttribute</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a0e7bc22bdd95c7c611e859c12dfef3e1</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>IsDifferenceEquationSystem</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aeb5016cfee3ccd384e0a0ba62b4da5bc</anchor>
+      <arglist>(double *time_period=nullptr) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::map&lt; PeriodicEventData, std::vector&lt; const Event&lt; double &gt; * &gt;, PeriodicEventDataComparator &gt;</type>
+      <name>GetPeriodicEvents</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a68ec8dd139ab0f99c1fe908e4098a974</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>CalcOutput</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a574467e50cf5c242f665557daca33111</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, SystemOutput&lt; double &gt; *outputs) const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>CalcPotentialEnergy</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a3d5eb1d2630aab1938230257554d1f43</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>CalcKineticEnergy</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aad01402fef0de79310989d7d22dfde92</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>CalcConservativePower</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a5674ae416c2808c939dffc117b209f23</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>CalcNonConservativePower</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a23fe133b70153e382d7f50c38b96bf1f</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>MapVelocityToQDot</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a05cc5df6d0d0fe4ea54b522ae776ca39</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const VectorBase&lt; double &gt; &amp;generalized_velocity, VectorBase&lt; double &gt; *qdot) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>MapVelocityToQDot</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a3d05cfdce7f2dbae7c9f18babfc827e8</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;generalized_velocity, VectorBase&lt; double &gt; *qdot) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>MapQDotToVelocity</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a10eba167739bfe8e7e419b5c8ae41537</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const VectorBase&lt; double &gt; &amp;qdot, VectorBase&lt; double &gt; *generalized_velocity) const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>MapQDotToVelocity</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a9914457357091af1a9932863f2b396a4</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;qdot, VectorBase&lt; double &gt; *generalized_velocity) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Context&lt; double &gt; &amp;</type>
+      <name>GetSubsystemContext</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aaaa7a04bd169a920b4ae90d4e1db4fe5</anchor>
+      <arglist>(const System&lt; double &gt; &amp;subsystem, const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>Context&lt; double &gt; &amp;</type>
+      <name>GetMutableSubsystemContext</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a95ce57e23ae030c0ef224b0d0b7cc70c</anchor>
+      <arglist>(const System&lt; double &gt; &amp;subsystem, Context&lt; double &gt; *context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Context&lt; double &gt; &amp;</type>
+      <name>GetMyContextFromRoot</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>accf801fb0529fd09f9a2c3e9ae941147</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;root_context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>Context&lt; double &gt; &amp;</type>
+      <name>GetMyMutableContextFromRoot</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>abb6f679178e8c8864dfb7d65a3198ee3</anchor>
+      <arglist>(Context&lt; double &gt; *root_context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>GetMemoryObjectName</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a9714aaf76aca9169da6de7fbcb8339fb</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const InputPort&lt; double &gt; &amp;</type>
+      <name>get_input_port</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a39b7b9f7723ad69fca8766e6590ef681</anchor>
+      <arglist>(int port_index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const InputPort&lt; double &gt; &amp;</type>
+      <name>get_input_port</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>abcfc22af164f8b6ee671b0d598fd2466</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const InputPort&lt; double &gt; *</type>
+      <name>get_input_port_selection</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ada70a32e95cd84cd4fe02c1d25be437d</anchor>
+      <arglist>(std::variant&lt; InputPortSelection, InputPortIndex &gt; port_index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const InputPort&lt; double &gt; &amp;</type>
+      <name>GetInputPort</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a0b235f5342408f469d02b5b5d2dfb555</anchor>
+      <arglist>(const std::string &amp;port_name) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>HasInputPort</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a2de14ac72441c44be8dec6cc6719dd1e</anchor>
+      <arglist>(const std::string &amp;port_name) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const OutputPort&lt; double &gt; &amp;</type>
+      <name>get_output_port</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a9d32474ac975155d1289d564016a8a13</anchor>
+      <arglist>(int port_index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const OutputPort&lt; double &gt; &amp;</type>
+      <name>get_output_port</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a08e2c5bab385f7c5e1069d61c45600c3</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const OutputPort&lt; double &gt; *</type>
+      <name>get_output_port_selection</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a991e02715eef0ca58a3ee6dda24a3395</anchor>
+      <arglist>(std::variant&lt; OutputPortSelection, OutputPortIndex &gt; port_index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const OutputPort&lt; double &gt; &amp;</type>
+      <name>GetOutputPort</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>af900e8c1b8e91219a8771c54f1d130ab</anchor>
+      <arglist>(const std::string &amp;port_name) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>HasOutputPort</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a70946c955bb9100cc8e9dc1f5df5c8bc</anchor>
+      <arglist>(const std::string &amp;port_name) const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_constraints</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a23f1475b0c301d9d78814fce265fd6ea</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const SystemConstraint&lt; double &gt; &amp;</type>
+      <name>get_constraint</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>ac72d50dd5540d7a303b1bb8135df5a80</anchor>
+      <arglist>(SystemConstraintIndex constraint_index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>boolean&lt; double &gt;</type>
+      <name>CheckSystemConstraintsSatisfied</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a75fef66587073b52e0e69c84a736bd72</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, double tol) const</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorX&lt; double &gt;</type>
+      <name>CopyContinuousStateVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a46b662b8346e6250f8c4340c18658084</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_input_ports</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a94a6d73c74c7268734792b3703e8600d</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_output_ports</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a7ceec1b22b6b1b25fc675234e78e71be</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>GetGraphvizString</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a588e4f7454694f04b4b654d154f170f3</anchor>
+      <arglist>(int max_depth=std::numeric_limits&lt; int &gt;::max()) const</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>GetGraphvizFragment</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a0732c676190d17645ea9103bbfb0ca78</anchor>
+      <arglist>(int max_depth, std::stringstream *dot) const</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>GetGraphvizInputPortToken</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a350ddfa07205d6ae68e8f01c12cfc053</anchor>
+      <arglist>(const InputPort&lt; double &gt; &amp;port, int max_depth, std::stringstream *dot) const</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>GetGraphvizOutputPortToken</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a1c4224423eafc6245ff15cbe2c270ce0</anchor>
+      <arglist>(const OutputPort&lt; double &gt; &amp;port, int max_depth, std::stringstream *dot) const</arglist>
+    </member>
+    <member kind="function">
+      <type>int64_t</type>
+      <name>GetGraphvizId</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>aa1fac664a1c120c425bc522d7ecb435c</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>FixInputPortsFrom</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a601fb2c6cf565d954253d25725ae9d6b</anchor>
+      <arglist>(const System&lt; double &gt; &amp;other_system, const Context&lt; double &gt; &amp;other_context, Context&lt; double &gt; *target_context) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const SystemScalarConverter &amp;</type>
+      <name>get_system_scalar_converter</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system.html</anchorfile>
+      <anchor>a4f520e00ddac3d41f7e2df922de46da4</anchor>
+      <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::drake::systems::SystemBase</name>
     <filename>classmaliput_1_1drake_1_1systems_1_1_system_base.html</filename>
     <base>maliput::drake::systems::internal::SystemMessageInterface</base>
@@ -32784,6 +38060,115 @@
     </member>
     <member kind="function">
       <type>const System&lt; T &gt; &amp;</type>
+      <name>get_system</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system_constraint.html</anchorfile>
+      <anchor>a5c403016877fd5f6291208aeb9a8063c</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const SystemConstraintBounds &amp;</type>
+      <name>bounds</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system_constraint.html</anchorfile>
+      <anchor>ae87e33ae13c59fffc72c5519a9741504</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system_constraint.html</anchorfile>
+      <anchor>af9593d4a5ff4274efaf429cb4f9e57cc</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>SystemConstraintType</type>
+      <name>type</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system_constraint.html</anchorfile>
+      <anchor>a290e041bd3a8025e0db998efee366d6c</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>is_equality_constraint</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system_constraint.html</anchorfile>
+      <anchor>abcafbae944197bced07e5fad982d9341</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Eigen::VectorXd &amp;</type>
+      <name>lower_bound</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system_constraint.html</anchorfile>
+      <anchor>af82995c25d1c99a8ec676ffd7ec92204</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Eigen::VectorXd &amp;</type>
+      <name>upper_bound</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system_constraint.html</anchorfile>
+      <anchor>a451749e9965610a12833a0252edc7803</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::string &amp;</type>
+      <name>description</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system_constraint.html</anchorfile>
+      <anchor>a69c497e09fe90969c3f9d46692eb668f</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::optional&lt; internal::SystemId &gt; &amp;</type>
+      <name>get_system_id</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system_constraint.html</anchorfile>
+      <anchor>a0a58f995f3aff39ba8792f0a8c2158ce</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_system_id</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system_constraint.html</anchorfile>
+      <anchor>a3965cbaa8df39799338ac0838f8306a7</anchor>
+      <arglist>(internal::SystemId id)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>SystemConstraint&lt; double &gt;</name>
+    <filename>classmaliput_1_1drake_1_1systems_1_1_system_constraint.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>SystemConstraint</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system_constraint.html</anchorfile>
+      <anchor>a7f4a4465f9643bf8f48fda8ffaf41131</anchor>
+      <arglist>(const System&lt; double &gt; *system, std::string description)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>SystemConstraint</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system_constraint.html</anchorfile>
+      <anchor>af269862dd25edca586ba2097088aba1d</anchor>
+      <arglist>(const System&lt; double &gt; *system, ContextConstraintCalc&lt; double &gt; calc_function, SystemConstraintBounds bounds, std::string description)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>SystemConstraint</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system_constraint.html</anchorfile>
+      <anchor>afb8cca7bc4a12bf41444b20bd4e35a5f</anchor>
+      <arglist>(const System&lt; double &gt; *system, SystemConstraintCalc&lt; double &gt; calc_function, SystemConstraintBounds bounds, std::string description)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>Calc</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system_constraint.html</anchorfile>
+      <anchor>a36c85b060c434857b59b0992f9f95619</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, VectorX&lt; double &gt; *value) const</arglist>
+    </member>
+    <member kind="function">
+      <type>boolean&lt; double &gt;</type>
+      <name>CheckSatisfied</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system_constraint.html</anchorfile>
+      <anchor>a3899e4ce18e02c4370c47d0feebbc9e3</anchor>
+      <arglist>(const Context&lt; double &gt; &amp;context, double tol) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const System&lt; double &gt; &amp;</type>
       <name>get_system</name>
       <anchorfile>classmaliput_1_1drake_1_1systems_1_1_system_constraint.html</anchorfile>
       <anchor>a5c403016877fd5f6291208aeb9a8063c</anchor>
@@ -37455,193 +42840,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::drake::systems::VectorBase</name>
-    <filename>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</filename>
-    <templarg></templarg>
-    <member kind="function" virtualness="virtual">
-      <type>virtual</type>
-      <name>~VectorBase</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>abc19c2584a73f03bd1e31277d11315b4</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function" virtualness="pure">
-      <type>virtual int</type>
-      <name>size</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a36b716289158c33f86a8cf30219be68c</anchor>
-      <arglist>() const =0</arglist>
-    </member>
-    <member kind="function">
-      <type>T &amp;</type>
-      <name>operator[]</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a2d4b36a43041d6505f82836a6aeccd52</anchor>
-      <arglist>(int index)</arglist>
-    </member>
-    <member kind="function">
-      <type>const T &amp;</type>
-      <name>operator[]</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>ab3f0073680dabba9d2778d9a6f35aed7</anchor>
-      <arglist>(int index) const</arglist>
-    </member>
-    <member kind="function">
-      <type>const T &amp;</type>
-      <name>GetAtIndex</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>ae79ea848ba1a3e2a87da1777b3f399cc</anchor>
-      <arglist>(int index) const</arglist>
-    </member>
-    <member kind="function">
-      <type>T &amp;</type>
-      <name>GetAtIndex</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>aef7a4ff282156d6974f47912756265b4</anchor>
-      <arglist>(int index)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>SetAtIndex</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a5c5902bbfda44607fda562f0c3956520</anchor>
-      <arglist>(int index, const T &amp;value)</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>SetFrom</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a3a8364f71b762045df41bfcb58927fe5</anchor>
-      <arglist>(const VectorBase&lt; T &gt; &amp;value)</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>SetFromVector</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>aea9d9b7396dccc9374d87a9be04a2597</anchor>
-      <arglist>(const Eigen::Ref&lt; const VectorX&lt; T &gt;&gt; &amp;value)</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>SetZero</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a04797332f4fa1889d462e5c7aacf1400</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual VectorX&lt; T &gt;</type>
-      <name>CopyToVector</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a23751ea78ff51179a9b3ed90317c922d</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>CopyToPreSizedVector</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a9f65de06c90fe4b0a0cd427032313218</anchor>
-      <arglist>(EigenPtr&lt; VectorX&lt; T &gt;&gt; vec) const</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>ScaleAndAddToVector</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>abe595692eca6a4b16cd0344195d54599</anchor>
-      <arglist>(const T &amp;scale, EigenPtr&lt; VectorX&lt; T &gt;&gt; vec) const</arglist>
-    </member>
-    <member kind="function">
-      <type>VectorBase &amp;</type>
-      <name>PlusEqScaled</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>aecb348d2ee8136278c64e180f4af21b7</anchor>
-      <arglist>(const T &amp;scale, const VectorBase&lt; T &gt; &amp;rhs)</arglist>
-    </member>
-    <member kind="function">
-      <type>VectorBase &amp;</type>
-      <name>PlusEqScaled</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a32def866adfc4d6ce3dfe3255881651c</anchor>
-      <arglist>(const std::initializer_list&lt; std::pair&lt; T, const VectorBase&lt; T &gt; &amp; &gt;&gt; &amp;rhs_scale)</arglist>
-    </member>
-    <member kind="function">
-      <type>VectorBase &amp;</type>
-      <name>operator+=</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>accc86d5305584bc7cb96971f60220125</anchor>
-      <arglist>(const VectorBase&lt; T &gt; &amp;rhs)</arglist>
-    </member>
-    <member kind="function">
-      <type>VectorBase &amp;</type>
-      <name>operator-=</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>acb91f3ae2b66473a274073f56c5fbec0</anchor>
-      <arglist>(const VectorBase&lt; T &gt; &amp;rhs)</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>GetElementBounds</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>afcd23700f1c0e51cb736750eb3fafa51</anchor>
-      <arglist>(Eigen::VectorXd *lower, Eigen::VectorXd *upper) const</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type></type>
-      <name>VectorBase</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a146b52fc4bf3790ed55a6c097ca3e76b</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual const T &amp;</type>
-      <name>DoGetAtIndexUnchecked</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>afd5f03561f8acae4788b65a50f1f3976</anchor>
-      <arglist>(int index) const =0</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual T &amp;</type>
-      <name>DoGetAtIndexUnchecked</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a97deb44c7757ee934f32bef2afed9a2b</anchor>
-      <arglist>(int index)=0</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual const T &amp;</type>
-      <name>DoGetAtIndexChecked</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>ab8b65615b7a17723177ea016cd5521a0</anchor>
-      <arglist>(int index) const =0</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual T &amp;</type>
-      <name>DoGetAtIndexChecked</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a487b2857071e5fefee941a9b9f39a5bb</anchor>
-      <arglist>(int index)=0</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="virtual">
-      <type>virtual void</type>
-      <name>DoPlusEqScaled</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a2fe79641d14373b863f2bb2a6bf40d14</anchor>
-      <arglist>(const std::initializer_list&lt; std::pair&lt; T, const VectorBase&lt; T &gt; &amp; &gt;&gt; &amp;rhs_scale)</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type>void</type>
-      <name>ThrowOutOfRange</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>abdd4d55ace1242d8a8deac5d5edcb8bd</anchor>
-      <arglist>(int index) const</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type>void</type>
-      <name>ThrowMismatchedSize</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>acfa12ab9f75a241f10fe4554da824957</anchor>
-      <arglist>(int other_size) const</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>maliput::math::VectorBase</name>
     <filename>classmaliput_1_1math_1_1_vector_base.html</filename>
     <templarg>N</templarg>
@@ -37855,6 +43053,193 @@
       <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
       <anchor>abb7e8f7ce1f48418814ff28063f31567</anchor>
       <arglist>(std::ostream &amp;os, const VectorBase&lt; N_, Derived_ &gt; &amp;vector)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::drake::systems::VectorBase</name>
+    <filename>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</filename>
+    <templarg></templarg>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~VectorBase</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>abc19c2584a73f03bd1e31277d11315b4</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual int</type>
+      <name>size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a36b716289158c33f86a8cf30219be68c</anchor>
+      <arglist>() const =0</arglist>
+    </member>
+    <member kind="function">
+      <type>T &amp;</type>
+      <name>operator[]</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a2d4b36a43041d6505f82836a6aeccd52</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>const T &amp;</type>
+      <name>operator[]</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>ab3f0073680dabba9d2778d9a6f35aed7</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const T &amp;</type>
+      <name>GetAtIndex</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>ae79ea848ba1a3e2a87da1777b3f399cc</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>T &amp;</type>
+      <name>GetAtIndex</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>aef7a4ff282156d6974f47912756265b4</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetAtIndex</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a5c5902bbfda44607fda562f0c3956520</anchor>
+      <arglist>(int index, const T &amp;value)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>SetFrom</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a3a8364f71b762045df41bfcb58927fe5</anchor>
+      <arglist>(const VectorBase&lt; T &gt; &amp;value)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>SetFromVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>aea9d9b7396dccc9374d87a9be04a2597</anchor>
+      <arglist>(const Eigen::Ref&lt; const VectorX&lt; T &gt;&gt; &amp;value)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>SetZero</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a04797332f4fa1889d462e5c7aacf1400</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual VectorX&lt; T &gt;</type>
+      <name>CopyToVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a23751ea78ff51179a9b3ed90317c922d</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>CopyToPreSizedVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a9f65de06c90fe4b0a0cd427032313218</anchor>
+      <arglist>(EigenPtr&lt; VectorX&lt; T &gt;&gt; vec) const</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>ScaleAndAddToVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>abe595692eca6a4b16cd0344195d54599</anchor>
+      <arglist>(const T &amp;scale, EigenPtr&lt; VectorX&lt; T &gt;&gt; vec) const</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase &amp;</type>
+      <name>PlusEqScaled</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>aecb348d2ee8136278c64e180f4af21b7</anchor>
+      <arglist>(const T &amp;scale, const VectorBase&lt; T &gt; &amp;rhs)</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase &amp;</type>
+      <name>PlusEqScaled</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a32def866adfc4d6ce3dfe3255881651c</anchor>
+      <arglist>(const std::initializer_list&lt; std::pair&lt; T, const VectorBase&lt; T &gt; &amp; &gt;&gt; &amp;rhs_scale)</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase &amp;</type>
+      <name>operator+=</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>accc86d5305584bc7cb96971f60220125</anchor>
+      <arglist>(const VectorBase&lt; T &gt; &amp;rhs)</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase &amp;</type>
+      <name>operator-=</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>acb91f3ae2b66473a274073f56c5fbec0</anchor>
+      <arglist>(const VectorBase&lt; T &gt; &amp;rhs)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>GetElementBounds</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>afcd23700f1c0e51cb736750eb3fafa51</anchor>
+      <arglist>(Eigen::VectorXd *lower, Eigen::VectorXd *upper) const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>VectorBase</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a146b52fc4bf3790ed55a6c097ca3e76b</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual const T &amp;</type>
+      <name>DoGetAtIndexUnchecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>afd5f03561f8acae4788b65a50f1f3976</anchor>
+      <arglist>(int index) const =0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual T &amp;</type>
+      <name>DoGetAtIndexUnchecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a97deb44c7757ee934f32bef2afed9a2b</anchor>
+      <arglist>(int index)=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual const T &amp;</type>
+      <name>DoGetAtIndexChecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>ab8b65615b7a17723177ea016cd5521a0</anchor>
+      <arglist>(int index) const =0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual T &amp;</type>
+      <name>DoGetAtIndexChecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a487b2857071e5fefee941a9b9f39a5bb</anchor>
+      <arglist>(int index)=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoPlusEqScaled</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a2fe79641d14373b863f2bb2a6bf40d14</anchor>
+      <arglist>(const std::initializer_list&lt; std::pair&lt; T, const VectorBase&lt; T &gt; &amp; &gt;&gt; &amp;rhs_scale)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>ThrowOutOfRange</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>abdd4d55ace1242d8a8deac5d5edcb8bd</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>ThrowMismatchedSize</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>acfa12ab9f75a241f10fe4554da824957</anchor>
+      <arglist>(int other_size) const</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -38497,6 +43882,192 @@
       <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
       <anchor>abb7e8f7ce1f48418814ff28063f31567</anchor>
       <arglist>(std::ostream &amp;os, const VectorBase&lt; N_, Derived_ &gt; &amp;vector)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>VectorBase&lt; double &gt;</name>
+    <filename>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</filename>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~VectorBase</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>abc19c2584a73f03bd1e31277d11315b4</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual int</type>
+      <name>size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a36b716289158c33f86a8cf30219be68c</anchor>
+      <arglist>() const=0</arglist>
+    </member>
+    <member kind="function">
+      <type>double &amp;</type>
+      <name>operator[]</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a2d4b36a43041d6505f82836a6aeccd52</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>operator[]</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>ab3f0073680dabba9d2778d9a6f35aed7</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const double &amp;</type>
+      <name>GetAtIndex</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>ae79ea848ba1a3e2a87da1777b3f399cc</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>double &amp;</type>
+      <name>GetAtIndex</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>aef7a4ff282156d6974f47912756265b4</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetAtIndex</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a5c5902bbfda44607fda562f0c3956520</anchor>
+      <arglist>(int index, const double &amp;value)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>SetFrom</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a3a8364f71b762045df41bfcb58927fe5</anchor>
+      <arglist>(const VectorBase&lt; double &gt; &amp;value)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>SetFromVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>aea9d9b7396dccc9374d87a9be04a2597</anchor>
+      <arglist>(const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;value)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>SetZero</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a04797332f4fa1889d462e5c7aacf1400</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual VectorX&lt; double &gt;</type>
+      <name>CopyToVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a23751ea78ff51179a9b3ed90317c922d</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>CopyToPreSizedVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a9f65de06c90fe4b0a0cd427032313218</anchor>
+      <arglist>(EigenPtr&lt; VectorX&lt; double &gt;&gt; vec) const</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>ScaleAndAddToVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>abe595692eca6a4b16cd0344195d54599</anchor>
+      <arglist>(const double &amp;scale, EigenPtr&lt; VectorX&lt; double &gt;&gt; vec) const</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase &amp;</type>
+      <name>PlusEqScaled</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>aecb348d2ee8136278c64e180f4af21b7</anchor>
+      <arglist>(const double &amp;scale, const VectorBase&lt; double &gt; &amp;rhs)</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase &amp;</type>
+      <name>PlusEqScaled</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a32def866adfc4d6ce3dfe3255881651c</anchor>
+      <arglist>(const std::initializer_list&lt; std::pair&lt; double, const VectorBase&lt; double &gt; &amp; &gt;&gt; &amp;rhs_scale)</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase &amp;</type>
+      <name>operator+=</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>accc86d5305584bc7cb96971f60220125</anchor>
+      <arglist>(const VectorBase&lt; double &gt; &amp;rhs)</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase &amp;</type>
+      <name>operator-=</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>acb91f3ae2b66473a274073f56c5fbec0</anchor>
+      <arglist>(const VectorBase&lt; double &gt; &amp;rhs)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>GetElementBounds</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>afcd23700f1c0e51cb736750eb3fafa51</anchor>
+      <arglist>(Eigen::VectorXd *lower, Eigen::VectorXd *upper) const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>VectorBase</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a146b52fc4bf3790ed55a6c097ca3e76b</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual const double &amp;</type>
+      <name>DoGetAtIndexUnchecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>afd5f03561f8acae4788b65a50f1f3976</anchor>
+      <arglist>(int index) const=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual double &amp;</type>
+      <name>DoGetAtIndexUnchecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a97deb44c7757ee934f32bef2afed9a2b</anchor>
+      <arglist>(int index)=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual const double &amp;</type>
+      <name>DoGetAtIndexChecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>ab8b65615b7a17723177ea016cd5521a0</anchor>
+      <arglist>(int index) const=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual double &amp;</type>
+      <name>DoGetAtIndexChecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a487b2857071e5fefee941a9b9f39a5bb</anchor>
+      <arglist>(int index)=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoPlusEqScaled</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a2fe79641d14373b863f2bb2a6bf40d14</anchor>
+      <arglist>(const std::initializer_list&lt; std::pair&lt; double, const VectorBase&lt; double &gt; &amp; &gt;&gt; &amp;rhs_scale)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>ThrowOutOfRange</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>abdd4d55ace1242d8a8deac5d5edcb8bd</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>ThrowMismatchedSize</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>acfa12ab9f75a241f10fe4554da824957</anchor>
+      <arglist>(int other_size) const</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -40625,6 +46196,7 @@
     <namespace>maliput::drake::systems</namespace>
     <namespace>maliput::drake::trajectories</namespace>
     <class kind="class">maliput::drake::AbstractValue</class>
+    <class kind="class">maliput::drake::ArcLengthIntegrator</class>
     <class kind="class">maliput::drake::copyable_unique_ptr</class>
     <class kind="struct">maliput::drake::DelegatingHasher</class>
     <class kind="struct">maliput::drake::dummy_value</class>
@@ -40633,6 +46205,8 @@
     <class kind="struct">maliput::drake::EigenSizeMinPreferDynamic</class>
     <class kind="struct">maliput::drake::EigenSizeMinPreferFixed</class>
     <class kind="class">maliput::drake::Identifier</class>
+    <class kind="struct">maliput::drake::IntegratorConfiguration</class>
+    <class kind="class">maliput::drake::InverseArcLengthIntegrator</class>
     <class kind="struct">maliput::drake::is_eigen_nonvector_of</class>
     <class kind="struct">maliput::drake::is_eigen_scalar_same</class>
     <class kind="struct">maliput::drake::is_eigen_type</class>
@@ -41159,6 +46733,13 @@
       <arglist>(RandomDistribution distribution, const Eigen::Ref&lt; const VectorX&lt; T &gt;&gt; &amp;x)</arglist>
     </member>
     <member kind="function">
+      <type>template double</type>
+      <name>CalcProbabilityDensity&lt; double &gt;</name>
+      <anchorfile>namespacemaliput_1_1drake.html</anchorfile>
+      <anchor>a10bce133654002443b7d69eec8835b39</anchor>
+      <arglist>(RandomDistribution, const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;)</arglist>
+    </member>
+    <member kind="function">
       <type>logging::logger *</type>
       <name>log</name>
       <anchorfile>namespacemaliput_1_1drake.html</anchorfile>
@@ -41213,13 +46794,6 @@
       <anchorfile>namespacemaliput_1_1drake.html</anchorfile>
       <anchor>acbbd758ec364c16c9c4137651e771013</anchor>
       <arglist>(const Args &amp;...)</arglist>
-    </member>
-    <member kind="function">
-      <type>template double</type>
-      <name>CalcProbabilityDensity&lt; double &gt;</name>
-      <anchorfile>namespacemaliput_1_1drake.html</anchorfile>
-      <anchor>a10bce133654002443b7d69eec8835b39</anchor>
-      <arglist>(RandomDistribution, const Eigen::Ref&lt; const VectorX&lt; double &gt;&gt; &amp;)</arglist>
     </member>
     <member kind="variable">
       <type>constexpr int</type>
@@ -41421,18 +46995,18 @@
       <arglist>()</arglist>
     </member>
     <member kind="function">
-      <type>constexpr bool</type>
-      <name>hash_template_argument_from_pretty_func</name>
-      <anchorfile>namespacemaliput_1_1drake_1_1internal.html</anchorfile>
-      <anchor>af079568a021f33d97623eb499843654e</anchor>
-      <arglist>(const char *pretty, int which_argument, bool discard_nested, bool discard_cast, FNV1aHasher *result)</arglist>
-    </member>
-    <member kind="function">
       <type>int</type>
       <name>ReportZeroHash</name>
       <anchorfile>namespacemaliput_1_1drake_1_1internal.html</anchorfile>
       <anchor>a12407aae7832e4556353ffbf97e03947</anchor>
       <arglist>(const std::type_info &amp;detail)</arglist>
+    </member>
+    <member kind="function">
+      <type>constexpr bool</type>
+      <name>hash_template_argument_from_pretty_func</name>
+      <anchorfile>namespacemaliput_1_1drake_1_1internal.html</anchorfile>
+      <anchor>af079568a021f33d97623eb499843654e</anchor>
+      <arglist>(const char *pretty, int which_argument, bool discard_nested, bool discard_cast, FNV1aHasher *result)</arglist>
     </member>
   </compound>
   <compound kind="namespace">
@@ -42019,6 +47593,13 @@
       <type>void</type>
       <name>ThrowConversionMismatch</name>
       <anchorfile>namespacemaliput_1_1drake_1_1systems_1_1system__scalar__converter__internal.html</anchorfile>
+      <anchor>aea629ffdae88fdc0e82b15eb44a3ce89</anchor>
+      <arglist>(const type_info &amp;s_t_info, const type_info &amp;s_u_info, const type_info &amp;other_info)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>ThrowConversionMismatch</name>
+      <anchorfile>namespacemaliput_1_1drake_1_1systems_1_1system__scalar__converter__internal.html</anchorfile>
       <anchor>a58fc1e5b73e8984223896941082295a1</anchor>
       <arglist>(const std::type_info &amp;s_t_info, const std::type_info &amp;s_u_info, const std::type_info &amp;other_info)</arglist>
     </member>
@@ -42028,13 +47609,6 @@
       <anchorfile>namespacemaliput_1_1drake_1_1systems_1_1system__scalar__converter__internal.html</anchorfile>
       <anchor>aa03a4a2cb1a25beafff1998b78d29f4c</anchor>
       <arglist>(const System&lt; U &gt; &amp;other)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>ThrowConversionMismatch</name>
-      <anchorfile>namespacemaliput_1_1drake_1_1systems_1_1system__scalar__converter__internal.html</anchorfile>
-      <anchor>aea629ffdae88fdc0e82b15eb44a3ce89</anchor>
-      <arglist>(const type_info &amp;s_t_info, const type_info &amp;s_u_info, const type_info &amp;other_info)</arglist>
     </member>
   </compound>
   <compound kind="namespace">
@@ -43071,84 +48645,6 @@
     <title>System Scalar Conversion</title>
     <filename>group__system__scalar__conversion.html</filename>
     <docanchor file="group__system__scalar__conversion.html">system_scalar_conversion_how_to_write_a_system</docanchor>
-  </compound>
-  <compound kind="group">
-    <name>systems</name>
-    <title>Systems</title>
-    <filename>group__systems.html</filename>
-    <subgroup>events_description</subgroup>
-    <subgroup>primitive_systems</subgroup>
-    <subgroup>control_systems</subgroup>
-    <subgroup>estimator_systems</subgroup>
-    <subgroup>sensor_systems</subgroup>
-    <subgroup>manipulation_systems</subgroup>
-    <subgroup>message_passing</subgroup>
-    <subgroup>multibody_systems</subgroup>
-    <subgroup>perception_systems</subgroup>
-    <subgroup>discrete_systems</subgroup>
-    <subgroup>stochastic_systems</subgroup>
-    <subgroup>visualization</subgroup>
-    <subgroup>example_systems</subgroup>
-  </compound>
-  <compound kind="group">
-    <name>primitive_systems</name>
-    <title>Primitives</title>
-    <filename>group__primitive__systems.html</filename>
-  </compound>
-  <compound kind="group">
-    <name>control_systems</name>
-    <title>Controllers</title>
-    <filename>group__control__systems.html</filename>
-  </compound>
-  <compound kind="group">
-    <name>estimator_systems</name>
-    <title>Estimators</title>
-    <filename>group__estimator__systems.html</filename>
-  </compound>
-  <compound kind="group">
-    <name>sensor_systems</name>
-    <title>Sensors</title>
-    <filename>group__sensor__systems.html</filename>
-  </compound>
-  <compound kind="group">
-    <name>manipulation_systems</name>
-    <title>Manipulation</title>
-    <filename>group__manipulation__systems.html</filename>
-  </compound>
-  <compound kind="group">
-    <name>message_passing</name>
-    <title>Message Passing</title>
-    <filename>group__message__passing.html</filename>
-  </compound>
-  <compound kind="group">
-    <name>multibody_systems</name>
-    <title>Multibody Systems</title>
-    <filename>group__multibody__systems.html</filename>
-  </compound>
-  <compound kind="group">
-    <name>perception_systems</name>
-    <title>Perception</title>
-    <filename>group__perception__systems.html</filename>
-  </compound>
-  <compound kind="group">
-    <name>discrete_systems</name>
-    <title>Discrete Systems</title>
-    <filename>group__discrete__systems.html</filename>
-  </compound>
-  <compound kind="group">
-    <name>stochastic_systems</name>
-    <title>Stochastic Systems</title>
-    <filename>group__stochastic__systems.html</filename>
-  </compound>
-  <compound kind="group">
-    <name>visualization</name>
-    <title>Visualization</title>
-    <filename>group__visualization.html</filename>
-  </compound>
-  <compound kind="group">
-    <name>example_systems</name>
-    <title>Examples</title>
-    <filename>group__example__systems.html</filename>
   </compound>
   <compound kind="group">
     <name>levelmethods</name>

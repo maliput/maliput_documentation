@@ -13,6 +13,10 @@ var files_dup =
       [ "AntiderivativeFunction", "classmaliput_1_1drake_1_1systems_1_1_antiderivative_function.html", "classmaliput_1_1drake_1_1systems_1_1_antiderivative_function" ],
       [ "IntegrableFunctionContext", "structmaliput_1_1drake_1_1systems_1_1_antiderivative_function_1_1_integrable_function_context.html", "structmaliput_1_1drake_1_1systems_1_1_antiderivative_function_1_1_integrable_function_context" ]
     ] ],
+    [ "arc_length_integrator.cc", "arc__length__integrator_8cc.html", "arc__length__integrator_8cc" ],
+    [ "arc_length_integrator.h", "arc__length__integrator_8h.html", [
+      [ "ArcLengthIntegrator", "classmaliput_1_1drake_1_1_arc_length_integrator.html", "classmaliput_1_1drake_1_1_arc_length_integrator" ]
+    ] ],
     [ "assertion_error.h", "assertion__error_8h.html", [
       [ "assertion_error", "classmaliput_1_1common_1_1assertion__error.html", "classmaliput_1_1common_1_1assertion__error" ]
     ] ],
@@ -96,7 +100,6 @@ var files_dup =
     [ "derive_lane_s_routes.h", "derive__lane__s__routes_8h.html", "derive__lane__s__routes_8h" ],
     [ "direction_usage_rule.cc", "direction__usage__rule_8cc.html", null ],
     [ "direction_usage_rule.h", "direction__usage__rule_8h.html", "direction__usage__rule_8h" ],
-    [ "discrete_systems.h", "discrete__systems_8h.html", null ],
     [ "discrete_value_rule.cc", "discrete__value__rule_8cc.html", null ],
     [ "discrete_value_rule.h", "discrete__value__rule_8h.html", [
       [ "DiscreteValueRule", "classmaliput_1_1api_1_1rules_1_1_discrete_value_rule.html", "classmaliput_1_1api_1_1rules_1_1_discrete_value_rule" ],
@@ -182,6 +185,9 @@ var files_dup =
     ] ],
     [ "integrator_base.cc", "integrator__base_8cc.html", null ],
     [ "integrator_base.h", "integrator__base_8h.html", null ],
+    [ "integrator_configuration.h", "integrator__configuration_8h.html", [
+      [ "IntegratorConfiguration", "structmaliput_1_1drake_1_1_integrator_configuration.html", "structmaliput_1_1drake_1_1_integrator_configuration" ]
+    ] ],
     [ "api/intersection.cc", "api_2intersection_8cc.html", null ],
     [ "base/intersection.cc", "base_2intersection_8cc.html", null ],
     [ "api/intersection.h", "api_2intersection_8h.html", [
@@ -199,6 +205,10 @@ var files_dup =
     ] ],
     [ "intersection_book_loader.cc", "intersection__book__loader_8cc.html", "intersection__book__loader_8cc" ],
     [ "intersection_book_loader.h", "intersection__book__loader_8h.html", "intersection__book__loader_8h" ],
+    [ "inverse_arc_length_integrator.cc", "inverse__arc__length__integrator_8cc.html", "inverse__arc__length__integrator_8cc" ],
+    [ "inverse_arc_length_integrator.h", "inverse__arc__length__integrator_8h.html", [
+      [ "InverseArcLengthIntegrator", "classmaliput_1_1drake_1_1_inverse_arc_length_integrator.html", "classmaliput_1_1drake_1_1_inverse_arc_length_integrator" ]
+    ] ],
     [ "is_cloneable.h", "is__cloneable_8h.html", "is__cloneable_8h" ],
     [ "junction.cc", "junction_8cc.html", null ],
     [ "api/junction.h", "api_2junction_8h.html", "api_2junction_8h" ],
@@ -503,7 +513,6 @@ var files_dup =
     [ "stepwise_dense_output.h", "stepwise__dense__output_8h.html", [
       [ "StepwiseDenseOutput", "classmaliput_1_1drake_1_1systems_1_1_stepwise_dense_output.html", "classmaliput_1_1drake_1_1systems_1_1_stepwise_dense_output" ]
     ] ],
-    [ "stochastic_systems.h", "stochastic__systems_8h.html", null ],
     [ "strategy_base.cc", "strategy__base_8cc.html", "strategy__base_8cc" ],
     [ "strategy_base.h", "strategy__base_8h.html", "strategy__base_8h" ],
     [ "string_format.cc", "string__format_8cc.html", "string__format_8cc" ],
@@ -543,7 +552,6 @@ var files_dup =
       [ "Diagram", "classmaliput_1_1drake_1_1systems_1_1_diagram.html", null ],
       [ "SystemVisitor", "classmaliput_1_1drake_1_1systems_1_1_system_visitor.html", "classmaliput_1_1drake_1_1systems_1_1_system_visitor" ]
     ] ],
-    [ "systems.h", "systems_8h.html", null ],
     [ "text_logging.cc", "text__logging_8cc.html", "text__logging_8cc" ],
     [ "text_logging.h", "text__logging_8h.html", "text__logging_8h" ],
     [ "thread_pool.cc", "thread__pool_8cc.html", null ],

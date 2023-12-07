@@ -4,6 +4,8 @@ var hierarchy =
     [ "AbstractValueCloner", "classmaliput_1_1drake_1_1systems_1_1internal_1_1_abstract_value_cloner.html", null ],
     [ "AbstractValues", "classmaliput_1_1drake_1_1systems_1_1_abstract_values.html", null ],
     [ "AntiderivativeFunction< T >", "classmaliput_1_1drake_1_1systems_1_1_antiderivative_function.html", null ],
+    [ "AntiderivativeFunction< double >", "classmaliput_1_1drake_1_1systems_1_1_antiderivative_function.html", null ],
+    [ "ArcLengthIntegrator", "classmaliput_1_1drake_1_1_arc_length_integrator.html", null ],
     [ "bool_constant", null, [
       [ "is_eigen_nonvector_of< Derived, Scalar >", "structmaliput_1_1drake_1_1is__eigen__nonvector__of.html", null ],
       [ "is_eigen_scalar_same< Derived, Scalar >", "structmaliput_1_1drake_1_1is__eigen__scalar__same.html", null ],
@@ -36,6 +38,7 @@ var hierarchy =
     [ "ContextBaseFixedInputAttorney", "classmaliput_1_1drake_1_1systems_1_1internal_1_1_context_base_fixed_input_attorney.html", null ],
     [ "ContextMessageInterface", "classmaliput_1_1drake_1_1systems_1_1internal_1_1_context_message_interface.html", [
       [ "ContextBase", "classmaliput_1_1drake_1_1systems_1_1_context_base.html", [
+        [ "Context< double >", "classmaliput_1_1drake_1_1systems_1_1_context.html", null ],
         [ "Context< T >", "classmaliput_1_1drake_1_1systems_1_1_context.html", [
           [ "LeafContext< T >", "classmaliput_1_1drake_1_1systems_1_1_leaf_context.html", null ]
         ] ]
@@ -43,6 +46,7 @@ var hierarchy =
     ] ],
     [ "SystemBase::ContextSizes", "structmaliput_1_1drake_1_1systems_1_1_system_base_1_1_context_sizes.html", null ],
     [ "ContinuousState< T >", "classmaliput_1_1drake_1_1systems_1_1_continuous_state.html", null ],
+    [ "ContinuousState< double >", "classmaliput_1_1drake_1_1systems_1_1_continuous_state.html", null ],
     [ "convert< maliput::api::SRange >", "struct_y_a_m_l_1_1convert_3_01maliput_1_1api_1_1_s_range_01_4.html", null ],
     [ "DelegatingHasher", "structmaliput_1_1common_1_1_delegating_hasher.html", null ],
     [ "DelegatingHasher", "structmaliput_1_1drake_1_1_delegating_hasher.html", null ],
@@ -65,6 +69,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "DiscreteValues< T >", "classmaliput_1_1drake_1_1systems_1_1_discrete_values.html", null ],
+    [ "DiscreteValues< double >", "classmaliput_1_1drake_1_1systems_1_1_discrete_values.html", null ],
     [ "dummy_value< T >", "structmaliput_1_1drake_1_1dummy__value.html", null ],
     [ "dummy_value< int >", "structmaliput_1_1drake_1_1dummy__value_3_01int_01_4.html", null ],
     [ "EigenPtr< PlainObjectType >", "classmaliput_1_1drake_1_1_eigen_ptr.html", null ],
@@ -80,8 +85,11 @@ var hierarchy =
     [ "EventCollection< EventType >", "classmaliput_1_1drake_1_1systems_1_1_event_collection.html", [
       [ "DiagramEventCollection< EventType >", "classmaliput_1_1drake_1_1systems_1_1_diagram_event_collection.html", null ]
     ] ],
+    [ "EventCollection< maliput::drake::systems::DiscreteUpdateEvent< double > >", "classmaliput_1_1drake_1_1systems_1_1_event_collection.html", null ],
     [ "EventCollection< maliput::drake::systems::DiscreteUpdateEvent< T > >", "classmaliput_1_1drake_1_1systems_1_1_event_collection.html", null ],
+    [ "EventCollection< maliput::drake::systems::PublishEvent< double > >", "classmaliput_1_1drake_1_1systems_1_1_event_collection.html", null ],
     [ "EventCollection< maliput::drake::systems::PublishEvent< T > >", "classmaliput_1_1drake_1_1systems_1_1_event_collection.html", null ],
+    [ "EventCollection< maliput::drake::systems::UnrestrictedUpdateEvent< double > >", "classmaliput_1_1drake_1_1systems_1_1_event_collection.html", null ],
     [ "EventCollection< maliput::drake::systems::UnrestrictedUpdateEvent< T > >", "classmaliput_1_1drake_1_1systems_1_1_event_collection.html", null ],
     [ "EventData", "classmaliput_1_1drake_1_1systems_1_1_event_data.html", [
       [ "PeriodicEventData", "classmaliput_1_1drake_1_1systems_1_1_periodic_event_data.html", null ],
@@ -118,11 +126,14 @@ var hierarchy =
     [ "IndexFace", "classmaliput_1_1utility_1_1mesh_1_1_index_face.html", null ],
     [ "InertialPosition", "classmaliput_1_1api_1_1_inertial_position.html", null ],
     [ "InitialValueProblem< T >", "classmaliput_1_1drake_1_1systems_1_1_initial_value_problem.html", null ],
+    [ "InitialValueProblem< double >", "classmaliput_1_1drake_1_1systems_1_1_initial_value_problem.html", null ],
     [ "AntiderivativeFunction< T >::IntegrableFunctionContext", "structmaliput_1_1drake_1_1systems_1_1_antiderivative_function_1_1_integrable_function_context.html", null ],
     [ "HermitianDenseOutput< T >::IntegrationStep", "classmaliput_1_1drake_1_1systems_1_1_hermitian_dense_output_1_1_integration_step.html", null ],
     [ "IntegratorBase< T >", "classmaliput_1_1drake_1_1systems_1_1_integrator_base.html", [
       [ "RungeKutta3Integrator< T >", "classmaliput_1_1drake_1_1systems_1_1_runge_kutta3_integrator.html", null ]
     ] ],
+    [ "IntegratorBase< double >", "classmaliput_1_1drake_1_1systems_1_1_integrator_base.html", null ],
+    [ "IntegratorConfiguration", "structmaliput_1_1drake_1_1_integrator_configuration.html", null ],
     [ "Intersection", "classmaliput_1_1api_1_1_intersection.html", [
       [ "Intersection", "classmaliput_1_1_intersection.html", null ]
     ] ],
@@ -132,6 +143,7 @@ var hierarchy =
     [ "IntPackHasher< Ns >", "structmaliput_1_1drake_1_1internal_1_1_int_pack_hasher.html", null ],
     [ "IntPackHasher< N, Ns... >", "structmaliput_1_1drake_1_1internal_1_1_int_pack_hasher_3_01_n_00_01_ns_8_8_8_01_4.html", null ],
     [ "IntPackHasher<>", "structmaliput_1_1drake_1_1internal_1_1_int_pack_hasher_3_4.html", null ],
+    [ "InverseArcLengthIntegrator", "classmaliput_1_1drake_1_1_inverse_arc_length_integrator.html", null ],
     [ "is_base_of", null, [
       [ "is_eigen_type< Derived >", "structmaliput_1_1drake_1_1is__eigen__type.html", null ]
     ] ],
@@ -195,11 +207,12 @@ var hierarchy =
     [ "ParameterPackHasher< A, B... >", "structmaliput_1_1drake_1_1internal_1_1_parameter_pack_hasher_3_01_a_00_01_b_8_8_8_01_4.html", null ],
     [ "ParameterPackHasher<>", "structmaliput_1_1drake_1_1internal_1_1_parameter_pack_hasher_3_4.html", null ],
     [ "Parameters< T >", "classmaliput_1_1drake_1_1systems_1_1_parameters.html", null ],
+    [ "Parameters< double >", "classmaliput_1_1drake_1_1systems_1_1_parameters.html", null ],
     [ "Passkey< T >", "classmaliput_1_1common_1_1_passkey.html", null ],
     [ "Path", "classmaliput_1_1common_1_1_path.html", null ],
     [ "PeriodicEventDataComparator", "structmaliput_1_1drake_1_1systems_1_1_periodic_event_data_comparator.html", null ],
-    [ "Phase", "classmaliput_1_1api_1_1rules_1_1_phase.html", null ],
     [ "Phase", "classmaliput_1_1routing_1_1_phase.html", null ],
+    [ "Phase", "classmaliput_1_1api_1_1rules_1_1_phase.html", null ],
     [ "PhaseBuildFlags", "structmaliput_1_1api_1_1test_1_1_phase_build_flags.html", null ],
     [ "PhasePositionResult", "structmaliput_1_1routing_1_1_phase_position_result.html", null ],
     [ "PhaseProvider", "classmaliput_1_1api_1_1rules_1_1_phase_provider.html", [
@@ -278,6 +291,7 @@ var hierarchy =
     [ "RuleTypeFilter", "structmaliput_1_1_rule_type_filter.html", null ],
     [ "scalar_predicate< T >", "structmaliput_1_1drake_1_1scalar__predicate.html", null ],
     [ "ScalarInitialValueProblem< T >", "classmaliput_1_1drake_1_1systems_1_1_scalar_initial_value_problem.html", null ],
+    [ "ScalarInitialValueProblem< double >", "classmaliput_1_1drake_1_1systems_1_1_scalar_initial_value_problem.html", null ],
     [ "ScalarInitialValueProblem< T >::ScalarOdeContext", "structmaliput_1_1drake_1_1systems_1_1_scalar_initial_value_problem_1_1_scalar_ode_context.html", null ],
     [ "Segment", "classmaliput_1_1api_1_1_segment.html", [
       [ "MockSegment", "classmaliput_1_1api_1_1test_1_1_mock_segment.html", null ],
@@ -292,11 +306,11 @@ var hierarchy =
     [ "SquaredDistance< Coordinate, Dimension >", "structmaliput_1_1math_1_1details_1_1_squared_distance.html", null ],
     [ "SRange", "classmaliput_1_1api_1_1_s_range.html", null ],
     [ "SrhFace", "classmaliput_1_1utility_1_1mesh_1_1_srh_face.html", null ],
+    [ "State< T >", "classmaliput_1_1drake_1_1systems_1_1_state.html", null ],
     [ "Rule::State", "structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html", [
       [ "DiscreteValueRule::DiscreteValue", "structmaliput_1_1api_1_1rules_1_1_discrete_value_rule_1_1_discrete_value.html", null ],
       [ "RangeValueRule::Range", "structmaliput_1_1api_1_1rules_1_1_range_value_rule_1_1_range.html", null ]
     ] ],
-    [ "State< T >", "classmaliput_1_1drake_1_1systems_1_1_state.html", null ],
     [ "StateProviderResult< T >", "structmaliput_1_1api_1_1rules_1_1_state_provider_result.html", null ],
     [ "StrategyBase", "classmaliput_1_1geometry__base_1_1_strategy_base.html", [
       [ "BruteForceStrategy", "classmaliput_1_1geometry__base_1_1_brute_force_strategy.html", null ],
@@ -306,8 +320,10 @@ var hierarchy =
     [ "System< T >", "classmaliput_1_1drake_1_1systems_1_1_system.html", [
       [ "LeafSystem< T >", "classmaliput_1_1drake_1_1systems_1_1_leaf_system.html", null ]
     ] ],
+    [ "System< double >", "classmaliput_1_1drake_1_1systems_1_1_system.html", null ],
     [ "SystemBaseContextBaseAttorney", "classmaliput_1_1drake_1_1systems_1_1internal_1_1_system_base_context_base_attorney.html", null ],
     [ "SystemConstraint< T >", "classmaliput_1_1drake_1_1systems_1_1_system_constraint.html", null ],
+    [ "SystemConstraint< double >", "classmaliput_1_1drake_1_1systems_1_1_system_constraint.html", null ],
     [ "SystemConstraintBounds", "classmaliput_1_1drake_1_1systems_1_1_system_constraint_bounds.html", null ],
     [ "SystemMessageInterface", "classmaliput_1_1drake_1_1systems_1_1internal_1_1_system_message_interface.html", [
       [ "SystemBase", "classmaliput_1_1drake_1_1systems_1_1_system_base.html", null ]
@@ -376,6 +392,7 @@ var hierarchy =
       [ "copyable_unique_ptr< maliput::drake::systems::CacheEntryValue >", "classmaliput_1_1drake_1_1copyable__unique__ptr.html", null ],
       [ "copyable_unique_ptr< maliput::drake::systems::EventData >", "classmaliput_1_1drake_1_1copyable__unique__ptr.html", null ],
       [ "copyable_unique_ptr< maliput::drake::systems::FixedInputPortValue >", "classmaliput_1_1drake_1_1copyable__unique__ptr.html", null ],
+      [ "copyable_unique_ptr< maliput::drake::systems::Parameters< double > >", "classmaliput_1_1drake_1_1copyable__unique__ptr.html", null ],
       [ "copyable_unique_ptr< maliput::drake::systems::Parameters< T > >", "classmaliput_1_1drake_1_1copyable__unique__ptr.html", null ],
       [ "copyable_unique_ptr< T >", "classmaliput_1_1drake_1_1copyable__unique__ptr.html", null ]
     ] ],
@@ -397,11 +414,11 @@ var hierarchy =
     [ "ValueTraitsImpl< T, use_copy >", "structmaliput_1_1drake_1_1internal_1_1_value_traits_impl.html", null ],
     [ "ValueTraitsImpl< T, false >", "structmaliput_1_1drake_1_1internal_1_1_value_traits_impl_3_01_t_00_01false_01_4.html", null ],
     [ "ValueTraitsImpl< T, true >", "structmaliput_1_1drake_1_1internal_1_1_value_traits_impl_3_01_t_00_01true_01_4.html", null ],
+    [ "VectorBase< N, Derived >", "classmaliput_1_1math_1_1_vector_base.html", null ],
     [ "VectorBase< T >", "classmaliput_1_1drake_1_1systems_1_1_vector_base.html", [
       [ "BasicVector< T >", "classmaliput_1_1drake_1_1systems_1_1_basic_vector.html", null ],
       [ "Subvector< T >", "classmaliput_1_1drake_1_1systems_1_1_subvector.html", null ]
     ] ],
-    [ "VectorBase< N, Derived >", "classmaliput_1_1math_1_1_vector_base.html", null ],
     [ "VectorBase< 2, Vector2 >", "classmaliput_1_1math_1_1_vector_base.html", [
       [ "Vector2", "classmaliput_1_1math_1_1_vector2.html", null ]
     ] ],
@@ -410,6 +427,9 @@ var hierarchy =
     ] ],
     [ "VectorBase< 4, Vector4 >", "classmaliput_1_1math_1_1_vector_base.html", [
       [ "Vector4", "classmaliput_1_1math_1_1_vector4.html", null ]
+    ] ],
+    [ "VectorBase< double >", "classmaliput_1_1drake_1_1systems_1_1_vector_base.html", [
+      [ "BasicVector< double >", "classmaliput_1_1drake_1_1systems_1_1_basic_vector.html", null ]
     ] ],
     [ "VectorBase< N, Vector< N > >", "classmaliput_1_1math_1_1_vector_base.html", [
       [ "Vector< N >", "classmaliput_1_1math_1_1_vector.html", null ]

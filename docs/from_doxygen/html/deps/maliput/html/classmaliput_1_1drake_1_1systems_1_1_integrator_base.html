@@ -103,11 +103,11 @@ class maliput::drake::systems::IntegratorBase&lt; T &gt;</h3>
 <p>An abstract class for an integrator for ODEs and DAEs as represented by a Drake <a class="el" href="classmaliput_1_1drake_1_1systems_1_1_system.html" title="Base class for all System functionality that is dependent on the templatized scalar type T for input,...">System</a>. </p>
 <p>Integrators solve initial value problems of the form:</p><pre>
 ẋ(t) = f(t, x(t)) with f : ℝ × ℝⁿ → ℝⁿ
-</pre><p> (i.e., <code>f()</code> is an ordinary differential equation) given initial conditions (t₀, x₀). Thus, integrators advance the continuous state of a dynamical system forward in time.</p>
+</pre><p> (i.e., <code><a class="el" href="arc__length__integrator_8cc.html#afedf9fdd3296c941d215a2dfc4b61c46">f()</a></code> is an ordinary differential equation) given initial conditions (t₀, x₀). Thus, integrators advance the continuous state of a dynamical system forward in time.</p>
 <p>Drake's subclasses of IntegratorBase&lt;T&gt; should follow the naming pattern <code>FooIntegrator&lt;T&gt;</code> by convention.</p>
 <p>@tparam_default_scalar </p>
 </div>
-<p><code>#include &lt;include/maliput/drake/systems/analysis/integrator_base.h&gt;</code></p>
+<p><code>#include &lt;src/maliput/drake/systems/analysis/integrator_base.h&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for IntegratorBase&lt; T &gt;:</div>
 <div class="dyncontent">

@@ -105,7 +105,7 @@ class maliput::drake::systems::DiagramEventCollection&lt; EventType &gt;</h3>
 <p>This class uses an unusual paradigm for storing collections of events corresponding to subsystems of the diagram ("subevent collections"). The class owns some subevent collections and maintains pointers to other subevent collections. The technical reasoning is that the same data may need to be referenced by multiple collections; <a class="el" href="classmaliput_1_1drake_1_1systems_1_1_diagram_composite_event_collection.html" title="CompositeEventCollection for a Diagram.">DiagramCompositeEventCollection</a> maintains one collection for all publish events and another for the events from each subsystem, but maintains only a single copy of all of the event data.</p>
 <p>End users should never need to use or know about this class. It is for internal use only. </p>
 </div>
-<p><code>#include &lt;include/maliput/drake/systems/framework/event_collection.h&gt;</code></p>
+<p><code>#include &lt;src/maliput/drake/systems/framework/event_collection.h&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for DiagramEventCollection&lt; EventType &gt;:</div>
 <div class="dyncontent">

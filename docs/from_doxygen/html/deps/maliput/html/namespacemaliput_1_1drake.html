@@ -118,6 +118,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1drake_1_1_abstract_value.html">AbstractValue</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A fully type-erased container class.  <a href="classmaliput_1_1drake_1_1_abstract_value.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1drake_1_1_arc_length_integrator.html">ArcLengthIntegrator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wraps maliput::drake::systems::AntiderivativeFunction&lt;double&gt; by using a pImpl.  <a href="classmaliput_1_1drake_1_1_arc_length_integrator.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1drake_1_1copyable__unique__ptr.html">copyable_unique_ptr</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A smart pointer with deep copy semantics.  <a href="classmaliput_1_1drake_1_1copyable__unique__ptr.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,6 +143,12 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1drake_1_1_identifier.html">Identifier</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A simple identifier class.  <a href="classmaliput_1_1drake_1_1_identifier.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1drake_1_1_integrator_configuration.html">IntegratorConfiguration</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds the configuration of the integrators.  <a href="structmaliput_1_1drake_1_1_integrator_configuration.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1drake_1_1_inverse_arc_length_integrator.html">InverseArcLengthIntegrator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wraps maliput::drake::systems::ScalarInitialValueProblem&lt;double&gt; by using a pImpl.  <a href="classmaliput_1_1drake_1_1_inverse_arc_length_integrator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1drake_1_1is__eigen__nonvector__of.html">is_eigen_nonvector_of</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -470,6 +479,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a7459c4a03d4b4f77eea119df933489da"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1drake.html#a7459c4a03d4b4f77eea119df933489da">CalcProbabilityDensity</a> (<a class="el" href="namespacemaliput_1_1drake.html#a72383be4710d27584d0821effc6506a5">RandomDistribution</a> distribution, const Eigen::Ref&lt; const <a class="el" href="namespacemaliput_1_1drake.html#a77dd228fb4dd66a2c17dd3f7f38ffd85">VectorX</a>&lt; T &gt;&gt; &amp;x)</td></tr>
 <tr class="memdesc:a7459c4a03d4b4f77eea119df933489da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the density (probability density function) of the multivariate distribution.  <a href="namespacemaliput_1_1drake.html#a7459c4a03d4b4f77eea119df933489da">More...</a><br /></td></tr>
 <tr class="separator:a7459c4a03d4b4f77eea119df933489da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10bce133654002443b7d69eec8835b39"><td class="memItemLeft" align="right" valign="top">template <a class="el" href="classdouble.html">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1drake.html#a10bce133654002443b7d69eec8835b39">CalcProbabilityDensity&lt; double &gt;</a> (<a class="el" href="namespacemaliput_1_1drake.html#a72383be4710d27584d0821effc6506a5">RandomDistribution</a>, const Eigen::Ref&lt; const <a class="el" href="namespacemaliput_1_1drake.html#a77dd228fb4dd66a2c17dd3f7f38ffd85">VectorX</a>&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt; &amp;)</td></tr>
+<tr class="separator:a10bce133654002443b7d69eec8835b39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa157c1d75c2e52df3370e5f458022ee9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemaliput_1_1drake_1_1logging.html#a9cae370466ffb304c10aebea42eca26b">logging::logger</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1drake.html#aa157c1d75c2e52df3370e5f458022ee9">log</a> ()</td></tr>
 <tr class="memdesc:aa157c1d75c2e52df3370e5f458022ee9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve an instance of a logger to use for logging; for example:  <a href="namespacemaliput_1_1drake.html#aa157c1d75c2e52df3370e5f458022ee9">More...</a><br /></td></tr>
 <tr class="separator:aa157c1d75c2e52df3370e5f458022ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -495,8 +506,6 @@ Functions</h2></td></tr>
 <tr class="memitem:acbbd758ec364c16c9c4137651e771013"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1drake.html#acbbd758ec364c16c9c4137651e771013">unused</a> (const Args &amp;...)</td></tr>
 <tr class="memdesc:acbbd758ec364c16c9c4137651e771013"><td class="mdescLeft">&#160;</td><td class="mdescRight">Documents the argument(s) as unused, placating GCC's -Wunused-parameter warning.  <a href="namespacemaliput_1_1drake.html#acbbd758ec364c16c9c4137651e771013">More...</a><br /></td></tr>
 <tr class="separator:acbbd758ec364c16c9c4137651e771013"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10bce133654002443b7d69eec8835b39"><td class="memItemLeft" align="right" valign="top">template <a class="el" href="classdouble.html">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1drake.html#a10bce133654002443b7d69eec8835b39">CalcProbabilityDensity&lt; double &gt;</a> (<a class="el" href="namespacemaliput_1_1drake.html#a72383be4710d27584d0821effc6506a5">RandomDistribution</a>, const Eigen::Ref&lt; const <a class="el" href="namespacemaliput_1_1drake.html#a77dd228fb4dd66a2c17dd3f7f38ffd85">VectorX</a>&lt; <a class="el" href="classdouble.html">double</a> &gt;&gt; &amp;)</td></tr>
-<tr class="separator:a10bce133654002443b7d69eec8835b39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>

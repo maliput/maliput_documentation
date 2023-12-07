@@ -4188,59 +4188,6 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>malidrive::xodr::Connection::LaneLink</name>
-    <filename>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</filename>
-    <member kind="typedef">
-      <type>maliput::api::TypeSpecificIdentifier&lt; struct LaneLink &gt;</type>
-      <name>Id</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
-      <anchor>a4ac7167646e1c7dc87c15625640afa64</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
-      <anchor>a2eacaa79dc6f320e9bc9c80f742ad190</anchor>
-      <arglist>(const LaneLink &amp;other) const</arglist>
-    </member>
-    <member kind="variable">
-      <type>Id</type>
-      <name>from</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
-      <anchor>abf6ae62e898efbdf47848ef4438cb21b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>Id</type>
-      <name>to</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
-      <anchor>a4d4b3f3eca59a8b47e9ed7787c1a23cd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kLaneLinkTag</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
-      <anchor>af9d8a971b8c42780232977e66805b1dc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kFrom</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
-      <anchor>a3cac54aa9ccb1db4ce4877d0e79a105f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kTo</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
-      <anchor>a4e60ff57325f35bec47336e16415aff3</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
     <name>malidrive::xodr::LaneLink</name>
     <filename>structmalidrive_1_1xodr_1_1_lane_link.html</filename>
     <class kind="struct">malidrive::xodr::LaneLink::LinkAttributes</class>
@@ -4291,6 +4238,59 @@
       <name>kSuccessorTag</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_lane_link.html</anchorfile>
       <anchor>a8d82f00d2135ae5a221035d1b0cd9be8</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::Connection::LaneLink</name>
+    <filename>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</filename>
+    <member kind="typedef">
+      <type>maliput::api::TypeSpecificIdentifier&lt; struct LaneLink &gt;</type>
+      <name>Id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
+      <anchor>a4ac7167646e1c7dc87c15625640afa64</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
+      <anchor>a2eacaa79dc6f320e9bc9c80f742ad190</anchor>
+      <arglist>(const LaneLink &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>Id</type>
+      <name>from</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
+      <anchor>abf6ae62e898efbdf47848ef4438cb21b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Id</type>
+      <name>to</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
+      <anchor>a4d4b3f3eca59a8b47e9ed7787c1a23cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kLaneLinkTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
+      <anchor>af9d8a971b8c42780232977e66805b1dc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kFrom</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
+      <anchor>a3cac54aa9ccb1db4ce4877d0e79a105f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kTo</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
+      <anchor>a4e60ff57325f35bec47336e16415aff3</anchor>
       <arglist></arglist>
     </member>
   </compound>

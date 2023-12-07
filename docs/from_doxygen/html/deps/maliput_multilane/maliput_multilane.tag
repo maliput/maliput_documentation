@@ -2832,6 +2832,24 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::multilane::EndReference::Spec</name>
+    <filename>classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html</filename>
+    <member kind="function">
+      <type>const EndpointZ &amp;</type>
+      <name>endpoint_z</name>
+      <anchorfile>classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html</anchorfile>
+      <anchor>a89bcd61b576c966787e3d1356f15726f</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="friend" protection="private">
+      <type>friend class</type>
+      <name>EndReference</name>
+      <anchorfile>classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html</anchorfile>
+      <anchor>abe8003e20fdfec393e76c5edb3fbd649</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::multilane::StartReference::Spec</name>
     <filename>classmaliput_1_1multilane_1_1_start_reference_1_1_spec.html</filename>
     <member kind="function">
@@ -2871,24 +2889,6 @@
       <name>EndLane</name>
       <anchorfile>classmaliput_1_1multilane_1_1_end_lane_1_1_spec.html</anchorfile>
       <anchor>af9c50e5d07296fecabfdaea00cfc7669</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::multilane::EndReference::Spec</name>
-    <filename>classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html</filename>
-    <member kind="function">
-      <type>const EndpointZ &amp;</type>
-      <name>endpoint_z</name>
-      <anchorfile>classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html</anchorfile>
-      <anchor>a89bcd61b576c966787e3d1356f15726f</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="friend" protection="private">
-      <type>friend class</type>
-      <name>EndReference</name>
-      <anchorfile>classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html</anchorfile>
-      <anchor>abe8003e20fdfec393e76c5edb3fbd649</anchor>
       <arglist></arglist>
     </member>
   </compound>

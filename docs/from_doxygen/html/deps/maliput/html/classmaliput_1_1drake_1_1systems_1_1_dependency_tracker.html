@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('classmaliput_1_1drake_1_1systems_1_1_d
 <p>These grouped trackers simplify dependency specification for quantities that depend on many sources, which is very common. For example, they allow a user to express a dependence on "all the inputs" without actually having to know how many inputs there are, which might change over time. Grouped trackers also serve to reduce the total number of edges in the dependency graph, providing faster invalidation. For example, if there are 10 computations dependent on q, v, and z (which frequently change together) we would have 30 edges. Introducing (xc) reduces that to 13 edges.</p>
 <p>Downstream computations may subscribe to any of the individual or grouped nodes. </p>
 </div>
-<p><code>#include &lt;include/maliput/drake/systems/framework/dependency_tracker.h&gt;</code></p>
+<p><code>#include &lt;src/maliput/drake/systems/framework/dependency_tracker.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>

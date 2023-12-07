@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['maliput_20plugin_20architecture_5388',['Maliput Plugin Architecture',['../../../maliput/html/maliput_plugin_architecture.html',1,'']]]
+  ['maliput_20plugin_20architecture_5424',['Maliput Plugin Architecture',['../../../maliput/html/maliput_plugin_architecture.html',1,'']]]
 ];

@@ -102,7 +102,7 @@ class maliput::drake::systems::System&lt; T &gt;</h3>
 <p>Base class for all <a class="el" href="classmaliput_1_1drake_1_1systems_1_1_system.html" title="Base class for all System functionality that is dependent on the templatized scalar type T for input,...">System</a> functionality that is dependent on the templatized scalar type T for input, state, parameters, and outputs. </p>
 <p>@tparam_default_scalar </p>
 </div>
-<p><code>#include &lt;include/maliput/drake/systems/framework/witness_function.h&gt;</code></p>
+<p><code>#include &lt;src/maliput/drake/systems/framework/witness_function.h&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for System&lt; T &gt;:</div>
 <div class="dyncontent">
@@ -5146,7 +5146,7 @@ the port's value must be of type Vec&lt;T&gt;.</dd></dl>
 <div class="line">parameters-&gt;get_mutable_numeric_parameter(0)</div>
 <div class="line">          -&gt;SetAtIndex(0, uniform(*generator));</div>
 </div><!-- fragment --><p> Overrides must not change the number of state variables.</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__stochastic__systems.html">Stochastic Systems</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>stochastic_systems </dd></dl>
 
 </div>
 </div>
@@ -5195,7 +5195,7 @@ the port's value must be of type Vec&lt;T&gt;.</dd></dl>
 <div class="line">state-&gt;get_mutable_continuous_state()-&gt;get_mutable_vector()</div>
 <div class="line">     -&gt;SetAtIndex(0, gaussian(*generator));</div>
 </div><!-- fragment --><p> Overrides must not change the number of state variables.</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__stochastic__systems.html">Stochastic Systems</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>stochastic_systems </dd></dl>
 
 </div>
 </div>

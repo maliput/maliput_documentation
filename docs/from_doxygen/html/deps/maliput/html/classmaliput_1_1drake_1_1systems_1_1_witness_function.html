@@ -112,7 +112,7 @@ T(w, t₀, x(t₀), t₁) =   1   if w(t₀, x(t₀)) ≠ 0 and
 <p>A good witness function should not cross zero repeatedly over a small interval of time (relative to the maximum designated integration step size) or over small changes in state; when a witness function has been "bracketed" over an interval of time (i.e., it changes sign), that witness function will ideally cross zero only once in that interval.</p>
 <p>A witness function trigger time is isolated only to a small interval of time (as described in Simulator). The disadvantage of this scheme is that it always requires the length of the interval to be reduced to the requisite length <em>and that each function evaluation (which requires numerical integration) is extraordinarily expensive</em>. If, for example, the (slow) bisection algorithm were used to isolate the time interval, the number of integrations necessary to cut the interval from a length of ℓ to a length of ε will be log₂(ℓ / ε). Bisection is just one of several possible algorithms for isolating the time interval, though it's a reliable choice and always converges linearly. </p>
 </div>
-<p><code>#include &lt;include/maliput/drake/systems/framework/witness_function.h&gt;</code></p>
+<p><code>#include &lt;src/maliput/drake/systems/framework/witness_function.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>

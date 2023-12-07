@@ -89,11 +89,11 @@ $(document).ready(function(){initNavTree('group__events__description.html',''); 
 
 <div class="header">
   <div class="headertitle">
-<div class="title">System Events<div class="ingroups"><a class="el" href="group__systems.html">Systems</a></div></div>  </div>
+<div class="title">System Events</div>  </div>
 </div><!--header-->
 <div class="contents">
 <p>This page describes how Drake Systems can respond (through an <a class="el" href="classmaliput_1_1drake_1_1systems_1_1_event.html" title="Abstract base class that represents an event.">Event</a>) to changes ("triggers") in time, state, and inputs.</p>
-<p>The state of simple dynamical systems, like the ODE ẋ = x, can be propagated through time using straightforward numerical integration. More sophisticated systems (e.g., systems modeled using piecewise differential algebraic equations, systems dependent upon mouse button clicks, and <a class="el" href="group__discrete__systems.html">Discrete Systems</a>) require more sophisticated state updating mechanisms. We call those state updates "events", the conditions that cause these events "triggers", and the mechanisms that compute the updates "handlers". We discuss these concepts in detail on this page. The Simulator class documentation describes the technical process underlying how events are handled in great detail.</p>
+<p>The state of simple dynamical systems, like the ODE ẋ = x, can be propagated through time using straightforward numerical integration. More sophisticated systems (e.g., systems modeled using piecewise differential algebraic equations, systems dependent upon mouse button clicks, and discrete_systems) require more sophisticated state updating mechanisms. We call those state updates "events", the conditions that cause these events "triggers", and the mechanisms that compute the updates "handlers". We discuss these concepts in detail on this page. The Simulator class documentation describes the technical process underlying how events are handled in great detail.</p>
 <h3>Exposition</h3>
 <p>Events occur between discrete, finite advancements of systems' time and state. In the absence of events, a simulator would happily advance time and any continuous state without stopping. The occurrence of an event pauses the time and state evolution in order to allow a system to change its state discontinuously, to communicate with the "outside world", and even to just count the number of event occurrences.</p>
 <h3>Types of events and triggers</h3>
