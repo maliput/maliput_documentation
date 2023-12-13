@@ -114,12 +114,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a69989159f96da76c75d8776062cf621d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the <a class="el" href="classmaliput_1_1api_1_1_s_range.html" title="Directed, inclusive longitudinal (s value) range from s0 to s1.">SRange</a>.  <a href="classmaliput_1_1api_1_1_lane_s_range.html#a69989159f96da76c75d8776062cf621d">More...</a><br /></td></tr>
 <tr class="separator:a69989159f96da76c75d8776062cf621d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80401d480f15e1418a3274a2b2b51649"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdouble.html">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html#a80401d480f15e1418a3274a2b2b51649">length</a> () const</td></tr>
+<tr class="memdesc:a80401d480f15e1418a3274a2b2b51649"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the length of this <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a>, which is dictated by the <a class="el" href="classmaliput_1_1api_1_1_s_range.html" title="Directed, inclusive longitudinal (s value) range from s0 to s1.">SRange</a>.  <a href="classmaliput_1_1api_1_1_lane_s_range.html#a80401d480f15e1418a3274a2b2b51649">More...</a><br /></td></tr>
 <tr class="separator:a80401d480f15e1418a3274a2b2b51649"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64a6eda0bf1e33c6878b4292f4c5df59"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html#a64a6eda0bf1e33c6878b4292f4c5df59">Intersects</a> (const <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html">LaneSRange</a> &amp;lane_s_range, <a class="el" href="classdouble.html">double</a> tolerance) const</td></tr>
 <tr class="memdesc:a64a6eda0bf1e33c6878b4292f4c5df59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether this <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a> intersects with <code>lane_s_range</code>.  <a href="classmaliput_1_1api_1_1_lane_s_range.html#a64a6eda0bf1e33c6878b4292f4c5df59">More...</a><br /></td></tr>
 <tr class="separator:a64a6eda0bf1e33c6878b4292f4c5df59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98915143fa057cb66d860e2ccef77d7c"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html">LaneSRange</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html#a98915143fa057cb66d860e2ccef77d7c">GetIntersection</a> (const <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html">LaneSRange</a> &amp;lane_s_range, <a class="el" href="classdouble.html">double</a> tolerance) const</td></tr>
-<tr class="memdesc:a98915143fa057cb66d860e2ccef77d7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a std::optional&lt;LaneSRange&gt; bearing the intersected <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a> that results overlapping this <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a> with <code>lane_s_range</code>.  <a href="classmaliput_1_1api_1_1_lane_s_range.html#a98915143fa057cb66d860e2ccef77d7c">More...</a><br /></td></tr>
+<tr class="memdesc:a98915143fa057cb66d860e2ccef77d7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes a std::optional&lt;LaneSRange&gt; bearing the intersected <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a> that results overlapping this <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a> with <code>lane_s_range</code>.  <a href="classmaliput_1_1api_1_1_lane_s_range.html#a98915143fa057cb66d860e2ccef77d7c">More...</a><br /></td></tr>
 <tr class="separator:a98915143fa057cb66d860e2ccef77d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -150,6 +151,13 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructs a <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a> as <code>s_range</code> on <a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">Lane</a> <code>lane_id</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lane_id</td><td>Refers to the <a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">Lane</a> this <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a> belongs to. </td></tr>
+    <tr><td class="paramname">s_range</td><td>The <a class="el" href="classmaliput_1_1api_1_1_s_range.html" title="Directed, inclusive longitudinal (s value) range from s0 to s1.">SRange</a> in the <code>lane_id</code> <a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">Lane</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -180,8 +188,17 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns a std::optional&lt;LaneSRange&gt; bearing the intersected <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a> that results overlapping this <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a> with <code>lane_s_range</code>. </p>
-<p>When there is no common area, std::nullopt is returned. </p>
+<p>Computes a std::optional&lt;LaneSRange&gt; bearing the intersected <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a> that results overlapping this <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a> with <code>lane_s_range</code>. </p>
+<p>When there is no common area, std::nullopt is returned.</p>
+<p><code>tolerance</code> will modify this range and <code>s_range</code> by increasing the maximum tolerance and reducing the minimum each range. When <code>tolerance</code> is negative, it shrinks both ranges.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lane_s_range</td><td>The <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a> to compute the intersection with. </td></tr>
+    <tr><td class="paramname">tolerance</td><td>The tolerance to use to evaluate the intersection. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A std::optional&lt;LaneSRange&gt; with the intersected <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a>. </dd></dl>
 
 </div>
 </div>
@@ -213,7 +230,15 @@ Public Member Functions</h2></td></tr>
 
 <p>Determines whether this <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a> intersects with <code>lane_s_range</code>. </p>
 <p>LaneIds are evaluated prior calling <a class="el" href="classmaliput_1_1api_1_1_s_range.html#a4a81c1cdfa1d8e114f91c29c075cdcaf" title="Determines whether this SRange intersects with s_range.">SRange::Intersects()</a> method.</p>
-<p><code>tolerance</code> will modify this LaneSRanges's ranges and <code>lane_s_range</code>'s ranges by increasing the maximum tolerance and reducing the minimum each range. When <code>tolerance</code> is negative, it shrinks both ranges. </p>
+<p><code>tolerance</code> will modify this LaneSRanges's ranges and <code>lane_s_range</code> 's ranges by increasing the maximum tolerance and reducing the minimum each range. When <code>tolerance</code> is negative, it shrinks both ranges.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lane_s_range</td><td>The <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a> to compute the intersection with. </td></tr>
+    <tr><td class="paramname">tolerance</td><td>The tolerance to use to evaluate the intersection. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true When <code>lane_s_range</code> intersects this <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a>. </dd></dl>
 
 </div>
 </div>
@@ -233,6 +258,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets the LaneId. </p>
+<dl class="section return"><dt>Returns</dt><dd>The LaneId. </dd></dl>
 
 </div>
 </div>
@@ -250,6 +276,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns the length of this <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a>, which is dictated by the <a class="el" href="classmaliput_1_1api_1_1_s_range.html" title="Directed, inclusive longitudinal (s value) range from s0 to s1.">SRange</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="classmaliput_1_1api_1_1_s_range.html" title="Directed, inclusive longitudinal (s value) range from s0 to s1.">SRange</a>'s size. </dd></dl>
 
 </div>
 </div>
@@ -287,6 +316,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets the <a class="el" href="classmaliput_1_1api_1_1_s_range.html" title="Directed, inclusive longitudinal (s value) range from s0 to s1.">SRange</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="classmaliput_1_1api_1_1_s_range.html" title="Directed, inclusive longitudinal (s value) range from s0 to s1.">SRange</a>. </dd></dl>
 
 </div>
 </div>
