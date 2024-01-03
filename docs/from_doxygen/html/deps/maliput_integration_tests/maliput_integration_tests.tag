@@ -160,11 +160,32 @@
       <anchor>aec8178976679b5a3ed65148e869e83e5</anchor>
       <arglist>(FindLaneSequencesTest, MaxLengthOmitsStartAndEndLanes)</arglist>
     </member>
+    <member kind="function">
+      <type></type>
+      <name>TEST_F</name>
+      <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
+      <anchor>af14392388339e90ff1a4a2e17ab562d8</anchor>
+      <arglist>(TShapeRoadFindLaneSequencesTest, NotRemovingUTurnYieldsTwoSequences)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>TEST_F</name>
+      <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
+      <anchor>ae303b62fdeadaa9ddd6371028bb20889</anchor>
+      <arglist>(TShapeRoadFindLaneSequencesTest, RemovingUTurnYieldsOneSequence)</arglist>
+    </member>
     <member kind="variable" static="yes">
       <type>static constexpr char</type>
       <name>kMultilaneResourcesPath</name>
       <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
       <anchor>a966668b48f0d7a836bc405782117c4f5</anchor>
+      <arglist>[]</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char</type>
+      <name>kMalidriveResourcesPath</name>
+      <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
+      <anchor>aadb6a170be47b557c0390d1ce0e62deb</anchor>
       <arglist>[]</arglist>
     </member>
   </compound>
@@ -779,11 +800,32 @@
       <anchor>aec8178976679b5a3ed65148e869e83e5</anchor>
       <arglist>(FindLaneSequencesTest, MaxLengthOmitsStartAndEndLanes)</arglist>
     </member>
+    <member kind="function">
+      <type></type>
+      <name>TEST_F</name>
+      <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
+      <anchor>af14392388339e90ff1a4a2e17ab562d8</anchor>
+      <arglist>(TShapeRoadFindLaneSequencesTest, NotRemovingUTurnYieldsTwoSequences)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>TEST_F</name>
+      <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
+      <anchor>ae303b62fdeadaa9ddd6371028bb20889</anchor>
+      <arglist>(TShapeRoadFindLaneSequencesTest, RemovingUTurnYieldsOneSequence)</arglist>
+    </member>
     <member kind="variable" static="yes">
       <type>static constexpr char</type>
       <name>kMultilaneResourcesPath</name>
       <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
       <anchor>a966668b48f0d7a836bc405782117c4f5</anchor>
+      <arglist>[]</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char</type>
+      <name>kMalidriveResourcesPath</name>
+      <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
+      <anchor>aadb6a170be47b557c0390d1ce0e62deb</anchor>
       <arglist>[]</arglist>
     </member>
   </compound>

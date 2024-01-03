@@ -212,7 +212,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Determines whether this <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html" title="A route, possibly spanning multiple (end-to-end) lanes.">LaneSRoute</a> intersects with <code>lane_s_route</code>. </p>
 <p>LaneSRoutes intersection is evaluated first by <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">LaneSRange</a>'s LaneId coincidence, then <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html#a64a6eda0bf1e33c6878b4292f4c5df59" title="Determines whether this LaneSRange intersects with lane_s_range.">LaneSRange::Intersects()</a> is used.</p>
-<p><code>tolerance</code> will modify this <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html" title="A route, possibly spanning multiple (end-to-end) lanes.">LaneSRoute</a>'s ranges and <code>lane_s_route</code> 's ranges by increasing the maximum tolerance and reducing the minimum each range. When <code>tolerance</code> is negative, it shrinks both ranges.</p>
+<p><code>tolerance</code> will modify this <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html" title="A route, possibly spanning multiple (end-to-end) lanes.">LaneSRoute</a>'s ranges and <code>lane_s_route</code> 's ranges by increasing the maximum and reducing the minimum of each range. When <code>tolerance</code> is negative, it shrinks both ranges.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">lane_s_route</td><td>The <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html" title="A route, possibly spanning multiple (end-to-end) lanes.">LaneSRoute</a> to compute the intersection with. </td></tr>

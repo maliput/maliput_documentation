@@ -156,6 +156,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ae879accab23fdc7d64d39657fd67025c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; const <a class="el" href="classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#ae879accab23fdc7d64d39657fd67025c">FindLaneSequences</a> (const <a class="el" href="classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> *start, const <a class="el" href="classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> *end, <a class="el" href="classdouble.html">double</a> max_length_m)</td></tr>
 <tr class="memdesc:ae879accab23fdc7d64d39657fd67025c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds and returns sequences of lanes that go from a specified start lane to a specified end lane.  <a href="namespacemaliput_1_1routing.html#ae879accab23fdc7d64d39657fd67025c">More...</a><br /></td></tr>
 <tr class="separator:ae879accab23fdc7d64d39657fd67025c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada93227a84774950f985f46bc88979cb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; const <a class="el" href="classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#ada93227a84774950f985f46bc88979cb">FindLaneSequences</a> (const <a class="el" href="classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> *start, const <a class="el" href="classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> *end, <a class="el" href="classdouble.html">double</a> max_length_m, bool no_u_turns)</td></tr>
+<tr class="memdesc:ada93227a84774950f985f46bc88979cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload to <a class="el" href="namespacemaliput_1_1routing.html#ae879accab23fdc7d64d39657fd67025c">FindLaneSequences()</a> that removes from the result those sequences presenting U-turns when <code>no_u_turns</code> is true.  <a href="namespacemaliput_1_1routing.html#ada93227a84774950f985f46bc88979cb">More...</a><br /></td></tr>
+<tr class="separator:ada93227a84774950f985f46bc88979cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ff489426594d0e27de889f6cf0d93b4"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487">LaneSRangeRelation</a>, const char * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#a2ff489426594d0e27de889f6cf0d93b4">LaneSRangeRelationMapper</a> ()</td></tr>
 <tr class="separator:a2ff489426594d0e27de889f6cf0d93b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7203627c4fa2cac6b579928ec5d20404"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#a7203627c4fa2cac6b579928ec5d20404">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487">LaneSRangeRelation</a> &amp;relation)</td></tr>
@@ -272,7 +275,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="ae879accab23fdc7d64d39657fd67025c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae879accab23fdc7d64d39657fd67025c">&#9670;&nbsp;</a></span>FindLaneSequences()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae879accab23fdc7d64d39657fd67025c">&#9670;&nbsp;</a></span>FindLaneSequences() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -314,6 +317,49 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector of lane sequences in which the first lane is <code>start</code> and the last lane is <code>end</code>. An empty vector is returned if no sequences are found. </dd></dl>
+
+</div>
+</div>
+<a id="ada93227a84774950f985f46bc88979cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada93227a84774950f985f46bc88979cb">&#9670;&nbsp;</a></span>FindLaneSequences() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::vector&lt; const <a class="el" href="classmaliput_1_1api_1_1_lane.html">Lane</a> * &gt; &gt; FindLaneSequences </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> *&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> *&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdouble.html">double</a>&#160;</td>
+          <td class="paramname"><em>max_length_m</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>no_u_turns</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Overload to <a class="el" href="namespacemaliput_1_1routing.html#ae879accab23fdc7d64d39657fd67025c">FindLaneSequences()</a> that removes from the result those sequences presenting U-turns when <code>no_u_turns</code> is true. </p>
+<p>Otherwise, the function behaves exactly the same. In this context, a U-turn is when the route backtracks against itself within the same lane. </p>
 
 </div>
 </div>

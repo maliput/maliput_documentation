@@ -1,6 +1,7 @@
 var classmaliput_1_1api_1_1_lane_s_range =
 [
     [ "LaneSRange", "classmaliput_1_1api_1_1_lane_s_range.html#aec52774419b9ca27ee95239ecf59e2b5", null ],
+    [ "Contains", "classmaliput_1_1api_1_1_lane_s_range.html#ad708c97a774114af19f483dd9e986faf", null ],
     [ "GetIntersection", "classmaliput_1_1api_1_1_lane_s_range.html#a98915143fa057cb66d860e2ccef77d7c", null ],
     [ "Intersects", "classmaliput_1_1api_1_1_lane_s_range.html#a64a6eda0bf1e33c6878b4292f4c5df59", null ],
     [ "lane_id", "classmaliput_1_1api_1_1_lane_s_range.html#a8046bb4eba332bff92b0a9eb64df06a6", null ],

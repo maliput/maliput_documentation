@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"classmaliput_1_1math_1_1_vector4.html#a8ef7e8dd0bf9f6514ce6f393fcef4dc6":[3,0,0,4,12,8],
+"classmaliput_1_1math_1_1_vector4.html#aca424ddaf2902c1cde483f37813d4278":[3,0,0,4,12,14],
 "classmaliput_1_1math_1_1_vector4.html#ad927d9808ded1fc49c05ae9e1a3ed2a6":[3,0,0,4,12,13],
 "classmaliput_1_1math_1_1_vector4.html#ae7bc7213001e326be4d4eb2d8a035c34":[3,0,0,4,12,16],
 "classmaliput_1_1math_1_1_vector4.html#af8d2a5ac9526843099834f587c84f86b":[3,0,0,4,12,3],
@@ -89,17 +91,18 @@ var NAVTREEINDEX11 =
 "classmaliput_1_1routing_1_1_phase.html#addf28482696d184b61df87aa0da6f75e":[3,0,0,6,0,2],
 "classmaliput_1_1routing_1_1_phase.html#ae960e18202bce8c2da42100b5f91e600":[3,0,0,6,0,0],
 "classmaliput_1_1routing_1_1_route.html":[3,0,0,6,2],
-"classmaliput_1_1routing_1_1_route.html#a00c6a05953d406aa71c1e9a2b569e4f4":[3,0,0,6,2,8],
+"classmaliput_1_1routing_1_1_route.html#a00c6a05953d406aa71c1e9a2b569e4f4":[3,0,0,6,2,9],
 "classmaliput_1_1routing_1_1_route.html#a443f00106d371b26bf116259f82d4bff":[3,0,0,6,2,5],
 "classmaliput_1_1routing_1_1_route.html#a6564ea1dddc685463e80ec61728fe8ea":[3,0,0,6,2,6],
-"classmaliput_1_1routing_1_1_route.html#a792e110ca66c7c328e5b7948f328a053":[3,0,0,6,2,10],
+"classmaliput_1_1routing_1_1_route.html#a792e110ca66c7c328e5b7948f328a053":[3,0,0,6,2,11],
 "classmaliput_1_1routing_1_1_route.html#a893d3327731e8f0c3ddd205f73af1ef2":[3,0,0,6,2,7],
 "classmaliput_1_1routing_1_1_route.html#a9b5bfc09f33b24f88ae03753a271d29b":[3,0,0,6,2,1],
 "classmaliput_1_1routing_1_1_route.html#ab049bb134a649785b5c7a05e332cde32":[3,0,0,6,2,3],
 "classmaliput_1_1routing_1_1_route.html#abaffbd7cf651aa869bb58753d607444e":[3,0,0,6,2,0],
 "classmaliput_1_1routing_1_1_route.html#abe4034c0a7a206ea10189fda71315da2":[3,0,0,6,2,2],
 "classmaliput_1_1routing_1_1_route.html#af27ddb0de9f5543debea81c74d7a3d37":[3,0,0,6,2,4],
-"classmaliput_1_1routing_1_1_route.html#af9593d4a5ff4274efaf429cb4f9e57cc":[3,0,0,6,2,9],
+"classmaliput_1_1routing_1_1_route.html#af7668e624561323a83cbe966980d33e5":[3,0,0,6,2,8],
+"classmaliput_1_1routing_1_1_route.html#af9593d4a5ff4274efaf429cb4f9e57cc":[3,0,0,6,2,10],
 "classmaliput_1_1routing_1_1_router.html":[3,0,0,6,4],
 "classmaliput_1_1routing_1_1_router.html#a6a06c8a70d4d656524b186ac90013763":[3,0,0,6,4,2],
 "classmaliput_1_1routing_1_1_router.html#ae51c3bc92ff91f268f0741bdf8d894e8":[3,0,0,6,4,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX11 =
 "eigen__types_8h.html#a3922cc0c6264e8ff225a6aa0dd993667":[4,0,72,13],
 "eigen__types_8h.html#a3aa72a15690d6e4db2040ebc8814a74e":[4,0,72,29],
 "eigen__types_8h.html#a3ad88c2d704ccb2899d475d3ae05de14":[4,0,72,27],
-"eigen__types_8h.html#a3eb9dffa1f3d48e4c5fe406e5a4617fe":[4,0,72,23],
-"eigen__types_8h.html#a4156bf453a5b323356d7cc784dfdf084":[4,0,72,22],
-"eigen__types_8h.html#a44f103cf5fdeb3f539ceeeb9cd3a0a28":[4,0,72,41],
-"eigen__types_8h.html#a50f8d19f395776637448f26e734228f6":[4,0,72,30]
+"eigen__types_8h.html#a3eb9dffa1f3d48e4c5fe406e5a4617fe":[4,0,72,23]
 };

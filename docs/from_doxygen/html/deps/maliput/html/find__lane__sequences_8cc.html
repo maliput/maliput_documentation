@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('find__lane__sequences_8cc.html',''); i
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="find__lane__sequences_8h.html">maliput/routing/find_lane_sequences.h</a>&quot;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
 <code>#include &quot;<a class="el" href="api_2branch__point_8h.html">maliput/api/branch_point.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="lane__data_8h.html">maliput/api/lane_data.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="profiler_8h.html">maliput/common/profiler.h</a>&quot;</code><br />
@@ -119,7 +120,39 @@ Functions</h2></td></tr>
 <tr class="memitem:ae879accab23fdc7d64d39657fd67025c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; const <a class="el" href="classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#ae879accab23fdc7d64d39657fd67025c">FindLaneSequences</a> (const <a class="el" href="classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> *start, const <a class="el" href="classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> *end, <a class="el" href="classdouble.html">double</a> max_length_m)</td></tr>
 <tr class="memdesc:ae879accab23fdc7d64d39657fd67025c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds and returns sequences of lanes that go from a specified start lane to a specified end lane.  <a href="namespacemaliput_1_1routing.html#ae879accab23fdc7d64d39657fd67025c">More...</a><br /></td></tr>
 <tr class="separator:ae879accab23fdc7d64d39657fd67025c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada93227a84774950f985f46bc88979cb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; const <a class="el" href="classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#ada93227a84774950f985f46bc88979cb">FindLaneSequences</a> (const <a class="el" href="classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> *start, const <a class="el" href="classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> *end, <a class="el" href="classdouble.html">double</a> max_length_m, bool no_u_turns)</td></tr>
+<tr class="memdesc:ada93227a84774950f985f46bc88979cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload to <a class="el" href="namespacemaliput_1_1routing.html#ae879accab23fdc7d64d39657fd67025c">FindLaneSequences()</a> that removes from the result those sequences presenting U-turns when <code>no_u_turns</code> is true.  <a href="namespacemaliput_1_1routing.html#ada93227a84774950f985f46bc88979cb">More...</a><br /></td></tr>
+<tr class="separator:ada93227a84774950f985f46bc88979cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a7cb16e873fd8c2356ca0775f30cf6e49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cb16e873fd8c2356ca0775f30cf6e49">&#9670;&nbsp;</a></span>incoming</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structmaliput_1_1api_1_1_lane_end.html">LaneEnd</a> incoming</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af0afc7a87c31219e967367e1927cdfa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0afc7a87c31219e967367e1927cdfa6">&#9670;&nbsp;</a></span>ongoing</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structmaliput_1_1api_1_1_lane_end.html">LaneEnd</a> ongoing</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.15 -->

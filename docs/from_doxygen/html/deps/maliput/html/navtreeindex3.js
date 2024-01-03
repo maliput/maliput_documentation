@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"classmaliput_1_1common_1_1_sink_base.html":[3,0,0,1,13],
+"classmaliput_1_1common_1_1_sink_base.html#a50ab71f4bc571f6e246b20db4b3dd131":[3,0,0,1,13,2],
 "classmaliput_1_1common_1_1_sink_base.html#aa6e7e19b29a57fd8559a3e7950d28040":[3,0,0,1,13,0],
 "classmaliput_1_1common_1_1_sink_base.html#ac0eab8e8c97c08ea855f48adf224be70":[3,0,0,1,13,1],
 "classmaliput_1_1common_1_1_sink_base.html#ad8389241ac7515bca7191bce12528a50":[3,0,0,1,13,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "classmaliput_1_1drake_1_1internal_1_1_f_n_v1a_hasher.html#afa7a53c7d9232da75f09751860337ec3":[3,0,0,2,1,1,1],
 "classmaliput_1_1drake_1_1internal_1_1assertion__error.html":[3,0,0,2,1,0],
 "classmaliput_1_1drake_1_1internal_1_1assertion__error.html#af0792e36977188b6a3000f3160b0d71a":[3,0,0,2,1,0,0],
-"classmaliput_1_1drake_1_1never__destroyed.html":[3,0,0,2,23],
-"classmaliput_1_1drake_1_1never__destroyed.html#a27fa859355b10542c0cdbf991a8c3a66":[3,0,0,2,23,1],
-"classmaliput_1_1drake_1_1never__destroyed.html#a54c5e5d1a51055269e08e00e806dc694":[3,0,0,2,23,3]
+"classmaliput_1_1drake_1_1never__destroyed.html":[3,0,0,2,23]
 };

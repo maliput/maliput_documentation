@@ -2,6 +2,7 @@ var classmaliput_1_1api_1_1_s_range =
 [
     [ "SRange", "classmaliput_1_1api_1_1_s_range.html#aaf774715d48436d21baaaf5dd8eaae44", null ],
     [ "SRange", "classmaliput_1_1api_1_1_s_range.html#a13eae5788b3ad3cf745fb219d9bef4dd", null ],
+    [ "Contains", "classmaliput_1_1api_1_1_s_range.html#ab432a701c50d329417566f25899ded45", null ],
     [ "GetIntersection", "classmaliput_1_1api_1_1_s_range.html#ac8360198e5ead6dc2652ec6d5befed50", null ],
     [ "Intersects", "classmaliput_1_1api_1_1_s_range.html#a4a81c1cdfa1d8e114f91c29c075cdcaf", null ],
     [ "MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN", "classmaliput_1_1api_1_1_s_range.html#a6f5c3964d9ff64857b1ade5f17b4ff80", null ],

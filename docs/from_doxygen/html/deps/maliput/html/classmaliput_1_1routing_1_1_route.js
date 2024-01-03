@@ -8,6 +8,7 @@ var classmaliput_1_1routing_1_1_route =
     [ "FindRoutePosition", "classmaliput_1_1routing_1_1_route.html#a443f00106d371b26bf116259f82d4bff", null ],
     [ "FindRoutePosition", "classmaliput_1_1routing_1_1_route.html#a6564ea1dddc685463e80ec61728fe8ea", null ],
     [ "Get", "classmaliput_1_1routing_1_1_route.html#a893d3327731e8f0c3ddd205f73af1ef2", null ],
+    [ "GetLaneSRange", "classmaliput_1_1routing_1_1_route.html#af7668e624561323a83cbe966980d33e5", null ],
     [ "MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN", "classmaliput_1_1routing_1_1_route.html#a00c6a05953d406aa71c1e9a2b569e4f4", null ],
     [ "size", "classmaliput_1_1routing_1_1_route.html#af9593d4a5ff4274efaf429cb4f9e57cc", null ],
     [ "start_route_position", "classmaliput_1_1routing_1_1_route.html#a792e110ca66c7c328e5b7948f328a053", null ]

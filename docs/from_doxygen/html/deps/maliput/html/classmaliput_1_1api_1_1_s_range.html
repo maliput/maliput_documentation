@@ -131,6 +131,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4a81c1cdfa1d8e114f91c29c075cdcaf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_s_range.html#a4a81c1cdfa1d8e114f91c29c075cdcaf">Intersects</a> (const <a class="el" href="classmaliput_1_1api_1_1_s_range.html">SRange</a> &amp;s_range, <a class="el" href="classdouble.html">double</a> tolerance) const</td></tr>
 <tr class="memdesc:a4a81c1cdfa1d8e114f91c29c075cdcaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether this <a class="el" href="classmaliput_1_1api_1_1_s_range.html" title="Directed, inclusive longitudinal (s value) range from s0 to s1.">SRange</a> intersects with <code>s_range</code>.  <a href="classmaliput_1_1api_1_1_s_range.html#a4a81c1cdfa1d8e114f91c29c075cdcaf">More...</a><br /></td></tr>
 <tr class="separator:a4a81c1cdfa1d8e114f91c29c075cdcaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab432a701c50d329417566f25899ded45"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_s_range.html#ab432a701c50d329417566f25899ded45">Contains</a> (const <a class="el" href="classmaliput_1_1api_1_1_s_range.html">SRange</a> &amp;s_range, <a class="el" href="classdouble.html">double</a> tolerance) const</td></tr>
+<tr class="memdesc:ab432a701c50d329417566f25899ded45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether this <a class="el" href="classmaliput_1_1api_1_1_s_range.html" title="Directed, inclusive longitudinal (s value) range from s0 to s1.">SRange</a> contains <code>s_range</code>.  <a href="classmaliput_1_1api_1_1_s_range.html#ab432a701c50d329417566f25899ded45">More...</a><br /></td></tr>
+<tr class="separator:ab432a701c50d329417566f25899ded45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8360198e5ead6dc2652ec6d5befed50"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classmaliput_1_1api_1_1_s_range.html">SRange</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_s_range.html#ac8360198e5ead6dc2652ec6d5befed50">GetIntersection</a> (const <a class="el" href="classmaliput_1_1api_1_1_s_range.html">SRange</a> &amp;s_range, <a class="el" href="classdouble.html">double</a> tolerance) const</td></tr>
 <tr class="memdesc:ac8360198e5ead6dc2652ec6d5befed50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes a std::optional&lt;SRange&gt; bearing the intersected <a class="el" href="classmaliput_1_1api_1_1_s_range.html" title="Directed, inclusive longitudinal (s value) range from s0 to s1.">SRange</a> that results overlapping this <a class="el" href="classmaliput_1_1api_1_1_s_range.html" title="Directed, inclusive longitudinal (s value) range from s0 to s1.">SRange</a> with <code>s_range</code>.  <a href="classmaliput_1_1api_1_1_s_range.html#ac8360198e5ead6dc2652ec6d5befed50">More...</a><br /></td></tr>
 <tr class="separator:ac8360198e5ead6dc2652ec6d5befed50"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,6 +211,45 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab432a701c50d329417566f25899ded45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab432a701c50d329417566f25899ded45">&#9670;&nbsp;</a></span>Contains()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Contains </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmaliput_1_1api_1_1_s_range.html">SRange</a> &amp;&#160;</td>
+          <td class="paramname"><em>s_range</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdouble.html">double</a>&#160;</td>
+          <td class="paramname"><em>tolerance</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Determines whether this <a class="el" href="classmaliput_1_1api_1_1_s_range.html" title="Directed, inclusive longitudinal (s value) range from s0 to s1.">SRange</a> contains <code>s_range</code>. </p>
+<p><code>tolerance</code> will modify this range and <code>s_range</code> by increasing the maximum and reducing the minimum of each range. When <code>tolerance</code> is negative, it shrinks both ranges.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s_range</td><td>The <a class="el" href="classmaliput_1_1api_1_1_s_range.html" title="Directed, inclusive longitudinal (s value) range from s0 to s1.">SRange</a> with which to compute the intersection. </td></tr>
+    <tr><td class="paramname">tolerance</td><td>The tolerance to use when computing the inclusion relationship. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true When <code>s_range</code> is contained within this <a class="el" href="classmaliput_1_1api_1_1_s_range.html" title="Directed, inclusive longitudinal (s value) range from s0 to s1.">SRange</a>. </dd></dl>
+
+</div>
+</div>
 <a id="ac8360198e5ead6dc2652ec6d5befed50"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac8360198e5ead6dc2652ec6d5befed50">&#9670;&nbsp;</a></span>GetIntersection()</h2>
 
@@ -236,10 +278,10 @@ Public Member Functions</h2></td></tr>
 
 <p>Computes a std::optional&lt;SRange&gt; bearing the intersected <a class="el" href="classmaliput_1_1api_1_1_s_range.html" title="Directed, inclusive longitudinal (s value) range from s0 to s1.">SRange</a> that results overlapping this <a class="el" href="classmaliput_1_1api_1_1_s_range.html" title="Directed, inclusive longitudinal (s value) range from s0 to s1.">SRange</a> with <code>s_range</code>. </p>
 <p>When there is no common area, std::nullopt is returned.</p>
-<p><code>tolerance</code> will modify this range and <code>s_range</code> by increasing the maximum tolerance and reducing the minimum each range. When <code>tolerance</code> is negative, it shrinks both ranges.</p>
+<p><code>tolerance</code> will modify this range and <code>s_range</code> by increasing the maximum and reducing the minimum of each range. When <code>tolerance</code> is negative, it shrinks both ranges.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">s_range</td><td>The <a class="el" href="classmaliput_1_1api_1_1_s_range.html" title="Directed, inclusive longitudinal (s value) range from s0 to s1.">SRange</a> to compute the intersection with. </td></tr>
+    <tr><td class="paramname">s_range</td><td>The <a class="el" href="classmaliput_1_1api_1_1_s_range.html" title="Directed, inclusive longitudinal (s value) range from s0 to s1.">SRange</a> to evaluate whether it is included into this <a class="el" href="classmaliput_1_1api_1_1_s_range.html" title="Directed, inclusive longitudinal (s value) range from s0 to s1.">SRange</a>. </td></tr>
     <tr><td class="paramname">tolerance</td><td>The tolerance to use to evaluate the intersection. </td></tr>
   </table>
   </dd>
@@ -275,7 +317,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Determines whether this <a class="el" href="classmaliput_1_1api_1_1_s_range.html" title="Directed, inclusive longitudinal (s value) range from s0 to s1.">SRange</a> intersects with <code>s_range</code>. </p>
-<p><code>tolerance</code> will modify this range and <code>s_range</code> by increasing the maximum tolerance and reducing the minimum each range. When <code>tolerance</code> is negative, it shrinks both ranges.</p>
+<p><code>tolerance</code> will modify this range and <code>s_range</code> by increasing the maximum and reducing the minimum of each range. When <code>tolerance</code> is negative, it shrinks both ranges.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">s_range</td><td>A <a class="el" href="classmaliput_1_1api_1_1_s_range.html" title="Directed, inclusive longitudinal (s value) range from s0 to s1.">SRange</a> to evaluate the intersection with. </td></tr>

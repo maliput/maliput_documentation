@@ -89,6 +89,7 @@ $(document).ready(function(){initNavTree('classmaliput_1_1routing_1_1_route.html
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classmaliput_1_1routing_1_1_route-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -159,6 +160,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a893d3327731e8f0c3ddd205f73af1ef2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmaliput_1_1routing_1_1_phase.html">Phase</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1routing_1_1_route.html#a893d3327731e8f0c3ddd205f73af1ef2">Get</a> (int index) const</td></tr>
 <tr class="memdesc:a893d3327731e8f0c3ddd205f73af1ef2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indexes the Phases.  <a href="classmaliput_1_1routing_1_1_route.html#a893d3327731e8f0c3ddd205f73af1ef2">More...</a><br /></td></tr>
 <tr class="separator:a893d3327731e8f0c3ddd205f73af1ef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7668e624561323a83cbe966980d33e5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html">api::LaneSRange</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1routing_1_1_route.html#af7668e624561323a83cbe966980d33e5">GetLaneSRange</a> (int phase_index, int lane_s_range_index) const</td></tr>
+<tr class="memdesc:af7668e624561323a83cbe966980d33e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indexes an <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">api::LaneSRange</a> in a <a class="el" href="classmaliput_1_1routing_1_1_phase.html" title="Manages a phase in a Route, towards its end.">Phase</a>.  <a href="classmaliput_1_1routing_1_1_route.html#af7668e624561323a83cbe966980d33e5">More...</a><br /></td></tr>
+<tr class="separator:af7668e624561323a83cbe966980d33e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a792e110ca66c7c328e5b7948f328a053"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structmaliput_1_1api_1_1_road_position.html">api::RoadPosition</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1routing_1_1_route.html#a792e110ca66c7c328e5b7948f328a053">start_route_position</a> () const</td></tr>
 <tr class="memdesc:a792e110ca66c7c328e5b7948f328a053"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the start of this <a class="el" href="classmaliput_1_1routing_1_1_route.html" title="Describes the sequence of paths that go from one api::RoadPosition to another.">Route</a>.  <a href="classmaliput_1_1routing_1_1_route.html#a792e110ca66c7c328e5b7948f328a053">More...</a><br /></td></tr>
 <tr class="separator:a792e110ca66c7c328e5b7948f328a053"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,7 +250,7 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<p>TODO(#453): Validate end to end connection of the RoutePhases.</p>
+<p>TODO(#453): Validate end to end connection of the Phases.</p>
 
 </div>
 </div>
@@ -307,6 +311,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Computes an <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html" title="A route, possibly spanning multiple (end-to-end) lanes.">api::LaneSRoute</a> that connects <code>start_position</code> with <a class="el" href="classmaliput_1_1routing_1_1_route.html#af27ddb0de9f5543debea81c74d7a3d37" title="Returns the end of this Route.">end_route_position()</a>. </p>
 <p>The resulting <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html" title="A route, possibly spanning multiple (end-to-end) lanes.">api::LaneSRoute</a> aims for reducing the number of lane switches. When <code>start_position</code> is not within this <a class="el" href="classmaliput_1_1routing_1_1_route.html" title="Describes the sequence of paths that go from one api::RoadPosition to another.">Route</a>, it will be transformed by FindRoutePositionBy() to a point within it and then the <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html" title="A route, possibly spanning multiple (end-to-end) lanes.">api::LaneSRoute</a> will be computed.</p>
+<p>Simple agents / users should consider using this method to avoid dealing with the complexities of <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">api::LaneSRange</a> switching within a <a class="el" href="classmaliput_1_1routing_1_1_phase.html" title="Manages a phase in a Route, towards its end.">Phase</a> and between Phases.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">start_position</td><td>The start <a class="el" href="structmaliput_1_1api_1_1_road_position.html" title="A position in the road network, consisting of a pointer to a specific Lane and a Lane-frame position ...">api::RoadPosition</a> of this path. It must be valid. </td></tr>
@@ -432,6 +437,51 @@ Public Member Functions</h2></td></tr>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">std::out_of_range</td><td>When <code>index</code> is negative or &gt;= <code><a class="el" href="classmaliput_1_1routing_1_1_route.html#af9593d4a5ff4274efaf429cb4f9e57cc">size()</a></code>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af7668e624561323a83cbe966980d33e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7668e624561323a83cbe966980d33e5">&#9670;&nbsp;</a></span>GetLaneSRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html">api::LaneSRange</a>&amp; GetLaneSRange </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>phase_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lane_s_range_index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Indexes an <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">api::LaneSRange</a> in a <a class="el" href="classmaliput_1_1routing_1_1_phase.html" title="Manages a phase in a Route, towards its end.">Phase</a>. </p>
+<p>Convenient method for advanced users.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">phase_index</td><td>The index of the <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">api::LaneSRange</a> in the <a class="el" href="classmaliput_1_1routing_1_1_phase.html" title="Manages a phase in a Route, towards its end.">Phase</a> specified by <code>phase_index</code>. It must be non-negative and less than <code><a class="el" href="classmaliput_1_1routing_1_1_route.html#af9593d4a5ff4274efaf429cb4f9e57cc">size()</a></code>. </td></tr>
+    <tr><td class="paramname">lane_s_range_index</td><td>The index of the <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">api::LaneSRange</a>. It must be non-negative and less than <code><a class="el" href="classmaliput_1_1routing_1_1_phase.html#a9776ed4691a409b9d76cd1406bf9b7ec">Phase::lane_s_ranges()</a>.<a class="el" href="classmaliput_1_1routing_1_1_route.html#af9593d4a5ff4274efaf429cb4f9e57cc">size()</a></code>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="classmaliput_1_1api_1_1_lane_s_range.html" title="Directed longitudinal range of a specific Lane, identified by a LaneId.">api::LaneSRange</a> indexed at the <code>phase_index</code> -th <a class="el" href="classmaliput_1_1routing_1_1_phase.html" title="Manages a phase in a Route, towards its end.">Phase</a> at the <code>lane_s_range_index</code> -th position. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::out_of_range</td><td>When any of the preconditions of <code>phase_index</code> or <code>lane_s_range_index</code> are unmet. </td></tr>
   </table>
   </dd>
 </dl>

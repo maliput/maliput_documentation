@@ -146,6 +146,8 @@ Functions</h2></td></tr>
 <tr class="separator:a50450cdc6c1aefc360378b2dd8e7cafd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae879accab23fdc7d64d39657fd67025c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../../maliput/html/namespacemaliput_1_1routing.html#ae879accab23fdc7d64d39657fd67025c">FindLaneSequences</a> (const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> *start, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> *<a class="elRef" href="../../maliput_multilane/html/loader_8cc.html#a4ba99a349b210a240b5ebc92ff1c5a42">end</a>, double max_length_m)</td></tr>
 <tr class="separator:ae879accab23fdc7d64d39657fd67025c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada93227a84774950f985f46bc88979cb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../../maliput/html/namespacemaliput_1_1routing.html#ada93227a84774950f985f46bc88979cb">FindLaneSequences</a> (const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> *start, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_lane.html">maliput::api::Lane</a> *<a class="elRef" href="../../maliput_multilane/html/loader_8cc.html#a4ba99a349b210a240b5ebc92ff1c5a42">end</a>, double max_length_m, bool no_u_turns)</td></tr>
+<tr class="separator:ada93227a84774950f985f46bc88979cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ff489426594d0e27de889f6cf0d93b4"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="elRef" href="../../maliput/html/namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487">LaneSRangeRelation</a>, const char * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../../maliput/html/namespacemaliput_1_1routing.html#a2ff489426594d0e27de889f6cf0d93b4">LaneSRangeRelationMapper</a> ()</td></tr>
 <tr class="separator:a2ff489426594d0e27de889f6cf0d93b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7203627c4fa2cac6b579928ec5d20404"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../../maliput/html/namespacemaliput_1_1routing.html#a7203627c4fa2cac6b579928ec5d20404">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="elRef" href="../../maliput/html/namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487">LaneSRangeRelation</a> &amp;relation)</td></tr>
@@ -192,11 +194,17 @@ Functions</h2></td></tr>
 <tr class="separator:a83acdaf087ed74f7ee771af110e08683"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec8178976679b5a3ed65148e869e83e5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#aec8178976679b5a3ed65148e869e83e5">GTEST_TEST</a> (FindLaneSequencesTest, MaxLengthOmitsStartAndEndLanes)</td></tr>
 <tr class="separator:aec8178976679b5a3ed65148e869e83e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af14392388339e90ff1a4a2e17ab562d8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#af14392388339e90ff1a4a2e17ab562d8">TEST_F</a> (TShapeRoadFindLaneSequencesTest, NotRemovingUTurnYieldsTwoSequences)</td></tr>
+<tr class="separator:af14392388339e90ff1a4a2e17ab562d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae303b62fdeadaa9ddd6371028bb20889"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#ae303b62fdeadaa9ddd6371028bb20889">TEST_F</a> (TShapeRoadFindLaneSequencesTest, RemovingUTurnYieldsOneSequence)</td></tr>
+<tr class="separator:ae303b62fdeadaa9ddd6371028bb20889"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a966668b48f0d7a836bc405782117c4f5"><td class="memItemLeft" align="right" valign="top">static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#a966668b48f0d7a836bc405782117c4f5">kMultilaneResourcesPath</a> [] = DEF_MULTILANE_RESOURCES</td></tr>
 <tr class="separator:a966668b48f0d7a836bc405782117c4f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadb6a170be47b557c0390d1ce0e62deb"><td class="memItemLeft" align="right" valign="top">static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#aadb6a170be47b557c0390d1ce0e62deb">kMalidriveResourcesPath</a> [] = DEF_MALIDRIVE_RESOURCES</td></tr>
+<tr class="separator:aadb6a170be47b557c0390d1ce0e62deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="aec8178976679b5a3ed65148e869e83e5"></a>
@@ -256,7 +264,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a95e1d2835157e8da4fd6f9af9b10b278"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95e1d2835157e8da4fd6f9af9b10b278">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[1/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a95e1d2835157e8da4fd6f9af9b10b278">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[1/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -284,7 +292,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a0f66e5501977e79d3c5ca0221e2a4a8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f66e5501977e79d3c5ca0221e2a4a8e">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[2/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f66e5501977e79d3c5ca0221e2a4a8e">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[2/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -312,7 +320,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a2519449985357e6769cbdb58b9b52613"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2519449985357e6769cbdb58b9b52613">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[3/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2519449985357e6769cbdb58b9b52613">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[3/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -340,7 +348,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="acf3e006b96df803dec4d8a41a0881017"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf3e006b96df803dec4d8a41a0881017">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[4/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acf3e006b96df803dec4d8a41a0881017">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[4/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -368,7 +376,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ac84d1d054ed4ccab30461599a8451ec2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac84d1d054ed4ccab30461599a8451ec2">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[5/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac84d1d054ed4ccab30461599a8451ec2">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[5/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -396,7 +404,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a8a74023cb227aef66e140fb8efe0e688"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a74023cb227aef66e140fb8efe0e688">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[6/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a74023cb227aef66e140fb8efe0e688">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[6/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -424,7 +432,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a5f27f669fd2254a33078da9047333ac1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f27f669fd2254a33078da9047333ac1">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[7/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f27f669fd2254a33078da9047333ac1">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[7/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -452,7 +460,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a3ba2de7ad7ae2b98ae9a0952da9d0509"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ba2de7ad7ae2b98ae9a0952da9d0509">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[8/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ba2de7ad7ae2b98ae9a0952da9d0509">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[8/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -480,7 +488,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aa0d1a89b3ee94490f45f24975be739d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0d1a89b3ee94490f45f24975be739d9">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[9/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0d1a89b3ee94490f45f24975be739d9">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[9/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -508,7 +516,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a608b794a9e77cd546c6e56efe2aab531"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a608b794a9e77cd546c6e56efe2aab531">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[10/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a608b794a9e77cd546c6e56efe2aab531">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[10/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -536,7 +544,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a43016eddd0fa0ea21a7aa45197330f4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43016eddd0fa0ea21a7aa45197330f4f">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[11/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a43016eddd0fa0ea21a7aa45197330f4f">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[11/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -564,7 +572,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="aa4d006f1264f4a89f81a4f809c237fb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4d006f1264f4a89f81a4f809c237fb8">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[12/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4d006f1264f4a89f81a4f809c237fb8">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[12/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -592,7 +600,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a2b35663b6a111525ac0ee2623fb75efb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b35663b6a111525ac0ee2623fb75efb">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[13/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b35663b6a111525ac0ee2623fb75efb">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[13/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -620,7 +628,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a99acbe1dba42ba5a14db4cb69d157bab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99acbe1dba42ba5a14db4cb69d157bab">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[14/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a99acbe1dba42ba5a14db4cb69d157bab">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[14/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -648,7 +656,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ae9cbdb5b48f77597a5732dc28fadf3b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9cbdb5b48f77597a5732dc28fadf3b8">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[15/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9cbdb5b48f77597a5732dc28fadf3b8">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[15/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -676,7 +684,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a6158d2fca03c868fca7a7decaea45640"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6158d2fca03c868fca7a7decaea45640">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[16/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6158d2fca03c868fca7a7decaea45640">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[16/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -704,7 +712,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ab975192d490d6b7d9864647afbbc3ea5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab975192d490d6b7d9864647afbbc3ea5">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[17/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab975192d490d6b7d9864647afbbc3ea5">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[17/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -731,7 +739,85 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="af14392388339e90ff1a4a2e17ab562d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af14392388339e90ff1a4a2e17ab562d8">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[18/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">maliput::routing::TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">TShapeRoadFindLaneSequencesTest&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">NotRemovingUTurnYieldsTwoSequences&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae303b62fdeadaa9ddd6371028bb20889"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae303b62fdeadaa9ddd6371028bb20889">&#9670;&nbsp;</a></span>TEST_F() <span class="overload">[19/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">maliput::routing::TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">TShapeRoadFindLaneSequencesTest&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RemovingUTurnYieldsOneSequence&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="aadb6a170be47b557c0390d1ce0e62deb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadb6a170be47b557c0390d1ce0e62deb">&#9670;&nbsp;</a></span>kMalidriveResourcesPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr char kMalidriveResourcesPath[] = DEF_MALIDRIVE_RESOURCES</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a966668b48f0d7a836bc405782117c4f5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a966668b48f0d7a836bc405782117c4f5">&#9670;&nbsp;</a></span>kMultilaneResourcesPath</h2>
 
