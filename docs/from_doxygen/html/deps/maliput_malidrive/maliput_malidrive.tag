@@ -663,6 +663,7 @@
     <class kind="struct">malidrive::xodr::Geometry</class>
     <class kind="struct">malidrive::xodr::Geometry::Line</class>
     <class kind="struct">malidrive::xodr::Geometry::Arc</class>
+    <class kind="struct">malidrive::xodr::Geometry::Spiral</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
   </compound>
@@ -3420,6 +3421,7 @@
     <filename>structmalidrive_1_1xodr_1_1_geometry.html</filename>
     <class kind="struct">malidrive::xodr::Geometry::Arc</class>
     <class kind="struct">malidrive::xodr::Geometry::Line</class>
+    <class kind="struct">malidrive::xodr::Geometry::Spiral</class>
     <member kind="enumeration">
       <type></type>
       <name>Type</name>
@@ -3428,6 +3430,7 @@
       <arglist></arglist>
       <enumvalue file="structmalidrive_1_1xodr_1_1_geometry.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7aee669fa7b5a35d96a396d4ed648afb45">kLine</enumvalue>
       <enumvalue file="structmalidrive_1_1xodr_1_1_geometry.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7af20a3b1298346c2b7d0d17925491217b">kArc</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_geometry.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a47f741a9428ad966bd733a3d9b6027f8">kSpiral</enumvalue>
     </member>
     <member kind="function">
       <type>bool</type>
@@ -3493,10 +3496,10 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>std::variant&lt; Line, Arc &gt;</type>
+      <type>std::variant&lt; Line, Arc, Spiral &gt;</type>
       <name>description</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_geometry.html</anchorfile>
-      <anchor>a982920862114ecaa57356d26649f2090</anchor>
+      <anchor>aa4e245bab28cee5d3766bea9a9182f77</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
@@ -6797,6 +6800,45 @@
       <anchorfile>classmalidrive_1_1builder_1_1_speed_limit_builder.html</anchorfile>
       <anchor>a734073af09daa2f3d3f22140e32bcd16</anchor>
       <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::Geometry::Spiral</name>
+    <filename>structmalidrive_1_1xodr_1_1_geometry_1_1_spiral.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_spiral.html</anchorfile>
+      <anchor>a3b6aa90b716f8e4514d720fc1bb88a50</anchor>
+      <arglist>(const Spiral &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>curv_start</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_spiral.html</anchorfile>
+      <anchor>ad7d207ec0ba6deb7b515132c6f4e8093</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>curv_end</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_spiral.html</anchorfile>
+      <anchor>a2b6f26f1eb63b34e54fedc58dcc82962</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kCurvStart</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_spiral.html</anchorfile>
+      <anchor>a90e2d13783d72466cae5d730ac3172b3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kCurvEnd</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_spiral.html</anchorfile>
+      <anchor>ab340d5bdff98efcb5a8cc8f039d8bfc3</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="struct">

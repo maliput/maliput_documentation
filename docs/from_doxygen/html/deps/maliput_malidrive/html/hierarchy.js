@@ -82,6 +82,7 @@ var hierarchy =
     [ "RoadType::Speed", "structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html", null ],
     [ "Lane::Speed", "structmalidrive_1_1xodr_1_1_lane_1_1_speed.html", null ],
     [ "SpeedLimitBuilder", "classmalidrive_1_1builder_1_1_speed_limit_builder.html", null ],
+    [ "Geometry::Spiral", "structmalidrive_1_1xodr_1_1_geometry_1_1_spiral.html", null ],
     [ "LateralProfile::Superelevation", "structmalidrive_1_1xodr_1_1_lateral_profile_1_1_superelevation.html", null ],
     [ "UniqueIntegerProvider", "classmalidrive_1_1builder_1_1_unique_integer_provider.html", null ],
     [ "DBManager::XodrGapBetweenFunctions", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_functions.html", null ],

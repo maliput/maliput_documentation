@@ -2,16 +2,18 @@ var structmalidrive_1_1xodr_1_1_geometry =
 [
     [ "Arc", "structmalidrive_1_1xodr_1_1_geometry_1_1_arc.html", "structmalidrive_1_1xodr_1_1_geometry_1_1_arc" ],
     [ "Line", "structmalidrive_1_1xodr_1_1_geometry_1_1_line.html", "structmalidrive_1_1xodr_1_1_geometry_1_1_line" ],
+    [ "Spiral", "structmalidrive_1_1xodr_1_1_geometry_1_1_spiral.html", "structmalidrive_1_1xodr_1_1_geometry_1_1_spiral" ],
     [ "Type", "structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7", [
       [ "kLine", "structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7aee669fa7b5a35d96a396d4ed648afb45", null ],
-      [ "kArc", "structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7af20a3b1298346c2b7d0d17925491217b", null ]
+      [ "kArc", "structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7af20a3b1298346c2b7d0d17925491217b", null ],
+      [ "kSpiral", "structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7a47f741a9428ad966bd733a3d9b6027f8", null ]
     ] ],
     [ "operator!=", "structmalidrive_1_1xodr_1_1_geometry.html#a6886f5036c6d08a95f2839a1d9924b62", null ],
     [ "operator==", "structmalidrive_1_1xodr_1_1_geometry.html#a86c550595e7a86b9229da53c6ec5fd8a", null ],
     [ "str_to_type", "structmalidrive_1_1xodr_1_1_geometry.html#a98acc419c9eb9f121a3ba33ff3973852", null ],
     [ "type_to_str", "structmalidrive_1_1xodr_1_1_geometry.html#ac7d5b03780e83d0fb7a3b57e271a5924", null ],
     [ "operator<<", "structmalidrive_1_1xodr_1_1_geometry.html#a41a84cf079162db202127e0246492fd0", null ],
-    [ "description", "structmalidrive_1_1xodr_1_1_geometry.html#a982920862114ecaa57356d26649f2090", null ],
+    [ "description", "structmalidrive_1_1xodr_1_1_geometry.html#aa4e245bab28cee5d3766bea9a9182f77", null ],
     [ "kGeometryTag", "structmalidrive_1_1xodr_1_1_geometry.html#aa9e8b26360530e0251a80133adb2acce", null ],
     [ "kLength", "structmalidrive_1_1xodr_1_1_geometry.html#a211b8393e80a38beec2131424ed3b31d", null ],
     [ "kOrientation", "structmalidrive_1_1xodr_1_1_geometry.html#a838629b8db8fe5eba67b90ce5c786145", null ],

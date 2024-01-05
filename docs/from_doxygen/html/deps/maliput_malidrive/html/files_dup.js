@@ -45,7 +45,8 @@ var files_dup =
     [ "geometry.h", "geometry_8h.html", [
       [ "Geometry", "structmalidrive_1_1xodr_1_1_geometry.html", "structmalidrive_1_1xodr_1_1_geometry" ],
       [ "Line", "structmalidrive_1_1xodr_1_1_geometry_1_1_line.html", "structmalidrive_1_1xodr_1_1_geometry_1_1_line" ],
-      [ "Arc", "structmalidrive_1_1xodr_1_1_geometry_1_1_arc.html", "structmalidrive_1_1xodr_1_1_geometry_1_1_arc" ]
+      [ "Arc", "structmalidrive_1_1xodr_1_1_geometry_1_1_arc.html", "structmalidrive_1_1xodr_1_1_geometry_1_1_arc" ],
+      [ "Spiral", "structmalidrive_1_1xodr_1_1_geometry_1_1_spiral.html", "structmalidrive_1_1xodr_1_1_geometry_1_1_spiral" ]
     ] ],
     [ "ground_curve.h", "ground__curve_8h.html", [
       [ "GroundCurve", "classmalidrive_1_1road__curve_1_1_ground_curve.html", "classmalidrive_1_1road__curve_1_1_ground_curve" ]
