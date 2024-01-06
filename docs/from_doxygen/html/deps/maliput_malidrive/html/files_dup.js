@@ -221,5 +221,6 @@ var files_dup =
     [ "xodr_parser_configuration.h", "xodr__parser__configuration_8h.html", "xodr__parser__configuration_8h" ],
     [ "xodr_query.cc", "xodr__query_8cc.html", "xodr__query_8cc" ],
     [ "xodr_testing_map_descriptions.h", "xodr__testing__map__descriptions_8h.html", "xodr__testing__map__descriptions_8h" ],
+    [ "xodr_to_obj.cc", "xodr__to__obj_8cc.html", "xodr__to__obj_8cc" ],
     [ "xodr_validate.cc", "xodr__validate_8cc.html", "xodr__validate_8cc" ]
 ];

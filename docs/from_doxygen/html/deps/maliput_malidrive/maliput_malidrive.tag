@@ -2440,6 +2440,24 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>xodr_to_obj.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/applications/</path>
+    <filename>xodr__to__obj_8cc.html</filename>
+    <includes id="log__level__flag_8h" name="log_level_flag.h" local="yes" imported="no">applications/log_level_flag.h</includes>
+    <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_malidrive/builder/road_network_builder.h</includes>
+    <includes id="loader_8h" name="loader.h" local="yes" imported="no">maliput_malidrive/loader/loader.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::applications</namespace>
+    <namespace>malidrive::applications::xodr</namespace>
+    <member kind="function">
+      <type>int</type>
+      <name>main</name>
+      <anchorfile>xodr__to__obj_8cc.html</anchorfile>
+      <anchor>a3c04138a5bfe5d72780bb7e82a18e627</anchor>
+      <arglist>(int argc, char **argv)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>xodr_validate.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/applications/</path>
     <filename>xodr__validate_8cc.html</filename>
