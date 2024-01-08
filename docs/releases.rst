@@ -14,7 +14,7 @@ Versioning
 ``maliput`` packages will adhere to `semantic versioning <https://semver.org/>`_ and
 will follow the `ROS2 Versioning guidelines <https://docs.ros.org/en/foxy/Contributing/Developer-Guide.html#versioning>`_ .
 
-**IMPORTANT:** ``maliput`` **is still under actively development for so semantic versioning is not yet strictly followed for the** `1.X.Y` **versions.**
+**IMPORTANT:** ``maliput`` **is still under actively development so semantic versioning is not yet strictly followed for the** `1.X.Y` **versions.**
 
 
 Branches and tags for releases
