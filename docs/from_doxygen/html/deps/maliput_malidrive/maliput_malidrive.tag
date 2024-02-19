@@ -4069,6 +4069,7 @@
       <enumvalue file="structmalidrive_1_1xodr_1_1_lane.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7ad317cdd2163e23360fa4cd63e68e4ccb">kBorder</enumvalue>
       <enumvalue file="structmalidrive_1_1xodr_1_1_lane.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7ae412484be1c558bb641a11d900b98f6b">kRestricted</enumvalue>
       <enumvalue file="structmalidrive_1_1xodr_1_1_lane.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a2f1b49aef4a81f0f9b4e7f0e1b9b90ac">kParking</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_lane.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a1cf4801e886e6175656f48edb7f665c7">kCurb</enumvalue>
       <enumvalue file="structmalidrive_1_1xodr_1_1_lane.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a2bbe1a0ba50da9d6a71e768330359367">kBidirectional</enumvalue>
       <enumvalue file="structmalidrive_1_1xodr_1_1_lane.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7afc0c69ca269010f09ab0218150315477">kMedian</enumvalue>
       <enumvalue file="structmalidrive_1_1xodr_1_1_lane.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7ae7b681f91c27471814a9325204332991">kSpecial1</enumvalue>
