@@ -1191,6 +1191,13 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>angular_tolerance</name>
+      <anchorfile>structmaliput_1_1integration_1_1_malidrive_build_properties.html</anchorfile>
+      <anchor>a6fafc8be6a7c33b8c8a494f90fffb4c7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
       <type>std::string</type>
       <name>build_policy</name>
       <anchorfile>structmaliput_1_1integration_1_1_malidrive_build_properties.html</anchorfile>

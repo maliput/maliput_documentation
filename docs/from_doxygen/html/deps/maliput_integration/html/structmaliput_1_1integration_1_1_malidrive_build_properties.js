@@ -1,5 +1,6 @@
 var structmaliput_1_1integration_1_1_malidrive_build_properties =
 [
+    [ "angular_tolerance", "structmaliput_1_1integration_1_1_malidrive_build_properties.html#a6fafc8be6a7c33b8c8a494f90fffb4c7", null ],
     [ "build_policy", "structmaliput_1_1integration_1_1_malidrive_build_properties.html#a77b0a0a90f396bc58a0f2decd2f2af1c", null ],
     [ "intersection_book_file", "structmaliput_1_1integration_1_1_malidrive_build_properties.html#aba56e5052165aed5fce1c53ffc9ebdd9", null ],
     [ "linear_tolerance", "structmaliput_1_1integration_1_1_malidrive_build_properties.html#a88b54211f9d04c8e75a731d9b5371f27", null ],

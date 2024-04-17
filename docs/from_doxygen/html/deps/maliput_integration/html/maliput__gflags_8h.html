@@ -205,6 +205,11 @@ Macros</h2></td></tr>
 <div class="line">    return gflags::GetCommandLineFlagInfoOrDie(<span class="stringliteral">&quot;max_linear_tolerance&quot;</span>).is_default                                      \</div>
 <div class="line">               ? std::nullopt                                                                                          \</div>
 <div class="line">               : std::make_optional&lt;double&gt;(FLAGS_max_linear_tolerance);                                               \</div>
+<div class="line">  }                                                                                                                    \</div>
+<div class="line">  std::optional&lt;double&gt; GetAngularToleranceFlag() {                                                                    \</div>
+<div class="line">    return gflags::GetCommandLineFlagInfoOrDie(<span class="stringliteral">&quot;angular_tolerance&quot;</span>).is_default                                         \</div>
+<div class="line">               ? std::nullopt                                                                                          \</div>
+<div class="line">               : std::make_optional&lt;double&gt;(FLAGS_angular_tolerance);                                                  \</div>
 <div class="line">  }</div>
 </div><!-- fragment -->
 </div>
