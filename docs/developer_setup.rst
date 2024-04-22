@@ -147,7 +147,7 @@ Install dependencies via ``rosdep``
 .. code-block:: sh
 
     rosdep update --include-eol-distros
-    rosdep install -i -y --rosdistro $ROS_DISTRO --skip-keys "pybind11" --from-paths src
+    rosdep install -i -y --rosdistro $ROS_DISTRO --from-paths src
 
 
 .. warning::
@@ -310,7 +310,7 @@ state the list of system dependencies necessary to build and execute. And we can
 
 .. code-block:: sh
 
-      rosdep check --rosdistro $ROS_DISTRO --skip-keys "pybind11" --from-paths src
+      rosdep check --rosdistro $ROS_DISTRO --from-paths src
 
 Note: not all workspace prerequisites are handled using ``rosdep`` meaning ``rosdep check`` may fall short. For example,
 pure binary dependencies like  ``drake``\ 's binary tarball is not handled by ``rosdep``. Another example is ``apt``
@@ -399,7 +399,7 @@ In a built workspace, run:
 
 .. code-block:: sh
 
-   colcon test --event-handlers=console_direct+ --return-code-on-test-failure --packages-skip pybind11
+   colcon test --event-handlers=console_direct+ --return-code-on-test-failure
 
 .. note::
   See `colcon test documentation <https://colcon.readthedocs.io/en/released/user/how-to.html#run-specific-tests>`_
@@ -578,7 +578,7 @@ Install all underlay packages' dependencies
 
     export ROS_DISTRO=foxy
     rosdep update --include-eol-distros
-    rosdep install -i -y --rosdistro $ROS_DISTRO --skip-keys "pybind11" --from-paths /opt/dsim-desktop/*
+    rosdep install -i -y --rosdistro $ROS_DISTRO --from-paths /opt/dsim-desktop/*
 
 
 .. _install-underlay-drake:
