@@ -79,4 +79,18 @@ And remember to link the libraries to your targets in the `BUILD`` file:
     )
 
 
-You can find a full example at `maliput_examples <https://github.com/maliput/maliput_examples/maliput_bazel>`__
+You can find a full example at `maliput_examples <https://github.com/maliput/maliput_examples>`__
+
+
+Rust
+----
+
+If you are using `cargo <https://doc.rust-lang.org/cargo/>`_ as your build system you can add `maliput` as dependency to your project by adding them to your `Cargo.toml` file.
+
+.. code-block:: toml
+
+    [dependencies]
+    maliput = { version = "^0.1.1"}
+
+
+You can find a full example at `maliput_examples <https://github.com/maliput/maliput_examples>`__

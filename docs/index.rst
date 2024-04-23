@@ -41,3 +41,4 @@ Contents
    developer_setup
    releases
    maliput_wheels_pypy_index
+   rust_api_crates_io
