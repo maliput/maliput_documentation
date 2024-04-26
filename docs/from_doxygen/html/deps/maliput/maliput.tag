@@ -3026,6 +3026,64 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>fresnel.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/math/</path>
+    <filename>fresnel_8cc.html</filename>
+    <includes id="fresnel_8h" name="fresnel.h" local="yes" imported="no">maliput/math/fresnel.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::math</namespace>
+    <member kind="function">
+      <type>Vector2</type>
+      <name>ComputeFresnelCosineAndSine</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>a71aff3c3ece59d4c5db24cca8b3242d0</anchor>
+      <arglist>(double t)</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>FresnelSpiralHeading</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>adf81668ebef3d9b9f524f3149f9875ac</anchor>
+      <arglist>(double t, double k_dot)</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>FresnelSpiralHeadingDot</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>a5d59b361c06ec7aa09e78662138d3120</anchor>
+      <arglist>(double t, double k_dot)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>fresnel.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/math/</path>
+    <filename>fresnel_8h.html</filename>
+    <includes id="vector_8h" name="vector.h" local="yes" imported="no">maliput/math/vector.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::math</namespace>
+    <member kind="function">
+      <type>Vector2</type>
+      <name>ComputeFresnelCosineAndSine</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>a71aff3c3ece59d4c5db24cca8b3242d0</anchor>
+      <arglist>(double t)</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>FresnelSpiralHeading</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>adf81668ebef3d9b9f524f3149f9875ac</anchor>
+      <arglist>(double t, double k_dot)</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>FresnelSpiralHeadingDot</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>a5d59b361c06ec7aa09e78662138d3120</anchor>
+      <arglist>(double t, double k_dot)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>generate_obj.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/utility/</path>
     <filename>generate__obj_8cc.html</filename>
@@ -47788,6 +47846,27 @@
       <anchorfile>namespacemaliput_1_1math.html</anchorfile>
       <anchor>a656c890f9af05404d925f2fd52324beb</anchor>
       <arglist>(const math::Matrix&lt; N &gt; &amp;m1, const math::Matrix&lt; N &gt; &amp;m2, double tolerance=0.0, CompareType compare_type=CompareType::kAbsolute)</arglist>
+    </member>
+    <member kind="function">
+      <type>Vector2</type>
+      <name>ComputeFresnelCosineAndSine</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>a71aff3c3ece59d4c5db24cca8b3242d0</anchor>
+      <arglist>(double t)</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>FresnelSpiralHeading</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>adf81668ebef3d9b9f524f3149f9875ac</anchor>
+      <arglist>(double t, double k_dot)</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>FresnelSpiralHeadingDot</name>
+      <anchorfile>namespacemaliput_1_1math.html</anchorfile>
+      <anchor>a5d59b361c06ec7aa09e78662138d3120</anchor>
+      <arglist>(double t, double k_dot)</arglist>
     </member>
     <member kind="function">
       <type>Derived</type>

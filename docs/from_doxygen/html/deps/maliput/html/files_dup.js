@@ -158,6 +158,8 @@ var files_dup =
       [ "ContextBaseFixedInputAttorney", "classmaliput_1_1drake_1_1systems_1_1internal_1_1_context_base_fixed_input_attorney.html", "classmaliput_1_1drake_1_1systems_1_1internal_1_1_context_base_fixed_input_attorney" ]
     ] ],
     [ "framework_common.h", "framework__common_8h.html", "framework__common_8h" ],
+    [ "fresnel.cc", "fresnel_8cc.html", "fresnel_8cc" ],
+    [ "fresnel.h", "fresnel_8h.html", "fresnel_8h" ],
     [ "generate_obj.cc", "generate__obj_8cc.html", "generate__obj_8cc" ],
     [ "generate_obj.h", "generate__obj_8h.html", "generate__obj_8h" ],
     [ "generate_string.cc", "generate__string_8cc.html", "generate__string_8cc" ],
