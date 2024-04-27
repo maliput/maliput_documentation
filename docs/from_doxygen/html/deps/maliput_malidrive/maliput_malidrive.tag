@@ -1602,6 +1602,7 @@
     <includes id="cubic__polynomial_8h" name="cubic_polynomial.h" local="yes" imported="no">maliput_malidrive/road_curve/cubic_polynomial.h</includes>
     <includes id="line__ground__curve_8h" name="line_ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/line_ground_curve.h</includes>
     <includes id="piecewise__ground__curve_8h" name="piecewise_ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/piecewise_ground_curve.h</includes>
+    <includes id="spiral__ground__curve_8h" name="spiral_ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/spiral_ground_curve.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
   </compound>
@@ -2100,6 +2101,24 @@
     <class kind="class">malidrive::builder::SpeedLimitBuilder</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
+  </compound>
+  <compound kind="file">
+    <name>spiral_ground_curve.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
+    <filename>spiral__ground__curve_8cc.html</filename>
+    <includes id="spiral__ground__curve_8h" name="spiral_ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/spiral_ground_curve.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::road_curve</namespace>
+  </compound>
+  <compound kind="file">
+    <name>spiral_ground_curve.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
+    <filename>spiral__ground__curve_8h.html</filename>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <includes id="ground__curve_8h" name="ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/ground_curve.h</includes>
+    <class kind="class">malidrive::road_curve::SpiralGroundCurve</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::road_curve</namespace>
   </compound>
   <compound kind="file">
     <name>tools.cc</name>
@@ -4845,38 +4864,6 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>malidrive::xodr::LaneLink::LinkAttributes</name>
-    <filename>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</filename>
-    <member kind="typedef">
-      <type>maliput::api::TypeSpecificIdentifier&lt; struct LinkAttributes &gt;</type>
-      <name>Id</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
-      <anchor>a3bb8422d7a63555382fc951aba09a378</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
-      <anchor>a45f90c3c161b89572f9b3b9c359b0e61</anchor>
-      <arglist>(const LinkAttributes &amp;other) const</arglist>
-    </member>
-    <member kind="variable">
-      <type>Id</type>
-      <name>id</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
-      <anchor>a150a709e86e7134d17cd063de6810b6c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kId</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
-      <anchor>a9f36bf43428315b6dfd91de20f6854c2</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
     <name>malidrive::xodr::RoadLink::LinkAttributes</name>
     <filename>structmalidrive_1_1xodr_1_1_road_link_1_1_link_attributes.html</filename>
     <member kind="typedef">
@@ -4933,6 +4920,38 @@
       <name>kContactPoint</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_road_link_1_1_link_attributes.html</anchorfile>
       <anchor>a1bed5005c8e0e948be03e115eca00137</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::LaneLink::LinkAttributes</name>
+    <filename>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</filename>
+    <member kind="typedef">
+      <type>maliput::api::TypeSpecificIdentifier&lt; struct LinkAttributes &gt;</type>
+      <name>Id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
+      <anchor>a3bb8422d7a63555382fc951aba09a378</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
+      <anchor>a45f90c3c161b89572f9b3b9c359b0e61</anchor>
+      <arglist>(const LinkAttributes &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>Id</type>
+      <name>id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
+      <anchor>a150a709e86e7134d17cd063de6810b6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kId</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
+      <anchor>a9f36bf43428315b6dfd91de20f6854c2</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -5478,6 +5497,13 @@
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; road_curve::GroundCurve &gt;</type>
+      <name>MakeSpiralGroundCurve</name>
+      <anchorfile>classmalidrive_1_1builder_1_1_road_curve_factory.html</anchorfile>
+      <anchor>ac93b8b1213458442b0415b31a6e8f375</anchor>
+      <arglist>(const xodr::Geometry &amp;spiral_geometry) const override</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; road_curve::GroundCurve &gt;</type>
       <name>MakePiecewiseGroundCurve</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_curve_factory.html</anchorfile>
       <anchor>af4519cbd16d307ae8a3eef3e2a4b95ca</anchor>
@@ -5570,6 +5596,13 @@
       <anchorfile>classmalidrive_1_1builder_1_1_road_curve_factory_base.html</anchorfile>
       <anchor>aa56b53a0cd2de148c04f9aa2d75a9a2b</anchor>
       <arglist>(const xodr::Geometry &amp;line_geometry) const =0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual std::unique_ptr&lt; road_curve::GroundCurve &gt;</type>
+      <name>MakeSpiralGroundCurve</name>
+      <anchorfile>classmalidrive_1_1builder_1_1_road_curve_factory_base.html</anchorfile>
+      <anchor>abbcd94de9f8d7164e9f95597c57b563e</anchor>
+      <arglist>(const xodr::Geometry &amp;spiral_geometry) const =0</arglist>
     </member>
     <member kind="function" virtualness="pure">
       <type>virtual std::unique_ptr&lt; road_curve::GroundCurve &gt;</type>
@@ -6860,6 +6893,32 @@
       <arglist></arglist>
     </member>
   </compound>
+  <compound kind="class">
+    <name>malidrive::road_curve::SpiralGroundCurve</name>
+    <filename>classmalidrive_1_1road__curve_1_1_spiral_ground_curve.html</filename>
+    <base>malidrive::road_curve::GroundCurve</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIDRIVE_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmalidrive_1_1road__curve_1_1_spiral_ground_curve.html</anchorfile>
+      <anchor>a6a1cce9e9d0c5cdf1c99d170f4d8fd38</anchor>
+      <arglist>(SpiralGroundCurve)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>SpiralGroundCurve</name>
+      <anchorfile>classmalidrive_1_1road__curve_1_1_spiral_ground_curve.html</anchorfile>
+      <anchor>a7878c755e430ae51367069dd65de2499</anchor>
+      <arglist>()=delete</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>SpiralGroundCurve</name>
+      <anchorfile>classmalidrive_1_1road__curve_1_1_spiral_ground_curve.html</anchorfile>
+      <anchor>afa0f2b0235637bce3ddb7b28cb65f8ea</anchor>
+      <arglist>(double linear_tolerance, const maliput::math::Vector2 &amp;xy0, double heading0, double curvature0, double curvature1, double arc_length, double p0, double p1)</arglist>
+    </member>
+  </compound>
   <compound kind="struct">
     <name>malidrive::xodr::LateralProfile::Superelevation</name>
     <filename>structmalidrive_1_1xodr_1_1_lateral_profile_1_1_superelevation.html</filename>
@@ -7730,6 +7789,7 @@
     <class kind="class">malidrive::road_curve::RoadCurve</class>
     <class kind="class">malidrive::road_curve::RoadCurveOffset</class>
     <class kind="class">malidrive::road_curve::ScaledDomainFunction</class>
+    <class kind="class">malidrive::road_curve::SpiralGroundCurve</class>
   </compound>
   <compound kind="namespace">
     <name>malidrive::road_curve::test</name>

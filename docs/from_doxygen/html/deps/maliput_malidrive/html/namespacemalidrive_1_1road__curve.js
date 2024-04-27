@@ -11,5 +11,6 @@ var namespacemalidrive_1_1road__curve =
     [ "PiecewiseGroundCurve", "classmalidrive_1_1road__curve_1_1_piecewise_ground_curve.html", "classmalidrive_1_1road__curve_1_1_piecewise_ground_curve" ],
     [ "RoadCurve", "classmalidrive_1_1road__curve_1_1_road_curve.html", "classmalidrive_1_1road__curve_1_1_road_curve" ],
     [ "RoadCurveOffset", "classmalidrive_1_1road__curve_1_1_road_curve_offset.html", "classmalidrive_1_1road__curve_1_1_road_curve_offset" ],
-    [ "ScaledDomainFunction", "classmalidrive_1_1road__curve_1_1_scaled_domain_function.html", "classmalidrive_1_1road__curve_1_1_scaled_domain_function" ]
+    [ "ScaledDomainFunction", "classmalidrive_1_1road__curve_1_1_scaled_domain_function.html", "classmalidrive_1_1road__curve_1_1_scaled_domain_function" ],
+    [ "SpiralGroundCurve", "classmalidrive_1_1road__curve_1_1_spiral_ground_curve.html", "classmalidrive_1_1road__curve_1_1_spiral_ground_curve" ]
 ];

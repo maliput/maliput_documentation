@@ -1,5 +1,11 @@
 var NAVTREEINDEX2 =
 {
+"junction_8h.html#af570e4ee8fc4c155cd347ea9a5f38cb2":[5,0,32,1],
+"lane__link_8h.html":[5,0,37],
+"lane__section_8cc.html":[5,0,42],
+"lane__section_8h.html":[5,0,43],
+"lane__width_8cc.html":[5,0,44],
+"lane__width_8h.html":[5,0,45],
 "lanes_8cc.html":[5,0,46],
 "lanes_8h.html":[5,0,47],
 "lateral__profile_8cc.html":[5,0,48],
@@ -39,8 +45,8 @@ var NAVTREEINDEX2 =
 "malidrive_road_curve_design.html#road_curve_concepts":[0,0],
 "malidrive_road_curve_design.html#roll_pitch_yaw_orthogonality":[0,2,1],
 "malidrive_road_curve_design.html#tangent_vector_road_surface":[0,0,1],
-"maliput__malidrive_2xodr_2xodr__extract_8cc.html":[5,0,117],
-"maliput__malidrive_2xodr_2xodr__extract_8cc.html#a5bf5ed695e9f77f5f9fedd4d95e367f0":[5,0,117,0],
+"maliput__malidrive_2xodr_2xodr__extract_8cc.html":[5,0,119],
+"maliput__malidrive_2xodr_2xodr__extract_8cc.html#a5bf5ed695e9f77f5f9fedd4d95e367f0":[5,0,119,0],
 "modules.html":[2],
 "namespacemalidrive.html":[3,0,0],
 "namespacemalidrive.html":[4,0,0],
@@ -175,6 +181,8 @@ var NAVTREEINDEX2 =
 "simplify__geometries_8h.html#aa39ac9a357a5a78705a21d92a1ac2794":[5,0,109,0],
 "speed__limit__builder_8cc.html":[5,0,110],
 "speed__limit__builder_8h.html":[5,0,111],
+"spiral__ground__curve_8cc.html":[5,0,112],
+"spiral__ground__curve_8h.html":[5,0,113],
 "structmalidrive_1_1builder_1_1_build_policy.html":[4,0,0,1,1],
 "structmalidrive_1_1builder_1_1_build_policy.html#a1d1cfd8ffb84e947f82999c682b666a7":[4,0,0,1,1,0],
 "structmalidrive_1_1builder_1_1_build_policy.html#a1d1cfd8ffb84e947f82999c682b666a7a3cbad2056039d59b167df820052b0424":[4,0,0,1,1,0,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX2 =
 "structmalidrive_1_1road__curve_1_1_lane_offset_1_1_adjacent_lane_functions.html#aa75a4c768e9be6dcda2aeb134f6d831d":[4,0,0,2,5,0,1],
 "structmalidrive_1_1xodr_1_1_connection.html":[4,0,0,3,1],
 "structmalidrive_1_1xodr_1_1_connection.html#a0115715e581fd2a65ef043354a0e902a":[4,0,0,3,1,21],
-"structmalidrive_1_1xodr_1_1_connection.html#a0f6c8ae5969f2103e38998fea30e0f46":[4,0,0,3,1,15],
-"structmalidrive_1_1xodr_1_1_connection.html#a150a709e86e7134d17cd063de6810b6c":[4,0,0,3,1,13],
-"structmalidrive_1_1xodr_1_1_connection.html#a1bed5005c8e0e948be03e115eca00137":[4,0,0,3,1,18],
-"structmalidrive_1_1xodr_1_1_connection.html#a1d1cfd8ffb84e947f82999c682b666a7":[4,0,0,3,1,3],
-"structmalidrive_1_1xodr_1_1_connection.html#a1d1cfd8ffb84e947f82999c682b666a7a2d74834a54fc801b0d090b7e8155fb7b":[4,0,0,3,1,3,1],
-"structmalidrive_1_1xodr_1_1_connection.html#a1d1cfd8ffb84e947f82999c682b666a7a398a2c1952b274e43d9ab637830d9737":[4,0,0,3,1,3,0],
-"structmalidrive_1_1xodr_1_1_connection.html#a304782bf0e1552576c05a3d9d7ed1d3c":[4,0,0,3,1,16],
-"structmalidrive_1_1xodr_1_1_connection.html#a392846c1df00673458c61d61d89de244":[4,0,0,3,1,10],
-"structmalidrive_1_1xodr_1_1_connection.html#a4f4cc6e40140b1849672df84861723e3":[4,0,0,3,1,20]
+"structmalidrive_1_1xodr_1_1_connection.html#a0f6c8ae5969f2103e38998fea30e0f46":[4,0,0,3,1,15]
 };

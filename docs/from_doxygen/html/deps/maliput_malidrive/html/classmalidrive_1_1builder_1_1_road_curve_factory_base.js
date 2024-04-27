@@ -14,6 +14,7 @@ var classmalidrive_1_1builder_1_1_road_curve_factory_base =
     [ "MakeMalidriveRoadCurve", "classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a4bd114eb6578f056cf4bc788f68fd36f", null ],
     [ "MakePiecewiseGroundCurve", "classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a513ba553ccdee5766a3e6816eb7b260b", null ],
     [ "MakeReferenceLineOffset", "classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a1cf30b52a8638c42f326c6f33bbc2c84", null ],
+    [ "MakeSpiralGroundCurve", "classmalidrive_1_1builder_1_1_road_curve_factory_base.html#abbcd94de9f8d7164e9f95597c57b563e", null ],
     [ "MakeSuperelevation", "classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a85d5601deb9a95adee1261f5198abb20", null ],
     [ "scale_length", "classmalidrive_1_1builder_1_1_road_curve_factory_base.html#acdc88192aabf91971b3fe9307cac40a2", null ]
 ];

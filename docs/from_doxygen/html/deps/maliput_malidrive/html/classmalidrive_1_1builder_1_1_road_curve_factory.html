@@ -123,6 +123,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a13469741524db2bb49248a7533872bd5"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_ground_curve.html">road_curve::GroundCurve</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory.html#a13469741524db2bb49248a7533872bd5">MakeLineGroundCurve</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html">xodr::Geometry</a> &amp;line_geometry) const override</td></tr>
 <tr class="memdesc:a13469741524db2bb49248a7533872bd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a <a class="el" href="classmalidrive_1_1road__curve_1_1_line_ground_curve.html" title="GroundCurve specification for a reference curve that describes a line.">road_curve::LineGroundCurve</a>.  <a href="classmalidrive_1_1builder_1_1_road_curve_factory.html#a13469741524db2bb49248a7533872bd5">More...</a><br /></td></tr>
 <tr class="separator:a13469741524db2bb49248a7533872bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac93b8b1213458442b0415b31a6e8f375"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_ground_curve.html">road_curve::GroundCurve</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory.html#ac93b8b1213458442b0415b31a6e8f375">MakeSpiralGroundCurve</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html">xodr::Geometry</a> &amp;spiral_geometry) const override</td></tr>
+<tr class="memdesc:ac93b8b1213458442b0415b31a6e8f375"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a <a class="el" href="classmalidrive_1_1road__curve_1_1_spiral_ground_curve.html" title="GroundCurve specification for a reference curve that describes a clothoid or Euler spiral.">road_curve::SpiralGroundCurve</a>.  <a href="classmalidrive_1_1builder_1_1_road_curve_factory.html#ac93b8b1213458442b0415b31a6e8f375">More...</a><br /></td></tr>
+<tr class="separator:ac93b8b1213458442b0415b31a6e8f375"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4519cbd16d307ae8a3eef3e2a4b95ca"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_ground_curve.html">road_curve::GroundCurve</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory.html#af4519cbd16d307ae8a3eef3e2a4b95ca">MakePiecewiseGroundCurve</a> (const std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html">xodr::Geometry</a> &gt; &amp;geometries) const override</td></tr>
 <tr class="memdesc:af4519cbd16d307ae8a3eef3e2a4b95ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a <a class="el" href="classmalidrive_1_1road__curve_1_1_piecewise_ground_curve.html" title="GroundCurve specification for a reference curve that is described as a piecewise ground curve.">road_curve::PiecewiseGroundCurve</a>.  <a href="classmalidrive_1_1builder_1_1_road_curve_factory.html#af4519cbd16d307ae8a3eef3e2a4b95ca">More...</a><br /></td></tr>
 <tr class="separator:af4519cbd16d307ae8a3eef3e2a4b95ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -673,14 +676,14 @@ Public Member Functions</h2></td></tr>
 <p>Its linear tolerance will be the constructor argument.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">geometries</td><td>A vector of <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html" title="Holds the values of a XODR description&#39;s geometry header.">xodr::Geometry</a> definitions to construct a <a class="el" href="classmalidrive_1_1road__curve_1_1_piecewise_ground_curve.html" title="GroundCurve specification for a reference curve that is described as a piecewise ground curve.">road_curve::PiecewiseGroundCurve</a>. Item's type must be one of {<a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7af20a3b1298346c2b7d0d17925491217b">xodr::Geometry::Type::kArc</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7aee669fa7b5a35d96a396d4ed648afb45">xodr::Geometry::Type::kLine</a>}. It must not be empty. Geometries whose length is less than GroundCurve::kEpsilon are discarded. </td></tr>
+    <tr><td class="paramname">geometries</td><td>A vector of <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html" title="Holds the values of a XODR description&#39;s geometry header.">xodr::Geometry</a> definitions to construct a <a class="el" href="classmalidrive_1_1road__curve_1_1_piecewise_ground_curve.html" title="GroundCurve specification for a reference curve that is described as a piecewise ground curve.">road_curve::PiecewiseGroundCurve</a>. Item's type must be one of {<a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7af20a3b1298346c2b7d0d17925491217b">xodr::Geometry::Type::kArc</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7aee669fa7b5a35d96a396d4ed648afb45">xodr::Geometry::Type::kLine</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7a47f741a9428ad966bd733a3d9b6027f8">xodr::Geometry::Type::kSpiral</a>}. It must not be empty. Geometries whose length is less than GroundCurve::kEpsilon are discarded. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="classmalidrive_1_1road__curve_1_1_piecewise_ground_curve.html" title="GroundCurve specification for a reference curve that is described as a piecewise ground curve.">road_curve::PiecewiseGroundCurve</a>. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When any item of <code>geometries</code> has other type than {<a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7af20a3b1298346c2b7d0d17925491217b">xodr::Geometry::Type::kArc</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7aee669fa7b5a35d96a396d4ed648afb45">xodr::Geometry::Type::kLine</a>}. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When any item of <code>geometries</code> has other type than {<a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7af20a3b1298346c2b7d0d17925491217b">xodr::Geometry::Type::kArc</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7aee669fa7b5a35d96a396d4ed648afb45">xodr::Geometry::Type::kLine</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7a47f741a9428ad966bd733a3d9b6027f8">xodr::Geometry::Type::kSpiral</a>}. </td></tr>
     <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>geometries</code> is empty. </td></tr>
   </table>
   </dd>
@@ -751,6 +754,50 @@ Public Member Functions</h2></td></tr>
 </dl>
 
 <p>Implements <a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a1cf30b52a8638c42f326c6f33bbc2c84">RoadCurveFactoryBase</a>.</p>
+
+</div>
+</div>
+<a id="ac93b8b1213458442b0415b31a6e8f375"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac93b8b1213458442b0415b31a6e8f375">&#9670;&nbsp;</a></span>MakeSpiralGroundCurve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_ground_curve.html">road_curve::GroundCurve</a> &gt; MakeSpiralGroundCurve </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html">xodr::Geometry</a> &amp;&#160;</td>
+          <td class="paramname"><em>spiral_geometry</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Makes a <a class="el" href="classmalidrive_1_1road__curve_1_1_spiral_ground_curve.html" title="GroundCurve specification for a reference curve that describes a clothoid or Euler spiral.">road_curve::SpiralGroundCurve</a>. </p>
+<p>Its linear tolerance will be the constructor argument.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">spiral_geometry</td><td><a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html" title="Holds the values of a XODR description&#39;s geometry header.">xodr::Geometry</a> definition to construct a <a class="el" href="classmalidrive_1_1road__curve_1_1_spiral_ground_curve.html" title="GroundCurve specification for a reference curve that describes a clothoid or Euler spiral.">road_curve::SpiralGroundCurve</a>. Its type must be <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7a47f741a9428ad966bd733a3d9b6027f8">xodr::Geometry::Type::kSpiral</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="classmalidrive_1_1road__curve_1_1_spiral_ground_curve.html" title="GroundCurve specification for a reference curve that describes a clothoid or Euler spiral.">road_curve::SpiralGroundCurve</a>. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>spiral_geometry.type</code> is not <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7a47f741a9428ad966bd733a3d9b6027f8">xodr::Geometry::Type::kSpiral</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#abbcd94de9f8d7164e9f95597c57b563e">RoadCurveFactoryBase</a>.</p>
 
 </div>
 </div>

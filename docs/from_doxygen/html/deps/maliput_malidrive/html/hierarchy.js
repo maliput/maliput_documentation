@@ -22,6 +22,7 @@ var hierarchy =
       [ "ArcGroundCurve", "classmalidrive_1_1road__curve_1_1_arc_ground_curve.html", null ],
       [ "LineGroundCurve", "classmalidrive_1_1road__curve_1_1_line_ground_curve.html", null ],
       [ "PiecewiseGroundCurve", "classmalidrive_1_1road__curve_1_1_piecewise_ground_curve.html", null ],
+      [ "SpiralGroundCurve", "classmalidrive_1_1road__curve_1_1_spiral_ground_curve.html", null ],
       [ "GroundCurveStub", "classmalidrive_1_1road__curve_1_1test_1_1_ground_curve_stub.html", null ]
     ] ],
     [ "Header", "structmalidrive_1_1xodr_1_1_header.html", null ],
@@ -41,8 +42,8 @@ var hierarchy =
     [ "LaneWidth", "structmalidrive_1_1xodr_1_1_lane_width.html", null ],
     [ "LateralProfile", "structmalidrive_1_1xodr_1_1_lateral_profile.html", null ],
     [ "Geometry::Line", "structmalidrive_1_1xodr_1_1_geometry_1_1_line.html", null ],
-    [ "LaneLink::LinkAttributes", "structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html", null ],
     [ "RoadLink::LinkAttributes", "structmalidrive_1_1xodr_1_1_road_link_1_1_link_attributes.html", null ],
+    [ "LaneLink::LinkAttributes", "structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html", null ],
     [ "MalidriveXodrLaneProperties", "structmalidrive_1_1builder_1_1_malidrive_xodr_lane_properties.html", null ],
     [ "ParserBase", "classmalidrive_1_1xodr_1_1_parser_base.html", [
       [ "AttributeParser", "classmalidrive_1_1xodr_1_1_attribute_parser.html", null ],

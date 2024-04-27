@@ -210,6 +210,10 @@ var files_dup =
     [ "speed_limit_builder.h", "speed__limit__builder_8h.html", [
       [ "SpeedLimitBuilder", "classmalidrive_1_1builder_1_1_speed_limit_builder.html", "classmalidrive_1_1builder_1_1_speed_limit_builder" ]
     ] ],
+    [ "spiral_ground_curve.cc", "spiral__ground__curve_8cc.html", null ],
+    [ "spiral_ground_curve.h", "spiral__ground__curve_8h.html", [
+      [ "SpiralGroundCurve", "classmalidrive_1_1road__curve_1_1_spiral_ground_curve.html", "classmalidrive_1_1road__curve_1_1_spiral_ground_curve" ]
+    ] ],
     [ "tools.cc", "tools_8cc.html", "tools_8cc" ],
     [ "tools.h", "tools_8h.html", "tools_8h" ],
     [ "unit.cc", "unit_8cc.html", "unit_8cc" ],
