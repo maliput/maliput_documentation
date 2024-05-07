@@ -143,3 +143,61 @@ Create a new package patch release
 * Push the tag.
 * Consider updating the affected named ``maliput`` workspace release.
 * Rely on `bloom <https://wiki.ros.org/bloom/Tutorials/FirstTimeRelease>`_ tools for the releasing process.
+
+Publishing releases
+-------------------
+
+Every time a new release occurs, maintainers are required to publish the release to various places:
+
+- Github page
+- ROS Build Farm
+- Bazel Central Registry
+- Python Package Index
+- Rust Crate Registry
+
+The following sections explain the process maintainers must follow to effectively publish releases.
+
+Github Page
+^^^^^^^^^^^
+
+Every time a new tag is pushed, a specific Github Release page is created thanks to a Github Action.
+For example, look at `maliput/.github/workflows/release.yml <https://github.com/maliput/maliput/blob/main/.github/workflows/release.yaml>`
+which essentially does the following:
+
+- Archives the repository at the release tag commit version.
+- Creates a new entry with it in the releases page (e.g. `maliput release page <https://github.com/maliput/maliput/releases>`).
+
+
+**NOTE:** it is recommended to push the tag once the release PR has been merged to false release bundles.
+
+ROS Build Farm
+^^^^^^^^^^^^^^
+
+TODO(https://github.com/maliput/maliput_documentation/issues/156)
+
+Bazel Central Registry
+^^^^^^^^^^^^^^^^^^^^^^
+
+The Github maliput organization hosts a `fork <https://github.com/maliput/bazel-central-registry>` of `bazel-central-registry <https://github.com/bazelbuild/bazel-central-registry>`. Upon pushing the tag,
+and the release page creation, a PR with the bazel configuration files is created to register a new release in BCR.
+Right now, only maliput and maliput_malidrive are published to BCR, but more could be published as requested.
+Every published package has a hidden folder called ``.bcr`` with the BCR configuration.
+See `maliput's <https://github.com/maliput/maliput/tree/main/.bcr>` for an example.
+
+Process:
+
+- Push the tag to the repository.
+- The github automation will create a PR from the forked bazel-central-registry to upstream.
+- Make sure CI pipeline is green.
+- Request the registered maintainer to approve the PR.
+- Ping bazel-central-registry maintainers for a review and merge.
+
+Python Package Index
+^^^^^^^^^^^^^^^^^^^^
+
+TODO(https://github.com/maliput/maliput_documentation/issues/154)
+
+Rust Crate Registry
+^^^^^^^^^^^^^^^^^^^
+
+TODO(https://github.com/maliput/maliput_documentation/issues/155)
