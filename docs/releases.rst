@@ -179,7 +179,7 @@ Bazel Central Registry
 ^^^^^^^^^^^^^^^^^^^^^^
 
 The Github maliput organization hosts a `fork <https://github.com/maliput/bazel-central-registry>` of `bazel-central-registry <https://github.com/bazelbuild/bazel-central-registry>`. Upon pushing the tag,
-and the release page creation, a PR with the bazel configuration files is created to register a new release in BCR.
+and the release page creation, a PR with the bazel configuration files is created to register a new release in BCR (from our fork to upstream).
 Right now, only maliput and maliput_malidrive are published to BCR, but more could be published as requested.
 Every published package has a hidden folder called ``.bcr`` with the BCR configuration.
 See `maliput's <https://github.com/maliput/maliput/tree/main/.bcr>` for an example.
