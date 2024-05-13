@@ -161,11 +161,11 @@ Github Page
 ^^^^^^^^^^^
 
 Every time a new tag is pushed, a specific Github Release page is created thanks to a Github Action.
-For example, look at `maliput/.github/workflows/release.yml <https://github.com/maliput/maliput/blob/main/.github/workflows/release.yaml>`
+For example, look at `maliput/.github/workflows/release.yml <https://github.com/maliput/maliput/blob/main/.github/workflows/release.yaml>`_
 which essentially does the following:
 
 - Archives the repository at the release tag commit version.
-- Creates a new entry with it in the releases page (e.g. `maliput release page <https://github.com/maliput/maliput/releases>`).
+- Creates a new entry with it in the releases page (e.g. `maliput release page <https://github.com/maliput/maliput/releases>`_).
 
 
 **NOTE:** it is recommended to push the tag once the release PR has been merged to false release bundles.
@@ -178,11 +178,11 @@ TODO(https://github.com/maliput/maliput_documentation/issues/156)
 Bazel Central Registry
 ^^^^^^^^^^^^^^^^^^^^^^
 
-The Github maliput organization hosts a `fork <https://github.com/maliput/bazel-central-registry>` of `bazel-central-registry <https://github.com/bazelbuild/bazel-central-registry>`. Upon pushing the tag,
+The Github maliput organization hosts a `fork <https://github.com/maliput/bazel-central-registry>`_ of `bazel-central-registry <https://github.com/bazelbuild/bazel-central-registry>`_. Upon pushing the tag,
 and the release page creation, a PR with the bazel configuration files is created to register a new release in BCR (from our fork to upstream).
 Right now, only maliput and maliput_malidrive are published to BCR, but more could be published as requested.
 Every published package has a hidden folder called ``.bcr`` with the BCR configuration.
-See `maliput's <https://github.com/maliput/maliput/tree/main/.bcr>` for an example.
+See `maliput's <https://github.com/maliput/maliput/tree/main/.bcr>`_ for an example.
 
 Process:
 
@@ -195,11 +195,11 @@ Process:
 Python Package Index
 ^^^^^^^^^^^^^^^^^^^^
 
-At the moment, both `maliput <https://pypi.org/project/maliput/>` and `maliput_malidrive <https://pypi.org/project/maliput-malidrive/>` are distributed via PyPI.
+At the moment, both `maliput <https://pypi.org/project/maliput/>`_ and `maliput_malidrive <https://pypi.org/project/maliput-malidrive/>`_ are distributed via PyPI.
 To publish a new version, use the Github Action pipeline to generate the corresponding wheel.
 
-- `Maliput Wheel Generation pipeline <https://github.com/maliput/maliput_py/blob/main/.github/workflows/wheel_generation.yml>`
-- `Maliput malidrive Wheel Generation pipeline <https://github.com/maliput/maliput_malidrive/blob/main/.github/workflows/wheel_generation.yml>`
+- `Maliput Wheel Generation pipeline <https://github.com/maliput/maliput_py/blob/main/.github/workflows/wheel_generation.yml>`_
+- `Maliput malidrive Wheel Generation pipeline <https://github.com/maliput/maliput_malidrive/blob/main/.github/workflows/wheel_generation.yml>`_
 
 Process:
 
@@ -215,4 +215,37 @@ Consider removing your API Token after finishing with this process and create on
 Rust Crate Registry
 ^^^^^^^^^^^^^^^^^^^
 
-TODO(https://github.com/maliput/maliput_documentation/issues/155)
+Using ``cargo`` you can create crates and publish them directly to `crates.io <https://crates.io/>`_. To do so:
+
+- Prepare a release, check, build and test the packages to release.
+
+.. code-block:: bash
+    :linenos:
+
+    cargo check --workspace --all-targets
+    cargo build --workspace --all-targets
+    cargo test --workspace --all-targets
+
+- Obtain a token at your user `settings <https://crates.io/settings/tokens>`_ in crates.io
+- Login using the token using cargo CLI:
+
+.. code-block:: bash
+    :linenos:
+
+    cargo login
+
+- Try to evaluate the publish to be released, e.g. with ``maliput-sdk``:
+
+.. code-block:: bash
+    :linenos:
+    
+    cargo publish --dry-run --verbose --package maliput-sdk
+
+- When everything goes well, proceed to release it:
+
+.. code-block:: bash
+    :linenos:
+    
+    cargo publish --verbose --package maliput-sdk
+
+You should see it in the respective page at crates.io.
