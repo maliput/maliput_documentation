@@ -195,7 +195,22 @@ Process:
 Python Package Index
 ^^^^^^^^^^^^^^^^^^^^
 
-TODO(https://github.com/maliput/maliput_documentation/issues/154)
+At the moment, both `maliput <https://pypi.org/project/maliput/>` and `maliput_malidrive <https://pypi.org/project/maliput-malidrive/>` are distributed via PyPI.
+To publish a new version, use the Github Action pipeline to generate the corresponding wheel.
+
+- `Maliput Wheel Generation pipeline <https://github.com/maliput/maliput_py/blob/main/.github/workflows/wheel_generation.yml>`
+- `Maliput malidrive Wheel Generation pipeline <https://github.com/maliput/maliput_malidrive/blob/main/.github/workflows/wheel_generation.yml>`
+
+Process:
+
+- Once a tag has been pushed with the release version, kick off the workflow from that tag.
+- Download the generated asset once the pipeline finishes.
+- Unzip the asset and you should end up with a ``.whl`` file that needs to be pushed to PyPI.
+- Log in to PyPI and generate an API Token for the project to publish to.
+- Install ``twine``: ``pip install twine``.
+- Publish the wheel using ``twine``: ``twine upload your_wheel_file_name.whl``. Use your username and previously generated API Token.
+
+Consider removing your API Token after finishing with this process and create one for each package to increase security.
 
 Rust Crate Registry
 ^^^^^^^^^^^^^^^^^^^
