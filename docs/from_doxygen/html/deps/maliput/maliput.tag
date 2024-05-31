@@ -4068,9 +4068,9 @@
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a70676032033802d83400fd58143a0150">kSucceedingStraight</enumvalue>
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487afb05f716bf1f96c5934650f7bcf5bf6d">kSucceedingLeft</enumvalue>
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a33e3c4bfa5ec00700febf00173f8dbe2">kSucceedingRight</enumvalue>
-      <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a4d8f12238683b00b95720e5bb005f441">kPreceedingStraight</enumvalue>
-      <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487aebdee03e4e3c279ee9cc77c219ea9681">kPreceedingLeft</enumvalue>
-      <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a64b34efaab13831e11d205386a98b819">kPreceedingRight</enumvalue>
+      <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487aa03e59e21291583b10ec0b34b6a9cfd5">kPrecedingStraight</enumvalue>
+      <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487ac019d7073e3f13108293e0c88af4281e">kPrecedingLeft</enumvalue>
+      <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a115db3e29a6387f22768c291e93c80d2">kPrecedingRight</enumvalue>
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a8bd83ac691f94854afe5a9d6c578aa15">kCoincident</enumvalue>
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a9556e04cf8f24d118180ebc0615fbf83">kUnrelated</enumvalue>
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
@@ -7514,6 +7514,7 @@
     <includes id="road__network_8h" name="road_network.h" local="yes" imported="no">maliput/api/road_network.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
+    <includes id="routing_2phase_8h" name="routing/phase.h" local="yes" imported="no">maliput/routing/phase.h</includes>
     <includes id="route_8h" name="route.h" local="yes" imported="no">maliput/routing/route.h</includes>
     <includes id="routing__constraints_8h" name="routing_constraints.h" local="yes" imported="no">maliput/routing/routing_constraints.h</includes>
     <class kind="class">maliput::routing::Router</class>
@@ -48262,9 +48263,9 @@
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a70676032033802d83400fd58143a0150">kSucceedingStraight</enumvalue>
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487afb05f716bf1f96c5934650f7bcf5bf6d">kSucceedingLeft</enumvalue>
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a33e3c4bfa5ec00700febf00173f8dbe2">kSucceedingRight</enumvalue>
-      <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a4d8f12238683b00b95720e5bb005f441">kPreceedingStraight</enumvalue>
-      <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487aebdee03e4e3c279ee9cc77c219ea9681">kPreceedingLeft</enumvalue>
-      <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a64b34efaab13831e11d205386a98b819">kPreceedingRight</enumvalue>
+      <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487aa03e59e21291583b10ec0b34b6a9cfd5">kPrecedingStraight</enumvalue>
+      <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487ac019d7073e3f13108293e0c88af4281e">kPrecedingLeft</enumvalue>
+      <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a115db3e29a6387f22768c291e93c80d2">kPrecedingRight</enumvalue>
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a8bd83ac691f94854afe5a9d6c578aa15">kCoincident</enumvalue>
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a9556e04cf8f24d118180ebc0615fbf83">kUnrelated</enumvalue>
       <enumvalue file="namespacemaliput_1_1routing.html" anchor="a931f81ae3bf7bb2ac7b8924345c23487a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
