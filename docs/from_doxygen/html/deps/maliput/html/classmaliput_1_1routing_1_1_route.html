@@ -181,6 +181,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab049bb134a649785b5c7a05e332cde32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html">api::LaneSRoute</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1routing_1_1_route.html#ab049bb134a649785b5c7a05e332cde32">ComputeLaneSRoute</a> (const <a class="el" href="structmaliput_1_1api_1_1_road_position.html">api::RoadPosition</a> &amp;start_position) const</td></tr>
 <tr class="memdesc:ab049bb134a649785b5c7a05e332cde32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes an <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html" title="A route, possibly spanning multiple (end-to-end) lanes.">api::LaneSRoute</a> that connects <code>start_position</code> with <a class="el" href="classmaliput_1_1routing_1_1_route.html#af27ddb0de9f5543debea81c74d7a3d37" title="Returns the end of this Route.">end_route_position()</a>.  <a href="classmaliput_1_1routing_1_1_route.html#ab049bb134a649785b5c7a05e332cde32">More...</a><br /></td></tr>
 <tr class="separator:ab049bb134a649785b5c7a05e332cde32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d154b9749148ea4ca585c1c1ec4da92"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1routing_1_1_route.html#a2d154b9749148ea4ca585c1c1ec4da92">ValidateEndToEndConnectivity</a> () const</td></tr>
+<tr class="memdesc:a2d154b9749148ea4ca585c1c1ec4da92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluates whether this <a class="el" href="classmaliput_1_1routing_1_1_route.html" title="Describes the sequence of paths that go from one api::RoadPosition to another.">Route</a> is connected end to end.  <a href="classmaliput_1_1routing_1_1_route.html#a2d154b9749148ea4ca585c1c1ec4da92">More...</a><br /></td></tr>
+<tr class="separator:a2d154b9749148ea4ca585c1c1ec4da92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abaffbd7cf651aa869bb58753d607444e"></a>
@@ -245,12 +248,10 @@ Public Member Functions</h2></td></tr>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html" title="This is what MALIPUT_THROW_UNLESS throws.">common::assertion_error</a></td><td>When <code>phases</code> is empty. </td></tr>
-    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html" title="This is what MALIPUT_THROW_UNLESS throws.">common::assertion_error</a></td><td>When <code>phases</code> is not connected end to end. </td></tr>
     <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html" title="This is what MALIPUT_THROW_UNLESS throws.">common::assertion_error</a></td><td>When <code>road_network</code> is nullptr. </td></tr>
   </table>
   </dd>
 </dl>
-<p>TODO(#453): Validate end to end connection of the Phases.</p>
 
 </div>
 </div>
@@ -541,6 +542,37 @@ Public Member Functions</h2></td></tr>
 
 <p>Returns the start of this <a class="el" href="classmaliput_1_1routing_1_1_route.html" title="Describes the sequence of paths that go from one api::RoadPosition to another.">Route</a>. </p>
 <p>This is a convenience method for Get(0).start_positions().front(). </p>
+
+</div>
+</div>
+<a id="a2d154b9749148ea4ca585c1c1ec4da92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d154b9749148ea4ca585c1c1ec4da92">&#9670;&nbsp;</a></span>ValidateEndToEndConnectivity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; ValidateEndToEndConnectivity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Evaluates whether this <a class="el" href="classmaliput_1_1routing_1_1_route.html" title="Describes the sequence of paths that go from one api::RoadPosition to another.">Route</a> is connected end to end. </p>
+<p>End to end connectivity for a <a class="el" href="classmaliput_1_1routing_1_1_route.html" title="Describes the sequence of paths that go from one api::RoadPosition to another.">Route</a> implies the following conditions:</p><ul>
+<li>The first <a class="el" href="classmaliput_1_1routing_1_1_phase.html" title="Manages a phase in a Route, towards its end.">Phase</a> contains only one start position.</li>
+<li>The last <a class="el" href="classmaliput_1_1routing_1_1_phase.html" title="Manages a phase in a Route, towards its end.">Phase</a> contains only one end position.</li>
+<li>The number of end positions in a given <a class="el" href="classmaliput_1_1routing_1_1_phase.html" title="Manages a phase in a Route, towards its end.">Phase</a> and start positions in the following <a class="el" href="classmaliput_1_1routing_1_1_phase.html" title="Manages a phase in a Route, towards its end.">Phase</a> are the same.</li>
+<li>For each end position in a given <a class="el" href="classmaliput_1_1routing_1_1_phase.html" title="Manages a phase in a Route, towards its end.">Phase</a> there is a one-to-one relation in the start positions in the following <a class="el" href="classmaliput_1_1routing_1_1_phase.html" title="Manages a phase in a Route, towards its end.">Phase</a> such that:<ul>
+<li>The positions are coincident in the INERTIAL-Frame (geometrical connectivity) and,</li>
+<li>The positions belong to the same <a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">api::Lane</a> or are endpoints of api::Lanes that share opposing api::LaneEnds in an <a class="el" href="classmaliput_1_1api_1_1_branch_point.html" title="A BranchPoint is a node in the network of a RoadGeometry at which Lanes connect to one another.">api::BranchPoint</a> (topological connectivity).</li>
+</ul>
+</li>
+</ul>
+<p><a class="el" href="classmaliput_1_1routing_1_1_router.html" title="Computes Routes within an api::RoadNetwork.">Router</a> implementations are expected to construct Routes and validate they are connected end to end. Users of a <a class="el" href="classmaliput_1_1routing_1_1_route.html" title="Describes the sequence of paths that go from one api::RoadPosition to another.">Route</a> may expect Routes built by <a class="el" href="classmaliput_1_1routing_1_1_router.html" title="Computes Routes within an api::RoadNetwork.">Router</a> implementations to be end to end connected.</p>
+<dl class="section return"><dt>Returns</dt><dd>A vector of strings with the errors found in the end to end connectivity. When there is no error and the connectivity checks are successful, this method returns an empty vector. </dd></dl>
 
 </div>
 </div>

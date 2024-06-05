@@ -7476,6 +7476,11 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/routing/</path>
     <filename>route_8cc.html</filename>
     <includes id="route_8h" name="route.h" local="yes" imported="no">maliput/routing/route.h</includes>
+    <includes id="api_2branch__point_8h" name="api/branch_point.h" local="yes" imported="no">maliput/api/branch_point.h</includes>
+    <includes id="api_2compare_8h" name="api/compare.h" local="yes" imported="no">maliput/api/compare.h</includes>
+    <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
+    <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
+    <includes id="common_2compare_8h" name="common/compare.h" local="yes" imported="no">maliput/common/compare.h</includes>
     <includes id="strategy__base_8h" name="strategy_base.h" local="yes" imported="no">maliput/geometry_base/strategy_base.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::routing</namespace>
@@ -32138,6 +32143,13 @@
       <anchorfile>classmaliput_1_1routing_1_1_route.html</anchorfile>
       <anchor>ab049bb134a649785b5c7a05e332cde32</anchor>
       <arglist>(const api::RoadPosition &amp;start_position) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; std::string &gt;</type>
+      <name>ValidateEndToEndConnectivity</name>
+      <anchorfile>classmaliput_1_1routing_1_1_route.html</anchorfile>
+      <anchor>a2d154b9749148ea4ca585c1c1ec4da92</anchor>
+      <arglist>() const</arglist>
     </member>
   </compound>
   <compound kind="struct">
