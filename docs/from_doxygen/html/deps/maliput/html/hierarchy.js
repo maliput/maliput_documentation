@@ -280,7 +280,9 @@ var hierarchy =
     [ "Rotation", "classmaliput_1_1api_1_1_rotation.html", null ],
     [ "Route", "classmaliput_1_1routing_1_1_route.html", null ],
     [ "RoutePositionResult", "structmaliput_1_1routing_1_1_route_position_result.html", null ],
-    [ "Router", "classmaliput_1_1routing_1_1_router.html", null ],
+    [ "Router", "classmaliput_1_1routing_1_1_router.html", [
+      [ "DistanceRouter", "classmaliput_1_1_distance_router.html", null ]
+    ] ],
     [ "RoutingConstraints", "structmaliput_1_1routing_1_1_routing_constraints.html", null ],
     [ "Rule", "classmaliput_1_1api_1_1rules_1_1_rule.html", [
       [ "DiscreteValueRule", "classmaliput_1_1api_1_1rules_1_1_discrete_value_rule.html", null ],
@@ -377,15 +379,15 @@ var hierarchy =
     [ "TypeSpecificIdentifier< class Type >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< Phase >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< TrafficLight >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
-    [ "uhash< HashAlgorithm >", "structmaliput_1_1drake_1_1uhash.html", [
-      [ "hash< maliput::drake::Identifier< Tag > >", "structstd_1_1hash_3_01maliput_1_1drake_1_1_identifier_3_01_tag_01_4_01_4.html", null ],
-      [ "hash< maliput::drake::TypeSafeIndex< Tag > >", "structstd_1_1hash_3_01maliput_1_1drake_1_1_type_safe_index_3_01_tag_01_4_01_4.html", null ]
-    ] ],
     [ "uhash< HashAlgorithm >", "structmaliput_1_1common_1_1uhash.html", [
       [ "hash< maliput::api::rules::UniqueBulbGroupId >", "structstd_1_1hash_3_01maliput_1_1api_1_1rules_1_1_unique_bulb_group_id_01_4.html", null ],
       [ "hash< maliput::api::rules::UniqueBulbId >", "structstd_1_1hash_3_01maliput_1_1api_1_1rules_1_1_unique_bulb_id_01_4.html", null ],
       [ "hash< maliput::api::TypeSpecificIdentifier< T > >", "structstd_1_1hash_3_01maliput_1_1api_1_1_type_specific_identifier_3_01_t_01_4_01_4.html", null ],
       [ "hash< maliput::api::UniqueId >", "structstd_1_1hash_3_01maliput_1_1api_1_1_unique_id_01_4.html", null ]
+    ] ],
+    [ "uhash< HashAlgorithm >", "structmaliput_1_1drake_1_1uhash.html", [
+      [ "hash< maliput::drake::Identifier< Tag > >", "structstd_1_1hash_3_01maliput_1_1drake_1_1_identifier_3_01_tag_01_4_01_4.html", null ],
+      [ "hash< maliput::drake::TypeSafeIndex< Tag > >", "structstd_1_1hash_3_01maliput_1_1drake_1_1_type_safe_index_3_01_tag_01_4_01_4.html", null ]
     ] ],
     [ "unique_ptr< T >", null, [
       [ "copyable_unique_ptr< maliput::drake::AbstractValue >", "classmaliput_1_1drake_1_1copyable__unique__ptr.html", null ],
@@ -414,11 +416,11 @@ var hierarchy =
     [ "ValueTraitsImpl< T, use_copy >", "structmaliput_1_1drake_1_1internal_1_1_value_traits_impl.html", null ],
     [ "ValueTraitsImpl< T, false >", "structmaliput_1_1drake_1_1internal_1_1_value_traits_impl_3_01_t_00_01false_01_4.html", null ],
     [ "ValueTraitsImpl< T, true >", "structmaliput_1_1drake_1_1internal_1_1_value_traits_impl_3_01_t_00_01true_01_4.html", null ],
+    [ "VectorBase< N, Derived >", "classmaliput_1_1math_1_1_vector_base.html", null ],
     [ "VectorBase< T >", "classmaliput_1_1drake_1_1systems_1_1_vector_base.html", [
       [ "BasicVector< T >", "classmaliput_1_1drake_1_1systems_1_1_basic_vector.html", null ],
       [ "Subvector< T >", "classmaliput_1_1drake_1_1systems_1_1_subvector.html", null ]
     ] ],
-    [ "VectorBase< N, Derived >", "classmaliput_1_1math_1_1_vector_base.html", null ],
     [ "VectorBase< 2, Vector2 >", "classmaliput_1_1math_1_1_vector_base.html", [
       [ "Vector2", "classmaliput_1_1math_1_1_vector2.html", null ]
     ] ],

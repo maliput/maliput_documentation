@@ -9,6 +9,7 @@ var namespacemaliput =
     [ "routing", "namespacemaliput_1_1routing.html", "namespacemaliput_1_1routing" ],
     [ "utility", "namespacemaliput_1_1utility.html", "namespacemaliput_1_1utility" ],
     [ "DiscreteValueRuleConstants", "structmaliput_1_1_discrete_value_rule_constants.html", "structmaliput_1_1_discrete_value_rule_constants" ],
+    [ "DistanceRouter", "classmaliput_1_1_distance_router.html", "classmaliput_1_1_distance_router" ],
     [ "Intersection", "classmaliput_1_1_intersection.html", "classmaliput_1_1_intersection" ],
     [ "IntersectionBook", "classmaliput_1_1_intersection_book.html", "classmaliput_1_1_intersection_book" ],
     [ "ManualDiscreteValueRuleStateProvider", "classmaliput_1_1_manual_discrete_value_rule_state_provider.html", "classmaliput_1_1_manual_discrete_value_rule_state_provider" ],

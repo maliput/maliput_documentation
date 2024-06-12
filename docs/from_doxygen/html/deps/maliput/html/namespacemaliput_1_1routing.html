@@ -150,6 +150,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a6f39ff2a2a1cc054cd36b637f5db86b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmaliput_1_1common_1_1_comparison_result.html">common::ComparisonResult</a>&lt; <a class="el" href="structmaliput_1_1routing_1_1_route_position_result.html">RoutePositionResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#a6f39ff2a2a1cc054cd36b637f5db86b2">IsRoutePositionResultClose</a> (const <a class="el" href="structmaliput_1_1routing_1_1_route_position_result.html">RoutePositionResult</a> &amp;rpr_a, const <a class="el" href="structmaliput_1_1routing_1_1_route_position_result.html">RoutePositionResult</a> &amp;rpr_b, <a class="el" href="classdouble.html">double</a> tolerance)</td></tr>
 <tr class="memdesc:a6f39ff2a2a1cc054cd36b637f5db86b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares equality within <code>tolerance</code> deviation of the <a class="el" href="structmaliput_1_1routing_1_1_route_position_result.html" title="The result of a position query on a Route.">RoutePositionResult</a> <code>rpr_a</code> and <code>rpr_b</code>.  <a href="namespacemaliput_1_1routing.html#a6f39ff2a2a1cc054cd36b637f5db86b2">More...</a><br /></td></tr>
 <tr class="separator:a6f39ff2a2a1cc054cd36b637f5db86b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f63be85242233c7446b9140ce4ed406"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classdouble.html">double</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#a3f63be85242233c7446b9140ce4ed406">DetermineEdgeS</a> (const <a class="el" href="classmaliput_1_1api_1_1_lane.html">api::Lane</a> &amp;<a class="el" href="generate__string_8cc.html#ac1592f838ecdc6da89b4d8d2bc12c130">lane</a>, const <a class="el" href="classmaliput_1_1api_1_1_lane.html">api::Lane</a> &amp;next_lane)</td></tr>
+<tr class="memdesc:a3f63be85242233c7446b9140ce4ed406"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the S coordinate in <code>lane</code> that is on the border with <code>next_lane</code>.  <a href="namespacemaliput_1_1routing.html#a3f63be85242233c7446b9140ce4ed406">More...</a><br /></td></tr>
+<tr class="separator:a3f63be85242233c7446b9140ce4ed406"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50450cdc6c1aefc360378b2dd8e7cafd"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classmaliput_1_1api_1_1_lane_s_route.html">api::LaneSRoute</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#a50450cdc6c1aefc360378b2dd8e7cafd">DeriveLaneSRoutes</a> (const <a class="el" href="structmaliput_1_1api_1_1_road_position.html">api::RoadPosition</a> &amp;start, const <a class="el" href="structmaliput_1_1api_1_1_road_position.html">api::RoadPosition</a> &amp;end, <a class="el" href="classdouble.html">double</a> max_length_m)</td></tr>
 <tr class="memdesc:a50450cdc6c1aefc360378b2dd8e7cafd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derives and returns a set of LaneSRoute objects that go from <code>start</code> to <code>end</code>.  <a href="namespacemaliput_1_1routing.html#a50450cdc6c1aefc360378b2dd8e7cafd">More...</a><br /></td></tr>
 <tr class="separator:a50450cdc6c1aefc360378b2dd8e7cafd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -271,6 +274,37 @@ Functions</h2></td></tr>
 
 <p>Derives and returns a set of LaneSRoute objects that go from <code>start</code> to <code>end</code>. </p>
 <p>If no routes are found, a vector of length zero is returned. Parameter <code>max_length_m</code> is the maximum length of the intermediate lanes between <code>start</code> and <code>end</code>. See the description of <a class="el" href="namespacemaliput_1_1routing.html#ae879accab23fdc7d64d39657fd67025c" title="Finds and returns sequences of lanes that go from a specified start lane to a specified end lane.">FindLaneSequences()</a> for more details. If <code>start</code> and <code>end</code> are the same lane, a route consisting of one lane is returned regardless of <code>max_length_m</code>. </p>
+
+</div>
+</div>
+<a id="a3f63be85242233c7446b9140ce4ed406"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f63be85242233c7446b9140ce4ed406">&#9670;&nbsp;</a></span>DetermineEdgeS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; <a class="el" href="classdouble.html">double</a> &gt; DetermineEdgeS </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmaliput_1_1api_1_1_lane.html">api::Lane</a> &amp;&#160;</td>
+          <td class="paramname"><em>lane</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classmaliput_1_1api_1_1_lane.html">api::Lane</a> &amp;&#160;</td>
+          <td class="paramname"><em>next_lane</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the S coordinate in <code>lane</code> that is on the border with <code>next_lane</code>. </p>
+<p>When <code>lane</code> is not connected to <code>next_lane</code> , std::nullopt is returned. </p>
 
 </div>
 </div>

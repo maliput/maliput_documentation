@@ -1,5 +1,8 @@
 var NAVTREEINDEX3 =
 {
+"classmaliput_1_1common_1_1_sink.html#a508976fa163df1a854b13f8a641a5a3f":[3,0,0,1,12,0],
+"classmaliput_1_1common_1_1_sink.html#a73f72d66a2f6ff1406e19b6a497ce9b8":[3,0,0,1,12,3],
+"classmaliput_1_1common_1_1_sink.html#af221ceefbe09e77d791a19f9893ade05":[3,0,0,1,12,1],
 "classmaliput_1_1common_1_1_sink_base.html":[3,0,0,1,13],
 "classmaliput_1_1common_1_1_sink_base.html#a50ab71f4bc571f6e246b20db4b3dd131":[3,0,0,1,13,2],
 "classmaliput_1_1common_1_1_sink_base.html#aa6e7e19b29a57fd8559a3e7950d28040":[3,0,0,1,13,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX3 =
 "classmaliput_1_1drake_1_1internal_1_1_f_n_v1a_hasher.html#a1a81f586ecd81731b7ac6b93c8242e17":[3,0,0,2,1,1,2],
 "classmaliput_1_1drake_1_1internal_1_1_f_n_v1a_hasher.html#a21330be45898b798e0b31bbf6e17f13c":[3,0,0,2,1,1,0],
 "classmaliput_1_1drake_1_1internal_1_1_f_n_v1a_hasher.html#ab03f097f6c3d31eb2fcdcf71a49d072a":[3,0,0,2,1,1,3],
-"classmaliput_1_1drake_1_1internal_1_1_f_n_v1a_hasher.html#afa7a53c7d9232da75f09751860337ec3":[3,0,0,2,1,1,1],
-"classmaliput_1_1drake_1_1internal_1_1assertion__error.html":[3,0,0,2,1,0],
-"classmaliput_1_1drake_1_1internal_1_1assertion__error.html#af0792e36977188b6a3000f3160b0d71a":[3,0,0,2,1,0,0],
-"classmaliput_1_1drake_1_1never__destroyed.html":[3,0,0,2,23]
+"classmaliput_1_1drake_1_1internal_1_1_f_n_v1a_hasher.html#afa7a53c7d9232da75f09751860337ec3":[3,0,0,2,1,1,1]
 };

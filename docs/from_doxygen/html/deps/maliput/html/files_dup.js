@@ -112,6 +112,10 @@ var files_dup =
     [ "discrete_values.h", "discrete__values_8h.html", [
       [ "DiscreteValues", "classmaliput_1_1drake_1_1systems_1_1_discrete_values.html", "classmaliput_1_1drake_1_1systems_1_1_discrete_values" ]
     ] ],
+    [ "distance_router.cc", "distance__router_8cc.html", null ],
+    [ "distance_router.h", "distance__router_8h.html", [
+      [ "DistanceRouter", "classmaliput_1_1_distance_router.html", "classmaliput_1_1_distance_router" ]
+    ] ],
     [ "drake_assert.h", "drake__assert_8h.html", "drake__assert_8h" ],
     [ "drake_assert_and_throw.cc", "drake__assert__and__throw_8cc.html", "drake__assert__and__throw_8cc" ],
     [ "drake_assertion_error.h", "drake__assertion__error_8h.html", [

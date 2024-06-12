@@ -101,11 +101,19 @@ $(document).ready(function(){initNavTree('classmaliput_1_1routing_1_1_router.htm
 <p>Implementations of this class may integrate different policies to compute Routes, such as length, maximum speed, driving allowance, etc. One or many implementations can be created per agent type with different customizations might yield different routes upon the same <a class="el" href="classmaliput_1_1api_1_1_road_network.html" title="A container that aggregates everything pertaining to Maliput.">api::RoadNetwork</a> and set of arguments of your query. This is correct and expected behavior as the particular implementation details must rule the decisions that build a <a class="el" href="classmaliput_1_1routing_1_1_route.html" title="Describes the sequence of paths that go from one api::RoadPosition to another.">Route</a>. </p>
 </div>
 <p><code>#include &lt;include/maliput/routing/router.h&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for Router:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmaliput_1_1routing_1_1_router__inherit__graph.svg" width="134" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6a06c8a70d4d656524b186ac90013763"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1routing_1_1_router.html#a6a06c8a70d4d656524b186ac90013763">MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</a> (<a class="el" href="classmaliput_1_1routing_1_1_router.html">Router</a>)</td></tr>
 <tr class="separator:a6a06c8a70d4d656524b186ac90013763"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4328274c938892f0b88dc278b2357fc5"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1routing_1_1_router.html#a4328274c938892f0b88dc278b2357fc5">~Router</a> ()=default</td></tr>
+<tr class="separator:a4328274c938892f0b88dc278b2357fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae51c3bc92ff91f268f0741bdf8d894e8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classmaliput_1_1routing_1_1_route.html">Route</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1routing_1_1_router.html#ae51c3bc92ff91f268f0741bdf8d894e8">ComputeRoutes</a> (const <a class="el" href="structmaliput_1_1api_1_1_road_position.html">api::RoadPosition</a> &amp;start, const <a class="el" href="structmaliput_1_1api_1_1_road_position.html">api::RoadPosition</a> &amp;end, const <a class="el" href="structmaliput_1_1routing_1_1_routing_constraints.html">RoutingConstraints</a> &amp;routing_constraints) const</td></tr>
 <tr class="memdesc:ae51c3bc92ff91f268f0741bdf8d894e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes Routes that joins <code>start</code> to <code>end</code> under <code>routing_constraints</code>.  <a href="classmaliput_1_1routing_1_1_router.html#ae51c3bc92ff91f268f0741bdf8d894e8">More...</a><br /></td></tr>
 <tr class="separator:ae51c3bc92ff91f268f0741bdf8d894e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -116,6 +124,31 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:af5c0562ea7d93a8d7bb35363b296837d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a4328274c938892f0b88dc278b2357fc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4328274c938892f0b88dc278b2357fc5">&#9670;&nbsp;</a></span>~Router()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual ~<a class="el" href="classmaliput_1_1routing_1_1_router.html">Router</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af5c0562ea7d93a8d7bb35363b296837d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af5c0562ea7d93a8d7bb35363b296837d">&#9670;&nbsp;</a></span>Router()</h2>
 

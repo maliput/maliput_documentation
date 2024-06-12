@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('derive__lane__s__routes_8cc.html','');
 <code>#include &lt;optional&gt;</code><br />
 <code>#include &quot;<a class="el" href="api_2branch__point_8h.html">maliput/api/branch_point.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="api_2lane_8h.html">maliput/api/lane.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="maliput__abort_8h.html">maliput/common/maliput_abort.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="maliput__throw_8h.html">maliput/common/maliput_throw.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="profiler_8h.html">maliput/common/profiler.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="find__lane__sequences_8h.html">maliput/routing/find_lane_sequences.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -119,6 +119,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a3f63be85242233c7446b9140ce4ed406"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classdouble.html">double</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#a3f63be85242233c7446b9140ce4ed406">DetermineEdgeS</a> (const api::Lane &amp;<a class="el" href="generate__string_8cc.html#ac1592f838ecdc6da89b4d8d2bc12c130">lane</a>, const api::Lane &amp;next_lane)</td></tr>
+<tr class="memdesc:a3f63be85242233c7446b9140ce4ed406"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the S coordinate in <code>lane</code> that is on the border with <code>next_lane</code>.  <a href="namespacemaliput_1_1routing.html#a3f63be85242233c7446b9140ce4ed406">More...</a><br /></td></tr>
+<tr class="separator:a3f63be85242233c7446b9140ce4ed406"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50450cdc6c1aefc360378b2dd8e7cafd"><td class="memItemLeft" align="right" valign="top">std::vector&lt; api::LaneSRoute &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1routing.html#a50450cdc6c1aefc360378b2dd8e7cafd">DeriveLaneSRoutes</a> (const api::RoadPosition &amp;start, const api::RoadPosition &amp;end, <a class="el" href="classdouble.html">double</a> max_length_m)</td></tr>
 <tr class="memdesc:a50450cdc6c1aefc360378b2dd8e7cafd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derives and returns a set of LaneSRoute objects that go from <code>start</code> to <code>end</code>.  <a href="namespacemaliput_1_1routing.html#a50450cdc6c1aefc360378b2dd8e7cafd">More...</a><br /></td></tr>
 <tr class="separator:a50450cdc6c1aefc360378b2dd8e7cafd"><td class="memSeparator" colspan="2">&#160;</td></tr>
