@@ -2,6 +2,7 @@ var files_dup =
 [
     [ "assert_compare.h", "assert__compare_8h.html", "assert__compare_8h" ],
     [ "derive_lane_s_routes_test.cc", "derive__lane__s__routes__test_8cc.html", "derive__lane__s__routes__test_8cc" ],
+    [ "distance_router_test.cc", "distance__router__test_8cc.html", "distance__router__test_8cc" ],
     [ "find_lane_sequences_test.cc", "find__lane__sequences__test_8cc.html", "find__lane__sequences__test_8cc" ],
     [ "generate_obj_test.cc", "generate__obj__test_8cc.html", "generate__obj__test_8cc" ],
     [ "generate_string_test.cc", "generate__string__test_8cc.html", "generate__string__test_8cc" ],

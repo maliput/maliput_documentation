@@ -78,6 +78,196 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>distance_router_test.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
+    <filename>distance__router__test_8cc.html</filename>
+    <includes id="assert__compare_8h" name="assert_compare.h" local="yes" imported="no">assert_compare.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::test</namespace>
+    <member kind="variable" static="yes">
+      <type>static constexpr double</type>
+      <name>kLinearTolerance</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>aaf754a0573d53a61d406e01ddfe2e14b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr double</type>
+      <name>kAngularTolerance</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a4bbd9ff37e60b6cac823d514e2dd4b09</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr double</type>
+      <name>kScaleLength</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a2da3209615160919b156333444ca08f8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr routing::RoutingConstraints</type>
+      <name>kDefaultRoutingConstraints</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a1ff383f0400fb1830d1980674d8c6c3d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr routing::RoutingConstraints</type>
+      <name>kSmallPhaseCostConstraint</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a7d97f8e83ed3dff2aded1a69c7cbe344</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr routing::RoutingConstraints</type>
+      <name>kSmallRouteCostConstraint</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>af52dd5c2a933ec534767a901161856ae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const std::string</type>
+      <name>kTShapeRoadFilePath</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a1f10001e55afc30de9c835f814f9b7f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
+      <name>road_network_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a6f25377fe8b49d348a5bc7829d26e00b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::unique_ptr&lt; routing::Router &gt;</type>
+      <name>dut_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a89dcbaaa16777488536490fe1b7b75e3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const api::LaneId</type>
+      <name>kStartLaneId</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a4c8cff4a0589d48f066d6e861019b306</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const api::LaneId</type>
+      <name>kEndLaneId</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a5ebc1a6f188d0e9d9f52854f7dfc3687</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const api::Lane *</type>
+      <name>start_lane_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>ad5631f4d02890d6b057ce89ca2843cbc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const api::Lane *</type>
+      <name>end_lane_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a150bb98fe0ee3d8f5fc72ad12a32072a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>api::RoadPosition</type>
+      <name>start_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a088aec1624fe71bdd7d40d6c1a6ac6ab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>api::RoadPosition</type>
+      <name>end_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>ac44f9476e9fabac4c7be8e0dad0ee915</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const api::LaneId</type>
+      <name>kIntermediateLaneId</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a5c0a4f35c41b317d29428661e0409829</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const std::vector&lt; api::LaneSRange &gt;</type>
+      <name>kPhase0LaneSRanges</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a7176d05f99f31b596b89b168c9e4137c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const std::vector&lt; api::LaneSRange &gt;</type>
+      <name>kPhase1LaneSRanges</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>afa44fc05deb37f1d0b96349348a9bafe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const std::vector&lt; api::LaneSRange &gt;</type>
+      <name>kPhase2LaneSRanges</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a36a45349b94967d10613c1f98c8d1df4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const api::Lane *</type>
+      <name>intermediate_lane_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>ac6a0d15068c5b1e053bdf0bdbf45db55</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>api::RoadPosition</type>
+      <name>start_phase_0_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a3cdb16d83c51c2b6629d201dc918322a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>api::RoadPosition</type>
+      <name>end_phase_0_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a17a136adefb0f95f5da44c633e9b62cb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>api::RoadPosition</type>
+      <name>start_phase_1_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a8024f7a51c14e4fce246da149813835d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>api::RoadPosition</type>
+      <name>end_phase_1_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a910b6f8e8fc37e873bb5e5fc5c4aa7b6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>api::RoadPosition</type>
+      <name>start_phase_2_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>af3d17d8c9fadcd64e3f66aa72c786021</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>api::RoadPosition</type>
+      <name>end_phase_2_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>ad66aa20144c901240307f7ae089e2705</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>find_lane_sequences_test.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
     <filename>find__lane__sequences__test_8cc.html</filename>
@@ -89,6 +279,13 @@
       <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
       <anchor>a43016eddd0fa0ea21a7aa45197330f4f</anchor>
       <arglist>(DragwayBasedTest, FindLaneSequencesChangeLanes)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>TEST_F</name>
+      <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
+      <anchor>aac576b430439d3a0605f592da141fdd2</anchor>
+      <arglist>(DragwayBasedTest, FindLaneSequencesChangeLanesWithMaxLength)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -729,6 +926,13 @@
       <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
       <anchor>a43016eddd0fa0ea21a7aa45197330f4f</anchor>
       <arglist>(DragwayBasedTest, FindLaneSequencesChangeLanes)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>TEST_F</name>
+      <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
+      <anchor>aac576b430439d3a0605f592da141fdd2</anchor>
+      <arglist>(DragwayBasedTest, FindLaneSequencesChangeLanesWithMaxLength)</arglist>
     </member>
     <member kind="function">
       <type></type>
