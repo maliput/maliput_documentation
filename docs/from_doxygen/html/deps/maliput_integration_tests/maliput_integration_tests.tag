@@ -134,6 +134,48 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
+      <type>const api::LaneId</type>
+      <name>kLaneId_0_0_1</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>af877b4db1fcad02033d8983105d9194e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const api::LaneId</type>
+      <name>kLaneId_0_0_m1</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a80696def8185a8e8459312543b65eaa8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const api::LaneId</type>
+      <name>kLaneId_1_0_1</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>adc4e8075c2ddef9149456bdc6961fb28</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const api::LaneId</type>
+      <name>kLaneId_1_0_m1</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a263e36e95841cd727975ef88643e830f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const api::LaneId</type>
+      <name>kLaneId_4_0_1</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a05820c3c3d3b605a4ff3b93be9f7744c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const api::LaneId</type>
+      <name>kLaneId_5_0_m1</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>ab43f12f8486c1bee1a7e1bc89c190e57</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
       <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
       <name>road_network_</name>
       <anchorfile>distance__router__test_8cc.html</anchorfile>
@@ -148,31 +190,45 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>const api::LaneId</type>
-      <name>kStartLaneId</name>
+      <type>const api::Lane *</type>
+      <name>lane_0_0_1_</name>
       <anchorfile>distance__router__test_8cc.html</anchorfile>
-      <anchor>a4c8cff4a0589d48f066d6e861019b306</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>const api::LaneId</type>
-      <name>kEndLaneId</name>
-      <anchorfile>distance__router__test_8cc.html</anchorfile>
-      <anchor>a5ebc1a6f188d0e9d9f52854f7dfc3687</anchor>
+      <anchor>a4190d4f4b187d416b1a0751e81378859</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>const api::Lane *</type>
-      <name>start_lane_</name>
+      <name>lane_0_0_m1_</name>
       <anchorfile>distance__router__test_8cc.html</anchorfile>
-      <anchor>ad5631f4d02890d6b057ce89ca2843cbc</anchor>
+      <anchor>a9a69546fdd0ec0555ebc6c5536137272</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>const api::Lane *</type>
-      <name>end_lane_</name>
+      <name>lane_1_0_1_</name>
       <anchorfile>distance__router__test_8cc.html</anchorfile>
-      <anchor>a150bb98fe0ee3d8f5fc72ad12a32072a</anchor>
+      <anchor>a8e669a3600c830db2f920110a844d232</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const api::Lane *</type>
+      <name>lane_1_0_m1_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>abcb2033c4cf97cc1ad8b9d99d6a0bbae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const api::Lane *</type>
+      <name>lane_4_0_1_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a2ef8a7d220dce2ed1ee45f73f5033fd7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const api::Lane *</type>
+      <name>lane_5_0_m1_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a5993f06ba0f88d236adb7845fe2a8d07</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -190,80 +246,129 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>const api::LaneId</type>
-      <name>kIntermediateLaneId</name>
+      <type>const std::vector&lt; api::LaneSRange &gt;</type>
+      <name>kRoute0Phase0LaneSRanges</name>
       <anchorfile>distance__router__test_8cc.html</anchorfile>
-      <anchor>a5c0a4f35c41b317d29428661e0409829</anchor>
+      <anchor>aa4cc7b24e29045a650501fbf7a3a8444</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>const std::vector&lt; api::LaneSRange &gt;</type>
-      <name>kPhase0LaneSRanges</name>
+      <name>kRoute0Phase1LaneSRanges</name>
       <anchorfile>distance__router__test_8cc.html</anchorfile>
-      <anchor>a7176d05f99f31b596b89b168c9e4137c</anchor>
+      <anchor>a0d6cfc956f7064d975d5402f61b207c8</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>const std::vector&lt; api::LaneSRange &gt;</type>
-      <name>kPhase1LaneSRanges</name>
+      <name>kRoute0Phase2LaneSRanges</name>
       <anchorfile>distance__router__test_8cc.html</anchorfile>
-      <anchor>afa44fc05deb37f1d0b96349348a9bafe</anchor>
+      <anchor>ac4d0faa07a4c353a3a147d3e4876b002</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>const std::vector&lt; api::LaneSRange &gt;</type>
-      <name>kPhase2LaneSRanges</name>
+      <name>kRoute1Phase0LaneSRanges</name>
       <anchorfile>distance__router__test_8cc.html</anchorfile>
-      <anchor>a36a45349b94967d10613c1f98c8d1df4</anchor>
+      <anchor>a9bf303fa5fd5d1d2a6a742fa52d9797f</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>const api::Lane *</type>
-      <name>intermediate_lane_</name>
+      <type>const std::vector&lt; api::LaneSRange &gt;</type>
+      <name>kRoute1Phase1LaneSRanges</name>
       <anchorfile>distance__router__test_8cc.html</anchorfile>
-      <anchor>ac6a0d15068c5b1e053bdf0bdbf45db55</anchor>
+      <anchor>aa056ef8bdadb31c853d84839741c802c</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>api::RoadPosition</type>
-      <name>start_phase_0_</name>
+      <type>const std::vector&lt; api::LaneSRange &gt;</type>
+      <name>kRoute1Phase2LaneSRanges</name>
       <anchorfile>distance__router__test_8cc.html</anchorfile>
-      <anchor>a3cdb16d83c51c2b6629d201dc918322a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>api::RoadPosition</type>
-      <name>end_phase_0_</name>
-      <anchorfile>distance__router__test_8cc.html</anchorfile>
-      <anchor>a17a136adefb0f95f5da44c633e9b62cb</anchor>
+      <anchor>aac07dec8c0d29bf705015ed4d714084d</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>api::RoadPosition</type>
-      <name>start_phase_1_</name>
+      <name>route_0_phase_0_start_</name>
       <anchorfile>distance__router__test_8cc.html</anchorfile>
-      <anchor>a8024f7a51c14e4fce246da149813835d</anchor>
+      <anchor>a0938cf9a100ae1093e252d0dfc272f1b</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>api::RoadPosition</type>
-      <name>end_phase_1_</name>
+      <name>route_0_phase_0_end_</name>
       <anchorfile>distance__router__test_8cc.html</anchorfile>
-      <anchor>a910b6f8e8fc37e873bb5e5fc5c4aa7b6</anchor>
+      <anchor>a3201ece430414726993af2fa434b3b56</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>api::RoadPosition</type>
-      <name>start_phase_2_</name>
+      <name>route_0_phase_1_start_</name>
       <anchorfile>distance__router__test_8cc.html</anchorfile>
-      <anchor>af3d17d8c9fadcd64e3f66aa72c786021</anchor>
+      <anchor>a1f3ae5f9648eb502704bb5dc97d5be35</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>api::RoadPosition</type>
-      <name>end_phase_2_</name>
+      <name>route_0_phase_1_end_</name>
       <anchorfile>distance__router__test_8cc.html</anchorfile>
-      <anchor>ad66aa20144c901240307f7ae089e2705</anchor>
+      <anchor>a851c02696c1254caf5acf7ea49614da1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>api::RoadPosition</type>
+      <name>route_0_phase_2_start_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a3b5151e6206426cab07db2a9eaa93704</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>api::RoadPosition</type>
+      <name>route_0_phase_2_end_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a6783294e8031402da71d3f705036b66b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>api::RoadPosition</type>
+      <name>route_1_phase_0_start_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>ae93f29634bb6e0d4608bc79550a2302b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>api::RoadPosition</type>
+      <name>route_1_phase_0_end_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>ac477e7d06b5a8f1850302ce6482f683c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>api::RoadPosition</type>
+      <name>route_1_phase_1_start_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a60dd8e38fbc4e630d509c21b71445b69</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>api::RoadPosition</type>
+      <name>route_1_phase_1_end_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>aeaf4ece9f8a775ae028a4bc568e1cba3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>api::RoadPosition</type>
+      <name>route_1_phase_2_start_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>ad3d6fb76198a49a2d90973ab2f4f40aa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>api::RoadPosition</type>
+      <name>route_1_phase_2_end_</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a92880e1802089b0d30e2165c86982b15</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -816,6 +921,112 @@
       <name>rule_registry_</name>
       <anchorfile>road__rulebook__loader__test_8cc.html</anchorfile>
       <anchor>a55ad69f377cf1937c8b862d235c18764</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>route_end_to_end_connectivity_test.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
+    <filename>route__end__to__end__connectivity__test_8cc.html</filename>
+    <includes id="assert__compare_8h" name="assert_compare.h" local="yes" imported="no">assert_compare.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::test</namespace>
+    <member kind="variable" protection="protected" static="yes">
+      <type>static constexpr double</type>
+      <name>kLinearTolerance</name>
+      <anchorfile>route__end__to__end__connectivity__test_8cc.html</anchorfile>
+      <anchor>aaf754a0573d53a61d406e01ddfe2e14b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected" static="yes">
+      <type>static constexpr double</type>
+      <name>kAngularTolerance</name>
+      <anchorfile>route__end__to__end__connectivity__test_8cc.html</anchorfile>
+      <anchor>a4bbd9ff37e60b6cac823d514e2dd4b09</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected" static="yes">
+      <type>static constexpr double</type>
+      <name>kScaleLength</name>
+      <anchorfile>route__end__to__end__connectivity__test_8cc.html</anchorfile>
+      <anchor>a2da3209615160919b156333444ca08f8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>const std::string</type>
+      <name>kXodrFileName</name>
+      <anchorfile>route__end__to__end__connectivity__test_8cc.html</anchorfile>
+      <anchor>a8eb34e55f50220f15637ff251a78ca19</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected" static="yes">
+      <type>static constexpr double</type>
+      <name>kLaneLength</name>
+      <anchorfile>route__end__to__end__connectivity__test_8cc.html</anchorfile>
+      <anchor>aac7403b93e4f59dd35a1eed4940177d2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>const api::LaneId</type>
+      <name>kLane_1_0_1</name>
+      <anchorfile>route__end__to__end__connectivity__test_8cc.html</anchorfile>
+      <anchor>af05b32cf3dd56e49bc18b0e5d42077f0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>const api::LaneId</type>
+      <name>kLane_1_0_m1</name>
+      <anchorfile>route__end__to__end__connectivity__test_8cc.html</anchorfile>
+      <anchor>aaef72f01e9875d8fe88494ad943be3c3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>const api::LaneId</type>
+      <name>kLane_2_0_1</name>
+      <anchorfile>route__end__to__end__connectivity__test_8cc.html</anchorfile>
+      <anchor>af67c1b7e33876743d1349551cf43b9b5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>const api::LaneId</type>
+      <name>kLane_2_0_m1</name>
+      <anchorfile>route__end__to__end__connectivity__test_8cc.html</anchorfile>
+      <anchor>a1dad5e61a7f2e083a70b4747cdb50f47</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>const api::Lane *</type>
+      <name>lane_1_0_1_</name>
+      <anchorfile>route__end__to__end__connectivity__test_8cc.html</anchorfile>
+      <anchor>a8e669a3600c830db2f920110a844d232</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>const api::Lane *</type>
+      <name>lane_1_0_m1_</name>
+      <anchorfile>route__end__to__end__connectivity__test_8cc.html</anchorfile>
+      <anchor>abcb2033c4cf97cc1ad8b9d99d6a0bbae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>const api::Lane *</type>
+      <name>lane_2_0_1_</name>
+      <anchorfile>route__end__to__end__connectivity__test_8cc.html</anchorfile>
+      <anchor>a9a6e09023995e05a35c1c7a313923a1d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>const api::Lane *</type>
+      <name>lane_2_0_m1_</name>
+      <anchorfile>route__end__to__end__connectivity__test_8cc.html</anchorfile>
+      <anchor>a846905058fc46e9cec1297b604bd729e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
+      <name>road_network_</name>
+      <anchorfile>route__end__to__end__connectivity__test_8cc.html</anchorfile>
+      <anchor>a6f25377fe8b49d348a5bc7829d26e00b</anchor>
       <arglist></arglist>
     </member>
   </compound>

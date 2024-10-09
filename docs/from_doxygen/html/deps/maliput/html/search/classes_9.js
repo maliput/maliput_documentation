@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['junction_2710',['Junction',['../classmaliput_1_1geometry__base_1_1_junction.html',1,'Junction'],['../classmaliput_1_1api_1_1_junction.html',1,'Junction']]]
+  ['junction_2735',['Junction',['../classmaliput_1_1geometry__base_1_1_junction.html',1,'Junction'],['../classmaliput_1_1api_1_1_junction.html',1,'Junction']]]
 ];

@@ -11,6 +11,7 @@ var files_dup =
     [ "object_query_test.cc", "object__query__test_8cc.html", "object__query__test_8cc" ],
     [ "phase_ring_book_loader_test.cc", "phase__ring__book__loader__test_8cc.html", "phase__ring__book__loader__test_8cc" ],
     [ "road_rulebook_loader_test.cc", "road__rulebook__loader__test_8cc.html", "road__rulebook__loader__test_8cc" ],
+    [ "route_end_to_end_connectivity_test.cc", "route__end__to__end__connectivity__test_8cc.html", "route__end__to__end__connectivity__test_8cc" ],
     [ "segment_analysis_test.cc", "segment__analysis__test_8cc.html", null ],
     [ "traffic_light_book_loader_test.cc", "traffic__light__book__loader__test_8cc.html", "traffic__light__book__loader__test_8cc" ],
     [ "waypoints_test.cc", "waypoints__test_8cc.html", null ]

@@ -2832,31 +2832,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::multilane::StartLane::Spec</name>
-    <filename>classmaliput_1_1multilane_1_1_start_lane_1_1_spec.html</filename>
-    <member kind="function">
-      <type>const Endpoint &amp;</type>
-      <name>endpoint</name>
-      <anchorfile>classmaliput_1_1multilane_1_1_start_lane_1_1_spec.html</anchorfile>
-      <anchor>aeb7fead247e94c226026c5b57cff7beb</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function">
-      <type>int</type>
-      <name>lane_id</name>
-      <anchorfile>classmaliput_1_1multilane_1_1_start_lane_1_1_spec.html</anchorfile>
-      <anchor>aa5f63d3a89a08774c281c2cfb923316c</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="friend" protection="private">
-      <type>friend class</type>
-      <name>StartLane</name>
-      <anchorfile>classmaliput_1_1multilane_1_1_start_lane_1_1_spec.html</anchorfile>
-      <anchor>a2fd39bbe745bea0cbc68b341090be3bd</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>maliput::multilane::EndReference::Spec</name>
     <filename>classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html</filename>
     <member kind="function">
@@ -2889,6 +2864,31 @@
       <name>StartReference</name>
       <anchorfile>classmaliput_1_1multilane_1_1_start_reference_1_1_spec.html</anchorfile>
       <anchor>aa09c69c32d0d5ada4e63443664c2f607</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::multilane::StartLane::Spec</name>
+    <filename>classmaliput_1_1multilane_1_1_start_lane_1_1_spec.html</filename>
+    <member kind="function">
+      <type>const Endpoint &amp;</type>
+      <name>endpoint</name>
+      <anchorfile>classmaliput_1_1multilane_1_1_start_lane_1_1_spec.html</anchorfile>
+      <anchor>aeb7fead247e94c226026c5b57cff7beb</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>lane_id</name>
+      <anchorfile>classmaliput_1_1multilane_1_1_start_lane_1_1_spec.html</anchorfile>
+      <anchor>aa5f63d3a89a08774c281c2cfb923316c</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="friend" protection="private">
+      <type>friend class</type>
+      <name>StartLane</name>
+      <anchorfile>classmaliput_1_1multilane_1_1_start_lane_1_1_spec.html</anchorfile>
+      <anchor>a2fd39bbe745bea0cbc68b341090be3bd</anchor>
       <arglist></arglist>
     </member>
   </compound>

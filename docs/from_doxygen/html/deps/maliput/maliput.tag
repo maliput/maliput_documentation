@@ -1859,6 +1859,7 @@
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <includes id="derive__lane__s__routes_8h" name="derive_lane_s_routes.h" local="yes" imported="no">maliput/routing/derive_lane_s_routes.h</includes>
     <includes id="find__lane__sequences_8h" name="find_lane_sequences.h" local="yes" imported="no">maliput/routing/find_lane_sequences.h</includes>
+    <includes id="graph__utils_8h" name="graph_utils.h" local="yes" imported="no">maliput/routing/graph/graph_utils.h</includes>
     <includes id="routing_2phase_8h" name="routing/phase.h" local="yes" imported="no">maliput/routing/phase.h</includes>
     <namespace>maliput</namespace>
   </compound>
@@ -1869,6 +1870,7 @@
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
     <includes id="road__network_8h" name="road_network.h" local="yes" imported="no">maliput/api/road_network.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
+    <includes id="graph_8h" name="graph.h" local="yes" imported="no">maliput/routing/graph/graph.h</includes>
     <includes id="route_8h" name="route.h" local="yes" imported="no">maliput/routing/route.h</includes>
     <includes id="router_8h" name="router.h" local="yes" imported="no">maliput/routing/router.h</includes>
     <includes id="routing__constraints_8h" name="routing_constraints.h" local="yes" imported="no">maliput/routing/routing_constraints.h</includes>
@@ -3125,6 +3127,36 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>generate_dot.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/utility/</path>
+    <filename>generate__dot_8cc.html</filename>
+    <includes id="generate__dot_8h" name="generate_dot.h" local="yes" imported="no">maliput/utility/generate_dot.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::utility</namespace>
+    <member kind="function">
+      <type>void</type>
+      <name>GenerateDotStream</name>
+      <anchorfile>namespacemaliput_1_1utility.html</anchorfile>
+      <anchor>a546cfe8f921154e3893288b3533976d0</anchor>
+      <arglist>(const routing::graph::Graph &amp;graph, std::ostream *os)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>generate_dot.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/utility/</path>
+    <filename>generate__dot_8h.html</filename>
+    <includes id="graph_8h" name="graph.h" local="yes" imported="no">maliput/routing/graph/graph.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::utility</namespace>
+    <member kind="function">
+      <type>void</type>
+      <name>GenerateDotStream</name>
+      <anchorfile>namespacemaliput_1_1utility.html</anchorfile>
+      <anchor>a546cfe8f921154e3893288b3533976d0</anchor>
+      <arglist>(const routing::graph::Graph &amp;graph, std::ostream *os)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>generate_obj.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/utility/</path>
     <filename>generate__obj_8cc.html</filename>
@@ -3393,6 +3425,135 @@
       <anchorfile>namespacemaliput_1_1utility.html</anchorfile>
       <anchor>a50a9da17ca42fa31f909ba4748f8531b</anchor>
       <arglist>(const api::RoadGeometry *road_geometry, const std::string &amp;dirpath, const std::string &amp;fileroot, const ObjFeatures &amp;features)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>graph.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/routing/graph/</path>
+    <filename>graph_8cc.html</filename>
+    <includes id="graph_8h" name="graph.h" local="yes" imported="no">maliput/routing/graph/graph.h</includes>
+    <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::routing</namespace>
+    <namespace>maliput::routing::graph</namespace>
+    <member kind="function">
+      <type>Graph</type>
+      <name>BuildGraph</name>
+      <anchorfile>namespacemaliput_1_1routing_1_1graph.html</anchorfile>
+      <anchor>a6d0c727be56fa53fa28dbf6ba157e1c7</anchor>
+      <arglist>(const api::RoadGeometry *rg)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>graph.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/routing/graph/</path>
+    <filename>graph_8h.html</filename>
+    <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
+    <includes id="api_2segment_8h" name="api/segment.h" local="yes" imported="no">maliput/api/segment.h</includes>
+    <includes id="type__specific__identifier_8h" name="type_specific_identifier.h" local="yes" imported="no">maliput/api/type_specific_identifier.h</includes>
+    <class kind="struct">maliput::routing::graph::Edge</class>
+    <class kind="struct">maliput::routing::graph::Node</class>
+    <class kind="struct">maliput::routing::graph::Graph</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::routing</namespace>
+    <namespace>maliput::routing::graph</namespace>
+    <member kind="typedef">
+      <type>api::TypeSpecificIdentifier&lt; struct Edge &gt;</type>
+      <name>EdgeId</name>
+      <anchorfile>namespacemaliput_1_1routing_1_1graph.html</anchorfile>
+      <anchor>a0b990702c01d87a3d0159fa78f99437a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>api::TypeSpecificIdentifier&lt; struct Node &gt;</type>
+      <name>NodeId</name>
+      <anchorfile>namespacemaliput_1_1routing_1_1graph.html</anchorfile>
+      <anchor>ae19ebc9685474c3be1f04525b5790075</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>Graph</type>
+      <name>BuildGraph</name>
+      <anchorfile>namespacemaliput_1_1routing_1_1graph.html</anchorfile>
+      <anchor>a6d0c727be56fa53fa28dbf6ba157e1c7</anchor>
+      <arglist>(const api::RoadGeometry *rg)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>graph_utils.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/routing/graph/</path>
+    <filename>graph__utils_8cc.html</filename>
+    <includes id="graph__utils_8h" name="graph_utils.h" local="yes" imported="no">maliput/routing/graph/graph_utils.h</includes>
+    <includes id="api_2branch__point_8h" name="api/branch_point.h" local="yes" imported="no">maliput/api/branch_point.h</includes>
+    <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::routing</namespace>
+    <namespace>maliput::routing::graph</namespace>
+    <member kind="function">
+      <type>std::vector&lt; std::vector&lt; Edge &gt; &gt;</type>
+      <name>FindAllEdgeSequences</name>
+      <anchorfile>namespacemaliput_1_1routing_1_1graph.html</anchorfile>
+      <anchor>aeae9d82f5235cbeccf0be4a3262390bb</anchor>
+      <arglist>(const Graph &amp;graph, const Node &amp;start, const Node &amp;end)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; Node &gt;</type>
+      <name>FindNode</name>
+      <anchorfile>namespacemaliput_1_1routing_1_1graph.html</anchorfile>
+      <anchor>a4d3426d8ef6aaeff7d584e4f04919732</anchor>
+      <arglist>(const Graph &amp;graph, const api::Lane &amp;lane, const api::LaneEnd::Which &amp;end)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; api::LaneEnd::Which &gt;</type>
+      <name>DetermineEdgeEnd</name>
+      <anchorfile>namespacemaliput_1_1routing_1_1graph.html</anchorfile>
+      <anchor>ac92493d8d9da70a3004c9bf14a6c1cf7</anchor>
+      <arglist>(const Graph &amp;graph, const Edge &amp;ref_edge, const Edge &amp;target_edge)</arglist>
+    </member>
+    <member kind="variable">
+      <type>api::LaneEnd::Which</type>
+      <name>incoming</name>
+      <anchorfile>graph__utils_8cc.html</anchorfile>
+      <anchor>a3703055f4923b947d1ac6cb2a7c60c6d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>api::LaneEnd::Which</type>
+      <name>ongoing</name>
+      <anchorfile>graph__utils_8cc.html</anchorfile>
+      <anchor>a4baaa6f37ba349a510c5223e800e7be1</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>graph_utils.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/routing/graph/</path>
+    <filename>graph__utils_8h.html</filename>
+    <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
+    <includes id="graph_8h" name="graph.h" local="yes" imported="no">maliput/routing/graph/graph.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::routing</namespace>
+    <namespace>maliput::routing::graph</namespace>
+    <member kind="function">
+      <type>std::vector&lt; std::vector&lt; Edge &gt; &gt;</type>
+      <name>FindAllEdgeSequences</name>
+      <anchorfile>namespacemaliput_1_1routing_1_1graph.html</anchorfile>
+      <anchor>aeae9d82f5235cbeccf0be4a3262390bb</anchor>
+      <arglist>(const Graph &amp;graph, const Node &amp;start, const Node &amp;end)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; Node &gt;</type>
+      <name>FindNode</name>
+      <anchorfile>namespacemaliput_1_1routing_1_1graph.html</anchorfile>
+      <anchor>a4d3426d8ef6aaeff7d584e4f04919732</anchor>
+      <arglist>(const Graph &amp;graph, const api::Lane &amp;lane, const api::LaneEnd::Which &amp;end)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; api::LaneEnd::Which &gt;</type>
+      <name>DetermineEdgeEnd</name>
+      <anchorfile>namespacemaliput_1_1routing_1_1graph.html</anchorfile>
+      <anchor>ac92493d8d9da70a3004c9bf14a6c1cf7</anchor>
+      <arglist>(const Graph &amp;graph, const Edge &amp;ref_edge, const Edge &amp;target_edge)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -18558,6 +18719,38 @@
       <arglist>()</arglist>
     </member>
   </compound>
+  <compound kind="struct">
+    <name>maliput::routing::graph::Edge</name>
+    <filename>structmaliput_1_1routing_1_1graph_1_1_edge.html</filename>
+    <member kind="variable">
+      <type>EdgeId</type>
+      <name>id</name>
+      <anchorfile>structmaliput_1_1routing_1_1graph_1_1_edge.html</anchorfile>
+      <anchor>ac49d086de583cc060e3dd0d9f4556052</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const api::Segment *</type>
+      <name>segment</name>
+      <anchorfile>structmaliput_1_1routing_1_1graph_1_1_edge.html</anchorfile>
+      <anchor>ac1e24a6bb1fdc6a388df260fcaac81e3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>NodeId</type>
+      <name>node_a</name>
+      <anchorfile>structmaliput_1_1routing_1_1graph_1_1_edge.html</anchorfile>
+      <anchor>a4bf7cdcb54693490825d586ea59fde5c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>NodeId</type>
+      <name>node_b</name>
+      <anchorfile>structmaliput_1_1routing_1_1graph_1_1_edge.html</anchorfile>
+      <anchor>ab821edfab085db8fa8ff7bff515b74d3</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
   <compound kind="class">
     <name>maliput::drake::EigenPtr</name>
     <filename>classmaliput_1_1drake_1_1_eigen_ptr.html</filename>
@@ -20059,6 +20252,24 @@
       <anchorfile>classmaliput_1_1utility_1_1mesh_1_1_geo_vertex.html</anchorfile>
       <anchor>a24300d979abdf2b0b8d61956deedac72</anchor>
       <arglist>(HashAlgorithm &amp;hasher, const GeoVertex &amp;item) noexcept</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput::routing::graph::Graph</name>
+    <filename>structmaliput_1_1routing_1_1graph_1_1_graph.html</filename>
+    <member kind="variable">
+      <type>std::unordered_map&lt; EdgeId, Edge &gt;</type>
+      <name>edges</name>
+      <anchorfile>structmaliput_1_1routing_1_1graph_1_1_graph.html</anchorfile>
+      <anchor>af2f92e7d15bf6e711321f6dce43ea830</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::unordered_map&lt; NodeId, Node &gt;</type>
+      <name>nodes</name>
+      <anchorfile>structmaliput_1_1routing_1_1graph_1_1_graph.html</anchorfile>
+      <anchor>aa59b6e8c39e2d316745a90b308609a8c</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -26932,6 +27143,31 @@
       <anchorfile>classmaliput_1_1math_1_1details_1_1_node.html</anchorfile>
       <anchor>aa5a7f001c6b9b9a6b13551bc85030a2a</anchor>
       <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput::routing::graph::Node</name>
+    <filename>structmaliput_1_1routing_1_1graph_1_1_node.html</filename>
+    <member kind="variable">
+      <type>NodeId</type>
+      <name>id</name>
+      <anchorfile>structmaliput_1_1routing_1_1graph_1_1_node.html</anchorfile>
+      <anchor>a74da8e651f4684ed58c78d8ba5984487</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::set&lt; const api::BranchPoint * &gt;</type>
+      <name>branch_points</name>
+      <anchorfile>structmaliput_1_1routing_1_1graph_1_1_node.html</anchorfile>
+      <anchor>a757e7f1529cf1e2c00f71272ab4a4430</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::set&lt; EdgeId &gt;</type>
+      <name>edges</name>
+      <anchorfile>structmaliput_1_1routing_1_1graph_1_1_node.html</anchorfile>
+      <anchor>ab7b5157f839c4c2e994afe4e223b41b2</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -41705,6 +41941,112 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>TypeSpecificIdentifier&lt; struct Edge &gt;</name>
+    <filename>classmaliput_1_1api_1_1_type_specific_identifier.html</filename>
+    <member kind="typedef">
+      <type>struct Edge</type>
+      <name>identified_type</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>af20630e7db1b537e2b605e0f5a266e6b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>ae1c90c9eff1dfe4d052c9a012f813fca</anchor>
+      <arglist>(TypeSpecificIdentifier)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>TypeSpecificIdentifier</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>af57672784e7f203359a24bb2694327b2</anchor>
+      <arglist>(std::string string)</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::string &amp;</type>
+      <name>string</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>a7314f49a51859d46439cfeddb9ea06ec</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>ab135a123a2ff98cdd1d23b6df15eb9ab</anchor>
+      <arglist>(const TypeSpecificIdentifier&lt; struct Edge &gt; &amp;rhs) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>a40a8386e472aff3f49ddaa53197b6746</anchor>
+      <arglist>(const TypeSpecificIdentifier&lt; struct Edge &gt; &amp;rhs) const</arglist>
+    </member>
+    <member kind="friend">
+      <type>friend void</type>
+      <name>hash_append</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>a4b1b321bba77194abdc265fc952ea158</anchor>
+      <arglist>(HashAlgorithm &amp;hasher, const TypeSpecificIdentifier &amp;item) noexcept</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>TypeSpecificIdentifier&lt; struct Node &gt;</name>
+    <filename>classmaliput_1_1api_1_1_type_specific_identifier.html</filename>
+    <member kind="typedef">
+      <type>struct Node</type>
+      <name>identified_type</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>af20630e7db1b537e2b605e0f5a266e6b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>ae1c90c9eff1dfe4d052c9a012f813fca</anchor>
+      <arglist>(TypeSpecificIdentifier)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>TypeSpecificIdentifier</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>af57672784e7f203359a24bb2694327b2</anchor>
+      <arglist>(std::string string)</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::string &amp;</type>
+      <name>string</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>a7314f49a51859d46439cfeddb9ea06ec</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>ab135a123a2ff98cdd1d23b6df15eb9ab</anchor>
+      <arglist>(const TypeSpecificIdentifier&lt; struct Node &gt; &amp;rhs) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>a40a8386e472aff3f49ddaa53197b6746</anchor>
+      <arglist>(const TypeSpecificIdentifier&lt; struct Node &gt; &amp;rhs) const</arglist>
+    </member>
+    <member kind="friend">
+      <type>friend void</type>
+      <name>hash_append</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>a4b1b321bba77194abdc265fc952ea158</anchor>
+      <arglist>(HashAlgorithm &amp;hasher, const TypeSpecificIdentifier &amp;item) noexcept</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>TypeSpecificIdentifier&lt; TrafficLight &gt;</name>
     <filename>classmaliput_1_1api_1_1_type_specific_identifier.html</filename>
     <member kind="typedef">
@@ -48324,6 +48666,7 @@
   <compound kind="namespace">
     <name>maliput::routing</name>
     <filename>namespacemaliput_1_1routing.html</filename>
+    <namespace>maliput::routing::graph</namespace>
     <class kind="class">maliput::routing::Phase</class>
     <class kind="struct">maliput::routing::PhasePositionResult</class>
     <class kind="class">maliput::routing::Route</class>
@@ -48422,6 +48765,55 @@
     </member>
   </compound>
   <compound kind="namespace">
+    <name>maliput::routing::graph</name>
+    <filename>namespacemaliput_1_1routing_1_1graph.html</filename>
+    <class kind="struct">maliput::routing::graph::Edge</class>
+    <class kind="struct">maliput::routing::graph::Graph</class>
+    <class kind="struct">maliput::routing::graph::Node</class>
+    <member kind="typedef">
+      <type>api::TypeSpecificIdentifier&lt; struct Edge &gt;</type>
+      <name>EdgeId</name>
+      <anchorfile>namespacemaliput_1_1routing_1_1graph.html</anchorfile>
+      <anchor>a0b990702c01d87a3d0159fa78f99437a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
+      <type>api::TypeSpecificIdentifier&lt; struct Node &gt;</type>
+      <name>NodeId</name>
+      <anchorfile>namespacemaliput_1_1routing_1_1graph.html</anchorfile>
+      <anchor>ae19ebc9685474c3be1f04525b5790075</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>Graph</type>
+      <name>BuildGraph</name>
+      <anchorfile>namespacemaliput_1_1routing_1_1graph.html</anchorfile>
+      <anchor>a6d0c727be56fa53fa28dbf6ba157e1c7</anchor>
+      <arglist>(const api::RoadGeometry *rg)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; std::vector&lt; Edge &gt; &gt;</type>
+      <name>FindAllEdgeSequences</name>
+      <anchorfile>namespacemaliput_1_1routing_1_1graph.html</anchorfile>
+      <anchor>aeae9d82f5235cbeccf0be4a3262390bb</anchor>
+      <arglist>(const Graph &amp;graph, const Node &amp;start, const Node &amp;end)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; Node &gt;</type>
+      <name>FindNode</name>
+      <anchorfile>namespacemaliput_1_1routing_1_1graph.html</anchorfile>
+      <anchor>a4d3426d8ef6aaeff7d584e4f04919732</anchor>
+      <arglist>(const Graph &amp;graph, const api::Lane &amp;lane, const api::LaneEnd::Which &amp;end)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; api::LaneEnd::Which &gt;</type>
+      <name>DetermineEdgeEnd</name>
+      <anchorfile>namespacemaliput_1_1routing_1_1graph.html</anchorfile>
+      <anchor>ac92493d8d9da70a3004c9bf14a6c1cf7</anchor>
+      <arglist>(const Graph &amp;graph, const Edge &amp;ref_edge, const Edge &amp;target_edge)</arglist>
+    </member>
+  </compound>
+  <compound kind="namespace">
     <name>maliput::utility</name>
     <filename>namespacemaliput_1_1utility.html</filename>
     <namespace>maliput::utility::mesh</namespace>
@@ -48466,6 +48858,13 @@
       <anchorfile>namespacemaliput_1_1utility.html</anchorfile>
       <anchor>ab4e1ac100d64634cdc0b7b371e78f81c</anchor>
       <arglist>(const std::string &amp;env_var)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>GenerateDotStream</name>
+      <anchorfile>namespacemaliput_1_1utility.html</anchorfile>
+      <anchor>a546cfe8f921154e3893288b3533976d0</anchor>
+      <arglist>(const routing::graph::Graph &amp;graph, std::ostream *os)</arglist>
     </member>
     <member kind="function">
       <type>std::pair&lt; mesh::GeoMesh, Material &gt;</type>

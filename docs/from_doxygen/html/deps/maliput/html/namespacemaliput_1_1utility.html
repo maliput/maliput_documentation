@@ -149,6 +149,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ab4e1ac100d64634cdc0b7b371e78f81c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1utility.html#ab4e1ac100d64634cdc0b7b371e78f81c">GetAllPathsFromEnvironment</a> (const std::string &amp;env_var)</td></tr>
 <tr class="memdesc:ab4e1ac100d64634cdc0b7b371e78f81c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a list of paths that live in a environment variable.  <a href="namespacemaliput_1_1utility.html#ab4e1ac100d64634cdc0b7b371e78f81c">More...</a><br /></td></tr>
 <tr class="separator:ab4e1ac100d64634cdc0b7b371e78f81c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a546cfe8f921154e3893288b3533976d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1utility.html#a546cfe8f921154e3893288b3533976d0">GenerateDotStream</a> (const <a class="el" href="structmaliput_1_1routing_1_1graph_1_1_graph.html">routing::graph::Graph</a> &amp;graph, std::ostream *os)</td></tr>
+<tr class="memdesc:a546cfe8f921154e3893288b3533976d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a string representation in <code>os</code> of the <code>graph</code> using the DOT language.  <a href="namespacemaliput_1_1utility.html#a546cfe8f921154e3893288b3533976d0">More...</a><br /></td></tr>
+<tr class="separator:a546cfe8f921154e3893288b3533976d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9780629dc375c449ec8e706d7676f4b0"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="classmaliput_1_1utility_1_1mesh_1_1_geo_mesh.html">mesh::GeoMesh</a>, <a class="el" href="structmaliput_1_1utility_1_1_material.html">Material</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1utility.html#a9780629dc375c449ec8e706d7676f4b0">BuildMesh</a> (const <a class="el" href="classmaliput_1_1api_1_1_road_geometry.html">api::RoadGeometry</a> *rg, const <a class="el" href="structmaliput_1_1utility_1_1_obj_features.html">ObjFeatures</a> &amp;features, const <a class="el" href="namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">api::LaneId</a> &amp;lane_id, const <a class="el" href="namespacemaliput_1_1utility.html#ace55764233310da429c994a8c334b32a">MaterialType</a> &amp;mesh_material)</td></tr>
 <tr class="memdesc:a9780629dc375c449ec8e706d7676f4b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a map of meshes based on <code>features</code> properties and the RoadGeometry.  <a href="namespacemaliput_1_1utility.html#a9780629dc375c449ec8e706d7676f4b0">More...</a><br /></td></tr>
 <tr class="separator:a9780629dc375c449ec8e706d7676f4b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -587,6 +590,50 @@ Functions</h2></td></tr>
 <p>Finds all Segments connected to <code>seed_segment</code> via confluent Lanes. </p>
 <p>This function performs a breadth-first search over the graph of Segments, Lanes, and BranchPoints originating at <code>seed_segment</code>. It does not explore any other elements and does not require these elements to have valid ownership pointers upwards to Junctions or to a RoadGeometry.</p>
 <dl class="section return"><dt>Returns</dt><dd>an unordered_set of Segments connected to <code>seed_segment</code>, including <code>seed_segment</code> itself. </dd></dl>
+
+</div>
+</div>
+<a id="a546cfe8f921154e3893288b3533976d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a546cfe8f921154e3893288b3533976d0">&#9670;&nbsp;</a></span>GenerateDotStream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GenerateDotStream </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmaliput_1_1routing_1_1graph_1_1_graph.html">routing::graph::Graph</a> &amp;&#160;</td>
+          <td class="paramname"><em>graph</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ostream *&#160;</td>
+          <td class="paramname"><em>os</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generates a string representation in <code>os</code> of the <code>graph</code> using the DOT language. </p>
+<p>routing::graph::Edges are created as bidirectional, and labels are added to indicate <a class="el" href="classmaliput_1_1api_1_1_segment.html#acc1e5f359ad7f670ce73faa23be39d24" title="Returns the persistent identifier.">api::Segment::id()</a>. routing::graph::Nodes only indicate their <a class="el" href="namespacemaliput_1_1routing_1_1graph.html#ae19ebc9685474c3be1f04525b5790075" title="Persistent identifier for a Node in a Graph.">routing::graph::NodeId</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">graph</td><td>The <a class="el" href="structmaliput_1_1routing_1_1graph_1_1_graph.html" title="Basic type to hold the graph structure.">routing::graph::Graph</a> to serialize. </td></tr>
+    <tr><td class="paramname">os</td><td>A pointer to a std::ostream to serialize the <code>graph</code>. It must not be nullptr. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html" title="This is what MALIPUT_THROW_UNLESS throws.">common::assertion_error</a></td><td>When <code>os</code> is nullptr. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
