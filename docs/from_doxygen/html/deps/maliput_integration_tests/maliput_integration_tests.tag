@@ -106,6 +106,20 @@
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
+      <type>static constexpr bool</type>
+      <name>kAllowLaneSwitch</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a3520582c90c9f81dbce87372ef015118</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr bool</type>
+      <name>kDontAllowLaneSwitch</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>a2babb531ff4eb97d1a3cea4c09c12097</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
       <type>static constexpr routing::RoutingConstraints</type>
       <name>kDefaultRoutingConstraints</name>
       <anchorfile>distance__router__test_8cc.html</anchorfile>
@@ -124,6 +138,13 @@
       <name>kSmallRouteCostConstraint</name>
       <anchorfile>distance__router__test_8cc.html</anchorfile>
       <anchor>af52dd5c2a933ec534767a901161856ae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr routing::RoutingConstraints</type>
+      <name>kDontAllowLaneSwitchRoutingConstraint</name>
+      <anchorfile>distance__router__test_8cc.html</anchorfile>
+      <anchor>ae5349692fcbb975cb239778e7e562176</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -489,6 +510,90 @@
       <anchorfile>namespacemaliput_1_1routing.html</anchorfile>
       <anchor>aadb6a170be47b557c0390d1ce0e62deb</anchor>
       <arglist>[]</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>generate_dot_test.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration_tests/test/</path>
+    <filename>generate__dot__test_8cc.html</filename>
+    <namespace>maliput</namespace>
+    <namespace>maliput::test</namespace>
+    <member kind="variable" static="yes">
+      <type>static constexpr double</type>
+      <name>kLinearTolerance</name>
+      <anchorfile>generate__dot__test_8cc.html</anchorfile>
+      <anchor>aaf754a0573d53a61d406e01ddfe2e14b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr double</type>
+      <name>kAngularTolerance</name>
+      <anchorfile>generate__dot__test_8cc.html</anchorfile>
+      <anchor>a4bbd9ff37e60b6cac823d514e2dd4b09</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr double</type>
+      <name>kScaleLength</name>
+      <anchorfile>generate__dot__test_8cc.html</anchorfile>
+      <anchor>a2da3209615160919b156333444ca08f8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr routing::RoutingConstraints</type>
+      <name>kDefaultRoutingConstraints</name>
+      <anchorfile>generate__dot__test_8cc.html</anchorfile>
+      <anchor>a1ff383f0400fb1830d1980674d8c6c3d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const std::string</type>
+      <name>kTShapeRoadFilePath</name>
+      <anchorfile>generate__dot__test_8cc.html</anchorfile>
+      <anchor>a1f10001e55afc30de9c835f814f9b7f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const api::LaneId</type>
+      <name>kStartLaneId</name>
+      <anchorfile>generate__dot__test_8cc.html</anchorfile>
+      <anchor>a4c8cff4a0589d48f066d6e861019b306</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const api::LaneId</type>
+      <name>kEndLaneId</name>
+      <anchorfile>generate__dot__test_8cc.html</anchorfile>
+      <anchor>a5ebc1a6f188d0e9d9f52854f7dfc3687</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
+      <name>road_network_</name>
+      <anchorfile>generate__dot__test_8cc.html</anchorfile>
+      <anchor>a6f25377fe8b49d348a5bc7829d26e00b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::unique_ptr&lt; routing::Router &gt;</type>
+      <name>router_</name>
+      <anchorfile>generate__dot__test_8cc.html</anchorfile>
+      <anchor>aa8be53e63d7276f19c1a72e6cd1e5034</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>routing::graph::Graph</type>
+      <name>graph_</name>
+      <anchorfile>generate__dot__test_8cc.html</anchorfile>
+      <anchor>a2b44c29392d052ec40e8f25ae2c539f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; routing::Route &gt;</type>
+      <name>routes_</name>
+      <anchorfile>generate__dot__test_8cc.html</anchorfile>
+      <anchor>abf522071050b77525ce8966f7935a0ef</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="file">

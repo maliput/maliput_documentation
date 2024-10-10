@@ -2,8 +2,11 @@ var distance__router__test_8cc =
 [
     [ "dut_", "distance__router__test_8cc.html#a89dcbaaa16777488536490fe1b7b75e3", null ],
     [ "end_", "distance__router__test_8cc.html#ac44f9476e9fabac4c7be8e0dad0ee915", null ],
+    [ "kAllowLaneSwitch", "distance__router__test_8cc.html#a3520582c90c9f81dbce87372ef015118", null ],
     [ "kAngularTolerance", "distance__router__test_8cc.html#a4bbd9ff37e60b6cac823d514e2dd4b09", null ],
     [ "kDefaultRoutingConstraints", "distance__router__test_8cc.html#a1ff383f0400fb1830d1980674d8c6c3d", null ],
+    [ "kDontAllowLaneSwitch", "distance__router__test_8cc.html#a2babb531ff4eb97d1a3cea4c09c12097", null ],
+    [ "kDontAllowLaneSwitchRoutingConstraint", "distance__router__test_8cc.html#ae5349692fcbb975cb239778e7e562176", null ],
     [ "kLaneId_0_0_1", "distance__router__test_8cc.html#af877b4db1fcad02033d8983105d9194e", null ],
     [ "kLaneId_0_0_m1", "distance__router__test_8cc.html#a80696def8185a8e8459312543b65eaa8", null ],
     [ "kLaneId_1_0_1", "distance__router__test_8cc.html#adc4e8075c2ddef9149456bdc6961fb28", null ],

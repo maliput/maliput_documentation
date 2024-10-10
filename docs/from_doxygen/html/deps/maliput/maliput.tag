@@ -3131,6 +3131,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/utility/</path>
     <filename>generate__dot_8cc.html</filename>
     <includes id="generate__dot_8h" name="generate_dot.h" local="yes" imported="no">maliput/utility/generate_dot.h</includes>
+    <includes id="api_2segment_8h" name="api/segment.h" local="yes" imported="no">maliput/api/segment.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::utility</namespace>
     <member kind="function">
@@ -3140,12 +3141,20 @@
       <anchor>a546cfe8f921154e3893288b3533976d0</anchor>
       <arglist>(const routing::graph::Graph &amp;graph, std::ostream *os)</arglist>
     </member>
+    <member kind="function">
+      <type>void</type>
+      <name>GenerateDotStream</name>
+      <anchorfile>namespacemaliput_1_1utility.html</anchorfile>
+      <anchor>adb21a484785f78cdb0beb0e6a7cdcb94</anchor>
+      <arglist>(const routing::graph::Graph &amp;graph, const routing::Route &amp;route, std::ostream *os)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>generate_dot.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/utility/</path>
     <filename>generate__dot_8h.html</filename>
     <includes id="graph_8h" name="graph.h" local="yes" imported="no">maliput/routing/graph/graph.h</includes>
+    <includes id="route_8h" name="route.h" local="yes" imported="no">maliput/routing/route.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::utility</namespace>
     <member kind="function">
@@ -3154,6 +3163,13 @@
       <anchorfile>namespacemaliput_1_1utility.html</anchorfile>
       <anchor>a546cfe8f921154e3893288b3533976d0</anchor>
       <arglist>(const routing::graph::Graph &amp;graph, std::ostream *os)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>GenerateDotStream</name>
+      <anchorfile>namespacemaliput_1_1utility.html</anchorfile>
+      <anchor>adb21a484785f78cdb0beb0e6a7cdcb94</anchor>
+      <arglist>(const routing::graph::Graph &amp;graph, const routing::Route &amp;route, std::ostream *os)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -48865,6 +48881,13 @@
       <anchorfile>namespacemaliput_1_1utility.html</anchorfile>
       <anchor>a546cfe8f921154e3893288b3533976d0</anchor>
       <arglist>(const routing::graph::Graph &amp;graph, std::ostream *os)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>GenerateDotStream</name>
+      <anchorfile>namespacemaliput_1_1utility.html</anchorfile>
+      <anchor>adb21a484785f78cdb0beb0e6a7cdcb94</anchor>
+      <arglist>(const routing::graph::Graph &amp;graph, const routing::Route &amp;route, std::ostream *os)</arglist>
     </member>
     <member kind="function">
       <type>std::pair&lt; mesh::GeoMesh, Material &gt;</type>

@@ -152,6 +152,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a546cfe8f921154e3893288b3533976d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1utility.html#a546cfe8f921154e3893288b3533976d0">GenerateDotStream</a> (const <a class="el" href="structmaliput_1_1routing_1_1graph_1_1_graph.html">routing::graph::Graph</a> &amp;graph, std::ostream *os)</td></tr>
 <tr class="memdesc:a546cfe8f921154e3893288b3533976d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a string representation in <code>os</code> of the <code>graph</code> using the DOT language.  <a href="namespacemaliput_1_1utility.html#a546cfe8f921154e3893288b3533976d0">More...</a><br /></td></tr>
 <tr class="separator:a546cfe8f921154e3893288b3533976d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb21a484785f78cdb0beb0e6a7cdcb94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1utility.html#adb21a484785f78cdb0beb0e6a7cdcb94">GenerateDotStream</a> (const <a class="el" href="structmaliput_1_1routing_1_1graph_1_1_graph.html">routing::graph::Graph</a> &amp;graph, const <a class="el" href="classmaliput_1_1routing_1_1_route.html">routing::Route</a> &amp;route, std::ostream *os)</td></tr>
+<tr class="memdesc:adb21a484785f78cdb0beb0e6a7cdcb94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a string representation in <code>os</code> of the <code>graph</code> and <code>route</code> using the DOT language.  <a href="namespacemaliput_1_1utility.html#adb21a484785f78cdb0beb0e6a7cdcb94">More...</a><br /></td></tr>
+<tr class="separator:adb21a484785f78cdb0beb0e6a7cdcb94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9780629dc375c449ec8e706d7676f4b0"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="classmaliput_1_1utility_1_1mesh_1_1_geo_mesh.html">mesh::GeoMesh</a>, <a class="el" href="structmaliput_1_1utility_1_1_material.html">Material</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1utility.html#a9780629dc375c449ec8e706d7676f4b0">BuildMesh</a> (const <a class="el" href="classmaliput_1_1api_1_1_road_geometry.html">api::RoadGeometry</a> *rg, const <a class="el" href="structmaliput_1_1utility_1_1_obj_features.html">ObjFeatures</a> &amp;features, const <a class="el" href="namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">api::LaneId</a> &amp;lane_id, const <a class="el" href="namespacemaliput_1_1utility.html#ace55764233310da429c994a8c334b32a">MaterialType</a> &amp;mesh_material)</td></tr>
 <tr class="memdesc:a9780629dc375c449ec8e706d7676f4b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a map of meshes based on <code>features</code> properties and the RoadGeometry.  <a href="namespacemaliput_1_1utility.html#a9780629dc375c449ec8e706d7676f4b0">More...</a><br /></td></tr>
 <tr class="separator:a9780629dc375c449ec8e706d7676f4b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -593,8 +596,60 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="adb21a484785f78cdb0beb0e6a7cdcb94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb21a484785f78cdb0beb0e6a7cdcb94">&#9670;&nbsp;</a></span>GenerateDotStream() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GenerateDotStream </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmaliput_1_1routing_1_1graph_1_1_graph.html">routing::graph::Graph</a> &amp;&#160;</td>
+          <td class="paramname"><em>graph</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classmaliput_1_1routing_1_1_route.html">routing::Route</a> &amp;&#160;</td>
+          <td class="paramname"><em>route</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ostream *&#160;</td>
+          <td class="paramname"><em>os</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generates a string representation in <code>os</code> of the <code>graph</code> and <code>route</code> using the DOT language. </p>
+<p>routing::graph::Edges are created as bidirectional, and labels are added to indicate <a class="el" href="classmaliput_1_1api_1_1_segment.html#acc1e5f359ad7f670ce73faa23be39d24" title="Returns the persistent identifier.">api::Segment::id()</a>. routing::graph::Nodes only indicate their <a class="el" href="namespacemaliput_1_1routing_1_1graph.html#ae19ebc9685474c3be1f04525b5790075" title="Persistent identifier for a Node in a Graph.">routing::graph::NodeId</a>. The <code>route</code> is indicated by changing the color to red of edges where it lays.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">graph</td><td>The <a class="el" href="structmaliput_1_1routing_1_1graph_1_1_graph.html" title="Basic type to hold the graph structure.">routing::graph::Graph</a> to serialize. </td></tr>
+    <tr><td class="paramname">route</td><td>The <a class="el" href="classmaliput_1_1routing_1_1_route.html" title="Describes the sequence of paths that go from one api::RoadPosition to another.">routing::Route</a> to highlight in red on top of the <code>graph</code>. </td></tr>
+    <tr><td class="paramname">os</td><td>A pointer to a std::ostream to serialize the <code>graph</code>. It must not be nullptr. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html" title="This is what MALIPUT_THROW_UNLESS throws.">common::assertion_error</a></td><td>When <code>os</code> is nullptr. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html" title="This is what MALIPUT_THROW_UNLESS throws.">common::assertion_error</a></td><td>When <code>route's</code> involved api::Segments are not in <code>graph</code>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a546cfe8f921154e3893288b3533976d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a546cfe8f921154e3893288b3533976d0">&#9670;&nbsp;</a></span>GenerateDotStream()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a546cfe8f921154e3893288b3533976d0">&#9670;&nbsp;</a></span>GenerateDotStream() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
