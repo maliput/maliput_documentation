@@ -20,7 +20,7 @@ jobs:
     name: Compile
     runs-on: ubuntu-latest
     container:
-      image: rostooling/setup-ros-docker:ubuntu-focal-ros-foxy-ros-base-latest
+      image: rostooling/setup-ros-docker:ubuntu-focal-latest
     steps:
     - uses: actions/checkout@v4
       with:
