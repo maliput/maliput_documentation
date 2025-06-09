@@ -41,7 +41,6 @@ jobs:
       shell: bash
       working-directory: ${{ env.ROS_WS }}
       run: |
-        apt update;
         rosdep update --include-eol-distros;
         rosdep install -i -y --rosdistro ${ROS_DISTRO} --from-paths src
     - name: install drake
