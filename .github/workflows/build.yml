@@ -2,6 +2,8 @@ name: Compile
 
 on:
   push:
+    branches:
+      - main
   pull_request:
     branches:
       - main
@@ -20,12 +22,11 @@ jobs:
     name: Compile
     runs-on: ubuntu-latest
     container:
-      image: ubuntu:20.04
+      image: ghcr.io/maliput/ci_foxy_image:latest
+      credentials:
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
     steps:
-    # setup-ros first since it installs git, which is needed to fetch all branches from actions/checkout
-    - uses: ros-tooling/setup-ros@v0.6
-      env:
-        ACTIONS_ALLOW_UNSECURE_COMMANDS: true
     - uses: actions/checkout@v4
       with:
         path: ${{ env.ROS_WS }}/src/${{ env.PACKAGE_NAME }}
@@ -46,7 +47,7 @@ jobs:
       working-directory: ${{ env.ROS_WS }}
       run: |
         rosdep update --include-eol-distros;
-        rosdep install  -i -y --rosdistro ${ROS_DISTRO} --from-paths src
+        rosdep install -i -y --rosdistro ${ROS_DISTRO} --from-paths src
     - name: install drake
       shell: bash
       working-directory: ${{ env.ROS_WS }}/src/drake_vendor
@@ -71,7 +72,7 @@ jobs:
         ref: rtd-pages
     # dump the content into rtd-pages
     - name: push to rtd-pages
-      if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
+      if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || contains(github.event.pull_request.labels.*.name, 'do-push-to-rtd-pages') }}
       shell: bash
       working-directory: ${{ env.ROS_WS }}
       run: |
