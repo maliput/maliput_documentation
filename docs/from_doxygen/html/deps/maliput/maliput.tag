@@ -31477,6 +31477,13 @@
       <anchor>ad413acb6452704703a264866fba88b14</anchor>
       <arglist>() const</arglist>
     </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>BackendCustomCommand</name>
+      <anchorfile>classmaliput_1_1api_1_1_road_geometry.html</anchorfile>
+      <anchor>ac63ceda08c3e5873ac70f3699f605ce3</anchor>
+      <arglist>(const std::string &amp;command) const</arglist>
+    </member>
     <member kind="function" protection="protected">
       <type></type>
       <name>RoadGeometry</name>

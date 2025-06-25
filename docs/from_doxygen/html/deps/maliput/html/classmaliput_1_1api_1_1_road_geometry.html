@@ -160,6 +160,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad413acb6452704703a264866fba88b14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput_1_1math_1_1_vector3.html">math::Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#ad413acb6452704703a264866fba88b14">inertial_to_backend_frame_translation</a> () const</td></tr>
 <tr class="memdesc:ad413acb6452704703a264866fba88b14"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Backend Frame is an inertial frame similar to the Inertial Frame that differ one from another by an isometric transformation.  <a href="classmaliput_1_1api_1_1_road_geometry.html#ad413acb6452704703a264866fba88b14">More...</a><br /></td></tr>
 <tr class="separator:ad413acb6452704703a264866fba88b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac63ceda08c3e5873ac70f3699f605ce3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#ac63ceda08c3e5873ac70f3699f605ce3">BackendCustomCommand</a> (const std::string &amp;command) const</td></tr>
+<tr class="memdesc:ac63ceda08c3e5873ac70f3699f605ce3"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is meant to provide an extra feature for the backend implementation.  <a href="classmaliput_1_1api_1_1_road_geometry.html#ac63ceda08c3e5873ac70f3699f605ce3">More...</a><br /></td></tr>
+<tr class="separator:ac63ceda08c3e5873ac70f3699f605ce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -236,6 +239,41 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the tolerance guaranteed for angular measurements (orientations). </p>
+
+</div>
+</div>
+<a id="ac63ceda08c3e5873ac70f3699f605ce3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac63ceda08c3e5873ac70f3699f605ce3">&#9670;&nbsp;</a></span>BackendCustomCommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string BackendCustomCommand </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>command</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method is meant to provide an extra feature for the backend implementation. </p>
+<p>The maliput::API is rigid with respect to its API and the non-transparency with the backend implementation, so this method is a placeholder for commands that the maliput backend might decide to implement to forward some other useful information that might be needed by the user. Each backend that implements this method should provide detailed information about the available commands and what's the format used for the input/output.Use with caution.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">command</td><td>String that contains a command that the maliput backend being used can parse. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A string with the command's output. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">maliput::assertion_error</td><td>When the pointed backend hasn't implemented the API. </td></tr>
+    <tr><td class="paramname">maliput::assertion_error</td><td>When the requested command can't be resolved. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

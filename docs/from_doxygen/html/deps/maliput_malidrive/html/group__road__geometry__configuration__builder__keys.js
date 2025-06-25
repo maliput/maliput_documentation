@@ -3,6 +3,7 @@ var group__road__geometry__configuration__builder__keys =
     [ "kAngularTolerance", "group__road__geometry__configuration__builder__keys.html#ga0e97f7f471a134224c1ce20a25da877d", null ],
     [ "kBuildPolicy", "group__road__geometry__configuration__builder__keys.html#ga616e92bcd5681aceae39350e8731e419", null ],
     [ "kInertialToBackendFrameTranslation", "group__road__geometry__configuration__builder__keys.html#ga94c21e622feaf27c90c695b3c81206ff", null ],
+    [ "kIntegratorAccuracyMultiplier", "group__road__geometry__configuration__builder__keys.html#ga6d45705a79beda6a1d1fae703a7f4586", null ],
     [ "kLinearTolerance", "group__road__geometry__configuration__builder__keys.html#gac6e403db72f1c6cea48836ea7754e3de", null ],
     [ "kMaxLinearTolerance", "group__road__geometry__configuration__builder__keys.html#ga0f16961202b41840391832934ba1ac49", null ],
     [ "kNumThreads", "group__road__geometry__configuration__builder__keys.html#ga04b5baa83b71a79306a19ea4c78caf26", null ],

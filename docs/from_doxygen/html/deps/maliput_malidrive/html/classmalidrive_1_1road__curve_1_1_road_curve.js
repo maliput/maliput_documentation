@@ -2,6 +2,8 @@ var classmalidrive_1_1road__curve_1_1_road_curve =
 [
     [ "RoadCurve", "classmalidrive_1_1road__curve_1_1_road_curve.html#aa774db2a3d5677e6273d4ef276ce71ab", null ],
     [ "~RoadCurve", "classmalidrive_1_1road__curve_1_1_road_curve.html#a40cf4ff353807f1f5ca7fdc734b362c2", null ],
+    [ "elevation", "classmalidrive_1_1road__curve_1_1_road_curve.html#a53b699e6647f721b6c1a97ce9e2e5090", null ],
+    [ "ground_curve", "classmalidrive_1_1road__curve_1_1_road_curve.html#a8925aab43cb0a2bd27bce7b8693b86c3", null ],
     [ "HHat", "classmalidrive_1_1road__curve_1_1_road_curve.html#a0a83dc6e12773b03330d79e324bf064b", null ],
     [ "linear_tolerance", "classmalidrive_1_1road__curve_1_1_road_curve.html#a96017eb2ac92f272cfa348b8d55f6190", null ],
     [ "LMax", "classmalidrive_1_1road__curve_1_1_road_curve.html#aa3afdb775f7a106a6069631ff58d34eb", null ],
@@ -16,6 +18,7 @@ var classmalidrive_1_1road__curve_1_1_road_curve =
     [ "RHat", "classmalidrive_1_1road__curve_1_1_road_curve.html#a1ed174f1793f2ecdf901cbdb88b8c988", null ],
     [ "scale_length", "classmalidrive_1_1road__curve_1_1_road_curve.html#a4f2b663d219f340450721354e4903c48", null ],
     [ "SHat", "classmalidrive_1_1road__curve_1_1_road_curve.html#adbc4ac22be57a812f129ca1cdd6d5a34", null ],
+    [ "superelevation", "classmalidrive_1_1road__curve_1_1_road_curve.html#a7871dd8a854ee224926c61ce0ea32140", null ],
     [ "W", "classmalidrive_1_1road__curve_1_1_road_curve.html#a305e76b9da27e04d3f15f25bb6477d70", null ],
     [ "WDot", "classmalidrive_1_1road__curve_1_1_road_curve.html#aac451cc1c812c306f3d0c9d2ddd9fe58", null ],
     [ "WDot", "classmalidrive_1_1road__curve_1_1_road_curve.html#aab365ac2c0475648203d9693a80bed12", null ],

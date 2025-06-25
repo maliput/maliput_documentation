@@ -2,6 +2,7 @@ var constants_8h =
 [
     [ "kAngularTolerance", "constants_8h.html#a4bbd9ff37e60b6cac823d514e2dd4b09", null ],
     [ "kBaseLinearTolerance", "constants_8h.html#a129f6a1a0dad9f0c8cecb7abe02552d9", null ],
+    [ "kDefaultAdaptingFunctionLength", "constants_8h.html#ad91e2570803a777d781e53e55ca8c242", null ],
     [ "kDefaultMaxSpeedLimit", "constants_8h.html#abc547c57d153c67bba56929fa5a3daef", null ],
     [ "kDefaultMinSpeedLimit", "constants_8h.html#a3cf414272abd576e2b9fb51eec093a4d", null ],
     [ "kLinearTolerance", "constants_8h.html#aaf754a0573d53a61d406e01ddfe2e14b", null ],

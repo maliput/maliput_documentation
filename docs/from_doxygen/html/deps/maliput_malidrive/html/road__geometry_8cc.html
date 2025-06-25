@@ -89,15 +89,21 @@ $(document).ready(function(){initNavTree('road__geometry_8cc.html',''); initResi
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">road_geometry.cc File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="road__geometry_8h.html">maliput_malidrive/base/road_geometry.h</a>&quot;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;<a class="elRef" href="../../maliput/html/lane__data_8h.html">maliput/api/lane_data.h</a>&gt;</code><br />
 <code>#include &lt;<a class="elRef" href="../../maliput/html/brute__force__find__road__positions__strategy_8h.html">maliput/geometry_base/brute_force_find_road_positions_strategy.h</a>&gt;</code><br />
 <code>#include &lt;<a class="elRef" href="../../maliput/html/filter__positions_8h.html">maliput/geometry_base/filter_positions.h</a>&gt;</code><br />
+<code>#include &lt;string_view&gt;</code><br />
+<code>#include &quot;<a class="el" href="base_2lane_8h.html">maliput_malidrive/base/lane.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="constants_8h.html">maliput_malidrive/constants.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for road_geometry.cc:</div>
@@ -111,7 +117,35 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacemalidrive"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive.html">malidrive</a></td></tr>
 <tr class="memdesc:namespacemalidrive"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a new XODR file which is filled with Roads that are extracted from an another XODR file. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a2df379b283a801aa08771af3f657b7f5"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="road__geometry_8cc.html#a2df379b283a801aa08771af3f657b7f5">kEpsilon</a> {1e-12}</td></tr>
+<tr class="separator:a2df379b283a801aa08771af3f657b7f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a2df379b283a801aa08771af3f657b7f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2df379b283a801aa08771af3f657b7f5">&#9670;&nbsp;</a></span>kEpsilon</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr double kEpsilon {1e-12}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.15 -->

@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2a19cbfb4904c3202ff69a412c142cda6c":[4,0,336,12,0],
 "traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2ab9915b027f3c5c3f045c880f99f22bc4":[4,0,336,12,1],
 "traffic__lights_8h.html#ae22def226ba4538ee9a91f02bd1b5ff3":[4,0,336,15],
 "trajectory_8cc.html":[4,0,337],

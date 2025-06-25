@@ -107,6 +107,15 @@ Inheritance diagram for RoadGeometry:</div>
 </div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1_road_geometry_1_1_open_scenario_lane_position.html">OpenScenarioLanePosition</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a OSC-XML <a class="el" href="classmalidrive_1_1_lane.html" title="Describes a Lane whose centerline is a offset of a road_curve::RoadCurve at a certain lane offset whi...">Lane</a> Position.  <a href="structmalidrive_1_1_road_geometry_1_1_open_scenario_lane_position.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1_road_geometry_1_1_open_scenario_road_position.html">OpenScenarioRoadPosition</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a OSC-XML Road Position.  <a href="structmalidrive_1_1_road_geometry_1_1_open_scenario_road_position.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad67e4e667fb5105be51d0ebf94c4fa45"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1_road_geometry.html#ad67e4e667fb5105be51d0ebf94c4fa45">MALIDRIVE_NO_COPY_NO_MOVE_NO_ASSIGN</a> (<a class="el" href="classmalidrive_1_1_road_geometry.html">RoadGeometry</a>)</td></tr>
@@ -126,6 +135,33 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9708753ea1683f5d5408f862a0abc8ba"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmalidrive_1_1road__curve_1_1_function.html">road_curve::Function</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1_road_geometry.html#a9708753ea1683f5d5408f862a0abc8ba">GetReferenceLineOffset</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">xodr::RoadHeader::Id</a> &amp;road_id) const</td></tr>
 <tr class="memdesc:a9708753ea1683f5d5408f862a0abc8ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the reference line offset function of <code>road_id</code>.  <a href="classmalidrive_1_1_road_geometry.html#a9708753ea1683f5d5408f862a0abc8ba">More...</a><br /></td></tr>
 <tr class="separator:a9708753ea1683f5d5408f862a0abc8ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a212e39c809564811699e436bc271821d"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../../maliput/html/structmaliput_1_1api_1_1_road_position.html">maliput::api::RoadPosition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1_road_geometry.html#a212e39c809564811699e436bc271821d">OpenScenarioLanePositionToMaliputRoadPosition</a> (const <a class="el" href="structmalidrive_1_1_road_geometry_1_1_open_scenario_lane_position.html">OpenScenarioLanePosition</a> &amp;xodr_lane_position) const</td></tr>
+<tr class="memdesc:a212e39c809564811699e436bc271821d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an OpenScenario LanePosition to a maliput RoadPosition.  <a href="classmalidrive_1_1_road_geometry.html#a212e39c809564811699e436bc271821d">More...</a><br /></td></tr>
+<tr class="separator:a212e39c809564811699e436bc271821d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e7bb4af91304dd770cb73b59315197c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmalidrive_1_1_road_geometry_1_1_open_scenario_lane_position.html">OpenScenarioLanePosition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1_road_geometry.html#a1e7bb4af91304dd770cb73b59315197c">MaliputRoadPositionToOpenScenarioLanePosition</a> (const <a class="elRef" href="../../maliput/html/structmaliput_1_1api_1_1_road_position.html">maliput::api::RoadPosition</a> &amp;road_position) const</td></tr>
+<tr class="memdesc:a1e7bb4af91304dd770cb73b59315197c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a maliput RoadPosition to an OpenScenario LanePosition.  <a href="classmalidrive_1_1_road_geometry.html#a1e7bb4af91304dd770cb73b59315197c">More...</a><br /></td></tr>
+<tr class="separator:a1e7bb4af91304dd770cb73b59315197c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a696a672ef7ed2e2cf514609dc4d795f1"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../../maliput/html/structmaliput_1_1api_1_1_road_position.html">maliput::api::RoadPosition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1_road_geometry.html#a696a672ef7ed2e2cf514609dc4d795f1">OpenScenarioRoadPositionToMaliputRoadPosition</a> (const <a class="el" href="structmalidrive_1_1_road_geometry_1_1_open_scenario_road_position.html">OpenScenarioRoadPosition</a> &amp;xodr_road_position) const</td></tr>
+<tr class="memdesc:a696a672ef7ed2e2cf514609dc4d795f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an OpenScenario RoadPosition to a maliput RoadPosition.  <a href="classmalidrive_1_1_road_geometry.html#a696a672ef7ed2e2cf514609dc4d795f1">More...</a><br /></td></tr>
+<tr class="separator:a696a672ef7ed2e2cf514609dc4d795f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2801e460d0ca7710a167bb003f345e72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmalidrive_1_1_road_geometry_1_1_open_scenario_road_position.html">OpenScenarioRoadPosition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1_road_geometry.html#a2801e460d0ca7710a167bb003f345e72">MaliputRoadPositionToOpenScenarioRoadPosition</a> (const <a class="elRef" href="../../maliput/html/structmaliput_1_1api_1_1_road_position.html">maliput::api::RoadPosition</a> &amp;road_position) const</td></tr>
+<tr class="memdesc:a2801e460d0ca7710a167bb003f345e72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a maliput RoadPosition to an OpenScenario RoadPosition.  <a href="classmalidrive_1_1_road_geometry.html#a2801e460d0ca7710a167bb003f345e72">More...</a><br /></td></tr>
+<tr class="separator:a2801e460d0ca7710a167bb003f345e72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32776885dcaba7544f5fbd3d41bc5b2d"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../../maliput/html/structmaliput_1_1api_1_1_road_position.html">maliput::api::RoadPosition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1_road_geometry.html#a32776885dcaba7544f5fbd3d41bc5b2d">OpenScenarioRelativeRoadPositionToMaliputRoadPosition</a> (const <a class="el" href="structmalidrive_1_1_road_geometry_1_1_open_scenario_road_position.html">OpenScenarioRoadPosition</a> &amp;xodr_reference_road_position, double xodr_ds, double xodr_dt) const</td></tr>
+<tr class="memdesc:a32776885dcaba7544f5fbd3d41bc5b2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an OpenScenario RelativeRoadPosition to a maliput RoadPosition.  <a href="classmalidrive_1_1_road_geometry.html#a32776885dcaba7544f5fbd3d41bc5b2d">More...</a><br /></td></tr>
+<tr class="separator:a32776885dcaba7544f5fbd3d41bc5b2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7757567de6581f678004c7bf9fa0f05"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../../maliput/html/structmaliput_1_1api_1_1_road_position.html">maliput::api::RoadPosition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1_road_geometry.html#ab7757567de6581f678004c7bf9fa0f05">OpenScenarioRelativeLanePositionWithDsLaneToMaliputRoadPosition</a> (const <a class="el" href="structmalidrive_1_1_road_geometry_1_1_open_scenario_lane_position.html">OpenScenarioLanePosition</a> &amp;xodr_reference_lane_position, int d_lane, double ds_lane, double offset) const</td></tr>
+<tr class="memdesc:ab7757567de6581f678004c7bf9fa0f05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an OpenScenario RelativeLanePosition to a maliput RoadPosition.  <a href="classmalidrive_1_1_road_geometry.html#ab7757567de6581f678004c7bf9fa0f05">More...</a><br /></td></tr>
+<tr class="separator:ab7757567de6581f678004c7bf9fa0f05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a324a85ba33889fcb38bff9b8edb043f3"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../../maliput/html/structmaliput_1_1api_1_1_road_position.html">maliput::api::RoadPosition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1_road_geometry.html#a324a85ba33889fcb38bff9b8edb043f3">OpenScenarioRelativeLanePositionWithDsToMaliputRoadPosition</a> (const <a class="el" href="structmalidrive_1_1_road_geometry_1_1_open_scenario_lane_position.html">OpenScenarioLanePosition</a> &amp;xodr_reference_lane_position, int d_lane, double xodr_ds, double offset) const</td></tr>
+<tr class="memdesc:a324a85ba33889fcb38bff9b8edb043f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an OpenScenario RelativeLanePosition to a maliput RoadPosition.  <a href="classmalidrive_1_1_road_geometry.html#a324a85ba33889fcb38bff9b8edb043f3">More...</a><br /></td></tr>
+<tr class="separator:a324a85ba33889fcb38bff9b8edb043f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08bf5a805b5630aa201a830b9f5bbec2"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../../maliput/html/classmaliput_1_1math_1_1_roll_pitch_yaw.html">maliput::math::RollPitchYaw</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1_road_geometry.html#a08bf5a805b5630aa201a830b9f5bbec2">GetRoadOrientationAtOpenScenarioRoadPosition</a> (const <a class="el" href="structmalidrive_1_1_road_geometry_1_1_open_scenario_road_position.html">OpenScenarioRoadPosition</a> &amp;xodr_road_position) const</td></tr>
+<tr class="memdesc:a08bf5a805b5630aa201a830b9f5bbec2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtains the road's roll, pitch and yaw angles at the specified OpenScenario RoadPosition.  <a href="classmalidrive_1_1_road_geometry.html#a08bf5a805b5630aa201a830b9f5bbec2">More...</a><br /></td></tr>
+<tr class="separator:a08bf5a805b5630aa201a830b9f5bbec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67522f2d10cdf2d9a221da710b533626"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmalidrive_1_1_lane.html">Lane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1_road_geometry.html#a67522f2d10cdf2d9a221da710b533626">GetMaliputLaneFromOpenScenarioLanePosition</a> (const <a class="el" href="structmalidrive_1_1_road_geometry_1_1_open_scenario_lane_position.html">OpenScenarioLanePosition</a> &amp;xodr_lane_position) const</td></tr>
+<tr class="memdesc:a67522f2d10cdf2d9a221da710b533626"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the maliput lane that corresponds to the given OpenScenario LanePosition.  <a href="classmalidrive_1_1_road_geometry.html#a67522f2d10cdf2d9a221da710b533626">More...</a><br /></td></tr>
+<tr class="separator:a67522f2d10cdf2d9a221da710b533626"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classmaliput_1_1geometry__base_1_1_road_geometry"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classmaliput_1_1geometry__base_1_1_road_geometry')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el"  href="../../maliput/html/classmaliput_1_1geometry__base_1_1_road_geometry.html">RoadGeometry</a></td></tr>
 <tr class="memitem:ac4f7fc33fb19946309af17487bbe83f0 inherit pub_methods_classmaliput_1_1geometry__base_1_1_road_geometry"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../../maliput/html/classmaliput_1_1geometry__base_1_1_road_geometry.html#ac4f7fc33fb19946309af17487bbe83f0">MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</a> (<a class="elRef" href="../../maliput/html/classmaliput_1_1geometry__base_1_1_road_geometry.html">RoadGeometry</a>)</td></tr>
 <tr class="separator:ac4f7fc33fb19946309af17487bbe83f0 inherit pub_methods_classmaliput_1_1geometry__base_1_1_road_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,6 +204,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af0f48addc835003870e382c3bb44e11e inherit pub_methods_classmaliput_1_1api_1_1_road_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad413acb6452704703a264866fba88b14 inherit pub_methods_classmaliput_1_1api_1_1_road_geometry"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../../maliput/html/classmaliput_1_1math_1_1_vector3.html">math::Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html#ad413acb6452704703a264866fba88b14">inertial_to_backend_frame_translation</a> () const</td></tr>
 <tr class="separator:ad413acb6452704703a264866fba88b14 inherit pub_methods_classmaliput_1_1api_1_1_road_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac63ceda08c3e5873ac70f3699f605ce3 inherit pub_methods_classmaliput_1_1api_1_1_road_geometry"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html#ac63ceda08c3e5873ac70f3699f605ce3">BackendCustomCommand</a> (const std::string &amp;command) const</td></tr>
+<tr class="separator:ac63ceda08c3e5873ac70f3699f605ce3 inherit pub_methods_classmaliput_1_1api_1_1_road_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -319,6 +357,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a67522f2d10cdf2d9a221da710b533626"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67522f2d10cdf2d9a221da710b533626">&#9670;&nbsp;</a></span>GetMaliputLaneFromOpenScenarioLanePosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classmalidrive_1_1_lane.html">Lane</a> * GetMaliputLaneFromOpenScenarioLanePosition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1_road_geometry_1_1_open_scenario_lane_position.html">OpenScenarioLanePosition</a> &amp;&#160;</td>
+          <td class="paramname"><em>xodr_lane_position</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Finds the maliput lane that corresponds to the given OpenScenario LanePosition. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xodr_lane_position</td><td>The OpenScenario LanePosition to find the corresponding maliput lane. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the corresponding maliput <a class="el" href="classmalidrive_1_1_lane.html" title="Describes a Lane whose centerline is a offset of a road_curve::RoadCurve at a certain lane offset whi...">Lane</a>, or nullptr if not found. </dd></dl>
+
+</div>
+</div>
 <a id="a9708753ea1683f5d5408f862a0abc8ba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9708753ea1683f5d5408f862a0abc8ba">&#9670;&nbsp;</a></span>GetReferenceLineOffset()</h2>
 
@@ -385,6 +450,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a08bf5a805b5630aa201a830b9f5bbec2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08bf5a805b5630aa201a830b9f5bbec2">&#9670;&nbsp;</a></span>GetRoadOrientationAtOpenScenarioRoadPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" href="../../maliput/html/classmaliput_1_1math_1_1_roll_pitch_yaw.html">maliput::math::RollPitchYaw</a> GetRoadOrientationAtOpenScenarioRoadPosition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1_road_geometry_1_1_open_scenario_road_position.html">OpenScenarioRoadPosition</a> &amp;&#160;</td>
+          <td class="paramname"><em>xodr_road_position</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Obtains the road's roll, pitch and yaw angles at the specified OpenScenario RoadPosition. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xodr_road_position</td><td>The OpenScenario RoadPosition to get the angles at.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A maliput RollPitchYaw. </dd></dl>
+
+</div>
+</div>
 <a id="ad67e4e667fb5105be51d0ebf94c4fa45"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad67e4e667fb5105be51d0ebf94c4fa45">&#9670;&nbsp;</a></span>MALIDRIVE_NO_COPY_NO_MOVE_NO_ASSIGN()</h2>
 
@@ -400,6 +492,276 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1e7bb4af91304dd770cb73b59315197c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e7bb4af91304dd770cb73b59315197c">&#9670;&nbsp;</a></span>MaliputRoadPositionToOpenScenarioLanePosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structmalidrive_1_1_road_geometry_1_1_open_scenario_lane_position.html">RoadGeometry::OpenScenarioLanePosition</a> MaliputRoadPositionToOpenScenarioLanePosition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" href="../../maliput/html/structmaliput_1_1api_1_1_road_position.html">maliput::api::RoadPosition</a> &amp;&#160;</td>
+          <td class="paramname"><em>road_position</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts a maliput RoadPosition to an OpenScenario LanePosition. </p>
+<p>See <a href="https://publications.pages.asam.net/standards/ASAM_OpenSCENARIO/ASAM_OpenSCENARIO_XML/latest/generated/content/LanePosition.html">https://publications.pages.asam.net/standards/ASAM_OpenSCENARIO/ASAM_OpenSCENARIO_XML/latest/generated/content/LanePosition.html</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">road_position</td><td>The road position to get the OS lane position from. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>An Open Scenario LanePosition.</dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">When</td><td>the correspondent open scenario road is not found. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2801e460d0ca7710a167bb003f345e72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2801e460d0ca7710a167bb003f345e72">&#9670;&nbsp;</a></span>MaliputRoadPositionToOpenScenarioRoadPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structmalidrive_1_1_road_geometry_1_1_open_scenario_road_position.html">RoadGeometry::OpenScenarioRoadPosition</a> MaliputRoadPositionToOpenScenarioRoadPosition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" href="../../maliput/html/structmaliput_1_1api_1_1_road_position.html">maliput::api::RoadPosition</a> &amp;&#160;</td>
+          <td class="paramname"><em>road_position</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts a maliput RoadPosition to an OpenScenario RoadPosition. </p>
+<p>See <a href="https://publications.pages.asam.net/standards/ASAM_OpenSCENARIO/ASAM_OpenSCENARIO_XML/latest/generated/content/RoadPosition.html">https://publications.pages.asam.net/standards/ASAM_OpenSCENARIO/ASAM_OpenSCENARIO_XML/latest/generated/content/RoadPosition.html</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">road_position</td><td>The road position to get the OS road position from. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>An Open Scenario RoadPosition. </dd></dl>
+
+</div>
+</div>
+<a id="a212e39c809564811699e436bc271821d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a212e39c809564811699e436bc271821d">&#9670;&nbsp;</a></span>OpenScenarioLanePositionToMaliputRoadPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" href="../../maliput/html/structmaliput_1_1api_1_1_road_position.html">maliput::api::RoadPosition</a> OpenScenarioLanePositionToMaliputRoadPosition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1_road_geometry_1_1_open_scenario_lane_position.html">OpenScenarioLanePosition</a> &amp;&#160;</td>
+          <td class="paramname"><em>xodr_lane_position</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts an OpenScenario LanePosition to a maliput RoadPosition. </p>
+<p>See <a href="https://publications.pages.asam.net/standards/ASAM_OpenSCENARIO/ASAM_OpenSCENARIO_XML/latest/generated/content/LanePosition.html">https://publications.pages.asam.net/standards/ASAM_OpenSCENARIO/ASAM_OpenSCENARIO_XML/latest/generated/content/LanePosition.html</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xodr_lane_position</td><td>The lane position to get the maliput road position from. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A maliput RoadPosition.</dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">When</td><td>the correspondent maliput lane is not found. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab7757567de6581f678004c7bf9fa0f05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7757567de6581f678004c7bf9fa0f05">&#9670;&nbsp;</a></span>OpenScenarioRelativeLanePositionWithDsLaneToMaliputRoadPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" href="../../maliput/html/structmaliput_1_1api_1_1_road_position.html">maliput::api::RoadPosition</a> OpenScenarioRelativeLanePositionWithDsLaneToMaliputRoadPosition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1_road_geometry_1_1_open_scenario_lane_position.html">OpenScenarioLanePosition</a> &amp;&#160;</td>
+          <td class="paramname"><em>xodr_reference_lane_position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>d_lane</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ds_lane</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts an OpenScenario RelativeLanePosition to a maliput RoadPosition. </p>
+<p>See <a href="https://publications.pages.asam.net/standards/ASAM_OpenSCENARIO/ASAM_OpenSCENARIO_XML/latest/generated/content/RelativeLanePosition.html">https://publications.pages.asam.net/standards/ASAM_OpenSCENARIO/ASAM_OpenSCENARIO_XML/latest/generated/content/RelativeLanePosition.html</a></p>
+<p>When ds_lane makes xodr_s to be out of bounds of the road, the calculation continues with the connecting road. This make sense when only having a single connecting road (road successor in the xodr). When having multiple connecting roads, the calculation will arbitrarily choose one of the connecting roads. (Default branch via maliput api). This might need to change in the future as we probably want to have a more deterministic behavior that could reflect the expecting routing of the vehicle acting as reference. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xodr_reference_lane_position</td><td>The OpenScenario LanePosition used as reference. </td></tr>
+    <tr><td class="paramname">d_lane</td><td>The lane offset relative to the lane the reference. </td></tr>
+    <tr><td class="paramname">ds_lane</td><td>The offset along the center line of the lane, where the reference entity is located. </td></tr>
+    <tr><td class="paramname">offset</td><td>The lateral offset to the center line of the target lane (along the t-axis of the target lane center line).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A maliput RoadPosition. </dd></dl>
+
+</div>
+</div>
+<a id="a324a85ba33889fcb38bff9b8edb043f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a324a85ba33889fcb38bff9b8edb043f3">&#9670;&nbsp;</a></span>OpenScenarioRelativeLanePositionWithDsToMaliputRoadPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" href="../../maliput/html/structmaliput_1_1api_1_1_road_position.html">maliput::api::RoadPosition</a> OpenScenarioRelativeLanePositionWithDsToMaliputRoadPosition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1_road_geometry_1_1_open_scenario_lane_position.html">OpenScenarioLanePosition</a> &amp;&#160;</td>
+          <td class="paramname"><em>xodr_reference_lane_position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>d_lane</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>xodr_ds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts an OpenScenario RelativeLanePosition to a maliput RoadPosition. </p>
+<p>See <a href="https://publications.pages.asam.net/standards/ASAM_OpenSCENARIO/ASAM_OpenSCENARIO_XML/latest/generated/content/RelativeRoadPosition.html">https://publications.pages.asam.net/standards/ASAM_OpenSCENARIO/ASAM_OpenSCENARIO_XML/latest/generated/content/RelativeRoadPosition.html</a></p>
+<p>When xodr_ds makes xodr_s to be out of bounds of the road, the calculation continues with the connecting road. This make sense when only having a single connecting road (road successor in the xodr). When having multiple connecting roads, the calculation will arbitrarily choose one of the connecting roads. (Default branch via maliput api). This might need to change in the future as we probably want to have a more deterministic behavior that could reflect the expecting routing of the vehicle acting as reference. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xodr_reference_lane_position</td><td>The OpenScenario LanePosition used as reference. </td></tr>
+    <tr><td class="paramname">d_lane</td><td>The lane offset relative to the lane the reference. </td></tr>
+    <tr><td class="paramname">xodr_ds</td><td>The offset along the road's reference line relative to the s-coordinate of the reference entity. </td></tr>
+    <tr><td class="paramname">offset</td><td>The lateral offset to the center line of the target lane (along the t-axis of the target lane center line).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A maliput RoadPosition. </dd></dl>
+
+</div>
+</div>
+<a id="a32776885dcaba7544f5fbd3d41bc5b2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32776885dcaba7544f5fbd3d41bc5b2d">&#9670;&nbsp;</a></span>OpenScenarioRelativeRoadPositionToMaliputRoadPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" href="../../maliput/html/structmaliput_1_1api_1_1_road_position.html">maliput::api::RoadPosition</a> OpenScenarioRelativeRoadPositionToMaliputRoadPosition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1_road_geometry_1_1_open_scenario_road_position.html">OpenScenarioRoadPosition</a> &amp;&#160;</td>
+          <td class="paramname"><em>xodr_reference_road_position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>xodr_ds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>xodr_dt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts an OpenScenario RelativeRoadPosition to a maliput RoadPosition. </p>
+<p>See <a href="https://publications.pages.asam.net/standards/ASAM_OpenSCENARIO/ASAM_OpenSCENARIO_XML/latest/generated/content/RelativeRoadPosition.html">https://publications.pages.asam.net/standards/ASAM_OpenSCENARIO/ASAM_OpenSCENARIO_XML/latest/generated/content/RelativeRoadPosition.html</a></p>
+<p>When xodr_ds makes xodr_s to be out of bounds of the road, the calculation continues with the connecting road. This make sense when only having a single connecting road (road successor in the xodr). When having multiple connecting roads, the calculation will arbitrarily choose one of the connecting roads. (Default branch via maliput api). This might need to change in the future as we probably want to have a more deterministic behavior that could reflect the expecting routing of the vehicle acting as reference. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xodr_reference_road_position</td><td>The OpenScenario RoadPosition used as reference. </td></tr>
+    <tr><td class="paramname">xodr_ds</td><td>The offset along the road's reference line relative to the s-coordinate of the reference. </td></tr>
+    <tr><td class="paramname">xodr_dt</td><td>The offset orthogonal to the road's reference line relative to the t-coordinate of the reference.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A maliput RoadPosition. </dd></dl>
+
+</div>
+</div>
+<a id="a696a672ef7ed2e2cf514609dc4d795f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a696a672ef7ed2e2cf514609dc4d795f1">&#9670;&nbsp;</a></span>OpenScenarioRoadPositionToMaliputRoadPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" href="../../maliput/html/structmaliput_1_1api_1_1_road_position.html">maliput::api::RoadPosition</a> OpenScenarioRoadPositionToMaliputRoadPosition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1_road_geometry_1_1_open_scenario_road_position.html">OpenScenarioRoadPosition</a> &amp;&#160;</td>
+          <td class="paramname"><em>xodr_road_position</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts an OpenScenario RoadPosition to a maliput RoadPosition. </p>
+<p>See <a href="https://publications.pages.asam.net/standards/ASAM_OpenSCENARIO/ASAM_OpenSCENARIO_XML/latest/generated/content/RoadPosition.html">https://publications.pages.asam.net/standards/ASAM_OpenSCENARIO/ASAM_OpenSCENARIO_XML/latest/generated/content/RoadPosition.html</a></p>
+<dl class="section return"><dt>Returns</dt><dd>A maliput RoadPosition. </dd></dl>
 
 </div>
 </div>

@@ -4,6 +4,7 @@ var classmaliput_1_1api_1_1_road_geometry =
     [ "~RoadGeometry", "classmaliput_1_1api_1_1_road_geometry.html#ad8e80ff050208966d8e422eeb479a018", null ],
     [ "RoadGeometry", "classmaliput_1_1api_1_1_road_geometry.html#a78af9b4d6ccb429d4d75ebd22b3e6493", null ],
     [ "angular_tolerance", "classmaliput_1_1api_1_1_road_geometry.html#ad9c440958f590bf4be8c2d00f0280086", null ],
+    [ "BackendCustomCommand", "classmaliput_1_1api_1_1_road_geometry.html#ac63ceda08c3e5873ac70f3699f605ce3", null ],
     [ "branch_point", "classmaliput_1_1api_1_1_road_geometry.html#a6c2cb8b4626d0d5d021b58422e2f96d8", null ],
     [ "ById", "classmaliput_1_1api_1_1_road_geometry.html#a40b5e7f0695bb498b4fccfaac6164d6b", null ],
     [ "CheckInvariants", "classmaliput_1_1api_1_1_road_geometry.html#a5063335837b3825eb592bd88229d27a9", null ],

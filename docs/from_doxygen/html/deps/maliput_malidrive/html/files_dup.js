@@ -151,9 +151,11 @@ var files_dup =
     [ "road_curve_offset.h", "road__curve__offset_8h.html", [
       [ "RoadCurveOffset", "classmalidrive_1_1road__curve_1_1_road_curve_offset.html", "classmalidrive_1_1road__curve_1_1_road_curve_offset" ]
     ] ],
-    [ "road_geometry.cc", "road__geometry_8cc.html", null ],
+    [ "road_geometry.cc", "road__geometry_8cc.html", "road__geometry_8cc" ],
     [ "road_geometry.h", "road__geometry_8h.html", [
-      [ "RoadGeometry", "classmalidrive_1_1_road_geometry.html", "classmalidrive_1_1_road_geometry" ]
+      [ "RoadGeometry", "classmalidrive_1_1_road_geometry.html", "classmalidrive_1_1_road_geometry" ],
+      [ "OpenScenarioLanePosition", "structmalidrive_1_1_road_geometry_1_1_open_scenario_lane_position.html", "structmalidrive_1_1_road_geometry_1_1_open_scenario_lane_position" ],
+      [ "OpenScenarioRoadPosition", "structmalidrive_1_1_road_geometry_1_1_open_scenario_road_position.html", "structmalidrive_1_1_road_geometry_1_1_open_scenario_road_position" ]
     ] ],
     [ "road_geometry_builder.cc", "road__geometry__builder_8cc.html", null ],
     [ "road_geometry_builder.h", "road__geometry__builder_8h.html", [

@@ -45,6 +45,8 @@ var hierarchy =
     [ "LaneLink::LinkAttributes", "structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html", null ],
     [ "RoadLink::LinkAttributes", "structmalidrive_1_1xodr_1_1_road_link_1_1_link_attributes.html", null ],
     [ "MalidriveXodrLaneProperties", "structmalidrive_1_1builder_1_1_malidrive_xodr_lane_properties.html", null ],
+    [ "RoadGeometry::OpenScenarioLanePosition", "structmalidrive_1_1_road_geometry_1_1_open_scenario_lane_position.html", null ],
+    [ "RoadGeometry::OpenScenarioRoadPosition", "structmalidrive_1_1_road_geometry_1_1_open_scenario_road_position.html", null ],
     [ "ParserBase", "classmalidrive_1_1xodr_1_1_parser_base.html", [
       [ "AttributeParser", "classmalidrive_1_1xodr_1_1_attribute_parser.html", null ],
       [ "NodeParser", "classmalidrive_1_1xodr_1_1_node_parser.html", null ]

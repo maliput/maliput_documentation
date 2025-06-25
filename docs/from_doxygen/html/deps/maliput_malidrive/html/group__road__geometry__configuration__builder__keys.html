@@ -135,6 +135,9 @@ Variables</h2></td></tr>
 <tr class="memitem:ga391ad474e33cffa6544ace890d2e340f"><td class="memItemLeft" align="right" valign="top">static constexpr char const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__road__geometry__configuration__builder__keys.html#ga391ad474e33cffa6544ace890d2e340f">kOmitNonDrivableLanes</a> {&quot;omit_nondrivable_lanes&quot;}</td></tr>
 <tr class="memdesc:ga391ad474e33cffa6544ace890d2e340f"><td class="mdescLeft">&#160;</td><td class="mdescRight">True for omitting building non-drivable lanes.  <a href="group__road__geometry__configuration__builder__keys.html#ga391ad474e33cffa6544ace890d2e340f">More...</a><br /></td></tr>
 <tr class="separator:ga391ad474e33cffa6544ace890d2e340f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6d45705a79beda6a1d1fae703a7f4586"><td class="memItemLeft" align="right" valign="top">static constexpr char const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__road__geometry__configuration__builder__keys.html#ga6d45705a79beda6a1d1fae703a7f4586">kIntegratorAccuracyMultiplier</a> {&quot;integrator_accuracy_multiplier&quot;}</td></tr>
+<tr class="memdesc:ga6d45705a79beda6a1d1fae703a7f4586"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifier for the accuracy of the integrator used to build each RoadCurve in the <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a>.  <a href="group__road__geometry__configuration__builder__keys.html#ga6d45705a79beda6a1d1fae703a7f4586">More...</a><br /></td></tr>
+<tr class="separator:ga6d45705a79beda6a1d1fae703a7f4586"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="ga0e97f7f471a134224c1ce20a25da877d"></a>
@@ -219,6 +222,34 @@ Variables</h2></td></tr>
 <p>Translation from maliput to malidrive inertial frame. </p>
 <p>The format of the 3-dimensional vector that is expected to be passed should be {X , Y , Z}. Same format as <a class="elRef" href="../../maliput/html/classmaliput_1_1math_1_1_vector3.html">maliput::math::Vector3</a> is serialized.</p><ul>
 <li>Default: <em>"{0., 0., 0.}"</em> </li>
+</ul>
+
+</div>
+</div>
+<a id="ga6d45705a79beda6a1d1fae703a7f4586"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6d45705a79beda6a1d1fae703a7f4586">&#9670;&nbsp;</a></span>kIntegratorAccuracyMultiplier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr char const* kIntegratorAccuracyMultiplier {&quot;integrator_accuracy_multiplier&quot;}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Modifier for the accuracy of the integrator used to build each RoadCurve in the <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a>. </p>
+<p>This multiplier is expected to be used to increase the accuracy of the integrator in maps where its highly curved or has a lot of detail just in case the underlying heuristics of the integrator are not enough. It should be used with care, as it can lead to performance issues if set too high.</p>
+<p>The closer to zero, the more accurate the integrator will be. The default value is 1.0, which means that the integrator will use its default accuracy.</p><ul>
+<li>Default: <em>"1.0"</em> </li>
 </ul>
 
 </div>
@@ -483,7 +514,9 @@ Variables</h2></td></tr>
 <li>3. <em>"allow_semantic_errors"</em> : Allow semantic errors.<ul>
 <li>1. At a XODR level it allows having non reciprocal Road-linkage and Lane-linkage within a Road.</li>
 <li>2. Allows having lane width descriptions that are negative in certain range.</li>
-<li>3. Disables G1 contiguity checks for non-drivable lanes. (G1 contiguity check on drivable lanes can't be disabled.)</li>
+<li>3. Disables G1 contiguity checks for non-drivable lanes. (G1 contiguity check on drivable lanes can't be disabled, except for the case described below.)</li>
+<li>4. Adapts C1 discontinuities on piecewise-defined lane widths (only applying to driveable lanes) to meet the continuity constraints.</li>
+<li>5. Allows C1 discontinuities on piecewise-defined lane offset descriptions. In some scenarios, xodr lane offsets definitions are discontinuous, and yet the final road surface is continuous: This is not forbidden by the OpenDRIVE specification. It is up to the user to ensure that the connecting roads form a contiguous surface. See <code>maliput::API::RoadGeometry::CheckInvariants</code> method.</li>
 </ul>
 </li>
 <li>4. <em>"permissive"</em>: Allow all previous violations.</li>

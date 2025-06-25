@@ -461,6 +461,85 @@
     <filename>maliput__query__app_8md.html</filename>
   </compound>
   <compound kind="file">
+    <name>maliput_to_dot.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration/src/applications/</path>
+    <filename>maliput__to__dot_8cc.html</filename>
+    <includes id="tools_8h" name="tools.h" local="yes" imported="no">integration/tools.h</includes>
+    <includes id="maliput__gflags_8h" name="maliput_gflags.h" local="yes" imported="no">maliput_gflags.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::integration</namespace>
+    <member kind="function">
+      <type></type>
+      <name>COMMON_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__to__dot_8cc.html</anchorfile>
+      <anchor>a687212d4f3d028a13dd49dde8bef4bfb</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MULTILANE_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__to__dot_8cc.html</anchorfile>
+      <anchor>a5fb948470c06be1e929407cbdc062b5c</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>DRAGWAY_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__to__dot_8cc.html</anchorfile>
+      <anchor>aa95edccf257afd4f29f9f8744fcd2083</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MALIDRIVE_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__to__dot_8cc.html</anchorfile>
+      <anchor>abbeda97de754ea81e05b3d0e463a83f6</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_OSM_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__to__dot_8cc.html</anchorfile>
+      <anchor>ac6b9499f0a9ff27db4d8008c8dd16be2</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_APPLICATION_DEFINE_LOG_LEVEL_FLAG</name>
+      <anchorfile>maliput__to__dot_8cc.html</anchorfile>
+      <anchor>a279f8265bbb629f711000ea1f804572d</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>DEFINE_string</name>
+      <anchorfile>maliput__to__dot_8cc.html</anchorfile>
+      <anchor>a01a104ee863078ef2ce2837bae17e575</anchor>
+      <arglist>(maliput_backend, &quot;dragway&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt; or &lt;malidrive&gt;. Default is dragway.&quot;)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>DEFINE_string</name>
+      <anchorfile>maliput__to__dot_8cc.html</anchorfile>
+      <anchor>ab2ed457468dda8aaa842815d478cf026</anchor>
+      <arglist>(dot_dir_path, &quot;.&quot;, &quot;Directory to contain DOT file.&quot;)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>DEFINE_string</name>
+      <anchorfile>maliput__to__dot_8cc.html</anchorfile>
+      <anchor>a3b655c492c50da8e2f6d856072a5803e</anchor>
+      <arglist>(dot_file_name, &quot;maliput_graph.dot&quot;, &quot;Name of the maliput::routing::graph::Graph DOT file.&quot;)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>main</name>
+      <anchorfile>maliput__to__dot_8cc.html</anchorfile>
+      <anchor>a0ddf1224851353fc92bfbff6f499fa97</anchor>
+      <arglist>(int argc, char *argv[])</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>maliput_to_obj.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_integration/src/applications/</path>
     <filename>maliput__to__obj_8cc.html</filename>
@@ -593,6 +672,20 @@
       <anchorfile>maliput__to__obj_8cc.html</anchorfile>
       <anchor>ac0fabc9080bf942a3ef253dbd6f3a6bc</anchor>
       <arglist>(draw_lane_haze, maliput::utility::ObjFeatures().draw_lane_haze, &quot;Whether to draw the highlighting swath with boundaries of each lane&quot;)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>DEFINE_bool</name>
+      <anchorfile>maliput__to__obj_8cc.html</anchorfile>
+      <anchor>a759e1546dac8a5feddc17d794cf247b4</anchor>
+      <arglist>(off_grid_mesh_generation, maliput::utility::ObjFeatures().off_grid_mesh_generation, &quot;Whether to reduce the amount of vertices from the road by creating &quot; &quot;quads big enough which don&apos;t violate some tolerance. This could &quot; &quot;affect the accuracy of curved roads.&quot;)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>GetUsageMessage</name>
+      <anchorfile>namespacemaliput_1_1integration.html</anchorfile>
+      <anchor>af06a15fb74ad64cfa014dd4fa8e6a1d7</anchor>
+      <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>int</type>
@@ -1233,6 +1326,13 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
+      <type>double</type>
+      <name>integrator_accuracy_multiplier</name>
+      <anchorfile>structmaliput_1_1integration_1_1_malidrive_build_properties.html</anchorfile>
+      <anchor>a40426cfc4ed73940cb62a90b4f84aeb0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
       <type>std::string</type>
       <name>rule_registry_file</name>
       <anchorfile>structmaliput_1_1integration_1_1_malidrive_build_properties.html</anchorfile>
@@ -1420,6 +1520,13 @@
       <enumvalue file="namespacemaliput_1_1integration.html" anchor="a78ee0565a11069e8c15b544bb43dd841a93a6717df2fc5fb5a3fd2f5ff99ab8de">kDragway</enumvalue>
       <enumvalue file="namespacemaliput_1_1integration.html" anchor="a78ee0565a11069e8c15b544bb43dd841af07fc794fa3b63102404f98850c55570">kMultilane</enumvalue>
       <enumvalue file="namespacemaliput_1_1integration.html" anchor="a78ee0565a11069e8c15b544bb43dd841a2bf92d22da9e8a764d4b99174bd4a53a">kOsm</enumvalue>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>GetUsageMessage</name>
+      <anchorfile>namespacemaliput_1_1integration.html</anchorfile>
+      <anchor>af06a15fb74ad64cfa014dd4fa8e6a1d7</anchor>
+      <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; DynamicEnvironmentHandler &gt;</type>
