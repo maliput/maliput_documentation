@@ -119,8 +119,8 @@
       <type>std::string</type>
       <name>GetDirectionUsageRuleStateType</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>a4aeae76f49ca795b5016fa8378789fd3</anchor>
-      <arglist>(const Lane *lane)</arglist>
+      <anchor>a83f92af25b6b999202b2da6403ad44a8</anchor>
+      <arglist>(const xodr::RoadHeader &amp;xodr_road, const xodr::Lane &amp;xodr_lane)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; rules::XodrSpeedProperties &gt;</type>
@@ -276,8 +276,8 @@
       <type>std::string</type>
       <name>GetDirectionUsageRuleStateType</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>a4aeae76f49ca795b5016fa8378789fd3</anchor>
-      <arglist>(const Lane *lane)</arglist>
+      <anchor>a83f92af25b6b999202b2da6403ad44a8</anchor>
+      <arglist>(const xodr::RoadHeader &amp;xodr_road, const xodr::Lane &amp;xodr_lane)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; rules::XodrSpeedProperties &gt;</type>
@@ -4814,13 +4814,6 @@
       <arglist>()=delete</arglist>
     </member>
     <member kind="function">
-      <type></type>
-      <name>LaneTravelDirection</name>
-      <anchorfile>classmalidrive_1_1builder_1_1_lane_travel_direction.html</anchorfile>
-      <anchor>a7f9c6fd2b144fc2f7dc4c4b9deb6574e</anchor>
-      <arglist>(const std::optional&lt; std::string &gt; &amp;user_data)</arglist>
-    </member>
-    <member kind="function">
       <type>Direction</type>
       <name>GetXodrTravelDir</name>
       <anchorfile>classmalidrive_1_1builder_1_1_lane_travel_direction.html</anchorfile>
@@ -4833,6 +4826,27 @@
       <anchorfile>classmalidrive_1_1builder_1_1_lane_travel_direction.html</anchorfile>
       <anchor>ad4a50952ccaee54fe6eecea9caca6142</anchor>
       <arglist>() const</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static LaneTravelDirection</type>
+      <name>FromUserData</name>
+      <anchorfile>classmalidrive_1_1builder_1_1_lane_travel_direction.html</anchorfile>
+      <anchor>af707b9acb1f017870fe1f506a2d16060</anchor>
+      <arglist>(const std::optional&lt; std::string &gt; &amp;user_data)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static LaneTravelDirection</type>
+      <name>FromLaneGroupDirection</name>
+      <anchorfile>classmalidrive_1_1builder_1_1_lane_travel_direction.html</anchorfile>
+      <anchor>a2b3415e4040835157447220fb392acde</anchor>
+      <arglist>(int lane_id, const xodr::Lane::Direction &amp;hand_traffic_rule_direction, const std::optional&lt; xodr::RoadHeader::HandTrafficRule &gt; &amp;hand_traffic_rule)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static LaneTravelDirection</type>
+      <name>FromHandTrafficRule</name>
+      <anchorfile>classmalidrive_1_1builder_1_1_lane_travel_direction.html</anchorfile>
+      <anchor>adbb75eaea04581f9079c7ce22f9e04f2</anchor>
+      <arglist>(int lane_id, const std::optional&lt; xodr::RoadHeader::HandTrafficRule &gt; &amp;hand_traffic_rule)</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -7713,8 +7727,8 @@
       <type>std::string</type>
       <name>GetDirectionUsageRuleStateType</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>a4aeae76f49ca795b5016fa8378789fd3</anchor>
-      <arglist>(const Lane *lane)</arglist>
+      <anchor>a83f92af25b6b999202b2da6403ad44a8</anchor>
+      <arglist>(const xodr::RoadHeader &amp;xodr_road, const xodr::Lane &amp;xodr_lane)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; rules::XodrSpeedProperties &gt;</type>

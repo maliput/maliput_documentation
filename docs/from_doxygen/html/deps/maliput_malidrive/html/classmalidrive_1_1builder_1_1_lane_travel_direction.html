@@ -91,17 +91,15 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1builder_1_1_lane_tra
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classmalidrive_1_1builder_1_1_lane_travel_direction-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">LaneTravelDirection Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Hold the travel direction of a lane obtained from parsing a userData XML node. </p>
-<p>An userData node example: </p><div class="fragment"><div class="line">&lt;<span class="keywordtype">userData</span>&gt;</div>
-<div class="line">    &lt;<span class="keywordtype">vectorLane</span> <span class="keyword">travelDir</span>=<span class="stringliteral">&quot;undirected&quot;</span>/&gt;</div>
-<div class="line">&lt;/<span class="keywordtype">userData</span>&gt;</div>
-</div><!-- fragment --> </div>
+<div class="textblock"><p>Hold the travel direction of a lane from parsing an XML node. </p>
+</div>
 <p><code>#include &lt;src/maliput_malidrive/builder/builder_tools.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -122,14 +120,23 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a652dc3b39e45dc7d33670ab2f28a1857"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html#a652dc3b39e45dc7d33670ab2f28a1857">LaneTravelDirection</a> ()=delete</td></tr>
 <tr class="separator:a652dc3b39e45dc7d33670ab2f28a1857"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f9c6fd2b144fc2f7dc4c4b9deb6574e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html#a7f9c6fd2b144fc2f7dc4c4b9deb6574e">LaneTravelDirection</a> (const std::optional&lt; std::string &gt; &amp;user_data)</td></tr>
-<tr class="memdesc:a7f9c6fd2b144fc2f7dc4c4b9deb6574e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html" title="Hold the travel direction of a lane obtained from parsing a userData XML node.">LaneTravelDirection</a>.  <a href="classmalidrive_1_1builder_1_1_lane_travel_direction.html#a7f9c6fd2b144fc2f7dc4c4b9deb6574e">More...</a><br /></td></tr>
-<tr class="separator:a7f9c6fd2b144fc2f7dc4c4b9deb6574e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01baa252c8dad6269e8835d03e301a97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html#a01baa252c8dad6269e8835d03e301a97">GetXodrTravelDir</a> () const</td></tr>
 <tr class="separator:a01baa252c8dad6269e8835d03e301a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4a50952ccaee54fe6eecea9caca6142"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html#ad4a50952ccaee54fe6eecea9caca6142">GetMaliputTravelDir</a> () const</td></tr>
 <tr class="memdesc:ad4a50952ccaee54fe6eecea9caca6142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matches the travel direction with Maliput's standard.  <a href="classmalidrive_1_1builder_1_1_lane_travel_direction.html#ad4a50952ccaee54fe6eecea9caca6142">More...</a><br /></td></tr>
 <tr class="separator:ad4a50952ccaee54fe6eecea9caca6142"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:af707b9acb1f017870fe1f506a2d16060"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html">LaneTravelDirection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html#af707b9acb1f017870fe1f506a2d16060">FromUserData</a> (const std::optional&lt; std::string &gt; &amp;user_data)</td></tr>
+<tr class="memdesc:af707b9acb1f017870fe1f506a2d16060"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html" title="Hold the travel direction of a lane from parsing an XML node.">LaneTravelDirection</a> from userData.  <a href="classmalidrive_1_1builder_1_1_lane_travel_direction.html#af707b9acb1f017870fe1f506a2d16060">More...</a><br /></td></tr>
+<tr class="separator:af707b9acb1f017870fe1f506a2d16060"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b3415e4040835157447220fb392acde"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html">LaneTravelDirection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html#a2b3415e4040835157447220fb392acde">FromLaneGroupDirection</a> (int lane_id, const <a class="el" href="structmalidrive_1_1xodr_1_1_lane.html#a224b9163917ac32fc95a60d8c1eec3aa">xodr::Lane::Direction</a> &amp;hand_traffic_rule_direction, const std::optional&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#af39250dde5c526ec4dbe00180239202e">xodr::RoadHeader::HandTrafficRule</a> &gt; &amp;hand_traffic_rule)</td></tr>
+<tr class="memdesc:a2b3415e4040835157447220fb392acde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html" title="Hold the travel direction of a lane from parsing an XML node.">LaneTravelDirection</a> from a specific lane direction.  <a href="classmalidrive_1_1builder_1_1_lane_travel_direction.html#a2b3415e4040835157447220fb392acde">More...</a><br /></td></tr>
+<tr class="separator:a2b3415e4040835157447220fb392acde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbb75eaea04581f9079c7ce22f9e04f2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html">LaneTravelDirection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html#adbb75eaea04581f9079c7ce22f9e04f2">FromHandTrafficRule</a> (int lane_id, const std::optional&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#af39250dde5c526ec4dbe00180239202e">xodr::RoadHeader::HandTrafficRule</a> &gt; &amp;hand_traffic_rule)</td></tr>
+<tr class="memdesc:adbb75eaea04581f9079c7ce22f9e04f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html" title="Hold the travel direction of a lane from parsing an XML node.">LaneTravelDirection</a> from a hand traffic rule.  <a href="classmalidrive_1_1builder_1_1_lane_travel_direction.html#adbb75eaea04581f9079c7ce22f9e04f2">More...</a><br /></td></tr>
+<tr class="separator:adbb75eaea04581f9079c7ce22f9e04f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a224b9163917ac32fc95a60d8c1eec3aa"></a>
@@ -166,7 +173,7 @@ Public Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a652dc3b39e45dc7d33670ab2f28a1857"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a652dc3b39e45dc7d33670ab2f28a1857">&#9670;&nbsp;</a></span>LaneTravelDirection() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a652dc3b39e45dc7d33670ab2f28a1857">&#9670;&nbsp;</a></span>LaneTravelDirection()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -190,8 +197,9 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7f9c6fd2b144fc2f7dc4c4b9deb6574e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f9c6fd2b144fc2f7dc4c4b9deb6574e">&#9670;&nbsp;</a></span>LaneTravelDirection() <span class="overload">[2/2]</span></h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="adbb75eaea04581f9079c7ce22f9e04f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbb75eaea04581f9079c7ce22f9e04f2">&#9670;&nbsp;</a></span>FromHandTrafficRule()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -200,7 +208,112 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html">LaneTravelDirection</a> </td>
+          <td class="memname"><a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html">LaneTravelDirection</a> FromHandTrafficRule </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lane_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::optional&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#af39250dde5c526ec4dbe00180239202e">xodr::RoadHeader::HandTrafficRule</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>hand_traffic_rule</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs a <a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html" title="Hold the travel direction of a lane from parsing an XML node.">LaneTravelDirection</a> from a hand traffic rule. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lane_id</td><td>The ID of the lane to obtain the direction from. </td></tr>
+    <tr><td class="paramname">hand_traffic_rule</td><td>Contains a rule parameter that holds information about the direction of lanes in a road. A road node example: <div class="fragment"><div class="line">&lt;<span class="keywordtype">road</span> <span class="keyword">name</span>=<span class="stringliteral">&quot;Road 0&quot;</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;0&quot;</span> <span class="keyword">rule</span>=<span class="stringliteral">&quot;RHT|LHT&quot;</span>&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">lanes</span>/&gt;</div>
+<div class="line">&lt;/<span class="keywordtype">road</span>&gt;</div>
+</div><!-- fragment --> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html" title="Hold the travel direction of a lane from parsing an XML node.">LaneTravelDirection</a>. </dd></dl>
+
+</div>
+</div>
+<a id="a2b3415e4040835157447220fb392acde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b3415e4040835157447220fb392acde">&#9670;&nbsp;</a></span>FromLaneGroupDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html">LaneTravelDirection</a> FromLaneGroupDirection </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lane_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1xodr_1_1_lane.html#a224b9163917ac32fc95a60d8c1eec3aa">xodr::Lane::Direction</a> &amp;&#160;</td>
+          <td class="paramname"><em>hand_traffic_rule_direction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::optional&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#af39250dde5c526ec4dbe00180239202e">xodr::RoadHeader::HandTrafficRule</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>hand_traffic_rule</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs a <a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html" title="Hold the travel direction of a lane from parsing an XML node.">LaneTravelDirection</a> from a specific lane direction. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lane_id</td><td>The ID of the lane to obtain the direction from. </td></tr>
+    <tr><td class="paramname">hand_traffic_rule_direction</td><td>Direction for the lane. </td></tr>
+    <tr><td class="paramname">hand_traffic_rule</td><td>Contains a rule parameter that holds information about the direction of lanes in a road. A lane node example: <div class="fragment"><div class="line">&lt;<span class="keywordtype">lane</span> <span class="keyword">id</span>=<span class="stringliteral">&quot;1&quot;</span> <span class="keyword">type</span>=<span class="stringliteral">&quot;driving&quot;</span> <span class="keyword">level</span>=<span class="stringliteral">&quot;false&quot;</span> <span class="keyword">direction</span>=<span class="stringliteral">&quot;standard|reversed|both&quot;</span>&gt;</div>
+<div class="line">  &lt;<span class="keywordtype">width</span>/&gt;</div>
+<div class="line">&lt;/<span class="keywordtype">lane</span>&gt;</div>
+</div><!-- fragment --> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html" title="Hold the travel direction of a lane from parsing an XML node.">LaneTravelDirection</a>. </dd></dl>
+
+</div>
+</div>
+<a id="af707b9acb1f017870fe1f506a2d16060"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af707b9acb1f017870fe1f506a2d16060">&#9670;&nbsp;</a></span>FromUserData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html">LaneTravelDirection</a> FromUserData </td>
           <td>(</td>
           <td class="paramtype">const std::optional&lt; std::string &gt; &amp;&#160;</td>
           <td class="paramname"><em>user_data</em></td><td>)</td>
@@ -209,28 +322,25 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructs a <a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html" title="Hold the travel direction of a lane obtained from parsing a userData XML node.">LaneTravelDirection</a>. </p>
+<p>Constructs a <a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html" title="Hold the travel direction of a lane from parsing an XML node.">LaneTravelDirection</a> from userData. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">user_data</td><td>Contains a UserData XMLNode that holds information about the direction of the lane. </td></tr>
+    <tr><td class="paramname">user_data</td><td>Contains a UserData XMLNode that holds information about the direction of the lane. An userData node example: <div class="fragment"><div class="line">&lt;<span class="keywordtype">userData</span>&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">vectorLane</span> <span class="keyword">travelDir</span>=<span class="stringliteral">&quot;undirected&quot;</span>/&gt;</div>
+<div class="line">&lt;/<span class="keywordtype">userData</span>&gt;</div>
+</div><!-- fragment --> </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When the travel direction information is not compatible. </td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html" title="Hold the travel direction of a lane from parsing an XML node.">LaneTravelDirection</a>. </dd></dl>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad4a50952ccaee54fe6eecea9caca6142"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad4a50952ccaee54fe6eecea9caca6142">&#9670;&nbsp;</a></span>GetMaliputTravelDir()</h2>
 
@@ -266,7 +376,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>The direction of the lane describend in the userData XML node. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The direction of the lane describend in the XML node. </dd></dl>
 
 </div>
 </div>

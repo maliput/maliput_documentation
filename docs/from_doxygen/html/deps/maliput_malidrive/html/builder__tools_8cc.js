@@ -2,7 +2,7 @@ var builder__tools_8cc =
 [
     [ "AreOnlyNonDrivableLanes", "builder__tools_8cc.html#aaec81bc2cb08e554776479cc0254cc58", null ],
     [ "FindLocalMinFromCubicPol", "builder__tools_8cc.html#a744c0ebef658f17b42e0893685c9d014", null ],
-    [ "GetDirectionUsageRuleStateType", "builder__tools_8cc.html#a4aeae76f49ca795b5016fa8378789fd3", null ],
+    [ "GetDirectionUsageRuleStateType", "builder__tools_8cc.html#a83f92af25b6b999202b2da6403ad44a8", null ],
     [ "GetLaneSpeedProperties", "builder__tools_8cc.html#aea40335a4d1e13fb8fd8225d49a5cac8", null ],
     [ "GetMaxSpeedLimitFor", "builder__tools_8cc.html#a7a5b324e2c515e74cb76db55ecaaf994", null ],
     [ "GetRoadTypeSpeedPropertiesInRange", "builder__tools_8cc.html#ada89e14d3d9dc0c6ea2c21179dc99e88", null ],

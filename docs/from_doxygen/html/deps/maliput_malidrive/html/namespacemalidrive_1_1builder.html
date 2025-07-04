@@ -118,7 +118,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functor to build a DiscreteValueRuleStateProvider.  <a href="classmalidrive_1_1builder_1_1_discrete_value_rule_state_provider_builder.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_lane_travel_direction.html">LaneTravelDirection</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hold the travel direction of a lane obtained from parsing a userData XML node.  <a href="classmalidrive_1_1builder_1_1_lane_travel_direction.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hold the travel direction of a lane from parsing an XML node.  <a href="classmalidrive_1_1builder_1_1_lane_travel_direction.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_malidrive_xodr_lane_properties.html">MalidriveXodrLaneProperties</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds useful XODR <a class="el" href="classmalidrive_1_1_lane.html" title="Describes a Lane whose centerline is a offset of a road_curve::RoadCurve at a certain lane offset whi...">Lane</a> properties.  <a href="structmalidrive_1_1builder_1_1_malidrive_xodr_lane_properties.html#details">More...</a><br /></td></tr>
@@ -204,8 +204,8 @@ Functions</h2></td></tr>
 <tr class="separator:a261dbba86373bcee9d3d6c8c46fcd80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a8aeb9dc7bf980baa67c6ff1a37c3ee"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structmalidrive_1_1xodr_1_1_lane.html">xodr::Lane</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#a5a8aeb9dc7bf980baa67c6ff1a37c3ee">GetXodrLaneFromMalidriveLane</a> (const <a class="el" href="classmalidrive_1_1_lane.html">Lane</a> *<a class="elRef" href="../../maliput/html/generate__string_8cc.html#ac1592f838ecdc6da89b4d8d2bc12c130">lane</a>)</td></tr>
 <tr class="separator:a5a8aeb9dc7bf980baa67c6ff1a37c3ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4aeae76f49ca795b5016fa8378789fd3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#a4aeae76f49ca795b5016fa8378789fd3">GetDirectionUsageRuleStateType</a> (const <a class="el" href="classmalidrive_1_1_lane.html">Lane</a> *<a class="elRef" href="../../maliput/html/generate__string_8cc.html#ac1592f838ecdc6da89b4d8d2bc12c130">lane</a>)</td></tr>
-<tr class="separator:a4aeae76f49ca795b5016fa8378789fd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83f92af25b6b999202b2da6403ad44a8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#a83f92af25b6b999202b2da6403ad44a8">GetDirectionUsageRuleStateType</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html">xodr::RoadHeader</a> &amp;xodr_road, const <a class="el" href="structmalidrive_1_1xodr_1_1_lane.html">xodr::Lane</a> &amp;xodr_lane)</td></tr>
+<tr class="separator:a83f92af25b6b999202b2da6403ad44a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a5b324e2c515e74cb76db55ecaaf994"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structmalidrive_1_1builder_1_1rules_1_1_xodr_speed_properties.html">rules::XodrSpeedProperties</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#a7a5b324e2c515e74cb76db55ecaaf994">GetMaxSpeedLimitFor</a> (const <a class="el" href="classmalidrive_1_1_lane.html">Lane</a> *<a class="elRef" href="../../maliput/html/generate__string_8cc.html#ac1592f838ecdc6da89b4d8d2bc12c130">lane</a>)</td></tr>
 <tr class="separator:a7a5b324e2c515e74cb76db55ecaaf994"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd27b211238553bfcaddc566885470b0"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::string, std::optional&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#acd27b211238553bfcaddc566885470b0">VehicleUsageAndExclusiveRuleStateValues</a> (const <a class="el" href="classmalidrive_1_1_lane.html">Lane</a> *<a class="elRef" href="../../maliput/html/generate__string_8cc.html#ac1592f838ecdc6da89b4d8d2bc12c130">lane</a>)</td></tr>
@@ -574,8 +574,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4aeae76f49ca795b5016fa8378789fd3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4aeae76f49ca795b5016fa8378789fd3">&#9670;&nbsp;</a></span>GetDirectionUsageRuleStateType()</h2>
+<a id="a83f92af25b6b999202b2da6403ad44a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83f92af25b6b999202b2da6403ad44a8">&#9670;&nbsp;</a></span>GetDirectionUsageRuleStateType()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -583,22 +583,39 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">std::string GetDirectionUsageRuleStateType </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classmalidrive_1_1_lane.html">Lane</a> *&#160;</td>
-          <td class="paramname"><em>lane</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html">xodr::RoadHeader</a> &amp;&#160;</td>
+          <td class="paramname"><em>xodr_road</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1xodr_1_1_lane.html">xodr::Lane</a> &amp;&#160;</td>
+          <td class="paramname"><em>xodr_lane</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>The direction usage value of <code>lane</code>. It is one in the string set <code>{"AgainstS", "WithS", "Bidirectional", "Undefined"}</code>.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The direction usage value of the target lane. It is one in the string set <code>{"AgainstS", "WithS", "Bidirectional"}</code>. This method obtains the direction based on 3 different sources, in the priority detailed below:<ol type="1">
+<li>If the userData is set as part of the lane description, it takes precedence.</li>
+<li>If the lane has a direction attribute, the road::rule is used with the lane direction modifier.</li>
+<li>The road::rule determines the direction based on the lane ID and wheter it is set as RHT or LHT.</li>
+<li>If road::rule is not set, it is assumed as it was RHT.</li>
+</ol>
+</dd></dl>
+<p>See:</p><ul>
+<li><a href="https://publications.pages.asam.net/standards/ASAM_OpenDRIVE/ASAM_OpenDRIVE_Specification/latest/specification/07_additional_data/07_00_additional_data.html#_additional_user_data">UserData</a></li>
+<li><a href="https://publications.pages.asam.net/standards/ASAM_OpenDRIVE/ASAM_OpenDRIVE_Specification/latest/specification/11_lanes/11_02_lane_groups.html">LaneGroups</a></li>
+<li><a href="https://publications.pages.asam.net/standards/ASAM_OpenDRIVE/ASAM_OpenDRIVE_Specification/latest/specification/16_annexes/enumerations/map_uml_enumerations.html#top-EAID_BDEEA32B_3F22_4f2c_A327_04437D41CC3D">LaneDirection</a></li>
+<li><a href="https://publications.pages.asam.net/standards/ASAM_OpenDRIVE/ASAM_OpenDRIVE_Specification/latest/specification/10_roads/10_01_introduction.html">RoadRule</a></li>
+</ul>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">lane</td><td>The <a class="el" href="classmalidrive_1_1_lane.html" title="Describes a Lane whose centerline is a offset of a road_curve::RoadCurve at a certain lane offset whi...">Lane</a> to retrieve its direction usage. It must not be nullptr.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When lane is nullptr. </td></tr>
+    <tr><td class="paramname">xodr_road</td><td>The XODR RoadHeader that contains the lane. </td></tr>
+    <tr><td class="paramname">xodr_lane</td><td>The XODR <a class="el" href="classmalidrive_1_1_lane.html" title="Describes a Lane whose centerline is a offset of a road_curve::RoadCurve at a certain lane offset whi...">Lane</a> to obtain the direction usage value from. </td></tr>
   </table>
   </dd>
 </dl>
