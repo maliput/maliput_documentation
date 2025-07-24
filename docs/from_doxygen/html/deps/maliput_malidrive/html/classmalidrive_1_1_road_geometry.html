@@ -574,7 +574,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Converts an OpenScenario LanePosition to a maliput RoadPosition. </p>
-<p>See <a href="https://publications.pages.asam.net/standards/ASAM_OpenSCENARIO/ASAM_OpenSCENARIO_XML/latest/generated/content/LanePosition.html">https://publications.pages.asam.net/standards/ASAM_OpenSCENARIO/ASAM_OpenSCENARIO_XML/latest/generated/content/LanePosition.html</a></p>
+<p>OS LanePosition's s-coordinate must be within the lane's length, but its offset can extend beyond the lane's surface. See <a href="https://publications.pages.asam.net/standards/ASAM_OpenSCENARIO/ASAM_OpenSCENARIO_XML/latest/generated/content/LanePosition.html">https://publications.pages.asam.net/standards/ASAM_OpenSCENARIO/ASAM_OpenSCENARIO_XML/latest/generated/content/LanePosition.html</a></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">xodr_lane_position</td><td>The lane position to get the maliput road position from. </td></tr>
@@ -636,7 +636,7 @@ Additional Inherited Members</h2></td></tr>
     <tr><td class="paramname">xodr_reference_lane_position</td><td>The OpenScenario LanePosition used as reference. </td></tr>
     <tr><td class="paramname">d_lane</td><td>The lane offset relative to the lane the reference. </td></tr>
     <tr><td class="paramname">ds_lane</td><td>The offset along the center line of the lane, where the reference entity is located. </td></tr>
-    <tr><td class="paramname">offset</td><td>The lateral offset to the center line of the target lane (along the t-axis of the target lane center line).</td></tr>
+    <tr><td class="paramname">offset</td><td>The lateral offset to the center line of the target lane (along the t-axis of the target lane center line). Offset may extend beyond the lane's surface.</td></tr>
   </table>
   </dd>
 </dl>
