@@ -18,6 +18,7 @@ var hierarchy =
       [ "FunctionStub", "classmalidrive_1_1road__curve_1_1test_1_1_function_stub.html", null ]
     ] ],
     [ "Geometry", "structmalidrive_1_1xodr_1_1_geometry.html", null ],
+    [ "GeoReference", "structmalidrive_1_1xodr_1_1_geo_reference.html", null ],
     [ "GroundCurve", "classmalidrive_1_1road__curve_1_1_ground_curve.html", [
       [ "ArcGroundCurve", "classmalidrive_1_1road__curve_1_1_arc_ground_curve.html", null ],
       [ "LineGroundCurve", "classmalidrive_1_1road__curve_1_1_line_ground_curve.html", null ],
@@ -45,6 +46,7 @@ var hierarchy =
     [ "LaneLink::LinkAttributes", "structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html", null ],
     [ "RoadLink::LinkAttributes", "structmalidrive_1_1xodr_1_1_road_link_1_1_link_attributes.html", null ],
     [ "MalidriveXodrLaneProperties", "structmalidrive_1_1builder_1_1_malidrive_xodr_lane_properties.html", null ],
+    [ "Offset", "structmalidrive_1_1xodr_1_1_offset.html", null ],
     [ "RoadGeometry::OpenScenarioLanePosition", "structmalidrive_1_1_road_geometry_1_1_open_scenario_lane_position.html", null ],
     [ "RoadGeometry::OpenScenarioRoadPosition", "structmalidrive_1_1_road_geometry_1_1_open_scenario_road_position.html", null ],
     [ "ParserBase", "classmalidrive_1_1xodr_1_1_parser_base.html", [
@@ -82,8 +84,8 @@ var hierarchy =
         [ "Segment", "classmalidrive_1_1_segment.html", null ]
       ] ]
     ] ],
-    [ "Lane::Speed", "structmalidrive_1_1xodr_1_1_lane_1_1_speed.html", null ],
     [ "RoadType::Speed", "structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html", null ],
+    [ "Lane::Speed", "structmalidrive_1_1xodr_1_1_lane_1_1_speed.html", null ],
     [ "SpeedLimitBuilder", "classmalidrive_1_1builder_1_1_speed_limit_builder.html", null ],
     [ "Geometry::Spiral", "structmalidrive_1_1xodr_1_1_geometry_1_1_spiral.html", null ],
     [ "LateralProfile::Superelevation", "structmalidrive_1_1xodr_1_1_lateral_profile_1_1_superelevation.html", null ],

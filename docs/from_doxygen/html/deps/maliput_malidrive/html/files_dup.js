@@ -41,6 +41,8 @@ var files_dup =
     [ "function_stub.h", "function__stub_8h.html", [
       [ "FunctionStub", "classmalidrive_1_1road__curve_1_1test_1_1_function_stub.html", "classmalidrive_1_1road__curve_1_1test_1_1_function_stub" ]
     ] ],
+    [ "geo_reference.cc", "geo__reference_8cc.html", "geo__reference_8cc" ],
+    [ "geo_reference.h", "geo__reference_8h.html", "geo__reference_8h" ],
     [ "geometry.cc", "geometry_8cc.html", "geometry_8cc" ],
     [ "geometry.h", "geometry_8h.html", [
       [ "Geometry", "structmalidrive_1_1xodr_1_1_geometry.html", "structmalidrive_1_1xodr_1_1_geometry" ],
@@ -107,6 +109,8 @@ var files_dup =
     [ "loader.h", "loader_8h.html", "loader_8h" ],
     [ "log_level_flag.h", "log__level__flag_8h.html", "log__level__flag_8h" ],
     [ "macros.h", "macros_8h.html", "macros_8h" ],
+    [ "offset.cc", "offset_8cc.html", "offset_8cc" ],
+    [ "offset.h", "offset_8h.html", "offset_8h" ],
     [ "params.h", "params_8h.html", "params_8h" ],
     [ "parser.cc", "parser_8cc.html", "parser_8cc" ],
     [ "parser.h", "parser_8h.html", "parser_8h" ],

@@ -648,6 +648,36 @@
     <namespace>malidrive::road_curve::test</namespace>
   </compound>
   <compound kind="file">
+    <name>geo_reference.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/</path>
+    <filename>geo__reference_8cc.html</filename>
+    <includes id="geo__reference_8h" name="geo_reference.h" local="yes" imported="no">maliput_malidrive/xodr/geo_reference.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <member kind="function">
+      <type>std::ostream &amp;</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a906687844c5358034f96a6dccf9f4ae9</anchor>
+      <arglist>(std::ostream &amp;out, const GeoReference &amp;geo_reference)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>geo_reference.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/</path>
+    <filename>geo__reference_8h.html</filename>
+    <class kind="struct">malidrive::xodr::GeoReference</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <member kind="function">
+      <type>std::ostream &amp;</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a906687844c5358034f96a6dccf9f4ae9</anchor>
+      <arglist>(std::ostream &amp;out, const GeoReference &amp;geo_reference)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>geometry.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/</path>
     <filename>geometry_8cc.html</filename>
@@ -699,6 +729,8 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/</path>
     <filename>header_8cc.html</filename>
     <includes id="header_8h" name="header.h" local="yes" imported="no">maliput_malidrive/xodr/header.h</includes>
+    <includes id="geo__reference_8h" name="geo_reference.h" local="yes" imported="no">maliput_malidrive/xodr/geo_reference.h</includes>
+    <includes id="offset_8h" name="offset.h" local="yes" imported="no">maliput_malidrive/xodr/offset.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
     <member kind="function">
@@ -713,7 +745,9 @@
     <name>header.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/</path>
     <filename>header_8h.html</filename>
+    <includes id="geo__reference_8h" name="geo_reference.h" local="yes" imported="no">geo_reference.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <includes id="offset_8h" name="offset.h" local="yes" imported="no">offset.h</includes>
     <class kind="struct">malidrive::xodr::Header</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
@@ -1213,6 +1247,36 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>offset.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/</path>
+    <filename>offset_8cc.html</filename>
+    <includes id="offset_8h" name="offset.h" local="yes" imported="no">maliput_malidrive/xodr/offset.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <member kind="function">
+      <type>std::ostream &amp;</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a4a5a2a771b491994e9a4f942b2d6a5e8</anchor>
+      <arglist>(std::ostream &amp;out, const Offset &amp;offset)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>offset.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/</path>
+    <filename>offset_8h.html</filename>
+    <class kind="struct">malidrive::xodr::Offset</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <member kind="function">
+      <type>std::ostream &amp;</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a4a5a2a771b491994e9a4f942b2d6a5e8</anchor>
+      <arglist>(std::ostream &amp;out, const Offset &amp;offset)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>params.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/include/maliput_malidrive/builder/</path>
     <filename>params_8h.html</filename>
@@ -1353,6 +1417,7 @@
     <includes id="parser_8h" name="parser.h" local="yes" imported="no">maliput_malidrive/xodr/parser.h</includes>
     <includes id="connection_8h" name="connection.h" local="yes" imported="no">maliput_malidrive/xodr/connection.h</includes>
     <includes id="elevation__profile_8h" name="elevation_profile.h" local="yes" imported="no">maliput_malidrive/xodr/elevation_profile.h</includes>
+    <includes id="geo__reference_8h" name="geo_reference.h" local="yes" imported="no">maliput_malidrive/xodr/geo_reference.h</includes>
     <includes id="geometry_8h" name="geometry.h" local="yes" imported="no">maliput_malidrive/xodr/geometry.h</includes>
     <includes id="header_8h" name="header.h" local="yes" imported="no">maliput_malidrive/xodr/header.h</includes>
     <includes id="junction_8h" name="junction.h" local="yes" imported="no">maliput_malidrive/xodr/junction.h</includes>
@@ -1363,6 +1428,7 @@
     <includes id="lane__width_8h" name="lane_width.h" local="yes" imported="no">maliput_malidrive/xodr/lane_width.h</includes>
     <includes id="lanes_8h" name="lanes.h" local="yes" imported="no">maliput_malidrive/xodr/lanes.h</includes>
     <includes id="lateral__profile_8h" name="lateral_profile.h" local="yes" imported="no">maliput_malidrive/xodr/lateral_profile.h</includes>
+    <includes id="offset_8h" name="offset.h" local="yes" imported="no">maliput_malidrive/xodr/offset.h</includes>
     <includes id="plan__view_8h" name="plan_view.h" local="yes" imported="no">maliput_malidrive/xodr/plan_view.h</includes>
     <includes id="road__header_8h" name="road_header.h" local="yes" imported="no">maliput_malidrive/xodr/road_header.h</includes>
     <includes id="road__link_8h" name="road_link.h" local="yes" imported="no">maliput_malidrive/xodr/road_link.h</includes>
@@ -3614,6 +3680,38 @@
       <arglist>(std::ostream &amp;os, const Geometry &amp;geometry)</arglist>
     </member>
   </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::GeoReference</name>
+    <filename>structmalidrive_1_1xodr_1_1_geo_reference.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geo_reference.html</anchorfile>
+      <anchor>a7a4743a07b36ad1d909995e96c79beb7</anchor>
+      <arglist>(const GeoReference &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geo_reference.html</anchorfile>
+      <anchor>a7dedc62fca0d998342966a7ef82b2e69</anchor>
+      <arglist>(const GeoReference &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>projection_data</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geo_reference.html</anchorfile>
+      <anchor>a8623274883c78040ee05a39569abd3b9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kGeoReferenceTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geo_reference.html</anchorfile>
+      <anchor>a8fadcfc5382616764501b6257a8c6448</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
   <compound kind="class">
     <name>malidrive::road_curve::GroundCurve</name>
     <filename>classmalidrive_1_1road__curve_1_1_ground_curve.html</filename>
@@ -3827,6 +3925,20 @@
       <name>vendor</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_header.html</anchorfile>
       <anchor>a1983f88374f6b9b354b8358448cfccde</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; GeoReference &gt;</type>
+      <name>geo_reference</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_header.html</anchorfile>
+      <anchor>aec396fbe5cf7f066e867162a822935cf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; Offset &gt;</type>
+      <name>offset</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_header.html</anchorfile>
+      <anchor>a2ef4a0be22f3d0ddf4458e6dcb06818b</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
@@ -5220,11 +5332,92 @@
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>Header</type>
+      <type>GeoReference</type>
       <name>As</name>
       <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
       <anchor>a68e5744161272385d0e192aecf52344f</anchor>
       <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::Offset</name>
+    <filename>structmalidrive_1_1xodr_1_1_offset.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_offset.html</anchorfile>
+      <anchor>a7bb6afe4d98fa15c1b0c935bbf6e79af</anchor>
+      <arglist>(const Offset &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_offset.html</anchorfile>
+      <anchor>afb40afeb8a1a669f762dd9659ca04314</anchor>
+      <arglist>(const Offset &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>x</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_offset.html</anchorfile>
+      <anchor>af88b946fb90d5f08b5fb740c70e98c10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>y</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_offset.html</anchorfile>
+      <anchor>ab927965981178aa1fba979a37168db2a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>z</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_offset.html</anchorfile>
+      <anchor>ab3e6ed577a7c669c19de1f9c1b46c872</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>hdg</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_offset.html</anchorfile>
+      <anchor>afd02d7c0f5f2d1a43c56e57ab265dd0b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kOffsetTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_offset.html</anchorfile>
+      <anchor>a4b9be93c8659021e5fd58149413fc573</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kX</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_offset.html</anchorfile>
+      <anchor>a15d266fbd6252552bd8ad3e939e8dddd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kY</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_offset.html</anchorfile>
+      <anchor>ab85fade45aa8dca537d762cada17f359</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kZ</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_offset.html</anchorfile>
+      <anchor>ac9156217240f57587769e57913dd449d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kHeading</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_offset.html</anchorfile>
+      <anchor>a372d983ab9a89c27ae5784515f32e79c</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -7053,6 +7246,66 @@
     </member>
   </compound>
   <compound kind="struct">
+    <name>malidrive::xodr::RoadType::Speed</name>
+    <filename>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a5f45d342c063e4fbbbaa8fd2308cad8a</anchor>
+      <arglist>(const Speed &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a7732bb1227795b68ace924cf693cddd1</anchor>
+      <arglist>(const Speed &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>max</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>ab3a77d4ba4dbb0a69e77b738206e0ebe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Unit</type>
+      <name>unit</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>aaa0d61fcdf7a0b9f0f2b48c9946cbd10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kSpeedTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a06113c1eac1bbfe32139f18dd62a8d98</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kMax</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>ad5a44ed171cd965aa34aa3dda5711d83</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kUnit</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr std::array&lt; const char *, 2 &gt;</type>
+      <name>kUnlimitedSpeedStrings</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a2be0454dbef3ba795b56eb3fa40d36ed</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
     <name>malidrive::xodr::Lane::Speed</name>
     <filename>structmalidrive_1_1xodr_1_1_lane_1_1_speed.html</filename>
     <member kind="function">
@@ -7116,66 +7369,6 @@
       <name>kUnit</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_lane_1_1_speed.html</anchorfile>
       <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>malidrive::xodr::RoadType::Speed</name>
-    <filename>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</filename>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a5f45d342c063e4fbbbaa8fd2308cad8a</anchor>
-      <arglist>(const Speed &amp;other) const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator!=</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a7732bb1227795b68ace924cf693cddd1</anchor>
-      <arglist>(const Speed &amp;other) const</arglist>
-    </member>
-    <member kind="variable">
-      <type>std::optional&lt; double &gt;</type>
-      <name>max</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>ab3a77d4ba4dbb0a69e77b738206e0ebe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>Unit</type>
-      <name>unit</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>aaa0d61fcdf7a0b9f0f2b48c9946cbd10</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kSpeedTag</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a06113c1eac1bbfe32139f18dd62a8d98</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kMax</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>ad5a44ed171cd965aa34aa3dda5711d83</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kUnit</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr std::array&lt; const char *, 2 &gt;</type>
-      <name>kUnlimitedSpeedStrings</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a2be0454dbef3ba795b56eb3fa40d36ed</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -8229,6 +8422,7 @@
     <class kind="class">malidrive::xodr::DBManager</class>
     <class kind="struct">malidrive::xodr::ElevationProfile</class>
     <class kind="struct">malidrive::xodr::Geometry</class>
+    <class kind="struct">malidrive::xodr::GeoReference</class>
     <class kind="struct">malidrive::xodr::Header</class>
     <class kind="struct">malidrive::xodr::Junction</class>
     <class kind="struct">malidrive::xodr::Lane</class>
@@ -8239,6 +8433,7 @@
     <class kind="struct">malidrive::xodr::LaneWidth</class>
     <class kind="struct">malidrive::xodr::LateralProfile</class>
     <class kind="class">malidrive::xodr::NodeParser</class>
+    <class kind="struct">malidrive::xodr::Offset</class>
     <class kind="class">malidrive::xodr::ParserBase</class>
     <class kind="struct">malidrive::xodr::ParserConfiguration</class>
     <class kind="struct">malidrive::xodr::PlanView</class>
@@ -8274,6 +8469,13 @@
       <type>std::ostream &amp;</type>
       <name>operator&lt;&lt;</name>
       <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a906687844c5358034f96a6dccf9f4ae9</anchor>
+      <arglist>(std::ostream &amp;out, const GeoReference &amp;geo_reference)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::ostream &amp;</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
       <anchor>ad1002239d9e6fd02629bb5500278ed98</anchor>
       <arglist>(std::ostream &amp;os, const Geometry &amp;geometry)</arglist>
     </member>
@@ -8290,6 +8492,13 @@
       <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
       <anchor>af570e4ee8fc4c155cd347ea9a5f38cb2</anchor>
       <arglist>(std::ostream &amp;out, const Junction &amp;junction)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::ostream &amp;</type>
+      <name>operator&lt;&lt;</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a4a5a2a771b491994e9a4f942b2d6a5e8</anchor>
+      <arglist>(std::ostream &amp;out, const Offset &amp;offset)</arglist>
     </member>
     <member kind="function">
       <type>std::string</type>
