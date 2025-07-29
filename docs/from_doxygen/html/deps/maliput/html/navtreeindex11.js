@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"classmaliput_1_1math_1_1_vector4.html#a7385d8627fb9ce82f89444583b0fa73b":[4,0,0,4,12,6],
 "classmaliput_1_1math_1_1_vector4.html#a745f411855e1082580b1d485172ad6ca":[4,0,0,4,12,10],
 "classmaliput_1_1math_1_1_vector4.html#a7620f20e8868d975c2e6af52042d6433":[4,0,0,4,12,0],
 "classmaliput_1_1math_1_1_vector4.html#a76b4c29a87116c5b3bbdc654fc8a3b4b":[4,0,0,4,12,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "eigen__stl__types_8h.html#a4150555527b3cf871fe911f8776f301a":[5,0,73,2],
 "eigen__stl__types_8h.html#ae13e10d823b0e212fdfb27cc8f18065a":[5,0,73,0],
 "eigen__stl__types_8h.html#afcadf96d397f45d041d01bf17061bc32":[5,0,73,1],
-"eigen__types_8h.html":[5,0,74],
-"eigen__types_8h.html#a01ae662d5635b7c9efe03d15d976f7a8":[5,0,74,33]
+"eigen__types_8h.html":[5,0,74]
 };

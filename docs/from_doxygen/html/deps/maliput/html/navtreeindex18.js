@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"text__logging_8h.html#a9cae370466ffb304c10aebea42eca26b":[5,0,327,4],
 "text__logging_8h.html#aa157c1d75c2e52df3370e5f458022ee9":[5,0,327,6],
 "text__logging_8h.html#aa17788a2d3ef00dc12989d677b8b5f97":[5,0,327,10],
 "text__logging_8h.html#abe1494de6c6a4bbc6aada9a61639c3ae":[5,0,327,1],

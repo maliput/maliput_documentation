@@ -100,6 +100,8 @@ $(document).ready(function(){initNavTree('mock__geometry_8h.html',''); initResiz
 <p>The classes in this file are concrete implementations of the maliput geometry API, built on top of the <a class="el" href="namespacemaliput_1_1geometry__base.html">geometry_base</a> base classes. The only difference between these classes and <a class="el" href="namespacemaliput_1_1geometry__base.html">geometry_base</a> is that all the remaining pure virtual methods in <a class="el" href="namespacemaliput_1_1geometry__base.html">geometry_base</a> (i.e., the methods involving actual lane-frame and <code>Inertial</code>-frame geometry) have been provided with implementations that simply throw <code>std::exception</code>. These "Mock" classes do provide sufficient functionality to exercise the geometry API's object graph.</p>
 <p>All virtual methods are overridable (i.e., none are marked <code>final</code>). Test implementors may re-implement methods as they see fit. </p>
 </div><div class="textblock"><code>#include &lt;optional&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 <code>#include &quot;<a class="el" href="lane__data_8h.html">maliput/api/lane_data.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="maliput__copyable_8h.html">maliput/common/maliput_copyable.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="geometry__base_2branch__point_8h.html">maliput/geometry_base/branch_point.h</a>&quot;</code><br />

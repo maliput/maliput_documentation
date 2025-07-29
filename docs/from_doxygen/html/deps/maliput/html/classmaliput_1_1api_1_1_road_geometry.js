@@ -9,6 +9,7 @@ var classmaliput_1_1api_1_1_road_geometry =
     [ "ById", "classmaliput_1_1api_1_1_road_geometry.html#a40b5e7f0695bb498b4fccfaac6164d6b", null ],
     [ "CheckInvariants", "classmaliput_1_1api_1_1_road_geometry.html#a5063335837b3825eb592bd88229d27a9", null ],
     [ "FindRoadPositions", "classmaliput_1_1api_1_1_road_geometry.html#aab94cb47c604ce24df64a948d43b4b1d", null ],
+    [ "GeoReferenceInfo", "classmaliput_1_1api_1_1_road_geometry.html#ab357b81c40528d9ef6fee23876975611", null ],
     [ "id", "classmaliput_1_1api_1_1_road_geometry.html#aa2dced80efb58b0fbb5f5562bc902d13", null ],
     [ "inertial_to_backend_frame_translation", "classmaliput_1_1api_1_1_road_geometry.html#ad413acb6452704703a264866fba88b14", null ],
     [ "junction", "classmaliput_1_1api_1_1_road_geometry.html#a0db9d3f5aafb668aa00c1b40211d287d", null ],

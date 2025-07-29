@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"maliput_design.html#new_rule_common_types":[0,2,0,0,0],
 "maliput_design.html#new_rules_types":[0,2,0,0],
 "maliput_design.html#objectives":[0,0,0],
 "maliput_design.html#overview":[0,1,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "namespacemaliput_1_1common_1_1logger.html":[3,0,0,1,1],
 "namespacemaliput_1_1drake.html":[3,0,0,2],
 "namespacemaliput_1_1drake.html":[4,0,0,2],
-"namespacemaliput_1_1drake_1_1assert.html":[4,0,0,2,0],
-"namespacemaliput_1_1drake_1_1assert.html":[3,0,0,2,0]
+"namespacemaliput_1_1drake_1_1assert.html":[4,0,0,2,0]
 };

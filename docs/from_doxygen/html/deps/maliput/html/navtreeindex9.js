@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"classmaliput_1_1drake_1_1systems_1_1_system_output.html#ae7da72b26338686a8d3395d3231ec0d4":[4,0,0,2,3,54,7],
 "classmaliput_1_1drake_1_1systems_1_1_system_output.html#af1a19ce9b2e53b51be34f9e9fac24eb4":[4,0,0,2,3,54,2],
 "classmaliput_1_1drake_1_1systems_1_1_system_scalar_converter.html":[4,0,0,2,3,55],
 "classmaliput_1_1drake_1_1systems_1_1_system_scalar_converter.html#a04fcaa98c869b8ff1c345bb5e98f2561":[4,0,0,2,3,55,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "classmaliput_1_1drake_1_1trajectories_1_1_piecewise_trajectory.html#ab5b1a0b2d9113c656018bcace89985b4":[4,0,0,2,4,1,10],
 "classmaliput_1_1drake_1_1trajectories_1_1_piecewise_trajectory.html#acae435d14c7da7e732884c43b125040a":[4,0,0,2,4,1,11],
 "classmaliput_1_1drake_1_1trajectories_1_1_piecewise_trajectory.html#ae09cf8e8ad481f69f3cc1969ef491d60":[4,0,0,2,4,1,15],
-"classmaliput_1_1drake_1_1trajectories_1_1_piecewise_trajectory.html#af88c3d4b35f53401069500f721083309":[4,0,0,2,4,1,4],
-"classmaliput_1_1drake_1_1trajectories_1_1_trajectory.html":[4,0,0,2,4,2]
+"classmaliput_1_1drake_1_1trajectories_1_1_piecewise_trajectory.html#af88c3d4b35f53401069500f721083309":[4,0,0,2,4,1,4]
 };
