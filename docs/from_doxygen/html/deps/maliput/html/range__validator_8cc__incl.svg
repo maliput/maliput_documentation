@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 588;
+var viewWidth = 576;
 var viewHeight = 162;
 var sectionId = 'dynsection-0';
 </script>
@@ -54,7 +54,7 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>range_validator.cc</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-158 584,-158 584,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-158 571.5,-158 571.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -113,18 +113,17 @@ var sectionId = 'dynsection-0';
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="assertion__error_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="432,-67.5 432,-97.5 580,-97.5 580,-67.5 432,-67.5"/>
-<text text-anchor="start" x="440" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/common/assertion</text>
-<text text-anchor="middle" x="506" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">_error.h</text>
+<g id="a_node6"><a xlink:href="error_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="432.5,-73 432.5,-92 567.5,-92 567.5,-73 432.5,-73"/>
+<text text-anchor="middle" x="500" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/common/error.h</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M283.25,-134.48C322.66,-125.46 385.8,-111.01 434.81,-99.79"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="435.76,-103.17 444.72,-97.52 434.19,-96.34 435.76,-103.17"/>
+<path fill="none" stroke="midnightblue" d="M282.39,-134.48C327.57,-123.89 404.65,-105.84 453.91,-94.3"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="454.74,-97.7 463.68,-92.01 453.14,-90.88 454.74,-97.7"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
@@ -161,23 +160,23 @@ var sectionId = 'dynsection-0';
 <!-- Node6&#45;&gt;Node5 -->
 <g id="edge7" class="edge">
 <title>Node6&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M470.85,-67.4C442.17,-55.89 402.06,-39.8 374.67,-28.81"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="375.79,-25.48 365.2,-25.01 373.18,-31.98 375.79,-25.48"/>
+<path fill="none" stroke="midnightblue" d="M479.28,-72.87C452.36,-61.65 405.14,-41.98 374.22,-29.09"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="375.38,-25.78 364.8,-25.17 372.69,-32.24 375.38,-25.78"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="473.5,-6 473.5,-25 538.5,-25 538.5,-6 473.5,-6"/>
-<text text-anchor="middle" x="506" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">stdexcept</text>
+<polygon fill="white" stroke="#bfbfbf" points="467.5,-6 467.5,-25 532.5,-25 532.5,-6 467.5,-6"/>
+<text text-anchor="middle" x="500" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">stdexcept</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
 <title>Node6&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M506,-67.4C506,-58.06 506,-45.71 506,-35.52"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="509.5,-35.19 506,-25.19 502.5,-35.19 509.5,-35.19"/>
+<path fill="none" stroke="midnightblue" d="M500,-72.73C500,-63.18 500,-47.62 500,-35.28"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="503.5,-35.13 500,-25.13 496.5,-35.13 503.5,-35.13"/>
 </g>
 <!-- Node8&#45;&gt;Node5 -->
 <g id="edge9" class="edge">

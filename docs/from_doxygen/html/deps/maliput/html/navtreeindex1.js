@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"classmaliput_1_1_manual_rulebook.html#a832973c7b7df1da07f706af5e4916a3f":[4,0,0,16,11],
 "classmaliput_1_1_manual_rulebook.html#a9aa9f847832ca5467851014a0d73e9bc":[4,0,0,16,8],
 "classmaliput_1_1_manual_rulebook.html#aa8be6299ec5d8a57e3a4c6a296786892":[4,0,0,16,5],
 "classmaliput_1_1_manual_rulebook.html#ad2ce757d42ec1f39b86892a821209c8a":[4,0,0,16,12],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "classmaliput_1_1api_1_1_s_range.html#ac8360198e5ead6dc2652ec6d5befed50":[4,0,0,0,25,3],
 "classmaliput_1_1api_1_1_segment.html":[4,0,0,0,24],
 "classmaliput_1_1api_1_1_segment.html#a323d93e726913120d0c5ec89c64549fc":[4,0,0,0,24,1],
-"classmaliput_1_1api_1_1_segment.html#a6f4e1b5acc16f9d2f722f0a36db0a06f":[4,0,0,0,24,4]
+"classmaliput_1_1api_1_1_segment.html#a6f4e1b5acc16f9d2f722f0a36db0a06f":[4,0,0,0,24,4],
+"classmaliput_1_1api_1_1_segment.html#a7fa67be7f6db7ed4c931a2491b0c51bb":[4,0,0,0,24,5]
 };

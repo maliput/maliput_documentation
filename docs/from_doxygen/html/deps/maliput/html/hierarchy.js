@@ -99,7 +99,11 @@ var hierarchy =
     [ "EventStatus", "classmaliput_1_1drake_1_1systems_1_1_event_status.html", null ],
     [ "exception", null, [
       [ "runtime_error", null, [
-        [ "assertion_error", "classmaliput_1_1common_1_1assertion__error.html", null ],
+        [ "maliput_error", "classmaliput_1_1common_1_1maliput__error.html", [
+          [ "assertion_error", "classmaliput_1_1common_1_1assertion__error.html", null ],
+          [ "road_geometry_construction_error", "classmaliput_1_1common_1_1road__geometry__construction__error.html", null ],
+          [ "road_network_description_parser_error", "classmaliput_1_1common_1_1road__network__description__parser__error.html", null ]
+        ] ],
         [ "assertion_error", "classmaliput_1_1drake_1_1internal_1_1assertion__error.html", null ]
       ] ]
     ] ],

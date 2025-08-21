@@ -245,11 +245,11 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>linear_tolerance</code> or <code>scale_length</code> are negative. </td></tr>
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>ground_curve</code> or <code>elevation</code> or <code>superelevation</code> are nullptr. </td></tr>
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>ground_curve</code> or <code>elevation</code> or <code>superelevation</code> are not G¹. </td></tr>
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>ground_curve</code> is not G¹. </td></tr>
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>ground_curve</code>, <code>elevation</code> and <code>superelevation</code> do not share the same range within <code>linear_tolerance</code>. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>linear_tolerance</code> or <code>scale_length</code> are negative. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>ground_curve</code> or <code>elevation</code> or <code>superelevation</code> are nullptr. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>ground_curve</code> or <code>elevation</code> or <code>superelevation</code> are not G¹. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>ground_curve</code> is not G¹. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>ground_curve</code>, <code>elevation</code> and <code>superelevation</code> do not share the same range within <code>linear_tolerance</code>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -355,8 +355,8 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>A normalized tangent vector in the direction of increasing \( h \) at <code>p</code>, i.e. at \( (p, 0, 0) \). It is orthogonal to <code>s_hat</code> by construction. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>lane_offset</code> is nullptr. </td></tr>
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>p</code> is not in range [p0, p1]. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>lane_offset</code> is nullptr. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>p</code> is not in range [p0, p1]. </td></tr>
   </table>
   </dd>
 </dl>
@@ -481,8 +481,8 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The orientation in the INERTIAL Frame of the <a class="el" href="classmalidrive_1_1road__curve_1_1_road_curve.html" title="Defines a class for a path in a Segment object surface.">RoadCurve</a> at <code>prh</code>. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>lane_offset</code> is nullptr. </td></tr>
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>prh</code> .x() is not in range [p0, p1]. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>lane_offset</code> is nullptr. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>prh</code> .x() is not in range [p0, p1]. </td></tr>
   </table>
   </dd>
 </dl>
@@ -642,8 +642,8 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>A normalized tangent vector in the direction of increasing \( r \) at <code>prh</code>. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>lane_offset</code> is nullptr. </td></tr>
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>prh</code> .x() is not in range [p0, p1]. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>lane_offset</code> is nullptr. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>prh</code> .x() is not in range [p0, p1]. </td></tr>
   </table>
   </dd>
 </dl>
@@ -706,8 +706,8 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>A normalized tangent vector in the direction of increasing \( p \) at <code>prh</code>. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>lane_offset</code> is nullptr. </td></tr>
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>prh</code> .x() is not in range [p0, p1]. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>lane_offset</code> is nullptr. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>prh</code> .x() is not in range [p0, p1]. </td></tr>
   </table>
   </dd>
 </dl>
@@ -831,10 +831,10 @@ where: <br  />
 <dl class="section return"><dt>Returns</dt><dd>The derivative of \( W \) with respect to \( p \) at <code>prh</code>. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>lane_offset</code> is nullptr. </td></tr>
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>prh</code> .x() is not in range [p0, p1]. </td></tr>
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>lane_offset</code> -&gt;<a class="el" href="classmalidrive_1_1road__curve_1_1_road_curve.html#a91d6d86ed0abb8f64e9a0ecd0e054810">p0()</a> is not in range [p0, p1]. </td></tr>
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>lane_offset</code> -&gt;<a class="el" href="classmalidrive_1_1road__curve_1_1_road_curve.html#a4f07ac9d9bda6a50715b59b3c53c356f">p1()</a> is not in range [p0, p1]. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>lane_offset</code> is nullptr. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>prh</code> .x() is not in range [p0, p1]. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>lane_offset</code> -&gt;<a class="el" href="classmalidrive_1_1road__curve_1_1_road_curve.html#a91d6d86ed0abb8f64e9a0ecd0e054810">p0()</a> is not in range [p0, p1]. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>lane_offset</code> -&gt;<a class="el" href="classmalidrive_1_1road__curve_1_1_road_curve.html#a4f07ac9d9bda6a50715b59b3c53c356f">p1()</a> is not in range [p0, p1]. </td></tr>
   </table>
   </dd>
 </dl>

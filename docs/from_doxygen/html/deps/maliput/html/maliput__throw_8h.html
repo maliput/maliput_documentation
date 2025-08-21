@@ -128,6 +128,18 @@ Macros</h2></td></tr>
 <tr class="memitem:a9af2ab72834eff200a35d0543a16b383"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__throw_8h.html#a9af2ab72834eff200a35d0543a16b383">MALIPUT_THROW_MESSAGE</a>(msg)</td></tr>
 <tr class="memdesc:a9af2ab72834eff200a35d0543a16b383"><td class="mdescLeft">&#160;</td><td class="mdescRight">Throws an exception with a message showing at least the condition text, function name, file, and line.  <a href="maliput__throw_8h.html#a9af2ab72834eff200a35d0543a16b383">More...</a><br /></td></tr>
 <tr class="separator:a9af2ab72834eff200a35d0543a16b383"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7fd29366a82fd4f1cbca026de66bf18"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__throw_8h.html#ae7fd29366a82fd4f1cbca026de66bf18">MALIPUT_THROW_ROAD_NETWORK_DESCRIPTION_PARSER_UNLESS</a>(condition)</td></tr>
+<tr class="memdesc:ae7fd29366a82fd4f1cbca026de66bf18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluates <code>condition</code> and iff the value is false will throw a road_network_description_parser_error with a message showing at least the condition text, function name, file, and line.  <a href="maliput__throw_8h.html#ae7fd29366a82fd4f1cbca026de66bf18">More...</a><br /></td></tr>
+<tr class="separator:ae7fd29366a82fd4f1cbca026de66bf18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a741a4c815e6b4820b6badbe8595144"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__throw_8h.html#a0a741a4c815e6b4820b6badbe8595144">MALIPUT_THROW_ROAD_NETWORK_DESCRIPTION_PARSER_MESSAGE</a>(msg)</td></tr>
+<tr class="memdesc:a0a741a4c815e6b4820b6badbe8595144"><td class="mdescLeft">&#160;</td><td class="mdescRight">Throws a road_network_description_parser_error with a message showing at least the condition text, function name, file, and line.  <a href="maliput__throw_8h.html#a0a741a4c815e6b4820b6badbe8595144">More...</a><br /></td></tr>
+<tr class="separator:a0a741a4c815e6b4820b6badbe8595144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2411791128f758937bfd07923e5c7977"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__throw_8h.html#a2411791128f758937bfd07923e5c7977">MALIPUT_THROW_ROAD_GEOMETRY_CONSTRUCTION_UNLESS</a>(condition)</td></tr>
+<tr class="memdesc:a2411791128f758937bfd07923e5c7977"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluates <code>condition</code> and iff the value is false will throw a road_geometry_construction_error with a message showing at least the condition text, function name, file, and line.  <a href="maliput__throw_8h.html#a2411791128f758937bfd07923e5c7977">More...</a><br /></td></tr>
+<tr class="separator:a2411791128f758937bfd07923e5c7977"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e9feb7c73a23b9bff8e4cc463620dee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__throw_8h.html#a9e9feb7c73a23b9bff8e4cc463620dee">MALIPUT_THROW_ROAD_GEOMETRY_CONSTRUCTION_MESSAGE</a>(msg)</td></tr>
+<tr class="memdesc:a9e9feb7c73a23b9bff8e4cc463620dee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Throws a road_geometry_construction_error with a message showing at least the condition text, function name, file, and line.  <a href="maliput__throw_8h.html#a9e9feb7c73a23b9bff8e4cc463620dee">More...</a><br /></td></tr>
+<tr class="separator:a9e9feb7c73a23b9bff8e4cc463620dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a875fe3f91e3799f84dfd8f924014f323"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__throw_8h.html#a875fe3f91e3799f84dfd8f924014f323">MALIPUT_VALIDATE</a>(pred,  message)</td></tr>
 <tr class="separator:a875fe3f91e3799f84dfd8f924014f323"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9246072f48581aeadb3330267e3e7516"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__throw_8h.html#a9246072f48581aeadb3330267e3e7516">MALIPUT_IS_IN_RANGE</a>(value,  min_value,  max_value)</td></tr>
@@ -202,6 +214,105 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a9e9feb7c73a23b9bff8e4cc463620dee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e9feb7c73a23b9bff8e4cc463620dee">&#9670;&nbsp;</a></span>MALIPUT_THROW_ROAD_GEOMETRY_CONSTRUCTION_MESSAGE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MALIPUT_THROW_ROAD_GEOMETRY_CONSTRUCTION_MESSAGE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">msg</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                                                               \</div>
+<div class="line">    const std::string error_message(msg);                                                                            <a class="code" href="namespacemaliput_1_1common_1_1internal.html#a030b8f7d31a14053c97a478cb2bea05f">\</a></div>
+<div class="line"><a class="code" href="namespacemaliput_1_1common_1_1internal.html#a030b8f7d31a14053c97a478cb2bea05f">    ::maliput::common::internal::ThrowRoadGeometryConstruction</a>(error_message.c_str(), __func__, __FILE__, __LINE__); \</div>
+<div class="line">  } <span class="keywordflow">while</span> (0)</div>
+</div><!-- fragment -->
+<p>Throws a road_geometry_construction_error with a message showing at least the condition text, function name, file, and line. </p>
+
+</div>
+</div>
+<a id="a2411791128f758937bfd07923e5c7977"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2411791128f758937bfd07923e5c7977">&#9670;&nbsp;</a></span>MALIPUT_THROW_ROAD_GEOMETRY_CONSTRUCTION_UNLESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MALIPUT_THROW_ROAD_GEOMETRY_CONSTRUCTION_UNLESS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">condition</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                                                      \</div>
+<div class="line">    if (!(condition)) {                                                                                     <a class="code" href="namespacemaliput_1_1common_1_1internal.html#a030b8f7d31a14053c97a478cb2bea05f">\</a></div>
+<div class="line"><a class="code" href="namespacemaliput_1_1common_1_1internal.html#a030b8f7d31a14053c97a478cb2bea05f">      ::maliput::common::internal::ThrowRoadGeometryConstruction</a>(#condition, __func__, __FILE__, __LINE__); \</div>
+<div class="line">    }                                                                                                       \</div>
+<div class="line">  } <span class="keywordflow">while</span> (0)</div>
+</div><!-- fragment -->
+<p>Evaluates <code>condition</code> and iff the value is false will throw a road_geometry_construction_error with a message showing at least the condition text, function name, file, and line. </p>
+
+</div>
+</div>
+<a id="a0a741a4c815e6b4820b6badbe8595144"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a741a4c815e6b4820b6badbe8595144">&#9670;&nbsp;</a></span>MALIPUT_THROW_ROAD_NETWORK_DESCRIPTION_PARSER_MESSAGE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MALIPUT_THROW_ROAD_NETWORK_DESCRIPTION_PARSER_MESSAGE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">msg</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                                                        \</div>
+<div class="line">    const std::string error_message(msg);                                                                     <a class="code" href="namespacemaliput_1_1common_1_1internal.html#ac0c20a8384cc19bee1923d5eeb407387">\</a></div>
+<div class="line"><a class="code" href="namespacemaliput_1_1common_1_1internal.html#ac0c20a8384cc19bee1923d5eeb407387">    ::maliput::common::internal::ThrowRoadNetworkDescriptionParser</a>(error_message.c_str(), __func__, __FILE__, \</div>
+<div class="line">                                                                   __LINE__);                                 \</div>
+<div class="line">  } <span class="keywordflow">while</span> (0)</div>
+</div><!-- fragment -->
+<p>Throws a road_network_description_parser_error with a message showing at least the condition text, function name, file, and line. </p>
+
+</div>
+</div>
+<a id="ae7fd29366a82fd4f1cbca026de66bf18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7fd29366a82fd4f1cbca026de66bf18">&#9670;&nbsp;</a></span>MALIPUT_THROW_ROAD_NETWORK_DESCRIPTION_PARSER_UNLESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MALIPUT_THROW_ROAD_NETWORK_DESCRIPTION_PARSER_UNLESS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">condition</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                                                          \</div>
+<div class="line">    if (!(condition)) {                                                                                         <a class="code" href="namespacemaliput_1_1common_1_1internal.html#ac0c20a8384cc19bee1923d5eeb407387">\</a></div>
+<div class="line"><a class="code" href="namespacemaliput_1_1common_1_1internal.html#ac0c20a8384cc19bee1923d5eeb407387">      ::maliput::common::internal::ThrowRoadNetworkDescriptionParser</a>(#condition, __func__, __FILE__, __LINE__); \</div>
+<div class="line">    }                                                                                                           \</div>
+<div class="line">  } <span class="keywordflow">while</span> (0)</div>
+</div><!-- fragment -->
+<p>Evaluates <code>condition</code> and iff the value is false will throw a road_network_description_parser_error with a message showing at least the condition text, function name, file, and line. </p>
+
+</div>
+</div>
 <a id="a56a32f4447ccff45c6563d1302cc27ac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a56a32f4447ccff45c6563d1302cc27ac">&#9670;&nbsp;</a></span>MALIPUT_THROW_UNLESS</h2>
 
@@ -263,7 +374,9 @@ Functions</h2></td></tr>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="anamespacemaliput_1_1common_1_1internal_html_a030b8f7d31a14053c97a478cb2bea05f"><div class="ttname"><a href="namespacemaliput_1_1common_1_1internal.html#a030b8f7d31a14053c97a478cb2bea05f">maliput::common::internal::ThrowRoadGeometryConstruction</a></div><div class="ttdeci">void ThrowRoadGeometryConstruction(const char *condition, const char *func, const char *file, int line)</div><div class="ttdef"><b>Definition:</b> maliput_abort_and_throw.cc:125</div></div>
 <div class="ttc" id="anamespacemaliput_1_1drake_html_a04fe934638081d5266e1b191d2a3ae7d"><div class="ttname"><a href="namespacemaliput_1_1drake.html#a04fe934638081d5266e1b191d2a3ae7d">maliput::drake::to_string</a></div><div class="ttdeci">std::string to_string(const maliput::drake::Identifier&lt; Tag &gt; &amp;id)</div><div class="ttdoc">Enables use of identifiers with to_string.</div><div class="ttdef"><b>Definition:</b> identifier.h:228</div></div>
+<div class="ttc" id="anamespacemaliput_1_1common_1_1internal_html_ac0c20a8384cc19bee1923d5eeb407387"><div class="ttname"><a href="namespacemaliput_1_1common_1_1internal.html#ac0c20a8384cc19bee1923d5eeb407387">maliput::common::internal::ThrowRoadNetworkDescriptionParser</a></div><div class="ttdeci">void ThrowRoadNetworkDescriptionParser(const char *condition, const char *func, const char *file, int line)</div><div class="ttdef"><b>Definition:</b> maliput_abort_and_throw.cc:118</div></div>
 <div class="ttc" id="anamespacemaliput_1_1common_1_1internal_html_a1adb6d4bdebbb807916d6b9231d14a8e"><div class="ttname"><a href="namespacemaliput_1_1common_1_1internal.html#a1adb6d4bdebbb807916d6b9231d14a8e">maliput::common::internal::Throw</a></div><div class="ttdeci">void Throw(const char *condition, const char *func, const char *file, int line)</div><div class="ttdef"><b>Definition:</b> maliput_abort_and_throw.cc:111</div></div>
 <!-- HTML footer for doxygen 1.8.15 -->
 <!-- start footer part -->

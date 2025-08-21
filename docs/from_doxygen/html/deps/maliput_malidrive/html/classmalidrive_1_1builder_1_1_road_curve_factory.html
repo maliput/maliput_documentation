@@ -308,7 +308,7 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="classmalidrive_1_1road__curve_1_1_arc_ground_curve.html" title="GroundCurve specification for a reference curve that describes a constant curvature arc.">road_curve::ArcGroundCurve</a>. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>arc_geometry.type</code> is not <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7af20a3b1298346c2b7d0d17925491217b">xodr::Geometry::Type::kArc</a>. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>arc_geometry.type</code> is not <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7af20a3b1298346c2b7d0d17925491217b">xodr::Geometry::Type::kArc</a>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -442,8 +442,8 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="classmalidrive_1_1road__curve_1_1_cubic_polynomial.html" title="Describes cubic polynomial function behind Function interface.">road_curve::CubicPolynomial</a>.</dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>p0</code> is negative. </td></tr>
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>p1</code> is not greater than <code>p0</code>. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>p0</code> is negative. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>p1</code> is not greater than <code>p0</code>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -517,8 +517,8 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>A function that describes the elevation of the Road.</dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>p0</code> is negative. </td></tr>
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>p1</code> is not greater enough than <code>p0</code>. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>p0</code> is negative. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>p1</code> is not greater enough than <code>p0</code>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -594,12 +594,12 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>A function that describes the width of the <a class="el" href="classmalidrive_1_1_lane.html" title="Describes a Lane whose centerline is a offset of a road_curve::RoadCurve at a certain lane offset whi...">Lane</a>.</dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>p0</code> is negative. </td></tr>
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>p1</code> is not greater enough than <code>p0</code>. </td></tr>
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>lane_widths</code> 's size is zero. </td></tr>
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When the first offset value of <code>lane_widths</code> is different than zero. </td></tr>
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>lane_widths</code> 's start points are distanced less than linear tolerance. </td></tr>
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>lane_widths</code> 's functions aren't at least as long as road::curve::GroundCurve::kEpsilon. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>p0</code> is negative. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>p1</code> is not greater enough than <code>p0</code>. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>lane_widths</code> 's size is zero. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When the first offset value of <code>lane_widths</code> is different than zero. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>lane_widths</code> 's start points are distanced less than linear tolerance. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>lane_widths</code> 's functions aren't at least as long as road::curve::GroundCurve::kEpsilon. </td></tr>
   </table>
   </dd>
 </dl>
@@ -643,7 +643,7 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="classmalidrive_1_1road__curve_1_1_line_ground_curve.html" title="GroundCurve specification for a reference curve that describes a line.">road_curve::LineGroundCurve</a>. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>line_geometry.type</code> is not <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7aee669fa7b5a35d96a396d4ed648afb45">xodr::Geometry::Type::kLine</a>. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>line_geometry.type</code> is not <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7aee669fa7b5a35d96a396d4ed648afb45">xodr::Geometry::Type::kLine</a>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -742,8 +742,8 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="classmalidrive_1_1road__curve_1_1_piecewise_ground_curve.html" title="GroundCurve specification for a reference curve that is described as a piecewise ground curve.">road_curve::PiecewiseGroundCurve</a>. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When any item of <code>geometries</code> has other type than {<a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7af20a3b1298346c2b7d0d17925491217b">xodr::Geometry::Type::kArc</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7aee669fa7b5a35d96a396d4ed648afb45">xodr::Geometry::Type::kLine</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7a47f741a9428ad966bd733a3d9b6027f8">xodr::Geometry::Type::kSpiral</a>}. </td></tr>
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>geometries</code> is empty. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When any item of <code>geometries</code> has other type than {<a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7af20a3b1298346c2b7d0d17925491217b">xodr::Geometry::Type::kArc</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7aee669fa7b5a35d96a396d4ed648afb45">xodr::Geometry::Type::kLine</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7a47f741a9428ad966bd733a3d9b6027f8">xodr::Geometry::Type::kSpiral</a>}. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>geometries</code> is empty. </td></tr>
   </table>
   </dd>
 </dl>
@@ -813,8 +813,8 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>A function that describes the lateral shift of the road reference line.</dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>p0</code> is negative. </td></tr>
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>p1</code> is not greater enough than <code>p0</code>. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>p0</code> is negative. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>p1</code> is not greater enough than <code>p0</code>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -858,7 +858,7 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="classmalidrive_1_1road__curve_1_1_spiral_ground_curve.html" title="GroundCurve specification for a reference curve that describes a clothoid or Euler spiral.">road_curve::SpiralGroundCurve</a>. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>spiral_geometry.type</code> is not <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7a47f741a9428ad966bd733a3d9b6027f8">xodr::Geometry::Type::kSpiral</a>. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>spiral_geometry.type</code> is not <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7a47f741a9428ad966bd733a3d9b6027f8">xodr::Geometry::Type::kSpiral</a>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -932,8 +932,8 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>A function that describes the superelevation of the Road.</dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>p0</code> is negative. </td></tr>
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>p1</code> is not greater enough than <code>p0</code>. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>p0</code> is negative. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>p1</code> is not greater enough than <code>p0</code>. </td></tr>
   </table>
   </dd>
 </dl>

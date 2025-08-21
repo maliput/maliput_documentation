@@ -100,14 +100,6 @@
     <namespace>maliput::drake</namespace>
   </compound>
   <compound kind="file">
-    <name>assertion_error.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/common/</path>
-    <filename>assertion__error_8h.html</filename>
-    <class kind="class">maliput::common::assertion_error</class>
-    <namespace>maliput</namespace>
-    <namespace>maliput::common</namespace>
-  </compound>
-  <compound kind="file">
     <name>axis_aligned_box.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/math/</path>
     <filename>axis__aligned__box_8cc.html</filename>
@@ -2433,6 +2425,17 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>error.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/common/</path>
+    <filename>error_8h.html</filename>
+    <class kind="class">maliput::common::maliput_error</class>
+    <class kind="class">maliput::common::assertion_error</class>
+    <class kind="class">maliput::common::road_network_description_parser_error</class>
+    <class kind="class">maliput::common::road_geometry_construction_error</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::common</namespace>
+  </compound>
+  <compound kind="file">
     <name>event.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/drake/systems/framework/</path>
     <filename>event_8h.html</filename>
@@ -4578,7 +4581,7 @@
     <name>maliput_abort_and_throw.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/common/</path>
     <filename>maliput__abort__and__throw_8cc.html</filename>
-    <includes id="assertion__error_8h" name="assertion_error.h" local="yes" imported="no">maliput/common/assertion_error.h</includes>
+    <includes id="error_8h" name="error.h" local="yes" imported="no">maliput/common/error.h</includes>
     <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <namespace>maliput</namespace>
@@ -4603,6 +4606,20 @@
       <name>Throw</name>
       <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
       <anchor>a1adb6d4bdebbb807916d6b9231d14a8e</anchor>
+      <arglist>(const char *condition, const char *func, const char *file, int line)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>ThrowRoadNetworkDescriptionParser</name>
+      <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
+      <anchor>ac0c20a8384cc19bee1923d5eeb407387</anchor>
+      <arglist>(const char *condition, const char *func, const char *file, int line)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>ThrowRoadGeometryConstruction</name>
+      <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
+      <anchor>a030b8f7d31a14053c97a478cb2bea05f</anchor>
       <arglist>(const char *condition, const char *func, const char *file, int line)</arglist>
     </member>
   </compound>
@@ -4894,6 +4911,34 @@
       <name>MALIPUT_THROW_MESSAGE</name>
       <anchorfile>maliput__throw_8h.html</anchorfile>
       <anchor>a9af2ab72834eff200a35d0543a16b383</anchor>
+      <arglist>(msg)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_THROW_ROAD_NETWORK_DESCRIPTION_PARSER_UNLESS</name>
+      <anchorfile>maliput__throw_8h.html</anchorfile>
+      <anchor>ae7fd29366a82fd4f1cbca026de66bf18</anchor>
+      <arglist>(condition)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_THROW_ROAD_NETWORK_DESCRIPTION_PARSER_MESSAGE</name>
+      <anchorfile>maliput__throw_8h.html</anchorfile>
+      <anchor>a0a741a4c815e6b4820b6badbe8595144</anchor>
+      <arglist>(msg)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_THROW_ROAD_GEOMETRY_CONSTRUCTION_UNLESS</name>
+      <anchorfile>maliput__throw_8h.html</anchorfile>
+      <anchor>a2411791128f758937bfd07923e5c7977</anchor>
+      <arglist>(condition)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_THROW_ROAD_GEOMETRY_CONSTRUCTION_MESSAGE</name>
+      <anchorfile>maliput__throw_8h.html</anchorfile>
+      <anchor>a9e9feb7c73a23b9bff8e4cc463620dee</anchor>
       <arglist>(msg)</arglist>
     </member>
     <member kind="define">
@@ -7236,7 +7281,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/common/</path>
     <filename>range__validator_8cc.html</filename>
     <includes id="range__validator_8h" name="range_validator.h" local="yes" imported="no">maliput/common/range_validator.h</includes>
-    <includes id="assertion__error_8h" name="assertion_error.h" local="yes" imported="no">maliput/common/assertion_error.h</includes>
+    <includes id="error_8h" name="error.h" local="yes" imported="no">maliput/common/error.h</includes>
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::common</namespace>
@@ -10112,6 +10157,7 @@
   <compound kind="class">
     <name>maliput::common::assertion_error</name>
     <filename>classmaliput_1_1common_1_1assertion__error.html</filename>
+    <base>maliput::common::maliput_error</base>
     <member kind="function">
       <type></type>
       <name>assertion_error</name>
@@ -25751,6 +25797,17 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::common::maliput_error</name>
+    <filename>classmaliput_1_1common_1_1maliput__error.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>maliput_error</name>
+      <anchorfile>classmaliput_1_1common_1_1maliput__error.html</anchorfile>
+      <anchor>a59d3436b993e79180b0e95f7653885b8</anchor>
+      <arglist>(const std::string &amp;what_arg)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::plugin::MaliputPlugin</name>
     <filename>classmaliput_1_1plugin_1_1_maliput_plugin.html</filename>
     <member kind="typedef">
@@ -31319,6 +31376,30 @@
       <anchorfile>structmaliput_1_1api_1_1test_1_1_right_of_way_build_flags.html</anchorfile>
       <anchor>a8ba809272a7cec904f854a3f82ac9195</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::common::road_geometry_construction_error</name>
+    <filename>classmaliput_1_1common_1_1road__geometry__construction__error.html</filename>
+    <base>maliput::common::maliput_error</base>
+    <member kind="function">
+      <type></type>
+      <name>road_geometry_construction_error</name>
+      <anchorfile>classmaliput_1_1common_1_1road__geometry__construction__error.html</anchorfile>
+      <anchor>ac7467459308e329b48a2013003d46269</anchor>
+      <arglist>(const std::string &amp;what_arg)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::common::road_network_description_parser_error</name>
+    <filename>classmaliput_1_1common_1_1road__network__description__parser__error.html</filename>
+    <base>maliput::common::maliput_error</base>
+    <member kind="function">
+      <type></type>
+      <name>road_network_description_parser_error</name>
+      <anchorfile>classmaliput_1_1common_1_1road__network__description__parser__error.html</anchorfile>
+      <anchor>abd7b8174c822d801d5433b89331329ac</anchor>
+      <arglist>(const std::string &amp;what_arg)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -46506,10 +46587,13 @@
     <class kind="struct">maliput::common::DelegatingHasher</class>
     <class kind="class">maliput::common::Filesystem</class>
     <class kind="class">maliput::common::Logger</class>
+    <class kind="class">maliput::common::maliput_error</class>
     <class kind="class">maliput::common::never_destroyed</class>
     <class kind="class">maliput::common::Passkey</class>
     <class kind="class">maliput::common::Path</class>
     <class kind="class">maliput::common::RangeValidator</class>
+    <class kind="class">maliput::common::road_geometry_construction_error</class>
+    <class kind="class">maliput::common::road_network_description_parser_error</class>
     <class kind="struct">maliput::common::Serialize</class>
     <class kind="class">maliput::common::Sink</class>
     <class kind="class">maliput::common::SinkBase</class>
@@ -46636,6 +46720,20 @@
       <name>Throw</name>
       <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
       <anchor>a1adb6d4bdebbb807916d6b9231d14a8e</anchor>
+      <arglist>(const char *condition, const char *func, const char *file, int line)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>ThrowRoadNetworkDescriptionParser</name>
+      <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
+      <anchor>ac0c20a8384cc19bee1923d5eeb407387</anchor>
+      <arglist>(const char *condition, const char *func, const char *file, int line)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>ThrowRoadGeometryConstruction</name>
+      <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
+      <anchor>a030b8f7d31a14053c97a478cb2bea05f</anchor>
       <arglist>(const char *condition, const char *func, const char *file, int line)</arglist>
     </member>
     <member kind="variable">

@@ -17,9 +17,6 @@ var files_dup =
     [ "arc_length_integrator.h", "arc__length__integrator_8h.html", [
       [ "ArcLengthIntegrator", "classmaliput_1_1drake_1_1_arc_length_integrator.html", "classmaliput_1_1drake_1_1_arc_length_integrator" ]
     ] ],
-    [ "assertion_error.h", "assertion__error_8h.html", [
-      [ "assertion_error", "classmaliput_1_1common_1_1assertion__error.html", "classmaliput_1_1common_1_1assertion__error" ]
-    ] ],
     [ "axis_aligned_box.cc", "axis__aligned__box_8cc.html", null ],
     [ "axis_aligned_box.h", "axis__aligned__box_8h.html", [
       [ "AxisAlignedBox", "classmaliput_1_1math_1_1_axis_aligned_box.html", "classmaliput_1_1math_1_1_axis_aligned_box" ]
@@ -131,6 +128,12 @@ var files_dup =
     ] ],
     [ "eigen_stl_types.h", "eigen__stl__types_8h.html", "eigen__stl__types_8h" ],
     [ "eigen_types.h", "eigen__types_8h.html", "eigen__types_8h" ],
+    [ "error.h", "error_8h.html", [
+      [ "maliput_error", "classmaliput_1_1common_1_1maliput__error.html", "classmaliput_1_1common_1_1maliput__error" ],
+      [ "assertion_error", "classmaliput_1_1common_1_1assertion__error.html", "classmaliput_1_1common_1_1assertion__error" ],
+      [ "road_network_description_parser_error", "classmaliput_1_1common_1_1road__network__description__parser__error.html", "classmaliput_1_1common_1_1road__network__description__parser__error" ],
+      [ "road_geometry_construction_error", "classmaliput_1_1common_1_1road__geometry__construction__error.html", "classmaliput_1_1common_1_1road__geometry__construction__error" ]
+    ] ],
     [ "event.h", "event_8h.html", "event_8h" ],
     [ "event_collection.cc", "event__collection_8cc.html", null ],
     [ "event_collection.h", "event__collection_8h.html", [

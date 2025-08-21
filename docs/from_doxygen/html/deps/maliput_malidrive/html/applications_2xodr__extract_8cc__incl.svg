@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 1264;
+var viewWidth = 1252;
 var viewHeight = 162;
 var sectionId = 'dynsection-0';
 </script>
@@ -54,7 +54,7 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>xodr_extract.cc</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-158 1260,-158 1260,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-158 1248,-158 1248,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -223,50 +223,49 @@ var sectionId = 'dynsection-0';
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="../../maliput/html/assertion__error_8h.html.html" xlink:title=" ">
-<polygon fill="white" stroke="black" points="792,-0.5 792,-30.5 940,-30.5 940,-0.5 792,-0.5"/>
-<text text-anchor="start" x="800" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/common/assertion</text>
-<text text-anchor="middle" x="866" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">_error.h</text>
+<g id="a_node10"><a xlink:href="../../maliput/html/error_8h.html.html" xlink:title=" ">
+<polygon fill="white" stroke="black" points="792.5,-6 792.5,-25 927.5,-25 927.5,-6 792.5,-6"/>
+<text text-anchor="middle" x="860" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/common/error.h</text>
 </a>
 </g>
 </g>
 <!-- Node9&#45;&gt;Node10 -->
 <g id="edge11" class="edge">
 <title>Node9&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M739.15,-67.4C763.25,-57.73 795.41,-44.82 821.32,-34.43"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="822.94,-37.55 830.92,-30.58 820.33,-31.05 822.94,-37.55"/>
+<path fill="none" stroke="midnightblue" d="M737.85,-67.4C765.34,-55.94 803.75,-39.94 830.11,-28.95"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="831.7,-32.08 839.58,-25.01 829.01,-25.62 831.7,-32.08"/>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
 <g id="a_node11"><a xlink:href="../../maliput/html/maliput__abort_8h.html.html" xlink:title=" ">
-<polygon fill="white" stroke="black" points="958,-0.5 958,-30.5 1098,-30.5 1098,-0.5 958,-0.5"/>
-<text text-anchor="start" x="966" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/common/maliput</text>
-<text text-anchor="middle" x="1028" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">_abort.h</text>
+<polygon fill="white" stroke="black" points="946,-0.5 946,-30.5 1086,-30.5 1086,-0.5 946,-0.5"/>
+<text text-anchor="start" x="954" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/common/maliput</text>
+<text text-anchor="middle" x="1016" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">_abort.h</text>
 </a>
 </g>
 </g>
 <!-- Node9&#45;&gt;Node11 -->
 <g id="edge13" class="edge">
 <title>Node9&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M773.9,-67.48C825.02,-57.22 894.46,-43.29 947.83,-32.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="948.83,-35.95 957.94,-30.55 947.45,-29.09 948.83,-35.95"/>
+<path fill="none" stroke="midnightblue" d="M771.32,-67.48C820.44,-57.24 887.13,-43.35 938.48,-32.65"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="939.46,-36.02 948.54,-30.55 938.03,-29.17 939.46,-36.02"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
 <g id="a_node12"><a xlink:href="../../maliput/html/maliput__copyable_8h.html.html" xlink:title=" ">
-<polygon fill="white" stroke="black" points="1116,-0.5 1116,-30.5 1256,-30.5 1256,-0.5 1116,-0.5"/>
-<text text-anchor="start" x="1124" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/common/maliput</text>
-<text text-anchor="middle" x="1186" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">_copyable.h</text>
+<polygon fill="white" stroke="black" points="1104,-0.5 1104,-30.5 1244,-30.5 1244,-0.5 1104,-0.5"/>
+<text text-anchor="start" x="1112" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/common/maliput</text>
+<text text-anchor="middle" x="1174" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">_copyable.h</text>
 </a>
 </g>
 </g>
 <!-- Node9&#45;&gt;Node12 -->
 <g id="edge14" class="edge">
 <title>Node9&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M780.31,-73.25C859.27,-64.41 986.4,-49.35 1105.78,-31.14"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1106.47,-34.57 1115.82,-29.59 1105.41,-27.65 1106.47,-34.57"/>
+<path fill="none" stroke="midnightblue" d="M780.22,-72.87C856.92,-63.91 978.81,-48.92 1093.79,-31.14"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1094.48,-34.58 1103.82,-29.58 1093.4,-27.66 1094.48,-34.58"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node">
