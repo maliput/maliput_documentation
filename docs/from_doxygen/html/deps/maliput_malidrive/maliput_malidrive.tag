@@ -4254,6 +4254,13 @@
       <anchor>ad17b08b4477d4e2f3d348ea8f47f20bf</anchor>
       <arglist>(double track_s) const</arglist>
     </member>
+    <member kind="function">
+      <type>double</type>
+      <name>s_range_validation</name>
+      <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
+      <anchor>ad8238d18d32a0f650fd867ca57e33975</anchor>
+      <arglist>(double s) const</arglist>
+    </member>
   </compound>
   <compound kind="struct">
     <name>malidrive::xodr::Lane</name>

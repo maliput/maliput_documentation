@@ -51,15 +51,16 @@ var NAVTREEINDEX0 =
 "classmalidrive_1_1_lane.html":[4,0,0,4],
 "classmalidrive_1_1_lane.html#a08f960c29e777c4e19aa65ea2a062308":[4,0,0,4,0],
 "classmalidrive_1_1_lane.html#a15dc832908c773b3f1e1bf2615ea74f2":[4,0,0,4,4],
-"classmalidrive_1_1_lane.html#a2260cc56798d5af1f3563ed317240caf":[4,0,0,4,8],
+"classmalidrive_1_1_lane.html#a2260cc56798d5af1f3563ed317240caf":[4,0,0,4,9],
 "classmalidrive_1_1_lane.html#a3bfc236870b910ee2f2cba377aebbc6b":[4,0,0,4,5],
 "classmalidrive_1_1_lane.html#a6140ac583e6e71304fb7a4b0252baa98":[4,0,0,4,7],
 "classmalidrive_1_1_lane.html#a6fd8fd747aec8546c67c75f8ed0bc6a0":[4,0,0,4,1],
 "classmalidrive_1_1_lane.html#a9c9c3b577525a5b421fc0ccdb0eb1cb4":[4,0,0,4,2],
 "classmalidrive_1_1_lane.html#ab1773002f837cbef4ea41d923cdb3041":[4,0,0,4,3],
-"classmalidrive_1_1_lane.html#ac6b0453fd2da81bb3cc664f4dd691096":[4,0,0,4,9],
+"classmalidrive_1_1_lane.html#ac6b0453fd2da81bb3cc664f4dd691096":[4,0,0,4,10],
 "classmalidrive_1_1_lane.html#ad17b08b4477d4e2f3d348ea8f47f20bf":[4,0,0,4,6],
-"classmalidrive_1_1_lane.html#afeab73b6ebae3c8fce8b52699a32fc99":[4,0,0,4,10],
+"classmalidrive_1_1_lane.html#ad8238d18d32a0f650fd867ca57e33975":[4,0,0,4,8],
+"classmalidrive_1_1_lane.html#afeab73b6ebae3c8fce8b52699a32fc99":[4,0,0,4,11],
 "classmalidrive_1_1_road_geometry.html":[4,0,0,5],
 "classmalidrive_1_1_road_geometry.html#a0578d6662bb8c693749bf82fa48dc893":[4,0,0,5,3],
 "classmalidrive_1_1_road_geometry.html#a08bf5a805b5630aa201a830b9f5bbec2":[4,0,0,5,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "classmalidrive_1_1road__curve_1_1_road_curve.html#aa774db2a3d5677e6273d4ef276ce71ab":[4,0,0,2,9,0],
 "classmalidrive_1_1road__curve_1_1_road_curve.html#aab365ac2c0475648203d9693a80bed12":[4,0,0,2,9,21],
 "classmalidrive_1_1road__curve_1_1_road_curve.html#aac451cc1c812c306f3d0c9d2ddd9fe58":[4,0,0,2,9,20],
-"classmalidrive_1_1road__curve_1_1_road_curve.html#adbc4ac22be57a812f129ca1cdd6d5a34":[4,0,0,2,9,17],
-"classmalidrive_1_1road__curve_1_1_road_curve_offset.html":[4,0,0,2,10]
+"classmalidrive_1_1road__curve_1_1_road_curve.html#adbc4ac22be57a812f129ca1cdd6d5a34":[4,0,0,2,9,17]
 };
