@@ -1,6 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"maliput_design.html#common_region_entities":[0,2,0,1],
 "maliput_design.html#continuity_types":[0,1,0,1],
 "maliput_design.html#deprecated_rule_api":[0,2,0,3],
 "maliput_design.html#geometry_model":[0,1,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX14 =
 "namespacemaliput.html":[3,0,0],
 "namespacemaliput.html":[4,0,0],
 "namespacemaliput_1_1api.html":[3,0,0,0],
-"namespacemaliput_1_1api.html":[4,0,0,0]
+"namespacemaliput_1_1api.html":[4,0,0,0],
+"namespacemaliput_1_1api_1_1rules.html":[3,0,0,0,0]
 };

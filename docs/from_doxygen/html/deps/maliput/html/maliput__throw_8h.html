@@ -91,16 +91,19 @@ $(document).ready(function(){initNavTree('maliput__throw_8h.html',''); initResiz
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">maliput_throw.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;string&gt;</code><br />
+<div class="textblock"><code>#include &lt;sstream&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &quot;<a class="el" href="error_8h.html">maliput/common/error.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for maliput_throw.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="maliput__throw_8h__incl.svg" width="138" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="maliput__throw_8h__incl.svg" width="342" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -149,6 +152,13 @@ Macros</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a997f9f257b92b1ff8d991dc50da1e040"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1common_1_1internal.html#a997f9f257b92b1ff8d991dc50da1e040">__attribute__</a> ((noreturn)) void Abort(const char *condition</td></tr>
 <tr class="separator:a997f9f257b92b1ff8d991dc50da1e040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14a3495a0cf8bb36d979ac197535c8b1"><td class="memItemLeft" align="right" valign="top">throw&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1common_1_1internal.html#a14a3495a0cf8bb36d979ac197535c8b1">ExceptionType</a> (what.str())</td></tr>
+<tr class="separator:a14a3495a0cf8bb36d979ac197535c8b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a03f58a3b19e79edb40259c3cefd2d198"><td class="memItemLeft" align="right" valign="top">PrintFailureDetailTo &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1common_1_1internal.html#a03f58a3b19e79edb40259c3cefd2d198">what</a></td></tr>
+<tr class="separator:a03f58a3b19e79edb40259c3cefd2d198"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a9246072f48581aeadb3330267e3e7516"></a>
@@ -205,9 +215,10 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                                       \</div>
-<div class="line">    const std::string error_message(msg);                                                    <a class="code" href="namespacemaliput_1_1common_1_1internal.html#a1adb6d4bdebbb807916d6b9231d14a8e">\</a></div>
-<div class="line"><a class="code" href="namespacemaliput_1_1common_1_1internal.html#a1adb6d4bdebbb807916d6b9231d14a8e">    ::maliput::common::internal::Throw</a>(error_message.c_str(), __func__, __FILE__, __LINE__); \</div>
+<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                                                              \</div>
+<div class="line">    const std::string error_message(msg);                                                                           \</div>
+<div class="line">    ::maliput::common::internal::Throw&lt;maliput::common::assertion_error&gt;(error_message.c_str(), __func__, __FILE__, \</div>
+<div class="line">                                                                         __LINE__);                                 \</div>
 <div class="line">  } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment -->
 <p>Throws an exception with a message showing at least the condition text, function name, file, and line. </p>
@@ -229,9 +240,10 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                                                               \</div>
-<div class="line">    const std::string error_message(msg);                                                                            <a class="code" href="namespacemaliput_1_1common_1_1internal.html#a030b8f7d31a14053c97a478cb2bea05f">\</a></div>
-<div class="line"><a class="code" href="namespacemaliput_1_1common_1_1internal.html#a030b8f7d31a14053c97a478cb2bea05f">    ::maliput::common::internal::ThrowRoadGeometryConstruction</a>(error_message.c_str(), __func__, __FILE__, __LINE__); \</div>
+<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                                     \</div>
+<div class="line">    const std::string error_message(msg);                                                  \</div>
+<div class="line">    ::maliput::common::internal::Throw&lt;maliput::common::road_geometry_construction_error&gt;( \</div>
+<div class="line">        error_message.c_str(), __func__, __FILE__, __LINE__);                              \</div>
 <div class="line">  } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment -->
 <p>Throws a road_geometry_construction_error with a message showing at least the condition text, function name, file, and line. </p>
@@ -253,10 +265,11 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                                                      \</div>
-<div class="line">    if (!(condition)) {                                                                                     <a class="code" href="namespacemaliput_1_1common_1_1internal.html#a030b8f7d31a14053c97a478cb2bea05f">\</a></div>
-<div class="line"><a class="code" href="namespacemaliput_1_1common_1_1internal.html#a030b8f7d31a14053c97a478cb2bea05f">      ::maliput::common::internal::ThrowRoadGeometryConstruction</a>(#condition, __func__, __FILE__, __LINE__); \</div>
-<div class="line">    }                                                                                                       \</div>
+<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                                                            \</div>
+<div class="line">    if (!(condition)) {                                                                                           \</div>
+<div class="line">      ::maliput::common::internal::Throw&lt;maliput::common::road_geometry_construction_error&gt;(#condition, __func__, \</div>
+<div class="line">                                                                                            __FILE__, __LINE__);  \</div>
+<div class="line">    }                                                                                                             \</div>
 <div class="line">  } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment -->
 <p>Evaluates <code>condition</code> and iff the value is false will throw a road_geometry_construction_error with a message showing at least the condition text, function name, file, and line. </p>
@@ -278,10 +291,10 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                                                        \</div>
-<div class="line">    const std::string error_message(msg);                                                                     <a class="code" href="namespacemaliput_1_1common_1_1internal.html#ac0c20a8384cc19bee1923d5eeb407387">\</a></div>
-<div class="line"><a class="code" href="namespacemaliput_1_1common_1_1internal.html#ac0c20a8384cc19bee1923d5eeb407387">    ::maliput::common::internal::ThrowRoadNetworkDescriptionParser</a>(error_message.c_str(), __func__, __FILE__, \</div>
-<div class="line">                                                                   __LINE__);                                 \</div>
+<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                                          \</div>
+<div class="line">    const std::string error_message(msg);                                                       \</div>
+<div class="line">    ::maliput::common::internal::Throw&lt;maliput::common::road_network_description_parser_error&gt;( \</div>
+<div class="line">        error_message.c_str(), __func__, __FILE__, __LINE__);                                   \</div>
 <div class="line">  } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment -->
 <p>Throws a road_network_description_parser_error with a message showing at least the condition text, function name, file, and line. </p>
@@ -303,10 +316,11 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                                                          \</div>
-<div class="line">    if (!(condition)) {                                                                                         <a class="code" href="namespacemaliput_1_1common_1_1internal.html#ac0c20a8384cc19bee1923d5eeb407387">\</a></div>
-<div class="line"><a class="code" href="namespacemaliput_1_1common_1_1internal.html#ac0c20a8384cc19bee1923d5eeb407387">      ::maliput::common::internal::ThrowRoadNetworkDescriptionParser</a>(#condition, __func__, __FILE__, __LINE__); \</div>
-<div class="line">    }                                                                                                           \</div>
+<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                                                                 \</div>
+<div class="line">    if (!(condition)) {                                                                                                \</div>
+<div class="line">      ::maliput::common::internal::Throw&lt;maliput::common::road_network_description_parser_error&gt;(#condition, __func__, \</div>
+<div class="line">                                                                                                 __FILE__, __LINE__);  \</div>
+<div class="line">    }                                                                                                                  \</div>
 <div class="line">  } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment -->
 <p>Evaluates <code>condition</code> and iff the value is false will throw a road_network_description_parser_error with a message showing at least the condition text, function name, file, and line. </p>
@@ -328,10 +342,10 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                              \</div>
-<div class="line">    if (!(condition)) {                                                             <a class="code" href="namespacemaliput_1_1common_1_1internal.html#a1adb6d4bdebbb807916d6b9231d14a8e">\</a></div>
-<div class="line"><a class="code" href="namespacemaliput_1_1common_1_1internal.html#a1adb6d4bdebbb807916d6b9231d14a8e">      ::maliput::common::internal::Throw</a>(#condition, __func__, __FILE__, __LINE__); \</div>
-<div class="line">    }                                                                               \</div>
+<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                                                                \</div>
+<div class="line">    if (!(condition)) {                                                                                               \</div>
+<div class="line">      ::maliput::common::internal::Throw&lt;maliput::common::assertion_error&gt;(#condition, __func__, __FILE__, __LINE__); \</div>
+<div class="line">    }                                                                                                                 \</div>
 <div class="line">  } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment -->
 <p>Evaluates <code>condition</code> and iff the value is false will throw an exception with a message showing at least the condition text, function name, file, and line. </p>
@@ -363,10 +377,11 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                                                \</div>
-<div class="line">    if (!(pred)) {                                                                                    <a class="code" href="namespacemaliput_1_1common_1_1internal.html#a1adb6d4bdebbb807916d6b9231d14a8e">\</a></div>
-<div class="line"><a class="code" href="namespacemaliput_1_1common_1_1internal.html#a1adb6d4bdebbb807916d6b9231d14a8e">      ::maliput::common::internal::Throw</a>(std::string(message).c_str(), __func__, __FILE__, __LINE__); \</div>
-<div class="line">    }                                                                                                 \</div>
+<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> {                                                                                                             \</div>
+<div class="line">    if (!(pred)) {                                                                                                 \</div>
+<div class="line">      ::maliput::common::internal::Throw&lt;maliput::common::assertion_error&gt;(std::string(message).c_str(), __func__, \</div>
+<div class="line">                                                                           __FILE__, __LINE__);                    \</div>
+<div class="line">    }                                                                                                              \</div>
 <div class="line">  } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment --><p>Used to validate that a <code>pred-icate</code> passed into a function or method is true; if not, an exception with <code>message</code> is thrown. </p>
 
@@ -374,10 +389,7 @@ Functions</h2></td></tr>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="anamespacemaliput_1_1common_1_1internal_html_a030b8f7d31a14053c97a478cb2bea05f"><div class="ttname"><a href="namespacemaliput_1_1common_1_1internal.html#a030b8f7d31a14053c97a478cb2bea05f">maliput::common::internal::ThrowRoadGeometryConstruction</a></div><div class="ttdeci">void ThrowRoadGeometryConstruction(const char *condition, const char *func, const char *file, int line)</div><div class="ttdef"><b>Definition:</b> maliput_abort_and_throw.cc:125</div></div>
 <div class="ttc" id="anamespacemaliput_1_1drake_html_a04fe934638081d5266e1b191d2a3ae7d"><div class="ttname"><a href="namespacemaliput_1_1drake.html#a04fe934638081d5266e1b191d2a3ae7d">maliput::drake::to_string</a></div><div class="ttdeci">std::string to_string(const maliput::drake::Identifier&lt; Tag &gt; &amp;id)</div><div class="ttdoc">Enables use of identifiers with to_string.</div><div class="ttdef"><b>Definition:</b> identifier.h:228</div></div>
-<div class="ttc" id="anamespacemaliput_1_1common_1_1internal_html_ac0c20a8384cc19bee1923d5eeb407387"><div class="ttname"><a href="namespacemaliput_1_1common_1_1internal.html#ac0c20a8384cc19bee1923d5eeb407387">maliput::common::internal::ThrowRoadNetworkDescriptionParser</a></div><div class="ttdeci">void ThrowRoadNetworkDescriptionParser(const char *condition, const char *func, const char *file, int line)</div><div class="ttdef"><b>Definition:</b> maliput_abort_and_throw.cc:118</div></div>
-<div class="ttc" id="anamespacemaliput_1_1common_1_1internal_html_a1adb6d4bdebbb807916d6b9231d14a8e"><div class="ttname"><a href="namespacemaliput_1_1common_1_1internal.html#a1adb6d4bdebbb807916d6b9231d14a8e">maliput::common::internal::Throw</a></div><div class="ttdeci">void Throw(const char *condition, const char *func, const char *file, int line)</div><div class="ttdef"><b>Definition:</b> maliput_abort_and_throw.cc:111</div></div>
 <!-- HTML footer for doxygen 1.8.15 -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

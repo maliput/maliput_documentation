@@ -160,8 +160,8 @@ Functions</h2></td></tr>
 <div class="line">    typedef ::maliput::drake::assert::ConditionTraits&lt;<span class="keyword">typename</span> std::remove_cv_t&lt;decltype(condition)&gt;&gt; Trait;     \</div>
 <div class="line">    static_assert(Trait::is_valid, <span class="stringliteral">&quot;Condition should be bool-convertible.&quot;</span>);                                     \</div>
 <div class="line">    <a class="code" href="namespacemaliput_1_1drake_1_1internal.html#a4bdcbd8e35ca94dc55c1d70da84b7c37">::maliput::drake::internal::DrakeThrowUnlessWasUsedWithRawPointer</a>&lt;std::is_pointer_v&lt;decltype(condition)&gt;&gt;(); \</div>
-<div class="line">    if (!Trait::Evaluate(condition)) {                                                                           <a class="code" href="namespacemaliput_1_1common_1_1internal.html#a1adb6d4bdebbb807916d6b9231d14a8e">\</a></div>
-<div class="line"><a class="code" href="namespacemaliput_1_1common_1_1internal.html#a1adb6d4bdebbb807916d6b9231d14a8e">      ::maliput::drake::internal::Throw</a>(#condition, __func__, __FILE__, __LINE__);                               \</div>
+<div class="line">    if (!Trait::Evaluate(condition)) {                                                                           <a class="code" href="namespacemaliput_1_1drake_1_1internal.html#a2fc2284f318fd605ea71cdc006537d00">\</a></div>
+<div class="line"><a class="code" href="namespacemaliput_1_1drake_1_1internal.html#a2fc2284f318fd605ea71cdc006537d00">      ::maliput::drake::internal::Throw</a>(#condition, __func__, __FILE__, __LINE__);                               \</div>
 <div class="line">    }                                                                                                            \</div>
 <div class="line">  } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment -->
@@ -174,8 +174,8 @@ Functions</h2></td></tr>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="anamespacemaliput_1_1drake_1_1internal_html_a2fc2284f318fd605ea71cdc006537d00"><div class="ttname"><a href="namespacemaliput_1_1drake_1_1internal.html#a2fc2284f318fd605ea71cdc006537d00">maliput::drake::internal::Throw</a></div><div class="ttdeci">void Throw(const char *condition, const char *func, const char *file, int line)</div><div class="ttdef"><b>Definition:</b> drake_assert_and_throw.cc:51</div></div>
 <div class="ttc" id="anamespacemaliput_1_1drake_1_1internal_html_a4bdcbd8e35ca94dc55c1d70da84b7c37"><div class="ttname"><a href="namespacemaliput_1_1drake_1_1internal.html#a4bdcbd8e35ca94dc55c1d70da84b7c37">maliput::drake::internal::DrakeThrowUnlessWasUsedWithRawPointer</a></div><div class="ttdeci">constexpr void DrakeThrowUnlessWasUsedWithRawPointer()</div><div class="ttdef"><b>Definition:</b> drake_throw.h:18</div></div>
-<div class="ttc" id="anamespacemaliput_1_1common_1_1internal_html_a1adb6d4bdebbb807916d6b9231d14a8e"><div class="ttname"><a href="namespacemaliput_1_1common_1_1internal.html#a1adb6d4bdebbb807916d6b9231d14a8e">maliput::common::internal::Throw</a></div><div class="ttdeci">void Throw(const char *condition, const char *func, const char *file, int line)</div><div class="ttdef"><b>Definition:</b> maliput_abort_and_throw.cc:111</div></div>
 <!-- HTML footer for doxygen 1.8.15 -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

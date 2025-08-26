@@ -2,8 +2,8 @@ var searchData=
 [
   ['compare_2ecc_3162',['compare.cc',['../math_2compare_8cc.html',1,'']]],
   ['compare_2eh_3163',['compare.h',['../math_2compare_8h.html',1,'']]],
-  ['maliput_5fabort_2eh_3164',['maliput_abort.h',['../maliput__abort_8h.html',1,'']]],
-  ['maliput_5fabort_5fand_5fthrow_2ecc_3165',['maliput_abort_and_throw.cc',['../maliput__abort__and__throw_8cc.html',1,'']]],
+  ['maliput_5fabort_2ecc_3164',['maliput_abort.cc',['../maliput__abort_8cc.html',1,'']]],
+  ['maliput_5fabort_2eh_3165',['maliput_abort.h',['../maliput__abort_8h.html',1,'']]],
   ['maliput_5fcopyable_2eh_3166',['maliput_copyable.h',['../maliput__copyable_8h.html',1,'']]],
   ['maliput_5fdeprecated_2eh_3167',['maliput_deprecated.h',['../maliput__deprecated_8h.html',1,'']]],
   ['maliput_5fdesign_2eh_3168',['maliput_design.h',['../maliput__design_8h.html',1,'']]],

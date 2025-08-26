@@ -2,8 +2,8 @@ var searchData=
 [
   ['macros_2eh_4398',['macros.h',['../macros_8h.html',1,'']]],
   ['maliput_2ecc_4399',['maliput.cc',['../maliput_8cc.html',1,'']]],
-  ['maliput_5fabort_2eh_4400',['maliput_abort.h',['../../../maliput/html/maliput__abort_8h.html.html',1,'']]],
-  ['maliput_5fabort_5fand_5fthrow_2ecc_4401',['maliput_abort_and_throw.cc',['../../../maliput/html/maliput__abort__and__throw_8cc.html.html',1,'']]],
+  ['maliput_5fabort_2ecc_4400',['maliput_abort.cc',['../../../maliput/html/maliput__abort_8cc.html.html',1,'']]],
+  ['maliput_5fabort_2eh_4401',['maliput_abort.h',['../../../maliput/html/maliput__abort_8h.html.html',1,'']]],
   ['maliput_5fcopyable_2eh_4402',['maliput_copyable.h',['../../../maliput/html/maliput__copyable_8h.html.html',1,'']]],
   ['maliput_5fdeprecated_2eh_4403',['maliput_deprecated.h',['../../../maliput/html/maliput__deprecated_8h.html.html',1,'']]],
   ['maliput_5fdesign_2eh_4404',['maliput_design.h',['../../../maliput/html/maliput__design_8h.html.html',1,'']]],

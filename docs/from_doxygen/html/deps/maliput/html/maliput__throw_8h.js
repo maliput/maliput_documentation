@@ -8,5 +8,7 @@ var maliput__throw_8h =
     [ "MALIPUT_THROW_ROAD_NETWORK_DESCRIPTION_PARSER_UNLESS", "maliput__throw_8h.html#ae7fd29366a82fd4f1cbca026de66bf18", null ],
     [ "MALIPUT_THROW_UNLESS", "maliput__throw_8h.html#a56a32f4447ccff45c6563d1302cc27ac", null ],
     [ "MALIPUT_VALIDATE", "maliput__throw_8h.html#a875fe3f91e3799f84dfd8f924014f323", null ],
-    [ "__attribute__", "maliput__throw_8h.html#a997f9f257b92b1ff8d991dc50da1e040", null ]
+    [ "__attribute__", "maliput__throw_8h.html#a997f9f257b92b1ff8d991dc50da1e040", null ],
+    [ "ExceptionType", "maliput__throw_8h.html#a14a3495a0cf8bb36d979ac197535c8b1", null ],
+    [ "what", "maliput__throw_8h.html#a03f58a3b19e79edb40259c3cefd2d198", null ]
 ];

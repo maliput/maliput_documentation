@@ -4521,6 +4521,29 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>maliput_abort.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/common/</path>
+    <filename>maliput__abort_8cc.html</filename>
+    <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::common</namespace>
+    <namespace>maliput::common::internal</namespace>
+    <member kind="function">
+      <type>void</type>
+      <name>Abort</name>
+      <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
+      <anchor>a9dc47715d64b92b8dfb781bb50ba4682</anchor>
+      <arglist>(const char *condition, const char *func, const char *file, int line)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>Abort</name>
+      <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
+      <anchor>aa50fecffef9f6c591e7f367e06c1a4ff</anchor>
+      <arglist>(const char *condition, const char *func, const char *file, int line, const char *extra_details)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>maliput_abort.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/common/</path>
     <filename>maliput__abort_8h.html</filename>
@@ -4575,52 +4598,6 @@
       <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
       <anchor>a1a63baa421186d858d40d4baf283b591</anchor>
       <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>maliput_abort_and_throw.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/common/</path>
-    <filename>maliput__abort__and__throw_8cc.html</filename>
-    <includes id="error_8h" name="error.h" local="yes" imported="no">maliput/common/error.h</includes>
-    <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
-    <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::common</namespace>
-    <namespace>maliput::common::internal</namespace>
-    <member kind="function">
-      <type>void</type>
-      <name>Abort</name>
-      <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
-      <anchor>a9dc47715d64b92b8dfb781bb50ba4682</anchor>
-      <arglist>(const char *condition, const char *func, const char *file, int line)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Abort</name>
-      <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
-      <anchor>aa50fecffef9f6c591e7f367e06c1a4ff</anchor>
-      <arglist>(const char *condition, const char *func, const char *file, int line, const char *extra_details)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Throw</name>
-      <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
-      <anchor>a1adb6d4bdebbb807916d6b9231d14a8e</anchor>
-      <arglist>(const char *condition, const char *func, const char *file, int line)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>ThrowRoadNetworkDescriptionParser</name>
-      <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
-      <anchor>ac0c20a8384cc19bee1923d5eeb407387</anchor>
-      <arglist>(const char *condition, const char *func, const char *file, int line)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>ThrowRoadGeometryConstruction</name>
-      <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
-      <anchor>a030b8f7d31a14053c97a478cb2bea05f</anchor>
-      <arglist>(const char *condition, const char *func, const char *file, int line)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -4896,6 +4873,7 @@
     <name>maliput_throw.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/common/</path>
     <filename>maliput__throw_8h.html</filename>
+    <includes id="error_8h" name="error.h" local="yes" imported="no">maliput/common/error.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::common</namespace>
     <namespace>maliput::common::internal</namespace>
@@ -4961,6 +4939,20 @@
       <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
       <anchor>a997f9f257b92b1ff8d991dc50da1e040</anchor>
       <arglist>((noreturn)) void Abort(const char *condition</arglist>
+    </member>
+    <member kind="function">
+      <type>throw</type>
+      <name>ExceptionType</name>
+      <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
+      <anchor>a14a3495a0cf8bb36d979ac197535c8b1</anchor>
+      <arglist>(what.str())</arglist>
+    </member>
+    <member kind="variable">
+      <type>PrintFailureDetailTo &amp;</type>
+      <name>what</name>
+      <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
+      <anchor>a03f58a3b19e79edb40259c3cefd2d198</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -46702,6 +46694,13 @@
       <arglist>((noreturn)) void Abort(const char *condition</arglist>
     </member>
     <member kind="function">
+      <type>throw</type>
+      <name>ExceptionType</name>
+      <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
+      <anchor>a14a3495a0cf8bb36d979ac197535c8b1</anchor>
+      <arglist>(what.str())</arglist>
+    </member>
+    <member kind="function">
       <type>void</type>
       <name>Abort</name>
       <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
@@ -46714,27 +46713,6 @@
       <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
       <anchor>aa50fecffef9f6c591e7f367e06c1a4ff</anchor>
       <arglist>(const char *condition, const char *func, const char *file, int line, const char *extra_details)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>Throw</name>
-      <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
-      <anchor>a1adb6d4bdebbb807916d6b9231d14a8e</anchor>
-      <arglist>(const char *condition, const char *func, const char *file, int line)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>ThrowRoadNetworkDescriptionParser</name>
-      <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
-      <anchor>ac0c20a8384cc19bee1923d5eeb407387</anchor>
-      <arglist>(const char *condition, const char *func, const char *file, int line)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>ThrowRoadGeometryConstruction</name>
-      <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
-      <anchor>a030b8f7d31a14053c97a478cb2bea05f</anchor>
-      <arglist>(const char *condition, const char *func, const char *file, int line)</arglist>
     </member>
     <member kind="variable">
       <type>const char *</type>
@@ -46762,6 +46740,13 @@
       <name>extra_details</name>
       <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
       <anchor>a1a63baa421186d858d40d4baf283b591</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>PrintFailureDetailTo &amp;</type>
+      <name>what</name>
+      <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
+      <anchor>a03f58a3b19e79edb40259c3cefd2d198</anchor>
       <arglist></arglist>
     </member>
   </compound>
