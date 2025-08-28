@@ -1,5 +1,15 @@
 var NAVTREEINDEX11 =
 {
+"classmaliput_1_1math_1_1_vector3.html#abacbcf9f8111a12d514c23fbb2396dca":[4,0,0,4,11,6],
+"classmaliput_1_1math_1_1_vector3.html#ac40804b7686a1152bcba217dfe5dde6f":[4,0,0,4,11,0],
+"classmaliput_1_1math_1_1_vector3.html#aca424ddaf2902c1cde483f37813d4278":[4,0,0,4,11,12],
+"classmaliput_1_1math_1_1_vector3.html#acb8a5703662ce8da7a5c2f4d8bc0f270":[4,0,0,4,11,5],
+"classmaliput_1_1math_1_1_vector3.html#ad927d9808ded1fc49c05ae9e1a3ed2a6":[4,0,0,4,11,11],
+"classmaliput_1_1math_1_1_vector3.html#ae7bc7213001e326be4d4eb2d8a035c34":[4,0,0,4,11,14],
+"classmaliput_1_1math_1_1_vector3.html#afec7e9f2de12ea746bc37aacb013431a":[4,0,0,4,11,2],
+"classmaliput_1_1math_1_1_vector4.html":[4,0,0,4,12],
+"classmaliput_1_1math_1_1_vector4.html#a2069b7a45eb61e903a767a8f30477c74":[4,0,0,4,12,1],
+"classmaliput_1_1math_1_1_vector4.html#a2134ad02d68f29e9c7cd87e4cd4c75b8":[4,0,0,4,12,15],
 "classmaliput_1_1math_1_1_vector4.html#a3b195b867437acf8de45f48c83e81932":[4,0,0,4,12,11],
 "classmaliput_1_1math_1_1_vector4.html#a5ca5515fecd7fe676bbc2c4f2dd586a1":[4,0,0,4,12,9],
 "classmaliput_1_1math_1_1_vector4.html#a5e76a59ed44a8baaf9d2e598ab215ba0":[4,0,0,4,12,4],
@@ -239,15 +249,5 @@ var NAVTREEINDEX11 =
 "drake__bool_8h.html#a87f661d87ca8519af1494a8c045aef91":[5,0,67,4],
 "drake__bool_8h.html#acfc3e8670f86d1c69eaf29ad072865cc":[5,0,67,7],
 "drake__bool_8h.html#aea88dde6d4dd05c07a631ac8b94ef5e7":[5,0,67,3],
-"drake__copyable_8h.html":[5,0,68],
-"drake__copyable_8h.html#a3ee22789c29a46dddd6a7fd2b982731c":[5,0,68,1],
-"drake__copyable_8h.html#ae6322b9e40935343a422cbdfb41e310e":[5,0,68,0],
-"drake__deprecated_8h.html":[5,0,69],
-"drake__deprecated_8h.html#a847d827d084f28e4ae1788a0ae75be96":[5,0,69,0],
-"drake__throw_8h.html":[5,0,70],
-"drake__throw_8h.html#a2fc2284f318fd605ea71cdc006537d00":[5,0,70,3],
-"drake__throw_8h.html#a4bdcbd8e35ca94dc55c1d70da84b7c37":[5,0,70,1],
-"drake__throw_8h.html#ad05094dfcfee3d0bc0ede508399de0a8":[5,0,70,2],
-"drake__throw_8h.html#af78b366e830763496aed9b17d2659c3a":[5,0,70,0],
-"dummy__value_8h.html":[5,0,71]
+"drake__copyable_8h.html":[5,0,68]
 };

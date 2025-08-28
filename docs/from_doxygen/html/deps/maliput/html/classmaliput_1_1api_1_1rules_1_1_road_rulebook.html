@@ -231,7 +231,7 @@ Protected Member Functions</h2></td></tr>
 <p><code>tolerance</code> is the acceptable linear-tolerance in longitudinal s-coordinate in each range and must be non-negative. A non-zero <code>tolerance</code> makes the query more permissive. However, a non-zero <code>tolerance</code> does not permit matching across BranchPoints (past the s-bounds of a <a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">Lane</a>).</p>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>if <code>tolerance</code> is negative. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1rulebook__error.html" title="Errors involing the Road Rulebook.">maliput::common::rulebook_error</a></td><td>if <code>tolerance</code> is negative. </td></tr>
   </table>
   </dd>
 </dl>

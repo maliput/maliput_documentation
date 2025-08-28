@@ -101,8 +101,13 @@ var hierarchy =
       [ "runtime_error", null, [
         [ "maliput_error", "classmaliput_1_1common_1_1maliput__error.html", [
           [ "assertion_error", "classmaliput_1_1common_1_1assertion__error.html", null ],
+          [ "phase_book_error", "classmaliput_1_1common_1_1phase__book__error.html", null ],
           [ "road_geometry_construction_error", "classmaliput_1_1common_1_1road__geometry__construction__error.html", null ],
-          [ "road_network_description_parser_error", "classmaliput_1_1common_1_1road__network__description__parser__error.html", null ]
+          [ "road_network_description_parser_error", "classmaliput_1_1common_1_1road__network__description__parser__error.html", null ],
+          [ "rule_registry_error", "classmaliput_1_1common_1_1rule__registry__error.html", null ],
+          [ "rulebook_error", "classmaliput_1_1common_1_1rulebook__error.html", null ],
+          [ "state_provider_error", "classmaliput_1_1common_1_1state__provider__error.html", null ],
+          [ "traffic_light_book_error", "classmaliput_1_1common_1_1traffic__light__book__error.html", null ]
         ] ],
         [ "assertion_error", "classmaliput_1_1drake_1_1internal_1_1assertion__error.html", null ]
       ] ]

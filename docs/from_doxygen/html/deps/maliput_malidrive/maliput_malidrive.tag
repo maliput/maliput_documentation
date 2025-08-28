@@ -1193,43 +1193,15 @@
       <type>#define</type>
       <name>MALIDRIVE_THROW_UNLESS</name>
       <anchorfile>macros_8h.html</anchorfile>
-      <anchor>a14f1c09f8ec5380bd2ab18f2c2de2914</anchor>
-      <arglist>(condition)</arglist>
+      <anchor>a55a031b0e190877f53e1cc677b566de0</anchor>
+      <arglist>(...)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>MALIDRIVE_THROW_MESSAGE</name>
       <anchorfile>macros_8h.html</anchorfile>
-      <anchor>a8dad1f57e5b113c87d073e3e066c399f</anchor>
-      <arglist>(msg)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIDRIVE_THROW_ROAD_NETWORK_XODR_PARSER_UNLESS</name>
-      <anchorfile>macros_8h.html</anchorfile>
-      <anchor>a97caadac650836feb5d434f5c0aa273b</anchor>
-      <arglist>(condition)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIDRIVE_THROW_ROAD_NETWORK_XODR_PARSER_MESSAGE</name>
-      <anchorfile>macros_8h.html</anchorfile>
-      <anchor>a93d70ea48380484cc9bf8954d9c5ad42</anchor>
-      <arglist>(msg)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIDRIVE_THROW_ROAD_GEOMETRY_BUILDER_UNLESS</name>
-      <anchorfile>macros_8h.html</anchorfile>
-      <anchor>a3c888d09ca53bb9cede8ddb722679861</anchor>
-      <arglist>(condition)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIDRIVE_THROW_ROAD_GEOMETRY_BUILDER_MESSAGE</name>
-      <anchorfile>macros_8h.html</anchorfile>
-      <anchor>ae2afcf0bbc6ab7e1ce31142fc87de4d7</anchor>
-      <arglist>(msg)</arglist>
+      <anchor>ac7e9afe2062bd120e1443c8d5fb87a01</anchor>
+      <arglist>(...)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>

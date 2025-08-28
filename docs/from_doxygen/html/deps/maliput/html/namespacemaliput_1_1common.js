@@ -11,11 +11,16 @@ var namespacemaliput_1_1common =
     [ "never_destroyed", "classmaliput_1_1common_1_1never__destroyed.html", "classmaliput_1_1common_1_1never__destroyed" ],
     [ "Passkey", "classmaliput_1_1common_1_1_passkey.html", null ],
     [ "Path", "classmaliput_1_1common_1_1_path.html", "classmaliput_1_1common_1_1_path" ],
+    [ "phase_book_error", "classmaliput_1_1common_1_1phase__book__error.html", "classmaliput_1_1common_1_1phase__book__error" ],
     [ "RangeValidator", "classmaliput_1_1common_1_1_range_validator.html", "classmaliput_1_1common_1_1_range_validator" ],
     [ "road_geometry_construction_error", "classmaliput_1_1common_1_1road__geometry__construction__error.html", "classmaliput_1_1common_1_1road__geometry__construction__error" ],
     [ "road_network_description_parser_error", "classmaliput_1_1common_1_1road__network__description__parser__error.html", "classmaliput_1_1common_1_1road__network__description__parser__error" ],
+    [ "rule_registry_error", "classmaliput_1_1common_1_1rule__registry__error.html", "classmaliput_1_1common_1_1rule__registry__error" ],
+    [ "rulebook_error", "classmaliput_1_1common_1_1rulebook__error.html", "classmaliput_1_1common_1_1rulebook__error" ],
     [ "Serialize", "structmaliput_1_1common_1_1_serialize.html", "structmaliput_1_1common_1_1_serialize" ],
     [ "Sink", "classmaliput_1_1common_1_1_sink.html", "classmaliput_1_1common_1_1_sink" ],
     [ "SinkBase", "classmaliput_1_1common_1_1_sink_base.html", "classmaliput_1_1common_1_1_sink_base" ],
+    [ "state_provider_error", "classmaliput_1_1common_1_1state__provider__error.html", "classmaliput_1_1common_1_1state__provider__error" ],
+    [ "traffic_light_book_error", "classmaliput_1_1common_1_1traffic__light__book__error.html", "classmaliput_1_1common_1_1traffic__light__book__error" ],
     [ "uhash", "structmaliput_1_1common_1_1uhash.html", "structmaliput_1_1common_1_1uhash" ]
 ];

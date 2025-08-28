@@ -132,7 +132,12 @@ var files_dup =
       [ "maliput_error", "classmaliput_1_1common_1_1maliput__error.html", "classmaliput_1_1common_1_1maliput__error" ],
       [ "assertion_error", "classmaliput_1_1common_1_1assertion__error.html", "classmaliput_1_1common_1_1assertion__error" ],
       [ "road_network_description_parser_error", "classmaliput_1_1common_1_1road__network__description__parser__error.html", "classmaliput_1_1common_1_1road__network__description__parser__error" ],
-      [ "road_geometry_construction_error", "classmaliput_1_1common_1_1road__geometry__construction__error.html", "classmaliput_1_1common_1_1road__geometry__construction__error" ]
+      [ "road_geometry_construction_error", "classmaliput_1_1common_1_1road__geometry__construction__error.html", "classmaliput_1_1common_1_1road__geometry__construction__error" ],
+      [ "rulebook_error", "classmaliput_1_1common_1_1rulebook__error.html", "classmaliput_1_1common_1_1rulebook__error" ],
+      [ "rule_registry_error", "classmaliput_1_1common_1_1rule__registry__error.html", "classmaliput_1_1common_1_1rule__registry__error" ],
+      [ "traffic_light_book_error", "classmaliput_1_1common_1_1traffic__light__book__error.html", "classmaliput_1_1common_1_1traffic__light__book__error" ],
+      [ "phase_book_error", "classmaliput_1_1common_1_1phase__book__error.html", "classmaliput_1_1common_1_1phase__book__error" ],
+      [ "state_provider_error", "classmaliput_1_1common_1_1state__provider__error.html", "classmaliput_1_1common_1_1state__provider__error" ]
     ] ],
     [ "event.h", "event_8h.html", "event_8h" ],
     [ "event_collection.cc", "event__collection_8cc.html", null ],

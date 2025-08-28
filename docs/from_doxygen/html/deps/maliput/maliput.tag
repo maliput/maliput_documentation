@@ -2432,6 +2432,11 @@
     <class kind="class">maliput::common::assertion_error</class>
     <class kind="class">maliput::common::road_network_description_parser_error</class>
     <class kind="class">maliput::common::road_geometry_construction_error</class>
+    <class kind="class">maliput::common::rulebook_error</class>
+    <class kind="class">maliput::common::rule_registry_error</class>
+    <class kind="class">maliput::common::traffic_light_book_error</class>
+    <class kind="class">maliput::common::phase_book_error</class>
+    <class kind="class">maliput::common::state_provider_error</class>
     <namespace>maliput</namespace>
     <namespace>maliput::common</namespace>
   </compound>
@@ -4879,52 +4884,101 @@
     <namespace>maliput::common::internal</namespace>
     <member kind="define">
       <type>#define</type>
+      <name>MALIPUT_INTERNAL_GET_4TH_ARG</name>
+      <anchorfile>maliput__throw_8h.html</anchorfile>
+      <anchor>a75bef458002e832f369171b500aa5c85</anchor>
+      <arglist>(_1, _2, _3, NAME,...)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_INTERNAL_GET_3RD_ARG</name>
+      <anchorfile>maliput__throw_8h.html</anchorfile>
+      <anchor>a599eacb1738aae50fdf4128ea85f7607</anchor>
+      <arglist>(_1, _2, NAME,...)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_INTERNAL_VALIDATE_MACRO_CHOOSER</name>
+      <anchorfile>maliput__throw_8h.html</anchorfile>
+      <anchor>a0a6903eca23bb70caa945c0a4bc2f413</anchor>
+      <arglist>(...)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_INTERNAL_THROW_MESSAGE_MACRO_CHOOSER</name>
+      <anchorfile>maliput__throw_8h.html</anchorfile>
+      <anchor>a5f9e1bd50993110fdd17147d1e8f6f98</anchor>
+      <arglist>(...)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_INTERNAL_THROW_UNLESS_MACRO_CHOOSER</name>
+      <anchorfile>maliput__throw_8h.html</anchorfile>
+      <anchor>a5426f5aa3dcde82849a6adc7940a3d9f</anchor>
+      <arglist>(...)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_INTERNAL_THROW_UNLESS_2</name>
+      <anchorfile>maliput__throw_8h.html</anchorfile>
+      <anchor>ac7ac8f1f8d7f761753f54d47f44cf30e</anchor>
+      <arglist>(condition)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_INTERNAL_THROW_UNLESS_3</name>
+      <anchorfile>maliput__throw_8h.html</anchorfile>
+      <anchor>a5f72ac5f9a8eebd93c81b7b41e297683</anchor>
+      <arglist>(condition, err_type)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_INTERNAL_THROW_MESSAGE_2</name>
+      <anchorfile>maliput__throw_8h.html</anchorfile>
+      <anchor>a761cb4e3c1c0b655118a8594c60ab1e6</anchor>
+      <arglist>(msg)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_INTERNAL_THROW_MESSAGE_3</name>
+      <anchorfile>maliput__throw_8h.html</anchorfile>
+      <anchor>a414e5f33d749776f507b9c16436cf5cd</anchor>
+      <arglist>(msg, err_type)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_INTERNAL_VALIDATE_3</name>
+      <anchorfile>maliput__throw_8h.html</anchorfile>
+      <anchor>a2a8de692f384e0b777aa87a873ff8f25</anchor>
+      <arglist>(condition, message, error_type)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_INTERNAL_VALIDATE_2</name>
+      <anchorfile>maliput__throw_8h.html</anchorfile>
+      <anchor>ad702c4dffc9e6b6b6b61020df3291e91</anchor>
+      <arglist>(condition, message)</arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
       <name>MALIPUT_THROW_UNLESS</name>
       <anchorfile>maliput__throw_8h.html</anchorfile>
-      <anchor>a56a32f4447ccff45c6563d1302cc27ac</anchor>
-      <arglist>(condition)</arglist>
+      <anchor>ab5041d26ca90661801a6abef97040fa2</anchor>
+      <arglist>(...)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>MALIPUT_THROW_MESSAGE</name>
       <anchorfile>maliput__throw_8h.html</anchorfile>
-      <anchor>a9af2ab72834eff200a35d0543a16b383</anchor>
-      <arglist>(msg)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_THROW_ROAD_NETWORK_DESCRIPTION_PARSER_UNLESS</name>
-      <anchorfile>maliput__throw_8h.html</anchorfile>
-      <anchor>ae7fd29366a82fd4f1cbca026de66bf18</anchor>
-      <arglist>(condition)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_THROW_ROAD_NETWORK_DESCRIPTION_PARSER_MESSAGE</name>
-      <anchorfile>maliput__throw_8h.html</anchorfile>
-      <anchor>a0a741a4c815e6b4820b6badbe8595144</anchor>
-      <arglist>(msg)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_THROW_ROAD_GEOMETRY_CONSTRUCTION_UNLESS</name>
-      <anchorfile>maliput__throw_8h.html</anchorfile>
-      <anchor>a2411791128f758937bfd07923e5c7977</anchor>
-      <arglist>(condition)</arglist>
-    </member>
-    <member kind="define">
-      <type>#define</type>
-      <name>MALIPUT_THROW_ROAD_GEOMETRY_CONSTRUCTION_MESSAGE</name>
-      <anchorfile>maliput__throw_8h.html</anchorfile>
-      <anchor>a9e9feb7c73a23b9bff8e4cc463620dee</anchor>
-      <arglist>(msg)</arglist>
+      <anchor>a58cde2ad468f9d1ef3180748dc5fec35</anchor>
+      <arglist>(...)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
       <name>MALIPUT_VALIDATE</name>
       <anchorfile>maliput__throw_8h.html</anchorfile>
-      <anchor>a875fe3f91e3799f84dfd8f924014f323</anchor>
-      <arglist>(pred, message)</arglist>
+      <anchor>a4665bbb0179e7af1aec495579b64f6e6</anchor>
+      <arglist>(...)</arglist>
     </member>
     <member kind="define">
       <type>#define</type>
@@ -4932,6 +4986,13 @@
       <anchorfile>maliput__throw_8h.html</anchorfile>
       <anchor>a9246072f48581aeadb3330267e3e7516</anchor>
       <arglist>(value, min_value, max_value)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>PrintFailureDetailTo</name>
+      <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
+      <anchor>ac530d3a1a833a39e86c2e5afeeb5c1c2</anchor>
+      <arglist>(std::ostream *out, const char *condition, const char *func, const char *file, int line)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -26767,6 +26828,25 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::geometry_base::test::MockSegment</name>
+    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</filename>
+    <base>maliput::geometry_base::Segment</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
+      <anchor>a667227ded4ffb60bad6d5bf69e104a38</anchor>
+      <arglist>(MockSegment)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MockSegment</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
+      <anchor>a9384ed7a03ee84b8f965a5d156f4efee</anchor>
+      <arglist>(const api::SegmentId &amp;id)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::api::test::MockSegment</name>
     <filename>classmaliput_1_1api_1_1test_1_1_mock_segment.html</filename>
     <base>maliput::api::Segment</base>
@@ -26790,25 +26870,6 @@
       <anchorfile>classmaliput_1_1api_1_1test_1_1_mock_segment.html</anchorfile>
       <anchor>ab18c3ac1d55322f884de6d1313ee2888</anchor>
       <arglist>(std::unique_ptr&lt; MockLane &gt; lane)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::geometry_base::test::MockSegment</name>
-    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</filename>
-    <base>maliput::geometry_base::Segment</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
-      <anchor>a667227ded4ffb60bad6d5bf69e104a38</anchor>
-      <arglist>(MockSegment)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MockSegment</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
-      <anchor>a9384ed7a03ee84b8f965a5d156f4efee</anchor>
-      <arglist>(const api::SegmentId &amp;id)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -28298,6 +28359,18 @@
       <anchorfile>classmaliput_1_1api_1_1rules_1_1_phase.html</anchorfile>
       <anchor>af0069101d3faeadec6ee406dfb87e069</anchor>
       <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::common::phase_book_error</name>
+    <filename>classmaliput_1_1common_1_1phase__book__error.html</filename>
+    <base>maliput::common::maliput_error</base>
+    <member kind="function">
+      <type></type>
+      <name>phase_book_error</name>
+      <anchorfile>classmaliput_1_1common_1_1phase__book__error.html</anchorfile>
+      <anchor>a9dc01069157c154b95bc1a99c27f47b0</anchor>
+      <arglist>(const std::string &amp;what_arg)</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -32722,6 +32795,30 @@
       <arglist>(int severity) const</arglist>
     </member>
   </compound>
+  <compound kind="class">
+    <name>maliput::common::rule_registry_error</name>
+    <filename>classmaliput_1_1common_1_1rule__registry__error.html</filename>
+    <base>maliput::common::maliput_error</base>
+    <member kind="function">
+      <type></type>
+      <name>rule_registry_error</name>
+      <anchorfile>classmaliput_1_1common_1_1rule__registry__error.html</anchorfile>
+      <anchor>a4ca951b92c87eb3c83bbde9f6cef27e9</anchor>
+      <arglist>(const std::string &amp;what_arg)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::common::rulebook_error</name>
+    <filename>classmaliput_1_1common_1_1rulebook__error.html</filename>
+    <base>maliput::common::maliput_error</base>
+    <member kind="function">
+      <type></type>
+      <name>rulebook_error</name>
+      <anchorfile>classmaliput_1_1common_1_1rulebook__error.html</anchorfile>
+      <anchor>acd02001df01996179e57a4a360223adc</anchor>
+      <arglist>(const std::string &amp;what_arg)</arglist>
+    </member>
+  </compound>
   <compound kind="struct">
     <name>maliput::RuleConstants</name>
     <filename>structmaliput_1_1_rule_constants.html</filename>
@@ -33840,6 +33937,18 @@
       <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
       <anchor>a7f1130b023df6bd64569f4bd8af34f5d</anchor>
       <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::common::state_provider_error</name>
+    <filename>classmaliput_1_1common_1_1state__provider__error.html</filename>
+    <base>maliput::common::maliput_error</base>
+    <member kind="function">
+      <type></type>
+      <name>state_provider_error</name>
+      <anchorfile>classmaliput_1_1common_1_1state__provider__error.html</anchorfile>
+      <anchor>a6c1f148347e12dff7b4c9de3db3b97f2</anchor>
+      <arglist>(const std::string &amp;what_arg)</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -39249,6 +39358,18 @@
       <anchorfile>classmaliput_1_1utility_1_1_thread_pool.html</anchorfile>
       <anchor>a61da580fc69a74f3ef17956ba5fd88a0</anchor>
       <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::common::traffic_light_book_error</name>
+    <filename>classmaliput_1_1common_1_1traffic__light__book__error.html</filename>
+    <base>maliput::common::maliput_error</base>
+    <member kind="function">
+      <type></type>
+      <name>traffic_light_book_error</name>
+      <anchorfile>classmaliput_1_1common_1_1traffic__light__book__error.html</anchorfile>
+      <anchor>a60a5c50fe4f327a82e43362a664b4a6d</anchor>
+      <arglist>(const std::string &amp;what_arg)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -46583,12 +46704,17 @@
     <class kind="class">maliput::common::never_destroyed</class>
     <class kind="class">maliput::common::Passkey</class>
     <class kind="class">maliput::common::Path</class>
+    <class kind="class">maliput::common::phase_book_error</class>
     <class kind="class">maliput::common::RangeValidator</class>
     <class kind="class">maliput::common::road_geometry_construction_error</class>
     <class kind="class">maliput::common::road_network_description_parser_error</class>
+    <class kind="class">maliput::common::rule_registry_error</class>
+    <class kind="class">maliput::common::rulebook_error</class>
     <class kind="struct">maliput::common::Serialize</class>
     <class kind="class">maliput::common::Sink</class>
     <class kind="class">maliput::common::SinkBase</class>
+    <class kind="class">maliput::common::state_provider_error</class>
+    <class kind="class">maliput::common::traffic_light_book_error</class>
     <class kind="struct">maliput::common::uhash</class>
     <member kind="typedef">
       <type>internal::FNV1aHasher</type>
@@ -46692,6 +46818,13 @@
       <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
       <anchor>a997f9f257b92b1ff8d991dc50da1e040</anchor>
       <arglist>((noreturn)) void Abort(const char *condition</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>PrintFailureDetailTo</name>
+      <anchorfile>namespacemaliput_1_1common_1_1internal.html</anchorfile>
+      <anchor>ac530d3a1a833a39e86c2e5afeeb5c1c2</anchor>
+      <arglist>(std::ostream *out, const char *condition, const char *func, const char *file, int line)</arglist>
     </member>
     <member kind="function">
       <type>throw</type>
