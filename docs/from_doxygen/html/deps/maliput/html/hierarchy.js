@@ -251,7 +251,7 @@ var hierarchy =
     [ "RuleRegistry::QueryResult", "structmaliput_1_1api_1_1rules_1_1_rule_registry_1_1_query_result.html", null ],
     [ "RoadRulebook::QueryResults", "structmaliput_1_1api_1_1rules_1_1_road_rulebook_1_1_query_results.html", null ],
     [ "RandomGenerator", "classmaliput_1_1drake_1_1_random_generator.html", null ],
-    [ "RangeValidator", "classmaliput_1_1common_1_1_range_validator.html", null ],
+    [ "RangeValidator< ErrorType >", "classmaliput_1_1common_1_1_range_validator.html", null ],
     [ "RangeValueRuleConstants", "structmaliput_1_1_range_value_rule_constants.html", null ],
     [ "RangeValueRuleStateProvider", "classmaliput_1_1api_1_1rules_1_1_range_value_rule_state_provider.html", [
       [ "ManualRangeValueRuleStateProvider", "classmaliput_1_1_manual_range_value_rule_state_provider.html", null ]

@@ -190,7 +190,7 @@ var searchData=
   ['solvelaneendswithinjunction_2765',['SolveLaneEndsWithinJunction',['../namespacemalidrive_1_1builder.html#aa2b44e81a26633a615546fea7227b0f9',1,'malidrive::builder']]],
   ['south_2766',['south',['../structmalidrive_1_1xodr_1_1_header.html#adeaa9efc4c832bde589ffb34260ee336',1,'malidrive::xodr::Header']]],
   ['specular_2767',['specular',['../../../maliput/html/structmaliput_1_1utility_1_1_material.html#a8b9d45bf5658d1190d8c38cff0c78875',1,'maliput::utility::Material']]],
-  ['speed_2768',['Speed',['../structmalidrive_1_1xodr_1_1_lane_1_1_speed.html',1,'Lane::Speed'],['../structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html',1,'RoadType::Speed'],['../structmalidrive_1_1xodr_1_1_lane.html#a0ae8de6a484a57e156734b9ec6efcc4e',1,'malidrive::xodr::Lane::speed()'],['../structmalidrive_1_1xodr_1_1_road_type.html#a69fd594a546a3fd8103b6934d4a59e27',1,'malidrive::xodr::RoadType::speed()']]],
+  ['speed_2768',['Speed',['../structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html',1,'RoadType::Speed'],['../structmalidrive_1_1xodr_1_1_lane_1_1_speed.html',1,'Lane::Speed'],['../structmalidrive_1_1xodr_1_1_lane.html#a0ae8de6a484a57e156734b9ec6efcc4e',1,'malidrive::xodr::Lane::speed()'],['../structmalidrive_1_1xodr_1_1_road_type.html#a69fd594a546a3fd8103b6934d4a59e27',1,'malidrive::xodr::RoadType::speed()']]],
   ['speed_5flimit_2769',['speed_limit',['../../../maliput/html/structmaliput_1_1api_1_1rules_1_1_road_rulebook_1_1_query_results.html#a0a87378b6c2b884a647fd30b8b4dc1f4',1,'maliput::api::rules::RoadRulebook::QueryResults']]],
   ['speed_5flimit_5fbuilder_2ecc_2770',['speed_limit_builder.cc',['../speed__limit__builder_8cc.html',1,'']]],
   ['speed_5flimit_5fbuilder_2eh_2771',['speed_limit_builder.h',['../speed__limit__builder_8h.html',1,'']]],

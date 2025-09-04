@@ -7330,20 +7330,12 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>range_validator.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/common/</path>
-    <filename>range__validator_8cc.html</filename>
-    <includes id="range__validator_8h" name="range_validator.h" local="yes" imported="no">maliput/common/range_validator.h</includes>
-    <includes id="error_8h" name="error.h" local="yes" imported="no">maliput/common/error.h</includes>
-    <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
-    <namespace>maliput</namespace>
-    <namespace>maliput::common</namespace>
-  </compound>
-  <compound kind="file">
     <name>range_validator.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/common/</path>
     <filename>range__validator_8h.html</filename>
+    <includes id="error_8h" name="error.h" local="yes" imported="no">maliput/common/error.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
+    <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <class kind="class">maliput::common::RangeValidator</class>
     <namespace>maliput</namespace>
     <namespace>maliput::common</namespace>
@@ -30849,6 +30841,7 @@
   <compound kind="class">
     <name>maliput::common::RangeValidator</name>
     <filename>classmaliput_1_1common_1_1_range_validator.html</filename>
+    <templarg></templarg>
     <member kind="function">
       <type></type>
       <name>RangeValidator</name>
@@ -30864,17 +30857,17 @@
       <arglist>(double s) const</arglist>
     </member>
     <member kind="function" static="yes">
-      <type>static RangeValidator</type>
+      <type>static RangeValidator&lt; ErrorType &gt;</type>
       <name>GetRelativeEpsilonValidator</name>
       <anchorfile>classmaliput_1_1common_1_1_range_validator.html</anchorfile>
-      <anchor>a1f9f5663c5b393eecf9acaf81e520c55</anchor>
+      <anchor>a3f705f54ac1682e3848783c11ed9cfb0</anchor>
       <arglist>(double min, double max, double tolerance, double epsilon)</arglist>
     </member>
     <member kind="function" static="yes">
-      <type>static RangeValidator</type>
+      <type>static RangeValidator&lt; ErrorType &gt;</type>
       <name>GetAbsoluteEpsilonValidator</name>
       <anchorfile>classmaliput_1_1common_1_1_range_validator.html</anchorfile>
-      <anchor>aaacd0bacdb4158753d2ccc310dd39b0e</anchor>
+      <anchor>a1d0d3b8caba24c842c1edcda6689fd57</anchor>
       <arglist>(double min, double max, double tolerance, double epsilon)</arglist>
     </member>
   </compound>

@@ -412,7 +412,6 @@ var files_dup =
     [ "quaternion.h", "quaternion_8h.html", "quaternion_8h" ],
     [ "random.cc", "random_8cc.html", "random_8cc" ],
     [ "random.h", "random_8h.html", "random_8h" ],
-    [ "range_validator.cc", "range__validator_8cc.html", null ],
     [ "range_validator.h", "range__validator_8h.html", [
       [ "RangeValidator", "classmaliput_1_1common_1_1_range_validator.html", "classmaliput_1_1common_1_1_range_validator" ]
     ] ],

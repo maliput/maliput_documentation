@@ -1,6 +1,5 @@
 var NAVTREEINDEX17 =
 {
-"structmaliput_1_1common_1_1_serialize.html":[4,0,0,1,17],
 "structmaliput_1_1common_1_1_serialize.html#a717986bf2c1fef85dcd7887354bf07c1":[4,0,0,1,17,0],
 "structmaliput_1_1common_1_1uhash.html":[4,0,0,1,22],
 "structmaliput_1_1common_1_1uhash.html#ac98906b29c4381d0121f715fac155440":[4,0,0,1,22,1],
@@ -246,8 +245,9 @@ var NAVTREEINDEX17 =
 "structstd_1_1less_3_01maliput_1_1api_1_1rules_1_1_unique_bulb_group_id_01_4.html#a3128dda2c83128e817d99f5674c335fd":[4,0,1,6,0],
 "structstd_1_1less_3_01maliput_1_1api_1_1rules_1_1_unique_bulb_id_01_4.html":[4,0,1,7],
 "structstd_1_1less_3_01maliput_1_1api_1_1rules_1_1_unique_bulb_id_01_4.html#ad2525270bdf86e8a4b1c0d15132f6821":[4,0,1,7,0],
-"subvector_8cc.html":[5,0,308],
-"subvector_8h.html":[5,0,309],
-"system_8cc.html":[5,0,310],
-"system_8h.html":[5,0,311]
+"subvector_8cc.html":[5,0,307],
+"subvector_8h.html":[5,0,308],
+"system_8cc.html":[5,0,309],
+"system_8h.html":[5,0,310],
+"system__base_8cc.html":[5,0,311]
 };
