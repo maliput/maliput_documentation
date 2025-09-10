@@ -1409,6 +1409,13 @@
       <anchor>ga6d45705a79beda6a1d1fae703a7f4586</anchor>
       <arglist></arglist>
     </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kUseUserDataTrafficDirection</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga1ba0b1cfcae3b336a1a22fe88487a5c4</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>parser.cc</name>
@@ -5568,6 +5575,13 @@
       <anchor>a3d6f641abbebd505c65c7bfde4d4cb89</anchor>
       <arglist></arglist>
     </member>
+    <member kind="variable">
+      <type>bool</type>
+      <name>use_userdata_traffic_direction</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_parser_configuration.html</anchorfile>
+      <anchor>a2b8201628f853e027287d6af63750712</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>malidrive::builder::PhaseProviderBuilder</name>
@@ -6501,6 +6515,13 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
+      <type>bool</type>
+      <name>use_userdata_traffic_direction</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a2b8201628f853e027287d6af63750712</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
       <type>maliput::api::RoadGeometryId</type>
       <name>id</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
@@ -6568,6 +6589,13 @@
       <name>integrator_accuracy_multiplier</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
       <anchor>a40426cfc4ed73940cb62a90b4f84aeb0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>bool</type>
+      <name>use_userdata_traffic_direction</name>
+      <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration.html</anchorfile>
+      <anchor>a2b8201628f853e027287d6af63750712</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -8207,6 +8235,13 @@
       <anchor>ga6d45705a79beda6a1d1fae703a7f4586</anchor>
       <arglist></arglist>
     </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kUseUserDataTrafficDirection</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga1ba0b1cfcae3b336a1a22fe88487a5c4</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="namespace">
     <name>malidrive::builder::rules</name>
@@ -8751,6 +8786,13 @@
       <name>kIntegratorAccuracyMultiplier</name>
       <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
       <anchor>ga6d45705a79beda6a1d1fae703a7f4586</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char const  *</type>
+      <name>kUseUserDataTrafficDirection</name>
+      <anchorfile>group__road__geometry__configuration__builder__keys.html</anchorfile>
+      <anchor>ga1ba0b1cfcae3b336a1a22fe88487a5c4</anchor>
       <arglist></arglist>
     </member>
   </compound>

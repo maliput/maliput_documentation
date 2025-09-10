@@ -12,5 +12,6 @@ var group__road__geometry__configuration__builder__keys =
     [ "kRoadGeometryId", "group__road__geometry__configuration__builder__keys.html#ga65640ac01adf58486da1ff6f92d44c3f", null ],
     [ "kScaleLength", "group__road__geometry__configuration__builder__keys.html#ga10cc3dafe29eccb96fcbd1843f97acab", null ],
     [ "kSimplificationPolicy", "group__road__geometry__configuration__builder__keys.html#ga25a1809a845328b793ca520d5c1c65f5", null ],
-    [ "kStandardStrictnessPolicy", "group__road__geometry__configuration__builder__keys.html#ga118ba6b173fb49c3bf8fb8fbf6292171", null ]
+    [ "kStandardStrictnessPolicy", "group__road__geometry__configuration__builder__keys.html#ga118ba6b173fb49c3bf8fb8fbf6292171", null ],
+    [ "kUseUserDataTrafficDirection", "group__road__geometry__configuration__builder__keys.html#ga1ba0b1cfcae3b336a1a22fe88487a5c4", null ]
 ];

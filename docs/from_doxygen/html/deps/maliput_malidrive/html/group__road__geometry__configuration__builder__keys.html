@@ -138,6 +138,9 @@ Variables</h2></td></tr>
 <tr class="memitem:ga6d45705a79beda6a1d1fae703a7f4586"><td class="memItemLeft" align="right" valign="top">static constexpr char const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__road__geometry__configuration__builder__keys.html#ga6d45705a79beda6a1d1fae703a7f4586">kIntegratorAccuracyMultiplier</a> {&quot;integrator_accuracy_multiplier&quot;}</td></tr>
 <tr class="memdesc:ga6d45705a79beda6a1d1fae703a7f4586"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifier for the accuracy of the integrator used to build each RoadCurve in the <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a>.  <a href="group__road__geometry__configuration__builder__keys.html#ga6d45705a79beda6a1d1fae703a7f4586">More...</a><br /></td></tr>
 <tr class="separator:ga6d45705a79beda6a1d1fae703a7f4586"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1ba0b1cfcae3b336a1a22fe88487a5c4"><td class="memItemLeft" align="right" valign="top">static constexpr char const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__road__geometry__configuration__builder__keys.html#ga1ba0b1cfcae3b336a1a22fe88487a5c4">kUseUserDataTrafficDirection</a> {&quot;use_userdata_traffic_direction&quot;}</td></tr>
+<tr class="memdesc:ga1ba0b1cfcae3b336a1a22fe88487a5c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">True for supporting userData XODR nodes within <a class="el" href="classmalidrive_1_1_lane.html" title="Describes a Lane whose centerline is a offset of a road_curve::RoadCurve at a certain lane offset whi...">Lane</a> XODR nodes.  <a href="group__road__geometry__configuration__builder__keys.html#ga1ba0b1cfcae3b336a1a22fe88487a5c4">More...</a><br /></td></tr>
+<tr class="separator:ga1ba0b1cfcae3b336a1a22fe88487a5c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="ga0e97f7f471a134224c1ce20a25da877d"></a>
@@ -523,6 +526,33 @@ Variables</h2></td></tr>
 </ul>
 </li>
 <li>Default: <em>"permissive"</em> </li>
+</ul>
+
+</div>
+</div>
+<a id="ga1ba0b1cfcae3b336a1a22fe88487a5c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1ba0b1cfcae3b336a1a22fe88487a5c4">&#9670;&nbsp;</a></span>kUseUserDataTrafficDirection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr char const* kUseUserDataTrafficDirection {&quot;use_userdata_traffic_direction&quot;}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True for supporting userData XODR nodes within <a class="el" href="classmalidrive_1_1_lane.html" title="Describes a Lane whose centerline is a offset of a road_curve::RoadCurve at a certain lane offset whi...">Lane</a> XODR nodes. </p>
+<p>If false, they will be ignored. userData are mostly used for traffic direction management, and will override any other traffic direction configuration in the lane it is added in.</p><ul>
+<li>Default: <em>"false"</em> </li>
 </ul>
 
 </div>

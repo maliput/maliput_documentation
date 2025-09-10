@@ -17,5 +17,6 @@ var params_8h =
     [ "kScaleLength", "params_8h.html#ga10cc3dafe29eccb96fcbd1843f97acab", null ],
     [ "kSimplificationPolicy", "params_8h.html#ga25a1809a845328b793ca520d5c1c65f5", null ],
     [ "kStandardStrictnessPolicy", "params_8h.html#ga118ba6b173fb49c3bf8fb8fbf6292171", null ],
-    [ "kTrafficLightBook", "params_8h.html#gaa52290b1f18b24e3f00bd1dc5db5eb53", null ]
+    [ "kTrafficLightBook", "params_8h.html#gaa52290b1f18b24e3f00bd1dc5db5eb53", null ],
+    [ "kUseUserDataTrafficDirection", "params_8h.html#ga1ba0b1cfcae3b336a1a22fe88487a5c4", null ]
 ];

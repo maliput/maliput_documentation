@@ -14,5 +14,6 @@ var structmaliput_1_1integration_1_1_malidrive_build_properties =
     [ "simplification_policy", "structmaliput_1_1integration_1_1_malidrive_build_properties.html#ab820a09ee1222534ce5c025c6bad57a8", null ],
     [ "standard_strictness_policy", "structmaliput_1_1integration_1_1_malidrive_build_properties.html#afb1627ac8c8d5b240ac9cf9581b45061", null ],
     [ "traffic_light_book_file", "structmaliput_1_1integration_1_1_malidrive_build_properties.html#a9d6794d569d56eccfebb3a8b07ea67de", null ],
+    [ "use_userdata_traffic_direction", "structmaliput_1_1integration_1_1_malidrive_build_properties.html#a2b8201628f853e027287d6af63750712", null ],
     [ "xodr_file_path", "structmaliput_1_1integration_1_1_malidrive_build_properties.html#a20fec79b44c01c37309ca8e51191695f", null ]
 ];

@@ -26,5 +26,6 @@ var structmalidrive_1_1builder_1_1_road_geometry_configuration =
     [ "scale_length", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a0568514282864f36cccdacdbd14d57eb", null ],
     [ "simplification_policy", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#acba8be98c96a7e48fb1264efaaed94f4", null ],
     [ "standard_strictness_policy", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a96d8bcd54119d900cf2e64a3ada179e8", null ],
-    [ "tolerances", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a546915ae9fecbffc99a2336942d65d3f", null ]
+    [ "tolerances", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a546915ae9fecbffc99a2336942d65d3f", null ],
+    [ "use_userdata_traffic_direction", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a2b8201628f853e027287d6af63750712", null ]
 ];

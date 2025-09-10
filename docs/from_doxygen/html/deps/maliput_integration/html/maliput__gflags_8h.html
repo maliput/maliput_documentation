@@ -198,6 +198,8 @@ Macros</h2></td></tr>
 <div class="line">  DEFINE_bool(omit_nondrivable_lanes, <span class="keyword">false</span>, <span class="stringliteral">&quot;If true, builder omits non-drivable lanes when building.&quot;</span>);              \</div>
 <div class="line">  DEFINE_double(integrator_accuracy_multiplier, 1.,                                                                    \</div>
 <div class="line">                <span class="stringliteral">&quot;Integrator accuracy multiplier used to build the Road Geometry.&quot;</span>);                                    \</div>
+<div class="line">  DEFINE_bool(use_userdata_traffic_direction, <span class="keyword">false</span>,                                                                   \</div>
+<div class="line">              <span class="stringliteral">&quot;If true, the XODR parser will support userData XODR nodes to override Lane&#39;s travel direction rules.&quot;</span>); \</div>
 <div class="line">  std::optional&lt;double&gt; GetLinearToleranceFlag() {                                                                     \</div>
 <div class="line">    return gflags::GetCommandLineFlagInfoOrDie(<span class="stringliteral">&quot;linear_tolerance&quot;</span>).is_default                                          \</div>
 <div class="line">               ? std::nullopt                                                                                          \</div>
