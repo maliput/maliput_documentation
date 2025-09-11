@@ -220,7 +220,7 @@ var searchData=
   ['getintersections_5009',['GetIntersections',['../../../maliput/html/classmaliput_1_1api_1_1_intersection_book.html#ae65f6b60556d95a4ed031121e0eeb12f',1,'maliput::api::IntersectionBook']]],
   ['getjunction_5010',['GetJunction',['../../../maliput/html/classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html#aaac92efabd328b903465f66fdb4494b1',1,'maliput::api::RoadGeometry::IdIndex']]],
   ['getjunctionid_5011',['GetJunctionId',['../namespacemalidrive_1_1builder.html#ad92ff446a35f40ec0bd87957b5e7197e',1,'malidrive::builder::GetJunctionId(int xodr_track_id, int xodr_lane_section_index)'],['../namespacemalidrive_1_1builder.html#a9f9b00e4e3e8c4d9d7c94df24f2f017c',1,'malidrive::builder::GetJunctionId(int xodr_junction_id)']]],
-  ['getjunctions_5012',['GetJunctions',['../classmalidrive_1_1xodr_1_1_d_b_manager.html#a0665903160da9b77b4663da0fde9a213',1,'malidrive::xodr::DBManager']]],
+  ['getjunctions_5012',['GetJunctions',['../classmalidrive_1_1xodr_1_1_d_b_manager.html#a7903dae65a22b900cec3e434b1de9295',1,'malidrive::xodr::DBManager']]],
   ['getknownuptodate_5013',['GetKnownUpToDate',['../../../maliput/html/classmaliput_1_1drake_1_1systems_1_1_cache_entry.html#afa9b55a7a43bdb10ea04f9621dbd8979',1,'maliput::drake::systems::CacheEntry']]],
   ['getknownuptodateabstract_5014',['GetKnownUpToDateAbstract',['../../../maliput/html/classmaliput_1_1drake_1_1systems_1_1_cache_entry.html#abf790ebeb7d49d7f9181d9a9dc8618a7',1,'maliput::drake::systems::CacheEntry']]],
   ['getlane_5015',['GetLane',['../../../maliput/html/classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html#aa2de7296fba895a18b91321e7c2463ec',1,'maliput::api::RoadGeometry::IdIndex']]],

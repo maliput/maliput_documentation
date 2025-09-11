@@ -13,7 +13,7 @@ var searchData=
   ['simplerulebook_3607',['SimpleRulebook',['../../../maliput/html/classmaliput_1_1_simple_rulebook.html',1,'maliput']]],
   ['sink_3608',['Sink',['../../../maliput/html/classmaliput_1_1common_1_1_sink.html',1,'maliput::common']]],
   ['sinkbase_3609',['SinkBase',['../../../maliput/html/classmaliput_1_1common_1_1_sink_base.html',1,'maliput::common']]],
-  ['speed_3610',['Speed',['../structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html',1,'RoadType::Speed'],['../structmalidrive_1_1xodr_1_1_lane_1_1_speed.html',1,'Lane::Speed']]],
+  ['speed_3610',['Speed',['../structmalidrive_1_1xodr_1_1_lane_1_1_speed.html',1,'Lane::Speed'],['../structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html',1,'RoadType::Speed']]],
   ['speedlimitbuilder_3611',['SpeedLimitBuilder',['../classmalidrive_1_1builder_1_1_speed_limit_builder.html',1,'malidrive::builder']]],
   ['spiral_3612',['Spiral',['../structmalidrive_1_1xodr_1_1_geometry_1_1_spiral.html',1,'malidrive::xodr::Geometry']]],
   ['spiralgroundcurve_3613',['SpiralGroundCurve',['../classmalidrive_1_1road__curve_1_1_spiral_ground_curve.html',1,'malidrive::road_curve']]],

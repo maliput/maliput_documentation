@@ -11,7 +11,7 @@ var builder__tools_8cc =
     [ "is_driveable_lane", "builder__tools_8cc.html#a14bd50eefd7d268587de3d7d36b02cb7", null ],
     [ "SolveLaneEndsForConnectingRoad", "builder__tools_8cc.html#af4c90e9ac4facbd99c46a05b567d233f", null ],
     [ "SolveLaneEndsForInnerLaneSection", "builder__tools_8cc.html#a1b0f112b9e4b345475cf6cd1dd7442f2", null ],
-    [ "SolveLaneEndsForJunction", "builder__tools_8cc.html#addd7b78f08ed81ded4c5d0b5b880d587", null ],
+    [ "SolveLaneEndsForJunction", "builder__tools_8cc.html#a8ed94b43b24d41699e40f3d48e17997e", null ],
     [ "SolveLaneEndsWithinJunction", "builder__tools_8cc.html#aa2b44e81a26633a615546fea7227b0f9", null ],
     [ "VehicleExclusiveValueForXodrLane", "builder__tools_8cc.html#ad85f95a8febc7d906311519498df27f1", null ],
     [ "VehicleUsageAndExclusiveRuleStateValues", "builder__tools_8cc.html#acd27b211238553bfcaddc566885470b0", null ],

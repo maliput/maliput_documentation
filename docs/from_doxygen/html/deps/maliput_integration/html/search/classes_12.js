@@ -15,7 +15,7 @@ var searchData=
   ['sink_3956',['Sink',['../../../maliput/html/classmaliput_1_1common_1_1_sink.html',1,'maliput::common']]],
   ['sinkbase_3957',['SinkBase',['../../../maliput/html/classmaliput_1_1common_1_1_sink_base.html',1,'maliput::common']]],
   ['spec_3958',['Spec',['../../../maliput_multilane/html/classmaliput_1_1multilane_1_1_start_lane_1_1_spec.html',1,'Spec'],['../../../maliput_multilane/html/classmaliput_1_1multilane_1_1_end_lane_1_1_spec.html',1,'EndLane::Spec'],['../../../maliput_multilane/html/classmaliput_1_1multilane_1_1_end_reference_1_1_spec.html',1,'EndReference::Spec'],['../../../maliput_multilane/html/classmaliput_1_1multilane_1_1_start_reference_1_1_spec.html',1,'Spec']]],
-  ['speed_3959',['Speed',['../../../maliput_malidrive/html/structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html',1,'RoadType::Speed'],['../../../maliput_malidrive/html/structmalidrive_1_1xodr_1_1_lane_1_1_speed.html',1,'Lane::Speed']]],
+  ['speed_3959',['Speed',['../../../maliput_malidrive/html/structmalidrive_1_1xodr_1_1_lane_1_1_speed.html',1,'Lane::Speed'],['../../../maliput_malidrive/html/structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html',1,'RoadType::Speed']]],
   ['speedlimitbuilder_3960',['SpeedLimitBuilder',['../../../maliput_malidrive/html/classmalidrive_1_1builder_1_1_speed_limit_builder.html',1,'malidrive::builder']]],
   ['spiral_3961',['Spiral',['../../../maliput_malidrive/html/structmalidrive_1_1xodr_1_1_geometry_1_1_spiral.html',1,'malidrive::xodr::Geometry']]],
   ['spiralgroundcurve_3962',['SpiralGroundCurve',['../../../maliput_malidrive/html/classmalidrive_1_1road__curve_1_1_spiral_ground_curve.html',1,'malidrive::road_curve']]],

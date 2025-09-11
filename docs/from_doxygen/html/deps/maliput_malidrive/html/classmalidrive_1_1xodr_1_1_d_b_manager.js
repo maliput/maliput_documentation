@@ -9,7 +9,7 @@ var classmalidrive_1_1xodr_1_1_d_b_manager =
     [ "DBManager", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a17db4ba7fd1e5191196f720be154d42f", null ],
     [ "~DBManager", "classmalidrive_1_1xodr_1_1_d_b_manager.html#ad99a6c2eabe072deca29bd23e5038c4f", null ],
     [ "GetGeometriesToSimplify", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a03e603447991303f202cc7a71aa31ba5", null ],
-    [ "GetJunctions", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a0665903160da9b77b4663da0fde9a213", null ],
+    [ "GetJunctions", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a7903dae65a22b900cec3e434b1de9295", null ],
     [ "GetLargestElevationGap", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a65a67fe3807f1ed89602b85da1bd8390", null ],
     [ "GetLargestGap", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a69a04b676e289d689a7b333cf91aa246", null ],
     [ "GetLargestGeometry", "classmalidrive_1_1xodr_1_1_d_b_manager.html#aa512b1c2017310dc8c23274e9e93f657", null ],

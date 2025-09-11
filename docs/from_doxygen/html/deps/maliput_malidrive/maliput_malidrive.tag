@@ -42,8 +42,8 @@
       <type>std::vector&lt; maliput::api::LaneEnd &gt;</type>
       <name>SolveLaneEndsForJunction</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>addd7b78f08ed81ded4c5d0b5b880d587</anchor>
-      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, const std::unordered_map&lt; xodr::Junction::Id, xodr::Junction &gt; &amp;junctions, XodrConnectionType connection_type)</arglist>
+      <anchor>a8ed94b43b24d41699e40f3d48e17997e</anchor>
+      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, const std::map&lt; xodr::Junction::Id, xodr::Junction &gt; &amp;junctions, XodrConnectionType connection_type)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; maliput::api::LaneEnd &gt;</type>
@@ -199,8 +199,8 @@
       <type>std::vector&lt; maliput::api::LaneEnd &gt;</type>
       <name>SolveLaneEndsForJunction</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>addd7b78f08ed81ded4c5d0b5b880d587</anchor>
-      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, const std::unordered_map&lt; xodr::Junction::Id, xodr::Junction &gt; &amp;junctions, XodrConnectionType connection_type)</arglist>
+      <anchor>a8ed94b43b24d41699e40f3d48e17997e</anchor>
+      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, const std::map&lt; xodr::Junction::Id, xodr::Junction &gt; &amp;junctions, XodrConnectionType connection_type)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; maliput::api::LaneEnd &gt;</type>
@@ -3105,10 +3105,10 @@
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>const std::unordered_map&lt; Junction::Id, Junction &gt; &amp;</type>
+      <type>const std::map&lt; Junction::Id, Junction &gt; &amp;</type>
       <name>GetJunctions</name>
       <anchorfile>classmalidrive_1_1xodr_1_1_d_b_manager.html</anchorfile>
-      <anchor>a0665903160da9b77b4663da0fde9a213</anchor>
+      <anchor>a7903dae65a22b900cec3e434b1de9295</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -4117,10 +4117,10 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>std::unordered_map&lt; Connection::Id, Connection &gt;</type>
+      <type>std::map&lt; Connection::Id, Connection &gt;</type>
       <name>connections</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_junction.html</anchorfile>
-      <anchor>af724ce0f384785c298b4ea8167b9c25d</anchor>
+      <anchor>a3fe5418842da23c78da2e2b87d9455cb</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
@@ -7281,66 +7281,6 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>malidrive::xodr::RoadType::Speed</name>
-    <filename>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</filename>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a5f45d342c063e4fbbbaa8fd2308cad8a</anchor>
-      <arglist>(const Speed &amp;other) const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator!=</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a7732bb1227795b68ace924cf693cddd1</anchor>
-      <arglist>(const Speed &amp;other) const</arglist>
-    </member>
-    <member kind="variable">
-      <type>std::optional&lt; double &gt;</type>
-      <name>max</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>ab3a77d4ba4dbb0a69e77b738206e0ebe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>Unit</type>
-      <name>unit</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>aaa0d61fcdf7a0b9f0f2b48c9946cbd10</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kSpeedTag</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a06113c1eac1bbfe32139f18dd62a8d98</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kMax</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>ad5a44ed171cd965aa34aa3dda5711d83</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kUnit</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr std::array&lt; const char *, 2 &gt;</type>
-      <name>kUnlimitedSpeedStrings</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a2be0454dbef3ba795b56eb3fa40d36ed</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
     <name>malidrive::xodr::Lane::Speed</name>
     <filename>structmalidrive_1_1xodr_1_1_lane_1_1_speed.html</filename>
     <member kind="function">
@@ -7404,6 +7344,66 @@
       <name>kUnit</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_lane_1_1_speed.html</anchorfile>
       <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::RoadType::Speed</name>
+    <filename>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a5f45d342c063e4fbbbaa8fd2308cad8a</anchor>
+      <arglist>(const Speed &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a7732bb1227795b68ace924cf693cddd1</anchor>
+      <arglist>(const Speed &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>max</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>ab3a77d4ba4dbb0a69e77b738206e0ebe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Unit</type>
+      <name>unit</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>aaa0d61fcdf7a0b9f0f2b48c9946cbd10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kSpeedTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a06113c1eac1bbfe32139f18dd62a8d98</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kMax</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>ad5a44ed171cd965aa34aa3dda5711d83</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kUnit</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr std::array&lt; const char *, 2 &gt;</type>
+      <name>kUnlimitedSpeedStrings</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a2be0454dbef3ba795b56eb3fa40d36ed</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -7878,8 +7878,8 @@
       <type>std::vector&lt; maliput::api::LaneEnd &gt;</type>
       <name>SolveLaneEndsForJunction</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>addd7b78f08ed81ded4c5d0b5b880d587</anchor>
-      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, const std::unordered_map&lt; xodr::Junction::Id, xodr::Junction &gt; &amp;junctions, XodrConnectionType connection_type)</arglist>
+      <anchor>a8ed94b43b24d41699e40f3d48e17997e</anchor>
+      <arglist>(const maliput::api::RoadGeometry *rg, const MalidriveXodrLaneProperties &amp;xodr_lane_properties, const std::map&lt; xodr::RoadHeader::Id, xodr::RoadHeader &gt; &amp;road_headers, const std::map&lt; xodr::Junction::Id, xodr::Junction &gt; &amp;junctions, XodrConnectionType connection_type)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; maliput::api::LaneEnd &gt;</type>
