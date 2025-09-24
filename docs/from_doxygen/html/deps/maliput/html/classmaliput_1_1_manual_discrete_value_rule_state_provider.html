@@ -386,9 +386,9 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">std::out_of_range</td><td>When <code>id</code> is unrecognized by the <code>rulebook</code> specified at time of construction. </td></tr>
-    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html">common::assertion_error</a></td><td>When <code>state</code> does not match any state in <a class="el" href="classmaliput_1_1api_1_1rules_1_1_discrete_value_rule.html#aa30ba990802f08f3aa4e3a411961b16f">DiscreteValueRule::states()</a>. </td></tr>
-    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html">common::assertion_error</a></td><td>When <code>next_state</code> does not match any state in <a class="el" href="classmaliput_1_1api_1_1rules_1_1_discrete_value_rule.html#aa30ba990802f08f3aa4e3a411961b16f">DiscreteValueRule::states()</a>. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1rulebook__error.html" title="Errors involing the Road Rulebook.">common::rulebook_error</a></td><td>When <code>id</code> is unrecognized by the <code>rulebook</code> specified at time of construction. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1state__provider__error.html" title="Errors involing the StateProvider.">common::state_provider_error</a></td><td>When <code>state</code> does not match any state in <a class="el" href="classmaliput_1_1api_1_1rules_1_1_discrete_value_rule.html#aa30ba990802f08f3aa4e3a411961b16f">DiscreteValueRule::states()</a>. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1state__provider__error.html" title="Errors involing the StateProvider.">common::state_provider_error</a></td><td>When <code>next_state</code> does not match any state in <a class="el" href="classmaliput_1_1api_1_1rules_1_1_discrete_value_rule.html#aa30ba990802f08f3aa4e3a411961b16f">DiscreteValueRule::states()</a>. </td></tr>
     <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html">common::assertion_error</a></td><td>When <code>duration_until</code> is not positive or it is provided when <code>next_state</code> is nullopt. </td></tr>
   </table>
   </dd>

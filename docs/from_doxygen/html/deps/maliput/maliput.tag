@@ -32173,17 +32173,17 @@
       <arglist>(const DirectionUsageRule::Id &amp;id) const</arglist>
     </member>
     <member kind="function">
-      <type>DiscreteValueRule</type>
+      <type>std::optional&lt; DiscreteValueRule &gt;</type>
       <name>GetDiscreteValueRule</name>
       <anchorfile>classmaliput_1_1api_1_1rules_1_1_road_rulebook.html</anchorfile>
-      <anchor>a47010dd5e2e82fcc17eda38db466f032</anchor>
+      <anchor>a1a8dcf37e9cb751b82a2978818f5c065</anchor>
       <arglist>(const Rule::Id &amp;id) const</arglist>
     </member>
     <member kind="function">
-      <type>RangeValueRule</type>
+      <type>std::optional&lt; RangeValueRule &gt;</type>
       <name>GetRangeValueRule</name>
       <anchorfile>classmaliput_1_1api_1_1rules_1_1_road_rulebook.html</anchorfile>
-      <anchor>a66fd081310b70a90ee4b07e82a64ac10</anchor>
+      <anchor>a1d047a9503dcad70006e510ab1b912c1</anchor>
       <arglist>(const Rule::Id &amp;id) const</arglist>
     </member>
     <member kind="function" protection="protected">
