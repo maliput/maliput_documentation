@@ -116,6 +116,10 @@ $(document).ready(function(){initNavTree('structmalidrive_1_1xodr_1_1_geometry.h
 <div class="line">            &lt;<span class="keywordtype">geometry</span> <span class="keyword">s</span>=<span class="stringliteral">&quot;0.0000000000000000e+00&quot;</span> <span class="keyword">x</span>=<span class="stringliteral">&quot;0.0&quot;</span> <span class="keyword">y</span>=<span class="stringliteral">&quot;0.0&quot;</span> <span class="keyword">hdg</span>=<span class="stringliteral">&quot;0.0&quot;</span> <span class="keyword">length</span>=<span class="stringliteral">&quot;100.0&quot;</span>&gt;</div>
 <div class="line">                &lt;<span class="keywordtype">spiral</span> <span class="keyword">curvStart</span>=<span class="stringliteral">&quot;0.025&quot;</span> <span class="keyword">curvEnd</span>=<span class="stringliteral">&quot;0.05&quot;</span>/&gt;</div>
 <div class="line">            &lt;/<span class="keywordtype">geometry</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">geometry</span> <span class="keyword">s</span>=<span class="stringliteral">&quot;0.0000000000000000e+00&quot;</span> <span class="keyword">x</span>=<span class="stringliteral">&quot;0.0&quot;</span> <span class="keyword">y</span>=<span class="stringliteral">&quot;0.0&quot;</span> <span class="keyword">hdg</span>=<span class="stringliteral">&quot;0.0&quot;</span> <span class="keyword">length</span>=<span class="stringliteral">&quot;100.0&quot;</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">paramPoly3</span> <span class="keyword">aU</span>=<span class="stringliteral">&quot;0.0&quot;</span> <span class="keyword">bU</span>=<span class="stringliteral">&quot;1.0&quot;</span> <span class="keyword">cU</span>=<span class="stringliteral">&quot;0.0&quot;</span> <span class="keyword">dU</span>=<span class="stringliteral">&quot;0.0&quot;</span> <span class="keyword">aV</span>=<span class="stringliteral">&quot;0.0&quot;</span> <span class="keyword">bV</span>=<span class="stringliteral">&quot;0.0&quot;</span> <span class="keyword">cV</span>=<span class="stringliteral">&quot;0.1&quot;</span> <span class="keyword">dV</span>=<span class="stringliteral">&quot;0.0&quot;</span></div>
+<div class="line">                <span class="keyword">pRange</span>=<span class="stringliteral">&quot;arcLength&quot;</span>/&gt;</div>
+<div class="line">            &lt;/<span class="keywordtype">geometry</span>&gt;</div>
 <div class="line">        &lt;/<span class="keywordtype">planView</span>&gt;</div>
 <div class="line">    ...</div>
 <div class="line">&lt;/<span class="keywordtype">OpenDRIVE</span>&gt;</div>
@@ -130,6 +134,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1xodr_1_1_geometry_1_1_line.html">Line</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structmalidrive_1_1xodr_1_1_geometry_1_1_line.html" title="Line geometry description.">Line</a> geometry description.  <a href="structmalidrive_1_1xodr_1_1_geometry_1_1_line.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html">ParamPoly3</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html" title="ParamPoly3 geometry description.">ParamPoly3</a> geometry description.  <a href="structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1xodr_1_1_geometry_1_1_spiral.html">Spiral</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structmalidrive_1_1xodr_1_1_geometry_1_1_spiral.html" title="Spiral geometry description.">Spiral</a> geometry description.  <a href="structmalidrive_1_1xodr_1_1_geometry_1_1_spiral.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,7 +145,8 @@ Classes</h2></td></tr>
 Public Types</h2></td></tr>
 <tr class="memitem:a1d1cfd8ffb84e947f82999c682b666a7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a> { <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7aee669fa7b5a35d96a396d4ed648afb45">kLine</a> = 0, 
 <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7af20a3b1298346c2b7d0d17925491217b">kArc</a>, 
-<a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7a47f741a9428ad966bd733a3d9b6027f8">kSpiral</a>
+<a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7a47f741a9428ad966bd733a3d9b6027f8">kSpiral</a>, 
+<a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7aac3ec43fa5ec4586685ec29309c21123">kParamPoly3</a>
  }</td></tr>
 <tr class="memdesc:a1d1cfd8ffb84e947f82999c682b666a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains the types of geometric elements.  <a href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7">More...</a><br /></td></tr>
 <tr class="separator:a1d1cfd8ffb84e947f82999c682b666a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,9 +186,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ab6f4e6d3fde00ce906e46494f60dfe7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#ab6f4e6d3fde00ce906e46494f60dfe7a">type</a> {<a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7aee669fa7b5a35d96a396d4ed648afb45">Type::kLine</a>}</td></tr>
 <tr class="memdesc:ab6f4e6d3fde00ce906e46494f60dfe7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of geometric element.  <a href="structmalidrive_1_1xodr_1_1_geometry.html#ab6f4e6d3fde00ce906e46494f60dfe7a">More...</a><br /></td></tr>
 <tr class="separator:ab6f4e6d3fde00ce906e46494f60dfe7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4e245bab28cee5d3766bea9a9182f77"><td class="memItemLeft" align="right" valign="top">std::variant&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_geometry_1_1_line.html">Line</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_geometry_1_1_arc.html">Arc</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_geometry_1_1_spiral.html">Spiral</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#aa4e245bab28cee5d3766bea9a9182f77">description</a></td></tr>
-<tr class="memdesc:aa4e245bab28cee5d3766bea9a9182f77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Description of the geometric type.  <a href="structmalidrive_1_1xodr_1_1_geometry.html#aa4e245bab28cee5d3766bea9a9182f77">More...</a><br /></td></tr>
-<tr class="separator:aa4e245bab28cee5d3766bea9a9182f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d91db0a6acef922c8d06cd8aadaad03"><td class="memItemLeft" align="right" valign="top">std::variant&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_geometry_1_1_line.html">Line</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_geometry_1_1_arc.html">Arc</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_geometry_1_1_spiral.html">Spiral</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html">ParamPoly3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a8d91db0a6acef922c8d06cd8aadaad03">description</a></td></tr>
+<tr class="memdesc:a8d91db0a6acef922c8d06cd8aadaad03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Description of the geometric type.  <a href="structmalidrive_1_1xodr_1_1_geometry.html#a8d91db0a6acef922c8d06cd8aadaad03">More...</a><br /></td></tr>
+<tr class="separator:a8d91db0a6acef922c8d06cd8aadaad03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -232,6 +240,7 @@ Related Functions</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1d1cfd8ffb84e947f82999c682b666a7aee669fa7b5a35d96a396d4ed648afb45"></a>kLine&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a1d1cfd8ffb84e947f82999c682b666a7af20a3b1298346c2b7d0d17925491217b"></a>kArc&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a1d1cfd8ffb84e947f82999c682b666a7a47f741a9428ad966bd733a3d9b6027f8"></a>kSpiral&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1d1cfd8ffb84e947f82999c682b666a7aac3ec43fa5ec4586685ec29309c21123"></a>kParamPoly3&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -394,14 +403,14 @@ Related Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aa4e245bab28cee5d3766bea9a9182f77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4e245bab28cee5d3766bea9a9182f77">&#9670;&nbsp;</a></span>description</h2>
+<a id="a8d91db0a6acef922c8d06cd8aadaad03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d91db0a6acef922c8d06cd8aadaad03">&#9670;&nbsp;</a></span>description</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::variant&lt;<a class="el" href="structmalidrive_1_1xodr_1_1_geometry_1_1_line.html">Line</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_geometry_1_1_arc.html">Arc</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_geometry_1_1_spiral.html">Spiral</a>&gt; description</td>
+          <td class="memname">std::variant&lt;<a class="el" href="structmalidrive_1_1xodr_1_1_geometry_1_1_line.html">Line</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_geometry_1_1_arc.html">Arc</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_geometry_1_1_spiral.html">Spiral</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html">ParamPoly3</a>&gt; description</td>
         </tr>
       </table>
 </div><div class="memdoc">

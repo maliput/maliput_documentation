@@ -701,6 +701,7 @@
     <class kind="struct">malidrive::xodr::Geometry::Line</class>
     <class kind="struct">malidrive::xodr::Geometry::Arc</class>
     <class kind="struct">malidrive::xodr::Geometry::Spiral</class>
+    <class kind="struct">malidrive::xodr::Geometry::ParamPoly3</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
   </compound>
@@ -1277,6 +1278,24 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>param_poly3_ground_curve.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
+    <filename>param__poly3__ground__curve_8cc.html</filename>
+    <includes id="param__poly3__ground__curve_8h" name="param_poly3_ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/param_poly3_ground_curve.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::road_curve</namespace>
+  </compound>
+  <compound kind="file">
+    <name>param_poly3_ground_curve.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/road_curve/</path>
+    <filename>param__poly3__ground__curve_8h.html</filename>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <includes id="ground__curve_8h" name="ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/ground_curve.h</includes>
+    <class kind="class">malidrive::road_curve::ParamPoly3GroundCurve</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::road_curve</namespace>
+  </compound>
+  <compound kind="file">
     <name>params.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/include/maliput_malidrive/builder/</path>
     <filename>params_8h.html</filename>
@@ -1688,6 +1707,7 @@
     <includes id="arc__ground__curve_8h" name="arc_ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/arc_ground_curve.h</includes>
     <includes id="cubic__polynomial_8h" name="cubic_polynomial.h" local="yes" imported="no">maliput_malidrive/road_curve/cubic_polynomial.h</includes>
     <includes id="line__ground__curve_8h" name="line_ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/line_ground_curve.h</includes>
+    <includes id="param__poly3__ground__curve_8h" name="param_poly3_ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/param_poly3_ground_curve.h</includes>
     <includes id="piecewise__ground__curve_8h" name="piecewise_ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/piecewise_ground_curve.h</includes>
     <includes id="spiral__ground__curve_8h" name="spiral_ground_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/spiral_ground_curve.h</includes>
     <namespace>malidrive</namespace>
@@ -3556,6 +3576,7 @@
     <filename>structmalidrive_1_1xodr_1_1_geometry.html</filename>
     <class kind="struct">malidrive::xodr::Geometry::Arc</class>
     <class kind="struct">malidrive::xodr::Geometry::Line</class>
+    <class kind="struct">malidrive::xodr::Geometry::ParamPoly3</class>
     <class kind="struct">malidrive::xodr::Geometry::Spiral</class>
     <member kind="enumeration">
       <type></type>
@@ -3566,6 +3587,7 @@
       <enumvalue file="structmalidrive_1_1xodr_1_1_geometry.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7aee669fa7b5a35d96a396d4ed648afb45">kLine</enumvalue>
       <enumvalue file="structmalidrive_1_1xodr_1_1_geometry.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7af20a3b1298346c2b7d0d17925491217b">kArc</enumvalue>
       <enumvalue file="structmalidrive_1_1xodr_1_1_geometry.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a47f741a9428ad966bd733a3d9b6027f8">kSpiral</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_geometry.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7aac3ec43fa5ec4586685ec29309c21123">kParamPoly3</enumvalue>
     </member>
     <member kind="function">
       <type>bool</type>
@@ -3631,10 +3653,10 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>std::variant&lt; Line, Arc, Spiral &gt;</type>
+      <type>std::variant&lt; Line, Arc, Spiral, ParamPoly3 &gt;</type>
       <name>description</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_geometry.html</anchorfile>
-      <anchor>aa4e245bab28cee5d3766bea9a9182f77</anchor>
+      <anchor>a8d91db0a6acef922c8d06cd8aadaad03</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
@@ -4520,59 +4542,6 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>malidrive::xodr::Connection::LaneLink</name>
-    <filename>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</filename>
-    <member kind="typedef">
-      <type>maliput::api::TypeSpecificIdentifier&lt; struct LaneLink &gt;</type>
-      <name>Id</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
-      <anchor>a4ac7167646e1c7dc87c15625640afa64</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
-      <anchor>a2eacaa79dc6f320e9bc9c80f742ad190</anchor>
-      <arglist>(const LaneLink &amp;other) const</arglist>
-    </member>
-    <member kind="variable">
-      <type>Id</type>
-      <name>from</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
-      <anchor>abf6ae62e898efbdf47848ef4438cb21b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>Id</type>
-      <name>to</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
-      <anchor>a4d4b3f3eca59a8b47e9ed7787c1a23cd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kLaneLinkTag</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
-      <anchor>af9d8a971b8c42780232977e66805b1dc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kFrom</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
-      <anchor>a3cac54aa9ccb1db4ce4877d0e79a105f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kTo</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
-      <anchor>a4e60ff57325f35bec47336e16415aff3</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
     <name>malidrive::xodr::LaneLink</name>
     <filename>structmalidrive_1_1xodr_1_1_lane_link.html</filename>
     <class kind="struct">malidrive::xodr::LaneLink::LinkAttributes</class>
@@ -4623,6 +4592,59 @@
       <name>kSuccessorTag</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_lane_link.html</anchorfile>
       <anchor>a8d82f00d2135ae5a221035d1b0cd9be8</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::Connection::LaneLink</name>
+    <filename>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</filename>
+    <member kind="typedef">
+      <type>maliput::api::TypeSpecificIdentifier&lt; struct LaneLink &gt;</type>
+      <name>Id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
+      <anchor>a4ac7167646e1c7dc87c15625640afa64</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
+      <anchor>a2eacaa79dc6f320e9bc9c80f742ad190</anchor>
+      <arglist>(const LaneLink &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>Id</type>
+      <name>from</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
+      <anchor>abf6ae62e898efbdf47848ef4438cb21b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Id</type>
+      <name>to</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
+      <anchor>a4d4b3f3eca59a8b47e9ed7787c1a23cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kLaneLinkTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
+      <anchor>af9d8a971b8c42780232977e66805b1dc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kFrom</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
+      <anchor>a3cac54aa9ccb1db4ce4877d0e79a105f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kTo</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</anchorfile>
+      <anchor>a4e60ff57325f35bec47336e16415aff3</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -5491,6 +5513,187 @@
       <arglist></arglist>
     </member>
   </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::Geometry::ParamPoly3</name>
+    <filename>structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html</filename>
+    <member kind="enumeration">
+      <type></type>
+      <name>PRange</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html</anchorfile>
+      <anchor>a62ec5e0291bd892b7dc4682dadc5d7db</anchor>
+      <arglist></arglist>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html" anchor="a62ec5e0291bd892b7dc4682dadc5d7dbae42097e11d783922780d9fe2851474a7">kArcLength</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html" anchor="a62ec5e0291bd892b7dc4682dadc5d7dbadf946a622dd64ef99228dcf0645dc6a8">kNormalized</enumvalue>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html</anchorfile>
+      <anchor>a6c96096bf9903deaf3b225529a3b19f3</anchor>
+      <arglist>(const ParamPoly3 &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>aU</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html</anchorfile>
+      <anchor>ade64e9a76f6750cbc5a5ddd6c3937902</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>bU</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html</anchorfile>
+      <anchor>a9d64d6780efa8e70168526385fa11d1a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>cU</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html</anchorfile>
+      <anchor>abc6e5441bd77c40111fe4a55a09a27b2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>dU</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html</anchorfile>
+      <anchor>ac633897c2b95ddd9173e0a673317cc16</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>aV</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html</anchorfile>
+      <anchor>a2ae6eae5b3a36885674d4fe1e1d285f5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>bV</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html</anchorfile>
+      <anchor>a88bd1a06410a64a8ff1d87516de8f8d0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>cV</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html</anchorfile>
+      <anchor>a00a64f77a5b27ef6932b81ac66ce2bfb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>dV</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html</anchorfile>
+      <anchor>a7d37d2b57d250f90a90a7deebf15ec95</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>PRange</type>
+      <name>p_range</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html</anchorfile>
+      <anchor>a50978aee8e2cf03c51ffe1642654a795</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kAU</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html</anchorfile>
+      <anchor>a167568e2464a62defd03a56a74e6d81a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kBU</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html</anchorfile>
+      <anchor>a94e384406ae519c7e3250844ebe7f014</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kCU</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html</anchorfile>
+      <anchor>abd361e3dcf01e36a9dd325b09fcb7183</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kDU</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html</anchorfile>
+      <anchor>ae26eeaf7febdb1e9fc670d524466257c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kAV</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html</anchorfile>
+      <anchor>a03b87eb8dceda654e037ca0ebc55dc9b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kBV</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html</anchorfile>
+      <anchor>ad5764027210d249db56bf89e9d651fb6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kCV</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html</anchorfile>
+      <anchor>abbd6734521bdfa66d399fce4d4fa960b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kDV</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html</anchorfile>
+      <anchor>aab289296bcb33ccb10c7ea67655960ca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kPRange</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html</anchorfile>
+      <anchor>aadf60e2fcf3880a3ea96352f7abd12e8</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>malidrive::road_curve::ParamPoly3GroundCurve</name>
+    <filename>classmalidrive_1_1road__curve_1_1_param_poly3_ground_curve.html</filename>
+    <base>malidrive::road_curve::GroundCurve</base>
+    <member kind="enumeration">
+      <type></type>
+      <name>PRangeType</name>
+      <anchorfile>classmalidrive_1_1road__curve_1_1_param_poly3_ground_curve.html</anchorfile>
+      <anchor>a1f53931d46e1be60dae53202c5d1e6fc</anchor>
+      <arglist></arglist>
+      <enumvalue file="classmalidrive_1_1road__curve_1_1_param_poly3_ground_curve.html" anchor="a1f53931d46e1be60dae53202c5d1e6fcae42097e11d783922780d9fe2851474a7">kArcLength</enumvalue>
+      <enumvalue file="classmalidrive_1_1road__curve_1_1_param_poly3_ground_curve.html" anchor="a1f53931d46e1be60dae53202c5d1e6fcadf946a622dd64ef99228dcf0645dc6a8">kNormalized</enumvalue>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MALIDRIVE_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmalidrive_1_1road__curve_1_1_param_poly3_ground_curve.html</anchorfile>
+      <anchor>a7fae623a42c20468179121b9477caf75</anchor>
+      <arglist>(ParamPoly3GroundCurve)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>ParamPoly3GroundCurve</name>
+      <anchorfile>classmalidrive_1_1road__curve_1_1_param_poly3_ground_curve.html</anchorfile>
+      <anchor>a848b18602439222af58a0533310ab657</anchor>
+      <arglist>()=delete</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>ParamPoly3GroundCurve</name>
+      <anchorfile>classmalidrive_1_1road__curve_1_1_param_poly3_ground_curve.html</anchorfile>
+      <anchor>af6738481a8ce0ad8b7b30b132ef81005</anchor>
+      <arglist>(double linear_tolerance, const maliput::math::Vector2 &amp;xy0, double heading0, double aU, double bU, double cU, double dU, double aV, double bV, double cV, double dV, double arc_length, double p0, double p1, PRangeType p_range)</arglist>
+    </member>
+  </compound>
   <compound kind="class">
     <name>malidrive::xodr::ParserBase</name>
     <filename>classmalidrive_1_1xodr_1_1_parser_base.html</filename>
@@ -5982,6 +6185,13 @@
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; road_curve::GroundCurve &gt;</type>
+      <name>MakeParamPoly3GroundCurve</name>
+      <anchorfile>classmalidrive_1_1builder_1_1_road_curve_factory.html</anchorfile>
+      <anchor>abf26ce57efb1ebc07fec1516d7dd181e</anchor>
+      <arglist>(const xodr::Geometry &amp;param_poly3_geometry) const override</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; road_curve::GroundCurve &gt;</type>
       <name>MakePiecewiseGroundCurve</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_curve_factory.html</anchorfile>
       <anchor>af4519cbd16d307ae8a3eef3e2a4b95ca</anchor>
@@ -6088,6 +6298,13 @@
       <anchorfile>classmalidrive_1_1builder_1_1_road_curve_factory_base.html</anchorfile>
       <anchor>abbcd94de9f8d7164e9f95597c57b563e</anchor>
       <arglist>(const xodr::Geometry &amp;spiral_geometry) const =0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual std::unique_ptr&lt; road_curve::GroundCurve &gt;</type>
+      <name>MakeParamPoly3GroundCurve</name>
+      <anchorfile>classmalidrive_1_1builder_1_1_road_curve_factory_base.html</anchorfile>
+      <anchor>abb6e342783494881cf4b038393274cc8</anchor>
+      <arglist>(const xodr::Geometry &amp;param_poly3_geometry) const =0</arglist>
     </member>
     <member kind="function" virtualness="pure">
       <type>virtual std::unique_ptr&lt; road_curve::GroundCurve &gt;</type>
@@ -8383,6 +8600,7 @@
     <class kind="class">malidrive::road_curve::GroundCurve</class>
     <class kind="class">malidrive::road_curve::LaneOffset</class>
     <class kind="class">malidrive::road_curve::LineGroundCurve</class>
+    <class kind="class">malidrive::road_curve::ParamPoly3GroundCurve</class>
     <class kind="class">malidrive::road_curve::PiecewiseFunction</class>
     <class kind="class">malidrive::road_curve::PiecewiseGroundCurve</class>
     <class kind="class">malidrive::road_curve::RoadCurve</class>

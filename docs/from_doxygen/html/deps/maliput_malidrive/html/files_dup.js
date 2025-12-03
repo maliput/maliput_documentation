@@ -48,7 +48,8 @@ var files_dup =
       [ "Geometry", "structmalidrive_1_1xodr_1_1_geometry.html", "structmalidrive_1_1xodr_1_1_geometry" ],
       [ "Line", "structmalidrive_1_1xodr_1_1_geometry_1_1_line.html", "structmalidrive_1_1xodr_1_1_geometry_1_1_line" ],
       [ "Arc", "structmalidrive_1_1xodr_1_1_geometry_1_1_arc.html", "structmalidrive_1_1xodr_1_1_geometry_1_1_arc" ],
-      [ "Spiral", "structmalidrive_1_1xodr_1_1_geometry_1_1_spiral.html", "structmalidrive_1_1xodr_1_1_geometry_1_1_spiral" ]
+      [ "Spiral", "structmalidrive_1_1xodr_1_1_geometry_1_1_spiral.html", "structmalidrive_1_1xodr_1_1_geometry_1_1_spiral" ],
+      [ "ParamPoly3", "structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html", "structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3" ]
     ] ],
     [ "ground_curve.h", "ground__curve_8h.html", [
       [ "GroundCurve", "classmalidrive_1_1road__curve_1_1_ground_curve.html", "classmalidrive_1_1road__curve_1_1_ground_curve" ]
@@ -111,6 +112,10 @@ var files_dup =
     [ "macros.h", "macros_8h.html", "macros_8h" ],
     [ "offset.cc", "offset_8cc.html", "offset_8cc" ],
     [ "offset.h", "offset_8h.html", "offset_8h" ],
+    [ "param_poly3_ground_curve.cc", "param__poly3__ground__curve_8cc.html", null ],
+    [ "param_poly3_ground_curve.h", "param__poly3__ground__curve_8h.html", [
+      [ "ParamPoly3GroundCurve", "classmalidrive_1_1road__curve_1_1_param_poly3_ground_curve.html", "classmalidrive_1_1road__curve_1_1_param_poly3_ground_curve" ]
+    ] ],
     [ "params.h", "params_8h.html", "params_8h" ],
     [ "parser.cc", "parser_8cc.html", "parser_8cc" ],
     [ "parser.h", "parser_8h.html", "parser_8h" ],

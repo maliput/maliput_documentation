@@ -133,6 +133,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abbcd94de9f8d7164e9f95597c57b563e"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_ground_curve.html">road_curve::GroundCurve</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#abbcd94de9f8d7164e9f95597c57b563e">MakeSpiralGroundCurve</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html">xodr::Geometry</a> &amp;spiral_geometry) const =0</td></tr>
 <tr class="memdesc:abbcd94de9f8d7164e9f95597c57b563e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a <a class="el" href="classmalidrive_1_1road__curve_1_1_spiral_ground_curve.html" title="GroundCurve specification for a reference curve that describes a clothoid or Euler spiral.">road_curve::SpiralGroundCurve</a>.  <a href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#abbcd94de9f8d7164e9f95597c57b563e">More...</a><br /></td></tr>
 <tr class="separator:abbcd94de9f8d7164e9f95597c57b563e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb6e342783494881cf4b038393274cc8"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_ground_curve.html">road_curve::GroundCurve</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#abb6e342783494881cf4b038393274cc8">MakeParamPoly3GroundCurve</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html">xodr::Geometry</a> &amp;param_poly3_geometry) const =0</td></tr>
+<tr class="memdesc:abb6e342783494881cf4b038393274cc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a <a class="el" href="classmalidrive_1_1road__curve_1_1_param_poly3_ground_curve.html" title="GroundCurve specification for a reference curve that describes a parametric cubic polynomial in the g...">road_curve::ParamPoly3GroundCurve</a>.  <a href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#abb6e342783494881cf4b038393274cc8">More...</a><br /></td></tr>
+<tr class="separator:abb6e342783494881cf4b038393274cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a513ba553ccdee5766a3e6816eb7b260b"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="classmalidrive_1_1road__curve_1_1_ground_curve.html">road_curve::GroundCurve</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a513ba553ccdee5766a3e6816eb7b260b">MakePiecewiseGroundCurve</a> (const std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html">xodr::Geometry</a> &gt; &amp;geometries) const =0</td></tr>
 <tr class="memdesc:a513ba553ccdee5766a3e6816eb7b260b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a <a class="el" href="classmalidrive_1_1road__curve_1_1_piecewise_ground_curve.html" title="GroundCurve specification for a reference curve that is described as a piecewise ground curve.">road_curve::PiecewiseGroundCurve</a>.  <a href="classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a513ba553ccdee5766a3e6816eb7b260b">More...</a><br /></td></tr>
 <tr class="separator:a513ba553ccdee5766a3e6816eb7b260b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -796,6 +799,50 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>A road_curve::MalidriveGroundCurve. </dd></dl>
 
 <p>Implemented in <a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory.html#a72d60f0043c37ec50893588c5475b058">RoadCurveFactory</a>.</p>
+
+</div>
+</div>
+<a id="abb6e342783494881cf4b038393274cc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb6e342783494881cf4b038393274cc8">&#9670;&nbsp;</a></span>MakeParamPoly3GroundCurve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::unique_ptr&lt;<a class="el" href="classmalidrive_1_1road__curve_1_1_ground_curve.html">road_curve::GroundCurve</a>&gt; MakeParamPoly3GroundCurve </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html">xodr::Geometry</a> &amp;&#160;</td>
+          <td class="paramname"><em>param_poly3_geometry</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Makes a <a class="el" href="classmalidrive_1_1road__curve_1_1_param_poly3_ground_curve.html" title="GroundCurve specification for a reference curve that describes a parametric cubic polynomial in the g...">road_curve::ParamPoly3GroundCurve</a>. </p>
+<p>Its linear tolerance will be the constructor argument.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">param_poly3_geometry</td><td><a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html" title="Holds the values of a XODR description&#39;s geometry header.">xodr::Geometry</a> definition to construct a <a class="el" href="classmalidrive_1_1road__curve_1_1_param_poly3_ground_curve.html" title="GroundCurve specification for a reference curve that describes a parametric cubic polynomial in the g...">road_curve::ParamPoly3GroundCurve</a>. Its type must be <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7aac3ec43fa5ec4586685ec29309c21123">xodr::Geometry::Type::kParamPoly3</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="classmalidrive_1_1road__curve_1_1_param_poly3_ground_curve.html" title="GroundCurve specification for a reference curve that describes a parametric cubic polynomial in the g...">road_curve::ParamPoly3GroundCurve</a>. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__geometry__construction__error.html">maliput::common::road_geometry_construction_error</a></td><td>When <code>param_poly3_geometry.type</code> is not <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html#a1d1cfd8ffb84e947f82999c682b666a7aac3ec43fa5ec4586685ec29309c21123">xodr::Geometry::Type::kParamPoly3</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="classmalidrive_1_1builder_1_1_road_curve_factory.html#abf26ce57efb1ebc07fec1516d7dd181e">RoadCurveFactory</a>.</p>
 
 </div>
 </div>

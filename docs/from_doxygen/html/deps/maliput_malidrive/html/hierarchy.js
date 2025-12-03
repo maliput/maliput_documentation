@@ -22,6 +22,7 @@ var hierarchy =
     [ "GroundCurve", "classmalidrive_1_1road__curve_1_1_ground_curve.html", [
       [ "ArcGroundCurve", "classmalidrive_1_1road__curve_1_1_arc_ground_curve.html", null ],
       [ "LineGroundCurve", "classmalidrive_1_1road__curve_1_1_line_ground_curve.html", null ],
+      [ "ParamPoly3GroundCurve", "classmalidrive_1_1road__curve_1_1_param_poly3_ground_curve.html", null ],
       [ "PiecewiseGroundCurve", "classmalidrive_1_1road__curve_1_1_piecewise_ground_curve.html", null ],
       [ "SpiralGroundCurve", "classmalidrive_1_1road__curve_1_1_spiral_ground_curve.html", null ],
       [ "GroundCurveStub", "classmalidrive_1_1road__curve_1_1test_1_1_ground_curve_stub.html", null ]
@@ -34,8 +35,8 @@ var hierarchy =
       ] ]
     ] ],
     [ "Lane", "structmalidrive_1_1xodr_1_1_lane.html", null ],
-    [ "Connection::LaneLink", "structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html", null ],
     [ "LaneLink", "structmalidrive_1_1xodr_1_1_lane_link.html", null ],
+    [ "Connection::LaneLink", "structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html", null ],
     [ "LaneOffset", "structmalidrive_1_1xodr_1_1_lane_offset.html", null ],
     [ "Lanes", "structmalidrive_1_1xodr_1_1_lanes.html", null ],
     [ "LaneSection", "structmalidrive_1_1xodr_1_1_lane_section.html", null ],
@@ -49,6 +50,7 @@ var hierarchy =
     [ "Offset", "structmalidrive_1_1xodr_1_1_offset.html", null ],
     [ "RoadGeometry::OpenScenarioLanePosition", "structmalidrive_1_1_road_geometry_1_1_open_scenario_lane_position.html", null ],
     [ "RoadGeometry::OpenScenarioRoadPosition", "structmalidrive_1_1_road_geometry_1_1_open_scenario_road_position.html", null ],
+    [ "Geometry::ParamPoly3", "structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html", null ],
     [ "ParserBase", "classmalidrive_1_1xodr_1_1_parser_base.html", [
       [ "AttributeParser", "classmalidrive_1_1xodr_1_1_attribute_parser.html", null ],
       [ "NodeParser", "classmalidrive_1_1xodr_1_1_node_parser.html", null ]

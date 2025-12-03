@@ -13,6 +13,7 @@ var classmalidrive_1_1builder_1_1_road_curve_factory_base =
     [ "MakeLaneWidth", "classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a347656885085be82ff4eff6cbfecff59", null ],
     [ "MakeLineGroundCurve", "classmalidrive_1_1builder_1_1_road_curve_factory_base.html#aa56b53a0cd2de148c04f9aa2d75a9a2b", null ],
     [ "MakeMalidriveRoadCurve", "classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a4bd114eb6578f056cf4bc788f68fd36f", null ],
+    [ "MakeParamPoly3GroundCurve", "classmalidrive_1_1builder_1_1_road_curve_factory_base.html#abb6e342783494881cf4b038393274cc8", null ],
     [ "MakePiecewiseGroundCurve", "classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a513ba553ccdee5766a3e6816eb7b260b", null ],
     [ "MakeReferenceLineOffset", "classmalidrive_1_1builder_1_1_road_curve_factory_base.html#a0af9e5cd5878c3067a14a40e2271cf6c", null ],
     [ "MakeSpiralGroundCurve", "classmalidrive_1_1builder_1_1_road_curve_factory_base.html#abbcd94de9f8d7164e9f95597c57b563e", null ],
