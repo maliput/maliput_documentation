@@ -99,8 +99,8 @@ var NAVTREEINDEX2 =
 "namespacemalidrive_1_1builder.html":[3,0,0,1],
 "namespacemalidrive_1_1builder.html":[4,0,0,1],
 "namespacemalidrive_1_1builder_1_1params.html":[3,0,0,1,0],
-"namespacemalidrive_1_1builder_1_1rules.html":[3,0,0,1,1],
 "namespacemalidrive_1_1builder_1_1rules.html":[4,0,0,1,0],
+"namespacemalidrive_1_1builder_1_1rules.html":[3,0,0,1,1],
 "namespacemalidrive_1_1constants.html":[3,0,0,2],
 "namespacemalidrive_1_1loader.html":[3,0,0,3],
 "namespacemalidrive_1_1plugin.html":[3,0,0,4],
@@ -152,8 +152,9 @@ var NAVTREEINDEX2 =
 "phase__provider__builder_8cc.html":[5,0,66],
 "phase__provider__builder_8h.html":[5,0,67],
 "piecewise__function_8cc.html":[5,0,68],
-"piecewise__function_8cc.html#a628d801d093e5d9b41ecaa82592ee92d":[5,0,68,1],
-"piecewise__function_8cc.html#ac84de999d0dfb40d60268737c0d5fa42":[5,0,68,0],
+"piecewise__function_8cc.html#a431eb859e83ca3c4cc6328ce160546e5":[5,0,68,2],
+"piecewise__function_8cc.html#ac84de999d0dfb40d60268737c0d5fa42":[5,0,68,1],
+"piecewise__function_8cc.html#af9278150a483f6145046e0a2d997086c":[5,0,68,0],
 "piecewise__function_8h.html":[5,0,69],
 "piecewise__ground__curve_8cc.html":[5,0,70],
 "piecewise__ground__curve_8cc.html#a6a6b7ad51a19a2fcf7e454c1d7892300":[5,0,70,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "structmalidrive_1_1builder_1_1_build_policy.html#a1d1cfd8ffb84e947f82999c682b666a7":[4,0,0,1,1,0],
 "structmalidrive_1_1builder_1_1_build_policy.html#a1d1cfd8ffb84e947f82999c682b666a7a3cbad2056039d59b167df820052b0424":[4,0,0,1,1,0,0],
 "structmalidrive_1_1builder_1_1_build_policy.html#a1d1cfd8ffb84e947f82999c682b666a7a61d36a44ac6c754fb5b9d4eb458fca90":[4,0,0,1,1,0,1],
-"structmalidrive_1_1builder_1_1_build_policy.html#a828474ecb230ccb2ee68318812dee750":[4,0,0,1,1,3],
-"structmalidrive_1_1builder_1_1_build_policy.html#ab6f4e6d3fde00ce906e46494f60dfe7a":[4,0,0,1,1,4]
+"structmalidrive_1_1builder_1_1_build_policy.html#a828474ecb230ccb2ee68318812dee750":[4,0,0,1,1,3]
 };

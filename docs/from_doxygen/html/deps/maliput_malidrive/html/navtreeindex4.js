@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"structmalidrive_1_1xodr_1_1_lane.html#a115913579470a479655652c456af0922":[4,0,0,3,8,19],
 "structmalidrive_1_1xodr_1_1_lane.html#a13687f309393b1232b46edc2197a5057":[4,0,0,3,8,15],
 "structmalidrive_1_1xodr_1_1_lane.html#a150a709e86e7134d17cd063de6810b6c":[4,0,0,3,8,17],
 "structmalidrive_1_1xodr_1_1_lane.html#a16070fec015d2a7065c60c1499c0779a":[4,0,0,3,8,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "structmalidrive_1_1xodr_1_1_road_type.html#a1d1cfd8ffb84e947f82999c682b666a7a0bafa2cd94cbc86b53ec5908f2a42640":[4,0,0,3,23,1,6],
 "structmalidrive_1_1xodr_1_1_road_type.html#a1d1cfd8ffb84e947f82999c682b666a7a1fc4caecfea6c0758df5035c0a0462dd":[4,0,0,3,23,1,11],
 "structmalidrive_1_1xodr_1_1_road_type.html#a1d1cfd8ffb84e947f82999c682b666a7a25c2dc47991b3df171ed5192bcf70390":[4,0,0,3,23,1,0],
-"structmalidrive_1_1xodr_1_1_road_type.html#a1d1cfd8ffb84e947f82999c682b666a7a40794b17b0fac7bfdff7724a897ff488":[4,0,0,3,23,1,2],
-"structmalidrive_1_1xodr_1_1_road_type.html#a1d1cfd8ffb84e947f82999c682b666a7a4180a88db793aacfd9d2eb777b5cba42":[4,0,0,3,23,1,1]
+"structmalidrive_1_1xodr_1_1_road_type.html#a1d1cfd8ffb84e947f82999c682b666a7a40794b17b0fac7bfdff7724a897ff488":[4,0,0,3,23,1,2]
 };

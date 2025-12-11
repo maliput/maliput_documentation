@@ -1523,9 +1523,16 @@
     <namespace>malidrive::road_curve</namespace>
     <member kind="variable">
       <type>const double</type>
-      <name>tolerance</name>
+      <name>linear_tolerance</name>
       <anchorfile>piecewise__function_8cc.html</anchorfile>
-      <anchor>a628d801d093e5d9b41ecaa82592ee92d</anchor>
+      <anchor>a431eb859e83ca3c4cc6328ce160546e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const double</type>
+      <name>angular_tolerance</name>
+      <anchorfile>piecewise__function_8cc.html</anchorfile>
+      <anchor>af9278150a483f6145046e0a2d997086c</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -5821,15 +5828,15 @@
       <type></type>
       <name>PiecewiseFunction</name>
       <anchorfile>classmalidrive_1_1road__curve_1_1_piecewise_function.html</anchorfile>
-      <anchor>a525e9e592e04e277a98ecd58df3dd150</anchor>
-      <arglist>(std::vector&lt; std::unique_ptr&lt; Function &gt;&gt; functions, double tolerance, const ContinuityCheck &amp;continuity_check)</arglist>
+      <anchor>ac3b9a417d0358bd2b8414f8e6613e8ee</anchor>
+      <arglist>(std::vector&lt; std::unique_ptr&lt; Function &gt;&gt; functions, double linear_tolerance, double angular_tolerance, const ContinuityCheck &amp;continuity_check)</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>PiecewiseFunction</name>
       <anchorfile>classmalidrive_1_1road__curve_1_1_piecewise_function.html</anchorfile>
-      <anchor>a20e4a148733a41739a82fbfe8855e95a</anchor>
-      <arglist>(std::vector&lt; std::unique_ptr&lt; Function &gt;&gt; functions, double tolerance)</arglist>
+      <anchor>a56e2b7be7c04be3be076adf362715e21</anchor>
+      <arglist>(std::vector&lt; std::unique_ptr&lt; Function &gt;&gt; functions, double linear_tolerance, double angular_tolerance)</arglist>
     </member>
   </compound>
   <compound kind="class">
