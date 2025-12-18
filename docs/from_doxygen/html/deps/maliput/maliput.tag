@@ -4235,6 +4235,38 @@
     <class kind="class">maliput::api::HBounds</class>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
+    <member kind="enumeration">
+      <type></type>
+      <name>LaneType</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a2e5ecaab42b966e76a474f365da28e33</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a272d136eaede345ee6262834afc3c533">kDriving</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a93e026b035316bd2e27673dccb7bda19">kTurn</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33af6e47e6af03579836cf43ccbbcbda302">kHov</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a863b6d2ba01aadc33e92389a371ead42">kBus</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33ab7910ca904fe538a902d7ae755cdb40d">kTaxi</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a1921cdd35fc6d7638aa9b2c7fc55cdef">kEmergency</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a4668e8ae558810f4b2da12b27038da59">kShoulder</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a61e874ca80f934069779baf753be57bb">kBiking</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a3725287747e33c885c5767e3c03416d0">kWalking</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a2f1b49aef4a81f0f9b4e7f0e1b9b90ac">kParking</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a97bebae73e3334ef0c946c5df81e440b">kStop</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33ad317cdd2163e23360fa4cd63e68e4ccb">kBorder</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a1cf4801e886e6175656f48edb7f665c7">kCurb</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33afc0c69ca269010f09ab0218150315477">kMedian</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33ae412484be1c558bb641a11d900b98f6b">kRestricted</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a4479d5fe99f9f0c7dff9b1a8fe517207">kConstruction</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a6f3bb53eda4bb3b33b4796d1b66c2ea4">kRail</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a73f5df6d8b5f83cae53811e096b500f6">kEntry</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33ac2477f77de6d38233af46d78ec777846">kExit</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a06a9578fed397bd6cd7edc2197685160">kOnRamp</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a45a86cf3effe802f11af77d79961c4a5">kOffRamp</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33abd5abcd9974e27aec39713ec74954c41">kConnectingRamp</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a5cbb078e5c8c313086fcdc04b391b326">kSlipLane</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33af2dc25c8e1ec3e89e6861e816a1e5bda">kVirtual</enumvalue>
+    </member>
     <member kind="function">
       <type>std::ostream &amp;</type>
       <name>operator&lt;&lt;</name>
@@ -23955,6 +23987,13 @@
       <anchor>a0f0303065df0aa69138d691204a97f90</anchor>
       <arglist>() override=default</arglist>
     </member>
+    <member kind="variable" protection="protected">
+      <type>api::LaneType</type>
+      <name>type_</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane.html</anchorfile>
+      <anchor>a5bed9e2e5d51960035835ea2c6cfa395</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>maliput::api::Lane</name>
@@ -24028,6 +24067,13 @@
       <anchorfile>classmaliput_1_1api_1_1_lane.html</anchorfile>
       <anchor>a9bd2cab5a5873c0210caa33a1067f85a</anchor>
       <arglist>(double s, double r) const</arglist>
+    </member>
+    <member kind="function">
+      <type>LaneType</type>
+      <name>type</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane.html</anchorfile>
+      <anchor>a4bf913b7de72d78c1accac161d1c0960</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="function">
       <type>InertialPosition</type>
@@ -45627,6 +45673,38 @@
       <anchorfile>namespacemaliput_1_1api.html</anchorfile>
       <anchor>a405b9288d31a542db4352153419edba1</anchor>
       <arglist></arglist>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>LaneType</name>
+      <anchorfile>namespacemaliput_1_1api.html</anchorfile>
+      <anchor>a2e5ecaab42b966e76a474f365da28e33</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a272d136eaede345ee6262834afc3c533">kDriving</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a93e026b035316bd2e27673dccb7bda19">kTurn</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33af6e47e6af03579836cf43ccbbcbda302">kHov</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a863b6d2ba01aadc33e92389a371ead42">kBus</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33ab7910ca904fe538a902d7ae755cdb40d">kTaxi</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a1921cdd35fc6d7638aa9b2c7fc55cdef">kEmergency</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a4668e8ae558810f4b2da12b27038da59">kShoulder</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a61e874ca80f934069779baf753be57bb">kBiking</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a3725287747e33c885c5767e3c03416d0">kWalking</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a2f1b49aef4a81f0f9b4e7f0e1b9b90ac">kParking</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a97bebae73e3334ef0c946c5df81e440b">kStop</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33ad317cdd2163e23360fa4cd63e68e4ccb">kBorder</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a1cf4801e886e6175656f48edb7f665c7">kCurb</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33afc0c69ca269010f09ab0218150315477">kMedian</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33ae412484be1c558bb641a11d900b98f6b">kRestricted</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a4479d5fe99f9f0c7dff9b1a8fe517207">kConstruction</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a6f3bb53eda4bb3b33b4796d1b66c2ea4">kRail</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a73f5df6d8b5f83cae53811e096b500f6">kEntry</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33ac2477f77de6d38233af46d78ec777846">kExit</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a06a9578fed397bd6cd7edc2197685160">kOnRamp</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a45a86cf3effe802f11af77d79961c4a5">kOffRamp</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33abd5abcd9974e27aec39713ec74954c41">kConnectingRamp</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a5cbb078e5c8c313086fcdc04b391b326">kSlipLane</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33af2dc25c8e1ec3e89e6861e816a1e5bda">kVirtual</enumvalue>
     </member>
     <member kind="function">
       <type>common::ComparisonResult&lt; LanePositionResult &gt;</type>

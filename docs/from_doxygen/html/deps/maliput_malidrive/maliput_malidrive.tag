@@ -973,6 +973,7 @@
     <includes id="function_8h" name="function.h" local="yes" imported="no">maliput_malidrive/road_curve/function.h</includes>
     <includes id="road__curve_8h" name="road_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/road_curve.h</includes>
     <includes id="road__curve__offset_8h" name="road_curve_offset.h" local="yes" imported="no">maliput_malidrive/road_curve/road_curve_offset.h</includes>
+    <includes id="xodr_2lane_8h" name="xodr/lane.h" local="yes" imported="no">maliput_malidrive/xodr/lane.h</includes>
     <class kind="class">malidrive::Lane</class>
     <namespace>malidrive</namespace>
   </compound>
@@ -4196,8 +4197,8 @@
       <type></type>
       <name>Lane</name>
       <anchorfile>classmalidrive_1_1_lane.html</anchorfile>
-      <anchor>a08f960c29e777c4e19aa65ea2a062308</anchor>
-      <arglist>(const maliput::api::LaneId &amp;id, int xodr_track, int xodr_lane_id, const maliput::api::HBounds &amp;elevation_bounds, const road_curve::RoadCurve *road_curve, std::unique_ptr&lt; road_curve::Function &gt; lane_width, std::unique_ptr&lt; road_curve::Function &gt; lane_offset, double p0, double p1, double integrator_accuracy_multiplier)</arglist>
+      <anchor>a8c7fbff251fc331064fbe2ec98488218</anchor>
+      <arglist>(const maliput::api::LaneId &amp;id, int xodr_track, int xodr_lane_id, const maliput::api::HBounds &amp;elevation_bounds, const road_curve::RoadCurve *road_curve, std::unique_ptr&lt; road_curve::Function &gt; lane_width, std::unique_ptr&lt; road_curve::Function &gt; lane_offset, double p0, double p1, double integrator_accuracy_multiplier, xodr::Lane::Type lane_type)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
@@ -4285,6 +4286,7 @@
       <enumvalue file="structmalidrive_1_1xodr_1_1_lane.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a97bebae73e3334ef0c946c5df81e440b">kStop</enumvalue>
       <enumvalue file="structmalidrive_1_1xodr_1_1_lane.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a4668e8ae558810f4b2da12b27038da59">kShoulder</enumvalue>
       <enumvalue file="structmalidrive_1_1xodr_1_1_lane.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a61e874ca80f934069779baf753be57bb">kBiking</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_lane.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a3725287747e33c885c5767e3c03416d0">kWalking</enumvalue>
       <enumvalue file="structmalidrive_1_1xodr_1_1_lane.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7ab6d7217d995976660965274262ebdc85">kSidewalk</enumvalue>
       <enumvalue file="structmalidrive_1_1xodr_1_1_lane.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7ad317cdd2163e23360fa4cd63e68e4ccb">kBorder</enumvalue>
       <enumvalue file="structmalidrive_1_1xodr_1_1_lane.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7ae412484be1c558bb641a11d900b98f6b">kRestricted</enumvalue>
@@ -4303,6 +4305,7 @@
       <enumvalue file="structmalidrive_1_1xodr_1_1_lane.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a45a86cf3effe802f11af77d79961c4a5">kOffRamp</enumvalue>
       <enumvalue file="structmalidrive_1_1xodr_1_1_lane.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a06a9578fed397bd6cd7edc2197685160">kOnRamp</enumvalue>
       <enumvalue file="structmalidrive_1_1xodr_1_1_lane.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7abd5abcd9974e27aec39713ec74954c41">kConnectingRamp</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_lane.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a5cbb078e5c8c313086fcdc04b391b326">kSlipLane</enumvalue>
       <enumvalue file="structmalidrive_1_1xodr_1_1_lane.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a863b6d2ba01aadc33e92389a371ead42">kBus</enumvalue>
       <enumvalue file="structmalidrive_1_1xodr_1_1_lane.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7ab7910ca904fe538a902d7ae755cdb40d">kTaxi</enumvalue>
       <enumvalue file="structmalidrive_1_1xodr_1_1_lane.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a5cb89bbc017dd232f6fdfa722da8c72e">kHOV</enumvalue>

@@ -92,6 +92,7 @@ $(document).ready(function(){initNavTree('namespacemaliput_1_1api.html',''); ini
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">maliput::api Namespace Reference</div>  </div>
@@ -202,6 +203,45 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a405b9288d31a542db4352153419edba1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api.html#a405b9288d31a542db4352153419edba1">SegmentId</a> = <a class="el" href="classmaliput_1_1api_1_1_type_specific_identifier.html">TypeSpecificIdentifier</a>&lt; class <a class="el" href="classmaliput_1_1api_1_1_segment.html">Segment</a> &gt;</td></tr>
 <tr class="memdesc:a405b9288d31a542db4352153419edba1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Persistent identifier for a <a class="el" href="classmaliput_1_1api_1_1_segment.html" title="A Segment represents a bundle of adjacent Lanes which share a continuously traversable road surface.">Segment</a> element.  <a href="namespacemaliput_1_1api.html#a405b9288d31a542db4352153419edba1">More...</a><br /></td></tr>
 <tr class="separator:a405b9288d31a542db4352153419edba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a2e5ecaab42b966e76a474f365da28e33"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33">LaneType</a> { <br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33a25c2dc47991b3df171ed5192bcf70390">kUnknown</a> = 0, 
+<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33a272d136eaede345ee6262834afc3c533">kDriving</a>, 
+<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33a93e026b035316bd2e27673dccb7bda19">kTurn</a>, 
+<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33af6e47e6af03579836cf43ccbbcbda302">kHov</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33a863b6d2ba01aadc33e92389a371ead42">kBus</a>, 
+<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33ab7910ca904fe538a902d7ae755cdb40d">kTaxi</a>, 
+<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33a1921cdd35fc6d7638aa9b2c7fc55cdef">kEmergency</a>, 
+<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33a4668e8ae558810f4b2da12b27038da59">kShoulder</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33a61e874ca80f934069779baf753be57bb">kBiking</a>, 
+<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33a3725287747e33c885c5767e3c03416d0">kWalking</a>, 
+<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33a2f1b49aef4a81f0f9b4e7f0e1b9b90ac">kParking</a>, 
+<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33a97bebae73e3334ef0c946c5df81e440b">kStop</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33ad317cdd2163e23360fa4cd63e68e4ccb">kBorder</a>, 
+<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33a1cf4801e886e6175656f48edb7f665c7">kCurb</a>, 
+<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33afc0c69ca269010f09ab0218150315477">kMedian</a>, 
+<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33ae412484be1c558bb641a11d900b98f6b">kRestricted</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33a4479d5fe99f9f0c7dff9b1a8fe517207">kConstruction</a>, 
+<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33a6f3bb53eda4bb3b33b4796d1b66c2ea4">kRail</a>, 
+<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33a73f5df6d8b5f83cae53811e096b500f6">kEntry</a>, 
+<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33ac2477f77de6d38233af46d78ec777846">kExit</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33a06a9578fed397bd6cd7edc2197685160">kOnRamp</a>, 
+<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33a45a86cf3effe802f11af77d79961c4a5">kOffRamp</a>, 
+<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33abd5abcd9974e27aec39713ec74954c41">kConnectingRamp</a>, 
+<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33a5cbb078e5c8c313086fcdc04b391b326">kSlipLane</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33af2dc25c8e1ec3e89e6861e816a1e5bda">kVirtual</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:a2e5ecaab42b966e76a474f365da28e33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lane classification options.  <a href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33">More...</a><br /></td></tr>
+<tr class="separator:a2e5ecaab42b966e76a474f365da28e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -379,6 +419,59 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Persistent identifier for a <a class="el" href="classmaliput_1_1api_1_1_segment.html" title="A Segment represents a bundle of adjacent Lanes which share a continuously traversable road surface.">Segment</a> element. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a2e5ecaab42b966e76a474f365da28e33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e5ecaab42b966e76a474f365da28e33">&#9670;&nbsp;</a></span>LaneType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33">LaneType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">Lane</a> classification options. </p>
+<p>LaneType defines the intended use of a lane. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33a25c2dc47991b3df171ed5192bcf70390"></a>kUnknown&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33a272d136eaede345ee6262834afc3c533"></a>kDriving&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33a93e026b035316bd2e27673dccb7bda19"></a>kTurn&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33af6e47e6af03579836cf43ccbbcbda302"></a>kHov&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33a863b6d2ba01aadc33e92389a371ead42"></a>kBus&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33ab7910ca904fe538a902d7ae755cdb40d"></a>kTaxi&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33a1921cdd35fc6d7638aa9b2c7fc55cdef"></a>kEmergency&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33a4668e8ae558810f4b2da12b27038da59"></a>kShoulder&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33a61e874ca80f934069779baf753be57bb"></a>kBiking&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33a3725287747e33c885c5767e3c03416d0"></a>kWalking&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33a2f1b49aef4a81f0f9b4e7f0e1b9b90ac"></a>kParking&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33a97bebae73e3334ef0c946c5df81e440b"></a>kStop&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33ad317cdd2163e23360fa4cd63e68e4ccb"></a>kBorder&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33a1cf4801e886e6175656f48edb7f665c7"></a>kCurb&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33afc0c69ca269010f09ab0218150315477"></a>kMedian&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33ae412484be1c558bb641a11d900b98f6b"></a>kRestricted&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33a4479d5fe99f9f0c7dff9b1a8fe517207"></a>kConstruction&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33a6f3bb53eda4bb3b33b4796d1b66c2ea4"></a>kRail&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33a73f5df6d8b5f83cae53811e096b500f6"></a>kEntry&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33ac2477f77de6d38233af46d78ec777846"></a>kExit&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33a06a9578fed397bd6cd7edc2197685160"></a>kOnRamp&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33a45a86cf3effe802f11af77d79961c4a5"></a>kOffRamp&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33abd5abcd9974e27aec39713ec74954c41"></a>kConnectingRamp&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33a5cbb078e5c8c313086fcdc04b391b326"></a>kSlipLane&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e5ecaab42b966e76a474f365da28e33af2dc25c8e1ec3e89e6861e816a1e5bda"></a>kVirtual&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>

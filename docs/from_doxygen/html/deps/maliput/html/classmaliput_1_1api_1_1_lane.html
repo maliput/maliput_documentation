@@ -140,6 +140,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9bd2cab5a5873c0210caa33a1067f85a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput_1_1api_1_1_h_bounds.html">HBounds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_lane.html#a9bd2cab5a5873c0210caa33a1067f85a">elevation_bounds</a> (<a class="el" href="classdouble.html">double</a> s, <a class="el" href="classdouble.html">double</a> r) const</td></tr>
 <tr class="memdesc:a9bd2cab5a5873c0210caa33a1067f85a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the elevation (<code>h</code>) bounds of the lane as a function of <code>(s, r)</code>.  <a href="classmaliput_1_1api_1_1_lane.html#a9bd2cab5a5873c0210caa33a1067f85a">More...</a><br /></td></tr>
 <tr class="separator:a9bd2cab5a5873c0210caa33a1067f85a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bf913b7de72d78c1accac161d1c0960"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33">LaneType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_lane.html#a4bf913b7de72d78c1accac161d1c0960">type</a> () const</td></tr>
+<tr class="memdesc:a4bf913b7de72d78c1accac161d1c0960"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of <a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">Lane</a>, such as <code>driving</code>, <code>biking</code>, etc.  <a href="classmaliput_1_1api_1_1_lane.html#a4bf913b7de72d78c1accac161d1c0960">More...</a><br /></td></tr>
+<tr class="separator:a4bf913b7de72d78c1accac161d1c0960"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2b4153a3a9bf55d07255331bf0223c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput_1_1api_1_1_inertial_position.html">InertialPosition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_lane.html#ac2b4153a3a9bf55d07255331bf0223c2">ToInertialPosition</a> (const <a class="el" href="classmaliput_1_1api_1_1_lane_position.html">LanePosition</a> &amp;lane_pos) const</td></tr>
 <tr class="memdesc:ac2b4153a3a9bf55d07255331bf0223c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <code><a class="el" href="classmaliput_1_1api_1_1_inertial_position.html" title="A position in 3-dimensional geographical Cartesian space, i.e., in the Inertial-frame,...">maliput::api::InertialPosition</a></code> corresponding to the given <code><a class="el" href="classmaliput_1_1api_1_1_lane_position.html" title="A 3-dimensional position in a Lane-frame, consisting of three components:">maliput::api::LanePosition</a></code>.  <a href="classmaliput_1_1api_1_1_lane.html#ac2b4153a3a9bf55d07255331bf0223c2">More...</a><br /></td></tr>
 <tr class="separator:ac2b4153a3a9bf55d07255331bf0223c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -649,6 +652,25 @@ in the lane". </dd></dl>
 <p>Determines the <a class="el" href="classmaliput_1_1api_1_1_lane_position.html" title="A 3-dimensional position in a Lane-frame, consisting of three components:">LanePosition</a> corresponding to <a class="el" href="classmaliput_1_1api_1_1_inertial_position.html" title="A position in 3-dimensional geographical Cartesian space, i.e., in the Inertial-frame,...">InertialPosition</a> <code>inertial_pos</code>. </p>
 <p>The <a class="el" href="classmaliput_1_1api_1_1_lane_position.html" title="A 3-dimensional position in a Lane-frame, consisting of three components:">LanePosition</a> is expected to be contained within the segment's boundaries. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classmaliput_1_1api_1_1_lane.html#acda224f66653385e297534edc3e98395" title="Determines the LanePosition corresponding to InertialPosition inertial_pos.">ToLanePosition</a> method.</dd></dl>
 <p>This method guarantees that its result satisfies the condition that <code>ToInertialPosition(result.lane_position)</code> is within <code>linear_tolerance()</code> of <code>result.nearest_position</code>. </p>
+
+</div>
+</div>
+<a id="a4bf913b7de72d78c1accac161d1c0960"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bf913b7de72d78c1accac161d1c0960">&#9670;&nbsp;</a></span>type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33">LaneType</a> type </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the type of <a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">Lane</a>, such as <code>driving</code>, <code>biking</code>, etc. </p>
 
 </div>
 </div>
