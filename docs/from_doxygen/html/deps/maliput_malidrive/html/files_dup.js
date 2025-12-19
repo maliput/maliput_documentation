@@ -6,6 +6,8 @@ var files_dup =
     ] ],
     [ "builder_tools.cc", "builder__tools_8cc.html", "builder__tools_8cc" ],
     [ "builder_tools.h", "builder__tools_8h.html", "builder__tools_8h" ],
+    [ "colors.cc", "colors_8cc.html", "colors_8cc" ],
+    [ "colors.h", "colors_8h.html", "colors_8h" ],
     [ "common.cc", "common_8cc.html", null ],
     [ "connection.cc", "connection_8cc.html", null ],
     [ "connection.h", "connection_8h.html", [
@@ -85,6 +87,8 @@ var files_dup =
     [ "xodr/lane_offset.h", "xodr_2lane__offset_8h.html", [
       [ "LaneOffset", "structmalidrive_1_1xodr_1_1_lane_offset.html", "structmalidrive_1_1xodr_1_1_lane_offset" ]
     ] ],
+    [ "lane_road_mark.cc", "lane__road__mark_8cc.html", "lane__road__mark_8cc" ],
+    [ "lane_road_mark.h", "lane__road__mark_8h.html", "lane__road__mark_8h" ],
     [ "lane_section.cc", "lane__section_8cc.html", null ],
     [ "lane_section.h", "lane__section_8h.html", [
       [ "LaneSection", "structmalidrive_1_1xodr_1_1_lane_section.html", "structmalidrive_1_1xodr_1_1_lane_section" ]

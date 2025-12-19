@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['comparetype_10413',['CompareType',['.././deps/maliput/html/namespacemaliput_1_1math.html#afbc5396d9a88c41d6aeb522b9f06f426',1,'maliput::math']]],
-  ['computationpolicy_10414',['ComputationPolicy',['.././deps/maliput_multilane/html/namespacemaliput_1_1multilane.html#a9f1bdafa1bee33c155f083a58b0a82f0',1,'maliput::multilane']]],
-  ['contactpoint_10415',['ContactPoint',['.././deps/maliput_malidrive/html/structmalidrive_1_1xodr_1_1_connection.html#a520c9a068166c49e982574cf531f8e38',1,'malidrive::xodr::Connection::ContactPoint()'],['.././deps/maliput_malidrive/html/structmalidrive_1_1xodr_1_1_road_link.html#a520c9a068166c49e982574cf531f8e38',1,'malidrive::xodr::RoadLink::ContactPoint()']]],
-  ['continuitycheck_10416',['ContinuityCheck',['.././deps/maliput_malidrive/html/classmalidrive_1_1road__curve_1_1_piecewise_function.html#a2766fba78de6b1462e9dbbcbf3652054',1,'malidrive::road_curve::PiecewiseFunction']]]
+  ['color_10523',['Color',['.././deps/maliput_malidrive/html/namespacemalidrive_1_1xodr.html#ab87bacfdad76e61b9412d7124be44c1c',1,'malidrive::xodr']]],
+  ['comparetype_10524',['CompareType',['.././deps/maliput/html/namespacemaliput_1_1math.html#afbc5396d9a88c41d6aeb522b9f06f426',1,'maliput::math']]],
+  ['computationpolicy_10525',['ComputationPolicy',['.././deps/maliput_multilane/html/namespacemaliput_1_1multilane.html#a9f1bdafa1bee33c155f083a58b0a82f0',1,'maliput::multilane']]],
+  ['contactpoint_10526',['ContactPoint',['.././deps/maliput_malidrive/html/structmalidrive_1_1xodr_1_1_connection.html#a520c9a068166c49e982574cf531f8e38',1,'malidrive::xodr::Connection::ContactPoint()'],['.././deps/maliput_malidrive/html/structmalidrive_1_1xodr_1_1_road_link.html#a520c9a068166c49e982574cf531f8e38',1,'malidrive::xodr::RoadLink::ContactPoint()']]],
+  ['continuitycheck_10527',['ContinuityCheck',['.././deps/maliput_malidrive/html/classmalidrive_1_1road__curve_1_1_piecewise_function.html#a2766fba78de6b1462e9dbbcbf3652054',1,'malidrive::road_curve::PiecewiseFunction']]]
 ];

@@ -70,6 +70,7 @@ var structmalidrive_1_1xodr_1_1_lane =
     [ "kUserData", "structmalidrive_1_1xodr_1_1_lane.html#a72fc73aa5da78d2ef3b4b81ce2fb094c", null ],
     [ "lane_link", "structmalidrive_1_1xodr_1_1_lane.html#abfb85c7d74c8ed7ccb1b487736c91fb0", null ],
     [ "level", "structmalidrive_1_1xodr_1_1_lane.html#aefcfa74ae5b67ab98696fae882469f96", null ],
+    [ "road_marks", "structmalidrive_1_1xodr_1_1_lane.html#ae4d2b1e6a79f7e4f5234471a60147f27", null ],
     [ "road_works", "structmalidrive_1_1xodr_1_1_lane.html#a21cdd95b716d5d18b83980c7c0d69ad1", null ],
     [ "speed", "structmalidrive_1_1xodr_1_1_lane.html#a0ae8de6a484a57e156734b9ec6efcc4e", null ],
     [ "type", "structmalidrive_1_1xodr_1_1_lane.html#ab6f4e6d3fde00ce906e46494f60dfe7a", null ],

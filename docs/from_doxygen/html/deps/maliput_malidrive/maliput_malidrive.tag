@@ -302,6 +302,66 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>colors.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/</path>
+    <filename>colors_8cc.html</filename>
+    <includes id="colors_8h" name="colors.h" local="yes" imported="no">maliput_malidrive/xodr/colors.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <member kind="function">
+      <type>std::string</type>
+      <name>color_to_str</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a3f5137f7b07588be110c25fa9cc05f51</anchor>
+      <arglist>(Color color)</arglist>
+    </member>
+    <member kind="function">
+      <type>Color</type>
+      <name>str_to_color</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>ac9d10c6440e0fc4b7cfdfb44795981c8</anchor>
+      <arglist>(const std::string &amp;color)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>colors.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/</path>
+    <filename>colors_8h.html</filename>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <member kind="enumeration">
+      <type></type>
+      <name>Color</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>ab87bacfdad76e61b9412d7124be44c1c</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="ab87bacfdad76e61b9412d7124be44c1cac5157738e8808c557e6cac46c034a2db">kBlack</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="ab87bacfdad76e61b9412d7124be44c1ca8d069917ec494cc042c27acaad671f52">kBlue</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="ab87bacfdad76e61b9412d7124be44c1ca1299e6e2ec6371a79385cd3a862f7cc9">kGreen</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="ab87bacfdad76e61b9412d7124be44c1ca11e1aa07606f098e5025e37830a1b22e">kOrange</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="ab87bacfdad76e61b9412d7124be44c1cafb0136b923af8c04b31a9d1b5e989acf">kRed</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="ab87bacfdad76e61b9412d7124be44c1ca821da62632c491ea619ead7b31c094bf">kStandard</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="ab87bacfdad76e61b9412d7124be44c1ca693f62c0ce24da9adb83e3df15053bb1">kViolet</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="ab87bacfdad76e61b9412d7124be44c1cad368dbde55a733c6dde5a20566d50736">kWhite</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="ab87bacfdad76e61b9412d7124be44c1ca4c6c30a3642462190739bb7f13af9c7b">kYellow</enumvalue>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>color_to_str</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a3f5137f7b07588be110c25fa9cc05f51</anchor>
+      <arglist>(Color color)</arglist>
+    </member>
+    <member kind="function">
+      <type>Color</type>
+      <name>str_to_color</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>ac9d10c6440e0fc4b7cfdfb44795981c8</anchor>
+      <arglist>(const std::string &amp;color)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
     <name>common.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/common/</path>
     <filename>common_8cc.html</filename>
@@ -982,6 +1042,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/</path>
     <filename>xodr_2lane_8h.html</filename>
     <includes id="lane__link_8h" name="lane_link.h" local="yes" imported="no">maliput_malidrive/xodr/lane_link.h</includes>
+    <includes id="lane__road__mark_8h" name="lane_road_mark.h" local="yes" imported="no">maliput_malidrive/xodr/lane_road_mark.h</includes>
     <includes id="lane__width_8h" name="lane_width.h" local="yes" imported="no">maliput_malidrive/xodr/lane_width.h</includes>
     <includes id="unit_8h" name="unit.h" local="yes" imported="no">maliput_malidrive/xodr/unit.h</includes>
     <class kind="struct">malidrive::xodr::Lane</class>
@@ -1033,6 +1094,67 @@
     <class kind="struct">malidrive::xodr::LaneOffset</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
+  </compound>
+  <compound kind="file">
+    <name>lane_road_mark.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/</path>
+    <filename>lane__road__mark_8cc.html</filename>
+    <includes id="lane__road__mark_8h" name="lane_road_mark.h" local="yes" imported="no">maliput_malidrive/xodr/lane_road_mark.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <member kind="function">
+      <type>std::string</type>
+      <name>rule_to_str</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a3a7826fa072095338916254d25a9a644</anchor>
+      <arglist>(Rule rule)</arglist>
+    </member>
+    <member kind="function">
+      <type>Rule</type>
+      <name>str_to_rule</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a079bbe6f687c39bcb4fef24019941814</anchor>
+      <arglist>(const std::string &amp;rule)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>lane_road_mark.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/</path>
+    <filename>lane__road__mark_8h.html</filename>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <includes id="colors_8h" name="colors.h" local="yes" imported="no">maliput_malidrive/xodr/colors.h</includes>
+    <class kind="struct">malidrive::xodr::TypeElementLine</class>
+    <class kind="struct">malidrive::xodr::TypeElement</class>
+    <class kind="struct">malidrive::xodr::ExplicitElementLine</class>
+    <class kind="struct">malidrive::xodr::ExplicitElement</class>
+    <class kind="struct">malidrive::xodr::SwayElement</class>
+    <class kind="struct">malidrive::xodr::LaneRoadMark</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <member kind="enumeration">
+      <type></type>
+      <name>Rule</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a11fcd51ef86118f65e603c1474377a78</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="a11fcd51ef86118f65e603c1474377a78a5ca50208f6954cf51762326d65f179af">kCaution</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="a11fcd51ef86118f65e603c1474377a78ab30fff675eaae673a81a2bfbdbd00580">kNoPassing</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="a11fcd51ef86118f65e603c1474377a78a35c3ace1970663a16e5c65baa5941b13">kNone</enumvalue>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>rule_to_str</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a3a7826fa072095338916254d25a9a644</anchor>
+      <arglist>(Rule rule)</arglist>
+    </member>
+    <member kind="function">
+      <type>Rule</type>
+      <name>str_to_rule</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a079bbe6f687c39bcb4fef24019941814</anchor>
+      <arglist>(const std::string &amp;rule)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>lane_section.cc</name>
@@ -1442,6 +1564,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/</path>
     <filename>parser_8cc.html</filename>
     <includes id="parser_8h" name="parser.h" local="yes" imported="no">maliput_malidrive/xodr/parser.h</includes>
+    <includes id="colors_8h" name="colors.h" local="yes" imported="no">maliput_malidrive/xodr/colors.h</includes>
     <includes id="connection_8h" name="connection.h" local="yes" imported="no">maliput_malidrive/xodr/connection.h</includes>
     <includes id="elevation__profile_8h" name="elevation_profile.h" local="yes" imported="no">maliput_malidrive/xodr/elevation_profile.h</includes>
     <includes id="geo__reference_8h" name="geo_reference.h" local="yes" imported="no">maliput_malidrive/xodr/geo_reference.h</includes>
@@ -2736,7 +2859,7 @@
       <type>std::optional&lt; double &gt;</type>
       <name>As</name>
       <anchorfile>classmalidrive_1_1xodr_1_1_attribute_parser.html</anchorfile>
-      <anchor>a1361b92781a4ad54e600a297e66535ad</anchor>
+      <anchor>a3c8d165d481bb588ac7095afedc1d530</anchor>
       <arglist>(const std::string &amp;attribute_name) const</arglist>
     </member>
   </compound>
@@ -3483,6 +3606,133 @@
       <name>kElevationProfileTag</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_elevation_profile.html</anchorfile>
       <anchor>a8490bfe880de735841d69f234abcde69</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::ExplicitElement</name>
+    <filename>structmalidrive_1_1xodr_1_1_explicit_element.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_explicit_element.html</anchorfile>
+      <anchor>af46ec0fbe6a8e1d183090c469162fb8d</anchor>
+      <arglist>(const ExplicitElement &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_explicit_element.html</anchorfile>
+      <anchor>afbe1c27f90027c89b3362af3258629c5</anchor>
+      <arglist>(const ExplicitElement &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; ExplicitElementLine &gt;</type>
+      <name>lines</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_explicit_element.html</anchorfile>
+      <anchor>aaaa857f9713fc57602e629113447c1e5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kExplicitElementTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_explicit_element.html</anchorfile>
+      <anchor>a71c4c0f10ae8864c4800ab97c8a638f0</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::ExplicitElementLine</name>
+    <filename>structmalidrive_1_1xodr_1_1_explicit_element_line.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_explicit_element_line.html</anchorfile>
+      <anchor>a88b2e17df7c4d18f3c61b1c84806d52a</anchor>
+      <arglist>(const ExplicitElementLine &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_explicit_element_line.html</anchorfile>
+      <anchor>aed2b7e7aa2a9f8144cc54508098e4dd7</anchor>
+      <arglist>(const ExplicitElementLine &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>length</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_explicit_element_line.html</anchorfile>
+      <anchor>a928b11f5716331f0b89abe7d8d4124b4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; Rule &gt;</type>
+      <name>rule</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_explicit_element_line.html</anchorfile>
+      <anchor>a77c55e77983936e898f1f5c5bf5888e8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>s_offset</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_explicit_element_line.html</anchorfile>
+      <anchor>ac88c16890660fdfaeb3a13f581ffbde1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>t_offset</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_explicit_element_line.html</anchorfile>
+      <anchor>abcc052948ce3621bc87e5e64a06e6414</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>width</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_explicit_element_line.html</anchorfile>
+      <anchor>a179f80dec0db432a69164a1a48b6c582</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kExplicitElementLineTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_explicit_element_line.html</anchorfile>
+      <anchor>abe9a035b03c8a126a43c31cc48e08ad4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kLength</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_explicit_element_line.html</anchorfile>
+      <anchor>a211b8393e80a38beec2131424ed3b31d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kRule</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_explicit_element_line.html</anchorfile>
+      <anchor>ad2cb750b847ce2e00f887f7629d9e763</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kSOffset</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_explicit_element_line.html</anchorfile>
+      <anchor>af5bc4899306a234fdfcf0e928c1608ea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kTOffset</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_explicit_element_line.html</anchorfile>
+      <anchor>a1a5fbc70434ed89da191fa777ca6a021</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kWidth</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_explicit_element_line.html</anchorfile>
+      <anchor>a2b7bb111a9bc48f4d3d80b69e42844c3</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -4432,6 +4682,13 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
+      <type>std::vector&lt; LaneRoadMark &gt;</type>
+      <name>road_marks</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane.html</anchorfile>
+      <anchor>ae4d2b1e6a79f7e4f5234471a60147f27</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
       <type>std::vector&lt; Speed &gt;</type>
       <name>speed</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_lane.html</anchorfile>
@@ -4552,60 +4809,6 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>malidrive::xodr::LaneLink</name>
-    <filename>structmalidrive_1_1xodr_1_1_lane_link.html</filename>
-    <class kind="struct">malidrive::xodr::LaneLink::LinkAttributes</class>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link.html</anchorfile>
-      <anchor>a2eacaa79dc6f320e9bc9c80f742ad190</anchor>
-      <arglist>(const LaneLink &amp;other) const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator!=</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link.html</anchorfile>
-      <anchor>a9d1619086578851ec2e06e58aa639edb</anchor>
-      <arglist>(const LaneLink &amp;other) const</arglist>
-    </member>
-    <member kind="variable">
-      <type>std::optional&lt; LinkAttributes &gt;</type>
-      <name>predecessor</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link.html</anchorfile>
-      <anchor>ae1a3ff1cc90199259e8ef2eb0a9f456f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>std::optional&lt; LinkAttributes &gt;</type>
-      <name>successor</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link.html</anchorfile>
-      <anchor>ad55313f0acf9871ac298a71797b4645b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kLaneLinkTag</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link.html</anchorfile>
-      <anchor>af9d8a971b8c42780232977e66805b1dc</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kPredecessorTag</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link.html</anchorfile>
-      <anchor>aa180b49c19335d6591e0a6c8ba6b552f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kSuccessorTag</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link.html</anchorfile>
-      <anchor>a8d82f00d2135ae5a221035d1b0cd9be8</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
     <name>malidrive::xodr::Connection::LaneLink</name>
     <filename>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</filename>
     <member kind="typedef">
@@ -4658,37 +4861,57 @@
       <arglist></arglist>
     </member>
   </compound>
-  <compound kind="class">
-    <name>malidrive::road_curve::LaneOffset</name>
-    <filename>classmalidrive_1_1road__curve_1_1_lane_offset.html</filename>
-    <base>malidrive::road_curve::Function</base>
-    <class kind="struct">malidrive::road_curve::LaneOffset::AdjacentLaneFunctions</class>
+  <compound kind="struct">
+    <name>malidrive::xodr::LaneLink</name>
+    <filename>structmalidrive_1_1xodr_1_1_lane_link.html</filename>
+    <class kind="struct">malidrive::xodr::LaneLink::LinkAttributes</class>
     <member kind="function">
-      <type></type>
-      <name>MALIDRIVE_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmalidrive_1_1road__curve_1_1_lane_offset.html</anchorfile>
-      <anchor>a128467598fd8196682eb3d1541cd848c</anchor>
-      <arglist>(LaneOffset)</arglist>
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link.html</anchorfile>
+      <anchor>a2eacaa79dc6f320e9bc9c80f742ad190</anchor>
+      <arglist>(const LaneLink &amp;other) const</arglist>
     </member>
     <member kind="function">
-      <type></type>
-      <name>LaneOffset</name>
-      <anchorfile>classmalidrive_1_1road__curve_1_1_lane_offset.html</anchorfile>
-      <anchor>a443cf977f423fcea0ea84ca384e988ee</anchor>
-      <arglist>(const std::optional&lt; AdjacentLaneFunctions &gt; &amp;adjacent_lane_functions, const Function *lane_width, const Function *reference_line_offset, bool at_right, double p0, double p1, double linear_tolerance)</arglist>
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link.html</anchorfile>
+      <anchor>a9d1619086578851ec2e06e58aa639edb</anchor>
+      <arglist>(const LaneLink &amp;other) const</arglist>
     </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const bool</type>
-      <name>kAtRightFromCenterLane</name>
-      <anchorfile>classmalidrive_1_1road__curve_1_1_lane_offset.html</anchorfile>
-      <anchor>ac1b7a8d88c163e4931b84a8d0ac50051</anchor>
+    <member kind="variable">
+      <type>std::optional&lt; LinkAttributes &gt;</type>
+      <name>predecessor</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link.html</anchorfile>
+      <anchor>ae1a3ff1cc90199259e8ef2eb0a9f456f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; LinkAttributes &gt;</type>
+      <name>successor</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link.html</anchorfile>
+      <anchor>ad55313f0acf9871ac298a71797b4645b</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
-      <type>static constexpr const bool</type>
-      <name>kAtLeftFromCenterLane</name>
-      <anchorfile>classmalidrive_1_1road__curve_1_1_lane_offset.html</anchorfile>
-      <anchor>af60baf6cb3d30025217639ee43c3d2e8</anchor>
+      <type>static constexpr const char *</type>
+      <name>kLaneLinkTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link.html</anchorfile>
+      <anchor>af9d8a971b8c42780232977e66805b1dc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kPredecessorTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link.html</anchorfile>
+      <anchor>aa180b49c19335d6591e0a6c8ba6b552f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kSuccessorTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link.html</anchorfile>
+      <anchor>a8d82f00d2135ae5a221035d1b0cd9be8</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -4812,6 +5035,279 @@
       <name>d</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_lane_offset.html</anchorfile>
       <anchor>a873684cefeb665f3d5e6b495de57fc0d</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>malidrive::road_curve::LaneOffset</name>
+    <filename>classmalidrive_1_1road__curve_1_1_lane_offset.html</filename>
+    <base>malidrive::road_curve::Function</base>
+    <class kind="struct">malidrive::road_curve::LaneOffset::AdjacentLaneFunctions</class>
+    <member kind="function">
+      <type></type>
+      <name>MALIDRIVE_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmalidrive_1_1road__curve_1_1_lane_offset.html</anchorfile>
+      <anchor>a128467598fd8196682eb3d1541cd848c</anchor>
+      <arglist>(LaneOffset)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>LaneOffset</name>
+      <anchorfile>classmalidrive_1_1road__curve_1_1_lane_offset.html</anchorfile>
+      <anchor>a443cf977f423fcea0ea84ca384e988ee</anchor>
+      <arglist>(const std::optional&lt; AdjacentLaneFunctions &gt; &amp;adjacent_lane_functions, const Function *lane_width, const Function *reference_line_offset, bool at_right, double p0, double p1, double linear_tolerance)</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const bool</type>
+      <name>kAtRightFromCenterLane</name>
+      <anchorfile>classmalidrive_1_1road__curve_1_1_lane_offset.html</anchorfile>
+      <anchor>ac1b7a8d88c163e4931b84a8d0ac50051</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const bool</type>
+      <name>kAtLeftFromCenterLane</name>
+      <anchorfile>classmalidrive_1_1road__curve_1_1_lane_offset.html</anchorfile>
+      <anchor>af60baf6cb3d30025217639ee43c3d2e8</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::LaneRoadMark</name>
+    <filename>structmalidrive_1_1xodr_1_1_lane_road_mark.html</filename>
+    <member kind="enumeration">
+      <type></type>
+      <name>LaneChange</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>ae7bd56722e43b1d88c02da1a524634e7</anchor>
+      <arglist></arglist>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_lane_road_mark.html" anchor="ae7bd56722e43b1d88c02da1a524634e7a4f968049bc5e5f7c6e0d89946366fff2">kBoth</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_lane_road_mark.html" anchor="ae7bd56722e43b1d88c02da1a524634e7a327a562580e623a42cde1ddfbcc1417c">kDecrease</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_lane_road_mark.html" anchor="ae7bd56722e43b1d88c02da1a524634e7a4f6c4e06b25d250d234d38ff51f27cbe">kIncrease</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_lane_road_mark.html" anchor="ae7bd56722e43b1d88c02da1a524634e7a35c3ace1970663a16e5c65baa5941b13">kNone</enumvalue>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>Type</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>a1d1cfd8ffb84e947f82999c682b666a7</anchor>
+      <arglist></arglist>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_lane_road_mark.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a82ecbd764ad7c357ead2774fc5836a85">kBottsDots</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_lane_road_mark.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a6eaa08f6a773fee353eb394038b172ea">kBrokenBroken</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_lane_road_mark.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7af11ef4d621239887a0ca6bd1b3f872f2">kBrokenSolid</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_lane_road_mark.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a751efc2a690610cb1459a2a7cb8d1e2e">kBroken</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_lane_road_mark.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a1cf4801e886e6175656f48edb7f665c7">kCurb</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_lane_road_mark.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7ab8eb7a62834cb1c7fc1b0d02d60bc7fa">kCustom</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_lane_road_mark.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a0a9e7b78276726f559419b53f1b48378">kEdge</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_lane_road_mark.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7afa2dc4143b3a84eb6e0b2b9838d294b7">kGrass</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_lane_road_mark.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a35c3ace1970663a16e5c65baa5941b13">kNone</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_lane_road_mark.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a523687a4e3767095df7be2fd0b3b4cdc">kSolidBroken</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_lane_road_mark.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a0464c63ed50b7f5b929131ed209bcfbb">kSolidSolid</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_lane_road_mark.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7af37621d300d4a6d29af40ca065b2719d">kSolid</enumvalue>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>Weight</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>add354b854a8899ddb39fc9d57bbe22e3</anchor>
+      <arglist></arglist>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_lane_road_mark.html" anchor="add354b854a8899ddb39fc9d57bbe22e3ac1522e863645b017af7d69a3556ea440">kBold</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1_lane_road_mark.html" anchor="add354b854a8899ddb39fc9d57bbe22e3a821da62632c491ea619ead7b31c094bf">kStandard</enumvalue>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>a17ea3dd55fd00e538a27c8c198b0ec38</anchor>
+      <arglist>(const LaneRoadMark &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>a103a0a6351d762232eedd432c9610222</anchor>
+      <arglist>(const LaneRoadMark &amp;other) const</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static std::string</type>
+      <name>lane_change_to_str</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>aa614917ee50bc9dc1895d5b557bcec72</anchor>
+      <arglist>(LaneChange lane_change)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static LaneChange</type>
+      <name>str_to_lane_change</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>a3ac7aec1d9b02ba9c0ab8f9f1f32993e</anchor>
+      <arglist>(const std::string &amp;lane_change)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static std::string</type>
+      <name>type_to_str</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>ac7d5b03780e83d0fb7a3b57e271a5924</anchor>
+      <arglist>(Type type)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static Type</type>
+      <name>str_to_type</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>a90417bdc1c83092f348ba0cab8a42898</anchor>
+      <arglist>(const std::string &amp;type)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static std::string</type>
+      <name>weight_to_str</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>a9443896e4c04e36411c583d2adb0664c</anchor>
+      <arglist>(Weight weight)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static Weight</type>
+      <name>str_to_weight</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>a375e8e548b799316d34587c7da2d45d5</anchor>
+      <arglist>(const std::string &amp;weight)</arglist>
+    </member>
+    <member kind="variable">
+      <type>Color</type>
+      <name>color</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>aa5f4d1eda21c196bd8401ff73f105073</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>height</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>a83a966980e67f0d7b00a81960f454fdd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; LaneChange &gt;</type>
+      <name>lane_change</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>a8de28900f1f8cb82811eae656aeb58a4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>material</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>acaf3c4e4c99efe4404d8f461d464eed3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>s_offset</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>ac88c16890660fdfaeb3a13f581ffbde1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Type</type>
+      <name>type</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>ab6f4e6d3fde00ce906e46494f60dfe7a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; Weight &gt;</type>
+      <name>weight</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>a74d63602b46ee422bc09ee5e7e3a2ea5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>width</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>a179f80dec0db432a69164a1a48b6c582</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; TypeElement &gt;</type>
+      <name>type_elems</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>a7afe028dd465eaf3919d73c8af804096</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; ExplicitElement &gt;</type>
+      <name>explicit_elems</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>a3439b24d0684177874619742b84d591c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; SwayElement &gt;</type>
+      <name>sway_elems</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>a48a831b5782d1af1b5f6970ac089c630</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kLaneRoadMarkTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>a3a30de6d44368a90aacf74bd8f39bfdf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kLaneRoadMarkColor</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>aa944cb08c3473cc0f2fe77137410f210</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kLaneRoadMarkHeight</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>a7a110d335816584cb0abd99e1a8e2feb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kLaneRoadMarkLaneChange</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>a2a4825dd5afe0405e5772a320a8264f4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kLaneRoadMarkMaterial</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>a534d5c64bc0a888e15fae67b57ac20f7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kOffset</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>af19797ebf3b56df13e281ac5881134bc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kType</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>a0115715e581fd2a65ef043354a0e902a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kWeight</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>abc0dcb227578bcfab8eb22aa78100255</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kWidth</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_road_mark.html</anchorfile>
+      <anchor>a2b7bb111a9bc48f4d3d80b69e42844c3</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -5201,38 +5697,6 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>malidrive::xodr::LaneLink::LinkAttributes</name>
-    <filename>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</filename>
-    <member kind="typedef">
-      <type>maliput::api::TypeSpecificIdentifier&lt; struct LinkAttributes &gt;</type>
-      <name>Id</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
-      <anchor>a3bb8422d7a63555382fc951aba09a378</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
-      <anchor>a45f90c3c161b89572f9b3b9c359b0e61</anchor>
-      <arglist>(const LinkAttributes &amp;other) const</arglist>
-    </member>
-    <member kind="variable">
-      <type>Id</type>
-      <name>id</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
-      <anchor>a150a709e86e7134d17cd063de6810b6c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kId</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
-      <anchor>a9f36bf43428315b6dfd91de20f6854c2</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
     <name>malidrive::xodr::RoadLink::LinkAttributes</name>
     <filename>structmalidrive_1_1xodr_1_1_road_link_1_1_link_attributes.html</filename>
     <member kind="typedef">
@@ -5289,6 +5753,38 @@
       <name>kContactPoint</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_road_link_1_1_link_attributes.html</anchorfile>
       <anchor>a1bed5005c8e0e948be03e115eca00137</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::LaneLink::LinkAttributes</name>
+    <filename>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</filename>
+    <member kind="typedef">
+      <type>maliput::api::TypeSpecificIdentifier&lt; struct LinkAttributes &gt;</type>
+      <name>Id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
+      <anchor>a3bb8422d7a63555382fc951aba09a378</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
+      <anchor>a45f90c3c161b89572f9b3b9c359b0e61</anchor>
+      <arglist>(const LinkAttributes &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>Id</type>
+      <name>id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
+      <anchor>a150a709e86e7134d17cd063de6810b6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kId</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
+      <anchor>a9f36bf43428315b6dfd91de20f6854c2</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -7508,6 +8004,66 @@
     </member>
   </compound>
   <compound kind="struct">
+    <name>malidrive::xodr::RoadType::Speed</name>
+    <filename>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a5f45d342c063e4fbbbaa8fd2308cad8a</anchor>
+      <arglist>(const Speed &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a7732bb1227795b68ace924cf693cddd1</anchor>
+      <arglist>(const Speed &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>max</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>ab3a77d4ba4dbb0a69e77b738206e0ebe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Unit</type>
+      <name>unit</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>aaa0d61fcdf7a0b9f0f2b48c9946cbd10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kSpeedTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a06113c1eac1bbfe32139f18dd62a8d98</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kMax</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>ad5a44ed171cd965aa34aa3dda5711d83</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kUnit</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr std::array&lt; const char *, 2 &gt;</type>
+      <name>kUnlimitedSpeedStrings</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a2be0454dbef3ba795b56eb3fa40d36ed</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
     <name>malidrive::xodr::Lane::Speed</name>
     <filename>structmalidrive_1_1xodr_1_1_lane_1_1_speed.html</filename>
     <member kind="function">
@@ -7571,66 +8127,6 @@
       <name>kUnit</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_lane_1_1_speed.html</anchorfile>
       <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>malidrive::xodr::RoadType::Speed</name>
-    <filename>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</filename>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a5f45d342c063e4fbbbaa8fd2308cad8a</anchor>
-      <arglist>(const Speed &amp;other) const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator!=</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a7732bb1227795b68ace924cf693cddd1</anchor>
-      <arglist>(const Speed &amp;other) const</arglist>
-    </member>
-    <member kind="variable">
-      <type>std::optional&lt; double &gt;</type>
-      <name>max</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>ab3a77d4ba4dbb0a69e77b738206e0ebe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>Unit</type>
-      <name>unit</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>aaa0d61fcdf7a0b9f0f2b48c9946cbd10</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kSpeedTag</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a06113c1eac1bbfe32139f18dd62a8d98</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kMax</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>ad5a44ed171cd965aa34aa3dda5711d83</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kUnit</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr std::array&lt; const char *, 2 &gt;</type>
-      <name>kUnlimitedSpeedStrings</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a2be0454dbef3ba795b56eb3fa40d36ed</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -7844,6 +8340,284 @@
       <name>d</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_lateral_profile_1_1_superelevation.html</anchorfile>
       <anchor>a873684cefeb665f3d5e6b495de57fc0d</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::SwayElement</name>
+    <filename>structmalidrive_1_1xodr_1_1_sway_element.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_sway_element.html</anchorfile>
+      <anchor>aaf378d885894f41202a2b64103de53ec</anchor>
+      <arglist>(const SwayElement &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_sway_element.html</anchorfile>
+      <anchor>a611748884d653961e2cd5a3d68257730</anchor>
+      <arglist>(const SwayElement &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>a</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_sway_element.html</anchorfile>
+      <anchor>a1031d0e0a97a340abfe0a6ab9e831045</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>b</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_sway_element.html</anchorfile>
+      <anchor>a1510a66dacf9cf3586de5fc89ae2a073</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>c</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_sway_element.html</anchorfile>
+      <anchor>a2c09e929a6ea340fc9653cca414b11d3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>d</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_sway_element.html</anchorfile>
+      <anchor>a873684cefeb665f3d5e6b495de57fc0d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>s_0</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_sway_element.html</anchorfile>
+      <anchor>a37ce4938db905b2d6ed4ff66d5955db0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kSwayTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_sway_element.html</anchorfile>
+      <anchor>a74ce9037e45b1dcfd35ece3fdfdb25bb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kA</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_sway_element.html</anchorfile>
+      <anchor>a6be5070758b145173c3ffa45b2d72979</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kB</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_sway_element.html</anchorfile>
+      <anchor>a3e4a64d55a7d9b6fb03350cbe84b0a80</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kC</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_sway_element.html</anchorfile>
+      <anchor>a7021b504e1d7b45e938574f5452fd112</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kD</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_sway_element.html</anchorfile>
+      <anchor>afb8b389927564791e0c4db383443e994</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kDS</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_sway_element.html</anchorfile>
+      <anchor>a870bc3abd46f29c2b7c7e70ecebf9b85</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::TypeElement</name>
+    <filename>structmalidrive_1_1xodr_1_1_type_element.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element.html</anchorfile>
+      <anchor>ac1a1632e882752cd42ecccaa4013a687</anchor>
+      <arglist>(const TypeElement &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element.html</anchorfile>
+      <anchor>a804f03a1964afee45479adddc62a82b0</anchor>
+      <arglist>(const TypeElement &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>name</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element.html</anchorfile>
+      <anchor>a9b45b3e13bd9167aab02e17e08916231</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>width</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element.html</anchorfile>
+      <anchor>a9df23e056f5d1a0388cd8190431c0e03</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; TypeElementLine &gt;</type>
+      <name>lines</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element.html</anchorfile>
+      <anchor>af389fff1239b4c4442fedcc31ed916a7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kTypeElementTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element.html</anchorfile>
+      <anchor>a14399dd236a91907a90d0ba0d62f18fd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kName</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element.html</anchorfile>
+      <anchor>ab078d8ddaeb55f071943994e623a6e9d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kWidth</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element.html</anchorfile>
+      <anchor>a2b7bb111a9bc48f4d3d80b69e42844c3</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::TypeElementLine</name>
+    <filename>structmalidrive_1_1xodr_1_1_type_element_line.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element_line.html</anchorfile>
+      <anchor>aae93648a939d438d7dd729f1f9cd27e1</anchor>
+      <arglist>(const TypeElementLine &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element_line.html</anchorfile>
+      <anchor>af2008efbd532ac8ff9aa5f8130447a8e</anchor>
+      <arglist>(const TypeElementLine &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; Color &gt;</type>
+      <name>color</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element_line.html</anchorfile>
+      <anchor>a202fba343873fe31f3c2d33b9f66c447</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>length</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element_line.html</anchorfile>
+      <anchor>a928b11f5716331f0b89abe7d8d4124b4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; Rule &gt;</type>
+      <name>rule</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element_line.html</anchorfile>
+      <anchor>a77c55e77983936e898f1f5c5bf5888e8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>s_offset</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element_line.html</anchorfile>
+      <anchor>ac88c16890660fdfaeb3a13f581ffbde1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>space</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element_line.html</anchorfile>
+      <anchor>af1dc913ff692663f7d082134e97db7ce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>t_offset</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element_line.html</anchorfile>
+      <anchor>abcc052948ce3621bc87e5e64a06e6414</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>width</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element_line.html</anchorfile>
+      <anchor>a179f80dec0db432a69164a1a48b6c582</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kTypeLineTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element_line.html</anchorfile>
+      <anchor>a84677d3faec1491c3f340a8cd6f54c4f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kColor</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element_line.html</anchorfile>
+      <anchor>a382c5b8f91287f402781cac4774586ea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kLength</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element_line.html</anchorfile>
+      <anchor>a211b8393e80a38beec2131424ed3b31d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kRule</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element_line.html</anchorfile>
+      <anchor>ad2cb750b847ce2e00f887f7629d9e763</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kSOffset</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element_line.html</anchorfile>
+      <anchor>af5bc4899306a234fdfcf0e928c1608ea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kSpace</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element_line.html</anchorfile>
+      <anchor>a35cd30cc72e288bd0250705a60d0d54e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kTOffset</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element_line.html</anchorfile>
+      <anchor>a1a5fbc70434ed89da191fa777ca6a021</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kWidth</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_type_element_line.html</anchorfile>
+      <anchor>a2b7bb111a9bc48f4d3d80b69e42844c3</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -8691,6 +9465,8 @@
     <class kind="struct">malidrive::xodr::Connection</class>
     <class kind="class">malidrive::xodr::DBManager</class>
     <class kind="struct">malidrive::xodr::ElevationProfile</class>
+    <class kind="struct">malidrive::xodr::ExplicitElement</class>
+    <class kind="struct">malidrive::xodr::ExplicitElementLine</class>
     <class kind="struct">malidrive::xodr::Geometry</class>
     <class kind="struct">malidrive::xodr::GeoReference</class>
     <class kind="struct">malidrive::xodr::Header</class>
@@ -8698,6 +9474,7 @@
     <class kind="struct">malidrive::xodr::Lane</class>
     <class kind="struct">malidrive::xodr::LaneLink</class>
     <class kind="struct">malidrive::xodr::LaneOffset</class>
+    <class kind="struct">malidrive::xodr::LaneRoadMark</class>
     <class kind="struct">malidrive::xodr::Lanes</class>
     <class kind="struct">malidrive::xodr::LaneSection</class>
     <class kind="struct">malidrive::xodr::LaneWidth</class>
@@ -8711,6 +9488,35 @@
     <class kind="struct">malidrive::xodr::RoadHeader</class>
     <class kind="struct">malidrive::xodr::RoadLink</class>
     <class kind="struct">malidrive::xodr::RoadType</class>
+    <class kind="struct">malidrive::xodr::SwayElement</class>
+    <class kind="struct">malidrive::xodr::TypeElement</class>
+    <class kind="struct">malidrive::xodr::TypeElementLine</class>
+    <member kind="enumeration">
+      <type></type>
+      <name>Color</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>ab87bacfdad76e61b9412d7124be44c1c</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="ab87bacfdad76e61b9412d7124be44c1cac5157738e8808c557e6cac46c034a2db">kBlack</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="ab87bacfdad76e61b9412d7124be44c1ca8d069917ec494cc042c27acaad671f52">kBlue</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="ab87bacfdad76e61b9412d7124be44c1ca1299e6e2ec6371a79385cd3a862f7cc9">kGreen</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="ab87bacfdad76e61b9412d7124be44c1ca11e1aa07606f098e5025e37830a1b22e">kOrange</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="ab87bacfdad76e61b9412d7124be44c1cafb0136b923af8c04b31a9d1b5e989acf">kRed</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="ab87bacfdad76e61b9412d7124be44c1ca821da62632c491ea619ead7b31c094bf">kStandard</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="ab87bacfdad76e61b9412d7124be44c1ca693f62c0ce24da9adb83e3df15053bb1">kViolet</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="ab87bacfdad76e61b9412d7124be44c1cad368dbde55a733c6dde5a20566d50736">kWhite</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="ab87bacfdad76e61b9412d7124be44c1ca4c6c30a3642462190739bb7f13af9c7b">kYellow</enumvalue>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>Rule</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a11fcd51ef86118f65e603c1474377a78</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="a11fcd51ef86118f65e603c1474377a78a5ca50208f6954cf51762326d65f179af">kCaution</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="a11fcd51ef86118f65e603c1474377a78ab30fff675eaae673a81a2bfbdbd00580">kNoPassing</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="a11fcd51ef86118f65e603c1474377a78a35c3ace1970663a16e5c65baa5941b13">kNone</enumvalue>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>Unit</name>
@@ -8720,6 +9526,20 @@
       <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="abceb2331ad056e3c5ad27894199a49eda4281dfaa74893df24c4851a786154651">kMs</enumvalue>
       <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="abceb2331ad056e3c5ad27894199a49eda1625ab20115e2c61c44a8cb5bdd2e3d3">kMph</enumvalue>
       <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="abceb2331ad056e3c5ad27894199a49eda10ba4ffd5b0a35adce8849b1abec6c65">kKph</enumvalue>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>color_to_str</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a3f5137f7b07588be110c25fa9cc05f51</anchor>
+      <arglist>(Color color)</arglist>
+    </member>
+    <member kind="function">
+      <type>Color</type>
+      <name>str_to_color</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>ac9d10c6440e0fc4b7cfdfb44795981c8</anchor>
+      <arglist>(const std::string &amp;color)</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; DBManager &gt;</type>
@@ -8762,6 +9582,20 @@
       <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
       <anchor>af570e4ee8fc4c155cd347ea9a5f38cb2</anchor>
       <arglist>(std::ostream &amp;out, const Junction &amp;junction)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>rule_to_str</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a3a7826fa072095338916254d25a9a644</anchor>
+      <arglist>(Rule rule)</arglist>
+    </member>
+    <member kind="function">
+      <type>Rule</type>
+      <name>str_to_rule</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a079bbe6f687c39bcb4fef24019941814</anchor>
+      <arglist>(const std::string &amp;rule)</arglist>
     </member>
     <member kind="function">
       <type>std::ostream &amp;</type>

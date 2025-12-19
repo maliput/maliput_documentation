@@ -4,6 +4,8 @@ var namespacemalidrive_1_1xodr =
     [ "Connection", "structmalidrive_1_1xodr_1_1_connection.html", "structmalidrive_1_1xodr_1_1_connection" ],
     [ "DBManager", "classmalidrive_1_1xodr_1_1_d_b_manager.html", "classmalidrive_1_1xodr_1_1_d_b_manager" ],
     [ "ElevationProfile", "structmalidrive_1_1xodr_1_1_elevation_profile.html", "structmalidrive_1_1xodr_1_1_elevation_profile" ],
+    [ "ExplicitElement", "structmalidrive_1_1xodr_1_1_explicit_element.html", "structmalidrive_1_1xodr_1_1_explicit_element" ],
+    [ "ExplicitElementLine", "structmalidrive_1_1xodr_1_1_explicit_element_line.html", "structmalidrive_1_1xodr_1_1_explicit_element_line" ],
     [ "Geometry", "structmalidrive_1_1xodr_1_1_geometry.html", "structmalidrive_1_1xodr_1_1_geometry" ],
     [ "GeoReference", "structmalidrive_1_1xodr_1_1_geo_reference.html", "structmalidrive_1_1xodr_1_1_geo_reference" ],
     [ "Header", "structmalidrive_1_1xodr_1_1_header.html", "structmalidrive_1_1xodr_1_1_header" ],
@@ -11,6 +13,7 @@ var namespacemalidrive_1_1xodr =
     [ "Lane", "structmalidrive_1_1xodr_1_1_lane.html", "structmalidrive_1_1xodr_1_1_lane" ],
     [ "LaneLink", "structmalidrive_1_1xodr_1_1_lane_link.html", "structmalidrive_1_1xodr_1_1_lane_link" ],
     [ "LaneOffset", "structmalidrive_1_1xodr_1_1_lane_offset.html", "structmalidrive_1_1xodr_1_1_lane_offset" ],
+    [ "LaneRoadMark", "structmalidrive_1_1xodr_1_1_lane_road_mark.html", "structmalidrive_1_1xodr_1_1_lane_road_mark" ],
     [ "Lanes", "structmalidrive_1_1xodr_1_1_lanes.html", "structmalidrive_1_1xodr_1_1_lanes" ],
     [ "LaneSection", "structmalidrive_1_1xodr_1_1_lane_section.html", "structmalidrive_1_1xodr_1_1_lane_section" ],
     [ "LaneWidth", "structmalidrive_1_1xodr_1_1_lane_width.html", "structmalidrive_1_1xodr_1_1_lane_width" ],
@@ -23,5 +26,8 @@ var namespacemalidrive_1_1xodr =
     [ "ReferenceGeometry", "structmalidrive_1_1xodr_1_1_reference_geometry.html", "structmalidrive_1_1xodr_1_1_reference_geometry" ],
     [ "RoadHeader", "structmalidrive_1_1xodr_1_1_road_header.html", "structmalidrive_1_1xodr_1_1_road_header" ],
     [ "RoadLink", "structmalidrive_1_1xodr_1_1_road_link.html", "structmalidrive_1_1xodr_1_1_road_link" ],
-    [ "RoadType", "structmalidrive_1_1xodr_1_1_road_type.html", "structmalidrive_1_1xodr_1_1_road_type" ]
+    [ "RoadType", "structmalidrive_1_1xodr_1_1_road_type.html", "structmalidrive_1_1xodr_1_1_road_type" ],
+    [ "SwayElement", "structmalidrive_1_1xodr_1_1_sway_element.html", "structmalidrive_1_1xodr_1_1_sway_element" ],
+    [ "TypeElement", "structmalidrive_1_1xodr_1_1_type_element.html", "structmalidrive_1_1xodr_1_1_type_element" ],
+    [ "TypeElementLine", "structmalidrive_1_1xodr_1_1_type_element_line.html", "structmalidrive_1_1xodr_1_1_type_element_line" ]
 ];

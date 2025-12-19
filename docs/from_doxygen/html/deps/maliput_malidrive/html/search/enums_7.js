@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['lanesrangerelation_6746',['LaneSRangeRelation',['../../../maliput/html/namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487',1,'maliput::routing']]],
-  ['lanetype_6747',['LaneType',['../../../maliput/html/namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33',1,'maliput::api']]],
-  ['level_6748',['level',['../../../maliput/html/namespacemaliput_1_1common_1_1logger.html#afde8e18a788ccc92fc61cab298bca7e3',1,'maliput::common::logger']]]
+  ['lanechange_6858',['LaneChange',['../structmalidrive_1_1xodr_1_1_lane_road_mark.html#ae7bd56722e43b1d88c02da1a524634e7',1,'malidrive::xodr::LaneRoadMark']]],
+  ['lanesrangerelation_6859',['LaneSRangeRelation',['../../../maliput/html/namespacemaliput_1_1routing.html#a931f81ae3bf7bb2ac7b8924345c23487',1,'maliput::routing']]],
+  ['lanetype_6860',['LaneType',['../../../maliput/html/namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33',1,'maliput::api']]],
+  ['level_6861',['level',['../../../maliput/html/namespacemaliput_1_1common_1_1logger.html#afde8e18a788ccc92fc61cab298bca7e3',1,'maliput::common::logger']]]
 ];
