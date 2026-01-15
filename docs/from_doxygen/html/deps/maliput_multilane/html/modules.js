@@ -2,6 +2,7 @@ var modules =
 [
     [ "RoadNetwork configuration builder keys", "group__road__network__configuration__builder__keys.html", "group__road__network__configuration__builder__keys" ],
     [ "On-Ramp RoadNetwork configuration builder keys", "group__on__ramp__configuration__keys.html", "group__on__ramp__configuration__keys" ],
+    [ "Lane Marking API", "../../maliput/html/group__lane__marking.html", "group__lane__marking" ],
     [ "Default Scalars", "../../maliput/html/group__default__scalars.html", null ],
     [ "hash_append generic hashing", "../../maliput/html/group__hash__append.html", null ],
     [ "Simulation", "../../maliput/html/group__simulation.html", "group__simulation" ],

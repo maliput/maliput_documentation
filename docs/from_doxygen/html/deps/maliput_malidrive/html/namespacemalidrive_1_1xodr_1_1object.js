@@ -1,0 +1,27 @@
+var namespacemalidrive_1_1xodr_1_1object =
+[
+    [ "Border", "structmalidrive_1_1xodr_1_1object_1_1_border.html", "structmalidrive_1_1xodr_1_1object_1_1_border" ],
+    [ "Borders", "structmalidrive_1_1xodr_1_1object_1_1_borders.html", "structmalidrive_1_1xodr_1_1object_1_1_borders" ],
+    [ "Bridge", "structmalidrive_1_1xodr_1_1object_1_1_bridge.html", "structmalidrive_1_1xodr_1_1object_1_1_bridge" ],
+    [ "CornerLocal", "structmalidrive_1_1xodr_1_1object_1_1_corner_local.html", "structmalidrive_1_1xodr_1_1object_1_1_corner_local" ],
+    [ "CornerReference", "structmalidrive_1_1xodr_1_1object_1_1_corner_reference.html", "structmalidrive_1_1xodr_1_1object_1_1_corner_reference" ],
+    [ "CornerRoad", "structmalidrive_1_1xodr_1_1object_1_1_corner_road.html", "structmalidrive_1_1xodr_1_1object_1_1_corner_road" ],
+    [ "CRG", "structmalidrive_1_1xodr_1_1object_1_1_c_r_g.html", "structmalidrive_1_1xodr_1_1object_1_1_c_r_g" ],
+    [ "Marking", "structmalidrive_1_1xodr_1_1object_1_1_marking.html", "structmalidrive_1_1xodr_1_1object_1_1_marking" ],
+    [ "Markings", "structmalidrive_1_1xodr_1_1object_1_1_markings.html", "structmalidrive_1_1xodr_1_1object_1_1_markings" ],
+    [ "Material", "structmalidrive_1_1xodr_1_1object_1_1_material.html", "structmalidrive_1_1xodr_1_1object_1_1_material" ],
+    [ "Object", "structmalidrive_1_1xodr_1_1object_1_1_object.html", "structmalidrive_1_1xodr_1_1object_1_1_object" ],
+    [ "ObjectReference", "structmalidrive_1_1xodr_1_1object_1_1_object_reference.html", "structmalidrive_1_1xodr_1_1object_1_1_object_reference" ],
+    [ "Objects", "structmalidrive_1_1xodr_1_1object_1_1_objects.html", "structmalidrive_1_1xodr_1_1object_1_1_objects" ],
+    [ "Outline", "structmalidrive_1_1xodr_1_1object_1_1_outline.html", "structmalidrive_1_1xodr_1_1object_1_1_outline" ],
+    [ "Outlines", "structmalidrive_1_1xodr_1_1object_1_1_outlines.html", "structmalidrive_1_1xodr_1_1object_1_1_outlines" ],
+    [ "ParkingSpace", "structmalidrive_1_1xodr_1_1object_1_1_parking_space.html", "structmalidrive_1_1xodr_1_1object_1_1_parking_space" ],
+    [ "Polyline", "structmalidrive_1_1xodr_1_1object_1_1_polyline.html", "structmalidrive_1_1xodr_1_1object_1_1_polyline" ],
+    [ "Repeat", "structmalidrive_1_1xodr_1_1object_1_1_repeat.html", "structmalidrive_1_1xodr_1_1object_1_1_repeat" ],
+    [ "Skeleton", "structmalidrive_1_1xodr_1_1object_1_1_skeleton.html", "structmalidrive_1_1xodr_1_1object_1_1_skeleton" ],
+    [ "Surface", "structmalidrive_1_1xodr_1_1object_1_1_surface.html", "structmalidrive_1_1xodr_1_1object_1_1_surface" ],
+    [ "Tunnel", "structmalidrive_1_1xodr_1_1object_1_1_tunnel.html", "structmalidrive_1_1xodr_1_1object_1_1_tunnel" ],
+    [ "Validity", "structmalidrive_1_1xodr_1_1object_1_1_validity.html", "structmalidrive_1_1xodr_1_1object_1_1_validity" ],
+    [ "VertexLocal", "structmalidrive_1_1xodr_1_1object_1_1_vertex_local.html", "structmalidrive_1_1xodr_1_1object_1_1_vertex_local" ],
+    [ "VertexRoad", "structmalidrive_1_1xodr_1_1object_1_1_vertex_road.html", "structmalidrive_1_1xodr_1_1object_1_1_vertex_road" ]
+];

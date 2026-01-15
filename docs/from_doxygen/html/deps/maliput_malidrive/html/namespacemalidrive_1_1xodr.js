@@ -1,5 +1,6 @@
 var namespacemalidrive_1_1xodr =
 [
+    [ "object", "namespacemalidrive_1_1xodr_1_1object.html", "namespacemalidrive_1_1xodr_1_1object" ],
     [ "AttributeParser", "classmalidrive_1_1xodr_1_1_attribute_parser.html", "classmalidrive_1_1xodr_1_1_attribute_parser" ],
     [ "Connection", "structmalidrive_1_1xodr_1_1_connection.html", "structmalidrive_1_1xodr_1_1_connection" ],
     [ "DBManager", "classmalidrive_1_1xodr_1_1_d_b_manager.html", "classmalidrive_1_1xodr_1_1_d_b_manager" ],

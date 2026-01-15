@@ -1,6 +1,7 @@
 var classmalidrive_1_1_segment =
 [
     [ "Segment", "classmalidrive_1_1_segment.html#af4768d32c0488e30cfe83e06e1457b3f", null ],
+    [ "AddBoundary", "classmalidrive_1_1_segment.html#a72db8318749f37c849783a43962b78c7", null ],
     [ "AddLane", "classmalidrive_1_1_segment.html#a0fb7cc74389e9d5b251804e92293b5c1", null ],
     [ "p0", "classmalidrive_1_1_segment.html#a91d6d86ed0abb8f64e9a0ecd0e054810", null ],
     [ "p1", "classmalidrive_1_1_segment.html#a4f07ac9d9bda6a50715b59b3c53c356f", null ],

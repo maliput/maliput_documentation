@@ -146,6 +146,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac2b4153a3a9bf55d07255331bf0223c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput_1_1api_1_1_inertial_position.html">InertialPosition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_lane.html#ac2b4153a3a9bf55d07255331bf0223c2">ToInertialPosition</a> (const <a class="el" href="classmaliput_1_1api_1_1_lane_position.html">LanePosition</a> &amp;lane_pos) const</td></tr>
 <tr class="memdesc:ac2b4153a3a9bf55d07255331bf0223c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <code><a class="el" href="classmaliput_1_1api_1_1_inertial_position.html" title="A position in 3-dimensional geographical Cartesian space, i.e., in the Inertial-frame,...">maliput::api::InertialPosition</a></code> corresponding to the given <code><a class="el" href="classmaliput_1_1api_1_1_lane_position.html" title="A 3-dimensional position in a Lane-frame, consisting of three components:">maliput::api::LanePosition</a></code>.  <a href="classmaliput_1_1api_1_1_lane.html#ac2b4153a3a9bf55d07255331bf0223c2">More...</a><br /></td></tr>
 <tr class="separator:ac2b4153a3a9bf55d07255331bf0223c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a760e71e7fb263ec2fb8c27656aba3161"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdouble.html">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_lane.html#a760e71e7fb263ec2fb8c27656aba3161">GetCurvature</a> (const <a class="el" href="classmaliput_1_1api_1_1_lane_position.html">LanePosition</a> &amp;lane_pos) const</td></tr>
+<tr class="memdesc:a760e71e7fb263ec2fb8c27656aba3161"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the signed Euclidean curvature at the given <code><a class="el" href="classmaliput_1_1api_1_1_lane_position.html" title="A 3-dimensional position in a Lane-frame, consisting of three components:">maliput::api::LanePosition</a></code>.  <a href="classmaliput_1_1api_1_1_lane.html#a760e71e7fb263ec2fb8c27656aba3161">More...</a><br /></td></tr>
+<tr class="separator:a760e71e7fb263ec2fb8c27656aba3161"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acda224f66653385e297534edc3e98395"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmaliput_1_1api_1_1_lane_position_result.html">LanePositionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_lane.html#acda224f66653385e297534edc3e98395">ToLanePosition</a> (const <a class="el" href="classmaliput_1_1api_1_1_inertial_position.html">InertialPosition</a> &amp;inertial_pos) const</td></tr>
 <tr class="memdesc:acda224f66653385e297534edc3e98395"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the <a class="el" href="classmaliput_1_1api_1_1_lane_position.html" title="A 3-dimensional position in a Lane-frame, consisting of three components:">LanePosition</a> corresponding to <a class="el" href="classmaliput_1_1api_1_1_inertial_position.html" title="A position in 3-dimensional geographical Cartesian space, i.e., in the Inertial-frame,...">InertialPosition</a> <code>inertial_pos</code>.  <a href="classmaliput_1_1api_1_1_lane.html#acda224f66653385e297534edc3e98395">More...</a><br /></td></tr>
 <tr class="separator:acda224f66653385e297534edc3e98395"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,6 +173,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7777f97ac80666f157d04c35edf911ce"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structmaliput_1_1api_1_1_lane_end.html">LaneEnd</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_lane.html#a7777f97ac80666f157d04c35edf911ce">GetDefaultBranch</a> (const <a class="el" href="structmaliput_1_1api_1_1_lane_end.html#a76832237d5d837232469a6c46f1eeff2">LaneEnd::Which</a> which_end) const</td></tr>
 <tr class="memdesc:a7777f97ac80666f157d04c35edf911ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default ongoing <a class="el" href="structmaliput_1_1api_1_1_lane_end.html" title="A specific endpoint of a specific Lane.">LaneEnd</a> connected at <code>which_end</code>, or std::nullopt if no default branch has been established at <code>which_end</code>.  <a href="classmaliput_1_1api_1_1_lane.html#a7777f97ac80666f157d04c35edf911ce">More...</a><br /></td></tr>
 <tr class="separator:a7777f97ac80666f157d04c35edf911ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adead8fd94b9f728dae746fef775205b8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmaliput_1_1api_1_1_lane_boundary.html">LaneBoundary</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_lane.html#adead8fd94b9f728dae746fef775205b8">left_boundary</a> () const</td></tr>
+<tr class="memdesc:adead8fd94b9f728dae746fef775205b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classmaliput_1_1api_1_1_lane_boundary.html" title="Represents a boundary between adjacent lanes or at the edge of a Segment.">LaneBoundary</a> at the left edge of this <a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">Lane</a>.  <a href="classmaliput_1_1api_1_1_lane.html#adead8fd94b9f728dae746fef775205b8">More...</a><br /></td></tr>
+<tr class="separator:adead8fd94b9f728dae746fef775205b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54e1a53c6b8449f1ae887c9c64e0036b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmaliput_1_1api_1_1_lane_boundary.html">LaneBoundary</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_lane.html#a54e1a53c6b8449f1ae887c9c64e0036b">right_boundary</a> () const</td></tr>
+<tr class="memdesc:a54e1a53c6b8449f1ae887c9c64e0036b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classmaliput_1_1api_1_1_lane_boundary.html" title="Represents a boundary between adjacent lanes or at the edge of a Segment.">LaneBoundary</a> at the right edge of this <a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">Lane</a>.  <a href="classmaliput_1_1api_1_1_lane.html#a54e1a53c6b8449f1ae887c9c64e0036b">More...</a><br /></td></tr>
+<tr class="separator:a54e1a53c6b8449f1ae887c9c64e0036b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a040d47e697181081a37e19396ed8ff5b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_lane.html#a040d47e697181081a37e19396ed8ff5b">Contains</a> (const <a class="el" href="classmaliput_1_1api_1_1_lane_position.html">LanePosition</a> &amp;lane_position) const</td></tr>
 <tr class="memdesc:a040d47e697181081a37e19396ed8ff5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns if this lane contains <code>lane_position</code>.  <a href="classmaliput_1_1api_1_1_lane.html#a040d47e697181081a37e19396ed8ff5b">More...</a><br /></td></tr>
 <tr class="separator:a040d47e697181081a37e19396ed8ff5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -358,6 +367,38 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a760e71e7fb263ec2fb8c27656aba3161"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a760e71e7fb263ec2fb8c27656aba3161">&#9670;&nbsp;</a></span>GetCurvature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classdouble.html">double</a> GetCurvature </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmaliput_1_1api_1_1_lane_position.html">LanePosition</a> &amp;&#160;</td>
+          <td class="paramname"><em>lane_pos</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the signed Euclidean curvature at the given <code><a class="el" href="classmaliput_1_1api_1_1_lane_position.html" title="A 3-dimensional position in a Lane-frame, consisting of three components:">maliput::api::LanePosition</a></code>. </p>
+<p>The Euclidean curvature magnitude is defined as the reciprocal of the radius of the osculating circle at a given point on the curve: \( |\kappa| = 1/R \).</p>
+<p>The sign convention follows the right-hand rule with respect to the lane's <code>h</code>-axis (vertical/normal direction):</p><ul>
+<li><b>Positive curvature</b>: The path curves to the left (toward +r direction), i.e., counter-clockwise when viewed from above.</li>
+<li><b>Negative curvature</b>: The path curves to the right (toward -r direction), i.e., clockwise when viewed from above.</li>
+</ul>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lane_pos</td><td>A <code><a class="el" href="classmaliput_1_1api_1_1_lane_position.html" title="A 3-dimensional position in a Lane-frame, consisting of three components:">maliput::api::LanePosition</a></code>. The <code>s</code> component must be in domain [0, <a class="el" href="classmaliput_1_1api_1_1_lane.html#a80401d480f15e1418a3274a2b2b51649" title="Returns the arc-length of the Lane along its reference curve.">Lane::length()</a>]. The <code>r</code> and <code>h</code> components are used to determine the curvature at the corresponding offset from the centerline. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The signed Euclidean curvature (1/m) at the given position. </dd></dl>
+
+</div>
+</div>
 <a id="a7777f97ac80666f157d04c35edf911ce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7777f97ac80666f157d04c35edf911ce">&#9670;&nbsp;</a></span>GetDefaultBranch()</h2>
 
@@ -478,6 +519,27 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="adead8fd94b9f728dae746fef775205b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adead8fd94b9f728dae746fef775205b8">&#9670;&nbsp;</a></span>left_boundary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classmaliput_1_1api_1_1_lane_boundary.html">LaneBoundary</a> * left_boundary </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the <a class="el" href="classmaliput_1_1api_1_1_lane_boundary.html" title="Represents a boundary between adjacent lanes or at the edge of a Segment.">LaneBoundary</a> at the left edge of this <a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">Lane</a>. </p>
+<p>The left boundary is in the +r direction (increasing r coordinate). This is equivalent to <code><a class="el" href="classmaliput_1_1api_1_1_lane.html#ad8845fec4e26bcdd1b82a171355725db" title="Returns the Segment to which this Lane belongs.">segment()</a>-&gt;boundary(<a class="el" href="classmaliput_1_1api_1_1_lane.html#acca41811e8aaab0112b987749c0ecb93" title="Returns the index of this Lane within the Segment which owns it.">index()</a> + 1)</code>.</p>
+<dl class="section return"><dt>Returns</dt><dd>The left boundary, or nullptr if boundary information is not available for the parent <a class="el" href="classmaliput_1_1api_1_1_segment.html" title="A Segment represents a bundle of adjacent Lanes which share a continuously traversable road surface.">Segment</a>. </dd></dl>
+
+</div>
+</div>
 <a id="a80401d480f15e1418a3274a2b2b51649"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a80401d480f15e1418a3274a2b2b51649">&#9670;&nbsp;</a></span>length()</h2>
 
@@ -495,6 +557,27 @@ Protected Member Functions</h2></td></tr>
 
 <p>Returns the arc-length of the <a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">Lane</a> along its reference curve. </p>
 <p>The value of <a class="el" href="classmaliput_1_1api_1_1_lane.html#a80401d480f15e1418a3274a2b2b51649" title="Returns the arc-length of the Lane along its reference curve.">length()</a> is also the maximum s-coordinate for this <a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">Lane</a>; i.e., the domain of s is [0, <a class="el" href="classmaliput_1_1api_1_1_lane.html#a80401d480f15e1418a3274a2b2b51649" title="Returns the arc-length of the Lane along its reference curve.">length()</a>]. </p>
+
+</div>
+</div>
+<a id="a54e1a53c6b8449f1ae887c9c64e0036b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54e1a53c6b8449f1ae887c9c64e0036b">&#9670;&nbsp;</a></span>right_boundary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classmaliput_1_1api_1_1_lane_boundary.html">LaneBoundary</a> * right_boundary </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the <a class="el" href="classmaliput_1_1api_1_1_lane_boundary.html" title="Represents a boundary between adjacent lanes or at the edge of a Segment.">LaneBoundary</a> at the right edge of this <a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">Lane</a>. </p>
+<p>The right boundary is in the -r direction (decreasing r coordinate). This is equivalent to <code><a class="el" href="classmaliput_1_1api_1_1_lane.html#ad8845fec4e26bcdd1b82a171355725db" title="Returns the Segment to which this Lane belongs.">segment()</a>-&gt;boundary(index())</code>.</p>
+<dl class="section return"><dt>Returns</dt><dd>The right boundary, or nullptr if boundary information is not available for the parent <a class="el" href="classmaliput_1_1api_1_1_segment.html" title="A Segment represents a bundle of adjacent Lanes which share a continuously traversable road surface.">Segment</a>. </dd></dl>
 
 </div>
 </div>

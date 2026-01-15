@@ -4125,6 +4125,7 @@
     <filename>api_2lane_8cc.html</filename>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
     <includes id="api_2junction_8h" name="api/junction.h" local="yes" imported="no">maliput/api/junction.h</includes>
+    <includes id="lane__boundary_8h" name="lane_boundary.h" local="yes" imported="no">maliput/api/lane_boundary.h</includes>
     <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
     <includes id="api_2segment_8h" name="api/segment.h" local="yes" imported="no">maliput/api/segment.h</includes>
     <includes id="profiler_8h" name="profiler.h" local="yes" imported="no">maliput/common/profiler.h</includes>
@@ -4174,6 +4175,17 @@
     <class kind="class">maliput::geometry_base::Lane</class>
     <namespace>maliput</namespace>
     <namespace>maliput::geometry_base</namespace>
+  </compound>
+  <compound kind="file">
+    <name>lane_boundary.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/api/</path>
+    <filename>lane__boundary_8h.html</filename>
+    <includes id="lane__marking_8h" name="lane_marking.h" local="yes" imported="no">maliput/api/lane_marking.h</includes>
+    <includes id="type__specific__identifier_8h" name="type_specific_identifier.h" local="yes" imported="no">maliput/api/type_specific_identifier.h</includes>
+    <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
+    <class kind="class">maliput::api::LaneBoundary</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::api</namespace>
   </compound>
   <compound kind="file">
     <name>lane_data.cc</name>
@@ -4306,6 +4318,72 @@
     <class kind="class">maliput::geometry_base::LaneEndSet</class>
     <namespace>maliput</namespace>
     <namespace>maliput::geometry_base</namespace>
+  </compound>
+  <compound kind="file">
+    <name>lane_marking.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/api/</path>
+    <filename>lane__marking_8h.html</filename>
+    <class kind="struct">maliput::api::LaneMarkingLine</class>
+    <class kind="struct">maliput::api::LaneMarking</class>
+    <class kind="struct">maliput::api::LaneMarkingResult</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::api</namespace>
+    <member kind="enumeration">
+      <type></type>
+      <name>LaneMarkingType</name>
+      <anchorfile>group__lane__marking.html</anchorfile>
+      <anchor>gadfa8dbe33855c2eac412236534d87b28</anchor>
+      <arglist></arglist>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a35c3ace1970663a16e5c65baa5941b13">kNone</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28af37621d300d4a6d29af40ca065b2719d">kSolid</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a751efc2a690610cb1459a2a7cb8d1e2e">kBroken</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a0464c63ed50b7f5b929131ed209bcfbb">kSolidSolid</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a523687a4e3767095df7be2fd0b3b4cdc">kSolidBroken</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28af11ef4d621239887a0ca6bd1b3f872f2">kBrokenSolid</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a6eaa08f6a773fee353eb394038b172ea">kBrokenBroken</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a82ecbd764ad7c357ead2774fc5836a85">kBottsDots</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28afa2dc4143b3a84eb6e0b2b9838d294b7">kGrass</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a1cf4801e886e6175656f48edb7f665c7">kCurb</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a0a9e7b78276726f559419b53f1b48378">kEdge</enumvalue>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>LaneMarkingWeight</name>
+      <anchorfile>group__lane__marking.html</anchorfile>
+      <anchor>ga1be95380f1970cfb338812b1832ea956</anchor>
+      <arglist></arglist>
+      <enumvalue file="group__lane__marking.html" anchor="gga1be95380f1970cfb338812b1832ea956a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="gga1be95380f1970cfb338812b1832ea956a821da62632c491ea619ead7b31c094bf">kStandard</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="gga1be95380f1970cfb338812b1832ea956ac1522e863645b017af7d69a3556ea440">kBold</enumvalue>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>LaneMarkingColor</name>
+      <anchorfile>group__lane__marking.html</anchorfile>
+      <anchor>gaba8d9bc8f0059c36f0a0e27fcebdf876</anchor>
+      <arglist></arglist>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876ad368dbde55a733c6dde5a20566d50736">kWhite</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876a4c6c30a3642462190739bb7f13af9c7b">kYellow</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876a11e1aa07606f098e5025e37830a1b22e">kOrange</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876afb0136b923af8c04b31a9d1b5e989acf">kRed</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876a8d069917ec494cc042c27acaad671f52">kBlue</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876a1299e6e2ec6371a79385cd3a862f7cc9">kGreen</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876a693f62c0ce24da9adb83e3df15053bb1">kViolet</enumvalue>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>LaneChangePermission</name>
+      <anchorfile>group__lane__marking.html</anchorfile>
+      <anchor>ga578f8201e5b7fed8fbf6476e39d2d4c1</anchor>
+      <arglist></arglist>
+      <enumvalue file="group__lane__marking.html" anchor="gga578f8201e5b7fed8fbf6476e39d2d4c1a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="gga578f8201e5b7fed8fbf6476e39d2d4c1a03d72b6c4068ade2809390e3bb7917af">kAllowed</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="gga578f8201e5b7fed8fbf6476e39d2d4c1a2f85ad6d4bd5087ef3fb3b70032de8d1">kToLeft</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="gga578f8201e5b7fed8fbf6476e39d2d4c1aaee60504118874a9f6ff032889e97af5">kToRight</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="gga578f8201e5b7fed8fbf6476e39d2d4c1af51e4696fe5a2e7e5ccb859e6ccb0fd6">kProhibited</enumvalue>
+    </member>
   </compound>
   <compound kind="file">
     <name>lane_s_range_relation.h</name>
@@ -24083,6 +24161,13 @@
       <arglist>(const LanePosition &amp;lane_pos) const</arglist>
     </member>
     <member kind="function">
+      <type>double</type>
+      <name>GetCurvature</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane.html</anchorfile>
+      <anchor>a760e71e7fb263ec2fb8c27656aba3161</anchor>
+      <arglist>(const LanePosition &amp;lane_pos) const</arglist>
+    </member>
+    <member kind="function">
       <type>LanePositionResult</type>
       <name>ToLanePosition</name>
       <anchorfile>classmaliput_1_1api_1_1_lane.html</anchorfile>
@@ -24139,6 +24224,20 @@
       <arglist>(const LaneEnd::Which which_end) const</arglist>
     </member>
     <member kind="function">
+      <type>const LaneBoundary *</type>
+      <name>left_boundary</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane.html</anchorfile>
+      <anchor>adead8fd94b9f728dae746fef775205b8</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const LaneBoundary *</type>
+      <name>right_boundary</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane.html</anchorfile>
+      <anchor>a54e1a53c6b8449f1ae887c9c64e0036b</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
       <type>bool</type>
       <name>Contains</name>
       <anchorfile>classmaliput_1_1api_1_1_lane.html</anchorfile>
@@ -24150,6 +24249,87 @@
       <name>Lane</name>
       <anchorfile>classmaliput_1_1api_1_1_lane.html</anchorfile>
       <anchor>a6a2900f79780efd31f2b29db8d17223f</anchor>
+      <arglist>()=default</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::api::LaneBoundary</name>
+    <filename>classmaliput_1_1api_1_1_lane_boundary.html</filename>
+    <member kind="typedef">
+      <type>TypeSpecificIdentifier&lt; class LaneBoundary &gt;</type>
+      <name>Id</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane_boundary.html</anchorfile>
+      <anchor>adb175e27fbee436e179c6e15d3486eb4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~LaneBoundary</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane_boundary.html</anchorfile>
+      <anchor>a1542f5cf7bc3526b6224a041210e7141</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>Id</type>
+      <name>id</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane_boundary.html</anchorfile>
+      <anchor>a6d8899600fb70fa2ab87618ddcadc1e4</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Segment *</type>
+      <name>segment</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane_boundary.html</anchorfile>
+      <anchor>a16156009351b2021d960b0d27a29187a</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>index</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane_boundary.html</anchorfile>
+      <anchor>acca41811e8aaab0112b987749c0ecb93</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Lane *</type>
+      <name>lane_to_left</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane_boundary.html</anchorfile>
+      <anchor>a7700a79a4c862fd673d7c97afb710c60</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Lane *</type>
+      <name>lane_to_right</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane_boundary.html</anchorfile>
+      <anchor>a025ddccc720611c09d106c65a394ead3</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; LaneMarkingResult &gt;</type>
+      <name>GetMarking</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane_boundary.html</anchorfile>
+      <anchor>a789c1b9b9305f2652ac1fabe9af7989b</anchor>
+      <arglist>(double s) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; LaneMarkingResult &gt;</type>
+      <name>GetMarkings</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane_boundary.html</anchorfile>
+      <anchor>a798e5454789e1cc007313211ec662872</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; LaneMarkingResult &gt;</type>
+      <name>GetMarkings</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane_boundary.html</anchorfile>
+      <anchor>a65e38a6be56c6372b502f99f3b911a7d</anchor>
+      <arglist>(double s_start, double s_end) const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>LaneBoundary</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane_boundary.html</anchorfile>
+      <anchor>a64592854799a70aee090d7df209448ff</anchor>
       <arglist>()=default</arglist>
     </member>
   </compound>
@@ -24280,6 +24460,172 @@
       <anchorfile>classmaliput_1_1api_1_1_lane_end_set.html</anchorfile>
       <anchor>ad30d4a5fc72d62e1309a5f24c63e799a</anchor>
       <arglist>()=default</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput::api::LaneMarking</name>
+    <filename>structmaliput_1_1api_1_1_lane_marking.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmaliput_1_1api_1_1_lane_marking.html</anchorfile>
+      <anchor>a1e3ff993b7aaed9a7778e4f0c11f1859</anchor>
+      <arglist>(const LaneMarking &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmaliput_1_1api_1_1_lane_marking.html</anchorfile>
+      <anchor>a02b8d821f2f6ea4c7ecbca8ab2baceae</anchor>
+      <arglist>(const LaneMarking &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>LaneMarkingType</type>
+      <name>type</name>
+      <anchorfile>structmaliput_1_1api_1_1_lane_marking.html</anchorfile>
+      <anchor>a9cbe0a2de18f824145c96898576d6e28</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>LaneMarkingWeight</type>
+      <name>weight</name>
+      <anchorfile>structmaliput_1_1api_1_1_lane_marking.html</anchorfile>
+      <anchor>a72dcb1fc908d3b56de9425b4e68141ef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>LaneMarkingColor</type>
+      <name>color</name>
+      <anchorfile>structmaliput_1_1api_1_1_lane_marking.html</anchorfile>
+      <anchor>a6bd43369968ddef8cbdae36dca662e0e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>width</name>
+      <anchorfile>structmaliput_1_1api_1_1_lane_marking.html</anchorfile>
+      <anchor>a9df23e056f5d1a0388cd8190431c0e03</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>height</name>
+      <anchorfile>structmaliput_1_1api_1_1_lane_marking.html</anchorfile>
+      <anchor>a89f6abd564014faeff7cd20c340a9c7d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>LaneChangePermission</type>
+      <name>lane_change</name>
+      <anchorfile>structmaliput_1_1api_1_1_lane_marking.html</anchorfile>
+      <anchor>a6874afb168bf9ba2c3730d63721c1058</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>material</name>
+      <anchorfile>structmaliput_1_1api_1_1_lane_marking.html</anchorfile>
+      <anchor>a22c8d4491d9c4aa32bec4d1c803ec09d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; LaneMarkingLine &gt;</type>
+      <name>lines</name>
+      <anchorfile>structmaliput_1_1api_1_1_lane_marking.html</anchorfile>
+      <anchor>a8ff454ba39200d317578f6ecc6bbc486</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput::api::LaneMarkingLine</name>
+    <filename>structmaliput_1_1api_1_1_lane_marking_line.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmaliput_1_1api_1_1_lane_marking_line.html</anchorfile>
+      <anchor>a0dca91128b9c3e536b6d1734ae77d0b4</anchor>
+      <arglist>(const LaneMarkingLine &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmaliput_1_1api_1_1_lane_marking_line.html</anchorfile>
+      <anchor>a0227c6f546fd325018be8768625f73f1</anchor>
+      <arglist>(const LaneMarkingLine &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>length</name>
+      <anchorfile>structmaliput_1_1api_1_1_lane_marking_line.html</anchorfile>
+      <anchor>a928b11f5716331f0b89abe7d8d4124b4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>space</name>
+      <anchorfile>structmaliput_1_1api_1_1_lane_marking_line.html</anchorfile>
+      <anchor>af1dc913ff692663f7d082134e97db7ce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>width</name>
+      <anchorfile>structmaliput_1_1api_1_1_lane_marking_line.html</anchorfile>
+      <anchor>a9df23e056f5d1a0388cd8190431c0e03</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>r_offset</name>
+      <anchorfile>structmaliput_1_1api_1_1_lane_marking_line.html</anchorfile>
+      <anchor>ae729af6556ad3d6e43f3e90ef20ede2c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>LaneMarkingColor</type>
+      <name>color</name>
+      <anchorfile>structmaliput_1_1api_1_1_lane_marking_line.html</anchorfile>
+      <anchor>a6bd43369968ddef8cbdae36dca662e0e</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput::api::LaneMarkingResult</name>
+    <filename>structmaliput_1_1api_1_1_lane_marking_result.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmaliput_1_1api_1_1_lane_marking_result.html</anchorfile>
+      <anchor>a8edcb50d0dd9c8dc9db0020849152812</anchor>
+      <arglist>(const LaneMarkingResult &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmaliput_1_1api_1_1_lane_marking_result.html</anchorfile>
+      <anchor>aa231a661a20772493d75354163d59598</anchor>
+      <arglist>(const LaneMarkingResult &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>LaneMarking</type>
+      <name>marking</name>
+      <anchorfile>structmaliput_1_1api_1_1_lane_marking_result.html</anchorfile>
+      <anchor>a98b06ac7a364f7dd78b7dab1966fa0d3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>s_start</name>
+      <anchorfile>structmaliput_1_1api_1_1_lane_marking_result.html</anchorfile>
+      <anchor>a181f9ba4c336788bf6ac1136e3d1a05d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>s_end</name>
+      <anchorfile>structmaliput_1_1api_1_1_lane_marking_result.html</anchorfile>
+      <anchor>aa4c69b5d45ee7ba08d02a9d3e2d086ff</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -26649,6 +26995,25 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::geometry_base::test::MockJunction</name>
+    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</filename>
+    <base>maliput::geometry_base::Junction</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</anchorfile>
+      <anchor>a26723fde85c91fee88437db5f309cde9</anchor>
+      <arglist>(MockJunction)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MockJunction</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</anchorfile>
+      <anchor>aa61dda9241bb8ba6c3a802f6d30166de</anchor>
+      <arglist>(const api::JunctionId &amp;id)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::api::test::MockJunction</name>
     <filename>classmaliput_1_1api_1_1test_1_1_mock_junction.html</filename>
     <base>maliput::api::Junction</base>
@@ -26672,25 +27037,6 @@
       <anchorfile>classmaliput_1_1api_1_1test_1_1_mock_junction.html</anchorfile>
       <anchor>a198054bfe5b09d2e653ad8901a050509</anchor>
       <arglist>(std::unique_ptr&lt; MockSegment &gt; segment)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::geometry_base::test::MockJunction</name>
-    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</filename>
-    <base>maliput::geometry_base::Junction</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</anchorfile>
-      <anchor>a26723fde85c91fee88437db5f309cde9</anchor>
-      <arglist>(MockJunction)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MockJunction</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</anchorfile>
-      <anchor>aa61dda9241bb8ba6c3a802f6d30166de</anchor>
-      <arglist>(const api::JunctionId &amp;id)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -26866,25 +27212,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::geometry_base::test::MockSegment</name>
-    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</filename>
-    <base>maliput::geometry_base::Segment</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
-      <anchor>a667227ded4ffb60bad6d5bf69e104a38</anchor>
-      <arglist>(MockSegment)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MockSegment</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
-      <anchor>a9384ed7a03ee84b8f965a5d156f4efee</anchor>
-      <arglist>(const api::SegmentId &amp;id)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>maliput::api::test::MockSegment</name>
     <filename>classmaliput_1_1api_1_1test_1_1_mock_segment.html</filename>
     <base>maliput::api::Segment</base>
@@ -26908,6 +27235,25 @@
       <anchorfile>classmaliput_1_1api_1_1test_1_1_mock_segment.html</anchorfile>
       <anchor>ab18c3ac1d55322f884de6d1313ee2888</anchor>
       <arglist>(std::unique_ptr&lt; MockLane &gt; lane)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::geometry_base::test::MockSegment</name>
+    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</filename>
+    <base>maliput::geometry_base::Segment</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
+      <anchor>a667227ded4ffb60bad6d5bf69e104a38</anchor>
+      <arglist>(MockSegment)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MockSegment</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html</anchorfile>
+      <anchor>a9384ed7a03ee84b8f965a5d156f4efee</anchor>
+      <arglist>(const api::SegmentId &amp;id)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -33378,6 +33724,20 @@
       <name>lane</name>
       <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
       <anchor>a6f4e1b5acc16f9d2f722f0a36db0a06f</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_boundaries</name>
+      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
+      <anchor>a3f3062a0eb49c4088fc681bf3a7e77a5</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const LaneBoundary *</type>
+      <name>boundary</name>
+      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
+      <anchor>af65720887ce0538366ddf7ce3807dffc</anchor>
       <arglist>(int index) const</arglist>
     </member>
     <member kind="function" protection="protected">
@@ -45622,8 +45982,12 @@
     <class kind="struct">maliput::api::IsoLaneVelocity</class>
     <class kind="class">maliput::api::Junction</class>
     <class kind="class">maliput::api::Lane</class>
+    <class kind="class">maliput::api::LaneBoundary</class>
     <class kind="struct">maliput::api::LaneEnd</class>
     <class kind="class">maliput::api::LaneEndSet</class>
+    <class kind="struct">maliput::api::LaneMarking</class>
+    <class kind="struct">maliput::api::LaneMarkingLine</class>
+    <class kind="struct">maliput::api::LaneMarkingResult</class>
     <class kind="class">maliput::api::LanePosition</class>
     <class kind="struct">maliput::api::LanePositionResult</class>
     <class kind="class">maliput::api::LaneSRange</class>
@@ -45705,6 +46069,62 @@
       <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33abd5abcd9974e27aec39713ec74954c41">kConnectingRamp</enumvalue>
       <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33a5cbb078e5c8c313086fcdc04b391b326">kSlipLane</enumvalue>
       <enumvalue file="namespacemaliput_1_1api.html" anchor="a2e5ecaab42b966e76a474f365da28e33af2dc25c8e1ec3e89e6861e816a1e5bda">kVirtual</enumvalue>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>LaneMarkingType</name>
+      <anchorfile>group__lane__marking.html</anchorfile>
+      <anchor>gadfa8dbe33855c2eac412236534d87b28</anchor>
+      <arglist></arglist>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a35c3ace1970663a16e5c65baa5941b13">kNone</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28af37621d300d4a6d29af40ca065b2719d">kSolid</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a751efc2a690610cb1459a2a7cb8d1e2e">kBroken</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a0464c63ed50b7f5b929131ed209bcfbb">kSolidSolid</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a523687a4e3767095df7be2fd0b3b4cdc">kSolidBroken</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28af11ef4d621239887a0ca6bd1b3f872f2">kBrokenSolid</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a6eaa08f6a773fee353eb394038b172ea">kBrokenBroken</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a82ecbd764ad7c357ead2774fc5836a85">kBottsDots</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28afa2dc4143b3a84eb6e0b2b9838d294b7">kGrass</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a1cf4801e886e6175656f48edb7f665c7">kCurb</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a0a9e7b78276726f559419b53f1b48378">kEdge</enumvalue>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>LaneMarkingWeight</name>
+      <anchorfile>group__lane__marking.html</anchorfile>
+      <anchor>ga1be95380f1970cfb338812b1832ea956</anchor>
+      <arglist></arglist>
+      <enumvalue file="group__lane__marking.html" anchor="gga1be95380f1970cfb338812b1832ea956a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="gga1be95380f1970cfb338812b1832ea956a821da62632c491ea619ead7b31c094bf">kStandard</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="gga1be95380f1970cfb338812b1832ea956ac1522e863645b017af7d69a3556ea440">kBold</enumvalue>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>LaneMarkingColor</name>
+      <anchorfile>group__lane__marking.html</anchorfile>
+      <anchor>gaba8d9bc8f0059c36f0a0e27fcebdf876</anchor>
+      <arglist></arglist>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876ad368dbde55a733c6dde5a20566d50736">kWhite</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876a4c6c30a3642462190739bb7f13af9c7b">kYellow</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876a11e1aa07606f098e5025e37830a1b22e">kOrange</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876afb0136b923af8c04b31a9d1b5e989acf">kRed</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876a8d069917ec494cc042c27acaad671f52">kBlue</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876a1299e6e2ec6371a79385cd3a862f7cc9">kGreen</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876a693f62c0ce24da9adb83e3df15053bb1">kViolet</enumvalue>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>LaneChangePermission</name>
+      <anchorfile>group__lane__marking.html</anchorfile>
+      <anchor>ga578f8201e5b7fed8fbf6476e39d2d4c1</anchor>
+      <arglist></arglist>
+      <enumvalue file="group__lane__marking.html" anchor="gga578f8201e5b7fed8fbf6476e39d2d4c1a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="gga578f8201e5b7fed8fbf6476e39d2d4c1a03d72b6c4068ade2809390e3bb7917af">kAllowed</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="gga578f8201e5b7fed8fbf6476e39d2d4c1a2f85ad6d4bd5087ef3fb3b70032de8d1">kToLeft</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="gga578f8201e5b7fed8fbf6476e39d2d4c1aaee60504118874a9f6ff032889e97af5">kToRight</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="gga578f8201e5b7fed8fbf6476e39d2d4c1af51e4696fe5a2e7e5ccb859e6ccb0fd6">kProhibited</enumvalue>
     </member>
     <member kind="function">
       <type>common::ComparisonResult&lt; LanePositionResult &gt;</type>
@@ -49482,6 +49902,71 @@
     <name>YAML</name>
     <filename>namespace_y_a_m_l.html</filename>
     <class kind="struct">YAML::convert&lt; maliput::api::SRange &gt;</class>
+  </compound>
+  <compound kind="group">
+    <name>lane_marking</name>
+    <title>Lane Marking API</title>
+    <filename>group__lane__marking.html</filename>
+    <class kind="class">maliput::api::LaneBoundary</class>
+    <class kind="struct">maliput::api::LaneMarkingLine</class>
+    <class kind="struct">maliput::api::LaneMarking</class>
+    <class kind="struct">maliput::api::LaneMarkingResult</class>
+    <member kind="enumeration">
+      <type></type>
+      <name>LaneMarkingType</name>
+      <anchorfile>group__lane__marking.html</anchorfile>
+      <anchor>gadfa8dbe33855c2eac412236534d87b28</anchor>
+      <arglist></arglist>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a35c3ace1970663a16e5c65baa5941b13">kNone</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28af37621d300d4a6d29af40ca065b2719d">kSolid</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a751efc2a690610cb1459a2a7cb8d1e2e">kBroken</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a0464c63ed50b7f5b929131ed209bcfbb">kSolidSolid</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a523687a4e3767095df7be2fd0b3b4cdc">kSolidBroken</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28af11ef4d621239887a0ca6bd1b3f872f2">kBrokenSolid</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a6eaa08f6a773fee353eb394038b172ea">kBrokenBroken</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a82ecbd764ad7c357ead2774fc5836a85">kBottsDots</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28afa2dc4143b3a84eb6e0b2b9838d294b7">kGrass</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a1cf4801e886e6175656f48edb7f665c7">kCurb</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggadfa8dbe33855c2eac412236534d87b28a0a9e7b78276726f559419b53f1b48378">kEdge</enumvalue>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>LaneMarkingWeight</name>
+      <anchorfile>group__lane__marking.html</anchorfile>
+      <anchor>ga1be95380f1970cfb338812b1832ea956</anchor>
+      <arglist></arglist>
+      <enumvalue file="group__lane__marking.html" anchor="gga1be95380f1970cfb338812b1832ea956a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="gga1be95380f1970cfb338812b1832ea956a821da62632c491ea619ead7b31c094bf">kStandard</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="gga1be95380f1970cfb338812b1832ea956ac1522e863645b017af7d69a3556ea440">kBold</enumvalue>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>LaneMarkingColor</name>
+      <anchorfile>group__lane__marking.html</anchorfile>
+      <anchor>gaba8d9bc8f0059c36f0a0e27fcebdf876</anchor>
+      <arglist></arglist>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876ad368dbde55a733c6dde5a20566d50736">kWhite</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876a4c6c30a3642462190739bb7f13af9c7b">kYellow</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876a11e1aa07606f098e5025e37830a1b22e">kOrange</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876afb0136b923af8c04b31a9d1b5e989acf">kRed</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876a8d069917ec494cc042c27acaad671f52">kBlue</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876a1299e6e2ec6371a79385cd3a862f7cc9">kGreen</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="ggaba8d9bc8f0059c36f0a0e27fcebdf876a693f62c0ce24da9adb83e3df15053bb1">kViolet</enumvalue>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>LaneChangePermission</name>
+      <anchorfile>group__lane__marking.html</anchorfile>
+      <anchor>ga578f8201e5b7fed8fbf6476e39d2d4c1</anchor>
+      <arglist></arglist>
+      <enumvalue file="group__lane__marking.html" anchor="gga578f8201e5b7fed8fbf6476e39d2d4c1a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="gga578f8201e5b7fed8fbf6476e39d2d4c1a03d72b6c4068ade2809390e3bb7917af">kAllowed</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="gga578f8201e5b7fed8fbf6476e39d2d4c1a2f85ad6d4bd5087ef3fb3b70032de8d1">kToLeft</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="gga578f8201e5b7fed8fbf6476e39d2d4c1aaee60504118874a9f6ff032889e97af5">kToRight</enumvalue>
+      <enumvalue file="group__lane__marking.html" anchor="gga578f8201e5b7fed8fbf6476e39d2d4c1af51e4696fe5a2e7e5ccb859e6ccb0fd6">kProhibited</enumvalue>
+    </member>
   </compound>
   <compound kind="group">
     <name>default_scalars</name>

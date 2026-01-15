@@ -19,6 +19,46 @@
     <namespace>malidrive::road_curve</namespace>
   </compound>
   <compound kind="file">
+    <name>borders.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>borders_8cc.html</filename>
+    <includes id="borders_8h" name="borders.h" local="yes" imported="no">maliput_malidrive/xodr/object/borders.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+  </compound>
+  <compound kind="file">
+    <name>borders.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>borders_8h.html</filename>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <class kind="struct">malidrive::xodr::object::Border</class>
+    <class kind="struct">malidrive::xodr::object::Borders</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+  </compound>
+  <compound kind="file">
+    <name>bridge.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>bridge_8cc.html</filename>
+    <includes id="bridge_8h" name="bridge.h" local="yes" imported="no">maliput_malidrive/xodr/object/bridge.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+  </compound>
+  <compound kind="file">
+    <name>bridge.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>bridge_8h.html</filename>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <includes id="validity_8h" name="validity.h" local="yes" imported="no">maliput_malidrive/xodr/object/validity.h</includes>
+    <class kind="struct">malidrive::xodr::object::Bridge</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+  </compound>
+  <compound kind="file">
     <name>builder_tools.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/builder/</path>
     <filename>builder__tools_8cc.html</filename>
@@ -362,10 +402,66 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>common.cc</name>
+    <name>common/common.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/common/</path>
-    <filename>common_8cc.html</filename>
+    <filename>common_2common_8cc.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>xodr/object/common.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>xodr_2object_2common_8cc.html</filename>
+    <includes id="common_8h" name="common.h" local="yes" imported="no">maliput_malidrive/xodr/object/common.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+    <member kind="function">
+      <type>std::string</type>
+      <name>orientation_to_str</name>
+      <anchorfile>namespacemalidrive_1_1xodr_1_1object.html</anchorfile>
+      <anchor>a44ee6861958393a38ea5991c08299858</anchor>
+      <arglist>(Orientation orientation)</arglist>
+    </member>
+    <member kind="function">
+      <type>Orientation</type>
+      <name>str_to_orientation</name>
+      <anchorfile>namespacemalidrive_1_1xodr_1_1object.html</anchorfile>
+      <anchor>a9faf6b0bc25e5fd465e645a563d2949c</anchor>
+      <arglist>(const std::string &amp;orientation)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>common.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>common_8h.html</filename>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+    <member kind="enumeration">
+      <type></type>
+      <name>Orientation</name>
+      <anchorfile>namespacemalidrive_1_1xodr_1_1object.html</anchorfile>
+      <anchor>a871118a09520247c78a71ecd7b0abd58</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespacemalidrive_1_1xodr_1_1object.html" anchor="a871118a09520247c78a71ecd7b0abd58afe449700ac27fbd09863263d74e7735f">kPositive</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr_1_1object.html" anchor="a871118a09520247c78a71ecd7b0abd58a25b105cbe0fd4622cdb36360c85e89c3">kNegative</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr_1_1object.html" anchor="a871118a09520247c78a71ecd7b0abd58a35c3ace1970663a16e5c65baa5941b13">kNone</enumvalue>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>orientation_to_str</name>
+      <anchorfile>namespacemalidrive_1_1xodr_1_1object.html</anchorfile>
+      <anchor>a44ee6861958393a38ea5991c08299858</anchor>
+      <arglist>(Orientation orientation)</arglist>
+    </member>
+    <member kind="function">
+      <type>Orientation</type>
+      <name>str_to_orientation</name>
+      <anchorfile>namespacemalidrive_1_1xodr_1_1object.html</anchorfile>
+      <anchor>a9faf6b0bc25e5fd465e645a563d2949c</anchor>
+      <arglist>(const std::string &amp;orientation)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>connection.cc</name>
@@ -1051,6 +1147,23 @@
     <namespace>malidrive::xodr</namespace>
   </compound>
   <compound kind="file">
+    <name>lane_boundary.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/base/</path>
+    <filename>lane__boundary_8cc.html</filename>
+    <includes id="lane__boundary_8h" name="lane_boundary.h" local="yes" imported="no">maliput_malidrive/base/lane_boundary.h</includes>
+    <namespace>malidrive</namespace>
+  </compound>
+  <compound kind="file">
+    <name>lane_boundary.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/base/</path>
+    <filename>lane__boundary_8h.html</filename>
+    <includes id="base_2lane_8h" name="base/lane.h" local="yes" imported="no">maliput_malidrive/base/lane.h</includes>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <includes id="lane__road__mark_8h" name="lane_road_mark.h" local="yes" imported="no">maliput_malidrive/xodr/lane_road_mark.h</includes>
+    <class kind="class">malidrive::LaneBoundary</class>
+    <namespace>malidrive</namespace>
+  </compound>
+  <compound kind="file">
     <name>lane_link.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/</path>
     <filename>lane__link_8h.html</filename>
@@ -1371,6 +1484,111 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>markings.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>markings_8cc.html</filename>
+    <includes id="markings_8h" name="markings.h" local="yes" imported="no">maliput_malidrive/xodr/object/markings.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+  </compound>
+  <compound kind="file">
+    <name>markings.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>markings_8h.html</filename>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <includes id="colors_8h" name="colors.h" local="yes" imported="no">maliput_malidrive/xodr/colors.h</includes>
+    <includes id="lane__road__mark_8h" name="lane_road_mark.h" local="yes" imported="no">maliput_malidrive/xodr/lane_road_mark.h</includes>
+    <class kind="struct">malidrive::xodr::object::CornerReference</class>
+    <class kind="struct">malidrive::xodr::object::Marking</class>
+    <class kind="struct">malidrive::xodr::object::Markings</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+  </compound>
+  <compound kind="file">
+    <name>material.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>material_8cc.html</filename>
+    <includes id="material_8h" name="material.h" local="yes" imported="no">maliput_malidrive/xodr/object/material.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+  </compound>
+  <compound kind="file">
+    <name>material.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>material_8h.html</filename>
+    <includes id="lane__road__mark_8h" name="lane_road_mark.h" local="yes" imported="no">maliput_malidrive/xodr/lane_road_mark.h</includes>
+    <class kind="struct">malidrive::xodr::object::Material</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+  </compound>
+  <compound kind="file">
+    <name>object.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>object_8cc.html</filename>
+    <includes id="object_8h" name="object.h" local="yes" imported="no">maliput_malidrive/xodr/object/object.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+  </compound>
+  <compound kind="file">
+    <name>object.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>object_8h.html</filename>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <includes id="borders_8h" name="borders.h" local="yes" imported="no">maliput_malidrive/xodr/object/borders.h</includes>
+    <includes id="bridge_8h" name="bridge.h" local="yes" imported="no">maliput_malidrive/xodr/object/bridge.h</includes>
+    <includes id="common_8h" name="common.h" local="yes" imported="no">maliput_malidrive/xodr/object/common.h</includes>
+    <includes id="markings_8h" name="markings.h" local="yes" imported="no">maliput_malidrive/xodr/object/markings.h</includes>
+    <includes id="material_8h" name="material.h" local="yes" imported="no">maliput_malidrive/xodr/object/material.h</includes>
+    <includes id="object__reference_8h" name="object_reference.h" local="yes" imported="no">maliput_malidrive/xodr/object/object_reference.h</includes>
+    <includes id="outlines_8h" name="outlines.h" local="yes" imported="no">maliput_malidrive/xodr/object/outlines.h</includes>
+    <includes id="parking__space_8h" name="parking_space.h" local="yes" imported="no">maliput_malidrive/xodr/object/parking_space.h</includes>
+    <includes id="repeat_8h" name="repeat.h" local="yes" imported="no">maliput_malidrive/xodr/object/repeat.h</includes>
+    <includes id="skeleton_8h" name="skeleton.h" local="yes" imported="no">maliput_malidrive/xodr/object/skeleton.h</includes>
+    <includes id="surface_8h" name="surface.h" local="yes" imported="no">maliput_malidrive/xodr/object/surface.h</includes>
+    <includes id="tunnel_8h" name="tunnel.h" local="yes" imported="no">maliput_malidrive/xodr/object/tunnel.h</includes>
+    <includes id="validity_8h" name="validity.h" local="yes" imported="no">maliput_malidrive/xodr/object/validity.h</includes>
+    <class kind="struct">malidrive::xodr::object::Object</class>
+    <class kind="struct">malidrive::xodr::object::Objects</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+  </compound>
+  <compound kind="file">
+    <name>object_parser.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>object__parser_8cc.html</filename>
+    <includes id="object_8h" name="object.h" local="yes" imported="no">maliput_malidrive/xodr/object/object.h</includes>
+    <includes id="parser_8h" name="parser.h" local="yes" imported="no">maliput_malidrive/xodr/parser.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+  </compound>
+  <compound kind="file">
+    <name>object_reference.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>object__reference_8cc.html</filename>
+    <includes id="object__reference_8h" name="object_reference.h" local="yes" imported="no">maliput_malidrive/xodr/object/object_reference.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+  </compound>
+  <compound kind="file">
+    <name>object_reference.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>object__reference_8h.html</filename>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <includes id="common_8h" name="common.h" local="yes" imported="no">maliput_malidrive/xodr/object/common.h</includes>
+    <includes id="validity_8h" name="validity.h" local="yes" imported="no">maliput_malidrive/xodr/object/validity.h</includes>
+    <class kind="struct">malidrive::xodr::object::ObjectReference</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+  </compound>
+  <compound kind="file">
     <name>offset.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/</path>
     <filename>offset_8cc.html</filename>
@@ -1399,6 +1617,28 @@
       <anchor>a4a5a2a771b491994e9a4f942b2d6a5e8</anchor>
       <arglist>(std::ostream &amp;out, const Offset &amp;offset)</arglist>
     </member>
+  </compound>
+  <compound kind="file">
+    <name>outlines.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>outlines_8cc.html</filename>
+    <includes id="outlines_8h" name="outlines.h" local="yes" imported="no">maliput_malidrive/xodr/object/outlines.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+  </compound>
+  <compound kind="file">
+    <name>outlines.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>outlines_8h.html</filename>
+    <includes id="xodr_2lane_8h" name="xodr/lane.h" local="yes" imported="no">maliput_malidrive/xodr/lane.h</includes>
+    <class kind="struct">malidrive::xodr::object::CornerLocal</class>
+    <class kind="struct">malidrive::xodr::object::CornerRoad</class>
+    <class kind="struct">malidrive::xodr::object::Outline</class>
+    <class kind="struct">malidrive::xodr::object::Outlines</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
   </compound>
   <compound kind="file">
     <name>param_poly3_ground_curve.cc</name>
@@ -1560,6 +1800,25 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>parking_space.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>parking__space_8cc.html</filename>
+    <includes id="parking__space_8h" name="parking_space.h" local="yes" imported="no">maliput_malidrive/xodr/object/parking_space.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+  </compound>
+  <compound kind="file">
+    <name>parking_space.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>parking__space_8h.html</filename>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <class kind="struct">malidrive::xodr::object::ParkingSpace</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+  </compound>
+  <compound kind="file">
     <name>parser.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/</path>
     <filename>parser_8cc.html</filename>
@@ -1578,6 +1837,7 @@
     <includes id="lane__width_8h" name="lane_width.h" local="yes" imported="no">maliput_malidrive/xodr/lane_width.h</includes>
     <includes id="lanes_8h" name="lanes.h" local="yes" imported="no">maliput_malidrive/xodr/lanes.h</includes>
     <includes id="lateral__profile_8h" name="lateral_profile.h" local="yes" imported="no">maliput_malidrive/xodr/lateral_profile.h</includes>
+    <includes id="object_8h" name="object.h" local="yes" imported="no">maliput_malidrive/xodr/object/object.h</includes>
     <includes id="offset_8h" name="offset.h" local="yes" imported="no">maliput_malidrive/xodr/offset.h</includes>
     <includes id="plan__view_8h" name="plan_view.h" local="yes" imported="no">maliput_malidrive/xodr/plan_view.h</includes>
     <includes id="road__header_8h" name="road_header.h" local="yes" imported="no">maliput_malidrive/xodr/road_header.h</includes>
@@ -1749,6 +2009,24 @@
     <namespace>malidrive::xodr</namespace>
   </compound>
   <compound kind="file">
+    <name>repeat.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>repeat_8cc.html</filename>
+    <includes id="repeat_8h" name="repeat.h" local="yes" imported="no">maliput_malidrive/xodr/object/repeat.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+  </compound>
+  <compound kind="file">
+    <name>repeat.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>repeat_8h.html</filename>
+    <class kind="struct">malidrive::xodr::object::Repeat</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+  </compound>
+  <compound kind="file">
     <name>resources.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/utility/</path>
     <filename>resources_8cc.html</filename>
@@ -1915,6 +2193,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/builder/</path>
     <filename>road__geometry__builder_8cc.html</filename>
     <includes id="road__geometry__builder_8h" name="road_geometry_builder.h" local="yes" imported="no">maliput_malidrive/builder/road_geometry_builder.h</includes>
+    <includes id="lane__boundary_8h" name="lane_boundary.h" local="yes" imported="no">maliput_malidrive/base/lane_boundary.h</includes>
     <includes id="determine__tolerance_8h" name="determine_tolerance.h" local="yes" imported="no">maliput_malidrive/builder/determine_tolerance.h</includes>
     <includes id="road__curve__factory_8h" name="road_curve_factory.h" local="yes" imported="no">maliput_malidrive/builder/road_curve_factory.h</includes>
     <includes id="simplify__geometries_8h" name="simplify_geometries.h" local="yes" imported="no">maliput_malidrive/builder/simplify_geometries.h</includes>
@@ -2046,6 +2325,7 @@
     <filename>road__header_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="lanes_8h" name="lanes.h" local="yes" imported="no">maliput_malidrive/xodr/lanes.h</includes>
+    <includes id="object_8h" name="object.h" local="yes" imported="no">maliput_malidrive/xodr/object/object.h</includes>
     <includes id="reference__geometry_8h" name="reference_geometry.h" local="yes" imported="no">maliput_malidrive/xodr/reference_geometry.h</includes>
     <includes id="road__link_8h" name="road_link.h" local="yes" imported="no">maliput_malidrive/xodr/road_link.h</includes>
     <includes id="road__type_8h" name="road_type.h" local="yes" imported="no">maliput_malidrive/xodr/road_type.h</includes>
@@ -2291,6 +2571,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/base/</path>
     <filename>segment_8h.html</filename>
     <includes id="base_2lane_8h" name="base/lane.h" local="yes" imported="no">maliput_malidrive/base/lane.h</includes>
+    <includes id="lane__boundary_8h" name="lane_boundary.h" local="yes" imported="no">maliput_malidrive/base/lane_boundary.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="road__curve_8h" name="road_curve.h" local="yes" imported="no">maliput_malidrive/road_curve/road_curve.h</includes>
     <includes id="road__curve__offset_8h" name="road_curve_offset.h" local="yes" imported="no">maliput_malidrive/road_curve/road_curve_offset.h</includes>
@@ -2327,6 +2608,27 @@
       <anchor>aa39ac9a357a5a78705a21d92a1ac2794</anchor>
       <arglist>(const std::vector&lt; xodr::Geometry &gt; &amp;geometries, const std::vector&lt; xodr::DBManager::XodrGeometriesToSimplify &gt; &amp;geometries_to_simplify)</arglist>
     </member>
+  </compound>
+  <compound kind="file">
+    <name>skeleton.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>skeleton_8cc.html</filename>
+    <includes id="skeleton_8h" name="skeleton.h" local="yes" imported="no">maliput_malidrive/xodr/object/skeleton.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+  </compound>
+  <compound kind="file">
+    <name>skeleton.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>skeleton_8h.html</filename>
+    <class kind="struct">malidrive::xodr::object::VertexRoad</class>
+    <class kind="struct">malidrive::xodr::object::VertexLocal</class>
+    <class kind="struct">malidrive::xodr::object::Polyline</class>
+    <class kind="struct">malidrive::xodr::object::Skeleton</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
   </compound>
   <compound kind="file">
     <name>speed_limit_builder.cc</name>
@@ -2368,6 +2670,26 @@
     <class kind="class">malidrive::road_curve::SpiralGroundCurve</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::road_curve</namespace>
+  </compound>
+  <compound kind="file">
+    <name>surface.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>surface_8cc.html</filename>
+    <includes id="surface_8h" name="surface.h" local="yes" imported="no">maliput_malidrive/xodr/object/surface.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+  </compound>
+  <compound kind="file">
+    <name>surface.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>surface_8h.html</filename>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <class kind="struct">malidrive::xodr::object::CRG</class>
+    <class kind="struct">malidrive::xodr::object::Surface</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
   </compound>
   <compound kind="file">
     <name>tools.cc</name>
@@ -2445,6 +2767,26 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>tunnel.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>tunnel_8cc.html</filename>
+    <includes id="tunnel_8h" name="tunnel.h" local="yes" imported="no">maliput_malidrive/xodr/object/tunnel.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+  </compound>
+  <compound kind="file">
+    <name>tunnel.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>tunnel_8h.html</filename>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <includes id="validity_8h" name="validity.h" local="yes" imported="no">maliput_malidrive/xodr/object/validity.h</includes>
+    <class kind="struct">malidrive::xodr::object::Tunnel</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+  </compound>
+  <compound kind="file">
     <name>tutorials.md</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/tutorials/</path>
     <filename>tutorials_8md.html</filename>
@@ -2516,6 +2858,24 @@
       <anchor>a9d9881ea6862c23ba1822254b622c84e</anchor>
       <arglist>(const std::string &amp;unit)</arglist>
     </member>
+  </compound>
+  <compound kind="file">
+    <name>validity.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>validity_8cc.html</filename>
+    <includes id="validity_8h" name="validity.h" local="yes" imported="no">maliput_malidrive/xodr/object/validity.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
+  </compound>
+  <compound kind="file">
+    <name>validity.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <filename>validity_8h.html</filename>
+    <class kind="struct">malidrive::xodr::object::Validity</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::xodr</namespace>
+    <namespace>malidrive::xodr::object</namespace>
   </compound>
   <compound kind="file">
     <name>applications/xodr_extract.cc</name>
@@ -2856,11 +3216,296 @@
       <arglist>(const std::string &amp;attribute_name) const</arglist>
     </member>
     <member kind="function">
-      <type>std::optional&lt; double &gt;</type>
+      <type>std::optional&lt; object::Orientation &gt;</type>
       <name>As</name>
       <anchorfile>classmalidrive_1_1xodr_1_1_attribute_parser.html</anchorfile>
       <anchor>a3c8d165d481bb588ac7095afedc1d530</anchor>
       <arglist>(const std::string &amp;attribute_name) const</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::object::Border</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_border.html</filename>
+    <member kind="enumeration">
+      <type></type>
+      <name>Type</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_border.html</anchorfile>
+      <anchor>a1d1cfd8ffb84e947f82999c682b666a7</anchor>
+      <arglist></arglist>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_border.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a98204a196891e5dfc717c008285ec274">kConcrete</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_border.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a1cf4801e886e6175656f48edb7f665c7">kCurb</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_border.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7abe579a9078c06d1cd7c291ae5c92485f">kPaint</enumvalue>
+    </member>
+    <member kind="typedef">
+      <type>maliput::api::TypeSpecificIdentifier&lt; struct Border &gt;</type>
+      <name>Id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_border.html</anchorfile>
+      <anchor>a85a7f7ceca8524d2e978f6cd431ece03</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_border.html</anchorfile>
+      <anchor>a31ab8e50b3ebb73757aca5ceb72bbe9f</anchor>
+      <arglist>(const Border &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_border.html</anchorfile>
+      <anchor>a5e7d2d2266285ddd75871db3bb5c8c02</anchor>
+      <arglist>(const Border &amp;other) const</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static std::string</type>
+      <name>border_type_to_str</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_border.html</anchorfile>
+      <anchor>ad1a9daba7367ac328539c3daee98d92b</anchor>
+      <arglist>(Type border_type)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static Type</type>
+      <name>str_to_border_type</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_border.html</anchorfile>
+      <anchor>aec0c43d6aeb39117966036d17d6959c9</anchor>
+      <arglist>(const std::string &amp;border_type)</arglist>
+    </member>
+    <member kind="variable">
+      <type>Id</type>
+      <name>outline_id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_border.html</anchorfile>
+      <anchor>ac6585e499a25f726ff6c1e7ea7fec738</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Type</type>
+      <name>type</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_border.html</anchorfile>
+      <anchor>ab6f4e6d3fde00ce906e46494f60dfe7a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; bool &gt;</type>
+      <name>use_complete_outline</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_border.html</anchorfile>
+      <anchor>ac4ffa3b6b801dff745550997be2514a2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>width</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_border.html</anchorfile>
+      <anchor>a9df23e056f5d1a0388cd8190431c0e03</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kBorderTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_border.html</anchorfile>
+      <anchor>a07a6f2e1879edb7f41d9e56cfc656e54</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kOutlineId</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_border.html</anchorfile>
+      <anchor>ae483b6b786a530857451c8ae88697f40</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kType</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_border.html</anchorfile>
+      <anchor>a0115715e581fd2a65ef043354a0e902a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kUseCompleteOutline</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_border.html</anchorfile>
+      <anchor>ac2c36aaced633f880208606fb6bf8792</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kWidth</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_border.html</anchorfile>
+      <anchor>a2b7bb111a9bc48f4d3d80b69e42844c3</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::object::Borders</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_borders.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_borders.html</anchorfile>
+      <anchor>a5edd0e40bfa0bb1cbd65049de15915eb</anchor>
+      <arglist>(const Borders &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_borders.html</anchorfile>
+      <anchor>a6b8f8eb1e9fb17268bc93379c5a230cb</anchor>
+      <arglist>(const Borders &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; Border &gt;</type>
+      <name>borders</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_borders.html</anchorfile>
+      <anchor>ac3cdfb2167aa5e17658297fdbbafc9d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kBordersTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_borders.html</anchorfile>
+      <anchor>ae2705b953298cf37bbf68a99a0ca5c63</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kBorder</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_borders.html</anchorfile>
+      <anchor>a066d9f5dc9784bb9415f5ca472423935</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::object::Bridge</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_bridge.html</filename>
+    <member kind="enumeration">
+      <type></type>
+      <name>Type</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_bridge.html</anchorfile>
+      <anchor>a1d1cfd8ffb84e947f82999c682b666a7</anchor>
+      <arglist></arglist>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_bridge.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a0a2df2d6183e8a96ecb83a6bd0d43078">kBrick</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_bridge.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a98204a196891e5dfc717c008285ec274">kConcrete</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_bridge.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a2adbb4565d52832c7850766e4af14412">kSteel</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_bridge.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7ad7fd56c4ab83ac4e3d9c3e481cfa66ce">kWood</enumvalue>
+    </member>
+    <member kind="typedef">
+      <type>maliput::api::TypeSpecificIdentifier&lt; struct Bridge &gt;</type>
+      <name>Id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_bridge.html</anchorfile>
+      <anchor>a8a37e605fd927230854db27ef9546338</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_bridge.html</anchorfile>
+      <anchor>aef4d3ac7c113433fb38a9a17f2cde86d</anchor>
+      <arglist>(const Bridge &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_bridge.html</anchorfile>
+      <anchor>a5291ab545b490650fc90dc5b55be3ae9</anchor>
+      <arglist>(const Bridge &amp;other) const</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static std::string</type>
+      <name>type_to_str</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_bridge.html</anchorfile>
+      <anchor>ac7d5b03780e83d0fb7a3b57e271a5924</anchor>
+      <arglist>(Type type)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static Type</type>
+      <name>str_to_type</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_bridge.html</anchorfile>
+      <anchor>a8bcbf4a4d84cbdfbaf2a1815ff6b056f</anchor>
+      <arglist>(const std::string &amp;type)</arglist>
+    </member>
+    <member kind="variable">
+      <type>Id</type>
+      <name>id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_bridge.html</anchorfile>
+      <anchor>a150a709e86e7134d17cd063de6810b6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>length</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_bridge.html</anchorfile>
+      <anchor>a928b11f5716331f0b89abe7d8d4124b4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>name</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_bridge.html</anchorfile>
+      <anchor>a6e523cbe30620206b7b99a00fbc852a7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>s</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_bridge.html</anchorfile>
+      <anchor>ad62e712560f6344b96d4c080a2ba9c92</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Type</type>
+      <name>type</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_bridge.html</anchorfile>
+      <anchor>ab6f4e6d3fde00ce906e46494f60dfe7a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; Validity &gt;</type>
+      <name>validities</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_bridge.html</anchorfile>
+      <anchor>a14deb095fa5c366cb1a25b977789b71b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kBridgeTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_bridge.html</anchorfile>
+      <anchor>a1687c34f9a8d6e46df13ef6e517c3e1f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kId</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_bridge.html</anchorfile>
+      <anchor>a9f36bf43428315b6dfd91de20f6854c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kLength</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_bridge.html</anchorfile>
+      <anchor>a211b8393e80a38beec2131424ed3b31d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kName</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_bridge.html</anchorfile>
+      <anchor>ab078d8ddaeb55f071943994e623a6e9d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kS</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_bridge.html</anchorfile>
+      <anchor>af896531de9ddd7780f4d23c01f2c3d6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kType</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_bridge.html</anchorfile>
+      <anchor>a0115715e581fd2a65ef043354a0e902a</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -3183,6 +3828,323 @@
       <name>kType</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_connection.html</anchorfile>
       <anchor>a0115715e581fd2a65ef043354a0e902a</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::object::CornerLocal</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_corner_local.html</filename>
+    <member kind="typedef">
+      <type>maliput::api::TypeSpecificIdentifier&lt; struct CornerLocal &gt;</type>
+      <name>Id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_local.html</anchorfile>
+      <anchor>aff91b0e6aab70d07bb6a69f33d21752b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_local.html</anchorfile>
+      <anchor>af5122624ab4e8f135ad3ca423d679b8c</anchor>
+      <arglist>(const CornerLocal &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_local.html</anchorfile>
+      <anchor>a0c14087b38c71fc9359c35cd4d9c05ed</anchor>
+      <arglist>(const CornerLocal &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>height</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_local.html</anchorfile>
+      <anchor>a89f6abd564014faeff7cd20c340a9c7d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; Id &gt;</type>
+      <name>id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_local.html</anchorfile>
+      <anchor>a929b6cdb0a11b2b9fbe506e29c25f59f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>u</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_local.html</anchorfile>
+      <anchor>aed08c8478a62910aab06ba708a0e5b5f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>v</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_local.html</anchorfile>
+      <anchor>a3b90d5a73541ab9402511d87bed076ef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>z</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_local.html</anchorfile>
+      <anchor>ab3e6ed577a7c669c19de1f9c1b46c872</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kCornerLocalTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_local.html</anchorfile>
+      <anchor>ae499ea94af4b126efc5ea9aa27dfbd69</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kId</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_local.html</anchorfile>
+      <anchor>a9f36bf43428315b6dfd91de20f6854c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kHeight</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_local.html</anchorfile>
+      <anchor>a69805649bada231d3dae7b0a77a662c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kU</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_local.html</anchorfile>
+      <anchor>a8b0b7620b9fa3804dc3ceee76909e204</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kV</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_local.html</anchorfile>
+      <anchor>ab5395efe11899152b068155a90ab0059</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kZ</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_local.html</anchorfile>
+      <anchor>ac9156217240f57587769e57913dd449d</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::object::CornerReference</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_corner_reference.html</filename>
+    <member kind="typedef">
+      <type>maliput::api::TypeSpecificIdentifier&lt; struct CornerReference &gt;</type>
+      <name>Id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_reference.html</anchorfile>
+      <anchor>ab74a673526fe085dd62ac916c26fa597</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_reference.html</anchorfile>
+      <anchor>a14dea2e36b49ede3994da205859a9cf4</anchor>
+      <arglist>(const CornerReference &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_reference.html</anchorfile>
+      <anchor>a88d2be5e923dd63e32c89a2c07c48b33</anchor>
+      <arglist>(const CornerReference &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>Id</type>
+      <name>id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_reference.html</anchorfile>
+      <anchor>a150a709e86e7134d17cd063de6810b6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kCornerReferenceTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_reference.html</anchorfile>
+      <anchor>a19437401bebb5824994e7f8466789e14</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kId</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_reference.html</anchorfile>
+      <anchor>a9f36bf43428315b6dfd91de20f6854c2</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::object::CornerRoad</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_corner_road.html</filename>
+    <member kind="typedef">
+      <type>maliput::api::TypeSpecificIdentifier&lt; struct CornerRoad &gt;</type>
+      <name>Id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_road.html</anchorfile>
+      <anchor>a0663c84b8fea98a3fead85ae9deee8b2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_road.html</anchorfile>
+      <anchor>aed3254bd72463d1559b8f3aa5e80ad26</anchor>
+      <arglist>(const CornerRoad &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_road.html</anchorfile>
+      <anchor>a02458660c9ada4f4e543cf891ad4cef6</anchor>
+      <arglist>(const CornerRoad &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>dz</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_road.html</anchorfile>
+      <anchor>a5a198de8c3f38514f4e55231aa69cd10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>height</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_road.html</anchorfile>
+      <anchor>a89f6abd564014faeff7cd20c340a9c7d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; Id &gt;</type>
+      <name>id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_road.html</anchorfile>
+      <anchor>a929b6cdb0a11b2b9fbe506e29c25f59f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>s</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_road.html</anchorfile>
+      <anchor>ad62e712560f6344b96d4c080a2ba9c92</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>t</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_road.html</anchorfile>
+      <anchor>a87accd1af8e0aff4b818d891374f7cec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kCornerRoadTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_road.html</anchorfile>
+      <anchor>aa4d9dc138821b64fd9d3d33272eace7f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kDz</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_road.html</anchorfile>
+      <anchor>a7d9e12cc9911328dfd983a12df0b968b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kHeight</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_road.html</anchorfile>
+      <anchor>a69805649bada231d3dae7b0a77a662c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kId</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_road.html</anchorfile>
+      <anchor>a9f36bf43428315b6dfd91de20f6854c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kS</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_road.html</anchorfile>
+      <anchor>af896531de9ddd7780f4d23c01f2c3d6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kT</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_corner_road.html</anchorfile>
+      <anchor>aa664d91e79f44907c003ba447dcf6de6</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::object::CRG</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_c_r_g.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_c_r_g.html</anchorfile>
+      <anchor>a01e4b5459f3fa5cee58bf4fb7cb3d9e7</anchor>
+      <arglist>(const CRG &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_c_r_g.html</anchorfile>
+      <anchor>a19c9aca757fbfb6549fc0675457d4061</anchor>
+      <arglist>(const CRG &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>file</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_c_r_g.html</anchorfile>
+      <anchor>aefc35c7944eed319c89bc1b399f0eb67</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>bool</type>
+      <name>hide_road_surface_crg</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_c_r_g.html</anchorfile>
+      <anchor>a2e251dcf72319f8ec2537ada673a31ca</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>z_scale</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_c_r_g.html</anchorfile>
+      <anchor>abf9d44d8547f49eefd5a5ebf596cb803</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kCRGTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_c_r_g.html</anchorfile>
+      <anchor>aebe78ef9d27dc524044b4e8d947c1873</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kFile</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_c_r_g.html</anchorfile>
+      <anchor>a96817070502dfbc31c53d3da5d6958a9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kHideRoadSurfaceCRG</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_c_r_g.html</anchorfile>
+      <anchor>ae8b9a8b2a8e1f2d30b390c7cefa66e41</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kZScale</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_c_r_g.html</anchorfile>
+      <anchor>a026a1a68cb9969238c8b60e06818a442</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -4808,6 +5770,25 @@
       <arglist></arglist>
     </member>
   </compound>
+  <compound kind="class">
+    <name>malidrive::LaneBoundary</name>
+    <filename>classmalidrive_1_1_lane_boundary.html</filename>
+    <base>maliput::api::LaneBoundary</base>
+    <member kind="function">
+      <type></type>
+      <name>LaneBoundary</name>
+      <anchorfile>classmalidrive_1_1_lane_boundary.html</anchorfile>
+      <anchor>a799759038b0a88b0dc05493590c67594</anchor>
+      <arglist>(const maliput::api::LaneBoundary::Id &amp;id, const maliput::api::Segment *segment, int index, const maliput::api::Lane *lane_to_left, const maliput::api::Lane *lane_to_right, const Lane *reference_lane, const std::vector&lt; xodr::LaneRoadMark &gt; &amp;road_marks, double track_s_start, double track_s_end)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~LaneBoundary</name>
+      <anchorfile>classmalidrive_1_1_lane_boundary.html</anchorfile>
+      <anchor>aba265ccabfd8fcc754dc6900c43c96c6</anchor>
+      <arglist>() override=default</arglist>
+    </member>
+  </compound>
   <compound kind="struct">
     <name>malidrive::xodr::Connection::LaneLink</name>
     <filename>structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html</filename>
@@ -4912,6 +5893,40 @@
       <name>kSuccessorTag</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_lane_link.html</anchorfile>
       <anchor>a8d82f00d2135ae5a221035d1b0cd9be8</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>malidrive::road_curve::LaneOffset</name>
+    <filename>classmalidrive_1_1road__curve_1_1_lane_offset.html</filename>
+    <base>malidrive::road_curve::Function</base>
+    <class kind="struct">malidrive::road_curve::LaneOffset::AdjacentLaneFunctions</class>
+    <member kind="function">
+      <type></type>
+      <name>MALIDRIVE_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmalidrive_1_1road__curve_1_1_lane_offset.html</anchorfile>
+      <anchor>a128467598fd8196682eb3d1541cd848c</anchor>
+      <arglist>(LaneOffset)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>LaneOffset</name>
+      <anchorfile>classmalidrive_1_1road__curve_1_1_lane_offset.html</anchorfile>
+      <anchor>a443cf977f423fcea0ea84ca384e988ee</anchor>
+      <arglist>(const std::optional&lt; AdjacentLaneFunctions &gt; &amp;adjacent_lane_functions, const Function *lane_width, const Function *reference_line_offset, bool at_right, double p0, double p1, double linear_tolerance)</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const bool</type>
+      <name>kAtRightFromCenterLane</name>
+      <anchorfile>classmalidrive_1_1road__curve_1_1_lane_offset.html</anchorfile>
+      <anchor>ac1b7a8d88c163e4931b84a8d0ac50051</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const bool</type>
+      <name>kAtLeftFromCenterLane</name>
+      <anchorfile>classmalidrive_1_1road__curve_1_1_lane_offset.html</anchorfile>
+      <anchor>af60baf6cb3d30025217639ee43c3d2e8</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -5035,40 +6050,6 @@
       <name>d</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_lane_offset.html</anchorfile>
       <anchor>a873684cefeb665f3d5e6b495de57fc0d</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>malidrive::road_curve::LaneOffset</name>
-    <filename>classmalidrive_1_1road__curve_1_1_lane_offset.html</filename>
-    <base>malidrive::road_curve::Function</base>
-    <class kind="struct">malidrive::road_curve::LaneOffset::AdjacentLaneFunctions</class>
-    <member kind="function">
-      <type></type>
-      <name>MALIDRIVE_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmalidrive_1_1road__curve_1_1_lane_offset.html</anchorfile>
-      <anchor>a128467598fd8196682eb3d1541cd848c</anchor>
-      <arglist>(LaneOffset)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>LaneOffset</name>
-      <anchorfile>classmalidrive_1_1road__curve_1_1_lane_offset.html</anchorfile>
-      <anchor>a443cf977f423fcea0ea84ca384e988ee</anchor>
-      <arglist>(const std::optional&lt; AdjacentLaneFunctions &gt; &amp;adjacent_lane_functions, const Function *lane_width, const Function *reference_line_offset, bool at_right, double p0, double p1, double linear_tolerance)</arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const bool</type>
-      <name>kAtRightFromCenterLane</name>
-      <anchorfile>classmalidrive_1_1road__curve_1_1_lane_offset.html</anchorfile>
-      <anchor>ac1b7a8d88c163e4931b84a8d0ac50051</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const bool</type>
-      <name>kAtLeftFromCenterLane</name>
-      <anchorfile>classmalidrive_1_1road__curve_1_1_lane_offset.html</anchorfile>
-      <anchor>af60baf6cb3d30025217639ee43c3d2e8</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -5697,6 +6678,38 @@
     </member>
   </compound>
   <compound kind="struct">
+    <name>malidrive::xodr::LaneLink::LinkAttributes</name>
+    <filename>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</filename>
+    <member kind="typedef">
+      <type>maliput::api::TypeSpecificIdentifier&lt; struct LinkAttributes &gt;</type>
+      <name>Id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
+      <anchor>a3bb8422d7a63555382fc951aba09a378</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
+      <anchor>a45f90c3c161b89572f9b3b9c359b0e61</anchor>
+      <arglist>(const LinkAttributes &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>Id</type>
+      <name>id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
+      <anchor>a150a709e86e7134d17cd063de6810b6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kId</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
+      <anchor>a9f36bf43428315b6dfd91de20f6854c2</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
     <name>malidrive::xodr::RoadLink::LinkAttributes</name>
     <filename>structmalidrive_1_1xodr_1_1_road_link_1_1_link_attributes.html</filename>
     <member kind="typedef">
@@ -5757,38 +6770,6 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>malidrive::xodr::LaneLink::LinkAttributes</name>
-    <filename>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</filename>
-    <member kind="typedef">
-      <type>maliput::api::TypeSpecificIdentifier&lt; struct LinkAttributes &gt;</type>
-      <name>Id</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
-      <anchor>a3bb8422d7a63555382fc951aba09a378</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
-      <anchor>a45f90c3c161b89572f9b3b9c359b0e61</anchor>
-      <arglist>(const LinkAttributes &amp;other) const</arglist>
-    </member>
-    <member kind="variable">
-      <type>Id</type>
-      <name>id</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
-      <anchor>a150a709e86e7134d17cd063de6810b6c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kId</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html</anchorfile>
-      <anchor>a9f36bf43428315b6dfd91de20f6854c2</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
     <name>malidrive::builder::MalidriveXodrLaneProperties</name>
     <filename>structmalidrive_1_1builder_1_1_malidrive_xodr_lane_properties.html</filename>
     <member kind="function">
@@ -5834,6 +6815,302 @@
       <arglist></arglist>
     </member>
   </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::object::Marking</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_marking.html</filename>
+    <member kind="enumeration">
+      <type></type>
+      <name>Side</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>a8c0137d7160ad71b6ed265c53c99ed00</anchor>
+      <arglist></arglist>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_marking.html" anchor="a8c0137d7160ad71b6ed265c53c99ed00a2d5fde1d924910a2a01ecd8e70a87c28">kLeft</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_marking.html" anchor="a8c0137d7160ad71b6ed265c53c99ed00a2dd2b017192f8a09367d48c7648213c9">kRight</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_marking.html" anchor="a8c0137d7160ad71b6ed265c53c99ed00a74b33dfe34e13923f9b235450de37871">kFront</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_marking.html" anchor="a8c0137d7160ad71b6ed265c53c99ed00abd86c7e23cabd8db80a0e2f7ad092950">kRear</enumvalue>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>aa86e2a9d9d093972b92b1086c38f8048</anchor>
+      <arglist>(const Marking &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>ad5f68c59b4758363336b6d66ee79bf9a</anchor>
+      <arglist>(const Marking &amp;other) const</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static std::string</type>
+      <name>side_to_str</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>af447c34d59240fe24f714e5b126f35d9</anchor>
+      <arglist>(Side side)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static Side</type>
+      <name>str_to_side</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>a071474ca98a2e579171a68bf7bc16fd8</anchor>
+      <arglist>(const std::string &amp;side)</arglist>
+    </member>
+    <member kind="variable">
+      <type>Color</type>
+      <name>color</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>aa5f4d1eda21c196bd8401ff73f105073</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>line_length</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>a7edcd85cc8602b48f191084324f4d770</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Side</type>
+      <name>side</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>a10a7a3afcb48dcad79e0e5959a0f9dd7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>space_length</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>ae81a9c3ef1ecc15774cbe88f6f44ced6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>start_offset</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>a67e9adce0f947131bc8c3415c87f2b83</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>stop_offset</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>a8f84ba356f2c17acd040600bf404cf40</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; LaneRoadMark::Weight &gt;</type>
+      <name>weight</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>a4b646680c6d7b00807d754d3d2cfb23b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>width</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>a179f80dec0db432a69164a1a48b6c582</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>z_offset</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>a3a6d817441901e33b37b517e686eec39</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; CornerReference &gt;</type>
+      <name>corner_reference</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>ad302d505627b13a030ce37aef4fe418c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kMarkingTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>a3b5b25b1406e31ca4e55db9a30b39278</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kColor</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>a382c5b8f91287f402781cac4774586ea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kLineLength</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>a241b1112e9423a4fd3ceb7561be08196</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kSide</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>af9283e79cf219933734a4ffc87254767</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kSpaceLength</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>a41f273bdbae3c625f61c4437a45e7209</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kStartOffset</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>a3593441f4d41a9c2a1af51022cf96857</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kStopOffset</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>a09d8c708739eb9b7f3b0556486512f4c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kWeight</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>abc0dcb227578bcfab8eb22aa78100255</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kWidth</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>a2b7bb111a9bc48f4d3d80b69e42844c3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kZOffset</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_marking.html</anchorfile>
+      <anchor>a50f3fb5e4fd31032c257e81424fd9727</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::object::Markings</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_markings.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_markings.html</anchorfile>
+      <anchor>a8875c5514bd0ff83575dbff339bca516</anchor>
+      <arglist>(const Markings &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_markings.html</anchorfile>
+      <anchor>a3f229513b1147c17079e8c76f4d69dcc</anchor>
+      <arglist>(const Markings &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; Marking &gt;</type>
+      <name>markings</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_markings.html</anchorfile>
+      <anchor>a73335c0b562ec7ee82fd5174e5754bbc</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kMarkingsTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_markings.html</anchorfile>
+      <anchor>ada34164ddef2956643e83e3ee1c81a5f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::object::Material</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_material.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_material.html</anchorfile>
+      <anchor>ad5303a42914f0465aca5564fcfabe028</anchor>
+      <arglist>(const Material &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_material.html</anchorfile>
+      <anchor>a328d593994ac5f0d35351618532935ff</anchor>
+      <arglist>(const Material &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>friction</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_material.html</anchorfile>
+      <anchor>ab9eddea323984486fe473fe3151bf19e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; Color &gt;</type>
+      <name>color</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_material.html</anchorfile>
+      <anchor>a202fba343873fe31f3c2d33b9f66c447</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>roughness</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_material.html</anchorfile>
+      <anchor>a57441fa6bac573d15510749ead5a9683</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>surface</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_material.html</anchorfile>
+      <anchor>a871b8ce2f6b931c486e62c53bfb9e6b9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kMaterialTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_material.html</anchorfile>
+      <anchor>a363c342b5efe10b5964a9072de242d95</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kFriction</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_material.html</anchorfile>
+      <anchor>a3a83d5e0fcce038d73e9105876d9d68d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kRoadMarkColor</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_material.html</anchorfile>
+      <anchor>a5c23edfd5d0c1ae8109e69ec6ebb9e9f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kRoughness</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_material.html</anchorfile>
+      <anchor>aef2c947b079d637a51d1ec325a2d531b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kSurface</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_material.html</anchorfile>
+      <anchor>a87df3607fc2aafe5a093d4023545e337</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
   <compound kind="class">
     <name>malidrive::xodr::NodeParser</name>
     <filename>classmalidrive_1_1xodr_1_1_node_parser.html</filename>
@@ -5874,11 +7151,582 @@
       <arglist>() const</arglist>
     </member>
     <member kind="function">
-      <type>GeoReference</type>
+      <type>object::CornerLocal</type>
       <name>As</name>
       <anchorfile>classmalidrive_1_1xodr_1_1_node_parser.html</anchorfile>
       <anchor>a68e5744161272385d0e192aecf52344f</anchor>
       <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::object::Object</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_object.html</filename>
+    <member kind="enumeration">
+      <type></type>
+      <name>ObjectType</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a842c5e2e69277690b064bf363c017980</anchor>
+      <arglist></arglist>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980affa5976cb7170d234d6b69921bf0f085">kBarrier</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980a1123642efda07a37da268b70c8b7fb6e">kBike</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980a4e68d62587aaa9990868bd0cdabe9c0e">kBuilding</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980a863b6d2ba01aadc33e92389a371ead42">kBus</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980aec21b07961209ac4e37f908a553f6a58">kCar</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980abd7fa7a429d1103d53ccbf461e039eb6">kCrosswalk</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980a10d65fde77a8f88bd9d3847c653382eb">kGantry</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980a520bd7e73f9cb62d1d206d523e26fea2">kMotorbike</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980a35c3ace1970663a16e5c65baa5941b13">kNone</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980aa6c648b2a2a114b2ac0c0c4d01550a20">kObstacle</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980a7f69d9bc22a0636966d686859ba4f0b4">kParkingSpace</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980a5f14ab5b57e4f4ec0fffc6f08370623c">kPatch</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980a04dad8134aa58902afa90707c4971c92">kPedestrian</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980a2742fdaeaff981530e8db7a87746f824">kPole</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980a5fc301e8d61ebd36a4c181a734c4a469">kRailing</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980a56d57f55a69b067f96dfbe6daec79441">kRoadMark</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980a301c9bd2b7fad7fb2e36ba40817a57d6">kRoadSurface</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980a8b547294fb7e240d9262debfabbac566">kSoundBarrier</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980a674edadc09e295598ca5d4c6e5c9705c">kStreetLamp</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980a9d9fd23d42536b2121815f1c9a9e3ef7">kTrafficIsland</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980a4f8f59b446dbe56d35a6598c98fb2a56">kTrailer</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980aaca32a24a730bc690d3fad6929b3e10e">kTrain</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980a111196c942273253654969b09dd6b85c">kTram</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980a0b40d046dd0bb405f6ac002c36663ea9">kTree</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980a14f2be4bc46f03dcda6e524451e94164">kVan</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980ab0a1d175cfb881422fa37092d8e40ebc">kVegetation</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_object.html" anchor="a842c5e2e69277690b064bf363c017980a7e6b1d4d3aba78f78f4fe9d43fba105f">kWind</enumvalue>
+    </member>
+    <member kind="typedef">
+      <type>maliput::api::TypeSpecificIdentifier&lt; struct Object &gt;</type>
+      <name>Id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a84595d8dbf951b7dfc0c457abbdbd6ef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>aac0d40c8db2f161facc3d7ef977cadba</anchor>
+      <arglist>(const Object &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a6bf427c07a251840b83d2e4e030aea4c</anchor>
+      <arglist>(const Object &amp;other) const</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static std::string</type>
+      <name>object_type_to_str</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a10a9ebcda56dfef00d69660ac3e76a80</anchor>
+      <arglist>(ObjectType object_type)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static ObjectType</type>
+      <name>str_to_object_type</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a78167b9d3865d4ef44312ff776da67a7</anchor>
+      <arglist>(const std::string &amp;object_type)</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; bool &gt;</type>
+      <name>dynamic</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>afc2c91b76449824ef36084aa8a6a80c8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>hdg</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a26642fdeafd7033c7d9dd6ce5c99df96</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>height</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a83a966980e67f0d7b00a81960f454fdd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Id</type>
+      <name>id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a150a709e86e7134d17cd063de6810b6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>length</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>aec38dd4e14c7d5b1e9d687c9ea4e7363</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>name</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a6e523cbe30620206b7b99a00fbc852a7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; Orientation &gt;</type>
+      <name>orientation</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>aa29439a101f4621f961e33c2ece39458</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; bool &gt;</type>
+      <name>perp_to_road</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a3cecacbe3e1fccb740f2d2700a3ead17</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>pitch</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a512b80f8013f8fcf8b34d2094ea9106a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>radius</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>af53700f9ae9b8f4efdcdf27e0fa25f9d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>roll</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>abd6b53ce8938d0d2ba69c1a11593054e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>s</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>ad62e712560f6344b96d4c080a2ba9c92</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>subtype</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a189a30649576c3a1ab1af0c24f1d7458</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>t</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a87accd1af8e0aff4b818d891374f7cec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; ObjectType &gt;</type>
+      <name>type</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a839d570e9b77245150b9f584d590ce1a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>valid_length</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a5eb8318f3d7f9a656400dfabc0376dd0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>width</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a179f80dec0db432a69164a1a48b6c582</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>z_offset</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>af5c3ec36c23d0e3b1a2bb5cd16acd50c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; Repeat &gt;</type>
+      <name>repeats</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a665693f526002634cf74ec22d0ff8f41</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; Outlines &gt;</type>
+      <name>outlines</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>ac036c047a5e1e66323739f9eb6a5d17c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; Skeleton &gt;</type>
+      <name>skeleton</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a04619c8e18234ee54d08585ef300cb1e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; Material &gt;</type>
+      <name>materials</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a2fe4607086d4259f770f1dd69a6390ae</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; Validity &gt;</type>
+      <name>validities</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a14deb095fa5c366cb1a25b977789b71b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; ParkingSpace &gt;</type>
+      <name>parking_space</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a9a4c15049b9e58c875d4c9ba1263d302</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; Markings &gt;</type>
+      <name>markings</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a1ff563b6b147cde239d5bc246b51c52a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; Borders &gt;</type>
+      <name>borders</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a3d28ad6f0e33592ca86500f5607b5b30</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; ObjectReference &gt;</type>
+      <name>object_references</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a7a800486e23256704b2d6670ac411aaf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; Tunnel &gt;</type>
+      <name>tunnels</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>adeb23e32bb399b2d0524b63f38f44698</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; Bridge &gt;</type>
+      <name>bridges</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a0f380d2db986232d3780706840ad25db</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; Surface &gt;</type>
+      <name>surface</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>aaaddaca49a6e38694fbd943005778a26</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kObjectTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a3aea998ec2fe4def3273444080c8bf91</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kDynamic</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a0fe02245ae0ca29b74b06582a6bc6eaf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kHdg</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a8641e53f230288443aa74654786fe2c7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kHeight</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a69805649bada231d3dae7b0a77a662c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kId</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a9f36bf43428315b6dfd91de20f6854c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kLength</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a211b8393e80a38beec2131424ed3b31d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kName</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>ab078d8ddaeb55f071943994e623a6e9d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kOrientation</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a838629b8db8fe5eba67b90ce5c786145</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kPerpToRoad</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a8416365d294a0566c92429693009d186</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kPitch</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>adb54ff0d4ca5ff41da5c86e3776d8437</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kRadius</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a916b049b29a0a7eacda4ef76a27fdcd3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kRoll</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a906b33e549d7fee50ac72ce6002efb2e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kS</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>af896531de9ddd7780f4d23c01f2c3d6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kSubtype</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a3851ef384c18fd1b4c73b2252b2c986d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kT</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>aa664d91e79f44907c003ba447dcf6de6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kType</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a0115715e581fd2a65ef043354a0e902a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kValidLength</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>aadfdeebe9bb49fe57688ebfc16546046</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kWidth</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a2b7bb111a9bc48f4d3d80b69e42844c3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kZOffset</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object.html</anchorfile>
+      <anchor>a50f3fb5e4fd31032c257e81424fd9727</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::object::ObjectReference</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_object_reference.html</filename>
+    <member kind="typedef">
+      <type>maliput::api::TypeSpecificIdentifier&lt; struct ObjectReference &gt;</type>
+      <name>Id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object_reference.html</anchorfile>
+      <anchor>a66b738101aeb96df17c00d931d0a1146</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object_reference.html</anchorfile>
+      <anchor>a8d71c43e43201d7ab70f0a818aaa3ec0</anchor>
+      <arglist>(const ObjectReference &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object_reference.html</anchorfile>
+      <anchor>a896bb2c1ccd4c6d64ac6636022b24d17</anchor>
+      <arglist>(const ObjectReference &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>Id</type>
+      <name>id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object_reference.html</anchorfile>
+      <anchor>a150a709e86e7134d17cd063de6810b6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Orientation</type>
+      <name>orientation</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object_reference.html</anchorfile>
+      <anchor>a47be0262307aa023a1bda3d98986a16d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>s</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object_reference.html</anchorfile>
+      <anchor>ad62e712560f6344b96d4c080a2ba9c92</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>t</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object_reference.html</anchorfile>
+      <anchor>a87accd1af8e0aff4b818d891374f7cec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>valid_length</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object_reference.html</anchorfile>
+      <anchor>a5eb8318f3d7f9a656400dfabc0376dd0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>z_offset</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object_reference.html</anchorfile>
+      <anchor>a3a6d817441901e33b37b517e686eec39</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; Validity &gt;</type>
+      <name>validities</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object_reference.html</anchorfile>
+      <anchor>a14deb095fa5c366cb1a25b977789b71b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kObjectReferenceTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object_reference.html</anchorfile>
+      <anchor>a29c0ec17b44f163897ba7a92e2e4fcc9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kId</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object_reference.html</anchorfile>
+      <anchor>a9f36bf43428315b6dfd91de20f6854c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kOrientation</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object_reference.html</anchorfile>
+      <anchor>a838629b8db8fe5eba67b90ce5c786145</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kS</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object_reference.html</anchorfile>
+      <anchor>af896531de9ddd7780f4d23c01f2c3d6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kT</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object_reference.html</anchorfile>
+      <anchor>aa664d91e79f44907c003ba447dcf6de6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kValidLength</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object_reference.html</anchorfile>
+      <anchor>aadfdeebe9bb49fe57688ebfc16546046</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kZOffset</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_object_reference.html</anchorfile>
+      <anchor>a50f3fb5e4fd31032c257e81424fd9727</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::object::Objects</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_objects.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_objects.html</anchorfile>
+      <anchor>aed17005438f8748c7b0a6d5856dfaa40</anchor>
+      <arglist>(const Objects &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_objects.html</anchorfile>
+      <anchor>a3648d06123b448cb0502e7969274f436</anchor>
+      <arglist>(const Objects &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; Object &gt;</type>
+      <name>objects</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_objects.html</anchorfile>
+      <anchor>ad5e82d106706cae7a8303868632f7a15</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kObjectsTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_objects.html</anchorfile>
+      <anchor>a659a22ab7f9a58e609787b3d5007e2c2</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -6016,6 +7864,183 @@
       <name>t</name>
       <anchorfile>structmalidrive_1_1_road_geometry_1_1_open_scenario_road_position.html</anchorfile>
       <anchor>a87accd1af8e0aff4b818d891374f7cec</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::object::Outline</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_outline.html</filename>
+    <member kind="enumeration">
+      <type></type>
+      <name>FillType</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outline.html</anchorfile>
+      <anchor>a1a1e1116ad09d261fce9538a3cf76060</anchor>
+      <arglist></arglist>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_outline.html" anchor="a1a1e1116ad09d261fce9538a3cf76060a4276ee83cf842feef78a5b514ec69df1">kAsphalt</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_outline.html" anchor="a1a1e1116ad09d261fce9538a3cf76060a3b5d24c465cfa51ff5d7cbfc49f5e79b">kCobble</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_outline.html" anchor="a1a1e1116ad09d261fce9538a3cf76060a98204a196891e5dfc717c008285ec274">kConcrete</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_outline.html" anchor="a1a1e1116ad09d261fce9538a3cf76060afa2dc4143b3a84eb6e0b2b9838d294b7">kGrass</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_outline.html" anchor="a1a1e1116ad09d261fce9538a3cf76060a100cb43003bfdd83cdbbdc3ce9d56502">kGravel</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_outline.html" anchor="a1a1e1116ad09d261fce9538a3cf76060abe579a9078c06d1cd7c291ae5c92485f">kPaint</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_outline.html" anchor="a1a1e1116ad09d261fce9538a3cf76060a868e4273ee6300e1b1d7facb5218d2d7">kPavement</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_outline.html" anchor="a1a1e1116ad09d261fce9538a3cf76060a9ece21549a8e30200404046c34a97a7a">kSoil</enumvalue>
+    </member>
+    <member kind="typedef">
+      <type>maliput::api::TypeSpecificIdentifier&lt; struct Outline &gt;</type>
+      <name>Id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outline.html</anchorfile>
+      <anchor>a04932e59d26034508e15bcf5785b4815</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outline.html</anchorfile>
+      <anchor>a629cef2a8628b75ecc80756383fb8beb</anchor>
+      <arglist>(const Outline &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outline.html</anchorfile>
+      <anchor>ab5f641df68acce98586c9049ab5ef6ed</anchor>
+      <arglist>(const Outline &amp;other) const</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static std::string</type>
+      <name>fill_type_to_str</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outline.html</anchorfile>
+      <anchor>a410803baf0c206ce14a448fdfbee3cee</anchor>
+      <arglist>(FillType fill_type)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static FillType</type>
+      <name>str_to_fill_type</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outline.html</anchorfile>
+      <anchor>aeccc178f050bdf3aad854728cf008b27</anchor>
+      <arglist>(const std::string &amp;fill_type)</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; bool &gt;</type>
+      <name>closed</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outline.html</anchorfile>
+      <anchor>a2f295c35007462d3caa4052f86db8db8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; FillType &gt;</type>
+      <name>fill_type</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outline.html</anchorfile>
+      <anchor>ad860f1281e4a4ba17a36f334d12caa58</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; Id &gt;</type>
+      <name>id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outline.html</anchorfile>
+      <anchor>a929b6cdb0a11b2b9fbe506e29c25f59f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; Lane::Type &gt;</type>
+      <name>lane_type</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outline.html</anchorfile>
+      <anchor>ae0047daf81c64b049807b738ef741915</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; bool &gt;</type>
+      <name>outer</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outline.html</anchorfile>
+      <anchor>a3124039207ea5249d01c54f1cc592f2f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; CornerRoad &gt;</type>
+      <name>corner_road</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outline.html</anchorfile>
+      <anchor>adcc886181f0e0e2e7bb8f730185ca462</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; CornerLocal &gt;</type>
+      <name>corner_local</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outline.html</anchorfile>
+      <anchor>abced2abd468929556bd4f3102ed60991</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kOutlineTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outline.html</anchorfile>
+      <anchor>a0ab59dc2f2fa41635e6c0694d07a64c3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kClosed</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outline.html</anchorfile>
+      <anchor>a6a6259f4e7e2a2df67dfb73dbc710600</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kFillType</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outline.html</anchorfile>
+      <anchor>a4ceedf0b2b0f067df7851dd82a3b48e9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kId</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outline.html</anchorfile>
+      <anchor>a9f36bf43428315b6dfd91de20f6854c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kLaneType</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outline.html</anchorfile>
+      <anchor>ad6704b0e8b1bd6147b09066d54e8b4a0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kOuter</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outline.html</anchorfile>
+      <anchor>ad71d02c29aeb0efec4d0b888404af96a</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::object::Outlines</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_outlines.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outlines.html</anchorfile>
+      <anchor>a01c73aeaa44b9d63d123af0728d47511</anchor>
+      <arglist>(const Outlines &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outlines.html</anchorfile>
+      <anchor>a37e14a92173a42c1e4c810a388332eb1</anchor>
+      <arglist>(const Outlines &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; Outline &gt;</type>
+      <name>outlines</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outlines.html</anchorfile>
+      <anchor>a9f1810f25bf652974188b8659704f41c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kOutlinesTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_outlines.html</anchorfile>
+      <anchor>a51e2062176c67e0136392b42c5adff9a</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -6198,6 +8223,88 @@
       <anchorfile>classmalidrive_1_1road__curve_1_1_param_poly3_ground_curve.html</anchorfile>
       <anchor>af6738481a8ce0ad8b7b30b132ef81005</anchor>
       <arglist>(double linear_tolerance, const maliput::math::Vector2 &amp;xy0, double heading0, double aU, double bU, double cU, double dU, double aV, double bV, double cV, double dV, double arc_length, double p0, double p1, PRangeType p_range)</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::object::ParkingSpace</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_parking_space.html</filename>
+    <member kind="enumeration">
+      <type></type>
+      <name>Access</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_parking_space.html</anchorfile>
+      <anchor>a7da68dc8ab4fb9bae588bdd1f6afc951</anchor>
+      <arglist></arglist>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_parking_space.html" anchor="a7da68dc8ab4fb9bae588bdd1f6afc951a34bdbffdb1c0e1b603f58fc0d49548b6">kAll</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_parking_space.html" anchor="a7da68dc8ab4fb9bae588bdd1f6afc951a863b6d2ba01aadc33e92389a371ead42">kBus</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_parking_space.html" anchor="a7da68dc8ab4fb9bae588bdd1f6afc951aec21b07961209ac4e37f908a553f6a58">kCar</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_parking_space.html" anchor="a7da68dc8ab4fb9bae588bdd1f6afc951ac2e299845bc8b6c91d7fd1d114a48e0c">kElectric</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_parking_space.html" anchor="a7da68dc8ab4fb9bae588bdd1f6afc951af5e6db4a0488b87efab930b32104f61d">kHandicapped</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_parking_space.html" anchor="a7da68dc8ab4fb9bae588bdd1f6afc951a70653389d9fafa1858a942b01b5af756">kResidents</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_parking_space.html" anchor="a7da68dc8ab4fb9bae588bdd1f6afc951aee61555390ad3a3a73ac40510c47e1d3">kTruck</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_parking_space.html" anchor="a7da68dc8ab4fb9bae588bdd1f6afc951a76db76548617b1b5020c7b2e572b43db">kWomen</enumvalue>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_parking_space.html</anchorfile>
+      <anchor>a37857996e1a7c4623f35070f8b404e0a</anchor>
+      <arglist>(const ParkingSpace &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_parking_space.html</anchorfile>
+      <anchor>aab944a2df2ca7a4931831f4ff8bc9909</anchor>
+      <arglist>(const ParkingSpace &amp;other) const</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static std::string</type>
+      <name>access_to_str</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_parking_space.html</anchorfile>
+      <anchor>a8d9c00520e31bf6ac7cac75c51175490</anchor>
+      <arglist>(Access access)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static Access</type>
+      <name>str_to_access</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_parking_space.html</anchorfile>
+      <anchor>a502e68c49a5936e9ab1ce018882c1eae</anchor>
+      <arglist>(const std::string &amp;access)</arglist>
+    </member>
+    <member kind="variable">
+      <type>Access</type>
+      <name>access</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_parking_space.html</anchorfile>
+      <anchor>afa638703bb82b42a1ea42c3b134ec0cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>restrictions</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_parking_space.html</anchorfile>
+      <anchor>a3cc978c235bf5b0c5254bd179d1e9d63</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kParkingSpaceTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_parking_space.html</anchorfile>
+      <anchor>ab5cb25d438af88b2e44dc65f3e1d1530</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kAccess</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_parking_space.html</anchorfile>
+      <anchor>a31ccb6c7a2505f548c38b789fa4f5052</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kRestrictions</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_parking_space.html</anchorfile>
+      <anchor>a3728c39224033b3b6913677c2a50605f</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -6396,6 +8503,66 @@
       <arglist></arglist>
     </member>
   </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::object::Polyline</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_polyline.html</filename>
+    <member kind="typedef">
+      <type>maliput::api::TypeSpecificIdentifier&lt; struct Polyline &gt;</type>
+      <name>Id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_polyline.html</anchorfile>
+      <anchor>a0d3132005b69b786009798b9c3b2d64d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_polyline.html</anchorfile>
+      <anchor>a20296eaa9baa8334d83bf57ec5255650</anchor>
+      <arglist>(const Polyline &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_polyline.html</anchorfile>
+      <anchor>a3d29f2cbcafdbd4ae8cd70208e9b2169</anchor>
+      <arglist>(const Polyline &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; Id &gt;</type>
+      <name>id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_polyline.html</anchorfile>
+      <anchor>a929b6cdb0a11b2b9fbe506e29c25f59f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; VertexRoad &gt;</type>
+      <name>vertex_road</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_polyline.html</anchorfile>
+      <anchor>a15720ede31586cfb87b4a82c715a7a52</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; VertexLocal &gt;</type>
+      <name>vertex_local</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_polyline.html</anchorfile>
+      <anchor>a0f4217fa9a85842664b7895cc92d8f2f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kPolylinesTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_polyline.html</anchorfile>
+      <anchor>a245c7576a37e619660cbb65a7f7e6571</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kId</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_polyline.html</anchorfile>
+      <anchor>a9f36bf43428315b6dfd91de20f6854c2</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
   <compound kind="class">
     <name>malidrive::builder::RangeValueRuleStateProviderBuilder</name>
     <filename>classmalidrive_1_1builder_1_1_range_value_rule_state_provider_builder.html</filename>
@@ -6461,6 +8628,255 @@
       <name>kVehicleMotorization</name>
       <anchorfile>structmalidrive_1_1builder_1_1rules_1_1_related_rules_keys.html</anchorfile>
       <anchor>a810ba23228e3823ef3824e9b8524c5ec</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::object::Repeat</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a787dfd10fc8f0a5c2c95b3a68957da44</anchor>
+      <arglist>(const Repeat &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a3c9fc241032e13afd62b20793beb1379</anchor>
+      <arglist>(const Repeat &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; bool &gt;</type>
+      <name>detach_from_reference_line</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a42e4e7826619464b5d8a259b42c29ead</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>distance</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a79b8e036dca6911e3295a47d99f21f43</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>height_end</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a6d8884a1ec4a9c2c2813276166c328c6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>height_start</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a373f9e88d3a08f9ce2161510be002eea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>length_end</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>aa9940425f61574da401e0d022bc6f323</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>length_start</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a565516c51221d0d6fe7dc7602c9125ad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>length</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a928b11f5716331f0b89abe7d8d4124b4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>radius_end</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>af30e5b4505cb64e00ede9561f3c8066c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>radius_start</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a9be31d61fd6b89917b5d9d275dba0edf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>s</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>ad62e712560f6344b96d4c080a2ba9c92</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>t_end</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a4b637c5fff609e604a3b2b2787f4a9fa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>t_start</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a1b01a4354147da92a548ea1a5f96d592</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>width_end</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a390bfeb2a76cb794c6c8ebcaf6839cc1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>width_start</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a537c991fe7d65cb8fcd8f5de33081821</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>z_offset_end</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a06ab20968ccbe237e314127e46acacfe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>z_offset_start</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a718005495876c88ee33f3746f3fddff4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kRepeatTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a08dc3e692d6aad199913b2d7f54d8a61</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kDetachFromReferenceLine</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a67403fa5dcbb6a37e74bb8b0c46f0680</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kDistance</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a177156f7d4774f5f658e3cdb121f0eb0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kHeightEnd</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a09bee391c36de6c7c1d85797a4c64d59</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kHeightStart</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a833c5b9d011ba25f804c231077010d34</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kLengthEnd</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>abac1f53d3660355f3142a90ad2cdf01a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kLengthStart</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>ade43e1111de919d8892f61fefe07ab4b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kLength</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a211b8393e80a38beec2131424ed3b31d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kRadiusEnd</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>ab3c99165003175f618bceaf9a6c07f6e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kRadiusStart</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>ab00dc96517e6a4ca8c3d1459cb4f475c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kS</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>af896531de9ddd7780f4d23c01f2c3d6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kTEnd</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>adf979f24c07615f49c30a1a433765545</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kTStart</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a441f34ab30eb16371f96ffb1622f3d9b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kWidthEnd</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>a7b6cd356d2f0fe6901f79c266da3dd02</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kWidthStart</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>af8501a18742e4aba1e35df0061d90e60</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kZOffsetEnd</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>ada5c1ab4d4eb80105b1abecbcaca1507</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kZOffsetStart</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_repeat.html</anchorfile>
+      <anchor>aa04fd24bb8b61966e9ea9482bea38f5d</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -7481,6 +9897,13 @@
       <anchor>a5bea39518a0f2161043bd239d2818ac5</anchor>
       <arglist></arglist>
     </member>
+    <member kind="variable">
+      <type>std::optional&lt; object::Objects &gt;</type>
+      <name>objects</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_header.html</anchorfile>
+      <anchor>a5fbd038a9da6761194008065d94708a7</anchor>
+      <arglist></arglist>
+    </member>
     <member kind="variable" static="yes">
       <type>static constexpr const char *</type>
       <name>kRoadHeaderTag</name>
@@ -8002,64 +10425,43 @@
       <anchor>a0fb7cc74389e9d5b251804e92293b5c1</anchor>
       <arglist>(std::unique_ptr&lt; Lane &gt; lane, bool hide_lane)</arglist>
     </member>
+    <member kind="function">
+      <type>LaneBoundary *</type>
+      <name>AddBoundary</name>
+      <anchorfile>classmalidrive_1_1_segment.html</anchorfile>
+      <anchor>a72db8318749f37c849783a43962b78c7</anchor>
+      <arglist>(std::unique_ptr&lt; LaneBoundary &gt; boundary)</arglist>
+    </member>
   </compound>
   <compound kind="struct">
-    <name>malidrive::xodr::RoadType::Speed</name>
-    <filename>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</filename>
+    <name>malidrive::xodr::object::Skeleton</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_skeleton.html</filename>
     <member kind="function">
       <type>bool</type>
       <name>operator==</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a5f45d342c063e4fbbbaa8fd2308cad8a</anchor>
-      <arglist>(const Speed &amp;other) const</arglist>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_skeleton.html</anchorfile>
+      <anchor>a9ea9983c42d2721e3892c1140831486f</anchor>
+      <arglist>(const Skeleton &amp;other) const</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>operator!=</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a7732bb1227795b68ace924cf693cddd1</anchor>
-      <arglist>(const Speed &amp;other) const</arglist>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_skeleton.html</anchorfile>
+      <anchor>ad2b899f017926584476c8c76c555db36</anchor>
+      <arglist>(const Skeleton &amp;other) const</arglist>
     </member>
     <member kind="variable">
-      <type>std::optional&lt; double &gt;</type>
-      <name>max</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>ab3a77d4ba4dbb0a69e77b738206e0ebe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>Unit</type>
-      <name>unit</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>aaa0d61fcdf7a0b9f0f2b48c9946cbd10</anchor>
+      <type>std::vector&lt; Polyline &gt;</type>
+      <name>polylines</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_skeleton.html</anchorfile>
+      <anchor>a155baf7db02ca242af883bd6497f98af</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr const char *</type>
-      <name>kSpeedTag</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a06113c1eac1bbfe32139f18dd62a8d98</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kMax</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>ad5a44ed171cd965aa34aa3dda5711d83</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kUnit</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr std::array&lt; const char *, 2 &gt;</type>
-      <name>kUnlimitedSpeedStrings</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a2be0454dbef3ba795b56eb3fa40d36ed</anchor>
+      <name>kSkeletonTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_skeleton.html</anchorfile>
+      <anchor>a986755fe4724cc8b55baddc776fa69be</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -8127,6 +10529,66 @@
       <name>kUnit</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_lane_1_1_speed.html</anchorfile>
       <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::RoadType::Speed</name>
+    <filename>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a5f45d342c063e4fbbbaa8fd2308cad8a</anchor>
+      <arglist>(const Speed &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a7732bb1227795b68ace924cf693cddd1</anchor>
+      <arglist>(const Speed &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>max</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>ab3a77d4ba4dbb0a69e77b738206e0ebe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Unit</type>
+      <name>unit</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>aaa0d61fcdf7a0b9f0f2b48c9946cbd10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kSpeedTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a06113c1eac1bbfe32139f18dd62a8d98</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kMax</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>ad5a44ed171cd965aa34aa3dda5711d83</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kUnit</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr std::array&lt; const char *, 2 &gt;</type>
+      <name>kUnlimitedSpeedStrings</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a2be0454dbef3ba795b56eb3fa40d36ed</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -8344,6 +10806,38 @@
     </member>
   </compound>
   <compound kind="struct">
+    <name>malidrive::xodr::object::Surface</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_surface.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_surface.html</anchorfile>
+      <anchor>a453f6c59b2afdf3e91e661f236d157df</anchor>
+      <arglist>(const Surface &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_surface.html</anchorfile>
+      <anchor>af78bdbf96bdc08d19c93b8f8a4e3ef34</anchor>
+      <arglist>(const Surface &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; CRG &gt;</type>
+      <name>crg</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_surface.html</anchorfile>
+      <anchor>a5ef115df7801c83a94e6299eba2669d2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kSurfaceTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_surface.html</anchorfile>
+      <anchor>a8ffa0ced7a6404a32f46cca62cf7fe8f</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
     <name>malidrive::xodr::SwayElement</name>
     <filename>structmalidrive_1_1xodr_1_1_sway_element.html</filename>
     <member kind="function">
@@ -8435,6 +10929,166 @@
       <name>kDS</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_sway_element.html</anchorfile>
       <anchor>a870bc3abd46f29c2b7c7e70ecebf9b85</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::object::Tunnel</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</filename>
+    <member kind="enumeration">
+      <type></type>
+      <name>Type</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</anchorfile>
+      <anchor>a1d1cfd8ffb84e947f82999c682b666a7</anchor>
+      <arglist></arglist>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_tunnel.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a821da62632c491ea619ead7b31c094bf">kStandard</enumvalue>
+      <enumvalue file="structmalidrive_1_1xodr_1_1object_1_1_tunnel.html" anchor="a1d1cfd8ffb84e947f82999c682b666a7a4e10ed3630f50aff7172edc36827b331">kUnderpass</enumvalue>
+    </member>
+    <member kind="typedef">
+      <type>maliput::api::TypeSpecificIdentifier&lt; struct Tunnel &gt;</type>
+      <name>Id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</anchorfile>
+      <anchor>a2886bcc8837adaa5e20163c7c02201b9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</anchorfile>
+      <anchor>a6c6d6f9c0962468ec3541e0d72f57e32</anchor>
+      <arglist>(const Tunnel &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</anchorfile>
+      <anchor>afbe93dd8598c37b91a1f921af48bf276</anchor>
+      <arglist>(const Tunnel &amp;other) const</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static std::string</type>
+      <name>type_to_str</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</anchorfile>
+      <anchor>ac7d5b03780e83d0fb7a3b57e271a5924</anchor>
+      <arglist>(Type type)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static Type</type>
+      <name>str_to_type</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</anchorfile>
+      <anchor>a359ccf55b546b03f5e9f358f94fa07b1</anchor>
+      <arglist>(const std::string &amp;type)</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>daylight</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</anchorfile>
+      <anchor>aec64aaaebf04895ece3b5d65486e7fe7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Id</type>
+      <name>id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</anchorfile>
+      <anchor>a150a709e86e7134d17cd063de6810b6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>length</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</anchorfile>
+      <anchor>a928b11f5716331f0b89abe7d8d4124b4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>lighting</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</anchorfile>
+      <anchor>a58e40b59272f41cf293772e531f21f97</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>name</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</anchorfile>
+      <anchor>a6e523cbe30620206b7b99a00fbc852a7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>s</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</anchorfile>
+      <anchor>ad62e712560f6344b96d4c080a2ba9c92</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Type</type>
+      <name>type</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</anchorfile>
+      <anchor>ab6f4e6d3fde00ce906e46494f60dfe7a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; Validity &gt;</type>
+      <name>validities</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</anchorfile>
+      <anchor>a14deb095fa5c366cb1a25b977789b71b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kTunnelTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</anchorfile>
+      <anchor>a7aa3f7a25938e95ff37588c4b66b25ab</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kDayLight</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</anchorfile>
+      <anchor>a3c0294cc7ca85acef8ff564a47832eff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kId</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</anchorfile>
+      <anchor>a9f36bf43428315b6dfd91de20f6854c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kLength</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</anchorfile>
+      <anchor>a211b8393e80a38beec2131424ed3b31d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kLighting</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</anchorfile>
+      <anchor>aceb6533ac2144ce2a201e2e22853934a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kName</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</anchorfile>
+      <anchor>ab078d8ddaeb55f071943994e623a6e9d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kS</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</anchorfile>
+      <anchor>af896531de9ddd7780f4d23c01f2c3d6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kType</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_tunnel.html</anchorfile>
+      <anchor>a0115715e581fd2a65ef043354a0e902a</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -8654,6 +11308,298 @@
     </member>
   </compound>
   <compound kind="struct">
+    <name>malidrive::xodr::object::Validity</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_validity.html</filename>
+    <member kind="typedef">
+      <type>maliput::api::TypeSpecificIdentifier&lt; struct Validity &gt;</type>
+      <name>Id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_validity.html</anchorfile>
+      <anchor>a6fe037987627a68673446a69a3bbf816</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_validity.html</anchorfile>
+      <anchor>a946cf5e22298f749a3c40327d845d151</anchor>
+      <arglist>(const Validity &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_validity.html</anchorfile>
+      <anchor>a892e2729d8db130629a2af0915fa5c13</anchor>
+      <arglist>(const Validity &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>Id</type>
+      <name>from_lane</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_validity.html</anchorfile>
+      <anchor>ad13926abb20b0baa4f59e8756693b21a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Id</type>
+      <name>to_lane</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_validity.html</anchorfile>
+      <anchor>a24de16dbf556750ef006d3d4f0d03d07</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kValidityTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_validity.html</anchorfile>
+      <anchor>acac097fe4df3567221be6c03be2774eb</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kFromLane</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_validity.html</anchorfile>
+      <anchor>af29943f2c026517be95071675c40f74a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kToLane</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_validity.html</anchorfile>
+      <anchor>a7112291cdb87e04757f33a6f8c1840c2</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::object::VertexLocal</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_vertex_local.html</filename>
+    <member kind="typedef">
+      <type>maliput::api::TypeSpecificIdentifier&lt; struct VertexLocal &gt;</type>
+      <name>Id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_local.html</anchorfile>
+      <anchor>a2d72b0a335646ccaf9580ce7a5b30080</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_local.html</anchorfile>
+      <anchor>a7d33721c0813015f939a24c6c5aba98d</anchor>
+      <arglist>(const VertexLocal &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_local.html</anchorfile>
+      <anchor>af6ac2233004c5f51e72ea55241230df4</anchor>
+      <arglist>(const VertexLocal &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; Id &gt;</type>
+      <name>id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_local.html</anchorfile>
+      <anchor>a929b6cdb0a11b2b9fbe506e29c25f59f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; bool &gt;</type>
+      <name>intersection_point</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_local.html</anchorfile>
+      <anchor>a855354ef550de3e824bfb265bcec016f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>radius</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_local.html</anchorfile>
+      <anchor>af53700f9ae9b8f4efdcdf27e0fa25f9d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>u</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_local.html</anchorfile>
+      <anchor>aed08c8478a62910aab06ba708a0e5b5f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>v</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_local.html</anchorfile>
+      <anchor>a3b90d5a73541ab9402511d87bed076ef</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>z</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_local.html</anchorfile>
+      <anchor>ab3e6ed577a7c669c19de1f9c1b46c872</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kVertexLocalTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_local.html</anchorfile>
+      <anchor>ad875a513f8d963448942aa6ae8a80050</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kId</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_local.html</anchorfile>
+      <anchor>a9f36bf43428315b6dfd91de20f6854c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kIntersectionPoint</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_local.html</anchorfile>
+      <anchor>a546ff2142754aa5d7b8d3a8d223d5bb9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kRadius</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_local.html</anchorfile>
+      <anchor>a916b049b29a0a7eacda4ef76a27fdcd3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kU</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_local.html</anchorfile>
+      <anchor>a8b0b7620b9fa3804dc3ceee76909e204</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kV</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_local.html</anchorfile>
+      <anchor>ab5395efe11899152b068155a90ab0059</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kZ</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_local.html</anchorfile>
+      <anchor>ac9156217240f57587769e57913dd449d</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::object::VertexRoad</name>
+    <filename>structmalidrive_1_1xodr_1_1object_1_1_vertex_road.html</filename>
+    <member kind="typedef">
+      <type>maliput::api::TypeSpecificIdentifier&lt; struct VertexRoad &gt;</type>
+      <name>Id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_road.html</anchorfile>
+      <anchor>a6ef85648dbdc1b0e5079d2a05e8a725a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_road.html</anchorfile>
+      <anchor>a4baa2605fff51be7429a91ce2ad53c05</anchor>
+      <arglist>(const VertexRoad &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_road.html</anchorfile>
+      <anchor>a0709df630628f2274c7092317cdf75c6</anchor>
+      <arglist>(const VertexRoad &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>dz</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_road.html</anchorfile>
+      <anchor>a5a198de8c3f38514f4e55231aa69cd10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; Id &gt;</type>
+      <name>id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_road.html</anchorfile>
+      <anchor>a929b6cdb0a11b2b9fbe506e29c25f59f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; bool &gt;</type>
+      <name>intersection_point</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_road.html</anchorfile>
+      <anchor>a855354ef550de3e824bfb265bcec016f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>radius</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_road.html</anchorfile>
+      <anchor>af53700f9ae9b8f4efdcdf27e0fa25f9d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>s</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_road.html</anchorfile>
+      <anchor>ad62e712560f6344b96d4c080a2ba9c92</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>t</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_road.html</anchorfile>
+      <anchor>a87accd1af8e0aff4b818d891374f7cec</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kVertexRoadTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_road.html</anchorfile>
+      <anchor>a6b3de53c611d77124034d4409633f838</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kId</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_road.html</anchorfile>
+      <anchor>a9f36bf43428315b6dfd91de20f6854c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kDZ</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_road.html</anchorfile>
+      <anchor>abfc3f295c69f0b4b7fbf41480b2acc1f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kIntersectionPoint</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_road.html</anchorfile>
+      <anchor>a546ff2142754aa5d7b8d3a8d223d5bb9</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kRadius</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_road.html</anchorfile>
+      <anchor>a916b049b29a0a7eacda4ef76a27fdcd3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kS</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_road.html</anchorfile>
+      <anchor>af896531de9ddd7780f4d23c01f2c3d6c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kT</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1object_1_1_vertex_road.html</anchorfile>
+      <anchor>aa664d91e79f44907c003ba447dcf6de6</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
     <name>malidrive::xodr::DBManager::XodrGapBetweenFunctions</name>
     <filename>structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_functions.html</filename>
     <member kind="variable">
@@ -8824,6 +11770,7 @@
     <namespace>malidrive::test</namespace>
     <namespace>malidrive::xodr</namespace>
     <class kind="class">malidrive::Lane</class>
+    <class kind="class">malidrive::LaneBoundary</class>
     <class kind="class">malidrive::RoadGeometry</class>
     <class kind="class">malidrive::Segment</class>
   </compound>
@@ -9461,6 +12408,7 @@
   <compound kind="namespace">
     <name>malidrive::xodr</name>
     <filename>namespacemalidrive_1_1xodr.html</filename>
+    <namespace>malidrive::xodr::object</namespace>
     <class kind="class">malidrive::xodr::AttributeParser</class>
     <class kind="struct">malidrive::xodr::Connection</class>
     <class kind="class">malidrive::xodr::DBManager</class>
@@ -9680,6 +12628,58 @@
       <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
       <anchor>a5bf5ed695e9f77f5f9fedd4d95e367f0</anchor>
       <arglist>(tinyxml2::XMLDocument *xodr_doc, const std::vector&lt; std::string &gt; &amp;road_ids, bool update_linkage)</arglist>
+    </member>
+  </compound>
+  <compound kind="namespace">
+    <name>malidrive::xodr::object</name>
+    <filename>namespacemalidrive_1_1xodr_1_1object.html</filename>
+    <class kind="struct">malidrive::xodr::object::Border</class>
+    <class kind="struct">malidrive::xodr::object::Borders</class>
+    <class kind="struct">malidrive::xodr::object::Bridge</class>
+    <class kind="struct">malidrive::xodr::object::CornerLocal</class>
+    <class kind="struct">malidrive::xodr::object::CornerReference</class>
+    <class kind="struct">malidrive::xodr::object::CornerRoad</class>
+    <class kind="struct">malidrive::xodr::object::CRG</class>
+    <class kind="struct">malidrive::xodr::object::Marking</class>
+    <class kind="struct">malidrive::xodr::object::Markings</class>
+    <class kind="struct">malidrive::xodr::object::Material</class>
+    <class kind="struct">malidrive::xodr::object::Object</class>
+    <class kind="struct">malidrive::xodr::object::ObjectReference</class>
+    <class kind="struct">malidrive::xodr::object::Objects</class>
+    <class kind="struct">malidrive::xodr::object::Outline</class>
+    <class kind="struct">malidrive::xodr::object::Outlines</class>
+    <class kind="struct">malidrive::xodr::object::ParkingSpace</class>
+    <class kind="struct">malidrive::xodr::object::Polyline</class>
+    <class kind="struct">malidrive::xodr::object::Repeat</class>
+    <class kind="struct">malidrive::xodr::object::Skeleton</class>
+    <class kind="struct">malidrive::xodr::object::Surface</class>
+    <class kind="struct">malidrive::xodr::object::Tunnel</class>
+    <class kind="struct">malidrive::xodr::object::Validity</class>
+    <class kind="struct">malidrive::xodr::object::VertexLocal</class>
+    <class kind="struct">malidrive::xodr::object::VertexRoad</class>
+    <member kind="enumeration">
+      <type></type>
+      <name>Orientation</name>
+      <anchorfile>namespacemalidrive_1_1xodr_1_1object.html</anchorfile>
+      <anchor>a871118a09520247c78a71ecd7b0abd58</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespacemalidrive_1_1xodr_1_1object.html" anchor="a871118a09520247c78a71ecd7b0abd58afe449700ac27fbd09863263d74e7735f">kPositive</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr_1_1object.html" anchor="a871118a09520247c78a71ecd7b0abd58a25b105cbe0fd4622cdb36360c85e89c3">kNegative</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr_1_1object.html" anchor="a871118a09520247c78a71ecd7b0abd58a35c3ace1970663a16e5c65baa5941b13">kNone</enumvalue>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>orientation_to_str</name>
+      <anchorfile>namespacemalidrive_1_1xodr_1_1object.html</anchorfile>
+      <anchor>a44ee6861958393a38ea5991c08299858</anchor>
+      <arglist>(Orientation orientation)</arglist>
+    </member>
+    <member kind="function">
+      <type>Orientation</type>
+      <name>str_to_orientation</name>
+      <anchorfile>namespacemalidrive_1_1xodr_1_1object.html</anchorfile>
+      <anchor>a9faf6b0bc25e5fd465e645a563d2949c</anchor>
+      <arglist>(const std::string &amp;orientation)</arglist>
     </member>
   </compound>
   <compound kind="namespace">

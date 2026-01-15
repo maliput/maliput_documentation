@@ -27,6 +27,7 @@ var structmalidrive_1_1xodr_1_1_road_header =
     [ "lanes", "structmalidrive_1_1xodr_1_1_road_header.html#a5bea39518a0f2161043bd239d2818ac5", null ],
     [ "length", "structmalidrive_1_1xodr_1_1_road_header.html#a928b11f5716331f0b89abe7d8d4124b4", null ],
     [ "name", "structmalidrive_1_1xodr_1_1_road_header.html#a6e523cbe30620206b7b99a00fbc852a7", null ],
+    [ "objects", "structmalidrive_1_1xodr_1_1_road_header.html#a5fbd038a9da6761194008065d94708a7", null ],
     [ "reference_geometry", "structmalidrive_1_1xodr_1_1_road_header.html#af1c6907b2a1e808f32b9b35bbfcadbaa", null ],
     [ "road_link", "structmalidrive_1_1xodr_1_1_road_header.html#a61253a18d00f77e85c436e87828f54eb", null ],
     [ "road_types", "structmalidrive_1_1xodr_1_1_road_header.html#a81c87d8d3db1f37f26ea135db49016c4", null ],

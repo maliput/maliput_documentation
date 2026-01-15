@@ -125,6 +125,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6f4e1b5acc16f9d2f722f0a36db0a06f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmaliput_1_1api_1_1_lane.html">Lane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_segment.html#a6f4e1b5acc16f9d2f722f0a36db0a06f">lane</a> (int index) const</td></tr>
 <tr class="memdesc:a6f4e1b5acc16f9d2f722f0a36db0a06f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classmaliput_1_1api_1_1_lane.html" title="A Lane represents a lane of travel in a road network.">Lane</a> indexed by <code>index</code>.  <a href="classmaliput_1_1api_1_1_segment.html#a6f4e1b5acc16f9d2f722f0a36db0a06f">More...</a><br /></td></tr>
 <tr class="separator:a6f4e1b5acc16f9d2f722f0a36db0a06f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f3062a0eb49c4088fc681bf3a7e77a5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_segment.html#a3f3062a0eb49c4088fc681bf3a7e77a5">num_boundaries</a> () const</td></tr>
+<tr class="memdesc:a3f3062a0eb49c4088fc681bf3a7e77a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of LaneBoundaries contained in this <a class="el" href="classmaliput_1_1api_1_1_segment.html" title="A Segment represents a bundle of adjacent Lanes which share a continuously traversable road surface.">Segment</a>.  <a href="classmaliput_1_1api_1_1_segment.html#a3f3062a0eb49c4088fc681bf3a7e77a5">More...</a><br /></td></tr>
+<tr class="separator:a3f3062a0eb49c4088fc681bf3a7e77a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af65720887ce0538366ddf7ce3807dffc"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmaliput_1_1api_1_1_lane_boundary.html">LaneBoundary</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_segment.html#af65720887ce0538366ddf7ce3807dffc">boundary</a> (int index) const</td></tr>
+<tr class="memdesc:af65720887ce0538366ddf7ce3807dffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classmaliput_1_1api_1_1_lane_boundary.html" title="Represents a boundary between adjacent lanes or at the edge of a Segment.">LaneBoundary</a> indexed by <code>index</code>.  <a href="classmaliput_1_1api_1_1_segment.html#af65720887ce0538366ddf7ce3807dffc">More...</a><br /></td></tr>
+<tr class="separator:af65720887ce0538366ddf7ce3807dffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -185,6 +191,36 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="af65720887ce0538366ddf7ce3807dffc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af65720887ce0538366ddf7ce3807dffc">&#9670;&nbsp;</a></span>boundary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classmaliput_1_1api_1_1_lane_boundary.html">LaneBoundary</a>* boundary </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the <a class="el" href="classmaliput_1_1api_1_1_lane_boundary.html" title="Represents a boundary between adjacent lanes or at the edge of a Segment.">LaneBoundary</a> indexed by <code>index</code>. </p>
+<p>Boundaries are indexed from 0 (rightmost, minimum r) to <a class="el" href="classmaliput_1_1api_1_1_segment.html#a7fa67be7f6db7ed4c931a2491b0c51bb" title="Returns the number of Lanes contained in this Segment.">num_lanes()</a> (leftmost, maximum r). For a segment with N lanes:</p>
+<div class="fragment"><div class="line">                                                      +r direction</div>
+<div class="line">                                                    &lt;─────────────</div>
+<div class="line"> Boundary N    ...    Boundary 2    Boundary 1    Boundary 0</div>
+<div class="line">    |                     |             |             |</div>
+<div class="line">    | <a class="code" href="namespacemaliput_1_1utility.html#ace55764233310da429c994a8c334b32aa1a79a39f343f2224748ec987ccf8431f">Lane</a> N-1  |   ...   |   <a class="code" href="namespacemaliput_1_1utility.html#ace55764233310da429c994a8c334b32aa1a79a39f343f2224748ec987ccf8431f">Lane</a> 1    |   <a class="code" href="namespacemaliput_1_1utility.html#ace55764233310da429c994a8c334b32aa1a79a39f343f2224748ec987ccf8431f">Lane</a> 0    |</div>
+<div class="line">    |                     |             |             |</div>
+<div class="line">(left edge)                                     (right edge)</div>
+</div><!-- fragment --><dl class="section pre"><dt>Precondition</dt><dd><code>index</code> must be &gt;= 0 and &lt;= <a class="el" href="classmaliput_1_1api_1_1_segment.html#a7fa67be7f6db7ed4c931a2491b0c51bb" title="Returns the number of Lanes contained in this Segment.">num_lanes()</a>.</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="classmaliput_1_1api_1_1_lane_boundary.html" title="Represents a boundary between adjacent lanes or at the edge of a Segment.">LaneBoundary</a> at the given index, or nullptr if boundary information is not available for this <a class="el" href="classmaliput_1_1api_1_1_segment.html" title="A Segment represents a bundle of adjacent Lanes which share a continuously traversable road surface.">Segment</a>. </dd></dl>
+
+</div>
+</div>
 <a id="acc1e5f359ad7f670ce73faa23be39d24"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acc1e5f359ad7f670ce73faa23be39d24">&#9670;&nbsp;</a></span>id()</h2>
 
@@ -245,6 +281,30 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a3f3062a0eb49c4088fc681bf3a7e77a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f3062a0eb49c4088fc681bf3a7e77a5">&#9670;&nbsp;</a></span>num_boundaries()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int num_boundaries </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the number of LaneBoundaries contained in this <a class="el" href="classmaliput_1_1api_1_1_segment.html" title="A Segment represents a bundle of adjacent Lanes which share a continuously traversable road surface.">Segment</a>. </p>
+<p>For a <a class="el" href="classmaliput_1_1api_1_1_segment.html" title="A Segment represents a bundle of adjacent Lanes which share a continuously traversable road surface.">Segment</a> with N lanes, there are N+1 boundaries:</p><ul>
+<li>Boundary 0 is the rightmost edge (minimum r coordinate).</li>
+<li>Boundary N is the leftmost edge (maximum r coordinate).</li>
+</ul>
+<p>Return value is non-negative (always &gt;= 1 for a valid <a class="el" href="classmaliput_1_1api_1_1_segment.html" title="A Segment represents a bundle of adjacent Lanes which share a continuously traversable road surface.">Segment</a>). </p>
+
+</div>
+</div>
 <a id="a7fa67be7f6db7ed4c931a2491b0c51bb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7fa67be7f6db7ed4c931a2491b0c51bb">&#9670;&nbsp;</a></span>num_lanes()</h2>
 
@@ -270,6 +330,7 @@ Protected Member Functions</h2></td></tr>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="anamespacemaliput_1_1utility_html_ace55764233310da429c994a8c334b32aa1a79a39f343f2224748ec987ccf8431f"><div class="ttname"><a href="namespacemaliput_1_1utility.html#ace55764233310da429c994a8c334b32aa1a79a39f343f2224748ec987ccf8431f">maliput::utility::MaterialType::Lane</a></div><div class="ttdeci">@ Lane</div></div>
 <!-- HTML footer for doxygen 1.8.15 -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

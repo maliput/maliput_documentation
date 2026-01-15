@@ -181,11 +181,15 @@ var hierarchy =
         [ "MockLane", "classmaliput_1_1geometry__base_1_1test_1_1_mock_lane.html", null ]
       ] ]
     ] ],
+    [ "LaneBoundary", "classmaliput_1_1api_1_1_lane_boundary.html", null ],
     [ "LaneEnd", "structmaliput_1_1api_1_1_lane_end.html", null ],
     [ "LaneEndSet", "classmaliput_1_1api_1_1_lane_end_set.html", [
       [ "MockLaneEndSet", "classmaliput_1_1api_1_1test_1_1_mock_lane_end_set.html", null ],
       [ "LaneEndSet", "classmaliput_1_1geometry__base_1_1_lane_end_set.html", null ]
     ] ],
+    [ "LaneMarking", "structmaliput_1_1api_1_1_lane_marking.html", null ],
+    [ "LaneMarkingLine", "structmaliput_1_1api_1_1_lane_marking_line.html", null ],
+    [ "LaneMarkingResult", "structmaliput_1_1api_1_1_lane_marking_result.html", null ],
     [ "LanePosition", "classmaliput_1_1api_1_1_lane_position.html", null ],
     [ "LanePositionResult", "structmaliput_1_1api_1_1_lane_position_result.html", null ],
     [ "LaneSRange", "classmaliput_1_1api_1_1_lane_s_range.html", null ],

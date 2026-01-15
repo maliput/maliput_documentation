@@ -246,11 +246,13 @@ var files_dup =
     [ "geometry_base/lane.h", "geometry__base_2lane_8h.html", [
       [ "Lane", "classmaliput_1_1geometry__base_1_1_lane.html", "classmaliput_1_1geometry__base_1_1_lane" ]
     ] ],
+    [ "lane_boundary.h", "lane__boundary_8h.html", null ],
     [ "lane_data.cc", "lane__data_8cc.html", "lane__data_8cc" ],
     [ "lane_data.h", "lane__data_8h.html", "lane__data_8h" ],
     [ "lane_end_set.h", "lane__end__set_8h.html", [
       [ "LaneEndSet", "classmaliput_1_1geometry__base_1_1_lane_end_set.html", "classmaliput_1_1geometry__base_1_1_lane_end_set" ]
     ] ],
+    [ "lane_marking.h", "lane__marking_8h.html", "lane__marking_8h" ],
     [ "lane_s_range_relation.h", "lane__s__range__relation_8h.html", "lane__s__range__relation_8h" ],
     [ "leaf_context.cc", "leaf__context_8cc.html", null ],
     [ "leaf_context.h", "leaf__context_8h.html", [

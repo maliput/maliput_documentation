@@ -4,11 +4,22 @@ var files_dup =
     [ "arc_ground_curve.h", "arc__ground__curve_8h.html", [
       [ "ArcGroundCurve", "classmalidrive_1_1road__curve_1_1_arc_ground_curve.html", "classmalidrive_1_1road__curve_1_1_arc_ground_curve" ]
     ] ],
+    [ "borders.cc", "borders_8cc.html", null ],
+    [ "borders.h", "borders_8h.html", [
+      [ "Border", "structmalidrive_1_1xodr_1_1object_1_1_border.html", "structmalidrive_1_1xodr_1_1object_1_1_border" ],
+      [ "Borders", "structmalidrive_1_1xodr_1_1object_1_1_borders.html", "structmalidrive_1_1xodr_1_1object_1_1_borders" ]
+    ] ],
+    [ "bridge.cc", "bridge_8cc.html", null ],
+    [ "bridge.h", "bridge_8h.html", [
+      [ "Bridge", "structmalidrive_1_1xodr_1_1object_1_1_bridge.html", "structmalidrive_1_1xodr_1_1object_1_1_bridge" ]
+    ] ],
     [ "builder_tools.cc", "builder__tools_8cc.html", "builder__tools_8cc" ],
     [ "builder_tools.h", "builder__tools_8h.html", "builder__tools_8h" ],
     [ "colors.cc", "colors_8cc.html", "colors_8cc" ],
     [ "colors.h", "colors_8h.html", "colors_8h" ],
-    [ "common.cc", "common_8cc.html", null ],
+    [ "common/common.cc", "common_2common_8cc.html", null ],
+    [ "xodr/object/common.cc", "xodr_2object_2common_8cc.html", "xodr_2object_2common_8cc" ],
+    [ "common.h", "common_8h.html", "common_8h" ],
     [ "connection.cc", "connection_8cc.html", null ],
     [ "connection.h", "connection_8h.html", [
       [ "Connection", "structmalidrive_1_1xodr_1_1_connection.html", "structmalidrive_1_1xodr_1_1_connection" ],
@@ -74,6 +85,10 @@ var files_dup =
       [ "Lane", "structmalidrive_1_1xodr_1_1_lane.html", "structmalidrive_1_1xodr_1_1_lane" ],
       [ "Speed", "structmalidrive_1_1xodr_1_1_lane_1_1_speed.html", "structmalidrive_1_1xodr_1_1_lane_1_1_speed" ]
     ] ],
+    [ "lane_boundary.cc", "lane__boundary_8cc.html", null ],
+    [ "lane_boundary.h", "lane__boundary_8h.html", [
+      [ "LaneBoundary", "classmalidrive_1_1_lane_boundary.html", "classmalidrive_1_1_lane_boundary" ]
+    ] ],
     [ "lane_link.h", "lane__link_8h.html", [
       [ "LaneLink", "structmalidrive_1_1xodr_1_1_lane_link.html", "structmalidrive_1_1xodr_1_1_lane_link" ],
       [ "LinkAttributes", "structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes.html", "structmalidrive_1_1xodr_1_1_lane_link_1_1_link_attributes" ]
@@ -114,13 +129,44 @@ var files_dup =
     [ "loader.h", "loader_8h.html", "loader_8h" ],
     [ "log_level_flag.h", "log__level__flag_8h.html", "log__level__flag_8h" ],
     [ "macros.h", "macros_8h.html", "macros_8h" ],
+    [ "markings.cc", "markings_8cc.html", null ],
+    [ "markings.h", "markings_8h.html", [
+      [ "CornerReference", "structmalidrive_1_1xodr_1_1object_1_1_corner_reference.html", "structmalidrive_1_1xodr_1_1object_1_1_corner_reference" ],
+      [ "Marking", "structmalidrive_1_1xodr_1_1object_1_1_marking.html", "structmalidrive_1_1xodr_1_1object_1_1_marking" ],
+      [ "Markings", "structmalidrive_1_1xodr_1_1object_1_1_markings.html", "structmalidrive_1_1xodr_1_1object_1_1_markings" ]
+    ] ],
+    [ "material.cc", "material_8cc.html", null ],
+    [ "material.h", "material_8h.html", [
+      [ "Material", "structmalidrive_1_1xodr_1_1object_1_1_material.html", "structmalidrive_1_1xodr_1_1object_1_1_material" ]
+    ] ],
+    [ "object.cc", "object_8cc.html", null ],
+    [ "object.h", "object_8h.html", [
+      [ "Object", "structmalidrive_1_1xodr_1_1object_1_1_object.html", "structmalidrive_1_1xodr_1_1object_1_1_object" ],
+      [ "Objects", "structmalidrive_1_1xodr_1_1object_1_1_objects.html", "structmalidrive_1_1xodr_1_1object_1_1_objects" ]
+    ] ],
+    [ "object_parser.cc", "object__parser_8cc.html", null ],
+    [ "object_reference.cc", "object__reference_8cc.html", null ],
+    [ "object_reference.h", "object__reference_8h.html", [
+      [ "ObjectReference", "structmalidrive_1_1xodr_1_1object_1_1_object_reference.html", "structmalidrive_1_1xodr_1_1object_1_1_object_reference" ]
+    ] ],
     [ "offset.cc", "offset_8cc.html", "offset_8cc" ],
     [ "offset.h", "offset_8h.html", "offset_8h" ],
+    [ "outlines.cc", "outlines_8cc.html", null ],
+    [ "outlines.h", "outlines_8h.html", [
+      [ "CornerLocal", "structmalidrive_1_1xodr_1_1object_1_1_corner_local.html", "structmalidrive_1_1xodr_1_1object_1_1_corner_local" ],
+      [ "CornerRoad", "structmalidrive_1_1xodr_1_1object_1_1_corner_road.html", "structmalidrive_1_1xodr_1_1object_1_1_corner_road" ],
+      [ "Outline", "structmalidrive_1_1xodr_1_1object_1_1_outline.html", "structmalidrive_1_1xodr_1_1object_1_1_outline" ],
+      [ "Outlines", "structmalidrive_1_1xodr_1_1object_1_1_outlines.html", "structmalidrive_1_1xodr_1_1object_1_1_outlines" ]
+    ] ],
     [ "param_poly3_ground_curve.cc", "param__poly3__ground__curve_8cc.html", null ],
     [ "param_poly3_ground_curve.h", "param__poly3__ground__curve_8h.html", [
       [ "ParamPoly3GroundCurve", "classmalidrive_1_1road__curve_1_1_param_poly3_ground_curve.html", "classmalidrive_1_1road__curve_1_1_param_poly3_ground_curve" ]
     ] ],
     [ "params.h", "params_8h.html", "params_8h" ],
+    [ "parking_space.cc", "parking__space_8cc.html", null ],
+    [ "parking_space.h", "parking__space_8h.html", [
+      [ "ParkingSpace", "structmalidrive_1_1xodr_1_1object_1_1_parking_space.html", "structmalidrive_1_1xodr_1_1object_1_1_parking_space" ]
+    ] ],
     [ "parser.cc", "parser_8cc.html", "parser_8cc" ],
     [ "parser.h", "parser_8h.html", "parser_8h" ],
     [ "parser_configuration.h", "parser__configuration_8h.html", [
@@ -147,6 +193,10 @@ var files_dup =
     ] ],
     [ "reference_geometry.h", "reference__geometry_8h.html", [
       [ "ReferenceGeometry", "structmalidrive_1_1xodr_1_1_reference_geometry.html", "structmalidrive_1_1xodr_1_1_reference_geometry" ]
+    ] ],
+    [ "repeat.cc", "repeat_8cc.html", null ],
+    [ "repeat.h", "repeat_8h.html", [
+      [ "Repeat", "structmalidrive_1_1xodr_1_1object_1_1_repeat.html", "structmalidrive_1_1xodr_1_1object_1_1_repeat" ]
     ] ],
     [ "resources.cc", "resources_8cc.html", "resources_8cc" ],
     [ "resources.h", "resources_8h.html", "resources_8h" ],
@@ -221,6 +271,13 @@ var files_dup =
     ] ],
     [ "simplify_geometries.cc", "simplify__geometries_8cc.html", "simplify__geometries_8cc" ],
     [ "simplify_geometries.h", "simplify__geometries_8h.html", "simplify__geometries_8h" ],
+    [ "skeleton.cc", "skeleton_8cc.html", null ],
+    [ "skeleton.h", "skeleton_8h.html", [
+      [ "VertexRoad", "structmalidrive_1_1xodr_1_1object_1_1_vertex_road.html", "structmalidrive_1_1xodr_1_1object_1_1_vertex_road" ],
+      [ "VertexLocal", "structmalidrive_1_1xodr_1_1object_1_1_vertex_local.html", "structmalidrive_1_1xodr_1_1object_1_1_vertex_local" ],
+      [ "Polyline", "structmalidrive_1_1xodr_1_1object_1_1_polyline.html", "structmalidrive_1_1xodr_1_1object_1_1_polyline" ],
+      [ "Skeleton", "structmalidrive_1_1xodr_1_1object_1_1_skeleton.html", "structmalidrive_1_1xodr_1_1object_1_1_skeleton" ]
+    ] ],
     [ "speed_limit_builder.cc", "speed__limit__builder_8cc.html", null ],
     [ "speed_limit_builder.h", "speed__limit__builder_8h.html", [
       [ "SpeedLimitBuilder", "classmalidrive_1_1builder_1_1_speed_limit_builder.html", "classmalidrive_1_1builder_1_1_speed_limit_builder" ]
@@ -229,10 +286,23 @@ var files_dup =
     [ "spiral_ground_curve.h", "spiral__ground__curve_8h.html", [
       [ "SpiralGroundCurve", "classmalidrive_1_1road__curve_1_1_spiral_ground_curve.html", "classmalidrive_1_1road__curve_1_1_spiral_ground_curve" ]
     ] ],
+    [ "surface.cc", "surface_8cc.html", null ],
+    [ "surface.h", "surface_8h.html", [
+      [ "CRG", "structmalidrive_1_1xodr_1_1object_1_1_c_r_g.html", "structmalidrive_1_1xodr_1_1object_1_1_c_r_g" ],
+      [ "Surface", "structmalidrive_1_1xodr_1_1object_1_1_surface.html", "structmalidrive_1_1xodr_1_1object_1_1_surface" ]
+    ] ],
     [ "tools.cc", "tools_8cc.html", "tools_8cc" ],
     [ "tools.h", "tools_8h.html", "tools_8h" ],
+    [ "tunnel.cc", "tunnel_8cc.html", null ],
+    [ "tunnel.h", "tunnel_8h.html", [
+      [ "Tunnel", "structmalidrive_1_1xodr_1_1object_1_1_tunnel.html", "structmalidrive_1_1xodr_1_1object_1_1_tunnel" ]
+    ] ],
     [ "unit.cc", "unit_8cc.html", "unit_8cc" ],
     [ "unit.h", "unit_8h.html", "unit_8h" ],
+    [ "validity.cc", "validity_8cc.html", null ],
+    [ "validity.h", "validity_8h.html", [
+      [ "Validity", "structmalidrive_1_1xodr_1_1object_1_1_validity.html", "structmalidrive_1_1xodr_1_1object_1_1_validity" ]
+    ] ],
     [ "applications/xodr_extract.cc", "applications_2xodr__extract_8cc.html", "applications_2xodr__extract_8cc" ],
     [ "maliput_malidrive/xodr/xodr_extract.cc", "maliput__malidrive_2xodr_2xodr__extract_8cc.html", "maliput__malidrive_2xodr_2xodr__extract_8cc" ],
     [ "xodr_extract.h", "xodr__extract_8h.html", "xodr__extract_8h" ],

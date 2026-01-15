@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['outputportselection_7519',['OutputPortSelection',['../../../maliput/html/namespacemaliput_1_1drake_1_1systems.html#a00432489001229d1f63cb6d373403a6e',1,'maliput::drake::systems']]],
-  ['overlappingtype_7520',['OverlappingType',['../../../maliput/html/namespacemaliput_1_1math.html#af6022ec3177e3ba16073ae84ccfb5b61',1,'maliput::math']]]
+  ['maliputimplementation_8025',['MaliputImplementation',['../namespacemaliput_1_1integration.html#a78ee0565a11069e8c15b544bb43dd841',1,'maliput::integration']]],
+  ['maliputplugintype_8026',['MaliputPluginType',['../../../maliput/html/namespacemaliput_1_1plugin.html#a2afd58b120b90956eefe0e19727605d7',1,'maliput::plugin']]],
+  ['materialtype_8027',['MaterialType',['../../../maliput/html/namespacemaliput_1_1utility.html#ace55764233310da429c994a8c334b32a',1,'maliput::utility']]]
 ];

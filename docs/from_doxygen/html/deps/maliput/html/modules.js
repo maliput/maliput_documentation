@@ -1,5 +1,6 @@
 var modules =
 [
+    [ "Lane Marking API", "group__lane__marking.html", "group__lane__marking" ],
     [ "Default Scalars", "group__default__scalars.html", "group__default__scalars" ],
     [ "hash_append generic hashing", "group__hash__append.html", null ],
     [ "Simulation", "group__simulation.html", "group__simulation" ],

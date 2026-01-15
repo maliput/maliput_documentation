@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['logging_20level_20methods_2e_7570',['Logging Level Methods.',['../../../maliput/html/group__levelmethods.html',1,'']]]
+  ['lane_20marking_20api_7672',['Lane Marking API',['../../../maliput/html/group__lane__marking.html',1,'']]],
+  ['logging_20level_20methods_2e_7673',['Logging Level Methods.',['../../../maliput/html/group__levelmethods.html',1,'']]]
 ];
