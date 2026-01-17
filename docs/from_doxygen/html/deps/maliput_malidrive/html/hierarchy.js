@@ -45,7 +45,9 @@ var hierarchy =
     ] ],
     [ "Lane", "structmalidrive_1_1xodr_1_1_lane.html", null ],
     [ "LaneBoundary", "../../maliput/html/classmaliput_1_1api_1_1_lane_boundary.html", [
-      [ "LaneBoundary", "classmalidrive_1_1_lane_boundary.html", null ]
+      [ "LaneBoundary", "../../maliput/html/classmaliput_1_1geometry__base_1_1_lane_boundary.html", [
+        [ "LaneBoundary", "classmalidrive_1_1_lane_boundary.html", null ]
+      ] ]
     ] ],
     [ "Connection::LaneLink", "structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html", null ],
     [ "LaneLink", "structmalidrive_1_1xodr_1_1_lane_link.html", null ],

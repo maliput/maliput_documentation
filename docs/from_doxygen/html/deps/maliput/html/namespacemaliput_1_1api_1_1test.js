@@ -4,6 +4,7 @@ var namespacemaliput_1_1api_1_1test =
     [ "MockIdIndex", "classmaliput_1_1api_1_1test_1_1_mock_id_index.html", "classmaliput_1_1api_1_1test_1_1_mock_id_index" ],
     [ "MockJunction", "classmaliput_1_1api_1_1test_1_1_mock_junction.html", "classmaliput_1_1api_1_1test_1_1_mock_junction" ],
     [ "MockLane", "classmaliput_1_1api_1_1test_1_1_mock_lane.html", "classmaliput_1_1api_1_1test_1_1_mock_lane" ],
+    [ "MockLaneBoundary", "classmaliput_1_1api_1_1test_1_1_mock_lane_boundary.html", "classmaliput_1_1api_1_1test_1_1_mock_lane_boundary" ],
     [ "MockLaneEndSet", "classmaliput_1_1api_1_1test_1_1_mock_lane_end_set.html", "classmaliput_1_1api_1_1test_1_1_mock_lane_end_set" ],
     [ "MockRoadGeometry", "classmaliput_1_1api_1_1test_1_1_mock_road_geometry.html", "classmaliput_1_1api_1_1test_1_1_mock_road_geometry" ],
     [ "MockSegment", "classmaliput_1_1api_1_1test_1_1_mock_segment.html", "classmaliput_1_1api_1_1test_1_1_mock_segment" ],

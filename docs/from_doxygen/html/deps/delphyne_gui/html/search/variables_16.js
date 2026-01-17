@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['yellow_7594',['YELLOW',['../../../delphyne/html/namespacedelphyne_1_1console.html#acc0f8b95413215f98df66ebfdebceb5b',1,'delphyne::console']]]
+  ['yellow_7615',['YELLOW',['../../../delphyne/html/namespacedelphyne_1_1console.html#acc0f8b95413215f98df66ebfdebceb5b',1,'delphyne::console']]]
 ];

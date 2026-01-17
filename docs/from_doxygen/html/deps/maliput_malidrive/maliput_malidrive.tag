@@ -5773,7 +5773,7 @@
   <compound kind="class">
     <name>malidrive::LaneBoundary</name>
     <filename>classmalidrive_1_1_lane_boundary.html</filename>
-    <base>maliput::api::LaneBoundary</base>
+    <base>maliput::geometry_base::LaneBoundary</base>
     <member kind="function">
       <type></type>
       <name>LaneBoundary</name>
@@ -10424,13 +10424,6 @@
       <anchorfile>classmalidrive_1_1_segment.html</anchorfile>
       <anchor>a0fb7cc74389e9d5b251804e92293b5c1</anchor>
       <arglist>(std::unique_ptr&lt; Lane &gt; lane, bool hide_lane)</arglist>
-    </member>
-    <member kind="function">
-      <type>LaneBoundary *</type>
-      <name>AddBoundary</name>
-      <anchorfile>classmalidrive_1_1_segment.html</anchorfile>
-      <anchor>a72db8318749f37c849783a43962b78c7</anchor>
-      <arglist>(std::unique_ptr&lt; LaneBoundary &gt; boundary)</arglist>
     </member>
   </compound>
   <compound kind="struct">

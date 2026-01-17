@@ -9949,6 +9949,25 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>delphyne::RuleRailCar</name>
+    <filename>classdelphyne_1_1_rule_rail_car.html</filename>
+    <base>delphyne::AgentBase</base>
+    <member kind="function">
+      <type></type>
+      <name>RuleRailCar</name>
+      <anchorfile>classdelphyne_1_1_rule_rail_car.html</anchorfile>
+      <anchor>a2c15873b16742ed84b6cfd187d60cd92</anchor>
+      <arglist>(Agent::Diagram *diagram, VectorSource&lt; double &gt; *speed_setter)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetSpeed</name>
+      <anchorfile>classdelphyne_1_1_rule_rail_car.html</anchorfile>
+      <anchor>a57637477372945871c8bfccb39e82c32</anchor>
+      <arglist>(double new_speed_mps)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>delphyne::behaviours::agents::RuleRailCar</name>
     <filename>classdelphyne_1_1behaviours_1_1agents_1_1_rule_rail_car.html</filename>
     <member kind="function">
@@ -10006,25 +10025,6 @@
       <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_rule_rail_car.html</anchorfile>
       <anchor>a800de3d511d4a97faf9b26d427313ce9</anchor>
       <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>delphyne::RuleRailCar</name>
-    <filename>classdelphyne_1_1_rule_rail_car.html</filename>
-    <base>delphyne::AgentBase</base>
-    <member kind="function">
-      <type></type>
-      <name>RuleRailCar</name>
-      <anchorfile>classdelphyne_1_1_rule_rail_car.html</anchorfile>
-      <anchor>a2c15873b16742ed84b6cfd187d60cd92</anchor>
-      <arglist>(Agent::Diagram *diagram, VectorSource&lt; double &gt; *speed_setter)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>SetSpeed</name>
-      <anchorfile>classdelphyne_1_1_rule_rail_car.html</anchorfile>
-      <anchor>a57637477372945871c8bfccb39e82c32</anchor>
-      <arglist>(double new_speed_mps)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -11641,38 +11641,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>delphyne::behaviours::agents::UnicycleCar</name>
-    <filename>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</filename>
-    <member kind="function">
-      <type>def</type>
-      <name>__init__</name>
-      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
-      <anchor>a13249fc1ace1d48056547d4e02c94fa8</anchor>
-      <arglist>(self, name=py_trees.common.Name.AUTO_GENERATED, initial_pose=(0., 0., 0.), speed=1.)</arglist>
-    </member>
-    <member kind="function">
-      <type>def</type>
-      <name>setup</name>
-      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
-      <anchor>a175e40d3f85f9743682b3ba44c60dc13</anchor>
-      <arglist>(self, *builder)</arglist>
-    </member>
-    <member kind="variable">
-      <type></type>
-      <name>initial_pose</name>
-      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
-      <anchor>a422636159fa92f54ca997246946f793c</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type></type>
-      <name>speed</name>
-      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
-      <anchor>ab04a44aead88cfdbd44325ec2cf7a33a</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>delphyne::UnicycleCar</name>
     <filename>classdelphyne_1_1_unicycle_car.html</filename>
     <templarg></templarg>
@@ -11710,6 +11678,38 @@
       <anchorfile>classdelphyne_1_1_unicycle_car.html</anchorfile>
       <anchor>a738454715d868258a2f62ff4a1cc60f8</anchor>
       <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>delphyne::behaviours::agents::UnicycleCar</name>
+    <filename>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</filename>
+    <member kind="function">
+      <type>def</type>
+      <name>__init__</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
+      <anchor>a13249fc1ace1d48056547d4e02c94fa8</anchor>
+      <arglist>(self, name=py_trees.common.Name.AUTO_GENERATED, initial_pose=(0., 0., 0.), speed=1.)</arglist>
+    </member>
+    <member kind="function">
+      <type>def</type>
+      <name>setup</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
+      <anchor>a175e40d3f85f9743682b3ba44c60dc13</anchor>
+      <arglist>(self, *builder)</arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>initial_pose</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
+      <anchor>a422636159fa92f54ca997246946f793c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>speed</name>
+      <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_unicycle_car.html</anchorfile>
+      <anchor>ab04a44aead88cfdbd44325ec2cf7a33a</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">

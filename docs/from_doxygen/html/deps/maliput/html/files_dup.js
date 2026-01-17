@@ -246,7 +246,11 @@ var files_dup =
     [ "geometry_base/lane.h", "geometry__base_2lane_8h.html", [
       [ "Lane", "classmaliput_1_1geometry__base_1_1_lane.html", "classmaliput_1_1geometry__base_1_1_lane" ]
     ] ],
-    [ "lane_boundary.h", "lane__boundary_8h.html", null ],
+    [ "lane_boundary.cc", "lane__boundary_8cc.html", null ],
+    [ "api/lane_boundary.h", "api_2lane__boundary_8h.html", null ],
+    [ "geometry_base/lane_boundary.h", "geometry__base_2lane__boundary_8h.html", [
+      [ "LaneBoundary", "classmaliput_1_1geometry__base_1_1_lane_boundary.html", "classmaliput_1_1geometry__base_1_1_lane_boundary" ]
+    ] ],
     [ "lane_data.cc", "lane__data_8cc.html", "lane__data_8cc" ],
     [ "lane_data.h", "lane__data_8h.html", "lane__data_8h" ],
     [ "lane_end_set.h", "lane__end__set_8h.html", [
@@ -336,7 +340,8 @@ var files_dup =
       [ "MockBranchPoint", "classmaliput_1_1geometry__base_1_1test_1_1_mock_branch_point.html", "classmaliput_1_1geometry__base_1_1test_1_1_mock_branch_point" ],
       [ "MockJunction", "classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html", "classmaliput_1_1geometry__base_1_1test_1_1_mock_junction" ],
       [ "MockSegment", "classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html", "classmaliput_1_1geometry__base_1_1test_1_1_mock_segment" ],
-      [ "MockLane", "classmaliput_1_1geometry__base_1_1test_1_1_mock_lane.html", "classmaliput_1_1geometry__base_1_1test_1_1_mock_lane" ]
+      [ "MockLane", "classmaliput_1_1geometry__base_1_1test_1_1_mock_lane.html", "classmaliput_1_1geometry__base_1_1test_1_1_mock_lane" ],
+      [ "MockLaneBoundary", "classmaliput_1_1geometry__base_1_1test_1_1_mock_lane_boundary.html", "classmaliput_1_1geometry__base_1_1test_1_1_mock_lane_boundary" ]
     ] ],
     [ "model_values.cc", "model__values_8cc.html", null ],
     [ "model_values.h", "model__values_8h.html", [

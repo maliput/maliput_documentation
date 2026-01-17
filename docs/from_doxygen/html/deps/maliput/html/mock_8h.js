@@ -14,6 +14,7 @@ var mock_8h =
     [ "MockLaneEndSet", "classmaliput_1_1api_1_1test_1_1_mock_lane_end_set.html", "classmaliput_1_1api_1_1test_1_1_mock_lane_end_set" ],
     [ "MockBranchPoint", "classmaliput_1_1api_1_1test_1_1_mock_branch_point.html", "classmaliput_1_1api_1_1test_1_1_mock_branch_point" ],
     [ "MockLane", "classmaliput_1_1api_1_1test_1_1_mock_lane.html", "classmaliput_1_1api_1_1test_1_1_mock_lane" ],
+    [ "MockLaneBoundary", "classmaliput_1_1api_1_1test_1_1_mock_lane_boundary.html", "classmaliput_1_1api_1_1test_1_1_mock_lane_boundary" ],
     [ "MockSegment", "classmaliput_1_1api_1_1test_1_1_mock_segment.html", "classmaliput_1_1api_1_1test_1_1_mock_segment" ],
     [ "MockJunction", "classmaliput_1_1api_1_1test_1_1_mock_junction.html", "classmaliput_1_1api_1_1test_1_1_mock_junction" ],
     [ "MockIdIndex", "classmaliput_1_1api_1_1test_1_1_mock_id_index.html", "classmaliput_1_1api_1_1test_1_1_mock_id_index" ],

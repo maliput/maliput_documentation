@@ -1,6 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"globals_func.html":[5,1,1],
 "globals_vars.html":[5,1,2],
 "ground__curve_8h.html":[5,0,35],
 "ground__curve__stub_8h.html":[5,0,36],
@@ -249,5 +248,6 @@ var NAVTREEINDEX2 =
 "params_8h.html#ga118ba6b173fb49c3bf8fb8fbf6292171":[5,0,85,16],
 "params_8h.html#ga1ba0b1cfcae3b336a1a22fe88487a5c4":[5,0,85,18],
 "params_8h.html#ga25a1809a845328b793ca520d5c1c65f5":[5,0,85,15],
-"params_8h.html#ga391ad474e33cffa6544ace890d2e340f":[5,0,85,8]
+"params_8h.html#ga391ad474e33cffa6544ace890d2e340f":[5,0,85,8],
+"params_8h.html#ga413e2136aa512c92d58bf633b25e72af":[5,0,85,12]
 };

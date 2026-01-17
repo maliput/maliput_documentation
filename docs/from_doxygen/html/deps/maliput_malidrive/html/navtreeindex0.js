@@ -85,12 +85,11 @@ var NAVTREEINDEX0 =
 "classmalidrive_1_1_road_geometry.html#ab7757567de6581f678004c7bf9fa0f05":[4,0,0,6,13],
 "classmalidrive_1_1_road_geometry.html#ad67e4e667fb5105be51d0ebf94c4fa45":[4,0,0,6,9],
 "classmalidrive_1_1_segment.html":[4,0,0,7],
-"classmalidrive_1_1_segment.html#a0fb7cc74389e9d5b251804e92293b5c1":[4,0,0,7,2],
-"classmalidrive_1_1_segment.html#a4f07ac9d9bda6a50715b59b3c53c356f":[4,0,0,7,4],
-"classmalidrive_1_1_segment.html#a72db8318749f37c849783a43962b78c7":[4,0,0,7,1],
-"classmalidrive_1_1_segment.html#a91d6d86ed0abb8f64e9a0ecd0e054810":[4,0,0,7,3],
-"classmalidrive_1_1_segment.html#aa818c70f2e92bc4f442bfa20d021a4dc":[4,0,0,7,6],
-"classmalidrive_1_1_segment.html#abf291ee68f2b95e9553551ad13905fa5":[4,0,0,7,5],
+"classmalidrive_1_1_segment.html#a0fb7cc74389e9d5b251804e92293b5c1":[4,0,0,7,1],
+"classmalidrive_1_1_segment.html#a4f07ac9d9bda6a50715b59b3c53c356f":[4,0,0,7,3],
+"classmalidrive_1_1_segment.html#a91d6d86ed0abb8f64e9a0ecd0e054810":[4,0,0,7,2],
+"classmalidrive_1_1_segment.html#aa818c70f2e92bc4f442bfa20d021a4dc":[4,0,0,7,5],
+"classmalidrive_1_1_segment.html#abf291ee68f2b95e9553551ad13905fa5":[4,0,0,7,4],
 "classmalidrive_1_1_segment.html#af4768d32c0488e30cfe83e06e1457b3f":[4,0,0,7,0],
 "classmalidrive_1_1builder_1_1_direction_usage_builder.html":[4,0,0,1,2],
 "classmalidrive_1_1builder_1_1_direction_usage_builder.html#a0dcb3afebe57fa3001e5a5a44bf1e78c":[4,0,0,1,2,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "classmalidrive_1_1road__curve_1_1_road_curve.html#a1a0a73524de417b76f25143039455ee3":[4,0,0,2,10,9],
 "classmalidrive_1_1road__curve_1_1_road_curve.html#a1ed174f1793f2ecdf901cbdb88b8c988":[4,0,0,2,10,15],
 "classmalidrive_1_1road__curve_1_1_road_curve.html#a305e76b9da27e04d3f15f25bb6477d70":[4,0,0,2,10,19],
-"classmalidrive_1_1road__curve_1_1_road_curve.html#a40cf4ff353807f1f5ca7fdc734b362c2":[4,0,0,2,10,1]
+"classmalidrive_1_1road__curve_1_1_road_curve.html#a40cf4ff353807f1f5ca7fdc734b362c2":[4,0,0,2,10,1],
+"classmalidrive_1_1road__curve_1_1_road_curve.html#a49e457d047bbecdd5e870cacb989963a":[4,0,0,2,10,7]
 };

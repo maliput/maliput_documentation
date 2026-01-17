@@ -4125,7 +4125,7 @@
     <filename>api_2lane_8cc.html</filename>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
     <includes id="api_2junction_8h" name="api/junction.h" local="yes" imported="no">maliput/api/junction.h</includes>
-    <includes id="lane__boundary_8h" name="lane_boundary.h" local="yes" imported="no">maliput/api/lane_boundary.h</includes>
+    <includes id="api_2lane__boundary_8h" name="api/lane_boundary.h" local="yes" imported="no">maliput/api/lane_boundary.h</includes>
     <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
     <includes id="api_2segment_8h" name="api/segment.h" local="yes" imported="no">maliput/api/segment.h</includes>
     <includes id="profiler_8h" name="profiler.h" local="yes" imported="no">maliput/common/profiler.h</includes>
@@ -4177,15 +4177,38 @@
     <namespace>maliput::geometry_base</namespace>
   </compound>
   <compound kind="file">
-    <name>lane_boundary.h</name>
+    <name>lane_boundary.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/geometry_base/</path>
+    <filename>lane__boundary_8cc.html</filename>
+    <includes id="geometry__base_2lane__boundary_8h" name="geometry_base/lane_boundary.h" local="yes" imported="no">maliput/geometry_base/lane_boundary.h</includes>
+    <includes id="maliput__abort_8h" name="maliput_abort.h" local="yes" imported="no">maliput/common/maliput_abort.h</includes>
+    <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
+    <includes id="geometry__base_2branch__point_8h" name="geometry_base/branch_point.h" local="yes" imported="no">maliput/geometry_base/branch_point.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::geometry_base</namespace>
+  </compound>
+  <compound kind="file">
+    <name>api/lane_boundary.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/api/</path>
-    <filename>lane__boundary_8h.html</filename>
+    <filename>api_2lane__boundary_8h.html</filename>
     <includes id="lane__marking_8h" name="lane_marking.h" local="yes" imported="no">maliput/api/lane_marking.h</includes>
     <includes id="type__specific__identifier_8h" name="type_specific_identifier.h" local="yes" imported="no">maliput/api/type_specific_identifier.h</includes>
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
     <class kind="class">maliput::api::LaneBoundary</class>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
+  </compound>
+  <compound kind="file">
+    <name>geometry_base/lane_boundary.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/geometry_base/</path>
+    <filename>geometry__base_2lane__boundary_8h.html</filename>
+    <includes id="api_2lane__boundary_8h" name="api/lane_boundary.h" local="yes" imported="no">maliput/api/lane_boundary.h</includes>
+    <includes id="api_2segment_8h" name="api/segment.h" local="yes" imported="no">maliput/api/segment.h</includes>
+    <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
+    <includes id="passkey_8h" name="passkey.h" local="yes" imported="no">maliput/common/passkey.h</includes>
+    <class kind="class">maliput::geometry_base::LaneBoundary</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::geometry_base</namespace>
   </compound>
   <compound kind="file">
     <name>lane_data.cc</name>
@@ -6182,6 +6205,7 @@
     <class kind="class">maliput::api::test::MockLaneEndSet</class>
     <class kind="class">maliput::api::test::MockBranchPoint</class>
     <class kind="class">maliput::api::test::MockLane</class>
+    <class kind="class">maliput::api::test::MockLaneBoundary</class>
     <class kind="class">maliput::api::test::MockSegment</class>
     <class kind="class">maliput::api::test::MockJunction</class>
     <class kind="class">maliput::api::test::MockIdIndex</class>
@@ -6554,6 +6578,7 @@
     <includes id="brute__force__strategy_8h" name="brute_force_strategy.h" local="yes" imported="no">maliput/geometry_base/brute_force_strategy.h</includes>
     <includes id="geometry__base_2junction_8h" name="geometry_base/junction.h" local="yes" imported="no">maliput/geometry_base/junction.h</includes>
     <includes id="geometry__base_2lane_8h" name="geometry_base/lane.h" local="yes" imported="no">maliput/geometry_base/lane.h</includes>
+    <includes id="geometry__base_2lane__boundary_8h" name="geometry_base/lane_boundary.h" local="yes" imported="no">maliput/geometry_base/lane_boundary.h</includes>
     <includes id="geometry__base_2road__geometry_8h" name="geometry_base/road_geometry.h" local="yes" imported="no">maliput/geometry_base/road_geometry.h</includes>
     <includes id="geometry__base_2segment_8h" name="geometry_base/segment.h" local="yes" imported="no">maliput/geometry_base/segment.h</includes>
     <includes id="vector_8h" name="vector.h" local="yes" imported="no">maliput/math/vector.h</includes>
@@ -6562,6 +6587,7 @@
     <class kind="class">maliput::geometry_base::test::MockJunction</class>
     <class kind="class">maliput::geometry_base::test::MockSegment</class>
     <class kind="class">maliput::geometry_base::test::MockLane</class>
+    <class kind="class">maliput::geometry_base::test::MockLaneBoundary</class>
     <namespace>maliput</namespace>
     <namespace>maliput::geometry_base</namespace>
     <namespace>maliput::geometry_base::test</namespace>
@@ -7620,6 +7646,7 @@
     <includes id="api_2branch__point_8h" name="api/branch_point.h" local="yes" imported="no">maliput/api/branch_point.h</includes>
     <includes id="api_2junction_8h" name="api/junction.h" local="yes" imported="no">maliput/api/junction.h</includes>
     <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
+    <includes id="api_2lane__boundary_8h" name="api/lane_boundary.h" local="yes" imported="no">maliput/api/lane_boundary.h</includes>
     <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
     <includes id="regions_8h" name="regions.h" local="yes" imported="no">maliput/api/regions.h</includes>
     <includes id="api_2segment_8h" name="api/segment.h" local="yes" imported="no">maliput/api/segment.h</includes>
@@ -8488,6 +8515,7 @@
     <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
     <includes id="passkey_8h" name="passkey.h" local="yes" imported="no">maliput/common/passkey.h</includes>
     <includes id="geometry__base_2lane_8h" name="geometry_base/lane.h" local="yes" imported="no">maliput/geometry_base/lane.h</includes>
+    <includes id="geometry__base_2lane__boundary_8h" name="geometry_base/lane_boundary.h" local="yes" imported="no">maliput/geometry_base/lane_boundary.h</includes>
     <class kind="class">maliput::geometry_base::Segment</class>
     <namespace>maliput</namespace>
     <namespace>maliput::geometry_base</namespace>
@@ -10452,6 +10480,13 @@
       <anchorfile>classmaliput_1_1api_1_1_basic_id_index.html</anchorfile>
       <anchor>ac9e8d1fc6f55a19bcbf66b67f782347c</anchor>
       <arglist>(const BranchPoint *branch_point)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AddBoundary</name>
+      <anchorfile>classmaliput_1_1api_1_1_basic_id_index.html</anchorfile>
+      <anchor>aa56f7752b261a9d60e82e5893a13b8c2</anchor>
+      <arglist>(const LaneBoundary *lane_boundary)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
@@ -20861,6 +20896,13 @@
       <anchor>ae218634cfe9138f854272c0d0ddbe04b</anchor>
       <arglist>(const BranchPointId &amp;id) const</arglist>
     </member>
+    <member kind="function">
+      <type>const LaneBoundary *</type>
+      <name>GetLaneBoundary</name>
+      <anchorfile>classmaliput_1_1api_1_1_road_geometry_1_1_id_index.html</anchorfile>
+      <anchor>a31462778d75e51aa43e4821d506868de</anchor>
+      <arglist>(const LaneBoundary::Id &amp;id) const</arglist>
+    </member>
     <member kind="function" protection="protected">
       <type></type>
       <name>IdIndex</name>
@@ -23576,46 +23618,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::geometry_base::Junction</name>
-    <filename>classmaliput_1_1geometry__base_1_1_junction.html</filename>
-    <base>maliput::api::Junction</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
-      <anchor>afaf6c0ab8777693eaf810ec9f9850fb7</anchor>
-      <arglist>(Junction)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>Junction</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
-      <anchor>aacb3cda5e3884118837090ff47e7bf5e</anchor>
-      <arglist>(const api::JunctionId &amp;id)</arglist>
-    </member>
-    <member kind="function">
-      <type>T *</type>
-      <name>AddSegment</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
-      <anchor>ac3f4ccab5e6fddc051fbfb87cae3bcb0</anchor>
-      <arglist>(std::unique_ptr&lt; T &gt; segment)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~Junction</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
-      <anchor>a74b00113cc0a0e9c085c7744177fc623</anchor>
-      <arglist>() override=default</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AttachToRoadGeometry</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
-      <anchor>abb4fb610362528afc7a6c771d6bb361f</anchor>
-      <arglist>(common::Passkey&lt; RoadGeometry &gt;, const api::RoadGeometry *road_geometry, const std::function&lt; void(const api::Segment *)&gt; &amp;segment_indexing_callback, const std::function&lt; void(const api::Lane *)&gt; &amp;lane_indexing_callback)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>maliput::api::Junction</name>
     <filename>classmaliput_1_1api_1_1_junction.html</filename>
     <member kind="function" virtualness="virtual">
@@ -23659,6 +23661,46 @@
       <anchorfile>classmaliput_1_1api_1_1_junction.html</anchorfile>
       <anchor>acaad14416565fb4fe2f822422f9ee231</anchor>
       <arglist>()=default</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::geometry_base::Junction</name>
+    <filename>classmaliput_1_1geometry__base_1_1_junction.html</filename>
+    <base>maliput::api::Junction</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
+      <anchor>afaf6c0ab8777693eaf810ec9f9850fb7</anchor>
+      <arglist>(Junction)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Junction</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
+      <anchor>aacb3cda5e3884118837090ff47e7bf5e</anchor>
+      <arglist>(const api::JunctionId &amp;id)</arglist>
+    </member>
+    <member kind="function">
+      <type>T *</type>
+      <name>AddSegment</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
+      <anchor>ac3f4ccab5e6fddc051fbfb87cae3bcb0</anchor>
+      <arglist>(std::unique_ptr&lt; T &gt; segment)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~Junction</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
+      <anchor>a74b00113cc0a0e9c085c7744177fc623</anchor>
+      <arglist>() override=default</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AttachToRoadGeometry</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
+      <anchor>a63ddaeda92f2fe54b4ce049c05441236</anchor>
+      <arglist>(common::Passkey&lt; RoadGeometry &gt;, const api::RoadGeometry *road_geometry, const std::function&lt; void(const api::Segment *)&gt; &amp;segment_indexing_callback, const std::function&lt; void(const api::Lane *)&gt; &amp;lane_indexing_callback, const std::function&lt; void(const api::LaneBoundary *)&gt; &amp;lane_boundary_indexing_callback)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -24250,6 +24292,39 @@
       <anchorfile>classmaliput_1_1api_1_1_lane.html</anchorfile>
       <anchor>a6a2900f79780efd31f2b29db8d17223f</anchor>
       <arglist>()=default</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::geometry_base::LaneBoundary</name>
+    <filename>classmaliput_1_1geometry__base_1_1_lane_boundary.html</filename>
+    <base>maliput::api::LaneBoundary</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane_boundary.html</anchorfile>
+      <anchor>a48cbe813d5cd44246567e59c08bfebf1</anchor>
+      <arglist>(LaneBoundary)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>LaneBoundary</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane_boundary.html</anchorfile>
+      <anchor>a66db12d3aafb90c3c4141a8038f50360</anchor>
+      <arglist>(const api::LaneBoundary::Id &amp;id)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AttachToSegment</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane_boundary.html</anchorfile>
+      <anchor>a641be6120d87c39a1713d8d2a2f7cdf0</anchor>
+      <arglist>(common::Passkey&lt; Segment &gt;, const api::Segment *segment, int index)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~LaneBoundary</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane_boundary.html</anchorfile>
+      <anchor>aba265ccabfd8fcc754dc6900c43c96c6</anchor>
+      <arglist>() override=default</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -26993,24 +27068,12 @@
       <anchor>adfd4c6981a5c8320a58484a73b4acdfc</anchor>
       <arglist>(const BranchPointId &amp;id, const BranchPoint *branch_point)</arglist>
     </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::geometry_base::test::MockJunction</name>
-    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</filename>
-    <base>maliput::geometry_base::Junction</base>
     <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</anchorfile>
-      <anchor>a26723fde85c91fee88437db5f309cde9</anchor>
-      <arglist>(MockJunction)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MockJunction</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</anchorfile>
-      <anchor>aa61dda9241bb8ba6c3a802f6d30166de</anchor>
-      <arglist>(const api::JunctionId &amp;id)</arglist>
+      <type>void</type>
+      <name>add_lane_boundary_to_map</name>
+      <anchorfile>classmaliput_1_1api_1_1test_1_1_mock_id_index.html</anchorfile>
+      <anchor>a4d8c314cf2da40582481d0ad47778084</anchor>
+      <arglist>(const LaneBoundary::Id &amp;id, const LaneBoundary *lane_boundary)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -27037,6 +27100,44 @@
       <anchorfile>classmaliput_1_1api_1_1test_1_1_mock_junction.html</anchorfile>
       <anchor>a198054bfe5b09d2e653ad8901a050509</anchor>
       <arglist>(std::unique_ptr&lt; MockSegment &gt; segment)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::geometry_base::test::MockJunction</name>
+    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</filename>
+    <base>maliput::geometry_base::Junction</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</anchorfile>
+      <anchor>a26723fde85c91fee88437db5f309cde9</anchor>
+      <arglist>(MockJunction)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MockJunction</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_junction.html</anchorfile>
+      <anchor>aa61dda9241bb8ba6c3a802f6d30166de</anchor>
+      <arglist>(const api::JunctionId &amp;id)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::geometry_base::test::MockLane</name>
+    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_lane.html</filename>
+    <base>maliput::geometry_base::Lane</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_lane.html</anchorfile>
+      <anchor>ae3ebd5df219c7220437a42f791b89581</anchor>
+      <arglist>(MockLane)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MockLane</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_lane.html</anchorfile>
+      <anchor>ae3a3bec2f0ddc7c0a6984c28af871d7b</anchor>
+      <arglist>(const api::LaneId &amp;id)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -27094,22 +27195,41 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::geometry_base::test::MockLane</name>
-    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_lane.html</filename>
-    <base>maliput::geometry_base::Lane</base>
+    <name>maliput::geometry_base::test::MockLaneBoundary</name>
+    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_lane_boundary.html</filename>
+    <base>maliput::geometry_base::LaneBoundary</base>
     <member kind="function">
       <type></type>
       <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_lane.html</anchorfile>
-      <anchor>ae3ebd5df219c7220437a42f791b89581</anchor>
-      <arglist>(MockLane)</arglist>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_lane_boundary.html</anchorfile>
+      <anchor>abc68905897dfc3dc8034499a83bcffb0</anchor>
+      <arglist>(MockLaneBoundary)</arglist>
     </member>
     <member kind="function">
       <type></type>
-      <name>MockLane</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_lane.html</anchorfile>
-      <anchor>ae3a3bec2f0ddc7c0a6984c28af871d7b</anchor>
-      <arglist>(const api::LaneId &amp;id)</arglist>
+      <name>MockLaneBoundary</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_lane_boundary.html</anchorfile>
+      <anchor>af2202bfdc8255eca21963841fe00dea0</anchor>
+      <arglist>(const api::LaneBoundary::Id &amp;id)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::api::test::MockLaneBoundary</name>
+    <filename>classmaliput_1_1api_1_1test_1_1_mock_lane_boundary.html</filename>
+    <base>maliput::api::LaneBoundary</base>
+    <member kind="function">
+      <type></type>
+      <name>MockLaneBoundary</name>
+      <anchorfile>classmaliput_1_1api_1_1test_1_1_mock_lane_boundary.html</anchorfile>
+      <anchor>ab43053a78685da5d92b6a04a770a9f6d</anchor>
+      <arglist>(const LaneBoundary::Id &amp;id)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_segment</name>
+      <anchorfile>classmaliput_1_1api_1_1test_1_1_mock_lane_boundary.html</anchorfile>
+      <anchor>a0db77c0ca22ac9e070734d0232fe1930</anchor>
+      <arglist>(const Segment *segment)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -27235,6 +27355,13 @@
       <anchorfile>classmaliput_1_1api_1_1test_1_1_mock_segment.html</anchorfile>
       <anchor>ab18c3ac1d55322f884de6d1313ee2888</anchor>
       <arglist>(std::unique_ptr&lt; MockLane &gt; lane)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>set_lane_boundary</name>
+      <anchorfile>classmaliput_1_1api_1_1test_1_1_mock_segment.html</anchorfile>
+      <anchor>a5a7e6fe0df2c59282a752ba1aa5a444d</anchor>
+      <arglist>(std::unique_ptr&lt; MockLaneBoundary &gt; lane_boundary)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -32070,6 +32197,13 @@
     </member>
     <member kind="variable">
       <type>bool</type>
+      <name>add_lane_boundary</name>
+      <anchorfile>structmaliput_1_1api_1_1test_1_1_road_geometry_build_flags.html</anchorfile>
+      <anchor>afc7fa1d72500ff58b1c607b374dc16cf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>bool</type>
       <name>expects_throw</name>
       <anchorfile>structmaliput_1_1api_1_1test_1_1_road_geometry_build_flags.html</anchorfile>
       <anchor>a091dde3a23daeda91f23af656e619dd8</anchor>
@@ -32151,6 +32285,13 @@
       <name>add_segment</name>
       <anchorfile>structmaliput_1_1api_1_1test_1_1_road_geometry_id_index_build_flags.html</anchorfile>
       <anchor>a64216d0b60ab4ca7a77882a711f650e7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>bool</type>
+      <name>add_lane_boundary</name>
+      <anchorfile>structmaliput_1_1api_1_1test_1_1_road_geometry_id_index_build_flags.html</anchorfile>
+      <anchor>afc7fa1d72500ff58b1c607b374dc16cf</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -33774,6 +33915,13 @@
       <arglist>(std::unique_ptr&lt; T &gt; lane)</arglist>
     </member>
     <member kind="function">
+      <type>T *</type>
+      <name>AddBoundary</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_segment.html</anchorfile>
+      <anchor>a146409a5957fa6c46864b1673be4967c</anchor>
+      <arglist>(std::unique_ptr&lt; T &gt; boundary)</arglist>
+    </member>
+    <member kind="function">
       <type>void</type>
       <name>AttachToJunction</name>
       <anchorfile>classmaliput_1_1geometry__base_1_1_segment.html</anchorfile>
@@ -33786,6 +33934,13 @@
       <anchorfile>classmaliput_1_1geometry__base_1_1_segment.html</anchorfile>
       <anchor>a28ad7e03186d393c5175a4ed04a05a09</anchor>
       <arglist>(common::Passkey&lt; Junction &gt;, const std::function&lt; void(const api::Lane *)&gt; &amp;callback)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetLaneBoundaryIndexingCallback</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_segment.html</anchorfile>
+      <anchor>a8c10eb2bd6249e4e46ada5aebcc29ea6</anchor>
+      <arglist>(common::Passkey&lt; Junction &gt;, const std::function&lt; void(const api::LaneBoundary *)&gt; &amp;callback)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -42193,6 +42348,59 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>TypeSpecificIdentifier&lt; class LaneBoundary &gt;</name>
+    <filename>classmaliput_1_1api_1_1_type_specific_identifier.html</filename>
+    <member kind="typedef">
+      <type>class LaneBoundary</type>
+      <name>identified_type</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>af20630e7db1b537e2b605e0f5a266e6b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>ae1c90c9eff1dfe4d052c9a012f813fca</anchor>
+      <arglist>(TypeSpecificIdentifier)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>TypeSpecificIdentifier</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>af57672784e7f203359a24bb2694327b2</anchor>
+      <arglist>(std::string string)</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::string &amp;</type>
+      <name>string</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>a7314f49a51859d46439cfeddb9ea06ec</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>ab135a123a2ff98cdd1d23b6df15eb9ab</anchor>
+      <arglist>(const TypeSpecificIdentifier&lt; class LaneBoundary &gt; &amp;rhs) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>a40a8386e472aff3f49ddaa53197b6746</anchor>
+      <arglist>(const TypeSpecificIdentifier&lt; class LaneBoundary &gt; &amp;rhs) const</arglist>
+    </member>
+    <member kind="friend">
+      <type>friend void</type>
+      <name>hash_append</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>a4b1b321bba77194abdc265fc952ea158</anchor>
+      <arglist>(HashAlgorithm &amp;hasher, const TypeSpecificIdentifier &amp;item) noexcept</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>TypeSpecificIdentifier&lt; class MaliputPlugin &gt;</name>
     <filename>classmaliput_1_1api_1_1_type_specific_identifier.html</filename>
     <member kind="typedef">
@@ -42723,25 +42931,6 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>maliput::common::uhash</name>
-    <filename>structmaliput_1_1common_1_1uhash.html</filename>
-    <templarg></templarg>
-    <member kind="typedef">
-      <type>typename HashAlgorithm::result_type</type>
-      <name>result_type</name>
-      <anchorfile>structmaliput_1_1common_1_1uhash.html</anchorfile>
-      <anchor>aec09227295d6a2c005ec578d42120039</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>result_type</type>
-      <name>operator()</name>
-      <anchorfile>structmaliput_1_1common_1_1uhash.html</anchorfile>
-      <anchor>ac98906b29c4381d0121f715fac155440</anchor>
-      <arglist>(const T &amp;item) const noexcept</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
     <name>maliput::drake::uhash</name>
     <filename>structmaliput_1_1drake_1_1uhash.html</filename>
     <templarg></templarg>
@@ -42756,6 +42945,25 @@
       <type>result_type</type>
       <name>operator()</name>
       <anchorfile>structmaliput_1_1drake_1_1uhash.html</anchorfile>
+      <anchor>ac98906b29c4381d0121f715fac155440</anchor>
+      <arglist>(const T &amp;item) const noexcept</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput::common::uhash</name>
+    <filename>structmaliput_1_1common_1_1uhash.html</filename>
+    <templarg></templarg>
+    <member kind="typedef">
+      <type>typename HashAlgorithm::result_type</type>
+      <name>result_type</name>
+      <anchorfile>structmaliput_1_1common_1_1uhash.html</anchorfile>
+      <anchor>aec09227295d6a2c005ec578d42120039</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>result_type</type>
+      <name>operator()</name>
+      <anchorfile>structmaliput_1_1common_1_1uhash.html</anchorfile>
       <anchor>ac98906b29c4381d0121f715fac155440</anchor>
       <arglist>(const T &amp;item) const noexcept</arglist>
     </member>
@@ -46801,6 +47009,7 @@
     <class kind="class">maliput::api::test::MockIdIndex</class>
     <class kind="class">maliput::api::test::MockJunction</class>
     <class kind="class">maliput::api::test::MockLane</class>
+    <class kind="class">maliput::api::test::MockLaneBoundary</class>
     <class kind="class">maliput::api::test::MockLaneEndSet</class>
     <class kind="class">maliput::api::test::MockRoadGeometry</class>
     <class kind="class">maliput::api::test::MockSegment</class>
@@ -48901,6 +49110,7 @@
     <class kind="class">maliput::geometry_base::Junction</class>
     <class kind="class">maliput::geometry_base::KDTreeStrategy</class>
     <class kind="class">maliput::geometry_base::Lane</class>
+    <class kind="class">maliput::geometry_base::LaneBoundary</class>
     <class kind="class">maliput::geometry_base::LaneEndSet</class>
     <class kind="class">maliput::geometry_base::RoadGeometry</class>
     <class kind="class">maliput::geometry_base::Segment</class>
@@ -48933,6 +49143,7 @@
     <class kind="class">maliput::geometry_base::test::MockBranchPoint</class>
     <class kind="class">maliput::geometry_base::test::MockJunction</class>
     <class kind="class">maliput::geometry_base::test::MockLane</class>
+    <class kind="class">maliput::geometry_base::test::MockLaneBoundary</class>
     <class kind="class">maliput::geometry_base::test::MockRoadGeometry</class>
     <class kind="class">maliput::geometry_base::test::MockSegment</class>
   </compound>
