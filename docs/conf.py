@@ -10,15 +10,18 @@
 
 # General information about the project.
 project = u'maliput'
-copyright = u'2022 Woven Planet'
-author = u'Woven Planet'
+copyright = u'2026 Woven by Toyota'
+author = u'Woven By Toyota'
 
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx_tabs.tabs']
+extensions = [
+  'sphinx_tabs.tabs',
+  'sphinx_rtd_theme'
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = []
