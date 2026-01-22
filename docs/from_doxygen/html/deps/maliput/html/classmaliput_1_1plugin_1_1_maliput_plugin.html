@@ -119,6 +119,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af8becf967cc684c7328c4ff43df05f2c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1plugin_1_1_maliput_plugin.html#af8becf967cc684c7328c4ff43df05f2c">MaliputPlugin</a> (const std::string &amp;path_to_lib)</td></tr>
 <tr class="memdesc:af8becf967cc684c7328c4ff43df05f2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmaliput_1_1plugin_1_1_maliput_plugin.html" title="MaliputPlugin loads a dynamic library.">MaliputPlugin</a>.  <a href="classmaliput_1_1plugin_1_1_maliput_plugin.html#af8becf967cc684c7328c4ff43df05f2c">More...</a><br /></td></tr>
 <tr class="separator:af8becf967cc684c7328c4ff43df05f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a911016e29ee12299244e88ed88eb140e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1plugin_1_1_maliput_plugin.html#a911016e29ee12299244e88ed88eb140e">MaliputPlugin</a> (void *lib_handle)</td></tr>
+<tr class="memdesc:a911016e29ee12299244e88ed88eb140e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmaliput_1_1plugin_1_1_maliput_plugin.html" title="MaliputPlugin loads a dynamic library.">MaliputPlugin</a> from an existing dlopen handle.  <a href="classmaliput_1_1plugin_1_1_maliput_plugin.html#a911016e29ee12299244e88ed88eb140e">More...</a><br /></td></tr>
+<tr class="separator:a911016e29ee12299244e88ed88eb140e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad35e9cb376ad49c5846057ed3320a302"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1plugin_1_1_maliput_plugin.html#ad35e9cb376ad49c5846057ed3320a302">MaliputPlugin</a> ()=delete</td></tr>
 <tr class="separator:ad35e9cb376ad49c5846057ed3320a302"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83b135e8b0a571c7e51e2911d0d41b7d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1plugin_1_1_maliput_plugin.html#a83b135e8b0a571c7e51e2911d0d41b7d">GetId</a> () const</td></tr>
@@ -149,10 +152,13 @@ Public Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af8becf967cc684c7328c4ff43df05f2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8becf967cc684c7328c4ff43df05f2c">&#9670;&nbsp;</a></span>MaliputPlugin() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af8becf967cc684c7328c4ff43df05f2c">&#9670;&nbsp;</a></span>MaliputPlugin() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classmaliput_1_1plugin_1_1_maliput_plugin.html">MaliputPlugin</a> </td>
@@ -162,6 +168,11 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Constructs a <a class="el" href="classmaliput_1_1plugin_1_1_maliput_plugin.html" title="MaliputPlugin loads a dynamic library.">MaliputPlugin</a>. </p>
@@ -180,8 +191,48 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a911016e29ee12299244e88ed88eb140e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a911016e29ee12299244e88ed88eb140e">&#9670;&nbsp;</a></span>MaliputPlugin() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmaliput_1_1plugin_1_1_maliput_plugin.html">MaliputPlugin</a> </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>lib_handle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs a <a class="el" href="classmaliput_1_1plugin_1_1_maliput_plugin.html" title="MaliputPlugin loads a dynamic library.">MaliputPlugin</a> from an existing dlopen handle. </p>
+<p>This is useful when the library is already loaded in memory (e.g., as an ELF NEEDED dependency) and can be retrieved via dlopen() with RTLD_NOLOAD flag. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lib_handle</td><td>An existing handle from dlopen() (ownership is transferred). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>lib_handle</code> is nullptr. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ad35e9cb376ad49c5846057ed3320a302"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad35e9cb376ad49c5846057ed3320a302">&#9670;&nbsp;</a></span>MaliputPlugin() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad35e9cb376ad49c5846057ed3320a302">&#9670;&nbsp;</a></span>MaliputPlugin() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

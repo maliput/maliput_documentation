@@ -2,6 +2,7 @@ var classmaliput_1_1plugin_1_1_maliput_plugin =
 [
     [ "Id", "classmaliput_1_1plugin_1_1_maliput_plugin.html#aeef7aff98de7ccffb0133dd7b5adf1cd", null ],
     [ "MaliputPlugin", "classmaliput_1_1plugin_1_1_maliput_plugin.html#af8becf967cc684c7328c4ff43df05f2c", null ],
+    [ "MaliputPlugin", "classmaliput_1_1plugin_1_1_maliput_plugin.html#a911016e29ee12299244e88ed88eb140e", null ],
     [ "MaliputPlugin", "classmaliput_1_1plugin_1_1_maliput_plugin.html#ad35e9cb376ad49c5846057ed3320a302", null ],
     [ "ExecuteSymbol", "classmaliput_1_1plugin_1_1_maliput_plugin.html#a2a8c8203de29831660ac6e4a59efa617", null ],
     [ "GetId", "classmaliput_1_1plugin_1_1_maliput_plugin.html#a83b135e8b0a571c7e51e2911d0d41b7d", null ],

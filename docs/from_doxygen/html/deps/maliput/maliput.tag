@@ -4976,6 +4976,13 @@
     <includes id="file__utils_8h" name="file_utils.h" local="yes" imported="no">maliput/utility/file_utils.h</includes>
     <namespace>maliput</namespace>
     <namespace>maliput::plugin</namespace>
+    <member kind="variable">
+      <type>const std::vector&lt; std::string &gt;</type>
+      <name>kPreloadedPluginCandidates</name>
+      <anchorfile>namespacemaliput_1_1plugin.html</anchorfile>
+      <anchor>a32fd21ab44e9b35287e62204a4868d0d</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>maliput_plugin_manager.h</name>
@@ -26342,6 +26349,13 @@
       <anchorfile>classmaliput_1_1plugin_1_1_maliput_plugin.html</anchorfile>
       <anchor>af8becf967cc684c7328c4ff43df05f2c</anchor>
       <arglist>(const std::string &amp;path_to_lib)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MaliputPlugin</name>
+      <anchorfile>classmaliput_1_1plugin_1_1_maliput_plugin.html</anchorfile>
+      <anchor>a911016e29ee12299244e88ed88eb140e</anchor>
+      <arglist>(void *lib_handle)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -49609,6 +49623,13 @@
       <anchorfile>namespacemaliput_1_1plugin.html</anchorfile>
       <anchor>a4d44dfc15ed8c612a7a803b0033b6a80</anchor>
       <arglist>(const std::string &amp;road_network_loader_id)</arglist>
+    </member>
+    <member kind="variable">
+      <type>const std::vector&lt; std::string &gt;</type>
+      <name>kPreloadedPluginCandidates</name>
+      <anchorfile>namespacemaliput_1_1plugin.html</anchorfile>
+      <anchor>a32fd21ab44e9b35287e62204a4868d0d</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="namespace">

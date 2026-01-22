@@ -118,11 +118,12 @@ var NAVTREEINDEX11 =
 "classmaliput_1_1math_1_1details_1_1_node.html#aeeef72e2cc67837b776ca5b13e508a66":[4,0,0,4,0,1,7],
 "classmaliput_1_1math_1_1details_1_1_node.html#af186eae9f9214e27e7c0c3520e93cb76":[4,0,0,4,0,1,10],
 "classmaliput_1_1plugin_1_1_maliput_plugin.html":[4,0,0,5,0],
-"classmaliput_1_1plugin_1_1_maliput_plugin.html#a2a8c8203de29831660ac6e4a59efa617":[4,0,0,5,0,3],
-"classmaliput_1_1plugin_1_1_maliput_plugin.html#a83b135e8b0a571c7e51e2911d0d41b7d":[4,0,0,5,0,4],
-"classmaliput_1_1plugin_1_1_maliput_plugin.html#ab8f55eeee1c0eb2025d3d4d61c351c6e":[4,0,0,5,0,5],
-"classmaliput_1_1plugin_1_1_maliput_plugin.html#ad35e9cb376ad49c5846057ed3320a302":[4,0,0,5,0,2],
-"classmaliput_1_1plugin_1_1_maliput_plugin.html#adeb21967d836ca42c91b3d444124246f":[4,0,0,5,0,6],
+"classmaliput_1_1plugin_1_1_maliput_plugin.html#a2a8c8203de29831660ac6e4a59efa617":[4,0,0,5,0,4],
+"classmaliput_1_1plugin_1_1_maliput_plugin.html#a83b135e8b0a571c7e51e2911d0d41b7d":[4,0,0,5,0,5],
+"classmaliput_1_1plugin_1_1_maliput_plugin.html#a911016e29ee12299244e88ed88eb140e":[4,0,0,5,0,2],
+"classmaliput_1_1plugin_1_1_maliput_plugin.html#ab8f55eeee1c0eb2025d3d4d61c351c6e":[4,0,0,5,0,6],
+"classmaliput_1_1plugin_1_1_maliput_plugin.html#ad35e9cb376ad49c5846057ed3320a302":[4,0,0,5,0,3],
+"classmaliput_1_1plugin_1_1_maliput_plugin.html#adeb21967d836ca42c91b3d444124246f":[4,0,0,5,0,7],
 "classmaliput_1_1plugin_1_1_maliput_plugin.html#aeef7aff98de7ccffb0133dd7b5adf1cd":[4,0,0,5,0,0],
 "classmaliput_1_1plugin_1_1_maliput_plugin.html#af8becf967cc684c7328c4ff43df05f2c":[4,0,0,5,0,1],
 "classmaliput_1_1plugin_1_1_maliput_plugin_manager.html":[4,0,0,5,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "dependency__tracker_8h.html":[5,0,52],
 "derive__lane__s__routes_8cc.html":[5,0,53],
 "derive__lane__s__routes_8cc.html#a3f63be85242233c7446b9140ce4ed406":[5,0,53,1],
-"derive__lane__s__routes_8cc.html#a50450cdc6c1aefc360378b2dd8e7cafd":[5,0,53,0],
-"derive__lane__s__routes_8h.html":[5,0,54]
+"derive__lane__s__routes_8cc.html#a50450cdc6c1aefc360378b2dd8e7cafd":[5,0,53,0]
 };

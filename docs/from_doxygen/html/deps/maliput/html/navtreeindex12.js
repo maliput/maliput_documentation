@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"derive__lane__s__routes_8h.html":[5,0,54],
 "derive__lane__s__routes_8h.html#a3f63be85242233c7446b9140ce4ed406":[5,0,54,1],
 "derive__lane__s__routes_8h.html#a50450cdc6c1aefc360378b2dd8e7cafd":[5,0,54,0],
 "direction__usage__rule_8cc.html":[5,0,55],
@@ -247,7 +248,6 @@ var NAVTREEINDEX12 =
 "functions_type.html":[4,3,3],
 "functions_u.html":[4,3,0,21],
 "functions_v.html":[4,3,0,22],
-"functions_vars.html":[4,3,2],
 "functions_vars.html":[4,3,2,0],
-"functions_vars_b.html":[4,3,2,1]
+"functions_vars.html":[4,3,2]
 };

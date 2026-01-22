@@ -286,7 +286,7 @@ var files_dup =
       [ "MaliputPlugin", "classmaliput_1_1plugin_1_1_maliput_plugin.html", "classmaliput_1_1plugin_1_1_maliput_plugin" ]
     ] ],
     [ "maliput_plugin_architecture.h", "maliput__plugin__architecture_8h.html", null ],
-    [ "maliput_plugin_manager.cc", "maliput__plugin__manager_8cc.html", null ],
+    [ "maliput_plugin_manager.cc", "maliput__plugin__manager_8cc.html", "maliput__plugin__manager_8cc" ],
     [ "maliput_plugin_manager.h", "maliput__plugin__manager_8h.html", [
       [ "MaliputPluginManager", "classmaliput_1_1plugin_1_1_maliput_plugin_manager.html", "classmaliput_1_1plugin_1_1_maliput_plugin_manager" ]
     ] ],
