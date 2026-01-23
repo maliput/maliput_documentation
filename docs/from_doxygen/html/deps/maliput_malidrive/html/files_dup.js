@@ -269,6 +269,15 @@ var files_dup =
     [ "segment.h", "segment_8h.html", [
       [ "Segment", "classmalidrive_1_1_segment.html", "classmalidrive_1_1_segment" ]
     ] ],
+    [ "signal.cc", "signal_8cc.html", null ],
+    [ "signal.h", "signal_8h.html", [
+      [ "Signal", "structmalidrive_1_1xodr_1_1_signal.html", "structmalidrive_1_1xodr_1_1_signal" ],
+      [ "Value", "structmalidrive_1_1xodr_1_1_signal_1_1_value.html", "structmalidrive_1_1xodr_1_1_signal_1_1_value" ]
+    ] ],
+    [ "signals.cc", "signals_8cc.html", null ],
+    [ "signals.h", "signals_8h.html", [
+      [ "Signals", "structmalidrive_1_1xodr_1_1_signals.html", "structmalidrive_1_1xodr_1_1_signals" ]
+    ] ],
     [ "simplify_geometries.cc", "simplify__geometries_8cc.html", "simplify__geometries_8cc" ],
     [ "simplify_geometries.h", "simplify__geometries_8h.html", "simplify__geometries_8h" ],
     [ "skeleton.cc", "skeleton_8cc.html", null ],

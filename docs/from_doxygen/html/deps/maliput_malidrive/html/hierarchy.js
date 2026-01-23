@@ -112,6 +112,8 @@ var hierarchy =
         [ "Segment", "classmalidrive_1_1_segment.html", null ]
       ] ]
     ] ],
+    [ "Signal", "structmalidrive_1_1xodr_1_1_signal.html", null ],
+    [ "Signals", "structmalidrive_1_1xodr_1_1_signals.html", null ],
     [ "Skeleton", "structmalidrive_1_1xodr_1_1object_1_1_skeleton.html", null ],
     [ "Lane::Speed", "structmalidrive_1_1xodr_1_1_lane_1_1_speed.html", null ],
     [ "RoadType::Speed", "structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html", null ],
@@ -125,6 +127,7 @@ var hierarchy =
     [ "TypeElementLine", "structmalidrive_1_1xodr_1_1_type_element_line.html", null ],
     [ "UniqueIntegerProvider", "classmalidrive_1_1builder_1_1_unique_integer_provider.html", null ],
     [ "Validity", "structmalidrive_1_1xodr_1_1object_1_1_validity.html", null ],
+    [ "Signal::Value", "structmalidrive_1_1xodr_1_1_signal_1_1_value.html", null ],
     [ "VertexLocal", "structmalidrive_1_1xodr_1_1object_1_1_vertex_local.html", null ],
     [ "VertexRoad", "structmalidrive_1_1xodr_1_1object_1_1_vertex_road.html", null ],
     [ "DBManager::XodrGapBetweenFunctions", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_functions.html", null ],

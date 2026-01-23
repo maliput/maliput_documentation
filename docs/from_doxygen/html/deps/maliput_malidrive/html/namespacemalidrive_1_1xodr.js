@@ -28,6 +28,8 @@ var namespacemalidrive_1_1xodr =
     [ "RoadHeader", "structmalidrive_1_1xodr_1_1_road_header.html", "structmalidrive_1_1xodr_1_1_road_header" ],
     [ "RoadLink", "structmalidrive_1_1xodr_1_1_road_link.html", "structmalidrive_1_1xodr_1_1_road_link" ],
     [ "RoadType", "structmalidrive_1_1xodr_1_1_road_type.html", "structmalidrive_1_1xodr_1_1_road_type" ],
+    [ "Signal", "structmalidrive_1_1xodr_1_1_signal.html", "structmalidrive_1_1xodr_1_1_signal" ],
+    [ "Signals", "structmalidrive_1_1xodr_1_1_signals.html", "structmalidrive_1_1xodr_1_1_signals" ],
     [ "SwayElement", "structmalidrive_1_1xodr_1_1_sway_element.html", "structmalidrive_1_1xodr_1_1_sway_element" ],
     [ "TypeElement", "structmalidrive_1_1xodr_1_1_type_element.html", "structmalidrive_1_1xodr_1_1_type_element" ],
     [ "TypeElementLine", "structmalidrive_1_1xodr_1_1_type_element_line.html", "structmalidrive_1_1xodr_1_1_type_element_line" ]

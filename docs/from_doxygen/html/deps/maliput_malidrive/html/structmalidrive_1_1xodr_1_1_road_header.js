@@ -31,5 +31,6 @@ var structmalidrive_1_1xodr_1_1_road_header =
     [ "reference_geometry", "structmalidrive_1_1xodr_1_1_road_header.html#af1c6907b2a1e808f32b9b35bbfcadbaa", null ],
     [ "road_link", "structmalidrive_1_1xodr_1_1_road_header.html#a61253a18d00f77e85c436e87828f54eb", null ],
     [ "road_types", "structmalidrive_1_1xodr_1_1_road_header.html#a81c87d8d3db1f37f26ea135db49016c4", null ],
-    [ "rule", "structmalidrive_1_1xodr_1_1_road_header.html#a55711ed04aa564c3c03a4508d02d9635", null ]
+    [ "rule", "structmalidrive_1_1xodr_1_1_road_header.html#a55711ed04aa564c3c03a4508d02d9635", null ],
+    [ "signals", "structmalidrive_1_1xodr_1_1_road_header.html#a897211c533a15ec1b6708de3200ceae7", null ]
 ];
