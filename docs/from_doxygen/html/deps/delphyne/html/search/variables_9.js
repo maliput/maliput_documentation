@@ -84,7 +84,7 @@ var searchData=
   ['kportindex_7138',['kPortIndex',['../classdelphyne_1_1_load_robot_aggregator.html#ad80b22249294d9c9b5cde9ccc199f44b',1,'delphyne::LoadRobotAggregator']]],
   ['kpositionvectorsize_7139',['kPositionVectorSize',['../classdelphyne_1_1_drake_to_ign.html#a50b2080ce9aef000a99b089e01ef15d9',1,'delphyne::DrakeToIgn']]],
   ['kppparamsindex_7140',['kPpParamsIndex',['../namespacedelphyne.html#adaa93d94ab0897606bf70557c3c2404f',1,'delphyne']]],
-  ['kpreloadedplugincandidates_7141',['kPreloadedPluginCandidates',['../../../maliput/html/namespacemaliput_1_1plugin.html#a32fd21ab44e9b35287e62204a4868d0d',1,'maliput::plugin']]],
+  ['kpreloadedpluginpatterns_7141',['kPreloadedPluginPatterns',['../../../maliput/html/namespacemaliput_1_1plugin.html#ad4603d7a262e0622849c30234c2476f2',1,'maliput::plugin']]],
   ['kpsi_7142',['kPsi',['../structdelphyne_1_1_bicycle_car_state_indices.html#a279595e2eb8425cbcd4278d4958fcd6e',1,'delphyne::BicycleCarStateIndices']]],
   ['kpsidot_7143',['kPsiDot',['../structdelphyne_1_1_bicycle_car_state_indices.html#adf8c849332f615ae233f3c4ea585c1d9',1,'delphyne::BicycleCarStateIndices']]],
   ['kqticket_7144',['kQTicket',['../../../maliput/html/namespacemaliput_1_1drake_1_1systems_1_1internal.html#a6143396ef062aba2cec910abc46d611ea5211f3f6e7cb51b9e5fd7378d29f6830',1,'maliput::drake::systems::internal']]],

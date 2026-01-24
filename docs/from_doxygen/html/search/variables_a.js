@@ -231,7 +231,7 @@ var searchData=
   ['kppparamsindex_10412',['kPpParamsIndex',['.././deps/delphyne/html/namespacedelphyne.html#adaa93d94ab0897606bf70557c3c2404f',1,'delphyne']]],
   ['kprange_10413',['kPRange',['.././deps/maliput_malidrive/html/structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html#aadf60e2fcf3880a3ea96352f7abd12e8',1,'malidrive::xodr::Geometry::ParamPoly3']]],
   ['kpredecessortag_10414',['kPredecessorTag',['.././deps/maliput_malidrive/html/structmalidrive_1_1xodr_1_1_lane_link.html#aa180b49c19335d6591e0a6c8ba6b552f',1,'malidrive::xodr::LaneLink::kPredecessorTag()'],['.././deps/maliput_malidrive/html/structmalidrive_1_1xodr_1_1_road_link.html#aa180b49c19335d6591e0a6c8ba6b552f',1,'malidrive::xodr::RoadLink::kPredecessorTag()']]],
-  ['kpreloadedplugincandidates_10415',['kPreloadedPluginCandidates',['.././deps/maliput/html/namespacemaliput_1_1plugin.html#a32fd21ab44e9b35287e62204a4868d0d',1,'maliput::plugin']]],
+  ['kpreloadedpluginpatterns_10415',['kPreloadedPluginPatterns',['.././deps/maliput/html/namespacemaliput_1_1plugin.html#ad4603d7a262e0622849c30234c2476f2',1,'maliput::plugin']]],
   ['kpsi_10416',['kPsi',['.././deps/delphyne/html/structdelphyne_1_1_bicycle_car_state_indices.html#a279595e2eb8425cbcd4278d4958fcd6e',1,'delphyne::BicycleCarStateIndices']]],
   ['kpsidot_10417',['kPsiDot',['.././deps/delphyne/html/structdelphyne_1_1_bicycle_car_state_indices.html#adf8c849332f615ae233f3c4ea585c1d9',1,'delphyne::BicycleCarStateIndices']]],
   ['kqticket_10418',['kQTicket',['.././deps/maliput/html/namespacemaliput_1_1drake_1_1systems_1_1internal.html#a6143396ef062aba2cec910abc46d611ea5211f3f6e7cb51b9e5fd7378d29f6830',1,'maliput::drake::systems::internal']]],

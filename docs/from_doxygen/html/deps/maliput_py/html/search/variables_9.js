@@ -43,7 +43,7 @@ var searchData=
   ['kpeticket_5209',['kPeTicket',['../../../maliput/html/namespacemaliput_1_1drake_1_1systems_1_1internal.html#a6143396ef062aba2cec910abc46d611ea95012084c0003b6a6c1adbc3cc4d8f11',1,'maliput::drake::systems::internal']]],
   ['kpncticket_5210',['kPncTicket',['../../../maliput/html/namespacemaliput_1_1drake_1_1systems_1_1internal.html#a6143396ef062aba2cec910abc46d611ea0dbb64c766ecb996a6e62410ab44f5ac',1,'maliput::drake::systems::internal']]],
   ['kpnticket_5211',['kPnTicket',['../../../maliput/html/namespacemaliput_1_1drake_1_1systems_1_1internal.html#a6143396ef062aba2cec910abc46d611ea063e6236b1564f06d39fb3609455d530',1,'maliput::drake::systems::internal']]],
-  ['kpreloadedplugincandidates_5212',['kPreloadedPluginCandidates',['../../../maliput/html/namespacemaliput_1_1plugin.html#a32fd21ab44e9b35287e62204a4868d0d',1,'maliput::plugin']]],
+  ['kpreloadedpluginpatterns_5212',['kPreloadedPluginPatterns',['../../../maliput/html/namespacemaliput_1_1plugin.html#ad4603d7a262e0622849c30234c2476f2',1,'maliput::plugin']]],
   ['kqticket_5213',['kQTicket',['../../../maliput/html/namespacemaliput_1_1drake_1_1systems_1_1internal.html#a6143396ef062aba2cec910abc46d611ea5211f3f6e7cb51b9e5fd7378d29f6830',1,'maliput::drake::systems::internal']]],
   ['kquaternionsize_5214',['kQuaternionSize',['../../../maliput/html/namespacemaliput_1_1drake.html#a07869e660ffe730425feca7595de2273',1,'maliput::drake']]],
   ['krange_5215',['kRange',['../../../maliput/html/structmaliput_1_1_range_value_rule_constants.html#ae59a989dd182fd8c4da0ef782fb56aea',1,'maliput::RangeValueRuleConstants']]],

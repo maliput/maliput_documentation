@@ -96,6 +96,9 @@ $(document).ready(function(){initNavTree('maliput__plugin__manager_8cc.html','')
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="maliput__plugin__manager_8h.html">maliput/plugin/maliput_plugin_manager.h</a>&quot;</code><br />
+<code>#include &lt;dlfcn.h&gt;</code><br />
+<code>#include &lt;cstring&gt;</code><br />
+<code>#include &lt;link.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="filesystem_8h.html">maliput/common/filesystem.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="logger_8h.html">maliput/common/logger.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="file__utils_8h.html">maliput/utility/file_utils.h</a>&quot;</code><br />
@@ -116,9 +119,52 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a32fd21ab44e9b35287e62204a4868d0d"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1plugin.html#a32fd21ab44e9b35287e62204a4868d0d">kPreloadedPluginCandidates</a></td></tr>
-<tr class="separator:a32fd21ab44e9b35287e62204a4868d0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4603d7a262e0622849c30234c2476f2"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1plugin.html#ad4603d7a262e0622849c30234c2476f2">kPreloadedPluginPatterns</a></td></tr>
+<tr class="separator:ad4603d7a262e0622849c30234c2476f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a7141f237b2648c631ce5b73215683565"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7141f237b2648c631ce5b73215683565">&#9670;&nbsp;</a></span>found</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool found {false}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afcf4141d99e26fe9f9b9cf21565497d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcf4141d99e26fe9f9b9cf21565497d6">&#9670;&nbsp;</a></span>found_path</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string found_path</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a756fb3b79b380a40c4ec6ee62c762a18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a756fb3b79b380a40c4ec6ee62c762a18">&#9670;&nbsp;</a></span>search_pattern</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string search_pattern</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.15 -->
