@@ -4977,27 +4977,6 @@
     <namespace>maliput</namespace>
     <namespace>maliput::plugin</namespace>
     <member kind="variable">
-      <type>std::string</type>
-      <name>search_pattern</name>
-      <anchorfile>maliput__plugin__manager_8cc.html</anchorfile>
-      <anchor>a756fb3b79b380a40c4ec6ee62c762a18</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>std::string</type>
-      <name>found_path</name>
-      <anchorfile>maliput__plugin__manager_8cc.html</anchorfile>
-      <anchor>afcf4141d99e26fe9f9b9cf21565497d6</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>bool</type>
-      <name>found</name>
-      <anchorfile>maliput__plugin__manager_8cc.html</anchorfile>
-      <anchor>a7141f237b2648c631ce5b73215683565</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
       <type>const std::vector&lt; std::string &gt;</type>
       <name>kPreloadedPluginPatterns</name>
       <anchorfile>namespacemaliput_1_1plugin.html</anchorfile>
@@ -27157,6 +27136,25 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::geometry_base::test::MockLane</name>
+    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_lane.html</filename>
+    <base>maliput::geometry_base::Lane</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_lane.html</anchorfile>
+      <anchor>ae3ebd5df219c7220437a42f791b89581</anchor>
+      <arglist>(MockLane)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MockLane</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_lane.html</anchorfile>
+      <anchor>ae3a3bec2f0ddc7c0a6984c28af871d7b</anchor>
+      <arglist>(const api::LaneId &amp;id)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::api::test::MockLane</name>
     <filename>classmaliput_1_1api_1_1test_1_1_mock_lane.html</filename>
     <base>maliput::api::Lane</base>
@@ -27208,25 +27206,6 @@
       <anchorfile>classmaliput_1_1api_1_1test_1_1_mock_lane.html</anchorfile>
       <anchor>a2f769c9dc7566e059ad2e6a42878c17e</anchor>
       <arglist>(BranchPoint *end_bp)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::geometry_base::test::MockLane</name>
-    <filename>classmaliput_1_1geometry__base_1_1test_1_1_mock_lane.html</filename>
-    <base>maliput::geometry_base::Lane</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_lane.html</anchorfile>
-      <anchor>ae3ebd5df219c7220437a42f791b89581</anchor>
-      <arglist>(MockLane)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>MockLane</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1test_1_1_mock_lane.html</anchorfile>
-      <anchor>ae3a3bec2f0ddc7c0a6984c28af871d7b</anchor>
-      <arglist>(const api::LaneId &amp;id)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -42966,25 +42945,6 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>maliput::common::uhash</name>
-    <filename>structmaliput_1_1common_1_1uhash.html</filename>
-    <templarg></templarg>
-    <member kind="typedef">
-      <type>typename HashAlgorithm::result_type</type>
-      <name>result_type</name>
-      <anchorfile>structmaliput_1_1common_1_1uhash.html</anchorfile>
-      <anchor>aec09227295d6a2c005ec578d42120039</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="function">
-      <type>result_type</type>
-      <name>operator()</name>
-      <anchorfile>structmaliput_1_1common_1_1uhash.html</anchorfile>
-      <anchor>ac98906b29c4381d0121f715fac155440</anchor>
-      <arglist>(const T &amp;item) const noexcept</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
     <name>maliput::drake::uhash</name>
     <filename>structmaliput_1_1drake_1_1uhash.html</filename>
     <templarg></templarg>
@@ -42999,6 +42959,25 @@
       <type>result_type</type>
       <name>operator()</name>
       <anchorfile>structmaliput_1_1drake_1_1uhash.html</anchorfile>
+      <anchor>ac98906b29c4381d0121f715fac155440</anchor>
+      <arglist>(const T &amp;item) const noexcept</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput::common::uhash</name>
+    <filename>structmaliput_1_1common_1_1uhash.html</filename>
+    <templarg></templarg>
+    <member kind="typedef">
+      <type>typename HashAlgorithm::result_type</type>
+      <name>result_type</name>
+      <anchorfile>structmaliput_1_1common_1_1uhash.html</anchorfile>
+      <anchor>aec09227295d6a2c005ec578d42120039</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type>result_type</type>
+      <name>operator()</name>
+      <anchorfile>structmaliput_1_1common_1_1uhash.html</anchorfile>
       <anchor>ac98906b29c4381d0121f715fac155440</anchor>
       <arglist>(const T &amp;item) const noexcept</arglist>
     </member>
