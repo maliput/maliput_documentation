@@ -42,6 +42,7 @@ if(BUILD_DOCS)
       maliput_py
       maliput_sparse
       maliput_viz
+      maliput_geopackage
       delphyne
       delphyne_demos
       delphyne_gui
