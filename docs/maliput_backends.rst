@@ -24,6 +24,8 @@ The following backends are currently available:
      - OpenDRIVE
    * - `maliput_osm <https://github.com/maliput/maliput_osm>`__
      - Lanelet2 (OSM-based)
+   * - `maliput_geopackage <https://github.com/maliput/maliput_geopackage>`__
+     - GeoPackage (Custom maliput schema)
    * - `maliput_multilane <https://github.com/maliput/maliput_multilane>`__
      - Custom
    * - `maliput_dragway <https://github.com/maliput/maliput_dragway>`__
@@ -60,6 +62,21 @@ Used map: `Town07.xodr <https://github.com/maliput/maliput_malidrive/blob/main/r
 
 .. note::
   See :ref:`gallery_label` section for more videos.
+
+
+maliput_geopackage
+------------------
+
+`maliput_geopackage <https://github.com/maliput/maliput_geopackage>`_ is a backend that implements the `maliput` API for road networks stored in `GeoPackage <https://www.geopackage.org/>`_ files.
+GeoPackage is an OGC standard format that uses SQLite as its container, providing spatial indexing, schema enforcement, and compatibility with GIS tools (QGIS, GDAL, etc.).
+
+This backend relies on `maliput_sparse <https://github.com/maliput/maliput_sparse>`_ for building the road geometry from sampled lane boundaries.
+
+Some characteristics:
+  * Road data is stored in a single ``.gpkg`` file following a `custom maliput schema <https://github.com/maliput/maliput_geopackage/blob/main/schema/README.md>`_.
+  * Lanes are described by boundary polylines that are linearly interpolated.
+  * Compatible with standard GIS tooling for map creation and inspection.
+
 
 maliput_osm
 -----------

@@ -44,6 +44,8 @@ It is recommended to follow this pattern when documenting the parameters of a ma
      - `parameters <html/deps/maliput_malidrive/html/group__road__network__configuration__builder__keys.html>`__
    * - `maliput_osm <https://github.com/maliput/maliput_osm>`_
      - `parameters <html/deps/maliput_osm/html/group__builder__configuration__keys.html>`__
+   * - `maliput_geopackage <https://github.com/maliput/maliput_geopackage>`_
+     - `parameters <html/deps/maliput_geopackage/html/group__builder__configuration__keys.html>`__
 
 
 Using maliput plugin architecture to load a Road Network
