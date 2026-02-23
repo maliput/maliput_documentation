@@ -6,6 +6,9 @@
 # full list see the documentation:
 # http://www.sphinx-doc.org/en/master/config
 
+import os
+import urllib.request
+
 # -- Project information -----------------------------------------------------
 
 # General information about the project.
@@ -20,7 +23,8 @@ author = u'Woven By Toyota'
 # ones.
 extensions = [
   'sphinx_tabs.tabs',
-  'sphinx_rtd_theme'
+  'sphinx_rtd_theme',
+  'myst_parser',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -30,7 +34,17 @@ templates_path = []
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
+
+# -- MyST-Parser configuration -----------------------------------------------
+
+# Generate anchors for heading levels h1-h4 so in-page ToC links resolve.
+myst_heading_anchors = 4
+
+suppress_warnings = ['myst.xref_missing']
 
 # The master toctree document.
 master_doc = 'index'
@@ -78,7 +92,31 @@ html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'searchbox.html'] }
 
 # If true, “Created using Sphinx” is shown in the HTML footer. Default is True.
 html_show_sphinx = False
+# -- Remote content fetching -------------------------------------------------
 
+# Map of remote markdown files to fetch into the source tree before building.
+# Keys are the local filename (relative to source dir), values are the raw URL.
+REMOTE_MARKDOWN_FILES = {
+    'maliput_geopackage_schema.md':
+        'https://raw.githubusercontent.com/maliput/maliput_geopackage/main/schema/README.md',
+}
+
+
+def fetch_remote_content(app):
+    """Download remote markdown files into the Sphinx source directory."""
+    srcdir = app.srcdir
+    for filename, url in REMOTE_MARKDOWN_FILES.items():
+        dest = os.path.join(srcdir, filename)
+        if not os.path.exists(dest):
+            print(f'Fetching remote content: {url} -> {dest}')
+            try:
+                urllib.request.urlretrieve(url, dest)
+            except Exception as e:
+                print(f'Warning: Failed to fetch {url}: {e}')
+
+
+def setup(app):
+    app.connect('builder-inited', fetch_remote_content)
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.

@@ -8,64 +8,69 @@ API Documentation
 Maliput
 =======
 
-* `Maliput C++ namespace <html/deps/maliput/html/namespacemaliput.html>`_
+* `maliput C++ namespace <html/deps/maliput/html/namespacemaliput.html>`_
 
-Maliput Malidrive
+maliput_malidrive
 =================
 
-* `Maliput_malidrive C++ namespace <html/deps/maliput_malidrive/html/namespacemalidrive.html>`_
+* `maliput_malidrive C++ namespace <html/deps/maliput_malidrive/html/namespacemalidrive.html>`_
 
-Dragway
-=======
+maliput_dragway
+===============
 
-* `Dragway C++ namespace <html/deps/maliput_dragway/html/namespacemaliput_1_1dragway.html>`_
+* `maliput_dragway C++ namespace <html/deps/maliput_dragway/html/namespacemaliput_1_1dragway.html>`_
 
-Maliput Object
+maliput_object
 ==============
 
-* `Maliput Object C++ namespace <html/deps/maliput_object/html/namespacemaliput_1_1object.html>`_
+* `maliput_object C++ namespace <html/deps/maliput_object/html/namespacemaliput_1_1object.html>`_
 
-Maliput Object Py
+maliput_object_py
 =================
 
-* `Maliput Object Py Python Interface <html/deps/maliput_object_py/html/maliput_object_py_python_interface.html>`_ TODO
+* `maliput_object Python Interface <html/deps/maliput_object_py/html/maliput_object_py_python_interface.html>`_ TODO
 
-Maliput Py
+maliput_py
 ==========
 
 * `Maliput Python Interface <html/deps/maliput_py/html/maliput_python_interface.html>`_
 
-Maliput Sparse
+maliput_sparse
 ==============
 
-* `Maliput Sparse C++ namespace <html/deps/maliput_sparse/html/namespacemaliput__sparse.html>`_
+* `maliput_sparse C++ namespace <html/deps/maliput_sparse/html/namespacemaliput__sparse.html>`_
 
-Maliput Osm
+maliput_osm
 ===========
 
-* `Maliput Osm C++ namespace <html/deps/maliput_osm/html/namespacemaliput__osm.html>`_
+* `maliput_osm C++ namespace <html/deps/maliput_osm/html/namespacemaliput__osm.html>`_
 
-Multilane
-=========
+maliput_geopackage
+==================
 
-* `Multilane C++ namespace <html/deps/maliput_multilane/html/namespacemaliput_1_1multilane.html>`_
+* `maliput_geopackage C++ namespace <html/deps/maliput_geopackage/html/namespacemaliput__geopackage.html>`_
 
-Integration
-===========
+maliput_multilane
+=================
 
-* `Integration C++ namespace <html/deps/maliput_integration/html/namespacemaliput_1_1integration.html>`_
+* `maliput_multilane C++ namespace <html/deps/maliput_multilane/html/namespacemaliput_1_1multilane.html>`_
 
-Delphyne
+maliput_integration
+===================
+
+* `maliput_integration C++ namespace <html/deps/maliput_integration/html/namespacemaliput_1_1integration.html>`_
+
+delphyne
 ========
 
-* `Delphyne C++/Python namespace <html/deps/delphyne/html/namespacedelphyne.html>`_
+* `delphyne C++/Python namespace <html/deps/delphyne/html/namespacedelphyne.html>`_
 
-Delphyne Gui
+delphyne_gui
 ============
 
-* `Delphyne Gui doc <html/deps/delphyne_gui/html/index.html>`_
+* `delphyne_gui doc <html/deps/delphyne_gui/html/index.html>`_
 
-Delphyne Demos
+delphyne_demos
 ==============
 
-* `Delphyne Demos doc <html/deps/delphyne_demos/html/index.html>`_
+* `delphyne_demos doc <html/deps/delphyne_demos/html/index.html>`_

@@ -52,6 +52,8 @@ This will prepare and install the files required to later on be built using `sph
 
 First install requirements needed for the sphinx-build command.
 
+Using a venv with Python 3.12 is recommendable for matching with all the requirements correctly.
+
 `pip install -r install//maliput_documentation/share/docs/requirements.txt`
 
 Run `sphinx-build` command:

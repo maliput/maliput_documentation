@@ -26,7 +26,7 @@ Features
 * Handles dynamic rule environments.
 * Supports Traffic Lights.
 * Convenience functions to query the Road Network and its Rules.
-* Available `maliput` backend based on `OpenDRIVE` specification.
+* Available `maliput` backends based on `OpenDRIVE`, `Lanelet2 (OSM)`, and `GeoPackage` specifications.
 * Plugin architecture to extend Road Network implementation.
 * C++ 17 compatible API.
 * Python bindings.
@@ -257,6 +257,14 @@ Available concrete implementations of the abstract API:
   * Multiple Lanes per Segment.
   * Geometries defined by discrete points.
 
+* `maliput_geopackage <https://github.com/maliput/maliput_geopackage>`_ : `maliput_geopackage` is an implementation of `maliput`'s API that allows users to instantiate a `RoadNetwork` from `GeoPackage <https://www.geopackage.org/>`_ files, an OGC standard format based on SQLite.
+
+  * GeoPackage based map description following a `custom maliput schema <https://github.com/maliput/maliput_geopackage/blob/main/schema/README.md>`_.
+  * Multiple Lanes per Segment.
+  * Lane geometries defined by boundary polylines.
+  * Compatible with GIS tools (QGIS, GDAL, etc.).
+  * Single-file distribution.
+
 Maliput Sparse
 ==============
 
@@ -264,7 +272,7 @@ Maliput Sparse
 
 The mathematical model is solved under the hood so the user doesn't have to dive into complex geometric calculations.
 
-`maliput_osm <https://github.com/maliput/maliput_osm>`_ is built on top of the `maliput_sparse` package.
+`maliput_osm <https://github.com/maliput/maliput_osm>`_ and `maliput_geopackage <https://github.com/maliput/maliput_geopackage>`_ are built on top of the `maliput_sparse` package.
 
 
 Maliput Vizualizer
