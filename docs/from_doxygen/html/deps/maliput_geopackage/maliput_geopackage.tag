@@ -18,6 +18,23 @@
     <namespace>maliput_geopackage::builder</namespace>
   </compound>
   <compound kind="file">
+    <name>geopackage_manager.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_geopackage/src/maliput_geopackage/geopackage/</path>
+    <filename>geopackage__manager_8cc.html</filename>
+    <includes id="geopackage__manager_8h" name="geopackage_manager.h" local="yes" imported="no">maliput_geopackage/geopackage/geopackage_manager.h</includes>
+    <namespace>maliput_geopackage</namespace>
+    <namespace>maliput_geopackage::geopackage</namespace>
+  </compound>
+  <compound kind="file">
+    <name>geopackage_manager.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_geopackage/src/maliput_geopackage/geopackage/</path>
+    <filename>geopackage__manager_8h.html</filename>
+    <includes id="geopackage__parser_8h" name="geopackage_parser.h" local="yes" imported="no">maliput_geopackage/geopackage/geopackage_parser.h</includes>
+    <class kind="class">maliput_geopackage::geopackage::GeoPackageManager</class>
+    <namespace>maliput_geopackage</namespace>
+    <namespace>maliput_geopackage::geopackage</namespace>
+  </compound>
+  <compound kind="file">
     <name>geopackage_parser.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_geopackage/src/maliput_geopackage/geopackage/</path>
     <filename>geopackage__parser_8cc.html</filename>
@@ -29,6 +46,13 @@
     <name>geopackage_parser.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_geopackage/src/maliput_geopackage/geopackage/</path>
     <filename>geopackage__parser_8h.html</filename>
+    <includes id="sqlite__helpers_8h" name="sqlite_helpers.h" local="yes" imported="no">maliput_geopackage/geopackage/sqlite_helpers.h</includes>
+    <class kind="struct">maliput_geopackage::geopackage::GPKGJunction</class>
+    <class kind="struct">maliput_geopackage::geopackage::GPKGSegment</class>
+    <class kind="struct">maliput_geopackage::geopackage::GPKGLaneBoundary</class>
+    <class kind="struct">maliput_geopackage::geopackage::GPKGLane</class>
+    <class kind="struct">maliput_geopackage::geopackage::GPKGBranchPointLane</class>
+    <class kind="struct">maliput_geopackage::geopackage::GPKGAdjacentLane</class>
     <class kind="class">maliput_geopackage::geopackage::GeoPackageParser</class>
     <namespace>maliput_geopackage</namespace>
     <namespace>maliput_geopackage::geopackage</namespace>
@@ -140,7 +164,7 @@
     <filename>road__network__builder_8cc.html</filename>
     <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_geopackage/builder/road_network_builder.h</includes>
     <includes id="builder__configuration_8h" name="builder_configuration.h" local="yes" imported="no">maliput_geopackage/builder/builder_configuration.h</includes>
-    <includes id="geopackage__parser_8h" name="geopackage_parser.h" local="yes" imported="no">maliput_geopackage/geopackage/geopackage_parser.h</includes>
+    <includes id="geopackage__manager_8h" name="geopackage_manager.h" local="yes" imported="no">maliput_geopackage/geopackage/geopackage_manager.h</includes>
     <namespace>maliput_geopackage</namespace>
     <namespace>maliput_geopackage::builder</namespace>
   </compound>
@@ -151,6 +175,21 @@
     <class kind="class">maliput_geopackage::builder::RoadNetworkBuilder</class>
     <namespace>maliput_geopackage</namespace>
     <namespace>maliput_geopackage::builder</namespace>
+  </compound>
+  <compound kind="file">
+    <name>sqlite_helpers.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_geopackage/src/maliput_geopackage/geopackage/</path>
+    <filename>sqlite__helpers_8cc.html</filename>
+    <includes id="sqlite__helpers_8h" name="sqlite_helpers.h" local="yes" imported="no">maliput_geopackage/geopackage/sqlite_helpers.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>sqlite_helpers.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_geopackage/src/maliput_geopackage/geopackage/</path>
+    <filename>sqlite__helpers_8h.html</filename>
+    <class kind="struct">SqliteDeleter</class>
+    <class kind="struct">SqliteStatementDeleter</class>
+    <class kind="class">SqliteDatabase</class>
+    <class kind="class">SqliteStatement</class>
   </compound>
   <compound kind="struct">
     <name>maliput_geopackage::builder::BuilderConfiguration</name>
@@ -185,9 +224,27 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput_geopackage::geopackage::GeoPackageManager</name>
+    <filename>classmaliput__geopackage_1_1geopackage_1_1_geo_package_manager.html</filename>
+    <base>maliput_sparse::parser::Parser</base>
+    <member kind="function">
+      <type></type>
+      <name>GeoPackageManager</name>
+      <anchorfile>classmaliput__geopackage_1_1geopackage_1_1_geo_package_manager.html</anchorfile>
+      <anchor>afd1702f353eec216243b22a6b891fae6</anchor>
+      <arglist>(const std::string &amp;gpkg_file_path)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~GeoPackageManager</name>
+      <anchorfile>classmaliput__geopackage_1_1geopackage_1_1_geo_package_manager.html</anchorfile>
+      <anchor>ab2c26e72c71494010a9467e7fa3847bd</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput_geopackage::geopackage::GeoPackageParser</name>
     <filename>classmaliput__geopackage_1_1geopackage_1_1_geo_package_parser.html</filename>
-    <base>maliput_sparse::parser::Parser</base>
     <member kind="function">
       <type></type>
       <name>GeoPackageParser</name>
@@ -201,6 +258,191 @@
       <anchorfile>classmaliput__geopackage_1_1geopackage_1_1_geo_package_parser.html</anchorfile>
       <anchor>abdaa174e0662b4093f450792e1275667</anchor>
       <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::unordered_map&lt; std::string, std::string &gt; &amp;</type>
+      <name>GetMetadata</name>
+      <anchorfile>classmaliput__geopackage_1_1geopackage_1_1_geo_package_parser.html</anchorfile>
+      <anchor>a345bd6a09d2492c99afa053dc2575bc3</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::unordered_map&lt; std::string, GPKGJunction &gt; &amp;</type>
+      <name>GetJunctions</name>
+      <anchorfile>classmaliput__geopackage_1_1geopackage_1_1_geo_package_parser.html</anchorfile>
+      <anchor>a802ad2db259203f19622b2b26e95343d</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::unordered_map&lt; std::string, GPKGSegment &gt; &amp;</type>
+      <name>GetSegments</name>
+      <anchorfile>classmaliput__geopackage_1_1geopackage_1_1_geo_package_parser.html</anchorfile>
+      <anchor>ac9c8d0fb8ce21c80adbe3c4f079f861e</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::unordered_map&lt; std::string, GPKGLaneBoundary &gt; &amp;</type>
+      <name>GetLaneBoundaries</name>
+      <anchorfile>classmaliput__geopackage_1_1geopackage_1_1_geo_package_parser.html</anchorfile>
+      <anchor>a5574b20f04aecc1cae89ed52485c30cf</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::unordered_map&lt; std::string, GPKGLane &gt; &amp;</type>
+      <name>GetLanes</name>
+      <anchorfile>classmaliput__geopackage_1_1geopackage_1_1_geo_package_parser.html</anchorfile>
+      <anchor>af080abc34333e2e790248ded0cda0229</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::unordered_map&lt; std::string, std::vector&lt; GPKGAdjacentLane &gt; &gt; &amp;</type>
+      <name>GetAdjacentLanes</name>
+      <anchorfile>classmaliput__geopackage_1_1geopackage_1_1_geo_package_parser.html</anchorfile>
+      <anchor>a7a6b9e83576f61a3ff63fac66c7ab409</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::unordered_map&lt; std::string, std::vector&lt; GPKGBranchPointLane &gt; &gt; &amp;</type>
+      <name>GetBranchPointLanes</name>
+      <anchorfile>classmaliput__geopackage_1_1geopackage_1_1_geo_package_parser.html</anchorfile>
+      <anchor>a08226a22d61faf9ef72a0e0874225056</anchor>
+      <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput_geopackage::geopackage::GPKGAdjacentLane</name>
+    <filename>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_adjacent_lane.html</filename>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>adjacent_lane_id</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_adjacent_lane.html</anchorfile>
+      <anchor>a171611ae0b41451dadbb8033e1836e8c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>side</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_adjacent_lane.html</anchorfile>
+      <anchor>a9edd31fe1c927cecc78def55b296a5b8</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput_geopackage::geopackage::GPKGBranchPointLane</name>
+    <filename>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_branch_point_lane.html</filename>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>lane_id</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_branch_point_lane.html</anchorfile>
+      <anchor>afe960e19331a9f98adb8ac049563162f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>side</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_branch_point_lane.html</anchorfile>
+      <anchor>a9edd31fe1c927cecc78def55b296a5b8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>lane_end</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_branch_point_lane.html</anchorfile>
+      <anchor>a907d07a99cfe17276659d7bb1c01f916</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput_geopackage::geopackage::GPKGJunction</name>
+    <filename>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_junction.html</filename>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>name</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_junction.html</anchorfile>
+      <anchor>a9b45b3e13bd9167aab02e17e08916231</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput_geopackage::geopackage::GPKGLane</name>
+    <filename>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane.html</filename>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>segment_id</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane.html</anchorfile>
+      <anchor>a3b3f9283cad19f69b3fb80b97e21ba94</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>lane_type</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane.html</anchorfile>
+      <anchor>a355d43da16e12437b888903f19b6c7ad</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>direction</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane.html</anchorfile>
+      <anchor>ace0313bd744bab6ffda5410a9bea91ea</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>left_boundary_id</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane.html</anchorfile>
+      <anchor>ae424f18e50003f99c925f66291c329b4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>bool</type>
+      <name>left_boundary_inverted</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane.html</anchorfile>
+      <anchor>a1011cbf4016cde093d44871a9c9e6ff8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>right_boundary_id</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane.html</anchorfile>
+      <anchor>aa8645cca290b063de82964c3f68d0350</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>bool</type>
+      <name>right_boundary_inverted</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane.html</anchorfile>
+      <anchor>a8734737bf8f7e29814037690385bbe0a</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput_geopackage::geopackage::GPKGLaneBoundary</name>
+    <filename>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_boundary.html</filename>
+    <member kind="variable">
+      <type>std::vector&lt; maliput::math::Vector3 &gt;</type>
+      <name>geometry</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_boundary.html</anchorfile>
+      <anchor>a3a9580e92626d5cd6a1a25892192c966</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput_geopackage::geopackage::GPKGSegment</name>
+    <filename>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_segment.html</filename>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>junction_id</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_segment.html</anchorfile>
+      <anchor>ad8781d1807ae3ea54fd56aa6f6a26767</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>name</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_segment.html</anchorfile>
+      <anchor>a9b45b3e13bd9167aab02e17e08916231</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -226,6 +468,106 @@
       <anchorfile>classmaliput__geopackage_1_1builder_1_1_road_network_builder.html</anchorfile>
       <anchor>a39d1711392269d5130fa8ad50d184dab</anchor>
       <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>SqliteDatabase</name>
+    <filename>class_sqlite_database.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>SqliteDatabase</name>
+      <anchorfile>class_sqlite_database.html</anchorfile>
+      <anchor>a81f896e833ca4608103b8e0cc2ed8cba</anchor>
+      <arglist>(const std::string &amp;db_path)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~SqliteDatabase</name>
+      <anchorfile>class_sqlite_database.html</anchorfile>
+      <anchor>a560d01f7a87b867066ff10bf3c822ac3</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>sqlite3 *</type>
+      <name>get</name>
+      <anchorfile>class_sqlite_database.html</anchorfile>
+      <anchor>a63c52816ec295aa071f4db55f71791d5</anchor>
+      <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>SqliteDeleter</name>
+    <filename>struct_sqlite_deleter.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>operator()</name>
+      <anchorfile>struct_sqlite_deleter.html</anchorfile>
+      <anchor>a5f095bb761ad5cdab5ce06819a63eee2</anchor>
+      <arglist>(sqlite3 *db) const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>SqliteStatement</name>
+    <filename>class_sqlite_statement.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>SqliteStatement</name>
+      <anchorfile>class_sqlite_statement.html</anchorfile>
+      <anchor>a7e3569f7a83a3d0acb736661a2e99f46</anchor>
+      <arglist>(sqlite3 *db, const std::string &amp;query)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~SqliteStatement</name>
+      <anchorfile>class_sqlite_statement.html</anchorfile>
+      <anchor>a91ffff144b50993a324e5e56a709beee</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>Step</name>
+      <anchorfile>class_sqlite_statement.html</anchorfile>
+      <anchor>a01c3fd4b023ba615710fdf31e11a7be1</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>GetColumnText</name>
+      <anchorfile>class_sqlite_statement.html</anchorfile>
+      <anchor>abcdda9684b686a37275cab1030b927e3</anchor>
+      <arglist>(int col)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>GetColumnInt</name>
+      <anchorfile>class_sqlite_statement.html</anchorfile>
+      <anchor>a2ee7c9d265746bab7168b46c12c032cf</anchor>
+      <arglist>(int col)</arglist>
+    </member>
+    <member kind="function">
+      <type>const void *</type>
+      <name>GetColumnBlob</name>
+      <anchorfile>class_sqlite_statement.html</anchorfile>
+      <anchor>a3e611e3701dfee62b36b3c34183c0325</anchor>
+      <arglist>(int col)</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>GetColumnBytes</name>
+      <anchorfile>class_sqlite_statement.html</anchorfile>
+      <anchor>a8ab7b9c50a895aba6f011e3ac0b3320d</anchor>
+      <arglist>(int col)</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>SqliteStatementDeleter</name>
+    <filename>struct_sqlite_statement_deleter.html</filename>
+    <member kind="function">
+      <type>void</type>
+      <name>operator()</name>
+      <anchorfile>struct_sqlite_statement_deleter.html</anchorfile>
+      <anchor>a758c25b3071b13c8cc7a6d6fd3c53fb6</anchor>
+      <arglist>(sqlite3_stmt *stmt) const</arglist>
     </member>
   </compound>
   <compound kind="namespace">
@@ -326,7 +668,14 @@
   <compound kind="namespace">
     <name>maliput_geopackage::geopackage</name>
     <filename>namespacemaliput__geopackage_1_1geopackage.html</filename>
+    <class kind="class">maliput_geopackage::geopackage::GeoPackageManager</class>
     <class kind="class">maliput_geopackage::geopackage::GeoPackageParser</class>
+    <class kind="struct">maliput_geopackage::geopackage::GPKGAdjacentLane</class>
+    <class kind="struct">maliput_geopackage::geopackage::GPKGBranchPointLane</class>
+    <class kind="struct">maliput_geopackage::geopackage::GPKGJunction</class>
+    <class kind="struct">maliput_geopackage::geopackage::GPKGLane</class>
+    <class kind="struct">maliput_geopackage::geopackage::GPKGLaneBoundary</class>
+    <class kind="struct">maliput_geopackage::geopackage::GPKGSegment</class>
   </compound>
   <compound kind="namespace">
     <name>maliput_geopackage::plugin</name>

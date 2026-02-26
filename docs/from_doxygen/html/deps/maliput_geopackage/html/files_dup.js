@@ -4,8 +4,18 @@ var files_dup =
     [ "builder_configuration.h", "builder__configuration_8h.html", [
       [ "BuilderConfiguration", "structmaliput__geopackage_1_1builder_1_1_builder_configuration.html", "structmaliput__geopackage_1_1builder_1_1_builder_configuration" ]
     ] ],
+    [ "geopackage_manager.cc", "geopackage__manager_8cc.html", null ],
+    [ "geopackage_manager.h", "geopackage__manager_8h.html", [
+      [ "GeoPackageManager", "classmaliput__geopackage_1_1geopackage_1_1_geo_package_manager.html", "classmaliput__geopackage_1_1geopackage_1_1_geo_package_manager" ]
+    ] ],
     [ "geopackage_parser.cc", "geopackage__parser_8cc.html", null ],
     [ "geopackage_parser.h", "geopackage__parser_8h.html", [
+      [ "GPKGJunction", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_junction.html", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_junction" ],
+      [ "GPKGSegment", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_segment.html", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_segment" ],
+      [ "GPKGLaneBoundary", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_boundary.html", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_boundary" ],
+      [ "GPKGLane", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane.html", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane" ],
+      [ "GPKGBranchPointLane", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_branch_point_lane.html", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_branch_point_lane" ],
+      [ "GPKGAdjacentLane", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_adjacent_lane.html", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_adjacent_lane" ],
       [ "GeoPackageParser", "classmaliput__geopackage_1_1geopackage_1_1_geo_package_parser.html", "classmaliput__geopackage_1_1geopackage_1_1_geo_package_parser" ]
     ] ],
     [ "params.h", "params_8h.html", "params_8h" ],
@@ -13,5 +23,12 @@ var files_dup =
     [ "road_network_builder.cc", "road__network__builder_8cc.html", null ],
     [ "road_network_builder.h", "road__network__builder_8h.html", [
       [ "RoadNetworkBuilder", "classmaliput__geopackage_1_1builder_1_1_road_network_builder.html", "classmaliput__geopackage_1_1builder_1_1_road_network_builder" ]
+    ] ],
+    [ "sqlite_helpers.cc", "sqlite__helpers_8cc.html", null ],
+    [ "sqlite_helpers.h", "sqlite__helpers_8h.html", [
+      [ "SqliteDeleter", "struct_sqlite_deleter.html", "struct_sqlite_deleter" ],
+      [ "SqliteStatementDeleter", "struct_sqlite_statement_deleter.html", "struct_sqlite_statement_deleter" ],
+      [ "SqliteDatabase", "class_sqlite_database.html", "class_sqlite_database" ],
+      [ "SqliteStatement", "class_sqlite_statement.html", "class_sqlite_statement" ]
     ] ]
 ];
