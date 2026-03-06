@@ -1,6 +1,8 @@
 var NAVTREEINDEX1 =
 {
+"namespacemaliput__sparse_1_1loader_1_1config.html":[1,0,0,2,0],
 "namespacemaliput__sparse_1_1parser.html":[1,0,0,3],
+"namespacemaliput__sparse_1_1parser.html":[2,0,0,3],
 "namespacemaliput__sparse_1_1test.html":[1,0,0,4],
 "namespacemembers.html":[1,1,0],
 "namespacemembers_func.html":[1,1,1],

@@ -2061,6 +2061,13 @@
       <anchor>ae6ec0b6860c4580c1d7e257c5dc59bcf</anchor>
       <arglist>() const</arglist>
     </member>
+    <member kind="function">
+      <type>const std::string &amp;</type>
+      <name>GetGeoReferenceInfo</name>
+      <anchorfile>classmaliput__sparse_1_1parser_1_1_parser.html</anchorfile>
+      <anchor>a81b9f79b2cdbf2a8ceb2509271e205fa</anchor>
+      <arglist>() const</arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>maliput_sparse::geometry::LineString::Point</name>
@@ -2115,8 +2122,8 @@
       <type></type>
       <name>RoadGeometry</name>
       <anchorfile>classmaliput__sparse_1_1_road_geometry.html</anchorfile>
-      <anchor>a9a814f9df7b3eefc3f295c1cb197fef2</anchor>
-      <arglist>(const maliput::api::RoadGeometryId &amp;id, double linear_tolerance, double angular_tolerance, double scale_length, const maliput::math::Vector3 &amp;inertial_to_backend_frame_translation)</arglist>
+      <anchor>a3d61b7b3aa9ed2308fe77cb846db2a5d</anchor>
+      <arglist>(const maliput::api::RoadGeometryId &amp;id, double linear_tolerance, double angular_tolerance, double scale_length, const maliput::math::Vector3 &amp;inertial_to_backend_frame_translation, const std::string &amp;geo_reference_info)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -2163,6 +2170,13 @@
       <anchorfile>classmaliput__sparse_1_1builder_1_1_road_geometry_builder.html</anchorfile>
       <anchor>a4ffc42e28f56774e4a22d36a6de3fc10</anchor>
       <arglist>(const maliput::math::Vector3 &amp;translation)</arglist>
+    </member>
+    <member kind="function">
+      <type>RoadGeometryBuilder &amp;</type>
+      <name>GeoReferenceInfo</name>
+      <anchorfile>classmaliput__sparse_1_1builder_1_1_road_geometry_builder.html</anchorfile>
+      <anchor>a1b4b38a23cba0933074b8baf93f88596</anchor>
+      <arglist>(const std::string &amp;geo_reference_info)</arglist>
     </member>
     <member kind="function">
       <type>JunctionBuilder</type>
