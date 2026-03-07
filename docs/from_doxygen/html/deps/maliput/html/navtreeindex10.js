@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"classmaliput_1_1drake_1_1trajectories_1_1_piecewise_polynomial.html#a94ee5e424405c47c2a7f62e14564d095":[4,0,0,2,4,0,13],
 "classmaliput_1_1drake_1_1trajectories_1_1_piecewise_polynomial.html#a9a7863e6bf8a3ccb5335563370305add":[4,0,0,2,4,0,50],
 "classmaliput_1_1drake_1_1trajectories_1_1_piecewise_polynomial.html#a9aa1f1cfff6dcb352d5fbb15a80ee1a9":[4,0,0,2,4,0,47],
 "classmaliput_1_1drake_1_1trajectories_1_1_piecewise_polynomial.html#a9b98ea8f2257d622472c8007150df254":[4,0,0,2,4,0,54],
@@ -100,6 +101,7 @@ var NAVTREEINDEX10 =
 "classmaliput_1_1geometry__base_1_1_road_geometry.html":[4,0,0,3,8],
 "classmaliput_1_1geometry__base_1_1_road_geometry.html#a3180977d75affb100512dc8177009a4f":[4,0,0,3,8,1],
 "classmaliput_1_1geometry__base_1_1_road_geometry.html#a36aac6602fb3dcc28d4a0d28af720698":[4,0,0,3,8,2],
+"classmaliput_1_1geometry__base_1_1_road_geometry.html#a5a7cb8cbbbe81d1c7512d1e527be5c8c":[4,0,0,3,8,6],
 "classmaliput_1_1geometry__base_1_1_road_geometry.html#a67f4ef90da8861ea291670c552d720a0":[4,0,0,3,8,0],
 "classmaliput_1_1geometry__base_1_1_road_geometry.html#a85e2692300f5276bf166eb2dac07b0ca":[4,0,0,3,8,4],
 "classmaliput_1_1geometry__base_1_1_road_geometry.html#ac4f7fc33fb19946309af17487bbe83f0":[4,0,0,3,8,5],
@@ -114,11 +116,12 @@ var NAVTREEINDEX10 =
 "classmaliput_1_1geometry__base_1_1_segment.html#a9786d0915ed4f28cd636bb2132e0444c":[4,0,0,3,9,4],
 "classmaliput_1_1geometry__base_1_1_segment.html#aa0c04fc22758b187b97e596c48304d9f":[4,0,0,3,9,5],
 "classmaliput_1_1geometry__base_1_1_strategy_base.html":[4,0,0,3,10],
-"classmaliput_1_1geometry__base_1_1_strategy_base.html#a452dbeac8c1a181baf764572a150aa49":[4,0,0,3,10,3],
+"classmaliput_1_1geometry__base_1_1_strategy_base.html#a452dbeac8c1a181baf764572a150aa49":[4,0,0,3,10,4],
 "classmaliput_1_1geometry__base_1_1_strategy_base.html#a4cf58310e75abde760457f3682551bfe":[4,0,0,3,10,1],
-"classmaliput_1_1geometry__base_1_1_strategy_base.html#a67c214aec04cea17439741e563d47368":[4,0,0,3,10,4],
-"classmaliput_1_1geometry__base_1_1_strategy_base.html#ab6ecc137c5f4408c613adb1f3246a854":[4,0,0,3,10,2],
+"classmaliput_1_1geometry__base_1_1_strategy_base.html#a67c214aec04cea17439741e563d47368":[4,0,0,3,10,5],
+"classmaliput_1_1geometry__base_1_1_strategy_base.html#ab6ecc137c5f4408c613adb1f3246a854":[4,0,0,3,10,3],
 "classmaliput_1_1geometry__base_1_1_strategy_base.html#abcde06e3f4a599e41c573e433ccee8c3":[4,0,0,3,10,0],
+"classmaliput_1_1geometry__base_1_1_strategy_base.html#af6d284b4ca43008dc30d548ffbb11ecd":[4,0,0,3,10,2],
 "classmaliput_1_1geometry__base_1_1test_1_1_mock_branch_point.html":[4,0,0,3,0,0],
 "classmaliput_1_1geometry__base_1_1test_1_1_mock_branch_point.html#aaa139b77d2804bc363548d952e9a5e48":[4,0,0,3,0,0,1],
 "classmaliput_1_1geometry__base_1_1test_1_1_mock_branch_point.html#aceec770f91b3df9cb865588fcffe85da":[4,0,0,3,0,0,0],
@@ -196,8 +199,8 @@ var NAVTREEINDEX10 =
 "classmaliput_1_1math_1_1_matrix.html#ac1055218626ef565ead9b43661beba99":[4,0,0,4,6,19],
 "classmaliput_1_1math_1_1_matrix.html#ad6a05ee82dc3386c0b24f7e74df8bd9a":[4,0,0,4,6,22],
 "classmaliput_1_1math_1_1_matrix.html#adbe9a5802eeeb60909c3851a6ec37aa2":[4,0,0,4,6,5],
-"classmaliput_1_1math_1_1_matrix.html#ae6ef9c768a4270a9ebd46177fa250144":[4,0,0,4,6,9],
 "classmaliput_1_1math_1_1_matrix.html#ae6ef9c768a4270a9ebd46177fa250144":[4,0,0,4,6,8],
+"classmaliput_1_1math_1_1_matrix.html#ae6ef9c768a4270a9ebd46177fa250144":[4,0,0,4,6,9],
 "classmaliput_1_1math_1_1_matrix.html#ae7876c148054511cb9cc10bf9bb64424":[4,0,0,4,6,30],
 "classmaliput_1_1math_1_1_matrix.html#aed2210a0b4ebd59a78b6e7a74166161c":[4,0,0,4,6,31],
 "classmaliput_1_1math_1_1_matrix.html#af1699ec65bff838d2ede217f0df45141":[4,0,0,4,6,14],
@@ -246,8 +249,5 @@ var NAVTREEINDEX10 =
 "classmaliput_1_1math_1_1_roll_pitch_yaw.html#a1262ed8916898b9008e4a8b308b5b9a7":[4,0,0,4,8,16],
 "classmaliput_1_1math_1_1_roll_pitch_yaw.html#a191372552c6fb4cacf0da086efc355fc":[4,0,0,4,8,17],
 "classmaliput_1_1math_1_1_roll_pitch_yaw.html#a1d10bddaae69f7af13fa0ae2c5b5c39e":[4,0,0,4,8,11],
-"classmaliput_1_1math_1_1_roll_pitch_yaw.html#a289596a58d43cdd108597db928059c49":[4,0,0,4,8,5],
-"classmaliput_1_1math_1_1_roll_pitch_yaw.html#a36d0bcef773a9624be984833113fba1e":[4,0,0,4,8,15],
-"classmaliput_1_1math_1_1_roll_pitch_yaw.html#a409f0fc00f5231042c95ccf5fe8fda5f":[4,0,0,4,8,18],
-"classmaliput_1_1math_1_1_roll_pitch_yaw.html#a611c3fcee885450a48688d9360bc6a9c":[4,0,0,4,8,14]
+"classmaliput_1_1math_1_1_roll_pitch_yaw.html#a289596a58d43cdd108597db928059c49":[4,0,0,4,8,5]
 };

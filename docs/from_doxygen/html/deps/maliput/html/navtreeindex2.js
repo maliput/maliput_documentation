@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"classmaliput_1_1api_1_1_rotation.html#ab8005e2012f7f1b5b2c80051c480586d":[4,0,0,0,27,7],
 "classmaliput_1_1api_1_1_rotation.html#acfbb13e21de7c5bd423ceac06bd6e062":[4,0,0,0,27,4],
 "classmaliput_1_1api_1_1_rotation.html#aed87239ee2b94ce4e939bf7c26f6c2fc":[4,0,0,0,27,10],
 "classmaliput_1_1api_1_1_s_range.html":[4,0,0,0,29],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "classmaliput_1_1common_1_1_filesystem.html#ac0213601509aab33fa95ee039e8cabb6":[4,0,0,1,5,6],
 "classmaliput_1_1common_1_1_filesystem.html#adf932e8a40a553d8185e04e175bb0f19":[4,0,0,1,5,1],
 "classmaliput_1_1common_1_1_filesystem.html#ae53e10c5fba5b5480f82b37fd315fcd3":[4,0,0,1,5,2],
-"classmaliput_1_1common_1_1_logger.html":[4,0,0,1,6],
-"classmaliput_1_1common_1_1_logger.html#a3f89d574d0d51e9df0f5b437e0c122fc":[4,0,0,1,6,11]
+"classmaliput_1_1common_1_1_logger.html":[4,0,0,1,6]
 };

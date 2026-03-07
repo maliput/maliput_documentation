@@ -142,6 +142,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aab94cb47c604ce24df64a948d43b4b1d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structmaliput_1_1api_1_1_road_position_result.html">RoadPositionResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#aab94cb47c604ce24df64a948d43b4b1d">FindRoadPositions</a> (const <a class="el" href="classmaliput_1_1api_1_1_inertial_position.html">InertialPosition</a> &amp;inertial_position, <a class="el" href="classdouble.html">double</a> radius) const</td></tr>
 <tr class="memdesc:aab94cb47c604ce24df64a948d43b4b1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtains all RoadPositions within <code>radius</code> of <code>inertial_position</code>.  <a href="classmaliput_1_1api_1_1_road_geometry.html#aab94cb47c604ce24df64a948d43b4b1d">More...</a><br /></td></tr>
 <tr class="separator:aab94cb47c604ce24df64a948d43b4b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebee5dff8225e6dbbd83ab44fc67075e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structmaliput_1_1api_1_1_road_position_result.html">RoadPositionResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#aebee5dff8225e6dbbd83ab44fc67075e">FindSurfaceRoadPositionsAtXY</a> (<a class="el" href="classdouble.html">double</a> x, <a class="el" href="classdouble.html">double</a> y, <a class="el" href="classdouble.html">double</a> radius) const</td></tr>
+<tr class="memdesc:aebee5dff8225e6dbbd83ab44fc67075e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds all RoadPositions within a 2D radius of the given (x, y) inertial coordinates.  <a href="classmaliput_1_1api_1_1_road_geometry.html#aebee5dff8225e6dbbd83ab44fc67075e">More...</a><br /></td></tr>
+<tr class="separator:aebee5dff8225e6dbbd83ab44fc67075e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96017eb2ac92f272cfa348b8d55f6190"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdouble.html">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#a96017eb2ac92f272cfa348b8d55f6190">linear_tolerance</a> () const</td></tr>
 <tr class="memdesc:a96017eb2ac92f272cfa348b8d55f6190"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the tolerance guaranteed for linear measurements (positions).  <a href="classmaliput_1_1api_1_1_road_geometry.html#a96017eb2ac92f272cfa348b8d55f6190">More...</a><br /></td></tr>
 <tr class="separator:a96017eb2ac92f272cfa348b8d55f6190"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -383,6 +386,64 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 <p>Note that derivative implementations may choose to violate the above semantics for performance reasons. See docstrings of derivative implementations for details. </p>
+
+</div>
+</div>
+<a id="aebee5dff8225e6dbbd83ab44fc67075e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebee5dff8225e6dbbd83ab44fc67075e">&#9670;&nbsp;</a></span>FindSurfaceRoadPositionsAtXY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="structmaliput_1_1api_1_1_road_position_result.html">RoadPositionResult</a> &gt; FindSurfaceRoadPositionsAtXY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classdouble.html">double</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdouble.html">double</a>&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdouble.html">double</a>&#160;</td>
+          <td class="paramname"><em>radius</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Finds all RoadPositions within a 2D radius of the given (x, y) inertial coordinates. </p>
+<p>Unlike <a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#aab94cb47c604ce24df64a948d43b4b1d" title="Obtains all RoadPositions within radius of inertial_position.">FindRoadPositions()</a>, this method uses only the X and Y components for distance filtering (2D planar distance). The Z coordinate of the returned nearest positions is computed from the road surface (i.e., the point on the road at h=0).</p>
+<p>This is useful for mapping 2D trajectories onto the road network, where the caller has (x, y) coordinates but not the elevation.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>The x-coordinate in the Inertial frame. </td></tr>
+    <tr><td class="paramname">y</td><td>The y-coordinate in the Inertial frame. </td></tr>
+    <tr><td class="paramname">radius</td><td>The 2D search radius (in meters). Only results within this planar distance are returned. It must not be negative. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A vector of <a class="el" href="structmaliput_1_1api_1_1_road_position_result.html" title="Included in the return result of RoadGeometry::FindRoadPositions() and RoadGeometry::ToRoadPosition()...">RoadPositionResult</a> where:<ul>
+<li><code>road_position.pos.h()</code> is 0 (on the road surface).</li>
+<li><code>nearest_position</code> contains the full 3D inertial position on the road surface.</li>
+<li><code>distance</code> is the 2D planar distance between (x, y) and the nearest point. Results are sorted by ascending distance (nearest first).</li>
+</ul>
+</dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>radius</code> is negative. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

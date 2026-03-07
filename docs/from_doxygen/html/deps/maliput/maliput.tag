@@ -32039,6 +32039,13 @@
       <anchor>a3180977d75affb100512dc8177009a4f</anchor>
       <arglist>() override=default</arglist>
     </member>
+    <member kind="function" protection="protected">
+      <type>const StrategyBase *</type>
+      <name>strategy</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_road_geometry.html</anchorfile>
+      <anchor>a5a7cb8cbbbe81d1c7512d1e527be5c8c</anchor>
+      <arglist>() const</arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>maliput::api::RoadGeometry</name>
@@ -32106,6 +32113,13 @@
       <anchorfile>classmaliput_1_1api_1_1_road_geometry.html</anchorfile>
       <anchor>aab94cb47c604ce24df64a948d43b4b1d</anchor>
       <arglist>(const InertialPosition &amp;inertial_position, double radius) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; RoadPositionResult &gt;</type>
+      <name>FindSurfaceRoadPositionsAtXY</name>
+      <anchorfile>classmaliput_1_1api_1_1_road_geometry.html</anchorfile>
+      <anchor>aebee5dff8225e6dbbd83ab44fc67075e</anchor>
+      <arglist>(double x, double y, double radius) const</arglist>
     </member>
     <member kind="function">
       <type>double</type>
@@ -34596,6 +34610,13 @@
       <anchorfile>classmaliput_1_1geometry__base_1_1_strategy_base.html</anchorfile>
       <anchor>ab6ecc137c5f4408c613adb1f3246a854</anchor>
       <arglist>(const api::InertialPosition &amp;inertial_position, double radius) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unordered_set&lt; const api::Lane * &gt;</type>
+      <name>FindCandidateLanesXY</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_strategy_base.html</anchorfile>
+      <anchor>af6d284b4ca43008dc30d548ffbb11ecd</anchor>
+      <arglist>(double x, double y, double radius) const</arglist>
     </member>
     <member kind="function" protection="protected">
       <type></type>

@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('classmaliput_1_1geometry__base_1_1_roa
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classmaliput_1_1geometry__base_1_1_road_geometry-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">RoadGeometry Class Reference</div>  </div>
@@ -169,6 +170,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aab94cb47c604ce24df64a948d43b4b1d inherit pub_methods_classmaliput_1_1api_1_1_road_geometry"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structmaliput_1_1api_1_1_road_position_result.html">RoadPositionResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#aab94cb47c604ce24df64a948d43b4b1d">FindRoadPositions</a> (const <a class="el" href="classmaliput_1_1api_1_1_inertial_position.html">InertialPosition</a> &amp;inertial_position, <a class="el" href="classdouble.html">double</a> radius) const</td></tr>
 <tr class="memdesc:aab94cb47c604ce24df64a948d43b4b1d inherit pub_methods_classmaliput_1_1api_1_1_road_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtains all RoadPositions within <code>radius</code> of <code>inertial_position</code>.  <a href="classmaliput_1_1api_1_1_road_geometry.html#aab94cb47c604ce24df64a948d43b4b1d">More...</a><br /></td></tr>
 <tr class="separator:aab94cb47c604ce24df64a948d43b4b1d inherit pub_methods_classmaliput_1_1api_1_1_road_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebee5dff8225e6dbbd83ab44fc67075e inherit pub_methods_classmaliput_1_1api_1_1_road_geometry"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structmaliput_1_1api_1_1_road_position_result.html">RoadPositionResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#aebee5dff8225e6dbbd83ab44fc67075e">FindSurfaceRoadPositionsAtXY</a> (<a class="el" href="classdouble.html">double</a> x, <a class="el" href="classdouble.html">double</a> y, <a class="el" href="classdouble.html">double</a> radius) const</td></tr>
+<tr class="memdesc:aebee5dff8225e6dbbd83ab44fc67075e inherit pub_methods_classmaliput_1_1api_1_1_road_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds all RoadPositions within a 2D radius of the given (x, y) inertial coordinates.  <a href="classmaliput_1_1api_1_1_road_geometry.html#aebee5dff8225e6dbbd83ab44fc67075e">More...</a><br /></td></tr>
+<tr class="separator:aebee5dff8225e6dbbd83ab44fc67075e inherit pub_methods_classmaliput_1_1api_1_1_road_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96017eb2ac92f272cfa348b8d55f6190 inherit pub_methods_classmaliput_1_1api_1_1_road_geometry"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdouble.html">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#a96017eb2ac92f272cfa348b8d55f6190">linear_tolerance</a> () const</td></tr>
 <tr class="memdesc:a96017eb2ac92f272cfa348b8d55f6190 inherit pub_methods_classmaliput_1_1api_1_1_road_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the tolerance guaranteed for linear measurements (positions).  <a href="classmaliput_1_1api_1_1_road_geometry.html#a96017eb2ac92f272cfa348b8d55f6190">More...</a><br /></td></tr>
 <tr class="separator:a96017eb2ac92f272cfa348b8d55f6190 inherit pub_methods_classmaliput_1_1api_1_1_road_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,8 +198,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab357b81c40528d9ef6fee23876975611 inherit pub_methods_classmaliput_1_1api_1_1_road_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the Geo Reference info of this <a class="el" href="classmaliput_1_1api_1_1_road_geometry.html" title="Abstract API for the geometry of a road network, including both the network topology and the geometry...">RoadGeometry</a>.  <a href="classmaliput_1_1api_1_1_road_geometry.html#ab357b81c40528d9ef6fee23876975611">More...</a><br /></td></tr>
 <tr class="separator:ab357b81c40528d9ef6fee23876975611 inherit pub_methods_classmaliput_1_1api_1_1_road_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a5a7cb8cbbbe81d1c7512d1e527be5c8c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmaliput_1_1geometry__base_1_1_strategy_base.html">StrategyBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1geometry__base_1_1_road_geometry.html#a5a7cb8cbbbe81d1c7512d1e527be5c8c">strategy</a> () const</td></tr>
+<tr class="memdesc:a5a7cb8cbbbe81d1c7512d1e527be5c8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the active strategy.  <a href="classmaliput_1_1geometry__base_1_1_road_geometry.html#a5a7cb8cbbbe81d1c7512d1e527be5c8c">More...</a><br /></td></tr>
+<tr class="separator:a5a7cb8cbbbe81d1c7512d1e527be5c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classmaliput_1_1api_1_1_road_geometry"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classmaliput_1_1api_1_1_road_geometry')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classmaliput_1_1api_1_1_road_geometry.html">RoadGeometry</a></td></tr>
 <tr class="memitem:a78af9b4d6ccb429d4d75ebd22b3e6493 inherit pro_methods_classmaliput_1_1api_1_1_road_geometry"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_road_geometry.html#a78af9b4d6ccb429d4d75ebd22b3e6493">RoadGeometry</a> ()=default</td></tr>
 <tr class="separator:a78af9b4d6ccb429d4d75ebd22b3e6493 inherit pro_methods_classmaliput_1_1api_1_1_road_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -394,6 +401,35 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5a7cb8cbbbe81d1c7512d1e527be5c8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a7cb8cbbbe81d1c7512d1e527be5c8c">&#9670;&nbsp;</a></span>strategy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classmaliput_1_1geometry__base_1_1_strategy_base.html">StrategyBase</a>* strategy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the active strategy. </p>
+<p>Subclasses can use this to access strategy capabilities (e.g., FindCandidateLanesXY) for implementing backend-specific overrides of DoFindSurfaceRoadPositionsAtXY and similar methods.</p>
+<dl class="section pre"><dt>Precondition</dt><dd>strategy_ must be initialized (via InitializeStrategy). </dd></dl>
 
 </div>
 </div>
