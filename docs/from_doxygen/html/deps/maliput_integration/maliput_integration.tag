@@ -153,6 +153,13 @@
     </member>
     <member kind="function">
       <type></type>
+      <name>MALIPUT_GEOPACKAGE_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__derive__lane__s__routes_8cc.html</anchorfile>
+      <anchor>aad6d869715430fae03bc1589ec6920be</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
       <name>MALIPUT_APPLICATION_DEFINE_LOG_LEVEL_FLAG</name>
       <anchorfile>maliput__derive__lane__s__routes_8cc.html</anchorfile>
       <anchor>a279f8265bbb629f711000ea1f804572d</anchor>
@@ -162,8 +169,8 @@
       <type></type>
       <name>DEFINE_string</name>
       <anchorfile>maliput__derive__lane__s__routes_8cc.html</anchorfile>
-      <anchor>a949c8bd574e134aee1fbf51ddb0d2c3c</anchor>
-      <arglist>(maliput_backend, &quot;malidrive&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt; or &lt;malidrive&gt;. Default is malidrive.&quot;)</arglist>
+      <anchor>a06cd59bdfc61b7b767474d76b8096b94</anchor>
+      <arglist>(maliput_backend, &quot;malidrive&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt;, &lt;malidrive&gt;, &lt;osm&gt; or &lt;geopackage&gt;. Default is malidrive.&quot;)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -255,6 +262,13 @@
     </member>
     <member kind="function">
       <type></type>
+      <name>MALIPUT_GEOPACKAGE_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__dynamic__environment_8cc.html</anchorfile>
+      <anchor>aad6d869715430fae03bc1589ec6920be</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
       <name>MALIPUT_APPLICATION_DEFINE_LOG_LEVEL_FLAG</name>
       <anchorfile>maliput__dynamic__environment_8cc.html</anchorfile>
       <anchor>a279f8265bbb629f711000ea1f804572d</anchor>
@@ -264,8 +278,8 @@
       <type></type>
       <name>DEFINE_string</name>
       <anchorfile>maliput__dynamic__environment_8cc.html</anchorfile>
-      <anchor>a12c4da482a1210b45fa1930e8759dc80</anchor>
-      <arglist>(maliput_backend, &quot;malidrive&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt; or &lt;malidrive&gt;. Default is dragway.&quot;)</arglist>
+      <anchor>aa2435f2066d472f32845dd7d050bed4f</anchor>
+      <arglist>(maliput_backend, &quot;malidrive&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt;, &lt;malidrive&gt;, &lt;osm&gt; or &lt;geopackage&gt;. Default is dragway.&quot;)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -340,6 +354,13 @@
       <anchor>a70506b50a0f49c875796c21a95f8ec73</anchor>
       <arglist>()</arglist>
     </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>MALIPUT_GEOPACKAGE_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__gflags_8h.html</anchorfile>
+      <anchor>a648930bc503faed1c81e7cccb032340f</anchor>
+      <arglist>()</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>maliput_measure_load_time.cc</name>
@@ -407,6 +428,13 @@
     </member>
     <member kind="function">
       <type></type>
+      <name>MALIPUT_GEOPACKAGE_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__query_8cc.html</anchorfile>
+      <anchor>aad6d869715430fae03bc1589ec6920be</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
       <name>MALIPUT_APPLICATION_DEFINE_LOG_LEVEL_FLAG</name>
       <anchorfile>maliput__query_8cc.html</anchorfile>
       <anchor>a279f8265bbb629f711000ea1f804572d</anchor>
@@ -416,8 +444,8 @@
       <type></type>
       <name>DEFINE_string</name>
       <anchorfile>maliput__query_8cc.html</anchorfile>
-      <anchor>a07dfdab8d1954bad6b99e25e1c7ac62f</anchor>
-      <arglist>(maliput_backend, &quot;malidrive&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt; or &lt;malidrive&gt; maliput backend.&quot;)</arglist>
+      <anchor>a97127cd5f9734bd235869d790178b712</anchor>
+      <arglist>(maliput_backend, &quot;malidrive&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt;, &lt;malidrive&gt;, &lt;osm&gt; or &lt;geopackage&gt; maliput backend.&quot;)</arglist>
     </member>
     <member kind="function">
       <type>int</type>
@@ -505,6 +533,13 @@
     </member>
     <member kind="function">
       <type></type>
+      <name>MALIPUT_GEOPACKAGE_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__to__dot_8cc.html</anchorfile>
+      <anchor>aad6d869715430fae03bc1589ec6920be</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
       <name>MALIPUT_APPLICATION_DEFINE_LOG_LEVEL_FLAG</name>
       <anchorfile>maliput__to__dot_8cc.html</anchorfile>
       <anchor>a279f8265bbb629f711000ea1f804572d</anchor>
@@ -514,8 +549,8 @@
       <type></type>
       <name>DEFINE_string</name>
       <anchorfile>maliput__to__dot_8cc.html</anchorfile>
-      <anchor>a01a104ee863078ef2ce2837bae17e575</anchor>
-      <arglist>(maliput_backend, &quot;dragway&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt; or &lt;malidrive&gt;. Default is dragway.&quot;)</arglist>
+      <anchor>a72ba2f3617199a3ebe92d1c0e6aafd8b</anchor>
+      <arglist>(maliput_backend, &quot;dragway&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt;, &lt;malidrive&gt;, &lt;osm&gt; or &lt;geopackage&gt;. Default is dragway.&quot;)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -584,6 +619,13 @@
     </member>
     <member kind="function">
       <type></type>
+      <name>MALIPUT_GEOPACKAGE_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__to__obj_8cc.html</anchorfile>
+      <anchor>aad6d869715430fae03bc1589ec6920be</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
       <name>MALIPUT_APPLICATION_DEFINE_LOG_LEVEL_FLAG</name>
       <anchorfile>maliput__to__obj_8cc.html</anchorfile>
       <anchor>a279f8265bbb629f711000ea1f804572d</anchor>
@@ -593,8 +635,8 @@
       <type></type>
       <name>DEFINE_string</name>
       <anchorfile>maliput__to__obj_8cc.html</anchorfile>
-      <anchor>a01a104ee863078ef2ce2837bae17e575</anchor>
-      <arglist>(maliput_backend, &quot;dragway&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt; or &lt;malidrive&gt;. Default is dragway.&quot;)</arglist>
+      <anchor>a72ba2f3617199a3ebe92d1c0e6aafd8b</anchor>
+      <arglist>(maliput_backend, &quot;dragway&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt;, &lt;malidrive&gt;, &lt;osm&gt; or &lt;geopackage&gt;. Default is dragway.&quot;)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -745,6 +787,13 @@
     </member>
     <member kind="function">
       <type></type>
+      <name>MALIPUT_GEOPACKAGE_PROPERTIES_FLAGS</name>
+      <anchorfile>maliput__to__string_8cc.html</anchorfile>
+      <anchor>aad6d869715430fae03bc1589ec6920be</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
       <name>MALIPUT_APPLICATION_DEFINE_LOG_LEVEL_FLAG</name>
       <anchorfile>maliput__to__string_8cc.html</anchorfile>
       <anchor>a279f8265bbb629f711000ea1f804572d</anchor>
@@ -754,8 +803,8 @@
       <type></type>
       <name>DEFINE_string</name>
       <anchorfile>maliput__to__string_8cc.html</anchorfile>
-      <anchor>a949c8bd574e134aee1fbf51ddb0d2c3c</anchor>
-      <arglist>(maliput_backend, &quot;malidrive&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt; or &lt;malidrive&gt;. Default is malidrive.&quot;)</arglist>
+      <anchor>a06cd59bdfc61b7b767474d76b8096b94</anchor>
+      <arglist>(maliput_backend, &quot;malidrive&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt;, &lt;malidrive&gt;, &lt;osm&gt; or &lt;geopackage&gt;. Default is malidrive.&quot;)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -1026,10 +1075,17 @@
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
+      <name>CreateMaliputGeopackageRoadNetwork</name>
+      <anchorfile>namespacemaliput_1_1integration.html</anchorfile>
+      <anchor>a645360eedc8b33ac6122611293a5abdb</anchor>
+      <arglist>(const MaliputGeopackageBuildProperties &amp;build_properties)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
       <name>LoadRoadNetwork</name>
       <anchorfile>namespacemaliput_1_1integration.html</anchorfile>
-      <anchor>abe2dff71ac0209b8e26efde14803b117</anchor>
-      <arglist>(MaliputImplementation maliput_implementation, const DragwayBuildProperties &amp;dragway_build_properties, const MultilaneBuildProperties &amp;multilane_build_properties, const MalidriveBuildProperties &amp;malidrive_build_properties, const MaliputOsmBuildProperties &amp;maliput_osm_build_properties)</arglist>
+      <anchor>ab7c8639b9ae70c3c93568db872101431</anchor>
+      <arglist>(MaliputImplementation maliput_implementation, const DragwayBuildProperties &amp;dragway_build_properties, const MultilaneBuildProperties &amp;multilane_build_properties, const MalidriveBuildProperties &amp;malidrive_build_properties, const MaliputOsmBuildProperties &amp;maliput_osm_build_properties, const MaliputGeopackageBuildProperties &amp;maliput_geopackage_build_properties)</arglist>
     </member>
     <member kind="function">
       <type>std::string</type>
@@ -1047,6 +1103,7 @@
     <class kind="struct">maliput::integration::MultilaneBuildProperties</class>
     <class kind="struct">maliput::integration::MalidriveBuildProperties</class>
     <class kind="struct">maliput::integration::MaliputOsmBuildProperties</class>
+    <class kind="struct">maliput::integration::MaliputGeopackageBuildProperties</class>
     <namespace>maliput</namespace>
     <namespace>maliput::integration</namespace>
     <member kind="enumeration">
@@ -1059,6 +1116,7 @@
       <enumvalue file="namespacemaliput_1_1integration.html" anchor="a78ee0565a11069e8c15b544bb43dd841a93a6717df2fc5fb5a3fd2f5ff99ab8de">kDragway</enumvalue>
       <enumvalue file="namespacemaliput_1_1integration.html" anchor="a78ee0565a11069e8c15b544bb43dd841af07fc794fa3b63102404f98850c55570">kMultilane</enumvalue>
       <enumvalue file="namespacemaliput_1_1integration.html" anchor="a78ee0565a11069e8c15b544bb43dd841a2bf92d22da9e8a764d4b99174bd4a53a">kOsm</enumvalue>
+      <enumvalue file="namespacemaliput_1_1integration.html" anchor="a78ee0565a11069e8c15b544bb43dd841a591aea841adbef1fbf29275ca57fd8c6">kGeopackage</enumvalue>
     </member>
     <member kind="function">
       <type>std::string</type>
@@ -1104,10 +1162,17 @@
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
+      <name>CreateMaliputGeopackageRoadNetwork</name>
+      <anchorfile>namespacemaliput_1_1integration.html</anchorfile>
+      <anchor>a645360eedc8b33ac6122611293a5abdb</anchor>
+      <arglist>(const MaliputGeopackageBuildProperties &amp;build_properties)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
       <name>LoadRoadNetwork</name>
       <anchorfile>namespacemaliput_1_1integration.html</anchorfile>
-      <anchor>abe2dff71ac0209b8e26efde14803b117</anchor>
-      <arglist>(MaliputImplementation maliput_implementation, const DragwayBuildProperties &amp;dragway_build_properties, const MultilaneBuildProperties &amp;multilane_build_properties, const MalidriveBuildProperties &amp;malidrive_build_properties, const MaliputOsmBuildProperties &amp;maliput_osm_build_properties)</arglist>
+      <anchor>ab7c8639b9ae70c3c93568db872101431</anchor>
+      <arglist>(MaliputImplementation maliput_implementation, const DragwayBuildProperties &amp;dragway_build_properties, const MultilaneBuildProperties &amp;multilane_build_properties, const MalidriveBuildProperties &amp;malidrive_build_properties, const MaliputOsmBuildProperties &amp;maliput_osm_build_properties, const MaliputGeopackageBuildProperties &amp;maliput_geopackage_build_properties)</arglist>
     </member>
     <member kind="function">
       <type>std::string</type>
@@ -1376,6 +1441,66 @@
     </member>
   </compound>
   <compound kind="struct">
+    <name>maliput::integration::MaliputGeopackageBuildProperties</name>
+    <filename>structmaliput_1_1integration_1_1_maliput_geopackage_build_properties.html</filename>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>gpkg_file</name>
+      <anchorfile>structmaliput_1_1integration_1_1_maliput_geopackage_build_properties.html</anchorfile>
+      <anchor>a9c68bd7c891e7a9309894a3a7b76dbe1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>linear_tolerance</name>
+      <anchorfile>structmaliput_1_1integration_1_1_maliput_geopackage_build_properties.html</anchorfile>
+      <anchor>a6a6b7ad51a19a2fcf7e454c1d7892300</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>angular_tolerance</name>
+      <anchorfile>structmaliput_1_1integration_1_1_maliput_geopackage_build_properties.html</anchorfile>
+      <anchor>a81d132d0efbdf9cb0535607abd868c07</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>rule_registry_file</name>
+      <anchorfile>structmaliput_1_1integration_1_1_maliput_geopackage_build_properties.html</anchorfile>
+      <anchor>a1fa543054f365f30fdabafcdf631a6d4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>road_rule_book_file</name>
+      <anchorfile>structmaliput_1_1integration_1_1_maliput_geopackage_build_properties.html</anchorfile>
+      <anchor>a5cb73e690547d614a13aa9e4fd7e3937</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>traffic_light_book_file</name>
+      <anchorfile>structmaliput_1_1integration_1_1_maliput_geopackage_build_properties.html</anchorfile>
+      <anchor>a9d6794d569d56eccfebb3a8b07ea67de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>phase_ring_book_file</name>
+      <anchorfile>structmaliput_1_1integration_1_1_maliput_geopackage_build_properties.html</anchorfile>
+      <anchor>ad105672ddb983c1bbfc3b6a1f4bf81bf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>intersection_book_file</name>
+      <anchorfile>structmaliput_1_1integration_1_1_maliput_geopackage_build_properties.html</anchorfile>
+      <anchor>aba56e5052165aed5fce1c53ffc9ebdd9</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
     <name>maliput::integration::MaliputOsmBuildProperties</name>
     <filename>structmaliput_1_1integration_1_1_maliput_osm_build_properties.html</filename>
     <member kind="variable">
@@ -1498,6 +1623,7 @@
     <class kind="class">maliput::integration::DynamicEnvironmentHandler</class>
     <class kind="class">maliput::integration::FixedPhaseIterationHandler</class>
     <class kind="struct">maliput::integration::MalidriveBuildProperties</class>
+    <class kind="struct">maliput::integration::MaliputGeopackageBuildProperties</class>
     <class kind="struct">maliput::integration::MaliputOsmBuildProperties</class>
     <class kind="struct">maliput::integration::MultilaneBuildProperties</class>
     <class kind="class">maliput::integration::Timer</class>
@@ -1527,6 +1653,7 @@
       <enumvalue file="namespacemaliput_1_1integration.html" anchor="a78ee0565a11069e8c15b544bb43dd841a93a6717df2fc5fb5a3fd2f5ff99ab8de">kDragway</enumvalue>
       <enumvalue file="namespacemaliput_1_1integration.html" anchor="a78ee0565a11069e8c15b544bb43dd841af07fc794fa3b63102404f98850c55570">kMultilane</enumvalue>
       <enumvalue file="namespacemaliput_1_1integration.html" anchor="a78ee0565a11069e8c15b544bb43dd841a2bf92d22da9e8a764d4b99174bd4a53a">kOsm</enumvalue>
+      <enumvalue file="namespacemaliput_1_1integration.html" anchor="a78ee0565a11069e8c15b544bb43dd841a591aea841adbef1fbf29275ca57fd8c6">kGeopackage</enumvalue>
     </member>
     <member kind="function">
       <type>std::string</type>
@@ -1593,10 +1720,17 @@
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
+      <name>CreateMaliputGeopackageRoadNetwork</name>
+      <anchorfile>namespacemaliput_1_1integration.html</anchorfile>
+      <anchor>a645360eedc8b33ac6122611293a5abdb</anchor>
+      <arglist>(const MaliputGeopackageBuildProperties &amp;build_properties)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; api::RoadNetwork &gt;</type>
       <name>LoadRoadNetwork</name>
       <anchorfile>namespacemaliput_1_1integration.html</anchorfile>
-      <anchor>abe2dff71ac0209b8e26efde14803b117</anchor>
-      <arglist>(MaliputImplementation maliput_implementation, const DragwayBuildProperties &amp;dragway_build_properties, const MultilaneBuildProperties &amp;multilane_build_properties, const MalidriveBuildProperties &amp;malidrive_build_properties, const MaliputOsmBuildProperties &amp;maliput_osm_build_properties)</arglist>
+      <anchor>ab7c8639b9ae70c3c93568db872101431</anchor>
+      <arglist>(MaliputImplementation maliput_implementation, const DragwayBuildProperties &amp;dragway_build_properties, const MultilaneBuildProperties &amp;multilane_build_properties, const MalidriveBuildProperties &amp;malidrive_build_properties, const MaliputOsmBuildProperties &amp;maliput_osm_build_properties, const MaliputGeopackageBuildProperties &amp;maliput_geopackage_build_properties)</arglist>
     </member>
     <member kind="function">
       <type>std::string</type>

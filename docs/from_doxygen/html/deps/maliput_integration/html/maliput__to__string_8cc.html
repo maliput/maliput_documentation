@@ -142,10 +142,12 @@ Functions</h2></td></tr>
 <tr class="separator:abbeda97de754ea81e05b3d0e463a83f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6b9499f0a9ff27db4d8008c8dd16be2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__to__string_8cc.html#ac6b9499f0a9ff27db4d8008c8dd16be2">MALIPUT_OSM_PROPERTIES_FLAGS</a> ()</td></tr>
 <tr class="separator:ac6b9499f0a9ff27db4d8008c8dd16be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad6d869715430fae03bc1589ec6920be"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__to__string_8cc.html#aad6d869715430fae03bc1589ec6920be">MALIPUT_GEOPACKAGE_PROPERTIES_FLAGS</a> ()</td></tr>
+<tr class="separator:aad6d869715430fae03bc1589ec6920be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a279f8265bbb629f711000ea1f804572d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__to__string_8cc.html#a279f8265bbb629f711000ea1f804572d">MALIPUT_APPLICATION_DEFINE_LOG_LEVEL_FLAG</a> ()</td></tr>
 <tr class="separator:a279f8265bbb629f711000ea1f804572d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a949c8bd574e134aee1fbf51ddb0d2c3c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__to__string_8cc.html#a949c8bd574e134aee1fbf51ddb0d2c3c">DEFINE_string</a> (maliput_backend, &quot;malidrive&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt; or &lt;malidrive&gt;. Default is malidrive.&quot;)</td></tr>
-<tr class="separator:a949c8bd574e134aee1fbf51ddb0d2c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06cd59bdfc61b7b767474d76b8096b94"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__to__string_8cc.html#a06cd59bdfc61b7b767474d76b8096b94">DEFINE_string</a> (maliput_backend, &quot;malidrive&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt;, &lt;malidrive&gt;, &lt;osm&gt; or &lt;geopackage&gt;. Default is malidrive.&quot;)</td></tr>
+<tr class="separator:a06cd59bdfc61b7b767474d76b8096b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae26e69f0bc5fda879699ae6fd470c90c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__to__string_8cc.html#ae26e69f0bc5fda879699ae6fd470c90c">DEFINE_bool</a> (check_invariants, false, &quot;Whether to enable maliput invariants verification.&quot;)</td></tr>
 <tr class="separator:ae26e69f0bc5fda879699ae6fd470c90c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88fb7a6f884a9f3c5dd0364caa130c82"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__to__string_8cc.html#a88fb7a6f884a9f3c5dd0364caa130c82">DEFINE_bool</a> (include_type_labels, false, &quot;Whether to include <a class="elRef" href="../../maliput_multilane/html/loader_8cc.html#adb5798caab72849ba8da861ddc3acccd">type</a> labels in the output string&quot;)</td></tr>
@@ -419,8 +421,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a949c8bd574e134aee1fbf51ddb0d2c3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a949c8bd574e134aee1fbf51ddb0d2c3c">&#9670;&nbsp;</a></span>DEFINE_string()</h2>
+<a id="a06cd59bdfc61b7b767474d76b8096b94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06cd59bdfc61b7b767474d76b8096b94">&#9670;&nbsp;</a></span>DEFINE_string()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -446,7 +448,19 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">&lt; multilane &gt; or&lt; malidrive &gt;. Default is malidrive.&quot;&#160;</td>
+          <td class="paramtype">&lt; multilane &gt;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&lt; malidrive &gt;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&lt; osm &gt; or&lt; geopackage &gt;. Default is malidrive.&quot;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -529,6 +543,23 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">MALIPUT_APPLICATION_DEFINE_LOG_LEVEL_FLAG </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aad6d869715430fae03bc1589ec6920be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad6d869715430fae03bc1589ec6920be">&#9670;&nbsp;</a></span>MALIPUT_GEOPACKAGE_PROPERTIES_FLAGS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MALIPUT_GEOPACKAGE_PROPERTIES_FLAGS </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>

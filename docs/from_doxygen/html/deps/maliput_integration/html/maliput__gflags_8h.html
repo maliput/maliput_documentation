@@ -124,6 +124,8 @@ Macros</h2></td></tr>
 <tr class="separator:ae025976c22eedc7b1678999a39fa5dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70506b50a0f49c875796c21a95f8ec73"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__gflags_8h.html#a70506b50a0f49c875796c21a95f8ec73">MALIPUT_OSM_PROPERTIES_FLAGS</a>()</td></tr>
 <tr class="separator:a70506b50a0f49c875796c21a95f8ec73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a648930bc503faed1c81e7cccb032340f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maliput__gflags_8h.html#a648930bc503faed1c81e7cccb032340f">MALIPUT_GEOPACKAGE_PROPERTIES_FLAGS</a>()&#160;&#160;&#160;<a class="el" href="maliput__to__string__with__plugin_8cc.html#ad399aae1ce01b010e46a9c0244305898">DEFINE_string</a>(gpkg_file, &quot;&quot;, &quot;GeoPackage <a class="elRef" href="../../maliput/html/namespacemaliput_1_1common_1_1internal.html#a88cdae8c33f1a7c9d1032870876961e2">file</a> path.&quot;);</td></tr>
+<tr class="separator:a648930bc503faed1c81e7cccb032340f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a9166f7a1ceb9b8ed6d20360c382b8ec1"></a>
@@ -186,7 +188,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  <a class="code" href="maliput__derive__lane__s__routes_8cc.html#a949c8bd574e134aee1fbf51ddb0d2c3c">DEFINE_string</a>(xodr_file_path, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;XODR file path.&quot;</span>);                                                                \</div>
+<b>Value:</b><div class="fragment"><div class="line">  <a class="code" href="maliput__derive__lane__s__routes_8cc.html#a06cd59bdfc61b7b767474d76b8096b94">DEFINE_string</a>(xodr_file_path, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;XODR file path.&quot;</span>);                                                                \</div>
 <div class="line">  DEFINE_double(max_linear_tolerance, -1., <span class="stringliteral">&quot;Maximum linear tolerance used to load the map.&quot;</span>);                          \</div>
 <div class="line">  DEFINE_string(build_policy, <span class="stringliteral">&quot;sequential&quot;</span>, <span class="stringliteral">&quot;Build policy, it could be `sequential` or `parallel`.&quot;</span>);                  \</div>
 <div class="line">  DEFINE_int32(num_threads, 0, <span class="stringliteral">&quot;Number of threads to create the Road Geometry.&quot;</span>);                                      \</div>
@@ -232,7 +234,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  <a class="code" href="maliput__derive__lane__s__routes_8cc.html#a949c8bd574e134aee1fbf51ddb0d2c3c">DEFINE_string</a>(log_level, <span class="stringliteral">&quot;unchanged&quot;</span>,                               \</div>
+<b>Value:</b><div class="fragment"><div class="line">  <a class="code" href="maliput__derive__lane__s__routes_8cc.html#a06cd59bdfc61b7b767474d76b8096b94">DEFINE_string</a>(log_level, <span class="stringliteral">&quot;unchanged&quot;</span>,                               \</div>
 <div class="line">                <span class="stringliteral">&quot;Sets the log output threshold; possible values are &quot;</span> \</div>
 <div class="line">                <span class="stringliteral">&quot;&#39;unchanged&#39;, &quot;</span>                                       \</div>
 <div class="line">                <span class="stringliteral">&quot;&#39;trace&#39;, &quot;</span>                                           \</div>
@@ -244,6 +246,23 @@ Macros</h2></td></tr>
 <div class="line">                <span class="stringliteral">&quot;&#39;off&#39;.&quot;</span>)</div>
 </div><!-- fragment -->
 <p>Declares FLAGS_log_level flag with all possible log level values. </p>
+
+</div>
+</div>
+<a id="a648930bc503faed1c81e7cccb032340f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a648930bc503faed1c81e7cccb032340f">&#9670;&nbsp;</a></span>MALIPUT_GEOPACKAGE_PROPERTIES_FLAGS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MALIPUT_GEOPACKAGE_PROPERTIES_FLAGS</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="maliput__to__string__with__plugin_8cc.html#ad399aae1ce01b010e46a9c0244305898">DEFINE_string</a>(gpkg_file, &quot;&quot;, &quot;GeoPackage <a class="elRef" href="../../maliput/html/namespacemaliput_1_1common_1_1internal.html#a88cdae8c33f1a7c9d1032870876961e2">file</a> path.&quot;);</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -261,7 +280,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  <a class="code" href="maliput__derive__lane__s__routes_8cc.html#a949c8bd574e134aee1fbf51ddb0d2c3c">DEFINE_string</a>(osm_file, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;OSM file path.&quot;</span>); \</div>
+<b>Value:</b><div class="fragment"><div class="line">  <a class="code" href="maliput__derive__lane__s__routes_8cc.html#a06cd59bdfc61b7b767474d76b8096b94">DEFINE_string</a>(osm_file, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;OSM file path.&quot;</span>); \</div>
 <div class="line">  DEFINE_string(origin, <span class="stringliteral">&quot;{0., 0.}&quot;</span>, <span class="stringliteral">&quot;OSM map&#39;s origin lat/long coordinate.&quot;</span>);</div>
 </div><!-- fragment -->
 </div>
@@ -285,8 +304,8 @@ Macros</h2></td></tr>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="amaliput__derive__lane__s__routes_8cc_html_a949c8bd574e134aee1fbf51ddb0d2c3c"><div class="ttname"><a href="maliput__derive__lane__s__routes_8cc.html#a949c8bd574e134aee1fbf51ddb0d2c3c">DEFINE_string</a></div><div class="ttdeci">DEFINE_string(maliput_backend, &quot;malidrive&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt; or &lt;malidrive&gt;. Default is malidrive.&quot;)</div></div>
 <div class="ttc" id="amaliput__derive__lane__s__routes_8cc_html_afafbb1bdb19e6374207946daaed0c5f2"><div class="ttname"><a href="maliput__derive__lane__s__routes_8cc.html#afafbb1bdb19e6374207946daaed0c5f2">DEFINE_double</a></div><div class="ttdeci">DEFINE_double(max_length, 1000, &quot;Maximum length of the intermediate lanes between start and end waypoints.[m]&quot;)</div></div>
+<div class="ttc" id="amaliput__derive__lane__s__routes_8cc_html_a06cd59bdfc61b7b767474d76b8096b94"><div class="ttname"><a href="maliput__derive__lane__s__routes_8cc.html#a06cd59bdfc61b7b767474d76b8096b94">DEFINE_string</a></div><div class="ttdeci">DEFINE_string(maliput_backend, &quot;malidrive&quot;, &quot;Whether to use &lt;dragway&gt;, &lt;multilane&gt;, &lt;malidrive&gt;, &lt;osm&gt; or &lt;geopackage&gt;. Default is malidrive.&quot;)</div></div>
 <!-- HTML footer for doxygen 1.8.15 -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
