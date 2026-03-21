@@ -45,7 +45,6 @@ var files_dup =
     [ "parser.h", "parser_8h.html", [
       [ "Parser", "classmaliput__sparse_1_1parser_1_1_parser.html", "classmaliput__sparse_1_1parser_1_1_parser" ]
     ] ],
-    [ "road_geometry.cc", "road__geometry_8cc.html", null ],
     [ "road_geometry.h", "road__geometry_8h.html", [
       [ "RoadGeometry", "classmaliput__sparse_1_1_road_geometry.html", "classmaliput__sparse_1_1_road_geometry" ]
     ] ],

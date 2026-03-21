@@ -577,13 +577,6 @@
     <namespace>maliput_sparse::parser</namespace>
   </compound>
   <compound kind="file">
-    <name>road_geometry.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/src/base/</path>
-    <filename>road__geometry_8cc.html</filename>
-    <includes id="road__geometry_8h" name="road_geometry.h" local="yes" imported="no">base/road_geometry.h</includes>
-    <namespace>maliput_sparse</namespace>
-  </compound>
-  <compound kind="file">
     <name>road_geometry.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/src/base/</path>
     <filename>road__geometry_8h.html</filename>
