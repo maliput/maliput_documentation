@@ -16,6 +16,8 @@ var namespacemaliput_1_1api_1_1rules =
     [ "StateProviderResult", "structmaliput_1_1api_1_1rules_1_1_state_provider_result.html", "structmaliput_1_1api_1_1rules_1_1_state_provider_result" ],
     [ "TrafficLight", "classmaliput_1_1api_1_1rules_1_1_traffic_light.html", "classmaliput_1_1api_1_1rules_1_1_traffic_light" ],
     [ "TrafficLightBook", "classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html", "classmaliput_1_1api_1_1rules_1_1_traffic_light_book" ],
+    [ "TrafficSign", "classmaliput_1_1api_1_1rules_1_1_traffic_sign.html", "classmaliput_1_1api_1_1rules_1_1_traffic_sign" ],
+    [ "TrafficSignBook", "classmaliput_1_1api_1_1rules_1_1_traffic_sign_book.html", "classmaliput_1_1api_1_1rules_1_1_traffic_sign_book" ],
     [ "UniqueBulbGroupId", "classmaliput_1_1api_1_1rules_1_1_unique_bulb_group_id.html", "classmaliput_1_1api_1_1rules_1_1_unique_bulb_group_id" ],
     [ "UniqueBulbId", "classmaliput_1_1api_1_1rules_1_1_unique_bulb_id.html", "classmaliput_1_1api_1_1rules_1_1_unique_bulb_id" ]
 ];

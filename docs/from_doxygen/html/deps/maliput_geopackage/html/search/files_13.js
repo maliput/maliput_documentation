@@ -1,16 +1,19 @@
 var searchData=
 [
-  ['text_5flogging_2ecc_3741',['text_logging.cc',['../../../maliput/html/text__logging_8cc.html.html',1,'']]],
-  ['text_5flogging_2eh_3742',['text_logging.h',['../../../maliput/html/text__logging_8h.html.html',1,'']]],
-  ['thread_5fpool_2ecc_3743',['thread_pool.cc',['../../../maliput/html/thread__pool_8cc.html.html',1,'']]],
-  ['thread_5fpool_2eh_3744',['thread_pool.h',['../../../maliput/html/thread__pool_8h.html.html',1,'']]],
-  ['traffic_5flight_5fbook_2ecc_3745',['traffic_light_book.cc',['../../../maliput/html/traffic__light__book_8cc.html.html',1,'']]],
-  ['traffic_5flight_5fbook_5floader_2ecc_3746',['traffic_light_book_loader.cc',['../../../maliput/html/traffic__light__book__loader_8cc.html.html',1,'']]],
-  ['traffic_5flight_5fbook_5floader_2eh_3747',['traffic_light_book_loader.h',['../../../maliput/html/traffic__light__book__loader_8h.html.html',1,'']]],
-  ['traffic_5flights_2ecc_3748',['traffic_lights.cc',['../../../maliput/html/traffic__lights_8cc.html.html',1,'']]],
-  ['traffic_5flights_2eh_3749',['traffic_lights.h',['../../../maliput/html/traffic__lights_8h.html.html',1,'']]],
-  ['trajectory_2ecc_3750',['trajectory.cc',['../../../maliput/html/trajectory_8cc.html.html',1,'']]],
-  ['trajectory_2eh_3751',['trajectory.h',['../../../maliput/html/trajectory_8h.html.html',1,'']]],
-  ['type_5fsafe_5findex_2eh_3752',['type_safe_index.h',['../../../maliput/html/type__safe__index_8h.html.html',1,'']]],
-  ['type_5fspecific_5fidentifier_2eh_3753',['type_specific_identifier.h',['../../../maliput/html/type__specific__identifier_8h.html.html',1,'']]]
+  ['text_5flogging_2ecc_3847',['text_logging.cc',['../../../maliput/html/text__logging_8cc.html.html',1,'']]],
+  ['text_5flogging_2eh_3848',['text_logging.h',['../../../maliput/html/text__logging_8h.html.html',1,'']]],
+  ['thread_5fpool_2ecc_3849',['thread_pool.cc',['../../../maliput/html/thread__pool_8cc.html.html',1,'']]],
+  ['thread_5fpool_2eh_3850',['thread_pool.h',['../../../maliput/html/thread__pool_8h.html.html',1,'']]],
+  ['traffic_5flight_5fbook_2ecc_3851',['traffic_light_book.cc',['../../../maliput/html/traffic__light__book_8cc.html.html',1,'']]],
+  ['traffic_5flight_5fbook_5floader_2ecc_3852',['traffic_light_book_loader.cc',['../../../maliput/html/traffic__light__book__loader_8cc.html.html',1,'']]],
+  ['traffic_5flight_5fbook_5floader_2eh_3853',['traffic_light_book_loader.h',['../../../maliput/html/traffic__light__book__loader_8h.html.html',1,'']]],
+  ['traffic_5flights_2ecc_3854',['traffic_lights.cc',['../../../maliput/html/traffic__lights_8cc.html.html',1,'']]],
+  ['traffic_5flights_2eh_3855',['traffic_lights.h',['../../../maliput/html/traffic__lights_8h.html.html',1,'']]],
+  ['traffic_5fsign_2ecc_3856',['traffic_sign.cc',['../../../maliput/html/traffic__sign_8cc.html.html',1,'']]],
+  ['traffic_5fsign_2eh_3857',['traffic_sign.h',['../../../maliput/html/traffic__sign_8h.html.html',1,'']]],
+  ['traffic_5fsign_5fbook_2ecc_3858',['traffic_sign_book.cc',['../../../maliput/html/traffic__sign__book_8cc.html.html',1,'']]],
+  ['trajectory_2ecc_3859',['trajectory.cc',['../../../maliput/html/trajectory_8cc.html.html',1,'']]],
+  ['trajectory_2eh_3860',['trajectory.h',['../../../maliput/html/trajectory_8h.html.html',1,'']]],
+  ['type_5fsafe_5findex_2eh_3861',['type_safe_index.h',['../../../maliput/html/type__safe__index_8h.html.html',1,'']]],
+  ['type_5fspecific_5fidentifier_2eh_3862',['type_specific_identifier.h',['../../../maliput/html/type__specific__identifier_8h.html.html',1,'']]]
 ];

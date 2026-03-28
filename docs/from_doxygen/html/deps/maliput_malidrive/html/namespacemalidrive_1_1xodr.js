@@ -1,6 +1,7 @@
 var namespacemalidrive_1_1xodr =
 [
     [ "object", "namespacemalidrive_1_1xodr_1_1object.html", "namespacemalidrive_1_1xodr_1_1object" ],
+    [ "signal", "namespacemalidrive_1_1xodr_1_1signal.html", "namespacemalidrive_1_1xodr_1_1signal" ],
     [ "AttributeParser", "classmalidrive_1_1xodr_1_1_attribute_parser.html", "classmalidrive_1_1xodr_1_1_attribute_parser" ],
     [ "Connection", "structmalidrive_1_1xodr_1_1_connection.html", "structmalidrive_1_1xodr_1_1_connection" ],
     [ "DBManager", "classmalidrive_1_1xodr_1_1_d_b_manager.html", "classmalidrive_1_1xodr_1_1_d_b_manager" ],
@@ -28,9 +29,8 @@ var namespacemalidrive_1_1xodr =
     [ "RoadHeader", "structmalidrive_1_1xodr_1_1_road_header.html", "structmalidrive_1_1xodr_1_1_road_header" ],
     [ "RoadLink", "structmalidrive_1_1xodr_1_1_road_link.html", "structmalidrive_1_1xodr_1_1_road_link" ],
     [ "RoadType", "structmalidrive_1_1xodr_1_1_road_type.html", "structmalidrive_1_1xodr_1_1_road_type" ],
-    [ "Signal", "structmalidrive_1_1xodr_1_1_signal.html", "structmalidrive_1_1xodr_1_1_signal" ],
-    [ "Signals", "structmalidrive_1_1xodr_1_1_signals.html", "structmalidrive_1_1xodr_1_1_signals" ],
     [ "SwayElement", "structmalidrive_1_1xodr_1_1_sway_element.html", "structmalidrive_1_1xodr_1_1_sway_element" ],
     [ "TypeElement", "structmalidrive_1_1xodr_1_1_type_element.html", "structmalidrive_1_1xodr_1_1_type_element" ],
-    [ "TypeElementLine", "structmalidrive_1_1xodr_1_1_type_element_line.html", "structmalidrive_1_1xodr_1_1_type_element_line" ]
+    [ "TypeElementLine", "structmalidrive_1_1xodr_1_1_type_element_line.html", "structmalidrive_1_1xodr_1_1_type_element_line" ],
+    [ "Validity", "structmalidrive_1_1xodr_1_1_validity.html", "structmalidrive_1_1xodr_1_1_validity" ]
 ];

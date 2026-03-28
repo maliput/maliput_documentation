@@ -4,6 +4,12 @@ var files_dup =
     [ "arc_ground_curve.h", "arc__ground__curve_8h.html", [
       [ "ArcGroundCurve", "classmalidrive_1_1road__curve_1_1_arc_ground_curve.html", "classmalidrive_1_1road__curve_1_1_arc_ground_curve" ]
     ] ],
+    [ "board.cc", "board_8cc.html", null ],
+    [ "board.h", "board_8h.html", [
+      [ "StaticBoard", "structmalidrive_1_1xodr_1_1signal_1_1_static_board.html", "structmalidrive_1_1xodr_1_1signal_1_1_static_board" ],
+      [ "VmsBoard", "structmalidrive_1_1xodr_1_1signal_1_1_vms_board.html", "structmalidrive_1_1xodr_1_1signal_1_1_vms_board" ],
+      [ "DisplayArea", "structmalidrive_1_1xodr_1_1signal_1_1_vms_board_1_1_display_area.html", "structmalidrive_1_1xodr_1_1signal_1_1_vms_board_1_1_display_area" ]
+    ] ],
     [ "borders.cc", "borders_8cc.html", null ],
     [ "borders.h", "borders_8h.html", [
       [ "Border", "structmalidrive_1_1xodr_1_1object_1_1_border.html", "structmalidrive_1_1xodr_1_1object_1_1_border" ],
@@ -26,11 +32,20 @@ var files_dup =
       [ "LaneLink", "structmalidrive_1_1xodr_1_1_connection_1_1_lane_link.html", "structmalidrive_1_1xodr_1_1_connection_1_1_lane_link" ]
     ] ],
     [ "constants.h", "constants_8h.html", "constants_8h" ],
+    [ "controller.cc", "controller_8cc.html", null ],
+    [ "controller.h", "controller_8h.html", [
+      [ "Control", "structmalidrive_1_1xodr_1_1signal_1_1_control.html", "structmalidrive_1_1xodr_1_1signal_1_1_control" ],
+      [ "Controller", "structmalidrive_1_1xodr_1_1signal_1_1_controller.html", "structmalidrive_1_1xodr_1_1signal_1_1_controller" ]
+    ] ],
     [ "cubic_polynomial.h", "cubic__polynomial_8h.html", [
       [ "CubicPolynomial", "classmalidrive_1_1road__curve_1_1_cubic_polynomial.html", "classmalidrive_1_1road__curve_1_1_cubic_polynomial" ]
     ] ],
     [ "db_manager.cc", "db__manager_8cc.html", "db__manager_8cc" ],
     [ "db_manager.h", "db__manager_8h.html", "db__manager_8h" ],
+    [ "dependency.cc", "dependency_8cc.html", null ],
+    [ "dependency.h", "dependency_8h.html", [
+      [ "Dependency", "structmalidrive_1_1xodr_1_1signal_1_1_dependency.html", "structmalidrive_1_1xodr_1_1signal_1_1_dependency" ]
+    ] ],
     [ "determine_tolerance.cc", "determine__tolerance_8cc.html", "determine__tolerance_8cc" ],
     [ "determine_tolerance.h", "determine__tolerance_8h.html", "determine__tolerance_8h" ],
     [ "direction_usage_builder.cc", "direction__usage__builder_8cc.html", null ],
@@ -151,6 +166,7 @@ var files_dup =
     ] ],
     [ "offset.cc", "offset_8cc.html", "offset_8cc" ],
     [ "offset.h", "offset_8h.html", "offset_8h" ],
+    [ "orientation.h", "orientation_8h.html", "orientation_8h" ],
     [ "outlines.cc", "outlines_8cc.html", null ],
     [ "outlines.h", "outlines_8h.html", [
       [ "CornerLocal", "structmalidrive_1_1xodr_1_1object_1_1_corner_local.html", "structmalidrive_1_1xodr_1_1object_1_1_corner_local" ],
@@ -167,8 +183,18 @@ var files_dup =
     [ "parking_space.h", "parking__space_8h.html", [
       [ "ParkingSpace", "structmalidrive_1_1xodr_1_1object_1_1_parking_space.html", "structmalidrive_1_1xodr_1_1object_1_1_parking_space" ]
     ] ],
-    [ "parser.cc", "parser_8cc.html", "parser_8cc" ],
-    [ "parser.h", "parser_8h.html", "parser_8h" ],
+    [ "traffic_signal/parser.cc", "traffic__signal_2parser_8cc.html", null ],
+    [ "xodr/parser.cc", "xodr_2parser_8cc.html", "xodr_2parser_8cc" ],
+    [ "traffic_signal/parser.h", "traffic__signal_2parser_8h.html", [
+      [ "BulbStateCondition", "structmalidrive_1_1traffic__signal_1_1_bulb_state_condition.html", "structmalidrive_1_1traffic__signal_1_1_bulb_state_condition" ],
+      [ "RuleState", "structmalidrive_1_1traffic__signal_1_1_rule_state.html", "structmalidrive_1_1traffic__signal_1_1_rule_state" ],
+      [ "BulbDefinition", "structmalidrive_1_1traffic__signal_1_1_bulb_definition.html", "structmalidrive_1_1traffic__signal_1_1_bulb_definition" ],
+      [ "TrafficSignalFingerprint", "structmalidrive_1_1traffic__signal_1_1_traffic_signal_fingerprint.html", "structmalidrive_1_1traffic__signal_1_1_traffic_signal_fingerprint" ],
+      [ "TrafficSignalDefinition", "structmalidrive_1_1traffic__signal_1_1_traffic_signal_definition.html", "structmalidrive_1_1traffic__signal_1_1_traffic_signal_definition" ],
+      [ "TrafficSignalParser", "classmalidrive_1_1traffic__signal_1_1_traffic_signal_parser.html", "classmalidrive_1_1traffic__signal_1_1_traffic_signal_parser" ],
+      [ "hash< malidrive::traffic_signal::TrafficSignalFingerprint >", "structstd_1_1hash_3_01malidrive_1_1traffic__signal_1_1_traffic_signal_fingerprint_01_4.html", "structstd_1_1hash_3_01malidrive_1_1traffic__signal_1_1_traffic_signal_fingerprint_01_4" ]
+    ] ],
+    [ "xodr/parser.h", "xodr_2parser_8h.html", "xodr_2parser_8h" ],
     [ "parser_configuration.h", "parser__configuration_8h.html", [
       [ "ParserConfiguration", "structmalidrive_1_1xodr_1_1_parser_configuration.html", "structmalidrive_1_1xodr_1_1_parser_configuration" ]
     ] ],
@@ -190,6 +216,10 @@ var files_dup =
     [ "range_value_rule_state_provider_builder.cc", "range__value__rule__state__provider__builder_8cc.html", null ],
     [ "range_value_rule_state_provider_builder.h", "range__value__rule__state__provider__builder_8h.html", [
       [ "RangeValueRuleStateProviderBuilder", "classmalidrive_1_1builder_1_1_range_value_rule_state_provider_builder.html", "classmalidrive_1_1builder_1_1_range_value_rule_state_provider_builder" ]
+    ] ],
+    [ "reference.cc", "reference_8cc.html", null ],
+    [ "reference.h", "reference_8h.html", [
+      [ "Reference", "structmalidrive_1_1xodr_1_1signal_1_1_reference.html", "structmalidrive_1_1xodr_1_1signal_1_1_reference" ]
     ] ],
     [ "reference_geometry.h", "reference__geometry_8h.html", [
       [ "ReferenceGeometry", "structmalidrive_1_1xodr_1_1_reference_geometry.html", "structmalidrive_1_1xodr_1_1_reference_geometry" ]
@@ -269,14 +299,39 @@ var files_dup =
     [ "segment.h", "segment_8h.html", [
       [ "Segment", "classmalidrive_1_1_segment.html", "classmalidrive_1_1_segment" ]
     ] ],
+    [ "semantics.cc", "semantics_8cc.html", null ],
+    [ "semantics.h", "semantics_8h.html", [
+      [ "Semantics", "structmalidrive_1_1xodr_1_1signal_1_1_semantics.html", "structmalidrive_1_1xodr_1_1signal_1_1_semantics" ],
+      [ "Speed", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_speed.html", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_speed" ],
+      [ "Lane", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_lane.html", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_lane" ],
+      [ "Priority", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_priority.html", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_priority" ],
+      [ "Prohibited", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_prohibited.html", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_prohibited" ],
+      [ "Warning", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_warning.html", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_warning" ],
+      [ "Routing", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_routing.html", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_routing" ],
+      [ "StreetName", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_street_name.html", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_street_name" ],
+      [ "Parking", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_parking.html", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_parking" ],
+      [ "Tourist", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_tourist.html", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_tourist" ],
+      [ "SupplementaryTime", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_supplementary_time.html", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_supplementary_time" ],
+      [ "SupplementaryAllows", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_supplementary_allows.html", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_supplementary_allows" ],
+      [ "SupplementaryProhibits", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_supplementary_prohibits.html", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_supplementary_prohibits" ],
+      [ "SupplementaryDistance", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_supplementary_distance.html", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_supplementary_distance" ],
+      [ "SupplementaryEnvironment", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_supplementary_environment.html", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_supplementary_environment" ],
+      [ "SupplementaryExplanatory", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_supplementary_explanatory.html", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_supplementary_explanatory" ]
+    ] ],
+    [ "sign.cc", "sign_8cc.html", null ],
+    [ "sign.h", "sign_8h.html", [
+      [ "Sign", "structmalidrive_1_1xodr_1_1signal_1_1_sign.html", "structmalidrive_1_1xodr_1_1signal_1_1_sign" ]
+    ] ],
     [ "signal.cc", "signal_8cc.html", null ],
     [ "signal.h", "signal_8h.html", [
-      [ "Signal", "structmalidrive_1_1xodr_1_1_signal.html", "structmalidrive_1_1xodr_1_1_signal" ],
-      [ "Value", "structmalidrive_1_1xodr_1_1_signal_1_1_value.html", "structmalidrive_1_1xodr_1_1_signal_1_1_value" ]
+      [ "Signal", "structmalidrive_1_1xodr_1_1signal_1_1_signal.html", "structmalidrive_1_1xodr_1_1signal_1_1_signal" ],
+      [ "Value", "structmalidrive_1_1xodr_1_1signal_1_1_signal_1_1_value.html", "structmalidrive_1_1xodr_1_1signal_1_1_signal_1_1_value" ],
+      [ "Signals", "structmalidrive_1_1xodr_1_1signal_1_1_signals.html", "structmalidrive_1_1xodr_1_1signal_1_1_signals" ]
     ] ],
-    [ "signals.cc", "signals_8cc.html", null ],
-    [ "signals.h", "signals_8h.html", [
-      [ "Signals", "structmalidrive_1_1xodr_1_1_signals.html", "structmalidrive_1_1xodr_1_1_signals" ]
+    [ "signal_parser.cc", "signal__parser_8cc.html", null ],
+    [ "signal_reference.cc", "signal__reference_8cc.html", null ],
+    [ "signal_reference.h", "signal__reference_8h.html", [
+      [ "SignalReference", "structmalidrive_1_1xodr_1_1signal_1_1_signal_reference.html", "structmalidrive_1_1xodr_1_1signal_1_1_signal_reference" ]
     ] ],
     [ "simplify_geometries.cc", "simplify__geometries_8cc.html", "simplify__geometries_8cc" ],
     [ "simplify_geometries.h", "simplify__geometries_8h.html", "simplify__geometries_8h" ],
@@ -302,6 +357,18 @@ var files_dup =
     ] ],
     [ "tools.cc", "tools_8cc.html", "tools_8cc" ],
     [ "tools.h", "tools_8h.html", "tools_8h" ],
+    [ "traffic_light_book_builder.cc", "traffic__light__book__builder_8cc.html", null ],
+    [ "traffic_light_book_builder.h", "traffic__light__book__builder_8h.html", [
+      [ "TrafficLightBookBuilder", "classmalidrive_1_1builder_1_1_traffic_light_book_builder.html", "classmalidrive_1_1builder_1_1_traffic_light_book_builder" ]
+    ] ],
+    [ "traffic_light_builder.cc", "traffic__light__builder_8cc.html", null ],
+    [ "traffic_light_builder.h", "traffic__light__builder_8h.html", [
+      [ "TrafficLightBuilder", "classmalidrive_1_1builder_1_1_traffic_light_builder.html", "classmalidrive_1_1builder_1_1_traffic_light_builder" ]
+    ] ],
+    [ "traffic_signal_database_loader.cc", "traffic__signal__database__loader_8cc.html", null ],
+    [ "traffic_signal_database_loader.h", "traffic__signal__database__loader_8h.html", [
+      [ "TrafficSignalDatabaseLoader", "classmalidrive_1_1traffic__signal_1_1_traffic_signal_database_loader.html", "classmalidrive_1_1traffic__signal_1_1_traffic_signal_database_loader" ]
+    ] ],
     [ "tunnel.cc", "tunnel_8cc.html", null ],
     [ "tunnel.h", "tunnel_8h.html", [
       [ "Tunnel", "structmalidrive_1_1xodr_1_1object_1_1_tunnel.html", "structmalidrive_1_1xodr_1_1object_1_1_tunnel" ]
@@ -310,7 +377,7 @@ var files_dup =
     [ "unit.h", "unit_8h.html", "unit_8h" ],
     [ "validity.cc", "validity_8cc.html", null ],
     [ "validity.h", "validity_8h.html", [
-      [ "Validity", "structmalidrive_1_1xodr_1_1object_1_1_validity.html", "structmalidrive_1_1xodr_1_1object_1_1_validity" ]
+      [ "Validity", "structmalidrive_1_1xodr_1_1_validity.html", "structmalidrive_1_1xodr_1_1_validity" ]
     ] ],
     [ "applications/xodr_extract.cc", "applications_2xodr__extract_8cc.html", "applications_2xodr__extract_8cc" ],
     [ "maliput_malidrive/xodr/xodr_extract.cc", "maliput__malidrive_2xodr_2xodr__extract_8cc.html", "maliput__malidrive_2xodr_2xodr__extract_8cc" ],
@@ -320,5 +387,7 @@ var files_dup =
     [ "xodr_query.cc", "xodr__query_8cc.html", "xodr__query_8cc" ],
     [ "xodr_testing_map_descriptions.h", "xodr__testing__map__descriptions_8h.html", "xodr__testing__map__descriptions_8h" ],
     [ "xodr_to_obj.cc", "xodr__to__obj_8cc.html", "xodr__to__obj_8cc" ],
-    [ "xodr_validate.cc", "xodr__validate_8cc.html", "xodr__validate_8cc" ]
+    [ "xodr_validate.cc", "xodr__validate_8cc.html", "xodr__validate_8cc" ],
+    [ "yaml_helper.cc", "yaml__helper_8cc.html", "yaml__helper_8cc" ],
+    [ "yaml_helper.h", "yaml__helper_8h.html", "yaml__helper_8h" ]
 ];

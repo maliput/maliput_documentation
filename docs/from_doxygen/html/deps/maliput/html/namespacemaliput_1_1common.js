@@ -22,5 +22,6 @@ var namespacemaliput_1_1common =
     [ "SinkBase", "classmaliput_1_1common_1_1_sink_base.html", "classmaliput_1_1common_1_1_sink_base" ],
     [ "state_provider_error", "classmaliput_1_1common_1_1state__provider__error.html", "classmaliput_1_1common_1_1state__provider__error" ],
     [ "traffic_light_book_error", "classmaliput_1_1common_1_1traffic__light__book__error.html", "classmaliput_1_1common_1_1traffic__light__book__error" ],
+    [ "traffic_sign_book_error", "classmaliput_1_1common_1_1traffic__sign__book__error.html", "classmaliput_1_1common_1_1traffic__sign__book__error" ],
     [ "uhash", "structmaliput_1_1common_1_1uhash.html", "structmaliput_1_1common_1_1uhash" ]
 ];

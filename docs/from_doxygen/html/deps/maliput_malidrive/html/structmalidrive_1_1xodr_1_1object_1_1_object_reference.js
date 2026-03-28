@@ -15,6 +15,6 @@ var structmalidrive_1_1xodr_1_1object_1_1_object_reference =
     [ "s", "structmalidrive_1_1xodr_1_1object_1_1_object_reference.html#ad62e712560f6344b96d4c080a2ba9c92", null ],
     [ "t", "structmalidrive_1_1xodr_1_1object_1_1_object_reference.html#a87accd1af8e0aff4b818d891374f7cec", null ],
     [ "valid_length", "structmalidrive_1_1xodr_1_1object_1_1_object_reference.html#a5eb8318f3d7f9a656400dfabc0376dd0", null ],
-    [ "validities", "structmalidrive_1_1xodr_1_1object_1_1_object_reference.html#a14deb095fa5c366cb1a25b977789b71b", null ],
+    [ "validities", "structmalidrive_1_1xodr_1_1object_1_1_object_reference.html#afd1aae97cddbafd6b92865423175e8c9", null ],
     [ "z_offset", "structmalidrive_1_1xodr_1_1object_1_1_object_reference.html#a3a6d817441901e33b37b517e686eec39", null ]
 ];

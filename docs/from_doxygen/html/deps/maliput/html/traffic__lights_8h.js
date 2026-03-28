@@ -22,7 +22,16 @@ var traffic__lights_8h =
     ] ],
     [ "BulbType", "traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2", [
       [ "kRound", "traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2a19cbfb4904c3202ff69a412c142cda6c", null ],
-      [ "kArrow", "traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2ab9915b027f3c5c3f045c880f99f22bc4", null ]
+      [ "kArrow", "traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2ab9915b027f3c5c3f045c880f99f22bc4", null ],
+      [ "kArrowLeft", "traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2af488355abd03604ef26881edaf82d79c", null ],
+      [ "kArrowRight", "traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2aeaeb4678fb78643ae0755e6a5b5a2e6b", null ],
+      [ "kArrowUp", "traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2aeeb62b3658f72141011a1d6b2a145d7c", null ],
+      [ "kArrowUpperLeft", "traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2ac80399944a6d92865e9ef14b2c86de54", null ],
+      [ "kArrowUpperRight", "traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2a7b92ea258d0c7d66d271f47639a1fd07", null ],
+      [ "kUTurnLeft", "traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2a3daac62d636d678fa9ccc0d765a693b2", null ],
+      [ "kUTurnRight", "traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2a827648321f51d89cbc07ce98d3d088d6", null ],
+      [ "kWalk", "traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2a30c7a6c70a2592413069d0a46e2309d4", null ],
+      [ "kDontWalk", "traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2a2b7e8f101dcf61a37e727ddc0a0f3a33", null ]
     ] ],
     [ "BulbColorMapper", "traffic__lights_8h.html#a4e3ace1816c987e259ef55535b1cb07c", null ],
     [ "BulbStateMapper", "traffic__lights_8h.html#ab2af2bdbf1550cd1e87d177254662692", null ],

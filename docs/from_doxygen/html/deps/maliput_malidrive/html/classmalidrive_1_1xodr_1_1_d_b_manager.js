@@ -1,5 +1,6 @@
 var classmalidrive_1_1xodr_1_1_d_b_manager =
 [
+    [ "SignalReferenceOnRoad", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_signal_reference_on_road.html", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_signal_reference_on_road" ],
     [ "XodrGapBetweenFunctions", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_functions.html", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_functions" ],
     [ "XodrGapBetweenGeometries", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_geometries.html", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_geometries" ],
     [ "XodrGeometriesToSimplify", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify.html", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify" ],
@@ -21,6 +22,7 @@ var classmalidrive_1_1xodr_1_1_d_b_manager =
     [ "GetShortestGeometry", "classmalidrive_1_1xodr_1_1_d_b_manager.html#ada89516cab3a2b623196bb82004b46bd", null ],
     [ "GetShortestLaneSection", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a820cfb83f30ab0c2ae36886edc0c4b90", null ],
     [ "GetShortestSuperelevationGap", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a12525df28b90b46f177612afc91a727b", null ],
+    [ "GetSignalReferencesBySignalId", "classmalidrive_1_1xodr_1_1_d_b_manager.html#aca17d355cd513a61027908cb09a82b8a", null ],
     [ "GetXodrHeader", "classmalidrive_1_1xodr_1_1_d_b_manager.html#ad0a363cf4461b0ea36a51c99c99432eb", null ],
     [ "MALIDRIVE_NO_COPY_NO_MOVE_NO_ASSIGN", "classmalidrive_1_1xodr_1_1_d_b_manager.html#a85aaf81372c7ac4b47ab7ea8ca86b63c", null ]
 ];

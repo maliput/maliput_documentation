@@ -22,5 +22,5 @@ var structmalidrive_1_1xodr_1_1object_1_1_bridge =
     [ "name", "structmalidrive_1_1xodr_1_1object_1_1_bridge.html#a6e523cbe30620206b7b99a00fbc852a7", null ],
     [ "s", "structmalidrive_1_1xodr_1_1object_1_1_bridge.html#ad62e712560f6344b96d4c080a2ba9c92", null ],
     [ "type", "structmalidrive_1_1xodr_1_1object_1_1_bridge.html#ab6f4e6d3fde00ce906e46494f60dfe7a", null ],
-    [ "validities", "structmalidrive_1_1xodr_1_1object_1_1_bridge.html#a14deb095fa5c366cb1a25b977789b71b", null ]
+    [ "validities", "structmalidrive_1_1xodr_1_1object_1_1_bridge.html#afd1aae97cddbafd6b92865423175e8c9", null ]
 ];

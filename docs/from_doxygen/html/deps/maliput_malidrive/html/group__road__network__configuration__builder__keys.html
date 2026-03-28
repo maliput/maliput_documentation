@@ -107,7 +107,7 @@ $(document).ready(function(){initNavTree('group__road__network__configuration__b
 <div class="line">};</div>
 <div class="line"><span class="keyword">auto</span> road_network = malidrive::loader::Load&lt;malidrive::builder::RoadNetworkBuilder&gt;(road_network_configuration);</div>
 </div><!-- fragment --><p>Parameters related to the creation of the <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend.">RoadGeometry</a> can be seen at <a class="el" href="group__road__geometry__configuration__builder__keys.html">RoadGeometry configuration builder keys</a>.</p>
-<p>Parameters for passing filepath to road rulebook, traffic light book, phase ring book and intersection book are listed below. </p>
+<p>Parameters for passing filepath to road rulebook, rule registry, traffic light book, phase ring book, intersection book and traffic signal database are listed below. </p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
 Modules</h2></td></tr>
@@ -132,6 +132,9 @@ Variables</h2></td></tr>
 <tr class="memitem:gabb49a593032b6e55d43c4b69b342c09b"><td class="memItemLeft" align="right" valign="top">static constexpr char const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__road__network__configuration__builder__keys.html#gabb49a593032b6e55d43c4b69b342c09b">kIntersectionBook</a> {&quot;intersection_book&quot;}</td></tr>
 <tr class="memdesc:gabb49a593032b6e55d43c4b69b342c09b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path to the configuration file to load a IntersectionBook.  <a href="group__road__network__configuration__builder__keys.html#gabb49a593032b6e55d43c4b69b342c09b">More...</a><br /></td></tr>
 <tr class="separator:gabb49a593032b6e55d43c4b69b342c09b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4e1ab7a35bcc04c683f269802c9c26ac"><td class="memItemLeft" align="right" valign="top">static constexpr char const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__road__network__configuration__builder__keys.html#ga4e1ab7a35bcc04c683f269802c9c26ac">kTrafficSignalDb</a> {&quot;traffic_signal_db&quot;}</td></tr>
+<tr class="memdesc:ga4e1ab7a35bcc04c683f269802c9c26ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path to the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database file that maps XODR Signal IDs to bulb/group data for constructing <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_light.html">maliput::api::rules::TrafficLight</a> objects.  <a href="group__road__network__configuration__builder__keys.html#ga4e1ab7a35bcc04c683f269802c9c26ac">More...</a><br /></td></tr>
+<tr class="separator:ga4e1ab7a35bcc04c683f269802c9c26ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="gabb49a593032b6e55d43c4b69b342c09b"></a>
@@ -263,6 +266,33 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Path to the configuration file to load a TrafficLightBook. </p>
+<ul>
+<li>Default: "" </li>
+</ul>
+
+</div>
+</div>
+<a id="ga4e1ab7a35bcc04c683f269802c9c26ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4e1ab7a35bcc04c683f269802c9c26ac">&#9670;&nbsp;</a></span>kTrafficSignalDb</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr char const* kTrafficSignalDb {&quot;traffic_signal_db&quot;}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Path to the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database file that maps XODR Signal IDs to bulb/group data for constructing <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_light.html">maliput::api::rules::TrafficLight</a> objects. </p>
 <ul>
 <li>Default: "" </li>
 </ul>

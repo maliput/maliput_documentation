@@ -1,5 +1,6 @@
 var namespacemaliput_1_1api =
 [
+    [ "objects", "namespacemaliput_1_1api_1_1objects.html", "namespacemaliput_1_1api_1_1objects" ],
     [ "rules", "namespacemaliput_1_1api_1_1rules.html", "namespacemaliput_1_1api_1_1rules" ],
     [ "test", "namespacemaliput_1_1api_1_1test.html", "namespacemaliput_1_1api_1_1test" ],
     [ "BasicIdIndex", "classmaliput_1_1api_1_1_basic_id_index.html", "classmaliput_1_1api_1_1_basic_id_index" ],

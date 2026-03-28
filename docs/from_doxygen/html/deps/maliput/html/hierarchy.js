@@ -107,7 +107,8 @@ var hierarchy =
           [ "rule_registry_error", "classmaliput_1_1common_1_1rule__registry__error.html", null ],
           [ "rulebook_error", "classmaliput_1_1common_1_1rulebook__error.html", null ],
           [ "state_provider_error", "classmaliput_1_1common_1_1state__provider__error.html", null ],
-          [ "traffic_light_book_error", "classmaliput_1_1common_1_1traffic__light__book__error.html", null ]
+          [ "traffic_light_book_error", "classmaliput_1_1common_1_1traffic__light__book__error.html", null ],
+          [ "traffic_sign_book_error", "classmaliput_1_1common_1_1traffic__sign__book__error.html", null ]
         ] ],
         [ "assertion_error", "classmaliput_1_1drake_1_1internal_1_1assertion__error.html", null ]
       ] ]
@@ -223,6 +224,8 @@ var hierarchy =
     [ "NodeCmp< Dimension >", "structmaliput_1_1math_1_1details_1_1_node_cmp.html", null ],
     [ "ObjFeatures", "structmaliput_1_1utility_1_1_obj_features.html", null ],
     [ "InitialValueProblem< T >::OdeContext", "structmaliput_1_1drake_1_1systems_1_1_initial_value_problem_1_1_ode_context.html", null ],
+    [ "Outline", "classmaliput_1_1api_1_1objects_1_1_outline.html", null ],
+    [ "OutlineCorner", "classmaliput_1_1api_1_1objects_1_1_outline_corner.html", null ],
     [ "OutputPortPrerequisite", "structmaliput_1_1drake_1_1systems_1_1internal_1_1_output_port_prerequisite.html", null ],
     [ "ParameterPackHasher< Args >", "structmaliput_1_1drake_1_1internal_1_1_parameter_pack_hasher.html", null ],
     [ "ParameterPackHasher< A, B... >", "structmaliput_1_1drake_1_1internal_1_1_parameter_pack_hasher_3_01_a_00_01_b_8_8_8_01_4.html", null ],
@@ -288,6 +291,11 @@ var hierarchy =
     [ "RoadNetworkContiguityBuildFlags", "structmaliput_1_1api_1_1test_1_1_road_network_contiguity_build_flags.html", null ],
     [ "RoadNetworkLoader", "classmaliput_1_1plugin_1_1_road_network_loader.html", null ],
     [ "RoadNetworkValidatorOptions", "structmaliput_1_1api_1_1_road_network_validator_options.html", null ],
+    [ "RoadObject", "classmaliput_1_1api_1_1objects_1_1_road_object.html", null ],
+    [ "RoadObjectBook", "classmaliput_1_1api_1_1objects_1_1_road_object_book.html", [
+      [ "RoadObjectBook", "classmaliput_1_1_road_object_book.html", null ]
+    ] ],
+    [ "RoadObjectPosition", "classmaliput_1_1api_1_1objects_1_1_road_object_position.html", null ],
     [ "RoadPosition", "structmaliput_1_1api_1_1_road_position.html", null ],
     [ "RoadPositionResult", "structmaliput_1_1api_1_1_road_position_result.html", null ],
     [ "RoadRulebook", "classmaliput_1_1api_1_1rules_1_1_road_rulebook.html", [
@@ -364,6 +372,10 @@ var hierarchy =
     ] ],
     [ "TrafficLightBookBuildFlags", "structmaliput_1_1api_1_1test_1_1_traffic_light_book_build_flags.html", null ],
     [ "TrafficLightBuildFlags", "structmaliput_1_1api_1_1test_1_1_traffic_light_build_flags.html", null ],
+    [ "TrafficSign", "classmaliput_1_1api_1_1rules_1_1_traffic_sign.html", null ],
+    [ "TrafficSignBook", "classmaliput_1_1api_1_1rules_1_1_traffic_sign_book.html", [
+      [ "TrafficSignBook", "classmaliput_1_1_traffic_sign_book.html", null ]
+    ] ],
     [ "Traits< S >", "structmaliput_1_1drake_1_1systems_1_1scalar__conversion_1_1_traits.html", null ],
     [ "Trajectory< T >", "classmaliput_1_1drake_1_1trajectories_1_1_trajectory.html", [
       [ "PiecewiseTrajectory< T >", "classmaliput_1_1drake_1_1trajectories_1_1_piecewise_trajectory.html", [
@@ -394,24 +406,28 @@ var hierarchy =
     [ "TypeSpecificIdentifier< class Lane >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< class LaneBoundary >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< class MaliputPlugin >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
+    [ "TypeSpecificIdentifier< class Outline >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< class PhaseRing >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< class RoadGeometry >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
+    [ "TypeSpecificIdentifier< class RoadObject >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< class Rule >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< class Segment >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
+    [ "TypeSpecificIdentifier< class TrafficSign >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< class Type >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< Phase >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< struct Edge >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< struct Node >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
     [ "TypeSpecificIdentifier< TrafficLight >", "classmaliput_1_1api_1_1_type_specific_identifier.html", null ],
-    [ "uhash< HashAlgorithm >", "structmaliput_1_1drake_1_1uhash.html", [
-      [ "hash< maliput::drake::Identifier< Tag > >", "structstd_1_1hash_3_01maliput_1_1drake_1_1_identifier_3_01_tag_01_4_01_4.html", null ],
-      [ "hash< maliput::drake::TypeSafeIndex< Tag > >", "structstd_1_1hash_3_01maliput_1_1drake_1_1_type_safe_index_3_01_tag_01_4_01_4.html", null ]
-    ] ],
     [ "uhash< HashAlgorithm >", "structmaliput_1_1common_1_1uhash.html", [
+      [ "hash< maliput::api::objects::RoadObjectType >", "structstd_1_1hash_3_01maliput_1_1api_1_1objects_1_1_road_object_type_01_4.html", null ],
       [ "hash< maliput::api::rules::UniqueBulbGroupId >", "structstd_1_1hash_3_01maliput_1_1api_1_1rules_1_1_unique_bulb_group_id_01_4.html", null ],
       [ "hash< maliput::api::rules::UniqueBulbId >", "structstd_1_1hash_3_01maliput_1_1api_1_1rules_1_1_unique_bulb_id_01_4.html", null ],
       [ "hash< maliput::api::TypeSpecificIdentifier< T > >", "structstd_1_1hash_3_01maliput_1_1api_1_1_type_specific_identifier_3_01_t_01_4_01_4.html", null ],
       [ "hash< maliput::api::UniqueId >", "structstd_1_1hash_3_01maliput_1_1api_1_1_unique_id_01_4.html", null ]
+    ] ],
+    [ "uhash< HashAlgorithm >", "structmaliput_1_1drake_1_1uhash.html", [
+      [ "hash< maliput::drake::Identifier< Tag > >", "structstd_1_1hash_3_01maliput_1_1drake_1_1_identifier_3_01_tag_01_4_01_4.html", null ],
+      [ "hash< maliput::drake::TypeSafeIndex< Tag > >", "structstd_1_1hash_3_01maliput_1_1drake_1_1_type_safe_index_3_01_tag_01_4_01_4.html", null ]
     ] ],
     [ "unique_ptr< T >", null, [
       [ "copyable_unique_ptr< maliput::drake::AbstractValue >", "classmaliput_1_1drake_1_1copyable__unique__ptr.html", null ],

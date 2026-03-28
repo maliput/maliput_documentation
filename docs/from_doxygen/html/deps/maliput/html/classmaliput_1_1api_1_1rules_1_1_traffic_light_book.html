@@ -119,6 +119,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af6732393db10e43a27efd4eb21b79aa1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_light.html">TrafficLight</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html#af6732393db10e43a27efd4eb21b79aa1">GetTrafficLight</a> (const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_light.html#a029206de7f2b36baf2a974fd7922b7d0">TrafficLight::Id</a> &amp;id) const</td></tr>
 <tr class="memdesc:af6732393db10e43a27efd4eb21b79aa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the specified <a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_light.html" title="Models a traffic light.">TrafficLight</a>. Returns nullptr if <code>id</code> is unrecognized.  <a href="classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html#af6732393db10e43a27efd4eb21b79aa1">More...</a><br /></td></tr>
 <tr class="separator:af6732393db10e43a27efd4eb21b79aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fe410c41e4915f93f063dcf8289ce29"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_light.html">TrafficLight</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html#a2fe410c41e4915f93f063dcf8289ce29">FindByLane</a> (const <a class="el" href="namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">LaneId</a> &amp;lane_id) const</td></tr>
+<tr class="memdesc:a2fe410c41e4915f93f063dcf8289ce29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all TrafficLights whose related_lanes() includes <code>lane_id</code>.  <a href="classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html#a2fe410c41e4915f93f063dcf8289ce29">More...</a><br /></td></tr>
+<tr class="separator:a2fe410c41e4915f93f063dcf8289ce29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -179,6 +182,27 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a2fe410c41e4915f93f063dcf8289ce29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fe410c41e4915f93f063dcf8289ce29">&#9670;&nbsp;</a></span>FindByLane()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_light.html">TrafficLight</a>*&gt; FindByLane </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">LaneId</a> &amp;&#160;</td>
+          <td class="paramname"><em>lane_id</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns all TrafficLights whose related_lanes() includes <code>lane_id</code>. </p>
+<p>Returns an empty vector if no traffic lights are associated with the given lane. </p>
+
+</div>
+</div>
 <a id="af6732393db10e43a27efd4eb21b79aa1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af6732393db10e43a27efd4eb21b79aa1">&#9670;&nbsp;</a></span>GetTrafficLight()</h2>
 

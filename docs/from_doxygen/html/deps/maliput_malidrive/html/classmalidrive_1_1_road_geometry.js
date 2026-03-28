@@ -16,5 +16,5 @@ var classmalidrive_1_1_road_geometry =
     [ "OpenScenarioRelativeLanePositionWithDsLaneToMaliputRoadPosition", "classmalidrive_1_1_road_geometry.html#ab7757567de6581f678004c7bf9fa0f05", null ],
     [ "OpenScenarioRelativeLanePositionWithDsToMaliputRoadPosition", "classmalidrive_1_1_road_geometry.html#a324a85ba33889fcb38bff9b8edb043f3", null ],
     [ "OpenScenarioRelativeRoadPositionToMaliputRoadPosition", "classmalidrive_1_1_road_geometry.html#a32776885dcaba7544f5fbd3d41bc5b2d", null ],
-    [ "OpenScenarioRoadPositionToMaliputRoadPosition", "classmalidrive_1_1_road_geometry.html#a696a672ef7ed2e2cf514609dc4d795f1", null ]
+    [ "OpenScenarioRoadPositionToMaliputRoadPosition", "classmalidrive_1_1_road_geometry.html#a9d6b957c12db5b67b30c1de983043d26", null ]
 ];

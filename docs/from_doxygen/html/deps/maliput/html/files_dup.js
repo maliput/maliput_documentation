@@ -136,6 +136,7 @@ var files_dup =
       [ "rulebook_error", "classmaliput_1_1common_1_1rulebook__error.html", "classmaliput_1_1common_1_1rulebook__error" ],
       [ "rule_registry_error", "classmaliput_1_1common_1_1rule__registry__error.html", "classmaliput_1_1common_1_1rule__registry__error" ],
       [ "traffic_light_book_error", "classmaliput_1_1common_1_1traffic__light__book__error.html", "classmaliput_1_1common_1_1traffic__light__book__error" ],
+      [ "traffic_sign_book_error", "classmaliput_1_1common_1_1traffic__sign__book__error.html", "classmaliput_1_1common_1_1traffic__sign__book__error" ],
       [ "phase_book_error", "classmaliput_1_1common_1_1phase__book__error.html", "classmaliput_1_1common_1_1phase__book__error" ],
       [ "state_provider_error", "classmaliput_1_1common_1_1state__provider__error.html", "classmaliput_1_1common_1_1state__provider__error" ]
     ] ],
@@ -450,6 +451,15 @@ var files_dup =
     [ "road_network_loader.h", "road__network__loader_8h.html", "road__network__loader_8h" ],
     [ "road_network_validator.cc", "road__network__validator_8cc.html", "road__network__validator_8cc" ],
     [ "road_network_validator.h", "road__network__validator_8h.html", "road__network__validator_8h" ],
+    [ "road_object.cc", "road__object_8cc.html", "road__object_8cc" ],
+    [ "road_object.h", "road__object_8h.html", "road__object_8h" ],
+    [ "road_object_book.cc", "road__object__book_8cc.html", null ],
+    [ "api/objects/road_object_book.h", "api_2objects_2road__object__book_8h.html", [
+      [ "RoadObjectBook", "classmaliput_1_1api_1_1objects_1_1_road_object_book.html", "classmaliput_1_1api_1_1objects_1_1_road_object_book" ]
+    ] ],
+    [ "base/road_object_book.h", "base_2road__object__book_8h.html", [
+      [ "RoadObjectBook", "classmaliput_1_1_road_object_book.html", "classmaliput_1_1_road_object_book" ]
+    ] ],
     [ "road_rulebook.h", "road__rulebook_8h.html", [
       [ "RoadRulebook", "classmaliput_1_1api_1_1rules_1_1_road_rulebook.html", "classmaliput_1_1api_1_1rules_1_1_road_rulebook" ],
       [ "QueryResults", "structmaliput_1_1api_1_1rules_1_1_road_rulebook_1_1_query_results.html", "structmaliput_1_1api_1_1rules_1_1_road_rulebook_1_1_query_results" ]
@@ -595,6 +605,15 @@ var files_dup =
     [ "traffic_light_book_loader.h", "traffic__light__book__loader_8h.html", "traffic__light__book__loader_8h" ],
     [ "traffic_lights.cc", "traffic__lights_8cc.html", "traffic__lights_8cc" ],
     [ "traffic_lights.h", "traffic__lights_8h.html", "traffic__lights_8h" ],
+    [ "traffic_sign.cc", "traffic__sign_8cc.html", "traffic__sign_8cc" ],
+    [ "traffic_sign.h", "traffic__sign_8h.html", "traffic__sign_8h" ],
+    [ "traffic_sign_book.cc", "traffic__sign__book_8cc.html", null ],
+    [ "api/rules/traffic_sign_book.h", "api_2rules_2traffic__sign__book_8h.html", [
+      [ "TrafficSignBook", "classmaliput_1_1api_1_1rules_1_1_traffic_sign_book.html", "classmaliput_1_1api_1_1rules_1_1_traffic_sign_book" ]
+    ] ],
+    [ "base/traffic_sign_book.h", "base_2traffic__sign__book_8h.html", [
+      [ "TrafficSignBook", "classmaliput_1_1_traffic_sign_book.html", "classmaliput_1_1_traffic_sign_book" ]
+    ] ],
     [ "trajectory.cc", "trajectory_8cc.html", null ],
     [ "trajectory.h", "trajectory_8h.html", [
       [ "Trajectory", "classmaliput_1_1drake_1_1trajectories_1_1_trajectory.html", "classmaliput_1_1drake_1_1trajectories_1_1_trajectory" ]

@@ -80,7 +80,7 @@ var structmalidrive_1_1xodr_1_1object_1_1_object =
     [ "tunnels", "structmalidrive_1_1xodr_1_1object_1_1_object.html#adeb23e32bb399b2d0524b63f38f44698", null ],
     [ "type", "structmalidrive_1_1xodr_1_1object_1_1_object.html#a839d570e9b77245150b9f584d590ce1a", null ],
     [ "valid_length", "structmalidrive_1_1xodr_1_1object_1_1_object.html#a5eb8318f3d7f9a656400dfabc0376dd0", null ],
-    [ "validities", "structmalidrive_1_1xodr_1_1object_1_1_object.html#a14deb095fa5c366cb1a25b977789b71b", null ],
+    [ "validities", "structmalidrive_1_1xodr_1_1object_1_1_object.html#afd1aae97cddbafd6b92865423175e8c9", null ],
     [ "width", "structmalidrive_1_1xodr_1_1object_1_1_object.html#a179f80dec0db432a69164a1a48b6c582", null ],
     [ "z_offset", "structmalidrive_1_1xodr_1_1object_1_1_object.html#af5c3ec36c23d0e3b1a2bb5cd16acd50c", null ]
 ];

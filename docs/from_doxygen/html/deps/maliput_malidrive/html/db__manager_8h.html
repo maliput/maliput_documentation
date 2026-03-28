@@ -98,13 +98,17 @@ $(document).ready(function(){initNavTree('db__manager_8h.html',''); initResizabl
 <div class="contents">
 <div class="textblock"><code>#include &lt;map&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;unordered_map&gt;</code><br />
 <code>#include &lt;utility&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;tinyxml2.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="macros_8h.html">maliput_malidrive/common/macros.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="header_8h.html">maliput_malidrive/xodr/header.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="junction_8h.html">maliput_malidrive/xodr/junction.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="parser__configuration_8h.html">maliput_malidrive/xodr/parser_configuration.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="road__header_8h.html">maliput_malidrive/xodr/road_header.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="signal__reference_8h.html">maliput_malidrive/xodr/signal/signal_reference.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for db_manager.h:</div>
 <div class="dyncontent">
@@ -114,7 +118,7 @@ Include dependency graph for db_manager.h:</div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="db__manager_8h__dep__incl.svg" width="100%" height="496"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="db__manager_8h__dep__incl.svg" width="100%" height="507"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -122,6 +126,9 @@ This graph shows which files directly or indirectly include this file:</div>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html">DBManager</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Database Manager in charge of:  <a href="classmalidrive_1_1xodr_1_1_d_b_manager.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_signal_reference_on_road.html">DBManager::SignalReferenceOnRoad</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pairs an <a class="el" href="structmalidrive_1_1xodr_1_1signal_1_1_signal_reference.html">signal::SignalReference</a> with the ID of the road on which the reference appears.  <a href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_signal_reference_on_road.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometry_length_data.html">DBManager::XodrGeometryLengthData</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds <a class="el" href="structmalidrive_1_1xodr_1_1_geometry.html" title="Holds the values of a XODR description&#39;s geometry header.">Geometry</a> related information:  <a href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometry_length_data.html#details">More...</a><br /></td></tr>

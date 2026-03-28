@@ -21,7 +21,6 @@ var namespacemalidrive_1_1xodr_1_1object =
     [ "Skeleton", "structmalidrive_1_1xodr_1_1object_1_1_skeleton.html", "structmalidrive_1_1xodr_1_1object_1_1_skeleton" ],
     [ "Surface", "structmalidrive_1_1xodr_1_1object_1_1_surface.html", "structmalidrive_1_1xodr_1_1object_1_1_surface" ],
     [ "Tunnel", "structmalidrive_1_1xodr_1_1object_1_1_tunnel.html", "structmalidrive_1_1xodr_1_1object_1_1_tunnel" ],
-    [ "Validity", "structmalidrive_1_1xodr_1_1object_1_1_validity.html", "structmalidrive_1_1xodr_1_1object_1_1_validity" ],
     [ "VertexLocal", "structmalidrive_1_1xodr_1_1object_1_1_vertex_local.html", "structmalidrive_1_1xodr_1_1object_1_1_vertex_local" ],
     [ "VertexRoad", "structmalidrive_1_1xodr_1_1object_1_1_vertex_road.html", "structmalidrive_1_1xodr_1_1object_1_1_vertex_road" ]
 ];

@@ -5,5 +5,6 @@ var group__road__network__configuration__builder__keys =
     [ "kPhaseRingBook", "group__road__network__configuration__builder__keys.html#gabab6ea6289a9d6a997ea3623df2981e7", null ],
     [ "kRoadRuleBook", "group__road__network__configuration__builder__keys.html#ga413e2136aa512c92d58bf633b25e72af", null ],
     [ "kRuleRegistry", "group__road__network__configuration__builder__keys.html#gad98da37a0819c38a07a700edc8f2ec88", null ],
-    [ "kTrafficLightBook", "group__road__network__configuration__builder__keys.html#gaa52290b1f18b24e3f00bd1dc5db5eb53", null ]
+    [ "kTrafficLightBook", "group__road__network__configuration__builder__keys.html#gaa52290b1f18b24e3f00bd1dc5db5eb53", null ],
+    [ "kTrafficSignalDb", "group__road__network__configuration__builder__keys.html#ga4e1ab7a35bcc04c683f269802c9c26ac", null ]
 ];

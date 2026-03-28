@@ -193,6 +193,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1_related_unique_ids_keys.html">RelatedUniqueIdsKeys</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines keys used in <a class="el" href="classmaliput_1_1api_1_1rules_1_1_rule.html#aae244f337e8af36a083d06ab2de5d250" title="Alias of a map holding groups of related unique ids.">api::rules::Rule::RelatedUniqueIds</a>.  <a href="structmaliput_1_1_related_unique_ids_keys.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1_road_object_book.html">RoadObjectBook</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A concrete implementation of the <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object_book.html" title="Abstract interface for providing access to RoadObjects in a road network.">api::objects::RoadObjectBook</a> abstract interface.  <a href="classmaliput_1_1_road_object_book.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1_rule_constants.html">RuleConstants</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constants to identify attributes used in both api::rules::DiscreteValueRules and api::rules::RangeValueRules Types.  <a href="structmaliput_1_1_rule_constants.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -207,6 +210,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1_traffic_light_book.html">TrafficLightBook</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A concrete implementation of the <a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html" title="Abstract interface for providing the mapping from TrafficLight::Id to TrafficLight.">api::rules::TrafficLightBook</a> abstract interface.  <a href="classmaliput_1_1_traffic_light_book.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1_traffic_sign_book.html">TrafficSignBook</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A concrete implementation of the <a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_sign_book.html" title="Abstract interface for providing the mapping from TrafficSign::Id to TrafficSign.">api::rules::TrafficSignBook</a> abstract interface.  <a href="classmaliput_1_1_traffic_sign_book.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -588,7 +594,7 @@ Functions</h2></td></tr>
 <p>Returns a vector of maliput::api::UniqueIds that represents the bulb group of a Right-Of-Way rule state. </p>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html">common::assertion_error</a></td><td>When <code>discrete_value.related_unique_ids</code> does not have <a class="el" href="structmaliput_1_1_related_unique_ids_keys.html#a39d844ef884c68b543f3e4fbb0e7c2cd" title="Key used by Right-Of-Way rules.">RelatedUniqueIdsKeys::kBulbGroup</a> key. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html">common::assertion_error</a></td><td>When <code>discrete_value.related_unique_ids</code> does not have <a class="el" href="structmaliput_1_1_related_unique_ids_keys.html#af704c0fb404e18e2f38f0a0456f69e3c" title="Key used by Right-Of-Way rules.">RelatedUniqueIdsKeys::kBulbGroup</a> key. </td></tr>
   </table>
   </dd>
 </dl>
@@ -837,7 +843,7 @@ Functions</h2></td></tr>
 <p>Returns a vector of Rule::Ids that represents the yield group of a Right-Of-Way rule state. </p>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html">common::assertion_error</a></td><td>When <code>discrete_value.related_rules</code> does not have <a class="el" href="structmaliput_1_1_related_rules_keys.html#aa720a4c0de6d923ecf6234a6378edc87" title="Key used by Right-Of-Way rules to yield to other rules.">RelatedRulesKeys::kYieldGroup</a> key. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classmaliput_1_1common_1_1assertion__error.html">common::assertion_error</a></td><td>When <code>discrete_value.related_rules</code> does not have <a class="el" href="structmaliput_1_1_related_rules_keys.html#a523323265dbfb2541c40f553b1485526" title="Key used by Right-Of-Way rules to yield to other rules.">RelatedRulesKeys::kYieldGroup</a> key. </td></tr>
   </table>
   </dd>
 </dl>

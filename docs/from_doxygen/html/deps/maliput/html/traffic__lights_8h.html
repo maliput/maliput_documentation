@@ -103,6 +103,7 @@ $(document).ready(function(){initNavTree('traffic__lights_8h.html',''); initResi
 <code>#include &lt;string&gt;</code><br />
 <code>#include &lt;unordered_map&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
+<code>#include &quot;<a class="el" href="api_2lane_8h.html">maliput/api/lane.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="lane__data_8h.html">maliput/api/lane_data.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="type__specific__identifier_8h.html">maliput/api/type_specific_identifier.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="unique__id_8h.html">maliput/api/unique_id.h</a>&quot;</code><br />
@@ -174,8 +175,21 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a6e1f10a3be6871610a2558424fcd78ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the possible bulb colors.  <a href="namespacemaliput_1_1api_1_1rules.html#a6e1f10a3be6871610a2558424fcd78ed">More...</a><br /></td></tr>
 <tr class="separator:a6e1f10a3be6871610a2558424fcd78ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae21a360eb5822a6f1f2579b377ba2bb2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2">BulbType</a> { <a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a19cbfb4904c3202ff69a412c142cda6c">kRound</a> = 0, 
-<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2ab9915b027f3c5c3f045c880f99f22bc4">kArrow</a>
+<tr class="memitem:ae21a360eb5822a6f1f2579b377ba2bb2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2">BulbType</a> { <br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a19cbfb4904c3202ff69a412c142cda6c">kRound</a> = 0, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2ab9915b027f3c5c3f045c880f99f22bc4">kArrow</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2af488355abd03604ef26881edaf82d79c">kArrowLeft</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2aeaeb4678fb78643ae0755e6a5b5a2e6b">kArrowRight</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2aeeb62b3658f72141011a1d6b2a145d7c">kArrowUp</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2ac80399944a6d92865e9ef14b2c86de54">kArrowUpperLeft</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a7b92ea258d0c7d66d271f47639a1fd07">kArrowUpperRight</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a3daac62d636d678fa9ccc0d765a693b2">kUTurnLeft</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a827648321f51d89cbc07ce98d3d088d6">kUTurnRight</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a30c7a6c70a2592413069d0a46e2309d4">kWalk</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a2b7e8f101dcf61a37e727ddc0a0f3a33">kDontWalk</a>
+<br />
  }</td></tr>
 <tr class="memdesc:ae21a360eb5822a6f1f2579b377ba2bb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the possible bulb types.  <a href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2">More...</a><br /></td></tr>
 <tr class="separator:ae21a360eb5822a6f1f2579b377ba2bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>

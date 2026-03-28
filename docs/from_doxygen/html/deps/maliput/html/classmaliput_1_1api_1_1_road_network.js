@@ -1,7 +1,7 @@
 var classmaliput_1_1api_1_1_road_network =
 [
-    [ "RoadNetwork", "classmaliput_1_1api_1_1_road_network.html#ab189469ea1faa37694797dba23fd50a4", null ],
-    [ "RoadNetwork", "classmaliput_1_1api_1_1_road_network.html#ad89b2d0d5b573d63c2883fbfdd3c8ae8", null ],
+    [ "RoadNetwork", "classmaliput_1_1api_1_1_road_network.html#a222941fa3739941858ddda51bdaa16f6", null ],
+    [ "RoadNetwork", "classmaliput_1_1api_1_1_road_network.html#a9bd94e8cbda510e6c0b6812acba1637b", null ],
     [ "~RoadNetwork", "classmaliput_1_1api_1_1_road_network.html#a3b92986feb884330f6502d877529417d", null ],
     [ "Contains", "classmaliput_1_1api_1_1_road_network.html#a676f090e349fcc28908575aa491468b6", null ],
     [ "Contains", "classmaliput_1_1api_1_1_road_network.html#a5c7941c0700d1b75757ce0eba59726a9", null ],
@@ -12,7 +12,9 @@ var classmaliput_1_1api_1_1_road_network =
     [ "range_value_rule_state_provider", "classmaliput_1_1api_1_1_road_network.html#a82bb5c2b2c1c0676c247256d0f5b5967", null ],
     [ "right_of_way_rule_state_provider", "classmaliput_1_1api_1_1_road_network.html#a78b5fae7828329c63345d87ae12ada1c", null ],
     [ "road_geometry", "classmaliput_1_1api_1_1_road_network.html#aa5b5de3cdefe8ef0d3ffa573f3822d4d", null ],
+    [ "road_object_book", "classmaliput_1_1api_1_1_road_network.html#ab32000acece98ffc049e7ab467a88f1c", null ],
     [ "rule_registry", "classmaliput_1_1api_1_1_road_network.html#a5ee80a3c33b3b391440158ff4418e1af", null ],
     [ "rulebook", "classmaliput_1_1api_1_1_road_network.html#a08df4786232a0baa18e9f81c8ab7e485", null ],
-    [ "traffic_light_book", "classmaliput_1_1api_1_1_road_network.html#ab8c61e162f56392e7ed52e37d15dcaca", null ]
+    [ "traffic_light_book", "classmaliput_1_1api_1_1_road_network.html#ab8c61e162f56392e7ed52e37d15dcaca", null ],
+    [ "traffic_sign_book", "classmaliput_1_1api_1_1_road_network.html#a947f2a30168029d0921907c27fe4202f", null ]
 ];
