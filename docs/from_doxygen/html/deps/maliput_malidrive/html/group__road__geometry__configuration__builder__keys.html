@@ -521,7 +521,7 @@ Variables</h2></td></tr>
 <li>3. Disables G1 contiguity checks for non-drivable lanes. (G1 contiguity check on drivable lanes can't be disabled, except for the case described below.)</li>
 <li>4. Adapts C1 discontinuities on piecewise-defined lane widths (only applying to driveable lanes) to meet the continuity constraints.</li>
 <li>5. Allows C1 discontinuities on piecewise-defined lane offset descriptions. In some scenarios, xodr lane offsets definitions are discontinuous, and yet the final road surface is continuous: This is not forbidden by the OpenDRIVE specification. It is up to the user to ensure that the connecting roads form a contiguous surface. See <code>maliput::API::RoadGeometry::CheckInvariants</code> method.</li>
-<li>6. Ignores XODR elevation elements that start after the road's length when parsing.</li>
+<li>6. Ignores XODR elevation and superelevation elements that start after the road's length when parsing.</li>
 </ul>
 </li>
 <li>4. <em>"permissive"</em>: Allow all previous violations.</li>
