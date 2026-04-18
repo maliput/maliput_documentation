@@ -9495,6 +9495,7 @@
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cdae6f1a58458c3022d66901dafb228deff">kSchoolZone</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cda4479d5fe99f9f0c7dff9b1a8fe517207">kConstruction</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cda529c895c1db38e95924a81e577e3f05f">kRailroadCrossing</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cda25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
     </member>
     <member kind="function">
       <type>std::unordered_map&lt; TrafficSignType, const char *, maliput::common::DefaultHash &gt;</type>
@@ -47660,6 +47661,7 @@
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cdae6f1a58458c3022d66901dafb228deff">kSchoolZone</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cda4479d5fe99f9f0c7dff9b1a8fe517207">kConstruction</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cda529c895c1db38e95924a81e577e3f05f">kRailroadCrossing</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cda25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
     </member>
     <member kind="function">
       <type>common::ComparisonResult&lt; RuleStates &gt;</type>

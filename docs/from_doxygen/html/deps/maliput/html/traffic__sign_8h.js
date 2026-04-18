@@ -13,7 +13,8 @@ var traffic__sign_8h =
       [ "kNoUTurn", "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cdad15f3196ba3ed7c466f57676ed323e13", null ],
       [ "kSchoolZone", "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cdae6f1a58458c3022d66901dafb228deff", null ],
       [ "kConstruction", "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cda4479d5fe99f9f0c7dff9b1a8fe517207", null ],
-      [ "kRailroadCrossing", "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cda529c895c1db38e95924a81e577e3f05f", null ]
+      [ "kRailroadCrossing", "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cda529c895c1db38e95924a81e577e3f05f", null ],
+      [ "kUnknown", "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cda25c2dc47991b3df171ed5192bcf70390", null ]
     ] ],
     [ "TrafficSignTypeMapper", "traffic__sign_8h.html#a3c545d47d017cb94a928a8a23f83200b", null ]
 ];
