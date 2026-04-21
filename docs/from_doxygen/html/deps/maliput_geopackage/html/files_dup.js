@@ -16,6 +16,7 @@ var files_dup =
       [ "GPKGLane", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane.html", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane" ],
       [ "GPKGBranchPointLane", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_branch_point_lane.html", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_branch_point_lane" ],
       [ "GPKGAdjacentLane", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_adjacent_lane.html", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_adjacent_lane" ],
+      [ "GPKGSpeedLimit", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_speed_limit.html", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_speed_limit" ],
       [ "GeoPackageParser", "classmaliput__geopackage_1_1geopackage_1_1_geo_package_parser.html", "classmaliput__geopackage_1_1geopackage_1_1_geo_package_parser" ]
     ] ],
     [ "params.h", "params_8h.html", "params_8h" ],
@@ -23,6 +24,14 @@ var files_dup =
     [ "road_network_builder.cc", "road__network__builder_8cc.html", null ],
     [ "road_network_builder.h", "road__network__builder_8h.html", [
       [ "RoadNetworkBuilder", "classmaliput__geopackage_1_1builder_1_1_road_network_builder.html", "classmaliput__geopackage_1_1builder_1_1_road_network_builder" ]
+    ] ],
+    [ "road_rulebook_builder.cc", "road__rulebook__builder_8cc.html", null ],
+    [ "road_rulebook_builder.h", "road__rulebook__builder_8h.html", [
+      [ "RoadRuleBookBuilder", "classmaliput__geopackage_1_1builder_1_1_road_rule_book_builder.html", "classmaliput__geopackage_1_1builder_1_1_road_rule_book_builder" ]
+    ] ],
+    [ "rule_registry_builder.cc", "rule__registry__builder_8cc.html", null ],
+    [ "rule_registry_builder.h", "rule__registry__builder_8h.html", [
+      [ "RuleRegistryBuilder", "classmaliput__geopackage_1_1builder_1_1_rule_registry_builder.html", "classmaliput__geopackage_1_1builder_1_1_rule_registry_builder" ]
     ] ],
     [ "sqlite_helpers.cc", "sqlite__helpers_8cc.html", null ],
     [ "sqlite_helpers.h", "sqlite__helpers_8h.html", [

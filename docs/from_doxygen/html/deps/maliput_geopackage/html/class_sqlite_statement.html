@@ -113,6 +113,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2ee7c9d265746bab7168b46c12c032cf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sqlite_statement.html#a2ee7c9d265746bab7168b46c12c032cf">GetColumnInt</a> (int col)</td></tr>
 <tr class="memdesc:a2ee7c9d265746bab7168b46c12c032cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the integer value of the specified column in the current row. Returns 0 if the column is NULL.  <a href="class_sqlite_statement.html#a2ee7c9d265746bab7168b46c12c032cf">More...</a><br /></td></tr>
 <tr class="separator:a2ee7c9d265746bab7168b46c12c032cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ccaf9cb254d4c2205c71a612c24d618"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sqlite_statement.html#a3ccaf9cb254d4c2205c71a612c24d618">GetColumnDouble</a> (int col)</td></tr>
+<tr class="memdesc:a3ccaf9cb254d4c2205c71a612c24d618"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the double value of the specified column in the current row. Returns 0.0 if the column is NULL.  <a href="class_sqlite_statement.html#a3ccaf9cb254d4c2205c71a612c24d618">More...</a><br /></td></tr>
+<tr class="separator:a3ccaf9cb254d4c2205c71a612c24d618"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e611e3701dfee62b36b3c34183c0325"><td class="memItemLeft" align="right" valign="top">const void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sqlite_statement.html#a3e611e3701dfee62b36b3c34183c0325">GetColumnBlob</a> (int col)</td></tr>
 <tr class="memdesc:a3e611e3701dfee62b36b3c34183c0325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a pointer to the blob data of the specified column in the current row. Returns nullptr if the column is NULL.  <a href="class_sqlite_statement.html#a3e611e3701dfee62b36b3c34183c0325">More...</a><br /></td></tr>
 <tr class="separator:a3e611e3701dfee62b36b3c34183c0325"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,6 +215,26 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the size in bytes of the blob data in the specified column. Returns 0 if the column is NULL. </p>
+
+</div>
+</div>
+<a id="a3ccaf9cb254d4c2205c71a612c24d618"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ccaf9cb254d4c2205c71a612c24d618">&#9670;&nbsp;</a></span>GetColumnDouble()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double GetColumnDouble </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>col</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the double value of the specified column in the current row. Returns 0.0 if the column is NULL. </p>
 
 </div>
 </div>

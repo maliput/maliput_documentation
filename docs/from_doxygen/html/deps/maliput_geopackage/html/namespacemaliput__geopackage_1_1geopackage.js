@@ -7,5 +7,6 @@ var namespacemaliput__geopackage_1_1geopackage =
     [ "GPKGJunction", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_junction.html", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_junction" ],
     [ "GPKGLane", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane.html", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane" ],
     [ "GPKGLaneBoundary", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_boundary.html", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_boundary" ],
-    [ "GPKGSegment", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_segment.html", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_segment" ]
+    [ "GPKGSegment", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_segment.html", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_segment" ],
+    [ "GPKGSpeedLimit", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_speed_limit.html", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_speed_limit" ]
 ];

@@ -16,6 +16,7 @@ var road__object_8h =
       [ "kPole", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a2742fdaeaff981530e8db7a87746f824", null ],
       [ "kRoadMark", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a56d57f55a69b067f96dfbe6daec79441", null ],
       [ "kRoadSurface", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a301c9bd2b7fad7fb2e36ba40817a57d6", null ],
+      [ "kStopLine", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a5d284cd4081cd5fa6698a7783ec96c86", null ],
       [ "kTrafficIsland", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a9d9fd23d42536b2121815f1c9a9e3ef7", null ],
       [ "kTree", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a0b40d046dd0bb405f6ac002c36663ea9", null ],
       [ "kVegetation", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9ab0a1d175cfb881422fa37092d8e40ebc", null ]

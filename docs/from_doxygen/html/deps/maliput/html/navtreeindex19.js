@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"structmaliput_1_1utility_1_1mesh_1_1_index_face_1_1_vertex.html#a9ae457d1b6caa08add101f7a86d4686d":[4,0,0,7,0,7,0,2],
 "structmaliput_1_1utility_1_1mesh_1_1_index_face_1_1_vertex.html#a9b0f16e1f9b88668f9f7125b81f3f8d0":[4,0,0,7,0,7,0,0],
 "structmaliput_1_1utility_1_1mesh_1_1_index_face_1_1_vertex.html#aa325f0fc7bcf9d11383638170851f851":[4,0,0,7,0,7,0,1],
 "structstd_1_1hash_3_01maliput_1_1api_1_1_type_specific_identifier_3_01_t_01_4_01_4.html":[4,0,1,3],
@@ -103,7 +104,8 @@ var NAVTREEINDEX19 =
 "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cda0397245bdd6ce8fb8334178001004eb6":[5,0,346,1,7],
 "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cda086fbe8ab6df0cf451d26c32eb5f965c":[5,0,346,1,6],
 "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cda0ff0ce5c89c804244cd5305e448ae532":[5,0,346,1,1],
-"traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cda25c2dc47991b3df171ed5192bcf70390":[5,0,346,1,12],
+"traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cda10c55a8559a05f4d56b3dd803ef76d7d":[5,0,346,1,12],
+"traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cda25c2dc47991b3df171ed5192bcf70390":[5,0,346,1,13],
 "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cda4479d5fe99f9f0c7dff9b1a8fe517207":[5,0,346,1,10],
 "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cda529c895c1db38e95924a81e577e3f05f":[5,0,346,1,11],
 "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cda7bc61270fedb900bc156c641d3fe1d43":[5,0,346,1,4],

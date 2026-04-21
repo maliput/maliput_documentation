@@ -14,6 +14,7 @@ var traffic__sign_8h =
       [ "kSchoolZone", "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cdae6f1a58458c3022d66901dafb228deff", null ],
       [ "kConstruction", "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cda4479d5fe99f9f0c7dff9b1a8fe517207", null ],
       [ "kRailroadCrossing", "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cda529c895c1db38e95924a81e577e3f05f", null ],
+      [ "kNoOvertaking", "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cda10c55a8559a05f4d56b3dd803ef76d7d", null ],
       [ "kUnknown", "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cda25c2dc47991b3df171ed5192bcf70390", null ]
     ] ],
     [ "TrafficSignTypeMapper", "traffic__sign_8h.html#a3c545d47d017cb94a928a8a23f83200b", null ]

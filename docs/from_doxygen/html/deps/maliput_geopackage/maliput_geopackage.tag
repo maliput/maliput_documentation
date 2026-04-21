@@ -53,6 +53,7 @@
     <class kind="struct">maliput_geopackage::geopackage::GPKGLane</class>
     <class kind="struct">maliput_geopackage::geopackage::GPKGBranchPointLane</class>
     <class kind="struct">maliput_geopackage::geopackage::GPKGAdjacentLane</class>
+    <class kind="struct">maliput_geopackage::geopackage::GPKGSpeedLimit</class>
     <class kind="class">maliput_geopackage::geopackage::GeoPackageParser</class>
     <namespace>maliput_geopackage</namespace>
     <namespace>maliput_geopackage::geopackage</namespace>
@@ -164,6 +165,8 @@
     <filename>road__network__builder_8cc.html</filename>
     <includes id="road__network__builder_8h" name="road_network_builder.h" local="yes" imported="no">maliput_geopackage/builder/road_network_builder.h</includes>
     <includes id="builder__configuration_8h" name="builder_configuration.h" local="yes" imported="no">maliput_geopackage/builder/builder_configuration.h</includes>
+    <includes id="road__rulebook__builder_8h" name="road_rulebook_builder.h" local="yes" imported="no">maliput_geopackage/builder/road_rulebook_builder.h</includes>
+    <includes id="rule__registry__builder_8h" name="rule_registry_builder.h" local="yes" imported="no">maliput_geopackage/builder/rule_registry_builder.h</includes>
     <includes id="geopackage__manager_8h" name="geopackage_manager.h" local="yes" imported="no">maliput_geopackage/geopackage/geopackage_manager.h</includes>
     <namespace>maliput_geopackage</namespace>
     <namespace>maliput_geopackage::builder</namespace>
@@ -173,6 +176,40 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_geopackage/include/maliput_geopackage/builder/</path>
     <filename>road__network__builder_8h.html</filename>
     <class kind="class">maliput_geopackage::builder::RoadNetworkBuilder</class>
+    <namespace>maliput_geopackage</namespace>
+    <namespace>maliput_geopackage::builder</namespace>
+  </compound>
+  <compound kind="file">
+    <name>road_rulebook_builder.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_geopackage/src/maliput_geopackage/builder/</path>
+    <filename>road__rulebook__builder_8cc.html</filename>
+    <includes id="road__rulebook__builder_8h" name="road_rulebook_builder.h" local="yes" imported="no">maliput_geopackage/builder/road_rulebook_builder.h</includes>
+    <namespace>maliput_geopackage</namespace>
+    <namespace>maliput_geopackage::builder</namespace>
+  </compound>
+  <compound kind="file">
+    <name>road_rulebook_builder.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_geopackage/src/maliput_geopackage/builder/</path>
+    <filename>road__rulebook__builder_8h.html</filename>
+    <includes id="geopackage__parser_8h" name="geopackage_parser.h" local="yes" imported="no">maliput_geopackage/geopackage/geopackage_parser.h</includes>
+    <class kind="class">maliput_geopackage::builder::RoadRuleBookBuilder</class>
+    <namespace>maliput_geopackage</namespace>
+    <namespace>maliput_geopackage::builder</namespace>
+  </compound>
+  <compound kind="file">
+    <name>rule_registry_builder.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_geopackage/src/maliput_geopackage/builder/</path>
+    <filename>rule__registry__builder_8cc.html</filename>
+    <includes id="rule__registry__builder_8h" name="rule_registry_builder.h" local="yes" imported="no">maliput_geopackage/builder/rule_registry_builder.h</includes>
+    <namespace>maliput_geopackage</namespace>
+    <namespace>maliput_geopackage::builder</namespace>
+  </compound>
+  <compound kind="file">
+    <name>rule_registry_builder.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_geopackage/src/maliput_geopackage/builder/</path>
+    <filename>rule__registry__builder_8h.html</filename>
+    <includes id="geopackage__parser_8h" name="geopackage_parser.h" local="yes" imported="no">maliput_geopackage/geopackage/geopackage_parser.h</includes>
+    <class kind="class">maliput_geopackage::builder::RuleRegistryBuilder</class>
     <namespace>maliput_geopackage</namespace>
     <namespace>maliput_geopackage::builder</namespace>
   </compound>
@@ -241,6 +278,13 @@
       <anchor>ab2c26e72c71494010a9467e7fa3847bd</anchor>
       <arglist>()</arglist>
     </member>
+    <member kind="function">
+      <type>const std::unordered_map&lt; std::string, std::vector&lt; GPKGSpeedLimit &gt; &gt; &amp;</type>
+      <name>GetSpeedLimits</name>
+      <anchorfile>classmaliput__geopackage_1_1geopackage_1_1_geo_package_manager.html</anchorfile>
+      <anchor>a15b7a9547dcc0c5d77ef92ec5a2acd88</anchor>
+      <arglist>() const</arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>maliput_geopackage::geopackage::GeoPackageParser</name>
@@ -306,6 +350,13 @@
       <name>GetBranchPointLanes</name>
       <anchorfile>classmaliput__geopackage_1_1geopackage_1_1_geo_package_parser.html</anchorfile>
       <anchor>a08226a22d61faf9ef72a0e0874225056</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::unordered_map&lt; std::string, std::vector&lt; GPKGSpeedLimit &gt; &gt; &amp;</type>
+      <name>GetSpeedLimits</name>
+      <anchorfile>classmaliput__geopackage_1_1geopackage_1_1_geo_package_parser.html</anchorfile>
+      <anchor>a28fa7f0917bb5d67668c428c1cde0b6c</anchor>
       <arglist>() const</arglist>
     </member>
   </compound>
@@ -445,6 +496,59 @@
       <arglist></arglist>
     </member>
   </compound>
+  <compound kind="struct">
+    <name>maliput_geopackage::geopackage::GPKGSpeedLimit</name>
+    <filename>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_speed_limit.html</filename>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>lane_id</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_speed_limit.html</anchorfile>
+      <anchor>afe960e19331a9f98adb8ac049563162f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>s_start</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_speed_limit.html</anchorfile>
+      <anchor>a181f9ba4c336788bf6ac1136e3d1a05d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>s_end</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_speed_limit.html</anchorfile>
+      <anchor>aa4c69b5d45ee7ba08d02a9d3e2d086ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>max_speed</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_speed_limit.html</anchorfile>
+      <anchor>ac3327fc1376f5e92e1cf104f373e424a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>min_speed</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_speed_limit.html</anchorfile>
+      <anchor>ac129a5210b02a0416814a7c896784de8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>description</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_speed_limit.html</anchorfile>
+      <anchor>a2e1454f6988673f814408646edaeb320</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>int</type>
+      <name>severity</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_speed_limit.html</anchorfile>
+      <anchor>a118a118c0d99574666955efdf97068b0</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
   <compound kind="class">
     <name>maliput_geopackage::builder::RoadNetworkBuilder</name>
     <filename>classmaliput__geopackage_1_1builder_1_1_road_network_builder.html</filename>
@@ -467,6 +571,42 @@
       <name>operator()</name>
       <anchorfile>classmaliput__geopackage_1_1builder_1_1_road_network_builder.html</anchorfile>
       <anchor>a39d1711392269d5130fa8ad50d184dab</anchor>
+      <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput_geopackage::builder::RoadRuleBookBuilder</name>
+    <filename>classmaliput__geopackage_1_1builder_1_1_road_rule_book_builder.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>RoadRuleBookBuilder</name>
+      <anchorfile>classmaliput__geopackage_1_1builder_1_1_road_rule_book_builder.html</anchorfile>
+      <anchor>af9315824459d6c31eeeadd697bc53063</anchor>
+      <arglist>(const maliput::api::RoadGeometry *rg, const maliput::api::rules::RuleRegistry *rule_registry, const std::unordered_map&lt; std::string, std::vector&lt; geopackage::GPKGSpeedLimit &gt;&gt; &amp;speed_limits, const std::optional&lt; std::string &gt; &amp;road_rulebook_file_path)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::ManualRulebook &gt;</type>
+      <name>operator()</name>
+      <anchorfile>classmaliput__geopackage_1_1builder_1_1_road_rule_book_builder.html</anchorfile>
+      <anchor>af97ecc9d4f8436ee0ae8530ed3f5b33d</anchor>
+      <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput_geopackage::builder::RuleRegistryBuilder</name>
+    <filename>classmaliput__geopackage_1_1builder_1_1_rule_registry_builder.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>RuleRegistryBuilder</name>
+      <anchorfile>classmaliput__geopackage_1_1builder_1_1_rule_registry_builder.html</anchorfile>
+      <anchor>a0af6adff88ee3a26bf4075429d8fb479</anchor>
+      <arglist>(const std::unordered_map&lt; std::string, std::vector&lt; geopackage::GPKGSpeedLimit &gt;&gt; &amp;speed_limits, const std::optional&lt; std::string &gt; &amp;rule_registry_file_path)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; maliput::api::rules::RuleRegistry &gt;</type>
+      <name>operator()</name>
+      <anchorfile>classmaliput__geopackage_1_1builder_1_1_rule_registry_builder.html</anchorfile>
+      <anchor>a292732938fa4690d2c2bcb5dd661c1db</anchor>
       <arglist>() const</arglist>
     </member>
   </compound>
@@ -545,6 +685,13 @@
       <arglist>(int col)</arglist>
     </member>
     <member kind="function">
+      <type>double</type>
+      <name>GetColumnDouble</name>
+      <anchorfile>class_sqlite_statement.html</anchorfile>
+      <anchor>a3ccaf9cb254d4c2205c71a612c24d618</anchor>
+      <arglist>(int col)</arglist>
+    </member>
+    <member kind="function">
       <type>const void *</type>
       <name>GetColumnBlob</name>
       <anchorfile>class_sqlite_statement.html</anchorfile>
@@ -583,6 +730,8 @@
     <namespace>maliput_geopackage::builder::params</namespace>
     <class kind="struct">maliput_geopackage::builder::BuilderConfiguration</class>
     <class kind="class">maliput_geopackage::builder::RoadNetworkBuilder</class>
+    <class kind="class">maliput_geopackage::builder::RoadRuleBookBuilder</class>
+    <class kind="class">maliput_geopackage::builder::RuleRegistryBuilder</class>
   </compound>
   <compound kind="namespace">
     <name>maliput_geopackage::builder::params</name>
@@ -676,6 +825,7 @@
     <class kind="struct">maliput_geopackage::geopackage::GPKGLane</class>
     <class kind="struct">maliput_geopackage::geopackage::GPKGLaneBoundary</class>
     <class kind="struct">maliput_geopackage::geopackage::GPKGSegment</class>
+    <class kind="struct">maliput_geopackage::geopackage::GPKGSpeedLimit</class>
   </compound>
   <compound kind="namespace">
     <name>maliput_geopackage::plugin</name>
