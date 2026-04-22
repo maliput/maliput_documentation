@@ -274,6 +274,16 @@ var files_dup =
     [ "road_network_configuration.h", "road__network__configuration_8h.html", [
       [ "RoadNetworkConfiguration", "structmalidrive_1_1builder_1_1_road_network_configuration.html", "structmalidrive_1_1builder_1_1_road_network_configuration" ]
     ] ],
+    [ "road_object_book_builder.cc", "road__object__book__builder_8cc.html", null ],
+    [ "road_object_book_builder.h", "road__object__book__builder_8h.html", [
+      [ "RoadObjectBookBuilder", "classmalidrive_1_1builder_1_1_road_object_book_builder.html", "classmalidrive_1_1builder_1_1_road_object_book_builder" ]
+    ] ],
+    [ "road_object_builder.cc", "road__object__builder_8cc.html", "road__object__builder_8cc" ],
+    [ "road_object_builder.h", "road__object__builder_8h.html", [
+      [ "RoadObjectBuilder", "classmalidrive_1_1builder_1_1_road_object_builder.html", "classmalidrive_1_1builder_1_1_road_object_builder" ]
+    ] ],
+    [ "road_object_type_mapper.cc", "road__object__type__mapper_8cc.html", "road__object__type__mapper_8cc" ],
+    [ "road_object_type_mapper.h", "road__object__type__mapper_8h.html", "road__object__type__mapper_8h" ],
     [ "road_rulebook_builder.cc", "road__rulebook__builder_8cc.html", null ],
     [ "road_rulebook_builder.h", "road__rulebook__builder_8h.html", [
       [ "RoadRuleBookBuilder", "classmalidrive_1_1builder_1_1_road_rule_book_builder.html", "classmalidrive_1_1builder_1_1_road_rule_book_builder" ]
@@ -357,13 +367,20 @@ var files_dup =
     ] ],
     [ "tools.cc", "tools_8cc.html", "tools_8cc" ],
     [ "tools.h", "tools_8h.html", "tools_8h" ],
-    [ "traffic_light_book_builder.cc", "traffic__light__book__builder_8cc.html", null ],
-    [ "traffic_light_book_builder.h", "traffic__light__book__builder_8h.html", [
-      [ "TrafficLightBookBuilder", "classmalidrive_1_1builder_1_1_traffic_light_book_builder.html", "classmalidrive_1_1builder_1_1_traffic_light_book_builder" ]
-    ] ],
     [ "traffic_light_builder.cc", "traffic__light__builder_8cc.html", null ],
     [ "traffic_light_builder.h", "traffic__light__builder_8h.html", [
       [ "TrafficLightBuilder", "classmalidrive_1_1builder_1_1_traffic_light_builder.html", "classmalidrive_1_1builder_1_1_traffic_light_builder" ]
+    ] ],
+    [ "traffic_sign_builder.cc", "traffic__sign__builder_8cc.html", null ],
+    [ "traffic_sign_builder.h", "traffic__sign__builder_8h.html", [
+      [ "TrafficSignBuilder", "classmalidrive_1_1builder_1_1_traffic_sign_builder.html", "classmalidrive_1_1builder_1_1_traffic_sign_builder" ]
+    ] ],
+    [ "traffic_sign_type_mapper.cc", "traffic__sign__type__mapper_8cc.html", "traffic__sign__type__mapper_8cc" ],
+    [ "traffic_sign_type_mapper.h", "traffic__sign__type__mapper_8h.html", "traffic__sign__type__mapper_8h" ],
+    [ "traffic_signal_books_builder.cc", "traffic__signal__books__builder_8cc.html", null ],
+    [ "traffic_signal_books_builder.h", "traffic__signal__books__builder_8h.html", [
+      [ "TrafficSignalBooks", "structmalidrive_1_1builder_1_1_traffic_signal_books.html", "structmalidrive_1_1builder_1_1_traffic_signal_books" ],
+      [ "TrafficSignalBooksBuilder", "classmalidrive_1_1builder_1_1_traffic_signal_books_builder.html", "classmalidrive_1_1builder_1_1_traffic_signal_books_builder" ]
     ] ],
     [ "traffic_signal_database_loader.cc", "traffic__signal__database__loader_8cc.html", null ],
     [ "traffic_signal_database_loader.h", "traffic__signal__database__loader_8h.html", [

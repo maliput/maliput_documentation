@@ -99,8 +99,7 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1builder_1_1_traffic_
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Builds a single <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_light.html">maliput::api::rules::TrafficLight</a> from a XODR <a class="el" href="structmalidrive_1_1xodr_1_1signal_1_1_signal.html">xodr::signal::Signal</a> and its matching definition in the traffic signal <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database. </p>
 <p>The builder follows the functor pattern: construct it with all required inputs and call <a class="el" href="classmalidrive_1_1builder_1_1_traffic_light_builder.html#a9de10245c73af6f53baa142205278f93">operator()()</a> to produce the result.</p>
-<p>When no matching <a class="el" href="structmalidrive_1_1traffic__signal_1_1_traffic_signal_definition.html">traffic_signal::TrafficSignalDefinition</a> is found in the loader for the given signal's type/subtype/country fingerprint, the builder returns nullptr. Callers are responsible for checking the return value.</p>
-<dl class="section note"><dt>Note</dt><dd>TrafficLight position is currently set to the origin as a placeholder. Computation of the true inertial position from the signal's (s, t, z_offset) road-frame coordinates is left for a future step. </dd></dl>
+<p>When no matching <a class="el" href="structmalidrive_1_1traffic__signal_1_1_traffic_signal_definition.html">traffic_signal::TrafficSignalDefinition</a> is found in the loader for the given signal's type/subtype/country fingerprint, the builder returns nullptr. Callers are responsible for checking the return value. </p>
 </div>
 <p><code>#include &lt;src/maliput_malidrive/builder/traffic_light_builder.h&gt;</code></p>
 <table class="memberdecls">

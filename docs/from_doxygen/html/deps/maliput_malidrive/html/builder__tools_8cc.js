@@ -9,6 +9,7 @@ var builder__tools_8cc =
     [ "GetXodrLaneFromMalidriveLane", "builder__tools_8cc.html#a5a8aeb9dc7bf980baa67c6ff1a37c3ee", null ],
     [ "GetXodrRoadFromMalidriveLane", "builder__tools_8cc.html#a261dbba86373bcee9d3d6c8c46fcd80c", null ],
     [ "is_driveable_lane", "builder__tools_8cc.html#a14bd50eefd7d268587de3d7d36b02cb7", null ],
+    [ "ResolveAndDeduplicateLaneIds", "builder__tools_8cc.html#aee4f4b199eef5812da50455b76947d5d", null ],
     [ "ResolveLaneIds", "builder__tools_8cc.html#ac7bc7deb7c38d600db98ce0fbbbb7fa6", null ],
     [ "SolveLaneEndsForConnectingRoad", "builder__tools_8cc.html#af4c90e9ac4facbd99c46a05b567d233f", null ],
     [ "SolveLaneEndsForInnerLaneSection", "builder__tools_8cc.html#a1b0f112b9e4b345475cf6cd1dd7442f2", null ],
