@@ -13,6 +13,9 @@ var hierarchy =
       [ "Lane", "classmaliput__sparse_1_1_lane.html", null ]
     ] ],
     [ "Lane", "structmaliput__sparse_1_1parser_1_1_lane.html", null ],
+    [ "LaneBoundary", null, [
+      [ "LaneBoundary", "classmaliput__sparse_1_1_lane_boundary.html", null ]
+    ] ],
     [ "LaneEnd", "structmaliput__sparse_1_1builder_1_1_lane_end.html", null ],
     [ "LaneEnd", "structmaliput__sparse_1_1parser_1_1_lane_end.html", null ],
     [ "LaneGeometry", "classmaliput__sparse_1_1geometry_1_1_lane_geometry.html", null ],

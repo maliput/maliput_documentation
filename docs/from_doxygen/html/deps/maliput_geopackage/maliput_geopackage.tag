@@ -24,6 +24,13 @@
     <includes id="geopackage__manager_8h" name="geopackage_manager.h" local="yes" imported="no">maliput_geopackage/geopackage/geopackage_manager.h</includes>
     <namespace>maliput_geopackage</namespace>
     <namespace>maliput_geopackage::geopackage</namespace>
+    <member kind="function" static="yes">
+      <type>static std::optional&lt; maliput::api::LaneType &gt;</type>
+      <name>StringToLaneType</name>
+      <anchorfile>namespacemaliput__geopackage_1_1geopackage.html</anchorfile>
+      <anchor>ad6193ea7edec1473afb7e658c4aec1b2</anchor>
+      <arglist>(const std::string &amp;lane_type_string)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>geopackage_manager.h</name>
@@ -826,6 +833,13 @@
     <class kind="struct">maliput_geopackage::geopackage::GPKGLaneBoundary</class>
     <class kind="struct">maliput_geopackage::geopackage::GPKGSegment</class>
     <class kind="struct">maliput_geopackage::geopackage::GPKGSpeedLimit</class>
+    <member kind="function" static="yes">
+      <type>static std::optional&lt; maliput::api::LaneType &gt;</type>
+      <name>StringToLaneType</name>
+      <anchorfile>namespacemaliput__geopackage_1_1geopackage.html</anchorfile>
+      <anchor>ad6193ea7edec1473afb7e658c4aec1b2</anchor>
+      <arglist>(const std::string &amp;lane_type_string)</arglist>
+    </member>
   </compound>
   <compound kind="namespace">
     <name>maliput_geopackage::plugin</name>

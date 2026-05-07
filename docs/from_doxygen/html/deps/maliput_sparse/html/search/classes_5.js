@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['lane_242',['Lane',['../classmaliput__sparse_1_1_lane.html',1,'Lane'],['../structmaliput__sparse_1_1parser_1_1_lane.html',1,'Lane']]],
-  ['lanebuilder_243',['LaneBuilder',['../classmaliput__sparse_1_1builder_1_1_lane_builder.html',1,'maliput_sparse::builder']]],
-  ['laneend_244',['LaneEnd',['../structmaliput__sparse_1_1builder_1_1_lane_end.html',1,'LaneEnd'],['../structmaliput__sparse_1_1parser_1_1_lane_end.html',1,'LaneEnd']]],
-  ['lanegeometry_245',['LaneGeometry',['../classmaliput__sparse_1_1geometry_1_1_lane_geometry.html',1,'maliput_sparse::geometry']]],
-  ['lanegeometrybuilder_246',['LaneGeometryBuilder',['../classmaliput__sparse_1_1builder_1_1_lane_geometry_builder.html',1,'maliput_sparse::builder']]],
-  ['linestring_247',['LineString',['../classmaliput__sparse_1_1geometry_1_1_line_string.html',1,'maliput_sparse::geometry']]],
-  ['linestring_3c_20coordinatet_20_3e_248',['LineString&lt; CoordinateT &gt;',['../classmaliput__sparse_1_1geometry_1_1_line_string.html',1,'maliput_sparse::geometry']]]
+  ['lane_252',['Lane',['../classmaliput__sparse_1_1_lane.html',1,'Lane'],['../structmaliput__sparse_1_1parser_1_1_lane.html',1,'Lane']]],
+  ['laneboundary_253',['LaneBoundary',['../classmaliput__sparse_1_1_lane_boundary.html',1,'maliput_sparse']]],
+  ['lanebuilder_254',['LaneBuilder',['../classmaliput__sparse_1_1builder_1_1_lane_builder.html',1,'maliput_sparse::builder']]],
+  ['laneend_255',['LaneEnd',['../structmaliput__sparse_1_1builder_1_1_lane_end.html',1,'LaneEnd'],['../structmaliput__sparse_1_1parser_1_1_lane_end.html',1,'LaneEnd']]],
+  ['lanegeometry_256',['LaneGeometry',['../classmaliput__sparse_1_1geometry_1_1_lane_geometry.html',1,'maliput_sparse::geometry']]],
+  ['lanegeometrybuilder_257',['LaneGeometryBuilder',['../classmaliput__sparse_1_1builder_1_1_lane_geometry_builder.html',1,'maliput_sparse::builder']]],
+  ['linestring_258',['LineString',['../classmaliput__sparse_1_1geometry_1_1_line_string.html',1,'maliput_sparse::geometry']]],
+  ['linestring_3c_20coordinatet_20_3e_259',['LineString&lt; CoordinateT &gt;',['../classmaliput__sparse_1_1geometry_1_1_line_string.html',1,'maliput_sparse::geometry']]]
 ];

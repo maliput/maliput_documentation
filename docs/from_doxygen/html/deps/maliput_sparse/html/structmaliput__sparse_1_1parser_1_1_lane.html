@@ -130,6 +130,15 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a16f9f224f1bfcfd64fe10cd3a1614e1f"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structmaliput__sparse_1_1parser_1_1_lane.html#a1bd314c1e2831d74056207533d890511">Id</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1parser_1_1_lane.html#a16f9f224f1bfcfd64fe10cd3a1614e1f">right_lane_id</a></td></tr>
 <tr class="memdesc:a16f9f224f1bfcfd64fe10cd3a1614e1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The id of the lane to the right of this lane.  <a href="structmaliput__sparse_1_1parser_1_1_lane.html#a16f9f224f1bfcfd64fe10cd3a1614e1f">More...</a><br /></td></tr>
 <tr class="separator:a16f9f224f1bfcfd64fe10cd3a1614e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a9ecef3d1ffaba43857932618141361"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structmaliput__sparse_1_1parser_1_1_lane.html#a1bd314c1e2831d74056207533d890511">Id</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1parser_1_1_lane.html#a7a9ecef3d1ffaba43857932618141361">left_boundary_id</a></td></tr>
+<tr class="memdesc:a7a9ecef3d1ffaba43857932618141361"><td class="mdescLeft">&#160;</td><td class="mdescRight">The id of the lane boundary at the left side of this lane.  <a href="structmaliput__sparse_1_1parser_1_1_lane.html#a7a9ecef3d1ffaba43857932618141361">More...</a><br /></td></tr>
+<tr class="separator:a7a9ecef3d1ffaba43857932618141361"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31dfd257d360e633554fd3b1cf025844"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structmaliput__sparse_1_1parser_1_1_lane.html#a1bd314c1e2831d74056207533d890511">Id</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1parser_1_1_lane.html#a31dfd257d360e633554fd3b1cf025844">right_boundary_id</a></td></tr>
+<tr class="memdesc:a31dfd257d360e633554fd3b1cf025844"><td class="mdescLeft">&#160;</td><td class="mdescRight">The id of the lane boundary at the right side of this lane.  <a href="structmaliput__sparse_1_1parser_1_1_lane.html#a31dfd257d360e633554fd3b1cf025844">More...</a><br /></td></tr>
+<tr class="separator:a31dfd257d360e633554fd3b1cf025844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06de29660393047d2255789e3ed6e2f0"><td class="memItemLeft" align="right" valign="top">std::optional&lt; maliput::api::LaneType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1parser_1_1_lane.html#a06de29660393047d2255789e3ed6e2f0">lane_type</a></td></tr>
+<tr class="memdesc:a06de29660393047d2255789e3ed6e2f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of the lane (e.g., driving, shoulder, parking).  <a href="structmaliput__sparse_1_1parser_1_1_lane.html#a06de29660393047d2255789e3ed6e2f0">More...</a><br /></td></tr>
+<tr class="separator:a06de29660393047d2255789e3ed6e2f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b09c03ad7c8835db86f139a2b1340b4"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="structmaliput__sparse_1_1parser_1_1_lane.html#a1bd314c1e2831d74056207533d890511">Id</a>, <a class="el" href="structmaliput__sparse_1_1parser_1_1_lane_end.html">LaneEnd</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1parser_1_1_lane.html#a1b09c03ad7c8835db86f139a2b1340b4">successors</a></td></tr>
 <tr class="memdesc:a1b09c03ad7c8835db86f139a2b1340b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ids of the lanes that follow this lane.  <a href="structmaliput__sparse_1_1parser_1_1_lane.html#a1b09c03ad7c8835db86f139a2b1340b4">More...</a><br /></td></tr>
 <tr class="separator:a1b09c03ad7c8835db86f139a2b1340b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,6 +205,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a06de29660393047d2255789e3ed6e2f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06de29660393047d2255789e3ed6e2f0">&#9670;&nbsp;</a></span>lane_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;maliput::api::LaneType&gt; lane_type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The type of the lane (e.g., driving, shoulder, parking). </p>
+
+</div>
+</div>
 <a id="a4489e45dd81c4b358f735bfe53d759d8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4489e45dd81c4b358f735bfe53d759d8">&#9670;&nbsp;</a></span>left</h2>
 
@@ -209,6 +234,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The lane's left boundary. </p>
+
+</div>
+</div>
+<a id="a7a9ecef3d1ffaba43857932618141361"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a9ecef3d1ffaba43857932618141361">&#9670;&nbsp;</a></span>left_boundary_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;<a class="el" href="structmaliput__sparse_1_1parser_1_1_lane.html#a1bd314c1e2831d74056207533d890511">Id</a>&gt; left_boundary_id</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The id of the lane boundary at the left side of this lane. </p>
 
 </div>
 </div>
@@ -257,6 +298,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The lane's right boundary. </p>
+
+</div>
+</div>
+<a id="a31dfd257d360e633554fd3b1cf025844"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31dfd257d360e633554fd3b1cf025844">&#9670;&nbsp;</a></span>right_boundary_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;<a class="el" href="structmaliput__sparse_1_1parser_1_1_lane.html#a1bd314c1e2831d74056207533d890511">Id</a>&gt; right_boundary_id</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The id of the lane boundary at the right side of this lane. </p>
 
 </div>
 </div>

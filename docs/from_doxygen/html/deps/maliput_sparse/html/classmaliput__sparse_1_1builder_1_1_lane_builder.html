@@ -120,6 +120,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a71a72e665bff73a8bb7cb5a6c86050d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_geometry_builder.html">LaneGeometryBuilder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html#a71a72e665bff73a8bb7cb5a6c86050d3">StartLaneGeometry</a> ()</td></tr>
 <tr class="memdesc:a71a72e665bff73a8bb7cb5a6c86050d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the LaneGeometry builder for this <a class="el" href="classmaliput__sparse_1_1_lane.html">Lane</a>.  <a href="classmaliput__sparse_1_1builder_1_1_lane_builder.html#a71a72e665bff73a8bb7cb5a6c86050d3">More...</a><br /></td></tr>
 <tr class="separator:a71a72e665bff73a8bb7cb5a6c86050d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f5e51c7771985e68e9d4000ffaa1f43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html">LaneBuilder</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html#a8f5e51c7771985e68e9d4000ffaa1f43">LeftBoundaryId</a> (const maliput::api::LaneBoundary::Id &amp;boundary_id)</td></tr>
+<tr class="memdesc:a8f5e51c7771985e68e9d4000ffaa1f43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the boundary ID on the left side of this lane.  <a href="classmaliput__sparse_1_1builder_1_1_lane_builder.html#a8f5e51c7771985e68e9d4000ffaa1f43">More...</a><br /></td></tr>
+<tr class="separator:a8f5e51c7771985e68e9d4000ffaa1f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8870156a09038a0e449ca1d37671519f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html">LaneBuilder</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html#a8870156a09038a0e449ca1d37671519f">RightBoundaryId</a> (const maliput::api::LaneBoundary::Id &amp;boundary_id)</td></tr>
+<tr class="memdesc:a8870156a09038a0e449ca1d37671519f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the boundary ID on the right side of this lane.  <a href="classmaliput__sparse_1_1builder_1_1_lane_builder.html#a8870156a09038a0e449ca1d37671519f">More...</a><br /></td></tr>
+<tr class="separator:a8870156a09038a0e449ca1d37671519f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad2ff87e180ab8a1d6a8f1e7a88b3747"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html">LaneBuilder</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html#aad2ff87e180ab8a1d6a8f1e7a88b3747">LaneType</a> (maliput::api::LaneType lane_type)</td></tr>
+<tr class="memdesc:aad2ff87e180ab8a1d6a8f1e7a88b3747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the type of this lane (e.g., driving, shoulder, parking).  <a href="classmaliput__sparse_1_1builder_1_1_lane_builder.html#aad2ff87e180ab8a1d6a8f1e7a88b3747">More...</a><br /></td></tr>
+<tr class="separator:aad2ff87e180ab8a1d6a8f1e7a88b3747"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb405544f7c3599cf4c959c8ef56389e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput__sparse_1_1builder_1_1_segment_builder.html">SegmentBuilder</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html#aeb405544f7c3599cf4c959c8ef56389e">EndLane</a> ()</td></tr>
 <tr class="memdesc:aeb405544f7c3599cf4c959c8ef56389e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finalizes the construction process of this <a class="el" href="classmaliput__sparse_1_1_lane.html">Lane</a> by inserting the <a class="el" href="classmaliput__sparse_1_1_lane.html">Lane</a> into the parent <a class="el" href="classmaliput__sparse_1_1builder_1_1_segment_builder.html" title="Builder class for maliput::api::Segments.">SegmentBuilder</a>.  <a href="classmaliput__sparse_1_1builder_1_1_lane_builder.html#aeb405544f7c3599cf4c959c8ef56389e">More...</a><br /></td></tr>
 <tr class="separator:aeb405544f7c3599cf4c959c8ef56389e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,6 +255,87 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">lane_id</td><td>The maliput::api::LaneId. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to this <a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html" title="Builder class for maliput::api::Lanes.">LaneBuilder</a>. </dd></dl>
+
+</div>
+</div>
+<a id="aad2ff87e180ab8a1d6a8f1e7a88b3747"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad2ff87e180ab8a1d6a8f1e7a88b3747">&#9670;&nbsp;</a></span>LaneType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html">LaneBuilder</a> &amp; LaneType </td>
+          <td>(</td>
+          <td class="paramtype">maliput::api::LaneType&#160;</td>
+          <td class="paramname"><em>lane_type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the type of this lane (e.g., driving, shoulder, parking). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lane_type</td><td>The maliput::api::LaneType to set. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to this <a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html" title="Builder class for maliput::api::Lanes.">LaneBuilder</a>. </dd></dl>
+
+</div>
+</div>
+<a id="a8f5e51c7771985e68e9d4000ffaa1f43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f5e51c7771985e68e9d4000ffaa1f43">&#9670;&nbsp;</a></span>LeftBoundaryId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html">LaneBuilder</a> &amp; LeftBoundaryId </td>
+          <td>(</td>
+          <td class="paramtype">const maliput::api::LaneBoundary::Id &amp;&#160;</td>
+          <td class="paramname"><em>boundary_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the boundary ID on the left side of this lane. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">boundary_id</td><td>The boundary ID to set. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to this <a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html" title="Builder class for maliput::api::Lanes.">LaneBuilder</a>. </dd></dl>
+
+</div>
+</div>
+<a id="a8870156a09038a0e449ca1d37671519f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8870156a09038a0e449ca1d37671519f">&#9670;&nbsp;</a></span>RightBoundaryId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html">LaneBuilder</a> &amp; RightBoundaryId </td>
+          <td>(</td>
+          <td class="paramtype">const maliput::api::LaneBoundary::Id &amp;&#160;</td>
+          <td class="paramname"><em>boundary_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the boundary ID on the right side of this lane. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">boundary_id</td><td>The boundary ID to set. </td></tr>
   </table>
   </dd>
 </dl>

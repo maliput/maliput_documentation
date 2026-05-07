@@ -34,6 +34,10 @@ var files_dup =
     [ "src/base/lane.h", "src_2base_2lane_8h.html", [
       [ "Lane", "classmaliput__sparse_1_1_lane.html", "classmaliput__sparse_1_1_lane" ]
     ] ],
+    [ "lane_boundary.cc", "lane__boundary_8cc.html", null ],
+    [ "lane_boundary.h", "lane__boundary_8h.html", [
+      [ "LaneBoundary", "classmaliput__sparse_1_1_lane_boundary.html", "classmaliput__sparse_1_1_lane_boundary" ]
+    ] ],
     [ "lane_geometry.cc", "lane__geometry_8cc.html", null ],
     [ "lane_geometry.h", "lane__geometry_8h.html", [
       [ "LaneGeometry", "classmaliput__sparse_1_1geometry_1_1_lane_geometry.html", "classmaliput__sparse_1_1geometry_1_1_lane_geometry" ]

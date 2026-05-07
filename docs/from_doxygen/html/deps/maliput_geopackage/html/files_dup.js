@@ -4,7 +4,7 @@ var files_dup =
     [ "builder_configuration.h", "builder__configuration_8h.html", [
       [ "BuilderConfiguration", "structmaliput__geopackage_1_1builder_1_1_builder_configuration.html", "structmaliput__geopackage_1_1builder_1_1_builder_configuration" ]
     ] ],
-    [ "geopackage_manager.cc", "geopackage__manager_8cc.html", null ],
+    [ "geopackage_manager.cc", "geopackage__manager_8cc.html", "geopackage__manager_8cc" ],
     [ "geopackage_manager.h", "geopackage__manager_8h.html", [
       [ "GeoPackageManager", "classmaliput__geopackage_1_1geopackage_1_1_geo_package_manager.html", "classmaliput__geopackage_1_1geopackage_1_1_geo_package_manager" ]
     ] ],

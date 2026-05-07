@@ -89,7 +89,8 @@ $(document).ready(function(){initNavTree('namespacemaliput__geopackage_1_1geopac
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">maliput_geopackage::geopackage Namespace Reference</div>  </div>
 </div><!--header-->
@@ -124,7 +125,49 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_speed_limit.html">GPKGSpeedLimit</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Speed limits table containing speed limit rules for lanes in the road network.  <a href="structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_speed_limit.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ad6193ea7edec1473afb7e658c4aec1b2"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33">maliput::api::LaneType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__geopackage_1_1geopackage.html#ad6193ea7edec1473afb7e658c4aec1b2">StringToLaneType</a> (const std::string &amp;lane_type_string)</td></tr>
+<tr class="memdesc:ad6193ea7edec1473afb7e658c4aec1b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert GeoPackage lane_type string to <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33">maliput::api::LaneType</a> enum.  <a href="namespacemaliput__geopackage_1_1geopackage.html#ad6193ea7edec1473afb7e658c4aec1b2">More...</a><br /></td></tr>
+<tr class="separator:ad6193ea7edec1473afb7e658c4aec1b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ad6193ea7edec1473afb7e658c4aec1b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6193ea7edec1473afb7e658c4aec1b2">&#9670;&nbsp;</a></span>StringToLaneType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::optional&lt;<a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33">maliput::api::LaneType</a>&gt; maliput_geopackage::geopackage::StringToLaneType </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>lane_type_string</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert GeoPackage lane_type string to <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33">maliput::api::LaneType</a> enum. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lane_type_string</td><td>The string value from the GeoPackage database (e.g., "driving", "shoulder"). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The corresponding <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33">maliput::api::LaneType</a>, or std::nullopt if the string is unknown. </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.15 -->
