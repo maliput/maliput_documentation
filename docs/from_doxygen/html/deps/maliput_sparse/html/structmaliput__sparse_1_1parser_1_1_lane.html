@@ -139,6 +139,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a06de29660393047d2255789e3ed6e2f0"><td class="memItemLeft" align="right" valign="top">std::optional&lt; maliput::api::LaneType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1parser_1_1_lane.html#a06de29660393047d2255789e3ed6e2f0">lane_type</a></td></tr>
 <tr class="memdesc:a06de29660393047d2255789e3ed6e2f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of the lane (e.g., driving, shoulder, parking).  <a href="structmaliput__sparse_1_1parser_1_1_lane.html#a06de29660393047d2255789e3ed6e2f0">More...</a><br /></td></tr>
 <tr class="separator:a06de29660393047d2255789e3ed6e2f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d0b3b7f71e6c3cd6fee27fcedaeae91"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structmaliput__sparse_1_1parser_1_1_boundary_markings.html">BoundaryMarkings</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1parser_1_1_lane.html#a7d0b3b7f71e6c3cd6fee27fcedaeae91">left_boundary_markings</a></td></tr>
+<tr class="memdesc:a7d0b3b7f71e6c3cd6fee27fcedaeae91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Markings associated with this lane's left boundary.  <a href="structmaliput__sparse_1_1parser_1_1_lane.html#a7d0b3b7f71e6c3cd6fee27fcedaeae91">More...</a><br /></td></tr>
+<tr class="separator:a7d0b3b7f71e6c3cd6fee27fcedaeae91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6e0765ff30efa9881bb6bdbc789e42c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structmaliput__sparse_1_1parser_1_1_boundary_markings.html">BoundaryMarkings</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1parser_1_1_lane.html#ad6e0765ff30efa9881bb6bdbc789e42c">right_boundary_markings</a></td></tr>
+<tr class="memdesc:ad6e0765ff30efa9881bb6bdbc789e42c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Markings associated with this lane's right boundary.  <a href="structmaliput__sparse_1_1parser_1_1_lane.html#ad6e0765ff30efa9881bb6bdbc789e42c">More...</a><br /></td></tr>
+<tr class="separator:ad6e0765ff30efa9881bb6bdbc789e42c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b09c03ad7c8835db86f139a2b1340b4"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="structmaliput__sparse_1_1parser_1_1_lane.html#a1bd314c1e2831d74056207533d890511">Id</a>, <a class="el" href="structmaliput__sparse_1_1parser_1_1_lane_end.html">LaneEnd</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__sparse_1_1parser_1_1_lane.html#a1b09c03ad7c8835db86f139a2b1340b4">successors</a></td></tr>
 <tr class="memdesc:a1b09c03ad7c8835db86f139a2b1340b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ids of the lanes that follow this lane.  <a href="structmaliput__sparse_1_1parser_1_1_lane.html#a1b09c03ad7c8835db86f139a2b1340b4">More...</a><br /></td></tr>
 <tr class="separator:a1b09c03ad7c8835db86f139a2b1340b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -253,6 +259,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a7d0b3b7f71e6c3cd6fee27fcedaeae91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d0b3b7f71e6c3cd6fee27fcedaeae91">&#9670;&nbsp;</a></span>left_boundary_markings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="structmaliput__sparse_1_1parser_1_1_boundary_markings.html">BoundaryMarkings</a>&gt; left_boundary_markings</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Markings associated with this lane's left boundary. </p>
+
+</div>
+</div>
 <a id="a0a8d9725ff0aace01b8e492242abbfc2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0a8d9725ff0aace01b8e492242abbfc2">&#9670;&nbsp;</a></span>left_lane_id</h2>
 
@@ -314,6 +336,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The id of the lane boundary at the right side of this lane. </p>
+
+</div>
+</div>
+<a id="ad6e0765ff30efa9881bb6bdbc789e42c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6e0765ff30efa9881bb6bdbc789e42c">&#9670;&nbsp;</a></span>right_boundary_markings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="structmaliput__sparse_1_1parser_1_1_boundary_markings.html">BoundaryMarkings</a>&gt; right_boundary_markings</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Markings associated with this lane's right boundary. </p>
 
 </div>
 </div>

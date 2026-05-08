@@ -31,6 +31,34 @@
       <anchor>ad6193ea7edec1473afb7e658c4aec1b2</anchor>
       <arglist>(const std::string &amp;lane_type_string)</arglist>
     </member>
+    <member kind="function" static="yes">
+      <type>static maliput::api::LaneMarkingType</type>
+      <name>StringToMarkingType</name>
+      <anchorfile>namespacemaliput__geopackage_1_1geopackage.html</anchorfile>
+      <anchor>adf1ee439af05bb1e063e32f63421dc85</anchor>
+      <arglist>(const std::string &amp;type_str)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static maliput::api::LaneMarkingColor</type>
+      <name>StringToMarkingColor</name>
+      <anchorfile>namespacemaliput__geopackage_1_1geopackage.html</anchorfile>
+      <anchor>a95016f34134abe56b06b3e4974320ef0</anchor>
+      <arglist>(const std::string &amp;color_str)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static maliput::api::LaneMarkingWeight</type>
+      <name>StringToMarkingWeight</name>
+      <anchorfile>namespacemaliput__geopackage_1_1geopackage.html</anchorfile>
+      <anchor>a542044304eee6ee73b61c769f7a6c84a</anchor>
+      <arglist>(const std::string &amp;weight_str)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static maliput::api::LaneChangePermission</type>
+      <name>StringToLaneChangePermission</name>
+      <anchorfile>namespacemaliput__geopackage_1_1geopackage.html</anchorfile>
+      <anchor>adb461d4a62c56440bc6867c33b1cfb0f</anchor>
+      <arglist>(const std::string &amp;rule_str)</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>geopackage_manager.h</name>
@@ -61,6 +89,8 @@
     <class kind="struct">maliput_geopackage::geopackage::GPKGBranchPointLane</class>
     <class kind="struct">maliput_geopackage::geopackage::GPKGAdjacentLane</class>
     <class kind="struct">maliput_geopackage::geopackage::GPKGSpeedLimit</class>
+    <class kind="struct">maliput_geopackage::geopackage::GPKGLaneMarkingLine</class>
+    <class kind="struct">maliput_geopackage::geopackage::GPKGLaneMarking</class>
     <class kind="class">maliput_geopackage::geopackage::GeoPackageParser</class>
     <namespace>maliput_geopackage</namespace>
     <namespace>maliput_geopackage::geopackage</namespace>
@@ -292,6 +322,13 @@
       <anchor>a15b7a9547dcc0c5d77ef92ec5a2acd88</anchor>
       <arglist>() const</arglist>
     </member>
+    <member kind="function">
+      <type>const std::unordered_map&lt; std::string, std::vector&lt; maliput_sparse::parser::BoundaryMarkings &gt; &gt; &amp;</type>
+      <name>GetMarkings</name>
+      <anchorfile>classmaliput__geopackage_1_1geopackage_1_1_geo_package_manager.html</anchorfile>
+      <anchor>a5cf883288f46e2c01b92bb090491d179</anchor>
+      <arglist>() const</arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>maliput_geopackage::geopackage::GeoPackageParser</name>
@@ -364,6 +401,13 @@
       <name>GetSpeedLimits</name>
       <anchorfile>classmaliput__geopackage_1_1geopackage_1_1_geo_package_parser.html</anchorfile>
       <anchor>a28fa7f0917bb5d67668c428c1cde0b6c</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::unordered_map&lt; std::string, std::vector&lt; GPKGLaneMarking &gt; &gt; &amp;</type>
+      <name>GetMarkings</name>
+      <anchorfile>classmaliput__geopackage_1_1geopackage_1_1_geo_package_parser.html</anchorfile>
+      <anchor>a201f6fbae08c0a5a23c23147b1d0d14c</anchor>
       <arglist>() const</arglist>
     </member>
   </compound>
@@ -482,6 +526,126 @@
       <name>geometry</name>
       <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_boundary.html</anchorfile>
       <anchor>a3a9580e92626d5cd6a1a25892192c966</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput_geopackage::geopackage::GPKGLaneMarking</name>
+    <filename>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking.html</filename>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>boundary_id</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking.html</anchorfile>
+      <anchor>a318220655824787beb077cad1fe8a27f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>s_start</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking.html</anchorfile>
+      <anchor>a181f9ba4c336788bf6ac1136e3d1a05d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>s_end</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking.html</anchorfile>
+      <anchor>aa4c69b5d45ee7ba08d02a9d3e2d086ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>marking_type</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking.html</anchorfile>
+      <anchor>a7ba8b97fa57a9aa1a8d5c296eb73af2e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>color</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking.html</anchorfile>
+      <anchor>a286458e87b84711bd8f3d7d803aafcf1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>weight</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking.html</anchorfile>
+      <anchor>aa462e27101719170ef036d0ec155cf0d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>width</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking.html</anchorfile>
+      <anchor>a179f80dec0db432a69164a1a48b6c582</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>height</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking.html</anchorfile>
+      <anchor>a83a966980e67f0d7b00a81960f454fdd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>material</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking.html</anchorfile>
+      <anchor>a22c8d4491d9c4aa32bec4d1c803ec09d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>lane_change_rule</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking.html</anchorfile>
+      <anchor>a8e43133b13c99d67024a17ac8553d084</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; GPKGLaneMarkingLine &gt;</type>
+      <name>lines</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking.html</anchorfile>
+      <anchor>ab9cde950b4665c396eda18b67934f14c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput_geopackage::geopackage::GPKGLaneMarkingLine</name>
+    <filename>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking_line.html</filename>
+    <member kind="variable">
+      <type>double</type>
+      <name>length</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking_line.html</anchorfile>
+      <anchor>a928b11f5716331f0b89abe7d8d4124b4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>space</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking_line.html</anchorfile>
+      <anchor>af1dc913ff692663f7d082134e97db7ce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>width</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking_line.html</anchorfile>
+      <anchor>a9df23e056f5d1a0388cd8190431c0e03</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>r_offset</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking_line.html</anchorfile>
+      <anchor>ae729af6556ad3d6e43f3e90ef20ede2c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>color</name>
+      <anchorfile>structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking_line.html</anchorfile>
+      <anchor>a286458e87b84711bd8f3d7d803aafcf1</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -831,6 +995,8 @@
     <class kind="struct">maliput_geopackage::geopackage::GPKGJunction</class>
     <class kind="struct">maliput_geopackage::geopackage::GPKGLane</class>
     <class kind="struct">maliput_geopackage::geopackage::GPKGLaneBoundary</class>
+    <class kind="struct">maliput_geopackage::geopackage::GPKGLaneMarking</class>
+    <class kind="struct">maliput_geopackage::geopackage::GPKGLaneMarkingLine</class>
     <class kind="struct">maliput_geopackage::geopackage::GPKGSegment</class>
     <class kind="struct">maliput_geopackage::geopackage::GPKGSpeedLimit</class>
     <member kind="function" static="yes">
@@ -839,6 +1005,34 @@
       <anchorfile>namespacemaliput__geopackage_1_1geopackage.html</anchorfile>
       <anchor>ad6193ea7edec1473afb7e658c4aec1b2</anchor>
       <arglist>(const std::string &amp;lane_type_string)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static maliput::api::LaneMarkingType</type>
+      <name>StringToMarkingType</name>
+      <anchorfile>namespacemaliput__geopackage_1_1geopackage.html</anchorfile>
+      <anchor>adf1ee439af05bb1e063e32f63421dc85</anchor>
+      <arglist>(const std::string &amp;type_str)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static maliput::api::LaneMarkingColor</type>
+      <name>StringToMarkingColor</name>
+      <anchorfile>namespacemaliput__geopackage_1_1geopackage.html</anchorfile>
+      <anchor>a95016f34134abe56b06b3e4974320ef0</anchor>
+      <arglist>(const std::string &amp;color_str)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static maliput::api::LaneMarkingWeight</type>
+      <name>StringToMarkingWeight</name>
+      <anchorfile>namespacemaliput__geopackage_1_1geopackage.html</anchorfile>
+      <anchor>a542044304eee6ee73b61c769f7a6c84a</anchor>
+      <arglist>(const std::string &amp;weight_str)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static maliput::api::LaneChangePermission</type>
+      <name>StringToLaneChangePermission</name>
+      <anchorfile>namespacemaliput__geopackage_1_1geopackage.html</anchorfile>
+      <anchor>adb461d4a62c56440bc6867c33b1cfb0f</anchor>
+      <arglist>(const std::string &amp;rule_str)</arglist>
     </member>
   </compound>
   <compound kind="namespace">

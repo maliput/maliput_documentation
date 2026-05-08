@@ -89,6 +89,7 @@ $(document).ready(function(){initNavTree('classmaliput__sparse_1_1_lane_boundary
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classmaliput__sparse_1_1_lane_boundary-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -106,15 +107,15 @@ Inheritance diagram for LaneBoundary:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af3ab4adb8cab7992e066f473cd61befe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1_lane_boundary.html#af3ab4adb8cab7992e066f473cd61befe">LaneBoundary</a> (const maliput::api::LaneBoundary::Id &amp;id, const maliput::api::Lane *lane_to_left, const maliput::api::Lane *lane_to_right)</td></tr>
-<tr class="memdesc:af3ab4adb8cab7992e066f473cd61befe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmaliput__sparse_1_1_lane_boundary.html">LaneBoundary</a> for the sparse backend.  <a href="classmaliput__sparse_1_1_lane_boundary.html#af3ab4adb8cab7992e066f473cd61befe">More...</a><br /></td></tr>
-<tr class="separator:af3ab4adb8cab7992e066f473cd61befe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a948a7b3be2d84d6087d3d759a0befeba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1_lane_boundary.html#a948a7b3be2d84d6087d3d759a0befeba">LaneBoundary</a> (const maliput::api::LaneBoundary::Id &amp;id, const maliput::api::Lane *lane_to_left, const maliput::api::Lane *lane_to_right, const std::vector&lt; <a class="el" href="structmaliput__sparse_1_1parser_1_1_boundary_markings.html">parser::BoundaryMarkings</a> &gt; &amp;markings={})</td></tr>
+<tr class="memdesc:a948a7b3be2d84d6087d3d759a0befeba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmaliput__sparse_1_1_lane_boundary.html">LaneBoundary</a> for the sparse backend.  <a href="classmaliput__sparse_1_1_lane_boundary.html#a948a7b3be2d84d6087d3d759a0befeba">More...</a><br /></td></tr>
+<tr class="separator:a948a7b3be2d84d6087d3d759a0befeba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba265ccabfd8fcc754dc6900c43c96c6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1_lane_boundary.html#aba265ccabfd8fcc754dc6900c43c96c6">~LaneBoundary</a> () override=default</td></tr>
 <tr class="separator:aba265ccabfd8fcc754dc6900c43c96c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af3ab4adb8cab7992e066f473cd61befe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3ab4adb8cab7992e066f473cd61befe">&#9670;&nbsp;</a></span>LaneBoundary()</h2>
+<a id="a948a7b3be2d84d6087d3d759a0befeba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a948a7b3be2d84d6087d3d759a0befeba">&#9670;&nbsp;</a></span>LaneBoundary()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -135,7 +136,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const maliput::api::Lane *&#160;</td>
-          <td class="paramname"><em>lane_to_right</em>&#160;</td>
+          <td class="paramname"><em>lane_to_right</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structmaliput__sparse_1_1parser_1_1_boundary_markings.html">parser::BoundaryMarkings</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>markings</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -150,7 +157,8 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">id</td><td>The unique identifier for this boundary. </td></tr>
     <tr><td class="paramname">lane_to_left</td><td>The lane on the +r side, or nullptr for the leftmost boundary. </td></tr>
-    <tr><td class="paramname">lane_to_right</td><td>The lane on the -r side, or nullptr for the rightmost boundary.</td></tr>
+    <tr><td class="paramname">lane_to_right</td><td>The lane on the -r side, or nullptr for the rightmost boundary. </td></tr>
+    <tr><td class="paramname">markings</td><td>Optional marking data for this boundary, sorted by s_start.</td></tr>
   </table>
   </dd>
 </dl>

@@ -45,6 +45,7 @@
     <filename>builder_8h.html</filename>
     <includes id="lane__geometry_8h" name="lane_geometry.h" local="yes" imported="no">maliput_sparse/geometry/lane_geometry.h</includes>
     <includes id="line__string_8h" name="line_string.h" local="yes" imported="no">maliput_sparse/geometry/line_string.h</includes>
+    <includes id="lane__marking_8h" name="lane_marking.h" local="yes" imported="no">maliput_sparse/parser/lane_marking.h</includes>
     <class kind="class">maliput_sparse::builder::details::NestedBuilder</class>
     <class kind="class">maliput_sparse::builder::LaneGeometryBuilder</class>
     <class kind="class">maliput_sparse::builder::LaneBuilder</class>
@@ -471,6 +472,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/include/maliput_sparse/parser/</path>
     <filename>include_2maliput__sparse_2parser_2lane_8h.html</filename>
     <includes id="line__string_8h" name="line_string.h" local="yes" imported="no">maliput_sparse/geometry/line_string.h</includes>
+    <includes id="lane__marking_8h" name="lane_marking.h" local="yes" imported="no">maliput_sparse/parser/lane_marking.h</includes>
     <class kind="struct">maliput_sparse::parser::LaneEnd</class>
     <class kind="struct">maliput_sparse::parser::Lane</class>
     <namespace>maliput_sparse</namespace>
@@ -495,6 +497,7 @@
     <name>lane_boundary.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/src/base/</path>
     <filename>lane__boundary_8h.html</filename>
+    <includes id="lane__marking_8h" name="lane_marking.h" local="yes" imported="no">maliput_sparse/parser/lane_marking.h</includes>
     <class kind="class">maliput_sparse::LaneBoundary</class>
     <namespace>maliput_sparse</namespace>
   </compound>
@@ -515,6 +518,16 @@
     <class kind="class">maliput_sparse::geometry::LaneGeometry</class>
     <namespace>maliput_sparse</namespace>
     <namespace>maliput_sparse::geometry</namespace>
+  </compound>
+  <compound kind="file">
+    <name>lane_marking.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_sparse/include/maliput_sparse/parser/</path>
+    <filename>lane__marking_8h.html</filename>
+    <class kind="struct">maliput_sparse::parser::LaneMarkingLine</class>
+    <class kind="struct">maliput_sparse::parser::LaneMarking</class>
+    <class kind="struct">maliput_sparse::parser::BoundaryMarkings</class>
+    <namespace>maliput_sparse</namespace>
+    <namespace>maliput_sparse::parser</namespace>
   </compound>
   <compound kind="file">
     <name>line_string.cc</name>
@@ -706,6 +719,45 @@
       <anchorfile>namespacemaliput__sparse_1_1parser.html</anchorfile>
       <anchor>a95d2c2d580103b4a12935f09ab0ac993</anchor>
       <arglist>(std::ostream &amp;os, const Validator::Type &amp;type)</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput_sparse::parser::BoundaryMarkings</name>
+    <filename>structmaliput__sparse_1_1parser_1_1_boundary_markings.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_boundary_markings.html</anchorfile>
+      <anchor>a017d0e6acea3f618c1821314f01e0646</anchor>
+      <arglist>(const BoundaryMarkings &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_boundary_markings.html</anchorfile>
+      <anchor>a9cee8e6581de890ab229b156e4fe5090</anchor>
+      <arglist>(const BoundaryMarkings &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>s_start</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_boundary_markings.html</anchorfile>
+      <anchor>a181f9ba4c336788bf6ac1136e3d1a05d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>s_end</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_boundary_markings.html</anchorfile>
+      <anchor>aa4c69b5d45ee7ba08d02a9d3e2d086ff</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>LaneMarking</type>
+      <name>marking</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_boundary_markings.html</anchorfile>
+      <anchor>a98b06ac7a364f7dd78b7dab1966fa0d3</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -1109,52 +1161,6 @@
       <arglist>(maliput::common::Passkey&lt; SegmentBuilder &gt;, std::unique_ptr&lt; maliput::geometry_base::Segment &gt; segment)</arglist>
     </member>
   </compound>
-  <compound kind="class">
-    <name>maliput_sparse::Lane</name>
-    <filename>classmaliput__sparse_1_1_lane.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
-      <anchor>a99b7649e8342fe7c216553e0a8476d77</anchor>
-      <arglist>(Lane)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>Lane</name>
-      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
-      <anchor>af34df15c7e615d3d1d5c69acdbfdab02</anchor>
-      <arglist>(const maliput::api::LaneId &amp;id, const maliput::api::HBounds &amp;elevation_bounds, std::unique_ptr&lt; geometry::LaneGeometry &gt; lane_geometry, const std::optional&lt; maliput::api::LaneType &gt; &amp;lane_type=std::nullopt)</arglist>
-    </member>
-    <member kind="function">
-      <type>maliput::math::Vector3</type>
-      <name>ToBackendPosition</name>
-      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
-      <anchor>a9acb8c60c4af9a1293bac003a25acee6</anchor>
-      <arglist>(const maliput::api::LanePosition &amp;lane_pos) const</arglist>
-    </member>
-    <member kind="function">
-      <type>maliput::api::LanePositionResult</type>
-      <name>ToLanePositionBackend</name>
-      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
-      <anchor>a1e4fc945e4485af4132fb34e5a66e73f</anchor>
-      <arglist>(const maliput::api::InertialPosition &amp;backend_pos) const</arglist>
-    </member>
-    <member kind="function">
-      <type>maliput::api::LanePositionResult</type>
-      <name>ToSegmentPositionBackend</name>
-      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
-      <anchor>ad83a5e987a6672efaf8763f4731c3c6f</anchor>
-      <arglist>(const maliput::api::InertialPosition &amp;backend_pos) const</arglist>
-    </member>
-    <member kind="function">
-      <type>const geometry::LaneGeometry *</type>
-      <name>lane_geometry</name>
-      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
-      <anchor>a8a10cd9aabcb28f54d31646e2aebd015</anchor>
-      <arglist>() const</arglist>
-    </member>
-  </compound>
   <compound kind="struct">
     <name>maliput_sparse::parser::Lane</name>
     <filename>structmaliput__sparse_1_1parser_1_1_lane.html</filename>
@@ -1229,6 +1235,20 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
+      <type>std::vector&lt; BoundaryMarkings &gt;</type>
+      <name>left_boundary_markings</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane.html</anchorfile>
+      <anchor>a7d0b3b7f71e6c3cd6fee27fcedaeae91</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; BoundaryMarkings &gt;</type>
+      <name>right_boundary_markings</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane.html</anchorfile>
+      <anchor>ad6e0765ff30efa9881bb6bdbc789e42c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
       <type>std::unordered_map&lt; Id, LaneEnd &gt;</type>
       <name>successors</name>
       <anchorfile>structmaliput__sparse_1_1parser_1_1_lane.html</anchorfile>
@@ -1244,14 +1264,60 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput_sparse::Lane</name>
+    <filename>classmaliput__sparse_1_1_lane.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
+      <anchor>a99b7649e8342fe7c216553e0a8476d77</anchor>
+      <arglist>(Lane)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>Lane</name>
+      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
+      <anchor>af34df15c7e615d3d1d5c69acdbfdab02</anchor>
+      <arglist>(const maliput::api::LaneId &amp;id, const maliput::api::HBounds &amp;elevation_bounds, std::unique_ptr&lt; geometry::LaneGeometry &gt; lane_geometry, const std::optional&lt; maliput::api::LaneType &gt; &amp;lane_type=std::nullopt)</arglist>
+    </member>
+    <member kind="function">
+      <type>maliput::math::Vector3</type>
+      <name>ToBackendPosition</name>
+      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
+      <anchor>a9acb8c60c4af9a1293bac003a25acee6</anchor>
+      <arglist>(const maliput::api::LanePosition &amp;lane_pos) const</arglist>
+    </member>
+    <member kind="function">
+      <type>maliput::api::LanePositionResult</type>
+      <name>ToLanePositionBackend</name>
+      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
+      <anchor>a1e4fc945e4485af4132fb34e5a66e73f</anchor>
+      <arglist>(const maliput::api::InertialPosition &amp;backend_pos) const</arglist>
+    </member>
+    <member kind="function">
+      <type>maliput::api::LanePositionResult</type>
+      <name>ToSegmentPositionBackend</name>
+      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
+      <anchor>ad83a5e987a6672efaf8763f4731c3c6f</anchor>
+      <arglist>(const maliput::api::InertialPosition &amp;backend_pos) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const geometry::LaneGeometry *</type>
+      <name>lane_geometry</name>
+      <anchorfile>classmaliput__sparse_1_1_lane.html</anchorfile>
+      <anchor>a8a10cd9aabcb28f54d31646e2aebd015</anchor>
+      <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput_sparse::LaneBoundary</name>
     <filename>classmaliput__sparse_1_1_lane_boundary.html</filename>
     <member kind="function">
       <type></type>
       <name>LaneBoundary</name>
       <anchorfile>classmaliput__sparse_1_1_lane_boundary.html</anchorfile>
-      <anchor>af3ab4adb8cab7992e066f473cd61befe</anchor>
-      <arglist>(const maliput::api::LaneBoundary::Id &amp;id, const maliput::api::Lane *lane_to_left, const maliput::api::Lane *lane_to_right)</arglist>
+      <anchor>a948a7b3be2d84d6087d3d759a0befeba</anchor>
+      <arglist>(const maliput::api::LaneBoundary::Id &amp;id, const maliput::api::Lane *lane_to_left, const maliput::api::Lane *lane_to_right, const std::vector&lt; parser::BoundaryMarkings &gt; &amp;markings={})</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -1313,6 +1379,20 @@
       <anchorfile>classmaliput__sparse_1_1builder_1_1_lane_builder.html</anchorfile>
       <anchor>aad2ff87e180ab8a1d6a8f1e7a88b3747</anchor>
       <arglist>(maliput::api::LaneType lane_type)</arglist>
+    </member>
+    <member kind="function">
+      <type>LaneBuilder &amp;</type>
+      <name>LeftBoundaryMarkings</name>
+      <anchorfile>classmaliput__sparse_1_1builder_1_1_lane_builder.html</anchorfile>
+      <anchor>a18bf7a5753202c0f6a0a4691d180feb4</anchor>
+      <arglist>(const std::vector&lt; parser::BoundaryMarkings &gt; &amp;markings)</arglist>
+    </member>
+    <member kind="function">
+      <type>LaneBuilder &amp;</type>
+      <name>RightBoundaryMarkings</name>
+      <anchorfile>classmaliput__sparse_1_1builder_1_1_lane_builder.html</anchorfile>
+      <anchor>ac9b8c8ec215296e7616c111e8465d3ee</anchor>
+      <arglist>(const std::vector&lt; parser::BoundaryMarkings &gt; &amp;markings)</arglist>
     </member>
     <member kind="function">
       <type>SegmentBuilder &amp;</type>
@@ -1615,6 +1695,133 @@
       <anchorfile>classmaliput__sparse_1_1builder_1_1_lane_geometry_builder.html</anchorfile>
       <anchor>ac4691e68c39548c2ea32594f9ec72de7</anchor>
       <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput_sparse::parser::LaneMarking</name>
+    <filename>structmaliput__sparse_1_1parser_1_1_lane_marking.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_marking.html</anchorfile>
+      <anchor>a1e3ff993b7aaed9a7778e4f0c11f1859</anchor>
+      <arglist>(const LaneMarking &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_marking.html</anchorfile>
+      <anchor>a02b8d821f2f6ea4c7ecbca8ab2baceae</anchor>
+      <arglist>(const LaneMarking &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>maliput::api::LaneMarkingType</type>
+      <name>type</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_marking.html</anchorfile>
+      <anchor>a493313c7a07f02e6761de9705f02a50e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>maliput::api::LaneMarkingColor</type>
+      <name>color</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_marking.html</anchorfile>
+      <anchor>a4f256f9a60b17c5303663c33c1d6966c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>maliput::api::LaneMarkingWeight</type>
+      <name>weight</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_marking.html</anchorfile>
+      <anchor>a86a0e4135599148bd671b21a4127a09e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>width</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_marking.html</anchorfile>
+      <anchor>a179f80dec0db432a69164a1a48b6c582</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>height</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_marking.html</anchorfile>
+      <anchor>a83a966980e67f0d7b00a81960f454fdd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>material</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_marking.html</anchorfile>
+      <anchor>a22c8d4491d9c4aa32bec4d1c803ec09d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>maliput::api::LaneChangePermission</type>
+      <name>lane_change</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_marking.html</anchorfile>
+      <anchor>a0678b8493052f5b86196edc48a35f79f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; LaneMarkingLine &gt;</type>
+      <name>lines</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_marking.html</anchorfile>
+      <anchor>a8ff454ba39200d317578f6ecc6bbc486</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput_sparse::parser::LaneMarkingLine</name>
+    <filename>structmaliput__sparse_1_1parser_1_1_lane_marking_line.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_marking_line.html</anchorfile>
+      <anchor>a0dca91128b9c3e536b6d1734ae77d0b4</anchor>
+      <arglist>(const LaneMarkingLine &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_marking_line.html</anchorfile>
+      <anchor>a0227c6f546fd325018be8768625f73f1</anchor>
+      <arglist>(const LaneMarkingLine &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>length</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_marking_line.html</anchorfile>
+      <anchor>a928b11f5716331f0b89abe7d8d4124b4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>space</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_marking_line.html</anchorfile>
+      <anchor>af1dc913ff692663f7d082134e97db7ce</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>width</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_marking_line.html</anchorfile>
+      <anchor>a9df23e056f5d1a0388cd8190431c0e03</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>r_offset</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_marking_line.html</anchorfile>
+      <anchor>ae729af6556ad3d6e43f3e90ef20ede2c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>maliput::api::LaneMarkingColor</type>
+      <name>color</name>
+      <anchorfile>structmaliput__sparse_1_1parser_1_1_lane_marking_line.html</anchorfile>
+      <anchor>a4f256f9a60b17c5303663c33c1d6966c</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -2433,8 +2640,8 @@
       <type>void</type>
       <name>SetLane</name>
       <anchorfile>classmaliput__sparse_1_1builder_1_1_segment_builder.html</anchorfile>
-      <anchor>ad6d4a0e6936525238149bfc023ecd659</anchor>
-      <arglist>(maliput::common::Passkey&lt; LaneBuilder &gt;, std::unique_ptr&lt; maliput::geometry_base::Lane &gt; lane, const std::optional&lt; maliput::api::LaneBoundary::Id &gt; &amp;left_boundary_id, const std::optional&lt; maliput::api::LaneBoundary::Id &gt; &amp;right_boundary_id, const std::optional&lt; maliput::api::LaneType &gt; &amp;lane_type)</arglist>
+      <anchor>a028b83815c69eab6dc73c3b040991a56</anchor>
+      <arglist>(maliput::common::Passkey&lt; LaneBuilder &gt;, std::unique_ptr&lt; maliput::geometry_base::Lane &gt; lane, const std::optional&lt; maliput::api::LaneBoundary::Id &gt; &amp;left_boundary_id, const std::optional&lt; maliput::api::LaneBoundary::Id &gt; &amp;right_boundary_id, const std::optional&lt; maliput::api::LaneType &gt; &amp;lane_type, const std::vector&lt; parser::BoundaryMarkings &gt; &amp;left_boundary_markings={}, const std::vector&lt; parser::BoundaryMarkings &gt; &amp;right_boundary_markings={})</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -2806,10 +3013,13 @@
   <compound kind="namespace">
     <name>maliput_sparse::parser</name>
     <filename>namespacemaliput__sparse_1_1parser.html</filename>
+    <class kind="struct">maliput_sparse::parser::BoundaryMarkings</class>
     <class kind="struct">maliput_sparse::parser::Connection</class>
     <class kind="struct">maliput_sparse::parser::Junction</class>
     <class kind="struct">maliput_sparse::parser::Lane</class>
     <class kind="struct">maliput_sparse::parser::LaneEnd</class>
+    <class kind="struct">maliput_sparse::parser::LaneMarking</class>
+    <class kind="struct">maliput_sparse::parser::LaneMarkingLine</class>
     <class kind="class">maliput_sparse::parser::Parser</class>
     <class kind="struct">maliput_sparse::parser::Segment</class>
     <class kind="class">maliput_sparse::parser::Validator</class>

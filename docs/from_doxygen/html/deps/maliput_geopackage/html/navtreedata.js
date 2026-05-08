@@ -50,7 +50,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+"annotated.html",
+"structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking.html#ab9cde950b4665c396eda18b67934f14c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

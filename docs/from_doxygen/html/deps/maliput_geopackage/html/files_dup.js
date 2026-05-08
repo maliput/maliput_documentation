@@ -17,6 +17,8 @@ var files_dup =
       [ "GPKGBranchPointLane", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_branch_point_lane.html", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_branch_point_lane" ],
       [ "GPKGAdjacentLane", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_adjacent_lane.html", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_adjacent_lane" ],
       [ "GPKGSpeedLimit", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_speed_limit.html", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_speed_limit" ],
+      [ "GPKGLaneMarkingLine", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking_line.html", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking_line" ],
+      [ "GPKGLaneMarking", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking.html", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking" ],
       [ "GeoPackageParser", "classmaliput__geopackage_1_1geopackage_1_1_geo_package_parser.html", "classmaliput__geopackage_1_1geopackage_1_1_geo_package_parser" ]
     ] ],
     [ "params.h", "params_8h.html", "params_8h" ],

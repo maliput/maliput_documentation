@@ -129,6 +129,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aad2ff87e180ab8a1d6a8f1e7a88b3747"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html">LaneBuilder</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html#aad2ff87e180ab8a1d6a8f1e7a88b3747">LaneType</a> (maliput::api::LaneType lane_type)</td></tr>
 <tr class="memdesc:aad2ff87e180ab8a1d6a8f1e7a88b3747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the type of this lane (e.g., driving, shoulder, parking).  <a href="classmaliput__sparse_1_1builder_1_1_lane_builder.html#aad2ff87e180ab8a1d6a8f1e7a88b3747">More...</a><br /></td></tr>
 <tr class="separator:aad2ff87e180ab8a1d6a8f1e7a88b3747"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18bf7a5753202c0f6a0a4691d180feb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html">LaneBuilder</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html#a18bf7a5753202c0f6a0a4691d180feb4">LeftBoundaryMarkings</a> (const std::vector&lt; <a class="el" href="structmaliput__sparse_1_1parser_1_1_boundary_markings.html">parser::BoundaryMarkings</a> &gt; &amp;markings)</td></tr>
+<tr class="memdesc:a18bf7a5753202c0f6a0a4691d180feb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets markings for the left boundary of this lane.  <a href="classmaliput__sparse_1_1builder_1_1_lane_builder.html#a18bf7a5753202c0f6a0a4691d180feb4">More...</a><br /></td></tr>
+<tr class="separator:a18bf7a5753202c0f6a0a4691d180feb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9b8c8ec215296e7616c111e8465d3ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html">LaneBuilder</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html#ac9b8c8ec215296e7616c111e8465d3ee">RightBoundaryMarkings</a> (const std::vector&lt; <a class="el" href="structmaliput__sparse_1_1parser_1_1_boundary_markings.html">parser::BoundaryMarkings</a> &gt; &amp;markings)</td></tr>
+<tr class="memdesc:ac9b8c8ec215296e7616c111e8465d3ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets markings for the right boundary of this lane.  <a href="classmaliput__sparse_1_1builder_1_1_lane_builder.html#ac9b8c8ec215296e7616c111e8465d3ee">More...</a><br /></td></tr>
+<tr class="separator:ac9b8c8ec215296e7616c111e8465d3ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb405544f7c3599cf4c959c8ef56389e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmaliput__sparse_1_1builder_1_1_segment_builder.html">SegmentBuilder</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html#aeb405544f7c3599cf4c959c8ef56389e">EndLane</a> ()</td></tr>
 <tr class="memdesc:aeb405544f7c3599cf4c959c8ef56389e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finalizes the construction process of this <a class="el" href="classmaliput__sparse_1_1_lane.html">Lane</a> by inserting the <a class="el" href="classmaliput__sparse_1_1_lane.html">Lane</a> into the parent <a class="el" href="classmaliput__sparse_1_1builder_1_1_segment_builder.html" title="Builder class for maliput::api::Segments.">SegmentBuilder</a>.  <a href="classmaliput__sparse_1_1builder_1_1_lane_builder.html#aeb405544f7c3599cf4c959c8ef56389e">More...</a><br /></td></tr>
 <tr class="separator:aeb405544f7c3599cf4c959c8ef56389e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -316,6 +322,33 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a18bf7a5753202c0f6a0a4691d180feb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18bf7a5753202c0f6a0a4691d180feb4">&#9670;&nbsp;</a></span>LeftBoundaryMarkings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html">LaneBuilder</a> &amp; LeftBoundaryMarkings </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structmaliput__sparse_1_1parser_1_1_boundary_markings.html">parser::BoundaryMarkings</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>markings</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets markings for the left boundary of this lane. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">markings</td><td>Boundary markings associated with the left boundary. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to this <a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html" title="Builder class for maliput::api::Lanes.">LaneBuilder</a>. </dd></dl>
+
+</div>
+</div>
 <a id="a8870156a09038a0e449ca1d37671519f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8870156a09038a0e449ca1d37671519f">&#9670;&nbsp;</a></span>RightBoundaryId()</h2>
 
@@ -336,6 +369,33 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">boundary_id</td><td>The boundary ID to set. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to this <a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html" title="Builder class for maliput::api::Lanes.">LaneBuilder</a>. </dd></dl>
+
+</div>
+</div>
+<a id="ac9b8c8ec215296e7616c111e8465d3ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9b8c8ec215296e7616c111e8465d3ee">&#9670;&nbsp;</a></span>RightBoundaryMarkings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmaliput__sparse_1_1builder_1_1_lane_builder.html">LaneBuilder</a> &amp; RightBoundaryMarkings </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structmaliput__sparse_1_1parser_1_1_boundary_markings.html">parser::BoundaryMarkings</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>markings</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets markings for the right boundary of this lane. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">markings</td><td>Boundary markings associated with the right boundary. </td></tr>
   </table>
   </dd>
 </dl>

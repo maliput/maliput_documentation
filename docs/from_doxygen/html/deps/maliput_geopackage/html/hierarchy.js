@@ -7,6 +7,8 @@ var hierarchy =
     [ "GPKGJunction", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_junction.html", null ],
     [ "GPKGLane", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane.html", null ],
     [ "GPKGLaneBoundary", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_boundary.html", null ],
+    [ "GPKGLaneMarking", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking.html", null ],
+    [ "GPKGLaneMarkingLine", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking_line.html", null ],
     [ "GPKGSegment", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_segment.html", null ],
     [ "GPKGSpeedLimit", "structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_speed_limit.html", null ],
     [ "Parser", "../../maliput_sparse/html/classmaliput__sparse_1_1parser_1_1_parser.html", [

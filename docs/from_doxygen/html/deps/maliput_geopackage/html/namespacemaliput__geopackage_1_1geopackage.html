@@ -119,6 +119,12 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_boundary.html">GPKGLaneBoundary</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lane boundaries table containing information about boundaries in the road network.  <a href="structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_boundary.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking.html">GPKGLaneMarking</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lane marking information associated with lane_boundaries.  <a href="structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking_line.html">GPKGLaneMarkingLine</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lane marking line details for complex markings.  <a href="structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_lane_marking_line.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_segment.html">GPKGSegment</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Segments table containing information about segments in the road network.  <a href="structmaliput__geopackage_1_1geopackage_1_1_g_p_k_g_segment.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,8 +137,48 @@ Functions</h2></td></tr>
 <tr class="memitem:ad6193ea7edec1473afb7e658c4aec1b2"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33">maliput::api::LaneType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__geopackage_1_1geopackage.html#ad6193ea7edec1473afb7e658c4aec1b2">StringToLaneType</a> (const std::string &amp;lane_type_string)</td></tr>
 <tr class="memdesc:ad6193ea7edec1473afb7e658c4aec1b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert GeoPackage lane_type string to <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33">maliput::api::LaneType</a> enum.  <a href="namespacemaliput__geopackage_1_1geopackage.html#ad6193ea7edec1473afb7e658c4aec1b2">More...</a><br /></td></tr>
 <tr class="separator:ad6193ea7edec1473afb7e658c4aec1b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf1ee439af05bb1e063e32f63421dc85"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" href="../../maliput/html/group__lane__marking.html#gadfa8dbe33855c2eac412236534d87b28">maliput::api::LaneMarkingType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__geopackage_1_1geopackage.html#adf1ee439af05bb1e063e32f63421dc85">StringToMarkingType</a> (const std::string &amp;type_str)</td></tr>
+<tr class="memdesc:adf1ee439af05bb1e063e32f63421dc85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert GeoPackage marking_type string to <a class="elRef" href="../../maliput/html/group__lane__marking.html#gadfa8dbe33855c2eac412236534d87b28">maliput::api::LaneMarkingType</a> enum.  <a href="namespacemaliput__geopackage_1_1geopackage.html#adf1ee439af05bb1e063e32f63421dc85">More...</a><br /></td></tr>
+<tr class="separator:adf1ee439af05bb1e063e32f63421dc85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95016f34134abe56b06b3e4974320ef0"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" href="../../maliput/html/group__lane__marking.html#gaba8d9bc8f0059c36f0a0e27fcebdf876">maliput::api::LaneMarkingColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__geopackage_1_1geopackage.html#a95016f34134abe56b06b3e4974320ef0">StringToMarkingColor</a> (const std::string &amp;color_str)</td></tr>
+<tr class="memdesc:a95016f34134abe56b06b3e4974320ef0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert GeoPackage color string to <a class="elRef" href="../../maliput/html/group__lane__marking.html#gaba8d9bc8f0059c36f0a0e27fcebdf876">maliput::api::LaneMarkingColor</a> enum.  <a href="namespacemaliput__geopackage_1_1geopackage.html#a95016f34134abe56b06b3e4974320ef0">More...</a><br /></td></tr>
+<tr class="separator:a95016f34134abe56b06b3e4974320ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a542044304eee6ee73b61c769f7a6c84a"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" href="../../maliput/html/group__lane__marking.html#ga1be95380f1970cfb338812b1832ea956">maliput::api::LaneMarkingWeight</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__geopackage_1_1geopackage.html#a542044304eee6ee73b61c769f7a6c84a">StringToMarkingWeight</a> (const std::string &amp;weight_str)</td></tr>
+<tr class="memdesc:a542044304eee6ee73b61c769f7a6c84a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert GeoPackage weight string to <a class="elRef" href="../../maliput/html/group__lane__marking.html#ga1be95380f1970cfb338812b1832ea956">maliput::api::LaneMarkingWeight</a> enum.  <a href="namespacemaliput__geopackage_1_1geopackage.html#a542044304eee6ee73b61c769f7a6c84a">More...</a><br /></td></tr>
+<tr class="separator:a542044304eee6ee73b61c769f7a6c84a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb461d4a62c56440bc6867c33b1cfb0f"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" href="../../maliput/html/group__lane__marking.html#ga578f8201e5b7fed8fbf6476e39d2d4c1">maliput::api::LaneChangePermission</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__geopackage_1_1geopackage.html#adb461d4a62c56440bc6867c33b1cfb0f">StringToLaneChangePermission</a> (const std::string &amp;rule_str)</td></tr>
+<tr class="memdesc:adb461d4a62c56440bc6867c33b1cfb0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert GeoPackage lane_change_rule string to <a class="elRef" href="../../maliput/html/group__lane__marking.html#ga578f8201e5b7fed8fbf6476e39d2d4c1">maliput::api::LaneChangePermission</a> enum.  <a href="namespacemaliput__geopackage_1_1geopackage.html#adb461d4a62c56440bc6867c33b1cfb0f">More...</a><br /></td></tr>
+<tr class="separator:adb461d4a62c56440bc6867c33b1cfb0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="adb461d4a62c56440bc6867c33b1cfb0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb461d4a62c56440bc6867c33b1cfb0f">&#9670;&nbsp;</a></span>StringToLaneChangePermission()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="elRef" href="../../maliput/html/group__lane__marking.html#ga578f8201e5b7fed8fbf6476e39d2d4c1">maliput::api::LaneChangePermission</a> maliput_geopackage::geopackage::StringToLaneChangePermission </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>rule_str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert GeoPackage lane_change_rule string to <a class="elRef" href="../../maliput/html/group__lane__marking.html#ga578f8201e5b7fed8fbf6476e39d2d4c1">maliput::api::LaneChangePermission</a> enum. </p>
+
+</div>
+</div>
 <a id="ad6193ea7edec1473afb7e658c4aec1b2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad6193ea7edec1473afb7e658c4aec1b2">&#9670;&nbsp;</a></span>StringToLaneType()</h2>
 
@@ -165,6 +211,90 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The corresponding <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33">maliput::api::LaneType</a>, or std::nullopt if the string is unknown. </dd></dl>
+
+</div>
+</div>
+<a id="a95016f34134abe56b06b3e4974320ef0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95016f34134abe56b06b3e4974320ef0">&#9670;&nbsp;</a></span>StringToMarkingColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="elRef" href="../../maliput/html/group__lane__marking.html#gaba8d9bc8f0059c36f0a0e27fcebdf876">maliput::api::LaneMarkingColor</a> maliput_geopackage::geopackage::StringToMarkingColor </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>color_str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert GeoPackage color string to <a class="elRef" href="../../maliput/html/group__lane__marking.html#gaba8d9bc8f0059c36f0a0e27fcebdf876">maliput::api::LaneMarkingColor</a> enum. </p>
+
+</div>
+</div>
+<a id="adf1ee439af05bb1e063e32f63421dc85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf1ee439af05bb1e063e32f63421dc85">&#9670;&nbsp;</a></span>StringToMarkingType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="elRef" href="../../maliput/html/group__lane__marking.html#gadfa8dbe33855c2eac412236534d87b28">maliput::api::LaneMarkingType</a> maliput_geopackage::geopackage::StringToMarkingType </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>type_str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert GeoPackage marking_type string to <a class="elRef" href="../../maliput/html/group__lane__marking.html#gadfa8dbe33855c2eac412236534d87b28">maliput::api::LaneMarkingType</a> enum. </p>
+
+</div>
+</div>
+<a id="a542044304eee6ee73b61c769f7a6c84a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a542044304eee6ee73b61c769f7a6c84a">&#9670;&nbsp;</a></span>StringToMarkingWeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="elRef" href="../../maliput/html/group__lane__marking.html#ga1be95380f1970cfb338812b1832ea956">maliput::api::LaneMarkingWeight</a> maliput_geopackage::geopackage::StringToMarkingWeight </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>weight_str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert GeoPackage weight string to <a class="elRef" href="../../maliput/html/group__lane__marking.html#ga1be95380f1970cfb338812b1832ea956">maliput::api::LaneMarkingWeight</a> enum. </p>
 
 </div>
 </div>

@@ -97,10 +97,13 @@ $(document).ready(function(){initNavTree('geopackage__manager_8cc.html',''); ini
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="geopackage__manager_8h.html">maliput_geopackage/geopackage/geopackage_manager.h</a>&quot;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;map&gt;</code><br />
 <code>#include &lt;optional&gt;</code><br />
 <code>#include &lt;set&gt;</code><br />
 <code>#include &lt;stdexcept&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;<a class="elRef" href="../../maliput/html/lane__marking_8h.html">maliput/api/lane_marking.h</a>&gt;</code><br />
+<code>#include &lt;<a class="elRef" href="../../maliput/html/logger_8h.html">maliput/common/logger.h</a>&gt;</code><br />
 <code>#include &quot;<a class="elRef" href="../../maliput_sparse/html/line__string_8h.html">maliput_sparse/geometry/line_string.h</a>&quot;</code><br />
 <code>#include &quot;maliput_sparse/parser/lane.h&quot;</code><br />
 <code>#include &quot;<a class="elRef" href="../../maliput_sparse/html/segment_8h.html">maliput_sparse/parser/segment.h</a>&quot;</code><br />
@@ -123,6 +126,18 @@ Functions</h2></td></tr>
 <tr class="memitem:ad6193ea7edec1473afb7e658c4aec1b2"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33">maliput::api::LaneType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__geopackage_1_1geopackage.html#ad6193ea7edec1473afb7e658c4aec1b2">StringToLaneType</a> (const std::string &amp;lane_type_string)</td></tr>
 <tr class="memdesc:ad6193ea7edec1473afb7e658c4aec1b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert GeoPackage lane_type string to <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#a2e5ecaab42b966e76a474f365da28e33">maliput::api::LaneType</a> enum.  <a href="namespacemaliput__geopackage_1_1geopackage.html#ad6193ea7edec1473afb7e658c4aec1b2">More...</a><br /></td></tr>
 <tr class="separator:ad6193ea7edec1473afb7e658c4aec1b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf1ee439af05bb1e063e32f63421dc85"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" href="../../maliput/html/group__lane__marking.html#gadfa8dbe33855c2eac412236534d87b28">maliput::api::LaneMarkingType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__geopackage_1_1geopackage.html#adf1ee439af05bb1e063e32f63421dc85">StringToMarkingType</a> (const std::string &amp;type_str)</td></tr>
+<tr class="memdesc:adf1ee439af05bb1e063e32f63421dc85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert GeoPackage marking_type string to <a class="elRef" href="../../maliput/html/group__lane__marking.html#gadfa8dbe33855c2eac412236534d87b28">maliput::api::LaneMarkingType</a> enum.  <a href="namespacemaliput__geopackage_1_1geopackage.html#adf1ee439af05bb1e063e32f63421dc85">More...</a><br /></td></tr>
+<tr class="separator:adf1ee439af05bb1e063e32f63421dc85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95016f34134abe56b06b3e4974320ef0"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" href="../../maliput/html/group__lane__marking.html#gaba8d9bc8f0059c36f0a0e27fcebdf876">maliput::api::LaneMarkingColor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__geopackage_1_1geopackage.html#a95016f34134abe56b06b3e4974320ef0">StringToMarkingColor</a> (const std::string &amp;color_str)</td></tr>
+<tr class="memdesc:a95016f34134abe56b06b3e4974320ef0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert GeoPackage color string to <a class="elRef" href="../../maliput/html/group__lane__marking.html#gaba8d9bc8f0059c36f0a0e27fcebdf876">maliput::api::LaneMarkingColor</a> enum.  <a href="namespacemaliput__geopackage_1_1geopackage.html#a95016f34134abe56b06b3e4974320ef0">More...</a><br /></td></tr>
+<tr class="separator:a95016f34134abe56b06b3e4974320ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a542044304eee6ee73b61c769f7a6c84a"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" href="../../maliput/html/group__lane__marking.html#ga1be95380f1970cfb338812b1832ea956">maliput::api::LaneMarkingWeight</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__geopackage_1_1geopackage.html#a542044304eee6ee73b61c769f7a6c84a">StringToMarkingWeight</a> (const std::string &amp;weight_str)</td></tr>
+<tr class="memdesc:a542044304eee6ee73b61c769f7a6c84a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert GeoPackage weight string to <a class="elRef" href="../../maliput/html/group__lane__marking.html#ga1be95380f1970cfb338812b1832ea956">maliput::api::LaneMarkingWeight</a> enum.  <a href="namespacemaliput__geopackage_1_1geopackage.html#a542044304eee6ee73b61c769f7a6c84a">More...</a><br /></td></tr>
+<tr class="separator:a542044304eee6ee73b61c769f7a6c84a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb461d4a62c56440bc6867c33b1cfb0f"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" href="../../maliput/html/group__lane__marking.html#ga578f8201e5b7fed8fbf6476e39d2d4c1">maliput::api::LaneChangePermission</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput__geopackage_1_1geopackage.html#adb461d4a62c56440bc6867c33b1cfb0f">StringToLaneChangePermission</a> (const std::string &amp;rule_str)</td></tr>
+<tr class="memdesc:adb461d4a62c56440bc6867c33b1cfb0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert GeoPackage lane_change_rule string to <a class="elRef" href="../../maliput/html/group__lane__marking.html#ga578f8201e5b7fed8fbf6476e39d2d4c1">maliput::api::LaneChangePermission</a> enum.  <a href="namespacemaliput__geopackage_1_1geopackage.html#adb461d4a62c56440bc6867c33b1cfb0f">More...</a><br /></td></tr>
+<tr class="separator:adb461d4a62c56440bc6867c33b1cfb0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

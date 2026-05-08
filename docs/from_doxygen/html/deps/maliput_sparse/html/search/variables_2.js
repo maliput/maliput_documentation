@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['distance_432',['distance',['../structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_to_segment_result.html#a79b8e036dca6911e3295a47d99f21f43',1,'maliput_sparse::geometry::utility::ClosestPointToSegmentResult::distance()'],['../structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html#a79b8e036dca6911e3295a47d99f21f43',1,'maliput_sparse::geometry::utility::ClosestPointResult::distance()']]]
+  ['color_458',['color',['../structmaliput__sparse_1_1parser_1_1_lane_marking_line.html#a4f256f9a60b17c5303663c33c1d6966c',1,'maliput_sparse::parser::LaneMarkingLine::color()'],['../structmaliput__sparse_1_1parser_1_1_lane_marking.html#a4f256f9a60b17c5303663c33c1d6966c',1,'maliput_sparse::parser::LaneMarking::color()']]]
 ];

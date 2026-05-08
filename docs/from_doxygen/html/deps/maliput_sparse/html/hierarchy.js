@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "BoundaryMarkings", "structmaliput__sparse_1_1parser_1_1_boundary_markings.html", null ],
     [ "BoundPointsResult", "structmaliput__sparse_1_1geometry_1_1utility_1_1_bound_points_result.html", null ],
     [ "BuilderConfiguration", "structmaliput__sparse_1_1loader_1_1_builder_configuration.html", null ],
     [ "ClosestPointResult< CoordinateT >", "structmaliput__sparse_1_1geometry_1_1utility_1_1_closest_point_result.html", null ],
@@ -19,6 +20,8 @@ var hierarchy =
     [ "LaneEnd", "structmaliput__sparse_1_1builder_1_1_lane_end.html", null ],
     [ "LaneEnd", "structmaliput__sparse_1_1parser_1_1_lane_end.html", null ],
     [ "LaneGeometry", "classmaliput__sparse_1_1geometry_1_1_lane_geometry.html", null ],
+    [ "LaneMarking", "structmaliput__sparse_1_1parser_1_1_lane_marking.html", null ],
+    [ "LaneMarkingLine", "structmaliput__sparse_1_1parser_1_1_lane_marking_line.html", null ],
     [ "LineString< CoordinateT, DistanceFunction >", "classmaliput__sparse_1_1geometry_1_1_line_string.html", null ],
     [ "LineString< CoordinateT >", "classmaliput__sparse_1_1geometry_1_1_line_string.html", null ],
     [ "NestedBuilder< ParentT >", "classmaliput__sparse_1_1builder_1_1details_1_1_nested_builder.html", null ],
