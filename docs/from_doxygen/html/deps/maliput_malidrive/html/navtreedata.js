@@ -85,7 +85,7 @@ var NAVTREEINDEX =
 "classmalidrive_1_1road__curve_1_1_param_poly3_ground_curve.html",
 "functions_vars_e.html",
 "namespacemalidrive_1_1road__curve_1_1test.html",
-"structmalidrive_1_1traffic__signal_1_1_bounding_box_constants.html",
+"structmalidrive_1_1traffic__control__device_1_1_bounding_box_constants.html",
 "structmalidrive_1_1xodr_1_1_header.html#af9def674d4eaf45d404f9652b884b466",
 "structmalidrive_1_1xodr_1_1_plan_view.html#a13ab7efc463adda491a88cfa4b2d94c0",
 "structmalidrive_1_1xodr_1_1object_1_1_corner_road.html#af896531de9ddd7780f4d23c01f2c3d6c",

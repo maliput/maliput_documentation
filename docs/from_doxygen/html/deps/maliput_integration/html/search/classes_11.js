@@ -69,8 +69,8 @@ var searchData=
   ['ruleconstants_4697',['RuleConstants',['../../../maliput/html/structmaliput_1_1_rule_constants.html',1,'maliput']]],
   ['ruleregistry_4698',['RuleRegistry',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_rule_registry.html',1,'maliput::api::rules']]],
   ['ruleregistrybuilder_4699',['RuleRegistryBuilder',['../../../maliput_malidrive/html/classmalidrive_1_1builder_1_1_rule_registry_builder.html',1,'malidrive::builder']]],
-  ['rulestate_4700',['RuleState',['../../../maliput_malidrive/html/structmalidrive_1_1traffic__signal_1_1_rule_state.html',1,'malidrive::traffic_signal']]],
-  ['rulestateconstants_4701',['RuleStateConstants',['../../../maliput_malidrive/html/structmalidrive_1_1traffic__signal_1_1_rule_state_constants.html',1,'malidrive::traffic_signal']]],
+  ['rulestate_4700',['RuleState',['../../../maliput_malidrive/html/structmalidrive_1_1traffic__control__device_1_1_rule_state.html',1,'malidrive::traffic_control_device']]],
+  ['rulestateconstants_4701',['RuleStateConstants',['../../../maliput_malidrive/html/structmalidrive_1_1traffic__control__device_1_1_rule_state_constants.html',1,'malidrive::traffic_control_device']]],
   ['ruletypefilter_4702',['RuleTypeFilter',['../../../maliput/html/structmaliput_1_1_rule_type_filter.html',1,'maliput']]],
   ['rungekutta3integrator_4703',['RungeKutta3Integrator',['../../../maliput/html/classmaliput_1_1drake_1_1systems_1_1_runge_kutta3_integrator.html',1,'maliput::drake::systems']]]
 ];

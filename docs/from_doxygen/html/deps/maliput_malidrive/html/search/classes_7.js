@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['hash_3c_20malidrive_3a_3atraffic_5fsignal_3a_3atrafficsignalfingerprint_20_3e_4120',['hash&lt; malidrive::traffic_signal::TrafficSignalFingerprint &gt;',['../structstd_1_1hash_3_01malidrive_1_1traffic__signal_1_1_traffic_signal_fingerprint_01_4.html',1,'std']]],
+  ['hash_3c_20malidrive_3a_3atraffic_5fcontrol_5fdevice_3a_3atrafficcontroldevicefingerprint_20_3e_4120',['hash&lt; malidrive::traffic_control_device::TrafficControlDeviceFingerprint &gt;',['../structstd_1_1hash_3_01malidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint_01_4.html',1,'std']]],
   ['hash_3c_20maliput_3a_3aapi_3a_3aobjects_3a_3aroadobjecttype_20_3e_4121',['hash&lt; maliput::api::objects::RoadObjectType &gt;',['../../../maliput/html/structstd_1_1hash_3_01maliput_1_1api_1_1objects_1_1_road_object_type_01_4.html',1,'std']]],
   ['hash_3c_20maliput_3a_3aapi_3a_3arules_3a_3auniquebulbgroupid_20_3e_4122',['hash&lt; maliput::api::rules::UniqueBulbGroupId &gt;',['../../../maliput/html/structstd_1_1hash_3_01maliput_1_1api_1_1rules_1_1_unique_bulb_group_id_01_4.html',1,'std']]],
   ['hash_3c_20maliput_3a_3aapi_3a_3arules_3a_3auniquebulbid_20_3e_4123',['hash&lt; maliput::api::rules::UniqueBulbId &gt;',['../../../maliput/html/structstd_1_1hash_3_01maliput_1_1api_1_1rules_1_1_unique_bulb_id_01_4.html',1,'std']]],

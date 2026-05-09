@@ -1,10 +1,10 @@
 var yaml__helper_8h =
 [
-    [ "TrafficSignalConstants", "structmalidrive_1_1traffic__signal_1_1_traffic_signal_constants.html", "structmalidrive_1_1traffic__signal_1_1_traffic_signal_constants" ],
-    [ "BulbConstants", "structmalidrive_1_1traffic__signal_1_1_bulb_constants.html", "structmalidrive_1_1traffic__signal_1_1_bulb_constants" ],
-    [ "BoundingBoxConstants", "structmalidrive_1_1traffic__signal_1_1_bounding_box_constants.html", "structmalidrive_1_1traffic__signal_1_1_bounding_box_constants" ],
-    [ "RuleStateConstants", "structmalidrive_1_1traffic__signal_1_1_rule_state_constants.html", "structmalidrive_1_1traffic__signal_1_1_rule_state_constants" ],
-    [ "BulbStateConditionConstants", "structmalidrive_1_1traffic__signal_1_1_bulb_state_condition_constants.html", "structmalidrive_1_1traffic__signal_1_1_bulb_state_condition_constants" ],
+    [ "TrafficControlDeviceConstants", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants" ],
+    [ "BulbConstants", "structmalidrive_1_1traffic__control__device_1_1_bulb_constants.html", "structmalidrive_1_1traffic__control__device_1_1_bulb_constants" ],
+    [ "BoundingBoxConstants", "structmalidrive_1_1traffic__control__device_1_1_bounding_box_constants.html", "structmalidrive_1_1traffic__control__device_1_1_bounding_box_constants" ],
+    [ "RuleStateConstants", "structmalidrive_1_1traffic__control__device_1_1_rule_state_constants.html", "structmalidrive_1_1traffic__control__device_1_1_rule_state_constants" ],
+    [ "BulbStateConditionConstants", "structmalidrive_1_1traffic__control__device_1_1_bulb_state_condition_constants.html", "structmalidrive_1_1traffic__control__device_1_1_bulb_state_condition_constants" ],
     [ "GetOptionalDoubleField", "yaml__helper_8h.html#a7694710329e9f39e43bbbf98b178b45d", null ],
     [ "GetOptionalIntField", "yaml__helper_8h.html#aaa3af3edca1f0b55404365b904beb23c", null ],
     [ "GetOptionalStringField", "yaml__helper_8h.html#a0905017b76d5462c952ae2b397f792f8", null ],

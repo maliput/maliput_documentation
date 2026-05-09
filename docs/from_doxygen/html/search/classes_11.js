@@ -47,7 +47,7 @@ var searchData=
   ['roadheader_6344',['RoadHeader',['.././deps/maliput_malidrive/html/structmalidrive_1_1xodr_1_1_road_header.html',1,'malidrive::xodr']]],
   ['roadlink_6345',['RoadLink',['.././deps/maliput_malidrive/html/structmalidrive_1_1xodr_1_1_road_link.html',1,'malidrive::xodr']]],
   ['roadnetwork_6346',['RoadNetwork',['.././deps/maliput/html/classmaliput_1_1api_1_1_road_network.html',1,'maliput::api']]],
-  ['roadnetworkbuilder_6347',['RoadNetworkBuilder',['.././deps/maliput_malidrive/html/classmalidrive_1_1builder_1_1_road_network_builder.html',1,'RoadNetworkBuilder'],['.././deps/maliput_osm/html/classmaliput__osm_1_1builder_1_1_road_network_builder.html',1,'RoadNetworkBuilder'],['.././deps/maliput_geopackage/html/classmaliput__geopackage_1_1builder_1_1_road_network_builder.html',1,'RoadNetworkBuilder']]],
+  ['roadnetworkbuilder_6347',['RoadNetworkBuilder',['.././deps/maliput_osm/html/classmaliput__osm_1_1builder_1_1_road_network_builder.html',1,'RoadNetworkBuilder'],['.././deps/maliput_geopackage/html/classmaliput__geopackage_1_1builder_1_1_road_network_builder.html',1,'RoadNetworkBuilder'],['.././deps/maliput_malidrive/html/classmalidrive_1_1builder_1_1_road_network_builder.html',1,'RoadNetworkBuilder']]],
   ['roadnetworkconfiguration_6348',['RoadNetworkConfiguration',['.././deps/maliput_multilane/html/structmaliput_1_1multilane_1_1_road_network_configuration.html',1,'RoadNetworkConfiguration'],['.././deps/maliput_malidrive/html/structmalidrive_1_1builder_1_1_road_network_configuration.html',1,'RoadNetworkConfiguration']]],
   ['roadnetworkcontiguitybuildflags_6349',['RoadNetworkContiguityBuildFlags',['.././deps/maliput/html/structmaliput_1_1api_1_1test_1_1_road_network_contiguity_build_flags.html',1,'maliput::api::test']]],
   ['roadnetworkloader_6350',['RoadNetworkLoader',['.././deps/maliput/html/classmaliput_1_1plugin_1_1_road_network_loader.html',1,'RoadNetworkLoader'],['.././deps/maliput_sparse/html/classmaliput__sparse_1_1loader_1_1_road_network_loader.html',1,'RoadNetworkLoader']]],
@@ -86,8 +86,8 @@ var searchData=
   ['rulerailcarblueprint_6383',['RuleRailCarBlueprint',['.././deps/delphyne/html/classdelphyne_1_1_rule_rail_car_blueprint.html',1,'delphyne']]],
   ['ruleregistry_6384',['RuleRegistry',['.././deps/maliput/html/classmaliput_1_1api_1_1rules_1_1_rule_registry.html',1,'maliput::api::rules']]],
   ['ruleregistrybuilder_6385',['RuleRegistryBuilder',['.././deps/maliput_geopackage/html/classmaliput__geopackage_1_1builder_1_1_rule_registry_builder.html',1,'RuleRegistryBuilder'],['.././deps/maliput_malidrive/html/classmalidrive_1_1builder_1_1_rule_registry_builder.html',1,'RuleRegistryBuilder']]],
-  ['rulestate_6386',['RuleState',['.././deps/maliput_malidrive/html/structmalidrive_1_1traffic__signal_1_1_rule_state.html',1,'malidrive::traffic_signal']]],
-  ['rulestateconstants_6387',['RuleStateConstants',['.././deps/maliput_malidrive/html/structmalidrive_1_1traffic__signal_1_1_rule_state_constants.html',1,'malidrive::traffic_signal']]],
+  ['rulestate_6386',['RuleState',['.././deps/maliput_malidrive/html/structmalidrive_1_1traffic__control__device_1_1_rule_state.html',1,'malidrive::traffic_control_device']]],
+  ['rulestateconstants_6387',['RuleStateConstants',['.././deps/maliput_malidrive/html/structmalidrive_1_1traffic__control__device_1_1_rule_state_constants.html',1,'malidrive::traffic_control_device']]],
   ['ruletypefilter_6388',['RuleTypeFilter',['.././deps/maliput/html/structmaliput_1_1_rule_type_filter.html',1,'maliput']]],
   ['rungekutta3integrator_6389',['RungeKutta3Integrator',['.././deps/maliput/html/classmaliput_1_1drake_1_1systems_1_1_runge_kutta3_integrator.html',1,'maliput::drake::systems']]]
 ];

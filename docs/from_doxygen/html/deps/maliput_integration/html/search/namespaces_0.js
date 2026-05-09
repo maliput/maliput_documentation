@@ -56,7 +56,7 @@ var searchData=
   ['systems_4943',['systems',['../../../maliput/html/namespacemaliput_1_1drake_1_1systems.html',1,'maliput::drake']]],
   ['test_4944',['test',['../../../maliput_malidrive/html/namespacemalidrive_1_1road__curve_1_1test.html',1,'malidrive::road_curve::test'],['../../../maliput_malidrive/html/namespacemalidrive_1_1test.html',1,'malidrive::test'],['../../../maliput/html/namespacemaliput_1_1api_1_1test.html',1,'maliput::api::test'],['../../../maliput/html/namespacemaliput_1_1geometry__base_1_1test.html',1,'maliput::geometry_base::test'],['../../../maliput_multilane/html/namespacemaliput_1_1multilane_1_1test.html',1,'maliput::multilane::test']]],
   ['test_5futilities_4945',['test_utilities',['../../../maliput_object/html/namespacemaliput_1_1object_1_1test__utilities.html',1,'maliput::object']]],
-  ['traffic_5fsignal_4946',['traffic_signal',['../../../maliput_malidrive/html/namespacemalidrive_1_1traffic__signal.html',1,'malidrive']]],
+  ['traffic_5fcontrol_5fdevice_4946',['traffic_control_device',['../../../maliput_malidrive/html/namespacemalidrive_1_1traffic__control__device.html',1,'malidrive']]],
   ['trajectories_4947',['trajectories',['../../../maliput/html/namespacemaliput_1_1drake_1_1trajectories.html',1,'maliput::drake']]],
   ['utility_4948',['utility',['../../../maliput/html/namespacemaliput_1_1utility.html',1,'maliput']]],
   ['vmsboard_4949',['VmsBoard',['../../../maliput_malidrive/html/structmalidrive_1_1xodr_1_1signal_1_1_vms_board_1_1_display_area.html',1,'malidrive::xodr::signal']]],

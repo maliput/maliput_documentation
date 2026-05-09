@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1builder_1_1_traffic_
 <div class="textblock"><p>Builds a <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html">maliput::api::rules::TrafficLightBook</a> and a <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_sign_book.html">maliput::api::rules::TrafficSignBook</a> in a single pass over the XODR signals and the traffic signal <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database. </p>
 <p>Compared to the alternative design (separate <code>TrafficLightBookBuilder</code> / <code>TrafficSignBookBuilder</code>), this builder:</p><ul>
 <li>Parses the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database exactly once.</li>
-<li>Routes each XODR signal to the right book using the <code>sign_type</code> field of the matching traffic_signal::TrafficSignalDefinition:<ul>
+<li>Routes each XODR signal to the right book using the <code>sign_type</code> field of the matching traffic_control_device::TrafficControlDeviceDefinition:<ul>
 <li><code>"traffic_light"</code> → <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_light.html">maliput::api::rules::TrafficLight</a> added to the TrafficLightBook.</li>
 <li>any other value → <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_sign.html">maliput::api::rules::TrafficSign</a> added to the TrafficSignBook.</li>
 </ul>
@@ -111,9 +111,9 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1builder_1_1_traffic_
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af61bcad219dfb1144944ba9426e8a9e1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_traffic_signal_books_builder.html#af61bcad219dfb1144944ba9426e8a9e1">TrafficSignalBooksBuilder</a> (const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *road_geometry, std::optional&lt; std::string &gt; traffic_light_book_path, std::optional&lt; std::string &gt; traffic_signal_db_path)</td></tr>
-<tr class="memdesc:af61bcad219dfb1144944ba9426e8a9e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmalidrive_1_1builder_1_1_traffic_signal_books_builder.html" title="Builds a maliput::api::rules::TrafficLightBook and a maliput::api::rules::TrafficSignBook in a single...">TrafficSignalBooksBuilder</a>.  <a href="classmalidrive_1_1builder_1_1_traffic_signal_books_builder.html#af61bcad219dfb1144944ba9426e8a9e1">More...</a><br /></td></tr>
-<tr class="separator:af61bcad219dfb1144944ba9426e8a9e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a978ed2ec0410d1c63883ab0ba78a113d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_traffic_signal_books_builder.html#a978ed2ec0410d1c63883ab0ba78a113d">TrafficSignalBooksBuilder</a> (const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *road_geometry, std::optional&lt; std::string &gt; traffic_light_book_path, std::optional&lt; std::string &gt; traffic_control_device_db_path)</td></tr>
+<tr class="memdesc:a978ed2ec0410d1c63883ab0ba78a113d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmalidrive_1_1builder_1_1_traffic_signal_books_builder.html" title="Builds a maliput::api::rules::TrafficLightBook and a maliput::api::rules::TrafficSignBook in a single...">TrafficSignalBooksBuilder</a>.  <a href="classmalidrive_1_1builder_1_1_traffic_signal_books_builder.html#a978ed2ec0410d1c63883ab0ba78a113d">More...</a><br /></td></tr>
+<tr class="separator:a978ed2ec0410d1c63883ab0ba78a113d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51f1562541b03bfa829c1a033e27813e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_traffic_signal_books_builder.html#a51f1562541b03bfa829c1a033e27813e">TrafficSignalBooksBuilder</a> ()=delete</td></tr>
 <tr class="separator:a51f1562541b03bfa829c1a033e27813e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad88d94816aa26a1c5e0ebe3404f467e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmalidrive_1_1builder_1_1_traffic_signal_books.html">TrafficSignalBooks</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_traffic_signal_books_builder.html#ad88d94816aa26a1c5e0ebe3404f467e3">operator()</a> () const</td></tr>
@@ -121,8 +121,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad88d94816aa26a1c5e0ebe3404f467e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af61bcad219dfb1144944ba9426e8a9e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af61bcad219dfb1144944ba9426e8a9e1">&#9670;&nbsp;</a></span>TrafficSignalBooksBuilder() <span class="overload">[1/2]</span></h2>
+<a id="a978ed2ec0410d1c63883ab0ba78a113d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a978ed2ec0410d1c63883ab0ba78a113d">&#9670;&nbsp;</a></span>TrafficSignalBooksBuilder() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -143,7 +143,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::optional&lt; std::string &gt;&#160;</td>
-          <td class="paramname"><em>traffic_signal_db_path</em>&#160;</td>
+          <td class="paramname"><em>traffic_control_device_db_path</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -158,7 +158,7 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">road_geometry</td><td>Pointer to the built <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend.">RoadGeometry</a>. Must not be nullptr. </td></tr>
     <tr><td class="paramname">traffic_light_book_path</td><td>Optional path to a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> file used to seed the TrafficLightBook before processing XODR signals. When <code>std::nullopt</code>, an empty book is used as the base. </td></tr>
-    <tr><td class="paramname">traffic_signal_db_path</td><td>Optional path to the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database that maps XODR signals to traffic signal definitions. When <code>std::nullopt</code>, both books will be empty (or seeded only from <code>traffic_light_book_path</code> for the TrafficLightBook). </td></tr>
+    <tr><td class="paramname">traffic_control_device_db_path</td><td>Optional path to the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database that maps XODR signals to traffic signal definitions. When <code>std::nullopt</code>, both books will be empty (or seeded only from <code>traffic_light_book_path</code> for the TrafficLightBook). </td></tr>
   </table>
   </dd>
 </dl>

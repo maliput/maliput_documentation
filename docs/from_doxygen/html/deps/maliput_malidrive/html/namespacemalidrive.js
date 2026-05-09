@@ -3,7 +3,7 @@ var namespacemalidrive =
     [ "applications", "namespacemalidrive_1_1applications.html", null ],
     [ "builder", "namespacemalidrive_1_1builder.html", "namespacemalidrive_1_1builder" ],
     [ "road_curve", "namespacemalidrive_1_1road__curve.html", "namespacemalidrive_1_1road__curve" ],
-    [ "traffic_signal", "namespacemalidrive_1_1traffic__signal.html", "namespacemalidrive_1_1traffic__signal" ],
+    [ "traffic_control_device", "namespacemalidrive_1_1traffic__control__device.html", "namespacemalidrive_1_1traffic__control__device" ],
     [ "xodr", "namespacemalidrive_1_1xodr.html", "namespacemalidrive_1_1xodr" ],
     [ "Lane", "classmalidrive_1_1_lane.html", "classmalidrive_1_1_lane" ],
     [ "LaneBoundary", "classmalidrive_1_1_lane_boundary.html", "classmalidrive_1_1_lane_boundary" ],

@@ -1813,9 +1813,9 @@
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr char const  *</type>
-      <name>kTrafficSignalDb</name>
+      <name>kTrafficControlDeviceDb</name>
       <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
-      <anchor>ga4e1ab7a35bcc04c683f269802c9c26ac</anchor>
+      <anchor>ga6686ead685e12e180b49b163bbc27d3a</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
@@ -1937,14 +1937,14 @@
     <namespace>malidrive::xodr::object</namespace>
   </compound>
   <compound kind="file">
-    <name>traffic_signal/parser.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/traffic_signal/</path>
-    <filename>traffic__signal_2parser_8cc.html</filename>
-    <includes id="traffic__signal_2parser_8h" name="traffic_signal/parser.h" local="yes" imported="no">maliput_malidrive/traffic_signal/parser.h</includes>
+    <name>traffic_control_device/parser.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/traffic_control_device/</path>
+    <filename>traffic__control__device_2parser_8cc.html</filename>
+    <includes id="traffic__control__device_2parser_8h" name="traffic_control_device/parser.h" local="yes" imported="no">maliput_malidrive/traffic_control_device/parser.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
-    <includes id="yaml__helper_8h" name="yaml_helper.h" local="yes" imported="no">maliput_malidrive/traffic_signal/yaml_helper.h</includes>
+    <includes id="yaml__helper_8h" name="yaml_helper.h" local="yes" imported="no">maliput_malidrive/traffic_control_device/yaml_helper.h</includes>
     <namespace>malidrive</namespace>
-    <namespace>malidrive::traffic_signal</namespace>
+    <namespace>malidrive::traffic_control_device</namespace>
   </compound>
   <compound kind="file">
     <name>xodr/parser.cc</name>
@@ -1992,18 +1992,18 @@
     </member>
   </compound>
   <compound kind="file">
-    <name>traffic_signal/parser.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/traffic_signal/</path>
-    <filename>traffic__signal_2parser_8h.html</filename>
-    <class kind="struct">malidrive::traffic_signal::BulbStateCondition</class>
-    <class kind="struct">malidrive::traffic_signal::RuleState</class>
-    <class kind="struct">malidrive::traffic_signal::BulbDefinition</class>
-    <class kind="struct">malidrive::traffic_signal::TrafficSignalFingerprint</class>
-    <class kind="struct">malidrive::traffic_signal::TrafficSignalDefinition</class>
-    <class kind="class">malidrive::traffic_signal::TrafficSignalParser</class>
-    <class kind="struct">std::hash&lt; malidrive::traffic_signal::TrafficSignalFingerprint &gt;</class>
+    <name>traffic_control_device/parser.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/traffic_control_device/</path>
+    <filename>traffic__control__device_2parser_8h.html</filename>
+    <class kind="struct">malidrive::traffic_control_device::BulbStateCondition</class>
+    <class kind="struct">malidrive::traffic_control_device::RuleState</class>
+    <class kind="struct">malidrive::traffic_control_device::BulbDefinition</class>
+    <class kind="struct">malidrive::traffic_control_device::TrafficControlDeviceFingerprint</class>
+    <class kind="struct">malidrive::traffic_control_device::TrafficControlDeviceDefinition</class>
+    <class kind="class">malidrive::traffic_control_device::TrafficControlDeviceParser</class>
+    <class kind="struct">std::hash&lt; malidrive::traffic_control_device::TrafficControlDeviceFingerprint &gt;</class>
     <namespace>malidrive</namespace>
-    <namespace>malidrive::traffic_signal</namespace>
+    <namespace>malidrive::traffic_control_device</namespace>
   </compound>
   <compound kind="file">
     <name>xodr/parser.h</name>
@@ -3136,6 +3136,23 @@
     </member>
   </compound>
   <compound kind="file">
+    <name>traffic_control_device_database_loader.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/traffic_control_device/</path>
+    <filename>traffic__control__device__database__loader_8cc.html</filename>
+    <includes id="traffic__control__device__database__loader_8h" name="traffic_control_device_database_loader.h" local="yes" imported="no">maliput_malidrive/traffic_control_device/traffic_control_device_database_loader.h</includes>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::traffic_control_device</namespace>
+  </compound>
+  <compound kind="file">
+    <name>traffic_control_device_database_loader.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/traffic_control_device/</path>
+    <filename>traffic__control__device__database__loader_8h.html</filename>
+    <includes id="traffic__control__device_2parser_8h" name="traffic_control_device/parser.h" local="yes" imported="no">maliput_malidrive/traffic_control_device/parser.h</includes>
+    <class kind="class">malidrive::traffic_control_device::TrafficControlDeviceDatabaseLoader</class>
+    <namespace>malidrive</namespace>
+    <namespace>malidrive::traffic_control_device</namespace>
+  </compound>
+  <compound kind="file">
     <name>traffic_light_builder.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/builder/</path>
     <filename>traffic__light__builder_8cc.html</filename>
@@ -3143,7 +3160,7 @@
     <includes id="road__geometry_8h" name="road_geometry.h" local="yes" imported="no">maliput_malidrive/base/road_geometry.h</includes>
     <includes id="builder__tools_8h" name="builder_tools.h" local="yes" imported="no">maliput_malidrive/builder/builder_tools.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
-    <includes id="traffic__signal_2parser_8h" name="traffic_signal/parser.h" local="yes" imported="no">maliput_malidrive/traffic_signal/parser.h</includes>
+    <includes id="traffic__control__device_2parser_8h" name="traffic_control_device/parser.h" local="yes" imported="no">maliput_malidrive/traffic_control_device/parser.h</includes>
     <includes id="orientation_8h" name="orientation.h" local="yes" imported="no">maliput_malidrive/xodr/signal/orientation.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
@@ -3152,7 +3169,7 @@
     <name>traffic_light_builder.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/builder/</path>
     <filename>traffic__light__builder_8h.html</filename>
-    <includes id="traffic__signal__database__loader_8h" name="traffic_signal_database_loader.h" local="yes" imported="no">maliput_malidrive/traffic_signal/traffic_signal_database_loader.h</includes>
+    <includes id="traffic__control__device__database__loader_8h" name="traffic_control_device_database_loader.h" local="yes" imported="no">maliput_malidrive/traffic_control_device/traffic_control_device_database_loader.h</includes>
     <includes id="db__manager_8h" name="db_manager.h" local="yes" imported="no">maliput_malidrive/xodr/db_manager.h</includes>
     <includes id="road__header_8h" name="road_header.h" local="yes" imported="no">maliput_malidrive/xodr/road_header.h</includes>
     <includes id="signal_8h" name="signal.h" local="yes" imported="no">maliput_malidrive/xodr/signal/signal.h</includes>
@@ -3169,7 +3186,7 @@
     <includes id="builder__tools_8h" name="builder_tools.h" local="yes" imported="no">maliput_malidrive/builder/builder_tools.h</includes>
     <includes id="traffic__sign__type__mapper_8h" name="traffic_sign_type_mapper.h" local="yes" imported="no">maliput_malidrive/builder/traffic_sign_type_mapper.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
-    <includes id="traffic__signal_2parser_8h" name="traffic_signal/parser.h" local="yes" imported="no">maliput_malidrive/traffic_signal/parser.h</includes>
+    <includes id="traffic__control__device_2parser_8h" name="traffic_control_device/parser.h" local="yes" imported="no">maliput_malidrive/traffic_control_device/parser.h</includes>
     <includes id="orientation_8h" name="orientation.h" local="yes" imported="no">maliput_malidrive/xodr/signal/orientation.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
@@ -3178,7 +3195,7 @@
     <name>traffic_sign_builder.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/builder/</path>
     <filename>traffic__sign__builder_8h.html</filename>
-    <includes id="traffic__signal__database__loader_8h" name="traffic_signal_database_loader.h" local="yes" imported="no">maliput_malidrive/traffic_signal/traffic_signal_database_loader.h</includes>
+    <includes id="traffic__control__device__database__loader_8h" name="traffic_control_device_database_loader.h" local="yes" imported="no">maliput_malidrive/traffic_control_device/traffic_control_device_database_loader.h</includes>
     <includes id="db__manager_8h" name="db_manager.h" local="yes" imported="no">maliput_malidrive/xodr/db_manager.h</includes>
     <includes id="road__header_8h" name="road_header.h" local="yes" imported="no">maliput_malidrive/xodr/road_header.h</includes>
     <includes id="signal_8h" name="signal.h" local="yes" imported="no">maliput_malidrive/xodr/signal/signal.h</includes>
@@ -3224,8 +3241,8 @@
     <includes id="traffic__light__builder_8h" name="traffic_light_builder.h" local="yes" imported="no">maliput_malidrive/builder/traffic_light_builder.h</includes>
     <includes id="traffic__sign__builder_8h" name="traffic_sign_builder.h" local="yes" imported="no">maliput_malidrive/builder/traffic_sign_builder.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
-    <includes id="traffic__signal_2parser_8h" name="traffic_signal/parser.h" local="yes" imported="no">maliput_malidrive/traffic_signal/parser.h</includes>
-    <includes id="traffic__signal__database__loader_8h" name="traffic_signal_database_loader.h" local="yes" imported="no">maliput_malidrive/traffic_signal/traffic_signal_database_loader.h</includes>
+    <includes id="traffic__control__device_2parser_8h" name="traffic_control_device/parser.h" local="yes" imported="no">maliput_malidrive/traffic_control_device/parser.h</includes>
+    <includes id="traffic__control__device__database__loader_8h" name="traffic_control_device_database_loader.h" local="yes" imported="no">maliput_malidrive/traffic_control_device/traffic_control_device_database_loader.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
   </compound>
@@ -3238,23 +3255,6 @@
     <class kind="class">malidrive::builder::TrafficSignalBooksBuilder</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
-  </compound>
-  <compound kind="file">
-    <name>traffic_signal_database_loader.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/traffic_signal/</path>
-    <filename>traffic__signal__database__loader_8cc.html</filename>
-    <includes id="traffic__signal__database__loader_8h" name="traffic_signal_database_loader.h" local="yes" imported="no">maliput_malidrive/traffic_signal/traffic_signal_database_loader.h</includes>
-    <namespace>malidrive</namespace>
-    <namespace>malidrive::traffic_signal</namespace>
-  </compound>
-  <compound kind="file">
-    <name>traffic_signal_database_loader.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/traffic_signal/</path>
-    <filename>traffic__signal__database__loader_8h.html</filename>
-    <includes id="traffic__signal_2parser_8h" name="traffic_signal/parser.h" local="yes" imported="no">maliput_malidrive/traffic_signal/parser.h</includes>
-    <class kind="class">malidrive::traffic_signal::TrafficSignalDatabaseLoader</class>
-    <namespace>malidrive</namespace>
-    <namespace>malidrive::traffic_signal</namespace>
   </compound>
   <compound kind="file">
     <name>tunnel.cc</name>
@@ -3597,133 +3597,133 @@
   </compound>
   <compound kind="file">
     <name>yaml_helper.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/traffic_signal/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/traffic_control_device/</path>
     <filename>yaml__helper_8cc.html</filename>
-    <includes id="yaml__helper_8h" name="yaml_helper.h" local="yes" imported="no">maliput_malidrive/traffic_signal/yaml_helper.h</includes>
+    <includes id="yaml__helper_8h" name="yaml_helper.h" local="yes" imported="no">maliput_malidrive/traffic_control_device/yaml_helper.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <namespace>malidrive</namespace>
-    <namespace>malidrive::traffic_signal</namespace>
+    <namespace>malidrive::traffic_control_device</namespace>
     <member kind="function">
       <type>void</type>
       <name>ValidateYamlNode</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>a1be8df8e5292b9afc66b450311568e18</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name, const std::string &amp;expected_type)</arglist>
     </member>
     <member kind="function">
       <type>std::string</type>
       <name>GetRequiredStringField</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>a8c9f3cc0066fbbee08a75b8fb1135fad</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
     </member>
     <member kind="function">
       <type>std::optional&lt; std::string &gt;</type>
       <name>GetOptionalStringField</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>a0905017b76d5462c952ae2b397f792f8</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
     </member>
     <member kind="function">
       <type>std::optional&lt; int &gt;</type>
       <name>GetOptionalIntField</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>aaa3af3edca1f0b55404365b904beb23c</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
     </member>
     <member kind="function">
       <type>std::optional&lt; double &gt;</type>
       <name>GetOptionalDoubleField</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>a7694710329e9f39e43bbbf98b178b45d</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
     </member>
     <member kind="function">
       <type>maliput::math::Vector3</type>
       <name>GetVector3</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>a5fe3b713fe943277901787de6a4bc0ae</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
     </member>
     <member kind="function">
       <type>maliput::math::Quaternion</type>
       <name>GetQuaternion</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>a47c271f900b426c89763cdcfd7213637</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>ValidateSequenceSize</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>adb05ebb2b7835f0dfd935da38696e567</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name, size_t expected_size=0)</arglist>
     </member>
   </compound>
   <compound kind="file">
     <name>yaml_helper.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/traffic_signal/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/traffic_control_device/</path>
     <filename>yaml__helper_8h.html</filename>
-    <class kind="struct">malidrive::traffic_signal::TrafficSignalConstants</class>
-    <class kind="struct">malidrive::traffic_signal::BulbConstants</class>
-    <class kind="struct">malidrive::traffic_signal::BoundingBoxConstants</class>
-    <class kind="struct">malidrive::traffic_signal::RuleStateConstants</class>
-    <class kind="struct">malidrive::traffic_signal::BulbStateConditionConstants</class>
+    <class kind="struct">malidrive::traffic_control_device::TrafficControlDeviceConstants</class>
+    <class kind="struct">malidrive::traffic_control_device::BulbConstants</class>
+    <class kind="struct">malidrive::traffic_control_device::BoundingBoxConstants</class>
+    <class kind="struct">malidrive::traffic_control_device::RuleStateConstants</class>
+    <class kind="struct">malidrive::traffic_control_device::BulbStateConditionConstants</class>
     <namespace>malidrive</namespace>
-    <namespace>malidrive::traffic_signal</namespace>
+    <namespace>malidrive::traffic_control_device</namespace>
     <member kind="function">
       <type>void</type>
       <name>ValidateYamlNode</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>a1be8df8e5292b9afc66b450311568e18</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name, const std::string &amp;expected_type)</arglist>
     </member>
     <member kind="function">
       <type>std::string</type>
       <name>GetRequiredStringField</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>a8c9f3cc0066fbbee08a75b8fb1135fad</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
     </member>
     <member kind="function">
       <type>std::optional&lt; std::string &gt;</type>
       <name>GetOptionalStringField</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>a0905017b76d5462c952ae2b397f792f8</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
     </member>
     <member kind="function">
       <type>std::optional&lt; int &gt;</type>
       <name>GetOptionalIntField</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>aaa3af3edca1f0b55404365b904beb23c</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
     </member>
     <member kind="function">
       <type>std::optional&lt; double &gt;</type>
       <name>GetOptionalDoubleField</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>a7694710329e9f39e43bbbf98b178b45d</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
     </member>
     <member kind="function">
       <type>maliput::math::Vector3</type>
       <name>GetVector3</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>a5fe3b713fe943277901787de6a4bc0ae</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
     </member>
     <member kind="function">
       <type>maliput::math::Quaternion</type>
       <name>GetQuaternion</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>a47c271f900b426c89763cdcfd7213637</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>ValidateSequenceSize</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>adb05ebb2b7835f0dfd935da38696e567</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name, size_t expected_size=0)</arglist>
     </member>
@@ -3996,19 +3996,19 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>malidrive::traffic_signal::BoundingBoxConstants</name>
-    <filename>structmalidrive_1_1traffic__signal_1_1_bounding_box_constants.html</filename>
+    <name>malidrive::traffic_control_device::BoundingBoxConstants</name>
+    <filename>structmalidrive_1_1traffic__control__device_1_1_bounding_box_constants.html</filename>
     <member kind="variable" static="yes">
       <type>static constexpr const char *</type>
       <name>kPMin</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bounding_box_constants.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bounding_box_constants.html</anchorfile>
       <anchor>a62e76364e3b814ca87be97b4d43c87c6</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr const char *</type>
       <name>kPMax</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bounding_box_constants.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bounding_box_constants.html</anchorfile>
       <anchor>a5f22765bfcb69ac57faa1f3674bc2bf2</anchor>
       <arglist></arglist>
     </member>
@@ -4257,185 +4257,185 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>malidrive::traffic_signal::BulbConstants</name>
-    <filename>structmalidrive_1_1traffic__signal_1_1_bulb_constants.html</filename>
+    <name>malidrive::traffic_control_device::BulbConstants</name>
+    <filename>structmalidrive_1_1traffic__control__device_1_1_bulb_constants.html</filename>
     <member kind="variable" static="yes">
       <type>static constexpr const char *</type>
       <name>kId</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_constants.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_constants.html</anchorfile>
       <anchor>a9f36bf43428315b6dfd91de20f6854c2</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr const char *</type>
       <name>kColor</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_constants.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_constants.html</anchorfile>
       <anchor>a382c5b8f91287f402781cac4774586ea</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr const char *</type>
       <name>kType</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_constants.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_constants.html</anchorfile>
       <anchor>a0115715e581fd2a65ef043354a0e902a</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr const char *</type>
       <name>kPositionTrafficLight</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_constants.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_constants.html</anchorfile>
       <anchor>a74fd96da6e4732b71e0c974ba3d0bfa4</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr const char *</type>
       <name>kOrientationTrafficLight</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_constants.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_constants.html</anchorfile>
       <anchor>abc7846d462542d9f90b98e16d147970d</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr const char *</type>
       <name>kStates</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_constants.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_constants.html</anchorfile>
       <anchor>a577e90425bc559e17db8cc5c08923d79</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr const char *</type>
       <name>kArrowOrientationRad</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_constants.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_constants.html</anchorfile>
       <anchor>a8c6c512aa28788c53e75a7ecf8ea4503</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr const char *</type>
       <name>kBoundingBox</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_constants.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_constants.html</anchorfile>
       <anchor>ae8506e637c16bc93c523a1b201f60964</anchor>
       <arglist></arglist>
     </member>
   </compound>
   <compound kind="struct">
-    <name>malidrive::traffic_signal::BulbDefinition</name>
-    <filename>structmalidrive_1_1traffic__signal_1_1_bulb_definition.html</filename>
+    <name>malidrive::traffic_control_device::BulbDefinition</name>
+    <filename>structmalidrive_1_1traffic__control__device_1_1_bulb_definition.html</filename>
     <member kind="function">
       <type>bool</type>
       <name>operator==</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_definition.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_definition.html</anchorfile>
       <anchor>a646702d5a94cc6515b83a102ee1d3af3</anchor>
       <arglist>(const BulbDefinition &amp;other) const</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>operator!=</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_definition.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_definition.html</anchorfile>
       <anchor>abdaa609f84e0751b8a5bbbaba2171550</anchor>
       <arglist>(const BulbDefinition &amp;other) const</arglist>
     </member>
     <member kind="variable">
       <type>std::string</type>
       <name>id</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_definition.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_definition.html</anchorfile>
       <anchor>afd0d68c6d31ff249f3ae8662162663c3</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>maliput::api::rules::BulbColor</type>
       <name>color</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_definition.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_definition.html</anchorfile>
       <anchor>aaacdb65b1c8ab2850f1ee0ff932100a9</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>maliput::api::rules::BulbType</type>
       <name>type</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_definition.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_definition.html</anchorfile>
       <anchor>a9297a35e3596ab1a652f783e249d5853</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>maliput::math::Vector3</type>
       <name>position_traffic_light</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_definition.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_definition.html</anchorfile>
       <anchor>af095afed4cf3377f1e55f8e8e784ae5a</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>maliput::math::Quaternion</type>
       <name>orientation_traffic_light</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_definition.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_definition.html</anchorfile>
       <anchor>a0cb2e58ec1bfb26d1a7fd90c19d80960</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>std::vector&lt; maliput::api::rules::BulbState &gt;</type>
       <name>states</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_definition.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_definition.html</anchorfile>
       <anchor>a665749d3cb5dcd85b860f00c3eb8a339</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>std::optional&lt; double &gt;</type>
       <name>arrow_orientation_rad</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_definition.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_definition.html</anchorfile>
       <anchor>a42c88bb5c2dcd8d36df0a5f889b1cecf</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>maliput::api::rules::Bulb::BoundingBox</type>
       <name>bounding_box</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_definition.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_definition.html</anchorfile>
       <anchor>a86cbb32964dc3f8c85d18656c1c54768</anchor>
       <arglist></arglist>
     </member>
   </compound>
   <compound kind="struct">
-    <name>malidrive::traffic_signal::BulbStateCondition</name>
-    <filename>structmalidrive_1_1traffic__signal_1_1_bulb_state_condition.html</filename>
+    <name>malidrive::traffic_control_device::BulbStateCondition</name>
+    <filename>structmalidrive_1_1traffic__control__device_1_1_bulb_state_condition.html</filename>
     <member kind="function">
       <type>bool</type>
       <name>operator==</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_state_condition.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_state_condition.html</anchorfile>
       <anchor>a1f2514199c31fb9f6a177ae2499c6db9</anchor>
       <arglist>(const BulbStateCondition &amp;other) const</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>operator!=</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_state_condition.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_state_condition.html</anchorfile>
       <anchor>aa911ae7982f8458c8bd133179e1de1ab</anchor>
       <arglist>(const BulbStateCondition &amp;other) const</arglist>
     </member>
     <member kind="variable">
       <type>std::string</type>
       <name>bulb_id</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_state_condition.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_state_condition.html</anchorfile>
       <anchor>a8c0b8bf72dce6351a9418771191e7675</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>maliput::api::rules::BulbState</type>
       <name>state</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_state_condition.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_state_condition.html</anchorfile>
       <anchor>aeb94c5811a67b165c8577ef147d5b786</anchor>
       <arglist></arglist>
     </member>
   </compound>
   <compound kind="struct">
-    <name>malidrive::traffic_signal::BulbStateConditionConstants</name>
-    <filename>structmalidrive_1_1traffic__signal_1_1_bulb_state_condition_constants.html</filename>
+    <name>malidrive::traffic_control_device::BulbStateConditionConstants</name>
+    <filename>structmalidrive_1_1traffic__control__device_1_1_bulb_state_condition_constants.html</filename>
     <member kind="variable" static="yes">
       <type>static constexpr const char *</type>
       <name>kBulb</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_state_condition_constants.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_state_condition_constants.html</anchorfile>
       <anchor>a91d990462f0c11c0e577b04beea93dd1</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr const char *</type>
       <name>kState</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_bulb_state_condition_constants.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_state_condition_constants.html</anchorfile>
       <anchor>a49a85a1e41d58f68443205c9e92c7587</anchor>
       <arglist></arglist>
     </member>
@@ -6217,14 +6217,14 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>std::hash&lt; malidrive::traffic_signal::TrafficSignalFingerprint &gt;</name>
-    <filename>structstd_1_1hash_3_01malidrive_1_1traffic__signal_1_1_traffic_signal_fingerprint_01_4.html</filename>
+    <name>std::hash&lt; malidrive::traffic_control_device::TrafficControlDeviceFingerprint &gt;</name>
+    <filename>structstd_1_1hash_3_01malidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint_01_4.html</filename>
     <member kind="function">
       <type>size_t</type>
       <name>operator()</name>
-      <anchorfile>structstd_1_1hash_3_01malidrive_1_1traffic__signal_1_1_traffic_signal_fingerprint_01_4.html</anchorfile>
-      <anchor>a68b7575e1a3ac808e1a07b2bb2d24b35</anchor>
-      <arglist>(const malidrive::traffic_signal::TrafficSignalFingerprint &amp;f) const</arglist>
+      <anchorfile>structstd_1_1hash_3_01malidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint_01_4.html</anchorfile>
+      <anchor>a97beee38791cb025b8b3bf9f101b5560</anchor>
+      <arglist>(const malidrive::traffic_control_device::TrafficControlDeviceFingerprint &amp;f) const</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -11526,9 +11526,9 @@
     </member>
     <member kind="variable">
       <type>std::optional&lt; std::string &gt;</type>
-      <name>traffic_signal_db</name>
+      <name>traffic_control_device_db</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_network_configuration.html</anchorfile>
-      <anchor>aaeebf35678359a3c280ef982bbeb0956</anchor>
+      <anchor>a4180d6fe694dbbd830eefb168cec6e8a</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -11785,51 +11785,51 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>malidrive::traffic_signal::RuleState</name>
-    <filename>structmalidrive_1_1traffic__signal_1_1_rule_state.html</filename>
+    <name>malidrive::traffic_control_device::RuleState</name>
+    <filename>structmalidrive_1_1traffic__control__device_1_1_rule_state.html</filename>
     <member kind="function">
       <type>bool</type>
       <name>operator==</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_rule_state.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_rule_state.html</anchorfile>
       <anchor>a49e8a9aeb24aa21162a5d923bbf631d5</anchor>
       <arglist>(const RuleState &amp;other) const</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>operator!=</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_rule_state.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_rule_state.html</anchorfile>
       <anchor>a2b44ea63e9931c7b91fed6823337685c</anchor>
       <arglist>(const RuleState &amp;other) const</arglist>
     </member>
     <member kind="variable">
       <type>std::vector&lt; BulbStateCondition &gt;</type>
       <name>bulb_conditions</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_rule_state.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_rule_state.html</anchorfile>
       <anchor>af94712be62b23a678f371d6675140909</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
       <type>std::string</type>
       <name>rule_value</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_rule_state.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_rule_state.html</anchorfile>
       <anchor>ab8604004c6d3be98203f9a942cebe4f9</anchor>
       <arglist></arglist>
     </member>
   </compound>
   <compound kind="struct">
-    <name>malidrive::traffic_signal::RuleStateConstants</name>
-    <filename>structmalidrive_1_1traffic__signal_1_1_rule_state_constants.html</filename>
+    <name>malidrive::traffic_control_device::RuleStateConstants</name>
+    <filename>structmalidrive_1_1traffic__control__device_1_1_rule_state_constants.html</filename>
     <member kind="variable" static="yes">
       <type>static constexpr const char *</type>
       <name>kCondition</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_rule_state_constants.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_rule_state_constants.html</anchorfile>
       <anchor>ab40f5da0f5b1e29815bdbd77ff3a0fcc</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr const char *</type>
       <name>kValue</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_rule_state_constants.html</anchorfile>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_rule_state_constants.html</anchorfile>
       <anchor>aec548c1d42307027044a44403b076983</anchor>
       <arglist></arglist>
     </member>
@@ -13664,6 +13664,201 @@
       <arglist></arglist>
     </member>
   </compound>
+  <compound kind="struct">
+    <name>malidrive::traffic_control_device::TrafficControlDeviceConstants</name>
+    <filename>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html</filename>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kType</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html</anchorfile>
+      <anchor>a0115715e581fd2a65ef043354a0e902a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kSubtype</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html</anchorfile>
+      <anchor>a3851ef384c18fd1b4c73b2252b2c986d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kCountry</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html</anchorfile>
+      <anchor>acbe85a17d6b9d9e10dbe37c858677caa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kCountryRevision</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html</anchorfile>
+      <anchor>adb463919e3d5a88ef18cf7550dff126d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kDescription</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html</anchorfile>
+      <anchor>a3da214bb18f75104255a1168209b3593</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kSignType</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html</anchorfile>
+      <anchor>ab472a4a6a6fdd4487b08520bafe7e135</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kBulbs</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html</anchorfile>
+      <anchor>aa106e9d468f3744b80baba37e9b387fd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kRuleStates</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html</anchorfile>
+      <anchor>a3bca1f5ad234c2969054e42f9dd37396</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>malidrive::traffic_control_device::TrafficControlDeviceDatabaseLoader</name>
+    <filename>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>TrafficControlDeviceDatabaseLoader</name>
+      <anchorfile>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html</anchorfile>
+      <anchor>aa4944d5d99b110440b9c623f80b66072</anchor>
+      <arglist>(const std::optional&lt; std::string &gt; &amp;file_path)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; TrafficControlDeviceDefinition &gt;</type>
+      <name>Lookup</name>
+      <anchorfile>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html</anchorfile>
+      <anchor>ae6f4fabdedd449ed9d7c5e6fcb22d59b</anchor>
+      <arglist>(const TrafficControlDeviceFingerprint &amp;fingerprint) const</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::traffic_control_device::TrafficControlDeviceDefinition</name>
+    <filename>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html</anchorfile>
+      <anchor>a7026098cd50245c2cf8aaea685eb7093</anchor>
+      <arglist>(const TrafficControlDeviceDefinition &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html</anchorfile>
+      <anchor>a6d7c0737486d6037ab22dadccc918a35</anchor>
+      <arglist>(const TrafficControlDeviceDefinition &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>TrafficControlDeviceFingerprint</type>
+      <name>fingerprint</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html</anchorfile>
+      <anchor>a04b8e36e5c8b0c9c923e6e321daa300a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>description</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html</anchorfile>
+      <anchor>a2e1454f6988673f814408646edaeb320</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>sign_type</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html</anchorfile>
+      <anchor>ad57493c5d3c58ac5e9cc4c6c332f9326</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; BulbDefinition &gt;</type>
+      <name>bulbs</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html</anchorfile>
+      <anchor>ae9f55e347e43e09873a3d30a51e6ec4a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; RuleState &gt;</type>
+      <name>rule_states</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html</anchorfile>
+      <anchor>a279b9d3d52b95bc284146ec00623a0c8</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::traffic_control_device::TrafficControlDeviceFingerprint</name>
+    <filename>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html</anchorfile>
+      <anchor>a1626e82a47506caab633c9c2f80b9d14</anchor>
+      <arglist>(const TrafficControlDeviceFingerprint &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html</anchorfile>
+      <anchor>aad54a0923f02f04a00f7b302721e85bb</anchor>
+      <arglist>(const TrafficControlDeviceFingerprint &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::string</type>
+      <name>type</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html</anchorfile>
+      <anchor>a75b160f574a0be26114bae2c7686a5e1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>subtype</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html</anchorfile>
+      <anchor>a189a30649576c3a1ab1af0c24f1d7458</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>country</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html</anchorfile>
+      <anchor>a670b3950c7a60e81fffa12e9a95128c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>country_revision</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html</anchorfile>
+      <anchor>a27326eec271125b284511f0e6022c03b</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>malidrive::traffic_control_device::TrafficControlDeviceParser</name>
+    <filename>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html</filename>
+    <member kind="function" static="yes">
+      <type>static std::unordered_map&lt; TrafficControlDeviceFingerprint, TrafficControlDeviceDefinition &gt;</type>
+      <name>LoadFromString</name>
+      <anchorfile>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html</anchorfile>
+      <anchor>aaaf8287006d899259bab37f8441abdc1</anchor>
+      <arglist>(const std::string &amp;yaml_content)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static std::unordered_map&lt; TrafficControlDeviceFingerprint, TrafficControlDeviceDefinition &gt;</type>
+      <name>LoadFromFile</name>
+      <anchorfile>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html</anchorfile>
+      <anchor>a5d48c01f5a0d9f2477503fc51c69ba0d</anchor>
+      <arglist>(const std::string &amp;yaml_file_path)</arglist>
+    </member>
+  </compound>
   <compound kind="class">
     <name>malidrive::builder::TrafficLightBuilder</name>
     <filename>classmalidrive_1_1builder_1_1_traffic_light_builder.html</filename>
@@ -13671,8 +13866,8 @@
       <type></type>
       <name>TrafficLightBuilder</name>
       <anchorfile>classmalidrive_1_1builder_1_1_traffic_light_builder.html</anchorfile>
-      <anchor>ae0dd4390120d2788ef91a513553617d3</anchor>
-      <arglist>(const xodr::signal::Signal &amp;signal, const xodr::RoadHeader::Id &amp;road_id, const traffic_signal::TrafficSignalDatabaseLoader &amp;loader, const maliput::api::RoadGeometry *road_geometry, std::vector&lt; xodr::DBManager::SignalReferenceOnRoad &gt; signal_references={})</arglist>
+      <anchor>a3baeda1844c857bdaf6e8204546bf714</anchor>
+      <arglist>(const xodr::signal::Signal &amp;signal, const xodr::RoadHeader::Id &amp;road_id, const traffic_control_device::TrafficControlDeviceDatabaseLoader &amp;loader, const maliput::api::RoadGeometry *road_geometry, std::vector&lt; xodr::DBManager::SignalReferenceOnRoad &gt; signal_references={})</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; const maliput::api::rules::TrafficLight &gt;</type>
@@ -13714,8 +13909,8 @@
       <type></type>
       <name>TrafficSignalBooksBuilder</name>
       <anchorfile>classmalidrive_1_1builder_1_1_traffic_signal_books_builder.html</anchorfile>
-      <anchor>af61bcad219dfb1144944ba9426e8a9e1</anchor>
-      <arglist>(const maliput::api::RoadGeometry *road_geometry, std::optional&lt; std::string &gt; traffic_light_book_path, std::optional&lt; std::string &gt; traffic_signal_db_path)</arglist>
+      <anchor>a978ed2ec0410d1c63883ab0ba78a113d</anchor>
+      <arglist>(const maliput::api::RoadGeometry *road_geometry, std::optional&lt; std::string &gt; traffic_light_book_path, std::optional&lt; std::string &gt; traffic_control_device_db_path)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -13732,201 +13927,6 @@
       <arglist>() const</arglist>
     </member>
   </compound>
-  <compound kind="struct">
-    <name>malidrive::traffic_signal::TrafficSignalConstants</name>
-    <filename>structmalidrive_1_1traffic__signal_1_1_traffic_signal_constants.html</filename>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kType</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_traffic_signal_constants.html</anchorfile>
-      <anchor>a0115715e581fd2a65ef043354a0e902a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kSubtype</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_traffic_signal_constants.html</anchorfile>
-      <anchor>a3851ef384c18fd1b4c73b2252b2c986d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kCountry</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_traffic_signal_constants.html</anchorfile>
-      <anchor>acbe85a17d6b9d9e10dbe37c858677caa</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kCountryRevision</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_traffic_signal_constants.html</anchorfile>
-      <anchor>adb463919e3d5a88ef18cf7550dff126d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kDescription</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_traffic_signal_constants.html</anchorfile>
-      <anchor>a3da214bb18f75104255a1168209b3593</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kSignType</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_traffic_signal_constants.html</anchorfile>
-      <anchor>ab472a4a6a6fdd4487b08520bafe7e135</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kBulbs</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_traffic_signal_constants.html</anchorfile>
-      <anchor>aa106e9d468f3744b80baba37e9b387fd</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kRuleStates</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_traffic_signal_constants.html</anchorfile>
-      <anchor>a3bca1f5ad234c2969054e42f9dd37396</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>malidrive::traffic_signal::TrafficSignalDatabaseLoader</name>
-    <filename>classmalidrive_1_1traffic__signal_1_1_traffic_signal_database_loader.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>TrafficSignalDatabaseLoader</name>
-      <anchorfile>classmalidrive_1_1traffic__signal_1_1_traffic_signal_database_loader.html</anchorfile>
-      <anchor>a8acd8e4c3e08ffca8fd3cba857fea81f</anchor>
-      <arglist>(const std::optional&lt; std::string &gt; &amp;file_path)</arglist>
-    </member>
-    <member kind="function">
-      <type>std::optional&lt; TrafficSignalDefinition &gt;</type>
-      <name>Lookup</name>
-      <anchorfile>classmalidrive_1_1traffic__signal_1_1_traffic_signal_database_loader.html</anchorfile>
-      <anchor>ae2c1b7d6e141d93c937fb41ff2cf9bf4</anchor>
-      <arglist>(const TrafficSignalFingerprint &amp;fingerprint) const</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>malidrive::traffic_signal::TrafficSignalDefinition</name>
-    <filename>structmalidrive_1_1traffic__signal_1_1_traffic_signal_definition.html</filename>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_traffic_signal_definition.html</anchorfile>
-      <anchor>a3eecb76ef70391ab367ce4dca71324a3</anchor>
-      <arglist>(const TrafficSignalDefinition &amp;other) const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator!=</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_traffic_signal_definition.html</anchorfile>
-      <anchor>a8f0d039b5a4a257096f0c47a72d5ac4d</anchor>
-      <arglist>(const TrafficSignalDefinition &amp;other) const</arglist>
-    </member>
-    <member kind="variable">
-      <type>TrafficSignalFingerprint</type>
-      <name>fingerprint</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_traffic_signal_definition.html</anchorfile>
-      <anchor>afc5b75d56f9db65a966d1984b911b570</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>std::string</type>
-      <name>description</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_traffic_signal_definition.html</anchorfile>
-      <anchor>a2e1454f6988673f814408646edaeb320</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>std::string</type>
-      <name>sign_type</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_traffic_signal_definition.html</anchorfile>
-      <anchor>ad57493c5d3c58ac5e9cc4c6c332f9326</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>std::vector&lt; BulbDefinition &gt;</type>
-      <name>bulbs</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_traffic_signal_definition.html</anchorfile>
-      <anchor>ae9f55e347e43e09873a3d30a51e6ec4a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>std::vector&lt; RuleState &gt;</type>
-      <name>rule_states</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_traffic_signal_definition.html</anchorfile>
-      <anchor>a279b9d3d52b95bc284146ec00623a0c8</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>malidrive::traffic_signal::TrafficSignalFingerprint</name>
-    <filename>structmalidrive_1_1traffic__signal_1_1_traffic_signal_fingerprint.html</filename>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_traffic_signal_fingerprint.html</anchorfile>
-      <anchor>a92cb654173076128c560785a052c79ee</anchor>
-      <arglist>(const TrafficSignalFingerprint &amp;other) const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator!=</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_traffic_signal_fingerprint.html</anchorfile>
-      <anchor>a63840df75a6b1ff30e5b9f9d4e6cc1b0</anchor>
-      <arglist>(const TrafficSignalFingerprint &amp;other) const</arglist>
-    </member>
-    <member kind="variable">
-      <type>std::string</type>
-      <name>type</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_traffic_signal_fingerprint.html</anchorfile>
-      <anchor>a75b160f574a0be26114bae2c7686a5e1</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>std::optional&lt; std::string &gt;</type>
-      <name>subtype</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_traffic_signal_fingerprint.html</anchorfile>
-      <anchor>a189a30649576c3a1ab1af0c24f1d7458</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>std::optional&lt; std::string &gt;</type>
-      <name>country</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_traffic_signal_fingerprint.html</anchorfile>
-      <anchor>a670b3950c7a60e81fffa12e9a95128c2</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>std::optional&lt; std::string &gt;</type>
-      <name>country_revision</name>
-      <anchorfile>structmalidrive_1_1traffic__signal_1_1_traffic_signal_fingerprint.html</anchorfile>
-      <anchor>a27326eec271125b284511f0e6022c03b</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>malidrive::traffic_signal::TrafficSignalParser</name>
-    <filename>classmalidrive_1_1traffic__signal_1_1_traffic_signal_parser.html</filename>
-    <member kind="function" static="yes">
-      <type>static std::unordered_map&lt; TrafficSignalFingerprint, TrafficSignalDefinition &gt;</type>
-      <name>LoadFromString</name>
-      <anchorfile>classmalidrive_1_1traffic__signal_1_1_traffic_signal_parser.html</anchorfile>
-      <anchor>a9094e47c9e4e18a08b9865ca85f95212</anchor>
-      <arglist>(const std::string &amp;yaml_content)</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static std::unordered_map&lt; TrafficSignalFingerprint, TrafficSignalDefinition &gt;</type>
-      <name>LoadFromFile</name>
-      <anchorfile>classmalidrive_1_1traffic__signal_1_1_traffic_signal_parser.html</anchorfile>
-      <anchor>a1c7ec1b6bbb00e5b9f550069f432b931</anchor>
-      <arglist>(const std::string &amp;yaml_file_path)</arglist>
-    </member>
-  </compound>
   <compound kind="class">
     <name>malidrive::builder::TrafficSignBuilder</name>
     <filename>classmalidrive_1_1builder_1_1_traffic_sign_builder.html</filename>
@@ -13934,8 +13934,8 @@
       <type></type>
       <name>TrafficSignBuilder</name>
       <anchorfile>classmalidrive_1_1builder_1_1_traffic_sign_builder.html</anchorfile>
-      <anchor>a47e8d21ef5bf7d5422bcdd81453fb48a</anchor>
-      <arglist>(const xodr::signal::Signal &amp;signal, const xodr::RoadHeader::Id &amp;road_id, const traffic_signal::TrafficSignalDatabaseLoader &amp;loader, const maliput::api::RoadGeometry *road_geometry, std::vector&lt; xodr::DBManager::SignalReferenceOnRoad &gt; signal_references={})</arglist>
+      <anchor>a9374958da5894b647ae8279d3b0dac5e</anchor>
+      <arglist>(const xodr::signal::Signal &amp;signal, const xodr::RoadHeader::Id &amp;road_id, const traffic_control_device::TrafficControlDeviceDatabaseLoader &amp;loader, const maliput::api::RoadGeometry *road_geometry, std::vector&lt; xodr::DBManager::SignalReferenceOnRoad &gt; signal_references={})</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; const maliput::api::rules::TrafficSign &gt;</type>
@@ -14989,7 +14989,7 @@
     <namespace>malidrive::plugin</namespace>
     <namespace>malidrive::road_curve</namespace>
     <namespace>malidrive::test</namespace>
-    <namespace>malidrive::traffic_signal</namespace>
+    <namespace>malidrive::traffic_control_device</namespace>
     <namespace>malidrive::xodr</namespace>
     <class kind="class">malidrive::Lane</class>
     <class kind="class">malidrive::LaneBoundary</class>
@@ -15350,9 +15350,9 @@
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr char const  *</type>
-      <name>kTrafficSignalDb</name>
+      <name>kTrafficControlDeviceDb</name>
       <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
-      <anchor>ga4e1ab7a35bcc04c683f269802c9c26ac</anchor>
+      <anchor>ga6686ead685e12e180b49b163bbc27d3a</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
@@ -15669,73 +15669,73 @@
     </member>
   </compound>
   <compound kind="namespace">
-    <name>malidrive::traffic_signal</name>
-    <filename>namespacemalidrive_1_1traffic__signal.html</filename>
-    <class kind="struct">malidrive::traffic_signal::BoundingBoxConstants</class>
-    <class kind="struct">malidrive::traffic_signal::BulbConstants</class>
-    <class kind="struct">malidrive::traffic_signal::BulbDefinition</class>
-    <class kind="struct">malidrive::traffic_signal::BulbStateCondition</class>
-    <class kind="struct">malidrive::traffic_signal::BulbStateConditionConstants</class>
-    <class kind="struct">malidrive::traffic_signal::RuleState</class>
-    <class kind="struct">malidrive::traffic_signal::RuleStateConstants</class>
-    <class kind="struct">malidrive::traffic_signal::TrafficSignalConstants</class>
-    <class kind="class">malidrive::traffic_signal::TrafficSignalDatabaseLoader</class>
-    <class kind="struct">malidrive::traffic_signal::TrafficSignalDefinition</class>
-    <class kind="struct">malidrive::traffic_signal::TrafficSignalFingerprint</class>
-    <class kind="class">malidrive::traffic_signal::TrafficSignalParser</class>
+    <name>malidrive::traffic_control_device</name>
+    <filename>namespacemalidrive_1_1traffic__control__device.html</filename>
+    <class kind="struct">malidrive::traffic_control_device::BoundingBoxConstants</class>
+    <class kind="struct">malidrive::traffic_control_device::BulbConstants</class>
+    <class kind="struct">malidrive::traffic_control_device::BulbDefinition</class>
+    <class kind="struct">malidrive::traffic_control_device::BulbStateCondition</class>
+    <class kind="struct">malidrive::traffic_control_device::BulbStateConditionConstants</class>
+    <class kind="struct">malidrive::traffic_control_device::RuleState</class>
+    <class kind="struct">malidrive::traffic_control_device::RuleStateConstants</class>
+    <class kind="struct">malidrive::traffic_control_device::TrafficControlDeviceConstants</class>
+    <class kind="class">malidrive::traffic_control_device::TrafficControlDeviceDatabaseLoader</class>
+    <class kind="struct">malidrive::traffic_control_device::TrafficControlDeviceDefinition</class>
+    <class kind="struct">malidrive::traffic_control_device::TrafficControlDeviceFingerprint</class>
+    <class kind="class">malidrive::traffic_control_device::TrafficControlDeviceParser</class>
     <member kind="function">
       <type>void</type>
       <name>ValidateYamlNode</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>a1be8df8e5292b9afc66b450311568e18</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name, const std::string &amp;expected_type)</arglist>
     </member>
     <member kind="function">
       <type>std::string</type>
       <name>GetRequiredStringField</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>a8c9f3cc0066fbbee08a75b8fb1135fad</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
     </member>
     <member kind="function">
       <type>std::optional&lt; std::string &gt;</type>
       <name>GetOptionalStringField</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>a0905017b76d5462c952ae2b397f792f8</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
     </member>
     <member kind="function">
       <type>std::optional&lt; int &gt;</type>
       <name>GetOptionalIntField</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>aaa3af3edca1f0b55404365b904beb23c</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
     </member>
     <member kind="function">
       <type>std::optional&lt; double &gt;</type>
       <name>GetOptionalDoubleField</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>a7694710329e9f39e43bbbf98b178b45d</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
     </member>
     <member kind="function">
       <type>maliput::math::Vector3</type>
       <name>GetVector3</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>a5fe3b713fe943277901787de6a4bc0ae</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
     </member>
     <member kind="function">
       <type>maliput::math::Quaternion</type>
       <name>GetQuaternion</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>a47c271f900b426c89763cdcfd7213637</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
     </member>
     <member kind="function">
       <type>void</type>
       <name>ValidateSequenceSize</name>
-      <anchorfile>namespacemalidrive_1_1traffic__signal.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>adb05ebb2b7835f0dfd935da38696e567</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name, size_t expected_size=0)</arglist>
     </member>
@@ -16117,9 +16117,9 @@
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr char const  *</type>
-      <name>kTrafficSignalDb</name>
+      <name>kTrafficControlDeviceDb</name>
       <anchorfile>group__road__network__configuration__builder__keys.html</anchorfile>
-      <anchor>ga4e1ab7a35bcc04c683f269802c9c26ac</anchor>
+      <anchor>ga6686ead685e12e180b49b163bbc27d3a</anchor>
       <arglist></arglist>
     </member>
   </compound>

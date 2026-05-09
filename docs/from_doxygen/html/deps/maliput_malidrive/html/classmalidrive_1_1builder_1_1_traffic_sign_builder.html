@@ -98,22 +98,22 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1builder_1_1_traffic_
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Builds a single <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_sign.html">maliput::api::rules::TrafficSign</a> from a XODR <a class="el" href="structmalidrive_1_1xodr_1_1signal_1_1_signal.html">xodr::signal::Signal</a> and its matching definition in the traffic signal <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database. </p>
 <p>The builder follows the functor pattern: construct it with all required inputs and call <a class="el" href="classmalidrive_1_1builder_1_1_traffic_sign_builder.html#a541f8476349985e8fcc259e7aad775c4">operator()()</a> to produce the result.</p>
-<p>When no matching <a class="el" href="structmalidrive_1_1traffic__signal_1_1_traffic_signal_definition.html">traffic_signal::TrafficSignalDefinition</a> is found in the loader for the given signal's type/subtype/country fingerprint, or when the definition's sign_type cannot be mapped to a known <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api_1_1rules.html#ad3e17e6e261408048a924423b24a23cd">maliput::api::rules::TrafficSignType</a>, the builder returns nullptr. </p>
+<p>When no matching <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html">traffic_control_device::TrafficControlDeviceDefinition</a> is found in the loader for the given signal's type/subtype/country fingerprint, or when the definition's sign_type cannot be mapped to a known <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api_1_1rules.html#ad3e17e6e261408048a924423b24a23cd">maliput::api::rules::TrafficSignType</a>, the builder returns nullptr. </p>
 </div>
 <p><code>#include &lt;src/maliput_malidrive/builder/traffic_sign_builder.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a47e8d21ef5bf7d5422bcdd81453fb48a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_traffic_sign_builder.html#a47e8d21ef5bf7d5422bcdd81453fb48a">TrafficSignBuilder</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1signal_1_1_signal.html">xodr::signal::Signal</a> &amp;signal, const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">xodr::RoadHeader::Id</a> &amp;road_id, const <a class="el" href="classmalidrive_1_1traffic__signal_1_1_traffic_signal_database_loader.html">traffic_signal::TrafficSignalDatabaseLoader</a> &amp;loader, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *road_geometry, std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_signal_reference_on_road.html">xodr::DBManager::SignalReferenceOnRoad</a> &gt; signal_references={})</td></tr>
-<tr class="memdesc:a47e8d21ef5bf7d5422bcdd81453fb48a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmalidrive_1_1builder_1_1_traffic_sign_builder.html" title="Builds a single maliput::api::rules::TrafficSign from a XODR xodr::signal::Signal and its matching de...">TrafficSignBuilder</a>.  <a href="classmalidrive_1_1builder_1_1_traffic_sign_builder.html#a47e8d21ef5bf7d5422bcdd81453fb48a">More...</a><br /></td></tr>
-<tr class="separator:a47e8d21ef5bf7d5422bcdd81453fb48a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9374958da5894b647ae8279d3b0dac5e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_traffic_sign_builder.html#a9374958da5894b647ae8279d3b0dac5e">TrafficSignBuilder</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1signal_1_1_signal.html">xodr::signal::Signal</a> &amp;signal, const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">xodr::RoadHeader::Id</a> &amp;road_id, const <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html">traffic_control_device::TrafficControlDeviceDatabaseLoader</a> &amp;loader, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *road_geometry, std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_signal_reference_on_road.html">xodr::DBManager::SignalReferenceOnRoad</a> &gt; signal_references={})</td></tr>
+<tr class="memdesc:a9374958da5894b647ae8279d3b0dac5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmalidrive_1_1builder_1_1_traffic_sign_builder.html" title="Builds a single maliput::api::rules::TrafficSign from a XODR xodr::signal::Signal and its matching de...">TrafficSignBuilder</a>.  <a href="classmalidrive_1_1builder_1_1_traffic_sign_builder.html#a9374958da5894b647ae8279d3b0dac5e">More...</a><br /></td></tr>
+<tr class="separator:a9374958da5894b647ae8279d3b0dac5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a541f8476349985e8fcc259e7aad775c4"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_sign.html">maliput::api::rules::TrafficSign</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_traffic_sign_builder.html#a541f8476349985e8fcc259e7aad775c4">operator()</a> () const</td></tr>
 <tr class="memdesc:a541f8476349985e8fcc259e7aad775c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds and returns the <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_sign.html">maliput::api::rules::TrafficSign</a>.  <a href="classmalidrive_1_1builder_1_1_traffic_sign_builder.html#a541f8476349985e8fcc259e7aad775c4">More...</a><br /></td></tr>
 <tr class="separator:a541f8476349985e8fcc259e7aad775c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a47e8d21ef5bf7d5422bcdd81453fb48a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47e8d21ef5bf7d5422bcdd81453fb48a">&#9670;&nbsp;</a></span>TrafficSignBuilder()</h2>
+<a id="a9374958da5894b647ae8279d3b0dac5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9374958da5894b647ae8279d3b0dac5e">&#9670;&nbsp;</a></span>TrafficSignBuilder()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133,7 +133,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classmalidrive_1_1traffic__signal_1_1_traffic_signal_database_loader.html">traffic_signal::TrafficSignalDatabaseLoader</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html">traffic_control_device::TrafficControlDeviceDatabaseLoader</a> &amp;&#160;</td>
           <td class="paramname"><em>loader</em>, </td>
         </tr>
         <tr>
@@ -161,7 +161,7 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">signal</td><td>The XODR signal to build a <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_sign.html">maliput::api::rules::TrafficSign</a> from. </td></tr>
     <tr><td class="paramname">road_id</td><td>The XODR road's ID the <code>signal</code> belongs to. </td></tr>
-    <tr><td class="paramname">loader</td><td>The <a class="el" href="classmalidrive_1_1traffic__signal_1_1_traffic_signal_database_loader.html">traffic_signal::TrafficSignalDatabaseLoader</a> providing access to the traffic signal <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database. </td></tr>
+    <tr><td class="paramname">loader</td><td>The <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html">traffic_control_device::TrafficControlDeviceDatabaseLoader</a> providing access to the traffic signal <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database. </td></tr>
     <tr><td class="paramname">road_geometry</td><td>Pointer to the road geometry. Must not be nullptr. </td></tr>
     <tr><td class="paramname">signal_references</td><td>Signal references from other roads that point to <code>signal</code>. Each entry carries the referencing road's ID and the reference itself, whose validity/s-coordinate is used to resolve related lanes on the referencing road. </td></tr>
   </table>

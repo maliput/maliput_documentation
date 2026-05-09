@@ -183,16 +183,16 @@ var files_dup =
     [ "parking_space.h", "parking__space_8h.html", [
       [ "ParkingSpace", "structmalidrive_1_1xodr_1_1object_1_1_parking_space.html", "structmalidrive_1_1xodr_1_1object_1_1_parking_space" ]
     ] ],
-    [ "traffic_signal/parser.cc", "traffic__signal_2parser_8cc.html", null ],
+    [ "traffic_control_device/parser.cc", "traffic__control__device_2parser_8cc.html", null ],
     [ "xodr/parser.cc", "xodr_2parser_8cc.html", "xodr_2parser_8cc" ],
-    [ "traffic_signal/parser.h", "traffic__signal_2parser_8h.html", [
-      [ "BulbStateCondition", "structmalidrive_1_1traffic__signal_1_1_bulb_state_condition.html", "structmalidrive_1_1traffic__signal_1_1_bulb_state_condition" ],
-      [ "RuleState", "structmalidrive_1_1traffic__signal_1_1_rule_state.html", "structmalidrive_1_1traffic__signal_1_1_rule_state" ],
-      [ "BulbDefinition", "structmalidrive_1_1traffic__signal_1_1_bulb_definition.html", "structmalidrive_1_1traffic__signal_1_1_bulb_definition" ],
-      [ "TrafficSignalFingerprint", "structmalidrive_1_1traffic__signal_1_1_traffic_signal_fingerprint.html", "structmalidrive_1_1traffic__signal_1_1_traffic_signal_fingerprint" ],
-      [ "TrafficSignalDefinition", "structmalidrive_1_1traffic__signal_1_1_traffic_signal_definition.html", "structmalidrive_1_1traffic__signal_1_1_traffic_signal_definition" ],
-      [ "TrafficSignalParser", "classmalidrive_1_1traffic__signal_1_1_traffic_signal_parser.html", "classmalidrive_1_1traffic__signal_1_1_traffic_signal_parser" ],
-      [ "hash< malidrive::traffic_signal::TrafficSignalFingerprint >", "structstd_1_1hash_3_01malidrive_1_1traffic__signal_1_1_traffic_signal_fingerprint_01_4.html", "structstd_1_1hash_3_01malidrive_1_1traffic__signal_1_1_traffic_signal_fingerprint_01_4" ]
+    [ "traffic_control_device/parser.h", "traffic__control__device_2parser_8h.html", [
+      [ "BulbStateCondition", "structmalidrive_1_1traffic__control__device_1_1_bulb_state_condition.html", "structmalidrive_1_1traffic__control__device_1_1_bulb_state_condition" ],
+      [ "RuleState", "structmalidrive_1_1traffic__control__device_1_1_rule_state.html", "structmalidrive_1_1traffic__control__device_1_1_rule_state" ],
+      [ "BulbDefinition", "structmalidrive_1_1traffic__control__device_1_1_bulb_definition.html", "structmalidrive_1_1traffic__control__device_1_1_bulb_definition" ],
+      [ "TrafficControlDeviceFingerprint", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint" ],
+      [ "TrafficControlDeviceDefinition", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition" ],
+      [ "TrafficControlDeviceParser", "classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html", "classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser" ],
+      [ "hash< malidrive::traffic_control_device::TrafficControlDeviceFingerprint >", "structstd_1_1hash_3_01malidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint_01_4.html", "structstd_1_1hash_3_01malidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint_01_4" ]
     ] ],
     [ "xodr/parser.h", "xodr_2parser_8h.html", "xodr_2parser_8h" ],
     [ "parser_configuration.h", "parser__configuration_8h.html", [
@@ -367,6 +367,10 @@ var files_dup =
     ] ],
     [ "tools.cc", "tools_8cc.html", "tools_8cc" ],
     [ "tools.h", "tools_8h.html", "tools_8h" ],
+    [ "traffic_control_device_database_loader.cc", "traffic__control__device__database__loader_8cc.html", null ],
+    [ "traffic_control_device_database_loader.h", "traffic__control__device__database__loader_8h.html", [
+      [ "TrafficControlDeviceDatabaseLoader", "classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html", "classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader" ]
+    ] ],
     [ "traffic_light_builder.cc", "traffic__light__builder_8cc.html", null ],
     [ "traffic_light_builder.h", "traffic__light__builder_8h.html", [
       [ "TrafficLightBuilder", "classmalidrive_1_1builder_1_1_traffic_light_builder.html", "classmalidrive_1_1builder_1_1_traffic_light_builder" ]
@@ -381,10 +385,6 @@ var files_dup =
     [ "traffic_signal_books_builder.h", "traffic__signal__books__builder_8h.html", [
       [ "TrafficSignalBooks", "structmalidrive_1_1builder_1_1_traffic_signal_books.html", "structmalidrive_1_1builder_1_1_traffic_signal_books" ],
       [ "TrafficSignalBooksBuilder", "classmalidrive_1_1builder_1_1_traffic_signal_books_builder.html", "classmalidrive_1_1builder_1_1_traffic_signal_books_builder" ]
-    ] ],
-    [ "traffic_signal_database_loader.cc", "traffic__signal__database__loader_8cc.html", null ],
-    [ "traffic_signal_database_loader.h", "traffic__signal__database__loader_8h.html", [
-      [ "TrafficSignalDatabaseLoader", "classmalidrive_1_1traffic__signal_1_1_traffic_signal_database_loader.html", "classmalidrive_1_1traffic__signal_1_1_traffic_signal_database_loader" ]
     ] ],
     [ "tunnel.cc", "tunnel_8cc.html", null ],
     [ "tunnel.h", "tunnel_8h.html", [

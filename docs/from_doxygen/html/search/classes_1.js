@@ -15,7 +15,7 @@ var searchData=
   ['borders_5839',['Borders',['.././deps/maliput_malidrive/html/structmalidrive_1_1xodr_1_1object_1_1_borders.html',1,'malidrive::xodr::object']]],
   ['boundarymarkings_5840',['BoundaryMarkings',['.././deps/maliput_sparse/html/structmaliput__sparse_1_1parser_1_1_boundary_markings.html',1,'maliput_sparse::parser']]],
   ['boundingbox_5841',['BoundingBox',['.././deps/maliput/html/structmaliput_1_1api_1_1rules_1_1_bulb_1_1_bounding_box.html',1,'BoundingBox'],['.././deps/maliput/html/classmaliput_1_1math_1_1_bounding_box.html',1,'BoundingBox']]],
-  ['boundingboxconstants_5842',['BoundingBoxConstants',['.././deps/maliput_malidrive/html/structmalidrive_1_1traffic__signal_1_1_bounding_box_constants.html',1,'malidrive::traffic_signal']]],
+  ['boundingboxconstants_5842',['BoundingBoxConstants',['.././deps/maliput_malidrive/html/structmalidrive_1_1traffic__control__device_1_1_bounding_box_constants.html',1,'malidrive::traffic_control_device']]],
   ['boundingregion_5843',['BoundingRegion',['.././deps/maliput/html/classmaliput_1_1math_1_1_bounding_region.html',1,'maliput::math']]],
   ['boundingregion_3c_20vector3_20_3e_5844',['BoundingRegion&lt; Vector3 &gt;',['.././deps/maliput/html/classmaliput_1_1math_1_1_bounding_region.html',1,'']]],
   ['boundpointsresult_5845',['BoundPointsResult',['.././deps/maliput_sparse/html/structmaliput__sparse_1_1geometry_1_1utility_1_1_bound_points_result.html',1,'maliput_sparse::geometry::utility']]],
@@ -33,10 +33,10 @@ var searchData=
   ['buildpolicy_5857',['BuildPolicy',['.././deps/maliput_malidrive/html/structmalidrive_1_1builder_1_1_build_policy.html',1,'malidrive::builder']]],
   ['buildtolerance_5858',['BuildTolerance',['.././deps/maliput_malidrive/html/structmalidrive_1_1builder_1_1_road_geometry_configuration_1_1_build_tolerance.html',1,'malidrive::builder::RoadGeometryConfiguration']]],
   ['bulb_5859',['Bulb',['.././deps/maliput/html/classmaliput_1_1api_1_1rules_1_1_bulb.html',1,'maliput::api::rules']]],
-  ['bulbconstants_5860',['BulbConstants',['.././deps/maliput_malidrive/html/structmalidrive_1_1traffic__signal_1_1_bulb_constants.html',1,'malidrive::traffic_signal']]],
-  ['bulbdefinition_5861',['BulbDefinition',['.././deps/maliput_malidrive/html/structmalidrive_1_1traffic__signal_1_1_bulb_definition.html',1,'malidrive::traffic_signal']]],
+  ['bulbconstants_5860',['BulbConstants',['.././deps/maliput_malidrive/html/structmalidrive_1_1traffic__control__device_1_1_bulb_constants.html',1,'malidrive::traffic_control_device']]],
+  ['bulbdefinition_5861',['BulbDefinition',['.././deps/maliput_malidrive/html/structmalidrive_1_1traffic__control__device_1_1_bulb_definition.html',1,'malidrive::traffic_control_device']]],
   ['bulbgroup_5862',['BulbGroup',['.././deps/maliput/html/classmaliput_1_1api_1_1rules_1_1_bulb_group.html',1,'maliput::api::rules']]],
-  ['bulbstatecondition_5863',['BulbStateCondition',['.././deps/maliput_malidrive/html/structmalidrive_1_1traffic__signal_1_1_bulb_state_condition.html',1,'malidrive::traffic_signal']]],
-  ['bulbstateconditionconstants_5864',['BulbStateConditionConstants',['.././deps/maliput_malidrive/html/structmalidrive_1_1traffic__signal_1_1_bulb_state_condition_constants.html',1,'malidrive::traffic_signal']]],
+  ['bulbstatecondition_5863',['BulbStateCondition',['.././deps/maliput_malidrive/html/structmalidrive_1_1traffic__control__device_1_1_bulb_state_condition.html',1,'malidrive::traffic_control_device']]],
+  ['bulbstateconditionconstants_5864',['BulbStateConditionConstants',['.././deps/maliput_malidrive/html/structmalidrive_1_1traffic__control__device_1_1_bulb_state_condition_constants.html',1,'malidrive::traffic_control_device']]],
   ['bundledpackage_5865',['BundledPackage',['.././deps/delphyne/html/classdelphyne_1_1utility_1_1_bundled_package.html',1,'delphyne::utility']]]
 ];

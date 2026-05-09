@@ -17,7 +17,7 @@ var searchData=
   ['vector2_6596',['Vector2',['.././deps/maliput/html/classmaliput_1_1math_1_1_vector2.html',1,'maliput::math']]],
   ['vector3_6597',['Vector3',['.././deps/maliput/html/classmaliput_1_1math_1_1_vector3.html',1,'maliput::math']]],
   ['vector4_6598',['Vector4',['.././deps/maliput/html/classmaliput_1_1math_1_1_vector4.html',1,'maliput::math']]],
-  ['vectorbase_6599',['VectorBase',['.././deps/maliput/html/classmaliput_1_1drake_1_1systems_1_1_vector_base.html',1,'VectorBase&lt; class &gt;'],['.././deps/maliput/html/classmaliput_1_1math_1_1_vector_base.html',1,'VectorBase&lt; N, class &gt;']]],
+  ['vectorbase_6599',['VectorBase',['.././deps/maliput/html/classmaliput_1_1math_1_1_vector_base.html',1,'VectorBase&lt; N, class &gt;'],['.././deps/maliput/html/classmaliput_1_1drake_1_1systems_1_1_vector_base.html',1,'VectorBase&lt; class &gt;']]],
   ['vectorbase_3c_202_2c_20vector2_20_3e_6600',['VectorBase&lt; 2, Vector2 &gt;',['.././deps/maliput/html/classmaliput_1_1math_1_1_vector_base.html',1,'']]],
   ['vectorbase_3c_203_2c_20vector3_20_3e_6601',['VectorBase&lt; 3, Vector3 &gt;',['.././deps/maliput/html/classmaliput_1_1math_1_1_vector_base.html',1,'']]],
   ['vectorbase_3c_204_2c_20vector4_20_3e_6602',['VectorBase&lt; 4, Vector4 &gt;',['.././deps/maliput/html/classmaliput_1_1math_1_1_vector_base.html',1,'']]],
