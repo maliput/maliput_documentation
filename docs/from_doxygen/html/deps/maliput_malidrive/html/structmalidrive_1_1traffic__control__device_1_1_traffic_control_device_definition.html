@@ -117,11 +117,20 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a2e1454f6988673f814408646edaeb320"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a2e1454f6988673f814408646edaeb320">description</a></td></tr>
 <tr class="memdesc:a2e1454f6988673f814408646edaeb320"><td class="mdescLeft">&#160;</td><td class="mdescRight">Human-readable description of this signal definition.  <a href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a2e1454f6988673f814408646edaeb320">More...</a><br /></td></tr>
 <tr class="separator:a2e1454f6988673f814408646edaeb320"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad57493c5d3c58ac5e9cc4c6c332f9326"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#ad57493c5d3c58ac5e9cc4c6c332f9326">sign_type</a></td></tr>
-<tr class="memdesc:ad57493c5d3c58ac5e9cc4c6c332f9326"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of traffic signal.  <a href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#ad57493c5d3c58ac5e9cc4c6c332f9326">More...</a><br /></td></tr>
-<tr class="separator:ad57493c5d3c58ac5e9cc4c6c332f9326"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5a577ea1d0ca811729c4fc575cdb245"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58df">TrafficControlDeviceType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#ac5a577ea1d0ca811729c4fc575cdb245">device_type</a> {<a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58dfa25c2dc47991b3df171ed5192bcf70390">TrafficControlDeviceType::kUnknown</a>}</td></tr>
+<tr class="memdesc:ac5a577ea1d0ca811729c4fc575cdb245"><td class="mdescLeft">&#160;</td><td class="mdescRight">Device category parsed from the <code>device_type</code> field in the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database <code>properties</code> section.  <a href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#ac5a577ea1d0ca811729c4fc575cdb245">More...</a><br /></td></tr>
+<tr class="separator:ac5a577ea1d0ca811729c4fc575cdb245"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69a871d49d5ef98ed537f5f930d192c8"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a69a871d49d5ef98ed537f5f930d192c8">device_semantics</a></td></tr>
+<tr class="memdesc:a69a871d49d5ef98ed537f5f930d192c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional device semantics string (e.g.  <a href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a69a871d49d5ef98ed537f5f930d192c8">More...</a><br /></td></tr>
+<tr class="separator:a69a871d49d5ef98ed537f5f930d192c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5880525fc37dbb5628c74fcd542dc602"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a5880525fc37dbb5628c74fcd542dc602">is_position_dynamic</a> {false}</td></tr>
+<tr class="memdesc:a5880525fc37dbb5628c74fcd542dc602"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the device position is dynamic (moveable). Defaults to false.  <a href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a5880525fc37dbb5628c74fcd542dc602">More...</a><br /></td></tr>
+<tr class="separator:a5880525fc37dbb5628c74fcd542dc602"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9a6f027dc0d9ba4cfc7e145e7f6f978"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="elRef" href="../../maliput/html/structmaliput_1_1api_1_1rules_1_1_bulb_1_1_bounding_box.html">maliput::api::rules::Bulb::BoundingBox</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#ac9a6f027dc0d9ba4cfc7e145e7f6f978">default_bounding_box</a></td></tr>
+<tr class="memdesc:ac9a6f027dc0d9ba4cfc7e145e7f6f978"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional device-level bounding box.  <a href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#ac9a6f027dc0d9ba4cfc7e145e7f6f978">More...</a><br /></td></tr>
+<tr class="separator:ac9a6f027dc0d9ba4cfc7e145e7f6f978"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9f55e347e43e09873a3d30a51e6ec4a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_bulb_definition.html">BulbDefinition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#ae9f55e347e43e09873a3d30a51e6ec4a">bulbs</a></td></tr>
-<tr class="memdesc:ae9f55e347e43e09873a3d30a51e6ec4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bulbs in this traffic signal.  <a href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#ae9f55e347e43e09873a3d30a51e6ec4a">More...</a><br /></td></tr>
+<tr class="memdesc:ae9f55e347e43e09873a3d30a51e6ec4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bulbs in this traffic signal (only relevant when device_type == "traffic_light").  <a href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#ae9f55e347e43e09873a3d30a51e6ec4a">More...</a><br /></td></tr>
 <tr class="separator:ae9f55e347e43e09873a3d30a51e6ec4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a279b9d3d52b95bc284146ec00623a0c8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_rule_state.html">RuleState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a279b9d3d52b95bc284146ec00623a0c8">rule_states</a></td></tr>
 <tr class="memdesc:a279b9d3d52b95bc284146ec00623a0c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rule conditions mapping bulb state combinations to Right-Of-Way rule values.  <a href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a279b9d3d52b95bc284146ec00623a0c8">More...</a><br /></td></tr>
@@ -177,7 +186,24 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Bulbs in this traffic signal. </p>
+<p>Bulbs in this traffic signal (only relevant when device_type == "traffic_light"). </p>
+
+</div>
+</div>
+<a id="ac9a6f027dc0d9ba4cfc7e145e7f6f978"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9a6f027dc0d9ba4cfc7e145e7f6f978">&#9670;&nbsp;</a></span>default_bounding_box</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;<a class="elRef" href="../../maliput/html/structmaliput_1_1api_1_1rules_1_1_bulb_1_1_bounding_box.html">maliput::api::rules::Bulb::BoundingBox</a>&gt; default_bounding_box</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Optional device-level bounding box. </p>
+<p>When set, represents the overall device dimensions. Individual bulbs may still carry their own per-bulb bounding boxes. </p>
 
 </div>
 </div>
@@ -197,6 +223,40 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a69a871d49d5ef98ed537f5f930d192c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69a871d49d5ef98ed537f5f930d192c8">&#9670;&nbsp;</a></span>device_semantics</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;std::string&gt; device_semantics</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Optional device semantics string (e.g. </p>
+<p>"stop", "give_way", "no_overtaking"). Read from properties.device_semantics. </p>
+
+</div>
+</div>
+<a id="ac5a577ea1d0ca811729c4fc575cdb245"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5a577ea1d0ca811729c4fc575cdb245">&#9670;&nbsp;</a></span>device_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58df">TrafficControlDeviceType</a> device_type {<a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58dfa25c2dc47991b3df171ed5192bcf70390">TrafficControlDeviceType::kUnknown</a>}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Device category parsed from the <code>device_type</code> field in the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database <code>properties</code> section. </p>
+<p>Required field; validated at parse time — kUnknown is rejected with a parser error. </p>
+
+</div>
+</div>
 <a id="a04b8e36e5c8b0c9c923e6e321daa300a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a04b8e36e5c8b0c9c923e6e321daa300a">&#9670;&nbsp;</a></span>fingerprint</h2>
 
@@ -213,6 +273,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5880525fc37dbb5628c74fcd542dc602"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5880525fc37dbb5628c74fcd542dc602">&#9670;&nbsp;</a></span>is_position_dynamic</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool is_position_dynamic {false}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether the device position is dynamic (moveable). Defaults to false. </p>
+
+</div>
+</div>
 <a id="a279b9d3d52b95bc284146ec00623a0c8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a279b9d3d52b95bc284146ec00623a0c8">&#9670;&nbsp;</a></span>rule_states</h2>
 
@@ -226,23 +302,6 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Rule conditions mapping bulb state combinations to Right-Of-Way rule values. </p>
-
-</div>
-</div>
-<a id="ad57493c5d3c58ac5e9cc4c6c332f9326"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad57493c5d3c58ac5e9cc4c6c332f9326">&#9670;&nbsp;</a></span>sign_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string sign_type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Type of traffic signal. </p>
-<p>Defaults to "traffic_light" when not specified in the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database. Use a different value (e.g. "stop", "yield") to identify static traffic signs. </p>
 
 </div>
 </div>

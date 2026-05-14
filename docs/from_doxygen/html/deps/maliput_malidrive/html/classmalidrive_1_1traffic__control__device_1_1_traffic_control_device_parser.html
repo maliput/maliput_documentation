@@ -96,20 +96,22 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1traffic__control__de
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Traffic signal parser that loads traffic signal definitions from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database. </p>
-<p>These are then used in tandem with XODR signal data to create maliput TrafficLights and associated Right-Of-Way rules.</p>
+<div class="textblock"><p>Parser that loads traffic control device definitions from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database using the <code>odr_signal_types</code> schema. </p>
+<p>The resulting definitions are used in tandem with XODR signal data to create maliput <code>TrafficLight</code> and <code>TrafficSign</code> objects.</p>
 <p>Design:</p><ul>
-<li>TrafficLights and DiscreteValueRules are independent systems that operate in parallel.</li>
-<li>Both are created from the same XODR signal, but are not formally linked.</li>
-<li>TrafficLights provide visual representation (bulbs with states).</li>
-<li>DiscreteValueRules provide Right-Of-Way behavior (discrete values mapped to bulb states).</li>
-<li>They are synchronized externally: when rule states change, bulb states change.</li>
+<li>Each definition carries a <code>device_type</code> field that determines whether a <code>TrafficLight</code> or <code>TrafficSign</code> is created for a given XODR signal.</li>
+<li>For traffic lights: <code>TrafficLight</code> is created with its bulbs and associated rule states.</li>
+<li>For traffic signs: a <code>TrafficSign</code> is created with its type derived from the <code>device_semantics</code> field.</li>
 </ul>
 <p>Workflow:</p><ol type="1">
-<li>Load signal database: <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a5d48c01f5a0d9f2477503fc51c69ba0d" title="Loads a traffic signal database from a YAML file.">TrafficControlDeviceParser::LoadFromFile()</a>.</li>
-<li>For each signal in XODR, extract its type/subtype and look up signal definition.</li>
-<li>Create traffic light: TrafficControlDeviceParser::CreateTrafficLight().</li>
-<li>Create rules (one per affected lane/road): TrafficControlDeviceParser::CreateRules(). </li>
+<li>Load the device database: <code><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a5d48c01f5a0d9f2477503fc51c69ba0d" title="Loads a traffic control device database from a YAML file.">TrafficControlDeviceParser::LoadFromFile()</a></code> or <code><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#aaaf8287006d899259bab37f8441abdc1" title="Loads a traffic control device database from a YAML string.">LoadFromString()</a></code>.</li>
+<li>For each signal in the XODR file, match its <code>type</code>/<code>subtype</code>/<code>country</code>/<code>country_revision</code> against a loaded <code><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html" title="Unique identifier for a traffic signal definition.">TrafficControlDeviceFingerprint</a></code>.</li>
+<li>Inspect <code>device_type</code> to route the signal to the appropriate builder:<ul>
+<li><code>"traffic_light"</code> → build a <code>TrafficLight</code>.</li>
+<li><code>"traffic_sign"</code> → build a <code>TrafficSign</code> whose type is mapped from <code>device_semantics</code>.</li>
+</ul>
+</li>
+<li>Link the resulting objects to their affected lanes using signal validity data from the XODR file. </li>
 </ol>
 </div>
 <p><code>#include &lt;src/maliput_malidrive/traffic_control_device/parser.h&gt;</code></p>
@@ -117,10 +119,10 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1traffic__control__de
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aaaf8287006d899259bab37f8441abdc1"><td class="memItemLeft" align="right" valign="top">static std::unordered_map&lt; <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a>, <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html">TrafficControlDeviceDefinition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#aaaf8287006d899259bab37f8441abdc1">LoadFromString</a> (const std::string &amp;yaml_content)</td></tr>
-<tr class="memdesc:aaaf8287006d899259bab37f8441abdc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a traffic signal database from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> string.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#aaaf8287006d899259bab37f8441abdc1">More...</a><br /></td></tr>
+<tr class="memdesc:aaaf8287006d899259bab37f8441abdc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a traffic control device database from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> string.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#aaaf8287006d899259bab37f8441abdc1">More...</a><br /></td></tr>
 <tr class="separator:aaaf8287006d899259bab37f8441abdc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d48c01f5a0d9f2477503fc51c69ba0d"><td class="memItemLeft" align="right" valign="top">static std::unordered_map&lt; <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a>, <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html">TrafficControlDeviceDefinition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a5d48c01f5a0d9f2477503fc51c69ba0d">LoadFromFile</a> (const std::string &amp;yaml_file_path)</td></tr>
-<tr class="memdesc:a5d48c01f5a0d9f2477503fc51c69ba0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a traffic signal database from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> file.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a5d48c01f5a0d9f2477503fc51c69ba0d">More...</a><br /></td></tr>
+<tr class="memdesc:a5d48c01f5a0d9f2477503fc51c69ba0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a traffic control device database from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> file.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a5d48c01f5a0d9f2477503fc51c69ba0d">More...</a><br /></td></tr>
 <tr class="separator:a5d48c01f5a0d9f2477503fc51c69ba0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -148,7 +150,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Loads a traffic signal database from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> file. </p>
+<p>Loads a traffic control device database from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> file. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">file_path</td><td>Path to the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database file. </td></tr>
@@ -189,7 +191,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Loads a traffic signal database from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> string. </p>
+<p>Loads a traffic control device database from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> string. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">yaml_content</td><td>The <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> content as a string. </td></tr>

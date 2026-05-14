@@ -48,6 +48,8 @@ var files_dup =
     ] ],
     [ "determine_tolerance.cc", "determine__tolerance_8cc.html", "determine__tolerance_8cc" ],
     [ "determine_tolerance.h", "determine__tolerance_8h.html", "determine__tolerance_8h" ],
+    [ "device_type.cc", "device__type_8cc.html", "device__type_8cc" ],
+    [ "device_type.h", "device__type_8h.html", "device__type_8h" ],
     [ "direction_usage_builder.cc", "direction__usage__builder_8cc.html", null ],
     [ "direction_usage_builder.h", "direction__usage__builder_8h.html", [
       [ "DirectionUsageBuilder", "classmalidrive_1_1builder_1_1_direction_usage_builder.html", "classmalidrive_1_1builder_1_1_direction_usage_builder" ]

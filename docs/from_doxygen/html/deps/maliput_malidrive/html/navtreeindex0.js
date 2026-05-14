@@ -2,12 +2,12 @@ var NAVTREEINDEX0 =
 {
 ".html":[4,0,1],
 "annotated.html":[4,0],
-"applications_2xodr__extract_8cc.html":[5,0,195],
-"applications_2xodr__extract_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627":[5,0,195,0],
+"applications_2xodr__extract_8cc.html":[5,0,197],
+"applications_2xodr__extract_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627":[5,0,197,0],
 "arc__ground__curve_8cc.html":[5,0,0],
 "arc__ground__curve_8h.html":[5,0,1],
-"base_2lane_8cc.html":[5,0,49],
-"base_2lane_8h.html":[5,0,51],
+"base_2lane_8cc.html":[5,0,51],
+"base_2lane_8h.html":[5,0,53],
 "board_8cc.html":[5,0,2],
 "board_8h.html":[5,0,3],
 "borders_8cc.html":[5,0,4],
@@ -192,7 +192,6 @@ var NAVTREEINDEX0 =
 "classmalidrive_1_1builder_1_1_speed_limit_builder.html#a51b52ef876ccfd7a428578a0b1e144ec":[4,0,0,1,19,0],
 "classmalidrive_1_1builder_1_1_speed_limit_builder.html#a734073af09daa2f3d3f22140e32bcd16":[4,0,0,1,19,2],
 "classmalidrive_1_1builder_1_1_traffic_light_builder.html":[4,0,0,1,20],
-"classmalidrive_1_1builder_1_1_traffic_light_builder.html#a057bdd4102366862dbc661685a4689b8":[4,0,0,1,20,2],
 "classmalidrive_1_1builder_1_1_traffic_light_builder.html#a3baeda1844c857bdaf6e8204546bf714":[4,0,0,1,20,0],
 "classmalidrive_1_1builder_1_1_traffic_light_builder.html#a9de10245c73af6f53baa142205278f93":[4,0,0,1,20,1],
 "classmalidrive_1_1builder_1_1_traffic_sign_builder.html":[4,0,0,1,23],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "classmalidrive_1_1road__curve_1_1_line_ground_curve.html":[4,0,0,2,6],
 "classmalidrive_1_1road__curve_1_1_line_ground_curve.html#a1e5200ab972aae1ce96ad55cba9fd8f6":[4,0,0,2,6,1],
 "classmalidrive_1_1road__curve_1_1_line_ground_curve.html#a225b46e3adf24aa18e9901096d3ff88b":[4,0,0,2,6,0],
-"classmalidrive_1_1road__curve_1_1_line_ground_curve.html#a340ef7c795bf10c8f199f51f2958a976":[4,0,0,2,6,2]
+"classmalidrive_1_1road__curve_1_1_line_ground_curve.html#a340ef7c795bf10c8f199f51f2958a976":[4,0,0,2,6,2],
+"classmalidrive_1_1road__curve_1_1_param_poly3_ground_curve.html":[4,0,0,2,7]
 };

@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('namespacemalidrive_1_1traffic__control
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">malidrive::traffic_control_device Namespace Reference</div>  </div>
@@ -120,7 +121,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constants for rule state <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> fields.  <a href="structmalidrive_1_1traffic__control__device_1_1_rule_state_constants.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html">TrafficControlDeviceConstants</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constants for traffic signal description <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> fields.  <a href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constants for traffic control device description <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> fields.  <a href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html">TrafficControlDeviceDatabaseLoader</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads traffic control device definitions from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database file and provides a lookup interface for querying definitions by <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a>.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#details">More...</a><br /></td></tr>
@@ -132,11 +133,26 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unique identifier for a traffic signal definition.  <a href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html">TrafficControlDeviceParser</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Traffic signal parser that loads traffic signal definitions from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parser that loads traffic control device definitions from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database using the <code>odr_signal_types</code> schema.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:aa37d216d3b7bf0d4a57c60f5865b58df"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58df">TrafficControlDeviceType</a> { <a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58dfa2c6a7e17ae1dbc648540f4449b472570">kTrafficLight</a>, 
+<a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58dfa6dc68e4ef61ac036f620ccfd8764e45c">kTrafficSign</a>, 
+<a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58dfa25c2dc47991b3df171ed5192bcf70390">kUnknown</a>
+ }</td></tr>
+<tr class="memdesc:aa37d216d3b7bf0d4a57c60f5865b58df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Identifies the category of a traffic control device.  <a href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58df">More...</a><br /></td></tr>
+<tr class="separator:aa37d216d3b7bf0d4a57c60f5865b58df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a0a84963ced038d52745ddc2cf3d02d08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58df">TrafficControlDeviceType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1traffic__control__device.html#a0a84963ced038d52745ddc2cf3d02d08">StringToTrafficControlDeviceType</a> (const std::string &amp;device_type_str)</td></tr>
+<tr class="memdesc:a0a84963ced038d52745ddc2cf3d02d08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a <code>device_type</code> string from the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database to a <a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58df">TrafficControlDeviceType</a> enum value.  <a href="namespacemalidrive_1_1traffic__control__device.html#a0a84963ced038d52745ddc2cf3d02d08">More...</a><br /></td></tr>
+<tr class="separator:a0a84963ced038d52745ddc2cf3d02d08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9257e7ba9cdaf5c50e69d7fa6fe0ce0"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1traffic__control__device.html#af9257e7ba9cdaf5c50e69d7fa6fe0ce0">TrafficControlDeviceTypeToString</a> (<a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58df">TrafficControlDeviceType</a> device_type)</td></tr>
+<tr class="memdesc:af9257e7ba9cdaf5c50e69d7fa6fe0ce0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a <a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58df">TrafficControlDeviceType</a> enum value back to its canonical <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> string representation.  <a href="namespacemalidrive_1_1traffic__control__device.html#af9257e7ba9cdaf5c50e69d7fa6fe0ce0">More...</a><br /></td></tr>
+<tr class="separator:af9257e7ba9cdaf5c50e69d7fa6fe0ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1be8df8e5292b9afc66b450311568e18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1traffic__control__device.html#a1be8df8e5292b9afc66b450311568e18">ValidateYamlNode</a> (const YAML::Node &amp;node, const std::string &amp;field_name, const std::string &amp;expected_type)</td></tr>
 <tr class="memdesc:a1be8df8e5292b9afc66b450311568e18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validates that a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> node is defined and of the expected type.  <a href="namespacemalidrive_1_1traffic__control__device.html#a1be8df8e5292b9afc66b450311568e18">More...</a><br /></td></tr>
 <tr class="separator:a1be8df8e5292b9afc66b450311568e18"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,6 +178,40 @@ Functions</h2></td></tr>
 <tr class="memdesc:adb05ebb2b7835f0dfd935da38696e567"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validates that a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> node is a sequence with the expected size.  <a href="namespacemalidrive_1_1traffic__control__device.html#adb05ebb2b7835f0dfd935da38696e567">More...</a><br /></td></tr>
 <tr class="separator:adb05ebb2b7835f0dfd935da38696e567"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="aa37d216d3b7bf0d4a57c60f5865b58df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa37d216d3b7bf0d4a57c60f5865b58df">&#9670;&nbsp;</a></span>TrafficControlDeviceType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58df">TrafficControlDeviceType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Identifies the category of a traffic control device. </p>
+<p>Parsed from the <code>device_type</code> field of the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database <code>properties</code> section. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa37d216d3b7bf0d4a57c60f5865b58dfa2c6a7e17ae1dbc648540f4449b472570"></a>kTrafficLight&#160;</td><td class="fielddoc"><p>Device is a traffic light ("traffic_light"). </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa37d216d3b7bf0d4a57c60f5865b58dfa6dc68e4ef61ac036f620ccfd8764e45c"></a>kTrafficSign&#160;</td><td class="fielddoc"><p>Device is a traffic sign ("traffic_sign"). </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa37d216d3b7bf0d4a57c60f5865b58dfa25c2dc47991b3df171ed5192bcf70390"></a>kUnknown&#160;</td><td class="fielddoc"><p>Unrecognized or missing device_type value. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a7694710329e9f39e43bbbf98b178b45d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7694710329e9f39e43bbbf98b178b45d">&#9670;&nbsp;</a></span>GetOptionalDoubleField()</h2>
@@ -406,6 +456,70 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a0a84963ced038d52745ddc2cf3d02d08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a84963ced038d52745ddc2cf3d02d08">&#9670;&nbsp;</a></span>StringToTrafficControlDeviceType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58df">TrafficControlDeviceType</a> StringToTrafficControlDeviceType </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>device_type_str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts a <code>device_type</code> string from the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database to a <a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58df">TrafficControlDeviceType</a> enum value. </p>
+<p>Recognized values (case-insensitive):</p><ul>
+<li><code>"traffic_light"</code> → <code>kTrafficLight</code></li>
+<li><code>"traffic_sign"</code> → <code>kTrafficSign</code></li>
+</ul>
+<p>Any other string maps to <code>kUnknown</code>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">device_type_str</td><td>The <code>device_type</code> string from the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> <code>properties</code> section. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The corresponding <a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58df">TrafficControlDeviceType</a>. </dd></dl>
+
+</div>
+</div>
+<a id="af9257e7ba9cdaf5c50e69d7fa6fe0ce0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9257e7ba9cdaf5c50e69d7fa6fe0ce0">&#9670;&nbsp;</a></span>TrafficControlDeviceTypeToString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * TrafficControlDeviceTypeToString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58df">TrafficControlDeviceType</a>&#160;</td>
+          <td class="paramname"><em>device_type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts a <a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58df">TrafficControlDeviceType</a> enum value back to its canonical <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> string representation. </p>
+<ul>
+<li><code>kTrafficLight</code> → <code>"traffic_light"</code></li>
+<li><code>kTrafficSign</code> → <code>"traffic_sign"</code></li>
+<li><code>kUnknown</code> → <code>"unknown"</code></li>
+</ul>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">device_type</td><td>The <a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58df">TrafficControlDeviceType</a> to convert. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The corresponding string. </dd></dl>
 
 </div>
 </div>

@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1builder_1_1_traffic_
 <div class="textblock"><p>Builds a <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html">maliput::api::rules::TrafficLightBook</a> and a <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_sign_book.html">maliput::api::rules::TrafficSignBook</a> in a single pass over the XODR signals and the traffic signal <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database. </p>
 <p>Compared to the alternative design (separate <code>TrafficLightBookBuilder</code> / <code>TrafficSignBookBuilder</code>), this builder:</p><ul>
 <li>Parses the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database exactly once.</li>
-<li>Routes each XODR signal to the right book using the <code>sign_type</code> field of the matching traffic_control_device::TrafficControlDeviceDefinition:<ul>
+<li>Routes each XODR signal to the right book using the <code>device_type</code> field of the matching traffic_control_device::TrafficControlDeviceDefinition:<ul>
 <li><code>"traffic_light"</code> → <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_light.html">maliput::api::rules::TrafficLight</a> added to the TrafficLightBook.</li>
 <li>any other value → <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_sign.html">maliput::api::rules::TrafficSign</a> added to the TrafficSignBook.</li>
 </ul>
