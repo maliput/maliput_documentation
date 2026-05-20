@@ -8,6 +8,7 @@ var structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_const
     [ "kDeviceSemantics", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html#ab2eb72d1ebe57b8fa7bad2c0a7deac14", null ],
     [ "kDeviceType", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html#a6f20ddbc9a3c0245784f524c227b13ab", null ],
     [ "kIsPositionDynamic", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html#a7bf0449f1a41494ccc5fae71c859ceda", null ],
+    [ "kName", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html#ab078d8ddaeb55f071943994e623a6e9d", null ],
     [ "kOdrRepresentation", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html#a390319784bfb7d42b35ff6381c4972cf", null ],
     [ "kOdrSignalTypes", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html#a3f294aa88502eaa9b9391f93acacdbbc", null ],
     [ "kProperties", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html#a208eef368172a015abcf568fb8c91ce1", null ],

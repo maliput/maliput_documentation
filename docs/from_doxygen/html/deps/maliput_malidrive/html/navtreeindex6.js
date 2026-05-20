@@ -1,5 +1,13 @@
 var NAVTREEINDEX6 =
 {
+"structmalidrive_1_1xodr_1_1_lateral_profile_1_1_superelevation.html#a3e4a64d55a7d9b6fb03350cbe84b0a80":[4,0,0,4,19,0,7],
+"structmalidrive_1_1xodr_1_1_lateral_profile_1_1_superelevation.html#a6be5070758b145173c3ffa45b2d72979":[4,0,0,4,19,0,6],
+"structmalidrive_1_1xodr_1_1_lateral_profile_1_1_superelevation.html#a7021b504e1d7b45e938574f5452fd112":[4,0,0,4,19,0,8],
+"structmalidrive_1_1xodr_1_1_lateral_profile_1_1_superelevation.html#a873684cefeb665f3d5e6b495de57fc0d":[4,0,0,4,19,0,5],
+"structmalidrive_1_1xodr_1_1_lateral_profile_1_1_superelevation.html#a9d0cfa86b7ab2d5c508e878c33fb3946":[4,0,0,4,19,0,11],
+"structmalidrive_1_1xodr_1_1_lateral_profile_1_1_superelevation.html#aa8cd30a0f72a55c0ce89dd53aaea9bc6":[4,0,0,4,19,0,0],
+"structmalidrive_1_1xodr_1_1_lateral_profile_1_1_superelevation.html#af41ca0a8e2918ec0e4bcc141eb8308c3":[4,0,0,4,19,0,1],
+"structmalidrive_1_1xodr_1_1_lateral_profile_1_1_superelevation.html#afb8b389927564791e0c4db383443e994":[4,0,0,4,19,0,9],
 "structmalidrive_1_1xodr_1_1_offset.html":[4,0,0,4,21],
 "structmalidrive_1_1xodr_1_1_offset.html#a15d266fbd6252552bd8ad3e939e8dddd":[4,0,0,4,21,5],
 "structmalidrive_1_1xodr_1_1_offset.html#a372d983ab9a89c27ae5784515f32e79c":[4,0,0,4,21,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX6 =
 "structmalidrive_1_1xodr_1_1object_1_1_corner_local.html#a929b6cdb0a11b2b9fbe506e29c25f59f":[4,0,0,4,0,3,4],
 "structmalidrive_1_1xodr_1_1object_1_1_corner_local.html#a9f36bf43428315b6dfd91de20f6854c2":[4,0,0,4,0,3,7],
 "structmalidrive_1_1xodr_1_1object_1_1_corner_local.html#ab3e6ed577a7c669c19de1f9c1b46c872":[4,0,0,4,0,3,13],
-"structmalidrive_1_1xodr_1_1object_1_1_corner_local.html#ab5395efe11899152b068155a90ab0059":[4,0,0,4,0,3,9],
-"structmalidrive_1_1xodr_1_1object_1_1_corner_local.html#ac9156217240f57587769e57913dd449d":[4,0,0,4,0,3,10],
-"structmalidrive_1_1xodr_1_1object_1_1_corner_local.html#ae499ea94af4b126efc5ea9aa27dfbd69":[4,0,0,4,0,3,5],
-"structmalidrive_1_1xodr_1_1object_1_1_corner_local.html#aed08c8478a62910aab06ba708a0e5b5f":[4,0,0,4,0,3,11],
-"structmalidrive_1_1xodr_1_1object_1_1_corner_local.html#af5122624ab4e8f135ad3ca423d679b8c":[4,0,0,4,0,3,2],
-"structmalidrive_1_1xodr_1_1object_1_1_corner_local.html#aff91b0e6aab70d07bb6a69f33d21752b":[4,0,0,4,0,3,0],
-"structmalidrive_1_1xodr_1_1object_1_1_corner_reference.html":[4,0,0,4,0,4],
-"structmalidrive_1_1xodr_1_1object_1_1_corner_reference.html#a14dea2e36b49ede3994da205859a9cf4":[4,0,0,4,0,4,2],
-"structmalidrive_1_1xodr_1_1object_1_1_corner_reference.html#a150a709e86e7134d17cd063de6810b6c":[4,0,0,4,0,4,3]
+"structmalidrive_1_1xodr_1_1object_1_1_corner_local.html#ab5395efe11899152b068155a90ab0059":[4,0,0,4,0,3,9]
 };

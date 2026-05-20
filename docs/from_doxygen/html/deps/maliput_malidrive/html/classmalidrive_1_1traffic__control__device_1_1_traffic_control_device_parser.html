@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1traffic__control__de
 <div class="header">
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">TrafficControlDeviceParser Class Reference</div>  </div>
@@ -104,7 +105,7 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1traffic__control__de
 <li>For traffic signs: a <code>TrafficSign</code> is created with its type derived from the <code>device_semantics</code> field.</li>
 </ul>
 <p>Workflow:</p><ol type="1">
-<li>Load the device database: <code><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a5d48c01f5a0d9f2477503fc51c69ba0d" title="Loads a traffic control device database from a YAML file.">TrafficControlDeviceParser::LoadFromFile()</a></code> or <code><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#aaaf8287006d899259bab37f8441abdc1" title="Loads a traffic control device database from a YAML string.">LoadFromString()</a></code>.</li>
+<li>Load the device database: <code><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a9fe0522809606d8f1ddb97b3aa8a2c95" title="Loads a traffic control device database from a YAML file.">TrafficControlDeviceParser::LoadFromFile()</a></code> or <code><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a6b8aa7f34989c16229186d696e194fee" title="Loads a traffic control device database from a YAML string.">LoadFromString()</a></code>.</li>
 <li>For each signal in the XODR file, match its <code>type</code>/<code>subtype</code>/<code>country</code>/<code>country_revision</code> against a loaded <code><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html" title="Unique identifier for a traffic signal definition.">TrafficControlDeviceFingerprint</a></code>.</li>
 <li>Inspect <code>device_type</code> to route the signal to the appropriate builder:<ul>
 <li><code>"traffic_light"</code> → build a <code>TrafficLight</code>.</li>
@@ -118,16 +119,37 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1traffic__control__de
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aaaf8287006d899259bab37f8441abdc1"><td class="memItemLeft" align="right" valign="top">static std::unordered_map&lt; <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a>, <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html">TrafficControlDeviceDefinition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#aaaf8287006d899259bab37f8441abdc1">LoadFromString</a> (const std::string &amp;yaml_content)</td></tr>
-<tr class="memdesc:aaaf8287006d899259bab37f8441abdc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a traffic control device database from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> string.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#aaaf8287006d899259bab37f8441abdc1">More...</a><br /></td></tr>
-<tr class="separator:aaaf8287006d899259bab37f8441abdc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d48c01f5a0d9f2477503fc51c69ba0d"><td class="memItemLeft" align="right" valign="top">static std::unordered_map&lt; <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a>, <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html">TrafficControlDeviceDefinition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a5d48c01f5a0d9f2477503fc51c69ba0d">LoadFromFile</a> (const std::string &amp;yaml_file_path)</td></tr>
-<tr class="memdesc:a5d48c01f5a0d9f2477503fc51c69ba0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a traffic control device database from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> file.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a5d48c01f5a0d9f2477503fc51c69ba0d">More...</a><br /></td></tr>
-<tr class="separator:a5d48c01f5a0d9f2477503fc51c69ba0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b8aa7f34989c16229186d696e194fee"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html">TrafficControlDeviceDefinition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a6b8aa7f34989c16229186d696e194fee">LoadFromString</a> (const std::string &amp;yaml_content)</td></tr>
+<tr class="memdesc:a6b8aa7f34989c16229186d696e194fee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a traffic control device database from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> string.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a6b8aa7f34989c16229186d696e194fee">More...</a><br /></td></tr>
+<tr class="separator:a6b8aa7f34989c16229186d696e194fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fe0522809606d8f1ddb97b3aa8a2c95"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html">TrafficControlDeviceDefinition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a9fe0522809606d8f1ddb97b3aa8a2c95">LoadFromFile</a> (const std::string &amp;yaml_file_path)</td></tr>
+<tr class="memdesc:a9fe0522809606d8f1ddb97b3aa8a2c95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a traffic control device database from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> file.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a9fe0522809606d8f1ddb97b3aa8a2c95">More...</a><br /></td></tr>
+<tr class="separator:a9fe0522809606d8f1ddb97b3aa8a2c95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a352614ca49fe291367c4b9329930736b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a352614ca49fe291367c4b9329930736b">IsWildcard</a> (const std::string &amp;value)</td></tr>
+<tr class="memdesc:a352614ca49fe291367c4b9329930736b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if <code>value</code> equals the wildcard string <code>kWildcard</code> (<code>"*"</code>).  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a352614ca49fe291367c4b9329930736b">More...</a><br /></td></tr>
+<tr class="separator:a352614ca49fe291367c4b9329930736b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a202a62e62b4a957902e8cc99032299ac"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a202a62e62b4a957902e8cc99032299ac">IsWildcard</a> (const std::optional&lt; std::string &gt; &amp;value)</td></tr>
+<tr class="memdesc:a202a62e62b4a957902e8cc99032299ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if <code>value</code> is present and equals the wildcard string <code>kWildcard</code> (<code>"*"</code>).  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a202a62e62b4a957902e8cc99032299ac">More...</a><br /></td></tr>
+<tr class="separator:a202a62e62b4a957902e8cc99032299ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b47ab710ed09022788eb13788154635"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a4b47ab710ed09022788eb13788154635">Specificity</a> (const <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a> &amp;fp)</td></tr>
+<tr class="memdesc:a4b47ab710ed09022788eb13788154635"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the specificity score of <code>fp:</code> the count of fields that are NOT wildcards.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a4b47ab710ed09022788eb13788154635">More...</a><br /></td></tr>
+<tr class="separator:a4b47ab710ed09022788eb13788154635"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8822cb767b21d6d6332d83dfa15689ff"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a8822cb767b21d6d6332d83dfa15689ff">Matches</a> (const <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a> &amp;db_entry, const <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a> &amp;query)</td></tr>
+<tr class="memdesc:a8822cb767b21d6d6332d83dfa15689ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if <code>db_entry</code> matches <code>query</code> for lookup purposes.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a8822cb767b21d6d6332d83dfa15689ff">More...</a><br /></td></tr>
+<tr class="separator:a8822cb767b21d6d6332d83dfa15689ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ee433362956053bf0b7164f48b6ae78"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a9ee433362956053bf0b7164f48b6ae78">CanOverlap</a> (const <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a> &amp;a, const <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a> &amp;b)</td></tr>
+<tr class="memdesc:a9ee433362956053bf0b7164f48b6ae78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if there exists at least one input fingerprint that would match both <code>a</code> and <code>b</code>.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a9ee433362956053bf0b7164f48b6ae78">More...</a><br /></td></tr>
+<tr class="separator:a9ee433362956053bf0b7164f48b6ae78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a4058cc7557b631a3672b86185b1d3248"><td class="memItemLeft" align="right" valign="top">static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a4058cc7557b631a3672b86185b1d3248">kWildcard</a> [] = &quot;*&quot;</td></tr>
+<tr class="memdesc:a4058cc7557b631a3672b86185b1d3248"><td class="mdescLeft">&#160;</td><td class="mdescRight">The wildcard value for traffic control device fingerprint fields.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a4058cc7557b631a3672b86185b1d3248">More...</a><br /></td></tr>
+<tr class="separator:a4058cc7557b631a3672b86185b1d3248"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a5d48c01f5a0d9f2477503fc51c69ba0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d48c01f5a0d9f2477503fc51c69ba0d">&#9670;&nbsp;</a></span>LoadFromFile()</h2>
+<a id="a9ee433362956053bf0b7164f48b6ae78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ee433362956053bf0b7164f48b6ae78">&#9670;&nbsp;</a></span>CanOverlap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -136,7 +158,126 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt; <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a>, <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html">TrafficControlDeviceDefinition</a> &gt; LoadFromFile </td>
+          <td class="memname">bool CanOverlap </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a> &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if there exists at least one input fingerprint that would match both <code>a</code> and <code>b</code>. </p>
+<p>Per-field rule: the two fingerprints can overlap on a given field if at least one of them carries the wildcard <code>"*"</code> for that field, or both carry the same concrete value (including both being <code>std::nullopt</code>). All five fields must satisfy this condition simultaneously for the function to return <code>true</code>.</p>
+<p>This is used at database load time to detect conflicting entries that have equal specificity and would therefore produce an ambiguous lookup result.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>First fingerprint (may contain wildcards). </td></tr>
+    <tr><td class="paramname">b</td><td>Second fingerprint (may contain wildcards). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if <code>a</code> and <code>b</code> can both match the same query input. </dd></dl>
+
+</div>
+</div>
+<a id="a202a62e62b4a957902e8cc99032299ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a202a62e62b4a957902e8cc99032299ac">&#9670;&nbsp;</a></span>IsWildcard() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IsWildcard </td>
+          <td>(</td>
+          <td class="paramtype">const std::optional&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if <code>value</code> is present and equals the wildcard string <code>kWildcard</code> (<code>"*"</code>). </p>
+<p>A <code>std::nullopt</code> argument returns <code>false</code> — absent fields are treated as specific constraints, not as wildcards.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>The optional string to test. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if <code>value</code> holds <code>"*"</code>, <code>false</code> if it is <code>std::nullopt</code> or any other string. </dd></dl>
+
+</div>
+</div>
+<a id="a352614ca49fe291367c4b9329930736b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a352614ca49fe291367c4b9329930736b">&#9670;&nbsp;</a></span>IsWildcard() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IsWildcard </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if <code>value</code> equals the wildcard string <code>kWildcard</code> (<code>"*"</code>). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>The string to test. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if <code>value</code> is <code>"*"</code>, <code>false</code> otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a9fe0522809606d8f1ddb97b3aa8a2c95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fe0522809606d8f1ddb97b3aa8a2c95">&#9670;&nbsp;</a></span>LoadFromFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html">TrafficControlDeviceDefinition</a> &gt; LoadFromFile </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>yaml_file_path</em></td><td>)</td>
@@ -157,18 +298,18 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Map of signal identifiers to their definitions. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Vector of signal definitions. Entries are validated for conflicts at load time. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__network__description__parser__error.html">maliput::common::road_network_description_parser_error</a></td><td><a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> parsing or schema validation fails. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__network__description__parser__error.html">maliput::common::road_network_description_parser_error</a></td><td>if <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> parsing fails, schema validation fails, or two entries with equal specificity overlap. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="aaaf8287006d899259bab37f8441abdc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaaf8287006d899259bab37f8441abdc1">&#9670;&nbsp;</a></span>LoadFromString()</h2>
+<a id="a6b8aa7f34989c16229186d696e194fee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b8aa7f34989c16229186d696e194fee">&#9670;&nbsp;</a></span>LoadFromString()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -177,7 +318,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt; <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a>, <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html">TrafficControlDeviceDefinition</a> &gt; LoadFromString </td>
+          <td class="memname">std::vector&lt; <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html">TrafficControlDeviceDefinition</a> &gt; LoadFromString </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>yaml_content</em></td><td>)</td>
@@ -198,13 +339,126 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Map of signal identifiers to their definitions. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Vector of signal definitions. Entries are validated for conflicts at load time. </dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__network__description__parser__error.html">maliput::common::road_network_description_parser_error</a></td><td>if <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> parsing fails or schema validation fails. </td></tr>
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__network__description__parser__error.html">maliput::common::road_network_description_parser_error</a></td><td>if <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> parsing fails, schema validation fails, or two entries with equal specificity overlap. </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a8822cb767b21d6d6332d83dfa15689ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8822cb767b21d6d6332d83dfa15689ff">&#9670;&nbsp;</a></span>Matches()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Matches </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a> &amp;&#160;</td>
+          <td class="paramname"><em>db_entry</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a> &amp;&#160;</td>
+          <td class="paramname"><em>query</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if <code>db_entry</code> matches <code>query</code> for lookup purposes. </p>
+<p>A field in <code>db_entry</code> matches the corresponding field in <code>query</code> if:</p><ul>
+<li>the db_entry field is the wildcard <code>"*"</code> (matches any query value, including <code>nullopt</code>), or</li>
+<li>both fields compare equal (including both being <code>std::nullopt</code>).</li>
+</ul>
+<dl class="section note"><dt>Note</dt><dd><code>query</code> is expected to carry no wildcards — it is built directly from XODR signal data.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">db_entry</td><td>A fingerprint loaded from the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database. May contain <code>"*"</code> wildcards. </td></tr>
+    <tr><td class="paramname">query</td><td>A fingerprint built from an XODR signal. Must not contain <code>"*"</code>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if every field of <code>db_entry</code> matches the corresponding field of <code>query</code>. </dd></dl>
+
+</div>
+</div>
+<a id="a4b47ab710ed09022788eb13788154635"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b47ab710ed09022788eb13788154635">&#9670;&nbsp;</a></span>Specificity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Specificity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a> &amp;&#160;</td>
+          <td class="paramname"><em>fp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes the specificity score of <code>fp:</code> the count of fields that are NOT wildcards. </p>
+<p>A field contributes 1 to the score regardless of whether it is a concrete string or <code>std::nullopt</code>. Only the literal <code>"*"</code> string is considered non-specific (contributes 0). The score ranges from 0 (all five fields are <code>"*"</code>) to 5 (no field is <code>"*"</code>).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fp</td><td>The fingerprint to evaluate. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Integer in [0, 5] representing the number of non-wildcard fields. </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4058cc7557b631a3672b86185b1d3248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4058cc7557b631a3672b86185b1d3248">&#9670;&nbsp;</a></span>kWildcard</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr char kWildcard[] = &quot;*&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The wildcard value for traffic control device fingerprint fields. </p>
+<p>A field set to this value matches any query value for that field. </p>
 
 </div>
 </div>

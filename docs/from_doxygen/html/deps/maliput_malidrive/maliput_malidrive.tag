@@ -2056,7 +2056,6 @@
     <class kind="struct">malidrive::traffic_control_device::TrafficControlDeviceFingerprint</class>
     <class kind="struct">malidrive::traffic_control_device::TrafficControlDeviceDefinition</class>
     <class kind="class">malidrive::traffic_control_device::TrafficControlDeviceParser</class>
-    <class kind="struct">std::hash&lt; malidrive::traffic_control_device::TrafficControlDeviceFingerprint &gt;</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::traffic_control_device</namespace>
   </compound>
@@ -3195,6 +3194,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/traffic_control_device/</path>
     <filename>traffic__control__device__database__loader_8cc.html</filename>
     <includes id="traffic__control__device__database__loader_8h" name="traffic_control_device_database_loader.h" local="yes" imported="no">maliput_malidrive/traffic_control_device/traffic_control_device_database_loader.h</includes>
+    <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::traffic_control_device</namespace>
   </compound>
@@ -6269,17 +6269,6 @@
       <anchorfile>classmalidrive_1_1road__curve_1_1test_1_1_ground_curve_stub.html</anchorfile>
       <anchor>ab96a0a91d072b842c8b688c3c050f686</anchor>
       <arglist>(const maliput::math::Vector2 &amp;g_result, const maliput::math::Vector2 &amp;g_dot_result, double heading_result, double heading_dot_result, double d_g_inverse_result, double arc_length_result, double linear_tolerance_result, double p0_result, double p1_result, bool is_g1_contiguous_result)</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>std::hash&lt; malidrive::traffic_control_device::TrafficControlDeviceFingerprint &gt;</name>
-    <filename>structstd_1_1hash_3_01malidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint_01_4.html</filename>
-    <member kind="function">
-      <type>size_t</type>
-      <name>operator()</name>
-      <anchorfile>structstd_1_1hash_3_01malidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint_01_4.html</anchorfile>
-      <anchor>a97beee38791cb025b8b3bf9f101b5560</anchor>
-      <arglist>(const malidrive::traffic_control_device::TrafficControlDeviceFingerprint &amp;f) const</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -12867,6 +12856,66 @@
     </member>
   </compound>
   <compound kind="struct">
+    <name>malidrive::xodr::RoadType::Speed</name>
+    <filename>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a5f45d342c063e4fbbbaa8fd2308cad8a</anchor>
+      <arglist>(const Speed &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a7732bb1227795b68ace924cf693cddd1</anchor>
+      <arglist>(const Speed &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>max</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>ab3a77d4ba4dbb0a69e77b738206e0ebe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Unit</type>
+      <name>unit</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>aaa0d61fcdf7a0b9f0f2b48c9946cbd10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kSpeedTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a06113c1eac1bbfe32139f18dd62a8d98</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kMax</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>ad5a44ed171cd965aa34aa3dda5711d83</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kUnit</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr std::array&lt; const char *, 2 &gt;</type>
+      <name>kUnlimitedSpeedStrings</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a2be0454dbef3ba795b56eb3fa40d36ed</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
     <name>malidrive::xodr::signal::Semantics::Speed</name>
     <filename>structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_speed.html</filename>
     <member kind="function">
@@ -12930,66 +12979,6 @@
       <name>kValue</name>
       <anchorfile>structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_speed.html</anchorfile>
       <anchor>aec548c1d42307027044a44403b076983</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>malidrive::xodr::RoadType::Speed</name>
-    <filename>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</filename>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a5f45d342c063e4fbbbaa8fd2308cad8a</anchor>
-      <arglist>(const Speed &amp;other) const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator!=</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a7732bb1227795b68ace924cf693cddd1</anchor>
-      <arglist>(const Speed &amp;other) const</arglist>
-    </member>
-    <member kind="variable">
-      <type>std::optional&lt; double &gt;</type>
-      <name>max</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>ab3a77d4ba4dbb0a69e77b738206e0ebe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>Unit</type>
-      <name>unit</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>aaa0d61fcdf7a0b9f0f2b48c9946cbd10</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kSpeedTag</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a06113c1eac1bbfe32139f18dd62a8d98</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kMax</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>ad5a44ed171cd965aa34aa3dda5711d83</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kUnit</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr std::array&lt; const char *, 2 &gt;</type>
-      <name>kUnlimitedSpeedStrings</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a2be0454dbef3ba795b56eb3fa40d36ed</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -13773,6 +13762,13 @@
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr const char *</type>
+      <name>kName</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html</anchorfile>
+      <anchor>ab078d8ddaeb55f071943994e623a6e9d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
       <name>kDeviceType</name>
       <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html</anchorfile>
       <anchor>a6f20ddbc9a3c0245784f524c227b13ab</anchor>
@@ -13837,6 +13833,13 @@
       <anchorfile>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html</anchorfile>
       <anchor>ae6f4fabdedd449ed9d7c5e6fcb22d59b</anchor>
       <arglist>(const TrafficControlDeviceFingerprint &amp;fingerprint) const</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static TrafficControlDeviceDatabaseLoader</type>
+      <name>FromString</name>
+      <anchorfile>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html</anchorfile>
+      <anchor>a59a7e625533ca4167d5cca6d72e9beab</anchor>
+      <arglist>(const std::string &amp;yaml_content)</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -13958,23 +13961,72 @@
       <anchor>a27326eec271125b284511f0e6022c03b</anchor>
       <arglist></arglist>
     </member>
+    <member kind="variable">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>name</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html</anchorfile>
+      <anchor>a6e523cbe30620206b7b99a00fbc852a7</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>malidrive::traffic_control_device::TrafficControlDeviceParser</name>
     <filename>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html</filename>
     <member kind="function" static="yes">
-      <type>static std::unordered_map&lt; TrafficControlDeviceFingerprint, TrafficControlDeviceDefinition &gt;</type>
+      <type>static std::vector&lt; TrafficControlDeviceDefinition &gt;</type>
       <name>LoadFromString</name>
       <anchorfile>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html</anchorfile>
-      <anchor>aaaf8287006d899259bab37f8441abdc1</anchor>
+      <anchor>a6b8aa7f34989c16229186d696e194fee</anchor>
       <arglist>(const std::string &amp;yaml_content)</arglist>
     </member>
     <member kind="function" static="yes">
-      <type>static std::unordered_map&lt; TrafficControlDeviceFingerprint, TrafficControlDeviceDefinition &gt;</type>
+      <type>static std::vector&lt; TrafficControlDeviceDefinition &gt;</type>
       <name>LoadFromFile</name>
       <anchorfile>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html</anchorfile>
-      <anchor>a5d48c01f5a0d9f2477503fc51c69ba0d</anchor>
+      <anchor>a9fe0522809606d8f1ddb97b3aa8a2c95</anchor>
       <arglist>(const std::string &amp;yaml_file_path)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>IsWildcard</name>
+      <anchorfile>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html</anchorfile>
+      <anchor>a352614ca49fe291367c4b9329930736b</anchor>
+      <arglist>(const std::string &amp;value)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>IsWildcard</name>
+      <anchorfile>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html</anchorfile>
+      <anchor>a202a62e62b4a957902e8cc99032299ac</anchor>
+      <arglist>(const std::optional&lt; std::string &gt; &amp;value)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>Specificity</name>
+      <anchorfile>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html</anchorfile>
+      <anchor>a4b47ab710ed09022788eb13788154635</anchor>
+      <arglist>(const TrafficControlDeviceFingerprint &amp;fp)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>Matches</name>
+      <anchorfile>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html</anchorfile>
+      <anchor>a8822cb767b21d6d6332d83dfa15689ff</anchor>
+      <arglist>(const TrafficControlDeviceFingerprint &amp;db_entry, const TrafficControlDeviceFingerprint &amp;query)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static bool</type>
+      <name>CanOverlap</name>
+      <anchorfile>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html</anchorfile>
+      <anchor>a9ee433362956053bf0b7164f48b6ae78</anchor>
+      <arglist>(const TrafficControlDeviceFingerprint &amp;a, const TrafficControlDeviceFingerprint &amp;b)</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr char</type>
+      <name>kWildcard</name>
+      <anchorfile>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html</anchorfile>
+      <anchor>a4058cc7557b631a3672b86185b1d3248</anchor>
+      <arglist>[]</arglist>
     </member>
   </compound>
   <compound kind="class">

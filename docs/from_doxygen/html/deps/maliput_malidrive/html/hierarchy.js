@@ -45,7 +45,6 @@ var hierarchy =
       [ "SpiralGroundCurve", "classmalidrive_1_1road__curve_1_1_spiral_ground_curve.html", null ],
       [ "GroundCurveStub", "classmalidrive_1_1road__curve_1_1test_1_1_ground_curve_stub.html", null ]
     ] ],
-    [ "hash< malidrive::traffic_control_device::TrafficControlDeviceFingerprint >", "structstd_1_1hash_3_01malidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint_01_4.html", null ],
     [ "Header", "structmalidrive_1_1xodr_1_1_header.html", null ],
     [ "Junction", "structmalidrive_1_1xodr_1_1_junction.html", null ],
     [ "Lane", "../../maliput/html/classmaliput_1_1api_1_1_lane.html", [
@@ -141,8 +140,8 @@ var hierarchy =
     [ "Signals", "structmalidrive_1_1xodr_1_1signal_1_1_signals.html", null ],
     [ "Skeleton", "structmalidrive_1_1xodr_1_1object_1_1_skeleton.html", null ],
     [ "Lane::Speed", "structmalidrive_1_1xodr_1_1_lane_1_1_speed.html", null ],
-    [ "Semantics::Speed", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_speed.html", null ],
     [ "RoadType::Speed", "structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html", null ],
+    [ "Semantics::Speed", "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_speed.html", null ],
     [ "SpeedLimitBuilder", "classmalidrive_1_1builder_1_1_speed_limit_builder.html", null ],
     [ "Geometry::Spiral", "structmalidrive_1_1xodr_1_1_geometry_1_1_spiral.html", null ],
     [ "StaticBoard", "structmalidrive_1_1xodr_1_1signal_1_1_static_board.html", null ],

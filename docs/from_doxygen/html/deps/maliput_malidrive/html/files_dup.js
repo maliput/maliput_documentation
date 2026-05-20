@@ -193,8 +193,7 @@ var files_dup =
       [ "BulbDefinition", "structmalidrive_1_1traffic__control__device_1_1_bulb_definition.html", "structmalidrive_1_1traffic__control__device_1_1_bulb_definition" ],
       [ "TrafficControlDeviceFingerprint", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint" ],
       [ "TrafficControlDeviceDefinition", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition" ],
-      [ "TrafficControlDeviceParser", "classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html", "classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser" ],
-      [ "hash< malidrive::traffic_control_device::TrafficControlDeviceFingerprint >", "structstd_1_1hash_3_01malidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint_01_4.html", "structstd_1_1hash_3_01malidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint_01_4" ]
+      [ "TrafficControlDeviceParser", "classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html", "classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser" ]
     ] ],
     [ "xodr/parser.h", "xodr_2parser_8h.html", "xodr_2parser_8h" ],
     [ "parser_configuration.h", "parser__configuration_8h.html", [
