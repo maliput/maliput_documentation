@@ -76,8 +76,8 @@ var hierarchy =
     [ "EigenPtr< PlainObjectType >", "classmaliput_1_1drake_1_1_eigen_ptr.html", null ],
     [ "EigenSizeMinPreferDynamic< a, b >", "structmaliput_1_1drake_1_1_eigen_size_min_prefer_dynamic.html", null ],
     [ "EigenSizeMinPreferFixed< a, b >", "structmaliput_1_1drake_1_1_eigen_size_min_prefer_fixed.html", null ],
-    [ "GeoVertex::Equiv", "structmaliput_1_1utility_1_1mesh_1_1_geo_vertex_1_1_equiv.html", null ],
     [ "GeoNormal::Equiv", "structmaliput_1_1utility_1_1mesh_1_1_geo_normal_1_1_equiv.html", null ],
+    [ "GeoVertex::Equiv", "structmaliput_1_1utility_1_1mesh_1_1_geo_vertex_1_1_equiv.html", null ],
     [ "Event< T >", "classmaliput_1_1drake_1_1systems_1_1_event.html", [
       [ "DiscreteUpdateEvent< T >", "classmaliput_1_1drake_1_1systems_1_1_discrete_update_event.html", null ],
       [ "PublishEvent< T >", "classmaliput_1_1drake_1_1systems_1_1_publish_event.html", null ],
@@ -376,6 +376,7 @@ var hierarchy =
     [ "TrafficSignBook", "classmaliput_1_1api_1_1rules_1_1_traffic_sign_book.html", [
       [ "TrafficSignBook", "classmaliput_1_1_traffic_sign_book.html", null ]
     ] ],
+    [ "TrafficSignValue", "structmaliput_1_1api_1_1rules_1_1_traffic_sign_value.html", null ],
     [ "Traits< S >", "structmaliput_1_1drake_1_1systems_1_1scalar__conversion_1_1_traits.html", null ],
     [ "Trajectory< T >", "classmaliput_1_1drake_1_1trajectories_1_1_trajectory.html", [
       [ "PiecewiseTrajectory< T >", "classmaliput_1_1drake_1_1trajectories_1_1_piecewise_trajectory.html", [

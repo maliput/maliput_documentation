@@ -56,7 +56,7 @@ var searchData=
   ['buildtrackerpointermap_233',['BuildTrackerPointerMap',['../../../maliput/html/classmaliput_1_1drake_1_1systems_1_1_context_base.html#afa21e8f1c2df6d8b7ef98faa8f57706b',1,'maliput::drake::systems::ContextBase']]],
   ['buildvehiclestopinzonebehaviorruletype_234',['BuildVehicleStopInZoneBehaviorRuleType',['../../../maliput/html/namespacemaliput.html#a7764364f52a7f06d32340e697d2fd894',1,'maliput']]],
   ['builtinticketnumbers_235',['BuiltInTicketNumbers',['../../../maliput/html/namespacemaliput_1_1drake_1_1systems_1_1internal.html#a6143396ef062aba2cec910abc46d611e',1,'maliput::drake::systems::internal']]],
-  ['bulb_236',['Bulb',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_bulb.html',1,'Bulb'],['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_bulb.html#a67f00f1243ea06e5fdaf829cc0eb5c44',1,'maliput::api::rules::Bulb::Bulb()']]],
+  ['bulb_236',['Bulb',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_bulb.html',1,'Bulb'],['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_bulb.html#a7e98141efe4ce0e162eeeb677d7b5cc5',1,'maliput::api::rules::Bulb::Bulb()']]],
   ['bulb_5fgroup_237',['bulb_group',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_bulb.html#aa9c890af63ef51ff3bcd41033c1ec3a6',1,'maliput::api::rules::Bulb']]],
   ['bulb_5fgroup_5fid_238',['bulb_group_id',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_unique_bulb_group_id.html#afc2b8afc47ca96ed8cdf34bd62c8b442',1,'maliput::api::rules::UniqueBulbGroupId::bulb_group_id()'],['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_unique_bulb_id.html#a2a30e8d7f41e05d33899b83d9f4cde76',1,'maliput::api::rules::UniqueBulbId::bulb_group_id()']]],
   ['bulb_5fgroups_239',['bulb_groups',['../../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_light.html#ad158f2067d781a34df2de96c61b2ba48',1,'maliput::api::rules::TrafficLight']]],
@@ -71,5 +71,6 @@ var searchData=
   ['bulbstates_248',['BulbStates',['../../../maliput/html/namespacemaliput_1_1api_1_1rules.html#a53658179f838e5cccfddc785fbc8bd08',1,'maliput::api::rules']]],
   ['bulbtype_249',['BulbType',['../../../maliput/html/namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2',1,'maliput::api::rules']]],
   ['bulbtypemapper_250',['BulbTypeMapper',['../../../maliput/html/namespacemaliput_1_1api_1_1rules.html#ae22def226ba4538ee9a91f02bd1b5ff3',1,'maliput::api::rules']]],
-  ['byid_251',['ById',['../../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html#a40b5e7f0695bb498b4fccfaac6164d6b',1,'maliput::api::RoadGeometry']]]
+  ['bulbtypestringtoenummapper_251',['BulbTypeStringToEnumMapper',['../../../maliput/html/namespacemaliput_1_1api_1_1rules.html#a6d9fce0e61b1577c2e9d75bc868e5835',1,'maliput::api::rules']]],
+  ['byid_252',['ById',['../../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html#a40b5e7f0695bb498b4fccfaac6164d6b',1,'maliput::api::RoadGeometry']]]
 ];

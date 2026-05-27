@@ -5,6 +5,7 @@ var classmaliput_1_1api_1_1rules_1_1_traffic_light =
     [ "bulb_groups", "classmaliput_1_1api_1_1rules_1_1_traffic_light.html#ad158f2067d781a34df2de96c61b2ba48", null ],
     [ "GetBulbGroup", "classmaliput_1_1api_1_1rules_1_1_traffic_light.html#a9ad32001c047b97b3fc0f4b0dc182fcc", null ],
     [ "id", "classmaliput_1_1api_1_1rules_1_1_traffic_light.html#a3e9b36985fa40131c908fffb29f45c75", null ],
+    [ "InitialBulbStates", "classmaliput_1_1api_1_1rules_1_1_traffic_light.html#a45f8c7cb034d5541aada6c2a1d29c965", null ],
     [ "MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN", "classmaliput_1_1api_1_1rules_1_1_traffic_light.html#af7e0ad54f29a7c2093923bbc6dc88d4c", null ],
     [ "orientation_road_network", "classmaliput_1_1api_1_1rules_1_1_traffic_light.html#a9b101cd2eb8d2e39f53c7ffeb93af33a", null ],
     [ "position_road_network", "classmaliput_1_1api_1_1rules_1_1_traffic_light.html#ad86da4631941ff862e4b86de5ee16747", null ],

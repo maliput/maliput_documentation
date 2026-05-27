@@ -9354,6 +9354,13 @@
       <arglist>()</arglist>
     </member>
     <member kind="function">
+      <type>std::unordered_map&lt; std::string, BulbType &gt;</type>
+      <name>BulbTypeStringToEnumMapper</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a6d9fce0e61b1577c2e9d75bc868e5835</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
       <type>std::unordered_map&lt; BulbState, const char *, maliput::common::DefaultHash &gt;</type>
       <name>BulbStateMapper</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
@@ -9395,6 +9402,8 @@
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="a6e1f10a3be6871610a2558424fcd78edafb0136b923af8c04b31a9d1b5e989acf">kRed</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="a6e1f10a3be6871610a2558424fcd78eda4c6c30a3642462190739bb7f13af9c7b">kYellow</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="a6e1f10a3be6871610a2558424fcd78eda1299e6e2ec6371a79385cd3a862f7cc9">kGreen</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="a6e1f10a3be6871610a2558424fcd78eda8d069917ec494cc042c27acaad671f52">kBlue</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="a6e1f10a3be6871610a2558424fcd78edad368dbde55a733c6dde5a20566d50736">kWhite</enumvalue>
     </member>
     <member kind="enumeration">
       <type></type>
@@ -9413,6 +9422,15 @@
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2a827648321f51d89cbc07ce98d3d088d6">kUTurnRight</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2a30c7a6c70a2592413069d0a46e2309d4">kWalk</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2a2b7e8f101dcf61a37e727ddc0a0f3a33">kDontWalk</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2ad48b8c20b76c6b5fa978b00bf8fe17ed">kCross</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2a04dad8134aa58902afa90707c4971c92">kPedestrian</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2a0bafa2cd94cbc86b53ec5908f2a42640">kBicycle</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2a29740b5d50b940482bfcccfa4d7a80c7">kPedestrianAndBicycle</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2a111196c942273253654969b09dd6b85c">kTram</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2a863b6d2ba01aadc33e92389a371ead42">kBus</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2a92133bb86c8f2585e5b22daf9f248ac7">kBusAndTram</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2ad250f691f123130340ad00fcadb21adc">kCountdownInSeconds</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2a17bc005e41ebe9b853fa5c987f0a09d1">kCountdownInPercent</enumvalue>
     </member>
     <member kind="enumeration">
       <type></type>
@@ -9423,6 +9441,7 @@
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="a8e3cc9f879a0ac1d7bd47eb69bba5b34acc9ab5e60ac2a9a675ba64bf4bb49dc8">kOff</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="a8e3cc9f879a0ac1d7bd47eb69bba5b34a2e6612c563e3cf5e64362b0f19f4b33f">kOn</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="a8e3cc9f879a0ac1d7bd47eb69bba5b34a52932182c1d638e198dc39077e8da180">kBlinking</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="a8e3cc9f879a0ac1d7bd47eb69bba5b34ab71e5d38a52302dd97ae510f8897fa19">kCounting</enumvalue>
     </member>
     <member kind="function">
       <type>std::unordered_map&lt; BulbColor, const char *, maliput::common::DefaultHash &gt;</type>
@@ -9436,6 +9455,13 @@
       <name>BulbTypeMapper</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
       <anchor>ae22def226ba4538ee9a91f02bd1b5ff3</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unordered_map&lt; std::string, BulbType &gt;</type>
+      <name>BulbTypeStringToEnumMapper</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a6d9fce0e61b1577c2e9d75bc868e5835</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -9461,6 +9487,13 @@
       <anchor>a3c545d47d017cb94a928a8a23f83200b</anchor>
       <arglist>()</arglist>
     </member>
+    <member kind="function">
+      <type>std::unordered_map&lt; TrafficSignValueUnit, const char *, maliput::common::DefaultHash &gt;</type>
+      <name>TrafficSignValueUnitMapper</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a02e3665aeabac4206a12a80d2e895758</anchor>
+      <arglist>()</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>traffic_sign.h</name>
@@ -9474,6 +9507,7 @@
     <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
     <includes id="bounding__box_8h" name="bounding_box.h" local="yes" imported="no">maliput/math/bounding_box.h</includes>
     <includes id="vector_8h" name="vector.h" local="yes" imported="no">maliput/math/vector.h</includes>
+    <class kind="struct">maliput::api::rules::TrafficSignValue</class>
     <class kind="class">maliput::api::rules::TrafficSign</class>
     <namespace>maliput</namespace>
     <namespace>maliput::api</namespace>
@@ -9499,11 +9533,35 @@
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cda10c55a8559a05f4d56b3dd803ef76d7d">kNoOvertaking</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cda25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
     </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>TrafficSignValueUnit</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>aea9ecf73c64d2781f06a55c8f9f2d46d</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="aea9ecf73c64d2781f06a55c8f9f2d46da42d55d9f147cc83ceb95b560c5eab3a9">kMetersPerSecond</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="aea9ecf73c64d2781f06a55c8f9f2d46da3cfd1e5b1e3e496f85d2ea8e7d2746c4">kKilometersPerHour</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="aea9ecf73c64d2781f06a55c8f9f2d46da8c6df4270fbf444dc7065833d12ad9dd">kMilesPerHour</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="aea9ecf73c64d2781f06a55c8f9f2d46da1ccb30df9d772ab8ef6bb3fe5500f144">kMeters</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="aea9ecf73c64d2781f06a55c8f9f2d46da4172185d5a6a4a8fa3e7b292080df8f7">kKilometers</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="aea9ecf73c64d2781f06a55c8f9f2d46dae312e88d60366a81f2eeb026af8bea85">kFeet</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="aea9ecf73c64d2781f06a55c8f9f2d46dae2907fd282a7417d26cb1dcdbadf8ccc">kMiles</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="aea9ecf73c64d2781f06a55c8f9f2d46da3f003a1d2661f7b29e2c1dc7c3d06537">kPercent</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="aea9ecf73c64d2781f06a55c8f9f2d46da7bf454c762befb4e4f6e63e93112a37d">kKilograms</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="aea9ecf73c64d2781f06a55c8f9f2d46da5809180a7d1c684c046e49acc02285ed">kMetricTons</enumvalue>
+    </member>
     <member kind="function">
       <type>std::unordered_map&lt; TrafficSignType, const char *, maliput::common::DefaultHash &gt;</type>
       <name>TrafficSignTypeMapper</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
       <anchor>a3c545d47d017cb94a928a8a23f83200b</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unordered_map&lt; TrafficSignValueUnit, const char *, maliput::common::DefaultHash &gt;</type>
+      <name>TrafficSignValueUnitMapper</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a02e3665aeabac4206a12a80d2e895758</anchor>
       <arglist>()</arglist>
     </member>
   </compound>
@@ -11403,8 +11461,8 @@
       <type></type>
       <name>Bulb</name>
       <anchorfile>classmaliput_1_1api_1_1rules_1_1_bulb.html</anchorfile>
-      <anchor>a67f00f1243ea06e5fdaf829cc0eb5c44</anchor>
-      <arglist>(const Id &amp;id, const InertialPosition &amp;position_bulb_group, const Rotation &amp;orientation_bulb_group, const BulbColor &amp;color, const BulbType &amp;type, const std::optional&lt; double &gt; &amp;arrow_orientation_rad=std::nullopt, const std::optional&lt; std::vector&lt; BulbState &gt;&gt; &amp;states=std::nullopt, BoundingBox bounding_box=BoundingBox())</arglist>
+      <anchor>a7e98141efe4ce0e162eeeb677d7b5cc5</anchor>
+      <arglist>(const Id &amp;id, const InertialPosition &amp;position_bulb_group, const Rotation &amp;orientation_bulb_group, const BulbColor &amp;color, const BulbType &amp;type, const std::optional&lt; double &gt; &amp;arrow_orientation_rad=std::nullopt, const std::optional&lt; std::vector&lt; BulbState &gt;&gt; &amp;states=std::nullopt, BoundingBox bounding_box=BoundingBox(), const std::optional&lt; BulbState &gt; &amp;initial_state=std::nullopt)</arglist>
     </member>
     <member kind="function">
       <type>const Id &amp;</type>
@@ -11467,6 +11525,13 @@
       <name>GetDefaultState</name>
       <anchorfile>classmaliput_1_1api_1_1rules_1_1_bulb.html</anchorfile>
       <anchor>ad86f30db791c42367fedb4d58a294ad6</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>BulbState</type>
+      <name>GetInitialState</name>
+      <anchorfile>classmaliput_1_1api_1_1rules_1_1_bulb.html</anchorfile>
+      <anchor>ac17827b0daedbb6044e2ed0dffbc7604</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -19366,17 +19431,6 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>maliput::utility::mesh::GeoVertex::Equiv</name>
-    <filename>structmaliput_1_1utility_1_1mesh_1_1_geo_vertex_1_1_equiv.html</filename>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator()</name>
-      <anchorfile>structmaliput_1_1utility_1_1mesh_1_1_geo_vertex_1_1_equiv.html</anchorfile>
-      <anchor>aa20749a63ed2c77f495b32fe4118b5ac</anchor>
-      <arglist>(const GeoVertex &amp;lhs, const GeoVertex &amp;rhs) const</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
     <name>maliput::utility::mesh::GeoNormal::Equiv</name>
     <filename>structmaliput_1_1utility_1_1mesh_1_1_geo_normal_1_1_equiv.html</filename>
     <member kind="function">
@@ -19385,6 +19439,17 @@
       <anchorfile>structmaliput_1_1utility_1_1mesh_1_1_geo_normal_1_1_equiv.html</anchorfile>
       <anchor>ab9ec50cf649a244595032a030685165d</anchor>
       <arglist>(const GeoNormal &amp;lhs, const GeoNormal &amp;rhs) const</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput::utility::mesh::GeoVertex::Equiv</name>
+    <filename>structmaliput_1_1utility_1_1mesh_1_1_geo_vertex_1_1_equiv.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator()</name>
+      <anchorfile>structmaliput_1_1utility_1_1mesh_1_1_geo_vertex_1_1_equiv.html</anchorfile>
+      <anchor>aa20749a63ed2c77f495b32fe4118b5ac</anchor>
+      <arglist>(const GeoVertex &amp;lhs, const GeoVertex &amp;rhs) const</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -24540,39 +24605,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::geometry_base::LaneBoundary</name>
-    <filename>classmaliput_1_1geometry__base_1_1_lane_boundary.html</filename>
-    <base>maliput::api::LaneBoundary</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane_boundary.html</anchorfile>
-      <anchor>a48cbe813d5cd44246567e59c08bfebf1</anchor>
-      <arglist>(LaneBoundary)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>LaneBoundary</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane_boundary.html</anchorfile>
-      <anchor>a66db12d3aafb90c3c4141a8038f50360</anchor>
-      <arglist>(const api::LaneBoundary::Id &amp;id)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AttachToSegment</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane_boundary.html</anchorfile>
-      <anchor>a641be6120d87c39a1713d8d2a2f7cdf0</anchor>
-      <arglist>(common::Passkey&lt; Segment &gt;, const api::Segment *segment, int index)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~LaneBoundary</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane_boundary.html</anchorfile>
-      <anchor>aba265ccabfd8fcc754dc6900c43c96c6</anchor>
-      <arglist>() override=default</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>maliput::api::LaneBoundary</name>
     <filename>classmaliput_1_1api_1_1_lane_boundary.html</filename>
     <member kind="typedef">
@@ -24651,6 +24683,39 @@
       <anchorfile>classmaliput_1_1api_1_1_lane_boundary.html</anchorfile>
       <anchor>a64592854799a70aee090d7df209448ff</anchor>
       <arglist>()=default</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::geometry_base::LaneBoundary</name>
+    <filename>classmaliput_1_1geometry__base_1_1_lane_boundary.html</filename>
+    <base>maliput::api::LaneBoundary</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane_boundary.html</anchorfile>
+      <anchor>a48cbe813d5cd44246567e59c08bfebf1</anchor>
+      <arglist>(LaneBoundary)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>LaneBoundary</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane_boundary.html</anchorfile>
+      <anchor>a66db12d3aafb90c3c4141a8038f50360</anchor>
+      <arglist>(const api::LaneBoundary::Id &amp;id)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AttachToSegment</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane_boundary.html</anchorfile>
+      <anchor>a641be6120d87c39a1713d8d2a2f7cdf0</anchor>
+      <arglist>(common::Passkey&lt; Segment &gt;, const api::Segment *segment, int index)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~LaneBoundary</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane_boundary.html</anchorfile>
+      <anchor>aba265ccabfd8fcc754dc6900c43c96c6</anchor>
+      <arglist>() override=default</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -40624,6 +40689,13 @@
       <anchor>aecfd87e70076467279c0aabb6982848c</anchor>
       <arglist>() const</arglist>
     </member>
+    <member kind="function">
+      <type>std::map&lt; UniqueBulbId, BulbState &gt;</type>
+      <name>InitialBulbStates</name>
+      <anchorfile>classmaliput_1_1api_1_1rules_1_1_traffic_light.html</anchorfile>
+      <anchor>a45f8c7cb034d5541aada6c2a1d29c965</anchor>
+      <arglist>() const</arglist>
+    </member>
   </compound>
   <compound kind="class">
     <name>maliput::api::rules::TrafficLightBook</name>
@@ -40754,8 +40826,8 @@
       <type></type>
       <name>TrafficSign</name>
       <anchorfile>classmaliput_1_1api_1_1rules_1_1_traffic_sign.html</anchorfile>
-      <anchor>a5e8b0400441881f72e84b147626f35c5</anchor>
-      <arglist>(const Id &amp;id, const TrafficSignType &amp;type, const InertialPosition &amp;position_road_network, const Rotation &amp;orientation_road_network, const std::optional&lt; std::string &gt; &amp;message, std::vector&lt; LaneId &gt; related_lanes, const maliput::math::BoundingBox &amp;bounding_box)</arglist>
+      <anchor>a67f0cf20e345a3a6b2cc1244a1ce92b2</anchor>
+      <arglist>(const Id &amp;id, const TrafficSignType &amp;type, const InertialPosition &amp;position_road_network, const Rotation &amp;orientation_road_network, const std::optional&lt; std::string &gt; &amp;message, std::vector&lt; LaneId &gt; related_lanes, const maliput::math::BoundingBox &amp;bounding_box, const std::optional&lt; TrafficSignValue &gt; &amp;value=std::nullopt)</arglist>
     </member>
     <member kind="function">
       <type>const Id &amp;</type>
@@ -40804,6 +40876,13 @@
       <name>bounding_box</name>
       <anchorfile>classmaliput_1_1api_1_1rules_1_1_traffic_sign.html</anchorfile>
       <anchor>a2d9c84a3a6850fedfb284cbc1cbcd04c</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::optional&lt; TrafficSignValue &gt; &amp;</type>
+      <name>GetValue</name>
+      <anchorfile>classmaliput_1_1api_1_1rules_1_1_traffic_sign.html</anchorfile>
+      <anchor>ac76b1ea8983f5cd3edf57a22d769dd69</anchor>
       <arglist>() const</arglist>
     </member>
   </compound>
@@ -40884,6 +40963,38 @@
       <anchorfile>classmaliput_1_1_traffic_sign_book.html</anchorfile>
       <anchor>afb1d8deccb5a89d4108758cbefdb6566</anchor>
       <arglist>(std::unique_ptr&lt; const api::rules::TrafficSign &gt; traffic_sign)</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput::api::rules::TrafficSignValue</name>
+    <filename>structmaliput_1_1api_1_1rules_1_1_traffic_sign_value.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_traffic_sign_value.html</anchorfile>
+      <anchor>aff8633d6d1d1443fbf51f0ab60e210d0</anchor>
+      <arglist>(const TrafficSignValue &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_traffic_sign_value.html</anchorfile>
+      <anchor>a855d10019df834ece58fad3c277e1c1b</anchor>
+      <arglist>(const TrafficSignValue &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>value</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_traffic_sign_value.html</anchorfile>
+      <anchor>aee90379adb0307effb138f4871edbc5c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>TrafficSignValueUnit</type>
+      <name>unit</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_traffic_sign_value.html</anchorfile>
+      <anchor>a841b9b0168996856506032a34023001b</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -44010,6 +44121,13 @@
       <name>operator!=</name>
       <anchorfile>classmaliput_1_1api_1_1rules_1_1_unique_bulb_id.html</anchorfile>
       <anchor>a6a66a429b9765ce2ae162946fbe456e5</anchor>
+      <arglist>(const UniqueBulbId &amp;rhs) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator&lt;</name>
+      <anchorfile>classmaliput_1_1api_1_1rules_1_1_unique_bulb_id.html</anchorfile>
+      <anchor>acb853ea6ab1fa52f51cc16d958393eba</anchor>
       <arglist>(const UniqueBulbId &amp;rhs) const</arglist>
     </member>
     <member kind="function">
@@ -47571,6 +47689,7 @@
     <class kind="class">maliput::api::rules::TrafficLightBook</class>
     <class kind="class">maliput::api::rules::TrafficSign</class>
     <class kind="class">maliput::api::rules::TrafficSignBook</class>
+    <class kind="struct">maliput::api::rules::TrafficSignValue</class>
     <class kind="class">maliput::api::rules::UniqueBulbGroupId</class>
     <class kind="class">maliput::api::rules::UniqueBulbId</class>
     <member kind="typedef">
@@ -47617,6 +47736,8 @@
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="a6e1f10a3be6871610a2558424fcd78edafb0136b923af8c04b31a9d1b5e989acf">kRed</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="a6e1f10a3be6871610a2558424fcd78eda4c6c30a3642462190739bb7f13af9c7b">kYellow</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="a6e1f10a3be6871610a2558424fcd78eda1299e6e2ec6371a79385cd3a862f7cc9">kGreen</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="a6e1f10a3be6871610a2558424fcd78eda8d069917ec494cc042c27acaad671f52">kBlue</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="a6e1f10a3be6871610a2558424fcd78edad368dbde55a733c6dde5a20566d50736">kWhite</enumvalue>
     </member>
     <member kind="enumeration">
       <type></type>
@@ -47635,6 +47756,15 @@
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2a827648321f51d89cbc07ce98d3d088d6">kUTurnRight</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2a30c7a6c70a2592413069d0a46e2309d4">kWalk</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2a2b7e8f101dcf61a37e727ddc0a0f3a33">kDontWalk</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2ad48b8c20b76c6b5fa978b00bf8fe17ed">kCross</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2a04dad8134aa58902afa90707c4971c92">kPedestrian</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2a0bafa2cd94cbc86b53ec5908f2a42640">kBicycle</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2a29740b5d50b940482bfcccfa4d7a80c7">kPedestrianAndBicycle</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2a111196c942273253654969b09dd6b85c">kTram</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2a863b6d2ba01aadc33e92389a371ead42">kBus</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2a92133bb86c8f2585e5b22daf9f248ac7">kBusAndTram</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2ad250f691f123130340ad00fcadb21adc">kCountdownInSeconds</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ae21a360eb5822a6f1f2579b377ba2bb2a17bc005e41ebe9b853fa5c987f0a09d1">kCountdownInPercent</enumvalue>
     </member>
     <member kind="enumeration">
       <type></type>
@@ -47645,6 +47775,7 @@
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="a8e3cc9f879a0ac1d7bd47eb69bba5b34acc9ab5e60ac2a9a675ba64bf4bb49dc8">kOff</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="a8e3cc9f879a0ac1d7bd47eb69bba5b34a2e6612c563e3cf5e64362b0f19f4b33f">kOn</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="a8e3cc9f879a0ac1d7bd47eb69bba5b34a52932182c1d638e198dc39077e8da180">kBlinking</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="a8e3cc9f879a0ac1d7bd47eb69bba5b34ab71e5d38a52302dd97ae510f8897fa19">kCounting</enumvalue>
     </member>
     <member kind="enumeration">
       <type></type>
@@ -47666,6 +47797,23 @@
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cda529c895c1db38e95924a81e577e3f05f">kRailroadCrossing</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cda10c55a8559a05f4d56b3dd803ef76d7d">kNoOvertaking</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cda25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>TrafficSignValueUnit</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>aea9ecf73c64d2781f06a55c8f9f2d46d</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="aea9ecf73c64d2781f06a55c8f9f2d46da42d55d9f147cc83ceb95b560c5eab3a9">kMetersPerSecond</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="aea9ecf73c64d2781f06a55c8f9f2d46da3cfd1e5b1e3e496f85d2ea8e7d2746c4">kKilometersPerHour</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="aea9ecf73c64d2781f06a55c8f9f2d46da8c6df4270fbf444dc7065833d12ad9dd">kMilesPerHour</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="aea9ecf73c64d2781f06a55c8f9f2d46da1ccb30df9d772ab8ef6bb3fe5500f144">kMeters</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="aea9ecf73c64d2781f06a55c8f9f2d46da4172185d5a6a4a8fa3e7b292080df8f7">kKilometers</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="aea9ecf73c64d2781f06a55c8f9f2d46dae312e88d60366a81f2eeb026af8bea85">kFeet</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="aea9ecf73c64d2781f06a55c8f9f2d46dae2907fd282a7417d26cb1dcdbadf8ccc">kMiles</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="aea9ecf73c64d2781f06a55c8f9f2d46da3f003a1d2661f7b29e2c1dc7c3d06537">kPercent</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="aea9ecf73c64d2781f06a55c8f9f2d46da7bf454c762befb4e4f6e63e93112a37d">kKilograms</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="aea9ecf73c64d2781f06a55c8f9f2d46da5809180a7d1c684c046e49acc02285ed">kMetricTons</enumvalue>
     </member>
     <member kind="function">
       <type>common::ComparisonResult&lt; RuleStates &gt;</type>
@@ -47962,6 +48110,13 @@
       <arglist>()</arglist>
     </member>
     <member kind="function">
+      <type>std::unordered_map&lt; std::string, BulbType &gt;</type>
+      <name>BulbTypeStringToEnumMapper</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a6d9fce0e61b1577c2e9d75bc868e5835</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
       <type>std::unordered_map&lt; BulbState, const char *, maliput::common::DefaultHash &gt;</type>
       <name>BulbStateMapper</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
@@ -47973,6 +48128,13 @@
       <name>TrafficSignTypeMapper</name>
       <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
       <anchor>a3c545d47d017cb94a928a8a23f83200b</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unordered_map&lt; TrafficSignValueUnit, const char *, maliput::common::DefaultHash &gt;</type>
+      <name>TrafficSignValueUnitMapper</name>
+      <anchorfile>namespacemaliput_1_1api_1_1rules.html</anchorfile>
+      <anchor>a02e3665aeabac4206a12a80d2e895758</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">

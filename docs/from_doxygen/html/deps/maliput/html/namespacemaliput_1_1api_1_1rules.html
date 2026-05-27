@@ -154,6 +154,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_sign_book.html">TrafficSignBook</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract interface for providing the mapping from <a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_sign.html#a6cc984da1a32024eb985394c5a180578" title="Unique identifier for a TrafficSign.">TrafficSign::Id</a> to <a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_sign.html" title="Models a physical traffic sign — a static, passive signaling device placed along or above the road to...">TrafficSign</a>.  <a href="classmaliput_1_1api_1_1rules_1_1_traffic_sign_book.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1api_1_1rules_1_1_traffic_sign_value.html">TrafficSignValue</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds a numeric value and its associated unit for a traffic sign.  <a href="structmaliput_1_1api_1_1rules_1_1_traffic_sign_value.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_unique_bulb_group_id.html">UniqueBulbGroupId</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uniquely identifies a bulb group in the <code>Inertial</code> space.  <a href="classmaliput_1_1api_1_1rules_1_1_unique_bulb_group_id.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,9 +183,14 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a6e1f10a3be6871610a2558424fcd78ed"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1rules.html#a6e1f10a3be6871610a2558424fcd78ed">BulbColor</a> { <a class="el" href="namespacemaliput_1_1api_1_1rules.html#a6e1f10a3be6871610a2558424fcd78edafb0136b923af8c04b31a9d1b5e989acf">kRed</a> = 0, 
+<tr class="memitem:a6e1f10a3be6871610a2558424fcd78ed"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1rules.html#a6e1f10a3be6871610a2558424fcd78ed">BulbColor</a> { <br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api_1_1rules.html#a6e1f10a3be6871610a2558424fcd78edafb0136b923af8c04b31a9d1b5e989acf">kRed</a> = 0, 
 <a class="el" href="namespacemaliput_1_1api_1_1rules.html#a6e1f10a3be6871610a2558424fcd78eda4c6c30a3642462190739bb7f13af9c7b">kYellow</a>, 
-<a class="el" href="namespacemaliput_1_1api_1_1rules.html#a6e1f10a3be6871610a2558424fcd78eda1299e6e2ec6371a79385cd3a862f7cc9">kGreen</a>
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#a6e1f10a3be6871610a2558424fcd78eda1299e6e2ec6371a79385cd3a862f7cc9">kGreen</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#a6e1f10a3be6871610a2558424fcd78eda8d069917ec494cc042c27acaad671f52">kBlue</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api_1_1rules.html#a6e1f10a3be6871610a2558424fcd78edad368dbde55a733c6dde5a20566d50736">kWhite</a>
+<br />
  }</td></tr>
 <tr class="memdesc:a6e1f10a3be6871610a2558424fcd78ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the possible bulb colors.  <a href="namespacemaliput_1_1api_1_1rules.html#a6e1f10a3be6871610a2558424fcd78ed">More...</a><br /></td></tr>
 <tr class="separator:a6e1f10a3be6871610a2558424fcd78ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -199,14 +207,26 @@ Enumerations</h2></td></tr>
 <br />
 &#160;&#160;<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a827648321f51d89cbc07ce98d3d088d6">kUTurnRight</a>, 
 <a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a30c7a6c70a2592413069d0a46e2309d4">kWalk</a>, 
-<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a2b7e8f101dcf61a37e727ddc0a0f3a33">kDontWalk</a>
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a2b7e8f101dcf61a37e727ddc0a0f3a33">kDontWalk</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2ad48b8c20b76c6b5fa978b00bf8fe17ed">kCross</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a04dad8134aa58902afa90707c4971c92">kPedestrian</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a0bafa2cd94cbc86b53ec5908f2a42640">kBicycle</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a29740b5d50b940482bfcccfa4d7a80c7">kPedestrianAndBicycle</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a111196c942273253654969b09dd6b85c">kTram</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a863b6d2ba01aadc33e92389a371ead42">kBus</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a92133bb86c8f2585e5b22daf9f248ac7">kBusAndTram</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2ad250f691f123130340ad00fcadb21adc">kCountdownInSeconds</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a17bc005e41ebe9b853fa5c987f0a09d1">kCountdownInPercent</a>
 <br />
  }</td></tr>
 <tr class="memdesc:ae21a360eb5822a6f1f2579b377ba2bb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the possible bulb types.  <a href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2">More...</a><br /></td></tr>
 <tr class="separator:ae21a360eb5822a6f1f2579b377ba2bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e3cc9f879a0ac1d7bd47eb69bba5b34"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1rules.html#a8e3cc9f879a0ac1d7bd47eb69bba5b34">BulbState</a> { <a class="el" href="namespacemaliput_1_1api_1_1rules.html#a8e3cc9f879a0ac1d7bd47eb69bba5b34acc9ab5e60ac2a9a675ba64bf4bb49dc8">kOff</a> = 0, 
 <a class="el" href="namespacemaliput_1_1api_1_1rules.html#a8e3cc9f879a0ac1d7bd47eb69bba5b34a2e6612c563e3cf5e64362b0f19f4b33f">kOn</a>, 
-<a class="el" href="namespacemaliput_1_1api_1_1rules.html#a8e3cc9f879a0ac1d7bd47eb69bba5b34a52932182c1d638e198dc39077e8da180">kBlinking</a>
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#a8e3cc9f879a0ac1d7bd47eb69bba5b34a52932182c1d638e198dc39077e8da180">kBlinking</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#a8e3cc9f879a0ac1d7bd47eb69bba5b34ab71e5d38a52302dd97ae510f8897fa19">kCounting</a>
  }</td></tr>
 <tr class="memdesc:a8e3cc9f879a0ac1d7bd47eb69bba5b34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the possible bulb states.  <a href="namespacemaliput_1_1api_1_1rules.html#a8e3cc9f879a0ac1d7bd47eb69bba5b34">More...</a><br /></td></tr>
 <tr class="separator:a8e3cc9f879a0ac1d7bd47eb69bba5b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -232,6 +252,23 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:ad3e17e6e261408048a924423b24a23cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the possible traffic sign types.  <a href="namespacemaliput_1_1api_1_1rules.html#ad3e17e6e261408048a924423b24a23cd">More...</a><br /></td></tr>
 <tr class="separator:ad3e17e6e261408048a924423b24a23cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea9ecf73c64d2781f06a55c8f9f2d46d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46d">TrafficSignValueUnit</a> { <br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46da42d55d9f147cc83ceb95b560c5eab3a9">kMetersPerSecond</a> = 0, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46da3cfd1e5b1e3e496f85d2ea8e7d2746c4">kKilometersPerHour</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46da8c6df4270fbf444dc7065833d12ad9dd">kMilesPerHour</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46da1ccb30df9d772ab8ef6bb3fe5500f144">kMeters</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46da4172185d5a6a4a8fa3e7b292080df8f7">kKilometers</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46dae312e88d60366a81f2eeb026af8bea85">kFeet</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46dae2907fd282a7417d26cb1dcdbadf8ccc">kMiles</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46da3f003a1d2661f7b29e2c1dc7c3d06537">kPercent</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46da7bf454c762befb4e4f6e63e93112a37d">kKilograms</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46da5809180a7d1c684c046e49acc02285ed">kMetricTons</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:aea9ecf73c64d2781f06a55c8f9f2d46d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the unit for a traffic sign's numeric value.  <a href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46d">More...</a><br /></td></tr>
+<tr class="separator:aea9ecf73c64d2781f06a55c8f9f2d46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -361,12 +398,18 @@ Functions</h2></td></tr>
 <tr class="memitem:ae22def226ba4538ee9a91f02bd1b5ff3"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2">BulbType</a>, const char *, <a class="el" href="namespacemaliput_1_1common.html#ae925cde990a915749d22776d5b22b6a4">maliput::common::DefaultHash</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae22def226ba4538ee9a91f02bd1b5ff3">BulbTypeMapper</a> ()</td></tr>
 <tr class="memdesc:ae22def226ba4538ee9a91f02bd1b5ff3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maps BulbType enums to string representations.  <a href="namespacemaliput_1_1api_1_1rules.html#ae22def226ba4538ee9a91f02bd1b5ff3">More...</a><br /></td></tr>
 <tr class="separator:ae22def226ba4538ee9a91f02bd1b5ff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d9fce0e61b1577c2e9d75bc868e5835"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, <a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2">BulbType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1rules.html#a6d9fce0e61b1577c2e9d75bc868e5835">BulbTypeStringToEnumMapper</a> ()</td></tr>
+<tr class="memdesc:a6d9fce0e61b1577c2e9d75bc868e5835"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maps string representations to BulbType enums.  <a href="namespacemaliput_1_1api_1_1rules.html#a6d9fce0e61b1577c2e9d75bc868e5835">More...</a><br /></td></tr>
+<tr class="separator:a6d9fce0e61b1577c2e9d75bc868e5835"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2af2bdbf1550cd1e87d177254662692"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="namespacemaliput_1_1api_1_1rules.html#a8e3cc9f879a0ac1d7bd47eb69bba5b34">BulbState</a>, const char *, <a class="el" href="namespacemaliput_1_1common.html#ae925cde990a915749d22776d5b22b6a4">maliput::common::DefaultHash</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1rules.html#ab2af2bdbf1550cd1e87d177254662692">BulbStateMapper</a> ()</td></tr>
 <tr class="memdesc:ab2af2bdbf1550cd1e87d177254662692"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maps BulbState enums to string representations.  <a href="namespacemaliput_1_1api_1_1rules.html#ab2af2bdbf1550cd1e87d177254662692">More...</a><br /></td></tr>
 <tr class="separator:ab2af2bdbf1550cd1e87d177254662692"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c545d47d017cb94a928a8a23f83200b"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="namespacemaliput_1_1api_1_1rules.html#ad3e17e6e261408048a924423b24a23cd">TrafficSignType</a>, const char *, <a class="el" href="namespacemaliput_1_1common.html#ae925cde990a915749d22776d5b22b6a4">maliput::common::DefaultHash</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1rules.html#a3c545d47d017cb94a928a8a23f83200b">TrafficSignTypeMapper</a> ()</td></tr>
 <tr class="memdesc:a3c545d47d017cb94a928a8a23f83200b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maps TrafficSignType enums to string representations.  <a href="namespacemaliput_1_1api_1_1rules.html#a3c545d47d017cb94a928a8a23f83200b">More...</a><br /></td></tr>
 <tr class="separator:a3c545d47d017cb94a928a8a23f83200b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02e3665aeabac4206a12a80d2e895758"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46d">TrafficSignValueUnit</a>, const char *, <a class="el" href="namespacemaliput_1_1common.html#ae925cde990a915749d22776d5b22b6a4">maliput::common::DefaultHash</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1rules.html#a02e3665aeabac4206a12a80d2e895758">TrafficSignValueUnitMapper</a> ()</td></tr>
+<tr class="memdesc:a02e3665aeabac4206a12a80d2e895758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maps TrafficSignValueUnit enums to string representations.  <a href="namespacemaliput_1_1api_1_1rules.html#a02e3665aeabac4206a12a80d2e895758">More...</a><br /></td></tr>
+<tr class="separator:a02e3665aeabac4206a12a80d2e895758"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaedba4d6b9f741b9f611879f2bd56128"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmaliput_1_1common_1_1_comparison_result.html">common::ComparisonResult</a>&lt; rules::RightOfWayRule::ZoneType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1rules.html#aaedba4d6b9f741b9f611879f2bd56128">IsEqual</a> (rules::RightOfWayRule::ZoneType a, rules::RightOfWayRule::ZoneType b)</td></tr>
 <tr class="separator:aaedba4d6b9f741b9f611879f2bd56128"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4910894724f5c5d708348a2d3d947d73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structmaliput_1_1common_1_1_comparison_result.html">common::ComparisonResult</a>&lt; rules::RightOfWayRule::State::Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1rules.html#a4910894724f5c5d708348a2d3d947d73">IsEqual</a> (rules::RightOfWayRule::State::Type a, rules::RightOfWayRule::State::Type b)</td></tr>
@@ -491,6 +534,8 @@ Functions</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6e1f10a3be6871610a2558424fcd78edafb0136b923af8c04b31a9d1b5e989acf"></a>kRed&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6e1f10a3be6871610a2558424fcd78eda4c6c30a3642462190739bb7f13af9c7b"></a>kYellow&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6e1f10a3be6871610a2558424fcd78eda1299e6e2ec6371a79385cd3a862f7cc9"></a>kGreen&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6e1f10a3be6871610a2558424fcd78eda8d069917ec494cc042c27acaad671f52"></a>kBlue&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6e1f10a3be6871610a2558424fcd78edad368dbde55a733c6dde5a20566d50736"></a>kWhite&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -520,6 +565,7 @@ Functions</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8e3cc9f879a0ac1d7bd47eb69bba5b34acc9ab5e60ac2a9a675ba64bf4bb49dc8"></a>kOff&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a8e3cc9f879a0ac1d7bd47eb69bba5b34a2e6612c563e3cf5e64362b0f19f4b33f"></a>kOn&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a8e3cc9f879a0ac1d7bd47eb69bba5b34a52932182c1d638e198dc39077e8da180"></a>kBlinking&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8e3cc9f879a0ac1d7bd47eb69bba5b34ab71e5d38a52302dd97ae510f8897fa19"></a>kCounting&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -567,6 +613,24 @@ Functions</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="ae21a360eb5822a6f1f2579b377ba2bb2a2b7e8f101dcf61a37e727ddc0a0f3a33"></a>kDontWalk&#160;</td><td class="fielddoc"><p>Pedestrian don't walk signal. </p>
 </td></tr>
+<tr><td class="fieldname"><a id="ae21a360eb5822a6f1f2579b377ba2bb2ad48b8c20b76c6b5fa978b00bf8fe17ed"></a>kCross&#160;</td><td class="fielddoc"><p>The lane is not open for driving. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae21a360eb5822a6f1f2579b377ba2bb2a04dad8134aa58902afa90707c4971c92"></a>kPedestrian&#160;</td><td class="fielddoc"><p>Valid for pedestrians. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae21a360eb5822a6f1f2579b377ba2bb2a0bafa2cd94cbc86b53ec5908f2a42640"></a>kBicycle&#160;</td><td class="fielddoc"><p>Valid for bicyclists. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae21a360eb5822a6f1f2579b377ba2bb2a29740b5d50b940482bfcccfa4d7a80c7"></a>kPedestrianAndBicycle&#160;</td><td class="fielddoc"><p>Valid for pedestrians and bicyclists. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae21a360eb5822a6f1f2579b377ba2bb2a111196c942273253654969b09dd6b85c"></a>kTram&#160;</td><td class="fielddoc"><p>Valid for trams. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae21a360eb5822a6f1f2579b377ba2bb2a863b6d2ba01aadc33e92389a371ead42"></a>kBus&#160;</td><td class="fielddoc"><p>Valid for buses. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae21a360eb5822a6f1f2579b377ba2bb2a92133bb86c8f2585e5b22daf9f248ac7"></a>kBusAndTram&#160;</td><td class="fielddoc"><p>Valid for trams and buses. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae21a360eb5822a6f1f2579b377ba2bb2ad250f691f123130340ad00fcadb21adc"></a>kCountdownInSeconds&#160;</td><td class="fielddoc"><p>Countdown in seconds. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae21a360eb5822a6f1f2579b377ba2bb2a17bc005e41ebe9b853fa5c987f0a09d1"></a>kCountdownInPercent&#160;</td><td class="fielddoc"><p>Countdown in percent. </p>
+</td></tr>
 </table>
 
 </div>
@@ -607,6 +671,53 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="ad3e17e6e261408048a924423b24a23cda529c895c1db38e95924a81e577e3f05f"></a>kRailroadCrossing&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad3e17e6e261408048a924423b24a23cda10c55a8559a05f4d56b3dd803ef76d7d"></a>kNoOvertaking&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad3e17e6e261408048a924423b24a23cda25c2dc47991b3df171ed5192bcf70390"></a>kUnknown&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="aea9ecf73c64d2781f06a55c8f9f2d46d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea9ecf73c64d2781f06a55c8f9f2d46d">&#9670;&nbsp;</a></span>TrafficSignValueUnit</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46d">TrafficSignValueUnit</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Defines the unit for a traffic sign's numeric value. </p>
+<p>These correspond to the units used in the XODR signal definition. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aea9ecf73c64d2781f06a55c8f9f2d46da42d55d9f147cc83ceb95b560c5eab3a9"></a>kMetersPerSecond&#160;</td><td class="fielddoc"><p>m/s </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aea9ecf73c64d2781f06a55c8f9f2d46da3cfd1e5b1e3e496f85d2ea8e7d2746c4"></a>kKilometersPerHour&#160;</td><td class="fielddoc"><p>km/h </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aea9ecf73c64d2781f06a55c8f9f2d46da8c6df4270fbf444dc7065833d12ad9dd"></a>kMilesPerHour&#160;</td><td class="fielddoc"><p>mph </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aea9ecf73c64d2781f06a55c8f9f2d46da1ccb30df9d772ab8ef6bb3fe5500f144"></a>kMeters&#160;</td><td class="fielddoc"><p>m </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aea9ecf73c64d2781f06a55c8f9f2d46da4172185d5a6a4a8fa3e7b292080df8f7"></a>kKilometers&#160;</td><td class="fielddoc"><p>km </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aea9ecf73c64d2781f06a55c8f9f2d46dae312e88d60366a81f2eeb026af8bea85"></a>kFeet&#160;</td><td class="fielddoc"><p>ft </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aea9ecf73c64d2781f06a55c8f9f2d46dae2907fd282a7417d26cb1dcdbadf8ccc"></a>kMiles&#160;</td><td class="fielddoc"><p>mile </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aea9ecf73c64d2781f06a55c8f9f2d46da3f003a1d2661f7b29e2c1dc7c3d06537"></a>kPercent&#160;</td><td class="fielddoc"><p>% </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aea9ecf73c64d2781f06a55c8f9f2d46da7bf454c762befb4e4f6e63e93112a37d"></a>kKilograms&#160;</td><td class="fielddoc"><p>kg </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aea9ecf73c64d2781f06a55c8f9f2d46da5809180a7d1c684c046e49acc02285ed"></a>kMetricTons&#160;</td><td class="fielddoc"><p>t (metric tons) </p>
+</td></tr>
 </table>
 
 </div>
@@ -666,6 +777,26 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Maps BulbType enums to string representations. </p>
+
+</div>
+</div>
+<a id="a6d9fce0e61b1577c2e9d75bc868e5835"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d9fce0e61b1577c2e9d75bc868e5835">&#9670;&nbsp;</a></span>BulbTypeStringToEnumMapper()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt; std::string, <a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2">BulbType</a> &gt; BulbTypeStringToEnumMapper </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maps string representations to BulbType enums. </p>
+<p>Both snake_case (e.g., "arrow_left") and PascalCase (e.g., "ArrowLeft") keys are supported. </p>
 
 </div>
 </div>
@@ -2575,6 +2706,25 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Maps TrafficSignType enums to string representations. </p>
+
+</div>
+</div>
+<a id="a02e3665aeabac4206a12a80d2e895758"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02e3665aeabac4206a12a80d2e895758">&#9670;&nbsp;</a></span>TrafficSignValueUnitMapper()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt; <a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46d">TrafficSignValueUnit</a>, const char *, <a class="el" href="namespacemaliput_1_1common.html#ae925cde990a915749d22776d5b22b6a4">maliput::common::DefaultHash</a> &gt; TrafficSignValueUnitMapper </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maps TrafficSignValueUnit enums to string representations. </p>
 
 </div>
 </div>

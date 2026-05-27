@@ -18,6 +18,7 @@ var namespacemaliput_1_1api_1_1rules =
     [ "TrafficLightBook", "classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html", "classmaliput_1_1api_1_1rules_1_1_traffic_light_book" ],
     [ "TrafficSign", "classmaliput_1_1api_1_1rules_1_1_traffic_sign.html", "classmaliput_1_1api_1_1rules_1_1_traffic_sign" ],
     [ "TrafficSignBook", "classmaliput_1_1api_1_1rules_1_1_traffic_sign_book.html", "classmaliput_1_1api_1_1rules_1_1_traffic_sign_book" ],
+    [ "TrafficSignValue", "structmaliput_1_1api_1_1rules_1_1_traffic_sign_value.html", "structmaliput_1_1api_1_1rules_1_1_traffic_sign_value" ],
     [ "UniqueBulbGroupId", "classmaliput_1_1api_1_1rules_1_1_unique_bulb_group_id.html", "classmaliput_1_1api_1_1rules_1_1_unique_bulb_group_id" ],
     [ "UniqueBulbId", "classmaliput_1_1api_1_1rules_1_1_unique_bulb_id.html", "classmaliput_1_1api_1_1rules_1_1_unique_bulb_id" ]
 ];

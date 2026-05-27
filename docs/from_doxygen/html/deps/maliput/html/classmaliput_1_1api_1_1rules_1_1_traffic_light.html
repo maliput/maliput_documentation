@@ -133,6 +133,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aecfd87e70076467279c0aabb6982848c"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">LaneId</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_light.html#aecfd87e70076467279c0aabb6982848c">related_lanes</a> () const</td></tr>
 <tr class="memdesc:aecfd87e70076467279c0aabb6982848c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the lanes that this traffic light is physically relevant to.  <a href="classmaliput_1_1api_1_1rules_1_1_traffic_light.html#aecfd87e70076467279c0aabb6982848c">More...</a><br /></td></tr>
 <tr class="separator:aecfd87e70076467279c0aabb6982848c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45f8c7cb034d5541aada6c2a1d29c965"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="classmaliput_1_1api_1_1rules_1_1_unique_bulb_id.html">UniqueBulbId</a>, <a class="el" href="namespacemaliput_1_1api_1_1rules.html#a8e3cc9f879a0ac1d7bd47eb69bba5b34">BulbState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_light.html#a45f8c7cb034d5541aada6c2a1d29c965">InitialBulbStates</a> () const</td></tr>
+<tr class="memdesc:a45f8c7cb034d5541aada6c2a1d29c965"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the initial bulb state for every bulb in this traffic light.  <a href="classmaliput_1_1api_1_1rules_1_1_traffic_light.html#a45f8c7cb034d5541aada6c2a1d29c965">More...</a><br /></td></tr>
+<tr class="separator:a45f8c7cb034d5541aada6c2a1d29c965"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a029206de7f2b36baf2a974fd7922b7d0"></a>
@@ -273,6 +276,26 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns this traffic light's unique identifier. </p>
+
+</div>
+</div>
+<a id="a45f8c7cb034d5541aada6c2a1d29c965"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45f8c7cb034d5541aada6c2a1d29c965">&#9670;&nbsp;</a></span>InitialBulbStates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt; <a class="el" href="classmaliput_1_1api_1_1rules_1_1_unique_bulb_id.html">UniqueBulbId</a>, <a class="el" href="namespacemaliput_1_1api_1_1rules.html#a8e3cc9f879a0ac1d7bd47eb69bba5b34">BulbState</a> &gt; InitialBulbStates </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the initial bulb state for every bulb in this traffic light. </p>
+<p>The map is keyed by <a class="el" href="classmaliput_1_1api_1_1rules_1_1_unique_bulb_id.html" title="Uniquely identifies a bulb in the Inertial space.">UniqueBulbId</a> and the value is the initial BulbState. For bulbs without an explicitly specified initial state, <a class="el" href="namespacemaliput_1_1api_1_1rules.html#a8e3cc9f879a0ac1d7bd47eb69bba5b34acc9ab5e60ac2a9a675ba64bf4bb49dc8">BulbState::kOff</a> is used. </p>
 
 </div>
 </div>

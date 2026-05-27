@@ -1,5 +1,9 @@
 var NAVTREEINDEX12 =
 {
+"classmaliput_1_1routing_1_1_router.html#a4328274c938892f0b88dc278b2357fc5":[4,0,0,6,5,0],
+"classmaliput_1_1routing_1_1_router.html#a6a06c8a70d4d656524b186ac90013763":[4,0,0,6,5,3],
+"classmaliput_1_1routing_1_1_router.html#ae51c3bc92ff91f268f0741bdf8d894e8":[4,0,0,6,5,2],
+"classmaliput_1_1routing_1_1_router.html#af5c0562ea7d93a8d7bb35363b296837d":[4,0,0,6,5,1],
 "classmaliput_1_1utility_1_1_thread_pool.html":[4,0,0,7,5],
 "classmaliput_1_1utility_1_1_thread_pool.html#a07aaf1227e4d645f15e0a964f54ef291":[4,0,0,7,5,7],
 "classmaliput_1_1utility_1_1_thread_pool.html#a0bf34c4dfb73c2b78d1953cdfe818c3e":[4,0,0,7,5,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX12 =
 "framework__common_8h.html#a6143396ef062aba2cec910abc46d611ea8115f823b96150e514add0e2feadda9d":[5,0,90,18,1],
 "framework__common_8h.html#a6143396ef062aba2cec910abc46d611ea81bbdcd5a588bbccd9459c1f0b4af988":[5,0,90,18,12],
 "framework__common_8h.html#a6143396ef062aba2cec910abc46d611ea8ec1db3f5b1b3903b43dd2df6b147279":[5,0,90,18,6],
-"framework__common_8h.html#a6143396ef062aba2cec910abc46d611ea95012084c0003b6a6c1adbc3cc4d8f11":[5,0,90,18,20],
-"framework__common_8h.html#a6143396ef062aba2cec910abc46d611ea99f1a02f4663c0b2289714ce873238b4":[5,0,90,18,19],
-"framework__common_8h.html#a6143396ef062aba2cec910abc46d611eaa8e569dbccb37d2ee44ad80e846756ff":[5,0,90,18,21],
-"framework__common_8h.html#a6143396ef062aba2cec910abc46d611eab396b4df06d0f55e1bba5076f60cd369":[5,0,90,18,24],
-"framework__common_8h.html#a6143396ef062aba2cec910abc46d611ead2f5612e2d497dae86d51bc3cfb061b1":[5,0,90,18,13]
+"framework__common_8h.html#a6143396ef062aba2cec910abc46d611ea95012084c0003b6a6c1adbc3cc4d8f11":[5,0,90,18,20]
 };

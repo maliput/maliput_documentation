@@ -98,6 +98,7 @@ $(document).ready(function(){initNavTree('traffic__lights_8h.html',''); initResi
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;functional&gt;</code><br />
+<code>#include &lt;map&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
 <code>#include &lt;optional&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
@@ -169,9 +170,14 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a6e1f10a3be6871610a2558424fcd78ed"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1rules.html#a6e1f10a3be6871610a2558424fcd78ed">BulbColor</a> { <a class="el" href="namespacemaliput_1_1api_1_1rules.html#a6e1f10a3be6871610a2558424fcd78edafb0136b923af8c04b31a9d1b5e989acf">kRed</a> = 0, 
+<tr class="memitem:a6e1f10a3be6871610a2558424fcd78ed"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1rules.html#a6e1f10a3be6871610a2558424fcd78ed">BulbColor</a> { <br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api_1_1rules.html#a6e1f10a3be6871610a2558424fcd78edafb0136b923af8c04b31a9d1b5e989acf">kRed</a> = 0, 
 <a class="el" href="namespacemaliput_1_1api_1_1rules.html#a6e1f10a3be6871610a2558424fcd78eda4c6c30a3642462190739bb7f13af9c7b">kYellow</a>, 
-<a class="el" href="namespacemaliput_1_1api_1_1rules.html#a6e1f10a3be6871610a2558424fcd78eda1299e6e2ec6371a79385cd3a862f7cc9">kGreen</a>
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#a6e1f10a3be6871610a2558424fcd78eda1299e6e2ec6371a79385cd3a862f7cc9">kGreen</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#a6e1f10a3be6871610a2558424fcd78eda8d069917ec494cc042c27acaad671f52">kBlue</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api_1_1rules.html#a6e1f10a3be6871610a2558424fcd78edad368dbde55a733c6dde5a20566d50736">kWhite</a>
+<br />
  }</td></tr>
 <tr class="memdesc:a6e1f10a3be6871610a2558424fcd78ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the possible bulb colors.  <a href="namespacemaliput_1_1api_1_1rules.html#a6e1f10a3be6871610a2558424fcd78ed">More...</a><br /></td></tr>
 <tr class="separator:a6e1f10a3be6871610a2558424fcd78ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,14 +194,26 @@ Enumerations</h2></td></tr>
 <br />
 &#160;&#160;<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a827648321f51d89cbc07ce98d3d088d6">kUTurnRight</a>, 
 <a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a30c7a6c70a2592413069d0a46e2309d4">kWalk</a>, 
-<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a2b7e8f101dcf61a37e727ddc0a0f3a33">kDontWalk</a>
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a2b7e8f101dcf61a37e727ddc0a0f3a33">kDontWalk</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2ad48b8c20b76c6b5fa978b00bf8fe17ed">kCross</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a04dad8134aa58902afa90707c4971c92">kPedestrian</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a0bafa2cd94cbc86b53ec5908f2a42640">kBicycle</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a29740b5d50b940482bfcccfa4d7a80c7">kPedestrianAndBicycle</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a111196c942273253654969b09dd6b85c">kTram</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a863b6d2ba01aadc33e92389a371ead42">kBus</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a92133bb86c8f2585e5b22daf9f248ac7">kBusAndTram</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2ad250f691f123130340ad00fcadb21adc">kCountdownInSeconds</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2a17bc005e41ebe9b853fa5c987f0a09d1">kCountdownInPercent</a>
 <br />
  }</td></tr>
 <tr class="memdesc:ae21a360eb5822a6f1f2579b377ba2bb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the possible bulb types.  <a href="namespacemaliput_1_1api_1_1rules.html#ae21a360eb5822a6f1f2579b377ba2bb2">More...</a><br /></td></tr>
 <tr class="separator:ae21a360eb5822a6f1f2579b377ba2bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e3cc9f879a0ac1d7bd47eb69bba5b34"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1rules.html#a8e3cc9f879a0ac1d7bd47eb69bba5b34">BulbState</a> { <a class="el" href="namespacemaliput_1_1api_1_1rules.html#a8e3cc9f879a0ac1d7bd47eb69bba5b34acc9ab5e60ac2a9a675ba64bf4bb49dc8">kOff</a> = 0, 
 <a class="el" href="namespacemaliput_1_1api_1_1rules.html#a8e3cc9f879a0ac1d7bd47eb69bba5b34a2e6612c563e3cf5e64362b0f19f4b33f">kOn</a>, 
-<a class="el" href="namespacemaliput_1_1api_1_1rules.html#a8e3cc9f879a0ac1d7bd47eb69bba5b34a52932182c1d638e198dc39077e8da180">kBlinking</a>
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#a8e3cc9f879a0ac1d7bd47eb69bba5b34a52932182c1d638e198dc39077e8da180">kBlinking</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#a8e3cc9f879a0ac1d7bd47eb69bba5b34ab71e5d38a52302dd97ae510f8897fa19">kCounting</a>
  }</td></tr>
 <tr class="memdesc:a8e3cc9f879a0ac1d7bd47eb69bba5b34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the possible bulb states.  <a href="namespacemaliput_1_1api_1_1rules.html#a8e3cc9f879a0ac1d7bd47eb69bba5b34">More...</a><br /></td></tr>
 <tr class="separator:a8e3cc9f879a0ac1d7bd47eb69bba5b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,6 +226,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ae22def226ba4538ee9a91f02bd1b5ff3"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; BulbType, const char *, <a class="el" href="namespacemaliput_1_1common.html#ae925cde990a915749d22776d5b22b6a4">maliput::common::DefaultHash</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1rules.html#ae22def226ba4538ee9a91f02bd1b5ff3">BulbTypeMapper</a> ()</td></tr>
 <tr class="memdesc:ae22def226ba4538ee9a91f02bd1b5ff3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maps BulbType enums to string representations.  <a href="namespacemaliput_1_1api_1_1rules.html#ae22def226ba4538ee9a91f02bd1b5ff3">More...</a><br /></td></tr>
 <tr class="separator:ae22def226ba4538ee9a91f02bd1b5ff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d9fce0e61b1577c2e9d75bc868e5835"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, BulbType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1rules.html#a6d9fce0e61b1577c2e9d75bc868e5835">BulbTypeStringToEnumMapper</a> ()</td></tr>
+<tr class="memdesc:a6d9fce0e61b1577c2e9d75bc868e5835"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maps string representations to BulbType enums.  <a href="namespacemaliput_1_1api_1_1rules.html#a6d9fce0e61b1577c2e9d75bc868e5835">More...</a><br /></td></tr>
+<tr class="separator:a6d9fce0e61b1577c2e9d75bc868e5835"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2af2bdbf1550cd1e87d177254662692"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; BulbState, const char *, <a class="el" href="namespacemaliput_1_1common.html#ae925cde990a915749d22776d5b22b6a4">maliput::common::DefaultHash</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1rules.html#ab2af2bdbf1550cd1e87d177254662692">BulbStateMapper</a> ()</td></tr>
 <tr class="memdesc:ab2af2bdbf1550cd1e87d177254662692"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maps BulbState enums to string representations.  <a href="namespacemaliput_1_1api_1_1rules.html#ab2af2bdbf1550cd1e87d177254662692">More...</a><br /></td></tr>
 <tr class="separator:ab2af2bdbf1550cd1e87d177254662692"><td class="memSeparator" colspan="2">&#160;</td></tr>

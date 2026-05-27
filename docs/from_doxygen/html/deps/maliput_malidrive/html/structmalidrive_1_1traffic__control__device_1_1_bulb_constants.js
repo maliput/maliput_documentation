@@ -4,6 +4,7 @@ var structmalidrive_1_1traffic__control__device_1_1_bulb_constants =
     [ "kBoundingBox", "structmalidrive_1_1traffic__control__device_1_1_bulb_constants.html#ae8506e637c16bc93c523a1b201f60964", null ],
     [ "kColor", "structmalidrive_1_1traffic__control__device_1_1_bulb_constants.html#a382c5b8f91287f402781cac4774586ea", null ],
     [ "kId", "structmalidrive_1_1traffic__control__device_1_1_bulb_constants.html#a9f36bf43428315b6dfd91de20f6854c2", null ],
+    [ "kInitialState", "structmalidrive_1_1traffic__control__device_1_1_bulb_constants.html#a3068e02de0ec65e423014a68bb6fb71a", null ],
     [ "kOrientationTrafficLight", "structmalidrive_1_1traffic__control__device_1_1_bulb_constants.html#abc7846d462542d9f90b98e16d147970d", null ],
     [ "kPositionTrafficLight", "structmalidrive_1_1traffic__control__device_1_1_bulb_constants.html#a74fd96da6e4732b71e0c974ba3d0bfa4", null ],
     [ "kStates", "structmalidrive_1_1traffic__control__device_1_1_bulb_constants.html#a577e90425bc559e17db8cc5c08923d79", null ],

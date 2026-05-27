@@ -1,5 +1,10 @@
 var NAVTREEINDEX15 =
 {
+"maliput_design.html#modeling_road_networks_for_simulation":[0,0],
+"maliput_design.html#new_rule_common_types":[0,2,0,0,0],
+"maliput_design.html#new_rules_types":[0,2,0,0],
+"maliput_design.html#objectives":[0,0,0],
+"maliput_design.html#overview":[0,1,0,0],
 "maliput_design.html#phase_dynamics":[0,2,1],
 "maliput_design.html#right_of_way_rule":[0,2,0,5],
 "maliput_design.html#road_network_goemetry":[0,1],
@@ -232,22 +237,17 @@ var NAVTREEINDEX15 =
 "model__values_8cc.html":[5,0,194],
 "model__values_8h.html":[5,0,195],
 "modules.html":[2],
-"namespace_y_a_m_l.html":[3,0,1],
 "namespace_y_a_m_l.html":[4,0,2],
+"namespace_y_a_m_l.html":[3,0,1],
 "namespacemaliput.html":[4,0,0],
 "namespacemaliput.html":[3,0,0],
 "namespacemaliput_1_1api.html":[4,0,0,0],
 "namespacemaliput_1_1api.html":[3,0,0,0],
-"namespacemaliput_1_1api_1_1objects.html":[3,0,0,0,0],
 "namespacemaliput_1_1api_1_1objects.html":[4,0,0,0,0],
-"namespacemaliput_1_1api_1_1rules.html":[3,0,0,0,1],
+"namespacemaliput_1_1api_1_1objects.html":[3,0,0,0,0],
 "namespacemaliput_1_1api_1_1rules.html":[4,0,0,0,1],
+"namespacemaliput_1_1api_1_1rules.html":[3,0,0,0,1],
 "namespacemaliput_1_1api_1_1test.html":[4,0,0,0,2],
 "namespacemaliput_1_1api_1_1test.html":[3,0,0,0,2],
-"namespacemaliput_1_1common.html":[4,0,0,1],
-"namespacemaliput_1_1common.html":[3,0,0,1],
-"namespacemaliput_1_1common_1_1internal.html":[4,0,0,1,0],
-"namespacemaliput_1_1common_1_1internal.html":[3,0,0,1,0],
-"namespacemaliput_1_1common_1_1logger.html":[3,0,0,1,1],
-"namespacemaliput_1_1drake.html":[4,0,0,2]
+"namespacemaliput_1_1common.html":[4,0,0,1]
 };

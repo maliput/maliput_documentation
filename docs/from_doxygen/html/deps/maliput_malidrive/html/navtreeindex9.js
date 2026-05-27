@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_speed.html#aec548c1d42307027044a44403b076983":[4,0,0,4,1,4,5,5],
+"structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_speed.html#aee90379adb0307effb138f4871edbc5c":[4,0,0,4,1,4,5,8],
 "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_street_name.html":[4,0,0,4,1,4,6],
 "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_street_name.html#a298df51176ed693a7646bbe02b64c857":[4,0,0,4,1,4,6,1],
 "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_street_name.html#a85f6f9ed2eddfc2e1b031d71906097ad":[4,0,0,4,1,4,6,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "xodr__parser__configuration_8cc.html":[5,0,200],
 "xodr__parser__configuration_8cc.html#a9a11fdba848f4ed1542605acffa0b594":[5,0,200,0],
 "xodr__parser__configuration_8h.html":[5,0,201],
-"xodr__parser__configuration_8h.html#a9a11fdba848f4ed1542605acffa0b594":[5,0,201,0],
-"xodr__query_8cc.html":[5,0,202],
-"xodr__query_8cc.html#a045e6ebcc2cec847920a49abcf5599c8":[5,0,202,5]
+"xodr__parser__configuration_8h.html#a9a11fdba848f4ed1542605acffa0b594":[5,0,201,0]
 };

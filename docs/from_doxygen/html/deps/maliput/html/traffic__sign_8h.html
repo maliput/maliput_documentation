@@ -124,6 +124,9 @@ This graph shows which files directly or indirectly include this file:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmaliput_1_1api_1_1rules_1_1_traffic_sign_value.html">TrafficSignValue</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds a numeric value and its associated unit for a traffic sign.  <a href="structmaliput_1_1api_1_1rules_1_1_traffic_sign_value.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_sign.html">TrafficSign</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Models a physical traffic sign — a static, passive signaling device placed along or above the road to convey regulatory, warning, or informational messages to road users.  <a href="classmaliput_1_1api_1_1rules_1_1_traffic_sign.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,12 +165,32 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:ad3e17e6e261408048a924423b24a23cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the possible traffic sign types.  <a href="namespacemaliput_1_1api_1_1rules.html#ad3e17e6e261408048a924423b24a23cd">More...</a><br /></td></tr>
 <tr class="separator:ad3e17e6e261408048a924423b24a23cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea9ecf73c64d2781f06a55c8f9f2d46d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46d">TrafficSignValueUnit</a> { <br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46da42d55d9f147cc83ceb95b560c5eab3a9">kMetersPerSecond</a> = 0, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46da3cfd1e5b1e3e496f85d2ea8e7d2746c4">kKilometersPerHour</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46da8c6df4270fbf444dc7065833d12ad9dd">kMilesPerHour</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46da1ccb30df9d772ab8ef6bb3fe5500f144">kMeters</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46da4172185d5a6a4a8fa3e7b292080df8f7">kKilometers</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46dae312e88d60366a81f2eeb026af8bea85">kFeet</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46dae2907fd282a7417d26cb1dcdbadf8ccc">kMiles</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46da3f003a1d2661f7b29e2c1dc7c3d06537">kPercent</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46da7bf454c762befb4e4f6e63e93112a37d">kKilograms</a>, 
+<a class="el" href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46da5809180a7d1c684c046e49acc02285ed">kMetricTons</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:aea9ecf73c64d2781f06a55c8f9f2d46d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the unit for a traffic sign's numeric value.  <a href="namespacemaliput_1_1api_1_1rules.html#aea9ecf73c64d2781f06a55c8f9f2d46d">More...</a><br /></td></tr>
+<tr class="separator:aea9ecf73c64d2781f06a55c8f9f2d46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a3c545d47d017cb94a928a8a23f83200b"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; TrafficSignType, const char *, <a class="el" href="namespacemaliput_1_1common.html#ae925cde990a915749d22776d5b22b6a4">maliput::common::DefaultHash</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1rules.html#a3c545d47d017cb94a928a8a23f83200b">TrafficSignTypeMapper</a> ()</td></tr>
 <tr class="memdesc:a3c545d47d017cb94a928a8a23f83200b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maps TrafficSignType enums to string representations.  <a href="namespacemaliput_1_1api_1_1rules.html#a3c545d47d017cb94a928a8a23f83200b">More...</a><br /></td></tr>
 <tr class="separator:a3c545d47d017cb94a928a8a23f83200b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02e3665aeabac4206a12a80d2e895758"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; TrafficSignValueUnit, const char *, <a class="el" href="namespacemaliput_1_1common.html#ae925cde990a915749d22776d5b22b6a4">maliput::common::DefaultHash</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemaliput_1_1api_1_1rules.html#a02e3665aeabac4206a12a80d2e895758">TrafficSignValueUnitMapper</a> ()</td></tr>
+<tr class="memdesc:a02e3665aeabac4206a12a80d2e895758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maps TrafficSignValueUnit enums to string representations.  <a href="namespacemaliput_1_1api_1_1rules.html#a02e3665aeabac4206a12a80d2e895758">More...</a><br /></td></tr>
+<tr class="separator:a02e3665aeabac4206a12a80d2e895758"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
