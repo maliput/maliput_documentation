@@ -99,8 +99,11 @@ $(document).ready(function(){initNavTree('namespacemalidrive_1_1traffic__control
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_bounding_box_constants.html">BoundingBoxConstants</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constants for bounding box <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> fields.  <a href="structmalidrive_1_1traffic__control__device_1_1_bounding_box_constants.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_bounding_box_dimensions.html">BoundingBoxDimensions</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds the device-level bounding box dimensions parsed from the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database.  <a href="structmalidrive_1_1traffic__control__device_1_1_bounding_box_dimensions.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_bulb_bounding_box_constants.html">BulbBoundingBoxConstants</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constants for bulb bounding box <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> fields (axis-aligned, two-corner form).  <a href="structmalidrive_1_1traffic__control__device_1_1_bulb_bounding_box_constants.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_bulb_constants.html">BulbConstants</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constants for bulb <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> fields.  <a href="structmalidrive_1_1traffic__control__device_1_1_bulb_constants.html#details">More...</a><br /></td></tr>
@@ -113,6 +116,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_bulb_state_condition_constants.html">BulbStateConditionConstants</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constants for bulb state condition <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> fields.  <a href="structmalidrive_1_1traffic__control__device_1_1_bulb_state_condition_constants.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_device_bounding_box_constants.html">DeviceBoundingBoxConstants</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constants for device-level bounding box <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> fields (dimensions form).  <a href="structmalidrive_1_1traffic__control__device_1_1_device_bounding_box_constants.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_rule_state.html">RuleState</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a rule state that maps bulb state combinations to a Right-Of-Way rule value.  <a href="structmalidrive_1_1traffic__control__device_1_1_rule_state.html#details">More...</a><br /></td></tr>
@@ -133,14 +139,19 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unique identifier for a traffic signal definition.  <a href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html">TrafficControlDeviceParser</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parser that loads traffic control device definitions from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database using the <code>odr_signal_types</code> schema.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parser that loads traffic control device definitions from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database using the <code>odr_signal_types</code> and <code>odr_object_types</code> schemas.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:aa37d216d3b7bf0d4a57c60f5865b58df"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58df">TrafficControlDeviceType</a> { <a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58dfa2c6a7e17ae1dbc648540f4449b472570">kTrafficLight</a>, 
+<tr class="memitem:aa37d216d3b7bf0d4a57c60f5865b58df"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58df">TrafficControlDeviceType</a> { <br />
+&#160;&#160;<a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58dfa2c6a7e17ae1dbc648540f4449b472570">kTrafficLight</a>, 
 <a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58dfa6dc68e4ef61ac036f620ccfd8764e45c">kTrafficSign</a>, 
-<a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58dfa25c2dc47991b3df171ed5192bcf70390">kUnknown</a>
+<a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58dfa0e585b44417349877686e38d53ae1d82">kRoadMarking</a>, 
+<a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58dfa5dc3f907cf723d8e90273ea6c706e283">kRoadObject</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58dfa25c2dc47991b3df171ed5192bcf70390">kUnknown</a>
+<br />
  }</td></tr>
 <tr class="memdesc:aa37d216d3b7bf0d4a57c60f5865b58df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Identifies the category of a traffic control device.  <a href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58df">More...</a><br /></td></tr>
 <tr class="separator:aa37d216d3b7bf0d4a57c60f5865b58df"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -205,6 +216,10 @@ Functions</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa37d216d3b7bf0d4a57c60f5865b58dfa2c6a7e17ae1dbc648540f4449b472570"></a>kTrafficLight&#160;</td><td class="fielddoc"><p>Device is a traffic light ("traffic_light"). </p>
 </td></tr>
 <tr><td class="fieldname"><a id="aa37d216d3b7bf0d4a57c60f5865b58dfa6dc68e4ef61ac036f620ccfd8764e45c"></a>kTrafficSign&#160;</td><td class="fielddoc"><p>Device is a traffic sign ("traffic_sign"). </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa37d216d3b7bf0d4a57c60f5865b58dfa0e585b44417349877686e38d53ae1d82"></a>kRoadMarking&#160;</td><td class="fielddoc"><p>Device is a road marking ("road_marking"). </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa37d216d3b7bf0d4a57c60f5865b58dfa5dc3f907cf723d8e90273ea6c706e283"></a>kRoadObject&#160;</td><td class="fielddoc"><p>Device is a road object ("road_object"). </p>
 </td></tr>
 <tr><td class="fieldname"><a id="aa37d216d3b7bf0d4a57c60f5865b58dfa25c2dc47991b3df171ed5192bcf70390"></a>kUnknown&#160;</td><td class="fielddoc"><p>Unrecognized or missing device_type value. </p>
 </td></tr>
@@ -479,6 +494,8 @@ Functions</h2></td></tr>
 <p>Recognized values (case-insensitive):</p><ul>
 <li><code>"traffic_light"</code> → <code>kTrafficLight</code></li>
 <li><code>"traffic_sign"</code> → <code>kTrafficSign</code></li>
+<li><code>"road_marking"</code> → <code>kRoadMarking</code></li>
+<li><code>"road_object"</code> → <code>kRoadObject</code></li>
 </ul>
 <p>Any other string maps to <code>kUnknown</code>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -511,6 +528,8 @@ Functions</h2></td></tr>
 <ul>
 <li><code>kTrafficLight</code> → <code>"traffic_light"</code></li>
 <li><code>kTrafficSign</code> → <code>"traffic_sign"</code></li>
+<li><code>kRoadMarking</code> → <code>"road_marking"</code></li>
+<li><code>kRoadObject</code> → <code>"road_object"</code></li>
 <li><code>kUnknown</code> → <code>"unknown"</code></li>
 </ul>
 <dl class="params"><dt>Parameters</dt><dd>

@@ -2,7 +2,8 @@ var yaml__helper_8h =
 [
     [ "TrafficControlDeviceConstants", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants" ],
     [ "BulbConstants", "structmalidrive_1_1traffic__control__device_1_1_bulb_constants.html", "structmalidrive_1_1traffic__control__device_1_1_bulb_constants" ],
-    [ "BoundingBoxConstants", "structmalidrive_1_1traffic__control__device_1_1_bounding_box_constants.html", "structmalidrive_1_1traffic__control__device_1_1_bounding_box_constants" ],
+    [ "BulbBoundingBoxConstants", "structmalidrive_1_1traffic__control__device_1_1_bulb_bounding_box_constants.html", "structmalidrive_1_1traffic__control__device_1_1_bulb_bounding_box_constants" ],
+    [ "DeviceBoundingBoxConstants", "structmalidrive_1_1traffic__control__device_1_1_device_bounding_box_constants.html", "structmalidrive_1_1traffic__control__device_1_1_device_bounding_box_constants" ],
     [ "RuleStateConstants", "structmalidrive_1_1traffic__control__device_1_1_rule_state_constants.html", "structmalidrive_1_1traffic__control__device_1_1_rule_state_constants" ],
     [ "BulbStateConditionConstants", "structmalidrive_1_1traffic__control__device_1_1_bulb_state_condition_constants.html", "structmalidrive_1_1traffic__control__device_1_1_bulb_state_condition_constants" ],
     [ "GetOptionalDoubleField", "yaml__helper_8h.html#a7694710329e9f39e43bbbf98b178b45d", null ],

@@ -126,9 +126,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a5880525fc37dbb5628c74fcd542dc602"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a5880525fc37dbb5628c74fcd542dc602">is_position_dynamic</a> {false}</td></tr>
 <tr class="memdesc:a5880525fc37dbb5628c74fcd542dc602"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the device position is dynamic (moveable). Defaults to false.  <a href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a5880525fc37dbb5628c74fcd542dc602">More...</a><br /></td></tr>
 <tr class="separator:a5880525fc37dbb5628c74fcd542dc602"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9a6f027dc0d9ba4cfc7e145e7f6f978"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="elRef" href="../../maliput/html/structmaliput_1_1api_1_1rules_1_1_bulb_1_1_bounding_box.html">maliput::api::rules::Bulb::BoundingBox</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#ac9a6f027dc0d9ba4cfc7e145e7f6f978">default_bounding_box</a></td></tr>
-<tr class="memdesc:ac9a6f027dc0d9ba4cfc7e145e7f6f978"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional device-level bounding box.  <a href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#ac9a6f027dc0d9ba4cfc7e145e7f6f978">More...</a><br /></td></tr>
-<tr class="separator:ac9a6f027dc0d9ba4cfc7e145e7f6f978"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a007174fa0ebfe7671457f7587abdc859"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_bounding_box_dimensions.html">BoundingBoxDimensions</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a007174fa0ebfe7671457f7587abdc859">default_bounding_box</a></td></tr>
+<tr class="memdesc:a007174fa0ebfe7671457f7587abdc859"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional device-level bounding box dimensions (length, width, height).  <a href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a007174fa0ebfe7671457f7587abdc859">More...</a><br /></td></tr>
+<tr class="separator:a007174fa0ebfe7671457f7587abdc859"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9f55e347e43e09873a3d30a51e6ec4a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_bulb_definition.html">BulbDefinition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#ae9f55e347e43e09873a3d30a51e6ec4a">bulbs</a></td></tr>
 <tr class="memdesc:ae9f55e347e43e09873a3d30a51e6ec4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bulbs in this traffic signal (only relevant when device_type == "traffic_light").  <a href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#ae9f55e347e43e09873a3d30a51e6ec4a">More...</a><br /></td></tr>
 <tr class="separator:ae9f55e347e43e09873a3d30a51e6ec4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,20 +190,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac9a6f027dc0d9ba4cfc7e145e7f6f978"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9a6f027dc0d9ba4cfc7e145e7f6f978">&#9670;&nbsp;</a></span>default_bounding_box</h2>
+<a id="a007174fa0ebfe7671457f7587abdc859"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a007174fa0ebfe7671457f7587abdc859">&#9670;&nbsp;</a></span>default_bounding_box</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::optional&lt;<a class="elRef" href="../../maliput/html/structmaliput_1_1api_1_1rules_1_1_bulb_1_1_bounding_box.html">maliput::api::rules::Bulb::BoundingBox</a>&gt; default_bounding_box</td>
+          <td class="memname">std::optional&lt;<a class="el" href="structmalidrive_1_1traffic__control__device_1_1_bounding_box_dimensions.html">BoundingBoxDimensions</a>&gt; default_bounding_box</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Optional device-level bounding box. </p>
-<p>When set, represents the overall device dimensions. Individual bulbs may still carry their own per-bulb bounding boxes. </p>
+<p>Optional device-level bounding box dimensions (length, width, height). </p>
+<p>Builders use these to construct a <code><a class="elRef" href="../../maliput/html/classmaliput_1_1math_1_1_bounding_box.html">maliput::math::BoundingBox</a></code> at builder time. Individual bulbs may still carry their own per-bulb bounding boxes. </p>
 
 </div>
 </div>

@@ -97,13 +97,14 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1traffic__control__de
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Parser that loads traffic control device definitions from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database using the <code>odr_signal_types</code> schema. </p>
-<p>The resulting definitions are used in tandem with XODR signal data to create maliput <code>TrafficLight</code> and <code>TrafficSign</code> objects.</p>
+<div class="textblock"><p>Parser that loads traffic control device definitions from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database using the <code>odr_signal_types</code> and <code>odr_object_types</code> schemas. </p>
+<p>The resulting definitions are used in tandem with XODR signal/object data to create maliput <code>TrafficLight</code>, <code>TrafficSign</code>, <code>RoadMarking</code>, and <code>RoadObject</code> representations.</p>
 <p>Design:</p><ul>
-<li>Each definition carries a <code>device_type</code> field that determines whether a <code>TrafficLight</code> or <code>TrafficSign</code> is created for a given XODR signal.</li>
-<li>For traffic lights: <code>TrafficLight</code> is created with its bulbs and associated rule states.</li>
-<li>For traffic signs: a <code>TrafficSign</code> is created with its type derived from the <code>device_semantics</code> field.</li>
+<li>Each definition carries a <code>device_type</code> field that determines whether the entry is a traffic light, traffic sign, road marking, or road object.</li>
+<li>For signals (<code>odr_signal_types</code>): <code>device_type</code> must be <code>traffic_light</code> or <code>traffic_sign</code>.</li>
+<li>For objects (<code>odr_object_types</code>): <code>device_type</code> must be <code>road_marking</code> or <code>road_object</code>. Object entries' <code>odr_representation</code> only carries <code>type</code>, <code>subtype</code>, and <code>name</code>; <code>country</code>/<code>country_revision</code> are not permitted. Object entries' <code>properties</code> may not include <code>bulbs</code> or <code>rule_states</code>.</li>
 </ul>
+<p>The two root keys are independently validated for equal-specificity conflicts: a signal and an object sharing a fingerprint do NOT conflict, because OpenDRIVE signals and objects live in disjoint namespaces. Both vectors are merged into a single flat result returned to the caller; downstream code discriminates entries by <code>device_type</code>.</p>
 <p>Workflow:</p><ol type="1">
 <li>Load the device database: <code><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a9fe0522809606d8f1ddb97b3aa8a2c95" title="Loads a traffic control device database from a YAML file.">TrafficControlDeviceParser::LoadFromFile()</a></code> or <code><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a6b8aa7f34989c16229186d696e194fee" title="Loads a traffic control device database from a YAML string.">LoadFromString()</a></code>.</li>
 <li>For each signal in the XODR file, match its <code>type</code>/<code>subtype</code>/<code>country</code>/<code>country_revision</code> against a loaded <code><a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html" title="Unique identifier for a traffic signal definition.">TrafficControlDeviceFingerprint</a></code>.</li>
@@ -134,6 +135,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4b47ab710ed09022788eb13788154635"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a4b47ab710ed09022788eb13788154635">Specificity</a> (const <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a> &amp;fp)</td></tr>
 <tr class="memdesc:a4b47ab710ed09022788eb13788154635"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the specificity score of <code>fp:</code> the count of fields that are NOT wildcards.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a4b47ab710ed09022788eb13788154635">More...</a><br /></td></tr>
 <tr class="separator:a4b47ab710ed09022788eb13788154635"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4eec5f9e2872e5424d6c85234b75d67c"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a4eec5f9e2872e5424d6c85234b75d67c">SpecificityForObject</a> (const <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a> &amp;fp)</td></tr>
+<tr class="memdesc:a4eec5f9e2872e5424d6c85234b75d67c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the specificity score of <code>fp</code> for an object entry.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a4eec5f9e2872e5424d6c85234b75d67c">More...</a><br /></td></tr>
+<tr class="separator:a4eec5f9e2872e5424d6c85234b75d67c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8822cb767b21d6d6332d83dfa15689ff"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a8822cb767b21d6d6332d83dfa15689ff">Matches</a> (const <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a> &amp;db_entry, const <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a> &amp;query)</td></tr>
 <tr class="memdesc:a8822cb767b21d6d6332d83dfa15689ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if <code>db_entry</code> matches <code>query</code> for lookup purposes.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a8822cb767b21d6d6332d83dfa15689ff">More...</a><br /></td></tr>
 <tr class="separator:a8822cb767b21d6d6332d83dfa15689ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -433,6 +437,42 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Integer in [0, 5] representing the number of non-wildcard fields. </dd></dl>
+
+</div>
+</div>
+<a id="a4eec5f9e2872e5424d6c85234b75d67c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4eec5f9e2872e5424d6c85234b75d67c">&#9670;&nbsp;</a></span>SpecificityForObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SpecificityForObject </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a> &amp;&#160;</td>
+          <td class="paramname"><em>fp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes the specificity score of <code>fp</code> for an object entry. </p>
+<p>Object entries only carry <code>type</code>, <code>subtype</code>, and <code>name</code> in their <code>odr_representation</code> (no <code>country</code> / <code>country_revision</code>), so only those three fields contribute. Counting rules are identical to Specificity: only the literal <code>"*"</code> is non-specific.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fp</td><td>The fingerprint to evaluate. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Integer in [0, 3] representing the number of non-wildcard fields among <code>type</code>, <code>subtype</code>, and <code>name</code>. </dd></dl>
 
 </div>
 </div>

@@ -831,6 +831,8 @@
       <arglist></arglist>
       <enumvalue file="namespacemalidrive_1_1traffic__control__device.html" anchor="aa37d216d3b7bf0d4a57c60f5865b58dfa2c6a7e17ae1dbc648540f4449b472570">kTrafficLight</enumvalue>
       <enumvalue file="namespacemalidrive_1_1traffic__control__device.html" anchor="aa37d216d3b7bf0d4a57c60f5865b58dfa6dc68e4ef61ac036f620ccfd8764e45c">kTrafficSign</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1traffic__control__device.html" anchor="aa37d216d3b7bf0d4a57c60f5865b58dfa0e585b44417349877686e38d53ae1d82">kRoadMarking</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1traffic__control__device.html" anchor="aa37d216d3b7bf0d4a57c60f5865b58dfa5dc3f907cf723d8e90273ea6c706e283">kRoadObject</enumvalue>
       <enumvalue file="namespacemalidrive_1_1traffic__control__device.html" anchor="aa37d216d3b7bf0d4a57c60f5865b58dfa25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
     </member>
     <member kind="function">
@@ -2053,6 +2055,7 @@
     <class kind="struct">malidrive::traffic_control_device::BulbStateCondition</class>
     <class kind="struct">malidrive::traffic_control_device::RuleState</class>
     <class kind="struct">malidrive::traffic_control_device::BulbDefinition</class>
+    <class kind="struct">malidrive::traffic_control_device::BoundingBoxDimensions</class>
     <class kind="struct">malidrive::traffic_control_device::TrafficControlDeviceFingerprint</class>
     <class kind="struct">malidrive::traffic_control_device::TrafficControlDeviceDefinition</class>
     <class kind="class">malidrive::traffic_control_device::TrafficControlDeviceParser</class>
@@ -3721,7 +3724,8 @@
     <filename>yaml__helper_8h.html</filename>
     <class kind="struct">malidrive::traffic_control_device::TrafficControlDeviceConstants</class>
     <class kind="struct">malidrive::traffic_control_device::BulbConstants</class>
-    <class kind="struct">malidrive::traffic_control_device::BoundingBoxConstants</class>
+    <class kind="struct">malidrive::traffic_control_device::BulbBoundingBoxConstants</class>
+    <class kind="struct">malidrive::traffic_control_device::DeviceBoundingBoxConstants</class>
     <class kind="struct">malidrive::traffic_control_device::RuleStateConstants</class>
     <class kind="struct">malidrive::traffic_control_device::BulbStateConditionConstants</class>
     <namespace>malidrive</namespace>
@@ -4051,20 +4055,41 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>malidrive::traffic_control_device::BoundingBoxConstants</name>
-    <filename>structmalidrive_1_1traffic__control__device_1_1_bounding_box_constants.html</filename>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kPMin</name>
-      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bounding_box_constants.html</anchorfile>
-      <anchor>a62e76364e3b814ca87be97b4d43c87c6</anchor>
+    <name>malidrive::traffic_control_device::BoundingBoxDimensions</name>
+    <filename>structmalidrive_1_1traffic__control__device_1_1_bounding_box_dimensions.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bounding_box_dimensions.html</anchorfile>
+      <anchor>af0df077250ff0e6b27a67b988fe9baa9</anchor>
+      <arglist>(const BoundingBoxDimensions &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bounding_box_dimensions.html</anchorfile>
+      <anchor>a3c1cb7bd40a6080404484c78655e4061</anchor>
+      <arglist>(const BoundingBoxDimensions &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>length</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bounding_box_dimensions.html</anchorfile>
+      <anchor>a928b11f5716331f0b89abe7d8d4124b4</anchor>
       <arglist></arglist>
     </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kPMax</name>
-      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bounding_box_constants.html</anchorfile>
-      <anchor>a5f22765bfcb69ac57faa1f3674bc2bf2</anchor>
+    <member kind="variable">
+      <type>double</type>
+      <name>width</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bounding_box_dimensions.html</anchorfile>
+      <anchor>a9df23e056f5d1a0388cd8190431c0e03</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>height</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bounding_box_dimensions.html</anchorfile>
+      <anchor>a89f6abd564014faeff7cd20c340a9c7d</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -4308,6 +4333,24 @@
       <name>angular_tolerance</name>
       <anchorfile>structmalidrive_1_1builder_1_1_road_geometry_configuration_1_1_build_tolerance.html</anchorfile>
       <anchor>a81d132d0efbdf9cb0535607abd868c07</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::traffic_control_device::BulbBoundingBoxConstants</name>
+    <filename>structmalidrive_1_1traffic__control__device_1_1_bulb_bounding_box_constants.html</filename>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kPMin</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_bounding_box_constants.html</anchorfile>
+      <anchor>a62e76364e3b814ca87be97b4d43c87c6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kPMax</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_bulb_bounding_box_constants.html</anchorfile>
+      <anchor>a5f22765bfcb69ac57faa1f3674bc2bf2</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -5470,6 +5513,31 @@
       <name>kType</name>
       <anchorfile>structmalidrive_1_1xodr_1_1signal_1_1_dependency.html</anchorfile>
       <anchor>a0115715e581fd2a65ef043354a0e902a</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::traffic_control_device::DeviceBoundingBoxConstants</name>
+    <filename>structmalidrive_1_1traffic__control__device_1_1_device_bounding_box_constants.html</filename>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kLength</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_device_bounding_box_constants.html</anchorfile>
+      <anchor>a211b8393e80a38beec2131424ed3b31d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kWidth</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_device_bounding_box_constants.html</anchorfile>
+      <anchor>a2b7bb111a9bc48f4d3d80b69e42844c3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kHeight</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_device_bounding_box_constants.html</anchorfile>
+      <anchor>a69805649bada231d3dae7b0a77a662c2</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -13734,6 +13802,13 @@
     </member>
     <member kind="variable" static="yes">
       <type>static constexpr const char *</type>
+      <name>kOdrObjectTypes</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html</anchorfile>
+      <anchor>a6e6171b3083f4bd87284aa311b47b10d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
       <name>kOdrRepresentation</name>
       <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_constants.html</anchorfile>
       <anchor>a390319784bfb7d42b35ff6381c4972cf</anchor>
@@ -13909,10 +13984,10 @@
       <arglist></arglist>
     </member>
     <member kind="variable">
-      <type>std::optional&lt; maliput::api::rules::Bulb::BoundingBox &gt;</type>
+      <type>std::optional&lt; BoundingBoxDimensions &gt;</type>
       <name>default_bounding_box</name>
       <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html</anchorfile>
-      <anchor>ac9a6f027dc0d9ba4cfc7e145e7f6f978</anchor>
+      <anchor>a007174fa0ebfe7671457f7587abdc859</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -14019,6 +14094,13 @@
       <name>Specificity</name>
       <anchorfile>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html</anchorfile>
       <anchor>a4b47ab710ed09022788eb13788154635</anchor>
+      <arglist>(const TrafficControlDeviceFingerprint &amp;fp)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>SpecificityForObject</name>
+      <anchorfile>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html</anchorfile>
+      <anchor>a4eec5f9e2872e5424d6c85234b75d67c</anchor>
       <arglist>(const TrafficControlDeviceFingerprint &amp;fp)</arglist>
     </member>
     <member kind="function" static="yes">
@@ -15848,11 +15930,13 @@
   <compound kind="namespace">
     <name>malidrive::traffic_control_device</name>
     <filename>namespacemalidrive_1_1traffic__control__device.html</filename>
-    <class kind="struct">malidrive::traffic_control_device::BoundingBoxConstants</class>
+    <class kind="struct">malidrive::traffic_control_device::BoundingBoxDimensions</class>
+    <class kind="struct">malidrive::traffic_control_device::BulbBoundingBoxConstants</class>
     <class kind="struct">malidrive::traffic_control_device::BulbConstants</class>
     <class kind="struct">malidrive::traffic_control_device::BulbDefinition</class>
     <class kind="struct">malidrive::traffic_control_device::BulbStateCondition</class>
     <class kind="struct">malidrive::traffic_control_device::BulbStateConditionConstants</class>
+    <class kind="struct">malidrive::traffic_control_device::DeviceBoundingBoxConstants</class>
     <class kind="struct">malidrive::traffic_control_device::RuleState</class>
     <class kind="struct">malidrive::traffic_control_device::RuleStateConstants</class>
     <class kind="struct">malidrive::traffic_control_device::TrafficControlDeviceConstants</class>
@@ -15868,6 +15952,8 @@
       <arglist></arglist>
       <enumvalue file="namespacemalidrive_1_1traffic__control__device.html" anchor="aa37d216d3b7bf0d4a57c60f5865b58dfa2c6a7e17ae1dbc648540f4449b472570">kTrafficLight</enumvalue>
       <enumvalue file="namespacemalidrive_1_1traffic__control__device.html" anchor="aa37d216d3b7bf0d4a57c60f5865b58dfa6dc68e4ef61ac036f620ccfd8764e45c">kTrafficSign</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1traffic__control__device.html" anchor="aa37d216d3b7bf0d4a57c60f5865b58dfa0e585b44417349877686e38d53ae1d82">kRoadMarking</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1traffic__control__device.html" anchor="aa37d216d3b7bf0d4a57c60f5865b58dfa5dc3f907cf723d8e90273ea6c706e283">kRoadObject</enumvalue>
       <enumvalue file="namespacemalidrive_1_1traffic__control__device.html" anchor="aa37d216d3b7bf0d4a57c60f5865b58dfa25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
     </member>
     <member kind="function">

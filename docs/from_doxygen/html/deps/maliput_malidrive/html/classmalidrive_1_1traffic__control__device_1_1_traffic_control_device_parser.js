@@ -7,5 +7,6 @@ var classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser
     [ "LoadFromString", "classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a6b8aa7f34989c16229186d696e194fee", null ],
     [ "Matches", "classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a8822cb767b21d6d6332d83dfa15689ff", null ],
     [ "Specificity", "classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a4b47ab710ed09022788eb13788154635", null ],
+    [ "SpecificityForObject", "classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a4eec5f9e2872e5424d6c85234b75d67c", null ],
     [ "kWildcard", "classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a4058cc7557b631a3672b86185b1d3248", null ]
 ];
