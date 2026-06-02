@@ -6193,6 +6193,13 @@
       <anchor>a1a5171261efcbcb8b7ee4b06e3b7ff2b</anchor>
       <arglist>()</arglist>
     </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; objects::RoadMarkingBook &gt;</type>
+      <name>CreateRoadMarkingBook</name>
+      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
+      <anchor>a8c635cf9361a5738dec91dea1951ab7c</anchor>
+      <arglist>()</arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>mock.h</name>
@@ -6594,6 +6601,13 @@
       <name>CreateTrafficSignBook</name>
       <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
       <anchor>a1a5171261efcbcb8b7ee4b06e3b7ff2b</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; objects::RoadMarkingBook &gt;</type>
+      <name>CreateRoadMarkingBook</name>
+      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
+      <anchor>a8c635cf9361a5738dec91dea1951ab7c</anchor>
       <arglist>()</arglist>
     </member>
   </compound>
@@ -7727,6 +7741,130 @@
     <namespace>maliput::geometry_base</namespace>
   </compound>
   <compound kind="file">
+    <name>road_marking.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/api/objects/</path>
+    <filename>road__marking_8cc.html</filename>
+    <includes id="road__marking_8h" name="road_marking.h" local="yes" imported="no">maliput/api/objects/road_marking.h</includes>
+    <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::api</namespace>
+    <namespace>maliput::api::objects</namespace>
+    <member kind="function">
+      <type>std::unordered_map&lt; RoadMarkingType, const char *, maliput::common::DefaultHash &gt;</type>
+      <name>RoadMarkingTypeMapper</name>
+      <anchorfile>namespacemaliput_1_1api_1_1objects.html</anchorfile>
+      <anchor>ada30ff7b6e941270fb357ea302a222e6</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unordered_map&lt; RoadMarkingValueUnit, const char *, maliput::common::DefaultHash &gt;</type>
+      <name>RoadMarkingValueUnitMapper</name>
+      <anchorfile>namespacemaliput_1_1api_1_1objects.html</anchorfile>
+      <anchor>a32179a387c26a95d99f2b7f20db9af4c</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>road_marking.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/api/objects/</path>
+    <filename>road__marking_8h.html</filename>
+    <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
+    <includes id="lane__data_8h" name="lane_data.h" local="yes" imported="no">maliput/api/lane_data.h</includes>
+    <includes id="road__object_8h" name="road_object.h" local="yes" imported="no">maliput/api/objects/road_object.h</includes>
+    <includes id="type__specific__identifier_8h" name="type_specific_identifier.h" local="yes" imported="no">maliput/api/type_specific_identifier.h</includes>
+    <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
+    <includes id="maliput__hash_8h" name="maliput_hash.h" local="yes" imported="no">maliput/common/maliput_hash.h</includes>
+    <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
+    <includes id="bounding__box_8h" name="bounding_box.h" local="yes" imported="no">maliput/math/bounding_box.h</includes>
+    <includes id="vector_8h" name="vector.h" local="yes" imported="no">maliput/math/vector.h</includes>
+    <class kind="struct">maliput::api::objects::RoadMarkingValue</class>
+    <class kind="class">maliput::api::objects::RoadMarking</class>
+    <class kind="struct">std::hash&lt; maliput::api::objects::RoadMarkingType &gt;</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::api</namespace>
+    <namespace>maliput::api::objects</namespace>
+    <member kind="enumeration">
+      <type></type>
+      <name>RoadMarkingType</name>
+      <anchorfile>namespacemaliput_1_1api_1_1objects.html</anchorfile>
+      <anchor>a63593b1bc84938b6e54d2e667754bc79</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a97bebae73e3334ef0c946c5df81e440b">kStop</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a5d284cd4081cd5fa6698a7783ec96c86">kStopLine</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79abd7fa7a429d1103d53ccbf461e039eb6">kCrosswalk</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a7f69d9bc22a0636966d686859ba4f0b4">kParkingSpace</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79ae9033ff377eeeb4ab10dc1153ee8c71b">kEmergencyLane</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a86e900728dbd001ef1bd607d7a087214">kSpeedLimit</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a42397b6effbff044a45b8a97a4b834cc">kDoNotStop</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a8c7fa71ce65b90fe7aaf5f16972c97a3">kRailRoad</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a7b2c5e4dc95d5692d537baa4cddf6193">kGiveWay</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a3d3748f1779d6ca1cee48c667578c4f5">kArrowTurnRight</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79ac028624581a05c348659fbf730feaa7a">kArrowTurnLeft</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a12435991aa7c4a26f7105ea9ee27b07a">kArrowForwardTurnRight</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79ad3f533509883afaa31328809f719f04e">kArrowForwardTurnLeft</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a3459208eb8e3de03a9c51915993cf57c">kArrowForward</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a5f84ee61a2c461e0b599322e6df55812">kArrowForwardTurnRightTurnLeft</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a0677c054b02e43e649ed2bec47760a16">kArrowTurnRightTurnLeft</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79ab0bce8510db198fb5355a86c758a8673">kArrowUTurnRight</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a53d4e1759a5feab4575ce10b6a162524">kArrowUTurnLeft</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>RoadMarkingValueUnit</name>
+      <anchorfile>namespacemaliput_1_1api_1_1objects.html</anchorfile>
+      <anchor>adabe22d6c3be18a1a13ae093faf38b46</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="adabe22d6c3be18a1a13ae093faf38b46a42d55d9f147cc83ceb95b560c5eab3a9">kMetersPerSecond</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="adabe22d6c3be18a1a13ae093faf38b46a3cfd1e5b1e3e496f85d2ea8e7d2746c4">kKilometersPerHour</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="adabe22d6c3be18a1a13ae093faf38b46a8c6df4270fbf444dc7065833d12ad9dd">kMilesPerHour</enumvalue>
+    </member>
+    <member kind="function">
+      <type>std::unordered_map&lt; RoadMarkingType, const char *, maliput::common::DefaultHash &gt;</type>
+      <name>RoadMarkingTypeMapper</name>
+      <anchorfile>namespacemaliput_1_1api_1_1objects.html</anchorfile>
+      <anchor>ada30ff7b6e941270fb357ea302a222e6</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unordered_map&lt; RoadMarkingValueUnit, const char *, maliput::common::DefaultHash &gt;</type>
+      <name>RoadMarkingValueUnitMapper</name>
+      <anchorfile>namespacemaliput_1_1api_1_1objects.html</anchorfile>
+      <anchor>a32179a387c26a95d99f2b7f20db9af4c</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>road_marking_book.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/base/</path>
+    <filename>road__marking__book_8cc.html</filename>
+    <includes id="base_2road__marking__book_8h" name="base/road_marking_book.h" local="yes" imported="no">maliput/base/road_marking_book.h</includes>
+    <includes id="maliput__throw_8h" name="maliput_throw.h" local="yes" imported="no">maliput/common/maliput_throw.h</includes>
+    <namespace>maliput</namespace>
+  </compound>
+  <compound kind="file">
+    <name>api/objects/road_marking_book.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/api/objects/</path>
+    <filename>api_2objects_2road__marking__book_8h.html</filename>
+    <includes id="api_2lane_8h" name="api/lane.h" local="yes" imported="no">maliput/api/lane.h</includes>
+    <includes id="road__marking_8h" name="road_marking.h" local="yes" imported="no">maliput/api/objects/road_marking.h</includes>
+    <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
+    <class kind="class">maliput::api::objects::RoadMarkingBook</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::api</namespace>
+    <namespace>maliput::api::objects</namespace>
+  </compound>
+  <compound kind="file">
+    <name>base/road_marking_book.h</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/base/</path>
+    <filename>base_2road__marking__book_8h.html</filename>
+    <includes id="road__marking_8h" name="road_marking.h" local="yes" imported="no">maliput/api/objects/road_marking.h</includes>
+    <includes id="api_2objects_2road__marking__book_8h" name="api/objects/road_marking_book.h" local="yes" imported="no">maliput/api/objects/road_marking_book.h</includes>
+    <includes id="maliput__copyable_8h" name="maliput_copyable.h" local="yes" imported="no">maliput/common/maliput_copyable.h</includes>
+    <class kind="class">maliput::RoadMarkingBook</class>
+    <namespace>maliput</namespace>
+  </compound>
+  <compound kind="file">
     <name>road_network.cc</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/src/maliput/api/</path>
     <filename>road__network_8cc.html</filename>
@@ -7742,6 +7880,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput/include/maliput/api/</path>
     <filename>road__network_8h.html</filename>
     <includes id="api_2intersection__book_8h" name="api/intersection_book.h" local="yes" imported="no">maliput/api/intersection_book.h</includes>
+    <includes id="api_2objects_2road__marking__book_8h" name="api/objects/road_marking_book.h" local="yes" imported="no">maliput/api/objects/road_marking_book.h</includes>
     <includes id="api_2objects_2road__object__book_8h" name="api/objects/road_object_book.h" local="yes" imported="no">maliput/api/objects/road_object_book.h</includes>
     <includes id="api_2road__geometry_8h" name="api/road_geometry.h" local="yes" imported="no">maliput/api/road_geometry.h</includes>
     <includes id="direction__usage__rule_8h" name="direction_usage_rule.h" local="yes" imported="no">maliput/api/rules/direction_usage_rule.h</includes>
@@ -7866,14 +8005,9 @@
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9affa5976cb7170d234d6b69921bf0f085">kBarrier</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a4e68d62587aaa9990868bd0cdabe9c0e">kBuilding</enumvalue>
-      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9abd7fa7a429d1103d53ccbf461e039eb6">kCrosswalk</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a10d65fde77a8f88bd9d3847c653382eb">kGantry</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9aa6c648b2a2a114b2ac0c0c4d01550a20">kObstacle</enumvalue>
-      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a7f69d9bc22a0636966d686859ba4f0b4">kParkingSpace</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a2742fdaeaff981530e8db7a87746f824">kPole</enumvalue>
-      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a56d57f55a69b067f96dfbe6daec79441">kRoadMark</enumvalue>
-      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a301c9bd2b7fad7fb2e36ba40817a57d6">kRoadSurface</enumvalue>
-      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a5d284cd4081cd5fa6698a7783ec96c86">kStopLine</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a9d9fd23d42536b2121815f1c9a9e3ef7">kTrafficIsland</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a0b40d046dd0bb405f6ac002c36663ea9">kTree</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9ab0a1d175cfb881422fa37092d8e40ebc">kVegetation</enumvalue>
@@ -19431,17 +19565,6 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>maliput::utility::mesh::GeoNormal::Equiv</name>
-    <filename>structmaliput_1_1utility_1_1mesh_1_1_geo_normal_1_1_equiv.html</filename>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator()</name>
-      <anchorfile>structmaliput_1_1utility_1_1mesh_1_1_geo_normal_1_1_equiv.html</anchorfile>
-      <anchor>ab9ec50cf649a244595032a030685165d</anchor>
-      <arglist>(const GeoNormal &amp;lhs, const GeoNormal &amp;rhs) const</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
     <name>maliput::utility::mesh::GeoVertex::Equiv</name>
     <filename>structmaliput_1_1utility_1_1mesh_1_1_geo_vertex_1_1_equiv.html</filename>
     <member kind="function">
@@ -19450,6 +19573,17 @@
       <anchorfile>structmaliput_1_1utility_1_1mesh_1_1_geo_vertex_1_1_equiv.html</anchorfile>
       <anchor>aa20749a63ed2c77f495b32fe4118b5ac</anchor>
       <arglist>(const GeoVertex &amp;lhs, const GeoVertex &amp;rhs) const</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput::utility::mesh::GeoNormal::Equiv</name>
+    <filename>structmaliput_1_1utility_1_1mesh_1_1_geo_normal_1_1_equiv.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator()</name>
+      <anchorfile>structmaliput_1_1utility_1_1mesh_1_1_geo_normal_1_1_equiv.html</anchorfile>
+      <anchor>ab9ec50cf649a244595032a030685165d</anchor>
+      <arglist>(const GeoNormal &amp;lhs, const GeoNormal &amp;rhs) const</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -20828,6 +20962,11 @@
       <anchor>aa59b6e8c39e2d316745a90b308609a8c</anchor>
       <arglist></arglist>
     </member>
+  </compound>
+  <compound kind="struct">
+    <name>std::hash&lt; maliput::api::objects::RoadMarkingType &gt;</name>
+    <filename>structstd_1_1hash_3_01maliput_1_1api_1_1objects_1_1_road_marking_type_01_4.html</filename>
+    <base>maliput::common::uhash</base>
   </compound>
   <compound kind="struct">
     <name>std::hash&lt; maliput::api::objects::RoadObjectType &gt;</name>
@@ -24605,6 +24744,39 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::geometry_base::LaneBoundary</name>
+    <filename>classmaliput_1_1geometry__base_1_1_lane_boundary.html</filename>
+    <base>maliput::api::LaneBoundary</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane_boundary.html</anchorfile>
+      <anchor>a48cbe813d5cd44246567e59c08bfebf1</anchor>
+      <arglist>(LaneBoundary)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>LaneBoundary</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane_boundary.html</anchorfile>
+      <anchor>a66db12d3aafb90c3c4141a8038f50360</anchor>
+      <arglist>(const api::LaneBoundary::Id &amp;id)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AttachToSegment</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane_boundary.html</anchorfile>
+      <anchor>a641be6120d87c39a1713d8d2a2f7cdf0</anchor>
+      <arglist>(common::Passkey&lt; Segment &gt;, const api::Segment *segment, int index)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~LaneBoundary</name>
+      <anchorfile>classmaliput_1_1geometry__base_1_1_lane_boundary.html</anchorfile>
+      <anchor>aba265ccabfd8fcc754dc6900c43c96c6</anchor>
+      <arglist>() override=default</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::api::LaneBoundary</name>
     <filename>classmaliput_1_1api_1_1_lane_boundary.html</filename>
     <member kind="typedef">
@@ -24683,39 +24855,6 @@
       <anchorfile>classmaliput_1_1api_1_1_lane_boundary.html</anchorfile>
       <anchor>a64592854799a70aee090d7df209448ff</anchor>
       <arglist>()=default</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::geometry_base::LaneBoundary</name>
-    <filename>classmaliput_1_1geometry__base_1_1_lane_boundary.html</filename>
-    <base>maliput::api::LaneBoundary</base>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane_boundary.html</anchorfile>
-      <anchor>a48cbe813d5cd44246567e59c08bfebf1</anchor>
-      <arglist>(LaneBoundary)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>LaneBoundary</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane_boundary.html</anchorfile>
-      <anchor>a66db12d3aafb90c3c4141a8038f50360</anchor>
-      <arglist>(const api::LaneBoundary::Id &amp;id)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>AttachToSegment</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane_boundary.html</anchorfile>
-      <anchor>a641be6120d87c39a1713d8d2a2f7cdf0</anchor>
-      <arglist>(common::Passkey&lt; Segment &gt;, const api::Segment *segment, int index)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>~LaneBoundary</name>
-      <anchorfile>classmaliput_1_1geometry__base_1_1_lane_boundary.html</anchorfile>
-      <anchor>aba265ccabfd8fcc754dc6900c43c96c6</anchor>
-      <arglist>() override=default</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -32779,21 +32918,227 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::api::objects::RoadMarking</name>
+    <filename>classmaliput_1_1api_1_1objects_1_1_road_marking.html</filename>
+    <member kind="typedef">
+      <type>TypeSpecificIdentifier&lt; class RoadMarking &gt;</type>
+      <name>Id</name>
+      <anchorfile>classmaliput_1_1api_1_1objects_1_1_road_marking.html</anchorfile>
+      <anchor>ac73257aecb8f5ccf2fb9562e59ea277d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>RoadMarking</name>
+      <anchorfile>classmaliput_1_1api_1_1objects_1_1_road_marking.html</anchorfile>
+      <anchor>a71b9a1f781378e2a2798aabf00f049ef</anchor>
+      <arglist>(const Id &amp;id, RoadMarkingType type, const RoadObjectPosition &amp;position, const Rotation &amp;orientation, const maliput::math::BoundingBox &amp;bounding_box, std::vector&lt; LaneId &gt; related_lanes, std::optional&lt; std::string &gt; name=std::nullopt, std::vector&lt; std::unique_ptr&lt; Outline &gt;&gt; outlines={}, const std::optional&lt; RoadMarkingValue &gt; &amp;value=std::nullopt)</arglist>
+    </member>
+    <member kind="function">
+      <type>const Id &amp;</type>
+      <name>id</name>
+      <anchorfile>classmaliput_1_1api_1_1objects_1_1_road_marking.html</anchorfile>
+      <anchor>a3e9b36985fa40131c908fffb29f45c75</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>name</name>
+      <anchorfile>classmaliput_1_1api_1_1objects_1_1_road_marking.html</anchorfile>
+      <anchor>a2f0fa9a4129d20c8a0f7575ad80f8464</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>RoadMarkingType</type>
+      <name>type</name>
+      <anchorfile>classmaliput_1_1api_1_1objects_1_1_road_marking.html</anchorfile>
+      <anchor>a86d5892bdf9446a8596afdc88d82a794</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const RoadObjectPosition &amp;</type>
+      <name>position</name>
+      <anchorfile>classmaliput_1_1api_1_1objects_1_1_road_marking.html</anchorfile>
+      <anchor>aa80134a44cbe3dae2673307eac242297</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Rotation &amp;</type>
+      <name>orientation</name>
+      <anchorfile>classmaliput_1_1api_1_1objects_1_1_road_marking.html</anchorfile>
+      <anchor>a43eeda8d68aed73563dea2fd5f6ab43b</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const maliput::math::BoundingBox &amp;</type>
+      <name>bounding_box</name>
+      <anchorfile>classmaliput_1_1api_1_1objects_1_1_road_marking.html</anchorfile>
+      <anchor>a2d9c84a3a6850fedfb284cbc1cbcd04c</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::vector&lt; LaneId &gt; &amp;</type>
+      <name>related_lanes</name>
+      <anchorfile>classmaliput_1_1api_1_1objects_1_1_road_marking.html</anchorfile>
+      <anchor>aecfd87e70076467279c0aabb6982848c</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::vector&lt; std::unique_ptr&lt; Outline &gt; &gt; &amp;</type>
+      <name>outlines</name>
+      <anchorfile>classmaliput_1_1api_1_1objects_1_1_road_marking.html</anchorfile>
+      <anchor>ac69805612cb0b669f6e0b6a897031a7c</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>int</type>
+      <name>num_outlines</name>
+      <anchorfile>classmaliput_1_1api_1_1objects_1_1_road_marking.html</anchorfile>
+      <anchor>a094cf94e1da80424c7a8d2d9f135786d</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const Outline *</type>
+      <name>outline</name>
+      <anchorfile>classmaliput_1_1api_1_1objects_1_1_road_marking.html</anchorfile>
+      <anchor>a5b98cd97e3a38981ce03b7f17cce5a8c</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::optional&lt; RoadMarkingValue &gt; &amp;</type>
+      <name>GetValue</name>
+      <anchorfile>classmaliput_1_1api_1_1objects_1_1_road_marking.html</anchorfile>
+      <anchor>a272dfac08a7960d6a28c1821be832101</anchor>
+      <arglist>() const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::RoadMarkingBook</name>
+    <filename>classmaliput_1_1_road_marking_book.html</filename>
+    <base>maliput::api::objects::RoadMarkingBook</base>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_NO_COPY_NO_MOVE_NO_ASSIGN</name>
+      <anchorfile>classmaliput_1_1_road_marking_book.html</anchorfile>
+      <anchor>aa4ac11505ae4931c65ac03e8998e4d01</anchor>
+      <arglist>(RoadMarkingBook)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>RoadMarkingBook</name>
+      <anchorfile>classmaliput_1_1_road_marking_book.html</anchorfile>
+      <anchor>a119238b5fb188d1b659f1fa624f88904</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~RoadMarkingBook</name>
+      <anchorfile>classmaliput_1_1_road_marking_book.html</anchorfile>
+      <anchor>aaedd6b71fac4e3ca65026ff874acfe50</anchor>
+      <arglist>() override</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>AddRoadMarking</name>
+      <anchorfile>classmaliput_1_1_road_marking_book.html</anchorfile>
+      <anchor>a6268771f3e1cd724600b37a44d22c41b</anchor>
+      <arglist>(std::unique_ptr&lt; const api::objects::RoadMarking &gt; road_marking)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::api::objects::RoadMarkingBook</name>
+    <filename>classmaliput_1_1api_1_1objects_1_1_road_marking_book.html</filename>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~RoadMarkingBook</name>
+      <anchorfile>classmaliput_1_1api_1_1objects_1_1_road_marking_book.html</anchorfile>
+      <anchor>a4bc50eb3b0673f58f0c4124babef1dc9</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; const RoadMarking * &gt;</type>
+      <name>RoadMarkings</name>
+      <anchorfile>classmaliput_1_1api_1_1objects_1_1_road_marking_book.html</anchorfile>
+      <anchor>a13848b10bdcaecdde86d18f37c2b9184</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const RoadMarking *</type>
+      <name>GetRoadMarking</name>
+      <anchorfile>classmaliput_1_1api_1_1objects_1_1_road_marking_book.html</anchorfile>
+      <anchor>a99312d3da731c7d7a0489c7d5926f4f2</anchor>
+      <arglist>(const RoadMarking::Id &amp;id) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; const RoadMarking * &gt;</type>
+      <name>FindByLane</name>
+      <anchorfile>classmaliput_1_1api_1_1objects_1_1_road_marking_book.html</anchorfile>
+      <anchor>a8a7da521748d0d8d78fdb778ccbee505</anchor>
+      <arglist>(const LaneId &amp;lane_id) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; const RoadMarking * &gt;</type>
+      <name>FindByType</name>
+      <anchorfile>classmaliput_1_1api_1_1objects_1_1_road_marking_book.html</anchorfile>
+      <anchor>ad6592dc34f8908fa6996e765f1c16c32</anchor>
+      <arglist>(RoadMarkingType type) const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>RoadMarkingBook</name>
+      <anchorfile>classmaliput_1_1api_1_1objects_1_1_road_marking_book.html</anchorfile>
+      <anchor>a7ece390edb90a398041f40feb4f2a7f8</anchor>
+      <arglist>()=default</arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>maliput::api::objects::RoadMarkingValue</name>
+    <filename>structmaliput_1_1api_1_1objects_1_1_road_marking_value.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmaliput_1_1api_1_1objects_1_1_road_marking_value.html</anchorfile>
+      <anchor>aedccf91afe5bd70548c4dd1f3f0d4f83</anchor>
+      <arglist>(const RoadMarkingValue &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmaliput_1_1api_1_1objects_1_1_road_marking_value.html</anchorfile>
+      <anchor>a03c0247e9de0e02837706701d4c01365</anchor>
+      <arglist>(const RoadMarkingValue &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>double</type>
+      <name>value</name>
+      <anchorfile>structmaliput_1_1api_1_1objects_1_1_road_marking_value.html</anchorfile>
+      <anchor>aee90379adb0307effb138f4871edbc5c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>RoadMarkingValueUnit</type>
+      <name>unit</name>
+      <anchorfile>structmaliput_1_1api_1_1objects_1_1_road_marking_value.html</anchorfile>
+      <anchor>a4cf940567bf1743dfecb09c69617c386</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::api::RoadNetwork</name>
     <filename>classmaliput_1_1api_1_1_road_network.html</filename>
     <member kind="function">
       <type></type>
       <name>RoadNetwork</name>
       <anchorfile>classmaliput_1_1api_1_1_road_network.html</anchorfile>
-      <anchor>a222941fa3739941858ddda51bdaa16f6</anchor>
-      <arglist>(std::unique_ptr&lt; const RoadGeometry &gt; road_geometry, std::unique_ptr&lt; const rules::RoadRulebook &gt; rulebook, std::unique_ptr&lt; const rules::TrafficLightBook &gt; traffic_light_book, std::unique_ptr&lt; IntersectionBook &gt; intersection_book, std::unique_ptr&lt; rules::PhaseRingBook &gt; phase_ring_book, std::unique_ptr&lt; rules::RightOfWayRuleStateProvider &gt; right_of_way_rule_state_provider, std::unique_ptr&lt; rules::PhaseProvider &gt; phase_provider, std::unique_ptr&lt; rules::RuleRegistry &gt; rule_registry, std::unique_ptr&lt; rules::DiscreteValueRuleStateProvider &gt; discrete_value_rule_state_provider, std::unique_ptr&lt; rules::RangeValueRuleStateProvider &gt; range_value_rule_state_provider, std::unique_ptr&lt; objects::RoadObjectBook &gt; road_object_book, std::unique_ptr&lt; const rules::TrafficSignBook &gt; traffic_sign_book)</arglist>
+      <anchor>ac5c0bfd45874bbf0126fd6e2a1521c62</anchor>
+      <arglist>(std::unique_ptr&lt; const RoadGeometry &gt; road_geometry, std::unique_ptr&lt; const rules::RoadRulebook &gt; rulebook, std::unique_ptr&lt; const rules::TrafficLightBook &gt; traffic_light_book, std::unique_ptr&lt; IntersectionBook &gt; intersection_book, std::unique_ptr&lt; rules::PhaseRingBook &gt; phase_ring_book, std::unique_ptr&lt; rules::RightOfWayRuleStateProvider &gt; right_of_way_rule_state_provider, std::unique_ptr&lt; rules::PhaseProvider &gt; phase_provider, std::unique_ptr&lt; rules::RuleRegistry &gt; rule_registry, std::unique_ptr&lt; rules::DiscreteValueRuleStateProvider &gt; discrete_value_rule_state_provider, std::unique_ptr&lt; rules::RangeValueRuleStateProvider &gt; range_value_rule_state_provider, std::unique_ptr&lt; objects::RoadObjectBook &gt; road_object_book, std::unique_ptr&lt; const rules::TrafficSignBook &gt; traffic_sign_book, std::unique_ptr&lt; const objects::RoadMarkingBook &gt; road_marking_book)</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>RoadNetwork</name>
       <anchorfile>classmaliput_1_1api_1_1_road_network.html</anchorfile>
-      <anchor>a9bd94e8cbda510e6c0b6812acba1637b</anchor>
-      <arglist>(std::unique_ptr&lt; const RoadGeometry &gt; road_geometry, std::unique_ptr&lt; const rules::RoadRulebook &gt; rulebook, std::unique_ptr&lt; const rules::TrafficLightBook &gt; traffic_light_book, std::unique_ptr&lt; IntersectionBook &gt; intersection_book, std::unique_ptr&lt; rules::PhaseRingBook &gt; phase_ring_book, std::unique_ptr&lt; rules::PhaseProvider &gt; phase_provider, std::unique_ptr&lt; rules::RuleRegistry &gt; rule_registry, std::unique_ptr&lt; rules::DiscreteValueRuleStateProvider &gt; discrete_value_rule_state_provider, std::unique_ptr&lt; rules::RangeValueRuleStateProvider &gt; range_value_rule_state_provider, std::unique_ptr&lt; objects::RoadObjectBook &gt; road_object_book, std::unique_ptr&lt; const rules::TrafficSignBook &gt; traffic_sign_book)</arglist>
+      <anchor>a38058f99b77deb09f71a1f900f91aa96</anchor>
+      <arglist>(std::unique_ptr&lt; const RoadGeometry &gt; road_geometry, std::unique_ptr&lt; const rules::RoadRulebook &gt; rulebook, std::unique_ptr&lt; const rules::TrafficLightBook &gt; traffic_light_book, std::unique_ptr&lt; IntersectionBook &gt; intersection_book, std::unique_ptr&lt; rules::PhaseRingBook &gt; phase_ring_book, std::unique_ptr&lt; rules::PhaseProvider &gt; phase_provider, std::unique_ptr&lt; rules::RuleRegistry &gt; rule_registry, std::unique_ptr&lt; rules::DiscreteValueRuleStateProvider &gt; discrete_value_rule_state_provider, std::unique_ptr&lt; rules::RangeValueRuleStateProvider &gt; range_value_rule_state_provider, std::unique_ptr&lt; objects::RoadObjectBook &gt; road_object_book, std::unique_ptr&lt; const rules::TrafficSignBook &gt; traffic_sign_book, std::unique_ptr&lt; const objects::RoadMarkingBook &gt; road_marking_book)</arglist>
     </member>
     <member kind="function" virtualness="virtual">
       <type>virtual</type>
@@ -32898,6 +33243,13 @@
       <name>traffic_sign_book</name>
       <anchorfile>classmaliput_1_1api_1_1_road_network.html</anchorfile>
       <anchor>a947f2a30168029d0921907c27fe4202f</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const objects::RoadMarkingBook *</type>
+      <name>road_marking_book</name>
+      <anchorfile>classmaliput_1_1api_1_1_road_network.html</anchorfile>
+      <anchor>acf798bebd6c5a7a08bf4590035a14e67</anchor>
       <arglist>() const</arglist>
     </member>
   </compound>
@@ -34952,6 +35304,94 @@
       <arglist>(const api::Lane *lane) const</arglist>
     </member>
   </compound>
+  <compound kind="struct">
+    <name>maliput::api::rules::Rule::State</name>
+    <filename>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a8099d9c527beab7a18bdcf3c3ef34eb1</anchor>
+      <arglist>(State)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>State</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a7662f55909d581100da5f988e7ea2456</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>State</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>aab4deb190b9e4be395e15fb3010ba37e</anchor>
+      <arglist>(int severity, RelatedRules related_rules, RelatedUniqueIds related_unique_ids)</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a43ebf34661d7d17c4e53b5ccce1ffa73</anchor>
+      <arglist>(const State &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a6320a38f2831ff6cf9e1fae30ffffafb</anchor>
+      <arglist>(const State &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>int</type>
+      <name>severity</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a118a118c0d99574666955efdf97068b0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>RelatedRules</type>
+      <name>related_rules</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a8d16d861c6500bfa36e16435c7e0c51f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>RelatedUniqueIds</type>
+      <name>related_unique_ids</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a3225914ff640ebeb69cb7e57ed7fb2c4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr int</type>
+      <name>kStrict</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>ae723a76a2f38404bb7341f2c1ffd890a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr int</type>
+      <name>kBestEffort</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a7f1130b023df6bd64569f4bd8af34f5d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr int</type>
+      <name>kStrict</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>ae723a76a2f38404bb7341f2c1ffd890a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr int</type>
+      <name>kBestEffort</name>
+      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
+      <anchor>a7f1130b023df6bd64569f4bd8af34f5d</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
   <compound kind="class">
     <name>maliput::drake::systems::State</name>
     <filename>classmaliput_1_1drake_1_1systems_1_1_state.html</filename>
@@ -35081,94 +35521,6 @@
       <anchorfile>classmaliput_1_1drake_1_1systems_1_1_state.html</anchorfile>
       <anchor>a3965cbaa8df39799338ac0838f8306a7</anchor>
       <arglist>(internal::SystemId id)</arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
-    <name>maliput::api::rules::Rule::State</name>
-    <filename>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</filename>
-    <member kind="function">
-      <type></type>
-      <name>MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a8099d9c527beab7a18bdcf3c3ef34eb1</anchor>
-      <arglist>(State)</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>State</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a7662f55909d581100da5f988e7ea2456</anchor>
-      <arglist>()=default</arglist>
-    </member>
-    <member kind="function">
-      <type></type>
-      <name>State</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>aab4deb190b9e4be395e15fb3010ba37e</anchor>
-      <arglist>(int severity, RelatedRules related_rules, RelatedUniqueIds related_unique_ids)</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a43ebf34661d7d17c4e53b5ccce1ffa73</anchor>
-      <arglist>(const State &amp;other) const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator!=</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a6320a38f2831ff6cf9e1fae30ffffafb</anchor>
-      <arglist>(const State &amp;other) const</arglist>
-    </member>
-    <member kind="variable">
-      <type>int</type>
-      <name>severity</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a118a118c0d99574666955efdf97068b0</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>RelatedRules</type>
-      <name>related_rules</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a8d16d861c6500bfa36e16435c7e0c51f</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>RelatedUniqueIds</type>
-      <name>related_unique_ids</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a3225914ff640ebeb69cb7e57ed7fb2c4</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr int</type>
-      <name>kStrict</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>ae723a76a2f38404bb7341f2c1ffd890a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr int</type>
-      <name>kBestEffort</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a7f1130b023df6bd64569f4bd8af34f5d</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr int</type>
-      <name>kStrict</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>ae723a76a2f38404bb7341f2c1ffd890a</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr int</type>
-      <name>kBestEffort</name>
-      <anchorfile>structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html</anchorfile>
-      <anchor>a7f1130b023df6bd64569f4bd8af34f5d</anchor>
-      <arglist></arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -43516,6 +43868,59 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>TypeSpecificIdentifier&lt; class RoadMarking &gt;</name>
+    <filename>classmaliput_1_1api_1_1_type_specific_identifier.html</filename>
+    <member kind="typedef">
+      <type>class RoadMarking</type>
+      <name>identified_type</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>af20630e7db1b537e2b605e0f5a266e6b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>MALIPUT_DEFAULT_COPY_AND_MOVE_AND_ASSIGN</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>ae1c90c9eff1dfe4d052c9a012f813fca</anchor>
+      <arglist>(TypeSpecificIdentifier)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>TypeSpecificIdentifier</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>af57672784e7f203359a24bb2694327b2</anchor>
+      <arglist>(std::string string)</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::string &amp;</type>
+      <name>string</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>a7314f49a51859d46439cfeddb9ea06ec</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>ab135a123a2ff98cdd1d23b6df15eb9ab</anchor>
+      <arglist>(const TypeSpecificIdentifier&lt; class RoadMarking &gt; &amp;rhs) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>a40a8386e472aff3f49ddaa53197b6746</anchor>
+      <arglist>(const TypeSpecificIdentifier&lt; class RoadMarking &gt; &amp;rhs) const</arglist>
+    </member>
+    <member kind="friend">
+      <type>friend void</type>
+      <name>hash_append</name>
+      <anchorfile>classmaliput_1_1api_1_1_type_specific_identifier.html</anchorfile>
+      <anchor>a4b1b321bba77194abdc265fc952ea158</anchor>
+      <arglist>(HashAlgorithm &amp;hasher, const TypeSpecificIdentifier &amp;item) noexcept</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>TypeSpecificIdentifier&lt; class RoadObject &gt;</name>
     <filename>classmaliput_1_1api_1_1_type_specific_identifier.html</filename>
     <member kind="typedef">
@@ -45269,6 +45674,193 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>maliput::drake::systems::VectorBase</name>
+    <filename>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</filename>
+    <templarg></templarg>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~VectorBase</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>abc19c2584a73f03bd1e31277d11315b4</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual int</type>
+      <name>size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a36b716289158c33f86a8cf30219be68c</anchor>
+      <arglist>() const =0</arglist>
+    </member>
+    <member kind="function">
+      <type>T &amp;</type>
+      <name>operator[]</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a2d4b36a43041d6505f82836a6aeccd52</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>const T &amp;</type>
+      <name>operator[]</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>ab3f0073680dabba9d2778d9a6f35aed7</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const T &amp;</type>
+      <name>GetAtIndex</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>ae79ea848ba1a3e2a87da1777b3f399cc</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>T &amp;</type>
+      <name>GetAtIndex</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>aef7a4ff282156d6974f47912756265b4</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetAtIndex</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a5c5902bbfda44607fda562f0c3956520</anchor>
+      <arglist>(int index, const T &amp;value)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>SetFrom</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a3a8364f71b762045df41bfcb58927fe5</anchor>
+      <arglist>(const VectorBase&lt; T &gt; &amp;value)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>SetFromVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>aea9d9b7396dccc9374d87a9be04a2597</anchor>
+      <arglist>(const Eigen::Ref&lt; const VectorX&lt; T &gt;&gt; &amp;value)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>SetZero</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a04797332f4fa1889d462e5c7aacf1400</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual VectorX&lt; T &gt;</type>
+      <name>CopyToVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a23751ea78ff51179a9b3ed90317c922d</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>CopyToPreSizedVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a9f65de06c90fe4b0a0cd427032313218</anchor>
+      <arglist>(EigenPtr&lt; VectorX&lt; T &gt;&gt; vec) const</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>ScaleAndAddToVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>abe595692eca6a4b16cd0344195d54599</anchor>
+      <arglist>(const T &amp;scale, EigenPtr&lt; VectorX&lt; T &gt;&gt; vec) const</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase &amp;</type>
+      <name>PlusEqScaled</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>aecb348d2ee8136278c64e180f4af21b7</anchor>
+      <arglist>(const T &amp;scale, const VectorBase&lt; T &gt; &amp;rhs)</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase &amp;</type>
+      <name>PlusEqScaled</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a32def866adfc4d6ce3dfe3255881651c</anchor>
+      <arglist>(const std::initializer_list&lt; std::pair&lt; T, const VectorBase&lt; T &gt; &amp; &gt;&gt; &amp;rhs_scale)</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase &amp;</type>
+      <name>operator+=</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>accc86d5305584bc7cb96971f60220125</anchor>
+      <arglist>(const VectorBase&lt; T &gt; &amp;rhs)</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase &amp;</type>
+      <name>operator-=</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>acb91f3ae2b66473a274073f56c5fbec0</anchor>
+      <arglist>(const VectorBase&lt; T &gt; &amp;rhs)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>GetElementBounds</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>afcd23700f1c0e51cb736750eb3fafa51</anchor>
+      <arglist>(Eigen::VectorXd *lower, Eigen::VectorXd *upper) const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>VectorBase</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a146b52fc4bf3790ed55a6c097ca3e76b</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual const T &amp;</type>
+      <name>DoGetAtIndexUnchecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>afd5f03561f8acae4788b65a50f1f3976</anchor>
+      <arglist>(int index) const =0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual T &amp;</type>
+      <name>DoGetAtIndexUnchecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a97deb44c7757ee934f32bef2afed9a2b</anchor>
+      <arglist>(int index)=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual const T &amp;</type>
+      <name>DoGetAtIndexChecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>ab8b65615b7a17723177ea016cd5521a0</anchor>
+      <arglist>(int index) const =0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual T &amp;</type>
+      <name>DoGetAtIndexChecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a487b2857071e5fefee941a9b9f39a5bb</anchor>
+      <arglist>(int index)=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoPlusEqScaled</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a2fe79641d14373b863f2bb2a6bf40d14</anchor>
+      <arglist>(const std::initializer_list&lt; std::pair&lt; T, const VectorBase&lt; T &gt; &amp; &gt;&gt; &amp;rhs_scale)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>ThrowOutOfRange</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>abdd4d55ace1242d8a8deac5d5edcb8bd</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>ThrowMismatchedSize</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>acfa12ab9f75a241f10fe4554da824957</anchor>
+      <arglist>(int other_size) const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>maliput::math::VectorBase</name>
     <filename>classmaliput_1_1math_1_1_vector_base.html</filename>
     <templarg>N</templarg>
@@ -45482,193 +46074,6 @@
       <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
       <anchor>abb7e8f7ce1f48418814ff28063f31567</anchor>
       <arglist>(std::ostream &amp;os, const VectorBase&lt; N_, Derived_ &gt; &amp;vector)</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>maliput::drake::systems::VectorBase</name>
-    <filename>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</filename>
-    <templarg></templarg>
-    <member kind="function" virtualness="virtual">
-      <type>virtual</type>
-      <name>~VectorBase</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>abc19c2584a73f03bd1e31277d11315b4</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function" virtualness="pure">
-      <type>virtual int</type>
-      <name>size</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a36b716289158c33f86a8cf30219be68c</anchor>
-      <arglist>() const =0</arglist>
-    </member>
-    <member kind="function">
-      <type>T &amp;</type>
-      <name>operator[]</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a2d4b36a43041d6505f82836a6aeccd52</anchor>
-      <arglist>(int index)</arglist>
-    </member>
-    <member kind="function">
-      <type>const T &amp;</type>
-      <name>operator[]</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>ab3f0073680dabba9d2778d9a6f35aed7</anchor>
-      <arglist>(int index) const</arglist>
-    </member>
-    <member kind="function">
-      <type>const T &amp;</type>
-      <name>GetAtIndex</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>ae79ea848ba1a3e2a87da1777b3f399cc</anchor>
-      <arglist>(int index) const</arglist>
-    </member>
-    <member kind="function">
-      <type>T &amp;</type>
-      <name>GetAtIndex</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>aef7a4ff282156d6974f47912756265b4</anchor>
-      <arglist>(int index)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>SetAtIndex</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a5c5902bbfda44607fda562f0c3956520</anchor>
-      <arglist>(int index, const T &amp;value)</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>SetFrom</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a3a8364f71b762045df41bfcb58927fe5</anchor>
-      <arglist>(const VectorBase&lt; T &gt; &amp;value)</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>SetFromVector</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>aea9d9b7396dccc9374d87a9be04a2597</anchor>
-      <arglist>(const Eigen::Ref&lt; const VectorX&lt; T &gt;&gt; &amp;value)</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>SetZero</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a04797332f4fa1889d462e5c7aacf1400</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual VectorX&lt; T &gt;</type>
-      <name>CopyToVector</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a23751ea78ff51179a9b3ed90317c922d</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>CopyToPreSizedVector</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a9f65de06c90fe4b0a0cd427032313218</anchor>
-      <arglist>(EigenPtr&lt; VectorX&lt; T &gt;&gt; vec) const</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>ScaleAndAddToVector</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>abe595692eca6a4b16cd0344195d54599</anchor>
-      <arglist>(const T &amp;scale, EigenPtr&lt; VectorX&lt; T &gt;&gt; vec) const</arglist>
-    </member>
-    <member kind="function">
-      <type>VectorBase &amp;</type>
-      <name>PlusEqScaled</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>aecb348d2ee8136278c64e180f4af21b7</anchor>
-      <arglist>(const T &amp;scale, const VectorBase&lt; T &gt; &amp;rhs)</arglist>
-    </member>
-    <member kind="function">
-      <type>VectorBase &amp;</type>
-      <name>PlusEqScaled</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a32def866adfc4d6ce3dfe3255881651c</anchor>
-      <arglist>(const std::initializer_list&lt; std::pair&lt; T, const VectorBase&lt; T &gt; &amp; &gt;&gt; &amp;rhs_scale)</arglist>
-    </member>
-    <member kind="function">
-      <type>VectorBase &amp;</type>
-      <name>operator+=</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>accc86d5305584bc7cb96971f60220125</anchor>
-      <arglist>(const VectorBase&lt; T &gt; &amp;rhs)</arglist>
-    </member>
-    <member kind="function">
-      <type>VectorBase &amp;</type>
-      <name>operator-=</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>acb91f3ae2b66473a274073f56c5fbec0</anchor>
-      <arglist>(const VectorBase&lt; T &gt; &amp;rhs)</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>GetElementBounds</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>afcd23700f1c0e51cb736750eb3fafa51</anchor>
-      <arglist>(Eigen::VectorXd *lower, Eigen::VectorXd *upper) const</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type></type>
-      <name>VectorBase</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a146b52fc4bf3790ed55a6c097ca3e76b</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual const T &amp;</type>
-      <name>DoGetAtIndexUnchecked</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>afd5f03561f8acae4788b65a50f1f3976</anchor>
-      <arglist>(int index) const =0</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual T &amp;</type>
-      <name>DoGetAtIndexUnchecked</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a97deb44c7757ee934f32bef2afed9a2b</anchor>
-      <arglist>(int index)=0</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual const T &amp;</type>
-      <name>DoGetAtIndexChecked</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>ab8b65615b7a17723177ea016cd5521a0</anchor>
-      <arglist>(int index) const =0</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual T &amp;</type>
-      <name>DoGetAtIndexChecked</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a487b2857071e5fefee941a9b9f39a5bb</anchor>
-      <arglist>(int index)=0</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="virtual">
-      <type>virtual void</type>
-      <name>DoPlusEqScaled</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a2fe79641d14373b863f2bb2a6bf40d14</anchor>
-      <arglist>(const std::initializer_list&lt; std::pair&lt; T, const VectorBase&lt; T &gt; &amp; &gt;&gt; &amp;rhs_scale)</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type>void</type>
-      <name>ThrowOutOfRange</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>abdd4d55ace1242d8a8deac5d5edcb8bd</anchor>
-      <arglist>(int index) const</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type>void</type>
-      <name>ThrowMismatchedSize</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>acfa12ab9f75a241f10fe4554da824957</anchor>
-      <arglist>(int other_size) const</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -46949,6 +47354,7 @@
     <class kind="struct">maliput::RangeValueRuleConstants</class>
     <class kind="struct">maliput::RelatedRulesKeys</class>
     <class kind="struct">maliput::RelatedUniqueIdsKeys</class>
+    <class kind="class">maliput::RoadMarkingBook</class>
     <class kind="class">maliput::RoadObjectBook</class>
     <class kind="struct">maliput::RuleConstants</class>
     <class kind="struct">maliput::RuleTypeFilter</class>
@@ -47636,9 +48042,48 @@
     <filename>namespacemaliput_1_1api_1_1objects.html</filename>
     <class kind="class">maliput::api::objects::Outline</class>
     <class kind="class">maliput::api::objects::OutlineCorner</class>
+    <class kind="class">maliput::api::objects::RoadMarking</class>
+    <class kind="class">maliput::api::objects::RoadMarkingBook</class>
+    <class kind="struct">maliput::api::objects::RoadMarkingValue</class>
     <class kind="class">maliput::api::objects::RoadObject</class>
     <class kind="class">maliput::api::objects::RoadObjectBook</class>
     <class kind="class">maliput::api::objects::RoadObjectPosition</class>
+    <member kind="enumeration">
+      <type></type>
+      <name>RoadMarkingType</name>
+      <anchorfile>namespacemaliput_1_1api_1_1objects.html</anchorfile>
+      <anchor>a63593b1bc84938b6e54d2e667754bc79</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a97bebae73e3334ef0c946c5df81e440b">kStop</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a5d284cd4081cd5fa6698a7783ec96c86">kStopLine</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79abd7fa7a429d1103d53ccbf461e039eb6">kCrosswalk</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a7f69d9bc22a0636966d686859ba4f0b4">kParkingSpace</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79ae9033ff377eeeb4ab10dc1153ee8c71b">kEmergencyLane</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a86e900728dbd001ef1bd607d7a087214">kSpeedLimit</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a42397b6effbff044a45b8a97a4b834cc">kDoNotStop</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a8c7fa71ce65b90fe7aaf5f16972c97a3">kRailRoad</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a7b2c5e4dc95d5692d537baa4cddf6193">kGiveWay</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a3d3748f1779d6ca1cee48c667578c4f5">kArrowTurnRight</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79ac028624581a05c348659fbf730feaa7a">kArrowTurnLeft</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a12435991aa7c4a26f7105ea9ee27b07a">kArrowForwardTurnRight</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79ad3f533509883afaa31328809f719f04e">kArrowForwardTurnLeft</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a3459208eb8e3de03a9c51915993cf57c">kArrowForward</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a5f84ee61a2c461e0b599322e6df55812">kArrowForwardTurnRightTurnLeft</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a0677c054b02e43e649ed2bec47760a16">kArrowTurnRightTurnLeft</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79ab0bce8510db198fb5355a86c758a8673">kArrowUTurnRight</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a53d4e1759a5feab4575ce10b6a162524">kArrowUTurnLeft</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a63593b1bc84938b6e54d2e667754bc79a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>RoadMarkingValueUnit</name>
+      <anchorfile>namespacemaliput_1_1api_1_1objects.html</anchorfile>
+      <anchor>adabe22d6c3be18a1a13ae093faf38b46</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="adabe22d6c3be18a1a13ae093faf38b46a42d55d9f147cc83ceb95b560c5eab3a9">kMetersPerSecond</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="adabe22d6c3be18a1a13ae093faf38b46a3cfd1e5b1e3e496f85d2ea8e7d2746c4">kKilometersPerHour</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="adabe22d6c3be18a1a13ae093faf38b46a8c6df4270fbf444dc7065833d12ad9dd">kMilesPerHour</enumvalue>
+    </member>
     <member kind="enumeration">
       <type></type>
       <name>RoadObjectType</name>
@@ -47648,17 +48093,26 @@
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9affa5976cb7170d234d6b69921bf0f085">kBarrier</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a4e68d62587aaa9990868bd0cdabe9c0e">kBuilding</enumvalue>
-      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9abd7fa7a429d1103d53ccbf461e039eb6">kCrosswalk</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a10d65fde77a8f88bd9d3847c653382eb">kGantry</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9aa6c648b2a2a114b2ac0c0c4d01550a20">kObstacle</enumvalue>
-      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a7f69d9bc22a0636966d686859ba4f0b4">kParkingSpace</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a2742fdaeaff981530e8db7a87746f824">kPole</enumvalue>
-      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a56d57f55a69b067f96dfbe6daec79441">kRoadMark</enumvalue>
-      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a301c9bd2b7fad7fb2e36ba40817a57d6">kRoadSurface</enumvalue>
-      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a5d284cd4081cd5fa6698a7783ec96c86">kStopLine</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a9d9fd23d42536b2121815f1c9a9e3ef7">kTrafficIsland</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a0b40d046dd0bb405f6ac002c36663ea9">kTree</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9ab0a1d175cfb881422fa37092d8e40ebc">kVegetation</enumvalue>
+    </member>
+    <member kind="function">
+      <type>std::unordered_map&lt; RoadMarkingType, const char *, maliput::common::DefaultHash &gt;</type>
+      <name>RoadMarkingTypeMapper</name>
+      <anchorfile>namespacemaliput_1_1api_1_1objects.html</anchorfile>
+      <anchor>ada30ff7b6e941270fb357ea302a222e6</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unordered_map&lt; RoadMarkingValueUnit, const char *, maliput::common::DefaultHash &gt;</type>
+      <name>RoadMarkingValueUnitMapper</name>
+      <anchorfile>namespacemaliput_1_1api_1_1objects.html</anchorfile>
+      <anchor>a32179a387c26a95d99f2b7f20db9af4c</anchor>
+      <arglist>()</arglist>
     </member>
     <member kind="function">
       <type>std::unordered_map&lt; RoadObjectType, const char *, maliput::common::DefaultHash &gt;</type>
@@ -48571,6 +49025,13 @@
       <name>CreateTrafficSignBook</name>
       <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
       <anchor>a1a5171261efcbcb8b7ee4b06e3b7ff2b</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>std::unique_ptr&lt; objects::RoadMarkingBook &gt;</type>
+      <name>CreateRoadMarkingBook</name>
+      <anchorfile>namespacemaliput_1_1api_1_1test.html</anchorfile>
+      <anchor>a8c635cf9361a5738dec91dea1951ab7c</anchor>
       <arglist>()</arglist>
     </member>
     <member kind="function">

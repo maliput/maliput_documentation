@@ -53,6 +53,7 @@ var mock_8h =
     [ "CreateRightOfWayRuleStateProvider", "mock_8h.html#a506864db3b98a62062783b946ce0be7f", null ],
     [ "CreateRoadGeometry", "mock_8h.html#ae0ed68b9006706f6014a4ed540c54172", null ],
     [ "CreateRoadGeometry", "mock_8h.html#a2ca5097e35d97da77db9905a98622731", null ],
+    [ "CreateRoadMarkingBook", "mock_8h.html#a8c635cf9361a5738dec91dea1951ab7c", null ],
     [ "CreateRoadNetwork", "mock_8h.html#a055aef0ad0d91cdd77fddd8520f767ee", null ],
     [ "CreateRoadObjectBook", "mock_8h.html#a632e14e4b0f4505e76f8c9e4de9f0e35", null ],
     [ "CreateRoadRulebook", "mock_8h.html#a4a1d1da83594d9dee3b4e14809df517d", null ],

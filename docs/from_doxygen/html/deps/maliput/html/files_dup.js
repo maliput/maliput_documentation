@@ -444,6 +444,15 @@ var files_dup =
     [ "geometry_base/road_geometry.h", "geometry__base_2road__geometry_8h.html", [
       [ "RoadGeometry", "classmaliput_1_1geometry__base_1_1_road_geometry.html", "classmaliput_1_1geometry__base_1_1_road_geometry" ]
     ] ],
+    [ "road_marking.cc", "road__marking_8cc.html", "road__marking_8cc" ],
+    [ "road_marking.h", "road__marking_8h.html", "road__marking_8h" ],
+    [ "road_marking_book.cc", "road__marking__book_8cc.html", null ],
+    [ "api/objects/road_marking_book.h", "api_2objects_2road__marking__book_8h.html", [
+      [ "RoadMarkingBook", "classmaliput_1_1api_1_1objects_1_1_road_marking_book.html", "classmaliput_1_1api_1_1objects_1_1_road_marking_book" ]
+    ] ],
+    [ "base/road_marking_book.h", "base_2road__marking__book_8h.html", [
+      [ "RoadMarkingBook", "classmaliput_1_1_road_marking_book.html", "classmaliput_1_1_road_marking_book" ]
+    ] ],
     [ "road_network.cc", "road__network_8cc.html", null ],
     [ "road_network.h", "road__network_8h.html", [
       [ "RoadNetwork", "classmaliput_1_1api_1_1_road_network.html", "classmaliput_1_1api_1_1_road_network" ]

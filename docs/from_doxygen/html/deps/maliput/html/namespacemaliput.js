@@ -21,6 +21,7 @@ var namespacemaliput =
     [ "RangeValueRuleConstants", "structmaliput_1_1_range_value_rule_constants.html", "structmaliput_1_1_range_value_rule_constants" ],
     [ "RelatedRulesKeys", "structmaliput_1_1_related_rules_keys.html", "structmaliput_1_1_related_rules_keys" ],
     [ "RelatedUniqueIdsKeys", "structmaliput_1_1_related_unique_ids_keys.html", "structmaliput_1_1_related_unique_ids_keys" ],
+    [ "RoadMarkingBook", "classmaliput_1_1_road_marking_book.html", "classmaliput_1_1_road_marking_book" ],
     [ "RoadObjectBook", "classmaliput_1_1_road_object_book.html", "classmaliput_1_1_road_object_book" ],
     [ "RuleConstants", "structmaliput_1_1_rule_constants.html", "structmaliput_1_1_rule_constants" ],
     [ "RuleTypeFilter", "structmaliput_1_1_rule_type_filter.html", "structmaliput_1_1_rule_type_filter" ],

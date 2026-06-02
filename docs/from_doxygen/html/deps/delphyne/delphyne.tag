@@ -9142,6 +9142,25 @@
     </member>
   </compound>
   <compound kind="class">
+    <name>delphyne::RailCar</name>
+    <filename>classdelphyne_1_1_rail_car.html</filename>
+    <base>delphyne::AgentBase</base>
+    <member kind="function">
+      <type></type>
+      <name>RailCar</name>
+      <anchorfile>classdelphyne_1_1_rail_car.html</anchorfile>
+      <anchor>a88e5668997f346f0b0a84d2dbf0618f9</anchor>
+      <arglist>(Agent::Diagram *diagram, VectorSource&lt; double &gt; *speed_setter)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetSpeed</name>
+      <anchorfile>classdelphyne_1_1_rail_car.html</anchorfile>
+      <anchor>a57637477372945871c8bfccb39e82c32</anchor>
+      <arglist>(double new_speed_mps)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
     <name>delphyne::behaviours::agents::RailCar</name>
     <filename>classdelphyne_1_1behaviours_1_1agents_1_1_rail_car.html</filename>
     <member kind="function">
@@ -9199,25 +9218,6 @@
       <anchorfile>classdelphyne_1_1behaviours_1_1agents_1_1_rail_car.html</anchorfile>
       <anchor>a800de3d511d4a97faf9b26d427313ce9</anchor>
       <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="class">
-    <name>delphyne::RailCar</name>
-    <filename>classdelphyne_1_1_rail_car.html</filename>
-    <base>delphyne::AgentBase</base>
-    <member kind="function">
-      <type></type>
-      <name>RailCar</name>
-      <anchorfile>classdelphyne_1_1_rail_car.html</anchorfile>
-      <anchor>a88e5668997f346f0b0a84d2dbf0618f9</anchor>
-      <arglist>(Agent::Diagram *diagram, VectorSource&lt; double &gt; *speed_setter)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>SetSpeed</name>
-      <anchorfile>classdelphyne_1_1_rail_car.html</anchorfile>
-      <anchor>a57637477372945871c8bfccb39e82c32</anchor>
-      <arglist>(double new_speed_mps)</arglist>
     </member>
   </compound>
   <compound kind="class">
