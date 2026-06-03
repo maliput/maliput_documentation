@@ -1,5 +1,17 @@
 var NAVTREEINDEX8 =
 {
+"structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#a7da68dc8ab4fb9bae588bdd1f6afc951a76db76548617b1b5020c7b2e572b43db":[4,0,0,4,0,15,0,7],
+"structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#a7da68dc8ab4fb9bae588bdd1f6afc951a863b6d2ba01aadc33e92389a371ead42":[4,0,0,4,0,15,0,1],
+"structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#a7da68dc8ab4fb9bae588bdd1f6afc951ac2e299845bc8b6c91d7fd1d114a48e0c":[4,0,0,4,0,15,0,3],
+"structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#a7da68dc8ab4fb9bae588bdd1f6afc951aec21b07961209ac4e37f908a553f6a58":[4,0,0,4,0,15,0,2],
+"structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#a7da68dc8ab4fb9bae588bdd1f6afc951aee61555390ad3a3a73ac40510c47e1d3":[4,0,0,4,0,15,0,6],
+"structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#a7da68dc8ab4fb9bae588bdd1f6afc951af5e6db4a0488b87efab930b32104f61d":[4,0,0,4,0,15,0,4],
+"structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#a8d9c00520e31bf6ac7cac75c51175490":[4,0,0,4,0,15,1],
+"structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#aab944a2df2ca7a4931831f4ff8bc9909":[4,0,0,4,0,15,2],
+"structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#ab5cb25d438af88b2e44dc65f3e1d1530":[4,0,0,4,0,15,7],
+"structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#afa638703bb82b42a1ea42c3b134ec0cd":[4,0,0,4,0,15,5],
+"structmalidrive_1_1xodr_1_1object_1_1_polyline.html":[4,0,0,4,0,16],
+"structmalidrive_1_1xodr_1_1object_1_1_polyline.html#a0d3132005b69b786009798b9c3b2d64d":[4,0,0,4,0,16,0],
 "structmalidrive_1_1xodr_1_1object_1_1_polyline.html#a0f4217fa9a85842664b7895cc92d8f2f":[4,0,0,4,0,16,6],
 "structmalidrive_1_1xodr_1_1object_1_1_polyline.html#a15720ede31586cfb87b4a82c715a7a52":[4,0,0,4,0,16,7],
 "structmalidrive_1_1xodr_1_1object_1_1_polyline.html#a20296eaa9baa8334d83bf57ec5255650":[4,0,0,4,0,16,2],
@@ -237,17 +249,5 @@ var NAVTREEINDEX8 =
 "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_lane.html#a89680bce8e9857ba533b0c4f02f75450":[4,0,0,4,1,4,0,0],
 "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_lane.html#aa0d55e556cfe2b334cb2c7fc0ffcb259":[4,0,0,4,1,4,0,2],
 "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_lane.html#ad0e021a77876a95270b3353962c9fa5e":[4,0,0,4,1,4,0,1],
-"structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_lane.html#ae558a18433cffbe940016fdb700f7690":[4,0,0,4,1,4,0,4],
-"structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_parking.html":[4,0,0,4,1,4,1],
-"structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_parking.html#a545e8e231b08e05b833d790d83240ead":[4,0,0,4,1,4,1,1],
-"structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_parking.html#a9f3c225c146674bf646c1fe396bb178d":[4,0,0,4,1,4,1,2],
-"structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_parking.html#ab61d96ee17e0f325dc60f9f2e92bf09f":[4,0,0,4,1,4,1,0],
-"structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_priority.html":[4,0,0,4,1,4,2],
-"structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_priority.html#a0115715e581fd2a65ef043354a0e902a":[4,0,0,4,1,4,2,3],
-"structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_priority.html#a2b722bbb80209d4a288937a026f4da1f":[4,0,0,4,1,4,2,2],
-"structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_priority.html#a38b35500bbcccd67e12239b2af7885a4":[4,0,0,4,1,4,2,4],
-"structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_priority.html#a86f80ede3f0ece98f922161ec033bbc0":[4,0,0,4,1,4,2,0],
-"structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_priority.html#af07080ee4e23fbfd6a24298430d6d0de":[4,0,0,4,1,4,2,1],
-"structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_prohibited.html":[4,0,0,4,1,4,3],
-"structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_prohibited.html#a70fc3dd89a9f6b0ac6bf8a79d65a3810":[4,0,0,4,1,4,3,0]
+"structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_lane.html#ae558a18433cffbe940016fdb700f7690":[4,0,0,4,1,4,0,4]
 };

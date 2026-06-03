@@ -12,6 +12,7 @@ var namespacemalidrive_1_1builder =
     [ "RoadCurveFactoryBase", "classmalidrive_1_1builder_1_1_road_curve_factory_base.html", "classmalidrive_1_1builder_1_1_road_curve_factory_base" ],
     [ "RoadGeometryBuilder", "classmalidrive_1_1builder_1_1_road_geometry_builder.html", "classmalidrive_1_1builder_1_1_road_geometry_builder" ],
     [ "RoadGeometryConfiguration", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html", "structmalidrive_1_1builder_1_1_road_geometry_configuration" ],
+    [ "RoadMarkingBuilder", "classmalidrive_1_1builder_1_1_road_marking_builder.html", "classmalidrive_1_1builder_1_1_road_marking_builder" ],
     [ "RoadNetworkBuilder", "classmalidrive_1_1builder_1_1_road_network_builder.html", "classmalidrive_1_1builder_1_1_road_network_builder" ],
     [ "RoadNetworkConfiguration", "structmalidrive_1_1builder_1_1_road_network_configuration.html", "structmalidrive_1_1builder_1_1_road_network_configuration" ],
     [ "RoadObjectBookBuilder", "classmalidrive_1_1builder_1_1_road_object_book_builder.html", "classmalidrive_1_1builder_1_1_road_object_book_builder" ],

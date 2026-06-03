@@ -97,10 +97,13 @@ $(document).ready(function(){initNavTree('builder__tools_8cc.html',''); initResi
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="builder__tools_8h.html">maliput_malidrive/builder/builder_tools.h</a>&quot;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;cmath&gt;</code><br />
 <code>#include &lt;map&gt;</code><br />
 <code>#include &lt;maliput/api/lane.h&gt;</code><br />
+<code>#include &lt;<a class="elRef" href="../../maliput/html/road__object_8h.html">maliput/api/objects/road_object.h</a>&gt;</code><br />
 <code>#include &lt;<a class="elRef" href="../../maliput/html/logger_8h.html">maliput/common/logger.h</a>&gt;</code><br />
 <code>#include &lt;<a class="elRef" href="../../maliput/html/maliput__unused_8h.html">maliput/common/maliput_unused.h</a>&gt;</code><br />
+<code>#include &lt;<a class="elRef" href="../../maliput/html/vector_8h.html">maliput/math/vector.h</a>&gt;</code><br />
 <code>#include &lt;tinyxml2.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="road__geometry_8h.html">maliput_malidrive/base/road_geometry.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="id__providers_8h.html">maliput_malidrive/builder/id_providers.h</a>&quot;</code><br />
@@ -172,6 +175,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aee4f4b199eef5812da50455b76947d5d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">maliput::api::LaneId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#aee4f4b199eef5812da50455b76947d5d">ResolveAndDeduplicateLaneIds</a> (const xodr::RoadHeader::Id &amp;road_id, double s_coordinate, const std::vector&lt; xodr::Validity &gt; &amp;validities, const std::vector&lt; xodr::DBManager::SignalReferenceOnRoad &gt; &amp;signal_references, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *road_geometry)</td></tr>
 <tr class="memdesc:aee4f4b199eef5812da50455b76947d5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves the related lane IDs for a signal from its own road and from any signal references on other roads, then deduplicates the result.  <a href="namespacemalidrive_1_1builder.html#aee4f4b199eef5812da50455b76947d5d">More...</a><br /></td></tr>
 <tr class="separator:aee4f4b199eef5812da50455b76947d5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5827d1b2fb186d720dd90175f3d797e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1objects_1_1_outline.html">maliput::api::objects::Outline</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#ae5827d1b2fb186d720dd90175f3d797e">BuildOutlines</a> (const xodr::object::Object &amp;object, const xodr::RoadHeader::Id &amp;road_id, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *road_geometry, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_inertial_position.html">maliput::api::InertialPosition</a> &amp;object_inertial_pos, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_rotation.html">maliput::api::Rotation</a> &amp;object_orientation)</td></tr>
+<tr class="memdesc:ae5827d1b2fb186d720dd90175f3d797e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts XODR outline corners to maliput Outlines.  <a href="namespacemalidrive_1_1builder.html#ae5827d1b2fb186d720dd90175f3d797e">More...</a><br /></td></tr>
+<tr class="separator:ae5827d1b2fb186d720dd90175f3d797e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="a146b7fcbd7f58b8d0b6196c0fcb44559"></a>
