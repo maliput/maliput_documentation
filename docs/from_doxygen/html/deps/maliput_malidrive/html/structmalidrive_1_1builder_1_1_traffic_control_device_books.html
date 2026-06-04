@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>maliput_malidrive: TrafficSignalBooks Struct Reference</title>
+<title>maliput_malidrive: TrafficControlDeviceBooks Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -69,7 +69,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('structmalidrive_1_1builder_1_1_traffic_signal_books.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('structmalidrive_1_1builder_1_1_traffic_control_device_books.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -90,24 +90,56 @@ $(document).ready(function(){initNavTree('structmalidrive_1_1builder_1_1_traffic
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="structmalidrive_1_1builder_1_1_traffic_signal_books-members.html">List of all members</a>  </div>
+<a href="structmalidrive_1_1builder_1_1_traffic_control_device_books-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">TrafficSignalBooks Struct Reference</div>  </div>
+<div class="title">TrafficControlDeviceBooks Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Holds the pair of books produced by <a class="el" href="classmalidrive_1_1builder_1_1_traffic_signal_books_builder.html">TrafficSignalBooksBuilder</a>. </p>
+<div class="textblock"><p>Holds the four books produced by <a class="el" href="classmalidrive_1_1builder_1_1_traffic_control_device_books_builder.html">TrafficControlDeviceBooksBuilder</a>. </p>
 </div>
-<p><code>#include &lt;src/maliput_malidrive/builder/traffic_signal_books_builder.h&gt;</code></p>
+<p><code>#include &lt;src/maliput_malidrive/builder/traffic_control_device_books_builder.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ad9b1e693cbed145ccdb8563839f100b5"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html">maliput::api::rules::TrafficLightBook</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_traffic_signal_books.html#ad9b1e693cbed145ccdb8563839f100b5">traffic_light_book</a></td></tr>
+<tr class="memitem:ad9b1e693cbed145ccdb8563839f100b5"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html">maliput::api::rules::TrafficLightBook</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_traffic_control_device_books.html#ad9b1e693cbed145ccdb8563839f100b5">traffic_light_book</a></td></tr>
 <tr class="separator:ad9b1e693cbed145ccdb8563839f100b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ee0589404fd2cda3613514bfec32b26"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_sign_book.html">maliput::api::rules::TrafficSignBook</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_traffic_signal_books.html#a3ee0589404fd2cda3613514bfec32b26">traffic_sign_book</a></td></tr>
+<tr class="memitem:a3ee0589404fd2cda3613514bfec32b26"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1rules_1_1_traffic_sign_book.html">maliput::api::rules::TrafficSignBook</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_traffic_control_device_books.html#a3ee0589404fd2cda3613514bfec32b26">traffic_sign_book</a></td></tr>
 <tr class="separator:a3ee0589404fd2cda3613514bfec32b26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94399c66b39c0fdc909147e4f2498bd8"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1objects_1_1_road_object_book.html">maliput::api::objects::RoadObjectBook</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_traffic_control_device_books.html#a94399c66b39c0fdc909147e4f2498bd8">road_object_book</a></td></tr>
+<tr class="separator:a94399c66b39c0fdc909147e4f2498bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1b98c94ab4b9232f4df6a2bbf732e91"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1objects_1_1_road_marking_book.html">maliput::api::objects::RoadMarkingBook</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_traffic_control_device_books.html#ae1b98c94ab4b9232f4df6a2bbf732e91">road_marking_book</a></td></tr>
+<tr class="separator:ae1b98c94ab4b9232f4df6a2bbf732e91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ae1b98c94ab4b9232f4df6a2bbf732e91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1b98c94ab4b9232f4df6a2bbf732e91">&#9670;&nbsp;</a></span>road_marking_book</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1objects_1_1_road_marking_book.html">maliput::api::objects::RoadMarkingBook</a>&gt; road_marking_book</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a94399c66b39c0fdc909147e4f2498bd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94399c66b39c0fdc909147e4f2498bd8">&#9670;&nbsp;</a></span>road_object_book</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1objects_1_1_road_object_book.html">maliput::api::objects::RoadObjectBook</a>&gt; road_object_book</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad9b1e693cbed145ccdb8563839f100b5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad9b1e693cbed145ccdb8563839f100b5">&#9670;&nbsp;</a></span>traffic_light_book</h2>
 
@@ -137,7 +169,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="traffic__signal__books__builder_8h.html">traffic_signal_books_builder.h</a></li>
+<li><a class="el" href="traffic__control__device__books__builder_8h.html">traffic_control_device_books_builder.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -145,7 +177,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespacemalidrive.html">malidrive</a></li><li class="navelem"><a class="el" href="namespacemalidrive_1_1builder.html">builder</a></li><li class="navelem"><a class="el" href="structmalidrive_1_1builder_1_1_traffic_signal_books.html">TrafficSignalBooks</a></li>
+    <li class="navelem"><a class="el" href="namespacemalidrive.html">malidrive</a></li><li class="navelem"><a class="el" href="namespacemalidrive_1_1builder.html">builder</a></li><li class="navelem"><a class="el" href="structmalidrive_1_1builder_1_1_traffic_control_device_books.html">TrafficControlDeviceBooks</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.nl/">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a></li>

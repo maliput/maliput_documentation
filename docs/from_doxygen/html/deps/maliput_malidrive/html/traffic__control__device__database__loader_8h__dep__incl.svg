@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 627;
+var viewWidth = 652;
 var viewHeight = 173;
 var sectionId = 'dynsection-1';
 </script>
@@ -54,14 +54,14 @@ var sectionId = 'dynsection-1';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>traffic_control_device_database_loader.h</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-169 622.5,-169 622.5,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-169 647.5,-169 647.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="269.5,-134.5 269.5,-164.5 391.5,-164.5 391.5,-134.5 269.5,-134.5"/>
-<text text-anchor="start" x="277.5" y="-152.5" font-family="Helvetica,sans-Serif" font-size="10.00">traffic_control_device</text>
-<text text-anchor="middle" x="330.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">_database_loader.h</text>
+<polygon fill="#bfbfbf" stroke="black" points="244.5,-134.5 244.5,-164.5 366.5,-164.5 366.5,-134.5 244.5,-134.5"/>
+<text text-anchor="start" x="252.5" y="-152.5" font-family="Helvetica,sans-Serif" font-size="10.00">traffic_control_device</text>
+<text text-anchor="middle" x="305.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">_database_loader.h</text>
 </a>
 </g>
 </g>
@@ -69,78 +69,78 @@ var sectionId = 'dynsection-1';
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="road__marking__builder_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="28.5,-73 28.5,-92 160.5,-92 160.5,-73 28.5,-73"/>
-<text text-anchor="middle" x="94.5" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00">road_marking_builder.h</text>
+<polygon fill="white" stroke="black" points="56.5,-73 56.5,-92 188.5,-92 188.5,-73 56.5,-73"/>
+<text text-anchor="middle" x="122.5" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00">road_marking_builder.h</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M269.69,-131.75C223.53,-119.04 161.98,-102.09 125.47,-92.03"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="269.01,-135.19 279.58,-134.48 270.87,-128.45 269.01,-135.19"/>
+<path fill="none" stroke="midnightblue" d="M256.08,-130.95C220.54,-118.32 174.16,-101.85 146.45,-92.01"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="255.2,-134.35 265.79,-134.4 257.54,-127.75 255.2,-134.35"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="traffic__light__builder_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="181,-73 181,-92 302,-92 302,-73 181,-73"/>
-<text text-anchor="middle" x="241.5" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00">traffic_light_builder.h</text>
+<g id="a_node4"><a xlink:href="traffic__control__device__books__builder_8cc.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="155.5,-0.5 155.5,-30.5 277.5,-30.5 277.5,-0.5 155.5,-0.5"/>
+<text text-anchor="start" x="163.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">traffic_control_device</text>
+<text text-anchor="middle" x="216.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">_books_builder.cc</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge">
+<g id="edge4" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M302.85,-128.31C286.14,-116.1 265.7,-101.18 253.15,-92.01"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="301.05,-131.32 311.19,-134.4 305.18,-125.67 301.05,-131.32"/>
+<path fill="none" stroke="midnightblue" d="M269.27,-128.98C257.24,-120.86 244.81,-110.41 236.5,-98 222.64,-77.3 218.37,-47.89 217.07,-30.64"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="267.58,-132.06 277.9,-134.48 271.34,-126.15 267.58,-132.06"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node">
-<title>Node6</title>
-<g id="a_node6"><a xlink:href="traffic__signal__books__builder_8cc.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="298,-0.5 298,-30.5 413,-30.5 413,-0.5 298,-0.5"/>
-<text text-anchor="start" x="306" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">traffic_signal_books</text>
-<text text-anchor="middle" x="355.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">_builder.cc</text>
+<!-- Node5 -->
+<g id="node5" class="node">
+<title>Node5</title>
+<g id="a_node5"><a xlink:href="traffic__light__builder_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="245,-73 245,-92 366,-92 366,-73 245,-73"/>
+<text text-anchor="middle" x="305.5" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00">traffic_light_builder.h</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node6 -->
-<g id="edge9" class="edge">
-<title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M335.07,-124.39C340.27,-96.9 348.61,-52.89 352.84,-30.52"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="331.6,-123.9 333.18,-134.37 338.48,-125.2 331.6,-123.9"/>
+<!-- Node1&#45;&gt;Node5 -->
+<g id="edge5" class="edge">
+<title>Node1&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M305.5,-124.25C305.5,-113.02 305.5,-100.38 305.5,-92.19"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="302,-124.4 305.5,-134.4 309,-124.4 302,-124.4"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="traffic__sign__builder_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="359,-73 359,-92 478,-92 478,-73 359,-73"/>
-<text text-anchor="middle" x="418.5" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00">traffic_sign_builder.h</text>
+<polygon fill="white" stroke="black" points="384,-73 384,-92 503,-92 503,-73 384,-73"/>
+<text text-anchor="middle" x="443.5" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00">traffic_sign_builder.h</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node7 -->
-<g id="edge6" class="edge">
+<g id="edge8" class="edge">
 <title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M357.84,-128.31C374.36,-116.1 394.57,-101.18 406.98,-92.01"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="355.56,-125.64 349.59,-134.4 359.72,-131.27 355.56,-125.64"/>
+<path fill="none" stroke="midnightblue" d="M344.5,-130.13C371.06,-117.62 404.99,-101.64 425.44,-92.01"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="343,-126.97 335.44,-134.4 345.98,-133.3 343,-126.97"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
 <g id="a_node9"><a xlink:href="traffic__control__device__database__loader_8cc.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="496.5,-67.5 496.5,-97.5 618.5,-97.5 618.5,-67.5 496.5,-67.5"/>
-<text text-anchor="start" x="504.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">traffic_control_device</text>
-<text text-anchor="middle" x="557.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">_database_loader.cc</text>
+<polygon fill="white" stroke="black" points="521.5,-67.5 521.5,-97.5 643.5,-97.5 643.5,-67.5 521.5,-67.5"/>
+<text text-anchor="start" x="529.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">traffic_control_device</text>
+<text text-anchor="middle" x="582.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">_database_loader.cc</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node9 -->
-<g id="edge10" class="edge">
+<g id="edge11" class="edge">
 <title>Node1&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M389.12,-131.71C426.06,-121.14 473.21,-107.63 508.22,-97.61"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="388.13,-128.36 379.48,-134.48 390.05,-135.09 388.13,-128.36"/>
+<path fill="none" stroke="midnightblue" d="M375.02,-132.19C420.39,-121.54 479.01,-107.78 522.37,-97.61"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="374.2,-128.78 365.26,-134.48 375.8,-135.6 374.2,-128.78"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -154,50 +154,56 @@ var sectionId = 'dynsection-1';
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M87.22,-63.29C82.22,-50.81 75.83,-34.81 71.95,-25.13"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="84.03,-64.75 90.99,-72.73 90.53,-62.15 84.03,-64.75"/>
+<path fill="none" stroke="midnightblue" d="M108.6,-64.77C98.07,-52.1 84.04,-35.2 75.67,-25.13"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="106.13,-67.28 115.22,-72.73 111.52,-62.81 106.13,-67.28"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node">
-<title>Node5</title>
-<g id="a_node5"><a xlink:href="traffic__light__builder_8cc.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="155,-6 155,-25 280,-25 280,-6 155,-6"/>
-<text text-anchor="middle" x="217.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">traffic_light_builder.cc</text>
+<!-- Node2&#45;&gt;Node4 -->
+<g id="edge3" class="edge">
+<title>Node2&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M143.69,-66.85C159.38,-56 180.63,-41.3 196.13,-30.59"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="141.41,-64.17 135.18,-72.73 145.39,-69.93 141.41,-64.17"/>
+</g>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge6" class="edge">
+<title>Node5&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M285.02,-66.54C270.21,-55.73 250.32,-41.2 235.79,-30.59"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="283.36,-69.66 293.5,-72.73 287.49,-64.01 283.36,-69.66"/>
+</g>
+<!-- Node6 -->
+<g id="node6" class="node">
+<title>Node6</title>
+<g id="a_node6"><a xlink:href="traffic__light__builder_8cc.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="296,-6 296,-25 421,-25 421,-6 296,-6"/>
+<text text-anchor="middle" x="358.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">traffic_light_builder.cc</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node5 -->
-<g id="edge4" class="edge">
-<title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M234.78,-63.29C230.17,-50.81 224.26,-34.81 220.69,-25.13"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="231.52,-64.57 238.26,-72.73 238.08,-62.14 231.52,-64.57"/>
+<!-- Node5&#45;&gt;Node6 -->
+<g id="edge7" class="edge">
+<title>Node5&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M319.14,-64.77C329.47,-52.1 343.25,-35.2 351.47,-25.13"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="316.25,-62.77 312.65,-72.73 321.68,-67.2 316.25,-62.77"/>
 </g>
-<!-- Node4&#45;&gt;Node6 -->
-<g id="edge5" class="edge">
-<title>Node4&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M265.61,-67.75C284.77,-56.83 311.47,-41.6 330.79,-30.59"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="263.83,-64.74 256.87,-72.73 267.3,-70.82 263.83,-64.74"/>
-</g>
-<!-- Node7&#45;&gt;Node6 -->
-<g id="edge8" class="edge">
-<title>Node7&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M402.8,-65.3C392.46,-54.63 379.05,-40.8 369.16,-30.59"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="400.53,-67.99 410,-72.73 405.56,-63.12 400.53,-67.99"/>
+<!-- Node7&#45;&gt;Node4 -->
+<g id="edge9" class="edge">
+<title>Node7&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M403.54,-70.06C365.05,-59.04 306.76,-42.34 265.49,-30.53"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="402.78,-73.48 413.36,-72.87 404.71,-66.75 402.78,-73.48"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="traffic__sign__builder_8cc.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="431.5,-6 431.5,-25 555.5,-25 555.5,-6 431.5,-6"/>
-<text text-anchor="middle" x="493.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">traffic_sign_builder.cc</text>
+<polygon fill="white" stroke="black" points="439.5,-6 439.5,-25 563.5,-25 563.5,-6 439.5,-6"/>
+<text text-anchor="middle" x="501.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">traffic_sign_builder.cc</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node8 -->
-<g id="edge7" class="edge">
+<g id="edge10" class="edge">
 <title>Node7&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M436.55,-65.86C451.29,-53.08 471.59,-35.49 483.55,-25.13"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="433.88,-63.54 428.61,-72.73 438.46,-68.83 433.88,-63.54"/>
+<path fill="none" stroke="midnightblue" d="M458.1,-65.13C469.45,-52.42 484.73,-35.3 493.8,-25.13"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="455.37,-62.94 451.32,-72.73 460.59,-67.6 455.37,-62.94"/>
 </g>
 </g>
 </svg>

@@ -1,9 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"structmalidrive_1_1builder_1_1_road_geometry_configuration.html#ae26c7c82c903835e10255b866fff75d6":[4,0,0,1,11,9],
-"structmalidrive_1_1builder_1_1_road_geometry_configuration_1_1_build_tolerance.html":[4,0,0,1,11,0],
-"structmalidrive_1_1builder_1_1_road_geometry_configuration_1_1_build_tolerance.html#a81d132d0efbdf9cb0535607abd868c07":[4,0,0,1,11,0,3],
-"structmalidrive_1_1builder_1_1_road_geometry_configuration_1_1_build_tolerance.html#a88b54211f9d04c8e75a731d9b5371f27":[4,0,0,1,11,0,4],
 "structmalidrive_1_1builder_1_1_road_geometry_configuration_1_1_build_tolerance.html#a91d439769e4a65c9f14f03fece0d315a":[4,0,0,1,11,0,5],
 "structmalidrive_1_1builder_1_1_road_geometry_configuration_1_1_build_tolerance.html#ab5966be84feb59f47eb2014527340a1b":[4,0,0,1,11,0,0],
 "structmalidrive_1_1builder_1_1_road_geometry_configuration_1_1_build_tolerance.html#ad7048faf654e983ab760d23165ac4eaa":[4,0,0,1,11,0,1],
@@ -18,9 +14,11 @@ var NAVTREEINDEX4 =
 "structmalidrive_1_1builder_1_1_road_network_configuration.html#a8d9c027b5448b0ee9060b1012fc8716a":[4,0,0,1,14,2],
 "structmalidrive_1_1builder_1_1_road_network_configuration.html#ad9d7e276b16ed7a92b69859f2a00eacb":[4,0,0,1,14,1],
 "structmalidrive_1_1builder_1_1_road_network_configuration.html#afeae0ebf01539011ff5bc82919390063":[4,0,0,1,14,3],
-"structmalidrive_1_1builder_1_1_traffic_signal_books.html":[4,0,0,1,22],
-"structmalidrive_1_1builder_1_1_traffic_signal_books.html#a3ee0589404fd2cda3613514bfec32b26":[4,0,0,1,22,1],
-"structmalidrive_1_1builder_1_1_traffic_signal_books.html#ad9b1e693cbed145ccdb8563839f100b5":[4,0,0,1,22,0],
+"structmalidrive_1_1builder_1_1_traffic_control_device_books.html":[4,0,0,1,20],
+"structmalidrive_1_1builder_1_1_traffic_control_device_books.html#a3ee0589404fd2cda3613514bfec32b26":[4,0,0,1,20,3],
+"structmalidrive_1_1builder_1_1_traffic_control_device_books.html#a94399c66b39c0fdc909147e4f2498bd8":[4,0,0,1,20,1],
+"structmalidrive_1_1builder_1_1_traffic_control_device_books.html#ad9b1e693cbed145ccdb8563839f100b5":[4,0,0,1,20,2],
+"structmalidrive_1_1builder_1_1_traffic_control_device_books.html#ae1b98c94ab4b9232f4df6a2bbf732e91":[4,0,0,1,20,0],
 "structmalidrive_1_1builder_1_1rules_1_1_related_rules_keys.html":[4,0,0,1,0,0],
 "structmalidrive_1_1builder_1_1rules_1_1_related_rules_keys.html#a810ba23228e3823ef3824e9b8524c5ec":[4,0,0,1,0,0,0],
 "structmalidrive_1_1builder_1_1rules_1_1_xodr_speed_properties.html":[4,0,0,1,0,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX4 =
 "structmalidrive_1_1xodr_1_1_geometry_1_1_arc.html#a0dbe9c1bdd7cff421f3a66af8f413c44":[4,0,0,4,8,0,2],
 "structmalidrive_1_1xodr_1_1_geometry_1_1_arc.html#a456bdcc0948a76ad75455f010cbab8c7":[4,0,0,4,8,0,0],
 "structmalidrive_1_1xodr_1_1_geometry_1_1_arc.html#adc3df8534a77b9f8dfad60c8fef0286d":[4,0,0,4,8,0,1],
-"structmalidrive_1_1xodr_1_1_geometry_1_1_line.html":[4,0,0,4,8,1]
+"structmalidrive_1_1xodr_1_1_geometry_1_1_line.html":[4,0,0,4,8,1],
+"structmalidrive_1_1xodr_1_1_geometry_1_1_line.html#ae5eb7d670e96fbe1fd88a48cbf34cd3b":[4,0,0,4,8,1,0],
+"structmalidrive_1_1xodr_1_1_geometry_1_1_param_poly3.html":[4,0,0,4,8,2]
 };

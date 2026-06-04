@@ -282,10 +282,6 @@ var files_dup =
     [ "road_network_configuration.h", "road__network__configuration_8h.html", [
       [ "RoadNetworkConfiguration", "structmalidrive_1_1builder_1_1_road_network_configuration.html", "structmalidrive_1_1builder_1_1_road_network_configuration" ]
     ] ],
-    [ "road_object_book_builder.cc", "road__object__book__builder_8cc.html", null ],
-    [ "road_object_book_builder.h", "road__object__book__builder_8h.html", [
-      [ "RoadObjectBookBuilder", "classmalidrive_1_1builder_1_1_road_object_book_builder.html", "classmalidrive_1_1builder_1_1_road_object_book_builder" ]
-    ] ],
     [ "road_object_builder.cc", "road__object__builder_8cc.html", "road__object__builder_8cc" ],
     [ "road_object_builder.h", "road__object__builder_8h.html", [
       [ "RoadObjectBuilder", "classmalidrive_1_1builder_1_1_road_object_builder.html", "classmalidrive_1_1builder_1_1_road_object_builder" ]
@@ -375,6 +371,11 @@ var files_dup =
     ] ],
     [ "tools.cc", "tools_8cc.html", "tools_8cc" ],
     [ "tools.h", "tools_8h.html", "tools_8h" ],
+    [ "traffic_control_device_books_builder.cc", "traffic__control__device__books__builder_8cc.html", null ],
+    [ "traffic_control_device_books_builder.h", "traffic__control__device__books__builder_8h.html", [
+      [ "TrafficControlDeviceBooks", "structmalidrive_1_1builder_1_1_traffic_control_device_books.html", "structmalidrive_1_1builder_1_1_traffic_control_device_books" ],
+      [ "TrafficControlDeviceBooksBuilder", "classmalidrive_1_1builder_1_1_traffic_control_device_books_builder.html", "classmalidrive_1_1builder_1_1_traffic_control_device_books_builder" ]
+    ] ],
     [ "traffic_control_device_database_loader.cc", "traffic__control__device__database__loader_8cc.html", null ],
     [ "traffic_control_device_database_loader.h", "traffic__control__device__database__loader_8h.html", [
       [ "TrafficControlDeviceDatabaseLoader", "classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html", "classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader" ]
@@ -389,11 +390,6 @@ var files_dup =
     ] ],
     [ "traffic_sign_type_mapper.cc", "traffic__sign__type__mapper_8cc.html", "traffic__sign__type__mapper_8cc" ],
     [ "traffic_sign_type_mapper.h", "traffic__sign__type__mapper_8h.html", "traffic__sign__type__mapper_8h" ],
-    [ "traffic_signal_books_builder.cc", "traffic__signal__books__builder_8cc.html", null ],
-    [ "traffic_signal_books_builder.h", "traffic__signal__books__builder_8h.html", [
-      [ "TrafficSignalBooks", "structmalidrive_1_1builder_1_1_traffic_signal_books.html", "structmalidrive_1_1builder_1_1_traffic_signal_books" ],
-      [ "TrafficSignalBooksBuilder", "classmalidrive_1_1builder_1_1_traffic_signal_books_builder.html", "classmalidrive_1_1builder_1_1_traffic_signal_books_builder" ]
-    ] ],
     [ "tunnel.cc", "tunnel_8cc.html", null ],
     [ "tunnel.h", "tunnel_8h.html", [
       [ "Tunnel", "structmalidrive_1_1xodr_1_1object_1_1_tunnel.html", "structmalidrive_1_1xodr_1_1object_1_1_tunnel" ]

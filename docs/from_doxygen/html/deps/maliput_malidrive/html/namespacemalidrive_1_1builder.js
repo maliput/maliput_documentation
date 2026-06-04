@@ -15,15 +15,14 @@ var namespacemalidrive_1_1builder =
     [ "RoadMarkingBuilder", "classmalidrive_1_1builder_1_1_road_marking_builder.html", "classmalidrive_1_1builder_1_1_road_marking_builder" ],
     [ "RoadNetworkBuilder", "classmalidrive_1_1builder_1_1_road_network_builder.html", "classmalidrive_1_1builder_1_1_road_network_builder" ],
     [ "RoadNetworkConfiguration", "structmalidrive_1_1builder_1_1_road_network_configuration.html", "structmalidrive_1_1builder_1_1_road_network_configuration" ],
-    [ "RoadObjectBookBuilder", "classmalidrive_1_1builder_1_1_road_object_book_builder.html", "classmalidrive_1_1builder_1_1_road_object_book_builder" ],
     [ "RoadObjectBuilder", "classmalidrive_1_1builder_1_1_road_object_builder.html", "classmalidrive_1_1builder_1_1_road_object_builder" ],
     [ "RoadRuleBookBuilder", "classmalidrive_1_1builder_1_1_road_rule_book_builder.html", "classmalidrive_1_1builder_1_1_road_rule_book_builder" ],
     [ "RoadRuleBookBuilderOldRules", "classmalidrive_1_1builder_1_1_road_rule_book_builder_old_rules.html", "classmalidrive_1_1builder_1_1_road_rule_book_builder_old_rules" ],
     [ "RuleRegistryBuilder", "classmalidrive_1_1builder_1_1_rule_registry_builder.html", "classmalidrive_1_1builder_1_1_rule_registry_builder" ],
     [ "SpeedLimitBuilder", "classmalidrive_1_1builder_1_1_speed_limit_builder.html", "classmalidrive_1_1builder_1_1_speed_limit_builder" ],
+    [ "TrafficControlDeviceBooks", "structmalidrive_1_1builder_1_1_traffic_control_device_books.html", "structmalidrive_1_1builder_1_1_traffic_control_device_books" ],
+    [ "TrafficControlDeviceBooksBuilder", "classmalidrive_1_1builder_1_1_traffic_control_device_books_builder.html", "classmalidrive_1_1builder_1_1_traffic_control_device_books_builder" ],
     [ "TrafficLightBuilder", "classmalidrive_1_1builder_1_1_traffic_light_builder.html", "classmalidrive_1_1builder_1_1_traffic_light_builder" ],
-    [ "TrafficSignalBooks", "structmalidrive_1_1builder_1_1_traffic_signal_books.html", "structmalidrive_1_1builder_1_1_traffic_signal_books" ],
-    [ "TrafficSignalBooksBuilder", "classmalidrive_1_1builder_1_1_traffic_signal_books_builder.html", "classmalidrive_1_1builder_1_1_traffic_signal_books_builder" ],
     [ "TrafficSignBuilder", "classmalidrive_1_1builder_1_1_traffic_sign_builder.html", "classmalidrive_1_1builder_1_1_traffic_sign_builder" ],
     [ "UniqueIntegerProvider", "classmalidrive_1_1builder_1_1_unique_integer_provider.html", "classmalidrive_1_1builder_1_1_unique_integer_provider" ]
 ];

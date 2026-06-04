@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>maliput_malidrive: traffic_signal_books_builder.cc File Reference</title>
+<title>maliput_malidrive: traffic_control_device_books_builder.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -69,7 +69,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('traffic__signal__books__builder_8cc.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('traffic__control__device__books__builder_8h.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -89,30 +89,43 @@ $(document).ready(function(){initNavTree('traffic__signal__books__builder_8cc.ht
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">traffic_signal_books_builder.cc File Reference</div>  </div>
+<div class="title">traffic_control_device_books_builder.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="traffic__signal__books__builder_8h.html">maliput_malidrive/builder/traffic_signal_books_builder.h</a>&quot;</code><br />
-<code>#include &lt;utility&gt;</code><br />
-<code>#include &lt;maliput/base/traffic_light_book.h&gt;</code><br />
-<code>#include &lt;<a class="elRef" href="../../maliput/html/traffic__light__book__loader_8h.html">maliput/base/traffic_light_book_loader.h</a>&gt;</code><br />
-<code>#include &lt;maliput/base/traffic_sign_book.h&gt;</code><br />
-<code>#include &lt;<a class="elRef" href="../../maliput/html/logger_8h.html">maliput/common/logger.h</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="road__geometry_8h.html">maliput_malidrive/base/road_geometry.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="traffic__light__builder_8h.html">maliput_malidrive/builder/traffic_light_builder.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="traffic__sign__builder_8h.html">maliput_malidrive/builder/traffic_sign_builder.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;optional&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;maliput/api/objects/road_marking_book.h&gt;</code><br />
+<code>#include &lt;maliput/api/objects/road_object_book.h&gt;</code><br />
+<code>#include &lt;maliput/api/road_geometry.h&gt;</code><br />
+<code>#include &lt;maliput/api/rules/traffic_light_book.h&gt;</code><br />
+<code>#include &lt;maliput/api/rules/traffic_sign_book.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="macros_8h.html">maliput_malidrive/common/macros.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="traffic__control__device_2parser_8h.html">maliput_malidrive/traffic_control_device/parser.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="traffic__control__device__database__loader_8h.html">maliput_malidrive/traffic_control_device/traffic_control_device_database_loader.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for traffic_signal_books_builder.cc:</div>
+Include dependency graph for traffic_control_device_books_builder.h:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="traffic__signal__books__builder_8cc__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="traffic__control__device__books__builder_8h__incl.svg" width="100%" height="473"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="traffic__control__device__books__builder_8h__dep__incl.svg" width="379" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1builder_1_1_traffic_control_device_books.html">TrafficControlDeviceBooks</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds the four books produced by <a class="el" href="classmalidrive_1_1builder_1_1_traffic_control_device_books_builder.html">TrafficControlDeviceBooksBuilder</a>.  <a href="structmalidrive_1_1builder_1_1_traffic_control_device_books.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_traffic_control_device_books_builder.html">TrafficControlDeviceBooksBuilder</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds all four traffic control device books in a single pass over the XODR signals and objects, using a shared traffic control device <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database.  <a href="classmalidrive_1_1builder_1_1_traffic_control_device_books_builder.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacemalidrive"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive.html">malidrive</a></td></tr>
@@ -127,7 +140,7 @@ Namespaces</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6999865786191093171eaf56dfb05f4a.html">maliput_malidrive</a></li><li class="navelem"><a class="el" href="dir_4760e0277592796f2906f7edd6f834c1.html">builder</a></li><li class="navelem"><a class="el" href="traffic__signal__books__builder_8cc.html">traffic_signal_books_builder.cc</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6999865786191093171eaf56dfb05f4a.html">maliput_malidrive</a></li><li class="navelem"><a class="el" href="dir_4760e0277592796f2906f7edd6f834c1.html">builder</a></li><li class="navelem"><a class="el" href="traffic__control__device__books__builder_8h.html">traffic_control_device_books_builder.h</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.nl/">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a></li>

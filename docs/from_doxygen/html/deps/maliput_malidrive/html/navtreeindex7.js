@@ -1,7 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"structmalidrive_1_1xodr_1_1object_1_1_bridge.html#a9f36bf43428315b6dfd91de20f6854c2":[4,0,0,4,0,2,8],
-"structmalidrive_1_1xodr_1_1object_1_1_bridge.html#ab078d8ddaeb55f071943994e623a6e9d":[4,0,0,4,0,2,10],
 "structmalidrive_1_1xodr_1_1object_1_1_bridge.html#ab6f4e6d3fde00ce906e46494f60dfe7a":[4,0,0,4,0,2,16],
 "structmalidrive_1_1xodr_1_1object_1_1_bridge.html#ac7d5b03780e83d0fb7a3b57e271a5924":[4,0,0,4,0,2,5],
 "structmalidrive_1_1xodr_1_1object_1_1_bridge.html#ad62e712560f6344b96d4c080a2ba9c92":[4,0,0,4,0,2,15],
@@ -249,5 +247,7 @@ var NAVTREEINDEX7 =
 "structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#a502e68c49a5936e9ab1ce018882c1eae":[4,0,0,4,0,15,4],
 "structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#a7da68dc8ab4fb9bae588bdd1f6afc951":[4,0,0,4,0,15,0],
 "structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#a7da68dc8ab4fb9bae588bdd1f6afc951a34bdbffdb1c0e1b603f58fc0d49548b6":[4,0,0,4,0,15,0,0],
-"structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#a7da68dc8ab4fb9bae588bdd1f6afc951a70653389d9fafa1858a942b01b5af756":[4,0,0,4,0,15,0,5]
+"structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#a7da68dc8ab4fb9bae588bdd1f6afc951a70653389d9fafa1858a942b01b5af756":[4,0,0,4,0,15,0,5],
+"structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#a7da68dc8ab4fb9bae588bdd1f6afc951a76db76548617b1b5020c7b2e572b43db":[4,0,0,4,0,15,0,7],
+"structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#a7da68dc8ab4fb9bae588bdd1f6afc951a863b6d2ba01aadc33e92389a371ead42":[4,0,0,4,0,15,0,1]
 };
