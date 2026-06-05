@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"classmaliput_1_1geometry__base_1_1test_1_1_mock_road_geometry.html#a9a058c56a78887a7f2bb09b6db059369":[4,0,0,3,0,4,0],
 "classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html":[4,0,0,3,0,5],
 "classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html#a667227ded4ffb60bad6d5bf69e104a38":[4,0,0,3,0,5,1],
 "classmaliput_1_1geometry__base_1_1test_1_1_mock_segment.html#a9384ed7a03ee84b8f965a5d156f4efee":[4,0,0,3,0,5,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "classmaliput_1_1plugin_1_1_maliput_plugin_manager.html#a16e60659b3f114ba258a7adae8284287":[4,0,0,5,1,3],
 "classmaliput_1_1plugin_1_1_maliput_plugin_manager.html#af23a632bea159c9d501cd14d79905748":[4,0,0,5,1,2],
 "classmaliput_1_1plugin_1_1_maliput_plugin_manager.html#af99f9a4ea177f978b0cda39f85c2bc8a":[4,0,0,5,1,0],
-"classmaliput_1_1plugin_1_1_road_network_loader.html":[4,0,0,5,2],
-"classmaliput_1_1plugin_1_1_road_network_loader.html#aaed0de0f4e11705c9f8b44e4fd07a615":[4,0,0,5,2,0]
+"classmaliput_1_1plugin_1_1_road_network_loader.html":[4,0,0,5,2]
 };

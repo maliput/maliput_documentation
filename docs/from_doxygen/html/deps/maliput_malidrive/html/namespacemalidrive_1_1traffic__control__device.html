@@ -173,6 +173,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a0905017b76d5462c952ae2b397f792f8"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1traffic__control__device.html#a0905017b76d5462c952ae2b397f792f8">GetOptionalStringField</a> (const YAML::Node &amp;node, const std::string &amp;field_name)</td></tr>
 <tr class="memdesc:a0905017b76d5462c952ae2b397f792f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves an optional string field from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> node.  <a href="namespacemalidrive_1_1traffic__control__device.html#a0905017b76d5462c952ae2b397f792f8">More...</a><br /></td></tr>
 <tr class="separator:a0905017b76d5462c952ae2b397f792f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdce32479b23cb39b9dff1858911a2f1"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1traffic__control__device.html#abdce32479b23cb39b9dff1858911a2f1">GetOptionalStringFieldWildcardDefault</a> (const YAML::Node &amp;node, const std::string &amp;field_name)</td></tr>
+<tr class="memdesc:abdce32479b23cb39b9dff1858911a2f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves an optional string field from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> node.  <a href="namespacemalidrive_1_1traffic__control__device.html#abdce32479b23cb39b9dff1858911a2f1">More...</a><br /></td></tr>
+<tr class="separator:abdce32479b23cb39b9dff1858911a2f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa3af3edca1f0b55404365b904beb23c"><td class="memItemLeft" align="right" valign="top">std::optional&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aaa3af3edca1f0b55404365b904beb23c">GetOptionalIntField</a> (const YAML::Node &amp;node, const std::string &amp;field_name)</td></tr>
 <tr class="memdesc:aaa3af3edca1f0b55404365b904beb23c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves an optional integer field from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> node.  <a href="namespacemalidrive_1_1traffic__control__device.html#aaa3af3edca1f0b55404365b904beb23c">More...</a><br /></td></tr>
 <tr class="separator:aaa3af3edca1f0b55404365b904beb23c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -213,13 +216,13 @@ Functions</h2></td></tr>
 <p>Identifies the category of a traffic control device. </p>
 <p>Parsed from the <code>device_type</code> field of the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database <code>properties</code> section. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa37d216d3b7bf0d4a57c60f5865b58dfa2c6a7e17ae1dbc648540f4449b472570"></a>kTrafficLight&#160;</td><td class="fielddoc"><p>Device is a traffic light ("traffic_light"). </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa37d216d3b7bf0d4a57c60f5865b58dfa2c6a7e17ae1dbc648540f4449b472570"></a>kTrafficLight&#160;</td><td class="fielddoc"><p>Device is a traffic light ("TrafficLight"). </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aa37d216d3b7bf0d4a57c60f5865b58dfa6dc68e4ef61ac036f620ccfd8764e45c"></a>kTrafficSign&#160;</td><td class="fielddoc"><p>Device is a traffic sign ("traffic_sign"). </p>
+<tr><td class="fieldname"><a id="aa37d216d3b7bf0d4a57c60f5865b58dfa6dc68e4ef61ac036f620ccfd8764e45c"></a>kTrafficSign&#160;</td><td class="fielddoc"><p>Device is a traffic sign ("TrafficSign"). </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aa37d216d3b7bf0d4a57c60f5865b58dfa0e585b44417349877686e38d53ae1d82"></a>kRoadMarking&#160;</td><td class="fielddoc"><p>Device is a road marking ("road_marking"). </p>
+<tr><td class="fieldname"><a id="aa37d216d3b7bf0d4a57c60f5865b58dfa0e585b44417349877686e38d53ae1d82"></a>kRoadMarking&#160;</td><td class="fielddoc"><p>Device is a road marking ("RoadMarking"). </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aa37d216d3b7bf0d4a57c60f5865b58dfa5dc3f907cf723d8e90273ea6c706e283"></a>kRoadObject&#160;</td><td class="fielddoc"><p>Device is a road object ("road_object"). </p>
+<tr><td class="fieldname"><a id="aa37d216d3b7bf0d4a57c60f5865b58dfa5dc3f907cf723d8e90273ea6c706e283"></a>kRoadObject&#160;</td><td class="fielddoc"><p>Device is a road object ("RoadObject"). </p>
 </td></tr>
 <tr><td class="fieldname"><a id="aa37d216d3b7bf0d4a57c60f5865b58dfa25c2dc47991b3df171ed5192bcf70390"></a>kUnknown&#160;</td><td class="fielddoc"><p>Unrecognized or missing device_type value. </p>
 </td></tr>
@@ -339,6 +342,44 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>An optional containing the string value if defined and not null, std::nullopt otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="abdce32479b23cb39b9dff1858911a2f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdce32479b23cb39b9dff1858911a2f1">&#9670;&nbsp;</a></span>GetOptionalStringFieldWildcardDefault()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; std::string &gt; GetOptionalStringFieldWildcardDefault </td>
+          <td>(</td>
+          <td class="paramtype">const YAML::Node &amp;&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>field_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves an optional string field from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> node. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">node</td><td>The <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> node containing the field. </td></tr>
+    <tr><td class="paramname">field_name</td><td>The name of the field to retrieve. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>An optional containing the string value if defined and not null; if the node is not defined, returns a wildcard string; if the node is null, returns std::nullopt. </dd></dl>
 
 </div>
 </div>
@@ -491,11 +532,11 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Converts a <code>device_type</code> string from the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database to a <a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58df">TrafficControlDeviceType</a> enum value. </p>
-<p>Recognized values (case-insensitive):</p><ul>
-<li><code>"traffic_light"</code> → <code>kTrafficLight</code></li>
-<li><code>"traffic_sign"</code> → <code>kTrafficSign</code></li>
-<li><code>"road_marking"</code> → <code>kRoadMarking</code></li>
-<li><code>"road_object"</code> → <code>kRoadObject</code></li>
+<p>Recognized values (strict PascalCase):</p><ul>
+<li><code>"TrafficLight"</code> → <code>kTrafficLight</code></li>
+<li><code>"TrafficSign"</code> → <code>kTrafficSign</code></li>
+<li><code>"RoadMarking"</code> → <code>kRoadMarking</code></li>
+<li><code>"RoadObject"</code> → <code>kRoadObject</code></li>
 </ul>
 <p>Any other string maps to <code>kUnknown</code>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -526,11 +567,11 @@ Functions</h2></td></tr>
 
 <p>Converts a <a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aa37d216d3b7bf0d4a57c60f5865b58df">TrafficControlDeviceType</a> enum value back to its canonical <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> string representation. </p>
 <ul>
-<li><code>kTrafficLight</code> → <code>"traffic_light"</code></li>
-<li><code>kTrafficSign</code> → <code>"traffic_sign"</code></li>
-<li><code>kRoadMarking</code> → <code>"road_marking"</code></li>
-<li><code>kRoadObject</code> → <code>"road_object"</code></li>
-<li><code>kUnknown</code> → <code>"unknown"</code></li>
+<li><code>kTrafficLight</code> → <code>"TrafficLight"</code></li>
+<li><code>kTrafficSign</code> → <code>"TrafficSign"</code></li>
+<li><code>kRoadMarking</code> → <code>"RoadMarking"</code></li>
+<li><code>kRoadObject</code> → <code>"RoadObject"</code></li>
+<li><code>kUnknown</code> → <code>"Unknown"</code></li>
 </ul>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">

@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 3342;
+var viewWidth = 3193;
 var viewHeight = 564;
 var sectionId = 'dynsection-0';
 </script>
@@ -54,13 +54,13 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>road_marking_type_mapper.cc</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-560 3338,-560 3338,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-560 3189,-560 3189,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="2956.5,-536.5 2956.5,-555.5 3123.5,-555.5 3123.5,-536.5 2956.5,-536.5"/>
-<text text-anchor="middle" x="3040" y="-543.5" font-family="Helvetica,sans-Serif" font-size="10.00">road_marking_type_mapper.cc</text>
+<polygon fill="#bfbfbf" stroke="black" points="2896.5,-536.5 2896.5,-555.5 3063.5,-555.5 3063.5,-536.5 2896.5,-536.5"/>
+<text text-anchor="middle" x="2980" y="-543.5" font-family="Helvetica,sans-Serif" font-size="10.00">road_marking_type_mapper.cc</text>
 </a>
 </g>
 </g>
@@ -77,69 +77,39 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M3010.2,-536.48C2979.13,-527.59 2929.63,-513.43 2890.68,-502.29"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2891.6,-498.91 2881.02,-499.52 2889.67,-505.64 2891.6,-498.91"/>
+<path fill="none" stroke="midnightblue" d="M2958.8,-536.48C2937.35,-527.85 2903.55,-514.26 2876.24,-503.29"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2877.46,-500.01 2866.88,-499.52 2874.85,-506.5 2877.46,-500.01"/>
 </g>
 <!-- Node35 -->
 <g id="node35" class="node">
 <title>Node35</title>
 <g id="a_node35"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="2933,-475 2933,-494 2997,-494 2997,-475 2933,-475"/>
-<text text-anchor="middle" x="2965" y="-482" font-family="Helvetica,sans-Serif" font-size="10.00">algorithm</text>
+<polygon fill="white" stroke="#bfbfbf" points="2933.5,-475 2933.5,-494 3026.5,-494 3026.5,-475 2933.5,-475"/>
+<text text-anchor="middle" x="2980" y="-482" font-family="Helvetica,sans-Serif" font-size="10.00">unordered_map</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node35 -->
 <g id="edge105" class="edge">
 <title>Node1&#45;&gt;Node35</title>
-<path fill="none" stroke="midnightblue" d="M3029.25,-536.48C3017.45,-527.11 2998.26,-511.88 2983.92,-500.51"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="2985.74,-497.48 2975.73,-494.01 2981.38,-502.97 2985.74,-497.48"/>
+<path fill="none" stroke="midnightblue" d="M2980,-536.48C2980,-528.08 2980,-514.98 2980,-504.16"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="2983.5,-504.01 2980,-494.01 2976.5,-504.01 2983.5,-504.01"/>
 </g>
 <!-- Node36 -->
 <g id="node36" class="node">
 <title>Node36</title>
-<g id="a_node36"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="3015.5,-475 3015.5,-494 3064.5,-494 3064.5,-475 3015.5,-475"/>
-<text text-anchor="middle" x="3040" y="-482" font-family="Helvetica,sans-Serif" font-size="10.00">cctype</text>
+<g id="a_node36"><a xlink:href="../../maliput/html/maliput__hash_8h.html.html" xlink:title=" ">
+<polygon fill="white" stroke="black" points="3045,-469.5 3045,-499.5 3185,-499.5 3185,-469.5 3045,-469.5"/>
+<text text-anchor="start" x="3053" y="-487.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/common/maliput</text>
+<text text-anchor="middle" x="3115" y="-476.5" font-family="Helvetica,sans-Serif" font-size="10.00">_hash.h</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node36 -->
 <g id="edge106" class="edge">
 <title>Node1&#45;&gt;Node36</title>
-<path fill="none" stroke="midnightblue" d="M3040,-536.48C3040,-528.08 3040,-514.98 3040,-504.16"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="3043.5,-504.01 3040,-494.01 3036.5,-504.01 3043.5,-504.01"/>
-</g>
-<!-- Node37 -->
-<g id="node37" class="node">
-<title>Node37</title>
-<g id="a_node37"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="3082.5,-475 3082.5,-494 3175.5,-494 3175.5,-475 3082.5,-475"/>
-<text text-anchor="middle" x="3129" y="-482" font-family="Helvetica,sans-Serif" font-size="10.00">unordered_map</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node37 -->
-<g id="edge107" class="edge">
-<title>Node1&#45;&gt;Node37</title>
-<path fill="none" stroke="midnightblue" d="M3052.75,-536.48C3067.03,-526.93 3090.4,-511.31 3107.51,-499.87"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="3109.9,-502.48 3116.27,-494.01 3106.01,-496.66 3109.9,-502.48"/>
-</g>
-<!-- Node38 -->
-<g id="node38" class="node">
-<title>Node38</title>
-<g id="a_node38"><a xlink:href="../../maliput/html/maliput__hash_8h.html.html" xlink:title=" ">
-<polygon fill="white" stroke="black" points="3194,-469.5 3194,-499.5 3334,-499.5 3334,-469.5 3194,-469.5"/>
-<text text-anchor="start" x="3202" y="-487.5" font-family="Helvetica,sans-Serif" font-size="10.00">maliput/common/maliput</text>
-<text text-anchor="middle" x="3264" y="-476.5" font-family="Helvetica,sans-Serif" font-size="10.00">_hash.h</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node38 -->
-<g id="edge108" class="edge">
-<title>Node1&#45;&gt;Node38</title>
-<path fill="none" stroke="midnightblue" d="M3072.09,-536.48C3105.69,-527.55 3159.31,-513.31 3201.34,-502.14"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="3202.44,-505.47 3211.21,-499.52 3200.64,-498.71 3202.44,-505.47"/>
+<path fill="none" stroke="midnightblue" d="M2999.34,-536.48C3018.74,-527.93 3049.2,-514.5 3073.99,-503.57"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="3075.44,-506.76 3083.18,-499.52 3072.62,-500.35 3075.44,-506.76"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">

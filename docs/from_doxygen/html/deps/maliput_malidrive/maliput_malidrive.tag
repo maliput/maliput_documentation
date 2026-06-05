@@ -3732,6 +3732,7 @@
     <filename>yaml__helper_8cc.html</filename>
     <includes id="yaml__helper_8h" name="yaml_helper.h" local="yes" imported="no">maliput_malidrive/traffic_control_device/yaml_helper.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <includes id="traffic__control__device_2parser_8h" name="traffic_control_device/parser.h" local="yes" imported="no">maliput_malidrive/traffic_control_device/parser.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::traffic_control_device</namespace>
     <member kind="function">
@@ -3753,6 +3754,13 @@
       <name>GetOptionalStringField</name>
       <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>a0905017b76d5462c952ae2b397f792f8</anchor>
+      <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>GetOptionalStringFieldWildcardDefault</name>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
+      <anchor>abdce32479b23cb39b9dff1858911a2f1</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
     </member>
     <member kind="function">
@@ -3822,6 +3830,13 @@
       <name>GetOptionalStringField</name>
       <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>a0905017b76d5462c952ae2b397f792f8</anchor>
+      <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>GetOptionalStringFieldWildcardDefault</name>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
+      <anchor>abdce32479b23cb39b9dff1858911a2f1</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
     </member>
     <member kind="function">
@@ -16090,6 +16105,13 @@
       <name>GetOptionalStringField</name>
       <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
       <anchor>a0905017b76d5462c952ae2b397f792f8</anchor>
+      <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; std::string &gt;</type>
+      <name>GetOptionalStringFieldWildcardDefault</name>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
+      <anchor>abdce32479b23cb39b9dff1858911a2f1</anchor>
       <arglist>(const YAML::Node &amp;node, const std::string &amp;field_name)</arglist>
     </member>
     <member kind="function">

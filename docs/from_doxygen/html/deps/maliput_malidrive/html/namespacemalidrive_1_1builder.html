@@ -1206,8 +1206,8 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Maps a device_semantics string from the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> traffic control device database to a <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api_1_1objects.html#a63593b1bc84938b6e54d2e667754bc79">maliput::api::objects::RoadMarkingType</a> enum. </p>
-<p>The comparison is case-insensitive: "Stop_Line", "STOP_LINE", and "stop_line" all map to <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api_1_1objects.html#a63593b1bc84938b6e54d2e667754bc79a5d284cd4081cd5fa6698a7783ec96c86">RoadMarkingType::kStopLine</a>.</p>
-<p>Any unrecognized string (including "none" and "other") maps to kUnknown.</p>
+<p>The mapping is strict PascalCase. For example, "StopLine" maps to <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api_1_1objects.html#a63593b1bc84938b6e54d2e667754bc79a5d284cd4081cd5fa6698a7783ec96c86">RoadMarkingType::kStopLine</a> while "stop_line" and "STOP_LINE" map to kUnknown.</p>
+<p>Any unrecognized string (including "none" and "Other") maps to kUnknown.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">device_semantics</td><td>The device_semantics value from the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database. </td></tr>
@@ -1235,8 +1235,8 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Maps a device_semantics string from the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> traffic control device database to a <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api_1_1rules.html#ad3e17e6e261408048a924423b24a23cd">maliput::api::rules::TrafficSignType</a> enum. </p>
-<p>The comparison is case-insensitive: "Stop", "STOP", and "stop" all map to <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api_1_1rules.html#ad3e17e6e261408048a924423b24a23cda97bebae73e3334ef0c946c5df81e440b">TrafficSignType::kStop</a>.</p>
-<p>Any unrecognized string (including "traffic_light") maps to kUnknown.</p>
+<p>The mapping is strict PascalCase. For example, "Stop" maps to <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api_1_1rules.html#ad3e17e6e261408048a924423b24a23cda97bebae73e3334ef0c946c5df81e440b">TrafficSignType::kStop</a> while "stop" and "STOP" map to kUnknown.</p>
+<p>Any unrecognized string (including "TrafficLight") maps to kUnknown.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">device_semantics</td><td>The device_semantics value from the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database. </td></tr>

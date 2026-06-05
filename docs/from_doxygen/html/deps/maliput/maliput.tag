@@ -9665,6 +9665,9 @@
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cda4479d5fe99f9f0c7dff9b1a8fe517207">kConstruction</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cda529c895c1db38e95924a81e577e3f05f">kRailroadCrossing</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cda10c55a8559a05f4d56b3dd803ef76d7d">kNoOvertaking</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cdae923638276bdf71e087ddded743c4a60">kAllWay</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cdae2c74532736f312c329618562e04fa4c">kNoUTurnLeft</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cdacf26d0384ce24e24e86c11ad9a8c4788">kNoUTurnRight</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cda25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
     </member>
     <member kind="enumeration">
@@ -41178,8 +41181,8 @@
       <type></type>
       <name>TrafficSign</name>
       <anchorfile>classmaliput_1_1api_1_1rules_1_1_traffic_sign.html</anchorfile>
-      <anchor>a67f0cf20e345a3a6b2cc1244a1ce92b2</anchor>
-      <arglist>(const Id &amp;id, const TrafficSignType &amp;type, const InertialPosition &amp;position_road_network, const Rotation &amp;orientation_road_network, const std::optional&lt; std::string &gt; &amp;message, std::vector&lt; LaneId &gt; related_lanes, const maliput::math::BoundingBox &amp;bounding_box, const std::optional&lt; TrafficSignValue &gt; &amp;value=std::nullopt)</arglist>
+      <anchor>a7d4f73ab548a3f5956fca72fce82cc45</anchor>
+      <arglist>(const Id &amp;id, const TrafficSignType &amp;type, const InertialPosition &amp;position_road_network, const Rotation &amp;orientation_road_network, const std::optional&lt; std::string &gt; &amp;message, std::vector&lt; LaneId &gt; related_lanes, const maliput::math::BoundingBox &amp;bounding_box, const std::optional&lt; TrafficSignValue &gt; &amp;value=std::nullopt, std::unordered_map&lt; std::string, std::string &gt; properties={})</arglist>
     </member>
     <member kind="function">
       <type>const Id &amp;</type>
@@ -41235,6 +41238,13 @@
       <name>GetValue</name>
       <anchorfile>classmaliput_1_1api_1_1rules_1_1_traffic_sign.html</anchorfile>
       <anchor>ac76b1ea8983f5cd3edf57a22d769dd69</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::unordered_map&lt; std::string, std::string &gt; &amp;</type>
+      <name>properties</name>
+      <anchorfile>classmaliput_1_1api_1_1rules_1_1_traffic_sign.html</anchorfile>
+      <anchor>ae50d054c7929832f39a2bfa0690d36af</anchor>
       <arglist>() const</arglist>
     </member>
   </compound>
@@ -48250,6 +48260,9 @@
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cda4479d5fe99f9f0c7dff9b1a8fe517207">kConstruction</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cda529c895c1db38e95924a81e577e3f05f">kRailroadCrossing</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cda10c55a8559a05f4d56b3dd803ef76d7d">kNoOvertaking</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cdae923638276bdf71e087ddded743c4a60">kAllWay</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cdae2c74532736f312c329618562e04fa4c">kNoUTurnLeft</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cdacf26d0384ce24e24e86c11ad9a8c4788">kNoUTurnRight</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1rules.html" anchor="ad3e17e6e261408048a924423b24a23cda25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
     </member>
     <member kind="enumeration">

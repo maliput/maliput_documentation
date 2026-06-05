@@ -16,6 +16,9 @@ var traffic__sign_8h =
       [ "kConstruction", "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cda4479d5fe99f9f0c7dff9b1a8fe517207", null ],
       [ "kRailroadCrossing", "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cda529c895c1db38e95924a81e577e3f05f", null ],
       [ "kNoOvertaking", "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cda10c55a8559a05f4d56b3dd803ef76d7d", null ],
+      [ "kAllWay", "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cdae923638276bdf71e087ddded743c4a60", null ],
+      [ "kNoUTurnLeft", "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cdae2c74532736f312c329618562e04fa4c", null ],
+      [ "kNoUTurnRight", "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cdacf26d0384ce24e24e86c11ad9a8c4788", null ],
       [ "kUnknown", "traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cda25c2dc47991b3df171ed5192bcf70390", null ]
     ] ],
     [ "TrafficSignValueUnit", "traffic__sign_8h.html#aea9ecf73c64d2781f06a55c8f9f2d46d", [

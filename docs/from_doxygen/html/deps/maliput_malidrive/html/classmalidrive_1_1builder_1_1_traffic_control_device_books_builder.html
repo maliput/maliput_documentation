@@ -100,14 +100,14 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1builder_1_1_traffic_
 <p>This unified builder ensures the database is loaded exactly once and each XODR element is routed to the appropriate book based on its <code>device_type</code>:</p>
 <ul>
 <li>XODR <b>signals</b>:<ul>
-<li><code>"traffic_light"</code> → TrafficLightBook</li>
-<li><code>"traffic_sign"</code> → TrafficSignBook</li>
+<li><code>"TrafficLight"</code> → TrafficLightBook</li>
+<li><code>"TrafficSign"</code> → TrafficSignBook</li>
 <li>Other/no match → skipped</li>
 </ul>
 </li>
 <li>XODR <b>objects</b>:<ul>
-<li><code>"road_marking"</code> → RoadMarkingBook</li>
-<li><code>"road_object"</code> → RoadObjectBook</li>
+<li><code>"RoadMarking"</code> → RoadMarkingBook</li>
+<li><code>"RoadObject"</code> → RoadObjectBook</li>
 <li>No match → skipped </li>
 </ul>
 </li>
