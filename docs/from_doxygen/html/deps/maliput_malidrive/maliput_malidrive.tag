@@ -2766,6 +2766,7 @@
     <name>road_object_builder.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/builder/</path>
     <filename>road__object__builder_8h.html</filename>
+    <includes id="traffic__control__device__database__loader_8h" name="traffic_control_device_database_loader.h" local="yes" imported="no">maliput_malidrive/traffic_control_device/traffic_control_device_database_loader.h</includes>
     <includes id="object_8h" name="object.h" local="yes" imported="no">maliput_malidrive/xodr/object/object.h</includes>
     <includes id="road__header_8h" name="road_header.h" local="yes" imported="no">maliput_malidrive/xodr/road_header.h</includes>
     <class kind="class">malidrive::builder::RoadObjectBuilder</class>
@@ -11771,8 +11772,8 @@
       <type></type>
       <name>RoadObjectBuilder</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_object_builder.html</anchorfile>
-      <anchor>adb85a43cfd44869f34bddfefba18dc66</anchor>
-      <arglist>(const xodr::object::Object &amp;object, const xodr::RoadHeader::Id &amp;road_id, const maliput::api::RoadGeometry *road_geometry)</arglist>
+      <anchor>ad1f7b974cf9e1c906a472e1de286ab0a</anchor>
+      <arglist>(const xodr::object::Object &amp;object, const xodr::RoadHeader::Id &amp;road_id, const traffic_control_device::TrafficControlDeviceDatabaseLoader &amp;loader, const maliput::api::RoadGeometry *road_geometry)</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; maliput::api::objects::RoadObject &gt;</type>

@@ -33447,6 +33447,13 @@
       <arglist>() const</arglist>
     </member>
     <member kind="function">
+      <type>bool</type>
+      <name>is_movable</name>
+      <anchorfile>classmaliput_1_1api_1_1objects_1_1_road_object.html</anchorfile>
+      <anchor>a5c57f24344c5eda470413927b0fbafaa</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
       <type>const std::vector&lt; LaneId &gt; &amp;</type>
       <name>related_lanes</name>
       <anchorfile>classmaliput_1_1api_1_1objects_1_1_road_object.html</anchorfile>
@@ -33485,8 +33492,8 @@
       <type></type>
       <name>RoadObject</name>
       <anchorfile>classmaliput_1_1api_1_1objects_1_1_road_object.html</anchorfile>
-      <anchor>ad1ca8bf194bbbfab7155e4aa090da36d</anchor>
-      <arglist>(const Id &amp;id, RoadObjectType type, const RoadObjectPosition &amp;position, const Rotation &amp;orientation, const maliput::math::BoundingBox &amp;bounding_box, bool is_dynamic, std::vector&lt; LaneId &gt; related_lanes, std::optional&lt; std::string &gt; name, std::optional&lt; std::string &gt; subtype, std::vector&lt; std::unique_ptr&lt; Outline &gt;&gt; outlines, std::unordered_map&lt; std::string, std::string &gt; properties)</arglist>
+      <anchor>ac7a3aba400fc11174d4493e72cd854e3</anchor>
+      <arglist>(const Id &amp;id, RoadObjectType type, const RoadObjectPosition &amp;position, const Rotation &amp;orientation, const maliput::math::BoundingBox &amp;bounding_box, bool is_dynamic, std::vector&lt; LaneId &gt; related_lanes, std::optional&lt; std::string &gt; name, std::optional&lt; std::string &gt; subtype, std::vector&lt; std::unique_ptr&lt; Outline &gt;&gt; outlines, std::unordered_map&lt; std::string, std::string &gt; properties, bool is_movable=false)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -41181,8 +41188,8 @@
       <type></type>
       <name>TrafficSign</name>
       <anchorfile>classmaliput_1_1api_1_1rules_1_1_traffic_sign.html</anchorfile>
-      <anchor>a7d4f73ab548a3f5956fca72fce82cc45</anchor>
-      <arglist>(const Id &amp;id, const TrafficSignType &amp;type, const InertialPosition &amp;position_road_network, const Rotation &amp;orientation_road_network, const std::optional&lt; std::string &gt; &amp;message, std::vector&lt; LaneId &gt; related_lanes, const maliput::math::BoundingBox &amp;bounding_box, const std::optional&lt; TrafficSignValue &gt; &amp;value=std::nullopt, std::unordered_map&lt; std::string, std::string &gt; properties={})</arglist>
+      <anchor>a1bb9acb333c6cd5a5465e4b6d3894348</anchor>
+      <arglist>(const Id &amp;id, const TrafficSignType &amp;type, const InertialPosition &amp;position_road_network, const Rotation &amp;orientation_road_network, const std::optional&lt; std::string &gt; &amp;message, std::vector&lt; LaneId &gt; related_lanes, const maliput::math::BoundingBox &amp;bounding_box, const std::optional&lt; TrafficSignValue &gt; &amp;value=std::nullopt, std::unordered_map&lt; std::string, std::string &gt; properties={}, bool is_dynamic=false, bool is_movable=false)</arglist>
     </member>
     <member kind="function">
       <type>const Id &amp;</type>
@@ -41231,6 +41238,20 @@
       <name>bounding_box</name>
       <anchorfile>classmaliput_1_1api_1_1rules_1_1_traffic_sign.html</anchorfile>
       <anchor>a2d9c84a3a6850fedfb284cbc1cbcd04c</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>is_dynamic</name>
+      <anchorfile>classmaliput_1_1api_1_1rules_1_1_traffic_sign.html</anchorfile>
+      <anchor>a022c1576faa3e6aa33649970ef602a67</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>is_movable</name>
+      <anchorfile>classmaliput_1_1api_1_1rules_1_1_traffic_sign.html</anchorfile>
+      <anchor>a5c57f24344c5eda470413927b0fbafaa</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">

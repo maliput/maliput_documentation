@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('classmaliput_1_1api_1_1rules_1_1_traff
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Abstract interface for providing the mapping from <a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_sign.html#a6cc984da1a32024eb985394c5a180578" title="Unique identifier for a TrafficSign.">TrafficSign::Id</a> to <a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_sign.html" title="Models a physical traffic sign — a static, passive signaling device placed along or above the road to...">TrafficSign</a>. </p>
+<div class="textblock"><p>Abstract interface for providing the mapping from <a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_sign.html#a6cc984da1a32024eb985394c5a180578" title="Unique identifier for a TrafficSign.">TrafficSign::Id</a> to <a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_sign.html" title="Models a physical traffic sign — a passive signaling device placed along or above the road to convey ...">TrafficSign</a>. </p>
 <p>This follows the same pattern as <a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html" title="Abstract interface for providing the mapping from TrafficLight::Id to TrafficLight.">TrafficLightBook</a>. Backend implementations are responsible for populating the book with the signs present in their road network data sources. </p>
 </div>
 <p><code>#include &lt;include/maliput/api/rules/traffic_sign_book.h&gt;</code></p>
@@ -116,7 +116,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a52ff6bb54c352ab01432147a0ad1162d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all TrafficSigns in this book.  <a href="classmaliput_1_1api_1_1rules_1_1_traffic_sign_book.html#a52ff6bb54c352ab01432147a0ad1162d">More...</a><br /></td></tr>
 <tr class="separator:a52ff6bb54c352ab01432147a0ad1162d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca5e17b46e043354c6782f1b3f91c677"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_sign.html">TrafficSign</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_sign_book.html#aca5e17b46e043354c6782f1b3f91c677">GetTrafficSign</a> (const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_sign.html#a6cc984da1a32024eb985394c5a180578">TrafficSign::Id</a> &amp;id) const</td></tr>
-<tr class="memdesc:aca5e17b46e043354c6782f1b3f91c677"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the specified <a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_sign.html" title="Models a physical traffic sign — a static, passive signaling device placed along or above the road to...">TrafficSign</a>. Returns nullptr if <code>id</code> is unrecognized.  <a href="classmaliput_1_1api_1_1rules_1_1_traffic_sign_book.html#aca5e17b46e043354c6782f1b3f91c677">More...</a><br /></td></tr>
+<tr class="memdesc:aca5e17b46e043354c6782f1b3f91c677"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the specified <a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_sign.html" title="Models a physical traffic sign — a passive signaling device placed along or above the road to convey ...">TrafficSign</a>. Returns nullptr if <code>id</code> is unrecognized.  <a href="classmaliput_1_1api_1_1rules_1_1_traffic_sign_book.html#aca5e17b46e043354c6782f1b3f91c677">More...</a><br /></td></tr>
 <tr class="separator:aca5e17b46e043354c6782f1b3f91c677"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca8e22ec7943a6b81f27bb1a52021743"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_sign.html">TrafficSign</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_sign_book.html#aca8e22ec7943a6b81f27bb1a52021743">FindByLane</a> (const <a class="el" href="namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">LaneId</a> &amp;lane_id) const</td></tr>
 <tr class="memdesc:aca8e22ec7943a6b81f27bb1a52021743"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all TrafficSigns whose related_lanes() includes <code>lane_id</code>.  <a href="classmaliput_1_1api_1_1rules_1_1_traffic_sign_book.html#aca8e22ec7943a6b81f27bb1a52021743">More...</a><br /></td></tr>
@@ -242,7 +242,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Gets the specified <a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_sign.html" title="Models a physical traffic sign — a static, passive signaling device placed along or above the road to...">TrafficSign</a>. Returns nullptr if <code>id</code> is unrecognized. </p>
+<p>Gets the specified <a class="el" href="classmaliput_1_1api_1_1rules_1_1_traffic_sign.html" title="Models a physical traffic sign — a passive signaling device placed along or above the road to convey ...">TrafficSign</a>. Returns nullptr if <code>id</code> is unrecognized. </p>
 
 </div>
 </div>

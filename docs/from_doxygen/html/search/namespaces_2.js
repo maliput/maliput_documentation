@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['launcher_6761',['launcher',['.././deps/delphyne_gui/html/namespacelauncher.html',1,'']]]
+  ['launcher_6762',['launcher',['.././deps/delphyne_gui/html/namespacelauncher.html',1,'']]]
 ];
