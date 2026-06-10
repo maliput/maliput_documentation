@@ -1,6 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"structmalidrive_1_1xodr_1_1_lane_width.html#a3a92ab48b11878e369384a9eb3b1b932":[4,0,0,4,18,0],
 "structmalidrive_1_1xodr_1_1_lane_width.html#a3e4a64d55a7d9b6fb03350cbe84b0a80":[4,0,0,4,18,7],
 "structmalidrive_1_1xodr_1_1_lane_width.html#a6be5070758b145173c3ffa45b2d72979":[4,0,0,4,18,6],
 "structmalidrive_1_1xodr_1_1_lane_width.html#a7021b504e1d7b45e938574f5452fd112":[4,0,0,4,18,8],
@@ -249,5 +248,6 @@ var NAVTREEINDEX6 =
 "structmalidrive_1_1xodr_1_1object_1_1_bridge.html#a8bcbf4a4d84cbdfbaf2a1815ff6b056f":[4,0,0,4,0,2,4],
 "structmalidrive_1_1xodr_1_1object_1_1_bridge.html#a928b11f5716331f0b89abe7d8d4124b4":[4,0,0,4,0,2,13],
 "structmalidrive_1_1xodr_1_1object_1_1_bridge.html#a9f36bf43428315b6dfd91de20f6854c2":[4,0,0,4,0,2,8],
-"structmalidrive_1_1xodr_1_1object_1_1_bridge.html#ab078d8ddaeb55f071943994e623a6e9d":[4,0,0,4,0,2,10]
+"structmalidrive_1_1xodr_1_1object_1_1_bridge.html#ab078d8ddaeb55f071943994e623a6e9d":[4,0,0,4,0,2,10],
+"structmalidrive_1_1xodr_1_1object_1_1_bridge.html#ab6f4e6d3fde00ce906e46494f60dfe7a":[4,0,0,4,0,2,16]
 };

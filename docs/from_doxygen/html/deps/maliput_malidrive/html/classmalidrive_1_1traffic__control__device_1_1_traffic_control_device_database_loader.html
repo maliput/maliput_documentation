@@ -90,37 +90,30 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1traffic__control__de
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">TrafficControlDeviceDatabaseLoader Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Loads traffic control device definitions from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database file and provides a lookup interface for querying definitions by <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a>. </p>
-<p>The loader is backed by the <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html">TrafficControlDeviceParser</a>. When a file path is provided at construction time the file is parsed immediately; subsequent <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#ae6f4fabdedd449ed9d7c5e6fcb22d59b">Lookup</a> calls perform a linear scan with specificity ranking.</p>
-<p>If no file path is provided (std::nullopt) the loader starts empty and all <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#ae6f4fabdedd449ed9d7c5e6fcb22d59b">Lookup</a> calls will return std::nullopt. </p>
+<div class="textblock"><p>Loads traffic control device definitions from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database file or content and provides a lookup interface for querying definitions by <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a>. </p>
+<p>The loader is backed by the <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html">TrafficControlDeviceParser</a>. When a database is provided at construction time the file is parsed immediately; subsequent <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#ae6f4fabdedd449ed9d7c5e6fcb22d59b">Lookup</a> calls perform a linear scan with specificity ranking.</p>
+<p>If no database is provided (std::nullopt) the loader starts empty and all <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#ae6f4fabdedd449ed9d7c5e6fcb22d59b">Lookup</a> calls will return std::nullopt. </p>
 </div>
 <p><code>#include &lt;src/maliput_malidrive/traffic_control_device/traffic_control_device_database_loader.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa4944d5d99b110440b9c623f80b66072"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#aa4944d5d99b110440b9c623f80b66072">TrafficControlDeviceDatabaseLoader</a> (const std::optional&lt; std::string &gt; &amp;file_path)</td></tr>
-<tr class="memdesc:aa4944d5d99b110440b9c623f80b66072"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html" title="Loads traffic control device definitions from a YAML database file and provides a lookup interface fo...">TrafficControlDeviceDatabaseLoader</a>.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#aa4944d5d99b110440b9c623f80b66072">More...</a><br /></td></tr>
-<tr class="separator:aa4944d5d99b110440b9c623f80b66072"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fd3a39c194e57f5c8565ba4c4adb97a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#a5fd3a39c194e57f5c8565ba4c4adb97a">TrafficControlDeviceDatabaseLoader</a> (const std::optional&lt; std::string &gt; &amp;database)</td></tr>
+<tr class="memdesc:a5fd3a39c194e57f5c8565ba4c4adb97a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html" title="Loads traffic control device definitions from a YAML database file or content and provides a lookup i...">TrafficControlDeviceDatabaseLoader</a>.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#a5fd3a39c194e57f5c8565ba4c4adb97a">More...</a><br /></td></tr>
+<tr class="separator:a5fd3a39c194e57f5c8565ba4c4adb97a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6f4fabdedd449ed9d7c5e6fcb22d59b"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html">TrafficControlDeviceDefinition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#ae6f4fabdedd449ed9d7c5e6fcb22d59b">Lookup</a> (const <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a> &amp;fingerprint) const</td></tr>
 <tr class="memdesc:ae6f4fabdedd449ed9d7c5e6fcb22d59b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks up a <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html" title="Represents a traffic signal definition loaded from the database.">TrafficControlDeviceDefinition</a> by fingerprint.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#ae6f4fabdedd449ed9d7c5e6fcb22d59b">More...</a><br /></td></tr>
 <tr class="separator:ae6f4fabdedd449ed9d7c5e6fcb22d59b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a59a7e625533ca4167d5cca6d72e9beab"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html">TrafficControlDeviceDatabaseLoader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#a59a7e625533ca4167d5cca6d72e9beab">FromString</a> (const std::string &amp;yaml_content)</td></tr>
-<tr class="memdesc:a59a7e625533ca4167d5cca6d72e9beab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html" title="Loads traffic control device definitions from a YAML database file and provides a lookup interface fo...">TrafficControlDeviceDatabaseLoader</a> from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> string.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#a59a7e625533ca4167d5cca6d72e9beab">More...</a><br /></td></tr>
-<tr class="separator:a59a7e625533ca4167d5cca6d72e9beab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa4944d5d99b110440b9c623f80b66072"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4944d5d99b110440b9c623f80b66072">&#9670;&nbsp;</a></span>TrafficControlDeviceDatabaseLoader()</h2>
+<a id="a5fd3a39c194e57f5c8565ba4c4adb97a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fd3a39c194e57f5c8565ba4c4adb97a">&#9670;&nbsp;</a></span>TrafficControlDeviceDatabaseLoader()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132,7 +125,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html">TrafficControlDeviceDatabaseLoader</a> </td>
           <td>(</td>
           <td class="paramtype">const std::optional&lt; std::string &gt; &amp;&#160;</td>
-          <td class="paramname"><em>file_path</em></td><td>)</td>
+          <td class="paramname"><em>database</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -143,10 +136,10 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructs a <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html" title="Loads traffic control device definitions from a YAML database file and provides a lookup interface fo...">TrafficControlDeviceDatabaseLoader</a>. </p>
+<p>Constructs a <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html" title="Loads traffic control device definitions from a YAML database file or content and provides a lookup i...">TrafficControlDeviceDatabaseLoader</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">file_path</td><td>Optional path to the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> traffic control device database file. When nullopt, the loader contains no definitions and all lookups return std::nullopt. </td></tr>
+    <tr><td class="paramname">database</td><td>Optional <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> traffic control device database file or content. When nullopt, the loader contains no definitions and all lookups return std::nullopt. </td></tr>
   </table>
   </dd>
 </dl>
@@ -160,47 +153,6 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a59a7e625533ca4167d5cca6d72e9beab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59a7e625533ca4167d5cca6d72e9beab">&#9670;&nbsp;</a></span>FromString()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html">TrafficControlDeviceDatabaseLoader</a> FromString </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>yaml_content</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Constructs a <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html" title="Loads traffic control device definitions from a YAML database file and provides a lookup interface fo...">TrafficControlDeviceDatabaseLoader</a> from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> string. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">yaml_content</td><td>The <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> content as a string. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html" title="Loads traffic control device definitions from a YAML database file and provides a lookup interface fo...">TrafficControlDeviceDatabaseLoader</a> instance initialized with the definitions from the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> content. </dd></dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__network__description__parser__error.html">maliput::common::road_network_description_parser_error</a></td><td>if the <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> cannot be parsed or fails schema validation. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="ae6f4fabdedd449ed9d7c5e6fcb22d59b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae6f4fabdedd449ed9d7c5e6fcb22d59b">&#9670;&nbsp;</a></span>Lookup()</h2>
 

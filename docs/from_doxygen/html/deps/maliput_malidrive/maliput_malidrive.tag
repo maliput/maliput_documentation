@@ -13911,8 +13911,8 @@
       <type></type>
       <name>TrafficControlDeviceBooksBuilder</name>
       <anchorfile>classmalidrive_1_1builder_1_1_traffic_control_device_books_builder.html</anchorfile>
-      <anchor>a23e6e871a25a39d491ea8511f29a8809</anchor>
-      <arglist>(const maliput::api::RoadGeometry *road_geometry, std::optional&lt; std::string &gt; traffic_light_book_path, std::optional&lt; std::string &gt; traffic_control_device_db_path, bool allow_non_driveable_lanes)</arglist>
+      <anchor>a56a7d4e08f5f4fa536281c4691f48d5d</anchor>
+      <arglist>(const maliput::api::RoadGeometry *road_geometry, std::optional&lt; std::string &gt; traffic_light_book_path, std::optional&lt; std::string &gt; traffic_control_device_db, bool allow_non_driveable_lanes)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -14052,8 +14052,8 @@
       <type></type>
       <name>TrafficControlDeviceDatabaseLoader</name>
       <anchorfile>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html</anchorfile>
-      <anchor>aa4944d5d99b110440b9c623f80b66072</anchor>
-      <arglist>(const std::optional&lt; std::string &gt; &amp;file_path)</arglist>
+      <anchor>a5fd3a39c194e57f5c8565ba4c4adb97a</anchor>
+      <arglist>(const std::optional&lt; std::string &gt; &amp;database)</arglist>
     </member>
     <member kind="function">
       <type>std::optional&lt; TrafficControlDeviceDefinition &gt;</type>
@@ -14061,13 +14061,6 @@
       <anchorfile>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html</anchorfile>
       <anchor>ae6f4fabdedd449ed9d7c5e6fcb22d59b</anchor>
       <arglist>(const TrafficControlDeviceFingerprint &amp;fingerprint) const</arglist>
-    </member>
-    <member kind="function" static="yes">
-      <type>static TrafficControlDeviceDatabaseLoader</type>
-      <name>FromString</name>
-      <anchorfile>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html</anchorfile>
-      <anchor>a59a7e625533ca4167d5cca6d72e9beab</anchor>
-      <arglist>(const std::string &amp;yaml_content)</arglist>
     </member>
   </compound>
   <compound kind="struct">

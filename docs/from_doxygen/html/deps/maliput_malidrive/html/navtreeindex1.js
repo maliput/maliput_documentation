@@ -64,9 +64,8 @@ var NAVTREEINDEX1 =
 "classmalidrive_1_1road__curve_1_1test_1_1_ground_curve_stub.html#a893412f6d062ecf89e90017b500d89b7":[4,0,0,2,0,1,1],
 "classmalidrive_1_1road__curve_1_1test_1_1_ground_curve_stub.html#ab96a0a91d072b842c8b688c3c050f686":[4,0,0,2,0,1,0],
 "classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html":[4,0,0,3,10],
-"classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#a59a7e625533ca4167d5cca6d72e9beab":[4,0,0,3,10,1],
-"classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#aa4944d5d99b110440b9c623f80b66072":[4,0,0,3,10,0],
-"classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#ae6f4fabdedd449ed9d7c5e6fcb22d59b":[4,0,0,3,10,2],
+"classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#a5fd3a39c194e57f5c8565ba4c4adb97a":[4,0,0,3,10,0],
+"classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#ae6f4fabdedd449ed9d7c5e6fcb22d59b":[4,0,0,3,10,1],
 "classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html":[4,0,0,3,13],
 "classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a202a62e62b4a957902e8cc99032299ac":[4,0,0,3,13,1],
 "classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html#a352614ca49fe291367c4b9329930736b":[4,0,0,3,13,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "functions_func_w.html":[4,3,1,18],
 "functions_func_~.html":[4,3,1,19],
 "functions_g.html":[4,3,0,6],
-"functions_h.html":[4,3,0,7]
+"functions_h.html":[4,3,0,7],
+"functions_i.html":[4,3,0,8]
 };

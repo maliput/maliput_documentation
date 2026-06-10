@@ -136,7 +136,8 @@ var NAVTREEINDEX =
 "road__marking_8h.html#a63593b1bc84938b6e54d2e667754bc79a7b2c5e4dc95d5692d537baa4cddf6193",
 "structmaliput_1_1api_1_1rules_1_1_range_value_rule_1_1_range.html#a2e1454f6988673f814408646edaeb320",
 "structmaliput_1_1routing_1_1_route_position_result.html#ace1e4da1663992e9a7205e769cd7193d",
-"value__producer_8h.html"
+"traffic__sign_8h.html#ad3e17e6e261408048a924423b24a23cda35896ec5ba592ceafd51593ad5b37955",
+"traffic__sign_8h.html#aea9ecf73c64d2781f06a55c8f9f2d46da3f003a1d2661f7b29e2c1dc7c3d06537"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
