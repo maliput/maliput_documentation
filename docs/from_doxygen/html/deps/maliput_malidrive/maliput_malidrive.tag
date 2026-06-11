@@ -2784,8 +2784,29 @@
       <type>maliput::api::objects::RoadObjectType</type>
       <name>MapXodrObjectType</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>a1605cf5a49afae120f1c5b59635792cf</anchor>
-      <arglist>(const std::optional&lt; xodr::object::Object::ObjectType &gt; &amp;xodr_type)</arglist>
+      <anchor>aa5e0c2fe091146f27494d85933155f06</anchor>
+      <arglist>(const std::optional&lt; xodr::object::Object::ObjectType &gt; &amp;xodr_type, std::optional&lt; std::string &gt; xodr_subtype=std::nullopt)</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
+      <name>kGuardRailSubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>ade835804bc929a7cd0d6e875be50187d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
+      <name>kWallSubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>afc955c1d3c63058342acb332430caed6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
+      <name>kJerseySubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a82b3e4d8bbb43960023148e21e03be7c</anchor>
+      <arglist></arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -2799,8 +2820,8 @@
       <type>maliput::api::objects::RoadObjectType</type>
       <name>MapXodrObjectType</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>a1605cf5a49afae120f1c5b59635792cf</anchor>
-      <arglist>(const std::optional&lt; xodr::object::Object::ObjectType &gt; &amp;xodr_type)</arglist>
+      <anchor>aa5e0c2fe091146f27494d85933155f06</anchor>
+      <arglist>(const std::optional&lt; xodr::object::Object::ObjectType &gt; &amp;xodr_type, std::optional&lt; std::string &gt; xodr_subtype=std::nullopt)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -15647,8 +15668,8 @@
       <type>maliput::api::objects::RoadObjectType</type>
       <name>MapXodrObjectType</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>a1605cf5a49afae120f1c5b59635792cf</anchor>
-      <arglist>(const std::optional&lt; xodr::object::Object::ObjectType &gt; &amp;xodr_type)</arglist>
+      <anchor>aa5e0c2fe091146f27494d85933155f06</anchor>
+      <arglist>(const std::optional&lt; xodr::object::Object::ObjectType &gt; &amp;xodr_type, std::optional&lt; std::string &gt; xodr_subtype=std::nullopt)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; xodr::Geometry &gt;</type>
@@ -15676,6 +15697,27 @@
       <name>kMinLinearTolerance</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
       <anchor>a44f6efbbeab9d98c247402c073a0381a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
+      <name>kGuardRailSubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>ade835804bc929a7cd0d6e875be50187d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
+      <name>kWallSubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>afc955c1d3c63058342acb332430caed6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
+      <name>kJerseySubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a82b3e4d8bbb43960023148e21e03be7c</anchor>
       <arglist></arglist>
     </member>
   </compound>

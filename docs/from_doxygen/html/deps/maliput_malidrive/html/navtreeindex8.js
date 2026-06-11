@@ -1,5 +1,8 @@
 var NAVTREEINDEX8 =
 {
+"structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#a7da68dc8ab4fb9bae588bdd1f6afc951a76db76548617b1b5020c7b2e572b43db":[4,0,0,4,0,15,0,7],
+"structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#a7da68dc8ab4fb9bae588bdd1f6afc951a863b6d2ba01aadc33e92389a371ead42":[4,0,0,4,0,15,0,1],
+"structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#a7da68dc8ab4fb9bae588bdd1f6afc951ac2e299845bc8b6c91d7fd1d114a48e0c":[4,0,0,4,0,15,0,3],
 "structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#a7da68dc8ab4fb9bae588bdd1f6afc951aec21b07961209ac4e37f908a553f6a58":[4,0,0,4,0,15,0,2],
 "structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#a7da68dc8ab4fb9bae588bdd1f6afc951aee61555390ad3a3a73ac40510c47e1d3":[4,0,0,4,0,15,0,6],
 "structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#a7da68dc8ab4fb9bae588bdd1f6afc951af5e6db4a0488b87efab930b32104f61d":[4,0,0,4,0,15,0,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX8 =
 "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_lane.html#a89680bce8e9857ba533b0c4f02f75450":[4,0,0,4,1,4,0,0],
 "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_lane.html#aa0d55e556cfe2b334cb2c7fc0ffcb259":[4,0,0,4,1,4,0,2],
 "structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_lane.html#ad0e021a77876a95270b3353962c9fa5e":[4,0,0,4,1,4,0,1],
-"structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_lane.html#ae558a18433cffbe940016fdb700f7690":[4,0,0,4,1,4,0,4],
-"structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_parking.html":[4,0,0,4,1,4,1],
-"structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_parking.html#a545e8e231b08e05b833d790d83240ead":[4,0,0,4,1,4,1,1],
-"structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_parking.html#a9f3c225c146674bf646c1fe396bb178d":[4,0,0,4,1,4,1,2]
+"structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_lane.html#ae558a18433cffbe940016fdb700f7690":[4,0,0,4,1,4,0,4]
 };

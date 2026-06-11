@@ -8004,6 +8004,8 @@
       <arglist></arglist>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9affa5976cb7170d234d6b69921bf0f085">kBarrier</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a2ced93895ec9dbebedc2cdc24b31eee8">kGuardWall</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a88cf0b4048d20141d269c9fd368f25ee">kGuardRail</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a4e68d62587aaa9990868bd0cdabe9c0e">kBuilding</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a10d65fde77a8f88bd9d3847c653382eb">kGantry</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9aa6c648b2a2a114b2ac0c0c4d01550a20">kObstacle</enumvalue>
@@ -48409,6 +48411,8 @@
       <arglist></arglist>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9affa5976cb7170d234d6b69921bf0f085">kBarrier</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a2ced93895ec9dbebedc2cdc24b31eee8">kGuardWall</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a88cf0b4048d20141d269c9fd368f25ee">kGuardRail</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a4e68d62587aaa9990868bd0cdabe9c0e">kBuilding</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a10d65fde77a8f88bd9d3847c653382eb">kGantry</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9aa6c648b2a2a114b2ac0c0c4d01550a20">kObstacle</enumvalue>

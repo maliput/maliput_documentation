@@ -8,6 +8,8 @@ var road__object_8h =
     [ "RoadObjectType", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9", [
       [ "kUnknown", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a25c2dc47991b3df171ed5192bcf70390", null ],
       [ "kBarrier", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9affa5976cb7170d234d6b69921bf0f085", null ],
+      [ "kGuardWall", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a2ced93895ec9dbebedc2cdc24b31eee8", null ],
+      [ "kGuardRail", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a88cf0b4048d20141d269c9fd368f25ee", null ],
       [ "kBuilding", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a4e68d62587aaa9990868bd0cdabe9c0e", null ],
       [ "kGantry", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a10d65fde77a8f88bd9d3847c653382eb", null ],
       [ "kObstacle", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9aa6c648b2a2a114b2ac0c0c4d01550a20", null ],
