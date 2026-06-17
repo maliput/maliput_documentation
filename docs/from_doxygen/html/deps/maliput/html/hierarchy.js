@@ -464,11 +464,11 @@ var hierarchy =
     [ "ValueTraitsImpl< T, use_copy >", "structmaliput_1_1drake_1_1internal_1_1_value_traits_impl.html", null ],
     [ "ValueTraitsImpl< T, false >", "structmaliput_1_1drake_1_1internal_1_1_value_traits_impl_3_01_t_00_01false_01_4.html", null ],
     [ "ValueTraitsImpl< T, true >", "structmaliput_1_1drake_1_1internal_1_1_value_traits_impl_3_01_t_00_01true_01_4.html", null ],
+    [ "VectorBase< N, Derived >", "classmaliput_1_1math_1_1_vector_base.html", null ],
     [ "VectorBase< T >", "classmaliput_1_1drake_1_1systems_1_1_vector_base.html", [
       [ "BasicVector< T >", "classmaliput_1_1drake_1_1systems_1_1_basic_vector.html", null ],
       [ "Subvector< T >", "classmaliput_1_1drake_1_1systems_1_1_subvector.html", null ]
     ] ],
-    [ "VectorBase< N, Derived >", "classmaliput_1_1math_1_1_vector_base.html", null ],
     [ "VectorBase< 2, Vector2 >", "classmaliput_1_1math_1_1_vector_base.html", [
       [ "Vector2", "classmaliput_1_1math_1_1_vector2.html", null ]
     ] ],

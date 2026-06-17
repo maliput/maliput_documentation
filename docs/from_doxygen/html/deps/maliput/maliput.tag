@@ -41476,8 +41476,8 @@
       <type></type>
       <name>TrafficSign</name>
       <anchorfile>classmaliput_1_1api_1_1rules_1_1_traffic_sign.html</anchorfile>
-      <anchor>a1bb9acb333c6cd5a5465e4b6d3894348</anchor>
-      <arglist>(const Id &amp;id, const TrafficSignType &amp;type, const InertialPosition &amp;position_road_network, const Rotation &amp;orientation_road_network, const std::optional&lt; std::string &gt; &amp;message, std::vector&lt; LaneId &gt; related_lanes, const maliput::math::BoundingBox &amp;bounding_box, const std::optional&lt; TrafficSignValue &gt; &amp;value=std::nullopt, std::unordered_map&lt; std::string, std::string &gt; properties={}, bool is_dynamic=false, bool is_movable=false)</arglist>
+      <anchor>aae2ade34d7f7df1f68b4c4f428169046</anchor>
+      <arglist>(const Id &amp;id, const TrafficSignType &amp;type, const InertialPosition &amp;position_road_network, const Rotation &amp;orientation_road_network, const std::optional&lt; std::string &gt; &amp;message, std::vector&lt; LaneId &gt; related_lanes, std::vector&lt; Id &gt; dependent_signs, const maliput::math::BoundingBox &amp;bounding_box, const std::optional&lt; TrafficSignValue &gt; &amp;value=std::nullopt, std::unordered_map&lt; std::string, std::string &gt; properties={}, bool is_dynamic=false, bool is_movable=false)</arglist>
     </member>
     <member kind="function">
       <type>const Id &amp;</type>
@@ -41519,6 +41519,13 @@
       <name>related_lanes</name>
       <anchorfile>classmaliput_1_1api_1_1rules_1_1_traffic_sign.html</anchorfile>
       <anchor>aecfd87e70076467279c0aabb6982848c</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::vector&lt; Id &gt; &amp;</type>
+      <name>dependent_signs</name>
+      <anchorfile>classmaliput_1_1api_1_1rules_1_1_traffic_sign.html</anchorfile>
+      <anchor>a30df0958a6fdeae0f520e99fec2a0c21</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -45993,193 +46000,6 @@
     </member>
   </compound>
   <compound kind="class">
-    <name>maliput::drake::systems::VectorBase</name>
-    <filename>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</filename>
-    <templarg></templarg>
-    <member kind="function" virtualness="virtual">
-      <type>virtual</type>
-      <name>~VectorBase</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>abc19c2584a73f03bd1e31277d11315b4</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function" virtualness="pure">
-      <type>virtual int</type>
-      <name>size</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a36b716289158c33f86a8cf30219be68c</anchor>
-      <arglist>() const =0</arglist>
-    </member>
-    <member kind="function">
-      <type>T &amp;</type>
-      <name>operator[]</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a2d4b36a43041d6505f82836a6aeccd52</anchor>
-      <arglist>(int index)</arglist>
-    </member>
-    <member kind="function">
-      <type>const T &amp;</type>
-      <name>operator[]</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>ab3f0073680dabba9d2778d9a6f35aed7</anchor>
-      <arglist>(int index) const</arglist>
-    </member>
-    <member kind="function">
-      <type>const T &amp;</type>
-      <name>GetAtIndex</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>ae79ea848ba1a3e2a87da1777b3f399cc</anchor>
-      <arglist>(int index) const</arglist>
-    </member>
-    <member kind="function">
-      <type>T &amp;</type>
-      <name>GetAtIndex</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>aef7a4ff282156d6974f47912756265b4</anchor>
-      <arglist>(int index)</arglist>
-    </member>
-    <member kind="function">
-      <type>void</type>
-      <name>SetAtIndex</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a5c5902bbfda44607fda562f0c3956520</anchor>
-      <arglist>(int index, const T &amp;value)</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>SetFrom</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a3a8364f71b762045df41bfcb58927fe5</anchor>
-      <arglist>(const VectorBase&lt; T &gt; &amp;value)</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>SetFromVector</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>aea9d9b7396dccc9374d87a9be04a2597</anchor>
-      <arglist>(const Eigen::Ref&lt; const VectorX&lt; T &gt;&gt; &amp;value)</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>SetZero</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a04797332f4fa1889d462e5c7aacf1400</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual VectorX&lt; T &gt;</type>
-      <name>CopyToVector</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a23751ea78ff51179a9b3ed90317c922d</anchor>
-      <arglist>() const</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>CopyToPreSizedVector</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a9f65de06c90fe4b0a0cd427032313218</anchor>
-      <arglist>(EigenPtr&lt; VectorX&lt; T &gt;&gt; vec) const</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>ScaleAndAddToVector</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>abe595692eca6a4b16cd0344195d54599</anchor>
-      <arglist>(const T &amp;scale, EigenPtr&lt; VectorX&lt; T &gt;&gt; vec) const</arglist>
-    </member>
-    <member kind="function">
-      <type>VectorBase &amp;</type>
-      <name>PlusEqScaled</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>aecb348d2ee8136278c64e180f4af21b7</anchor>
-      <arglist>(const T &amp;scale, const VectorBase&lt; T &gt; &amp;rhs)</arglist>
-    </member>
-    <member kind="function">
-      <type>VectorBase &amp;</type>
-      <name>PlusEqScaled</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a32def866adfc4d6ce3dfe3255881651c</anchor>
-      <arglist>(const std::initializer_list&lt; std::pair&lt; T, const VectorBase&lt; T &gt; &amp; &gt;&gt; &amp;rhs_scale)</arglist>
-    </member>
-    <member kind="function">
-      <type>VectorBase &amp;</type>
-      <name>operator+=</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>accc86d5305584bc7cb96971f60220125</anchor>
-      <arglist>(const VectorBase&lt; T &gt; &amp;rhs)</arglist>
-    </member>
-    <member kind="function">
-      <type>VectorBase &amp;</type>
-      <name>operator-=</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>acb91f3ae2b66473a274073f56c5fbec0</anchor>
-      <arglist>(const VectorBase&lt; T &gt; &amp;rhs)</arglist>
-    </member>
-    <member kind="function" virtualness="virtual">
-      <type>virtual void</type>
-      <name>GetElementBounds</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>afcd23700f1c0e51cb736750eb3fafa51</anchor>
-      <arglist>(Eigen::VectorXd *lower, Eigen::VectorXd *upper) const</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type></type>
-      <name>VectorBase</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a146b52fc4bf3790ed55a6c097ca3e76b</anchor>
-      <arglist>()</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual const T &amp;</type>
-      <name>DoGetAtIndexUnchecked</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>afd5f03561f8acae4788b65a50f1f3976</anchor>
-      <arglist>(int index) const =0</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual T &amp;</type>
-      <name>DoGetAtIndexUnchecked</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a97deb44c7757ee934f32bef2afed9a2b</anchor>
-      <arglist>(int index)=0</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual const T &amp;</type>
-      <name>DoGetAtIndexChecked</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>ab8b65615b7a17723177ea016cd5521a0</anchor>
-      <arglist>(int index) const =0</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="pure">
-      <type>virtual T &amp;</type>
-      <name>DoGetAtIndexChecked</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a487b2857071e5fefee941a9b9f39a5bb</anchor>
-      <arglist>(int index)=0</arglist>
-    </member>
-    <member kind="function" protection="protected" virtualness="virtual">
-      <type>virtual void</type>
-      <name>DoPlusEqScaled</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>a2fe79641d14373b863f2bb2a6bf40d14</anchor>
-      <arglist>(const std::initializer_list&lt; std::pair&lt; T, const VectorBase&lt; T &gt; &amp; &gt;&gt; &amp;rhs_scale)</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type>void</type>
-      <name>ThrowOutOfRange</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>abdd4d55ace1242d8a8deac5d5edcb8bd</anchor>
-      <arglist>(int index) const</arglist>
-    </member>
-    <member kind="function" protection="protected">
-      <type>void</type>
-      <name>ThrowMismatchedSize</name>
-      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
-      <anchor>acfa12ab9f75a241f10fe4554da824957</anchor>
-      <arglist>(int other_size) const</arglist>
-    </member>
-  </compound>
-  <compound kind="class">
     <name>maliput::math::VectorBase</name>
     <filename>classmaliput_1_1math_1_1_vector_base.html</filename>
     <templarg>N</templarg>
@@ -46393,6 +46213,193 @@
       <anchorfile>classmaliput_1_1math_1_1_vector_base.html</anchorfile>
       <anchor>abb7e8f7ce1f48418814ff28063f31567</anchor>
       <arglist>(std::ostream &amp;os, const VectorBase&lt; N_, Derived_ &gt; &amp;vector)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>maliput::drake::systems::VectorBase</name>
+    <filename>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</filename>
+    <templarg></templarg>
+    <member kind="function" virtualness="virtual">
+      <type>virtual</type>
+      <name>~VectorBase</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>abc19c2584a73f03bd1e31277d11315b4</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual int</type>
+      <name>size</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a36b716289158c33f86a8cf30219be68c</anchor>
+      <arglist>() const =0</arglist>
+    </member>
+    <member kind="function">
+      <type>T &amp;</type>
+      <name>operator[]</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a2d4b36a43041d6505f82836a6aeccd52</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>const T &amp;</type>
+      <name>operator[]</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>ab3f0073680dabba9d2778d9a6f35aed7</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>const T &amp;</type>
+      <name>GetAtIndex</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>ae79ea848ba1a3e2a87da1777b3f399cc</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>T &amp;</type>
+      <name>GetAtIndex</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>aef7a4ff282156d6974f47912756265b4</anchor>
+      <arglist>(int index)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>SetAtIndex</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a5c5902bbfda44607fda562f0c3956520</anchor>
+      <arglist>(int index, const T &amp;value)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>SetFrom</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a3a8364f71b762045df41bfcb58927fe5</anchor>
+      <arglist>(const VectorBase&lt; T &gt; &amp;value)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>SetFromVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>aea9d9b7396dccc9374d87a9be04a2597</anchor>
+      <arglist>(const Eigen::Ref&lt; const VectorX&lt; T &gt;&gt; &amp;value)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>SetZero</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a04797332f4fa1889d462e5c7aacf1400</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual VectorX&lt; T &gt;</type>
+      <name>CopyToVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a23751ea78ff51179a9b3ed90317c922d</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>CopyToPreSizedVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a9f65de06c90fe4b0a0cd427032313218</anchor>
+      <arglist>(EigenPtr&lt; VectorX&lt; T &gt;&gt; vec) const</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>ScaleAndAddToVector</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>abe595692eca6a4b16cd0344195d54599</anchor>
+      <arglist>(const T &amp;scale, EigenPtr&lt; VectorX&lt; T &gt;&gt; vec) const</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase &amp;</type>
+      <name>PlusEqScaled</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>aecb348d2ee8136278c64e180f4af21b7</anchor>
+      <arglist>(const T &amp;scale, const VectorBase&lt; T &gt; &amp;rhs)</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase &amp;</type>
+      <name>PlusEqScaled</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a32def866adfc4d6ce3dfe3255881651c</anchor>
+      <arglist>(const std::initializer_list&lt; std::pair&lt; T, const VectorBase&lt; T &gt; &amp; &gt;&gt; &amp;rhs_scale)</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase &amp;</type>
+      <name>operator+=</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>accc86d5305584bc7cb96971f60220125</anchor>
+      <arglist>(const VectorBase&lt; T &gt; &amp;rhs)</arglist>
+    </member>
+    <member kind="function">
+      <type>VectorBase &amp;</type>
+      <name>operator-=</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>acb91f3ae2b66473a274073f56c5fbec0</anchor>
+      <arglist>(const VectorBase&lt; T &gt; &amp;rhs)</arglist>
+    </member>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>GetElementBounds</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>afcd23700f1c0e51cb736750eb3fafa51</anchor>
+      <arglist>(Eigen::VectorXd *lower, Eigen::VectorXd *upper) const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>VectorBase</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a146b52fc4bf3790ed55a6c097ca3e76b</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual const T &amp;</type>
+      <name>DoGetAtIndexUnchecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>afd5f03561f8acae4788b65a50f1f3976</anchor>
+      <arglist>(int index) const =0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual T &amp;</type>
+      <name>DoGetAtIndexUnchecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a97deb44c7757ee934f32bef2afed9a2b</anchor>
+      <arglist>(int index)=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual const T &amp;</type>
+      <name>DoGetAtIndexChecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>ab8b65615b7a17723177ea016cd5521a0</anchor>
+      <arglist>(int index) const =0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="pure">
+      <type>virtual T &amp;</type>
+      <name>DoGetAtIndexChecked</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a487b2857071e5fefee941a9b9f39a5bb</anchor>
+      <arglist>(int index)=0</arglist>
+    </member>
+    <member kind="function" protection="protected" virtualness="virtual">
+      <type>virtual void</type>
+      <name>DoPlusEqScaled</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>a2fe79641d14373b863f2bb2a6bf40d14</anchor>
+      <arglist>(const std::initializer_list&lt; std::pair&lt; T, const VectorBase&lt; T &gt; &amp; &gt;&gt; &amp;rhs_scale)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>ThrowOutOfRange</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>abdd4d55ace1242d8a8deac5d5edcb8bd</anchor>
+      <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type>void</type>
+      <name>ThrowMismatchedSize</name>
+      <anchorfile>classmaliput_1_1drake_1_1systems_1_1_vector_base.html</anchorfile>
+      <anchor>acfa12ab9f75a241f10fe4554da824957</anchor>
+      <arglist>(int other_size) const</arglist>
     </member>
   </compound>
   <compound kind="class">

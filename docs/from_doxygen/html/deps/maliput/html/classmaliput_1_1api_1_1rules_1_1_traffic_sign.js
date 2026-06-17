@@ -1,8 +1,9 @@
 var classmaliput_1_1api_1_1rules_1_1_traffic_sign =
 [
     [ "Id", "classmaliput_1_1api_1_1rules_1_1_traffic_sign.html#a6cc984da1a32024eb985394c5a180578", null ],
-    [ "TrafficSign", "classmaliput_1_1api_1_1rules_1_1_traffic_sign.html#a1bb9acb333c6cd5a5465e4b6d3894348", null ],
+    [ "TrafficSign", "classmaliput_1_1api_1_1rules_1_1_traffic_sign.html#aae2ade34d7f7df1f68b4c4f428169046", null ],
     [ "bounding_box", "classmaliput_1_1api_1_1rules_1_1_traffic_sign.html#a2d9c84a3a6850fedfb284cbc1cbcd04c", null ],
+    [ "dependent_signs", "classmaliput_1_1api_1_1rules_1_1_traffic_sign.html#a30df0958a6fdeae0f520e99fec2a0c21", null ],
     [ "GetValue", "classmaliput_1_1api_1_1rules_1_1_traffic_sign.html#ac76b1ea8983f5cd3edf57a22d769dd69", null ],
     [ "id", "classmaliput_1_1api_1_1rules_1_1_traffic_sign.html#a3e9b36985fa40131c908fffb29f45c75", null ],
     [ "is_dynamic", "classmaliput_1_1api_1_1rules_1_1_traffic_sign.html#a022c1576faa3e6aa33649970ef602a67", null ],
