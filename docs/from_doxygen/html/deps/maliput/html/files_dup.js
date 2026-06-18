@@ -603,6 +603,7 @@ var files_dup =
     [ "thread_pool.h", "thread__pool_8h.html", [
       [ "ThreadPool", "classmaliput_1_1utility_1_1_thread_pool.html", "classmaliput_1_1utility_1_1_thread_pool" ]
     ] ],
+    [ "traffic_control_device_type.h", "traffic__control__device__type_8h.html", "traffic__control__device__type_8h" ],
     [ "traffic_light_book.cc", "traffic__light__book_8cc.html", null ],
     [ "api/rules/traffic_light_book.h", "api_2rules_2traffic__light__book_8h.html", [
       [ "TrafficLightBook", "classmaliput_1_1api_1_1rules_1_1_traffic_light_book.html", "classmaliput_1_1api_1_1rules_1_1_traffic_light_book" ]
