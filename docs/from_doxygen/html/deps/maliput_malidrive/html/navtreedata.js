@@ -82,16 +82,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classmalidrive_1_1road__curve_1_1_param_poly3_ground_curve.html#a1f53931d46e1be60dae53202c5d1e6fc",
-"functions_j.html",
-"material_8cc.html",
-"structmalidrive_1_1builder_1_1_road_geometry_configuration_1_1_build_tolerance.html#a81d132d0efbdf9cb0535607abd868c07",
-"structmalidrive_1_1xodr_1_1_geometry_1_1_line.html#ae5eb7d670e96fbe1fd88a48cbf34cd3b",
-"structmalidrive_1_1xodr_1_1_lane_width.html#a2c09e929a6ea340fc9653cca414b11d3",
-"structmalidrive_1_1xodr_1_1object_1_1_bridge.html#a9f36bf43428315b6dfd91de20f6854c2",
-"structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#a7da68dc8ab4fb9bae588bdd1f6afc951a76db76548617b1b5020c7b2e572b43db",
-"structmalidrive_1_1xodr_1_1signal_1_1_semantics_1_1_parking.html",
-"unit_8h.html#a241e0a91289ec2ce9ec36b1a7266371f"
+"classmalidrive_1_1road__curve_1_1_lane_offset.html#a443cf977f423fcea0ea84ca384e988ee",
+"functions_func_s.html",
+"malidrive_road_curve_design.html#questions",
+"structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aba132f98ea1230f94d40497b60aa9df4a35c3ace1970663a16e5c65baa5941b13",
+"structmalidrive_1_1xodr_1_1_geometry.html#ab6f4e6d3fde00ce906e46494f60dfe7a",
+"structmalidrive_1_1xodr_1_1_lane_section.html#ac51fa0b5e13adc44c12699402a3ebac6",
+"structmalidrive_1_1xodr_1_1object_1_1_bridge.html#a1d1cfd8ffb84e947f82999c682b666a7a98204a196891e5dfc717c008285ec274",
+"structmalidrive_1_1xodr_1_1object_1_1_parking_space.html#a31ccb6c7a2505f548c38b789fa4f5052",
+"structmalidrive_1_1xodr_1_1signal_1_1_semantics.html#ae0486e8f20e1d4da620195c0ad76ffcea90f77a0883a7e1a509acaa78348c96f3",
+"tunnel_8cc.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

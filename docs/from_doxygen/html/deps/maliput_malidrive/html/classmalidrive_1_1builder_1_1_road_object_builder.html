@@ -89,6 +89,7 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1builder_1_1_road_obj
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classmalidrive_1_1builder_1_1_road_object_builder-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -96,23 +97,60 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1builder_1_1_road_obj
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Builds a single <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1objects_1_1_road_object.html">maliput::api::objects::RoadObject</a> from an XODR <a class="el" href="structmalidrive_1_1xodr_1_1object_1_1_object.html">xodr::object::Object</a>. </p>
-<p>The builder follows the functor pattern: construct it with all required inputs and call <a class="el" href="classmalidrive_1_1builder_1_1_road_object_builder.html#afe744806abf9296249922d68743bf051">operator()()</a> to produce the result. </p>
+<div class="textblock"><p>Builds a single <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1objects_1_1_road_object.html">maliput::api::objects::RoadObject</a> from either an XODR <a class="el" href="structmalidrive_1_1xodr_1_1object_1_1_object.html">xodr::object::Object</a> or an XODR <a class="el" href="structmalidrive_1_1xodr_1_1signal_1_1_signal.html">xodr::signal::Signal</a>. </p>
+<p>The builder follows the functor pattern: construct it with all required inputs and an explicit source selector, then call <a class="el" href="classmalidrive_1_1builder_1_1_road_object_builder.html#afe744806abf9296249922d68743bf051">operator()()</a> to produce the result. </p>
 </div>
 <p><code>#include &lt;src/maliput_malidrive/builder/road_object_builder.h&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a3ae727773c367ac1041d72ac770a0ab1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_object_builder.html#a3ae727773c367ac1041d72ac770a0ab1">SourceType</a> { <a class="el" href="classmalidrive_1_1builder_1_1_road_object_builder.html#a3ae727773c367ac1041d72ac770a0ab1a11de01cf6422a18af800cdc262cf2f31">kObject</a>, 
+<a class="el" href="classmalidrive_1_1builder_1_1_road_object_builder.html#a3ae727773c367ac1041d72ac770a0ab1a5ed213bcecec2275973d093617143038">kSignal</a>
+ }</td></tr>
+<tr class="separator:a3ae727773c367ac1041d72ac770a0ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad1f7b974cf9e1c906a472e1de286ab0a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_object_builder.html#ad1f7b974cf9e1c906a472e1de286ab0a">RoadObjectBuilder</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1object_1_1_object.html">xodr::object::Object</a> &amp;object, const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">xodr::RoadHeader::Id</a> &amp;road_id, const <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html">traffic_control_device::TrafficControlDeviceDatabaseLoader</a> &amp;loader, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *road_geometry)</td></tr>
-<tr class="memdesc:ad1f7b974cf9e1c906a472e1de286ab0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmalidrive_1_1builder_1_1_road_object_builder.html" title="Builds a single maliput::api::objects::RoadObject from an XODR xodr::object::Object.">RoadObjectBuilder</a>.  <a href="classmalidrive_1_1builder_1_1_road_object_builder.html#ad1f7b974cf9e1c906a472e1de286ab0a">More...</a><br /></td></tr>
-<tr class="separator:ad1f7b974cf9e1c906a472e1de286ab0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa64f14dc6b802c9b29c7e89c854f15db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_object_builder.html#aa64f14dc6b802c9b29c7e89c854f15db">RoadObjectBuilder</a> (<a class="el" href="classmalidrive_1_1builder_1_1_road_object_builder.html#a3ae727773c367ac1041d72ac770a0ab1">SourceType</a> source_type, const <a class="el" href="structmalidrive_1_1xodr_1_1object_1_1_object.html">xodr::object::Object</a> &amp;object, const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">xodr::RoadHeader::Id</a> &amp;road_id, const <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html">traffic_control_device::TrafficControlDeviceDatabaseLoader</a> &amp;loader, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *road_geometry)</td></tr>
+<tr class="memdesc:aa64f14dc6b802c9b29c7e89c854f15db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmalidrive_1_1builder_1_1_road_object_builder.html" title="Builds a single maliput::api::objects::RoadObject from either an XODR xodr::object::Object or an XODR...">RoadObjectBuilder</a>.  <a href="classmalidrive_1_1builder_1_1_road_object_builder.html#aa64f14dc6b802c9b29c7e89c854f15db">More...</a><br /></td></tr>
+<tr class="separator:aa64f14dc6b802c9b29c7e89c854f15db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a092f518444573a2e1d2bfa1020bc7ffa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_object_builder.html#a092f518444573a2e1d2bfa1020bc7ffa">RoadObjectBuilder</a> (<a class="el" href="classmalidrive_1_1builder_1_1_road_object_builder.html#a3ae727773c367ac1041d72ac770a0ab1">SourceType</a> source_type, const <a class="el" href="structmalidrive_1_1xodr_1_1signal_1_1_signal.html">xodr::signal::Signal</a> &amp;signal, const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">xodr::RoadHeader::Id</a> &amp;road_id, const <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html">traffic_control_device::TrafficControlDeviceDatabaseLoader</a> &amp;loader, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *road_geometry)</td></tr>
+<tr class="memdesc:a092f518444573a2e1d2bfa1020bc7ffa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmalidrive_1_1builder_1_1_road_object_builder.html" title="Builds a single maliput::api::objects::RoadObject from either an XODR xodr::object::Object or an XODR...">RoadObjectBuilder</a>.  <a href="classmalidrive_1_1builder_1_1_road_object_builder.html#a092f518444573a2e1d2bfa1020bc7ffa">More...</a><br /></td></tr>
+<tr class="separator:a092f518444573a2e1d2bfa1020bc7ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe744806abf9296249922d68743bf051"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1objects_1_1_road_object.html">maliput::api::objects::RoadObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1builder_1_1_road_object_builder.html#afe744806abf9296249922d68743bf051">operator()</a> () const</td></tr>
 <tr class="memdesc:afe744806abf9296249922d68743bf051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds and returns the <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1objects_1_1_road_object.html">maliput::api::objects::RoadObject</a>.  <a href="classmalidrive_1_1builder_1_1_road_object_builder.html#afe744806abf9296249922d68743bf051">More...</a><br /></td></tr>
 <tr class="separator:afe744806abf9296249922d68743bf051"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a3ae727773c367ac1041d72ac770a0ab1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ae727773c367ac1041d72ac770a0ab1">&#9670;&nbsp;</a></span>SourceType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classmalidrive_1_1builder_1_1_road_object_builder.html#a3ae727773c367ac1041d72ac770a0ab1">SourceType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3ae727773c367ac1041d72ac770a0ab1a11de01cf6422a18af800cdc262cf2f31"></a>kObject&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3ae727773c367ac1041d72ac770a0ab1a5ed213bcecec2275973d093617143038"></a>kSignal&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ad1f7b974cf9e1c906a472e1de286ab0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1f7b974cf9e1c906a472e1de286ab0a">&#9670;&nbsp;</a></span>RoadObjectBuilder()</h2>
+<a id="aa64f14dc6b802c9b29c7e89c854f15db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa64f14dc6b802c9b29c7e89c854f15db">&#9670;&nbsp;</a></span>RoadObjectBuilder() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -120,6 +158,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classmalidrive_1_1builder_1_1_road_object_builder.html">RoadObjectBuilder</a> </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="classmalidrive_1_1builder_1_1_road_object_builder.html#a3ae727773c367ac1041d72ac770a0ab1">SourceType</a>&#160;</td>
+          <td class="paramname"><em>source_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const <a class="el" href="structmalidrive_1_1xodr_1_1object_1_1_object.html">xodr::object::Object</a> &amp;&#160;</td>
           <td class="paramname"><em>object</em>, </td>
         </tr>
@@ -149,9 +193,10 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructs a <a class="el" href="classmalidrive_1_1builder_1_1_road_object_builder.html" title="Builds a single maliput::api::objects::RoadObject from an XODR xodr::object::Object.">RoadObjectBuilder</a>. </p>
+<p>Constructs a <a class="el" href="classmalidrive_1_1builder_1_1_road_object_builder.html" title="Builds a single maliput::api::objects::RoadObject from either an XODR xodr::object::Object or an XODR...">RoadObjectBuilder</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">source_type</td><td>The XODR element type this builder will read from. </td></tr>
     <tr><td class="paramname">object</td><td>The XODR object to build a RoadObject from. </td></tr>
     <tr><td class="paramname">road_id</td><td>The XODR road's ID the <code>object</code> belongs to. </td></tr>
     <tr><td class="paramname">loader</td><td>Database loader for looking up object device definitions. </td></tr>
@@ -161,7 +206,71 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">std::invalid_argument</td><td>if <code>road_geometry</code> is nullptr. </td></tr>
+    <tr><td class="paramname">std::invalid_argument</td><td>if <code>source_type</code> is not kObject or <code>road_geometry</code> is nullptr. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a092f518444573a2e1d2bfa1020bc7ffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a092f518444573a2e1d2bfa1020bc7ffa">&#9670;&nbsp;</a></span>RoadObjectBuilder() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmalidrive_1_1builder_1_1_road_object_builder.html">RoadObjectBuilder</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmalidrive_1_1builder_1_1_road_object_builder.html#a3ae727773c367ac1041d72ac770a0ab1">SourceType</a>&#160;</td>
+          <td class="paramname"><em>source_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1xodr_1_1signal_1_1_signal.html">xodr::signal::Signal</a> &amp;&#160;</td>
+          <td class="paramname"><em>signal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">xodr::RoadHeader::Id</a> &amp;&#160;</td>
+          <td class="paramname"><em>road_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html">traffic_control_device::TrafficControlDeviceDatabaseLoader</a> &amp;&#160;</td>
+          <td class="paramname"><em>loader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *&#160;</td>
+          <td class="paramname"><em>road_geometry</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructs a <a class="el" href="classmalidrive_1_1builder_1_1_road_object_builder.html" title="Builds a single maliput::api::objects::RoadObject from either an XODR xodr::object::Object or an XODR...">RoadObjectBuilder</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source_type</td><td>The XODR element type this builder will read from. </td></tr>
+    <tr><td class="paramname">signal</td><td>The XODR signal to build a RoadObject from. </td></tr>
+    <tr><td class="paramname">road_id</td><td>The XODR road's ID the <code>signal</code> belongs to. </td></tr>
+    <tr><td class="paramname">loader</td><td>Database loader for looking up signal device definitions. </td></tr>
+    <tr><td class="paramname">road_geometry</td><td>Pointer to the road geometry. Must not be nullptr. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::invalid_argument</td><td>if <code>source_type</code> is not kSignal or <code>road_geometry</code> is nullptr. </td></tr>
   </table>
   </dd>
 </dl>

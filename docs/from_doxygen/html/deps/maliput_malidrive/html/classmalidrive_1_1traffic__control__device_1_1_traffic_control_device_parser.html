@@ -101,7 +101,7 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1traffic__control__de
 <p>The resulting definitions are used in tandem with XODR signal/object data to create maliput <code>TrafficLight</code>, <code>TrafficSign</code>, <code>RoadMarking</code>, and <code>RoadObject</code> representations.</p>
 <p>Design:</p><ul>
 <li>Each definition carries a <code>device_type</code> field that determines whether the entry is a traffic light, traffic sign, road marking, or road object.</li>
-<li>For signals (<code>odr_signal_types</code>): <code>device_type</code> must be <code>traffic_light</code> or <code>traffic_sign</code>.</li>
+<li>For signals (<code>odr_signal_types</code>): <code>device_type</code> must be <code>traffic_light</code>, <code>traffic_sign</code>, <code>road_marking</code>, or <code>road_object</code>.</li>
 <li>For objects (<code>odr_object_types</code>): <code>device_type</code> must be <code>road_marking</code> or <code>road_object</code>. Object entries' <code>odr_representation</code> only carries <code>type</code>, <code>subtype</code>, and <code>name</code>; <code>country</code>/<code>country_revision</code> are not permitted. Object entries' <code>properties</code> may not include <code>bulbs</code> or <code>rule_states</code>.</li>
 </ul>
 <p>The two root keys are independently validated for equal-specificity conflicts: a signal and an object sharing a fingerprint do NOT conflict, because OpenDRIVE signals and objects live in disjoint namespaces. Both vectors are merged into a single flat result returned to the caller; downstream code discriminates entries by <code>device_type</code>.</p>
@@ -111,6 +111,8 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1traffic__control__de
 <li>Inspect <code>device_type</code> to route the signal to the appropriate builder:<ul>
 <li><code>"traffic_light"</code> → build a <code>TrafficLight</code>.</li>
 <li><code>"traffic_sign"</code> → build a <code>TrafficSign</code> whose type is mapped from <code>device_semantics</code>.</li>
+<li><code>"road_marking"</code> → build a <code>RoadMarking</code>.</li>
+<li><code>"road_object"</code> → build a <code>RoadObject</code>.</li>
 </ul>
 </li>
 <li>Link the resulting objects to their affected lanes using signal validity data from the XODR file. </li>
