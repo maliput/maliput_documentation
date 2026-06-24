@@ -123,6 +123,9 @@ Signals</h2></td></tr>
 <tr class="memitem:abb23986e0336290834491e4177846a3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#abb23986e0336290834491e4177846a3a">LaneInfoChanged</a> ()</td></tr>
 <tr class="memdesc:abb23986e0336290834491e4177846a3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signal emitted to update the info about the clicked lane.  <a href="classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#abb23986e0336290834491e4177846a3a">More...</a><br /></td></tr>
 <tr class="separator:abb23986e0336290834491e4177846a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ebd9c5b9bd00a7ba71ff684b8760ad9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#a9ebd9c5b9bd00a7ba71ff684b8760ad9">SignInfoChanged</a> ()</td></tr>
+<tr class="memdesc:a9ebd9c5b9bd00a7ba71ff684b8760ad9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signal emitted to update the info about the clicked traffic sign.  <a href="classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#a9ebd9c5b9bd00a7ba71ff684b8760ad9">More...</a><br /></td></tr>
+<tr class="separator:a9ebd9c5b9bd00a7ba71ff684b8760ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a265a248e9ec480f14ba8096373f16997"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#a265a248e9ec480f14ba8096373f16997">LayerCheckboxesChanged</a> ()</td></tr>
 <tr class="memdesc:a265a248e9ec480f14ba8096373f16997"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signal emitted to reset the checkboxes' state for the layers visualization when a new RoadNetwork is loaded.  <a href="classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#a265a248e9ec480f14ba8096373f16997">More...</a><br /></td></tr>
 <tr class="separator:a265a248e9ec480f14ba8096373f16997"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,6 +153,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad86a5812d7d91c42f1ea068f66170382"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#ad86a5812d7d91c42f1ea068f66170382">LaneInfo</a> () const</td></tr>
 <tr class="memdesc:ad86a5812d7d91c42f1ea068f66170382"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a lane is clicked. Update info related to the clicked surface.  <a href="classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#ad86a5812d7d91c42f1ea068f66170382">More...</a><br /></td></tr>
 <tr class="separator:ad86a5812d7d91c42f1ea068f66170382"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c34aecf33d484d36e5f466ba978bfd6"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#a7c34aecf33d484d36e5f466ba978bfd6">SignInfo</a> () const</td></tr>
+<tr class="memdesc:a7c34aecf33d484d36e5f466ba978bfd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a traffic sign is clicked. Returns the sign's fields as a formatted string.  <a href="classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#a7c34aecf33d484d36e5f466ba978bfd6">More...</a><br /></td></tr>
+<tr class="separator:a7c34aecf33d484d36e5f466ba978bfd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50f55ea12a1fcb4aa2511e7d2194786e"><td class="memItemLeft" align="right" valign="top">Q_INVOKABLE QList&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#a50f55ea12a1fcb4aa2511e7d2194786e">LayerCheckboxes</a> () const</td></tr>
 <tr class="memdesc:a50f55ea12a1fcb4aa2511e7d2194786e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a new RoadNetwork is loaded to default the checkboxes' state in the layers selection panel for the meshes.  <a href="classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#a50f55ea12a1fcb4aa2511e7d2194786e">More...</a><br /></td></tr>
 <tr class="separator:a50f55ea12a1fcb4aa2511e7d2194786e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -201,6 +207,9 @@ Properties</h2></td></tr>
 <tr class="memitem:a12e3ea52b1f6d0c5b5a3c0f467a87bbd"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#a12e3ea52b1f6d0c5b5a3c0f467a87bbd">laneInfo</a> {}</td></tr>
 <tr class="memdesc:a12e3ea52b1f6d0c5b5a3c0f467a87bbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Property used to load the info about the surface clicked in the correspondant UI's area.  <a href="classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#a12e3ea52b1f6d0c5b5a3c0f467a87bbd">More...</a><br /></td></tr>
 <tr class="separator:a12e3ea52b1f6d0c5b5a3c0f467a87bbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9ddae2eca449f9b77c875461baf9a4d"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#ad9ddae2eca449f9b77c875461baf9a4d">signInfo</a> {}</td></tr>
+<tr class="memdesc:ad9ddae2eca449f9b77c875461baf9a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Property used to display the fields of the traffic sign clicked in the correspondant UI's area.  <a href="classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#ad9ddae2eca449f9b77c875461baf9a4d">More...</a><br /></td></tr>
+<tr class="separator:ad9ddae2eca449f9b77c875461baf9a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5aecd0bbd14633a991a956b465d24870"></a>
@@ -712,6 +721,52 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a7c34aecf33d484d36e5f466ba978bfd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c34aecf33d484d36e5f466ba978bfd6">&#9670;&nbsp;</a></span>SignInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString SignInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called when a traffic sign is clicked. Returns the sign's fields as a formatted string. </p>
+
+</div>
+</div>
+<a id="a9ebd9c5b9bd00a7ba71ff684b8760ad9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ebd9c5b9bd00a7ba71ff684b8760ad9">&#9670;&nbsp;</a></span>SignInfoChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SignInfoChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Signal emitted to update the info about the clicked traffic sign. </p>
+
+</div>
+</div>
 <a id="a35b774dc0a5baf05cedcbd8ebb1abc81"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a35b774dc0a5baf05cedcbd8ebb1abc81">&#9670;&nbsp;</a></span>tableLaneIdSelection</h2>
 
@@ -890,6 +945,31 @@ Properties</h2></td></tr>
 
 <p>Property used to load the rules in the correspondant UI's area. </p>
 <p>Holds the rules of the last selected lane that are displayed in the UI. </p>
+
+</div>
+</div>
+<a id="ad9ddae2eca449f9b77c875461baf9a4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9ddae2eca449f9b77c875461baf9a4d">&#9670;&nbsp;</a></span>signInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString signInfo {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Property used to display the fields of the traffic sign clicked in the correspondant UI's area. </p>
+<p>Holds the fields of the last clicked traffic sign displayed in the UI. </p>
 
 </div>
 </div>

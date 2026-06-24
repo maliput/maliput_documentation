@@ -8,7 +8,7 @@ var indexSectionsWithContent =
   5: "beklmptv",
   6: "m",
   7: "k",
-  8: "lr"
+  8: "lrs"
 };
 
 var indexSectionNames =

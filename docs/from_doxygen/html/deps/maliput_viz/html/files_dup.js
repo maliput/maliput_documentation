@@ -30,6 +30,10 @@ var files_dup =
     [ "traffic_light_manager.hh", "traffic__light__manager_8hh.html", [
       [ "TrafficLightManager", "classmaliput_1_1viz_1_1_traffic_light_manager.html", "classmaliput_1_1viz_1_1_traffic_light_manager" ]
     ] ],
+    [ "traffic_sign_manager.cc", "traffic__sign__manager_8cc.html", null ],
+    [ "traffic_sign_manager.hh", "traffic__sign__manager_8hh.html", [
+      [ "TrafficSignManager", "classmaliput_1_1viz_1_1_traffic_sign_manager.html", "classmaliput_1_1viz_1_1_traffic_sign_manager" ]
+    ] ],
     [ "yaml_parser.cc", "yaml__parser_8cc.html", "yaml__parser_8cc" ],
     [ "yaml_parser.h", "yaml__parser_8h.html", "yaml__parser_8h" ]
 ];

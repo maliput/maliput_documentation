@@ -359,6 +359,7 @@
     <includes id="maliput__backend__selection_8hh" name="maliput_backend_selection.hh" local="yes" imported="no">maliput_backend_selection.hh</includes>
     <includes id="selector_8hh" name="selector.hh" local="yes" imported="no">selector.hh</includes>
     <includes id="traffic__light__manager_8hh" name="traffic_light_manager.hh" local="yes" imported="no">traffic_light_manager.hh</includes>
+    <includes id="traffic__sign__manager_8hh" name="traffic_sign_manager.hh" local="yes" imported="no">traffic_sign_manager.hh</includes>
     <class kind="class">maliput::viz::PhaseTreeModel</class>
     <class kind="class">maliput::viz::MaliputViewerPlugin</class>
     <namespace>maliput</namespace>
@@ -408,6 +409,22 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_viz/src/maliput_viz/plugins/</path>
     <filename>traffic__light__manager_8hh.html</filename>
     <class kind="class">maliput::viz::TrafficLightManager</class>
+    <namespace>maliput</namespace>
+    <namespace>maliput::viz</namespace>
+  </compound>
+  <compound kind="file">
+    <name>traffic_sign_manager.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_viz/src/maliput_viz/plugins/</path>
+    <filename>traffic__sign__manager_8cc.html</filename>
+    <includes id="traffic__sign__manager_8hh" name="traffic_sign_manager.hh" local="yes" imported="no">traffic_sign_manager.hh</includes>
+    <namespace>maliput</namespace>
+    <namespace>maliput::viz</namespace>
+  </compound>
+  <compound kind="file">
+    <name>traffic_sign_manager.hh</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_viz/src/maliput_viz/plugins/</path>
+    <filename>traffic__sign__manager_8hh.html</filename>
+    <class kind="class">maliput::viz::TrafficSignManager</class>
     <namespace>maliput</namespace>
     <namespace>maliput::viz</namespace>
   </compound>
@@ -674,6 +691,13 @@
       <arglist>() const</arglist>
     </member>
     <member kind="function">
+      <type>std::vector&lt; const maliput::api::rules::TrafficSign * &gt;</type>
+      <name>GetTrafficSigns</name>
+      <anchorfile>classmaliput_1_1viz_1_1_maliput_viewer_model.html</anchorfile>
+      <anchor>a61fb095db15529d11c76429136f47387</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
       <type>ContainerType</type>
       <name>GetNLanes</name>
       <anchorfile>classmaliput_1_1viz_1_1_maliput_viewer_model.html</anchorfile>
@@ -735,6 +759,13 @@
     </member>
     <member kind="signal">
       <type>void</type>
+      <name>SignInfoChanged</name>
+      <anchorfile>classmaliput_1_1viz_1_1_maliput_viewer_plugin.html</anchorfile>
+      <anchor>a9ebd9c5b9bd00a7ba71ff684b8760ad9</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="signal">
+      <type>void</type>
       <name>LayerCheckboxesChanged</name>
       <anchorfile>classmaliput_1_1viz_1_1_maliput_viewer_plugin.html</anchorfile>
       <anchor>a265a248e9ec480f14ba8096373f16997</anchor>
@@ -787,6 +818,13 @@
       <name>LaneInfo</name>
       <anchorfile>classmaliput_1_1viz_1_1_maliput_viewer_plugin.html</anchorfile>
       <anchor>ad86a5812d7d91c42f1ea068f66170382</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>Q_INVOKABLE QString</type>
+      <name>SignInfo</name>
+      <anchorfile>classmaliput_1_1viz_1_1_maliput_viewer_plugin.html</anchorfile>
+      <anchor>a7c34aecf33d484d36e5f466ba978bfd6</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -885,6 +923,13 @@
       <name>laneInfo</name>
       <anchorfile>classmaliput_1_1viz_1_1_maliput_viewer_plugin.html</anchorfile>
       <anchor>a12e3ea52b1f6d0c5b5a3c0f467a87bbd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="property">
+      <type>QString</type>
+      <name>signInfo</name>
+      <anchorfile>classmaliput_1_1viz_1_1_maliput_viewer_plugin.html</anchorfile>
+      <anchor>ad9ddae2eca449f9b77c875461baf9a4d</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -1273,6 +1318,45 @@
       <arglist>(const maliput::api::rules::BulbStates &amp;_bulbStates)</arglist>
     </member>
   </compound>
+  <compound kind="class">
+    <name>maliput::viz::TrafficSignManager</name>
+    <filename>classmaliput_1_1viz_1_1_traffic_sign_manager.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>TrafficSignManager</name>
+      <anchorfile>classmaliput_1_1viz_1_1_traffic_sign_manager.html</anchorfile>
+      <anchor>a923020e58f31054b86a95fc010615d74</anchor>
+      <arglist>(ignition::rendering::ScenePtr _scene)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~TrafficSignManager</name>
+      <anchorfile>classmaliput_1_1viz_1_1_traffic_sign_manager.html</anchorfile>
+      <anchor>a8f7448d017377f150bbf08c3b077b193</anchor>
+      <arglist>()=default</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>CreateTrafficSigns</name>
+      <anchorfile>classmaliput_1_1viz_1_1_traffic_sign_manager.html</anchorfile>
+      <anchor>ab4d6e72138a723190da8c033fb3c8ee5</anchor>
+      <arglist>(const std::vector&lt; const maliput::api::rules::TrafficSign * &gt; &amp;_signs)</arglist>
+    </member>
+    <member kind="function">
+      <type>void</type>
+      <name>Clear</name>
+      <anchorfile>classmaliput_1_1viz_1_1_traffic_sign_manager.html</anchorfile>
+      <anchor>aa71d36872f416feaa853788a7a7a7ef8</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>const maliput::api::rules::TrafficSign *</type>
+      <name>GetTrafficSignAtPoint</name>
+      <anchorfile>classmaliput_1_1viz_1_1_traffic_sign_manager.html</anchorfile>
+      <anchor>a9af79f522c0e81c493d62452f17f182f</anchor>
+      <arglist>(const ignition::math::Vector3d &amp;_point, double _tolerance=0.0) const</arglist>
+    </member>
+  </compound>
   <compound kind="namespace">
     <name>maliput</name>
     <filename>namespacemaliput.html</filename>
@@ -1296,6 +1380,7 @@
     <class kind="class">maliput::viz::RoadNetworkQuery</class>
     <class kind="class">maliput::viz::Selector</class>
     <class kind="class">maliput::viz::TrafficLightManager</class>
+    <class kind="class">maliput::viz::TrafficSignManager</class>
     <member kind="enumeration">
       <type></type>
       <name>MaliputLabelType</name>

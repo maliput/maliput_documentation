@@ -18,11 +18,14 @@ var classmaliput_1_1viz_1_1_maliput_viewer_plugin =
     [ "OnTableLaneIdSelection", "classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#a699c51d2d51a7bec5bdc62bc753323ec", null ],
     [ "RulesList", "classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#af0f17b557fe549c1c75a378dbc40b372", null ],
     [ "RulesListChanged", "classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#a07ea385d7fa92704e009d5ab243b951b", null ],
+    [ "SignInfo", "classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#a7c34aecf33d484d36e5f466ba978bfd6", null ],
+    [ "SignInfoChanged", "classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#a9ebd9c5b9bd00a7ba71ff684b8760ad9", null ],
     [ "tableLaneIdSelection", "classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#a35b774dc0a5baf05cedcbd8ebb1abc81", null ],
     [ "timerEvent", "classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#ad69907c6b92e2e76300e11e16c8f766c", null ],
     [ "labelCheckboxes", "classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#abf15b00fedb92c4fdcd543f94bafa2b0", null ],
     [ "laneInfo", "classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#a12e3ea52b1f6d0c5b5a3c0f467a87bbd", null ],
     [ "layerCheckboxes", "classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#a2f347d6b967c40c012d56321b73caea3", null ],
     [ "listLanes", "classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#a315ffe938ec623ebf6d6c8f712884532", null ],
-    [ "rulesList", "classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#a73886dd817a5fc277ac977eb3a0d721f", null ]
+    [ "rulesList", "classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#a73886dd817a5fc277ac977eb3a0d721f", null ],
+    [ "signInfo", "classmaliput_1_1viz_1_1_maliput_viewer_plugin.html#ad9ddae2eca449f9b77c875461baf9a4d", null ]
 ];

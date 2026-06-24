@@ -20,5 +20,6 @@ var hierarchy =
     ] ],
     [ "RoadNetworkQuery", "classmaliput_1_1viz_1_1_road_network_query.html", null ],
     [ "Selector", "classmaliput_1_1viz_1_1_selector.html", null ],
-    [ "TrafficLightManager", "classmaliput_1_1viz_1_1_traffic_light_manager.html", null ]
+    [ "TrafficLightManager", "classmaliput_1_1viz_1_1_traffic_light_manager.html", null ],
+    [ "TrafficSignManager", "classmaliput_1_1viz_1_1_traffic_sign_manager.html", null ]
 ];
