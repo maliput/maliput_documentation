@@ -13,6 +13,7 @@ var classmaliput_1_1api_1_1_lane =
     [ "GetOrientation", "classmaliput_1_1api_1_1_lane.html#a906c4381f7140717da253134fcb07c50", null ],
     [ "id", "classmaliput_1_1api_1_1_lane.html#ad7ac028203eb2b168bc5b5c534e07fda", null ],
     [ "index", "classmaliput_1_1api_1_1_lane.html#acca41811e8aaab0112b987749c0ecb93", null ],
+    [ "is_intersection", "classmaliput_1_1api_1_1_lane.html#a377184a86cf21ed2d7c7258a0941a320", null ],
     [ "lane_bounds", "classmaliput_1_1api_1_1_lane.html#ae752f15836c67feb95eb494e832f62b2", null ],
     [ "left_boundary", "classmaliput_1_1api_1_1_lane.html#adead8fd94b9f728dae746fef775205b8", null ],
     [ "length", "classmaliput_1_1api_1_1_lane.html#a80401d480f15e1418a3274a2b2b51649", null ],

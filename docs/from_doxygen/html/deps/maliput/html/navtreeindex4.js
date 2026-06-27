@@ -1,5 +1,8 @@
 var NAVTREEINDEX4 =
 {
+"classmaliput_1_1drake_1_1_polynomial.html#a0275f6d151c53f7ae3c0d645db2aaec1":[4,0,0,2,25,39],
+"classmaliput_1_1drake_1_1_polynomial.html#a0336e52f67607fbff0f977957b3c1767":[4,0,0,2,25,18],
+"classmaliput_1_1drake_1_1_polynomial.html#a0464cbf2371ba0b4254c78aecb174f6b":[4,0,0,2,25,36],
 "classmaliput_1_1drake_1_1_polynomial.html#a09e6270f0971946ecc0de262e8d4262d":[4,0,0,2,25,21],
 "classmaliput_1_1drake_1_1_polynomial.html#a0a83f7960aa020c56d20f435dba4d3cd":[4,0,0,2,25,31],
 "classmaliput_1_1drake_1_1_polynomial.html#a0e0d4eb5592e1778a328c776cfdbaff8":[4,0,0,2,25,27],
@@ -246,8 +249,5 @@ var NAVTREEINDEX4 =
 "classmaliput_1_1drake_1_1systems_1_1_cache.html#aedc23f6283ac85b86b8ba8b7dea11193":[4,0,0,2,3,5,7],
 "classmaliput_1_1drake_1_1systems_1_1_cache_entry.html":[4,0,0,2,3,6],
 "classmaliput_1_1drake_1_1systems_1_1_cache_entry.html#a3947b9d8e95098739aaaea55af1d1ead":[4,0,0,2,3,6,1],
-"classmaliput_1_1drake_1_1systems_1_1_cache_entry.html#a3a3557e2bc095e451d1dabf10ea2cf34":[4,0,0,2,3,6,16],
-"classmaliput_1_1drake_1_1systems_1_1_cache_entry.html#a44c8652f64c775bd9277cd1e04d07744":[4,0,0,2,3,6,20],
-"classmaliput_1_1drake_1_1systems_1_1_cache_entry.html#a4df060317da95358cd76822bd802de72":[4,0,0,2,3,6,0],
-"classmaliput_1_1drake_1_1systems_1_1_cache_entry.html#a536afa267447cfffb110d41b177802d9":[4,0,0,2,3,6,23]
+"classmaliput_1_1drake_1_1systems_1_1_cache_entry.html#a3a3557e2bc095e451d1dabf10ea2cf34":[4,0,0,2,3,6,16]
 };

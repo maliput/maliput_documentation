@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"classmaliput_1_1api_1_1_road_network.html#a5ee80a3c33b3b391440158ff4418e1af":[4,0,0,0,24,14],
+"classmaliput_1_1api_1_1_road_network.html#a676f090e349fcc28908575aa491468b6":[4,0,0,0,24,3],
 "classmaliput_1_1api_1_1_road_network.html#a78b5fae7828329c63345d87ae12ada1c":[4,0,0,0,24,10],
 "classmaliput_1_1api_1_1_road_network.html#a7d9494bc03d556cb4d418e16178288a0":[4,0,0,0,24,5],
 "classmaliput_1_1api_1_1_road_network.html#a82bb5c2b2c1c0676c247256d0f5b5967":[4,0,0,0,24,9],
@@ -42,12 +44,13 @@ var NAVTREEINDEX2 =
 "classmaliput_1_1api_1_1_s_range.html#ac8360198e5ead6dc2652ec6d5befed50":[4,0,0,0,30,3],
 "classmaliput_1_1api_1_1_segment.html":[4,0,0,0,29],
 "classmaliput_1_1api_1_1_segment.html#a323d93e726913120d0c5ec89c64549fc":[4,0,0,0,29,1],
-"classmaliput_1_1api_1_1_segment.html#a3f3062a0eb49c4088fc681bf3a7e77a5":[4,0,0,0,29,6],
-"classmaliput_1_1api_1_1_segment.html#a6f4e1b5acc16f9d2f722f0a36db0a06f":[4,0,0,0,29,5],
-"classmaliput_1_1api_1_1_segment.html#a7fa67be7f6db7ed4c931a2491b0c51bb":[4,0,0,0,29,7],
+"classmaliput_1_1api_1_1_segment.html#a3f3062a0eb49c4088fc681bf3a7e77a5":[4,0,0,0,29,7],
+"classmaliput_1_1api_1_1_segment.html#a679e27d662ae2395f4337b05b2739498":[4,0,0,0,29,4],
+"classmaliput_1_1api_1_1_segment.html#a6f4e1b5acc16f9d2f722f0a36db0a06f":[4,0,0,0,29,6],
+"classmaliput_1_1api_1_1_segment.html#a7fa67be7f6db7ed4c931a2491b0c51bb":[4,0,0,0,29,8],
 "classmaliput_1_1api_1_1_segment.html#acc1e5f359ad7f670ce73faa23be39d24":[4,0,0,0,29,3],
 "classmaliput_1_1api_1_1_segment.html#ad62aab38a774d311fcd89d88a96681d0":[4,0,0,0,29,0],
-"classmaliput_1_1api_1_1_segment.html#ae7d45473b824832f3828103f350b8f72":[4,0,0,0,29,4],
+"classmaliput_1_1api_1_1_segment.html#ae7d45473b824832f3828103f350b8f72":[4,0,0,0,29,5],
 "classmaliput_1_1api_1_1_segment.html#af65720887ce0538366ddf7ce3807dffc":[4,0,0,0,29,2],
 "classmaliput_1_1api_1_1_type_specific_identifier.html":[4,0,0,0,31],
 "classmaliput_1_1api_1_1_type_specific_identifier.html#a40a8386e472aff3f49ddaa53197b6746":[4,0,0,0,31,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX2 =
 "classmaliput_1_1api_1_1rules_1_1_rule_registry.html#ac5d7547c66816b2c64a7ac2467405d89":[4,0,0,0,1,12,7],
 "classmaliput_1_1api_1_1rules_1_1_rule_registry.html#ad79f9d9306e78514721406d6ed3679a1":[4,0,0,0,1,12,1],
 "classmaliput_1_1api_1_1rules_1_1_rule_registry.html#afa6f95bca428c78123af3c35194df558":[4,0,0,0,1,12,9],
-"classmaliput_1_1api_1_1rules_1_1_traffic_light.html":[4,0,0,0,1,14],
-"classmaliput_1_1api_1_1rules_1_1_traffic_light.html#a029206de7f2b36baf2a974fd7922b7d0":[4,0,0,0,1,14,0],
-"classmaliput_1_1api_1_1rules_1_1_traffic_light.html#a3e9b36985fa40131c908fffb29f45c75":[4,0,0,0,1,14,4],
-"classmaliput_1_1api_1_1rules_1_1_traffic_light.html#a45f8c7cb034d5541aada6c2a1d29c965":[4,0,0,0,1,14,5]
+"classmaliput_1_1api_1_1rules_1_1_traffic_light.html":[4,0,0,0,1,14]
 };

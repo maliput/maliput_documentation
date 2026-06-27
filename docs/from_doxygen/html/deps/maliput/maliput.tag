@@ -24385,8 +24385,8 @@
       <type></type>
       <name>Junction</name>
       <anchorfile>classmaliput_1_1geometry__base_1_1_junction.html</anchorfile>
-      <anchor>aacb3cda5e3884118837090ff47e7bf5e</anchor>
-      <arglist>(const api::JunctionId &amp;id)</arglist>
+      <anchor>a5bbb59faa142ab6deb90a21bb721dc8a</anchor>
+      <arglist>(const api::JunctionId &amp;id, std::optional&lt; bool &gt; is_intersection=std::nullopt)</arglist>
     </member>
     <member kind="function">
       <type>T *</type>
@@ -24447,6 +24447,13 @@
       <anchorfile>classmaliput_1_1api_1_1_junction.html</anchorfile>
       <anchor>a4a403c748b57f55d7474b23cba17e970</anchor>
       <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; bool &gt;</type>
+      <name>is_intersection</name>
+      <anchorfile>classmaliput_1_1api_1_1_junction.html</anchorfile>
+      <anchor>a679e27d662ae2395f4337b05b2739498</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="function" protection="protected">
       <type></type>
@@ -25038,6 +25045,13 @@
       <anchorfile>classmaliput_1_1api_1_1_lane.html</anchorfile>
       <anchor>a040d47e697181081a37e19396ed8ff5b</anchor>
       <arglist>(const LanePosition &amp;lane_position) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; bool &gt;</type>
+      <name>is_intersection</name>
+      <anchorfile>classmaliput_1_1api_1_1_lane.html</anchorfile>
+      <anchor>a377184a86cf21ed2d7c7258a0941a320</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="function" protection="protected">
       <type></type>
@@ -35221,6 +35235,13 @@
       <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
       <anchor>af65720887ce0538366ddf7ce3807dffc</anchor>
       <arglist>(int index) const</arglist>
+    </member>
+    <member kind="function">
+      <type>std::optional&lt; bool &gt;</type>
+      <name>is_intersection</name>
+      <anchorfile>classmaliput_1_1api_1_1_segment.html</anchorfile>
+      <anchor>a679e27d662ae2395f4337b05b2739498</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="function" protection="protected">
       <type></type>

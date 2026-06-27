@@ -1,5 +1,8 @@
 var NAVTREEINDEX3 =
 {
+"classmaliput_1_1api_1_1rules_1_1_traffic_light.html#a029206de7f2b36baf2a974fd7922b7d0":[4,0,0,0,1,14,0],
+"classmaliput_1_1api_1_1rules_1_1_traffic_light.html#a3e9b36985fa40131c908fffb29f45c75":[4,0,0,0,1,14,4],
+"classmaliput_1_1api_1_1rules_1_1_traffic_light.html#a45f8c7cb034d5541aada6c2a1d29c965":[4,0,0,0,1,14,5],
 "classmaliput_1_1api_1_1rules_1_1_traffic_light.html#a9ad32001c047b97b3fc0f4b0dc182fcc":[4,0,0,0,1,14,3],
 "classmaliput_1_1api_1_1rules_1_1_traffic_light.html#a9b101cd2eb8d2e39f53c7ffeb93af33a":[4,0,0,0,1,14,7],
 "classmaliput_1_1api_1_1rules_1_1_traffic_light.html#ac285d9084fc76ec2a1b80171aa03a35d":[4,0,0,0,1,14,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX3 =
 "classmaliput_1_1drake_1_1_nice_type_name.html#ab79ee31ee980b806b08a3489a58a9a6d":[4,0,0,2,24,6],
 "classmaliput_1_1drake_1_1_nice_type_name.html#ae348464d50b024fade3c46e95cd7e945":[4,0,0,2,24,0],
 "classmaliput_1_1drake_1_1_nice_type_name.html#af93d032818bc937ada53984c09f6369f":[4,0,0,2,24,5],
-"classmaliput_1_1drake_1_1_polynomial.html":[4,0,0,2,25],
-"classmaliput_1_1drake_1_1_polynomial.html#a0275f6d151c53f7ae3c0d645db2aaec1":[4,0,0,2,25,39],
-"classmaliput_1_1drake_1_1_polynomial.html#a0336e52f67607fbff0f977957b3c1767":[4,0,0,2,25,18],
-"classmaliput_1_1drake_1_1_polynomial.html#a0464cbf2371ba0b4254c78aecb174f6b":[4,0,0,2,25,36]
+"classmaliput_1_1drake_1_1_polynomial.html":[4,0,0,2,25]
 };

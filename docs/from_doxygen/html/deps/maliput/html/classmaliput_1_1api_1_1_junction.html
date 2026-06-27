@@ -125,6 +125,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4a403c748b57f55d7474b23cba17e970"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classmaliput_1_1api_1_1_segment.html">Segment</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_junction.html#a4a403c748b57f55d7474b23cba17e970">segment</a> (int index) const</td></tr>
 <tr class="memdesc:a4a403c748b57f55d7474b23cba17e970"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classmaliput_1_1api_1_1_segment.html" title="A Segment represents a bundle of adjacent Lanes which share a continuously traversable road surface.">Segment</a> indexed by <code>index</code>.  <a href="classmaliput_1_1api_1_1_junction.html#a4a403c748b57f55d7474b23cba17e970">More...</a><br /></td></tr>
 <tr class="separator:a4a403c748b57f55d7474b23cba17e970"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a679e27d662ae2395f4337b05b2739498"><td class="memItemLeft" align="right" valign="top">std::optional&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1_junction.html#a679e27d662ae2395f4337b05b2739498">is_intersection</a> () const</td></tr>
+<tr class="memdesc:a679e27d662ae2395f4337b05b2739498"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether this junction is an intersection.  <a href="classmaliput_1_1api_1_1_junction.html#a679e27d662ae2395f4337b05b2739498">More...</a><br /></td></tr>
+<tr class="separator:a679e27d662ae2395f4337b05b2739498"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -201,6 +204,30 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the persistent identifier. </p>
+
+</div>
+</div>
+<a id="a679e27d662ae2395f4337b05b2739498"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a679e27d662ae2395f4337b05b2739498">&#9670;&nbsp;</a></span>is_intersection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;bool&gt; is_intersection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns whether this junction is an intersection. </p>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> when junction is an intersection. </dd>
+<dd>
+<code>false</code> when junction is not an intersection. </dd>
+<dd>
+<code>std::nullopt</code> when intersection information is unavailable. </dd></dl>
 
 </div>
 </div>
