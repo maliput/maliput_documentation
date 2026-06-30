@@ -7994,6 +7994,8 @@
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a9d9fd23d42536b2121815f1c9a9e3ef7">kTrafficIsland</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a0b40d046dd0bb405f6ac002c36663ea9">kTree</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9ab0a1d175cfb881422fa37092d8e40ebc">kVegetation</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9ad51a84464b7c8336c5de0ab266d11389">kPylon</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9adbeb86107b199a33c0a9b03f81f54774">kDelineator</enumvalue>
     </member>
     <member kind="function">
       <type>std::unordered_map&lt; RoadObjectType, const char *, maliput::common::DefaultHash &gt;</type>
@@ -48760,6 +48762,8 @@
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a9d9fd23d42536b2121815f1c9a9e3ef7">kTrafficIsland</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9a0b40d046dd0bb405f6ac002c36663ea9">kTree</enumvalue>
       <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9ab0a1d175cfb881422fa37092d8e40ebc">kVegetation</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9ad51a84464b7c8336c5de0ab266d11389">kPylon</enumvalue>
+      <enumvalue file="namespacemaliput_1_1api_1_1objects.html" anchor="a0c5cc45890ec3206bd8887bb685527b9adbeb86107b199a33c0a9b03f81f54774">kDelineator</enumvalue>
     </member>
     <member kind="function">
       <type>std::unordered_map&lt; RoadMarkingType, const char *, maliput::common::DefaultHash &gt;</type>

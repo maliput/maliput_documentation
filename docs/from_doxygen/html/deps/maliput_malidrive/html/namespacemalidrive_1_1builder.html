@@ -199,6 +199,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aa2b44e81a26633a615546fea7227b0f9"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="elRef" href="../../maliput/html/structmaliput_1_1api_1_1_lane_end.html">maliput::api::LaneEnd</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#aa2b44e81a26633a615546fea7227b0f9">SolveLaneEndsWithinJunction</a> (const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *rg, const <a class="el" href="structmalidrive_1_1builder_1_1_malidrive_xodr_lane_properties.html">MalidriveXodrLaneProperties</a> &amp;xodr_lane_properties, const std::map&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">xodr::RoadHeader::Id</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html">xodr::RoadHeader</a> &gt; &amp;road_headers, <a class="el" href="namespacemalidrive_1_1builder.html#aa05c22b45e1642b62091723d3e86fc4f">XodrConnectionType</a> connection_type)</td></tr>
 <tr class="memdesc:aa2b44e81a26633a615546fea7227b0f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches which LaneEnds connect to <code>xodr_lane_properties.lane</code> in <code>connection_type</code> direction considering the LaneEnd belongs to an external interface.  <a href="namespacemalidrive_1_1builder.html#aa2b44e81a26633a615546fea7227b0f9">More...</a><br /></td></tr>
 <tr class="separator:aa2b44e81a26633a615546fea7227b0f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac32673e16039631e305f1eb414da3c37"><td class="memItemLeft" align="right" valign="top">std::optional&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#ac32673e16039631e305f1eb414da3c37">DetermineJunctionIntersectionFromXodr</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1_junction.html">xodr::Junction</a> &amp;<a class="elRef" href="../../maliput/html/generate__string_8cc.html#a655a1eb68e00f4b9196e1dfa82198432">junction</a>, const std::map&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">xodr::RoadHeader::Id</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html">xodr::RoadHeader</a> &gt; &amp;road_headers)</td></tr>
+<tr class="memdesc:ac32673e16039631e305f1eb414da3c37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether a Junction should be classified as intersection using OpenDRIVE-derived data and first-match-wins priority:  <a href="namespacemalidrive_1_1builder.html#ac32673e16039631e305f1eb414da3c37">More...</a><br /></td></tr>
+<tr class="separator:ac32673e16039631e305f1eb414da3c37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b0f112b9e4b345475cf6cd1dd7442f2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="elRef" href="../../maliput/html/structmaliput_1_1api_1_1_lane_end.html">maliput::api::LaneEnd</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#a1b0f112b9e4b345475cf6cd1dd7442f2">SolveLaneEndsForInnerLaneSection</a> (const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *rg, const <a class="elRef" href="../../maliput/html/structmaliput_1_1api_1_1_lane_end.html">maliput::api::LaneEnd</a> &amp;lane_end, const <a class="el" href="structmalidrive_1_1builder_1_1_malidrive_xodr_lane_properties.html">MalidriveXodrLaneProperties</a> &amp;xodr_lane_properties)</td></tr>
 <tr class="memdesc:a1b0f112b9e4b345475cf6cd1dd7442f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches which LaneEnds connect to <code>lane_end</code> considering it belongs to an inner interface.  <a href="namespacemalidrive_1_1builder.html#a1b0f112b9e4b345475cf6cd1dd7442f2">More...</a><br /></td></tr>
 <tr class="separator:a1b0f112b9e4b345475cf6cd1dd7442f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -427,6 +430,49 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector of Outline unique_ptrs. Empty if the object has no outlines or all outlines have fewer than 3 corners. </dd></dl>
+
+</div>
+</div>
+<a id="ac32673e16039631e305f1eb414da3c37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac32673e16039631e305f1eb414da3c37">&#9670;&nbsp;</a></span>DetermineJunctionIntersectionFromXodr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; bool &gt; DetermineJunctionIntersectionFromXodr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1xodr_1_1_junction.html">xodr::Junction</a> &amp;&#160;</td>
+          <td class="paramname"><em>junction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::map&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">xodr::RoadHeader::Id</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html">xodr::RoadHeader</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>road_headers</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Determines whether a Junction should be classified as intersection using OpenDRIVE-derived data and first-match-wins priority: </p>
+<ol type="1">
+<li>junction userData override (<code>code="junctionType"</code> with value <code>intersection</code> / <code>nonIntersection</code>).</li>
+<li>motorway road type participation (if any participating road is motorway, classify as non-intersection).</li>
+<li>connection-count fallback (<code>connections.size() &gt; 4</code>).</li>
+</ol>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">junction</td><td>Junction data from the XODR map. </td></tr>
+    <tr><td class="paramname">road_headers</td><td>Road headers from the XODR map. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> when the junction is classified as intersection; <code>false</code> when it is classified as non-intersection; <code>std::nullopt</code> when no classification can be determined from available XODR data. </dd></dl>
 
 </div>
 </div>

@@ -8,6 +8,7 @@ var builder__tools_8h =
     ] ],
     [ "AreOnlyNonDrivableLanes", "builder__tools_8h.html#aaec81bc2cb08e554776479cc0254cc58", null ],
     [ "BuildOutlines", "builder__tools_8h.html#ae5827d1b2fb186d720dd90175f3d797e", null ],
+    [ "DetermineJunctionIntersectionFromXodr", "builder__tools_8h.html#ac32673e16039631e305f1eb414da3c37", null ],
     [ "FindLocalMinFromCubicPol", "builder__tools_8h.html#a744c0ebef658f17b42e0893685c9d014", null ],
     [ "GetDirectionUsageRuleStateType", "builder__tools_8h.html#a83f92af25b6b999202b2da6403ad44a8", null ],
     [ "GetLaneSpeedProperties", "builder__tools_8h.html#aea40335a4d1e13fb8fd8225d49a5cac8", null ],

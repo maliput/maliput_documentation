@@ -15,6 +15,8 @@ var structmalidrive_1_1xodr_1_1_junction =
     [ "kJunctionTag", "structmalidrive_1_1xodr_1_1_junction.html#aeb040aa222733ed8f2063a2d5606813f", null ],
     [ "kName", "structmalidrive_1_1xodr_1_1_junction.html#ab078d8ddaeb55f071943994e623a6e9d", null ],
     [ "kType", "structmalidrive_1_1xodr_1_1_junction.html#a0115715e581fd2a65ef043354a0e902a", null ],
+    [ "kUserData", "structmalidrive_1_1xodr_1_1_junction.html#a72fc73aa5da78d2ef3b4b81ce2fb094c", null ],
     [ "name", "structmalidrive_1_1xodr_1_1_junction.html#a6e523cbe30620206b7b99a00fbc852a7", null ],
-    [ "type", "structmalidrive_1_1xodr_1_1_junction.html#aa2986b3df391a2c0203db3b0ff061661", null ]
+    [ "type", "structmalidrive_1_1xodr_1_1_junction.html#aa2986b3df391a2c0203db3b0ff061661", null ],
+    [ "user_data", "structmalidrive_1_1xodr_1_1_junction.html#ab7e0b82fd61680824035572bbd44d4b1", null ]
 ];

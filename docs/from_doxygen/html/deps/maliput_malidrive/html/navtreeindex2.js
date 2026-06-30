@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"functions_func_p.html":[4,3,1,13],
+"functions_func_r.html":[4,3,1,14],
 "functions_func_s.html":[4,3,1,15],
 "functions_func_t.html":[4,3,1,16],
 "functions_func_u.html":[4,3,1,17],
@@ -81,8 +83,8 @@ var NAVTREEINDEX2 =
 "group__lane__marking.html#ga1be95380f1970cfb338812b1832ea956ac1522e863645b017af7d69a3556ea440":[2,1,3,2],
 "group__lane__marking.html#ga1be95380f1970cfb338812b1832ea956ac1522e863645b017af7d69a3556ea440":[2,1,3,5],
 "group__lane__marking.html#ga578f8201e5b7fed8fbf6476e39d2d4c1":[2,1,0],
-"group__lane__marking.html#ga578f8201e5b7fed8fbf6476e39d2d4c1a03d72b6c4068ade2809390e3bb7917af":[2,1,0,6],
 "group__lane__marking.html#ga578f8201e5b7fed8fbf6476e39d2d4c1a03d72b6c4068ade2809390e3bb7917af":[2,1,0,1],
+"group__lane__marking.html#ga578f8201e5b7fed8fbf6476e39d2d4c1a03d72b6c4068ade2809390e3bb7917af":[2,1,0,6],
 "group__lane__marking.html#ga578f8201e5b7fed8fbf6476e39d2d4c1a25c2dc47991b3df171ed5192bcf70390":[2,1,0,0],
 "group__lane__marking.html#ga578f8201e5b7fed8fbf6476e39d2d4c1a25c2dc47991b3df171ed5192bcf70390":[2,1,0,5],
 "group__lane__marking.html#ga578f8201e5b7fed8fbf6476e39d2d4c1a2f85ad6d4bd5087ef3fb3b70032de8d1":[2,1,0,2],
@@ -102,8 +104,8 @@ var NAVTREEINDEX2 =
 "group__lane__marking.html#gaba8d9bc8f0059c36f0a0e27fcebdf876a4c6c30a3642462190739bb7f13af9c7b":[2,1,1,2],
 "group__lane__marking.html#gaba8d9bc8f0059c36f0a0e27fcebdf876a693f62c0ce24da9adb83e3df15053bb1":[2,1,1,7],
 "group__lane__marking.html#gaba8d9bc8f0059c36f0a0e27fcebdf876a693f62c0ce24da9adb83e3df15053bb1":[2,1,1,15],
-"group__lane__marking.html#gaba8d9bc8f0059c36f0a0e27fcebdf876a8d069917ec494cc042c27acaad671f52":[2,1,1,13],
 "group__lane__marking.html#gaba8d9bc8f0059c36f0a0e27fcebdf876a8d069917ec494cc042c27acaad671f52":[2,1,1,5],
+"group__lane__marking.html#gaba8d9bc8f0059c36f0a0e27fcebdf876a8d069917ec494cc042c27acaad671f52":[2,1,1,13],
 "group__lane__marking.html#gaba8d9bc8f0059c36f0a0e27fcebdf876ad368dbde55a733c6dde5a20566d50736":[2,1,1,9],
 "group__lane__marking.html#gaba8d9bc8f0059c36f0a0e27fcebdf876ad368dbde55a733c6dde5a20566d50736":[2,1,1,1],
 "group__lane__marking.html#gaba8d9bc8f0059c36f0a0e27fcebdf876afb0136b923af8c04b31a9d1b5e989acf":[2,1,1,12],
@@ -147,7 +149,8 @@ var NAVTREEINDEX2 =
 "group__road__geometry__configuration__builder__keys.html#ga0f16961202b41840391832934ba1ac49":[2,0,0,5],
 "group__road__geometry__configuration__builder__keys.html#ga10cc3dafe29eccb96fcbd1843f97acab":[2,0,0,10],
 "group__road__geometry__configuration__builder__keys.html#ga118ba6b173fb49c3bf8fb8fbf6292171":[2,0,0,12],
-"group__road__geometry__configuration__builder__keys.html#ga1ba0b1cfcae3b336a1a22fe88487a5c4":[2,0,0,13],
+"group__road__geometry__configuration__builder__keys.html#ga1ba0b1cfcae3b336a1a22fe88487a5c4":[2,0,0,14],
+"group__road__geometry__configuration__builder__keys.html#ga224c68d3f3b191f72776d83b1b18d403":[2,0,0,13],
 "group__road__geometry__configuration__builder__keys.html#ga25a1809a845328b793ca520d5c1c65f5":[2,0,0,11],
 "group__road__geometry__configuration__builder__keys.html#ga391ad474e33cffa6544ace890d2e340f":[2,0,0,7],
 "group__road__geometry__configuration__builder__keys.html#ga616e92bcd5681aceae39350e8731e419":[2,0,0,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX2 =
 "malidrive_road_curve_design.html#inverse_function":[0,0,3],
 "malidrive_road_curve_design.html#mapping_the_inertial_frame":[0,0,0],
 "malidrive_road_curve_design.html#math_reformulation":[0,1],
-"malidrive_road_curve_design.html#motion_derivatives":[0,1,1],
-"malidrive_road_curve_design.html#orientation":[0,0,2],
-"malidrive_road_curve_design.html#orientation_at_any_point":[0,0,2,1],
-"malidrive_road_curve_design.html#orientation_at_the_centerline":[0,0,2,0]
+"malidrive_road_curve_design.html#motion_derivatives":[0,1,1]
 };

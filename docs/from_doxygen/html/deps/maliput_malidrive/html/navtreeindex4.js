@@ -1,5 +1,10 @@
 var NAVTREEINDEX4 =
 {
+"structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a8b47aaf846f6dbabf0776c2f2d8ee192":[4,0,0,1,11,5],
+"structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a96d8bcd54119d900cf2e64a3ada179e8":[4,0,0,1,11,17],
+"structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a9a201760c34edb07b0b1ff087a008557":[4,0,0,1,11,19],
+"structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aa391bb03a060289d92caf7548968b0b6":[4,0,0,1,11,10],
+"structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aba132f98ea1230f94d40497b60aa9df4":[4,0,0,1,11,1],
 "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aba132f98ea1230f94d40497b60aa9df4a35c3ace1970663a16e5c65baa5941b13":[4,0,0,1,11,1,0],
 "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aba132f98ea1230f94d40497b60aa9df4a772d1e24c5dc52d72e0f5f8567daf7d9":[4,0,0,1,11,1,1],
 "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#ac41166953e338be315ced745272492d6":[4,0,0,1,11,13],
@@ -244,10 +249,5 @@ var NAVTREEINDEX4 =
 "structmalidrive_1_1xodr_1_1_geometry.html#a6886f5036c6d08a95f2839a1d9924b62":[4,0,0,4,8,5],
 "structmalidrive_1_1xodr_1_1_geometry.html#a838629b8db8fe5eba67b90ce5c786145":[4,0,0,4,8,13],
 "structmalidrive_1_1xodr_1_1_geometry.html#a86c550595e7a86b9229da53c6ec5fd8a":[4,0,0,4,8,6],
-"structmalidrive_1_1xodr_1_1_geometry.html#a8b6b92635ddc06a902d2cf145e2c352c":[4,0,0,4,8,16],
-"structmalidrive_1_1xodr_1_1_geometry.html#a8d91db0a6acef922c8d06cd8aadaad03":[4,0,0,4,8,10],
-"structmalidrive_1_1xodr_1_1_geometry.html#a928b11f5716331f0b89abe7d8d4124b4":[4,0,0,4,8,17],
-"structmalidrive_1_1xodr_1_1_geometry.html#a98acc419c9eb9f121a3ba33ff3973852":[4,0,0,4,8,7],
-"structmalidrive_1_1xodr_1_1_geometry.html#a9e97c58e3f5d0be128297f96234f596c":[4,0,0,4,8,20],
-"structmalidrive_1_1xodr_1_1_geometry.html#aa9e8b26360530e0251a80133adb2acce":[4,0,0,4,8,11]
+"structmalidrive_1_1xodr_1_1_geometry.html#a8b6b92635ddc06a902d2cf145e2c352c":[4,0,0,4,8,16]
 };

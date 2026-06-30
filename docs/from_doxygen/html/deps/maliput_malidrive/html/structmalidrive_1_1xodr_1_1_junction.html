@@ -157,6 +157,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a3fe5418842da23c78da2e2b87d9455cb"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_connection.html#a5c7c08b6e1ece2af659f95adfeaf5583">Connection::Id</a>, <a class="el" href="structmalidrive_1_1xodr_1_1_connection.html">Connection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1xodr_1_1_junction.html#a3fe5418842da23c78da2e2b87d9455cb">connections</a> {}</td></tr>
 <tr class="memdesc:a3fe5418842da23c78da2e2b87d9455cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connections within the junction.  <a href="structmalidrive_1_1xodr_1_1_junction.html#a3fe5418842da23c78da2e2b87d9455cb">More...</a><br /></td></tr>
 <tr class="separator:a3fe5418842da23c78da2e2b87d9455cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7e0b82fd61680824035572bbd44d4b1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1xodr_1_1_junction.html#ab7e0b82fd61680824035572bbd44d4b1">user_data</a> {}</td></tr>
+<tr class="memdesc:ab7e0b82fd61680824035572bbd44d4b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains ancillary data in XML format. Each item holds one complete userData node.  <a href="structmalidrive_1_1xodr_1_1_junction.html#ab7e0b82fd61680824035572bbd44d4b1">More...</a><br /></td></tr>
+<tr class="separator:ab7e0b82fd61680824035572bbd44d4b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -169,6 +172,8 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:ab078d8ddaeb55f071943994e623a6e9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0115715e581fd2a65ef043354a0e902a"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1xodr_1_1_junction.html#a0115715e581fd2a65ef043354a0e902a">kType</a> = &quot;type&quot;</td></tr>
 <tr class="separator:a0115715e581fd2a65ef043354a0e902a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72fc73aa5da78d2ef3b4b81ce2fb094c"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1xodr_1_1_junction.html#a72fc73aa5da78d2ef3b4b81ce2fb094c">kUserData</a> = &quot;userData&quot;</td></tr>
+<tr class="separator:a72fc73aa5da78d2ef3b4b81ce2fb094c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ac27dd6cabc4998221bea62577567d74c"></a>
@@ -446,6 +451,28 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a72fc73aa5da78d2ef3b4b81ce2fb094c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72fc73aa5da78d2ef3b4b81ce2fb094c">&#9670;&nbsp;</a></span>kUserData</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr const char* kUserData = &quot;userData&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6e523cbe30620206b7b99a00fbc852a7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6e523cbe30620206b7b99a00fbc852a7">&#9670;&nbsp;</a></span>name</h2>
 
@@ -475,6 +502,22 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Type of the junction, required for "virtual" junctions only. </p>
+
+</div>
+</div>
+<a id="ab7e0b82fd61680824035572bbd44d4b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7e0b82fd61680824035572bbd44d4b1">&#9670;&nbsp;</a></span>user_data</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::string&gt; user_data {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Contains ancillary data in XML format. Each item holds one complete userData node. </p>
 
 </div>
 </div>

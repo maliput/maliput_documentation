@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['keepcurrentbrake_8803',['keepCurrentBrake',['../classdelphyne_1_1gui_1_1_teleop_plugin.html#a6e86bc04695c2cc021596bd60dd598a1',1,'delphyne::gui::TeleopPlugin']]],
-  ['keepcurrentthrottle_8804',['keepCurrentThrottle',['../classdelphyne_1_1gui_1_1_teleop_plugin.html#aad721c4fec8b6f75697d5c4d40bb6a66',1,'delphyne::gui::TeleopPlugin']]]
+  ['keepcurrentbrake_8807',['keepCurrentBrake',['../classdelphyne_1_1gui_1_1_teleop_plugin.html#a6e86bc04695c2cc021596bd60dd598a1',1,'delphyne::gui::TeleopPlugin']]],
+  ['keepcurrentthrottle_8808',['keepCurrentThrottle',['../classdelphyne_1_1gui_1_1_teleop_plugin.html#aad721c4fec8b6f75697d5c4d40bb6a66',1,'delphyne::gui::TeleopPlugin']]]
 ];

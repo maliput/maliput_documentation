@@ -19,5 +19,6 @@ var params_8h =
     [ "kStandardStrictnessPolicy", "params_8h.html#ga118ba6b173fb49c3bf8fb8fbf6292171", null ],
     [ "kTrafficControlDeviceDb", "params_8h.html#ga6686ead685e12e180b49b163bbc27d3a", null ],
     [ "kTrafficLightBook", "params_8h.html#gaa52290b1f18b24e3f00bd1dc5db5eb53", null ],
+    [ "kUseUserDataIntersections", "params_8h.html#ga224c68d3f3b191f72776d83b1b18d403", null ],
     [ "kUseUserDataTrafficDirection", "params_8h.html#ga1ba0b1cfcae3b336a1a22fe88487a5c4", null ]
 ];
