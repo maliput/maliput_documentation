@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"traffic__control__device__database__loader_8cc.html":[5,0,185],
+"traffic__control__device__database__loader_8h.html":[5,0,186],
 "traffic__light__builder_8cc.html":[5,0,187],
 "traffic__light__builder_8h.html":[5,0,188],
 "traffic__sign__builder_8cc.html":[5,0,189],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"structmalidrive_1_1xodr_1_1signal_1_1_semantics.html#acd535ded3dd6b1dde2953ce1591f64db":[4,0,0,4,1,4,32],
+"structmalidrive_1_1xodr_1_1signal_1_1_semantics.html#ad73010ab9ec1d0519f0c60e0ed3160f1":[4,0,0,4,1,4,19],
 "structmalidrive_1_1xodr_1_1signal_1_1_semantics.html#ad73010ab9ec1d0519f0c60e0ed3160f1a0c3df72cca6a159bdb17eff227d78b71":[4,0,0,4,1,4,19,2],
 "structmalidrive_1_1xodr_1_1signal_1_1_semantics.html#ad73010ab9ec1d0519f0c60e0ed3160f1a25c2dc47991b3df171ed5192bcf70390":[4,0,0,4,1,4,19,0],
 "structmalidrive_1_1xodr_1_1signal_1_1_semantics.html#ad73010ab9ec1d0519f0c60e0ed3160f1abcbb5d83d5bc4d719e148509999ad6fe":[4,0,0,4,1,4,19,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "traffic__control__device_2parser_8cc.html":[5,0,97],
 "traffic__control__device_2parser_8h.html":[5,0,99],
 "traffic__control__device__books__builder_8cc.html":[5,0,183],
-"traffic__control__device__books__builder_8h.html":[5,0,184],
-"traffic__control__device__database__loader_8cc.html":[5,0,185],
-"traffic__control__device__database__loader_8h.html":[5,0,186]
+"traffic__control__device__books__builder_8h.html":[5,0,184]
 };

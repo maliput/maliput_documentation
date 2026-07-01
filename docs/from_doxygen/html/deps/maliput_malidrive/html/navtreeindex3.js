@@ -34,8 +34,8 @@ var NAVTREEINDEX3 =
 "namespacemalidrive_1_1test.html":[3,0,0,6],
 "namespacemalidrive_1_1traffic__control__device.html":[3,0,0,7],
 "namespacemalidrive_1_1traffic__control__device.html":[4,0,0,3],
-"namespacemalidrive_1_1xodr.html":[4,0,0,4],
 "namespacemalidrive_1_1xodr.html":[3,0,0,8],
+"namespacemalidrive_1_1xodr.html":[4,0,0,4],
 "namespacemalidrive_1_1xodr_1_1object.html":[4,0,0,4,0],
 "namespacemalidrive_1_1xodr_1_1object.html":[3,0,0,8,0],
 "namespacemalidrive_1_1xodr_1_1signal.html":[3,0,0,8,1],
@@ -171,9 +171,11 @@ var NAVTREEINDEX3 =
 "road__object__builder_8h.html":[5,0,147],
 "road__object__type__mapper_8cc.html":[5,0,148],
 "road__object__type__mapper_8cc.html#a82b3e4d8bbb43960023148e21e03be7c":[5,0,148,2],
+"road__object__type__mapper_8cc.html#aa0695d7ad85b2f467bd34c3f9b60926f":[5,0,148,3],
+"road__object__type__mapper_8cc.html#aa3725574646ad13fc9e33d1fb6158972":[5,0,148,4],
 "road__object__type__mapper_8cc.html#aa5e0c2fe091146f27494d85933155f06":[5,0,148,0],
 "road__object__type__mapper_8cc.html#ade835804bc929a7cd0d6e875be50187d":[5,0,148,1],
-"road__object__type__mapper_8cc.html#afc955c1d3c63058342acb332430caed6":[5,0,148,3],
+"road__object__type__mapper_8cc.html#afc955c1d3c63058342acb332430caed6":[5,0,148,5],
 "road__object__type__mapper_8h.html":[5,0,149],
 "road__object__type__mapper_8h.html#aa5e0c2fe091146f27494d85933155f06":[5,0,149,0],
 "road__rulebook__builder_8cc.html":[5,0,150],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a5af6ea73b3e5a52c6b942a134c0e93b1":[4,0,0,1,11,6],
 "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0":[4,0,0,1,11,2],
 "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0a0ce43476a35722d29000b5dab29fe2fd":[4,0,0,1,11,2,2],
-"structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0a30ceca68d1ca06a9c15daeef15debee5":[4,0,0,1,11,2,1],
-"structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0a334aa60ef6932a4f4816a2244d0616c0":[4,0,0,1,11,2,3],
-"structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0a35215d4c3b69349b967c421fd68b0b36":[4,0,0,1,11,2,0]
+"structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a77e8edf465a9cf59367165b9658f07f0a30ceca68d1ca06a9c15daeef15debee5":[4,0,0,1,11,2,1]
 };

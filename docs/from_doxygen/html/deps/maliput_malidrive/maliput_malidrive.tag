@@ -2831,6 +2831,20 @@
       <anchor>a82b3e4d8bbb43960023148e21e03be7c</anchor>
       <arglist></arglist>
     </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
+      <name>kRoadBlockageSubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>aa3725574646ad13fc9e33d1fb6158972</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
+      <name>kPermanentDelineatorSubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>aa0695d7ad85b2f467bd34c3f9b60926f</anchor>
+      <arglist></arglist>
+    </member>
   </compound>
   <compound kind="file">
     <name>road_object_type_mapper.h</name>
@@ -15816,6 +15830,20 @@
       <name>kJerseySubtype</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
       <anchor>a82b3e4d8bbb43960023148e21e03be7c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
+      <name>kRoadBlockageSubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>aa3725574646ad13fc9e33d1fb6158972</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
+      <name>kPermanentDelineatorSubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>aa0695d7ad85b2f467bd34c3f9b60926f</anchor>
       <arglist></arglist>
     </member>
   </compound>
