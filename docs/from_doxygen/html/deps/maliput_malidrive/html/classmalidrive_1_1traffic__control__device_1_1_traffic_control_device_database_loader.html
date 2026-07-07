@@ -97,8 +97,8 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1traffic__control__de
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Loads traffic control device definitions from a <a class="elRef" href="../../maliput/html/namespace_y_a_m_l.html">YAML</a> database file or content and provides a lookup interface for querying definitions by <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a>. </p>
-<p>The loader is backed by the <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html">TrafficControlDeviceParser</a>. When a database is provided at construction time the file is parsed immediately; subsequent <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#ae6f4fabdedd449ed9d7c5e6fcb22d59b">Lookup</a> calls perform a linear scan with specificity ranking.</p>
-<p>If no database is provided (std::nullopt) the loader starts empty and all <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#ae6f4fabdedd449ed9d7c5e6fcb22d59b">Lookup</a> calls will return std::nullopt. </p>
+<p>The loader is backed by the <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html">TrafficControlDeviceParser</a>. When a database is provided at construction time the file is parsed immediately; subsequent <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#ae5f7a903705973e16a59898e669d3c73">Lookup</a> calls perform a linear scan with specificity ranking.</p>
+<p>If no database is provided (std::nullopt) the loader starts empty and all <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#ae5f7a903705973e16a59898e669d3c73">Lookup</a> calls will return std::nullopt. </p>
 </div>
 <p><code>#include &lt;src/maliput_malidrive/traffic_control_device/traffic_control_device_database_loader.h&gt;</code></p>
 <table class="memberdecls">
@@ -107,9 +107,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5fd3a39c194e57f5c8565ba4c4adb97a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#a5fd3a39c194e57f5c8565ba4c4adb97a">TrafficControlDeviceDatabaseLoader</a> (const std::optional&lt; std::string &gt; &amp;database)</td></tr>
 <tr class="memdesc:a5fd3a39c194e57f5c8565ba4c4adb97a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html" title="Loads traffic control device definitions from a YAML database file or content and provides a lookup i...">TrafficControlDeviceDatabaseLoader</a>.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#a5fd3a39c194e57f5c8565ba4c4adb97a">More...</a><br /></td></tr>
 <tr class="separator:a5fd3a39c194e57f5c8565ba4c4adb97a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6f4fabdedd449ed9d7c5e6fcb22d59b"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html">TrafficControlDeviceDefinition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#ae6f4fabdedd449ed9d7c5e6fcb22d59b">Lookup</a> (const <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a> &amp;fingerprint) const</td></tr>
-<tr class="memdesc:ae6f4fabdedd449ed9d7c5e6fcb22d59b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks up a <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html" title="Represents a traffic signal definition loaded from the database.">TrafficControlDeviceDefinition</a> by fingerprint.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#ae6f4fabdedd449ed9d7c5e6fcb22d59b">More...</a><br /></td></tr>
-<tr class="separator:ae6f4fabdedd449ed9d7c5e6fcb22d59b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5f7a903705973e16a59898e669d3c73"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html">TrafficControlDeviceDefinition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#ae5f7a903705973e16a59898e669d3c73">Lookup</a> (const <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a> &amp;fingerprint, <a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aaef7a5967f749f839c1647d732f68f9f">OpenDriveElementType</a> query_source) const</td></tr>
+<tr class="memdesc:ae5f7a903705973e16a59898e669d3c73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks up a <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html" title="Represents a traffic signal definition loaded from the database.">TrafficControlDeviceDefinition</a> by fingerprint.  <a href="classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html#ae5f7a903705973e16a59898e669d3c73">More...</a><br /></td></tr>
+<tr class="separator:ae5f7a903705973e16a59898e669d3c73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5fd3a39c194e57f5c8565ba4c4adb97a"></a>
@@ -153,8 +153,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae6f4fabdedd449ed9d7c5e6fcb22d59b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6f4fabdedd449ed9d7c5e6fcb22d59b">&#9670;&nbsp;</a></span>Lookup()</h2>
+<a id="ae5f7a903705973e16a59898e669d3c73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5f7a903705973e16a59898e669d3c73">&#9670;&nbsp;</a></span>Lookup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163,8 +163,18 @@ Public Member Functions</h2></td></tr>
           <td class="memname">std::optional&lt; <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html">TrafficControlDeviceDefinition</a> &gt; Lookup </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a> &amp;&#160;</td>
-          <td class="paramname"><em>fingerprint</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>fingerprint</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aaef7a5967f749f839c1647d732f68f9f">OpenDriveElementType</a>&#160;</td>
+          <td class="paramname"><em>query_source</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -173,10 +183,17 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">fingerprint</td><td>The <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html">TrafficControlDeviceFingerprint</a> to look up. </td></tr>
+    <tr><td class="paramname">query_source</td><td>Whether the lookup is for an OpenDRIVE <code>signal</code> or <code>object</code>. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>An optional containing the matching <a class="el" href="structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html">TrafficControlDeviceDefinition</a> if found, std::nullopt otherwise. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1road__network__description__parser__error.html">maliput::common::road_network_description_parser_error</a></td><td>if <code>query_source</code> is <a class="el" href="namespacemalidrive_1_1traffic__control__device.html#aaef7a5967f749f839c1647d732f68f9fa25c2dc47991b3df171ed5192bcf70390">OpenDriveElementType::kUnknown</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

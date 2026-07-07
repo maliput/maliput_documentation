@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"structmalidrive_1_1xodr_1_1signal_1_1_semantics.html#acb7b8aa8c147fef4bc46f21d3a2f78c5":[4,0,0,4,1,4,37],
 "structmalidrive_1_1xodr_1_1signal_1_1_semantics.html#acd535ded3dd6b1dde2953ce1591f64db":[4,0,0,4,1,4,32],
 "structmalidrive_1_1xodr_1_1signal_1_1_semantics.html#ad73010ab9ec1d0519f0c60e0ed3160f1":[4,0,0,4,1,4,19],
 "structmalidrive_1_1xodr_1_1signal_1_1_semantics.html#ad73010ab9ec1d0519f0c60e0ed3160f1a0c3df72cca6a159bdb17eff227d78b71":[4,0,0,4,1,4,19,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "tools_8h.html#aff2e642863e8586d5f7a73162a9923d6":[5,0,182,1],
 "traffic__control__device_2parser_8cc.html":[5,0,97],
 "traffic__control__device_2parser_8h.html":[5,0,99],
-"traffic__control__device__books__builder_8cc.html":[5,0,183],
-"traffic__control__device__books__builder_8h.html":[5,0,184]
+"traffic__control__device_2parser_8h.html#aaef7a5967f749f839c1647d732f68f9f":[5,0,99,7]
 };

@@ -2097,6 +2097,16 @@
     <class kind="class">malidrive::traffic_control_device::TrafficControlDeviceParser</class>
     <namespace>malidrive</namespace>
     <namespace>malidrive::traffic_control_device</namespace>
+    <member kind="enumeration">
+      <type></type>
+      <name>OpenDriveElementType</name>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
+      <anchor>aaef7a5967f749f839c1647d732f68f9f</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespacemalidrive_1_1traffic__control__device.html" anchor="aaef7a5967f749f839c1647d732f68f9fa25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1traffic__control__device.html" anchor="aaef7a5967f749f839c1647d732f68f9fa5ed213bcecec2275973d093617143038">kSignal</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1traffic__control__device.html" anchor="aaef7a5967f749f839c1647d732f68f9fa11de01cf6422a18af800cdc262cf2f31">kObject</enumvalue>
+    </member>
   </compound>
   <compound kind="file">
     <name>xodr/parser.h</name>
@@ -14185,8 +14195,8 @@
       <type>std::optional&lt; TrafficControlDeviceDefinition &gt;</type>
       <name>Lookup</name>
       <anchorfile>classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_database_loader.html</anchorfile>
-      <anchor>ae6f4fabdedd449ed9d7c5e6fcb22d59b</anchor>
-      <arglist>(const TrafficControlDeviceFingerprint &amp;fingerprint) const</arglist>
+      <anchor>ae5f7a903705973e16a59898e669d3c73</anchor>
+      <arglist>(const TrafficControlDeviceFingerprint &amp;fingerprint, OpenDriveElementType query_source) const</arglist>
     </member>
   </compound>
   <compound kind="struct">
@@ -14205,6 +14215,13 @@
       <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html</anchorfile>
       <anchor>a6d7c0737486d6037ab22dadccc918a35</anchor>
       <arglist>(const TrafficControlDeviceDefinition &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>OpenDriveElementType</type>
+      <name>odr_element_type</name>
+      <anchorfile>structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html</anchorfile>
+      <anchor>a26cf498de9e6284875392c404b110c89</anchor>
+      <arglist></arglist>
     </member>
     <member kind="variable">
       <type>TrafficControlDeviceFingerprint</type>
@@ -16240,6 +16257,16 @@
       <enumvalue file="namespacemalidrive_1_1traffic__control__device.html" anchor="aa37d216d3b7bf0d4a57c60f5865b58dfa0e585b44417349877686e38d53ae1d82">kRoadMarking</enumvalue>
       <enumvalue file="namespacemalidrive_1_1traffic__control__device.html" anchor="aa37d216d3b7bf0d4a57c60f5865b58dfa5dc3f907cf723d8e90273ea6c706e283">kRoadObject</enumvalue>
       <enumvalue file="namespacemalidrive_1_1traffic__control__device.html" anchor="aa37d216d3b7bf0d4a57c60f5865b58dfa25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
+    </member>
+    <member kind="enumeration">
+      <type></type>
+      <name>OpenDriveElementType</name>
+      <anchorfile>namespacemalidrive_1_1traffic__control__device.html</anchorfile>
+      <anchor>aaef7a5967f749f839c1647d732f68f9f</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespacemalidrive_1_1traffic__control__device.html" anchor="aaef7a5967f749f839c1647d732f68f9fa25c2dc47991b3df171ed5192bcf70390">kUnknown</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1traffic__control__device.html" anchor="aaef7a5967f749f839c1647d732f68f9fa5ed213bcecec2275973d093617143038">kSignal</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1traffic__control__device.html" anchor="aaef7a5967f749f839c1647d732f68f9fa11de01cf6422a18af800cdc262cf2f31">kObject</enumvalue>
     </member>
     <member kind="function">
       <type>TrafficControlDeviceType</type>

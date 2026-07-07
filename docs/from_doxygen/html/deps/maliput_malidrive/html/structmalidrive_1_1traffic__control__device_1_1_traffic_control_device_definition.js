@@ -9,5 +9,6 @@ var structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_defin
     [ "device_type", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#ac5a577ea1d0ca811729c4fc575cdb245", null ],
     [ "fingerprint", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a04b8e36e5c8b0c9c923e6e321daa300a", null ],
     [ "is_position_dynamic", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a5880525fc37dbb5628c74fcd542dc602", null ],
+    [ "odr_element_type", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a26cf498de9e6284875392c404b110c89", null ],
     [ "rule_states", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a279b9d3d52b95bc284146ec00623a0c8", null ]
 ];

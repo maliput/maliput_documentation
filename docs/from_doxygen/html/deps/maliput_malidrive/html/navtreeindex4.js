@@ -116,7 +116,8 @@ var NAVTREEINDEX4 =
 "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html":[4,0,0,3,11],
 "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a007174fa0ebfe7671457f7587abdc859":[4,0,0,3,11,3],
 "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a04b8e36e5c8b0c9c923e6e321daa300a":[4,0,0,3,11,7],
-"structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a279b9d3d52b95bc284146ec00623a0c8":[4,0,0,3,11,9],
+"structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a26cf498de9e6284875392c404b110c89":[4,0,0,3,11,9],
+"structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a279b9d3d52b95bc284146ec00623a0c8":[4,0,0,3,11,10],
 "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a2e1454f6988673f814408646edaeb320":[4,0,0,3,11,4],
 "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a5880525fc37dbb5628c74fcd542dc602":[4,0,0,3,11,8],
 "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html#a69a871d49d5ef98ed537f5f930d192c8":[4,0,0,3,11,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "structmalidrive_1_1xodr_1_1_geometry.html#a3d8623c14e5b2cb10e80006699f5ace6":[4,0,0,4,8,14],
 "structmalidrive_1_1xodr_1_1_geometry.html#a41a84cf079162db202127e0246492fd0":[4,0,0,4,8,9],
 "structmalidrive_1_1xodr_1_1_geometry.html#a4fed183f29fcff6c2aea28b5bff5718a":[4,0,0,4,8,18],
-"structmalidrive_1_1xodr_1_1_geometry.html#a6886f5036c6d08a95f2839a1d9924b62":[4,0,0,4,8,5],
-"structmalidrive_1_1xodr_1_1_geometry.html#a838629b8db8fe5eba67b90ce5c786145":[4,0,0,4,8,13]
+"structmalidrive_1_1xodr_1_1_geometry.html#a6886f5036c6d08a95f2839a1d9924b62":[4,0,0,4,8,5]
 };

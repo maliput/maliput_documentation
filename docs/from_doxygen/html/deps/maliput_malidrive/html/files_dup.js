@@ -187,15 +187,7 @@ var files_dup =
     ] ],
     [ "traffic_control_device/parser.cc", "traffic__control__device_2parser_8cc.html", null ],
     [ "xodr/parser.cc", "xodr_2parser_8cc.html", "xodr_2parser_8cc" ],
-    [ "traffic_control_device/parser.h", "traffic__control__device_2parser_8h.html", [
-      [ "BulbStateCondition", "structmalidrive_1_1traffic__control__device_1_1_bulb_state_condition.html", "structmalidrive_1_1traffic__control__device_1_1_bulb_state_condition" ],
-      [ "RuleState", "structmalidrive_1_1traffic__control__device_1_1_rule_state.html", "structmalidrive_1_1traffic__control__device_1_1_rule_state" ],
-      [ "BulbDefinition", "structmalidrive_1_1traffic__control__device_1_1_bulb_definition.html", "structmalidrive_1_1traffic__control__device_1_1_bulb_definition" ],
-      [ "BoundingBoxDimensions", "structmalidrive_1_1traffic__control__device_1_1_bounding_box_dimensions.html", "structmalidrive_1_1traffic__control__device_1_1_bounding_box_dimensions" ],
-      [ "TrafficControlDeviceFingerprint", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint.html", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_fingerprint" ],
-      [ "TrafficControlDeviceDefinition", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition.html", "structmalidrive_1_1traffic__control__device_1_1_traffic_control_device_definition" ],
-      [ "TrafficControlDeviceParser", "classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser.html", "classmalidrive_1_1traffic__control__device_1_1_traffic_control_device_parser" ]
-    ] ],
+    [ "traffic_control_device/parser.h", "traffic__control__device_2parser_8h.html", "traffic__control__device_2parser_8h" ],
     [ "xodr/parser.h", "xodr_2parser_8h.html", "xodr_2parser_8h" ],
     [ "parser_configuration.h", "parser__configuration_8h.html", [
       [ "ParserConfiguration", "structmalidrive_1_1xodr_1_1_parser_configuration.html", "structmalidrive_1_1xodr_1_1_parser_configuration" ]
