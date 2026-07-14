@@ -18,7 +18,21 @@ var road__object_8h =
       [ "kTree", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a0b40d046dd0bb405f6ac002c36663ea9", null ],
       [ "kVegetation", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9ab0a1d175cfb881422fa37092d8e40ebc", null ],
       [ "kPylon", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9ad51a84464b7c8336c5de0ab266d11389", null ],
-      [ "kDelineator", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9adbeb86107b199a33c0a9b03f81f54774", null ]
+      [ "kDelineator", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9adbeb86107b199a33c0a9b03f81f54774", null ],
+      [ "kBikeStatic", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a99efd09ef1d7ba65df6bff6ba1ea8c56", null ],
+      [ "kBusStatic", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a1bc2354bcb1c474ffe9ef8123605dab0", null ],
+      [ "kCarStatic", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9ad7469a9be7c8ff82ae7ea58fa5357f61", null ],
+      [ "kMotorbikeStatic", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a81867d71bc8ae580d75f751aa8593dff", null ],
+      [ "kPatch", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a5f14ab5b57e4f4ec0fffc6f08370623c", null ],
+      [ "kPedestrianStatic", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9ab95f9cab13afc9790de68ec8b9289066", null ],
+      [ "kRailing", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a5fc301e8d61ebd36a4c181a734c4a469", null ],
+      [ "kSoundBarrier", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a8b547294fb7e240d9262debfabbac566", null ],
+      [ "kStreetLamp", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a674edadc09e295598ca5d4c6e5c9705c", null ],
+      [ "kTrailerStatic", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a153ed675cb5b5c2f9855c5b8da717055", null ],
+      [ "kTrainStatic", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a0c65bfff71f59b8aa0ccf12e6a32dbe3", null ],
+      [ "kTramStatic", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a0043ee9d158813621c08a6bc6850c4ac", null ],
+      [ "kVanStatic", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a64cd398c44bfabd4e8e34a4f6df83458", null ],
+      [ "kWind", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a7e6b1d4d3aba78f78f4fe9d43fba105f", null ]
     ] ],
     [ "RoadObjectTypeMapper", "road__object_8h.html#aa2e91d41f630404c4a91b0ed8eb9abcd", null ]
 ];
