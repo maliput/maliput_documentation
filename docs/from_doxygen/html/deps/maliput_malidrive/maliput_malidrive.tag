@@ -491,57 +491,55 @@
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
   </compound>
   <compound kind="file">
-    <name>xodr/object/common.cc</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
-    <filename>xodr_2object_2common_8cc.html</filename>
-    <includes id="common_8h" name="common.h" local="yes" imported="no">maliput_malidrive/xodr/object/common.h</includes>
+    <name>xodr/common.cc</name>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/</path>
+    <filename>xodr_2common_8cc.html</filename>
+    <includes id="common_8h" name="common.h" local="yes" imported="no">maliput_malidrive/xodr/common.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
-    <namespace>malidrive::xodr::object</namespace>
     <member kind="function">
       <type>std::string</type>
       <name>orientation_to_str</name>
-      <anchorfile>namespacemalidrive_1_1xodr_1_1object.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
       <anchor>a44ee6861958393a38ea5991c08299858</anchor>
       <arglist>(Orientation orientation)</arglist>
     </member>
     <member kind="function">
       <type>Orientation</type>
       <name>str_to_orientation</name>
-      <anchorfile>namespacemalidrive_1_1xodr_1_1object.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
       <anchor>a9faf6b0bc25e5fd465e645a563d2949c</anchor>
       <arglist>(const std::string &amp;orientation)</arglist>
     </member>
   </compound>
   <compound kind="file">
     <name>common.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
+    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/</path>
     <filename>common_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::xodr</namespace>
-    <namespace>malidrive::xodr::object</namespace>
     <member kind="enumeration">
       <type></type>
       <name>Orientation</name>
-      <anchorfile>namespacemalidrive_1_1xodr_1_1object.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
       <anchor>a871118a09520247c78a71ecd7b0abd58</anchor>
       <arglist></arglist>
-      <enumvalue file="namespacemalidrive_1_1xodr_1_1object.html" anchor="a871118a09520247c78a71ecd7b0abd58afe449700ac27fbd09863263d74e7735f">kPositive</enumvalue>
-      <enumvalue file="namespacemalidrive_1_1xodr_1_1object.html" anchor="a871118a09520247c78a71ecd7b0abd58a25b105cbe0fd4622cdb36360c85e89c3">kNegative</enumvalue>
-      <enumvalue file="namespacemalidrive_1_1xodr_1_1object.html" anchor="a871118a09520247c78a71ecd7b0abd58a35c3ace1970663a16e5c65baa5941b13">kNone</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="a871118a09520247c78a71ecd7b0abd58a4439a15076665c11e71b4838f0bc34e8">kWithS</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="a871118a09520247c78a71ecd7b0abd58aff5914d726d886c7d370de5e67ded2a6">kAgainstS</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="a871118a09520247c78a71ecd7b0abd58a2bbe1a0ba50da9d6a71e768330359367">kBidirectional</enumvalue>
     </member>
     <member kind="function">
       <type>std::string</type>
       <name>orientation_to_str</name>
-      <anchorfile>namespacemalidrive_1_1xodr_1_1object.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
       <anchor>a44ee6861958393a38ea5991c08299858</anchor>
       <arglist>(Orientation orientation)</arglist>
     </member>
     <member kind="function">
       <type>Orientation</type>
       <name>str_to_orientation</name>
-      <anchorfile>namespacemalidrive_1_1xodr_1_1object.html</anchorfile>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
       <anchor>a9faf6b0bc25e5fd465e645a563d2949c</anchor>
       <arglist>(const std::string &amp;orientation)</arglist>
     </member>
@@ -1716,9 +1714,9 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
     <filename>object_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <includes id="common_8h" name="common.h" local="yes" imported="no">maliput_malidrive/xodr/common.h</includes>
     <includes id="borders_8h" name="borders.h" local="yes" imported="no">maliput_malidrive/xodr/object/borders.h</includes>
     <includes id="bridge_8h" name="bridge.h" local="yes" imported="no">maliput_malidrive/xodr/object/bridge.h</includes>
-    <includes id="common_8h" name="common.h" local="yes" imported="no">maliput_malidrive/xodr/object/common.h</includes>
     <includes id="markings_8h" name="markings.h" local="yes" imported="no">maliput_malidrive/xodr/object/markings.h</includes>
     <includes id="material_8h" name="material.h" local="yes" imported="no">maliput_malidrive/xodr/object/material.h</includes>
     <includes id="object__reference_8h" name="object_reference.h" local="yes" imported="no">maliput_malidrive/xodr/object/object_reference.h</includes>
@@ -1758,7 +1756,7 @@
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/object/</path>
     <filename>object__reference_8h.html</filename>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
-    <includes id="common_8h" name="common.h" local="yes" imported="no">maliput_malidrive/xodr/object/common.h</includes>
+    <includes id="common_8h" name="common.h" local="yes" imported="no">maliput_malidrive/xodr/common.h</includes>
     <includes id="validity_8h" name="validity.h" local="yes" imported="no">maliput_malidrive/xodr/validity.h</includes>
     <class kind="struct">malidrive::xodr::object::ObjectReference</class>
     <namespace>malidrive</namespace>
@@ -1793,24 +1791,6 @@
       <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
       <anchor>a4a5a2a771b491994e9a4f942b2d6a5e8</anchor>
       <arglist>(std::ostream &amp;out, const Offset &amp;offset)</arglist>
-    </member>
-  </compound>
-  <compound kind="file">
-    <name>orientation.h</name>
-    <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/signal/</path>
-    <filename>orientation_8h.html</filename>
-    <namespace>malidrive</namespace>
-    <namespace>malidrive::xodr</namespace>
-    <namespace>malidrive::xodr::signal</namespace>
-    <member kind="enumeration">
-      <type></type>
-      <name>Orientation</name>
-      <anchorfile>namespacemalidrive_1_1xodr_1_1signal.html</anchorfile>
-      <anchor>a871118a09520247c78a71ecd7b0abd58</anchor>
-      <arglist></arglist>
-      <enumvalue file="namespacemalidrive_1_1xodr_1_1signal.html" anchor="a871118a09520247c78a71ecd7b0abd58a4439a15076665c11e71b4838f0bc34e8">kWithS</enumvalue>
-      <enumvalue file="namespacemalidrive_1_1xodr_1_1signal.html" anchor="a871118a09520247c78a71ecd7b0abd58aff5914d726d886c7d370de5e67ded2a6">kAgainstS</enumvalue>
-      <enumvalue file="namespacemalidrive_1_1xodr_1_1signal.html" anchor="a871118a09520247c78a71ecd7b0abd58a2bbe1a0ba50da9d6a71e768330359367">kBidirectional</enumvalue>
     </member>
   </compound>
   <compound kind="file">
@@ -2066,7 +2046,6 @@
     <includes id="board_8h" name="board.h" local="yes" imported="no">maliput_malidrive/xodr/signal/board.h</includes>
     <includes id="controller_8h" name="controller.h" local="yes" imported="no">maliput_malidrive/xodr/signal/controller.h</includes>
     <includes id="dependency_8h" name="dependency.h" local="yes" imported="no">maliput_malidrive/xodr/signal/dependency.h</includes>
-    <includes id="orientation_8h" name="orientation.h" local="yes" imported="no">maliput_malidrive/xodr/signal/orientation.h</includes>
     <includes id="reference_8h" name="reference.h" local="yes" imported="no">maliput_malidrive/xodr/signal/reference.h</includes>
     <includes id="semantics_8h" name="semantics.h" local="yes" imported="no">maliput_malidrive/xodr/signal/semantics.h</includes>
     <includes id="signal_8h" name="signal.h" local="yes" imported="no">maliput_malidrive/xodr/signal/signal.h</includes>
@@ -2829,6 +2808,48 @@
     </member>
     <member kind="variable" static="yes">
       <type>static const char *</type>
+      <name>kRailingSubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>ae4034aba880bd941497817149da890ba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
+      <name>kPedestrianSubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>aa7152be88d6e13fcbcf488d28b93c9de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
+      <name>kBicycleSubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a55ba46b7fa3abdfd810fa9c349c5bf7a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
+      <name>kWindSubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>ab91b25749d306af8cbbebe1f84696919</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
+      <name>kNoiseProtectionsSubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a724fb8acbfb43525a8e23ec1ea776f52</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
+      <name>kPatchSubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a5b375a55abd88a5f57838c68a218a8ba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
       <name>kWallSubtype</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
       <anchor>afc955c1d3c63058342acb332430caed6</anchor>
@@ -2846,6 +2867,13 @@
       <name>kRoadBlockageSubtype</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
       <anchor>aa3725574646ad13fc9e33d1fb6158972</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
+      <name>kStreetLampSubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a7609bbf45fe1e561d7b9a68593dd6ab1</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
@@ -3090,10 +3118,10 @@
     <name>signal.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/signal/</path>
     <filename>signal_8h.html</filename>
+    <includes id="common_8h" name="common.h" local="yes" imported="no">maliput_malidrive/xodr/common.h</includes>
     <includes id="board_8h" name="board.h" local="yes" imported="no">maliput_malidrive/xodr/signal/board.h</includes>
     <includes id="controller_8h" name="controller.h" local="yes" imported="no">maliput_malidrive/xodr/signal/controller.h</includes>
     <includes id="dependency_8h" name="dependency.h" local="yes" imported="no">maliput_malidrive/xodr/signal/dependency.h</includes>
-    <includes id="orientation_8h" name="orientation.h" local="yes" imported="no">maliput_malidrive/xodr/signal/orientation.h</includes>
     <includes id="reference_8h" name="reference.h" local="yes" imported="no">maliput_malidrive/xodr/signal/reference.h</includes>
     <includes id="semantics_8h" name="semantics.h" local="yes" imported="no">maliput_malidrive/xodr/signal/semantics.h</includes>
     <includes id="signal__reference_8h" name="signal_reference.h" local="yes" imported="no">maliput_malidrive/xodr/signal/signal_reference.h</includes>
@@ -3113,7 +3141,6 @@
     <includes id="board_8h" name="board.h" local="yes" imported="no">maliput_malidrive/xodr/signal/board.h</includes>
     <includes id="controller_8h" name="controller.h" local="yes" imported="no">maliput_malidrive/xodr/signal/controller.h</includes>
     <includes id="dependency_8h" name="dependency.h" local="yes" imported="no">maliput_malidrive/xodr/signal/dependency.h</includes>
-    <includes id="orientation_8h" name="orientation.h" local="yes" imported="no">maliput_malidrive/xodr/signal/orientation.h</includes>
     <includes id="reference_8h" name="reference.h" local="yes" imported="no">maliput_malidrive/xodr/signal/reference.h</includes>
     <includes id="semantics_8h" name="semantics.h" local="yes" imported="no">maliput_malidrive/xodr/signal/semantics.h</includes>
     <includes id="sign_8h" name="sign.h" local="yes" imported="no">maliput_malidrive/xodr/signal/sign.h</includes>
@@ -3135,7 +3162,7 @@
     <name>signal_reference.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/xodr/signal/</path>
     <filename>signal__reference_8h.html</filename>
-    <includes id="orientation_8h" name="orientation.h" local="yes" imported="no">maliput_malidrive/xodr/signal/orientation.h</includes>
+    <includes id="common_8h" name="common.h" local="yes" imported="no">maliput_malidrive/xodr/common.h</includes>
     <includes id="validity_8h" name="validity.h" local="yes" imported="no">maliput_malidrive/xodr/validity.h</includes>
     <class kind="struct">malidrive::xodr::signal::SignalReference</class>
     <namespace>malidrive</namespace>
@@ -3386,7 +3413,7 @@
     <includes id="builder__tools_8h" name="builder_tools.h" local="yes" imported="no">maliput_malidrive/builder/builder_tools.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="traffic__control__device_2parser_8h" name="traffic_control_device/parser.h" local="yes" imported="no">maliput_malidrive/traffic_control_device/parser.h</includes>
-    <includes id="orientation_8h" name="orientation.h" local="yes" imported="no">maliput_malidrive/xodr/signal/orientation.h</includes>
+    <includes id="common_8h" name="common.h" local="yes" imported="no">maliput_malidrive/xodr/common.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
   </compound>
@@ -3412,7 +3439,7 @@
     <includes id="traffic__sign__type__mapper_8h" name="traffic_sign_type_mapper.h" local="yes" imported="no">maliput_malidrive/builder/traffic_sign_type_mapper.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="traffic__control__device_2parser_8h" name="traffic_control_device/parser.h" local="yes" imported="no">maliput_malidrive/traffic_control_device/parser.h</includes>
-    <includes id="orientation_8h" name="orientation.h" local="yes" imported="no">maliput_malidrive/xodr/signal/orientation.h</includes>
+    <includes id="common_8h" name="common.h" local="yes" imported="no">maliput_malidrive/xodr/common.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
   </compound>
@@ -4054,7 +4081,7 @@
       <arglist>(const std::string &amp;attribute_name) const</arglist>
     </member>
     <member kind="function">
-      <type>std::optional&lt; object::Orientation &gt;</type>
+      <type>std::optional&lt; Orientation &gt;</type>
       <name>As</name>
       <anchorfile>classmalidrive_1_1xodr_1_1_attribute_parser.html</anchorfile>
       <anchor>a3c8d165d481bb588ac7095afedc1d530</anchor>
@@ -15837,6 +15864,48 @@
     </member>
     <member kind="variable" static="yes">
       <type>static const char *</type>
+      <name>kRailingSubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>ae4034aba880bd941497817149da890ba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
+      <name>kPedestrianSubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>aa7152be88d6e13fcbcf488d28b93c9de</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
+      <name>kBicycleSubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a55ba46b7fa3abdfd810fa9c349c5bf7a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
+      <name>kWindSubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>ab91b25749d306af8cbbebe1f84696919</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
+      <name>kNoiseProtectionsSubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a724fb8acbfb43525a8e23ec1ea776f52</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
+      <name>kPatchSubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a5b375a55abd88a5f57838c68a218a8ba</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
       <name>kWallSubtype</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
       <anchor>afc955c1d3c63058342acb332430caed6</anchor>
@@ -15854,6 +15923,13 @@
       <name>kRoadBlockageSubtype</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
       <anchor>aa3725574646ad13fc9e33d1fb6158972</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static const char *</type>
+      <name>kStreetLampSubtype</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a7609bbf45fe1e561d7b9a68593dd6ab1</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable" static="yes">
@@ -16400,6 +16476,16 @@
     </member>
     <member kind="enumeration">
       <type></type>
+      <name>Orientation</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a871118a09520247c78a71ecd7b0abd58</anchor>
+      <arglist></arglist>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="a871118a09520247c78a71ecd7b0abd58a4439a15076665c11e71b4838f0bc34e8">kWithS</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="a871118a09520247c78a71ecd7b0abd58aff5914d726d886c7d370de5e67ded2a6">kAgainstS</enumvalue>
+      <enumvalue file="namespacemalidrive_1_1xodr.html" anchor="a871118a09520247c78a71ecd7b0abd58a2bbe1a0ba50da9d6a71e768330359367">kBidirectional</enumvalue>
+    </member>
+    <member kind="enumeration">
+      <type></type>
       <name>Rule</name>
       <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
       <anchor>a11fcd51ef86118f65e603c1474377a78</anchor>
@@ -16431,6 +16517,20 @@
       <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
       <anchor>ac9d10c6440e0fc4b7cfdfb44795981c8</anchor>
       <arglist>(const std::string &amp;color)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::string</type>
+      <name>orientation_to_str</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a44ee6861958393a38ea5991c08299858</anchor>
+      <arglist>(Orientation orientation)</arglist>
+    </member>
+    <member kind="function">
+      <type>Orientation</type>
+      <name>str_to_orientation</name>
+      <anchorfile>namespacemalidrive_1_1xodr.html</anchorfile>
+      <anchor>a9faf6b0bc25e5fd465e645a563d2949c</anchor>
+      <arglist>(const std::string &amp;orientation)</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; DBManager &gt;</type>
@@ -16599,30 +16699,6 @@
     <class kind="struct">malidrive::xodr::object::Tunnel</class>
     <class kind="struct">malidrive::xodr::object::VertexLocal</class>
     <class kind="struct">malidrive::xodr::object::VertexRoad</class>
-    <member kind="enumeration">
-      <type></type>
-      <name>Orientation</name>
-      <anchorfile>namespacemalidrive_1_1xodr_1_1object.html</anchorfile>
-      <anchor>a871118a09520247c78a71ecd7b0abd58</anchor>
-      <arglist></arglist>
-      <enumvalue file="namespacemalidrive_1_1xodr_1_1object.html" anchor="a871118a09520247c78a71ecd7b0abd58afe449700ac27fbd09863263d74e7735f">kPositive</enumvalue>
-      <enumvalue file="namespacemalidrive_1_1xodr_1_1object.html" anchor="a871118a09520247c78a71ecd7b0abd58a25b105cbe0fd4622cdb36360c85e89c3">kNegative</enumvalue>
-      <enumvalue file="namespacemalidrive_1_1xodr_1_1object.html" anchor="a871118a09520247c78a71ecd7b0abd58a35c3ace1970663a16e5c65baa5941b13">kNone</enumvalue>
-    </member>
-    <member kind="function">
-      <type>std::string</type>
-      <name>orientation_to_str</name>
-      <anchorfile>namespacemalidrive_1_1xodr_1_1object.html</anchorfile>
-      <anchor>a44ee6861958393a38ea5991c08299858</anchor>
-      <arglist>(Orientation orientation)</arglist>
-    </member>
-    <member kind="function">
-      <type>Orientation</type>
-      <name>str_to_orientation</name>
-      <anchorfile>namespacemalidrive_1_1xodr_1_1object.html</anchorfile>
-      <anchor>a9faf6b0bc25e5fd465e645a563d2949c</anchor>
-      <arglist>(const std::string &amp;orientation)</arglist>
-    </member>
   </compound>
   <compound kind="namespace">
     <name>malidrive::xodr::signal</name>
@@ -16638,16 +16714,6 @@
     <class kind="struct">malidrive::xodr::signal::Signals</class>
     <class kind="struct">malidrive::xodr::signal::StaticBoard</class>
     <class kind="struct">malidrive::xodr::signal::VmsBoard</class>
-    <member kind="enumeration">
-      <type></type>
-      <name>Orientation</name>
-      <anchorfile>namespacemalidrive_1_1xodr_1_1signal.html</anchorfile>
-      <anchor>a871118a09520247c78a71ecd7b0abd58</anchor>
-      <arglist></arglist>
-      <enumvalue file="namespacemalidrive_1_1xodr_1_1signal.html" anchor="a871118a09520247c78a71ecd7b0abd58a4439a15076665c11e71b4838f0bc34e8">kWithS</enumvalue>
-      <enumvalue file="namespacemalidrive_1_1xodr_1_1signal.html" anchor="a871118a09520247c78a71ecd7b0abd58aff5914d726d886c7d370de5e67ded2a6">kAgainstS</enumvalue>
-      <enumvalue file="namespacemalidrive_1_1xodr_1_1signal.html" anchor="a871118a09520247c78a71ecd7b0abd58a2bbe1a0ba50da9d6a71e768330359367">kBidirectional</enumvalue>
-    </member>
   </compound>
   <compound kind="namespace">
     <name>utility</name>

@@ -26,6 +26,7 @@ var road__object_8h =
       [ "kPatch", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a5f14ab5b57e4f4ec0fffc6f08370623c", null ],
       [ "kPedestrianStatic", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9ab95f9cab13afc9790de68ec8b9289066", null ],
       [ "kRailing", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a5fc301e8d61ebd36a4c181a734c4a469", null ],
+      [ "kRoadSurface", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a301c9bd2b7fad7fb2e36ba40817a57d6", null ],
       [ "kSoundBarrier", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a8b547294fb7e240d9262debfabbac566", null ],
       [ "kStreetLamp", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a674edadc09e295598ca5d4c6e5c9705c", null ],
       [ "kTrailerStatic", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9a153ed675cb5b5c2f9855c5b8da717055", null ],

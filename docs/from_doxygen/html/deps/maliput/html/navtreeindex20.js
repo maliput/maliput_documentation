@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa6442e5a064242288bd21560140c80018":[5,0,343,1,161],
 "traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa65f3f87ee9a9c68ad85decfe4362ea19":[5,0,343,1,199],
 "traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa66570d2320176945d8f2ae1d83e47290":[5,0,343,1,141],
 "traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa68980c13c505662e2806f0b5e7894f23":[5,0,343,1,34],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2af488355abd03604ef26881edaf82d79c":[5,0,350,12,2],
 "traffic__lights_8h.html#ae22def226ba4538ee9a91f02bd1b5ff3":[5,0,350,15],
 "traffic__sign_8cc.html":[5,0,351],
-"traffic__sign_8cc.html#a02e3665aeabac4206a12a80d2e895758":[5,0,351,2],
-"traffic__sign_8cc.html#a0dadb53e6d8ffd3c428c66dbf792d58e":[5,0,351,0]
+"traffic__sign_8cc.html#a02e3665aeabac4206a12a80d2e895758":[5,0,351,2]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"structmaliput_1_1routing_1_1_phase_position_result.html#aa75356e55277ab0292643ec02e5e54fa":[4,0,0,6,2,2],
 "structmaliput_1_1routing_1_1_phase_position_result.html#acdbf55e2e5d62afffb05c7fef824a761":[4,0,0,6,2,1],
 "structmaliput_1_1routing_1_1_route_position_result.html":[4,0,0,6,4],
 "structmaliput_1_1routing_1_1_route_position_result.html#a6984853197d59116eb242162513cd597":[4,0,0,6,4,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa6182cd06b8d4a7fbd296053a2b786b9c":[5,0,343,1,249],
 "traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa61f6f655d206d1c6b31327d8dc55185e":[5,0,343,1,127],
 "traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa621e169f480ae2df3d1f56488d8e22ea":[5,0,343,1,21],
-"traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa637b03b3cc532f7306e3eeefe1c1d9df":[5,0,343,1,84],
-"traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa6442e5a064242288bd21560140c80018":[5,0,343,1,161]
+"traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa637b03b3cc532f7306e3eeefe1c1d9df":[5,0,343,1,84]
 };

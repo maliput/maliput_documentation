@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"structmalidrive_1_1xodr_1_1object_1_1_outline.html#abced2abd468929556bd4f3102ed60991":[4,0,0,4,0,13,7],
+"structmalidrive_1_1xodr_1_1object_1_1_outline.html#ad6704b0e8b1bd6147b09066d54e8b4a0":[4,0,0,4,0,13,14],
 "structmalidrive_1_1xodr_1_1object_1_1_outline.html#ad71d02c29aeb0efec4d0b888404af96a":[4,0,0,4,0,13,15],
 "structmalidrive_1_1xodr_1_1object_1_1_outline.html#ad860f1281e4a4ba17a36f334d12caa58":[4,0,0,4,0,13,9],
 "structmalidrive_1_1xodr_1_1object_1_1_outline.html#adcc886181f0e0e2e7bb8f730185ca462":[4,0,0,4,0,13,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "structmalidrive_1_1xodr_1_1signal_1_1_semantics.html#a9eda89966fd0e5e80d660a133b3ffa09":[4,0,0,4,1,4,29],
 "structmalidrive_1_1xodr_1_1signal_1_1_semantics.html#a9f61e04f6c1eb5339ddbb9b31ab06e37":[4,0,0,4,1,4,30],
 "structmalidrive_1_1xodr_1_1signal_1_1_semantics.html#ac065ed8c7e803ed9c3a47ea6586b1aa3":[4,0,0,4,1,4,27],
-"structmalidrive_1_1xodr_1_1signal_1_1_semantics.html#ac4cfd2eee4a236dd3428dd9a04322e38":[4,0,0,4,1,4,40],
-"structmalidrive_1_1xodr_1_1signal_1_1_semantics.html#ac55df4f9e69e58cfc8510b17c0897792":[4,0,0,4,1,4,35],
-"structmalidrive_1_1xodr_1_1signal_1_1_semantics.html#ac8ac5169178854d0143ac3446914d006":[4,0,0,4,1,4,28]
+"structmalidrive_1_1xodr_1_1signal_1_1_semantics.html#ac4cfd2eee4a236dd3428dd9a04322e38":[4,0,0,4,1,4,40]
 };

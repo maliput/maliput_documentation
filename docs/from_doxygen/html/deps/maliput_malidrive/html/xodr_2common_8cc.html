@@ -69,7 +69,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('xodr_2object_2common_8cc.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('xodr_2common_8cc.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -92,14 +92,15 @@ $(document).ready(function(){initNavTree('xodr_2object_2common_8cc.html',''); in
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">xodr/object/common.cc File Reference</div>  </div>
+<div class="title">xodr/common.cc File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="common_8h.html">maliput_malidrive/xodr/object/common.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="common_8h.html">maliput_malidrive/xodr/common.h</a>&quot;</code><br />
+<code>#include &lt;map&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for xodr/object/common.cc:</div>
+Include dependency graph for xodr/common.cc:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="xodr_2object_2common_8cc__incl.svg" width="100%" height="529"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="xodr_2common_8cc__incl.svg" width="100%" height="529"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -110,16 +111,14 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacemalidrive_1_1xodr"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1xodr.html">malidrive::xodr</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacemalidrive_1_1xodr_1_1object"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1xodr_1_1object.html">malidrive::xodr::object</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a44ee6861958393a38ea5991c08299858"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1xodr_1_1object.html#a44ee6861958393a38ea5991c08299858">orientation_to_str</a> (Orientation orientation)</td></tr>
-<tr class="memdesc:a44ee6861958393a38ea5991c08299858"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matches string with a Orientation.  <a href="namespacemalidrive_1_1xodr_1_1object.html#a44ee6861958393a38ea5991c08299858">More...</a><br /></td></tr>
+<tr class="memitem:a44ee6861958393a38ea5991c08299858"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1xodr.html#a44ee6861958393a38ea5991c08299858">orientation_to_str</a> (Orientation orientation)</td></tr>
+<tr class="memdesc:a44ee6861958393a38ea5991c08299858"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matches string with an Orientation.  <a href="namespacemalidrive_1_1xodr.html#a44ee6861958393a38ea5991c08299858">More...</a><br /></td></tr>
 <tr class="separator:a44ee6861958393a38ea5991c08299858"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9faf6b0bc25e5fd465e645a563d2949c"><td class="memItemLeft" align="right" valign="top">Orientation&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1xodr_1_1object.html#a9faf6b0bc25e5fd465e645a563d2949c">str_to_orientation</a> (const std::string &amp;orientation)</td></tr>
-<tr class="memdesc:a9faf6b0bc25e5fd465e645a563d2949c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matches Orientation with a string.  <a href="namespacemalidrive_1_1xodr_1_1object.html#a9faf6b0bc25e5fd465e645a563d2949c">More...</a><br /></td></tr>
+<tr class="memitem:a9faf6b0bc25e5fd465e645a563d2949c"><td class="memItemLeft" align="right" valign="top">Orientation&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1xodr.html#a9faf6b0bc25e5fd465e645a563d2949c">str_to_orientation</a> (const std::string &amp;orientation)</td></tr>
+<tr class="memdesc:a9faf6b0bc25e5fd465e645a563d2949c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matches Orientation with a string.  <a href="namespacemalidrive_1_1xodr.html#a9faf6b0bc25e5fd465e645a563d2949c">More...</a><br /></td></tr>
 <tr class="separator:a9faf6b0bc25e5fd465e645a563d2949c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
@@ -128,7 +127,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6999865786191093171eaf56dfb05f4a.html">maliput_malidrive</a></li><li class="navelem"><a class="el" href="dir_b3770ee9ccff99a2e84e4a506f0c1cb6.html">xodr</a></li><li class="navelem"><a class="el" href="dir_1194a7ffb813004d8883fdb892578fbd.html">object</a></li><li class="navelem"><a class="el" href="xodr_2object_2common_8cc.html">common.cc</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_6999865786191093171eaf56dfb05f4a.html">maliput_malidrive</a></li><li class="navelem"><a class="el" href="dir_b3770ee9ccff99a2e84e4a506f0c1cb6.html">xodr</a></li><li class="navelem"><a class="el" href="xodr_2common_8cc.html">common.cc</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.nl/">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a></li>

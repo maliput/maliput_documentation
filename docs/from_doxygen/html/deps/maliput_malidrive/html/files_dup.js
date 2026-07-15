@@ -24,7 +24,7 @@ var files_dup =
     [ "colors.cc", "colors_8cc.html", "colors_8cc" ],
     [ "colors.h", "colors_8h.html", "colors_8h" ],
     [ "common/common.cc", "common_2common_8cc.html", null ],
-    [ "xodr/object/common.cc", "xodr_2object_2common_8cc.html", "xodr_2object_2common_8cc" ],
+    [ "xodr/common.cc", "xodr_2common_8cc.html", "xodr_2common_8cc" ],
     [ "common.h", "common_8h.html", "common_8h" ],
     [ "connection.cc", "connection_8cc.html", null ],
     [ "connection.h", "connection_8h.html", [
@@ -168,7 +168,6 @@ var files_dup =
     ] ],
     [ "offset.cc", "offset_8cc.html", "offset_8cc" ],
     [ "offset.h", "offset_8h.html", "offset_8h" ],
-    [ "orientation.h", "orientation_8h.html", "orientation_8h" ],
     [ "outlines.cc", "outlines_8cc.html", null ],
     [ "outlines.h", "outlines_8h.html", [
       [ "CornerLocal", "structmalidrive_1_1xodr_1_1object_1_1_corner_local.html", "structmalidrive_1_1xodr_1_1object_1_1_corner_local" ],
