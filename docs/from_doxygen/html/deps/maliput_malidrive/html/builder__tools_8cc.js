@@ -1,8 +1,10 @@
 var builder__tools_8cc =
 [
+    [ "AdjustSCoordinateToLaneSection", "builder__tools_8cc.html#ab2e1877548acc822e9be8acdea3d0c51", null ],
     [ "AreOnlyNonDrivableLanes", "builder__tools_8cc.html#aaec81bc2cb08e554776479cc0254cc58", null ],
     [ "BuildOutlines", "builder__tools_8cc.html#ae5827d1b2fb186d720dd90175f3d797e", null ],
     [ "DetermineJunctionIntersectionFromXodr", "builder__tools_8cc.html#ac32673e16039631e305f1eb414da3c37", null ],
+    [ "FilterLaneIdsBySignalOrientation", "builder__tools_8cc.html#aef6a6553eb3e99c9baa5de86119f3d44", null ],
     [ "FindLocalMinFromCubicPol", "builder__tools_8cc.html#a744c0ebef658f17b42e0893685c9d014", null ],
     [ "GetDirectionUsageRuleStateType", "builder__tools_8cc.html#a83f92af25b6b999202b2da6403ad44a8", null ],
     [ "GetLaneSpeedProperties", "builder__tools_8cc.html#aea40335a4d1e13fb8fd8225d49a5cac8", null ],
@@ -11,8 +13,9 @@ var builder__tools_8cc =
     [ "GetXodrLaneFromMalidriveLane", "builder__tools_8cc.html#a5a8aeb9dc7bf980baa67c6ff1a37c3ee", null ],
     [ "GetXodrRoadFromMalidriveLane", "builder__tools_8cc.html#a261dbba86373bcee9d3d6c8c46fcd80c", null ],
     [ "is_driveable_lane", "builder__tools_8cc.html#a14bd50eefd7d268587de3d7d36b02cb7", null ],
-    [ "ResolveAndDeduplicateLaneIds", "builder__tools_8cc.html#aee4f4b199eef5812da50455b76947d5d", null ],
+    [ "ResolveLaneIds", "builder__tools_8cc.html#a57e6d864458ec004e63d2021f08e485d", null ],
     [ "ResolveLaneIds", "builder__tools_8cc.html#ac7bc7deb7c38d600db98ce0fbbbb7fa6", null ],
+    [ "ResolveLaneIds", "builder__tools_8cc.html#a6519bcc4f579c9ff795d2b7eacbc3796", null ],
     [ "SolveLaneEndsForConnectingRoad", "builder__tools_8cc.html#af4c90e9ac4facbd99c46a05b567d233f", null ],
     [ "SolveLaneEndsForInnerLaneSection", "builder__tools_8cc.html#a1b0f112b9e4b345475cf6cd1dd7442f2", null ],
     [ "SolveLaneEndsForJunction", "builder__tools_8cc.html#a8ed94b43b24d41699e40f3d48e17997e", null ],
@@ -21,6 +24,7 @@ var builder__tools_8cc =
     [ "VehicleUsageAndExclusiveRuleStateValues", "builder__tools_8cc.html#acd27b211238553bfcaddc566885470b0", null ],
     [ "VehicleUsageValueForXodrLane", "builder__tools_8cc.html#a73d94b99b61dfed9471f0dc9fbb85c3b", null ],
     [ "is_driveable_lane", "builder__tools_8cc.html#a146b7fcbd7f58b8d0b6196c0fcb44559", null ],
+    [ "kEpsilon", "builder__tools_8cc.html#a2df379b283a801aa08771af3f657b7f5", null ],
     [ "vehicle_exclusive_value", "builder__tools_8cc.html#ac6df865cf6a88b375c03997937b52243", null ],
     [ "vehicle_usage_value", "builder__tools_8cc.html#ab20cbc8bed1a8ccd8e7b6dfa4b12cceb", null ]
 ];

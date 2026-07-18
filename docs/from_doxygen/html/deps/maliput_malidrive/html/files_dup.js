@@ -258,7 +258,7 @@ var files_dup =
       [ "RoadLink", "structmalidrive_1_1xodr_1_1_road_link.html", "structmalidrive_1_1xodr_1_1_road_link" ],
       [ "LinkAttributes", "structmalidrive_1_1xodr_1_1_road_link_1_1_link_attributes.html", "structmalidrive_1_1xodr_1_1_road_link_1_1_link_attributes" ]
     ] ],
-    [ "road_marking_builder.cc", "road__marking__builder_8cc.html", "road__marking__builder_8cc" ],
+    [ "road_marking_builder.cc", "road__marking__builder_8cc.html", null ],
     [ "road_marking_builder.h", "road__marking__builder_8h.html", [
       [ "RoadMarkingBuilder", "classmalidrive_1_1builder_1_1_road_marking_builder.html", "classmalidrive_1_1builder_1_1_road_marking_builder" ]
     ] ],
@@ -273,7 +273,7 @@ var files_dup =
     [ "road_network_configuration.h", "road__network__configuration_8h.html", [
       [ "RoadNetworkConfiguration", "structmalidrive_1_1builder_1_1_road_network_configuration.html", "structmalidrive_1_1builder_1_1_road_network_configuration" ]
     ] ],
-    [ "road_object_builder.cc", "road__object__builder_8cc.html", "road__object__builder_8cc" ],
+    [ "road_object_builder.cc", "road__object__builder_8cc.html", null ],
     [ "road_object_builder.h", "road__object__builder_8h.html", [
       [ "RoadObjectBuilder", "classmalidrive_1_1builder_1_1_road_object_builder.html", "classmalidrive_1_1builder_1_1_road_object_builder" ]
     ] ],

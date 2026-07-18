@@ -109,6 +109,9 @@ $(document).ready(function(){initNavTree('classmalidrive_1_1xodr_1_1_d_b_manager
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_object_reference_on_road.html">ObjectReferenceOnRoad</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pairs an <a class="el" href="structmalidrive_1_1xodr_1_1object_1_1_object_reference.html">object::ObjectReference</a> with the ID of the road on which the reference appears.  <a href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_object_reference_on_road.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_signal_reference_on_road.html">SignalReferenceOnRoad</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pairs an <a class="el" href="structmalidrive_1_1xodr_1_1signal_1_1_signal_reference.html">signal::SignalReference</a> with the ID of the road on which the reference appears.  <a href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_signal_reference_on_road.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,6 +151,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aca17d355cd513a61027908cb09a82b8a"><td class="memItemLeft" align="right" valign="top">const std::unordered_map&lt; std::string, std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_signal_reference_on_road.html">SignalReferenceOnRoad</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html#aca17d355cd513a61027908cb09a82b8a">GetSignalReferencesBySignalId</a> () const</td></tr>
 <tr class="memdesc:aca17d355cd513a61027908cb09a82b8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collects all signal references from every road, grouped by the referenced signal ID.  <a href="classmalidrive_1_1xodr_1_1_d_b_manager.html#aca17d355cd513a61027908cb09a82b8a">More...</a><br /></td></tr>
 <tr class="separator:aca17d355cd513a61027908cb09a82b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a03a6ec70010e99b218b5f0190e7ca7"><td class="memItemLeft" align="right" valign="top">const std::unordered_map&lt; std::string, std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_object_reference_on_road.html">ObjectReferenceOnRoad</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html#a6a03a6ec70010e99b218b5f0190e7ca7">GetObjectReferencesByObjectId</a> () const</td></tr>
+<tr class="memdesc:a6a03a6ec70010e99b218b5f0190e7ca7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collects all object references from every road, grouped by the referenced object ID.  <a href="classmalidrive_1_1xodr_1_1_d_b_manager.html#a6a03a6ec70010e99b218b5f0190e7ca7">More...</a><br /></td></tr>
+<tr class="separator:a6a03a6ec70010e99b218b5f0190e7ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03e603447991303f202cc7a71aa31ba5"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometries_to_simplify.html">XodrGeometriesToSimplify</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html#a03e603447991303f202cc7a71aa31ba5">GetGeometriesToSimplify</a> (double tolerance) const</td></tr>
 <tr class="memdesc:a03e603447991303f202cc7a71aa31ba5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Analyses all the RoadHeaders' geometries looking for pieces that can be unified or merged together into a simpler description.  <a href="classmalidrive_1_1xodr_1_1_d_b_manager.html#a03e603447991303f202cc7a71aa31ba5">More...</a><br /></td></tr>
 <tr class="separator:a03e603447991303f202cc7a71aa31ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -428,6 +434,27 @@ Public Member Functions</h2></td></tr>
 <p>Get the largest gap between superelevations. </p>
 <p><a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html" title="Database Manager in charge of:">DBManager</a> extracts this information from the XODR only the first time that either this or <code><a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html#a12525df28b90b46f177612afc91a727b" title="Get the shortest gap between superelevations.">GetShortestSuperelevationGap()</a></code> methods are called. Results are stored to be consulted as many times as needed but without carrying out the analysis more than once in order to avoid performance drop.</p>
 <dl class="section return"><dt>Returns</dt><dd>Data from the largest gap between superelevations in the entire XODR description. When RoadHeaderId is "none" it means there are no possible gaps to be analyzed: roads only have one or none superelevations. </dd></dl>
+
+</div>
+</div>
+<a id="a6a03a6ec70010e99b218b5f0190e7ca7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a03a6ec70010e99b218b5f0190e7ca7">&#9670;&nbsp;</a></span>GetObjectReferencesByObjectId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::unordered_map&lt; std::string, std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_object_reference_on_road.html">DBManager::ObjectReferenceOnRoad</a> &gt; &gt; &amp; GetObjectReferencesByObjectId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Collects all object references from every road, grouped by the referenced object ID. </p>
+<p>The returned map keys are object ID strings; the values are vectors of <a class="el" href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_object_reference_on_road.html">ObjectReferenceOnRoad</a> entries that reference that object.</p>
+<dl class="section return"><dt>Returns</dt><dd>A map from object-ID string to all <a class="el" href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_object_reference_on_road.html">ObjectReferenceOnRoad</a> entries referencing it. </dd></dl>
 
 </div>
 </div>

@@ -223,10 +223,24 @@
     </member>
     <member kind="function">
       <type>std::vector&lt; maliput::api::LaneId &gt;</type>
-      <name>ResolveAndDeduplicateLaneIds</name>
+      <name>ResolveLaneIds</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>aee4f4b199eef5812da50455b76947d5d</anchor>
-      <arglist>(const xodr::RoadHeader::Id &amp;road_id, double s_coordinate, const std::vector&lt; xodr::Validity &gt; &amp;validities, const std::vector&lt; xodr::DBManager::SignalReferenceOnRoad &gt; &amp;signal_references, const maliput::api::RoadGeometry *road_geometry)</arglist>
+      <anchor>a6519bcc4f579c9ff795d2b7eacbc3796</anchor>
+      <arglist>(const xodr::signal::Signal &amp;signal, double s_coordinate, const xodr::RoadHeader::Id &amp;road_id, const std::vector&lt; xodr::DBManager::SignalReferenceOnRoad &gt; &amp;signal_references, const maliput::api::RoadGeometry *road_geometry)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; maliput::api::LaneId &gt;</type>
+      <name>ResolveLaneIds</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a57e6d864458ec004e63d2021f08e485d</anchor>
+      <arglist>(const xodr::object::Object &amp;object, double s_coordinate, const xodr::RoadHeader::Id &amp;road_id, const std::vector&lt; xodr::DBManager::ObjectReferenceOnRoad &gt; &amp;object_references, const maliput::api::RoadGeometry *road_geometry)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; maliput::api::LaneId &gt;</type>
+      <name>FilterLaneIdsBySignalOrientation</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>aef6a6553eb3e99c9baa5de86119f3d44</anchor>
+      <arglist>(const std::vector&lt; maliput::api::LaneId &gt; &amp;lane_ids, xodr::Orientation orientation, const maliput::api::RoadGeometry *road_geometry)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; std::unique_ptr&lt; maliput::api::objects::Outline &gt; &gt;</type>
@@ -234,6 +248,20 @@
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
       <anchor>ae5827d1b2fb186d720dd90175f3d797e</anchor>
       <arglist>(const xodr::object::Object &amp;object, const xodr::RoadHeader::Id &amp;road_id, const maliput::api::RoadGeometry *road_geometry, const maliput::api::InertialPosition &amp;object_inertial_pos, const maliput::api::Rotation &amp;object_orientation)</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>AdjustSCoordinateToLaneSection</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>ab2e1877548acc822e9be8acdea3d0c51</anchor>
+      <arglist>(const maliput::api::RoadGeometry *road_geometry, const xodr::RoadHeader::Id &amp;road_id, double s_coordinate, const std::string &amp;id)</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr double</type>
+      <name>kEpsilon</name>
+      <anchorfile>builder__tools_8cc.html</anchorfile>
+      <anchor>a2df379b283a801aa08771af3f657b7f5</anchor>
+      <arglist></arglist>
     </member>
     <member kind="variable">
       <type>bool</type>
@@ -264,11 +292,13 @@
     <includes id="base_2lane_8h" name="base/lane.h" local="yes" imported="no">maliput_malidrive/base/lane.h</includes>
     <includes id="rule__tools_8h" name="rule_tools.h" local="yes" imported="no">maliput_malidrive/builder/rule_tools.h</includes>
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
+    <includes id="common_8h" name="common.h" local="yes" imported="no">maliput_malidrive/xodr/common.h</includes>
     <includes id="db__manager_8h" name="db_manager.h" local="yes" imported="no">maliput_malidrive/xodr/db_manager.h</includes>
     <includes id="junction_8h" name="junction.h" local="yes" imported="no">maliput_malidrive/xodr/junction.h</includes>
     <includes id="xodr_2lane_8h" name="xodr/lane.h" local="yes" imported="no">maliput_malidrive/xodr/lane.h</includes>
     <includes id="object_8h" name="object.h" local="yes" imported="no">maliput_malidrive/xodr/object/object.h</includes>
     <includes id="road__header_8h" name="road_header.h" local="yes" imported="no">maliput_malidrive/xodr/road_header.h</includes>
+    <includes id="signal_8h" name="signal.h" local="yes" imported="no">maliput_malidrive/xodr/signal/signal.h</includes>
     <includes id="validity_8h" name="validity.h" local="yes" imported="no">maliput_malidrive/xodr/validity.h</includes>
     <class kind="struct">malidrive::builder::MalidriveXodrLaneProperties</class>
     <class kind="class">malidrive::builder::LaneTravelDirection</class>
@@ -411,10 +441,24 @@
     </member>
     <member kind="function">
       <type>std::vector&lt; maliput::api::LaneId &gt;</type>
-      <name>ResolveAndDeduplicateLaneIds</name>
+      <name>ResolveLaneIds</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>aee4f4b199eef5812da50455b76947d5d</anchor>
-      <arglist>(const xodr::RoadHeader::Id &amp;road_id, double s_coordinate, const std::vector&lt; xodr::Validity &gt; &amp;validities, const std::vector&lt; xodr::DBManager::SignalReferenceOnRoad &gt; &amp;signal_references, const maliput::api::RoadGeometry *road_geometry)</arglist>
+      <anchor>a6519bcc4f579c9ff795d2b7eacbc3796</anchor>
+      <arglist>(const xodr::signal::Signal &amp;signal, double s_coordinate, const xodr::RoadHeader::Id &amp;road_id, const std::vector&lt; xodr::DBManager::SignalReferenceOnRoad &gt; &amp;signal_references, const maliput::api::RoadGeometry *road_geometry)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; maliput::api::LaneId &gt;</type>
+      <name>ResolveLaneIds</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a57e6d864458ec004e63d2021f08e485d</anchor>
+      <arglist>(const xodr::object::Object &amp;object, double s_coordinate, const xodr::RoadHeader::Id &amp;road_id, const std::vector&lt; xodr::DBManager::ObjectReferenceOnRoad &gt; &amp;object_references, const maliput::api::RoadGeometry *road_geometry)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; maliput::api::LaneId &gt;</type>
+      <name>FilterLaneIdsBySignalOrientation</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>aef6a6553eb3e99c9baa5de86119f3d44</anchor>
+      <arglist>(const std::vector&lt; maliput::api::LaneId &gt; &amp;lane_ids, xodr::Orientation orientation, const maliput::api::RoadGeometry *road_geometry)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; std::unique_ptr&lt; maliput::api::objects::Outline &gt; &gt;</type>
@@ -422,6 +466,13 @@
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
       <anchor>ae5827d1b2fb186d720dd90175f3d797e</anchor>
       <arglist>(const xodr::object::Object &amp;object, const xodr::RoadHeader::Id &amp;road_id, const maliput::api::RoadGeometry *road_geometry, const maliput::api::InertialPosition &amp;object_inertial_pos, const maliput::api::Rotation &amp;object_orientation)</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>AdjustSCoordinateToLaneSection</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>ab2e1877548acc822e9be8acdea3d0c51</anchor>
+      <arglist>(const maliput::api::RoadGeometry *road_geometry, const xodr::RoadHeader::Id &amp;road_id, double s_coordinate, const std::string &amp;id)</arglist>
     </member>
   </compound>
   <compound kind="file">
@@ -708,11 +759,13 @@
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <includes id="header_8h" name="header.h" local="yes" imported="no">maliput_malidrive/xodr/header.h</includes>
     <includes id="junction_8h" name="junction.h" local="yes" imported="no">maliput_malidrive/xodr/junction.h</includes>
+    <includes id="object__reference_8h" name="object_reference.h" local="yes" imported="no">maliput_malidrive/xodr/object/object_reference.h</includes>
     <includes id="parser__configuration_8h" name="parser_configuration.h" local="yes" imported="no">maliput_malidrive/xodr/parser_configuration.h</includes>
     <includes id="road__header_8h" name="road_header.h" local="yes" imported="no">maliput_malidrive/xodr/road_header.h</includes>
     <includes id="signal__reference_8h" name="signal_reference.h" local="yes" imported="no">maliput_malidrive/xodr/signal/signal_reference.h</includes>
     <class kind="class">malidrive::xodr::DBManager</class>
     <class kind="struct">malidrive::xodr::DBManager::SignalReferenceOnRoad</class>
+    <class kind="struct">malidrive::xodr::DBManager::ObjectReferenceOnRoad</class>
     <class kind="struct">malidrive::xodr::DBManager::XodrGeometryLengthData</class>
     <class kind="struct">malidrive::xodr::DBManager::XodrGapBetweenFunctions</class>
     <class kind="struct">malidrive::xodr::DBManager::XodrGapBetweenGeometries</class>
@@ -2622,19 +2675,13 @@
     <includes id="traffic__control__device_2parser_8h" name="traffic_control_device/parser.h" local="yes" imported="no">maliput_malidrive/traffic_control_device/parser.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
-    <member kind="variable" static="yes">
-      <type>static constexpr double</type>
-      <name>kEpsilon</name>
-      <anchorfile>road__marking__builder_8cc.html</anchorfile>
-      <anchor>a2df379b283a801aa08771af3f657b7f5</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>road_marking_builder.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/builder/</path>
     <filename>road__marking__builder_8h.html</filename>
     <includes id="traffic__control__device__database__loader_8h" name="traffic_control_device_database_loader.h" local="yes" imported="no">maliput_malidrive/traffic_control_device/traffic_control_device_database_loader.h</includes>
+    <includes id="db__manager_8h" name="db_manager.h" local="yes" imported="no">maliput_malidrive/xodr/db_manager.h</includes>
     <includes id="object_8h" name="object.h" local="yes" imported="no">maliput_malidrive/xodr/object/object.h</includes>
     <includes id="road__header_8h" name="road_header.h" local="yes" imported="no">maliput_malidrive/xodr/road_header.h</includes>
     <includes id="signal_8h" name="signal.h" local="yes" imported="no">maliput_malidrive/xodr/signal/signal.h</includes>
@@ -2765,19 +2812,13 @@
     <includes id="macros_8h" name="macros.h" local="yes" imported="no">maliput_malidrive/common/macros.h</includes>
     <namespace>malidrive</namespace>
     <namespace>malidrive::builder</namespace>
-    <member kind="variable" static="yes">
-      <type>static constexpr double</type>
-      <name>kEpsilon</name>
-      <anchorfile>road__object__builder_8cc.html</anchorfile>
-      <anchor>a2df379b283a801aa08771af3f657b7f5</anchor>
-      <arglist></arglist>
-    </member>
   </compound>
   <compound kind="file">
     <name>road_object_builder.h</name>
     <path>/__w/maliput_documentation/maliput_documentation/maliput_ws/src/maliput_malidrive/src/maliput_malidrive/builder/</path>
     <filename>road__object__builder_8h.html</filename>
     <includes id="traffic__control__device__database__loader_8h" name="traffic_control_device_database_loader.h" local="yes" imported="no">maliput_malidrive/traffic_control_device/traffic_control_device_database_loader.h</includes>
+    <includes id="db__manager_8h" name="db_manager.h" local="yes" imported="no">maliput_malidrive/xodr/db_manager.h</includes>
     <includes id="object_8h" name="object.h" local="yes" imported="no">maliput_malidrive/xodr/object/object.h</includes>
     <includes id="road__header_8h" name="road_header.h" local="yes" imported="no">maliput_malidrive/xodr/road_header.h</includes>
     <includes id="signal_8h" name="signal.h" local="yes" imported="no">maliput_malidrive/xodr/signal/signal.h</includes>
@@ -5431,6 +5472,7 @@
   <compound kind="class">
     <name>malidrive::xodr::DBManager</name>
     <filename>classmalidrive_1_1xodr_1_1_d_b_manager.html</filename>
+    <class kind="struct">malidrive::xodr::DBManager::ObjectReferenceOnRoad</class>
     <class kind="struct">malidrive::xodr::DBManager::SignalReferenceOnRoad</class>
     <class kind="struct">malidrive::xodr::DBManager::XodrGapBetweenFunctions</class>
     <class kind="struct">malidrive::xodr::DBManager::XodrGapBetweenGeometries</class>
@@ -5491,6 +5533,13 @@
       <name>GetSignalReferencesBySignalId</name>
       <anchorfile>classmalidrive_1_1xodr_1_1_d_b_manager.html</anchorfile>
       <anchor>aca17d355cd513a61027908cb09a82b8a</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>const std::unordered_map&lt; std::string, std::vector&lt; ObjectReferenceOnRoad &gt; &gt; &amp;</type>
+      <name>GetObjectReferencesByObjectId</name>
+      <anchorfile>classmalidrive_1_1xodr_1_1_d_b_manager.html</anchorfile>
+      <anchor>a6a03a6ec70010e99b218b5f0190e7ca7</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -9200,6 +9249,24 @@
     </member>
   </compound>
   <compound kind="struct">
+    <name>malidrive::xodr::DBManager::ObjectReferenceOnRoad</name>
+    <filename>structmalidrive_1_1xodr_1_1_d_b_manager_1_1_object_reference_on_road.html</filename>
+    <member kind="variable">
+      <type>RoadHeader::Id</type>
+      <name>road_id</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_d_b_manager_1_1_object_reference_on_road.html</anchorfile>
+      <anchor>a2ca39e9628cb4a86dc065eb97d7f2c67</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>object::ObjectReference</type>
+      <name>object_reference</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_d_b_manager_1_1_object_reference_on_road.html</anchorfile>
+      <anchor>a63bbbd9dfe40d48f441d460eae50a0a5</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
     <name>malidrive::xodr::object::Objects</name>
     <filename>structmalidrive_1_1xodr_1_1object_1_1_objects.html</filename>
     <member kind="function">
@@ -11802,15 +11869,15 @@
       <type></type>
       <name>RoadMarkingBuilder</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_marking_builder.html</anchorfile>
-      <anchor>a03da42b4dc111d6312015a09a6a2edec</anchor>
-      <arglist>(SourceType source_type, const xodr::object::Object &amp;object, const xodr::RoadHeader::Id &amp;road_id, const traffic_control_device::TrafficControlDeviceDatabaseLoader &amp;loader, const maliput::api::RoadGeometry *road_geometry)</arglist>
+      <anchor>a93798c503ccfef8acfd1cdd91f585828</anchor>
+      <arglist>(SourceType source_type, const xodr::object::Object &amp;object, const xodr::RoadHeader::Id &amp;road_id, const traffic_control_device::TrafficControlDeviceDatabaseLoader &amp;loader, const maliput::api::RoadGeometry *road_geometry, std::vector&lt; xodr::DBManager::ObjectReferenceOnRoad &gt; object_references={})</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>RoadMarkingBuilder</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_marking_builder.html</anchorfile>
-      <anchor>a4563912ffb87dd0933f84991160a070c</anchor>
-      <arglist>(SourceType source_type, const xodr::signal::Signal &amp;signal, const xodr::RoadHeader::Id &amp;road_id, const traffic_control_device::TrafficControlDeviceDatabaseLoader &amp;loader, const maliput::api::RoadGeometry *road_geometry)</arglist>
+      <anchor>a36fefcd1680868253ae0ba57afdbfa29</anchor>
+      <arglist>(SourceType source_type, const xodr::signal::Signal &amp;signal, const xodr::RoadHeader::Id &amp;road_id, const traffic_control_device::TrafficControlDeviceDatabaseLoader &amp;loader, const maliput::api::RoadGeometry *road_geometry, std::vector&lt; xodr::DBManager::SignalReferenceOnRoad &gt; signal_references={})</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; maliput::api::objects::RoadMarking &gt;</type>
@@ -11928,15 +11995,15 @@
       <type></type>
       <name>RoadObjectBuilder</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_object_builder.html</anchorfile>
-      <anchor>aa64f14dc6b802c9b29c7e89c854f15db</anchor>
-      <arglist>(SourceType source_type, const xodr::object::Object &amp;object, const xodr::RoadHeader::Id &amp;road_id, const traffic_control_device::TrafficControlDeviceDatabaseLoader &amp;loader, const maliput::api::RoadGeometry *road_geometry)</arglist>
+      <anchor>a1eb7e26dc2f3dc530615d33485543e4f</anchor>
+      <arglist>(SourceType source_type, const xodr::object::Object &amp;object, const xodr::RoadHeader::Id &amp;road_id, const traffic_control_device::TrafficControlDeviceDatabaseLoader &amp;loader, const maliput::api::RoadGeometry *road_geometry, std::vector&lt; xodr::DBManager::ObjectReferenceOnRoad &gt; object_references={})</arglist>
     </member>
     <member kind="function">
       <type></type>
       <name>RoadObjectBuilder</name>
       <anchorfile>classmalidrive_1_1builder_1_1_road_object_builder.html</anchorfile>
-      <anchor>a092f518444573a2e1d2bfa1020bc7ffa</anchor>
-      <arglist>(SourceType source_type, const xodr::signal::Signal &amp;signal, const xodr::RoadHeader::Id &amp;road_id, const traffic_control_device::TrafficControlDeviceDatabaseLoader &amp;loader, const maliput::api::RoadGeometry *road_geometry)</arglist>
+      <anchor>a5f1c4f182dab559b97c7e84326a4806c</anchor>
+      <arglist>(SourceType source_type, const xodr::signal::Signal &amp;signal, const xodr::RoadHeader::Id &amp;road_id, const traffic_control_device::TrafficControlDeviceDatabaseLoader &amp;loader, const maliput::api::RoadGeometry *road_geometry, std::vector&lt; xodr::DBManager::SignalReferenceOnRoad &gt; signal_references={})</arglist>
     </member>
     <member kind="function">
       <type>std::unique_ptr&lt; maliput::api::objects::RoadObject &gt;</type>
@@ -13116,66 +13183,6 @@
     </member>
   </compound>
   <compound kind="struct">
-    <name>malidrive::xodr::RoadType::Speed</name>
-    <filename>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</filename>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator==</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a5f45d342c063e4fbbbaa8fd2308cad8a</anchor>
-      <arglist>(const Speed &amp;other) const</arglist>
-    </member>
-    <member kind="function">
-      <type>bool</type>
-      <name>operator!=</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a7732bb1227795b68ace924cf693cddd1</anchor>
-      <arglist>(const Speed &amp;other) const</arglist>
-    </member>
-    <member kind="variable">
-      <type>std::optional&lt; double &gt;</type>
-      <name>max</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>ab3a77d4ba4dbb0a69e77b738206e0ebe</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable">
-      <type>Unit</type>
-      <name>unit</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>aaa0d61fcdf7a0b9f0f2b48c9946cbd10</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kSpeedTag</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a06113c1eac1bbfe32139f18dd62a8d98</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kMax</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>ad5a44ed171cd965aa34aa3dda5711d83</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr const char *</type>
-      <name>kUnit</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
-      <arglist></arglist>
-    </member>
-    <member kind="variable" static="yes">
-      <type>static constexpr std::array&lt; const char *, 2 &gt;</type>
-      <name>kUnlimitedSpeedStrings</name>
-      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
-      <anchor>a2be0454dbef3ba795b56eb3fa40d36ed</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
-  <compound kind="struct">
     <name>malidrive::xodr::Lane::Speed</name>
     <filename>structmalidrive_1_1xodr_1_1_lane_1_1_speed.html</filename>
     <member kind="function">
@@ -13239,6 +13246,66 @@
       <name>kUnit</name>
       <anchorfile>structmalidrive_1_1xodr_1_1_lane_1_1_speed.html</anchorfile>
       <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>malidrive::xodr::RoadType::Speed</name>
+    <filename>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</filename>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator==</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a5f45d342c063e4fbbbaa8fd2308cad8a</anchor>
+      <arglist>(const Speed &amp;other) const</arglist>
+    </member>
+    <member kind="function">
+      <type>bool</type>
+      <name>operator!=</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a7732bb1227795b68ace924cf693cddd1</anchor>
+      <arglist>(const Speed &amp;other) const</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::optional&lt; double &gt;</type>
+      <name>max</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>ab3a77d4ba4dbb0a69e77b738206e0ebe</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>Unit</type>
+      <name>unit</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>aaa0d61fcdf7a0b9f0f2b48c9946cbd10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kSpeedTag</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a06113c1eac1bbfe32139f18dd62a8d98</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kMax</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>ad5a44ed171cd965aa34aa3dda5711d83</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr const char *</type>
+      <name>kUnit</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a8bb816caeefa26896d13c7d2467e312b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static constexpr std::array&lt; const char *, 2 &gt;</type>
+      <name>kUnlimitedSpeedStrings</name>
+      <anchorfile>structmalidrive_1_1xodr_1_1_road_type_1_1_speed.html</anchorfile>
+      <anchor>a2be0454dbef3ba795b56eb3fa40d36ed</anchor>
       <arglist></arglist>
     </member>
   </compound>
@@ -15689,10 +15756,24 @@
     </member>
     <member kind="function">
       <type>std::vector&lt; maliput::api::LaneId &gt;</type>
-      <name>ResolveAndDeduplicateLaneIds</name>
+      <name>ResolveLaneIds</name>
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
-      <anchor>aee4f4b199eef5812da50455b76947d5d</anchor>
-      <arglist>(const xodr::RoadHeader::Id &amp;road_id, double s_coordinate, const std::vector&lt; xodr::Validity &gt; &amp;validities, const std::vector&lt; xodr::DBManager::SignalReferenceOnRoad &gt; &amp;signal_references, const maliput::api::RoadGeometry *road_geometry)</arglist>
+      <anchor>a6519bcc4f579c9ff795d2b7eacbc3796</anchor>
+      <arglist>(const xodr::signal::Signal &amp;signal, double s_coordinate, const xodr::RoadHeader::Id &amp;road_id, const std::vector&lt; xodr::DBManager::SignalReferenceOnRoad &gt; &amp;signal_references, const maliput::api::RoadGeometry *road_geometry)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; maliput::api::LaneId &gt;</type>
+      <name>ResolveLaneIds</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>a57e6d864458ec004e63d2021f08e485d</anchor>
+      <arglist>(const xodr::object::Object &amp;object, double s_coordinate, const xodr::RoadHeader::Id &amp;road_id, const std::vector&lt; xodr::DBManager::ObjectReferenceOnRoad &gt; &amp;object_references, const maliput::api::RoadGeometry *road_geometry)</arglist>
+    </member>
+    <member kind="function">
+      <type>std::vector&lt; maliput::api::LaneId &gt;</type>
+      <name>FilterLaneIdsBySignalOrientation</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>aef6a6553eb3e99c9baa5de86119f3d44</anchor>
+      <arglist>(const std::vector&lt; maliput::api::LaneId &gt; &amp;lane_ids, xodr::Orientation orientation, const maliput::api::RoadGeometry *road_geometry)</arglist>
     </member>
     <member kind="function">
       <type>std::vector&lt; std::unique_ptr&lt; maliput::api::objects::Outline &gt; &gt;</type>
@@ -15700,6 +15781,13 @@
       <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
       <anchor>ae5827d1b2fb186d720dd90175f3d797e</anchor>
       <arglist>(const xodr::object::Object &amp;object, const xodr::RoadHeader::Id &amp;road_id, const maliput::api::RoadGeometry *road_geometry, const maliput::api::InertialPosition &amp;object_inertial_pos, const maliput::api::Rotation &amp;object_orientation)</arglist>
+    </member>
+    <member kind="function">
+      <type>double</type>
+      <name>AdjustSCoordinateToLaneSection</name>
+      <anchorfile>namespacemalidrive_1_1builder.html</anchorfile>
+      <anchor>ab2e1877548acc822e9be8acdea3d0c51</anchor>
+      <arglist>(const maliput::api::RoadGeometry *road_geometry, const xodr::RoadHeader::Id &amp;road_id, double s_coordinate, const std::string &amp;id)</arglist>
     </member>
     <member kind="function">
       <type>double</type>

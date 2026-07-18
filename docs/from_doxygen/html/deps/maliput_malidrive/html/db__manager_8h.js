@@ -2,6 +2,7 @@ var db__manager_8h =
 [
     [ "DBManager", "classmalidrive_1_1xodr_1_1_d_b_manager.html", "classmalidrive_1_1xodr_1_1_d_b_manager" ],
     [ "SignalReferenceOnRoad", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_signal_reference_on_road.html", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_signal_reference_on_road" ],
+    [ "ObjectReferenceOnRoad", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_object_reference_on_road.html", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_object_reference_on_road" ],
     [ "XodrGeometryLengthData", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometry_length_data.html", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_geometry_length_data" ],
     [ "XodrGapBetweenFunctions", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_functions.html", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_functions" ],
     [ "XodrGapBetweenGeometries", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_geometries.html", "structmalidrive_1_1xodr_1_1_d_b_manager_1_1_xodr_gap_between_geometries" ],

@@ -237,12 +237,21 @@ Functions</h2></td></tr>
 <tr class="memitem:ac7bc7deb7c38d600db98ce0fbbbb7fa6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">maliput::api::LaneId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#ac7bc7deb7c38d600db98ce0fbbbb7fa6">ResolveLaneIds</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">xodr::RoadHeader::Id</a> &amp;road_id, double s_coordinate, const std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_validity.html">xodr::Validity</a> &gt; &amp;validities, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *road_geometry)</td></tr>
 <tr class="memdesc:ac7bc7deb7c38d600db98ce0fbbbb7fa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves maliput LaneIds for a given road/s-coordinate/validity combination.  <a href="namespacemalidrive_1_1builder.html#ac7bc7deb7c38d600db98ce0fbbbb7fa6">More...</a><br /></td></tr>
 <tr class="separator:ac7bc7deb7c38d600db98ce0fbbbb7fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee4f4b199eef5812da50455b76947d5d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">maliput::api::LaneId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#aee4f4b199eef5812da50455b76947d5d">ResolveAndDeduplicateLaneIds</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">xodr::RoadHeader::Id</a> &amp;road_id, double s_coordinate, const std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_validity.html">xodr::Validity</a> &gt; &amp;validities, const std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_signal_reference_on_road.html">xodr::DBManager::SignalReferenceOnRoad</a> &gt; &amp;signal_references, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *road_geometry)</td></tr>
-<tr class="memdesc:aee4f4b199eef5812da50455b76947d5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves the related lane IDs for a signal from its own road and from any signal references on other roads, then deduplicates the result.  <a href="namespacemalidrive_1_1builder.html#aee4f4b199eef5812da50455b76947d5d">More...</a><br /></td></tr>
-<tr class="separator:aee4f4b199eef5812da50455b76947d5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6519bcc4f579c9ff795d2b7eacbc3796"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">maliput::api::LaneId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#a6519bcc4f579c9ff795d2b7eacbc3796">ResolveLaneIds</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1signal_1_1_signal.html">xodr::signal::Signal</a> &amp;signal, double s_coordinate, const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">xodr::RoadHeader::Id</a> &amp;road_id, const std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_signal_reference_on_road.html">xodr::DBManager::SignalReferenceOnRoad</a> &gt; &amp;signal_references, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *road_geometry)</td></tr>
+<tr class="memdesc:a6519bcc4f579c9ff795d2b7eacbc3796"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves the lane IDs related to a signal and its signal references in one pass per source.  <a href="namespacemalidrive_1_1builder.html#a6519bcc4f579c9ff795d2b7eacbc3796">More...</a><br /></td></tr>
+<tr class="separator:a6519bcc4f579c9ff795d2b7eacbc3796"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57e6d864458ec004e63d2021f08e485d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">maliput::api::LaneId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#a57e6d864458ec004e63d2021f08e485d">ResolveLaneIds</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1object_1_1_object.html">xodr::object::Object</a> &amp;object, double s_coordinate, const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">xodr::RoadHeader::Id</a> &amp;road_id, const std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_object_reference_on_road.html">xodr::DBManager::ObjectReferenceOnRoad</a> &gt; &amp;object_references, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *road_geometry)</td></tr>
+<tr class="memdesc:a57e6d864458ec004e63d2021f08e485d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves the lane IDs related to an object and its object references in one pass per source.  <a href="namespacemalidrive_1_1builder.html#a57e6d864458ec004e63d2021f08e485d">More...</a><br /></td></tr>
+<tr class="separator:a57e6d864458ec004e63d2021f08e485d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef6a6553eb3e99c9baa5de86119f3d44"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">maliput::api::LaneId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#aef6a6553eb3e99c9baa5de86119f3d44">FilterLaneIdsBySignalOrientation</a> (const std::vector&lt; <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">maliput::api::LaneId</a> &gt; &amp;lane_ids, <a class="el" href="namespacemalidrive_1_1xodr.html#a871118a09520247c78a71ecd7b0abd58">xodr::Orientation</a> orientation, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *road_geometry)</td></tr>
+<tr class="memdesc:aef6a6553eb3e99c9baa5de86119f3d44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filters lane_ids to those whose travel direction is compatible with orientation.  <a href="namespacemalidrive_1_1builder.html#aef6a6553eb3e99c9baa5de86119f3d44">More...</a><br /></td></tr>
+<tr class="separator:aef6a6553eb3e99c9baa5de86119f3d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5827d1b2fb186d720dd90175f3d797e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1objects_1_1_outline.html">maliput::api::objects::Outline</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#ae5827d1b2fb186d720dd90175f3d797e">BuildOutlines</a> (const <a class="el" href="structmalidrive_1_1xodr_1_1object_1_1_object.html">xodr::object::Object</a> &amp;object, const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">xodr::RoadHeader::Id</a> &amp;road_id, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *road_geometry, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_inertial_position.html">maliput::api::InertialPosition</a> &amp;object_inertial_pos, const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_rotation.html">maliput::api::Rotation</a> &amp;object_orientation)</td></tr>
 <tr class="memdesc:ae5827d1b2fb186d720dd90175f3d797e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts XODR outline corners to maliput Outlines.  <a href="namespacemalidrive_1_1builder.html#ae5827d1b2fb186d720dd90175f3d797e">More...</a><br /></td></tr>
 <tr class="separator:ae5827d1b2fb186d720dd90175f3d797e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2e1877548acc822e9be8acdea3d0c51"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#ab2e1877548acc822e9be8acdea3d0c51">AdjustSCoordinateToLaneSection</a> (const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *road_geometry, const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">xodr::RoadHeader::Id</a> &amp;road_id, double s_coordinate, const std::string &amp;id)</td></tr>
+<tr class="memdesc:ab2e1877548acc822e9be8acdea3d0c51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adjusts the s-coordinate to be within the valid range of the road geometry.  <a href="namespacemalidrive_1_1builder.html#ab2e1877548acc822e9be8acdea3d0c51">More...</a><br /></td></tr>
+<tr class="separator:ab2e1877548acc822e9be8acdea3d0c51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7500a8e9852463ca0ad683127ac2ab13"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemalidrive_1_1builder.html#a7500a8e9852463ca0ad683127ac2ab13">DetermineRoadGeometryLinearTolerance</a> (const <a class="el" href="classmalidrive_1_1xodr_1_1_d_b_manager.html">xodr::DBManager</a> *xodr_manager)</td></tr>
 <tr class="memdesc:a7500a8e9852463ca0ad683127ac2ab13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the runtime tolerance a <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend.">RoadGeometry</a> should be set from the characteristics in a XODR map.  <a href="namespacemalidrive_1_1builder.html#a7500a8e9852463ca0ad683127ac2ab13">More...</a><br /></td></tr>
 <tr class="separator:a7500a8e9852463ca0ad683127ac2ab13"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -364,6 +373,58 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ab2e1877548acc822e9be8acdea3d0c51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2e1877548acc822e9be8acdea3d0c51">&#9670;&nbsp;</a></span>AdjustSCoordinateToLaneSection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double AdjustSCoordinateToLaneSection </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *&#160;</td>
+          <td class="paramname"><em>road_geometry</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">xodr::RoadHeader::Id</a> &amp;&#160;</td>
+          <td class="paramname"><em>road_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>s_coordinate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adjusts the s-coordinate to be within the valid range of the road geometry. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">road_geometry</td><td>Pointer to the road geometry (must be castable to <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend.">malidrive::RoadGeometry</a>). </td></tr>
+    <tr><td class="paramname">road_id</td><td>The ID of the road to which the s-coordinate belongs. </td></tr>
+    <tr><td class="paramname">s_coordinate</td><td>The s-coordinate to be adjusted. It may be outside the valid range of the road. </td></tr>
+    <tr><td class="paramname">id</td><td>The ID of the XODR element (e.g., signal, object) associated with the s-coordinate. This is used for logging and error messages. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The adjusted s-coordinate, clamped to the valid range of the road geometry. </dd></dl>
+
+</div>
+</div>
 <a id="aaec81bc2cb08e554776479cc0254cc58"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaec81bc2cb08e554776479cc0254cc58">&#9670;&nbsp;</a></span>AreOnlyNonDrivableLanes()</h2>
 
@@ -614,6 +675,62 @@ Variables</h2></td></tr>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>xodr_manager</code> is nullptr. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aef6a6553eb3e99c9baa5de86119f3d44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef6a6553eb3e99c9baa5de86119f3d44">&#9670;&nbsp;</a></span>FilterLaneIdsBySignalOrientation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">maliput::api::LaneId</a> &gt; FilterLaneIdsBySignalOrientation </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">maliput::api::LaneId</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>lane_ids</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacemalidrive_1_1xodr.html#a871118a09520247c78a71ecd7b0abd58">xodr::Orientation</a>&#160;</td>
+          <td class="paramname"><em>orientation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *&#160;</td>
+          <td class="paramname"><em>road_geometry</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Filters lane_ids to those whose travel direction is compatible with orientation. </p>
+<ul>
+<li>kWithS: keep lanes whose direction is "WithS" or "Bidirectional"</li>
+<li>kAgainstS: keep lanes whose direction is "AgainstS" or "Bidirectional"</li>
+<li>kBidirectional: keep all (no filter)</li>
+</ul>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lane_ids</td><td>Candidate lane IDs (already resolved and built into the RG). </td></tr>
+    <tr><td class="paramname">orientation</td><td>Signal/object orientation from XODR (unified <a class="el" href="namespacemalidrive_1_1xodr.html#a871118a09520247c78a71ecd7b0abd58" title="Orientation of an XODR element relative to the road&#39;s s-direction.">xodr::Orientation</a> enum). </td></tr>
+    <tr><td class="paramname">road_geometry</td><td>Pointer to the road geometry (must not be nullptr). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Filtered subset of lane_ids.</dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="elRef" href="../../maliput/html/classmaliput_1_1common_1_1assertion__error.html">maliput::common::assertion_error</a></td><td>When <code>road_geometry</code> is nullptr. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1463,17 +1580,17 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aee4f4b199eef5812da50455b76947d5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee4f4b199eef5812da50455b76947d5d">&#9670;&nbsp;</a></span>ResolveAndDeduplicateLaneIds()</h2>
+<a id="a57e6d864458ec004e63d2021f08e485d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57e6d864458ec004e63d2021f08e485d">&#9670;&nbsp;</a></span>ResolveLaneIds() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">maliput::api::LaneId</a> &gt; ResolveAndDeduplicateLaneIds </td>
+          <td class="memname">std::vector&lt; <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">maliput::api::LaneId</a> &gt; ResolveLaneIds </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">xodr::RoadHeader::Id</a> &amp;&#160;</td>
-          <td class="paramname"><em>road_id</em>, </td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1xodr_1_1object_1_1_object.html">xodr::object::Object</a> &amp;&#160;</td>
+          <td class="paramname"><em>object</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1484,14 +1601,14 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_validity.html">xodr::Validity</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>validities</em>, </td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">xodr::RoadHeader::Id</a> &amp;&#160;</td>
+          <td class="paramname"><em>road_id</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_signal_reference_on_road.html">xodr::DBManager::SignalReferenceOnRoad</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>signal_references</em>, </td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_object_reference_on_road.html">xodr::DBManager::ObjectReferenceOnRoad</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>object_references</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1507,14 +1624,14 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Resolves the related lane IDs for a signal from its own road and from any signal references on other roads, then deduplicates the result. </p>
-<p>This combines <a class="el" href="namespacemalidrive_1_1builder.html#ac7bc7deb7c38d600db98ce0fbbbb7fa6">ResolveLaneIds</a> calls for the primary road and every <code>signal_references</code> entry, appending all results before performing a sort-then-unique deduplication. Duplicates are unlikely with well-formed XODR files but could occur when a road references its own signal via a <code>&lt;signalReference&gt;</code> element.</p>
+<p>Resolves the lane IDs related to an object and its object references in one pass per source. </p>
+<p>Each source road is processed independently with its own orientation and validity. The resulting lane IDs are merged into a deduplicated set before being returned.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">road_id</td><td>The XODR road ID of the signal's own road. </td></tr>
-    <tr><td class="paramname">s_coordinate</td><td>The s-coordinate of the signal on its own road. </td></tr>
-    <tr><td class="paramname">validities</td><td>The XODR validity ranges for the signal's own road. </td></tr>
-    <tr><td class="paramname">signal_references</td><td>Additional roads that reference the same signal. </td></tr>
+    <tr><td class="paramname">object</td><td>The object whose related lanes are being resolved. </td></tr>
+    <tr><td class="paramname">s_coordinate</td><td>The object's s-coordinate along the road, could slightly vary from the <code>object</code> due to adjustments. </td></tr>
+    <tr><td class="paramname">road_id</td><td>The XODR road ID that contains the object. </td></tr>
+    <tr><td class="paramname">object_references</td><td>Additional roads that reference the same object. </td></tr>
     <tr><td class="paramname">road_geometry</td><td>Pointer to the built road geometry. </td></tr>
   </table>
   </dd>
@@ -1524,7 +1641,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="ac7bc7deb7c38d600db98ce0fbbbb7fa6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7bc7deb7c38d600db98ce0fbbbb7fa6">&#9670;&nbsp;</a></span>ResolveLaneIds()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7bc7deb7c38d600db98ce0fbbbb7fa6">&#9670;&nbsp;</a></span>ResolveLaneIds() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1578,6 +1695,66 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A vector of maliput LaneIds that are valid and present in the <a class="el" href="classmalidrive_1_1_road_geometry.html" title="Maliput implementation of the malidrive backend.">RoadGeometry</a>. </dd></dl>
+
+</div>
+</div>
+<a id="a6519bcc4f579c9ff795d2b7eacbc3796"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6519bcc4f579c9ff795d2b7eacbc3796">&#9670;&nbsp;</a></span>ResolveLaneIds() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="elRef" href="../../maliput/html/namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">maliput::api::LaneId</a> &gt; ResolveLaneIds </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1xodr_1_1signal_1_1_signal.html">xodr::signal::Signal</a> &amp;&#160;</td>
+          <td class="paramname"><em>signal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>s_coordinate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structmalidrive_1_1xodr_1_1_road_header.html#a235556a380e480f03ee0a530adb19fc7">xodr::RoadHeader::Id</a> &amp;&#160;</td>
+          <td class="paramname"><em>road_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structmalidrive_1_1xodr_1_1_d_b_manager_1_1_signal_reference_on_road.html">xodr::DBManager::SignalReferenceOnRoad</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>signal_references</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" href="../../maliput/html/classmaliput_1_1api_1_1_road_geometry.html">maliput::api::RoadGeometry</a> *&#160;</td>
+          <td class="paramname"><em>road_geometry</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resolves the lane IDs related to a signal and its signal references in one pass per source. </p>
+<p>Each source road is processed independently with its own orientation and validity. The resulting lane IDs are merged into a deduplicated set before being returned.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">signal</td><td>The signal whose related lanes are being resolved. </td></tr>
+    <tr><td class="paramname">s_coordinate</td><td>The signal's s-coordinate along the road, could slightly vary from the <code>signal</code> due to adjustments. </td></tr>
+    <tr><td class="paramname">road_id</td><td>The XODR road ID that contains the signal. </td></tr>
+    <tr><td class="paramname">signal_references</td><td>Additional roads that reference the same signal. </td></tr>
+    <tr><td class="paramname">road_geometry</td><td>Pointer to the built road geometry. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A sorted, deduplicated vector of maliput LaneIds. </dd></dl>
 
 </div>
 </div>
