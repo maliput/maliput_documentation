@@ -1,5 +1,6 @@
 var namespacemaliput_1_1api_1_1objects =
 [
+    [ "ContinuousObject", "classmaliput_1_1api_1_1objects_1_1_continuous_object.html", "classmaliput_1_1api_1_1objects_1_1_continuous_object" ],
     [ "Outline", "classmaliput_1_1api_1_1objects_1_1_outline.html", "classmaliput_1_1api_1_1objects_1_1_outline" ],
     [ "OutlineCorner", "classmaliput_1_1api_1_1objects_1_1_outline_corner.html", "classmaliput_1_1api_1_1objects_1_1_outline_corner" ],
     [ "RoadMarking", "classmaliput_1_1api_1_1objects_1_1_road_marking.html", "classmaliput_1_1api_1_1objects_1_1_road_marking" ],

@@ -1,5 +1,11 @@
 var NAVTREEINDEX19 =
 {
+"structmaliput_1_1math_1_1details_1_1_node_cmp.html#a88947275eddb7251353c4654fc7ef6b4":[4,0,0,4,0,2,1],
+"structmaliput_1_1math_1_1details_1_1_squared_distance.html":[4,0,0,4,0,3],
+"structmaliput_1_1math_1_1details_1_1_squared_distance.html#af8a65106872ba0e68464d6fcb8276637":[4,0,0,4,0,3,0],
+"structmaliput_1_1routing_1_1_phase_position_result.html":[4,0,0,6,2],
+"structmaliput_1_1routing_1_1_phase_position_result.html#a06c787ebce499f647c3dbc830e542aa6":[4,0,0,6,2,3],
+"structmaliput_1_1routing_1_1_phase_position_result.html#a79b8e036dca6911e3295a47d99f21f43":[4,0,0,6,2,0],
 "structmaliput_1_1routing_1_1_phase_position_result.html#aa75356e55277ab0292643ec02e5e54fa":[4,0,0,6,2,2],
 "structmaliput_1_1routing_1_1_phase_position_result.html#acdbf55e2e5d62afffb05c7fef824a761":[4,0,0,6,2,1],
 "structmaliput_1_1routing_1_1_route_position_result.html":[4,0,0,6,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX19 =
 "traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa5c86bf35db23866710e8ffdf554fec80":[5,0,343,1,252],
 "traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa5cb2e9bb84ddfdc55af75c7f5a6abb34":[5,0,343,1,260],
 "traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa5d284cd4081cd5fa6698a7783ec96c86":[5,0,343,1,18],
-"traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa5e69931e647cc9f87cc579ab7ec39fe5":[5,0,343,1,177],
-"traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa5e83d92ef32207b1719689abdf55bb51":[5,0,343,1,97],
-"traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa5e9764eda12eff3496a4cdf27c79b19b":[5,0,343,1,63],
-"traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa6182cd06b8d4a7fbd296053a2b786b9c":[5,0,343,1,249],
-"traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa61f6f655d206d1c6b31327d8dc55185e":[5,0,343,1,127],
-"traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa621e169f480ae2df3d1f56488d8e22ea":[5,0,343,1,21],
-"traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa637b03b3cc532f7306e3eeefe1c1d9df":[5,0,343,1,84]
+"traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa5e69931e647cc9f87cc579ab7ec39fe5":[5,0,343,1,177]
 };

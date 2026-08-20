@@ -3,6 +3,7 @@ var road__object_8h =
     [ "OutlineCorner", "classmaliput_1_1api_1_1objects_1_1_outline_corner.html", "classmaliput_1_1api_1_1objects_1_1_outline_corner" ],
     [ "Outline", "classmaliput_1_1api_1_1objects_1_1_outline.html", "classmaliput_1_1api_1_1objects_1_1_outline" ],
     [ "RoadObjectPosition", "classmaliput_1_1api_1_1objects_1_1_road_object_position.html", "classmaliput_1_1api_1_1objects_1_1_road_object_position" ],
+    [ "ContinuousObject", "classmaliput_1_1api_1_1objects_1_1_continuous_object.html", "classmaliput_1_1api_1_1objects_1_1_continuous_object" ],
     [ "RoadObject", "classmaliput_1_1api_1_1objects_1_1_road_object.html", "classmaliput_1_1api_1_1objects_1_1_road_object" ],
     [ "hash< maliput::api::objects::RoadObjectType >", "structstd_1_1hash_3_01maliput_1_1api_1_1objects_1_1_road_object_type_01_4.html", null ],
     [ "RoadObjectType", "road__object_8h.html#a0c5cc45890ec3206bd8887bb685527b9", [

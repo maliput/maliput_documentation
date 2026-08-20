@@ -45,6 +45,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "SystemBase::ContextSizes", "structmaliput_1_1drake_1_1systems_1_1_system_base_1_1_context_sizes.html", null ],
+    [ "ContinuousObject", "classmaliput_1_1api_1_1objects_1_1_continuous_object.html", null ],
     [ "ContinuousState< T >", "classmaliput_1_1drake_1_1systems_1_1_continuous_state.html", null ],
     [ "ContinuousState< double >", "classmaliput_1_1drake_1_1systems_1_1_continuous_state.html", null ],
     [ "convert< maliput::api::SRange >", "struct_y_a_m_l_1_1convert_3_01maliput_1_1api_1_1_s_range_01_4.html", null ],
@@ -342,11 +343,11 @@ var hierarchy =
     [ "SquaredDistance< Coordinate, Dimension >", "structmaliput_1_1math_1_1details_1_1_squared_distance.html", null ],
     [ "SRange", "classmaliput_1_1api_1_1_s_range.html", null ],
     [ "SrhFace", "classmaliput_1_1utility_1_1mesh_1_1_srh_face.html", null ],
+    [ "State< T >", "classmaliput_1_1drake_1_1systems_1_1_state.html", null ],
     [ "Rule::State", "structmaliput_1_1api_1_1rules_1_1_rule_1_1_state.html", [
       [ "DiscreteValueRule::DiscreteValue", "structmaliput_1_1api_1_1rules_1_1_discrete_value_rule_1_1_discrete_value.html", null ],
       [ "RangeValueRule::Range", "structmaliput_1_1api_1_1rules_1_1_range_value_rule_1_1_range.html", null ]
     ] ],
-    [ "State< T >", "classmaliput_1_1drake_1_1systems_1_1_state.html", null ],
     [ "StateProviderResult< T >", "structmaliput_1_1api_1_1rules_1_1_state_provider_result.html", null ],
     [ "StrategyBase", "classmaliput_1_1geometry__base_1_1_strategy_base.html", [
       [ "BruteForceStrategy", "classmaliput_1_1geometry__base_1_1_brute_force_strategy.html", null ],

@@ -1,5 +1,11 @@
 var NAVTREEINDEX3 =
 {
+"classmaliput_1_1api_1_1rules_1_1_rule_registry.html#a34b1e81784b6bbc6e0247f950cdc0f28":[4,0,0,0,1,12,5],
+"classmaliput_1_1api_1_1rules_1_1_rule_registry.html#a9e2083ad9f972ef0a1b671f2ba412144":[4,0,0,0,1,12,2],
+"classmaliput_1_1api_1_1rules_1_1_rule_registry.html#ac5d7547c66816b2c64a7ac2467405d89":[4,0,0,0,1,12,7],
+"classmaliput_1_1api_1_1rules_1_1_rule_registry.html#ad79f9d9306e78514721406d6ed3679a1":[4,0,0,0,1,12,1],
+"classmaliput_1_1api_1_1rules_1_1_rule_registry.html#afa6f95bca428c78123af3c35194df558":[4,0,0,0,1,12,9],
+"classmaliput_1_1api_1_1rules_1_1_traffic_light.html":[4,0,0,0,1,14],
 "classmaliput_1_1api_1_1rules_1_1_traffic_light.html#a029206de7f2b36baf2a974fd7922b7d0":[4,0,0,0,1,14,0],
 "classmaliput_1_1api_1_1rules_1_1_traffic_light.html#a3e9b36985fa40131c908fffb29f45c75":[4,0,0,0,1,14,4],
 "classmaliput_1_1api_1_1rules_1_1_traffic_light.html#a45f8c7cb034d5541aada6c2a1d29c965":[4,0,0,0,1,14,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX3 =
 "classmaliput_1_1drake_1_1_inverse_arc_length_integrator.html#a9a7d8dd849a776fdc2d7b342c62de874":[4,0,0,2,16,5],
 "classmaliput_1_1drake_1_1_nice_type_name.html":[4,0,0,2,24],
 "classmaliput_1_1drake_1_1_nice_type_name.html#a13ea97365819d400642d83eef2aa0956":[4,0,0,2,24,1],
-"classmaliput_1_1drake_1_1_nice_type_name.html#a4ba4b4bca41ffb50a27c1b1691367a40":[4,0,0,2,24,3],
-"classmaliput_1_1drake_1_1_nice_type_name.html#a65c4629b9ee5e540e85bfc3298a5445b":[4,0,0,2,24,2],
-"classmaliput_1_1drake_1_1_nice_type_name.html#a73ea459b4177e39bbc122ebdf68fcf51":[4,0,0,2,24,4],
-"classmaliput_1_1drake_1_1_nice_type_name.html#ab79ee31ee980b806b08a3489a58a9a6d":[4,0,0,2,24,6],
-"classmaliput_1_1drake_1_1_nice_type_name.html#ae348464d50b024fade3c46e95cd7e945":[4,0,0,2,24,0],
-"classmaliput_1_1drake_1_1_nice_type_name.html#af93d032818bc937ada53984c09f6369f":[4,0,0,2,24,5],
-"classmaliput_1_1drake_1_1_polynomial.html":[4,0,0,2,25]
+"classmaliput_1_1drake_1_1_nice_type_name.html#a4ba4b4bca41ffb50a27c1b1691367a40":[4,0,0,2,24,3]
 };

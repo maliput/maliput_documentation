@@ -1,5 +1,11 @@
 var NAVTREEINDEX20 =
 {
+"traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa5e83d92ef32207b1719689abdf55bb51":[5,0,343,1,97],
+"traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa5e9764eda12eff3496a4cdf27c79b19b":[5,0,343,1,63],
+"traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa6182cd06b8d4a7fbd296053a2b786b9c":[5,0,343,1,249],
+"traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa61f6f655d206d1c6b31327d8dc55185e":[5,0,343,1,127],
+"traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa621e169f480ae2df3d1f56488d8e22ea":[5,0,343,1,21],
+"traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa637b03b3cc532f7306e3eeefe1c1d9df":[5,0,343,1,84],
 "traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa6442e5a064242288bd21560140c80018":[5,0,343,1,161],
 "traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa65f3f87ee9a9c68ad85decfe4362ea19":[5,0,343,1,199],
 "traffic__control__device__type_8h.html#aa37d216d3b7bf0d4a57c60f5865b58dfa66570d2320176945d8f2ae1d83e47290":[5,0,343,1,141],
@@ -243,11 +249,5 @@ var NAVTREEINDEX20 =
 "traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2ab9915b027f3c5c3f045c880f99f22bc4":[5,0,350,12,1],
 "traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2ac80399944a6d92865e9ef14b2c86de54":[5,0,350,12,5],
 "traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2ad250f691f123130340ad00fcadb21adc":[5,0,350,12,18],
-"traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2ad48b8c20b76c6b5fa978b00bf8fe17ed":[5,0,350,12,11],
-"traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2aeaeb4678fb78643ae0755e6a5b5a2e6b":[5,0,350,12,3],
-"traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2aeeb62b3658f72141011a1d6b2a145d7c":[5,0,350,12,4],
-"traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2af488355abd03604ef26881edaf82d79c":[5,0,350,12,2],
-"traffic__lights_8h.html#ae22def226ba4538ee9a91f02bd1b5ff3":[5,0,350,15],
-"traffic__sign_8cc.html":[5,0,351],
-"traffic__sign_8cc.html#a02e3665aeabac4206a12a80d2e895758":[5,0,351,2]
+"traffic__lights_8h.html#ae21a360eb5822a6f1f2579b377ba2bb2ad48b8c20b76c6b5fa978b00bf8fe17ed":[5,0,350,12,11]
 };

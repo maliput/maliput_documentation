@@ -158,12 +158,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae50d054c7929832f39a2bfa0690d36af"><td class="memItemLeft" align="right" valign="top">const std::unordered_map&lt; std::string, std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#ae50d054c7929832f39a2bfa0690d36af">properties</a> () const</td></tr>
 <tr class="memdesc:ae50d054c7929832f39a2bfa0690d36af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns backend-specific properties as key-value pairs.  <a href="classmaliput_1_1api_1_1objects_1_1_road_object.html#ae50d054c7929832f39a2bfa0690d36af">More...</a><br /></td></tr>
 <tr class="separator:ae50d054c7929832f39a2bfa0690d36af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aada7429e1f5c9ecb57646d8568d50e70"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="classmaliput_1_1api_1_1objects_1_1_continuous_object.html">ContinuousObject</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#aada7429e1f5c9ecb57646d8568d50e70">continuous_properties</a> () const</td></tr>
+<tr class="memdesc:aada7429e1f5c9ecb57646d8568d50e70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns continuous properties of the object.  <a href="classmaliput_1_1api_1_1objects_1_1_road_object.html#aada7429e1f5c9ecb57646d8568d50e70">More...</a><br /></td></tr>
+<tr class="separator:aada7429e1f5c9ecb57646d8568d50e70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ac7a3aba400fc11174d4493e72cd854e3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#ac7a3aba400fc11174d4493e72cd854e3">RoadObject</a> (const <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#a884c5a05e493b81eb64cbcdd4f440030">Id</a> &amp;<a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#a3e9b36985fa40131c908fffb29f45c75">id</a>, <a class="el" href="namespacemaliput_1_1api_1_1objects.html#a0c5cc45890ec3206bd8887bb685527b9">RoadObjectType</a> <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#a0ee4584a2e4e8378b6b9b5b5c4fee0eb">type</a>, const <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object_position.html">RoadObjectPosition</a> &amp;<a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#aa80134a44cbe3dae2673307eac242297">position</a>, const <a class="el" href="classmaliput_1_1api_1_1_rotation.html">Rotation</a> &amp;<a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#a43eeda8d68aed73563dea2fd5f6ab43b">orientation</a>, const <a class="el" href="classmaliput_1_1math_1_1_bounding_box.html">maliput::math::BoundingBox</a> &amp;<a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#a2d9c84a3a6850fedfb284cbc1cbcd04c">bounding_box</a>, bool <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#a022c1576faa3e6aa33649970ef602a67">is_dynamic</a>, std::vector&lt; <a class="el" href="namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">LaneId</a> &gt; <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#aecfd87e70076467279c0aabb6982848c">related_lanes</a>, std::optional&lt; std::string &gt; <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#a2f0fa9a4129d20c8a0f7575ad80f8464">name</a>, std::optional&lt; std::string &gt; <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#a7d6c4e5be3deb8614f67a0f3b949d4be">subtype</a>, std::vector&lt; std::unique_ptr&lt; <a class="el" href="classmaliput_1_1api_1_1objects_1_1_outline.html">Outline</a> &gt;&gt; <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#ac69805612cb0b669f6e0b6a897031a7c">outlines</a>, std::unordered_map&lt; std::string, std::string &gt; <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#ae50d054c7929832f39a2bfa0690d36af">properties</a>, bool <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#a5c57f24344c5eda470413927b0fbafaa">is_movable</a>=false)</td></tr>
-<tr class="memdesc:ac7a3aba400fc11174d4493e72cd854e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html" title="Models a static road object or piece of road furniture.">RoadObject</a>.  <a href="classmaliput_1_1api_1_1objects_1_1_road_object.html#ac7a3aba400fc11174d4493e72cd854e3">More...</a><br /></td></tr>
-<tr class="separator:ac7a3aba400fc11174d4493e72cd854e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92005c73088144e79a64b6bc1be8ba0d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#a92005c73088144e79a64b6bc1be8ba0d">RoadObject</a> (const <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#a884c5a05e493b81eb64cbcdd4f440030">Id</a> &amp;<a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#a3e9b36985fa40131c908fffb29f45c75">id</a>, <a class="el" href="namespacemaliput_1_1api_1_1objects.html#a0c5cc45890ec3206bd8887bb685527b9">RoadObjectType</a> <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#a0ee4584a2e4e8378b6b9b5b5c4fee0eb">type</a>, const <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object_position.html">RoadObjectPosition</a> &amp;<a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#aa80134a44cbe3dae2673307eac242297">position</a>, const <a class="el" href="classmaliput_1_1api_1_1_rotation.html">Rotation</a> &amp;<a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#a43eeda8d68aed73563dea2fd5f6ab43b">orientation</a>, const <a class="el" href="classmaliput_1_1math_1_1_bounding_box.html">maliput::math::BoundingBox</a> &amp;<a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#a2d9c84a3a6850fedfb284cbc1cbcd04c">bounding_box</a>, bool <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#a022c1576faa3e6aa33649970ef602a67">is_dynamic</a>, std::vector&lt; <a class="el" href="namespacemaliput_1_1api.html#ae511c23137380e1e22dd8bd24613a561">LaneId</a> &gt; <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#aecfd87e70076467279c0aabb6982848c">related_lanes</a>, std::optional&lt; std::string &gt; <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#a2f0fa9a4129d20c8a0f7575ad80f8464">name</a>, std::optional&lt; std::string &gt; <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#a7d6c4e5be3deb8614f67a0f3b949d4be">subtype</a>, std::vector&lt; std::unique_ptr&lt; <a class="el" href="classmaliput_1_1api_1_1objects_1_1_outline.html">Outline</a> &gt;&gt; <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#ac69805612cb0b669f6e0b6a897031a7c">outlines</a>, std::unordered_map&lt; std::string, std::string &gt; <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#ae50d054c7929832f39a2bfa0690d36af">properties</a>, std::vector&lt; <a class="el" href="classmaliput_1_1api_1_1objects_1_1_continuous_object.html">ContinuousObject</a> &gt; <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#aada7429e1f5c9ecb57646d8568d50e70">continuous_properties</a>={}, bool <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html#a5c57f24344c5eda470413927b0fbafaa">is_movable</a>=false)</td></tr>
+<tr class="memdesc:a92005c73088144e79a64b6bc1be8ba0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classmaliput_1_1api_1_1objects_1_1_road_object.html" title="Models a static road object or piece of road furniture.">RoadObject</a>.  <a href="classmaliput_1_1api_1_1objects_1_1_road_object.html#a92005c73088144e79a64b6bc1be8ba0d">More...</a><br /></td></tr>
+<tr class="separator:a92005c73088144e79a64b6bc1be8ba0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a884c5a05e493b81eb64cbcdd4f440030"></a>
@@ -208,8 +211,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac7a3aba400fc11174d4493e72cd854e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7a3aba400fc11174d4493e72cd854e3">&#9670;&nbsp;</a></span>RoadObject()</h2>
+<a id="a92005c73088144e79a64b6bc1be8ba0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92005c73088144e79a64b6bc1be8ba0d">&#9670;&nbsp;</a></span>RoadObject()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -286,6 +289,12 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classmaliput_1_1api_1_1objects_1_1_continuous_object.html">ContinuousObject</a> &gt;&#160;</td>
+          <td class="paramname"><em>continuous_properties</em> = <code>{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>is_movable</em> = <code>false</code>&#160;</td>
         </tr>
@@ -341,6 +350,26 @@ Protected Member Functions</h2></td></tr>
 
 <p>Returns the bounding box of this object. </p>
 <p>The bounding box is centered at the object's position with the object's orientation. If outlines are defined, they supersede the bounding box for precise geometry. The bounding box always provides a quick, coarse approximation. </p>
+
+</div>
+</div>
+<a id="aada7429e1f5c9ecb57646d8568d50e70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aada7429e1f5c9ecb57646d8568d50e70">&#9670;&nbsp;</a></span>continuous_properties()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt;<a class="el" href="classmaliput_1_1api_1_1objects_1_1_continuous_object.html">ContinuousObject</a>&gt;&amp; continuous_properties </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns continuous properties of the object. </p>
+<p>If the vector is empty, it indicates that the object does not have continuous properties. </p>
 
 </div>
 </div>

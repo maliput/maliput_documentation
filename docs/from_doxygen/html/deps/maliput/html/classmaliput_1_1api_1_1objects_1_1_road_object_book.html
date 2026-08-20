@@ -270,7 +270,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Returns all RoadObjects within a specified radius of an inertial position. </p>
 <p>This performs a spatial proximity query using the object's position in the inertial frame. Useful for perception-like queries (e.g., "what objects
-are near this vehicle?").</p>
+are near this vehicle?"). All sampled points of ContinuousObjects are considered for the proximity check.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">position</td><td>The center position for the search. </td></tr>

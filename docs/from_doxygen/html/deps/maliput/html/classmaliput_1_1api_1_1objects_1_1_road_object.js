@@ -2,8 +2,9 @@ var classmaliput_1_1api_1_1objects_1_1_road_object =
 [
     [ "Id", "classmaliput_1_1api_1_1objects_1_1_road_object.html#a884c5a05e493b81eb64cbcdd4f440030", null ],
     [ "~RoadObject", "classmaliput_1_1api_1_1objects_1_1_road_object.html#a2201c471c78cc878cd70e6c9d7120716", null ],
-    [ "RoadObject", "classmaliput_1_1api_1_1objects_1_1_road_object.html#ac7a3aba400fc11174d4493e72cd854e3", null ],
+    [ "RoadObject", "classmaliput_1_1api_1_1objects_1_1_road_object.html#a92005c73088144e79a64b6bc1be8ba0d", null ],
     [ "bounding_box", "classmaliput_1_1api_1_1objects_1_1_road_object.html#a2d9c84a3a6850fedfb284cbc1cbcd04c", null ],
+    [ "continuous_properties", "classmaliput_1_1api_1_1objects_1_1_road_object.html#aada7429e1f5c9ecb57646d8568d50e70", null ],
     [ "id", "classmaliput_1_1api_1_1objects_1_1_road_object.html#a3e9b36985fa40131c908fffb29f45c75", null ],
     [ "is_dynamic", "classmaliput_1_1api_1_1objects_1_1_road_object.html#a022c1576faa3e6aa33649970ef602a67", null ],
     [ "is_movable", "classmaliput_1_1api_1_1objects_1_1_road_object.html#a5c57f24344c5eda470413927b0fbafaa", null ],

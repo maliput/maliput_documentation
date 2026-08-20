@@ -4,7 +4,7 @@ var classmalidrive_1_1builder_1_1_road_object_builder =
       [ "kObject", "classmalidrive_1_1builder_1_1_road_object_builder.html#a3ae727773c367ac1041d72ac770a0ab1a11de01cf6422a18af800cdc262cf2f31", null ],
       [ "kSignal", "classmalidrive_1_1builder_1_1_road_object_builder.html#a3ae727773c367ac1041d72ac770a0ab1a5ed213bcecec2275973d093617143038", null ]
     ] ],
-    [ "RoadObjectBuilder", "classmalidrive_1_1builder_1_1_road_object_builder.html#a1eb7e26dc2f3dc530615d33485543e4f", null ],
-    [ "RoadObjectBuilder", "classmalidrive_1_1builder_1_1_road_object_builder.html#a5f1c4f182dab559b97c7e84326a4806c", null ],
+    [ "RoadObjectBuilder", "classmalidrive_1_1builder_1_1_road_object_builder.html#a1a136f2a28942e1ab1381921cdf54a65", null ],
+    [ "RoadObjectBuilder", "classmalidrive_1_1builder_1_1_road_object_builder.html#a9ec8976ac1868626a9cf7c1ac64258e5", null ],
     [ "operator()", "classmalidrive_1_1builder_1_1_road_object_builder.html#afe744806abf9296249922d68743bf051", null ]
 ];

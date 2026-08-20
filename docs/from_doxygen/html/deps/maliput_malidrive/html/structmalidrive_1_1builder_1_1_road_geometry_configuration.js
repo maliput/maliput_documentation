@@ -18,6 +18,7 @@ var structmalidrive_1_1builder_1_1_road_geometry_configuration =
     [ "FromStrToStandardStrictnessPolicy", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a329165b5e4b8a6e101fd7ddd35b6267e", null ],
     [ "ToStringMap", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#ad9d7e276b16ed7a92b69859f2a00eacb", null ],
     [ "build_policy", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#ae26c7c82c903835e10255b866fff75d6", null ],
+    [ "continuous_object_sampling_distance", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a3c53f0023cb3ab6e3842f7300c6bb554", null ],
     [ "id", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#aa391bb03a060289d92caf7548968b0b6", null ],
     [ "inertial_to_backend_frame_translation", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a4e2d2a2119b6d3bff5f1ed7d08c4336e", null ],
     [ "integrator_accuracy_multiplier", "structmalidrive_1_1builder_1_1_road_geometry_configuration.html#a40426cfc4ed73940cb62a90b4f84aeb0", null ],
