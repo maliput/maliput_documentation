@@ -1,5 +1,7 @@
 var files_dup =
 [
+    [ "api_interop.cc", "api__interop_8cc.html", "api__interop_8cc" ],
+    [ "api_interop.h", "api__interop_8h.html", "api__interop_8h" ],
     [ "api_py.cc", "api__py_8cc.html", "api__py_8cc" ],
     [ "api_rules_py.cc", "api__rules__py_8cc.html", "api__rules__py_8cc" ],
     [ "api_rules_py.h", "api__rules__py_8h.html", "api__rules__py_8h" ],
